@@ -1,0 +1,67 @@
+"BookID","BookName","NumOfChapters"
+1,"Genesis",50
+2,"Exodus",40
+3,"Leviticus",27
+4,"Numbers",36
+5,"Deuteronomy",34
+6,"Joshua",24
+7,"Judges",21
+8,"Ruth",4
+9,"1 Samuel",31
+10,"2 Samuel",24
+11,"1 Kings",22
+12,"2 Kings",25
+13,"1 Chronicles",29
+14,"2 Chronicles",36
+15,"Ezra",10
+16,"Nehemiah",13
+17,"Esther",10
+18,"Job",42
+19,"Psalms",150
+20,"Proverbs",31
+21,"Ecclesiastes",12
+22,"Song of Solomon",8
+23,"Isaiah",66
+24,"Jeremiah",52
+25,"Lamentations",5
+26,"Ezekiel",48
+27,"Daniel",12
+28,"Hosea",14
+29,"Joel",3
+30,"Amos",9
+31,"Obadiah",1
+32,"Jonah",4
+33,"Micah",7
+34,"Nahum",3
+35,"Habakkuk",3
+36,"Zephaniah",3
+37,"Haggai",2
+38,"Zechariah",14
+39,"Malachi",4
+40,"Matthew",28
+41,"Mark",16
+42,"Luke",24
+43,"John",21
+44,"Acts",28
+45,"Romans",16
+46,"1 Corinthians",16
+47,"2 Corinthians",13
+48,"Galatians",6
+49,"Ephesians",6
+50,"Philippians",4
+51,"Colossians",4
+52,"1 Thessalonians",5
+53,"2 Thessalonians",3
+54,"1 Timothy",6
+55,"2 Timothy",4
+56,"Titus",3
+57,"Philemon",1
+58,"Hebrews",13
+59,"James",5
+60,"1 Peter",5
+61,"2 Peter",3
+62,"1 John",5
+63,"2 John",1
+64,"3 John",1
+65,"Jude",1
+66,"Revelation",22
