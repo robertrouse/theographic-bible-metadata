@@ -62,7 +62,7 @@ PeopleRelationships - All known relationships between people listed in the KJV. 
 	--RelatedTo - Unique identifier for the related perrson corresponding to the People table.
 	--RelType - The relationship the "Primary" Person has with the "RelatedTo" person, as in: Primary->Adam, Relatedto->Cain, RelType->Father, or "Adam is Cain's Father"
 
-PeopleGroups
+PeopleGroups - Groups to which individuals belong.
 	--PersonID - Unique identifier for a person
 	--GroupName - The group to which the person belongs
 
