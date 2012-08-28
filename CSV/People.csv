@@ -1,3 +1,4 @@
+"PersonID","Name","Surname","IsProperName","Gender","BirthYear","DeathYear","BirthPlace","DeathPlace"
 "1","Aaron",,"1","M","1358 BC","1235 BC","Egypt","Mt. Hor"
 "2","Apollyon",,"1","M",,,,
 "3","Abagtha",,"1","M",,,,
@@ -115,10 +116,10 @@
 "115","Aharhel",,"1","M",,,,
 "116","Ahasbai",,"1","M",,,,
 "117","Ahasuerus",,"1","M",,,,
-"118","Ahaz",,"1","M","0763 BC","0716 BC","Jerusalem","Jerusalem"
+"118","Ahaz",,"1","M","763 BC","716 BC","Jerusalem","Jerusalem"
 "119","Ahaz",,"1","M",,,,
 "120","Ahaziah",,"1","M",,,,
-"121","Ahaziah",,"1","M","0822 BC","0844 BC","Jerusalem","Jerusalem"
+"121","Ahaziah",,"1","M","822 BC","844 BC","Jerusalem","Jerusalem"
 "122","Ahban",,"1","M",,,,
 "123","Aher",,"1","M",,,,
 "124","Ahi",,"1","M",,,,
@@ -211,7 +212,7 @@
 "211","Amasai",,"1","M",,,,
 "212","Amasai",,"1","M",,,,
 "213","Amasiah",,"1","M",,,,
-"214","Amaziah",,"1","M","0825 BC","0770 BC","Jerusalem","Jerusalem"
+"214","Amaziah",,"1","M","825 BC","770 BC","Jerusalem","Jerusalem"
 "215","Amaziah",,"1","M",,,,
 "216","Amaziah",,"1","M",,,,
 "217","Amaziah",,"1","M",,,,
@@ -233,7 +234,7 @@
 "233","Amnon",,"1","M",,,,
 "234","Amok",,"1","M",,,,
 "235","Amon",,"1","M",,,,
-"236","Amon",,"1","M","0662 BC","0640 BC","Jerusalem","Jerusalem"
+"236","Amon",,"1","M","662 BC","640 BC","Jerusalem","Jerusalem"
 "237","Amorite",,"1","M",,,,
 "238","Amos",,"1","M",,,,
 "239","Amos",,"1","M",,,,
@@ -334,7 +335,7 @@
 "334","Jesharelah",,"1","M",,,,
 "335","Asenath",,"1","F",,,,
 "336","Ashbel",,"1","M",,,,
-"337","Asher",,"1","M","Abt 1765 BC",,,
+"337","Asher",,"1","M","1765 BC",,,
 "338","Ashkenaz",,"1","M",,,,
 "339","Ashpenaz",,"1","M",,,,
 "340","Ashriel",,"1","M",,,,
@@ -372,7 +373,7 @@
 "372","Azareel",,"1","M",,,,
 "373","Azariah",,"1","M",,,,
 "374","Azariah",,"1","M",,,,
-"375","Uzziah",,"1","M","0808 BC","0742 BC","Jerusalem","Jerusalem"
+"375","Uzziah",,"1","M","808 BC","742 BC","Jerusalem","Jerusalem"
 "376","Azariah",,"1","M",,,,
 "377","Azariah",,"1","M",,,,
 "378","Azariah",,"1","M",,,,
@@ -788,7 +789,7 @@
 "788","Jehohanan",,"1","M",,,,
 "789","Jehohanan",,"1","M",,,,
 "790","Jehohanan",,"1","M",,,,
-"791","Jehoiachin",,"1","M","0616 BC",,"Jerusalem","Babylon"
+"791","Jehoiachin",,"1","M","616 BC",,"Jerusalem","Babylon"
 "792","Jehoiada",,"1","M",,,,
 "793","Jehoiada",,"1","M",,,,
 "794","Jehoiada",,"1","M",,,,
@@ -800,7 +801,7 @@
 "800","Jehonathan",,"1","M",,,,
 "801","Jehonathan",,"1","M",,,,
 "802","Jehonathan",,"1","M",,,,
-"803","Jehoram",,"1","M","0802 BC","0844 BC","Jerusalem","Jerusalem"
+"803","Jehoram",,"1","M","802 BC","844 BC","Jerusalem","Jerusalem"
 "804","Joram",,"1","M",,,,
 "805","Jehoram",,"1","M",,,,
 "806","Jehoshaphat",,"1","M",,,,
@@ -902,7 +903,7 @@
 "902","Jesimiel",,"1","M",,,,
 "903","Jesse",,"1","M",,,,
 "904","Jesus",,"1","M",,,,
-"905","Jesus","Christ","1","M","0006 BC","30","Bethlehem","Jerusalem"
+"905","Jesus","Christ","1","M","6 BC","30 AD","Bethlehem","Jerusalem"
 "906","Jether",,"1","M",,,,
 "907","Jether",,"1","M",,,,
 "908","Jether",,"1","M",,,,
@@ -970,7 +971,7 @@
 "970","Dalaiah",,"1","M",,,,
 "971","Dalphon",,"1","M",,,,
 "972","Damaris",,"1","F",,,,
-"973","Dan",,"1","M","Abt 1771 BC",,,
+"973","Dan",,"1","M","1771 BC",,,
 "974","Daniel",,"1","M",,,,
 "975","Daniel",,"1","M",,,,
 "976","Dara",,"1","M",,,,
@@ -990,7 +991,7 @@
 "991","Daughter of Sanballat",,"0","F",,,,
 "992","Daughter of Shechaniah",,"0","F",,,,
 "993","Daughter of Shuah",,"0","F",,,,
-"994","David",,"1","M","1034 BC","0965 BC",,"Jerusalem"
+"994","David",,"1","M","1034 BC","965 BC",,"Jerusalem"
 "995","Debir",,"1","M",,,,
 "996","Deborah",,"1","F",,,,
 "997","Deborah",,"1","F",,,,
@@ -1081,7 +1082,7 @@
 "1082","Eliah",,"1","M",,,,
 "1083","Eliahba",,"1","M",,,,
 "1084","Eliakim",,"1","M",,,,
-"1085","Jehoiakim",,"1","M","0634 BC","0598 BC","Jerusalem","Jerusalem"
+"1085","Jehoiakim",,"1","M","634 BC","598 BC","Jerusalem","Jerusalem"
 "1086","Eliakim",,"1","M",,,,
 "1087","Eliakim",,"1","M",,,,
 "1088","Eliakim",,"1","M",,,,
@@ -1258,7 +1259,7 @@
 "1259","Gaal",,"1","M",,,,
 "1260","Gabbai",,"1","M",,,,
 "1261","Gabriel",,"1","M",,,,
-"1262","Gad",,"1","M","Abt 1767 BC",,,
+"1262","Gad",,"1","M","1767 BC",,,
 "1263","Gad",,"1","M",,,,
 "1264","Gaddi",,"1","M",,,,
 "1265","Gaddiel",,"1","M",,,,
@@ -1403,7 +1404,7 @@
 "1404","Hanun",,"1","M",,,,
 "1405","Hanun",,"1","M",,,,
 "1406","Hanun",,"1","M",,,,
-"1407","Haran",,"1","M","Aft 1995 BC","1930 BC",,
+"1407","Haran",,"1","M","After 1995 BC","1930 BC",,
 "1408","Haran",,"1","M",,,,
 "1409","Haran",,"1","M",,,,
 "1410","Harbona",,"1","M",,,,
@@ -1508,7 +1509,7 @@
 "1509","Hesed",,"1","M",,,,
 "1510","Heth",,"1","M",,,,
 "1511","Hezeki",,"1","M",,,,
-"1512","Hezekiah",,"1","M","0741 BC","0689 BC","Jerusalem","Jerusalem"
+"1512","Hezekiah",,"1","M","741 BC","689 BC","Jerusalem","Jerusalem"
 "1513","Hezekiah",,"1","M",,,,
 "1514","Hezekiah",,"1","M",,,,
 "1515","Hezion",,"1","M",,,,
@@ -1627,7 +1628,7 @@
 "1629","Joanna",,"1","F",,,,
 "1630","Joash",,"1","M",,,,
 "1631","Joash",,"1","M",,,,
-"1632","Joash",,"1","M","0844 BC","0800 BC","Jerusalem","Jerusalem"
+"1632","Joash",,"1","M","844 BC","0800 BC","Jerusalem","Jerusalem"
 "1633","Joash",,"1","M",,,,
 "1634","Joash",,"1","M",,,,
 "1635","Joash",,"1","M",,,,
@@ -1705,12 +1706,12 @@
 "1707","Jorim",,"1","M",,,,
 "1708","Josabad",,"1","M",,,,
 "1709","Jose",,"1","M",,,,
-"1710","Joseph",,"1","M",,,,
+"1710","Joseph",,"1","M","1744 BC","1634 BC","Egypt",
 "1711","Joseph",,"1","M",,,,
 "1712","Joseph",,"1","M",,,,
 "1713","Joseph",,"1","M",,,,
 "1714","Joseph",,"1","M",,,,
-"1715","Joseph",,"1","M","1744 BC","1634 BC",,", , , Egypt"
+"1715","Joseph",,"1","M",,,,
 "1716","Joseph",,"1","M",,,,
 "1717","Joseph",,"1","M",,,,
 "1718","Joseph",,"1","M",,,,
@@ -1725,7 +1726,7 @@
 "1727","Joshua",,"1","M","1321 BC","1211 BC",,"Timnath-serah , Ephraim, Cannan"
 "1728","Joshua",,"1","M",,,,
 "1729","Joshua",,"1","M",,,,
-"1730","Josiah",,"1","M","0648 BC","0609 BC","Jerusalem","Jerusalem"
+"1730","Josiah",,"1","M","648 BC","609 BC","Jerusalem","Jerusalem"
 "1731","Josiah",,"1","M",,,,
 "1732","Josibiah",,"1","M",,,,
 "1733","Josiphiah",,"1","M",,,,
@@ -1925,7 +1926,7 @@
 "1927","Manahath",,"1","M",,,,
 "1928","Manasseh",,"1","M","1709 BC",,,
 "1929","Manasseh",,"1","M",,,,
-"1930","Manasseh",,"1","M","0677 BC","0642 BC","Jerusalem","Jerusalem"
+"1930","Manasseh",,"1","M","677 BC","642 BC","Jerusalem","Jerusalem"
 "1931","Manasseh",,"1","M",,,,
 "1932","Manasseh",,"1","M",,,,
 "1933","Manoah",,"1","M",,,,
@@ -1945,7 +1946,7 @@
 "1947","Matri",,"1","M",,,,
 "1948","Mattan",,"1","M",,,,
 "1949","Mattan",,"1","M",,,,
-"1950","Zedekiah",,"1","M","0628 BC",,"Jerusalem","Babylon"
+"1950","Zedekiah",,"1","M","628 BC",,"Jerusalem","Babylon"
 "1951","Mattaniah",,"1","M",,,,
 "1952","Mattaniah",,"1","M",,,,
 "1953","Mattaniah",,"1","M",,,,
@@ -2138,13 +2139,13 @@
 "2140","Nahath",,"1","M",,,,
 "2141","Nahbi",,"1","M",,,,
 "2142","Nahor",,"1","M","2094 BC","1946 BC",,
-"2143","Nahor",,"1","M","Bef 1995 BC",,,
+"2143","Nahor",,"1","M","Before 1995 BC",,,
 "2144","Nahshon",,"1","M",,,,
 "2145","Nahum",,"1","M",,,,
 "2146","Nahath",,"1","M",,,,
 "2147","Naomi",,"1","F",,,,
 "2148","Naphish",,"1","M",,,,
-"2149","Naphtali",,"1","M","Abt 1772 BC",,,
+"2149","Naphtali",,"1","M","1772 BC",,,
 "2150","Naphtuhim",,"1","M",,,,
 "2151","Narcissus",,"1","M",,,,
 "2152","Nathan",,"1","M",,,"Jerusalem",
@@ -2379,7 +2380,7 @@
 "2383","Rab-saris",,"1","M",,,,
 "2384","Rabshakeh",,"1","M",,,,
 "2385","Rachab",,"1","F",,,,
-"2386","Rachel",,"1","F",,,,"On the way to Bethlehem (Ephrath)"
+"2386","Rachel",,"1","F",,,,
 "2387","Raddai",,"1","M",,,,
 "2388","Rahab",,"1","F",,,,
 "2389","Raham",,"1","M",,,,
@@ -2405,7 +2406,7 @@
 "2409","Rehabiah",,"1","M",,,,
 "2410","Rehob",,"1","M",,,,
 "2411","Rehob",,"1","M",,,,
-"2412","Rehoboam",,"1","M","0966 BC","0910 BC","Jerusalem","Jerusalem"
+"2412","Rehoboam",,"1","M","966 BC","910 BC","Jerusalem","Jerusalem"
 "2413","Rehum",,"1","M",,,,
 "2414","Rehum",,"1","M",,,,
 "2415","Rehum",,"1","M",,,,
@@ -2443,7 +2444,7 @@
 "2447","Rapha",,"1","M",,,,
 "2448","Rufus",,"1","M",,,,
 "2449","Rufus",,"1","M",,,,
-"2450","Ruth",,"1","F","Bef 1115 BC",,"Moab",
+"2450","Ruth",,"1","F","Before 1115 BC",,"Moab",
 "2451","Sabtah",,"1","M",,,,
 "2452","Sabtecha",,"1","M",,,,
 "2453","Sacar",,"1","M",,,,
@@ -2563,7 +2564,7 @@
 "2567","Sheba",,"1","M",,,,
 "2568","Sheba",,"1","M",,,,
 "2569","Sheba",,"1","M",,,,
-"2570","Sheba",,"1","M",,"0975 BC",,"Abel of Beth-maacah"
+"2570","Sheba",,"1","M",,"975 BC",,"Abel of Beth-maacah"
 "2571","Sheba",,"1","M",,,,
 "2572","Shebaniah",,"1","M",,,,
 "2573","Shebaniah",,"1","M",,,,
@@ -2755,7 +2756,7 @@
 "2759","Sister of Tahpenes",,"0","F",,,,
 "2760","So",,"1","M",,,,
 "2761","Sodi",,"1","M",,,,
-"2762","Solomon",,"1","M","0989 BC","0926 BC","Jerusalem","Jerusalem"
+"2762","Solomon",,"1","M","989 BC","926 BC","Jerusalem","Jerusalem"
 "2763","son of Abinadab",,"0","M",,,,
 "2764","son of Dekar",,"0","M",,,,
 "2765","son of Geber",,"0","M",,,,
