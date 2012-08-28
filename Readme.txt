@@ -1,6 +1,6 @@
 All files Copyright 2011 Soulliberty.com
 This work is free to use and copy under a creative Commons Attribution Share-Alike 3.0 License.  See individual table information below for details on original sources and licensing permissions.
-Current version: 2.1.1 updated 5-30-2012
+Current version: 2.1.3 updated 8-27-2012
 
 Tables, fields, and descriptions:
 
