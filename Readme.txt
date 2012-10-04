@@ -15,7 +15,7 @@ Books - Standardizes all Bible book names with a given numerical ID
 	--BookName - The full name of the book
 	--NumOfChapters - The number of chapters in the book.
 
-CrossRefIndex - Compilation of cross references obtained from R.A. Torrey's Treasury of Scripture Knowledge (Public Domain) and a cross-reference table obtained from Christoph Romhild.  Duplicate cross-references have been excluded.
+CrossRefIndex - Compilation of cross references obtained from R.A. Torrey's Treasury of Scripture Knowledge (Public Domain) Duplicate cross-references have been excluded.
 	Fields:
 	--VerseID - Primary verse by ID from the Verses table.
 	--VerseRefID - Verse ID (from Verses table) to which the primary verse refers.
