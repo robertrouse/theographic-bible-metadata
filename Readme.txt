@@ -1,6 +1,6 @@
-All files Copyright 2011 Soulliberty.com
+All files Copyright 2013 Soulliberty.com
 This work is free to use and copy under a creative Commons Attribution Share-Alike 3.0 License.  See individual table information below for details on original sources and licensing permissions.
-Current version: 2.1.3 updated 8-27-2012
+Current version: 2.1.5 updated 7-6-2013
 
 Tables, fields, and descriptions:
 
@@ -20,7 +20,7 @@ CrossRefIndex - Compilation of cross references obtained from R.A. Torrey's Trea
 	--VerseID - Primary verse by ID from the Verses table.
 	--VerseRefID - Verse ID (from Verses table) to which the primary verse refers.
 
-MetaV - The main index associating the various tables in this database with individual words.  Text used: 1769 Cambridge Edition of the King James Version, also known as the Authorized Version (Public Domain)
+MainIndex - The main index associating the various tables in this database with individual words.  Text used: 1769 Cambridge Edition of the King James Version, also known as the Authorized Version (Public Domain)
 	Fields:
 	--BookID - Number corresponding to the book title in the Books table.
 	--Chapter - Chapter number in the referenced book.
@@ -40,7 +40,7 @@ MetaV - The main index associating the various tables in this database with indi
 	--YearNum - The approximate year of the event described or the time a prophecy was given.  Negative numbers are BC, positive numners are A.D.  Source: Annals of the World, James Ussher and R.A. Torrey, Treasury of Scripture Knowledge.  Public Domain.
 	--PersonID - Number corresponding to a record in the People table.
 
-People - Listing of all people in the Bible and key facts about them.  this is a mashup of data found at complete-bible-genealogy.com and www.marshallgenealogy.org/bible.  Name spelling has been updated to match the source bible text.
+People - Listing of all people in the Bible and key facts about them.  This is a mashup of data found at complete-bible-genealogy.com and www.marshallgenealogy.org/bible.  Name spelling has been updated to match the source bible text.
 	Fields:
 	--PersonID - Unique numerical value assigned to each individual.
 	--Name - The given name by which the individual is most often referred in the source text.
