@@ -135,5 +135,5 @@ Lists authors of each book of the Bible.  Where one book may have had more than 
 
 ## License
 All files Copyright 2013 Soulliberty.com
-This work is free to use and copy under a creative Commons Attribution Share-Alike 3.0 License.  See individual table information below for details on original sources and licensing permissions.
+This work is free to use and copy under a creative Commons Attribution Share-Alike 3.0 License.  See individual table information for details on original sources and licensing permissions.
 Current version: 2.1.5 updated 7-6-2013
