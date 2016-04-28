@@ -13,6 +13,9 @@ Standardizes all Bible book names with a given numerical ID
 - BookID - Numerical value 1-66 assigned to each book in canonical order.
 - BookName - The full name of the book
 - NumOfChapters - The number of chapters in the book.
+- BookDiv - Major divisions: Historical, Poetical, Gospels, Etc.
+- ShortName - Smallest possible unique book abbrevation
+- OsisName - Standard OSIS book name abbrevitaion
 
 ### CrossRefIndex
 Compilation of cross references obtained from R.A. Torrey's Treasury of Scripture Knowledge (Public Domain) Duplicate cross-references have been excluded.
@@ -40,6 +43,7 @@ The main index associating the various tables in this database with individual w
 - Syllables - The number of syllables in the word.
 - YearNum - The approximate year of the event described or the time a prophecy was given.  Negative numbers are BC, positive numners are A.D.  Source: Annals of the World, James Ussher and R.A. Torrey, Treasury of Scripture Knowledge.  Public Domain.
 - PersonID - Number corresponding to a record in the People table.
+- RunCharLen - running count of characters restarting for every SentenceID, used for readability calculations
 
 ### People
 Listing of all people in the Bible and key facts about them.  This is a mashup of data found at www.complete-bible-genealogy.com and www.marshallgenealogy.org/bible.  Name spelling has been updated to match the source bible text.
@@ -86,6 +90,15 @@ All identifiable places mentioned in the bible.  Locations may be approximate.  
 - Comment - Clarifying comments from source tables at openbible.info
 - Lat - Latitude in decimal form.
 - Lon - Longitude in decimal form.
+- PlaceMarkID - foreign key to match with the PlaceMarks table.
+
+### PlaceMarks
+Unique Latitude and Longitude from the Places Table with the most common place name as the Label.
+
+- PlaceMarkID - Unique identifier
+- Latitude - Latitude in decimal form.
+- Longitude - Longitude in decimal form.
+- Label - Most common name used in the Bible for a unique lat/long coordinate.
 
 ### Strongs
 Strong's Concordance in Hebrew and Greek.  Source: [openscriptures/strongs](https://github.com/openscriptures/strongs) License: Creative Commons Attribution-ShareAlike 3.0
@@ -111,7 +124,7 @@ Correlates topics with each verse in the KJV.
 - VerseID - The verse to which the topic refers.
 
 ### Topics
-Mashup of Nave's Topical Bible and Torrey's New Topical Textbook.  Public Domain.
+Mashup of Torrey's New Topical Textbook.  Public Domain.
 	
 - TopicID - Unique identifier for each topic.
 - Topic - The main topic heading as it appears in Nave's or Torrey's
@@ -124,6 +137,7 @@ Full text of each verse in the King James Version of the Holy Bible.
 - BookID - Number corresponding to a record in the Books table.
 - Chapter - The chapter in which the verse appears.
 - VerseNum - The verse number within the chapter.
+- OsisRef - Standardized OSIS form, Book.Chapter.Verse
 - VerseText - Full text of the verse as it appears in the KJV, 179 Canbridge Edition.
 
 ### Writers
@@ -134,6 +148,7 @@ Lists authors of each book of the Bible.  Where one book may have had more than 
 
 
 ## License
-All files Copyright 2013 Soulliberty.com
+All files Copyright 2013-2016 viz.bible
 This work is free to use and copy under a creative Commons Attribution Share-Alike 3.0 License.  See individual table information for details on original sources and licensing permissions.
-Current version: 2.1.5 updated 7-6-2013
+
+Last updated 4-28-2016.
