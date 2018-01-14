@@ -112,6 +112,7 @@ Strong's Concordance in Hebrew and Greek.  Source: [openscriptures/strongs](http
 - Language - Greek, Hebrew (heb), Aramaic "arc", or Greek Proper Noun "x-pn"
 
 ### StrongsIndex
+*DEPRECATED DUE TO MISSING DATA*
 Correlates Stong's Number(s) with individual words in the KJV.
 	
 - StrongsID - Unique ID corresponding to Strongs table.
