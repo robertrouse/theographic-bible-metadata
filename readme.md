@@ -139,7 +139,7 @@ Full text of each verse in the King James Version of the Holy Bible.
 - Chapter - The chapter in which the verse appears.
 - VerseNum - The verse number within the chapter.
 - OsisRef - Standardized OSIS form, Book.Chapter.Verse
-- VerseText - Full text of the verse as it appears in the KJV, 179 Canbridge Edition.
+- VerseText - Full text of the verse as it appears in the KJV, 1769 Cambridge Edition.
 
 ### Writers
 Lists authors of each book of the Bible.  Where one book may have had more than one writer, the primary author's name is used.
