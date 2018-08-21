@@ -1,3 +1,6 @@
+*THIS REPOSITORY IS NO LONGER ACTIVELY MAINTAINED*
+Contact robert@viz.bible to request access to the actively maintained data.
+
 ## What is MetaV?
 MetaV is the name given to the underlying database used to build the visual Bible explorer and several other infographics. It links together details on people, places, periods of time, and passages in the Bible at word-level detail. This database is specially structured to simplify complex big picture analysis or visualizing biblical information.
 
