@@ -13,7 +13,7 @@
                 "recs0PQO7uvtT2wvn"
             ],
             "eventGroup": "Ascension",
-            "startYear": [
+            "years": [
                 "recnhTULX6k8TJVz0"
             ],
             "sequence": 1,
@@ -32,7 +32,8 @@
             "slug": "ascension",
             "yearGroup": [
                 "33"
-            ]
+            ],
+            "startYear": 33
         },
         "createdTime": "2018-07-29T20:00:29.000Z"
     },
@@ -56,7 +57,7 @@
                 "rec2vQod478e84GvI"
             ],
             "eventGroup": "Ascension",
-            "startYear": [
+            "years": [
                 "recnhTULX6k8TJVz0"
             ],
             "sequence": 2,
@@ -75,7 +76,8 @@
             "slug": "ascension",
             "yearGroup": [
                 "33"
-            ]
+            ],
+            "startYear": 33
         },
         "createdTime": "2018-07-29T20:01:07.000Z"
     },
@@ -120,7 +122,7 @@
                 "recKvnVYgKb1MJsWo"
             ],
             "eventGroup": "Ascension",
-            "startYear": [
+            "years": [
                 "recnhTULX6k8TJVz0"
             ],
             "sequence": 3,
@@ -140,7 +142,8 @@
             "slug": "ascension",
             "yearGroup": [
                 "33"
-            ]
+            ],
+            "startYear": 33
         },
         "createdTime": "2018-07-29T20:01:44.000Z"
     },
@@ -171,7 +174,7 @@
                 "recnOI5xVGeSKvOs5"
             ],
             "eventGroup": "Pentecost/Church Founded",
-            "startYear": [
+            "years": [
                 "recnhTULX6k8TJVz0"
             ],
             "sequence": 4,
@@ -190,7 +193,8 @@
             "slug": "pentecost_church_founded",
             "yearGroup": [
                 "33"
-            ]
+            ],
+            "startYear": 33
         },
         "createdTime": "2018-07-29T20:09:54.000Z"
     },
@@ -235,7 +239,7 @@
                 "recqxItomsWv8tvXs"
             ],
             "eventGroup": "Pentecost/Church Founded",
-            "startYear": [
+            "years": [
                 "recnhTULX6k8TJVz0"
             ],
             "sequence": 5,
@@ -251,7 +255,8 @@
             "slug": "pentecost_church_founded",
             "yearGroup": [
                 "33"
-            ]
+            ],
+            "startYear": 33
         },
         "createdTime": "2018-07-29T20:11:53.000Z"
     },
@@ -271,7 +276,7 @@
                 "recHjAh7CaC3oh7Ay"
             ],
             "eventGroup": "Pentecost/Church Founded",
-            "startYear": [
+            "years": [
                 "recnhTULX6k8TJVz0"
             ],
             "sequence": 6,
@@ -285,7 +290,8 @@
             "slug": "pentecost_church_founded",
             "yearGroup": [
                 "33"
-            ]
+            ],
+            "startYear": 33
         },
         "createdTime": "2018-07-29T20:13:18.000Z"
     },
@@ -313,7 +319,7 @@
                 "recfdVh3ftmIzYvJf"
             ],
             "eventGroup": "Pentecost/Church Founded",
-            "startYear": [
+            "years": [
                 "recnhTULX6k8TJVz0"
             ],
             "sequence": 7,
@@ -327,7 +333,8 @@
             "slug": "pentecost_church_founded",
             "yearGroup": [
                 "33"
-            ]
+            ],
+            "startYear": 33
         },
         "createdTime": "2018-07-29T20:14:06.000Z"
     },
@@ -360,7 +367,7 @@
                 "recYOeitq1QxiF2N5"
             ],
             "eventGroup": "Pentecost/Church Founded",
-            "startYear": [
+            "years": [
                 "recnhTULX6k8TJVz0"
             ],
             "sequence": 8,
@@ -374,7 +381,8 @@
             "slug": "pentecost_church_founded",
             "yearGroup": [
                 "33"
-            ]
+            ],
+            "startYear": 33
         },
         "createdTime": "2018-07-29T20:15:20.000Z"
     },
@@ -419,7 +427,7 @@
                 "recX2zzPjZAV231H9"
             ],
             "eventGroup": "Pentecost/Church Founded",
-            "startYear": [
+            "years": [
                 "recnhTULX6k8TJVz0"
             ],
             "sequence": 9,
@@ -433,7 +441,8 @@
             "slug": "pentecost_church_founded",
             "yearGroup": [
                 "33"
-            ]
+            ],
+            "startYear": 33
         },
         "createdTime": "2018-07-29T20:21:39.000Z"
     },
@@ -460,7 +469,7 @@
                 "recRfTZyKl9wMxM3w"
             ],
             "eventGroup": "Pentecost/Church Founded",
-            "startYear": [
+            "years": [
                 "recnhTULX6k8TJVz0"
             ],
             "sequence": 10,
@@ -474,7 +483,8 @@
             "slug": "pentecost_church_founded",
             "yearGroup": [
                 "33"
-            ]
+            ],
+            "startYear": 33
         },
         "createdTime": "2018-07-29T20:24:47.000Z"
     },
@@ -497,7 +507,7 @@
                 "reciVUY1vbt1Kl9DP"
             ],
             "eventGroup": "Pentecost/Church Founded",
-            "startYear": [
+            "years": [
                 "recnhTULX6k8TJVz0"
             ],
             "sequence": 11,
@@ -511,7 +521,8 @@
             "slug": "pentecost_church_founded",
             "yearGroup": [
                 "33"
-            ]
+            ],
+            "startYear": 33
         },
         "createdTime": "2018-07-29T20:26:12.000Z"
     },
@@ -544,7 +555,7 @@
                 "recfaVIXlLM6KkNBx"
             ],
             "eventGroup": "Pentecost/Church Founded",
-            "startYear": [
+            "years": [
                 "recnhTULX6k8TJVz0"
             ],
             "sequence": 12,
@@ -558,7 +569,8 @@
             "slug": "pentecost_church_founded",
             "yearGroup": [
                 "33"
-            ]
+            ],
+            "startYear": 33
         },
         "createdTime": "2018-07-29T20:37:58.000Z"
     },
@@ -581,7 +593,7 @@
                 "recTBhf94njIGNiFN"
             ],
             "eventGroup": "Pentecost/Church Founded",
-            "startYear": [
+            "years": [
                 "recnhTULX6k8TJVz0"
             ],
             "sequence": 13,
@@ -598,7 +610,8 @@
             "slug": "pentecost_church_founded",
             "yearGroup": [
                 "33"
-            ]
+            ],
+            "startYear": 33
         },
         "createdTime": "2018-07-29T20:39:46.000Z"
     },
@@ -631,7 +644,7 @@
                 "reciFTXKOnQMwN8zf"
             ],
             "eventGroup": "Persecution/First Martyr",
-            "startYear": [
+            "years": [
                 "recnhTULX6k8TJVz0"
             ],
             "sequence": 14,
@@ -648,7 +661,8 @@
             "slug": "persecution_first_martyr",
             "yearGroup": [
                 "33"
-            ]
+            ],
+            "startYear": 33
         },
         "createdTime": "2018-07-29T20:41:51.000Z"
     },
@@ -674,7 +688,7 @@
                 "recmn3mTPRvGyFJv2"
             ],
             "eventGroup": "Persecution/First Martyr",
-            "startYear": [
+            "years": [
                 "recnhTULX6k8TJVz0"
             ],
             "sequence": 15,
@@ -691,7 +705,8 @@
             "slug": "persecution_first_martyr",
             "yearGroup": [
                 "33"
-            ]
+            ],
+            "startYear": 33
         },
         "createdTime": "2018-07-29T20:43:16.000Z"
     },
@@ -722,7 +737,7 @@
                 "recN8YJ97dNVFADMN"
             ],
             "eventGroup": "Persecution/First Martyr",
-            "startYear": [
+            "years": [
                 "recnhTULX6k8TJVz0"
             ],
             "sequence": 16,
@@ -739,7 +754,8 @@
             "slug": "persecution_first_martyr",
             "yearGroup": [
                 "33"
-            ]
+            ],
+            "startYear": 33
         },
         "createdTime": "2018-07-29T20:46:40.000Z"
     },
@@ -764,7 +780,7 @@
                 "recx08cwTYqzsvAiV"
             ],
             "eventGroup": "Persecution/First Martyr",
-            "startYear": [
+            "years": [
                 "recnhTULX6k8TJVz0"
             ],
             "sequence": 17,
@@ -778,7 +794,8 @@
             "slug": "persecution_first_martyr",
             "yearGroup": [
                 "33"
-            ]
+            ],
+            "startYear": 33
         },
         "createdTime": "2018-07-29T20:47:15.000Z"
     },
@@ -848,7 +865,7 @@
                 "recrW905rz2oy2Nr5"
             ],
             "eventGroup": "Persecution/First Martyr",
-            "startYear": [
+            "years": [
                 "recnhTULX6k8TJVz0"
             ],
             "sequence": 18,
@@ -862,7 +879,8 @@
             "slug": "persecution_first_martyr",
             "yearGroup": [
                 "33"
-            ]
+            ],
+            "startYear": 33
         },
         "createdTime": "2018-07-29T20:48:20.000Z"
     },
@@ -887,7 +905,7 @@
                 "recDDZopTD88rX0QG"
             ],
             "eventGroup": "Persecution/First Martyr",
-            "startYear": [
+            "years": [
                 "recnhTULX6k8TJVz0"
             ],
             "sequence": 19,
@@ -901,7 +919,8 @@
             "slug": "persecution_first_martyr",
             "yearGroup": [
                 "33"
-            ]
+            ],
+            "startYear": 33
         },
         "createdTime": "2018-07-29T20:49:06.000Z"
     },
@@ -922,7 +941,7 @@
                 "recQyf2tgf6o0QdAp"
             ],
             "eventGroup": "Persecution/First Martyr",
-            "startYear": [
+            "years": [
                 "rec8vplYJohoqM6Lh"
             ],
             "sequence": 1,
@@ -936,7 +955,8 @@
             "slug": "persecution_first_martyr",
             "yearGroup": [
                 "34"
-            ]
+            ],
+            "startYear": 34
         },
         "createdTime": "2018-08-17T19:10:52.000Z"
     },
@@ -979,7 +999,7 @@
                 "rec99qar0FxU3qCFq"
             ],
             "eventGroup": "Persecution/First Martyr",
-            "startYear": [
+            "years": [
                 "rec8vplYJohoqM6Lh"
             ],
             "sequence": 2,
@@ -993,7 +1013,8 @@
             "slug": "persecution_first_martyr",
             "yearGroup": [
                 "34"
-            ]
+            ],
+            "startYear": 34
         },
         "createdTime": "2018-08-17T19:11:36.000Z"
     },
@@ -1027,7 +1048,7 @@
                 "rec97CG5cAO1B4ASN"
             ],
             "eventGroup": "Persecution/First Martyr",
-            "startYear": [
+            "years": [
                 "rec8vplYJohoqM6Lh"
             ],
             "sequence": 3,
@@ -1041,7 +1062,8 @@
             "slug": "persecution_first_martyr",
             "yearGroup": [
                 "34"
-            ]
+            ],
+            "startYear": 34
         },
         "createdTime": "2018-08-17T19:13:27.000Z"
     },
@@ -1079,7 +1101,7 @@
                 "recxVZGwtkyHqcqxM"
             ],
             "eventGroup": "Saul Converted",
-            "startYear": [
+            "years": [
                 "recCuryzpYveoNUmS"
             ],
             "sequence": 1,
@@ -1094,7 +1116,8 @@
             "slug": "saul_converted",
             "yearGroup": [
                 "35"
-            ]
+            ],
+            "startYear": 35
         },
         "createdTime": "2018-08-17T19:14:05.000Z"
     },
@@ -1125,7 +1148,7 @@
                 "recmb6HVdRGm54Al5"
             ],
             "eventGroup": "Saul Converted",
-            "startYear": [
+            "years": [
                 "recCuryzpYveoNUmS"
             ],
             "sequence": 2,
@@ -1142,7 +1165,8 @@
             "slug": "saul_converted",
             "yearGroup": [
                 "35"
-            ]
+            ],
+            "startYear": 35
         },
         "createdTime": "2018-08-17T19:17:00.000Z"
     },
@@ -1174,7 +1198,7 @@
                 "recEbY9Z0VcpGCIOq"
             ],
             "eventGroup": "Peter and Cornelius",
-            "startYear": [
+            "years": [
                 "rec8bL3AuuNQ9zBDr"
             ],
             "sequence": 1,
@@ -1190,7 +1214,8 @@
             "slug": "peter_and_cornelius",
             "yearGroup": [
                 "41"
-            ]
+            ],
+            "startYear": 41
         },
         "createdTime": "2018-08-17T19:18:28.000Z"
     },
@@ -1243,7 +1268,7 @@
                 "recNmPhTw89PaQEcw"
             ],
             "eventGroup": "Peter and Cornelius",
-            "startYear": [
+            "years": [
                 "rec8bL3AuuNQ9zBDr"
             ],
             "sequence": 2,
@@ -1258,7 +1283,8 @@
             "slug": "peter_and_cornelius",
             "yearGroup": [
                 "41"
-            ]
+            ],
+            "startYear": 41
         },
         "createdTime": "2018-08-17T19:19:48.000Z"
     },
@@ -1291,7 +1317,7 @@
                 "recMZPRMVete00G0b"
             ],
             "eventGroup": "Peter and Cornelius",
-            "startYear": [
+            "years": [
                 "rec8bL3AuuNQ9zBDr"
             ],
             "sequence": 3,
@@ -1305,7 +1331,8 @@
             "slug": "peter_and_cornelius",
             "yearGroup": [
                 "41"
-            ]
+            ],
+            "startYear": 41
         },
         "createdTime": "2018-08-17T19:21:40.000Z"
     },
@@ -1340,7 +1367,7 @@
                 "reczaI7kLgW08GszF"
             ],
             "eventGroup": "Peter and Cornelius",
-            "startYear": [
+            "years": [
                 "rec8bL3AuuNQ9zBDr"
             ],
             "sequence": 4,
@@ -1354,7 +1381,8 @@
             "slug": "peter_and_cornelius",
             "yearGroup": [
                 "41"
-            ]
+            ],
+            "startYear": 41
         },
         "createdTime": "2018-08-17T19:29:01.000Z"
     },
@@ -1385,7 +1413,7 @@
                 "recd2iqtrnAzRROAv"
             ],
             "eventGroup": "Church founded at Antioch",
-            "startYear": [
+            "years": [
                 "rec8bL3AuuNQ9zBDr"
             ],
             "sequence": 5,
@@ -1399,7 +1427,8 @@
             "slug": "church_founded_at_antioch",
             "yearGroup": [
                 "41"
-            ]
+            ],
+            "startYear": 41
         },
         "createdTime": "2018-08-17T19:31:11.000Z"
     },
@@ -1419,7 +1448,7 @@
                 "rec4uCVVgRcymP6y7"
             ],
             "eventGroup": "Herod's persecution of James and Peter",
-            "startYear": [
+            "years": [
                 "recGmtYjIpekrXNZf"
             ],
             "sequence": 1,
@@ -1433,7 +1462,8 @@
             "slug": "herods_persecution_of_james_and_peter",
             "yearGroup": [
                 "43"
-            ]
+            ],
+            "startYear": 43
         },
         "createdTime": "2018-08-17T19:32:07.000Z"
     },
@@ -1454,7 +1484,7 @@
                 "recRBO7FY2PSeOiUg"
             ],
             "eventGroup": "Herod's persecution of James and Peter",
-            "startYear": [
+            "years": [
                 "recGmtYjIpekrXNZf"
             ],
             "sequence": 2,
@@ -1468,7 +1498,8 @@
             "slug": "herods_persecution_of_james_and_peter",
             "yearGroup": [
                 "43"
-            ]
+            ],
+            "startYear": 43
         },
         "createdTime": "2018-08-17T19:32:20.000Z"
     },
@@ -1503,7 +1534,7 @@
                 "recjADe4lp6zuRM3s"
             ],
             "eventGroup": "Herod's persecution of James and Peter",
-            "startYear": [
+            "years": [
                 "recGmtYjIpekrXNZf"
             ],
             "sequence": 3,
@@ -1517,7 +1548,8 @@
             "slug": "herods_persecution_of_james_and_peter",
             "yearGroup": [
                 "43"
-            ]
+            ],
+            "startYear": 43
         },
         "createdTime": "2018-08-17T19:33:21.000Z"
     },
@@ -1538,7 +1570,7 @@
                 "recoKePsPulA6JwL9"
             ],
             "eventGroup": "Herod's persecution of James and Peter",
-            "startYear": [
+            "years": [
                 "recGmtYjIpekrXNZf"
             ],
             "sequence": 4,
@@ -1552,7 +1584,8 @@
             "slug": "herods_persecution_of_james_and_peter",
             "yearGroup": [
                 "43"
-            ]
+            ],
+            "startYear": 43
         },
         "createdTime": "2018-08-17T19:34:15.000Z"
     },
@@ -1580,7 +1613,7 @@
                 "recY88IFipSDXRPHt"
             ],
             "eventGroup": "First Missionary Journey",
-            "startYear": [
+            "years": [
                 "recCMDVoNBWoCZ5mZ"
             ],
             "sequence": 1,
@@ -1595,7 +1628,8 @@
             "slug": "first_missionary_journey",
             "yearGroup": [
                 "48"
-            ]
+            ],
+            "startYear": 48
         },
         "createdTime": "2018-08-17T19:35:14.000Z"
     },
@@ -1625,7 +1659,7 @@
                 "recakplNYsJ3XkbnR"
             ],
             "eventGroup": "First Missionary Journey",
-            "startYear": [
+            "years": [
                 "recCMDVoNBWoCZ5mZ"
             ],
             "sequence": 2,
@@ -1643,7 +1677,8 @@
             "slug": "first_missionary_journey",
             "yearGroup": [
                 "48"
-            ]
+            ],
+            "startYear": 48
         },
         "createdTime": "2018-08-17T19:36:00.000Z"
     },
@@ -1702,7 +1737,7 @@
                 "recSXkor66EGtxnTm"
             ],
             "eventGroup": "First Missionary Journey",
-            "startYear": [
+            "years": [
                 "recCMDVoNBWoCZ5mZ"
             ],
             "sequence": 3,
@@ -1723,7 +1758,8 @@
             "slug": "first_missionary_journey",
             "yearGroup": [
                 "48"
-            ]
+            ],
+            "startYear": 48
         },
         "createdTime": "2018-08-17T19:47:18.000Z"
     },
@@ -1746,7 +1782,7 @@
                 "reciKRIZ6QIkDiBwy"
             ],
             "eventGroup": "First Missionary Journey",
-            "startYear": [
+            "years": [
                 "reca2AmXo0bMJWIoP"
             ],
             "sequence": 1,
@@ -1762,7 +1798,8 @@
             "slug": "first_missionary_journey",
             "yearGroup": [
                 "49"
-            ]
+            ],
+            "startYear": 49
         },
         "createdTime": "2018-08-17T19:49:01.000Z"
     },
@@ -1795,7 +1832,7 @@
                 "recOEV10qBs9S0NZ7"
             ],
             "eventGroup": "First Missionary Journey",
-            "startYear": [
+            "years": [
                 "reca2AmXo0bMJWIoP"
             ],
             "sequence": 2,
@@ -1812,7 +1849,8 @@
             "slug": "first_missionary_journey",
             "yearGroup": [
                 "49"
-            ]
+            ],
+            "startYear": 49
         },
         "createdTime": "2018-08-17T19:50:03.000Z"
     },
@@ -1838,7 +1876,7 @@
                 "recR5cw43K7wMviXn"
             ],
             "eventGroup": "First Missionary Journey",
-            "startYear": [
+            "years": [
                 "reca2AmXo0bMJWIoP"
             ],
             "sequence": 3,
@@ -1860,7 +1898,8 @@
             "slug": "first_missionary_journey",
             "yearGroup": [
                 "49"
-            ]
+            ],
+            "startYear": 49
         },
         "createdTime": "2018-08-17T19:52:01.000Z"
     },
@@ -1872,7 +1911,7 @@
                 "recgkzNX07a7kGFYL"
             ],
             "eventGroup": "First Missionary Journey",
-            "startYear": [
+            "years": [
                 "reca2AmXo0bMJWIoP"
             ],
             "sequence": 4,
@@ -1884,7 +1923,8 @@
             "slug": "first_missionary_journey",
             "yearGroup": [
                 "49"
-            ]
+            ],
+            "startYear": 49
         },
         "createdTime": "2018-09-22T19:38:12.000Z"
     },
@@ -1940,7 +1980,7 @@
                 "recWPq2wrx2fhiGKp"
             ],
             "eventGroup": "Second Missionary Journey",
-            "startYear": [
+            "years": [
                 "reca2AmXo0bMJWIoP"
             ],
             "sequence": 5,
@@ -1957,7 +1997,8 @@
             "slug": "second_missionary_journey",
             "yearGroup": [
                 "49"
-            ]
+            ],
+            "startYear": 49
         },
         "createdTime": "2018-08-17T20:01:34.000Z"
     },
@@ -1981,7 +2022,7 @@
                 "recXFi5gfBuHBckS5"
             ],
             "eventGroup": "Second Missionary Journey",
-            "startYear": [
+            "years": [
                 "reca2AmXo0bMJWIoP"
             ],
             "sequence": 6,
@@ -1996,7 +2037,8 @@
             "slug": "second_missionary_journey",
             "yearGroup": [
                 "49"
-            ]
+            ],
+            "startYear": 49
         },
         "createdTime": "2018-08-17T20:03:03.000Z"
     },
@@ -2016,7 +2058,7 @@
                 "recaOa6qxGqKDNBNU"
             ],
             "eventGroup": "Second Missionary Journey",
-            "startYear": [
+            "years": [
                 "recjz0yynf7rcdlXV"
             ],
             "sequence": 1,
@@ -2034,7 +2076,8 @@
             "slug": "second_missionary_journey",
             "yearGroup": [
                 "50"
-            ]
+            ],
+            "startYear": 50
         },
         "createdTime": "2018-08-17T20:05:03.000Z"
     },
@@ -2058,7 +2101,7 @@
                 "reca7KeR6tk4WouHT"
             ],
             "eventGroup": "Second Missionary Journey",
-            "startYear": [
+            "years": [
                 "recjz0yynf7rcdlXV"
             ],
             "sequence": 2,
@@ -2075,7 +2118,8 @@
             "slug": "second_missionary_journey",
             "yearGroup": [
                 "50"
-            ]
+            ],
+            "startYear": 50
         },
         "createdTime": "2018-08-17T20:06:01.000Z"
     },
@@ -2098,7 +2142,7 @@
                 "recHDvgAdezwabOcq"
             ],
             "eventGroup": "Second Missionary Journey",
-            "startYear": [
+            "years": [
                 "recjz0yynf7rcdlXV"
             ],
             "sequence": 3,
@@ -2118,7 +2162,8 @@
             "slug": "second_missionary_journey",
             "yearGroup": [
                 "50"
-            ]
+            ],
+            "startYear": 50
         },
         "createdTime": "2018-08-17T20:07:54.000Z"
     },
@@ -2142,7 +2187,7 @@
                 "recfMBBBVjF0Z7NcK"
             ],
             "eventGroup": "Second Missionary Journey",
-            "startYear": [
+            "years": [
                 "recjz0yynf7rcdlXV"
             ],
             "sequence": 4,
@@ -2162,7 +2207,8 @@
             "slug": "second_missionary_journey",
             "yearGroup": [
                 "50"
-            ]
+            ],
+            "startYear": 50
         },
         "createdTime": "2018-08-17T20:08:58.000Z"
     },
@@ -2186,7 +2232,7 @@
                 "recdYThyr2aTNLSmW"
             ],
             "eventGroup": "Second Missionary Journey",
-            "startYear": [
+            "years": [
                 "recjz0yynf7rcdlXV"
             ],
             "sequence": 5,
@@ -2200,7 +2246,8 @@
             "slug": "second_missionary_journey",
             "yearGroup": [
                 "50"
-            ]
+            ],
+            "startYear": 50
         },
         "createdTime": "2018-08-17T20:11:09.000Z"
     },
@@ -2223,7 +2270,7 @@
                 "recVHYHtSkvKZFn2D"
             ],
             "eventGroup": "Second Missionary Journey",
-            "startYear": [
+            "years": [
                 "recjz0yynf7rcdlXV"
             ],
             "sequence": 6,
@@ -2237,7 +2284,8 @@
             "slug": "second_missionary_journey",
             "yearGroup": [
                 "50"
-            ]
+            ],
+            "startYear": 50
         },
         "createdTime": "2018-08-17T20:14:13.000Z"
     },
@@ -2261,7 +2309,7 @@
                 "rechPPJ8WXsVx77ZL"
             ],
             "eventGroup": "Second Missionary Journey",
-            "startYear": [
+            "years": [
                 "recjz0yynf7rcdlXV"
             ],
             "sequence": 7,
@@ -2275,7 +2323,8 @@
             "slug": "second_missionary_journey",
             "yearGroup": [
                 "50"
-            ]
+            ],
+            "startYear": 50
         },
         "createdTime": "2018-08-17T20:14:37.000Z"
     },
@@ -2303,7 +2352,7 @@
                 "reclkJNISdKCuhhty"
             ],
             "eventGroup": "Second Missionary Journey",
-            "startYear": [
+            "years": [
                 "recjz0yynf7rcdlXV"
             ],
             "sequence": 8,
@@ -2317,7 +2366,8 @@
             "slug": "second_missionary_journey",
             "yearGroup": [
                 "50"
-            ]
+            ],
+            "startYear": 50
         },
         "createdTime": "2018-08-17T20:15:30.000Z"
     },
@@ -2342,7 +2392,7 @@
                 "rec9ilyjyGtlQbPzx"
             ],
             "eventGroup": "Second Missionary Journey",
-            "startYear": [
+            "years": [
                 "recjz0yynf7rcdlXV"
             ],
             "sequence": 9,
@@ -2356,7 +2406,8 @@
             "slug": "second_missionary_journey",
             "yearGroup": [
                 "50"
-            ]
+            ],
+            "startYear": 50
         },
         "createdTime": "2018-08-17T20:16:06.000Z"
     },
@@ -2384,7 +2435,7 @@
                 "recwYShm1qBbHkIKN"
             ],
             "eventGroup": "Second Missionary Journey",
-            "startYear": [
+            "years": [
                 "recjz0yynf7rcdlXV"
             ],
             "sequence": 10,
@@ -2400,7 +2451,8 @@
             "slug": "second_missionary_journey",
             "yearGroup": [
                 "50"
-            ]
+            ],
+            "startYear": 50
         },
         "createdTime": "2018-08-17T20:34:38.000Z"
     },
@@ -2425,7 +2477,7 @@
                 "rec8MHerL8mcnNaM0"
             ],
             "eventGroup": "Second Missionary Journey",
-            "startYear": [
+            "years": [
                 "reczWDEgXD69urVJe"
             ],
             "sequence": 1,
@@ -2441,7 +2493,8 @@
             "slug": "second_missionary_journey",
             "yearGroup": [
                 "51"
-            ]
+            ],
+            "startYear": 51
         },
         "createdTime": "2018-08-17T20:35:16.000Z"
     },
@@ -2479,7 +2532,7 @@
                 "recbHM9uR4ghpUG7s"
             ],
             "eventGroup": "Second Missionary Journey",
-            "startYear": [
+            "years": [
                 "reczWDEgXD69urVJe"
             ],
             "sequence": 2,
@@ -2495,7 +2548,8 @@
             "slug": "second_missionary_journey",
             "yearGroup": [
                 "51"
-            ]
+            ],
+            "startYear": 51
         },
         "createdTime": "2018-08-17T20:36:53.000Z"
     },
@@ -2537,7 +2591,7 @@
                 "recziZbnk3VsIycet"
             ],
             "eventGroup": "Second Missionary Journey",
-            "startYear": [
+            "years": [
                 "reczWDEgXD69urVJe"
             ],
             "sequence": 3,
@@ -2554,7 +2608,8 @@
             "slug": "second_missionary_journey",
             "yearGroup": [
                 "51"
-            ]
+            ],
+            "startYear": 51
         },
         "createdTime": "2018-08-17T20:37:40.000Z"
     },
@@ -2579,7 +2634,7 @@
                 "recHo4VqS6Y5ssUct"
             ],
             "eventGroup": "Second Missionary Journey",
-            "startYear": [
+            "years": [
                 "rec0xzY1JhmtG9h9W"
             ],
             "sequence": 1,
@@ -2601,7 +2656,8 @@
             "slug": "second_missionary_journey",
             "yearGroup": [
                 "52"
-            ]
+            ],
+            "startYear": 52
         },
         "createdTime": "2018-08-17T20:38:21.000Z"
     },
@@ -2625,7 +2681,7 @@
                 "recZfKlGsRyFQZfPY"
             ],
             "eventGroup": "Third Missionary Journey",
-            "startYear": [
+            "years": [
                 "recROgh4oBh2IxtfI"
             ],
             "sequence": 1,
@@ -2642,7 +2698,8 @@
             "slug": "third_missionary_journey",
             "yearGroup": [
                 "53"
-            ]
+            ],
+            "startYear": 53
         },
         "createdTime": "2018-08-17T20:39:17.000Z"
     },
@@ -2685,7 +2742,7 @@
                 "rec5IApHnPQHLxg9h"
             ],
             "eventGroup": "Third Missionary Journey",
-            "startYear": [
+            "years": [
                 "recROgh4oBh2IxtfI"
             ],
             "sequence": 2,
@@ -2702,7 +2759,8 @@
             "slug": "third_missionary_journey",
             "yearGroup": [
                 "53"
-            ]
+            ],
+            "startYear": 53
         },
         "createdTime": "2018-08-17T20:43:49.000Z"
     },
@@ -2742,7 +2800,7 @@
                 "recW7vAXRhoAeEzHk"
             ],
             "eventGroup": "Third Missionary Journey",
-            "startYear": [
+            "years": [
                 "rec51pkZxX5R68gKh"
             ],
             "sequence": 1,
@@ -2758,7 +2816,8 @@
             "slug": "third_missionary_journey",
             "yearGroup": [
                 "56"
-            ]
+            ],
+            "startYear": 56
         },
         "createdTime": "2018-08-17T20:47:04.000Z"
     },
@@ -2783,7 +2842,7 @@
                 "recPw65jN4dXuLbcW"
             ],
             "eventGroup": "Third Missionary Journey",
-            "startYear": [
+            "years": [
                 "recvOFi9OkrgM1IAO"
             ],
             "sequence": 2,
@@ -2799,7 +2858,8 @@
             "slug": "third_missionary_journey",
             "yearGroup": [
                 "57"
-            ]
+            ],
+            "startYear": 57
         },
         "createdTime": "2018-08-17T20:49:21.000Z"
     },
@@ -2821,7 +2881,7 @@
                 "rec9QF9UZ901OZwCB"
             ],
             "eventGroup": "Third Missionary Journey",
-            "startYear": [
+            "years": [
                 "recvOFi9OkrgM1IAO"
             ],
             "sequence": 3,
@@ -2843,7 +2903,8 @@
             "slug": "third_missionary_journey",
             "yearGroup": [
                 "57"
-            ]
+            ],
+            "startYear": 57
         },
         "createdTime": "2018-08-17T20:50:19.000Z"
     },
@@ -2883,7 +2944,7 @@
                 "rechmb7iR7kBtwNFp"
             ],
             "eventGroup": "Third Missionary Journey",
-            "startYear": [
+            "years": [
                 "recvOFi9OkrgM1IAO"
             ],
             "sequence": 4,
@@ -2899,7 +2960,8 @@
             "slug": "third_missionary_journey",
             "yearGroup": [
                 "57"
-            ]
+            ],
+            "startYear": 57
         },
         "createdTime": "2018-08-17T20:50:55.000Z"
     },
@@ -2937,7 +2999,7 @@
                 "recU737OUv7ZU3UNH"
             ],
             "eventGroup": "Third Missionary Journey",
-            "startYear": [
+            "years": [
                 "recvOFi9OkrgM1IAO"
             ],
             "sequence": 5,
@@ -2963,7 +3025,8 @@
             "slug": "third_missionary_journey",
             "yearGroup": [
                 "57"
-            ]
+            ],
+            "startYear": 57
         },
         "createdTime": "2018-08-17T21:02:52.000Z"
     },
@@ -2991,7 +3054,7 @@
                 "recXPk3FvcFApEkQM"
             ],
             "eventGroup": "Paul Arrested and Imprisoned",
-            "startYear": [
+            "years": [
                 "recvOFi9OkrgM1IAO"
             ],
             "sequence": 6,
@@ -3005,7 +3068,8 @@
             "slug": "paul_arrested_and_imprisoned",
             "yearGroup": [
                 "57"
-            ]
+            ],
+            "startYear": 57
         },
         "createdTime": "2018-08-17T21:06:07.000Z"
     },
@@ -3033,7 +3097,7 @@
                 "recjqQXhfYwSRL9Ic"
             ],
             "eventGroup": "Paul Arrested and Imprisoned",
-            "startYear": [
+            "years": [
                 "recvOFi9OkrgM1IAO"
             ],
             "sequence": 7,
@@ -3047,7 +3111,8 @@
             "slug": "paul_arrested_and_imprisoned",
             "yearGroup": [
                 "57"
-            ]
+            ],
+            "startYear": 57
         },
         "createdTime": "2018-08-17T21:06:35.000Z"
     },
@@ -3097,7 +3162,7 @@
                 "recf0xIKu4uRhQEaK"
             ],
             "eventGroup": "Paul Arrested and Imprisoned",
-            "startYear": [
+            "years": [
                 "recvOFi9OkrgM1IAO"
             ],
             "sequence": 8,
@@ -3111,7 +3176,8 @@
             "slug": "paul_arrested_and_imprisoned",
             "yearGroup": [
                 "57"
-            ]
+            ],
+            "startYear": 57
         },
         "createdTime": "2018-08-17T21:07:25.000Z"
     },
@@ -3141,7 +3207,7 @@
                 "rec3jxajRUHoWctAj"
             ],
             "eventGroup": "Paul Arrested and Imprisoned",
-            "startYear": [
+            "years": [
                 "recvOFi9OkrgM1IAO"
             ],
             "sequence": 9,
@@ -3155,7 +3221,8 @@
             "slug": "paul_arrested_and_imprisoned",
             "yearGroup": [
                 "57"
-            ]
+            ],
+            "startYear": 57
         },
         "createdTime": "2018-08-17T21:09:24.000Z"
     },
@@ -3183,7 +3250,7 @@
                 "recpdZ2OSLbq0KPqJ"
             ],
             "eventGroup": "Paul Arrested and Imprisoned",
-            "startYear": [
+            "years": [
                 "recvOFi9OkrgM1IAO"
             ],
             "sequence": 10,
@@ -3197,7 +3264,8 @@
             "slug": "paul_arrested_and_imprisoned",
             "yearGroup": [
                 "57"
-            ]
+            ],
+            "startYear": 57
         },
         "createdTime": "2018-08-17T21:11:26.000Z"
     },
@@ -3228,7 +3296,7 @@
                 "recXZTWnzQ7CSAEqY"
             ],
             "eventGroup": "Third Missionary Journey",
-            "startYear": [
+            "years": [
                 "rec51pkZxX5R68gKh",
                 "recvOFi9OkrgM1IAO"
             ],
@@ -3249,7 +3317,8 @@
             "yearGroup": [
                 "56",
                 "57"
-            ]
+            ],
+            "startYear": 56
         },
         "createdTime": "2018-08-17T20:47:56.000Z"
     },
@@ -3281,7 +3350,7 @@
                 "recuyA8BQdT8xV0aR"
             ],
             "eventGroup": "Journey to Rome",
-            "startYear": [
+            "years": [
                 "recqJW1sjasdxU204"
             ],
             "sequence": 5,
@@ -3310,7 +3379,8 @@
             "slug": "journey_to_rome",
             "yearGroup": [
                 "59"
-            ]
+            ],
+            "startYear": 59
         },
         "createdTime": "2018-08-17T21:18:13.000Z"
     },
@@ -3362,7 +3432,7 @@
                 "recbKN58B2NC2UwYD"
             ],
             "eventGroup": "Journey to Rome",
-            "startYear": [
+            "years": [
                 "recqJW1sjasdxU204"
             ],
             "sequence": 6,
@@ -3379,7 +3449,8 @@
             "slug": "journey_to_rome",
             "yearGroup": [
                 "59"
-            ]
+            ],
+            "startYear": 59
         },
         "createdTime": "2018-08-17T21:19:12.000Z"
     },
@@ -3442,7 +3513,7 @@
                 "recMFxG0RP9eYZe7r"
             ],
             "eventGroup": "Paul Arrested and Imprisoned",
-            "startYear": [
+            "years": [
                 "recvOFi9OkrgM1IAO",
                 "recVFkYrBzach92br",
                 "recqJW1sjasdxU204"
@@ -3462,7 +3533,8 @@
                 "57",
                 "58",
                 "59"
-            ]
+            ],
+            "startYear": 57
         },
         "createdTime": "2018-08-17T21:12:29.000Z"
     },
@@ -3492,7 +3564,7 @@
                 "recEn9WVQLnrfwJHs"
             ],
             "eventGroup": "Paul Arrested and Imprisoned",
-            "startYear": [
+            "years": [
                 "recvOFi9OkrgM1IAO",
                 "recVFkYrBzach92br",
                 "recqJW1sjasdxU204"
@@ -3510,7 +3582,8 @@
                 "57",
                 "58",
                 "59"
-            ]
+            ],
+            "startYear": 57
         },
         "createdTime": "2018-08-17T21:14:56.000Z"
     },
@@ -3540,7 +3613,7 @@
                 "reco5gIJCPaD8Y4BW"
             ],
             "eventGroup": "Paul Arrested and Imprisoned",
-            "startYear": [
+            "years": [
                 "recvOFi9OkrgM1IAO",
                 "recVFkYrBzach92br",
                 "recqJW1sjasdxU204"
@@ -3558,7 +3631,8 @@
                 "57",
                 "58",
                 "59"
-            ]
+            ],
+            "startYear": 57
         },
         "createdTime": "2018-08-17T21:15:56.000Z"
     },
@@ -3617,7 +3691,7 @@
                 "recqt2keL5ry1jiDD"
             ],
             "eventGroup": "Paul Arrested and Imprisoned",
-            "startYear": [
+            "years": [
                 "recvOFi9OkrgM1IAO",
                 "recVFkYrBzach92br",
                 "recqJW1sjasdxU204"
@@ -3635,7 +3709,8 @@
                 "57",
                 "58",
                 "59"
-            ]
+            ],
+            "startYear": 57
         },
         "createdTime": "2018-08-17T21:16:32.000Z"
     },
@@ -3666,7 +3741,7 @@
                 "reckmRO7gkfs1OnfC"
             ],
             "eventGroup": "Journey to Rome",
-            "startYear": [
+            "years": [
                 "rec2akFmSkQMsVniz"
             ],
             "sequence": 1,
@@ -3680,7 +3755,8 @@
             "slug": "journey_to_rome",
             "yearGroup": [
                 "60"
-            ]
+            ],
+            "startYear": 60
         },
         "createdTime": "2018-08-17T21:22:57.000Z"
     },
@@ -3706,7 +3782,7 @@
                 "recHcqGI50A6z0o0F"
             ],
             "eventGroup": "Journey to Rome",
-            "startYear": [
+            "years": [
                 "rec2akFmSkQMsVniz"
             ],
             "sequence": 2,
@@ -3725,7 +3801,8 @@
             "slug": "journey_to_rome",
             "yearGroup": [
                 "60"
-            ]
+            ],
+            "startYear": 60
         },
         "createdTime": "2018-08-17T21:23:37.000Z"
     },
@@ -3758,7 +3835,7 @@
                 "recBkOYVf3laZBCJo"
             ],
             "eventGroup": "Journey to Rome",
-            "startYear": [
+            "years": [
                 "recV8IqKaivO9ELhD",
                 "rec0kTOAllLvN855m",
                 "rec2akFmSkQMsVniz"
@@ -3777,7 +3854,8 @@
                 "62",
                 "61",
                 "60"
-            ]
+            ],
+            "startYear": 60
         },
         "createdTime": "2018-08-17T21:25:03.000Z"
     }
