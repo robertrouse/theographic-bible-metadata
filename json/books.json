@@ -1600,7 +1600,9 @@
             "writers": [
                 "moses_2108"
             ],
-            "slug": "gen"
+            "slug": "gen",
+            "peopleCount": 1083,
+            "placeCount": 266
         },
         "createdTime": "2018-05-13T17:19:17.000Z"
     },
@@ -2875,7 +2877,9 @@
             "writers": [
                 "moses_2108"
             ],
-            "slug": "exod"
+            "slug": "exod",
+            "peopleCount": 619,
+            "placeCount": 179
         },
         "createdTime": "2018-05-22T19:36:23.000Z"
     },
@@ -3783,7 +3787,9 @@
             "writers": [
                 "moses_2108"
             ],
-            "slug": "lev"
+            "slug": "lev",
+            "peopleCount": 366,
+            "placeCount": 28
         },
         "createdTime": "2018-05-13T17:19:17.000Z"
     },
@@ -5129,7 +5135,9 @@
             "writers": [
                 "moses_2108"
             ],
-            "slug": "num"
+            "slug": "num",
+            "peopleCount": 832,
+            "placeCount": 207
         },
         "createdTime": "2018-05-13T17:19:17.000Z"
     },
@@ -6144,7 +6152,9 @@
             "writers": [
                 "moses_2108"
             ],
-            "slug": "deut"
+            "slug": "deut",
+            "peopleCount": 528,
+            "placeCount": 146
         },
         "createdTime": "2018-05-22T19:36:23.000Z"
     },
@@ -6848,7 +6858,9 @@
             "writers": [
                 "joshua_1727"
             ],
-            "slug": "josh"
+            "slug": "josh",
+            "peopleCount": 413,
+            "placeCount": 370
         },
         "createdTime": "2018-05-22T19:36:23.000Z"
     },
@@ -7509,7 +7521,9 @@
             "writers": [
                 "samuel_2469"
             ],
-            "slug": "judg"
+            "slug": "judg",
+            "peopleCount": 454,
+            "placeCount": 244
         },
         "createdTime": "2018-05-22T19:36:23.000Z"
     },
@@ -7620,7 +7634,9 @@
             "writers": [
                 "samuel_2469"
             ],
-            "slug": "ruth"
+            "slug": "ruth",
+            "peopleCount": 57,
+            "placeCount": 9
         },
         "createdTime": "2018-05-22T19:36:23.000Z"
     },
@@ -8484,7 +8500,9 @@
                 "samuel_2469, gad_1263, nathan_2153",
                 "samuel_2469"
             ],
-            "slug": "1sam"
+            "slug": "1sam",
+            "peopleCount": 662,
+            "placeCount": 193
         },
         "createdTime": "2018-05-22T19:36:23.000Z"
     },
@@ -9225,7 +9243,9 @@
             "writers": [
                 "samuel_2469"
             ],
-            "slug": "2sam"
+            "slug": "2sam",
+            "peopleCount": 556,
+            "placeCount": 166
         },
         "createdTime": "2018-05-22T19:36:23.000Z"
     },
@@ -10085,7 +10105,9 @@
             "writers": [
                 "jeremiah_853"
             ],
-            "slug": "1kgs"
+            "slug": "1kgs",
+            "peopleCount": 586,
+            "placeCount": 192
         },
         "createdTime": "2018-05-22T19:36:23.000Z"
     },
@@ -10851,7 +10873,9 @@
             "writers": [
                 "jeremiah_853"
             ],
-            "slug": "2kgs"
+            "slug": "2kgs",
+            "peopleCount": 554,
+            "placeCount": 265
         },
         "createdTime": "2018-05-22T19:36:23.000Z"
     },
@@ -11844,7 +11868,9 @@
             "writers": [
                 "ezra_1245"
             ],
-            "slug": "1chr"
+            "slug": "1chr",
+            "peopleCount": 836,
+            "placeCount": 161
         },
         "createdTime": "2018-05-22T19:36:23.000Z"
     },
@@ -12724,7 +12750,9 @@
             "writers": [
                 "ezra_1245"
             ],
-            "slug": "2chr"
+            "slug": "2chr",
+            "peopleCount": 611,
+            "placeCount": 236
         },
         "createdTime": "2018-05-22T19:36:23.000Z"
     },
@@ -13036,7 +13064,9 @@
             "writers": [
                 "ezra_1245"
             ],
-            "slug": "ezra"
+            "slug": "ezra",
+            "peopleCount": 209,
+            "placeCount": 89
         },
         "createdTime": "2018-05-22T19:36:23.000Z"
     },
@@ -13477,7 +13507,9 @@
             "writers": [
                 "nehemiah_2172"
             ],
-            "slug": "neh"
+            "slug": "neh",
+            "peopleCount": 259,
+            "placeCount": 99
         },
         "createdTime": "2018-05-13T17:19:17.000Z"
     },
@@ -13676,7 +13708,9 @@
             "writers": [
                 "mordecai_2107"
             ],
-            "slug": "esth"
+            "slug": "esth",
+            "peopleCount": 119,
+            "placeCount": 24
         },
         "createdTime": "2018-05-22T19:36:23.000Z"
     },
@@ -14810,7 +14844,9 @@
             "writers": [
                 "moses_2108"
             ],
-            "slug": "job"
+            "slug": "job",
+            "peopleCount": 190,
+            "placeCount": 6
         },
         "createdTime": "2018-05-13T17:19:17.000Z"
     },
@@ -17449,7 +17485,9 @@
                 "ethan_1222",
                 "moses_2108"
             ],
-            "slug": "ps"
+            "slug": "ps",
+            "peopleCount": 1040,
+            "placeCount": 123
         },
         "createdTime": "2018-05-22T19:36:23.000Z"
     },
@@ -18419,7 +18457,9 @@
                 "agur_112",
                 "lemuel_1817"
             ],
-            "slug": "prov"
+            "slug": "prov",
+            "peopleCount": 100,
+            "placeCount": 0
         },
         "createdTime": "2018-05-22T19:36:23.000Z"
     },
@@ -18675,7 +18715,9 @@
             "writers": [
                 "solomon_2762"
             ],
-            "slug": "eccl"
+            "slug": "eccl",
+            "peopleCount": 37,
+            "placeCount": 5
         },
         "createdTime": "2018-05-22T19:36:23.000Z"
     },
@@ -18822,7 +18864,9 @@
             "writers": [
                 "solomon_2762"
             ],
-            "slug": "song"
+            "slug": "song",
+            "peopleCount": 9,
+            "placeCount": 21
         },
         "createdTime": "2018-05-22T19:36:23.000Z"
     },
@@ -20202,7 +20246,9 @@
             "writers": [
                 "isaiah_617"
             ],
-            "slug": "isa"
+            "slug": "isa",
+            "peopleCount": 556,
+            "placeCount": 248
         },
         "createdTime": "2018-05-13T17:19:17.000Z"
     },
@@ -21640,7 +21686,9 @@
             "writers": [
                 "jeremiah_853"
             ],
-            "slug": "jer"
+            "slug": "jer",
+            "peopleCount": 840,
+            "placeCount": 443
         },
         "createdTime": "2018-05-13T17:19:17.000Z"
     },
@@ -21821,7 +21869,9 @@
             "writers": [
                 "jeremiah_853"
             ],
-            "slug": "lam"
+            "slug": "lam",
+            "peopleCount": 47,
+            "placeCount": 22
         },
         "createdTime": "2018-05-13T17:19:17.000Z"
     },
@@ -23164,7 +23214,9 @@
             "writers": [
                 "ezekiel_1237"
             ],
-            "slug": "ezek"
+            "slug": "ezek",
+            "peopleCount": 482,
+            "placeCount": 195
         },
         "createdTime": "2018-05-22T19:36:23.000Z"
     },
@@ -23555,7 +23607,9 @@
             "writers": [
                 "daniel_975"
             ],
-            "slug": "dan"
+            "slug": "dan",
+            "peopleCount": 158,
+            "placeCount": 40
         },
         "createdTime": "2018-05-13T17:19:17.000Z"
     },
@@ -23788,7 +23842,9 @@
             "writers": [
                 "hosea_1555"
             ],
-            "slug": "hos"
+            "slug": "hos",
+            "peopleCount": 95,
+            "placeCount": 44
         },
         "createdTime": "2018-05-13T17:19:17.000Z"
     },
@@ -23886,7 +23942,9 @@
             "writers": [
                 "joel_1660"
             ],
-            "slug": "joel"
+            "slug": "joel",
+            "peopleCount": 31,
+            "placeCount": 16
         },
         "createdTime": "2018-05-22T19:36:23.000Z"
     },
@@ -24063,7 +24121,9 @@
             "writers": [
                 "amos_238"
             ],
-            "slug": "amos"
+            "slug": "amos",
+            "peopleCount": 89,
+            "placeCount": 39
         },
         "createdTime": "2018-05-22T19:36:23.000Z"
     },
@@ -24107,7 +24167,9 @@
             "writers": [
                 "obadiah_2226"
             ],
-            "slug": "obad"
+            "slug": "obad",
+            "peopleCount": 12,
+            "placeCount": 9
         },
         "createdTime": "2018-05-22T19:36:23.000Z"
     },
@@ -24181,7 +24243,9 @@
             "writers": [
                 "jonah_1689"
             ],
-            "slug": "jonah"
+            "slug": "jonah",
+            "peopleCount": 35,
+            "placeCount": 10
         },
         "createdTime": "2018-05-22T19:36:23.000Z"
     },
@@ -24315,7 +24379,9 @@
             "writers": [
                 "micah_2053"
             ],
-            "slug": "mic"
+            "slug": "mic",
+            "peopleCount": 49,
+            "placeCount": 25
         },
         "createdTime": "2018-05-13T17:19:17.000Z"
     },
@@ -24387,7 +24453,9 @@
             "writers": [
                 "nahum_2145"
             ],
-            "slug": "nah"
+            "slug": "nah",
+            "peopleCount": 11,
+            "placeCount": 7
         },
         "createdTime": "2018-05-13T17:19:17.000Z"
     },
@@ -24468,7 +24536,9 @@
             "writers": [
                 "habakkuk_1334"
             ],
-            "slug": "hab"
+            "slug": "hab",
+            "peopleCount": 15,
+            "placeCount": 3
         },
         "createdTime": "2018-05-13T17:19:17.000Z"
     },
@@ -24546,7 +24616,9 @@
             "writers": [
                 "zephaniah_3040"
             ],
-            "slug": "zeph"
+            "slug": "zeph",
+            "peopleCount": 29,
+            "placeCount": 13
         },
         "createdTime": "2018-05-22T19:36:23.000Z"
     },
@@ -24608,7 +24680,9 @@
             "writers": [
                 "haggai_1349"
             ],
-            "slug": "hag"
+            "slug": "hag",
+            "peopleCount": 28,
+            "placeCount": 1
         },
         "createdTime": "2018-05-13T17:19:17.000Z"
     },
@@ -24855,7 +24929,9 @@
             "writers": [
                 "zechariah_3016"
             ],
-            "slug": "zech"
+            "slug": "zech",
+            "peopleCount": 120,
+            "placeCount": 58
         },
         "createdTime": "2018-05-22T19:36:23.000Z"
     },
@@ -24936,7 +25012,9 @@
             "writers": [
                 "malachi_1899"
             ],
-            "slug": "mal"
+            "slug": "mal",
+            "peopleCount": 47,
+            "placeCount": 4
         },
         "createdTime": "2018-05-13T17:19:17.000Z"
     },
@@ -26060,7 +26138,9 @@
             "writers": [
                 "matthew_1971"
             ],
-            "slug": "matt"
+            "slug": "matt",
+            "peopleCount": 431,
+            "placeCount": 69
         },
         "createdTime": "2018-05-22T19:36:23.000Z"
     },
@@ -26779,7 +26859,9 @@
             "writers": [
                 "mark_1679"
             ],
-            "slug": "mark"
+            "slug": "mark",
+            "peopleCount": 245,
+            "placeCount": 46
         },
         "createdTime": "2018-05-22T19:36:23.000Z"
     },
@@ -27979,7 +28061,9 @@
             "writers": [
                 "luke_1836"
             ],
-            "slug": "luke"
+            "slug": "luke",
+            "peopleCount": 461,
+            "placeCount": 76
         },
         "createdTime": "2018-05-22T19:36:23.000Z"
     },
@@ -28901,7 +28985,9 @@
             "writers": [
                 "john_1677"
             ],
-            "slug": "john"
+            "slug": "john",
+            "peopleCount": 514,
+            "placeCount": 62
         },
         "createdTime": "2018-05-22T19:36:23.000Z"
     },
@@ -29961,7 +30047,9 @@
             "writers": [
                 "luke_1836"
             ],
-            "slug": "acts"
+            "slug": "acts",
+            "peopleCount": 592,
+            "placeCount": 244
         },
         "createdTime": "2018-05-22T19:36:23.000Z"
     },
@@ -30438,7 +30526,9 @@
             "writers": [
                 "paul_2479"
             ],
-            "slug": "rom"
+            "slug": "rom",
+            "peopleCount": 238,
+            "placeCount": 13
         },
         "createdTime": "2018-05-13T17:19:17.000Z"
     },
@@ -30919,7 +31009,9 @@
             "writers": [
                 "paul_2479"
             ],
-            "slug": "1cor"
+            "slug": "1cor",
+            "peopleCount": 192,
+            "placeCount": 8
         },
         "createdTime": "2018-05-22T19:36:23.000Z"
     },
@@ -31217,7 +31309,9 @@
             "writers": [
                 "paul_2479"
             ],
-            "slug": "2cor"
+            "slug": "2cor",
+            "peopleCount": 122,
+            "placeCount": 12
         },
         "createdTime": "2018-05-22T19:36:23.000Z"
     },
@@ -31400,7 +31494,9 @@
             "writers": [
                 "paul_2479"
             ],
-            "slug": "gal"
+            "slug": "gal",
+            "peopleCount": 87,
+            "placeCount": 10
         },
         "createdTime": "2018-05-13T17:19:17.000Z"
     },
@@ -31589,7 +31685,9 @@
             "writers": [
                 "paul_2479"
             ],
-            "slug": "eph"
+            "slug": "eph",
+            "peopleCount": 88,
+            "placeCount": 1
         },
         "createdTime": "2018-05-13T17:19:17.000Z"
     },
@@ -31725,7 +31823,9 @@
             "writers": [
                 "paul_2479"
             ],
-            "slug": "phil"
+            "slug": "phil",
+            "peopleCount": 63,
+            "placeCount": 3
         },
         "createdTime": "2018-05-22T19:36:23.000Z"
     },
@@ -31852,7 +31952,9 @@
             "writers": [
                 "paul_2479"
             ],
-            "slug": "col"
+            "slug": "col",
+            "peopleCount": 51,
+            "placeCount": 5
         },
         "createdTime": "2018-05-13T17:19:17.000Z"
     },
@@ -31974,7 +32076,9 @@
             "writers": [
                 "paul_2479"
             ],
-            "slug": "1thess"
+            "slug": "1thess",
+            "peopleCount": 49,
+            "placeCount": 6
         },
         "createdTime": "2018-05-22T19:36:23.000Z"
     },
@@ -32052,7 +32156,9 @@
             "writers": [
                 "paul_2479"
             ],
-            "slug": "2thess"
+            "slug": "2thess",
+            "peopleCount": 29,
+            "placeCount": 0
         },
         "createdTime": "2018-05-22T19:36:23.000Z"
     },
@@ -32196,7 +32302,9 @@
             "writers": [
                 "paul_2479"
             ],
-            "slug": "1tim"
+            "slug": "1tim",
+            "peopleCount": 38,
+            "placeCount": 1
         },
         "createdTime": "2018-05-22T19:36:23.000Z"
     },
@@ -32311,7 +32419,9 @@
             "writers": [
                 "paul_2479"
             ],
-            "slug": "2tim"
+            "slug": "2tim",
+            "peopleCount": 47,
+            "placeCount": 8
         },
         "createdTime": "2018-05-22T19:36:23.000Z"
     },
@@ -32385,7 +32495,9 @@
             "writers": [
                 "paul_2479"
             ],
-            "slug": "titus"
+            "slug": "titus",
+            "peopleCount": 16,
+            "placeCount": 2
         },
         "createdTime": "2018-05-22T19:36:23.000Z"
     },
@@ -32439,7 +32551,9 @@
             "writers": [
                 "paul_2479"
             ],
-            "slug": "phlm"
+            "slug": "phlm",
+            "peopleCount": 15,
+            "placeCount": 0
         },
         "createdTime": "2018-05-22T19:36:23.000Z"
     },
@@ -32780,7 +32894,9 @@
             "writers": [
                 "paul_2479"
             ],
-            "slug": "heb"
+            "slug": "heb",
+            "peopleCount": 139,
+            "placeCount": 11
         },
         "createdTime": "2018-05-13T17:19:17.000Z"
     },
@@ -32918,7 +33034,9 @@
             "writers": [
                 "james_719"
             ],
-            "slug": "jas"
+            "slug": "jas",
+            "peopleCount": 29,
+            "placeCount": 0
         },
         "createdTime": "2018-05-13T17:19:17.000Z"
     },
@@ -33053,7 +33171,9 @@
             "writers": [
                 "peter_2745"
             ],
-            "slug": "1pet"
+            "slug": "1pet",
+            "peopleCount": 56,
+            "placeCount": 3
         },
         "createdTime": "2018-05-22T19:36:23.000Z"
     },
@@ -33142,7 +33262,9 @@
             "writers": [
                 "peter_2745"
             ],
-            "slug": "2pet"
+            "slug": "2pet",
+            "peopleCount": 24,
+            "placeCount": 1
         },
         "createdTime": "2018-05-22T19:36:23.000Z"
     },
@@ -33274,7 +33396,9 @@
             "writers": [
                 "john_1677"
             ],
-            "slug": "1john"
+            "slug": "1john",
+            "peopleCount": 61,
+            "placeCount": 0
         },
         "createdTime": "2018-05-22T19:36:23.000Z"
     },
@@ -33310,7 +33434,9 @@
             "writers": [
                 "john_1677"
             ],
-            "slug": "2john"
+            "slug": "2john",
+            "peopleCount": 6,
+            "placeCount": 0
         },
         "createdTime": "2018-05-22T19:36:23.000Z"
     },
@@ -33347,7 +33473,9 @@
             "writers": [
                 "john_1677"
             ],
-            "slug": "3john"
+            "slug": "3john",
+            "peopleCount": 4,
+            "placeCount": 0
         },
         "createdTime": "2018-05-22T19:36:23.000Z"
     },
@@ -33395,7 +33523,9 @@
             "writers": [
                 "jude_1756"
             ],
-            "slug": "jude"
+            "slug": "jude",
+            "peopleCount": 11,
+            "placeCount": 2
         },
         "createdTime": "2018-05-22T19:36:23.000Z"
     },
@@ -33843,7 +33973,9 @@
             "writers": [
                 "john_1677"
             ],
-            "slug": "rev"
+            "slug": "rev",
+            "peopleCount": 156,
+            "placeCount": 27
         },
         "createdTime": "2018-05-13T17:19:17.000Z"
     }
