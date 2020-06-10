@@ -2436,10 +2436,7 @@
                 "recubkmmKSXndiWhn",
                 "recYFuzEC5rac3VBQ",
                 "rec0F5SmS0Y89QCLn",
-                "reckP8nXOxQEfxO2U",
-                "recFL49Fod2K6PMgV",
-                "recwElCJX407fnRVL",
-                "reckEfjzRHTVvEjYx"
+                "reckP8nXOxQEfxO2U"
             ],
             "booksWritten": [
                 "recyvIyxRMFob6SoM",
@@ -2456,10 +2453,7 @@
         "fields": {
             "yearNum": "58",
             "events": [
-                "recdw1gxVyM4a16t4",
-                "recFL49Fod2K6PMgV",
-                "recwElCJX407fnRVL",
-                "reckEfjzRHTVvEjYx"
+                "recdw1gxVyM4a16t4"
             ],
             "isoYear": 58,
             "BC-AD": "AD",
@@ -2472,12 +2466,11 @@
         "fields": {
             "yearNum": "59",
             "events": [
-                "recdw1gxVyM4a16t4",
                 "recFL49Fod2K6PMgV",
-                "recwElCJX407fnRVL",
-                "reckEfjzRHTVvEjYx",
                 "rec8n5xw6VVMu81SV",
-                "recHCC9J9wGFgqrvn"
+                "recHCC9J9wGFgqrvn",
+                "recwElCJX407fnRVL",
+                "reckEfjzRHTVvEjYx"
             ],
             "isoYear": 59,
             "BC-AD": "AD",

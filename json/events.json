@@ -56,7 +56,8 @@
             "verseCount": 34,
             "slug": "the_creation",
             "startYear": -4003,
-            "sortKey": 1001
+            "sortKey": 1001,
+            "verseSequence": 1
         },
         "createdTime": "2020-05-14T12:42:59.000Z"
     },
@@ -114,7 +115,8 @@
             "verseCount": 22,
             "slug": "the_creation",
             "startYear": -4003,
-            "sortKey": 1002
+            "sortKey": 1002,
+            "verseSequence": 35
         },
         "createdTime": "2020-05-14T13:27:27.000Z"
     },
@@ -172,7 +174,8 @@
             "verseCount": 24,
             "slug": "the_creation",
             "startYear": -4003,
-            "sortKey": 1003
+            "sortKey": 1003,
+            "verseSequence": 57
         },
         "createdTime": "2020-05-15T01:00:50.000Z"
     },
@@ -211,7 +214,8 @@
             "verseCount": 10,
             "slug": "cain_and_abel",
             "startYear": -3874,
-            "sortKey": 130001
+            "sortKey": 130001,
+            "verseSequence": 81
         },
         "createdTime": "2020-05-15T01:08:59.000Z"
     },
@@ -249,7 +253,8 @@
             "verseCount": 6,
             "slug": "cain_and_abel",
             "startYear": -3874,
-            "sortKey": 130002
+            "sortKey": 130002,
+            "verseSequence": 91
         },
         "createdTime": "2020-05-15T01:12:43.000Z"
     },
@@ -281,7 +286,8 @@
             "verseCount": 7,
             "slug": "the_flood",
             "startYear": -2467,
-            "sortKey": 1537001
+            "sortKey": 1537001,
+            "verseSequence": 139
         },
         "createdTime": "2020-05-15T02:21:39.000Z"
     },
@@ -330,7 +336,8 @@
             "verseCount": 20,
             "slug": "the_flood",
             "startYear": -2399,
-            "sortKey": 1605001
+            "sortKey": 1605001,
+            "verseSequence": 146
         },
         "createdTime": "2020-05-15T02:16:41.000Z"
     },
@@ -373,7 +380,8 @@
             "verseCount": 12,
             "slug": "the_flood",
             "startYear": -2347,
-            "sortKey": 1657001
+            "sortKey": 1657001,
+            "verseSequence": 166
         },
         "createdTime": "2020-05-15T12:46:01.000Z"
     },
@@ -411,7 +419,8 @@
             "verseCount": 7,
             "slug": "the_flood",
             "startYear": -2347,
-            "sortKey": 1657002
+            "sortKey": 1657002,
+            "verseSequence": 178
         },
         "createdTime": "2020-05-15T12:51:17.000Z"
     },
@@ -456,7 +465,8 @@
             "verseCount": 14,
             "slug": "the_flood",
             "startYear": -2346,
-            "sortKey": 1658001
+            "sortKey": 1658001,
+            "verseSequence": 185
         },
         "createdTime": "2020-05-15T12:52:56.000Z"
     },
@@ -484,7 +494,7 @@
             "years": [
                 "recGTFXCLmKqmVkBL"
             ],
-            "sequence": 1,
+            "sequence": 2,
             "placeOccurred": [
                 "recCn3rjVhgRbVWqk"
             ],
@@ -495,7 +505,8 @@
             "verseCount": 5,
             "slug": "the_flood",
             "startYear": -2346,
-            "sortKey": 1658001
+            "sortKey": 1658002,
+            "verseSequence": 199
         },
         "createdTime": "2020-05-15T12:55:57.000Z"
     },
@@ -536,7 +547,7 @@
             "years": [
                 "recGTFXCLmKqmVkBL"
             ],
-            "sequence": 2,
+            "sequence": 3,
             "placeOccurred": [
                 "recCn3rjVhgRbVWqk"
             ],
@@ -547,7 +558,8 @@
             "verseCount": 20,
             "slug": "the_flood",
             "startYear": -2346,
-            "sortKey": 1658002
+            "sortKey": 1658003,
+            "verseSequence": 204
         },
         "createdTime": "2020-05-15T13:09:43.000Z"
     },
@@ -587,7 +599,8 @@
             "verseCount": 8,
             "slug": "the_flood",
             "startYear": -2345,
-            "sortKey": 1659001
+            "sortKey": 1659001,
+            "verseSequence": 226
         },
         "createdTime": "2020-05-15T13:33:21.000Z"
     },
@@ -617,7 +630,8 @@
             "verseCount": 9,
             "slug": "tower_of_babel",
             "startYear": -2245,
-            "sortKey": 1759001
+            "sortKey": 1759001,
+            "verseSequence": 268
         },
         "createdTime": "2020-05-17T20:05:23.000Z"
     },
@@ -653,7 +667,8 @@
             "verseCount": 2,
             "slug": "ascension",
             "startYear": 33,
-            "sortKey": 4037001
+            "sortKey": 4037001,
+            "verseSequence": 26928
         },
         "createdTime": "2018-07-29T20:00:29.000Z"
     },
@@ -695,7 +710,8 @@
             "verseCount": 6,
             "slug": "ascension",
             "startYear": 33,
-            "sortKey": 4037002
+            "sortKey": 4037002,
+            "verseSequence": 26930
         },
         "createdTime": "2018-07-29T20:01:07.000Z"
     },
@@ -759,7 +775,8 @@
             "verseCount": 15,
             "slug": "ascension",
             "startYear": 33,
-            "sortKey": 4037003
+            "sortKey": 4037003,
+            "verseSequence": 26936
         },
         "createdTime": "2018-07-29T20:01:44.000Z"
     },
@@ -808,7 +825,8 @@
             "verseCount": 13,
             "slug": "pentecost_church_founded",
             "startYear": 33,
-            "sortKey": 4037004
+            "sortKey": 4037004,
+            "verseSequence": 26951
         },
         "createdTime": "2018-07-29T20:09:54.000Z"
     },
@@ -868,7 +886,8 @@
             "verseCount": 28,
             "slug": "pentecost_church_founded",
             "startYear": 33,
-            "sortKey": 4037005
+            "sortKey": 4037005,
+            "verseSequence": 26964
         },
         "createdTime": "2018-07-29T20:11:53.000Z"
     },
@@ -901,7 +920,8 @@
             "verseCount": 6,
             "slug": "pentecost_church_founded",
             "startYear": 33,
-            "sortKey": 4037006
+            "sortKey": 4037006,
+            "verseSequence": 26992
         },
         "createdTime": "2018-07-29T20:13:18.000Z"
     },
@@ -942,7 +962,8 @@
             "verseCount": 10,
             "slug": "pentecost_church_founded",
             "startYear": 33,
-            "sortKey": 4037007
+            "sortKey": 4037007,
+            "verseSequence": 26998
         },
         "createdTime": "2018-07-29T20:14:06.000Z"
     },
@@ -988,7 +1009,8 @@
             "verseCount": 16,
             "slug": "pentecost_church_founded",
             "startYear": 33,
-            "sortKey": 4037008
+            "sortKey": 4037008,
+            "verseSequence": 27008
         },
         "createdTime": "2018-07-29T20:15:20.000Z"
     },
@@ -1046,7 +1068,8 @@
             "verseCount": 22,
             "slug": "pentecost_church_founded",
             "startYear": 33,
-            "sortKey": 4037009
+            "sortKey": 4037009,
+            "verseSequence": 27024
         },
         "createdTime": "2018-07-29T20:21:39.000Z"
     },
@@ -1086,7 +1109,8 @@
             "verseCount": 9,
             "slug": "pentecost_church_founded",
             "startYear": 33,
-            "sortKey": 4037010
+            "sortKey": 4037010,
+            "verseSequence": 27046
         },
         "createdTime": "2018-07-29T20:24:47.000Z"
     },
@@ -1122,7 +1146,8 @@
             "verseCount": 6,
             "slug": "pentecost_church_founded",
             "startYear": 33,
-            "sortKey": 4037011
+            "sortKey": 4037011,
+            "verseSequence": 27055
         },
         "createdTime": "2018-07-29T20:26:12.000Z"
     },
@@ -1168,7 +1193,8 @@
             "verseCount": 11,
             "slug": "pentecost_church_founded",
             "startYear": 33,
-            "sortKey": 4037012
+            "sortKey": 4037012,
+            "verseSequence": 27061
         },
         "createdTime": "2018-07-29T20:37:58.000Z"
     },
@@ -1207,7 +1233,8 @@
             "verseCount": 6,
             "slug": "pentecost_church_founded",
             "startYear": 33,
-            "sortKey": 4037013
+            "sortKey": 4037013,
+            "verseSequence": 27072
         },
         "createdTime": "2018-07-29T20:39:46.000Z"
     },
@@ -1256,7 +1283,8 @@
             "verseCount": 16,
             "slug": "persecution_first_martyr",
             "startYear": 33,
-            "sortKey": 4037014
+            "sortKey": 4037014,
+            "verseSequence": 27078
         },
         "createdTime": "2018-07-29T20:41:51.000Z"
     },
@@ -1298,7 +1326,8 @@
             "verseCount": 9,
             "slug": "persecution_first_martyr",
             "startYear": 33,
-            "sortKey": 4037015
+            "sortKey": 4037015,
+            "verseSequence": 27094
         },
         "createdTime": "2018-07-29T20:43:16.000Z"
     },
@@ -1345,7 +1374,8 @@
             "verseCount": 7,
             "slug": "persecution_first_martyr",
             "startYear": 33,
-            "sortKey": 4037016
+            "sortKey": 4037016,
+            "verseSequence": 27103
         },
         "createdTime": "2018-07-29T20:46:40.000Z"
     },
@@ -1383,7 +1413,8 @@
             "verseCount": 8,
             "slug": "persecution_first_martyr",
             "startYear": 33,
-            "sortKey": 4037017
+            "sortKey": 4037017,
+            "verseSequence": 27110
         },
         "createdTime": "2018-07-29T20:47:15.000Z"
     },
@@ -1466,7 +1497,8 @@
             "verseCount": 53,
             "slug": "persecution_first_martyr",
             "startYear": 33,
-            "sortKey": 4037018
+            "sortKey": 4037018,
+            "verseSequence": 27118
         },
         "createdTime": "2018-07-29T20:48:20.000Z"
     },
@@ -1504,7 +1536,8 @@
             "verseCount": 7,
             "slug": "persecution_first_martyr",
             "startYear": 33,
-            "sortKey": 4037019
+            "sortKey": 4037019,
+            "verseSequence": 27171
         },
         "createdTime": "2018-07-29T20:49:06.000Z"
     },
@@ -1538,7 +1571,8 @@
             "verseCount": 3,
             "slug": "persecution_first_martyr",
             "startYear": 34,
-            "sortKey": 4038001
+            "sortKey": 4038001,
+            "verseSequence": 27178
         },
         "createdTime": "2018-08-17T19:10:52.000Z"
     },
@@ -1594,7 +1628,8 @@
             "verseCount": 22,
             "slug": "persecution_first_martyr",
             "startYear": 34,
-            "sortKey": 4038002
+            "sortKey": 4038002,
+            "verseSequence": 27181
         },
         "createdTime": "2018-08-17T19:11:36.000Z"
     },
@@ -1641,7 +1676,8 @@
             "verseCount": 15,
             "slug": "persecution_first_martyr",
             "startYear": 34,
-            "sortKey": 4038003
+            "sortKey": 4038003,
+            "verseSequence": 27203
         },
         "createdTime": "2018-08-17T19:13:27.000Z"
     },
@@ -1693,7 +1729,8 @@
             "verseCount": 19,
             "slug": "saul_converted",
             "startYear": 35,
-            "sortKey": 4039001
+            "sortKey": 4039001,
+            "verseSequence": 27218
         },
         "createdTime": "2018-08-17T19:14:05.000Z"
     },
@@ -1740,7 +1777,8 @@
             "verseCount": 12,
             "slug": "saul_converted",
             "startYear": 35,
-            "sortKey": 4039002
+            "sortKey": 4039002,
+            "verseSequence": 27237
         },
         "createdTime": "2018-08-17T19:17:00.000Z"
     },
@@ -1787,7 +1825,8 @@
             "verseCount": 12,
             "slug": "peter_and_cornelius",
             "startYear": 41,
-            "sortKey": 4045001
+            "sortKey": 4045001,
+            "verseSequence": 27249
         },
         "createdTime": "2018-08-17T19:18:28.000Z"
     },
@@ -1854,7 +1893,8 @@
             "verseCount": 33,
             "slug": "peter_and_cornelius",
             "startYear": 41,
-            "sortKey": 4045002
+            "sortKey": 4045002,
+            "verseSequence": 27261
         },
         "createdTime": "2018-08-17T19:19:48.000Z"
     },
@@ -1900,7 +1940,8 @@
             "verseCount": 15,
             "slug": "peter_and_cornelius",
             "startYear": 41,
-            "sortKey": 4045003
+            "sortKey": 4045003,
+            "verseSequence": 27294
         },
         "createdTime": "2018-08-17T19:21:40.000Z"
     },
@@ -1948,7 +1989,8 @@
             "verseCount": 18,
             "slug": "peter_and_cornelius",
             "startYear": 41,
-            "sortKey": 4045004
+            "sortKey": 4045004,
+            "verseSequence": 27309
         },
         "createdTime": "2018-08-17T19:29:01.000Z"
     },
@@ -1992,7 +2034,8 @@
             "verseCount": 12,
             "slug": "church_founded_at_antioch",
             "startYear": 41,
-            "sortKey": 4045005
+            "sortKey": 4045005,
+            "verseSequence": 27327
         },
         "createdTime": "2018-08-17T19:31:11.000Z"
     },
@@ -2025,7 +2068,8 @@
             "verseCount": 2,
             "slug": "herods_persecution_of_james_and_peter",
             "startYear": 43,
-            "sortKey": 4047001
+            "sortKey": 4047001,
+            "verseSequence": 27339
         },
         "createdTime": "2018-08-17T19:32:07.000Z"
     },
@@ -2059,7 +2103,8 @@
             "verseCount": 3,
             "slug": "herods_persecution_of_james_and_peter",
             "startYear": 43,
-            "sortKey": 4047002
+            "sortKey": 4047002,
+            "verseSequence": 27341
         },
         "createdTime": "2018-08-17T19:32:20.000Z"
     },
@@ -2107,7 +2152,8 @@
             "verseCount": 14,
             "slug": "herods_persecution_of_james_and_peter",
             "startYear": 43,
-            "sortKey": 4047003
+            "sortKey": 4047003,
+            "verseSequence": 27344
         },
         "createdTime": "2018-08-17T19:33:21.000Z"
     },
@@ -2141,7 +2187,8 @@
             "verseCount": 4,
             "slug": "herods_persecution_of_james_and_peter",
             "startYear": 43,
-            "sortKey": 4047004
+            "sortKey": 4047004,
+            "verseSequence": 27358
         },
         "createdTime": "2018-08-17T19:34:15.000Z"
     },
@@ -2183,7 +2230,8 @@
             "verseCount": 5,
             "slug": "first_missionary_journey",
             "startYear": 48,
-            "sortKey": 4052001
+            "sortKey": 4052001,
+            "verseSequence": 27362
         },
         "createdTime": "2018-08-17T19:35:14.000Z"
     },
@@ -2230,7 +2278,8 @@
             "verseCount": 9,
             "slug": "first_missionary_journey",
             "startYear": 48,
-            "sortKey": 4052002
+            "sortKey": 4052002,
+            "verseSequence": 27367
         },
         "createdTime": "2018-08-17T19:36:00.000Z"
     },
@@ -2309,7 +2358,8 @@
             "verseCount": 40,
             "slug": "first_missionary_journey",
             "startYear": 48,
-            "sortKey": 4052003
+            "sortKey": 4052003,
+            "verseSequence": 27376
         },
         "createdTime": "2018-08-17T19:47:18.000Z"
     },
@@ -2347,7 +2397,8 @@
             "verseCount": 5,
             "slug": "first_missionary_journey",
             "startYear": 49,
-            "sortKey": 4053001
+            "sortKey": 4053001,
+            "verseSequence": 27416
         },
         "createdTime": "2018-08-17T19:49:01.000Z"
     },
@@ -2396,7 +2447,8 @@
             "verseCount": 15,
             "slug": "first_missionary_journey",
             "startYear": 49,
-            "sortKey": 4053002
+            "sortKey": 4053002,
+            "verseSequence": 27421
         },
         "createdTime": "2018-08-17T19:50:03.000Z"
     },
@@ -2443,7 +2495,8 @@
             "verseCount": 8,
             "slug": "first_missionary_journey",
             "startYear": 49,
-            "sortKey": 4053003
+            "sortKey": 4053003,
+            "verseSequence": 27436
         },
         "createdTime": "2018-08-17T19:52:01.000Z"
     },
@@ -2466,7 +2519,8 @@
             "verseCount": 0,
             "slug": "first_missionary_journey",
             "startYear": 49,
-            "sortKey": 4053004
+            "sortKey": 4053004,
+            "verseSequence": 0
         },
         "createdTime": "2018-09-22T19:38:12.000Z"
     },
@@ -2538,7 +2592,8 @@
             "verseCount": 34,
             "slug": "second_missionary_journey",
             "startYear": 49,
-            "sortKey": 4053005
+            "sortKey": 4053005,
+            "verseSequence": 27444
         },
         "createdTime": "2018-08-17T20:01:34.000Z"
     },
@@ -2576,7 +2631,8 @@
             "verseCount": 5,
             "slug": "second_missionary_journey",
             "startYear": 49,
-            "sortKey": 4053006
+            "sortKey": 4053006,
+            "verseSequence": 27478
         },
         "createdTime": "2018-08-17T20:03:03.000Z"
     },
@@ -2613,7 +2669,8 @@
             "verseCount": 2,
             "slug": "second_missionary_journey",
             "startYear": 50,
-            "sortKey": 4054001
+            "sortKey": 4054001,
+            "verseSequence": 27483
         },
         "createdTime": "2018-08-17T20:05:03.000Z"
     },
@@ -2653,7 +2710,8 @@
             "verseCount": 5,
             "slug": "second_missionary_journey",
             "startYear": 50,
-            "sortKey": 4054002
+            "sortKey": 4054002,
+            "verseSequence": 27485
         },
         "createdTime": "2018-08-17T20:06:01.000Z"
     },
@@ -2695,7 +2753,8 @@
             "verseCount": 3,
             "slug": "second_missionary_journey",
             "startYear": 50,
-            "sortKey": 4054003
+            "sortKey": 4054003,
+            "verseSequence": 27490
         },
         "createdTime": "2018-08-17T20:07:54.000Z"
     },
@@ -2738,7 +2797,8 @@
             "verseCount": 4,
             "slug": "second_missionary_journey",
             "startYear": 50,
-            "sortKey": 4054004
+            "sortKey": 4054004,
+            "verseSequence": 27493
         },
         "createdTime": "2018-08-17T20:08:58.000Z"
     },
@@ -2775,7 +2835,8 @@
             "verseCount": 3,
             "slug": "second_missionary_journey",
             "startYear": 50,
-            "sortKey": 4054005
+            "sortKey": 4054005,
+            "verseSequence": 27497
         },
         "createdTime": "2018-08-17T20:11:09.000Z"
     },
@@ -2811,7 +2872,8 @@
             "verseCount": 3,
             "slug": "second_missionary_journey",
             "startYear": 50,
-            "sortKey": 4054006
+            "sortKey": 4054006,
+            "verseSequence": 27500
         },
         "createdTime": "2018-08-17T20:14:13.000Z"
     },
@@ -2848,7 +2910,8 @@
             "verseCount": 6,
             "slug": "second_missionary_journey",
             "startYear": 50,
-            "sortKey": 4054007
+            "sortKey": 4054007,
+            "verseSequence": 27503
         },
         "createdTime": "2018-08-17T20:14:37.000Z"
     },
@@ -2889,7 +2952,8 @@
             "verseCount": 10,
             "slug": "second_missionary_journey",
             "startYear": 50,
-            "sortKey": 4054008
+            "sortKey": 4054008,
+            "verseSequence": 27509
         },
         "createdTime": "2018-08-17T20:15:30.000Z"
     },
@@ -2927,7 +2991,8 @@
             "verseCount": 6,
             "slug": "second_missionary_journey",
             "startYear": 50,
-            "sortKey": 4054009
+            "sortKey": 4054009,
+            "verseSequence": 27519
         },
         "createdTime": "2018-08-17T20:16:06.000Z"
     },
@@ -2970,7 +3035,8 @@
             "verseCount": 9,
             "slug": "second_missionary_journey",
             "startYear": 50,
-            "sortKey": 4054010
+            "sortKey": 4054010,
+            "verseSequence": 27525
         },
         "createdTime": "2018-08-17T20:34:38.000Z"
     },
@@ -3010,7 +3076,8 @@
             "verseCount": 6,
             "slug": "second_missionary_journey",
             "startYear": 51,
-            "sortKey": 4055001
+            "sortKey": 4055001,
+            "verseSequence": 27534
         },
         "createdTime": "2018-08-17T20:35:16.000Z"
     },
@@ -3063,7 +3130,8 @@
             "verseCount": 19,
             "slug": "second_missionary_journey",
             "startYear": 51,
-            "sortKey": 4055002
+            "sortKey": 4055002,
+            "verseSequence": 27540
         },
         "createdTime": "2018-08-17T20:36:53.000Z"
     },
@@ -3121,7 +3189,8 @@
             "verseCount": 17,
             "slug": "second_missionary_journey",
             "startYear": 51,
-            "sortKey": 4055003
+            "sortKey": 4055003,
+            "verseSequence": 27559
         },
         "createdTime": "2018-08-17T20:37:40.000Z"
     },
@@ -3167,7 +3236,8 @@
             "verseCount": 6,
             "slug": "second_missionary_journey",
             "startYear": 52,
-            "sortKey": 4056001
+            "sortKey": 4056001,
+            "verseSequence": 27576
         },
         "createdTime": "2018-08-17T20:38:21.000Z"
     },
@@ -3207,7 +3277,8 @@
             "verseCount": 5,
             "slug": "third_missionary_journey",
             "startYear": 53,
-            "sortKey": 4057001
+            "sortKey": 4057001,
+            "verseSequence": 27582
         },
         "createdTime": "2018-08-17T20:39:17.000Z"
     },
@@ -3266,7 +3337,8 @@
             "verseCount": 22,
             "slug": "third_missionary_journey",
             "startYear": 53,
-            "sortKey": 4057002
+            "sortKey": 4057002,
+            "verseSequence": 27587
         },
         "createdTime": "2018-08-17T20:43:49.000Z"
     },
@@ -3321,7 +3393,8 @@
             "verseCount": 19,
             "slug": "third_missionary_journey",
             "startYear": 56,
-            "sortKey": 4060001
+            "sortKey": 4060001,
+            "verseSequence": 27609
         },
         "createdTime": "2018-08-17T20:47:04.000Z"
     },
@@ -3356,7 +3429,7 @@
                 "rec51pkZxX5R68gKh",
                 "recvOFi9OkrgM1IAO"
             ],
-            "sequence": 1,
+            "sequence": 2,
             "placeOccurred": [
                 "recv6STuRUsKfnjFn",
                 "recOEIhMwampGbSqk",
@@ -3371,9 +3444,215 @@
             "verseCount": 6,
             "slug": "third_missionary_journey",
             "startYear": 56,
-            "sortKey": 4060001
+            "sortKey": 4060002,
+            "verseSequence": 27628
         },
         "createdTime": "2018-08-17T20:47:56.000Z"
+    },
+    {
+        "id": "recmJII4OzKWMQjD0",
+        "fields": {
+            "eventName": "Eutychus revived",
+            "participants": [
+                "recuqHd9gHVWFFHNK",
+                "recgkzNX07a7kGFYL",
+                "recFqCoLVEfASibXd"
+            ],
+            "preceedingEvent": [
+                "reckdkADtwoa1EFCB"
+            ],
+            "versesDescribed": [
+                "recIYoA2baAwdPaY7",
+                "recldv7FccorBoaUA",
+                "recQyVTv4cvnwNML2",
+                "recqrEfOS3wG4X18W",
+                "rec5HJOWtumK0rRI8",
+                "recPw65jN4dXuLbcW"
+            ],
+            "eventGroup": "Third Missionary Journey",
+            "years": [
+                "recvOFi9OkrgM1IAO"
+            ],
+            "sequence": 1,
+            "placeOccurred": [
+                "recOEIhMwampGbSqk"
+            ],
+            "duration": "1d",
+            "startDate": "0057-04-19",
+            "precision": "7d",
+            "minYearLookup": 60,
+            "maxYearLookup": 60,
+            "verseCount": 6,
+            "slug": "third_missionary_journey",
+            "startYear": 57,
+            "sortKey": 4061001,
+            "verseSequence": 27634
+        },
+        "createdTime": "2018-08-17T20:49:21.000Z"
+    },
+    {
+        "id": "recNxShqFF2fouM1E",
+        "fields": {
+            "eventName": "Voyage to Miletus",
+            "participants": [
+                "recgkzNX07a7kGFYL",
+                "recFqCoLVEfASibXd"
+            ],
+            "preceedingEvent": [
+                "recmJII4OzKWMQjD0"
+            ],
+            "versesDescribed": [
+                "recRyBYDMRoHMtx2w",
+                "recoKaaHf7nAAmFlN",
+                "recWh3W6cZegoXs7e",
+                "rec9QF9UZ901OZwCB"
+            ],
+            "eventGroup": "Third Missionary Journey",
+            "years": [
+                "recvOFi9OkrgM1IAO"
+            ],
+            "sequence": 2,
+            "placeOccurred": [
+                "recpCMN0bRpzByjaR",
+                "recU8S3zWJLQkEpwO",
+                "recFNqP8D15s6WRhp",
+                "recBFy69KCIkfYLFS",
+                "recIaxpnDTIW0Xxx8",
+                "recRYZ3EbNAloBZSA",
+                "recdtc3DhxF0SAJRL"
+            ],
+            "duration": "1w",
+            "startDate": "0057-04-20",
+            "precision": "1m",
+            "minYearLookup": 60,
+            "maxYearLookup": 60,
+            "verseCount": 4,
+            "slug": "third_missionary_journey",
+            "startYear": 57,
+            "sortKey": 4061002,
+            "verseSequence": 27640
+        },
+        "createdTime": "2018-08-17T20:50:19.000Z"
+    },
+    {
+        "id": "recacQ9KiponbM1eR",
+        "fields": {
+            "eventName": "Paul speaks to Ephesian Elders",
+            "participants": [
+                "recgkzNX07a7kGFYL",
+                "recFqCoLVEfASibXd"
+            ],
+            "preceedingEvent": [
+                "recNxShqFF2fouM1E"
+            ],
+            "versesDescribed": [
+                "recluYWlf3epsvkny",
+                "recCEN0aUFkxW8RSe",
+                "recZub5t88Vt4NlNv",
+                "recn7IhDoPQkgL2g1",
+                "reca29RuiQhaMHIWW",
+                "recHHI331uPnhtggQ",
+                "rec7zvvlibUdsp2gt",
+                "recNvAzG0245BFlqI",
+                "recczx0nflNmcQnei",
+                "recZF81zPGn69xqzN",
+                "recRqHoLN3N9tAICA",
+                "rec17u1eEqA6QiVWC",
+                "rec8k7yT71Z1sYUab",
+                "rece5jqgQnjCotQCM",
+                "recb5G1amQ2mZBlc1",
+                "rec5P6ffFLPOE66pL",
+                "recXhNZ42sJFCy5jy",
+                "recUEWsPujUEsL4hN",
+                "recNGwuV6fVyRXYuh",
+                "rec3AXbRMraW9kunI",
+                "rec8hDu81Psxv40tJ",
+                "rechmb7iR7kBtwNFp"
+            ],
+            "eventGroup": "Third Missionary Journey",
+            "years": [
+                "recvOFi9OkrgM1IAO"
+            ],
+            "sequence": 3,
+            "placeOccurred": [
+                "recFNqP8D15s6WRhp"
+            ],
+            "duration": "4d",
+            "startDate": "0057-04-29",
+            "precision": "1m",
+            "minYearLookup": 60,
+            "maxYearLookup": 60,
+            "verseCount": 22,
+            "slug": "third_missionary_journey",
+            "startYear": 57,
+            "sortKey": 4061003,
+            "verseSequence": 27644
+        },
+        "createdTime": "2018-08-17T20:50:55.000Z"
+    },
+    {
+        "id": "rec62DJaeYJACSStB",
+        "fields": {
+            "eventName": "Voyage from Miletus to Jerusalem",
+            "participants": [
+                "recxDDC0jtl9bpc63",
+                "rec9U2V2vDcrrvk6v",
+                "recNsU6uPfTysNEKM",
+                "recgkzNX07a7kGFYL",
+                "recFqCoLVEfASibXd"
+            ],
+            "preceedingEvent": [
+                "recacQ9KiponbM1eR"
+            ],
+            "versesDescribed": [
+                "recAD3FFQEy7tqsqx",
+                "recrFm3GmK33qj9Nv",
+                "recmTBPSYfvaemcYa",
+                "reclEGPYQnsinJ7gN",
+                "reclrccv1UaW5rHlg",
+                "recL532tNWFxvrJEl",
+                "rec2ae0u6jILZ84wv",
+                "recGBlhN3XQg1Vea1",
+                "reckMQdEWawEyiezR",
+                "recNdndii5zc1epqW",
+                "recyLrb2b2lzBpjSy",
+                "rec7xgGEphhP6It5E",
+                "recZfwaSczN7LkXAz",
+                "recyqmLSHFJ8qiO1B",
+                "rec4GpdeyiuBeFDD0",
+                "recGrI0BU4X1irrNc",
+                "recU737OUv7ZU3UNH"
+            ],
+            "eventGroup": "Third Missionary Journey",
+            "years": [
+                "recvOFi9OkrgM1IAO"
+            ],
+            "sequence": 4,
+            "placeOccurred": [
+                "recAalC2QoLT7cJKN",
+                "recKrSp5YmwkgRKv0",
+                "recCdyPm5ehwB2lsH",
+                "recL1WV82pXaRBQ59",
+                "reco9Wc4YyNXZq43z",
+                "recEoYRAyVeAancS0",
+                "receEjvf5hXhkgVuZ",
+                "recToD2yiguR5xCQ0",
+                "recYUgRXpxE62Lj08",
+                "rec8dzrUxJExdCl68",
+                "recgeNFbkdcvVBH0o"
+            ],
+            "duration": "1m",
+            "startDate": "0057-05-03",
+            "precision": "1m",
+            "minYearLookup": 60,
+            "maxYearLookup": 60,
+            "verseCount": 17,
+            "slug": "third_missionary_journey",
+            "startYear": 57,
+            "sortKey": 4061004,
+            "verseSequence": 27666
+        },
+        "createdTime": "2018-08-17T21:02:52.000Z"
     },
     {
         "id": "recdw1gxVyM4a16t4",
@@ -3436,64 +3715,24 @@
             "eventGroup": "Paul Arrested and Imprisoned",
             "years": [
                 "recvOFi9OkrgM1IAO",
-                "recVFkYrBzach92br",
-                "recqJW1sjasdxU204"
+                "recVFkYrBzach92br"
             ],
-            "sequence": 1,
+            "sequence": 10,
             "placeOccurred": [
                 "recHrXj4CZl6AH9TQ",
                 "recKrSp5YmwkgRKv0"
             ],
-            "duration": "3y",
+            "duration": "2y",
             "precision": "1y",
             "minYearLookup": 60,
             "maxYearLookup": 60,
             "verseCount": 40,
             "slug": "paul_arrested_and_imprisoned",
             "startYear": 57,
-            "sortKey": 4061001
+            "sortKey": 4061010,
+            "verseSequence": 27758
         },
         "createdTime": "2018-08-17T21:12:29.000Z"
-    },
-    {
-        "id": "recmJII4OzKWMQjD0",
-        "fields": {
-            "eventName": "Eutychus revived",
-            "participants": [
-                "recuqHd9gHVWFFHNK",
-                "recgkzNX07a7kGFYL",
-                "recFqCoLVEfASibXd"
-            ],
-            "preceedingEvent": [
-                "reckdkADtwoa1EFCB"
-            ],
-            "versesDescribed": [
-                "recIYoA2baAwdPaY7",
-                "recldv7FccorBoaUA",
-                "recQyVTv4cvnwNML2",
-                "recqrEfOS3wG4X18W",
-                "rec5HJOWtumK0rRI8",
-                "recPw65jN4dXuLbcW"
-            ],
-            "eventGroup": "Third Missionary Journey",
-            "years": [
-                "recvOFi9OkrgM1IAO"
-            ],
-            "sequence": 2,
-            "placeOccurred": [
-                "recOEIhMwampGbSqk"
-            ],
-            "duration": "1d",
-            "startDate": "0057-04-19",
-            "precision": "7d",
-            "minYearLookup": 60,
-            "maxYearLookup": 60,
-            "verseCount": 6,
-            "slug": "third_missionary_journey",
-            "startYear": 57,
-            "sortKey": 4061002
-        },
-        "createdTime": "2018-08-17T20:49:21.000Z"
     },
     {
         "id": "recFL49Fod2K6PMgV",
@@ -3522,11 +3761,9 @@
             ],
             "eventGroup": "Paul Arrested and Imprisoned",
             "years": [
-                "recvOFi9OkrgM1IAO",
-                "recVFkYrBzach92br",
                 "recqJW1sjasdxU204"
             ],
-            "sequence": 2,
+            "sequence": 1,
             "placeOccurred": [
                 "recKrSp5YmwkgRKv0"
             ],
@@ -3535,53 +3772,11 @@
             "maxYearLookup": 62,
             "verseCount": 12,
             "slug": "paul_arrested_and_imprisoned",
-            "startYear": 57,
-            "sortKey": 4061002
+            "startYear": 59,
+            "sortKey": 4063001,
+            "verseSequence": 27798
         },
         "createdTime": "2018-08-17T21:14:56.000Z"
-    },
-    {
-        "id": "recNxShqFF2fouM1E",
-        "fields": {
-            "eventName": "Voyage to Miletus",
-            "participants": [
-                "recgkzNX07a7kGFYL",
-                "recFqCoLVEfASibXd"
-            ],
-            "preceedingEvent": [
-                "recmJII4OzKWMQjD0"
-            ],
-            "versesDescribed": [
-                "recRyBYDMRoHMtx2w",
-                "recoKaaHf7nAAmFlN",
-                "recWh3W6cZegoXs7e",
-                "rec9QF9UZ901OZwCB"
-            ],
-            "eventGroup": "Third Missionary Journey",
-            "years": [
-                "recvOFi9OkrgM1IAO"
-            ],
-            "sequence": 3,
-            "placeOccurred": [
-                "recpCMN0bRpzByjaR",
-                "recU8S3zWJLQkEpwO",
-                "recFNqP8D15s6WRhp",
-                "recBFy69KCIkfYLFS",
-                "recIaxpnDTIW0Xxx8",
-                "recRYZ3EbNAloBZSA",
-                "recdtc3DhxF0SAJRL"
-            ],
-            "duration": "1w",
-            "startDate": "0057-04-20",
-            "precision": "1m",
-            "minYearLookup": 60,
-            "maxYearLookup": 60,
-            "verseCount": 4,
-            "slug": "third_missionary_journey",
-            "startYear": 57,
-            "sortKey": 4061003
-        },
-        "createdTime": "2018-08-17T20:50:19.000Z"
     },
     {
         "id": "recwElCJX407fnRVL",
@@ -3610,11 +3805,9 @@
             ],
             "eventGroup": "Paul Arrested and Imprisoned",
             "years": [
-                "recvOFi9OkrgM1IAO",
-                "recVFkYrBzach92br",
                 "recqJW1sjasdxU204"
             ],
-            "sequence": 3,
+            "sequence": 2,
             "placeOccurred": [
                 "recKrSp5YmwkgRKv0"
             ],
@@ -3623,65 +3816,11 @@
             "maxYearLookup": 62,
             "verseCount": 9,
             "slug": "paul_arrested_and_imprisoned",
-            "startYear": 57,
-            "sortKey": 4061003
+            "startYear": 59,
+            "sortKey": 4063002,
+            "verseSequence": 27810
         },
         "createdTime": "2018-08-17T21:15:56.000Z"
-    },
-    {
-        "id": "recacQ9KiponbM1eR",
-        "fields": {
-            "eventName": "Paul speaks to Ephesian Elders",
-            "participants": [
-                "recgkzNX07a7kGFYL",
-                "recFqCoLVEfASibXd"
-            ],
-            "preceedingEvent": [
-                "recNxShqFF2fouM1E"
-            ],
-            "versesDescribed": [
-                "recluYWlf3epsvkny",
-                "recCEN0aUFkxW8RSe",
-                "recZub5t88Vt4NlNv",
-                "recn7IhDoPQkgL2g1",
-                "reca29RuiQhaMHIWW",
-                "recHHI331uPnhtggQ",
-                "rec7zvvlibUdsp2gt",
-                "recNvAzG0245BFlqI",
-                "recczx0nflNmcQnei",
-                "recZF81zPGn69xqzN",
-                "recRqHoLN3N9tAICA",
-                "rec17u1eEqA6QiVWC",
-                "rec8k7yT71Z1sYUab",
-                "rece5jqgQnjCotQCM",
-                "recb5G1amQ2mZBlc1",
-                "rec5P6ffFLPOE66pL",
-                "recXhNZ42sJFCy5jy",
-                "recUEWsPujUEsL4hN",
-                "recNGwuV6fVyRXYuh",
-                "rec3AXbRMraW9kunI",
-                "rec8hDu81Psxv40tJ",
-                "rechmb7iR7kBtwNFp"
-            ],
-            "eventGroup": "Third Missionary Journey",
-            "years": [
-                "recvOFi9OkrgM1IAO"
-            ],
-            "sequence": 4,
-            "placeOccurred": [
-                "recFNqP8D15s6WRhp"
-            ],
-            "duration": "4d",
-            "startDate": "0057-04-29",
-            "precision": "1m",
-            "minYearLookup": 60,
-            "maxYearLookup": 60,
-            "verseCount": 22,
-            "slug": "third_missionary_journey",
-            "startYear": 57,
-            "sortKey": 4061004
-        },
-        "createdTime": "2018-08-17T20:50:55.000Z"
     },
     {
         "id": "reckEfjzRHTVvEjYx",
@@ -3739,11 +3878,9 @@
             ],
             "eventGroup": "Paul Arrested and Imprisoned",
             "years": [
-                "recvOFi9OkrgM1IAO",
-                "recVFkYrBzach92br",
                 "recqJW1sjasdxU204"
             ],
-            "sequence": 4,
+            "sequence": 3,
             "placeOccurred": [
                 "recKrSp5YmwkgRKv0"
             ],
@@ -3752,73 +3889,11 @@
             "maxYearLookup": 62,
             "verseCount": 38,
             "slug": "paul_arrested_and_imprisoned",
-            "startYear": 57,
-            "sortKey": 4061004
+            "startYear": 59,
+            "sortKey": 4063003,
+            "verseSequence": 27819
         },
         "createdTime": "2018-08-17T21:16:32.000Z"
-    },
-    {
-        "id": "rec62DJaeYJACSStB",
-        "fields": {
-            "eventName": "Voyage from Miletus to Jerusalem",
-            "participants": [
-                "recxDDC0jtl9bpc63",
-                "rec9U2V2vDcrrvk6v",
-                "recNsU6uPfTysNEKM",
-                "recgkzNX07a7kGFYL",
-                "recFqCoLVEfASibXd"
-            ],
-            "preceedingEvent": [
-                "recacQ9KiponbM1eR"
-            ],
-            "versesDescribed": [
-                "recAD3FFQEy7tqsqx",
-                "recrFm3GmK33qj9Nv",
-                "recmTBPSYfvaemcYa",
-                "reclEGPYQnsinJ7gN",
-                "reclrccv1UaW5rHlg",
-                "recL532tNWFxvrJEl",
-                "rec2ae0u6jILZ84wv",
-                "recGBlhN3XQg1Vea1",
-                "reckMQdEWawEyiezR",
-                "recNdndii5zc1epqW",
-                "recyLrb2b2lzBpjSy",
-                "rec7xgGEphhP6It5E",
-                "recZfwaSczN7LkXAz",
-                "recyqmLSHFJ8qiO1B",
-                "rec4GpdeyiuBeFDD0",
-                "recGrI0BU4X1irrNc",
-                "recU737OUv7ZU3UNH"
-            ],
-            "eventGroup": "Third Missionary Journey",
-            "years": [
-                "recvOFi9OkrgM1IAO"
-            ],
-            "sequence": 5,
-            "placeOccurred": [
-                "recAalC2QoLT7cJKN",
-                "recKrSp5YmwkgRKv0",
-                "recCdyPm5ehwB2lsH",
-                "recL1WV82pXaRBQ59",
-                "reco9Wc4YyNXZq43z",
-                "recEoYRAyVeAancS0",
-                "receEjvf5hXhkgVuZ",
-                "recToD2yiguR5xCQ0",
-                "recYUgRXpxE62Lj08",
-                "rec8dzrUxJExdCl68",
-                "recgeNFbkdcvVBH0o"
-            ],
-            "duration": "1m",
-            "startDate": "0057-05-03",
-            "precision": "1m",
-            "minYearLookup": 60,
-            "maxYearLookup": 60,
-            "verseCount": 17,
-            "slug": "third_missionary_journey",
-            "startYear": 57,
-            "sortKey": 4061005
-        },
-        "createdTime": "2018-08-17T21:02:52.000Z"
     },
     {
         "id": "recrhs1TbY0S5MpBD",
@@ -3847,7 +3922,7 @@
             "years": [
                 "recvOFi9OkrgM1IAO"
             ],
-            "sequence": 6,
+            "sequence": 5,
             "placeOccurred": [
                 "recL1WV82pXaRBQ59"
             ],
@@ -3857,7 +3932,8 @@
             "verseCount": 9,
             "slug": "paul_arrested_and_imprisoned",
             "startYear": 57,
-            "sortKey": 4061006
+            "sortKey": 4061005,
+            "verseSequence": 27683
         },
         "createdTime": "2018-08-17T21:06:07.000Z"
     },
@@ -3888,7 +3964,7 @@
             "years": [
                 "recvOFi9OkrgM1IAO"
             ],
-            "sequence": 7,
+            "sequence": 6,
             "placeOccurred": [
                 "recL1WV82pXaRBQ59"
             ],
@@ -3898,7 +3974,8 @@
             "verseCount": 10,
             "slug": "paul_arrested_and_imprisoned",
             "startYear": 57,
-            "sortKey": 4061007
+            "sortKey": 4061006,
+            "verseSequence": 27692
         },
         "createdTime": "2018-08-17T21:06:35.000Z"
     },
@@ -3951,7 +4028,7 @@
             "years": [
                 "recvOFi9OkrgM1IAO"
             ],
-            "sequence": 8,
+            "sequence": 7,
             "placeOccurred": [
                 "recL1WV82pXaRBQ59"
             ],
@@ -3961,7 +4038,8 @@
             "verseCount": 33,
             "slug": "paul_arrested_and_imprisoned",
             "startYear": 57,
-            "sortKey": 4061008
+            "sortKey": 4061007,
+            "verseSequence": 27702
         },
         "createdTime": "2018-08-17T21:07:25.000Z"
     },
@@ -3994,7 +4072,7 @@
             "years": [
                 "recvOFi9OkrgM1IAO"
             ],
-            "sequence": 9,
+            "sequence": 8,
             "placeOccurred": [
                 "recL1WV82pXaRBQ59"
             ],
@@ -4004,7 +4082,8 @@
             "verseCount": 12,
             "slug": "paul_arrested_and_imprisoned",
             "startYear": 57,
-            "sortKey": 4061009
+            "sortKey": 4061008,
+            "verseSequence": 27735
         },
         "createdTime": "2018-08-17T21:09:24.000Z"
     },
@@ -4035,7 +4114,7 @@
             "years": [
                 "recvOFi9OkrgM1IAO"
             ],
-            "sequence": 10,
+            "sequence": 9,
             "placeOccurred": [
                 "recL1WV82pXaRBQ59"
             ],
@@ -4045,7 +4124,8 @@
             "verseCount": 11,
             "slug": "paul_arrested_and_imprisoned",
             "startYear": 57,
-            "sortKey": 4061010
+            "sortKey": 4061009,
+            "verseSequence": 27747
         },
         "createdTime": "2018-08-17T21:11:26.000Z"
     },
@@ -4080,7 +4160,7 @@
             "years": [
                 "recqJW1sjasdxU204"
             ],
-            "sequence": 5,
+            "sequence": 4,
             "placeOccurred": [
                 "recPxaops7Ly4tP4B",
                 "recb5itcp169E9Vsj",
@@ -4105,7 +4185,8 @@
             "verseCount": 12,
             "slug": "journey_to_rome",
             "startYear": 59,
-            "sortKey": 4063005
+            "sortKey": 4063004,
+            "verseSequence": 27857
         },
         "createdTime": "2018-08-17T21:18:13.000Z"
     },
@@ -4160,7 +4241,7 @@
             "years": [
                 "recqJW1sjasdxU204"
             ],
-            "sequence": 6,
+            "sequence": 5,
             "placeOccurred": [
                 "recnaZntafDFrVRTN",
                 "rec6H5AYVxAT8ixmx",
@@ -4173,7 +4254,8 @@
             "verseCount": 32,
             "slug": "journey_to_rome",
             "startYear": 59,
-            "sortKey": 4063006
+            "sortKey": 4063005,
+            "verseSequence": 27869
         },
         "createdTime": "2018-08-17T21:19:12.000Z"
     },
@@ -4217,7 +4299,8 @@
             "verseCount": 10,
             "slug": "journey_to_rome",
             "startYear": 60,
-            "sortKey": 4064001
+            "sortKey": 4064001,
+            "verseSequence": 27901
         },
         "createdTime": "2018-08-17T21:22:57.000Z"
     },
@@ -4227,7 +4310,9 @@
             "eventName": "Paul's First Roman imprisonment",
             "participants": [
                 "recgkzNX07a7kGFYL",
-                "recFqCoLVEfASibXd"
+                "recFqCoLVEfASibXd",
+                "recYie5WTs6Dokoci",
+                "recYnB4aUknpa5wW8"
             ],
             "preceedingEvent": [
                 "recJScimNdSDxc1rn"
@@ -4255,7 +4340,7 @@
                 "rec0kTOAllLvN855m",
                 "rec2akFmSkQMsVniz"
             ],
-            "sequence": 1,
+            "sequence": 3,
             "placeOccurred": [
                 "recDDkVF36ecPUge4"
             ],
@@ -4266,7 +4351,8 @@
             "verseCount": 15,
             "slug": "journey_to_rome",
             "startYear": 60,
-            "sortKey": 4064001
+            "sortKey": 4064003,
+            "verseSequence": 27917
         },
         "createdTime": "2018-08-17T21:25:03.000Z"
     },
@@ -4310,7 +4396,8 @@
             "verseCount": 6,
             "slug": "journey_to_rome",
             "startYear": 60,
-            "sortKey": 4064002
+            "sortKey": 4064002,
+            "verseSequence": 27911
         },
         "createdTime": "2018-08-17T21:23:37.000Z"
     }
