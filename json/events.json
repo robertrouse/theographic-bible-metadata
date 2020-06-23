@@ -55,7 +55,8 @@
             "maxYearLookup": -4004,
             "slug": "the_creation",
             "startYear": -4003,
-            "sortKey": 1001
+            "sortKey": 1001,
+            "modified": "2020-05-17T20:13:47.000Z"
         },
         "createdTime": "2020-05-14T12:42:59.000Z"
     },
@@ -112,7 +113,8 @@
             "maxYearLookup": -4004,
             "slug": "the_creation",
             "startYear": -4003,
-            "sortKey": 1002
+            "sortKey": 1002,
+            "modified": "2020-05-17T20:13:49.000Z"
         },
         "createdTime": "2020-05-14T13:27:27.000Z"
     },
@@ -169,7 +171,8 @@
             "maxYearLookup": -4004,
             "slug": "the_creation",
             "startYear": -4003,
-            "sortKey": 1003
+            "sortKey": 1003,
+            "modified": "2020-05-17T20:13:50.000Z"
         },
         "createdTime": "2020-05-15T01:00:50.000Z"
     },
@@ -207,7 +210,8 @@
             "maxYearLookup": -4003,
             "slug": "cain_and_abel",
             "startYear": -3874,
-            "sortKey": 130001
+            "sortKey": 130001,
+            "modified": "2020-05-17T20:13:38.000Z"
         },
         "createdTime": "2020-05-15T01:08:59.000Z"
     },
@@ -244,7 +248,8 @@
             "maxYearLookup": -4003,
             "slug": "cain_and_abel",
             "startYear": -3874,
-            "sortKey": 130002
+            "sortKey": 130002,
+            "modified": "2020-05-17T20:13:38.000Z"
         },
         "createdTime": "2020-05-15T01:12:43.000Z"
     },
@@ -275,7 +280,8 @@
             "maxYearLookup": -2448,
             "slug": "the_flood",
             "startYear": -2467,
-            "sortKey": 1537001
+            "sortKey": 1537001,
+            "modified": "2020-05-17T20:12:49.000Z"
         },
         "createdTime": "2020-05-15T02:21:39.000Z"
     },
@@ -323,7 +329,8 @@
             "maxYearLookup": -2348,
             "slug": "the_flood",
             "startYear": -2399,
-            "sortKey": 1605001
+            "sortKey": 1605001,
+            "modified": "2020-05-17T20:12:59.000Z"
         },
         "createdTime": "2020-05-15T02:16:41.000Z"
     },
@@ -365,7 +372,8 @@
             "maxYearLookup": -2348,
             "slug": "the_flood",
             "startYear": -2347,
-            "sortKey": 1657001
+            "sortKey": 1657001,
+            "modified": "2020-05-15T12:50:33.000Z"
         },
         "createdTime": "2020-05-15T12:46:01.000Z"
     },
@@ -402,7 +410,8 @@
             "maxYearLookup": -2348,
             "slug": "the_flood",
             "startYear": -2347,
-            "sortKey": 1657002
+            "sortKey": 1657002,
+            "modified": "2020-05-15T12:52:13.000Z"
         },
         "createdTime": "2020-05-15T12:51:17.000Z"
     },
@@ -446,7 +455,8 @@
             "maxYearLookup": -2347,
             "slug": "the_flood",
             "startYear": -2346,
-            "sortKey": 1658001
+            "sortKey": 1658001,
+            "modified": "2020-05-15T13:04:35.000Z"
         },
         "createdTime": "2020-05-15T12:52:56.000Z"
     },
@@ -484,7 +494,8 @@
             "maxYearLookup": -2347,
             "slug": "the_flood",
             "startYear": -2346,
-            "sortKey": 1658002
+            "sortKey": 1658002,
+            "modified": "2020-05-24T00:42:10.000Z"
         },
         "createdTime": "2020-05-15T12:55:57.000Z"
     },
@@ -535,7 +546,8 @@
             "maxYearLookup": -2347,
             "slug": "the_flood",
             "startYear": -2346,
-            "sortKey": 1658003
+            "sortKey": 1658003,
+            "modified": "2020-05-24T00:42:10.000Z"
         },
         "createdTime": "2020-05-15T13:09:43.000Z"
     },
@@ -574,7 +586,8 @@
             "maxYearLookup": 0,
             "slug": "the_flood",
             "startYear": -2345,
-            "sortKey": 1659001
+            "sortKey": 1659001,
+            "modified": "2020-05-17T20:13:01.000Z"
         },
         "createdTime": "2020-05-15T13:33:21.000Z"
     },
@@ -603,7 +616,8 @@
             "maxYearLookup": -2247,
             "slug": "tower_of_babel",
             "startYear": -2245,
-            "sortKey": 1759001
+            "sortKey": 1759001,
+            "modified": "2020-05-17T20:18:00.000Z"
         },
         "createdTime": "2020-05-17T20:05:23.000Z"
     },
@@ -881,7 +895,8 @@
             "maxYearLookup": 33,
             "slug": "pentecost_church_founded",
             "startYear": 33,
-            "sortKey": 4037006
+            "sortKey": 4037006,
+            "modified": "2019-08-08T12:56:06.000Z"
         },
         "createdTime": "2018-07-29T20:13:18.000Z"
     },
@@ -2181,7 +2196,8 @@
             "maxYearLookup": 45,
             "slug": "first_missionary_journey",
             "startYear": 48,
-            "sortKey": 4052002
+            "sortKey": 4052002,
+            "modified": "2019-07-23T01:49:26.000Z"
         },
         "createdTime": "2018-08-17T19:36:00.000Z"
     },
@@ -2520,7 +2536,8 @@
             "maxYearLookup": 51,
             "slug": "second_missionary_journey",
             "startYear": 49,
-            "sortKey": 4053006
+            "sortKey": 4053006,
+            "modified": "2019-07-23T01:49:36.000Z"
         },
         "createdTime": "2018-08-17T20:03:03.000Z"
     },
@@ -3297,7 +3314,8 @@
             "maxYearLookup": 60,
             "slug": "third_missionary_journey",
             "startYear": 56,
-            "sortKey": 4060002
+            "sortKey": 4060002,
+            "modified": "2020-05-23T23:45:13.000Z"
         },
         "createdTime": "2018-08-17T20:47:56.000Z"
     },
@@ -3336,7 +3354,8 @@
             "maxYearLookup": 60,
             "slug": "third_missionary_journey",
             "startYear": 57,
-            "sortKey": 4061001
+            "sortKey": 4061001,
+            "modified": "2020-05-23T22:25:29.000Z"
         },
         "createdTime": "2018-08-17T20:49:21.000Z"
     },
@@ -3378,7 +3397,8 @@
             "maxYearLookup": 60,
             "slug": "third_missionary_journey",
             "startYear": 57,
-            "sortKey": 4061002
+            "sortKey": 4061002,
+            "modified": "2020-05-23T22:25:38.000Z"
         },
         "createdTime": "2018-08-17T20:50:19.000Z"
     },
@@ -3432,7 +3452,8 @@
             "maxYearLookup": 60,
             "slug": "third_missionary_journey",
             "startYear": 57,
-            "sortKey": 4061003
+            "sortKey": 4061003,
+            "modified": "2020-05-23T22:25:45.000Z"
         },
         "createdTime": "2018-08-17T20:50:55.000Z"
     },
@@ -3494,7 +3515,8 @@
             "maxYearLookup": 60,
             "slug": "third_missionary_journey",
             "startYear": 57,
-            "sortKey": 4061004
+            "sortKey": 4061004,
+            "modified": "2020-05-23T22:25:52.000Z"
         },
         "createdTime": "2018-08-17T21:02:52.000Z"
     },
@@ -3572,7 +3594,8 @@
             "maxYearLookup": 60,
             "slug": "paul_arrested_and_imprisoned",
             "startYear": 57,
-            "sortKey": 4061010
+            "sortKey": 4061010,
+            "modified": "2020-05-24T00:51:20.000Z"
         },
         "createdTime": "2018-08-17T21:12:29.000Z"
     },
@@ -3614,7 +3637,8 @@
             "maxYearLookup": 62,
             "slug": "paul_arrested_and_imprisoned",
             "startYear": 59,
-            "sortKey": 4063001
+            "sortKey": 4063001,
+            "modified": "2020-05-24T00:52:06.000Z"
         },
         "createdTime": "2018-08-17T21:14:56.000Z"
     },
@@ -3656,7 +3680,8 @@
             "maxYearLookup": 62,
             "slug": "paul_arrested_and_imprisoned",
             "startYear": 59,
-            "sortKey": 4063002
+            "sortKey": 4063002,
+            "modified": "2020-05-24T00:52:07.000Z"
         },
         "createdTime": "2018-08-17T21:15:56.000Z"
     },
@@ -3727,7 +3752,8 @@
             "maxYearLookup": 62,
             "slug": "paul_arrested_and_imprisoned",
             "startYear": 59,
-            "sortKey": 4063003
+            "sortKey": 4063003,
+            "modified": "2020-05-24T00:52:08.000Z"
         },
         "createdTime": "2018-08-17T21:16:32.000Z"
     },
@@ -3767,7 +3793,8 @@
             "maxYearLookup": 60,
             "slug": "paul_arrested_and_imprisoned",
             "startYear": 57,
-            "sortKey": 4061005
+            "sortKey": 4061005,
+            "modified": "2020-05-24T00:40:34.000Z"
         },
         "createdTime": "2018-08-17T21:06:07.000Z"
     },
@@ -3807,7 +3834,8 @@
             "maxYearLookup": 60,
             "slug": "paul_arrested_and_imprisoned",
             "startYear": 57,
-            "sortKey": 4061006
+            "sortKey": 4061006,
+            "modified": "2020-05-24T00:40:34.000Z"
         },
         "createdTime": "2018-08-17T21:06:35.000Z"
     },
@@ -3869,7 +3897,8 @@
             "maxYearLookup": 60,
             "slug": "paul_arrested_and_imprisoned",
             "startYear": 57,
-            "sortKey": 4061007
+            "sortKey": 4061007,
+            "modified": "2020-05-24T00:40:34.000Z"
         },
         "createdTime": "2018-08-17T21:07:25.000Z"
     },
@@ -3911,7 +3940,8 @@
             "maxYearLookup": 60,
             "slug": "paul_arrested_and_imprisoned",
             "startYear": 57,
-            "sortKey": 4061008
+            "sortKey": 4061008,
+            "modified": "2020-05-24T00:40:34.000Z"
         },
         "createdTime": "2018-08-17T21:09:24.000Z"
     },
@@ -3951,7 +3981,8 @@
             "maxYearLookup": 60,
             "slug": "paul_arrested_and_imprisoned",
             "startYear": 57,
-            "sortKey": 4061009
+            "sortKey": 4061009,
+            "modified": "2020-05-24T00:40:44.000Z"
         },
         "createdTime": "2018-08-17T21:11:26.000Z"
     },
@@ -4010,7 +4041,8 @@
             "maxYearLookup": 62,
             "slug": "journey_to_rome",
             "startYear": 59,
-            "sortKey": 4063004
+            "sortKey": 4063004,
+            "modified": "2020-05-24T00:52:08.000Z"
         },
         "createdTime": "2018-08-17T21:18:13.000Z"
     },
@@ -4077,7 +4109,8 @@
             "maxYearLookup": 62,
             "slug": "journey_to_rome",
             "startYear": 59,
-            "sortKey": 4063005
+            "sortKey": 4063005,
+            "modified": "2020-05-24T00:52:09.000Z"
         },
         "createdTime": "2018-08-17T21:19:12.000Z"
     },
@@ -4170,7 +4203,8 @@
             "maxYearLookup": 62,
             "slug": "journey_to_rome",
             "startYear": 60,
-            "sortKey": 4064003
+            "sortKey": 4064003,
+            "modified": "2020-05-23T23:46:20.000Z"
         },
         "createdTime": "2018-08-17T21:25:03.000Z"
     },
