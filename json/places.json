@@ -1212,6 +1212,7 @@
             "openBibleLong": "35.26122639",
             "kjvName": "Ai",
             "esvName": "Ai",
+            "featureType": "City",
             "placeID": 36,
             "recogitoUri": "http://pleiades.stoa.org/places/665310877",
             "recogitoLat": "31.9166759",
@@ -1253,7 +1254,10 @@
             "recogitoType": "settlement",
             "recogitoLabel": "Ai/Et-Tell",
             "recogitoUID": "9a7ce38f-afed-47aa-aa59-1e63edac4853",
-            "status": "wip",
+            "eventsHere": [
+                "recTXaaA8SxVHBspp"
+            ],
+            "status": "publish",
             "displayTitle": "Ai",
             "eastons": [
                 "recJclemremwb0pvE"
@@ -1266,7 +1270,10 @@
             "dictText": [
                 "One of the royal cities of the Canaanites ([Josh. 10:1](/josh#Josh.10.1); [Gen. 12:8](/gen#Gen.12.8); [13:3](/gen#Gen.13.3)). It was the scene of Joshua\u2019s defeat, and afterwards of his victory. It was the second Canaanite city taken by Israel ([Josh. 7:2-5](/josh#Josh.7.2); [8:1-29](/josh#Josh.8.1)). It lay rebuilt and inhibited by the Benjamites ([Ezra 2:28](/ezra#Ezra.2.28); [Neh. 7:32](/neh#Neh.7.32); [11:31](/neh#Neh.11.31)). It lay to the east of Bethel, \u201cbeside Beth-aven.\u201d The spot which is most probably the site of this ancient city is Haiyan, 2 miles east from Bethel. It lay up the Wady Suweinit, a steep, rugged valley, extending from the Jordan valley to Bethel."
             ],
-            "modified": "2020-03-10T01:19:26.000Z"
+            "eventGroups": [
+                "Abraham's Sojourn in Canaan"
+            ],
+            "modified": "2020-07-08T16:42:16.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -1846,8 +1853,7 @@
                 "recgavroCEcNsqsxH",
                 "recKdl8beXq6etC27",
                 "recQluZDeepeEfSyC",
-                "recZMJHZCV5OPnLmG",
-                "rec8RTZBh3BqLQfoP"
+                "recZMJHZCV5OPnLmG"
             ],
             "recogitoStatus": "NOT_IDENTIFIABLE",
             "recogitoUID": "01f2f8b1-d210-40b7-9943-96798b5b7865",
@@ -1856,7 +1862,7 @@
             "eastons": [
                 "recU6IvNpsP1YgSnS"
             ],
-            "verseCount": 19,
+            "verseCount": 18,
             "latitude": "30.659770",
             "longitude": "34.835554",
             "alphaGroup": "A",
@@ -1864,7 +1870,7 @@
             "dictText": [
                 "A tribe that dwelt in Arabia Petraea, between the Dead Sea and the Red Sea. They were not the descendants of Amalek, the son of Eliphaz, for they existed in the days of Abraham ([Gen. 14:7](/gen#Gen.14.7)). They were probably a tribe that migrated from the shores of the Persian Gulf and settled in Arabia. \u201cThey dwelt in the land of the south...from Havilah until thou comest to Shur\u201d ([Num. 13:29](/num#Num.13.29); [1 Sam. 15:7](/1sam#1Sam.15.7)). They were a pastoral, and hence a nomadic race. Their kings bore the hereditary name of Agag ([Num. 24:7](/num#Num.24.7); [1 Sam. 15:8](/1sam#1Sam.15.8)). They attempted to stop the Israelites when they marched through their territory ([Deut. 25:18](/deut#Deut.25.18)), attacking them at Rephidim ([Ex. 17:8-13](/exod#Exod.17.8); comp. [Deut. 25:17](/deut#Deut.25.17); [1 Sam. 15:2](/1sam#1Sam.15.2)). They afterwards attacked the Israelites at Hormah ([Num. 14:45](/num#Num.14.45)). We read of them subsequently as in league with the Moabites ([Judg. 3:13](/judg#Judg.3.13)) and the Midianites ([Judg. 6:3](/judg#Judg.6.3)). Saul finally desolated their territory and destroyed their power ([1 Sam. 14:48](/1sam#1Sam.14.48); [15:3](/1sam#1Sam.15.3)), and David recovered booty from them ([1 Sam. 30:18-20](/1sam#1Sam.30.18)). In the Babylonian inscriptions they are called Sute, in those of Egypt Sittiu, and the Amarna tablets include them under the general name of Khabbati, or \u201cplunderers.\u201d"
             ],
-            "modified": "2019-07-19T01:27:38.000Z"
+            "modified": "2020-07-16T13:44:45.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -1998,6 +2004,7 @@
             "openBibleLong": "35.92413136",
             "kjvName": "Ammon",
             "esvName": "Ammon",
+            "featureType": "Region",
             "placeID": 58,
             "recogitoUri": "http://sws.geonames.org/250441",
             "recogitoLat": "31.95522",
@@ -2011,7 +2018,6 @@
                 "recUhD5eMI107j4BP",
                 "recL68xrlP1S4PybE",
                 "recmWOa8bVBBbgOmG",
-                "rec8RTZBh3BqLQfoP",
                 "recN3fGV79qX2AW1D",
                 "recHMK45IE9PXRzyu",
                 "recY13y6RnT4vG46t",
@@ -2024,17 +2030,17 @@
             "status": "wip",
             "displayTitle": "Ammon",
             "eastons": [
-                "recUGXElW6ioB3nGv"
+                "recik3491l59TWul7"
             ],
-            "verseCount": 13,
+            "verseCount": 12,
             "latitude": "31.95522",
             "longitude": "35.94503",
             "alphaGroup": "A",
             "slug": "ammon_58",
             "dictText": [
-                "Another form of the name Ben-ammi, the son of Lot ([Gen. 19:38](/gen#Gen.19.38)). This name is also used for his posterity ([Ps. 83:7](/ps#Ps.83.7))."
+                "The usual name of the descendants of Ammon, the son of Lot ([Gen. 19:38](/gen#Gen.19.38)). From the very beginning ([Deut. 2:16-20](/deut#Deut.2.16)) of their history till they are lost sight of ([Judg. 5:2](/judg#Judg.5.2)), this tribe is closely associated with the Moabites ([Judg. 10:11](/judg#Judg.10.11); [2 Chr. 20:1](/2chr#2Chr.20.1); [Zeph. 2:8](/zeph#Zeph.2.8)). Both of these tribes hired Balaam to curse Israel ([Deut. 23:4](/deut#Deut.23.4)). The Ammonites were probably more of a predatory tribe, moving from place to place, while the Moabites were more settled. They inhabited the country east of the Jordan and north of Moab and the Dead Sea, from which they had expelled the Zamzummims or Zuzims ([Deut. 2:20](/deut#Deut.2.20); [Gen. 14:5](/gen#Gen.14.5)). They are known as the Beni-ammi ([Gen. 19:38](/gen#Gen.19.38)), Ammi or Ammon being worshipped as their chief god. They were of Semitic origin, and closely related to the Hebrews in blood and language. They showed no kindness to the Israelites when passing through their territory, and therefore they were prohibited from \u201centering the congregation of the Lord to the tenth generation\u201d ([Deut. 23:3](/deut#Deut.23.3)). They afterwards became hostile to Israel ([Judg. 3:13](/judg#Judg.3.13)). Jephthah waged war against them, and \u201ctook twenty cities with a very great slaughter\u201d ([Judg. 11:33](/judg#Judg.11.33)). They were again signally defeated by Saul ([1 Sam. 11:11](/1sam#1Sam.11.11)). David also defeated them and their allies the Syrians ([2 Sam. 10:6-14](/2sam#2Sam.10.6)), and took their chief city, Rabbah, with much spoil ([2 Sam. 10:14](/2sam#2Sam.10.14); [12:26-31](/2sam#2Sam.12.26)). The subsequent events of their history are noted in [2 Chr. 20:25](/2chr#2Chr.20.25); [26:8](/2chr#2Chr.26.8); [Jer. 49:1](/jer#Jer.49.1); [Ezek. 25:3](/ezek#Ezek.25.3), [6](/ezek#Ezek.25.6). One of Solomon\u2019s wives was Naamah, an Ammonite. She was the mother of Rehoboam ([1 Kings 14:31](/1kgs#1Kgs.14.31); [2 Chr. 12:13](/2chr#2Chr.12.13)).\n\n The prophets predicted fearful judgments against the Ammonites because of their hostility to Israel ([Zeph. 2:8](/zeph#Zeph.2.8); [Jer. 49:1-6](/jer#Jer.49.1); [Ezek. 25:1-5](/ezek#Ezek.25.1), [10](/ezek#Ezek.25.10); [Amos 1:13-15](/amos#Amos.1.13)).\n\n The national idol worshipped by this people was Molech or Milcom, at whose altar they offered human sacrifices ([1 Kings 11:5](/1kgs#1Kgs.11.5), [7](/1kgs#1Kgs.11.7)). The high places built for this idol by Solomon, at the instigation of his Ammonitish wives, were not destroyed till the time of Josiah ([2 Kings 23:13](/2kgs#2Kgs.23.13))."
             ],
-            "modified": "2019-07-21T19:17:58.000Z"
+            "modified": "2020-07-16T13:43:53.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -3072,9 +3078,6 @@
             "esvName": "Aram-naharaim",
             "precision": "Rough",
             "placeID": 84,
-            "verses": [
-                "rec2HyFTVq62V1NR5"
-            ],
             "recogitoStatus": "UNVERIFIED",
             "recogitoUID": "6c284dc6-1d5a-44f0-9578-3aba72c5343e",
             "status": "wip",
@@ -3082,7 +3085,7 @@
             "eastons": [
                 "recOp6uSSpaGHA61J"
             ],
-            "verseCount": 1,
+            "verseCount": 0,
             "latitude": "35.1",
             "longitude": "42.0",
             "alphaGroup": "A",
@@ -3090,7 +3093,7 @@
             "dictText": [
                 "Aram of the two rivers, is Mesopotamia (as it is rendered in [Gen. 24:10](/gen#Gen.24.10)), the country enclosed between the Tigris on the east and the Euphrates on the west ([Ps. 60](/ps#Ps.60), title); called also the \u201cfield of Aram\u201d ([Hos. 12:12](/hos#Hos.12.12), R.V.) i.e., the open country of Aram; in the Authorized Version, \u201ccountry of Syria.\u201d Padan-aram (q.v.) was a portion of this country."
             ],
-            "modified": "2019-07-22T00:33:11.000Z"
+            "modified": "2020-07-10T12:54:20.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -3107,9 +3110,6 @@
                 "recR67sC02MfTx4al"
             ],
             "placeID": 85,
-            "verses": [
-                "rec2HyFTVq62V1NR5"
-            ],
             "recogitoStatus": "UNVERIFIED",
             "recogitoUID": "0cc8cbd1-4c2e-4606-8de6-c762d3bc5601",
             "status": "wip",
@@ -3117,7 +3117,7 @@
             "eastons": [
                 "recQbunMmLknFRCaN"
             ],
-            "verseCount": 1,
+            "verseCount": 0,
             "latitude": "33.519299",
             "longitude": "36.31344999999999",
             "alphaGroup": "A",
@@ -3125,7 +3125,7 @@
             "dictText": [
                 "([Ps. 60](/ps#Ps.60), title), probably the region between the Euphrates and the Orontes."
             ],
-            "modified": "2019-07-22T00:33:17.000Z"
+            "modified": "2020-07-10T12:54:25.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -4049,6 +4049,7 @@
             "kjvName": "Asshur",
             "esvName": "Asshur",
             "precision": "Related-Surrounding",
+            "featureType": "Region",
             "rootID": [
                 "rec5WK4QGcKa48pA6"
             ],
@@ -4066,7 +4067,7 @@
             "recogitoType": "settlement",
             "recogitoLabel": "Athribis|Athribis, Tell el-Atrib",
             "recogitoUID": "f0d4c592-c40e-4d06-a7fc-73d22637219c",
-            "status": "wip",
+            "status": "publish",
             "displayTitle": "Asshur",
             "eastons": [
                 "reclLvJ36f0CjiRbq"
@@ -4079,7 +4080,7 @@
             "dictText": [
                 "Second son of Shem ([Gen. 10:22](/gen#Gen.10.22); [1 Chr. 1:17](/1chr#1Chr.1.17)). He went from the land of Shinar and built Nineveh, etc. ([Gen. 10:11](/gen#Gen.10.11), [12](/gen#Gen.10.12)). He probably gave his name to Assyria, which is the usual translation of the word, although the form Asshur is sometimes retained ([Num. 24:22](/num#Num.24.22), [24](/num#Num.24.24); [Ezek. 27:23](/ezek#Ezek.27.23), etc.). In [Gen. 2:14](/gen#Gen.2.14) \u201cAssyria\u201d ought to be \u201cAsshur,\u201d which was the original capital of Assyria, a city represented by the mounds of Kalah Sherghat, on the west bank of the Tigris. This city was founded by Bel-kap-kapu about B.C. 1700. At a later date the capital was shifted to Ninua, or Nineveh, now Koyunjik, on the eastern bank of the river. (See CALAH; NINEVEH.)"
             ],
-            "modified": "2019-07-19T03:11:37.000Z"
+            "modified": "2020-07-16T13:50:37.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -5190,22 +5191,24 @@
             "kjvName": "Baal-peor",
             "esvName": "Baal-peor",
             "precision": "Rough",
+            "featureType": "Mountain",
             "rootID": [
                 "rec0YWbwVkA7RQKBw"
             ],
             "placeID": 145,
             "verses": [
                 "rec5892POJJbN42Ev",
-                "recGhjaXdzRZLGxUS"
+                "recGhjaXdzRZLGxUS",
+                "recdeyaZonWQN7IKY"
             ],
             "recogitoStatus": "UNVERIFIED",
             "recogitoUID": "c8ed3216-2c02-4eb1-add9-2732ecb74925",
-            "status": "wip",
+            "status": "publish",
             "displayTitle": "Baal-peor",
             "eastons": [
                 "recvsC17Xk8yAVkKr"
             ],
-            "verseCount": 2,
+            "verseCount": 3,
             "latitude": "31.76503129703305",
             "longitude": "35.71856575741812",
             "alphaGroup": "B",
@@ -5213,7 +5216,7 @@
             "dictText": [
                 "Lord of the opening, a god of the Moabites ([Num. 25:3](/num#Num.25.3); [31:16](/num#Num.31.16); [Josh. 22:17](/josh#Josh.22.17)), worshipped by obscene rites. So called from Mount Peor, where this worship was celebrated, the Baal of Peor. The Israelites fell into the worship of this idol ([Num. 25:3](/num#Num.25.3), [5](/num#Num.25.5), [18](/num#Num.25.18); [Deut. 4:3](/deut#Deut.4.3); [Ps. 106:28](/ps#Ps.106.28); [Hos. 9:10](/hos#Hos.9.10))."
             ],
-            "modified": "2019-07-19T14:44:49.000Z"
+            "modified": "2020-07-16T13:53:27.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -6229,7 +6232,7 @@
             ],
             "recogitoStatus": "NOT_IDENTIFIABLE",
             "recogitoUID": "9238f14a-7ac7-4900-9c6d-8cb99d3c04fc",
-            "status": "wip",
+            "status": "publish",
             "displayTitle": "Bashan",
             "eastons": [
                 "recNv9eG2e9VhqGI4"
@@ -6242,7 +6245,7 @@
             "dictText": [
                 "Light soil, first mentioned in [Gen. 14:5](/gen#Gen.14.5), where it is said that Chedorlaomer and his confederates \u201csmote the Rephaim in Ashteroth,\u201d where Og the king of Bashan had his residence. At the time of Israel\u2019s entrance into the Promised Land, Og came out against them, but was utterly routed ([Num. 21:33-35](/num#Num.21.33); [Deut. 3:1-7](/deut#Deut.3.1)). This country extended from Gilead in the south to Hermon in the north, and from the Jordan on the west to Salcah on the east. Along with the half of Gilead it was given to the half-tribe of Manasseh ([Josh. 13:29-31](/josh#Josh.13.29)). Golan, one of its cities, became a \u201ccity of refuge\u201d ([Josh. 21:27](/josh#Josh.21.27)). Argob, in Bashan, was one of Solomon\u2019s commissariat districts ([1 Kings 4:13](/1kgs#1Kgs.4.13)). The cities of Bashan were taken by Hazael ([2 Kings 10:33](/2kgs#2Kgs.10.33)), but were soon after reconquered by Jehoash ([2 Kings 13:25](/2kgs#2Kgs.13.25)), who overcame the Syrians in three battles, according to the word of Elisha (19). From this time Bashan almost disappears from history, although we read of the wild cattle of its rich pastures ([Ezek. 39:18](/ezek#Ezek.39.18); [Ps. 22:12](/ps#Ps.22.12)), the oaks of its forests ([Isa. 2:13](/isa#Isa.2.13); [Ezek. 27:6](/ezek#Ezek.27.6); [Zech. 11:2](/zech#Zech.11.2)), and the beauty of its extensive plains ([Amos 4:1](/amos#Amos.4.1); [Jer. 50:19](/jer#Jer.50.19)). Soon after the conquest, the name \u201cGilead\u201d was given to the whole country beyond Jordan. After the Exile, Bashan was divided into four districts,"
             ],
-            "modified": "2019-07-21T21:33:47.000Z"
+            "modified": "2020-07-16T13:59:44.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -8742,6 +8745,7 @@
             "openBibleLong": "35.22103275",
             "kjvName": "Bethel",
             "esvName": "Bethel",
+            "featureType": "City",
             "placeID": 202,
             "verses": [
                 "rec3OVS6QWedrH38E",
@@ -8809,9 +8813,11 @@
             ],
             "recogitoStatus": "NOT_IDENTIFIABLE",
             "recogitoUID": "a73db4f8-a6f6-47bc-9ebf-9f29c4d49c95",
-            "status": "wip",
-            "displayTitle": "Bethel",
-            "ambiguous": true,
+            "eventsHere": [
+                "recTXaaA8SxVHBspp"
+            ],
+            "status": "publish",
+            "displayTitle": "Bethel (of Palestine)",
             "eastons": [
                 "recetiimjyhTymvUe"
             ],
@@ -8823,7 +8829,10 @@
             "dictText": [
                 "A place in Central Palestine, about 10 miles north of Jerusalem, at the head of the pass of Michmash and Ai. It was originally the royal Canaanite city of Luz ([Gen. 28:19](/gen#Gen.28.19)). The name Bethel was at first apparently given to the sanctuary in the neighbourhood of Luz, and was not given to the city itself till after its conquest by the tribe of Ephraim. When Abram entered Canaan he formed his second encampment between Bethel and Hai ([Gen. 12:8](/gen#Gen.12.8)); and on his return from Egypt he came back to it, and again \u201ccalled upon the name of the Lord\u201d (13:4). Here Jacob, on his way from Beersheba to Haran, had a vision of the angels of God ascending and descending on the ladder whose top reached unto heaven (28:10, 19); and on his return he again visited this place, \u201cwhere God talked with him\u201d (35:1-15), and there he \u201cbuilt an altar, and called the place El-beth-el\u201d (q.v.). To this second occasion of God\u2019s speaking with Jacob at Bethel, Hosea (12:4, 5) makes reference.\n\n In troublous times the people went to Bethel to ask counsel of God ([Judg. 20:18](/judg#Judg.20.18), [31](/judg#Judg.20.31); 21:2). Here the ark of the covenant was kept for a long time under the care of Phinehas, the grandson of Aaron (20:26-28). Here also Samuel held in rotation his court of justice ([1 Sam. 7:16](/1sam#1Sam.7.16)). It was included in Israel after the kingdom was divided, and it became one of the seats of the worship of the golden calf ([1 Kings 12:28-33](/1kgs#1Kgs.12.28); [13:1](/1kgs#1Kgs.13.1)). Hence the prophet Hosea ([Hos. 4:15](/hos#Hos.4.15); [5:8](/hos#Hos.5.8); [10:5](/hos#Hos.10.5), [8](/hos#Hos.10.8)) calls it in contempt Beth-aven, i.e., \u201chouse of idols.\u201d Bethel remained an abode of priests even after the kingdom of Israel was desolated by the king of Assyria ([2 Kings 17:28](/2kgs#2Kgs.17.28), [29](/2kgs#2Kgs.17.29)). At length all traces of the idolatries were extirpated by Josiah, king of Judah ([2 Kings 23:15-18](/2kgs#2Kgs.23.15)); and the place was still in existence after the Captivity ([Ezra 2:28](/ezra#Ezra.2.28); [Neh. 7:32](/neh#Neh.7.32)). It has been identified with the ruins of Beitin, a small village amid extensive ruins some 9 miles south of Shiloh."
             ],
-            "modified": "2019-07-22T00:12:28.000Z"
+            "eventGroups": [
+                "Abraham's Sojourn in Canaan"
+            ],
+            "modified": "2020-07-08T16:42:16.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -8852,8 +8861,7 @@
             "recogitoLabel": "Bethel",
             "recogitoUID": "4fc4a4ba-0892-47e7-96b6-b5aa9c7c2430",
             "status": "wip",
-            "displayTitle": "Bethel",
-            "ambiguous": true,
+            "displayTitle": "Bethel (of Judah)",
             "eastons": [
                 "recLlbrb7X5AqDPvL"
             ],
@@ -8865,7 +8873,7 @@
             "dictText": [
                 "A town in the south of Judah ([Josh. 8:17](/josh#Josh.8.17); [12:16](/josh#Josh.12.16))."
             ],
-            "modified": "2019-07-21T19:06:59.000Z"
+            "modified": "2020-07-08T16:29:27.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -10251,6 +10259,10 @@
             ],
             "recogitoStatus": "NOT_IDENTIFIABLE",
             "recogitoUID": "aa0300e0-b43c-42f0-bd06-c77cffb01fa9",
+            "eventsHere": [
+                "recTXaaA8SxVHBspp",
+                "recOQJ5V0u8MnlC6V"
+            ],
             "hasBeenHere": "terah_2841, abraham_58, lot_1830, haran_1407, sarah_2473, canaan_914, benjamin_463",
             "status": "publish",
             "displayTitle": "Canaan",
@@ -10265,7 +10277,11 @@
             "dictText": [
                 "The country which derived its name from the preceding. The name as first used by the Phoenicians denoted only the maritime plain on which Sidon was built. But in the time of Moses and Joshua it denoted the whole country to the west of the Jordan and the Dead Sea ([Deut. 11:30](/deut#Deut.11.30)). In [Josh. 5:12](/josh#Josh.5.12) the LXX. read, \u201cland of the Phoenicians,\u201d instead of \u201cland of Canaan.\u201d\n\n The name signifies \u201cthe lowlands,\u201d as distinguished from the land of Gilead on the east of Jordan, which was a mountainous district. The extent and boundaries of Canaan are fully set forth in different parts of Scripture ([Gen. 10:19](/gen#Gen.10.19); [17:8](/gen#Gen.17.8); [Num. 13:29](/num#Num.13.29); [34:8](/num#Num.34.8)). (See CANAANITES, PALESTINE.)"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "eventGroups": [
+                "Abraham's Sojourn in Canaan",
+                "Abraham's Sojourn in Canaan"
+            ],
+            "modified": "2020-07-08T16:25:17.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -11704,6 +11720,7 @@
             "kjvName": "Cush",
             "esvName": "Cush",
             "precision": "Related-Surrounding",
+            "featureType": "Region",
             "rootID": [
                 "rec3AkQ2GFvTqPxCx"
             ],
@@ -11730,7 +11747,7 @@
             "recogitoComments": "Likely \"Ethiopia\" in KJV, \"Cush\" in others.",
             "recogitoUID": "cbdd95ef-54d0-459f-a56e-fc7d9807e205",
             "hasBeenHere": "cush_962",
-            "status": "wip",
+            "status": "publish",
             "displayTitle": "Cush",
             "eastons": [
                 "reckwEpSUJb8ezuU2"
@@ -11743,7 +11760,7 @@
             "dictText": [
                 "A son, probably the eldest, of Ham, and the father of Nimrod ([Gen. 10:8](/gen#Gen.10.8); [1 Chr. 1:10](/1chr#1Chr.1.10)). From him the land of Cush seems to have derived its name. The question of the precise locality of the land of Cush has given rise to not a little controversy. The second river of Paradise surrounded the whole land of Cush ([Gen. 2:13](/gen#Gen.2.13), R.V.). The term Cush is in the Old Testament generally applied to the countries south of the Israelites. It was the southern limit of Egypt ([Ezek. 29:10](/ezek#Ezek.29.10), A.V. \u201cEthiopia,\u201d Heb. Cush), with which it is generally associated ([Ps. 68:31](/ps#Ps.68.31); [Isa. 18:1](/isa#Isa.18.1); [Jer. 46:9](/jer#Jer.46.9), etc.). It stands also associated with Elam ([Isa. 11:11](/isa#Isa.11.11)), with Persia ([Ezek. 38:5](/ezek#Ezek.38.5)), and with the Sabeans ([Isa. 45:14](/isa#Isa.45.14)). From these facts it has been inferred that Cush included Arabia and the country on the west coast of the Red Sea. Rawlinson takes it to be the country still known as Khuzi-stan, on the east side of the Lower Tigris. But there are intimations which warrant the conclusion that there was also a Cush in Africa, the Ethiopia (so called by the Greeks) of Africa. Ezekiel speaks (29:10; comp. 30:4-6) of it as lying south of Egypt. It was the country now known to us as Nubia and Abyssinia ([Isa. 18:1](/isa#Isa.18.1); [Zeph. 3:10](/zeph#Zeph.3.10), Heb. Cush). In ancient Egyptian inscriptions Ethiopia is termed Kesh. The Cushites appear to have spread along extensive tracts, stretching from the Upper Nile to the Euphrates and Tigris. At an early period there was a stream of migration of Cushites \u201cfrom Ethiopia, properly so called, through Arabia, Babylonia, and Persia, to Western India.\u201d The Hamite races, soon after their arrival in Africa, began to spread north, east, and west. Three branches of the Cushite or Ethiopian stock, moving from Western Asia, settled in the regions contiguous to the Persian Gulf. One branch, called the Cossaeans, settled in the mountainous district on the east of the Tigris, known afterwards as Susiana; another occupied the lower regions of the Euphrates and the Tigris; while a third colonized the southern shores and islands of the gulf, whence they afterwards emigrated to the Mediterranean and settled on the coast of Palestine as the Phoenicians. Nimrod was a great Cushite chief. He conquered the Accadians, a Tauranian race, already settled in Mesopotamia, and founded his kingdom, the Cushites mingling with the Accads, and so forming the Chaldean nation."
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-07-16T14:00:05.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -13539,6 +13556,7 @@
             "kjvName": "Edom",
             "esvName": "Edom",
             "precision": "Related-Surrounding",
+            "featureType": "Region",
             "rootID": [
                 "recIfdlpmLYrfPeAv"
             ],
@@ -13593,7 +13611,6 @@
                 "recKFKdvh3r3TqhWz",
                 "recSqrbP6PMldrJ2g",
                 "recYWCIzVAyEumvlz",
-                "rec2HyFTVq62V1NR5",
                 "rec6cnXirK5xKkqXx",
                 "rec6WFImYemF7c0on",
                 "recCw2CGDJJKv3CfP",
@@ -13633,12 +13650,12 @@
             "recogitoComments": "Idumea looks like a match but is pretty far West of openbible location. Needs research.|Pleaiades says it's \"located south of Iudaea and the Dead Sea\". Likely lacks precision in additional decimals. Use OpenBible for location but Pleiades for other linkages.",
             "recogitoLabel": "Idumaea",
             "recogitoUID": "a3c6f3e3-74c3-497e-a4d4-a212b8e67304",
-            "status": "wip",
+            "status": "publish",
             "displayTitle": "Edom",
             "eastons": [
                 "recyOiM9pqefofku5"
             ],
-            "verseCount": 80,
+            "verseCount": 79,
             "latitude": "31.25",
             "longitude": "34.75",
             "alphaGroup": "E",
@@ -13646,7 +13663,7 @@
             "dictText": [
                 "Idumea ([Isa. 34:5](/isa#Isa.34.5), [6](/isa#Isa.34.6); [Ezek. 35:15](/ezek#Ezek.35.15)). \u201cThe field of Edom\u201d ([Gen. 32:3](/gen#Gen.32.3)), \u201cthe land of Edom\u201d ([Gen. 36:16](/gen#Gen.36.16)), was mountainous (Obad. 1:8, 9, 19, 21). It was called the land, or \u201cthe mountain of Seir,\u201d the rough hills on the east side of the Arabah. It extended from the head of the Gulf of Akabah, the Elanitic gulf, to the foot of the Dead Sea ([1 Kings 9:26](/1kgs#1Kgs.9.26)), and contained, among other cities, the rock-hewn Sela (q.v.), generally known by the Greek name Petra ([2 Kings 14:7](/2kgs#2Kgs.14.7)). It is a wild and rugged region, traversed by fruitful valleys. Its old capital was Bozrah ([Isa. 63:1](/isa#Isa.63.1)). The early inhabitants of the land were Horites. They were destroyed by the Edomites ([Deut. 2:12](/deut#Deut.2.12)), between whom and the kings of Israel and Judah there was frequent war ([2 Kings 8:20](/2kgs#2Kgs.8.20); [2 Chr. 28:17](/2chr#2Chr.28.17)).\n\n At the time of the Exodus they churlishly refused permission to the Israelites to pass through their land ([Num. 20:14-21](/num#Num.20.14)), and ever afterwards maintained an attitude of hostility toward them. They were conquered by David ([2 Sam. 8:14](/2sam#2Sam.8.14); comp. [1 Kings 9:26](/1kgs#1Kgs.9.26)), and afterwards by Amaziah ([2 Chr. 25:11](/2chr#2Chr.25.11), [12](/2chr#2Chr.25.12)). But they regained again their independence, and in later years, during the decline of the Jewish kingdom ([2 Kings 16:6](/2kgs#2Kgs.16.6); R.V. marg., \u201cEdomites\u201d), made war against Israel. They took part with the Chaldeans when Nebuchadnezzar captured Jerusalem, and afterwards they invaded and held possession of the south of Palestine as far as Hebron. At length, however, Edom fell under the growing Chaldean power ([Jer. 27:3](/jer#Jer.27.3), [6](/jer#Jer.27.6)).\n\n There are many prophecies concerning Edom ([Isa. 34:5](/isa#Isa.34.5), [6](/isa#Isa.34.6); [Jer. 49:7-18](/jer#Jer.49.7); [Ezek. 25:13](/ezek#Ezek.25.13); [35:1-15](/ezek#Ezek.35.1); [Joel 3:19](/joel#Joel.3.19); [Amos 1:11](/amos#Amos.1.11); Obad.; [Mal. 1:3](/mal#Mal.1.3), [4](/mal#Mal.1.4)) which have been remarkably fulfilled. The present desolate condition of that land is a standing testimony to the inspiration of these prophecies. After an existence as a people for above seventeen hundred years, they have utterly disappeared, and their language even is forgotten for ever. In Petra, \u201cwhere kings kept their court, and where nobles assembled, there no man dwells; it is given by lot to birds, and beasts, and reptiles.\u201d\n\n The Edomites were Semites, closely related in blood and in language to the Israelites. They dispossessed the Horites of Mount Seir; though it is clear, from [Gen. 36](/gen#Gen.36), that they afterwards intermarried with the conquered population. Edomite tribes settled also in the south of Judah, like the Kenizzites ([Gen. 36:11](/gen#Gen.36.11)), to whom Caleb and Othniel belonged ([Josh. 15:17](/josh#Josh.15.17)). The southern part of Edom was known as Teman."
             ],
-            "modified": "2019-07-21T21:34:56.000Z"
+            "modified": "2020-07-16T14:13:11.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -13815,8 +13832,7 @@
             "recogitoComments": "Nile or Wadi El-Arish",
             "recogitoUID": "94557375-c63d-455d-8e67-c95afc37cae8",
             "status": "wip",
-            "displayTitle": "Egypt",
-            "ambiguous": true,
+            "displayTitle": "Brook of Egypt",
             "eastons": [
                 "recaI03cdUrqCbVQE"
             ],
@@ -13828,7 +13844,7 @@
             "dictText": [
                 "The land of the Nile and the pyramids, the oldest kingdom of which we have any record, holds a place of great significance in Scripture.\n\n The Egyptians belonged to the white race, and their original home is still a matter of dispute. Many scholars believe that it was in Southern Arabia, and recent excavations have shown that the valley of the Nile was originally inhabited by a low-class population, perhaps belonging to the Nigritian stock, before the Egyptians of history entered it. The ancient Egyptian language, of which the latest form is Coptic, is distantly connected with the Semitic family of speech.\n\n Egypt consists geographically of two halves, the northern being the Delta, and the southern Upper Egypt, between Cairo and the First Cataract. In the Old Testament, Northern or Lower Egypt is called Mazor, \u201cthe fortified land\u201d ([Isa. 19:6](/isa#Isa.19.6); [37](/isa#Isa.37): 25, where the A.V. mistranslates \u201cdefence\u201d and \u201cbesieged places\u201d); while Southern or Upper Egypt is Pathros, the Egyptian Pa-to-Res, or \u201cthe land of the south\u201d ([Isa. 11:11](/isa#Isa.11.11)). But the whole country is generally mentioned under the dual name of Mizraim, \u201cthe two Mazors.\u201d\n\n The civilization of Egypt goes back to a very remote antiquity. The two kingdoms of the north and south were united by Menes, the founder of the first historical dynasty of kings. The first six dynasties constitute what is known as the Old Empire, which had its capital at Memphis, south of Cairo, called in the Old Testament Moph ([Hos. 9:6](/hos#Hos.9.6)) and Noph. The native name was Mennofer, \u201cthe good place.\u201d\n\n The Pyramids were tombs of the monarchs of the Old Empire, those of Gizeh being erected in the time of the Fourth Dynasty. After the fall of the Old Empire came a period of decline and obscurity. This was followed by the Middle Empire, the most powerful dynasty of which was the Twelfth. The Fayyum was rescued for agriculture by the kings of the Twelfth Dynasty; and two obelisks were erected in front of the temple of the sun-god at On or Heliopolis (near Cairo), one of which is still standing. The capital of the Middle Empire was Thebes, in Upper Egypt.\n\n The Middle Empire was overthrown by the invasion of the Hyksos, or shepherd princes from Asia, who ruled over Egypt, more especially in the north, for several centuries, and of whom there were three dynasties of kings. They had their capital at Zoan or Tanis (now San), in the north-eastern part of the Delta. It was in the time of the Hyksos that Abraham, Jacob, and Joseph entered Egypt. The Hyksos were finally expelled about B.C. 1600, by the hereditary princes of Thebes, who founded the Eighteenth Dynasty, and carried the war into Asia. Canaan and Syria were subdued, as well as Cyprus, and the boundaries of the Egyptian Empire were fixed at the Euphrates. The Soudan, which had been conquered by the kings of the Twelfth Dynasty, was again annexed to Egypt, and the eldest son of the Pharaoh took the title of \u201cPrince of Cush.\u201d\n\n One of the later kings of the dynasty, Amenophis IV., or Khu-n-Aten, endeavoured to supplant the ancient state religion of Egypt by a new faith derived from Asia, which was a sort of pantheistic monotheism, the one supreme god being adored under the image of the solar disk. The attempt led to religious and civil war, and the Pharaoh retreated from Thebes to Central Egypt, where he built a new capital, on the site of the present Tell-el-Amarna. The cuneiform tablets that have been found there represent his foreign correspondence (about B.C. 1400). He surrounded himself with officials and courtiers of Asiatic, and more especially Canaanitish, extraction; but the native party succeeded eventually in overthrowing the government, the capital of Khu-n-Aten was destroyed, and the foreigners were driven out of the country, those that remained being reduced to serfdom.\n\n The national triumph was marked by the rise of the Nineteenth Dynasty, in the founder of which, Rameses I., we must see the \u201cnew king, who knew not Joseph.\u201d His grandson, Rameses II., reigned sixty-seven years (B.C. 1348-1281), and was an indefatigable builder. As Pithom, excavated by Dr. Naville in 1883, was one of the cities he built, he must have been the Pharaoh of the Oppression. The Pharaoh of the Exodus may have been one of his immediate successors, whose reigns were short. Under them Egypt lost its empire in Asia, and was itself attacked by barbarians from Libya and the north.\n\n The Nineteenth Dynasty soon afterwards came to an end; Egypt was distracted by civil war; and for a short time a Canaanite, Arisu, ruled over it.\n\n Then came the Twentieth Dynasty, the second Pharaoh of which, Rameses III., restored the power of his country. In one of his campaigns he overran the southern part of Palestine, where the Israelites had not yet settled. They must at the time have been still in the wilderness. But it was during the reign of Rameses III. that Egypt finally lost Gaza and the adjoining cities, which were seized by the Pulista, or Philistines.\n\n After Rameses III., Egypt fell into decay. Solomon married the daughter of one of the last kings of the Twenty-first Dynasty, which was overthrown by Shishak I., the general of the Libyan mercenaries, who founded the Twenty-second Dynasty ([1 Kings 11:40](/1kgs#1Kgs.11.40); [14:25](/1kgs#1Kgs.14.25), [26](/1kgs#1Kgs.14.26)). A list of the places he captured in Palestine is engraved on the outside of the south wall of the temple of Karnak.\n\n In the time of Hezekiah, Egypt was conquered by Ethiopians from the Soudan, who constituted the Twenty-fifth Dynasty. The third of them was Tirhakah ([2 Kings 19:9](/2kgs#2Kgs.19.9)). In B.C. 674 it was conquered by the Assyrians, who divided it into twenty satrapies, and Tirhakah was driven back to his ancestral dominions. Fourteen years later it successfully revolted under Psammetichus I. of Sais, the founder of the Twenty-sixth Dynasty. Among his successors were Necho ([2 Kings 23:29](/2kgs#2Kgs.23.29)) and Hophra, or Apries ([Jer. 37:5](/jer#Jer.37.5), [7](/jer#Jer.37.7), [11](/jer#Jer.37.11)). The dynasty came to an end in B.C. 525, when the country was subjugated by Cambyses. Soon afterwards it was organized into a Persian satrapy.\n\n The title of Pharaoh, given to the Egyptian kings, is the Egyptian Per-aa, or \u201cGreat House,\u201d which may be compared to that of \u201cSublime Porte.\u201d It is found in very early Egyptian texts.\n\n The Egyptian religion was a strange mixture of pantheism and animal worship, the gods being adored in the form of animals. While the educated classes resolved their manifold deities into manifestations of one omnipresent and omnipotent divine power, the lower classes regarded the animals as incarnations of the gods.\n\n Under the Old Empire, Ptah, the Creator, the god of Memphis, was at the head of the Pantheon; afterwards Amon, the god of Thebes, took his place. Amon, like most of the other gods, was identified with Ra, the sun-god of Heliopolis.\n\n The Egyptians believed in a resurrection and future life, as well as in a state of rewards and punishments dependent on our conduct in this world. The judge of the dead was Osiris, who had been slain by Set, the representative of evil, and afterwards restored to life. His death was avenged by his son Horus, whom the Egyptians invoked as their \u201cRedeemer.\u201d Osiris and Horus, along with Isis, formed a trinity, who were regarded as representing the sun-god under different forms.\n\n Even in the time of Abraham, Egypt was a flourishing and settled monarchy. Its oldest capital, within the historic period, was Memphis, the ruins of which may still be seen near the Pyramids and the Sphinx. When the Old Empire of Menes came to an end, the seat of empire was shifted to Thebes, some 300 miles farther up the Nile. A short time after that, the Delta was conquered by the Hyksos, or shepherd kings, who fixed their capital at Zoan, the Greek Tanis, now San, on the Tanic arm of the Nile. All this occurred before the time of the new king \u201cwhich knew not Joseph\u201d ([Ex. 1:8](/exod#Exod.1.8)). In later times Egypt was conquered by the Persians (B.C. 525), and by the Greeks under Alexander the Great (B.C. 332), after whom the Ptolemies ruled the country for three centuries. Subsequently it was for a time a province of the Roman Empire; and at last, in A.D. 1517, it fell into the hands of the Turks, of whose empire it still forms nominally a part. Abraham and Sarah went to Egypt in the time of the shepherd kings. The exile of Joseph and the migration of Jacob to \u201cthe land of Goshen\u201d occurred about 200 years later. On the death of Solomon, Shishak, king of Egypt, invaded Palestine ([1 Kings 14:25](/1kgs#1Kgs.14.25)). He left a list of the cities he conquered.\n\n A number of remarkable clay tablets, discovered at Tell-el-Amarna in Upper Egypt, are the most important historical records ever found in connection with the Bible. They most fully confirm the historical statements of the Book of Joshua, and prove the antiquity of civilization in Syria and Palestine. As the clay in different parts of Palestine differs, it has been found possible by the clay alone to decide where the tablets come from when the name of the writer is lost. The inscriptions are cuneiform, and in the Aramaic language, resembling Assyrian. The writers are Phoenicians, Amorites, and Philistines, but in no instance Hittites, though Hittites are mentioned. The tablets consist of official dispatches and letters, dating from B.C. 1480, addressed to the two Pharaohs, Amenophis III. and IV., the last of this dynasty, from the kings and governors of Phoenicia and Palestine. There occur the names of three kings killed by Joshua, Adoni-zedec, king of Jerusalem, Japhia, king of Lachish ([Josh. 10:3](/josh#Josh.10.3)), and Jabin, king of Hazor (11:1); also the Hebrews (Abiri) are said to have come from the desert.\n\n The principal prophecies of Scripture regarding Egypt are these, [Isa. 19](/isa#Isa.19); [Jer. 43](/jer#Jer.43): 8-13; 44:30; 46; [Ezek. 29](/ezek#Ezek.29)-32; and it might be easily shown that they have all been remarkably fulfilled. For example, the singular disappearance of Noph (i.e., Memphis) is a fulfilment of [Jer. 46:19](/jer#Jer.46.19), [Ezek. 30:13](/ezek#Ezek.30.13)."
             ],
-            "modified": "2019-07-22T00:14:54.000Z"
+            "modified": "2020-07-08T16:27:18.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -14432,10 +14448,12 @@
             "recogitoComments": "Use this as a label but not the modern borders",
             "recogitoLabel": "Egypt",
             "recogitoUID": "2f0169bb-b510-4688-8fca-9ea9ea19ed0d",
+            "eventsHere": [
+                "recdbdbh1VrBXfNV9"
+            ],
             "hasBeenHere": "benjamin_463, moses_2108",
             "status": "publish",
             "displayTitle": "Egypt",
-            "ambiguous": true,
             "eastons": [
                 "recaI03cdUrqCbVQE"
             ],
@@ -14447,7 +14465,10 @@
             "dictText": [
                 "The land of the Nile and the pyramids, the oldest kingdom of which we have any record, holds a place of great significance in Scripture.\n\n The Egyptians belonged to the white race, and their original home is still a matter of dispute. Many scholars believe that it was in Southern Arabia, and recent excavations have shown that the valley of the Nile was originally inhabited by a low-class population, perhaps belonging to the Nigritian stock, before the Egyptians of history entered it. The ancient Egyptian language, of which the latest form is Coptic, is distantly connected with the Semitic family of speech.\n\n Egypt consists geographically of two halves, the northern being the Delta, and the southern Upper Egypt, between Cairo and the First Cataract. In the Old Testament, Northern or Lower Egypt is called Mazor, \u201cthe fortified land\u201d ([Isa. 19:6](/isa#Isa.19.6); [37](/isa#Isa.37): 25, where the A.V. mistranslates \u201cdefence\u201d and \u201cbesieged places\u201d); while Southern or Upper Egypt is Pathros, the Egyptian Pa-to-Res, or \u201cthe land of the south\u201d ([Isa. 11:11](/isa#Isa.11.11)). But the whole country is generally mentioned under the dual name of Mizraim, \u201cthe two Mazors.\u201d\n\n The civilization of Egypt goes back to a very remote antiquity. The two kingdoms of the north and south were united by Menes, the founder of the first historical dynasty of kings. The first six dynasties constitute what is known as the Old Empire, which had its capital at Memphis, south of Cairo, called in the Old Testament Moph ([Hos. 9:6](/hos#Hos.9.6)) and Noph. The native name was Mennofer, \u201cthe good place.\u201d\n\n The Pyramids were tombs of the monarchs of the Old Empire, those of Gizeh being erected in the time of the Fourth Dynasty. After the fall of the Old Empire came a period of decline and obscurity. This was followed by the Middle Empire, the most powerful dynasty of which was the Twelfth. The Fayyum was rescued for agriculture by the kings of the Twelfth Dynasty; and two obelisks were erected in front of the temple of the sun-god at On or Heliopolis (near Cairo), one of which is still standing. The capital of the Middle Empire was Thebes, in Upper Egypt.\n\n The Middle Empire was overthrown by the invasion of the Hyksos, or shepherd princes from Asia, who ruled over Egypt, more especially in the north, for several centuries, and of whom there were three dynasties of kings. They had their capital at Zoan or Tanis (now San), in the north-eastern part of the Delta. It was in the time of the Hyksos that Abraham, Jacob, and Joseph entered Egypt. The Hyksos were finally expelled about B.C. 1600, by the hereditary princes of Thebes, who founded the Eighteenth Dynasty, and carried the war into Asia. Canaan and Syria were subdued, as well as Cyprus, and the boundaries of the Egyptian Empire were fixed at the Euphrates. The Soudan, which had been conquered by the kings of the Twelfth Dynasty, was again annexed to Egypt, and the eldest son of the Pharaoh took the title of \u201cPrince of Cush.\u201d\n\n One of the later kings of the dynasty, Amenophis IV., or Khu-n-Aten, endeavoured to supplant the ancient state religion of Egypt by a new faith derived from Asia, which was a sort of pantheistic monotheism, the one supreme god being adored under the image of the solar disk. The attempt led to religious and civil war, and the Pharaoh retreated from Thebes to Central Egypt, where he built a new capital, on the site of the present Tell-el-Amarna. The cuneiform tablets that have been found there represent his foreign correspondence (about B.C. 1400). He surrounded himself with officials and courtiers of Asiatic, and more especially Canaanitish, extraction; but the native party succeeded eventually in overthrowing the government, the capital of Khu-n-Aten was destroyed, and the foreigners were driven out of the country, those that remained being reduced to serfdom.\n\n The national triumph was marked by the rise of the Nineteenth Dynasty, in the founder of which, Rameses I., we must see the \u201cnew king, who knew not Joseph.\u201d His grandson, Rameses II., reigned sixty-seven years (B.C. 1348-1281), and was an indefatigable builder. As Pithom, excavated by Dr. Naville in 1883, was one of the cities he built, he must have been the Pharaoh of the Oppression. The Pharaoh of the Exodus may have been one of his immediate successors, whose reigns were short. Under them Egypt lost its empire in Asia, and was itself attacked by barbarians from Libya and the north.\n\n The Nineteenth Dynasty soon afterwards came to an end; Egypt was distracted by civil war; and for a short time a Canaanite, Arisu, ruled over it.\n\n Then came the Twentieth Dynasty, the second Pharaoh of which, Rameses III., restored the power of his country. In one of his campaigns he overran the southern part of Palestine, where the Israelites had not yet settled. They must at the time have been still in the wilderness. But it was during the reign of Rameses III. that Egypt finally lost Gaza and the adjoining cities, which were seized by the Pulista, or Philistines.\n\n After Rameses III., Egypt fell into decay. Solomon married the daughter of one of the last kings of the Twenty-first Dynasty, which was overthrown by Shishak I., the general of the Libyan mercenaries, who founded the Twenty-second Dynasty ([1 Kings 11:40](/1kgs#1Kgs.11.40); [14:25](/1kgs#1Kgs.14.25), [26](/1kgs#1Kgs.14.26)). A list of the places he captured in Palestine is engraved on the outside of the south wall of the temple of Karnak.\n\n In the time of Hezekiah, Egypt was conquered by Ethiopians from the Soudan, who constituted the Twenty-fifth Dynasty. The third of them was Tirhakah ([2 Kings 19:9](/2kgs#2Kgs.19.9)). In B.C. 674 it was conquered by the Assyrians, who divided it into twenty satrapies, and Tirhakah was driven back to his ancestral dominions. Fourteen years later it successfully revolted under Psammetichus I. of Sais, the founder of the Twenty-sixth Dynasty. Among his successors were Necho ([2 Kings 23:29](/2kgs#2Kgs.23.29)) and Hophra, or Apries ([Jer. 37:5](/jer#Jer.37.5), [7](/jer#Jer.37.7), [11](/jer#Jer.37.11)). The dynasty came to an end in B.C. 525, when the country was subjugated by Cambyses. Soon afterwards it was organized into a Persian satrapy.\n\n The title of Pharaoh, given to the Egyptian kings, is the Egyptian Per-aa, or \u201cGreat House,\u201d which may be compared to that of \u201cSublime Porte.\u201d It is found in very early Egyptian texts.\n\n The Egyptian religion was a strange mixture of pantheism and animal worship, the gods being adored in the form of animals. While the educated classes resolved their manifold deities into manifestations of one omnipresent and omnipotent divine power, the lower classes regarded the animals as incarnations of the gods.\n\n Under the Old Empire, Ptah, the Creator, the god of Memphis, was at the head of the Pantheon; afterwards Amon, the god of Thebes, took his place. Amon, like most of the other gods, was identified with Ra, the sun-god of Heliopolis.\n\n The Egyptians believed in a resurrection and future life, as well as in a state of rewards and punishments dependent on our conduct in this world. The judge of the dead was Osiris, who had been slain by Set, the representative of evil, and afterwards restored to life. His death was avenged by his son Horus, whom the Egyptians invoked as their \u201cRedeemer.\u201d Osiris and Horus, along with Isis, formed a trinity, who were regarded as representing the sun-god under different forms.\n\n Even in the time of Abraham, Egypt was a flourishing and settled monarchy. Its oldest capital, within the historic period, was Memphis, the ruins of which may still be seen near the Pyramids and the Sphinx. When the Old Empire of Menes came to an end, the seat of empire was shifted to Thebes, some 300 miles farther up the Nile. A short time after that, the Delta was conquered by the Hyksos, or shepherd kings, who fixed their capital at Zoan, the Greek Tanis, now San, on the Tanic arm of the Nile. All this occurred before the time of the new king \u201cwhich knew not Joseph\u201d ([Ex. 1:8](/exod#Exod.1.8)). In later times Egypt was conquered by the Persians (B.C. 525), and by the Greeks under Alexander the Great (B.C. 332), after whom the Ptolemies ruled the country for three centuries. Subsequently it was for a time a province of the Roman Empire; and at last, in A.D. 1517, it fell into the hands of the Turks, of whose empire it still forms nominally a part. Abraham and Sarah went to Egypt in the time of the shepherd kings. The exile of Joseph and the migration of Jacob to \u201cthe land of Goshen\u201d occurred about 200 years later. On the death of Solomon, Shishak, king of Egypt, invaded Palestine ([1 Kings 14:25](/1kgs#1Kgs.14.25)). He left a list of the cities he conquered.\n\n A number of remarkable clay tablets, discovered at Tell-el-Amarna in Upper Egypt, are the most important historical records ever found in connection with the Bible. They most fully confirm the historical statements of the Book of Joshua, and prove the antiquity of civilization in Syria and Palestine. As the clay in different parts of Palestine differs, it has been found possible by the clay alone to decide where the tablets come from when the name of the writer is lost. The inscriptions are cuneiform, and in the Aramaic language, resembling Assyrian. The writers are Phoenicians, Amorites, and Philistines, but in no instance Hittites, though Hittites are mentioned. The tablets consist of official dispatches and letters, dating from B.C. 1480, addressed to the two Pharaohs, Amenophis III. and IV., the last of this dynasty, from the kings and governors of Phoenicia and Palestine. There occur the names of three kings killed by Joshua, Adoni-zedec, king of Jerusalem, Japhia, king of Lachish ([Josh. 10:3](/josh#Josh.10.3)), and Jabin, king of Hazor (11:1); also the Hebrews (Abiri) are said to have come from the desert.\n\n The principal prophecies of Scripture regarding Egypt are these, [Isa. 19](/isa#Isa.19); [Jer. 43](/jer#Jer.43): 8-13; 44:30; 46; [Ezek. 29](/ezek#Ezek.29)-32; and it might be easily shown that they have all been remarkably fulfilled. For example, the singular disappearance of Noph (i.e., Memphis) is a fulfilment of [Jer. 46:19](/jer#Jer.46.19), [Ezek. 30:13](/ezek#Ezek.30.13)."
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "eventGroups": [
+                "Abraham's Sojourn in Canaan"
+            ],
+            "modified": "2020-07-08T16:27:18.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -15184,6 +15205,7 @@
             "openBibleLong": "35.38566744",
             "kjvName": "En-dor",
             "esvName": "En-dor",
+            "featureType": "City",
             "placeID": 385,
             "verses": [
                 "recsLeiko90z3Mef7",
@@ -15192,7 +15214,7 @@
             ],
             "recogitoStatus": "UNVERIFIED",
             "recogitoUID": "4575be03-ff78-40e0-a346-063bb7d8f843",
-            "status": "wip",
+            "status": "publish",
             "displayTitle": "En-dor",
             "eastons": [
                 "recjAuaJpT0Yb6tCu"
@@ -15205,7 +15227,7 @@
             "dictText": [
                 "Fountain of Dor; i.e., \u201cof the age\u201d, a place in the territory of Issachar ([Josh. 17:11](/josh#Josh.17.11)) near the scene of the great victory which was gained by Deborah and Barak over Sisera and Jabin (comp. [Ps. 83:9](/ps#Ps.83.9), [10](/ps#Ps.83.10)). To Endor, Saul resorted to consult one reputed to be a witch on the eve of his last engagement with the Philistines ([1 Sam. 28:7](/1sam#1Sam.28.7)). It is identified with the modern village of Endur, \u201ca dirty hamlet of some twenty houses, or rather huts, most of them falling to ruin,\u201d on the northern slope of Little Hermon, about 7 miles from Jezreel."
             ],
-            "modified": "2019-07-22T00:44:46.000Z"
+            "modified": "2020-07-16T14:16:26.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -15810,7 +15832,8 @@
             "latitude": "31.95378956",
             "longitude": "35.29913578",
             "alphaGroup": "E",
-            "slug": "ephraim_401"
+            "slug": "ephraim_401",
+            "modified": "2020-07-16T14:20:21.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -15826,6 +15849,9 @@
                 "rec81f3wE4gATsRRE"
             ],
             "placeID": 403,
+            "peopleBorn": [
+                "recBOUtTncbBlfEn9"
+            ],
             "verses": [
                 "reckSjkhqTGV4Egjy",
                 "rec499O308ZMrkPZy",
@@ -15839,7 +15865,8 @@
             "latitude": "31.70536129",
             "longitude": "35.2102663",
             "alphaGroup": "E",
-            "slug": "ephrath_403"
+            "slug": "ephrath_403",
+            "modified": "2020-07-11T16:18:51.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -15851,6 +15878,7 @@
             "openBibleLong": "35.2102663",
             "kjvName": "Ephrathah",
             "esvName": "Ephrathah",
+            "featureType": "City",
             "rootID": [
                 "rec81f3wE4gATsRRE"
             ],
@@ -15861,13 +15889,23 @@
             ],
             "recogitoStatus": "UNVERIFIED",
             "recogitoUID": "c8d67fbc-c4f5-453d-8caf-02a61fcbd9d0",
-            "status": "wip",
+            "status": "publish",
             "displayTitle": "Ephrathah",
+            "duplicate_of": [
+                "rec81f3wE4gATsRRE"
+            ],
+            "eastons": [
+                "recE8enXu8l7OTzc4"
+            ],
             "verseCount": 2,
             "latitude": "31.70536129",
             "longitude": "35.2102663",
             "alphaGroup": "E",
-            "slug": "ephrathah_404"
+            "slug": "ephrathah_404",
+            "dictText": [
+                "The ancient name of Bethlehem in Judah ([Gen. 35:16](/gen#Gen.35.16), [19](/gen#Gen.35.19); 48:7). In [Ruth 1:2](/ruth#Ruth.1.2) it is called \u201cBethlehem-Judah,\u201d but the inhabitants are called \u201cEphrathites;\u201d in [Micah 5:2](/mic#Mic.5.2), \u201cBethlehem-Ephratah;\u201d in [Matt. 2:6](/matt#Matt.2.6), \u201cBethlehem in the land of Judah.\u201d In [Ps. 132:6](/ps#Ps.132.6) it is mentioned as the place where David spent his youth, and where he heard much of the ark, although he never saw it till he found it long afterwards at Kirjath-jearim; i.e., the \u201ccity of the wood,\u201d or the \u201cforest-town\u201d ([1 Sam. 7:1](/1sam#1Sam.7.1); comp. [2 Sam. 6:3](/2sam#2Sam.6.3), [4](/2sam#2Sam.6.4))."
+            ],
+            "modified": "2020-07-16T14:24:22.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -17340,6 +17378,7 @@
             "openBibleLong": "34.84388289",
             "kjvName": "Gath",
             "esvName": "Gath",
+            "featureType": "City",
             "placeID": 442,
             "verses": [
                 "recaCQjG6XbhHiPbR",
@@ -17377,7 +17416,7 @@
             ],
             "recogitoStatus": "NOT_IDENTIFIABLE",
             "recogitoUID": "7a0219ab-cc6f-4094-afbf-9442d346c2db",
-            "status": "wip",
+            "status": "publish",
             "displayTitle": "Gath",
             "eastons": [
                 "rec1noLsOosFULSey"
@@ -17390,7 +17429,7 @@
             "dictText": [
                 "A wine-vat, one of the five royal cities of the Philistines ([Josh. 13:3](/josh#Josh.13.3)) on which the ark brought calamity ([1 Sam. 5:8](/1sam#1Sam.5.8), [9](/1sam#1Sam.5.9); 6:17). It was famous also as being the birthplace or residence of Goliath ([1 Sam. 17:4](/1sam#1Sam.17.4)). David fled from Saul to Achish, king of Gath ([1 Sam. 21:10](/1sam#1Sam.21.10); [27:2-4](/1sam#1Sam.27.2); [Ps. 56](/ps#Ps.56)), and his connection with it will account for the words in [2 Sam. 1:20](/2sam#2Sam.1.20). It was afterwards conquered by David ([2 Sam. 8:1](/2sam#2Sam.8.1)). It occupied a strong position on the borders of Judah and Philistia ([1 Sam. 21:10](/1sam#1Sam.21.10); [1 Chr. 18:1](/1chr#1Chr.18.1)). Its site has been identified with the hill called Tell esSafieh, the Alba Specula of the Middle Ages, which rises 695 feet above the plain on its east edge. It is noticed on monuments about B.C. 1500. (See METHEGAMMAH.)"
             ],
-            "modified": "2019-07-21T21:36:17.000Z"
+            "modified": "2020-07-16T14:25:12.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -17641,6 +17680,7 @@
             "openBibleLong": "35.64614196",
             "kjvName": "Gebal",
             "esvName": "Gebal",
+            "featureType": "City",
             "placeID": 449,
             "recogitoUri": "http://pleiades.stoa.org/places/668216",
             "recogitoLat": "34.119026",
@@ -17654,7 +17694,7 @@
             "recogitoType": "settlement,port",
             "recogitoLabel": "Byblos|Byblos, Byblos/Jbeil",
             "recogitoUID": "2eaba53e-d96c-458b-b812-cfd8301f0730",
-            "status": "wip",
+            "status": "publish",
             "displayTitle": "Gebal",
             "eastons": [
                 "recRYKnpO57DiN6j8"
@@ -17667,7 +17707,7 @@
             "dictText": [
                 "A Phoenician city, not far from the sea coast, to the north of Beyrout ([Ezek. 27:9](/ezek#Ezek.27.9)); called by the Greeks Byblos. Now Jibeil. Mentioned in the Amarna tablets.\n\n An important Phoenician text, referring to the temple of Baalath, on a monument of Yehu-melek, its king (probably B.C. 600), has been discovered."
             ],
-            "modified": "2019-07-22T00:15:36.000Z"
+            "modified": "2020-07-16T14:26:21.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -18710,7 +18750,7 @@
             "recogitoComments": "Should be father South. Pleiades lacks precision. Use OpenBible location. Alternative name found in Logos 7.",
             "recogitoLabel": "Gala(a)ditis",
             "recogitoUID": "fdfa9c21-7895-4d9f-b595-2aa209e81370",
-            "status": "wip",
+            "status": "publish",
             "displayTitle": "Gilead",
             "eastons": [
                 "recU5ZngnXWBhPidL"
@@ -18723,7 +18763,7 @@
             "dictText": [
                 "Hill of testimony, ([Gen. 31:21](/gen#Gen.31.21)), a mountainous region east of Jordan. From its mountainous character it is called \u201cthe mount of Gilead\u201d ([Gen. 31:25](/gen#Gen.31.25)). It is called also \u201cthe land of Gilead\u201d ([Num. 32:1](/num#Num.32.1)), and sometimes simply \u201cGilead\u201d ([Ps. 60:7](/ps#Ps.60.7); [Gen. 37:25](/gen#Gen.37.25)). It comprised the possessions of the tribes of Gad and Reuben and the south part of Manasseh ([Deut. 3:13](/deut#Deut.3.13); [Num. 32:40](/num#Num.32.40)). It was bounded on the north by Bashan, and on the south by Moab and Ammon ([Gen. 31:21](/gen#Gen.31.21); [Deut. 3:12-17](/deut#Deut.3.12)). \u201cHalf Gilead\u201d was possessed by Sihon, and the other half, separated from it by the river Jabbok, by Og, king of Bashan. The deep ravine of the river Hieromax (the modern Sheriat el-Mandhur) separated Bashan from Gilead, which was about 60 miles in length and 20 in breadth, extending from near the south end of the Lake of Gennesaret to the north end of the Dead Sea. Abarim, Pisgah, Nebo, and Peor are its mountains mentioned in Scripture."
             ],
-            "modified": "2019-07-21T21:36:30.000Z"
+            "modified": "2020-07-16T14:29:16.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -20022,11 +20062,6 @@
             "recogitoUri": "http://sws.geonames.org/3014029",
             "recogitoLat": "49.74721",
             "recogitoLon": "3.07301",
-            "verses": [
-                "recowi1mtTLR5Ebaq",
-                "recxTROVeLeov6GZw",
-                "recUI8F7NpHXCRytE"
-            ],
             "recogitoStatus": "UNVERIFIED",
             "recogitoLabel": "Ham",
             "recogitoUID": "b2dc3cf2-a3c5-412f-aa09-d322f59b663b",
@@ -20036,7 +20071,7 @@
             "eastons": [
                 "rec4gJzIh759Ai3Qh"
             ],
-            "verseCount": 3,
+            "verseCount": 0,
             "latitude": "30.108086",
             "longitude": "31.338220",
             "alphaGroup": "H",
@@ -20044,7 +20079,7 @@
             "dictText": [
                 "Warm, hot, and hence the south; also an Egyptian word meaning \u201cblack\u201d, the youngest son of Noah ([Gen. 5:32](/gen#Gen.5.32); comp. 9:22, 24). The curse pronounced by Noah against Ham, properly against Canaan his fourth son, was accomplished when the Jews subsequently exterminated the Canaanites.\n\n One of the most important facts recorded in [Gen. 10](/gen#Gen.10) is the foundation of the earliest monarchy in Babylonia by Nimrod the grandson of Ham (6, 8, 10). The primitive Babylonian empire was thus Hamitic, and of a cognate race with the primitive inhabitants of Arabia and of Ethiopia. (See ACCAD.)\n\n The race of Ham were the most energetic of all the descendants of Noah in the early times of the post-diluvian world."
             ],
-            "modified": "2019-07-19T03:17:49.000Z"
+            "modified": "2020-07-16T14:31:29.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -20481,6 +20516,9 @@
             "recogitoStatus": "VERIFIED",
             "recogitoLabel": "Harran",
             "recogitoUID": "d2ade7b7-76b7-47f8-b46a-6f8dc787fbbe",
+            "eventsHere": [
+                "recTXaaA8SxVHBspp"
+            ],
             "hasBeenHere": "terah_2841, abraham_58, lot_1830, haran_1407, sarah_2473, canaan_914",
             "status": "publish",
             "displayTitle": "Haran",
@@ -20495,7 +20533,10 @@
             "dictText": [
                 "Heb. haran, i.e., \u201cparched;\u201d or probably from the Accadian charana, meaning \u201ca road.\u201d A celebrated city of Western Asia, now Harran, where Abram remained, after he left Ur of the Chaldees, till his father Terah died ([Gen. 11:31](/gen#Gen.11.31), [32](/gen#Gen.11.32)), when he continued his journey into the land of Canaan. It is called \u201cCharran\u201d in the LXX. and in [Acts 7:2](/acts#Acts.7.2). It is called the \u201ccity of Nahor\u201d ([Gen. 24:10](/gen#Gen.24.10)), and Jacob resided here with Laban (30:43). It stood on the river Belik, an affluent of the Euphrates, about 70 miles above where it joins that river in Upper Mesopotamia or Padan-aram, and about 600 miles northwest of Ur in a direct line. It was on the caravan route between the east and west. It is afterwards mentioned among the towns taken by the king of Assyria ([2 Kings 19:12](/2kgs#2Kgs.19.12); [Isa. 37:12](/isa#Isa.37.12)). It was known to the Greeks and Romans under the name Carrhae."
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "eventGroups": [
+                "Abraham's Sojourn in Canaan"
+            ],
+            "modified": "2020-07-08T16:07:07.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -21300,6 +21341,7 @@
             "openBibleLong": "35.09409987",
             "kjvName": "Hebron",
             "esvName": "Hebron",
+            "featureType": "City",
             "placeID": 551,
             "recogitoUri": "http://dare.ht.lu.se/places/28353",
             "recogitoLat": "31.524354",
@@ -21374,7 +21416,10 @@
             "recogitoType": "settlement",
             "recogitoLabel": "Hebron|Hebron, el Khalil",
             "recogitoUID": "a44e3ef5-e4d4-42bd-818d-07e6d9f4fd49",
-            "status": "wip",
+            "eventsHere": [
+                "recOQJ5V0u8MnlC6V"
+            ],
+            "status": "publish",
             "displayTitle": "Hebron",
             "eastons": [
                 "recNsv5uyuDUNx5pR"
@@ -21387,7 +21432,10 @@
             "dictText": [
                 "A city in the south end of the valley of Eshcol, about midway between Jerusalem and Beersheba, from which it is distant about 20 miles in a straight line. It was built \u201cseven years before Zoan in Egypt\u201d ([Gen. 13:18](/gen#Gen.13.18); [Num. 13:22](/num#Num.13.22)). It still exists under the same name, and is one of the most ancient cities in the world. Its earlier name was Kirjath-arba ([Gen. 23:2](/gen#Gen.23.2); [Josh. 14:15](/josh#Josh.14.15); [15:3](/josh#Josh.15.3)). But \u201cHebron would appear to have been the original name of the city, and it was not till after Abraham\u2019s stay there that it received the name Kirjath-arba, who [i.e., Arba] was not the founder but the conqueror of the city, having led thither the tribe of the Anakim, to which he belonged. It retained this name till it came into the possession of Caleb, when the Israelites restored the original name Hebron\u201d (Keil, Com.). The name of this city does not occur in any of the prophets or in the New Testament. It is found about forty times in the Old. It was the favorite home of Abraham. Here he pitched his tent under the oaks of Mamre, by which name it came afterwards to be known; and here Sarah died, and was buried in the cave of Machpelah ([Gen. 23:17-20](/gen#Gen.23.17)), which he bought from Ephron the Hittite. From this place the patriarch departed for Egypt by way of Beersheba (37:14; 46:1). It was taken by Joshua and given to Caleb ([Josh. 10:36](/josh#Josh.10.36), [37](/josh#Josh.10.37); 12:10; 14:13). It became a Levitical city and a city of refuge (20:7; 21:11). When David became king of Judah this was his royal residence, and he resided here for seven and a half years ([2 Sam. 5:5](/2sam#2Sam.5.5)); and here he was anointed as king over all Israel ([2 Sam. 2:1-4](/2sam#2Sam.2.1), [11](/2sam#2Sam.2.11); [1 Kings 2:11](/1kgs#1Kgs.2.11)). It became the residence also of the rebellious Absalom ([2 Sam. 15:10](/2sam#2Sam.15.10)), who probably expected to find his chief support in the tribe of Judah, now called el-Khulil.\n\n In one part of the modern city is a great mosque, which is built over the grave of Machpelah. The first European who was permitted to enter this mosque was the Prince of Wales in 1862. It was also visited by the Marquis of Bute in 1866, and by the late Emperor Frederick of Germany (then Crown-Prince of Prussia) in 1869.\n\n One of the largest oaks in Palestine is found in the valley of Eshcol, about 3 miles north of the town. It is supposed by some to be the tree under which Abraham pitched his tent, and is called \u201cAbraham\u2019s oak.\u201d (See OAK.)"
             ],
-            "modified": "2019-07-19T14:44:49.000Z"
+            "eventGroups": [
+                "Abraham's Sojourn in Canaan"
+            ],
+            "modified": "2020-07-08T16:42:18.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -21773,6 +21821,7 @@
             "openBibleLong": "35.85725618",
             "kjvName": "Hermon",
             "esvName": "Hermon",
+            "featureType": "Mountain",
             "rootID": [
                 "rec1ET3TBR0oBaWJu"
             ],
@@ -21793,8 +21842,11 @@
             "recogitoType": "mountain",
             "recogitoLabel": "Hermon M.|Hermon Mons, Jabal al-Shaykh",
             "recogitoUID": "b8ac71e3-0f01-45c1-b75d-393daa38895b",
-            "status": "wip",
+            "status": "publish",
             "displayTitle": "Hermon",
+            "duplicate_of": [
+                "rec1ET3TBR0oBaWJu"
+            ],
             "eastons": [
                 "reckFVOU6HnBRJX5E"
             ],
@@ -21806,7 +21858,7 @@
             "dictText": [
                 "A peak, the eastern prolongation of the Anti-Lebanon range, reaching to the height of about 9,200 feet above the Mediterranean. It marks the north boundary of Palestine ([Deut. 3:8](/deut#Deut.3.8), [4](/deut#Deut.3.4):48; [Josh. 11:3](/josh#Josh.11.3), [17](/josh#Josh.11.17); 13:11; 12:1), and is seen from a great distance. It is about 40 miles north of the Sea of Galilee. It is called \u201cthe Hermonites\u201d ([Ps. 42:6](/ps#Ps.42.6)) because it has more than one summit. The Sidonians called it Sirion, and the Amorites Shenir ([Deut. 3:9](/deut#Deut.3.9); [Cant. 4:8](/song#Song.4.8)). It is also called Baal-hermon ([Judg. 3:3](/judg#Judg.3.3); [1 Chr. 5:23](/1chr#1Chr.5.23)) and Sion ([Deut. 4:48](/deut#Deut.4.48)). There is every probability that one of its three summits was the scene of the transfiguration (q.v.). The \u201cdew of Hermon\u201d is referred to ([Ps. 89](/ps#Ps.89): 12). Its modern name is Jebel-esh-Sheikh, \u201cthe chief mountain.\u201d It is one of the most conspicuous mountains in Palestine or Syria. \u201cIn whatever part of Palestine the Israelite turned his eye northward, Hermon was there, terminating the view. From the plain along the coast, from the Jordan valley, from the heights of Moab and Gilead, from the plateau of Bashan, the pale, blue, snow-capped cone forms the one feature in the northern horizon.\u201d\n\n Our Lord and his disciples climbed this \u201chigh mountain apart\u201d one day, and remained on its summit all night, \u201cweary after their long and toilsome ascent.\u201d During the night \u201che was transfigured before them; and his face did shine as the sun.\u201d The next day they descended to Caesarea Philippi."
             ],
-            "modified": "2019-07-21T21:36:46.000Z"
+            "modified": "2020-07-16T14:32:49.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -22085,6 +22137,7 @@
             "kjvName": "hill Mizar",
             "esvName": "Mount Mizar",
             "precision": "Rough",
+            "featureType": "Mountain",
             "rootID": [
                 "rec1ET3TBR0oBaWJu"
             ],
@@ -22094,7 +22147,7 @@
             ],
             "recogitoStatus": "UNVERIFIED",
             "recogitoUID": "dca76e1d-b589-4461-ba7d-77eb5505f549",
-            "status": "wip",
+            "status": "publish",
             "displayTitle": "Hill Mizar",
             "eastons": [
                 "recjMozQZAxkuTi79"
@@ -22107,7 +22160,7 @@
             "dictText": [
                 "Smallness, a summit on the eastern ridge of Lebanon, near which David lay after escaping from Absalom ([Ps. 42:6](/ps#Ps.42.6)). It may, perhaps, be the present Jebel Ajlun, thus named, \u201cthe little\u201d, in contrast with the greater elevation of Lebanon and Hermon."
             ],
-            "modified": "2020-03-10T01:19:25.000Z"
+            "modified": "2020-07-16T14:37:53.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -22339,6 +22392,7 @@
             "openBibleLong": "33.973333",
             "kjvName": "Horeb",
             "esvName": "Horeb",
+            "featureType": "Mountain",
             "rootID": [
                 "rec5Yu6987dc60uKz"
             ],
@@ -22369,7 +22423,7 @@
             "recogitoComments": "This is the same place at Mount Sinai (the coordinates are also the same her eon the datasheet)",
             "recogitoLabel": "Horeb Mons, Mon.|Horeb Mons, Horeb Mons",
             "recogitoUID": "b727e7a0-7629-4d7a-a91f-5e3ce4e9d6f3",
-            "status": "wip",
+            "status": "publish",
             "displayTitle": "Horeb",
             "duplicate_of": [
                 "rec5Yu6987dc60uKz"
@@ -22385,7 +22439,7 @@
             "dictText": [
                 "Desert or mountain of the dried-up ground, a general name for the whole mountain range of which Sinai was one of the summits ([Ex. 3:1](/exod#Exod.3.1); [17:6](/exod#Exod.17.6); [33:6](/exod#Exod.33.6); [Ps. 106:19](/ps#Ps.106.19), etc.). The modern name of the whole range is Jebel Musa. It is a huge mountain block, about 2 miles long by about 1 in breadth, with a very spacious plain at its north-east end, called the Er Rahah, in which the Israelites encamped for nearly a whole year. (See SINAI.)"
             ],
-            "modified": "2019-07-19T03:04:47.000Z"
+            "modified": "2020-07-16T14:38:59.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -23371,19 +23425,16 @@
                 "recVYcDguYN6bVqxy"
             ],
             "placeID": 608,
-            "verses": [
-                "recWxynYybtw09jYk"
-            ],
             "recogitoStatus": "UNVERIFIED",
             "recogitoUID": "4abaa23b-6a95-47d8-9def-7bc594b86839",
             "status": "wip",
             "displayTitle": "Jaar",
-            "verseCount": 1,
+            "verseCount": 0,
             "latitude": "31.771104",
             "longitude": "34.993812",
             "alphaGroup": "J",
             "slug": "jaar_608",
-            "modified": "2019-08-30T14:18:48.000Z"
+            "modified": "2020-07-10T14:41:51.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -26109,7 +26160,7 @@
             "recogitoType": "river",
             "recogitoLabel": "Iordanes (river)",
             "recogitoUID": "d4b48dc9-d32e-44da-a94f-d1dc92a14c6d",
-            "status": "wip",
+            "status": "publish",
             "displayTitle": "Jordan",
             "eastons": [
                 "recYKg2P749Siw5wQ"
@@ -26122,7 +26173,7 @@
             "dictText": [
                 "But besides these two historical fountains there is a third, called the Hasbany, which rises in the bottom of a valley at the western base of Hermon, 12 miles north of Tell-el-Kady. It joins the main stream about a mile below the junction of the Leddan and the Banias. The river thus formed is at this point about 45 feet wide, and flows in a channel from 12 to 20 feet below the plain. After this it flows, \u201cwith a swift current and a much-twisted course,\u201d through a marshy plain for some 6 miles, when it falls into the Lake Huleh, \u201cthe waters of Merom\u201d (q.v.).\n\n During this part of its course the Jordan has descended about 1,100 feet. At Banias it is 1,080 feet above sea-level. Flowing from the southern extremity of Lake Huleh, here almost on a level with the sea, it flows for 2 miles \u201cthrough a waste of islets and papyrus,\u201d and then for 9 miles through a narrow gorge in a foaming torrent onward to the Sea of Galilee (q.v.).\n\n \u201cIn the whole valley of the Jordan from the Lake Huleh to the Sea of Galilee there is not a single settled inhabitant. Along the whole eastern bank of the river and the lakes, from the base of Hermon to the ravine of Hieromax, a region of great fertility, 30 miles long by 7 or 8 wide, there are only some three inhabited villages. The western bank is almost as desolate. Ruins are numerous enough. Every mile or two is an old site of town or village, now well nigh hid beneath a dense jungle of thorns and thistles. The words of Scripture here recur to us with peculiar force: \u2018I will make your cities waste, and bring your sanctuaries unto desolation...And I will bring the land into desolation: and your enemies which dwell therein shall be astonished at it...And your land shall be desolate, and your cities waste. Then shall the land enjoy her sabbaths, as long as it lieth desolate\u2019 ([Lev. 26:31-34](/lev#Lev.26.31)).\u201d, Dr. Porter\u2019s Handbook.\n\n From the Sea of Galilee, at the level of 682 feet below the Mediterranean, the river flows through a long, low plain called \u201cthe region of Jordan\u201d ([Matt. 3:5](/matt#Matt.3.5)), and by the modern Arabs the Ghor, or \u201csunken plain.\u201d This section is properly the Jordan of Scripture. Down through the midst of the \u201cplain of Jordan\u201d there winds a ravine varying in breadth from 200 yards to half a mile, and in depth from 40 to 150 feet. Through it the Jordan flows in a rapid, rugged, tortuous course down to the Dead Sea. The whole distance from the southern extremity of the Sea of Galilee to the Dead Sea is in a straight line about 65 miles, but following the windings of the river about 200 miles, during which it falls 618 feet. The total length of the Jordan from Banias is about 104 miles in a straight line, during which it falls 2,380 feet.\n\n There are two considerable affluents which enter the river between the Sea of Galilee and the Dead Sea, both from the east."
             ],
-            "modified": "2019-07-19T01:27:38.000Z"
+            "modified": "2020-07-16T14:40:59.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -26435,9 +26486,11 @@
             "openBibleLong": "34.49479554",
             "kjvName": "Kadesh",
             "esvName": "Kadesh",
+            "featureType": "City",
             "rootID": [
                 "recVfy9PlsXdODNGL"
             ],
+            "aliases": "Kadesh-Barnea",
             "placeID": 661,
             "recogitoUri": "http://dare.ht.lu.se/places/22035",
             "recogitoLat": "30.64805",
@@ -26463,9 +26516,11 @@
             "recogitoType": "oasis",
             "recogitoLabel": "Cadesh Barnea|Cadesh Barnea, Tell el-Qudeirat",
             "recogitoUID": "d699b3aa-d829-41eb-8a81-a183fc27b8b3",
-            "status": "wip",
+            "status": "publish",
             "displayTitle": "Kadesh",
-            "ambiguous": true,
+            "duplicate_of": [
+                "recVfy9PlsXdODNGL"
+            ],
             "eastons": [
                 "rec27TeHPVfiR7nA1"
             ],
@@ -26477,7 +26532,7 @@
             "dictText": [
                 "Holy, or Kadesh-Barnea, sacred desert of wandering, a place on the south-eastern border of Palestine, about 165 miles from Horeb. It lay in the \u201cwilderness\u201d or \u201cdesert of Zin\u201d ([Gen. 14:7](/gen#Gen.14.7); [Num. 13:3-26](/num#Num.13.3); [14:29-33](/num#Num.14.29); [20:1](/num#Num.20.1); [27:14](/num#Num.27.14)), on the border of Edom (20:16). From this place, in compliance with the desire of the people, Moses sent forth \u201ctwelve spies\u201d to spy the land. After examining it in all its districts, the spies brought back an evil report, Joshua and Caleb alone giving a good report of the land (13:18-31). Influenced by the discouraging report, the people abandoned all hope of entering into the Promised Land. They remained a considerable time at Kadesh. (See  HORMAH; KORAH.) Because of their unbelief, they were condemned by God to wander for thirty-eight years in the wilderness. They took their journey from Kadesh into the deserts of Paran, \u201cby way of the Red Sea\u201d ([Deut. 2:1](/deut#Deut.2.1)). (One theory is that during these thirty-eight years they remained in and about Kadesh.)\n\n At the end of these years of wanderings, the tribes were a second time gathered together at Kadesh. During their stay here at this time Miriam died and was buried. Here the people murmured for want of water, as their forefathers had done formerly at Rephidim; and Moses, irritated by their chidings, \u201cwith his rod smote the rock twice,\u201d instead of \u201cspeaking to the rock before their eyes,\u201d as the Lord had commanded him (comp. [Num. 27:14](/num#Num.27.14); [Deut. 9:23](/deut#Deut.9.23); [Ps. 106:32](/ps#Ps.106.32), [33](/ps#Ps.106.33)). Because of this act of his, in which Aaron too was involved, neither of them was to be permitted to set foot within the Promised Land ([Num. 20:12](/num#Num.20.12), [24](/num#Num.20.24)). The king of Edom would not permit them to pass on through his territory, and therefore they commenced an eastward march, and \u201ccame unto Mount Hor\u201d (20:22).\n\n This place has been identified with \u2018Ain el-Kadeis, about 12 miles east-south-east of Beersheba. (See SPIES.)"
             ],
-            "modified": "2019-07-19T14:44:49.000Z"
+            "modified": "2020-07-15T16:12:20.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -26487,8 +26542,8 @@
             "placeLookup": "kadesh_662",
             "openBibleLat": "34.558327",
             "openBibleLong": "36.522943",
-            "kjvName": "Kadesh",
-            "esvName": "Kadesh 2",
+            "kjvName": "Tahtimhodshi",
+            "esvName": "Kadesh",
             "placeID": 662,
             "verses": [
                 "recgG1of5ghzfAVZK"
@@ -26496,14 +26551,19 @@
             "recogitoStatus": "UNVERIFIED",
             "recogitoUID": "df25b1c6-23c3-49b7-bf73-52343dfd98d4",
             "status": "wip",
-            "displayTitle": "Kadesh",
-            "ambiguous": true,
+            "displayTitle": "Tahtimhodshi",
+            "eastons": [
+                "rec4nZCuIOrmc016R"
+            ],
             "verseCount": 1,
             "latitude": "34.558327",
             "longitude": "36.522943",
             "alphaGroup": "K",
             "slug": "kadesh_662",
-            "modified": "2019-07-24T00:26:21.000Z"
+            "dictText": [
+                "The land of the newly inhabited, ([2 Sam. 24:6](/2sam#2Sam.24.6)). It is conjectured that, instead of this word, the reading should be, \u201cthe Hittites of Kadesh,\u201d the Hittite capital, on the Orontes. It was apparently some region east of the Jordan and north of Gilead."
+            ],
+            "modified": "2020-07-15T15:54:14.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -26537,12 +26597,18 @@
             "recogitoUID": "86141d76-a602-4e7a-bde6-e72726068b7d",
             "status": "wip",
             "displayTitle": "Kadesh-barnea",
+            "eastons": [
+                "rec27TeHPVfiR7nA1"
+            ],
             "verseCount": 10,
             "latitude": "30.64805",
             "longitude": "34.42261",
             "alphaGroup": "K",
             "slug": "kadesh-barnea_663",
-            "modified": "2019-07-24T00:26:20.000Z"
+            "dictText": [
+                "Holy, or Kadesh-Barnea, sacred desert of wandering, a place on the south-eastern border of Palestine, about 165 miles from Horeb. It lay in the \u201cwilderness\u201d or \u201cdesert of Zin\u201d ([Gen. 14:7](/gen#Gen.14.7); [Num. 13:3-26](/num#Num.13.3); [14:29-33](/num#Num.14.29); [20:1](/num#Num.20.1); [27:14](/num#Num.27.14)), on the border of Edom (20:16). From this place, in compliance with the desire of the people, Moses sent forth \u201ctwelve spies\u201d to spy the land. After examining it in all its districts, the spies brought back an evil report, Joshua and Caleb alone giving a good report of the land (13:18-31). Influenced by the discouraging report, the people abandoned all hope of entering into the Promised Land. They remained a considerable time at Kadesh. (See  HORMAH; KORAH.) Because of their unbelief, they were condemned by God to wander for thirty-eight years in the wilderness. They took their journey from Kadesh into the deserts of Paran, \u201cby way of the Red Sea\u201d ([Deut. 2:1](/deut#Deut.2.1)). (One theory is that during these thirty-eight years they remained in and about Kadesh.)\n\n At the end of these years of wanderings, the tribes were a second time gathered together at Kadesh. During their stay here at this time Miriam died and was buried. Here the people murmured for want of water, as their forefathers had done formerly at Rephidim; and Moses, irritated by their chidings, \u201cwith his rod smote the rock twice,\u201d instead of \u201cspeaking to the rock before their eyes,\u201d as the Lord had commanded him (comp. [Num. 27:14](/num#Num.27.14); [Deut. 9:23](/deut#Deut.9.23); [Ps. 106:32](/ps#Ps.106.32), [33](/ps#Ps.106.33)). Because of this act of his, in which Aaron too was involved, neither of them was to be permitted to set foot within the Promised Land ([Num. 20:12](/num#Num.20.12), [24](/num#Num.20.24)). The king of Edom would not permit them to pass on through his territory, and therefore they commenced an eastward march, and \u201ccame unto Mount Hor\u201d (20:22).\n\n This place has been identified with \u2018Ain el-Kadeis, about 12 miles east-south-east of Beersheba. (See SPIES.)"
+            ],
+            "modified": "2020-07-15T15:59:03.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -26894,6 +26960,7 @@
             "kjvName": "Kedar",
             "esvName": "Kedar",
             "precision": "Rough",
+            "featureType": "Region",
             "rootID": [
                 "recmCYBlOy0l5D1eB"
             ],
@@ -26911,7 +26978,7 @@
             ],
             "recogitoStatus": "NOT_IDENTIFIABLE",
             "recogitoUID": "79316f2b-123e-4ca3-8a63-fc96a668bbfa",
-            "status": "wip",
+            "status": "publish",
             "displayTitle": "Kedar",
             "eastons": [
                 "recVKl7vDZReOiYTs"
@@ -26924,7 +26991,7 @@
             "dictText": [
                 "Dark-skinned, the second son of Ishmael ([Gen. 25:13](/gen#Gen.25.13)).\n\n It is the name for the nomadic tribes of Arabs, the Bedouins generally ([Isa. 21:16](/isa#Isa.21.16); [42:11](/isa#Isa.42.11); [60:7](/isa#Isa.60.7); [Jer. 2:10](/jer#Jer.2.10); [Ezek. 27:21](/ezek#Ezek.27.21)), who dwelt in the north-west of Arabia. They lived in black hair-tents ([Cant. 1:5](/song#Song.1.5)). To \u201cdwell in the tents of Kedar\u201d was to be cut off from the worship of the true God ([Ps. 120:5](/ps#Ps.120.5)). The Kedarites suffered at the hands of Nebuchadnezzar ([Jer. 49:28](/jer#Jer.49.28), [29](/jer#Jer.49.29))."
             ],
-            "modified": "2019-07-19T03:06:52.000Z"
+            "modified": "2020-07-16T14:43:14.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -27838,7 +27905,7 @@
             "dictText": [
                 "Hardness, a city of Issachar assigned to the Gershonite Levites ([Josh. 19:20](/josh#Josh.19.20)), the same as Kishon (21:28)."
             ],
-            "modified": "2019-07-09T02:20:43.000Z"
+            "modified": "2020-07-10T13:37:20.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -27852,21 +27919,23 @@
             "esvName": "Kishon",
             "comment": "river",
             "featureType": "Water",
+            "aliases": "Kison",
             "placeID": 705,
             "verses": [
                 "recSyCdnM0OvM7fBZ",
                 "recLCFlWEZjby0xIW",
                 "recJPXyCaQ4RkFsN9",
-                "recxdCRpcLfxy9o6z"
+                "recxdCRpcLfxy9o6z",
+                "recyRv7MeJmvfVm2B"
             ],
             "recogitoStatus": "UNVERIFIED",
             "recogitoUID": "31a1f7db-2734-47d1-aedc-2bb6bc1eca73",
-            "status": "wip",
+            "status": "publish",
             "displayTitle": "Kishon",
             "eastons": [
                 "recqbLP0r6bUzJABg"
             ],
-            "verseCount": 4,
+            "verseCount": 5,
             "latitude": "32.761948",
             "longitude": "35.064096",
             "alphaGroup": "K",
@@ -27874,7 +27943,7 @@
             "dictText": [
                 "Winding, a winter torrent of Central Palestine, which rises about the roots of Tabor and Gilboa, and passing in a northerly direction through the plains of Esdraelon and Acre, falls into the Mediterranean at the north-eastern corner of the bay of Acre, at the foot of Carmel. It is the drain by which the waters of the plain of Esdraelon and of the mountains that surround it find their way to the sea. It bears the modern name of Nahr el-Mokattah, i.e., \u201cthe river of slaughter\u201d (comp. [1 Kings 18:40](/1kgs#1Kgs.18.40)). In the triumphal song of Deborah ([Judg. 5:21](/judg#Judg.5.21)) it is spoken of as \u201cthat ancient river,\u201d either (1) because it had flowed on for ages, or (2), according to the Targum, because it was \u201cthe torrent in which were shown signs and wonders to Israel of old;\u201d or (3) probably the reference is to the exploits in that region among the ancient Canaanites, for the adjoining plain of Esdraelon was the great battle-field of Palestine.\n\n This was the scene of the defeat of Sisera ([Judg. 4:7](/judg#Judg.4.7), [13](/judg#Judg.4.13)), and of the destruction of the prophets of Baal by Elijah ([1 Kings 18:40](/1kgs#1Kgs.18.40)). \u201cWhen the Kishon was at its height, it would be, partly on account of its quicksands, as impassable as the ocean itself to a retreating army.\u201d (See DEBORAH.)"
             ],
-            "modified": "2019-07-09T02:20:43.000Z"
+            "modified": "2020-07-16T14:44:09.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -28440,7 +28509,9 @@
             "recogitoUID": "0a36a7be-ba0f-4b5e-aafc-410c14e59e1d",
             "status": "wip",
             "displayTitle": "Lebanon",
-            "ambiguous": true,
+            "duplicate_of": [
+                "recCXgnK86jc1U9IB"
+            ],
             "eastons": [
                 "recLGxQRfSOJut4mb"
             ],
@@ -28452,7 +28523,7 @@
             "dictText": [
                 "White, \u201cthe white mountain of Syria,\u201d is the loftiest and most celebrated mountain range in Syria. It is a branch running southward from the Caucasus, and at its lower end forking into two parallel ranges, the eastern or Anti-Lebanon, and the western or Lebanon proper. They enclose a long valley ([Josh. 11:17](/josh#Josh.11.17)) of from 5 to 8 miles in width, called by Roman writers Coele-Syria, now called el-Buka\u2019a, \u201cthe valley,\u201d a prolongation of the valley of the Jordan.\n\n Lebanon proper, Jebel es-Sharki, commences at its southern extremity in the gorge of the Leontes, the ancient Litany, and extends north-east, parallel to the Mediterranean coast, as far as the river Eleutherus, at the plain of Emesa, \u201cthe entering of Hamath\u201d ([Num. 34:8](/num#Num.34.8); [1 Kings 8:65](/1kgs#1Kgs.8.65)), in all about 90 geographical miles in extent. The average height of this range is from 6,000 to 8,000 feet; the peak of Jebel Mukhmel is about 10,200 feet, and the Sannin about 9,000. The highest peaks are covered with perpetual snow and ice. In the recesses of the range wild beasts as of old still abound ([2 Kings 14:9](/2kgs#2Kgs.14.9); [Cant. 4:8](/song#Song.4.8)). The scenes of the Lebanon are remarkable for their grandeur and beauty, and supplied the sacred writers with many expressive similes ([Ps. 29:5](/ps#Ps.29.5), [6](/ps#Ps.29.6); [72:16](/ps#Ps.72.16); [104:16-18](/ps#Ps.104.16); [Cant. 4:15](/song#Song.4.15); [Isa. 2:13](/isa#Isa.2.13); [35:2](/isa#Isa.35.2); [60:13](/isa#Isa.60.13); [Hos. 14:5](/hos#Hos.14.5)). It is famous for its cedars ([Cant. 5:15](/song#Song.5.15)), its wines ([Hos. 14:7](/hos#Hos.14.7)), and its cool waters ([Jer. 18:14](/jer#Jer.18.14)). The ancient inhabitants were Giblites and Hivites ([Josh. 13:5](/josh#Josh.13.5); [Judg. 3:3](/judg#Judg.3.3)). It was part of the Phoenician kingdom ([1 Kings 5:2-6](/1kgs#1Kgs.5.2)).\n\n The eastern range, or Anti-Lebanon, or \u201cLebanon towards the sunrising,\u201d runs nearly parallel with the western from the plain of Emesa till it connects with the hills of Galilee in the south. The height of this range is about 5,000 feet. Its highest peak is Hermon (q.v.), from which a number of lesser ranges radiate.\n\n Lebanon is first mentioned in the description of the boundary of Palestine ([Deut. 1:7](/deut#Deut.1.7); [11:24](/deut#Deut.11.24)). It was assigned to Israel, but was never conquered ([Josh. 13:2-6](/josh#Josh.13.2); [Judg. 3:1-3](/judg#Judg.3.1)).\n\n The Lebanon range is now inhabited by a population of about 300,000 Christians, Maronites, and Druses, and is ruled by a Christian governor. The Anti-Lebanon is inhabited by Mohammedans, and is under a Turkish ruler."
             ],
-            "modified": "2019-07-19T03:10:18.000Z"
+            "modified": "2020-07-16T14:45:03.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -28532,9 +28603,8 @@
             "recogitoStatus": "VERIFIED",
             "recogitoLabel": "Lebanon",
             "recogitoUID": "725406f4-2b43-44fe-b8b0-2faf786df257",
-            "status": "wip",
+            "status": "publish",
             "displayTitle": "Lebanon",
-            "ambiguous": true,
             "eastons": [
                 "recLGxQRfSOJut4mb"
             ],
@@ -28546,7 +28616,7 @@
             "dictText": [
                 "White, \u201cthe white mountain of Syria,\u201d is the loftiest and most celebrated mountain range in Syria. It is a branch running southward from the Caucasus, and at its lower end forking into two parallel ranges, the eastern or Anti-Lebanon, and the western or Lebanon proper. They enclose a long valley ([Josh. 11:17](/josh#Josh.11.17)) of from 5 to 8 miles in width, called by Roman writers Coele-Syria, now called el-Buka\u2019a, \u201cthe valley,\u201d a prolongation of the valley of the Jordan.\n\n Lebanon proper, Jebel es-Sharki, commences at its southern extremity in the gorge of the Leontes, the ancient Litany, and extends north-east, parallel to the Mediterranean coast, as far as the river Eleutherus, at the plain of Emesa, \u201cthe entering of Hamath\u201d ([Num. 34:8](/num#Num.34.8); [1 Kings 8:65](/1kgs#1Kgs.8.65)), in all about 90 geographical miles in extent. The average height of this range is from 6,000 to 8,000 feet; the peak of Jebel Mukhmel is about 10,200 feet, and the Sannin about 9,000. The highest peaks are covered with perpetual snow and ice. In the recesses of the range wild beasts as of old still abound ([2 Kings 14:9](/2kgs#2Kgs.14.9); [Cant. 4:8](/song#Song.4.8)). The scenes of the Lebanon are remarkable for their grandeur and beauty, and supplied the sacred writers with many expressive similes ([Ps. 29:5](/ps#Ps.29.5), [6](/ps#Ps.29.6); [72:16](/ps#Ps.72.16); [104:16-18](/ps#Ps.104.16); [Cant. 4:15](/song#Song.4.15); [Isa. 2:13](/isa#Isa.2.13); [35:2](/isa#Isa.35.2); [60:13](/isa#Isa.60.13); [Hos. 14:5](/hos#Hos.14.5)). It is famous for its cedars ([Cant. 5:15](/song#Song.5.15)), its wines ([Hos. 14:7](/hos#Hos.14.7)), and its cool waters ([Jer. 18:14](/jer#Jer.18.14)). The ancient inhabitants were Giblites and Hivites ([Josh. 13:5](/josh#Josh.13.5); [Judg. 3:3](/judg#Judg.3.3)). It was part of the Phoenician kingdom ([1 Kings 5:2-6](/1kgs#1Kgs.5.2)).\n\n The eastern range, or Anti-Lebanon, or \u201cLebanon towards the sunrising,\u201d runs nearly parallel with the western from the plain of Emesa till it connects with the hills of Galilee in the south. The height of this range is about 5,000 feet. Its highest peak is Hermon (q.v.), from which a number of lesser ranges radiate.\n\n Lebanon is first mentioned in the description of the boundary of Palestine ([Deut. 1:7](/deut#Deut.1.7); [11:24](/deut#Deut.11.24)). It was assigned to Israel, but was never conquered ([Josh. 13:2-6](/josh#Josh.13.2); [Judg. 3:1-3](/judg#Judg.3.1)).\n\n The Lebanon range is now inhabited by a population of about 300,000 Christians, Maronites, and Druses, and is ruled by a Christian governor. The Anti-Lebanon is inhabited by Mohammedans, and is under a Turkish ruler."
             ],
-            "modified": "2019-07-19T03:02:50.000Z"
+            "modified": "2020-07-16T14:44:53.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -30792,6 +30862,7 @@
             "kjvName": "Meribah",
             "esvName": "Meribah",
             "precision": "Rough",
+            "featureType": "Water",
             "rootID": [
                 "recVfy9PlsXdODNGL"
             ],
@@ -30800,18 +30871,16 @@
                 "recIgD9bReLVGpWg3",
                 "recdmOirsMJM5cN8P",
                 "recjgVvtjazJwhPNi",
-                "recQUSN56u6A0ZZH2",
-                "recNh5iNJ4o5WUb8z"
+                "recQUSN56u6A0ZZH2"
             ],
             "recogitoStatus": "UNVERIFIED",
             "recogitoUID": "6d3c981c-19b8-4670-b592-0cc808df3957",
-            "status": "wip",
-            "displayTitle": "Meribah",
-            "ambiguous": true,
+            "status": "publish",
+            "displayTitle": "Meribah (of Kadesh)",
             "eastons": [
                 "recXLnnR4PsxrZZUa"
             ],
-            "verseCount": 5,
+            "verseCount": 4,
             "latitude": "30.68771281376111",
             "longitude": "34.49479554246946",
             "alphaGroup": "M",
@@ -30819,7 +30888,7 @@
             "dictText": [
                 "Another fountain having a similar origin in the desert of Zin, near to Kadesh ([Num. 27:14](/num#Num.27.14)). The two places are mentioned together in [Deut. 33:8](/deut#Deut.33.8). Some think the one place is called by the two names ([Ps. 81:7](/ps#Ps.81.7)). In smiting the rock at this place Moses showed the same impatience as the people ([Num. 20:10-12](/num#Num.20.10)). This took place near the close of the wanderings in the desert ([Num. 20:1-24](/num#Num.20.1); [Deut. 32:51](/deut#Deut.32.51))."
             ],
-            "modified": "2019-07-21T19:26:44.000Z"
+            "modified": "2020-07-15T16:11:58.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -30838,18 +30907,16 @@
             "placeID": 783,
             "verses": [
                 "recoCHsT0GIXfbqw9",
-                "recGPk6W2vqW8Zi6R",
-                "recVq9PiFh7IOqK4s"
+                "recGPk6W2vqW8Zi6R"
             ],
             "recogitoStatus": "UNVERIFIED",
             "recogitoUID": "53778a01-6831-477c-b9de-ab916c9a3eec",
             "status": "wip",
-            "displayTitle": "Meribah",
-            "ambiguous": true,
+            "displayTitle": "Meribah (of Horeb)",
             "eastons": [
                 "recG0ilSOCL63tFvu"
             ],
-            "verseCount": 3,
+            "verseCount": 2,
             "latitude": "28.73106102564323",
             "longitude": "33.84169995726504",
             "alphaGroup": "M",
@@ -30857,7 +30924,7 @@
             "dictText": [
                 "One of the names given by Moses to the fountain in the desert of Sin, near Rephidim, which issued from the rock in Horeb, which he smote by the divine command, \u201cbecause of the chiding of the children of Israel\u201d ([Ex. 17:1-7](/exod#Exod.17.1)). It was also called Massah (q.v.). It was probably in Wady Feiran, near Mount Serbal."
             ],
-            "modified": "2019-07-09T02:20:43.000Z"
+            "modified": "2020-07-15T16:08:05.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -30883,11 +30950,21 @@
             "recogitoUID": "a0895e6b-aa1f-4c1a-a5f1-72f80e9f10c5",
             "status": "wip",
             "displayTitle": "Meribah-kadesh",
+            "duplicate_of": [
+                "recVfy9PlsXdODNGL"
+            ],
+            "eastons": [
+                "rec27TeHPVfiR7nA1"
+            ],
             "verseCount": 3,
             "latitude": "30.68771281376111",
             "longitude": "34.49479554246946",
             "alphaGroup": "M",
-            "slug": "meribah-kadesh_784"
+            "slug": "meribah-kadesh_784",
+            "dictText": [
+                "Holy, or Kadesh-Barnea, sacred desert of wandering, a place on the south-eastern border of Palestine, about 165 miles from Horeb. It lay in the \u201cwilderness\u201d or \u201cdesert of Zin\u201d ([Gen. 14:7](/gen#Gen.14.7); [Num. 13:3-26](/num#Num.13.3); [14:29-33](/num#Num.14.29); [20:1](/num#Num.20.1); [27:14](/num#Num.27.14)), on the border of Edom (20:16). From this place, in compliance with the desire of the people, Moses sent forth \u201ctwelve spies\u201d to spy the land. After examining it in all its districts, the spies brought back an evil report, Joshua and Caleb alone giving a good report of the land (13:18-31). Influenced by the discouraging report, the people abandoned all hope of entering into the Promised Land. They remained a considerable time at Kadesh. (See  HORMAH; KORAH.) Because of their unbelief, they were condemned by God to wander for thirty-eight years in the wilderness. They took their journey from Kadesh into the deserts of Paran, \u201cby way of the Red Sea\u201d ([Deut. 2:1](/deut#Deut.2.1)). (One theory is that during these thirty-eight years they remained in and about Kadesh.)\n\n At the end of these years of wanderings, the tribes were a second time gathered together at Kadesh. During their stay here at this time Miriam died and was buried. Here the people murmured for want of water, as their forefathers had done formerly at Rephidim; and Moses, irritated by their chidings, \u201cwith his rod smote the rock twice,\u201d instead of \u201cspeaking to the rock before their eyes,\u201d as the Lord had commanded him (comp. [Num. 27:14](/num#Num.27.14); [Deut. 9:23](/deut#Deut.9.23); [Ps. 106:32](/ps#Ps.106.32), [33](/ps#Ps.106.33)). Because of this act of his, in which Aaron too was involved, neither of them was to be permitted to set foot within the Promised Land ([Num. 20:12](/num#Num.20.12), [24](/num#Num.20.24)). The king of Edom would not permit them to pass on through his territory, and therefore they commenced an eastward march, and \u201ccame unto Mount Hor\u201d (20:22).\n\n This place has been identified with \u2018Ain el-Kadeis, about 12 miles east-south-east of Beersheba. (See SPIES.)"
+            ],
+            "modified": "2020-07-15T15:59:03.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -31006,6 +31083,7 @@
             "kjvName": "Meshech",
             "esvName": "Meshech",
             "precision": "Related-Surrounding",
+            "featureType": "Region",
             "rootID": [
                 "recU8xPfFY5HMNYs5"
             ],
@@ -31019,7 +31097,7 @@
             ],
             "recogitoStatus": "UNVERIFIED",
             "recogitoUID": "531b855d-1565-4abf-b0c3-a2f81a80bffc",
-            "status": "wip",
+            "status": "publish",
             "displayTitle": "Meshech",
             "eastons": [
                 "recKYFCByiZXl1qwf"
@@ -31032,7 +31110,7 @@
             "dictText": [
                 "Drawing out, the sixth son of Japheth ([Gen. 10:2](/gen#Gen.10.2)), the founder of a tribe ([1 Chr. 1:5](/1chr#1Chr.1.5); [Ezek. 27:13](/ezek#Ezek.27.13); [38:2](/ezek#Ezek.38.2), [3](/ezek#Ezek.38.3)). They were in all probability the Moschi, a people inhabiting the Moschian Mountains, between the Black and the Caspian Seas. In [Ps. 120:5](/ps#Ps.120.5) the name occurs as simply a synonym for foreigners or barbarians. \u201cDuring the ascendency of the Babylonians and Persians in Western Asia, the Moschi were subdued; but it seems probable that a large number of them crossed the Caucasus range and spread over the northern steppes, mingling with the Scythians. There they became known as Muscovs, and gave that name to the Russian nation and its ancient capital by which they are still generally known throughout the East\u201d"
             ],
-            "modified": "2019-07-19T03:10:52.000Z"
+            "modified": "2020-07-16T14:48:38.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -31362,10 +31440,10 @@
             "recogitoLabel": "Madiane/Midian",
             "recogitoUID": "d72bcf93-f827-4a83-ba5e-aa504a3a6f05",
             "hasBeenHere": "moses_2108",
-            "status": "wip",
+            "status": "publish",
             "displayTitle": "Midian",
             "eastons": [
-                "recOAPNY1G2euD6ls"
+                "recsbAIGXpH4fTPVF"
             ],
             "verseCount": 44,
             "latitude": "28.75",
@@ -31373,9 +31451,9 @@
             "alphaGroup": "M",
             "slug": "midian_796",
             "dictText": [
-                "Strife, the fourth son of Abraham by Keturah, the father of the Midianites ([Gen. 25:2](/gen#Gen.25.2); [1 Chr. 1:32](/1chr#1Chr.1.32))."
+                "An Arabian tribe descended from Midian. They inhabited principally the desert north of the peninsula of Arabia. The peninsula of Sinai was the pasture-ground for their flocks. They were virtually the rulers of Arabia, being the dominant tribe. Like all Arabians, they were a nomad people. They early engaged in commercial pursuits. It was to one of their caravans that Joseph was sold ([Gen. 37:28](/gen#Gen.37.28), [36](/gen#Gen.37.36)). The next notice of them is in connection with Moses\u2019 flight from Egypt ([Ex. 2:15-21](/exod#Exod.2.15)). Here in Midian Moses became the servant and afterwards the son-in-law of Reuel or Jethro, the priest. After the Exodus, the Midianites were friendly to the Israelites so long as they traversed only their outlying pasture-ground on the west of the Arabah; but when, having passed the southern end of Edom, they entered into the land of Midian proper, they joined with Balak, the king of Moab, in a conspiracy against them ([Num. 22:4-7](/num#Num.22.4)). Balaam, who had been sent for to curse Israel, having utterly failed to do so, was dismissed by the king of Moab; nevertheless he still tarried among the Midianites, and induced them to enter into correspondence with the Israelites, so as to bring them into association with them in the licentious orgies connected with the worship of Baal-Peor. This crafty counsel prevailed. The Israelites took part in the heathen festival, and so brought upon themselves a curse indeed. Their apostasy brought upon them a severe punishment. A plague broke out amongst them, and more than twenty-four thousand of the people perished ([Num. 25:9](/num#Num.25.9)). But the Midianites were not to be left unpunished. A terrible vengeance was denounced against them. A thousand warriors from each tribe, under the leadership of Phinehas, went forth against them. The Midianites were utterly routed. Their cities were consumed by fire, five of their kings were put to death, and the whole nation was destroyed ([Josh. 13:21](/josh#Josh.13.21), [22](/josh#Josh.13.22)). Balaam also perished by the sword, receiving the \u201cwages of his unrighteousness\u201d ([Num. 31:8](/num#Num.31.8); 2 Pet. 2:15). The whole of the country on the east of Jordan, now conquered by the Israelites (see SIHON;  OG), was divided between the two tribes of Reuben and Gad and the half tribe of Manasseh.\n\n Some two hundred and fifty years after this the Midianites had regained their ancient power, and in confederation with the Amalekites and the \u201cchildren of the east\u201d they made war against their old enemies the Israelites, whom for seven years they oppressed and held in subjection. They were at length assailed by Gideon in that ever-memorable battle in the great plain of Esdraelon, and utterly destroyed ([Judg. 6:1](/judg#Judg.6.1)-ch. 7). Frequent allusions are afterwards made to this great victory ([Ps. 83:10](/ps#Ps.83.10), [12](/ps#Ps.83.12); [Isa. 9:4](/isa#Isa.9.4); [10:6](/isa#Isa.10.6)). They now wholly pass away from the page of history both sacred and profane."
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-07-16T14:50:38.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -32074,6 +32152,7 @@
             "kjvName": "Moab",
             "esvName": "Moab",
             "precision": "Related-Surrounding",
+            "featureType": "Region",
             "rootID": [
                 "rechszjphdueUPvPi"
             ],
@@ -32175,7 +32254,6 @@
                 "recL68xrlP1S4PybE",
                 "recmWOa8bVBBbgOmG",
                 "rec6cnXirK5xKkqXx",
-                "recCw2CGDJJKv3CfP",
                 "rec00ovqHcGrkzqU2",
                 "recs6sYEnH9mNccdw",
                 "rec3qQg8n97ovgoVl",
@@ -32241,20 +32319,20 @@
             "recogitoLabel": "Moab",
             "recogitoUID": "88bf1211-0eb5-4d63-bc00-cb36528d9bcc",
             "hasBeenHere": "moses_2108",
-            "status": "wip",
+            "status": "publish",
             "displayTitle": "Moab",
             "eastons": [
-                "recVeHlUyBgRcX1y7"
+                "recZxcNw7wsbfH86H"
             ],
-            "verseCount": 149,
+            "verseCount": 148,
             "latitude": "31.499159",
             "longitude": "35.780512",
             "alphaGroup": "M",
             "slug": "moab_815",
             "dictText": [
-                "The seed of the father, or, according to others, the desirable land, the eldest son of Lot ([Gen. 19:37](/gen#Gen.19.37)), of incestuous birth."
+                "The land of Moab ([Jer. 48:24](/jer#Jer.48.24)), called also the \u201ccountry of Moab\u201d ([Ruth 1:2](/ruth#Ruth.1.2), [6](/ruth#Ruth.1.6); 2:6), on the east of Jordan and the Dead Sea, and south of the Arnon ([Num. 21:13](/num#Num.21.13), [26](/num#Num.21.26)). In a wider sense it included the whole region that had been occupied by the Amorites. It bears the modern name of Kerak.\n\n In the Plains of Moab, opposite Jericho ([Num. 22:1](/num#Num.22.1); [26:63](/num#Num.26.63); [Josh. 13:32](/josh#Josh.13.32)), the children of Israel had their last encampment before they entered the land of Canaan. It was at that time in the possession of the Amorites ([Num. 21:22](/num#Num.21.22)). \u201cMoses went up from the plains of Moab unto the mountain of Nebo, to the top of Pisgah,\u201d and \u201cdied there in the land of Moab, according to the word of the Lord\u201d ([Deut. 34:5](/deut#Deut.34.5), [6](/deut#Deut.34.6)). \u201cSurely if we had nothing else to interest us in the land of Moab, the fact that it was from the top of Pisgah, its noblest height, this mightiest of the prophets looked out with eye undimmed upon the Promised Land; that it was here on Nebo, its loftiest mountain, that he died his solitary death; that it was here, in the valley over against Beth-peor, he found his mysterious sepulchre, we have enough to enshrine the memory in our hearts.\u201d"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-07-16T14:50:36.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -32301,9 +32379,11 @@
             "kjvName": "Moreh",
             "esvName": "Moreh",
             "precision": "Rough",
+            "featureType": "Region",
             "rootID": [
                 "recUySlrBva4ffoVs"
             ],
+            "aliases": "Shechem",
             "placeID": 817,
             "recogitoUri": "http://sws.geonames.org/283366",
             "recogitoLat": "32.22162",
@@ -32315,9 +32395,11 @@
             "recogitoStatus": "UNVERIFIED",
             "recogitoLabel": "Kafr Qadd\u016bm",
             "recogitoUID": "a76d0784-fbd1-4560-9091-e22808e84d17",
-            "status": "wip",
-            "displayTitle": "Moreh",
-            "ambiguous": true,
+            "eventsHere": [
+                "recTXaaA8SxVHBspp"
+            ],
+            "status": "publish",
+            "displayTitle": "Moreh (Shechem)",
             "eastons": [
                 "recqKAEqfFIQEHjGx"
             ],
@@ -32329,7 +32411,10 @@
             "dictText": [
                 "A Canaanite probably who inhabited the district south of Shechem, between Mounts Ebal and Gerizim, and gave his name to the \u201cplain\u201d there ([Gen. 12:6](/gen#Gen.12.6)). Here at this \u201cplain,\u201d or rather (R.V.) \u201coak,\u201d of Moreh, Abraham built his first altar in the land of Palestine; and here the Lord appeared unto him. He afterwards left this plain and moved southward, and pitched his tent between Bethel on the west and Hai on the east ([Gen. 12:7](/gen#Gen.12.7), [8](/gen#Gen.12.8))."
             ],
-            "modified": "2019-07-09T02:20:43.000Z"
+            "eventGroups": [
+                "Abraham's Sojourn in Canaan"
+            ],
+            "modified": "2020-07-08T16:44:41.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -32352,8 +32437,7 @@
             "recogitoLabel": "Kafr Qadd\u016bm",
             "recogitoUID": "c573a11f-c796-4d7d-b8fe-d41d54abdfb6",
             "status": "wip",
-            "displayTitle": "Moreh",
-            "ambiguous": true,
+            "displayTitle": "Moreh (little Hermon)",
             "eastons": [
                 "reccITWo3lnpjzXB6"
             ],
@@ -32365,7 +32449,7 @@
             "dictText": [
                 "Probably identical with \u201clittle Hermon,\u201d the modern Jebel ed-Duhy, or perhaps one of the lower spurs of this mountain. It is a gray ridge parallel to Gilboa on the north; and between the two lay the battle-field, the plain of Jezreel (q.v.), where Gideon overthrew the Midianites ([Judg. 7:1-12](/judg#Judg.7.1))."
             ],
-            "modified": "2019-07-09T02:20:43.000Z"
+            "modified": "2020-07-08T16:31:01.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -33835,6 +33919,7 @@
             "kjvName": "mount Zion",
             "esvName": "Mount Zion",
             "precision": "Related-Within",
+            "featureType": "Mountain",
             "rootID": [
                 "recL1WV82pXaRBQ59"
             ],
@@ -33870,11 +33955,8 @@
             "recogitoComments": "Same as Jerusalem|Same as Zion; not sure if it is exactly the same as Jerusalem, they are used as synomns in Scripture, but I feel like it could probably be categorized as a seperate place since Jerusalem also extended to Moriah (the temple mount)",
             "recogitoLabel": "Ierusalem/Hierosolyma/Col. Aelia Capitolina|Ierusalem/Hierosolyma/Col. Aelia Capitolina, Jerusalem",
             "recogitoUID": "1bb074b2-fcda-44bc-95e8-e0998c42a879",
-            "status": "wip",
+            "status": "publish",
             "displayTitle": "Mount Zion",
-            "duplicate_of": [
-                "recL1WV82pXaRBQ59"
-            ],
             "eastons": [
                 "recZxZ4LLDtezvPJT"
             ],
@@ -33886,7 +33968,7 @@
             "dictText": [
                 "Sunny; height, one of the eminences on which Jerusalem was built. It was surrounded on all sides, except the north, by deep valleys, that of the Tyropoeon (q.v.) separating it from Moriah (q.v.), which it surpasses in height by 105 feet. It was the south-eastern hill of Jerusalem.\n\n When David took it from the Jebusites ([Josh. 15:63](/josh#Josh.15.63); [2 Sam. 5:7](/2sam#2Sam.5.7)) he built on it a citadel and a palace, and it became \u201cthe city of David\u201d ([1 Kings 8:1](/1kgs#1Kgs.8.1); [2 Kings 19:21](/2kgs#2Kgs.19.21), [31](/2kgs#2Kgs.19.31); [1 Chr. 11:5](/1chr#1Chr.11.5)). In the later books of the Old Testament this name was sometimes used ([Ps. 87:2](/ps#Ps.87.2); [149:2](/ps#Ps.149.2); [Isa. 33:14](/isa#Isa.33.14); [Joel 2:1](/joel#Joel.2.1)) to denote Jerusalem in general, and sometimes God\u2019s chosen Israel ([Ps. 51:18](/ps#Ps.51.18); [87:5](/ps#Ps.87.5)).\n\n In the New Testament (see SION) it is used sometimes to denote the Church of God ([Heb. 12:22](/heb#Heb.12.22)), and sometimes the heavenly city ([Rev. 14:1](/rev#Rev.14.1))."
             ],
-            "modified": "2020-03-10T01:19:25.000Z"
+            "modified": "2020-07-16T14:52:22.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -34697,6 +34779,7 @@
             "kjvName": "Negeb",
             "esvName": "Negeb",
             "precision": "Related-Surrounding",
+            "featureType": "Region",
             "placeID": 885,
             "recogitoUri": "http://pleiades.stoa.org/places/687985",
             "recogitoLat": "30.25",
@@ -34728,7 +34811,6 @@
                 "reczwtYtCpHxFd3Tz",
                 "recVWuDxPdatFQzIm",
                 "recifABbGjPjsatOV",
-                "rec1Nel23RGHW8HcG",
                 "rec0L6HmCaKKRtrUO",
                 "recE71VBpxXwn9mY6",
                 "recF8NysLtrn0e3Wi",
@@ -34744,12 +34826,15 @@
             "recogitoType": "labeled feature",
             "recogitoLabel": "Negev",
             "recogitoUID": "79f965bc-9e97-469e-a345-3f4d4b978bbb",
-            "status": "wip",
+            "eventsHere": [
+                "recTXaaA8SxVHBspp"
+            ],
+            "status": "publish",
             "displayTitle": "Negeb",
             "eastons": [
                 "recCR3M8adKcb3cGe"
             ],
-            "verseCount": 37,
+            "verseCount": 36,
             "latitude": "30.25",
             "longitude": "34.75",
             "alphaGroup": "N",
@@ -34757,7 +34842,10 @@
             "dictText": [
                 "Heb. Negeb, that arid district to the south of Palestine through which lay the caravan route from Central Palestine to Egypt ([Gen. 12:9](/gen#Gen.12.9); [13:1](/gen#Gen.13.1), [3](/gen#Gen.13.3); [46:1-6](/gen#Gen.46.1)). \u201cThe Negeb comprised a considerable but irregularly-shaped tract of country, its main portion stretching from the mountains and lowlands of Judah in the north to the mountains of Azazemeh in the south, and from the Dead Sea and southern Ghoron the east to the Mediterranean on the west.\u201d In [Ezek. 20:46](/ezek#Ezek.20.46) (21:1 in Heb.) three different Hebrew words are all rendered \u201csouth.\u201d (1) \u201cSet thy face toward the south\u201d (Teman, the region on the right, [1 Sam. 33:24](/1sam#1Sam.33.24)); (2) \u201cDrop thy word toward the south\u201d (Negeb, the region of dryness, [Josh. 15:4](/josh#Josh.15.4)); (3) \u201cProphesy against the forest of the south field\u201d (Darom, the region of brightness, [Deut. 33:23](/deut#Deut.33.23)). In [Job 37:9](/job#Job.37.9) the word \u201csouth\u201d is literally \u201cchamber,\u201d used here in the sense of treasury (comp. 38:22; [Ps. 135:7](/ps#Ps.135.7)). This verse is rendered in the Revised Version \u201cout of the chamber of the south.\u201d"
             ],
-            "modified": "2019-07-19T01:27:38.000Z"
+            "eventGroups": [
+                "Abraham's Sojourn in Canaan"
+            ],
+            "modified": "2020-07-10T14:40:46.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -35734,6 +35822,7 @@
             "kjvName": "Ophir",
             "esvName": "Ophir",
             "precision": "Related-Surrounding",
+            "featureType": "Region",
             "rootID": [
                 "recxCz0P7YIE6Jp40"
             ],
@@ -35758,7 +35847,7 @@
             "recogitoComments": "Sofera similarly aliased but location far off OpenBible source.",
             "recogitoLabel": "Sofera",
             "recogitoUID": "45a48243-5d34-4b9f-930f-8583fec4a573",
-            "status": "wip",
+            "status": "publish",
             "displayTitle": "Ophir",
             "eastons": [
                 "recw3ZJaQk6i41Qpg"
@@ -35771,7 +35860,7 @@
             "dictText": [
                 "Some region famous for its gold ([1 Kings 9:28](/1kgs#1Kgs.9.28); [10:11](/1kgs#1Kgs.10.11); [22:48](/1kgs#1Kgs.22.48); [Job 22:24](/job#Job.22.24); [28:16](/job#Job.28.16); [Isa. 13:12](/isa#Isa.13.12)). In the LXX. this word is rendered \u201cSophir,\u201d and \u201cSofir\u201d is the Coptic name for India, which is the rendering of the Arabic version, as also of the Vulgate. Josephus has identified it with the Golden Chersonese, i.e., the Malay peninsula. It is now generally identified with Abhira, at the mouth of the Indus. Much may be said, however, in favour of the opinion that it was somewhere in Arabia."
             ],
-            "modified": "2019-07-09T02:20:43.000Z"
+            "modified": "2020-07-16T14:53:40.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -37086,6 +37175,7 @@
             "kjvName": "Philistia",
             "esvName": "Philistia",
             "precision": "Related-Surrounding",
+            "featureType": "Region",
             "rootID": [
                 "recxiSg5QZWkj9Hy3"
             ],
@@ -37101,7 +37191,7 @@
             "recogitoStatus": "NOT_IDENTIFIABLE",
             "recogitoComments": "Region",
             "recogitoUID": "96821436-1497-4473-9c6a-bfd6307b9c38",
-            "status": "wip",
+            "status": "publish",
             "displayTitle": "Philistia",
             "eastons": [
                 "recXidlph2qm9XIFj"
@@ -37114,7 +37204,7 @@
             "dictText": [
                 "=Palestine (q.v.), \u201cthe land of the Philistines\u201d ([Ps. 60:8](/ps#Ps.60.8); [87:4](/ps#Ps.87.4); [108:9](/ps#Ps.108.9)). The word is supposed to mean \u201cthe land of wanderers\u201d or \u201cof strangers.\u201d"
             ],
-            "modified": "2019-07-21T22:42:34.000Z"
+            "modified": "2020-07-16T14:57:13.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -37612,6 +37702,7 @@
             "openBibleLong": "35.5599",
             "kjvName": "plain of Jordan",
             "esvName": "Jordan Valley",
+            "featureType": "Region",
             "placeID": 654,
             "verses": [
                 "recHAmZOJ6b38T6Rm",
@@ -37619,7 +37710,10 @@
             ],
             "recogitoStatus": "UNVERIFIED",
             "recogitoUID": "adb30543-273d-4c6a-be59-a0610d69a290",
-            "status": "wip",
+            "eventsHere": [
+                "recOQJ5V0u8MnlC6V"
+            ],
+            "status": "publish",
             "displayTitle": "Plain of Jordan",
             "eastons": [
                 "recxipXViqnzLhlyd"
@@ -37632,7 +37726,10 @@
             "dictText": [
                 "The Jabbok or Wady Zerka, formerly the northern boundary of Ammon. It enters the Jordan about 20 miles north of Jericho.\n\n The first historical notice of the Jordan is in the account of the separation of Abraham and Lot ([Gen. 13:10](/gen#Gen.13.10)). \u201cLot beheld the plain of Jordan as the garden of the Lord.\u201d Jacob crossed and recrossed \u201cthis Jordan\u201d (32:10). The Israelites passed over it as \u201con dry ground\u201d ([Josh. 3:17](/josh#Josh.3.17); [Ps. 114:3](/ps#Ps.114.3)). Twice afterwards its waters were miraculously divided at the same spot by Elijah and Elisha ([2 Kings 2:8](/2kgs#2Kgs.2.8), [14](/2kgs#2Kgs.2.14)).\n\n The Jordan is mentioned in the Old Testament about one hundred and eighty times, and in the New Testament fifteen times. The chief events in gospel history connected with it are (1) John the Baptist\u2019s ministry, when \u201cthere went out to him Jerusalem, and all Judaea, and were baptized of him in Jordan\u201d ([Matt. 3:6](/matt#Matt.3.6))."
             ],
-            "modified": "2020-03-10T01:19:25.000Z"
+            "eventGroups": [
+                "Abraham's Sojourn in Canaan"
+            ],
+            "modified": "2020-07-08T16:46:33.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -38173,6 +38270,7 @@
             "kjvName": "Rahab",
             "esvName": "Rahab",
             "precision": "Related-Surrounding",
+            "featureType": "Region",
             "rootID": [
                 "recK0feE032FY9Hxi"
             ],
@@ -38184,14 +38282,23 @@
             ],
             "recogitoStatus": "UNVERIFIED",
             "recogitoUID": "b610aedc-fced-4ad6-ae09-1b4dca0a2b56",
-            "status": "wip",
+            "status": "publish",
             "displayTitle": "Rahab",
+            "duplicate_of": [
+                "recMFUSc6GzrLNNtt"
+            ],
+            "eastons": [
+                "recTzMjlsp71DaVaW"
+            ],
             "verseCount": 3,
             "latitude": "30.108086",
             "longitude": "31.338220",
             "alphaGroup": "R",
             "slug": "rahab_969",
-            "modified": "2019-07-24T00:36:48.000Z"
+            "dictText": [
+                "Insolence; pride, a poetical name applied to Egypt in [Ps. 87:4](/ps#Ps.87.4); [89:10](/ps#Ps.89.10); [Isa. 51:9](/isa#Isa.51.9), as \u201cthe proud one.\u201d\n\n Rahab, (Heb. Rahab; i.e., \u201cbroad,\u201d \u201clarge\u201d). When the Hebrews were encamped at Shittim, in the \u201cArabah\u201d or Jordan valley opposite Jericho, ready to cross the river, Joshua, as a final preparation, sent out two spies to \u201cspy the land.\u201d After five days they returned, having swum across the river, which at this season, the month Abib, overflowed its banks from the melting of the snow on Lebanon. The spies reported how it had fared with them ([Josh. 2:1-7](/josh#Josh.2.1)). They had been exposed to danger in Jericho, and had been saved by the fidelity of Rahab the harlot, to whose house they had gone for protection. When the city of Jericho fell (6:17-25), Rahab and her whole family were preserved according to the promise of the spies, and were incorporated among the Jewish people. She afterwards became the wife of Salmon, a prince of the tribe of Judah ([Ruth 4:21](/ruth#Ruth.4.21); [1 Chr. 2:11](/1chr#1Chr.2.11); [Matt. 1:5](/matt#Matt.1.5)). \u201cRahab\u2019s being asked to bring out the spies to the soldiers ([Josh. 2:3](/josh#Josh.2.3)) sent for them, is in strict keeping with Eastern manners, which would not permit any man to enter a woman\u2019s house without her permission. The fact of her covering the spies with bundles of flax which lay on her house-roof (2:6) is an \u2018undesigned coincidence\u2019 which strictly corroborates the narrative. It was the time of the barley harvest, and flax and barley are ripe at the same time in the Jordan valley, so that the bundles of flax stalks might have been expected to be drying just then\u201d (Geikie\u2019s Hours, etc., ii., 390)."
+            ],
+            "modified": "2020-07-16T14:57:14.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -39801,8 +39908,6 @@
                 "recvsFijaPX99FIfD",
                 "recAmeippK3TYLF65",
                 "recjRlRPXtJa3toz6",
-                "recAel4fSxYsiHjk5",
-                "recgwpxxlnN7Ly2WK",
                 "recmPH772HGHx0OOT",
                 "recOqyWSSVHTq2caT",
                 "recK1noebY3EkRw2c",
@@ -39820,7 +39925,7 @@
             "eastons": [
                 "recDS7biYWYT0cmRO"
             ],
-            "verseCount": 12,
+            "verseCount": 10,
             "latitude": "34.74942377777777",
             "longitude": "40.93640094",
             "alphaGroup": "R",
@@ -39828,7 +39933,7 @@
             "dictText": [
                 "An event recorded in [Gen. 7](/gen#Gen.7) and 8. (See DELUGE.) In [Josh. 24:2](/josh#Josh.24.2), [3](/josh#Josh.24.3), [14](/josh#Josh.24.14), [15](/josh#Josh.24.15), the word \u201cflood\u201d (R.V., \u201criver\u201d) means the river Euphrates. In [Ps. 66:6](/ps#Ps.66.6), this word refers to the river Jordan."
             ],
-            "modified": "2020-03-10T01:19:25.000Z"
+            "modified": "2020-07-10T13:31:54.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -40199,6 +40304,7 @@
             "openBibleLong": "35.234935",
             "kjvName": "Salem",
             "esvName": "Salem",
+            "featureType": "City",
             "rootID": [
                 "recL1WV82pXaRBQ59"
             ],
@@ -40216,7 +40322,7 @@
             "recogitoComments": "Duplicate/alernative name of Jerusalem.",
             "recogitoLabel": "Salem",
             "recogitoUID": "c6384436-36c7-41ba-8a83-cc2cab156c4a",
-            "status": "wip",
+            "status": "publish",
             "displayTitle": "Salem",
             "duplicate_of": [
                 "recL1WV82pXaRBQ59"
@@ -40232,7 +40338,7 @@
             "dictText": [
                 "Peace, commonly supposed to be another name of Jerusalem ([Gen. 14:18](/gen#Gen.14.18); [Ps. 76:2](/ps#Ps.76.2); [Heb. 7:1](/heb#Heb.7.1), [2](/heb#Heb.7.2))."
             ],
-            "modified": "2019-07-09T02:20:43.000Z"
+            "modified": "2020-07-16T14:57:17.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -41079,6 +41185,7 @@
             "kjvName": "Seba",
             "esvName": "Seba",
             "precision": "Related-Surrounding",
+            "featureType": "Region",
             "rootID": [
                 "recPLjuDonDk53ED5"
             ],
@@ -41093,8 +41200,11 @@
             "recogitoStatus": "UNVERIFIED",
             "recogitoLabel": "Seba",
             "recogitoUID": "93f9c3c7-3247-4875-8372-4ea3ab6b61ef",
-            "status": "wip",
+            "status": "publish",
             "displayTitle": "Seba",
+            "duplicate_of": [
+                "recPLjuDonDk53ED5"
+            ],
             "eastons": [
                 "recWoMlo87CFa5fkY"
             ],
@@ -41106,7 +41216,7 @@
             "dictText": [
                 "The name of a country and nation ([Isa. 43:3](/isa#Isa.43.3); [45:14](/isa#Isa.45.14)) mentioned along with Egypt and Ethiopia, and therefore probably in north-eastern Africa. The ancient name of Meroe. The kings of Sheba and Seba are mentioned together in [Ps. 72:10](/ps#Ps.72.10)."
             ],
-            "modified": "2019-07-09T02:20:43.000Z"
+            "modified": "2020-07-16T14:58:01.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -42115,7 +42225,7 @@
             "recogitoStatus": "NOT_IDENTIFIABLE",
             "recogitoComments": "Too far off biblical atlas info. Possibly Ma'rib in Yemen.",
             "recogitoUID": "6a5c2aa4-57fc-4b47-9faf-a7e2f48926eb",
-            "status": "wip",
+            "status": "publish",
             "displayTitle": "Sheba",
             "eastons": [
                 "recXoCHAdV9RUAXyx"
@@ -42128,7 +42238,7 @@
             "dictText": [
                 "Heb. id. A kingdom in Arabia Felix. Sheba, in fact, was Saba in Southern Arabia, the Sabaeans of classical geography, who carried on the trade in spices with the other peoples of the ancient world. They were Semites, speaking one of the two main dialects of Himyaritic or South Arabic. Sheba had become a monarchy before the days of Solomon. Its queen brought him gold, spices, and precious stones ([1 Kings 10:1-13](/1kgs#1Kgs.10.1)). She is called by our Lord the \u201cqueen of the south\u201d ([Matt. 12:42](/matt#Matt.12.42))."
             ],
-            "modified": "2019-07-22T00:25:04.000Z"
+            "modified": "2020-07-16T14:58:16.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -42175,6 +42285,8 @@
             "openBibleLong": "35.28179867",
             "kjvName": "Shechem",
             "esvName": "Shechem",
+            "featureType": "Region",
+            "aliases": "Moreh",
             "placeID": 1069,
             "recogitoUri": "http://sws.geonames.org/282615",
             "recogitoLat": "32.22111",
@@ -42224,9 +42336,11 @@
             "recogitoStatus": "VERIFIED",
             "recogitoLabel": "Nablus",
             "recogitoUID": "faa814f8-a474-4df9-9352-d45c44880556",
-            "status": "wip",
+            "eventsHere": [
+                "recTXaaA8SxVHBspp"
+            ],
+            "status": "publish",
             "displayTitle": "Shechem",
-            "ambiguous": true,
             "eastons": [
                 "recLrEOyGPYK5n7fi"
             ],
@@ -42238,7 +42352,10 @@
             "dictText": [
                 "A city in Samaria ([Gen. 33:18](/gen#Gen.33.18)), called also Sichem (12:6), Sychem ([Acts 7:16](/acts#Acts.7.16)). It stood in the narrow sheltered valley between Ebal on the north and Gerizim on the south, these mountains at their base being only some 500 yards apart. Here Abraham pitched his tent and built his first altar in the Promised Land, and received the first divine promise ([Gen. 12:6](/gen#Gen.12.6), [7](/gen#Gen.12.7)). Here also Jacob \u201cbought a parcel of a field at the hands of the children of Hamor\u201d after his return from Mesopotamia, and settled with his household, which he purged from idolatry by burying the teraphim of his followers under an oak tree, which was afterwards called \u201cthe oak of the sorcerer\u201d ([Gen. 33:19](/gen#Gen.33.19); [35:4](/gen#Gen.35.4); [Judg. 9:37](/judg#Judg.9.37)). (See MEONENIM.) Here too, after a while, he dug a well, which bears his name to this day ([John 4:5](/john#John.4.5), [39-42](/john#John.4.39)). To Shechem Joshua gathered all Israel \u201cbefore God,\u201d and delivered to them his second parting address ([Josh. 24:1-15](/josh#Josh.24.1)). He \u201cmade a covenant with the people that day\u201d at the very place where, on first entering the land, they had responded to the law from Ebal and Gerizim ([Josh. 24:25](/josh#Josh.24.25)), the terms of which were recorded \u201cin the book of the law of God\u201d, i.e., in the roll of the law of Moses; and in memory of this solemn transaction a great stone was set up \u201cunder an oak\u201d (comp. [Gen. 28:18](/gen#Gen.28.18); [31:44-48](/gen#Gen.31.44); [Ex. 24:4](/exod#Exod.24.4); [Josh. 4:3](/josh#Josh.4.3), [8](/josh#Josh.4.8), [9](/josh#Josh.4.9)), possibly the old \u201coak of Moreh,\u201d as a silent witness of the transaction to all coming time.\n\n Shechem became one of the cities of refuge, the central city of refuge for Western Palestine ([Josh. 20:7](/josh#Josh.20.7)), and here the bones of Joseph were buried (24:32). Rehoboam was appointed king in Shechem ([1 Kings 12:1](/1kgs#1Kgs.12.1), [19](/1kgs#1Kgs.12.19)), but Jeroboam afterwards took up his residence here. This city is mentioned in connection with our Lord\u2019s conversation with the woman of Samaria ([John 4:5](/john#John.4.5)); and thus, remaining as it does to the present day, it is one of the oldest cities of the world. It is the modern Nablus, a contraction for Neapolis, the name given to it by Vespasian. It lies about a mile and a half up the valley on its southern slope, and on the north of Gerizim, which rises about 1,100 feet above it, and is about 34 miles north of Jerusalem. It contains about 10,000 inhabitants, of whom about 160 are Samaritans and 100 Jews, the rest being Christians and Mohammedans.\n\n The site of Shechem is said to be of unrivalled beauty. Stanley says it is \u201cthe most beautiful, perhaps the only very beautiful, spot in Central Palestine.\u201d\n\n Gaza, near Shechem, only mentioned [1 Chr. 7:28](/1chr#1Chr.7.28), has entirely disappeared. It was destroyed at the time of the Conquest, and its place was taken by Shechem. (See SYCHAR.)"
             ],
-            "modified": "2019-07-21T19:37:20.000Z"
+            "eventGroups": [
+                "Abraham's Sojourn in Canaan"
+            ],
+            "modified": "2020-07-08T16:46:29.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -42267,14 +42384,13 @@
             "recogitoLabel": "Nablus",
             "recogitoUID": "1cc3c76f-f6c1-437f-b328-594eecfd21af",
             "status": "wip",
-            "displayTitle": "Shechem",
-            "ambiguous": true,
+            "displayTitle": "Shechem (tower)",
             "verseCount": 3,
             "latitude": "32.21369123124062",
             "longitude": "35.2817986718367",
             "alphaGroup": "S",
             "slug": "shechem_1178",
-            "modified": "2019-07-02T02:20:28.000Z"
+            "modified": "2020-07-08T16:32:47.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -42674,6 +42790,7 @@
             "openBibleLong": "35.2895287",
             "kjvName": "Shiloh",
             "esvName": "Shiloh",
+            "featureType": "City",
             "placeID": 1081,
             "recogitoUri": "http://dare.ht.lu.se/places/28376",
             "recogitoLat": "32.05617",
@@ -42714,7 +42831,7 @@
             "recogitoType": "settlement",
             "recogitoLabel": "Silo|Silo, Shiloh, Khirbet Seilun",
             "recogitoUID": "fe287cc5-6262-4b28-8b53-85d4500cc06a",
-            "status": "wip",
+            "status": "publish",
             "displayTitle": "Shiloh",
             "eastons": [
                 "recrCDMhdfx2e3hv0"
@@ -42727,7 +42844,7 @@
             "dictText": [
                 "Generally understood as denoting the Messiah, \u201cthe peaceful one,\u201d as the word signifies ([Gen. 49:10](/gen#Gen.49.10)). The Vulgate Version translates the word, \u201che who is to be sent,\u201d in allusion to the Messiah; the Revised Version, margin, \u201ctill he come to Shiloh;\u201d and the LXX., \u201cuntil that which is his shall come to Shiloh.\u201d It is most simple and natural to render the expression, as in the Authorized Version, \u201ctill Shiloh come,\u201d interpreting it as a proper name (comp. [Isa. 9:6](/isa#Isa.9.6)).\n\n Shiloh, a place of rest, a city of Ephraim, \u201con the north side of Bethel,\u201d from which it is distant 10 miles ([Judg. 21:19](/judg#Judg.21.19)); the modern Seilun (the Arabic for Shiloh), a \u201cmass of shapeless ruins.\u201d Here the tabernacle was set up after the Conquest ([Josh. 18:1-10](/josh#Josh.18.1)), where it remained during all the period of the judges till the ark fell into the hands of the Philistines. \u201cNo spot in Central Palestine could be more secluded than this early sanctuary, nothing more featureless than the landscape around; so featureless, indeed, the landscape and so secluded the spot that from the time of St. Jerome till its re-discovery by Dr. Robinson in 1838 the very site was forgotten and unknown.\u201d It is referred to by Jeremiah (7:12, 14; 26:4-9) five hundred years after its destruction."
             ],
-            "modified": "2019-07-09T02:20:43.000Z"
+            "modified": "2020-07-16T15:56:10.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -43395,6 +43512,7 @@
             "openBibleLong": "33.973333",
             "kjvName": "Sinai",
             "esvName": "Sinai",
+            "featureType": "Region",
             "rootID": [
                 "rec5Yu6987dc60uKz"
             ],
@@ -43419,14 +43537,15 @@
                 "recjPR7UTMeI0PTjn",
                 "recuaEY0LJP3imDqW",
                 "recqSwYRohtXZxW5r",
-                "rec9MCdgdrqK5DY4K"
+                "rec9MCdgdrqK5DY4K",
+                "recNKPqvErZfhhc8i"
             ],
             "recogitoStatus": "VERIFIED",
             "recogitoType": "peninsula,region",
             "recogitoComments": "Same as Horeb and Mount Sinai",
             "recogitoLabel": "Sinai",
             "recogitoUID": "0c94e8fc-daef-4374-b233-30d8a2c4ec34",
-            "status": "wip",
+            "status": "publish",
             "displayTitle": "Sinai",
             "duplicate_of": [
                 "rec5Yu6987dc60uKz"
@@ -43434,7 +43553,7 @@
             "eastons": [
                 "rec2vHQ58ycchYl9u"
             ],
-            "verseCount": 17,
+            "verseCount": 18,
             "latitude": "29.5",
             "longitude": "34",
             "alphaGroup": "S",
@@ -43442,7 +43561,7 @@
             "dictText": [
                 "Of Sin (the moon god), called also Horeb, the name of the mountain district which was reached by the Hebrews in the third month after the Exodus. Here they remained encamped for about a whole year. Their journey from the Red Sea to this encampment, including all the windings of the route, was about 150 miles. The last twenty-two chapters of Exodus, together with the whole of Leviticus and Num. ch. 1-11, contain a record of all the transactions which occurred while they were here. From Rephidim ([Ex. 17:8-13](/exod#Exod.17.8)) the Israelites journeyed forward through the Wady Solaf and Wady esh-Sheikh into the plain of er-Rahah, \u201cthe desert of Sinai,\u201d about 2 miles long and half a mile broad, and encamped there \u201cbefore the mountain.\u201d The part of the mountain range, a protruding lower bluff, known as the Ras Sasafeh (Sufsafeh), rises almost perpendicularly from this plain, and is in all probability the Sinai of history. Dean Stanley thus describes the scene:, \u201cThe plain itself is not broken and uneven and narrowly shut in, like almost all others in the range, but presents a long retiring sweep, within which the people could remove and stand afar off. The cliff, rising like a huge altar in front of the whole congregation, and visible against the sky in lonely grandeur from end to end of the whole plain, is the very image of the \u2018mount that might be touched,\u2019 and from which the voice of God might be heard far and wide over the plain below.\u201d This was the scene of the giving of the law. From the Ras Sufsafeh the law was proclaimed to the people encamped below in the plain of er-Rahah. During the lengthened period of their encampment here the Israelites passed through a very memorable experience. An immense change passed over them. They are now an organized nation, bound by covenant engagement to serve the Lord their God, their ever-present divine Leader and Protector. At length, in the second month of the second year of the Exodus, they move their camp and march forward according to a prescribed order. After three days they reach the \u201cwilderness of Paran,\u201d the \u201cet-Tih\u201d, i.e., \u201cthe desert\u201d, and here they make their first encampment. At this time a spirit of discontent broke out amongst them, and the Lord manifested his displeasure by a fire which fell on the encampment and inflicted injury on them. Moses called the place Taberah (q.v.), [Num. 11:1-3](/num#Num.11.1). The journey between Sinai and the southern boundary of the Promised Land (about 150 miles) at Kadesh was accomplished in about a year. (See MAP facing page 204.)"
             ],
-            "modified": "2019-07-19T03:04:28.000Z"
+            "modified": "2020-07-16T15:58:31.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -43521,6 +43640,7 @@
             "openBibleLong": "35.85725618",
             "kjvName": "Sirion",
             "esvName": "Sirion",
+            "featureType": "Region",
             "rootID": [
                 "rec1ET3TBR0oBaWJu"
             ],
@@ -43532,8 +43652,11 @@
             ],
             "recogitoStatus": "UNVERIFIED",
             "recogitoUID": "d47d0fe3-9d1a-4466-aff0-eed5e627a6af",
-            "status": "wip",
+            "status": "publish",
             "displayTitle": "Sirion",
+            "duplicate_of": [
+                "recrpaouE7oxrv5jy"
+            ],
             "eastons": [
                 "rec5GeJz9a6mFe6tp"
             ],
@@ -43545,7 +43668,7 @@
             "dictText": [
                 "A breastplate, the Sidonian name of Hermon (q.v.), [Deut. 3:9](/deut#Deut.3.9); [Ps. 29:6](/ps#Ps.29.6)."
             ],
-            "modified": "2019-07-09T02:20:43.000Z"
+            "modified": "2020-07-16T15:58:33.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -43804,6 +43927,9 @@
             ],
             "recogitoStatus": "NOT_IDENTIFIABLE",
             "recogitoUID": "87147107-b0cd-40de-998f-029e9c89bfc3",
+            "eventsHere": [
+                "recOQJ5V0u8MnlC6V"
+            ],
             "status": "publish",
             "displayTitle": "Sodom",
             "eastons": [
@@ -43817,7 +43943,10 @@
             "dictText": [
                 "Burning; the walled, a city in the vale of Siddim ([Gen. 13:10](/gen#Gen.13.10); [14:1-16](/gen#Gen.14.1)). The wickedness of its inhabitants brought down upon it fire from heaven, by which it was destroyed (18:16-33; 19:1-29; [Deut. 23:17](/deut#Deut.23.17)). This city and its awful destruction are frequently alluded to in Scripture ([Deut. 29:23](/deut#Deut.29.23); [32:32](/deut#Deut.32.32); [Isa. 1:9](/isa#Isa.1.9), [10](/isa#Isa.1.10); 3:9; 13:19; [Jer. 23:14](/jer#Jer.23.14); [Ezek. 16:46-56](/ezek#Ezek.16.46); [Zeph. 2:9](/zeph#Zeph.2.9); [Matt. 10:15](/matt#Matt.10.15); [Rom. 9:29](/rom#Rom.9.29); 2 Pet. 2:6, etc.). No trace of it or of the other cities of the plain has been discovered, so complete was their destruction. Just opposite the site of Zoar, on the south-west coast of the Dead Sea, is a range of low hills, forming a mass of mineral salt called Jebel Usdum, \u201cthe hill of Sodom.\u201d It has been concluded, from this and from other considerations, that the cities of the plain stood at the southern end of the Dead Sea. Others, however, with much greater probability, contend that they stood at the northern end of the sea. [in 1897]."
             ],
-            "modified": "2020-05-15T15:49:50.000Z"
+            "eventGroups": [
+                "Abraham's Sojourn in Canaan"
+            ],
+            "modified": "2020-07-08T16:25:01.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -44650,6 +44779,7 @@
             "openBibleLong": "35.39091304",
             "kjvName": "Tabor",
             "esvName": "Tabor",
+            "featureType": "Mountain",
             "rootID": [
                 "recbTmIWQ3GZPZxdA"
             ],
@@ -44668,9 +44798,8 @@
             "recogitoType": "mountain",
             "recogitoLabel": "Thabor M.|Thabor Mons, Mount Tabor",
             "recogitoUID": "98e94ce6-7ffc-43b7-8e19-b40aa7f453e2",
-            "status": "wip",
-            "displayTitle": "Tabor",
-            "ambiguous": true,
+            "status": "publish",
+            "displayTitle": "Tabor (Mountain)",
             "eastons": [
                 "recZEloz5mF5v7Wi6"
             ],
@@ -44682,7 +44811,7 @@
             "dictText": [
                 "Now Jebel et-Tur, a cone-like prominent mountain, 11 miles west of the Sea of Galilee. It is about 1,843 feet high. The view from the summit of it is said to be singularly extensive and grand. This is alluded to in [Ps. 89:12](/ps#Ps.89.12); [Jer. 46:18](/jer#Jer.46.18). It was here that Barak encamped before the battle with Sisera (q.v.) [Judg. 4:6-14](/judg#Judg.4.6). There is an old tradition, which, however, is unfounded, that it was the scene of the transfiguration of our Lord. (See HERMON.) \u201cThe prominence and isolation of Tabor, standing, as it does, on the border-land between the northern and southern tribes, between the mountains and the central plain, made it a place of note in all ages, and evidently led the psalmist to associate it with Hermon, the one emblematic of the south, the other of the north.\u201d There are some who still hold that this was the scene of the transfiguration (q.v.)."
             ],
-            "modified": "2019-07-19T14:44:49.000Z"
+            "modified": "2020-07-16T15:59:00.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -44708,8 +44837,7 @@
             "recogitoLabel": "Tabor",
             "recogitoUID": "e907f27d-bc97-4963-8402-354830594456",
             "status": "wip",
-            "displayTitle": "Tabor",
-            "ambiguous": true,
+            "displayTitle": "Tabor (town)",
             "eastons": [
                 "recsOA00hQrEEMNEL"
             ],
@@ -44721,7 +44849,7 @@
             "dictText": [
                 "A town of Zebulum ([1 Chr. 6:77](/1chr#1Chr.6.77))."
             ],
-            "modified": "2019-07-09T02:20:43.000Z"
+            "modified": "2020-07-15T16:13:05.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -44748,8 +44876,7 @@
             "recogitoLabel": "Tabor",
             "recogitoUID": "37c577fc-9617-466b-9a38-358f08fcd2e1",
             "status": "wip",
-            "displayTitle": "Tabor",
-            "ambiguous": true,
+            "displayTitle": "Tabor (Plain)",
             "eastons": [
                 "recwU7zs8eQsslU7U"
             ],
@@ -44761,7 +44888,7 @@
             "dictText": [
                 "The \u201cplain of Tabor\u201d ([1 Sam. 10:3](/1sam#1Sam.10.3)) should be, as in the Revised Version, \u201cthe oak of Tabor.\u201d This was probably the Allon-bachuth of [Gen. 35:8](/gen#Gen.35.8)."
             ],
-            "modified": "2019-07-09T02:20:43.000Z"
+            "modified": "2020-07-15T16:13:06.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -45033,6 +45160,7 @@
             "openBibleLong": "-6.379340234",
             "kjvName": "Tarshish",
             "esvName": "Tarshish",
+            "featureType": "City",
             "placeID": 1139,
             "verses": [
                 "recbShHm2Vt8DMNJU",
@@ -45059,7 +45187,7 @@
             "recogitoStatus": "NOT_IDENTIFIABLE",
             "recogitoComments": "Some dispute about this one. Go with OpenBible, Pleiades has no matches.",
             "recogitoUID": "bbb86c50-b3f2-4c7c-acc4-fbeee4ab94b5",
-            "status": "wip",
+            "status": "publish",
             "displayTitle": "Tarshish",
             "eastons": [
                 "recsKEdRVIGI38f6W"
@@ -45072,7 +45200,7 @@
             "dictText": [
                 "The name of a place which first comes into notice in the days of Solomon. The question as to the locality of Tarshish has given rise to not a little discussion. Some think there was a Tarshish in the East, on the Indian coast, seeing that \u201cships of Tarshish\u201d sailed from Eziongeber, on the Red Sea ([1 Kings 9:26](/1kgs#1Kgs.9.26); [22:48](/1kgs#1Kgs.22.48); [2 Chr. 9:21](/2chr#2Chr.9.21)). Some, again, argue that Carthage was the place so named. There can be little doubt, however, that this is the name of a Phoenician port in Spain, between the two mouths of the Guadalquivir (the name given to the river by the Arabs, and meaning \u201cthe great wady\u201d or water-course). It was founded by a Carthaginian colony, and was the farthest western harbour of Tyrian sailors. It was to this port Jonah\u2019s ship was about to sail from Joppa. It has well been styled \u201cthe Peru of Tyrian adventure;\u201d it abounded in gold and silver mines.\n\n It appears that this name also is used without reference to any locality. \u201cShips of Tarshish\u201d is an expression sometimes denoting simply ships intended for a long voyage ([Isa. 23:1](/isa#Isa.23.1), [14](/isa#Isa.23.14)), ships of a large size (sea-going ships), whatever might be the port to which they sailed. Solomon\u2019s ships were so styled ([1 Kings 10:22](/1kgs#1Kgs.10.22); [22:49](/1kgs#1Kgs.22.49))."
             ],
-            "modified": "2019-07-21T19:38:50.000Z"
+            "modified": "2020-07-16T16:00:10.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -47119,33 +47247,6 @@
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
     {
-        "id": "recpdRQQ6xNiCh76n",
-        "fields": {
-            "placeLookup": "valesuccoth_1194",
-            "openBibleLat": "32.19998299",
-            "openBibleLong": "35.63331303",
-            "kjvName": "ValeSuccoth",
-            "esvName": "Vale of Succoth",
-            "rootID": [
-                "recFcRV7goLrcQm17"
-            ],
-            "placeID": 1194,
-            "verses": [
-                "recaAgMfzFTXTNisT"
-            ],
-            "recogitoStatus": "UNVERIFIED",
-            "recogitoUID": "269f2e58-1adc-461e-99b0-7888a9f9afb2",
-            "status": "wip",
-            "displayTitle": "ValeSuccoth",
-            "verseCount": 1,
-            "latitude": "32.19998299",
-            "longitude": "35.63331303",
-            "alphaGroup": "V",
-            "slug": "valesuccoth_1194"
-        },
-        "createdTime": "2017-09-19T23:40:41.000Z"
-    },
-    {
         "id": "recQ97smru5JVjpNG",
         "fields": {
             "placeLookup": "valley_of_achor_1196",
@@ -47222,6 +47323,7 @@
             "openBibleLong": "35.227994",
             "kjvName": "valley of Baca",
             "esvName": "Valley of Baca",
+            "featureType": "Region",
             "rootID": [
                 "recsoRbSuiqYLSGzN"
             ],
@@ -47231,7 +47333,7 @@
             ],
             "recogitoStatus": "UNVERIFIED",
             "recogitoUID": "2147aa11-9d68-4c5f-92f4-6df314fb4508",
-            "status": "wip",
+            "status": "publish",
             "displayTitle": "Valley of Baca",
             "eastons": [
                 "recOZ8kbPK3f4sP1M"
@@ -47244,7 +47346,7 @@
             "dictText": [
                 "([Ps. 84:6](/ps#Ps.84.6); R.V., \u201cvalley of weeping,\u201d marg., \u201cor balsam trees\u201d), probably a valley in some part of Palestine, or generally some one of the valleys through which pilgrims had to pass on their way to the sanctuary of Jehovah on Zion; or it may be figuratively \u201ca valley of weeping.\u201d"
             ],
-            "modified": "2020-03-10T01:19:25.000Z"
+            "modified": "2020-07-16T16:15:00.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -47665,8 +47767,7 @@
                 "recM2GOZnyEHfPh7h",
                 "rec9YnpLnBOeFmuQo",
                 "rec6NeT5CcJPqb1r4",
-                "receSOCEd3zv00iM7",
-                "rec2HyFTVq62V1NR5"
+                "receSOCEd3zv00iM7"
             ],
             "recogitoStatus": "UNVERIFIED",
             "recogitoUID": "36fd4ff2-5813-4f44-8b0f-f47cd9f1ba44",
@@ -47675,7 +47776,7 @@
             "eastons": [
                 "recqFJE73GN7Rh4fc"
             ],
-            "verseCount": 5,
+            "verseCount": 4,
             "latitude": "31.087328",
             "longitude": "35.38374",
             "alphaGroup": "V",
@@ -47683,7 +47784,7 @@
             "dictText": [
                 "A place where it is said David smote the Syrians ([2 Sam. 8:13](/2sam#2Sam.8.13)). This valley (the\u2019 Arabah) is between Judah and Edom on the south of the Dead Sea. Hence some interpreters would insert the words, \u201cand he smote Edom,\u201d after the words, \u201cSyrians\u201d in the above text. It is conjectured that while David was leading his army against the Ammonites and Syrians, the Edomites invaded the south of Judah, and that David sent Joab or Abishai against them, who drove them back and finally subdued Edom. (Comp. title to [Ps. 60](/ps#Ps.60).)\n\n Here also Amaziah \u201cslew of Edom ten thousand men\u201d ([2 Kings 14:7](/2kgs#2Kgs.14.7); comp. 8: 20-22 and [2 Chr. 25:5-11](/2chr#2Chr.25.5))."
             ],
-            "modified": "2020-03-10T01:19:25.000Z"
+            "modified": "2020-07-10T12:54:21.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -47853,23 +47954,34 @@
             "openBibleLong": "35.63331303",
             "kjvName": "valley of Succoth",
             "esvName": "Valley of Succoth",
+            "featureType": "Region",
             "rootID": [
                 "recFcRV7goLrcQm17"
             ],
             "placeID": 1221,
             "verses": [
-                "recKzNHbyvIGmymCI"
+                "recKzNHbyvIGmymCI",
+                "recaAgMfzFTXTNisT"
             ],
             "recogitoStatus": "UNVERIFIED",
             "recogitoUID": "78beac0c-1209-4707-afa4-5e60c6cf5ffc",
-            "status": "wip",
+            "status": "publish",
             "displayTitle": "Valley of Succoth",
-            "verseCount": 1,
+            "duplicate_of": [
+                "recFcRV7goLrcQm17"
+            ],
+            "eastons": [
+                "recVQF1KsBnlFVVMN"
+            ],
+            "verseCount": 2,
             "latitude": "32.19998299",
             "longitude": "35.63331303",
             "alphaGroup": "V",
             "slug": "valley_of_succoth_1221",
-            "modified": "2020-03-10T01:19:25.000Z"
+            "dictText": [
+                "A city on the east of Jordan, identified with Tell Dar\u2019ala, a high mound, a mass of debris, in the plain north of Jabbok and about one mile from it ([Josh. 13:27](/josh#Josh.13.27)). Here Jacob ([Gen. 32:17](/gen#Gen.32.17), [30](/gen#Gen.32.30); 33:17), on his return from Padan-aram after his interview with Esau, built a house for himself and made booths for his cattle. The princes of this city churlishly refused to afford help to Gideon and his 300 men when \u201cfaint yet pursuing\u201d they followed one of the bands of the fugitive Midianites after the great victory at Gilboa. After overtaking and routing this band at Karkor, Gideon on his return visited the rulers of the city with severe punishment. \u201cHe took the elders of the city, and thorns of the wilderness and briers, and with them he taught the men of Succoth\u201d ([Judg. 8:13-16](/judg#Judg.8.13)). At this place were erected the foundries for casting the metal-work for the temple ([1 Kings 7:46](/1kgs#1Kgs.7.46))."
+            ],
+            "modified": "2020-07-16T16:17:44.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -48304,8 +48416,9 @@
             "placeLookup": "zalmon_1237",
             "openBibleLat": "32.23293814",
             "openBibleLong": "35.2730418",
-            "kjvName": "Zalmon",
+            "kjvName": "Salmon",
             "esvName": "Zalmon",
+            "featureType": "Mountain",
             "rootID": [
                 "rec2YUNAEJFFfYOXk"
             ],
@@ -48316,14 +48429,23 @@
             "recogitoStatus": "UNVERIFIED",
             "recogitoComments": "Same as Ebal, Mount Zalmon, Mount Ebal",
             "recogitoUID": "14eebb01-9978-4352-91e3-eb445befea9a",
-            "status": "wip",
+            "status": "publish",
             "displayTitle": "Zalmon",
+            "duplicate_of": [
+                "rec2YUNAEJFFfYOXk"
+            ],
+            "eastons": [
+                "recUv290PBuGh1jLG"
+            ],
             "verseCount": 1,
             "latitude": "32.23293814",
             "longitude": "35.2730418",
             "alphaGroup": "Z",
             "slug": "zalmon_1237",
-            "modified": "2019-05-24T01:47:52.000Z"
+            "dictText": [
+                "A wood near Shechem, from which Abimelech and his party brought boughs and \u201cput them to the hold\u201d of Shechem, \u201cand set the hold on fire\u201d ([Judg. 9:48](/judg#Judg.9.48)). Probably the southern peak of Gerizim, now called Jebel Sulman. (See SALMON.)"
+            ],
+            "modified": "2020-07-16T16:21:49.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -49185,6 +49307,7 @@
             "esvName": "Zion",
             "comment": "Same as Jerusalem",
             "precision": "Precise",
+            "featureType": "City",
             "rootID": [
                 "recL1WV82pXaRBQ59"
             ],
@@ -49339,7 +49462,7 @@
             "recogitoComments": "Same as Jerusalem.|Per comment on Mount Zion- it does not encompass the entirety of Jerusalem as a whole. Thus, it may not be appropiate to consider it exactly synonmous with Jerusalem (since there's also Mt Moriah). Almost always a reference to Jerusalem itself, however not the actual mountain",
             "recogitoLabel": "Ierusalem/Hierosolyma/Col. Aelia Capitolina|Ierusalem/Hierosolyma/Col. Aelia Capitolina, Jerusalem",
             "recogitoUID": "36d57469-266e-4688-b8ff-75602394dbf8",
-            "status": "wip",
+            "status": "publish",
             "displayTitle": "Zion",
             "duplicate_of": [
                 "recL1WV82pXaRBQ59"
@@ -49355,7 +49478,7 @@
             "dictText": [
                 "Sunny; height, one of the eminences on which Jerusalem was built. It was surrounded on all sides, except the north, by deep valleys, that of the Tyropoeon (q.v.) separating it from Moriah (q.v.), which it surpasses in height by 105 feet. It was the south-eastern hill of Jerusalem.\n\n When David took it from the Jebusites ([Josh. 15:63](/josh#Josh.15.63); [2 Sam. 5:7](/2sam#2Sam.5.7)) he built on it a citadel and a palace, and it became \u201cthe city of David\u201d ([1 Kings 8:1](/1kgs#1Kgs.8.1); [2 Kings 19:21](/2kgs#2Kgs.19.21), [31](/2kgs#2Kgs.19.31); [1 Chr. 11:5](/1chr#1Chr.11.5)). In the later books of the Old Testament this name was sometimes used ([Ps. 87:2](/ps#Ps.87.2); [149:2](/ps#Ps.149.2); [Isa. 33:14](/isa#Isa.33.14); [Joel 2:1](/joel#Joel.2.1)) to denote Jerusalem in general, and sometimes God\u2019s chosen Israel ([Ps. 51:18](/ps#Ps.51.18); [87:5](/ps#Ps.87.5)).\n\n In the New Testament (see SION) it is used sometimes to denote the Church of God ([Heb. 12:22](/heb#Heb.12.22)), and sometimes the heavenly city ([Rev. 14:1](/rev#Rev.14.1))."
             ],
-            "modified": "2019-07-19T03:02:29.000Z"
+            "modified": "2020-07-16T16:25:02.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -49587,6 +49710,7 @@
             "openBibleLong": "31.88417307",
             "kjvName": "Zoan",
             "esvName": "Zoan",
+            "featureType": "City",
             "placeID": 1270,
             "verses": [
                 "recclLbEw95h7ql65",
@@ -49600,7 +49724,7 @@
             "recogitoStatus": "NOT_IDENTIFIABLE",
             "recogitoComments": "Zoan is both a city in Egypt and a field.\u00a0 Location in Egypt appears to be educated guesses at best.",
             "recogitoUID": "b2857163-ef81-4bfe-b6fb-517aebe55ba9",
-            "status": "wip",
+            "status": "publish",
             "displayTitle": "Zoan",
             "eastons": [
                 "rec2g8GsQn0MPNoTa"
@@ -49613,7 +49737,7 @@
             "dictText": [
                 "(Old Egypt. Sant= \u201cstronghold,\u201d the modern San). A city on the Tanitic branch of the Nile, called by the Greeks Tanis. It was built seven years after Hebron in Palestine ([Num. 13:22](/num#Num.13.22)). This great and important city was the capital of the Hyksos, or Shepherd kings, who ruled Egypt for more than 500 years. It was the frontier town of Goshen. Here Pharaoh was holding his court at the time of his various interviews with Moses and Aaron. \u201cNo trace of Zoan exists; Tanis was built over it, and city after city has been built over the ruins of that\u201d (Harper, Bible and Modern Discovery). Extensive mounds of ruins, the wreck of the ancient city, now mark its site ([Isa. 19:11](/isa#Isa.19.11), [13](/isa#Isa.19.13); 30:4; [Ezek. 30:14](/ezek#Ezek.30.14)). \u201cThe whole constitutes one of the grandest and oldest ruins in the world.\u201d\n\n This city was also called \u201cthe Field of Zoan\u201d ([Ps. 78:12](/ps#Ps.78.12), [43](/ps#Ps.78.43)) and \u201cthe Town of Rameses\u201d (q.v.), because the oppressor rebuilt and embellished it, probably by the forced labour of the Hebrews, and made it his northern capital."
             ],
-            "modified": "2019-07-09T02:20:43.000Z"
+            "modified": "2020-07-16T16:25:52.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -49625,21 +49749,22 @@
             "openBibleLong": "35.41906069",
             "kjvName": "Zoar",
             "esvName": "Zoar",
+            "featureType": "City",
             "placeID": 1271,
             "verses": [
                 "recHAmZOJ6b38T6Rm",
-                "rec7RkrLPXWFs28jI",
                 "recwv5FwAJZZOd3Xx",
                 "recX6wjM8OWCKlVNN",
                 "recWiBRZSnPh3BiZV",
                 "recKPHjdF4pP8CU2o",
                 "recGUKDxNmib03LE2",
                 "receXTY4OSmwAYiEa",
-                "recGN3rRXIpqbr1At"
+                "recGN3rRXIpqbr1At",
+                "rec7RkrLPXWFs28jI"
             ],
             "recogitoStatus": "NOT_IDENTIFIABLE",
             "recogitoUID": "2dfe7ad0-509e-4847-8da5-34a9b65eeab7",
-            "status": "wip",
+            "status": "publish",
             "displayTitle": "Zoar",
             "eastons": [
                 "recNeSbPJztH1IMZg"
@@ -49652,7 +49777,7 @@
             "dictText": [
                 "Small, a town on the east or south-east of the Dead Sea, to which Lot and his daughters fled from Sodom ([Gen. 19:22](/gen#Gen.19.22), [23](/gen#Gen.19.23)). It was originally called Bela (14:2, 8). It is referred to by the prophets Isaiah (15:5) and Jeremiah (48:34). Its ruins are still seen at the opening of the ravine of Kerak, the Kir-Moab referred to in [2 Kings 3](/2kgs#2Kgs.3), the modern Tell esh-Shaghur."
             ],
-            "modified": "2019-07-09T02:20:43.000Z"
+            "modified": "2020-07-16T17:05:33.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },

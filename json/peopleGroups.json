@@ -590,7 +590,11 @@
                 "reciAzG2W23BNFFR4",
                 "recTAjRQnFqthQI6N",
                 "rec9kWwxTer8CCKPM"
-            ]
+            ],
+            "verses": [
+                "recDl7QYLCsVnnMwn"
+            ],
+            "modified": "2020-07-16T01:15:43.000Z"
         },
         "createdTime": "2018-03-19T00:37:26.000Z"
     },
@@ -1010,5 +1014,27 @@
             "modified": "2020-05-15T01:39:10.000Z"
         },
         "createdTime": "2020-05-15T01:34:04.000Z"
+    },
+    {
+        "id": "recsTcOXoP1DEM5lL",
+        "fields": {
+            "groupName": "Nation of Israel",
+            "verses": [
+                "recq6FKwdJlNTduhu",
+                "recRrDhkXh71tOrOi",
+                "recKCys6V9N7KcOF7",
+                "recbvVW6idRuBsw9a",
+                "recyxAcGXw9HypE3S",
+                "recNpthjLl3hONeBJ",
+                "recNLQtWyyOpqxhmF",
+                "recv01auVWeVAMJYo",
+                "recVwrFM4xvUxA9LQ",
+                "reciAUFu1T9xeoCvG",
+                "recAaYc00mUmh8UON",
+                "recneQvldBplXZCYu"
+            ],
+            "modified": "2020-07-10T14:56:34.000Z"
+        },
+        "createdTime": "2020-07-10T12:06:09.000Z"
     }
 ]

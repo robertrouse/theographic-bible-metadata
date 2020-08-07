@@ -1601,7 +1601,7 @@
                 "moses_2108"
             ],
             "slug": "gen",
-            "peopleCount": 1083,
+            "peopleCount": 1082,
             "placeCount": 266
         },
         "createdTime": "2018-05-13T17:19:17.000Z"
@@ -8497,8 +8497,8 @@
             "chapterCount": 31,
             "verseCount": 810,
             "writers": [
-                "samuel_2469, gad_1263, nathan_2153",
-                "samuel_2469"
+                "samuel_2469",
+                "samuel_2469, gad_1263, nathan_2153"
             ],
             "slug": "1sam",
             "peopleCount": 662,
@@ -9241,7 +9241,7 @@
             "chapterCount": 24,
             "verseCount": 695,
             "writers": [
-                "samuel_2469"
+                "samuel_2469, gad_1263, nathan_2153"
             ],
             "slug": "2sam",
             "peopleCount": 556,
@@ -17486,8 +17486,8 @@
                 "moses_2108"
             ],
             "slug": "ps",
-            "peopleCount": 1040,
-            "placeCount": 123
+            "peopleCount": 1026,
+            "placeCount": 118
         },
         "createdTime": "2018-05-22T19:36:23.000Z"
     },

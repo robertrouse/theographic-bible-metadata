@@ -3109,10 +3109,14 @@
             "peopleDied": [
                 "recXBYSWubfkpqNQm"
             ],
+            "events": [
+                "recTXaaA8SxVHBspp",
+                "recdbdbh1VrBXfNV9"
+            ],
             "isoYear": -1920,
             "BC-AD": "BC",
             "formattedYear": "1921 BC",
-            "modified": "2020-05-17T02:01:51.000Z"
+            "modified": "2020-07-09T12:36:55.000Z"
         },
         "createdTime": "2020-05-17T02:01:51.000Z"
     },
@@ -3129,5 +3133,30 @@
             "modified": "2020-05-17T20:17:15.000Z"
         },
         "createdTime": "2020-05-17T20:17:15.000Z"
+    },
+    {
+        "id": "recO83CDZw1XT7AIM",
+        "fields": {
+            "yearNum": "-1920",
+            "events": [
+                "recOQJ5V0u8MnlC6V"
+            ],
+            "isoYear": -1919,
+            "BC-AD": "BC",
+            "formattedYear": "1920 BC",
+            "modified": "2020-07-09T12:37:37.000Z"
+        },
+        "createdTime": "2020-07-08T16:08:43.000Z"
+    },
+    {
+        "id": "recqQepOerMw7nmLU",
+        "fields": {
+            "yearNum": "-1918",
+            "isoYear": -1917,
+            "BC-AD": "BC",
+            "formattedYear": "1918 BC",
+            "modified": "2020-07-09T12:37:33.000Z"
+        },
+        "createdTime": "2020-07-08T16:22:26.000Z"
     }
 ]
