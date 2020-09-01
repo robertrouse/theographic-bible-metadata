@@ -449,6 +449,9 @@
             "eastons": [
                 "recDBHcGUdHuJIXyw"
             ],
+            "timeline": [
+                "recmnGiHVM3Hylr7r"
+            ],
             "verseCount": 1,
             "latitude": "33.09201654",
             "longitude": "44.12924815",
@@ -457,7 +460,7 @@
             "dictText": [
                 "The high land or mountains, a city in the land of Shinar. It has been identified with the mounds of Akker Kuf, some 50 miles to the north of Babylon; but this is doubtful. It was one of the cities of Nimrod\u2019s kingdom ([Ge 10:10](/gen#Gen.10.10)). It stood close to the Euphrates, opposite Sippara. (See SEPHARVAIM.)\n\n It is also the name of the country of which this city was the capital, namely, northern or upper Babylonia. The Accadians who came from the \u201cmountains of the east,\u201d where the ark rested, attained to a high degree of civilization. In the Babylonian inscriptions they are called \u201cthe black heads\u201d and \u201cthe black faces,\u201d in contrast to \u201cthe white race\u201d of Semitic descent. They invented the form of writing in pictorial hieroglyphics, and also the cuneiform system, in which they wrote many books partly on papyrus and partly on clay. The Semitic Babylonians (\u201cthe white race\u201d), or, as some scholars think, first the Cushites, and afterwards, as a second immigration, the Semites, invaded and conquered this country; and then the Accadian language ceased to be a spoken language, although for the sake of its literary treasures it continued to be studied by the educated classes of Babylonia. A large portion of the Ninevite tablets brought to light by Oriental research consists of interlinear or parallel translations from Accadian into Assyrian; and thus that long-forgotten language has been recovered by scholars. It belongs to the class of languages called agglutinative, common to the Tauranian race; i.e., it consists of words \u201cglued together,\u201d without declension of conjugation. These tablets in a remarkable manner illustrate ancient history. Among other notable records, they contain an account of the Creation which closely resembles that given in the book of Genesis, of the Sabbath as a day of rest, and of the Deluge and its cause. (See BABYLON; CHALDEA.)"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-27T01:47:56.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -543,6 +546,10 @@
             "eastons": [
                 "recEw2X2p1JRANx0b"
             ],
+            "timeline": [
+                "recZLqdKx9mrT0bCv",
+                "receG7A0Y0VjWPff1"
+            ],
             "verseCount": 10,
             "latitude": "37.5",
             "longitude": "22.5",
@@ -555,7 +562,7 @@
                 "Second Missionary Journey",
                 "Third Missionary Journey"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-27T01:33:25.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -965,6 +972,10 @@
             "eastons": [
                 "rec7SYuoOsPjvpYy8"
             ],
+            "timeline": [
+                "recJWNH2OCuUoOz6e",
+                "recAIElabptRPkpxz"
+            ],
             "verseCount": 1,
             "latitude": "39.504028",
             "longitude": "26.934551",
@@ -976,7 +987,7 @@
             "eventGroups": [
                 "Journey to Rome"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-28T20:09:35.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -1009,6 +1020,10 @@
             "eastons": [
                 "recjWiT8hLZfc02BK"
             ],
+            "timeline": [
+                "recXiU82RVp1vo67a",
+                "recAIElabptRPkpxz"
+            ],
             "verseCount": 1,
             "latitude": "42.415",
             "longitude": "16.3735",
@@ -1020,7 +1035,7 @@
             "eventGroups": [
                 "Journey to Rome"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-28T20:09:59.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -1262,6 +1277,9 @@
             "eastons": [
                 "recJclemremwb0pvE"
             ],
+            "timeline": [
+                "rechJv1ksZ00ye38i"
+            ],
             "verseCount": 31,
             "latitude": "31.9166759",
             "longitude": "35.2615767",
@@ -1273,7 +1291,7 @@
             "eventGroups": [
                 "Abraham's Sojourn in Canaan"
             ],
-            "modified": "2020-07-08T16:42:16.000Z"
+            "modified": "2020-08-27T01:34:08.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -1619,6 +1637,10 @@
             "eastons": [
                 "recCIiG5BdtvQBXAg"
             ],
+            "timeline": [
+                "recJWNH2OCuUoOz6e",
+                "recAIElabptRPkpxz"
+            ],
             "verseCount": 3,
             "latitude": "31.195371",
             "longitude": "29.904133",
@@ -1630,7 +1652,7 @@
             "eventGroups": [
                 "Journey to Rome"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-28T20:09:35.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -2409,6 +2431,15 @@
             "eastons": [
                 "recAcmVFeQs0tcjXF"
             ],
+            "timeline": [
+                "recn2U67FPmywxqcb",
+                "recJl6YAS1kSQ6t8W",
+                "reckt5soySSqCZnoa",
+                "recW2x0namY3sL2iX",
+                "recsnRcoxqD4pQGHp",
+                "recxAgEs5O3piUpAG",
+                "recUWXmZlrKxIx99u"
+            ],
             "verseCount": 14,
             "latitude": "36.200663",
             "longitude": "36.165318",
@@ -2425,7 +2456,7 @@
                 "Second Missionary Journey",
                 "Second Missionary Journey"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-28T20:01:16.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -2464,6 +2495,11 @@
             "eastons": [
                 "recwtIeDVlTWa9nME"
             ],
+            "timeline": [
+                "recGlchVqaW39mkY0",
+                "reckt5soySSqCZnoa",
+                "recUWXmZlrKxIx99u"
+            ],
             "verseCount": 4,
             "latitude": "38.30466",
             "longitude": "31.19049",
@@ -2476,7 +2512,7 @@
                 "First Missionary Journey",
                 "First Missionary Journey"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-28T19:55:46.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -2511,6 +2547,9 @@
             "eastons": [
                 "recy9GJC5EoFmmsFv"
             ],
+            "timeline": [
+                "recODnfv69EyvRMvA"
+            ],
             "verseCount": 1,
             "latitude": "32.10478",
             "longitude": "34.93078",
@@ -2522,7 +2561,7 @@
             "eventGroups": [
                 "Paul Arrested and Imprisoned"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-27T01:33:25.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -2761,6 +2800,9 @@
             "eastons": [
                 "recKEjihN38PpLKdc"
             ],
+            "timeline": [
+                "recuZhS7z4CatBOO0"
+            ],
             "verseCount": 1,
             "latitude": "41.46801",
             "longitude": "12.99372",
@@ -2772,7 +2814,7 @@
             "eventGroups": [
                 "Journey to Rome"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-27T01:33:25.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -3159,6 +3201,11 @@
             "eastons": [
                 "recMFZzWzwFKaiuNF"
             ],
+            "timeline": [
+                "rec1P4d8N4XdXzH2l",
+                "recnAzV0utz4k20eC",
+                "recwQJTWTmTkUMHHp"
+            ],
             "verseCount": 2,
             "latitude": "39.70289295",
             "longitude": "44.29818047",
@@ -3171,7 +3218,7 @@
                 "The Flood",
                 "The Flood"
             ],
-            "modified": "2020-05-15T13:25:17.000Z"
+            "modified": "2020-08-27T01:11:55.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -3213,6 +3260,9 @@
             "eastons": [
                 "recD4sE7B551vYG83"
             ],
+            "timeline": [
+                "reclKAhjHwMnSyOB2"
+            ],
             "verseCount": 3,
             "latitude": "37.958593",
             "longitude": "23.711133",
@@ -3224,7 +3274,7 @@
             "eventGroups": [
                 "Second Missionary Journey"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-27T01:33:25.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -4021,6 +4071,14 @@
             "eastons": [
                 "recp6p2m8VGuFJdJj"
             ],
+            "timeline": [
+                "recayBHkzCbMe6dnD",
+                "rec2buqN0Q38Yuqme",
+                "recl2rPfuRl5ZYiYP",
+                "recbGb0Cb2yIRqmle",
+                "recJWNH2OCuUoOz6e",
+                "recAIElabptRPkpxz"
+            ],
             "verseCount": 18,
             "latitude": "39.64014749138555",
             "longitude": "31.03325453",
@@ -4036,7 +4094,7 @@
                 "Third Missionary Journey",
                 "Journey to Rome"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-28T20:09:35.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -4116,6 +4174,9 @@
             "eastons": [
                 "recLxkv9S5v3CpbZt"
             ],
+            "timeline": [
+                "recbGb0Cb2yIRqmle"
+            ],
             "verseCount": 2,
             "latitude": "39.490601",
             "longitude": "26.337061",
@@ -4127,7 +4188,7 @@
             "eventGroups": [
                 "Third Missionary Journey"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-27T01:33:25.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -4277,6 +4338,9 @@
             "eastons": [
                 "recN3eFUY68WoTjjI"
             ],
+            "timeline": [
+                "recmnGiHVM3Hylr7r"
+            ],
             "verseCount": 116,
             "latitude": "36.50969",
             "longitude": "43.2282",
@@ -4285,7 +4349,7 @@
             "dictText": [
                 "The name derived from the city Asshur on the Tigris, the original capital of the country, was originally a colony from Babylonia, and was ruled by viceroys from that kingdom. It was a mountainous region lying to the north of Babylonia, extending along the Tigris as far as to the high mountain range of Armenia, the Gordiaean or Carduchian mountains. It was founded in B.C. 1700 under Bel-kap-kapu, and became an independent and a conquering power, and shook off the yoke of its Babylonian masters. It subdued the whole of Northern Asia. The Assyrians were Semites ([Gen. 10:22](/gen#Gen.10.22)), but in process of time non-Semite tribes mingled with the inhabitants. They were a military people, the \u201cRomans of the East.\u201d\n\n Of the early history of the kingdom of Assyria little is positively known. In B.C. 1120 Tiglath-pileser I., the greatest of the Assyrian kings, \u201ccrossed the Euphrates, defeated the kings of the Hittites, captured the city of Carchemish, and advanced as far as the shores of the Mediterranean.\u201d He may be regarded as the founder of the first Assyrian empire. After this the Assyrians gradually extended their power, subjugating the states of Northern Syria. In the reign of Ahab, king of Israel, Shalmaneser II. marched an army against the Syrian states, whose allied army he encountered and vanquished at Karkar. This led to Ahab\u2019s casting off the yoke of Damascus and allying himself with Judah. Some years after this the Assyrian king marched an army against Hazael, king of Damascus. He besieged and took that city. He also brought under tribute Jehu, and the cities of Tyre and Sidon.\n\n About a hundred years after this (B.C. 745) the crown was seized by a military adventurer called Pul, who assumed the name of Tiglath-pileser III. He directed his armies into Syria, which had by this time regained its independence, and took (B.C. 740) Arpad, near Aleppo, after a siege of three years, and reduced Hamath. Azariah (Uzziah) was an ally of the king of Hamath, and thus was compelled by Tiglath-pileser to do him homage and pay a yearly tribute.\n\n In B.C. 738, in the reign of Menahem, king of Israel, Pul invaded Israel, and imposed on it a heavy tribute ([2 Kings 15:19](/2kgs#2Kgs.15.19)). Ahaz, the king of Judah, when engaged in a war against Israel and Syria, appealed for help to this Assyrian king by means of a present of gold and silver ([2 Kings 16:8](/2kgs#2Kgs.16.8)); who accordingly \u201cmarched against Damascus, defeated and put Rezin to death, and besieged the city itself.\u201d Leaving a portion of his army to continue the siege, \u201che advanced through the province east of Jordan, spreading fire and sword,\u201d and became master of Philistia, and took Samaria and Damascus. He died B.C. 727, and was succeeded by Shalmanezer IV., who ruled till B.C. 722. He also invaded Syria ([2 Kings 17:5](/2kgs#2Kgs.17.5)), but was deposed in favour of Sargon (q.v.) the Tartan, or commander-in-chief of the army, who took Samaria (q.v.) after a siege of three years, and so put an end to the kingdom of Israel, carrying the people away into captivity, B.C. 722 ([2 Kings 17:1-6](/2kgs#2Kgs.17.1), [24](/2kgs#2Kgs.17.24); [18:7](/2kgs#2Kgs.18.7), [9](/2kgs#2Kgs.18.9)). He also overran the land of Judah, and took the city of Jerusalem ([Isa. 10:6](/isa#Isa.10.6), [12](/isa#Isa.10.12), [22](/isa#Isa.10.22), [24](/isa#Isa.10.24), [34](/isa#Isa.10.34)). Mention is next made of Sennacherib (B.C. 705), the son and successor of Sargon ([2 Kings 18:13](/2kgs#2Kgs.18.13); [19:37](/2kgs#2Kgs.19.37); [Isa. 7:17](/isa#Isa.7.17), [18](/isa#Isa.7.18)); and then of Esar-haddon, his son and successor, who took Manasseh, king of Judah, captive, and kept him for some time a prisoner at Babylon, which he alone of all the Assyrian kings made the seat of his government ([2 Kings 19:37](/2kgs#2Kgs.19.37); [Isa. 37:38](/isa#Isa.37.38)).\n\n Assur-bani-pal, the son of Esarhaddon, became king, and in [Ezra 4:10](/ezra#Ezra.4.10) is referred to as Asnapper. From an early period Assyria had entered on a conquering career, and having absorbed Babylon, the kingdoms of Hamath, Damascus, and Samaria, it conquered Phoenicia, and made Judea feudatory, and subjected Philistia and Idumea. At length, however, its power declined. In B.C. 727 the Babylonians threw off the rule of the Assyrians, under the leadership of the powerful Chaldean prince Merodach-baladan ([2 Kings 20:12](/2kgs#2Kgs.20.12)), who, after twelve years, was subdued by Sargon, who now reunited the kingdom, and ruled over a vast empire. But on his death the smouldering flames of rebellion again burst forth, and the Babylonians and Medes successfully asserted their independence (B.C. 625), and Assyria fell according to the prophecies of Isaiah (10:5-19), Nahum (3:19), and Zephaniah (3:13), and the many separate kingdoms of which it was composed ceased to recognize the \u201cgreat king\u201d ([2 Kings 18:19](/2kgs#2Kgs.18.19); [Isa. 36:4](/isa#Isa.36.4)). Ezekiel (31) attests (about B.C. 586) how completely Assyria was overthrown. It ceases to be a nation. (See NINEVEH; BABYLON.)"
             ],
-            "modified": "2020-05-14T13:26:48.000Z"
+            "modified": "2020-08-27T01:45:56.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -4503,6 +4567,9 @@
             "eastons": [
                 "recoVzBGnOpDBC6ku"
             ],
+            "timeline": [
+                "reclKAhjHwMnSyOB2"
+            ],
             "verseCount": 5,
             "latitude": "37.971687",
             "longitude": "23.726464",
@@ -4514,7 +4581,7 @@
             "eventGroups": [
                 "Second Missionary Journey"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-27T01:33:25.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -4579,6 +4646,10 @@
             "hasBeenHere": "paul_2479, barnabas_1722",
             "status": "publish",
             "displayTitle": "Attalia",
+            "timeline": [
+                "reckt5soySSqCZnoa",
+                "recUWXmZlrKxIx99u"
+            ],
             "verseCount": 1,
             "latitude": "36.8839",
             "longitude": "30.70541",
@@ -4587,7 +4658,7 @@
             "eventGroups": [
                 "First Missionary Journey"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-28T19:55:46.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -5599,6 +5670,10 @@
             "eastons": [
                 "recG4dJlceb8lVuQb"
             ],
+            "timeline": [
+                "recy4o2BxavybTuX6",
+                "recmnGiHVM3Hylr7r"
+            ],
             "verseCount": 2,
             "latitude": "32.53650369",
             "longitude": "44.42088287",
@@ -5607,7 +5682,7 @@
             "dictText": [
                 "The name given to the tower which the primitive fathers of our race built in the land of Shinar after the Deluge ([Gen. 11:1-9](/gen#Gen.11.1)). Their object in building this tower was probably that it might be seen as a rallying-point in the extensive plain of Shinar, to which they had emigrated from the uplands of Armenia, and so prevent their being scattered abroad. But God interposed and defeated their design by condounding their language, and hence the name Babel, meaning \u201cconfusion.\u201d In the Babylonian tablets there is an account of this event, and also of the creation and the deluge. (See CHALDEA.)\n\n The Temple of Belus, which is supposed to occupy its site, is described by the Greek historian Herodotus as a temple of great extent and magnificence, erected by the Babylonians for their god Belus. The treasures Nebuchadnezzar brought from Jerusalem were laid up in this temple ([2 Chr. 36:7](/2chr#2Chr.36.7)).\n\n The Birs Nimrud, at ancient Borsippa, about 7 miles south-west of Hillah, the modern town which occupies a part of the site of ancient Babylon, and 6 miles from the Euphrates, is an immense mass of broken and fire-blasted fragments, of about 2,300 feet in circumference, rising suddenly to the height of 235 feet above the desert-plain, and is with probability regarded as the ruins of the tower of Babel. This is \u201cone of the most imposing ruins in the country.\u201d Others think it to be the ruins of the Temple of Belus."
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-27T01:48:05.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -6388,6 +6463,9 @@
             "eastons": [
                 "recSsTMtcQXDG9m5j"
             ],
+            "timeline": [
+                "recLnDbrahKzEue0K"
+            ],
             "verseCount": 2,
             "latitude": "31.777444",
             "longitude": "35.234935",
@@ -6399,7 +6477,7 @@
             "eventGroups": [
                 "Pentecost/Church Founded"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-27T01:33:25.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -6908,6 +6986,9 @@
             "eastons": [
                 "rec48RcSot2RWbK7S"
             ],
+            "timeline": [
+                "recF289Cj0XMYVOmr"
+            ],
             "verseCount": 2,
             "latitude": "40.524528",
             "longitude": "22.204993",
@@ -6919,7 +7000,7 @@
             "eventGroups": [
                 "Second Missionary Journey"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-27T01:33:25.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -8821,6 +8902,9 @@
             "eastons": [
                 "recetiimjyhTymvUe"
             ],
+            "timeline": [
+                "rechJv1ksZ00ye38i"
+            ],
             "verseCount": 62,
             "latitude": "31.93053921",
             "longitude": "35.22103275",
@@ -8832,7 +8916,7 @@
             "eventGroups": [
                 "Abraham's Sojourn in Canaan"
             ],
-            "modified": "2020-07-08T16:42:16.000Z"
+            "modified": "2020-08-27T01:34:08.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -9961,6 +10045,18 @@
             "eastons": [
                 "recngzMIB1PwaVYfY"
             ],
+            "timeline": [
+                "reczeOH6wbjkZHP1w",
+                "rec4fFrtrUuDVkTNK",
+                "recCef9mlyuV3XWd3",
+                "recTAdkQX4sglPtLl",
+                "recxAgEs5O3piUpAG",
+                "recxOoLkd6wFyKysC",
+                "recODnfv69EyvRMvA",
+                "recjSyWPVWxolQ2r4",
+                "recZZnST3yj4b1akY",
+                "recltAvLmGRfERhYp"
+            ],
             "verseCount": 16,
             "latitude": "32.4987775",
             "longitude": "34.8912663",
@@ -9981,7 +10077,7 @@
                 "Herod's persecution of James and Peter",
                 "Paul Arrested and Imprisoned"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-28T20:01:16.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -10049,6 +10145,9 @@
             "eastons": [
                 "recGfO1gVOLUd0GwK"
             ],
+            "timeline": [
+                "recmnGiHVM3Hylr7r"
+            ],
             "verseCount": 2,
             "latitude": "36.142884",
             "longitude": "43.312178",
@@ -10057,7 +10156,7 @@
             "dictText": [
                 "One of the most ancient cities of Assyria. \u201cOut of that land he [i.e., Nimrod] went forth into Assyria, and built Nineveh, Rehoboth-Ir, and Calah, and Resen\u201d ([Gen. 10:11](/gen#Gen.10.11), R.V.). Its site is now marked probably by the Nimrud ruins on the left bank of the Tigris. These cover an area of about 1,000 acres, and are second only in size and importance to the mass of ruins opposite Mosul. This city was at one time the capital of the empire, and was the residence of Sardanapalus and his successors down to the time of Sargon, who built a new capital, the modern Khorsabad. It has been conjectured that these four cities mentioned in [Gen. 10:11](/gen#Gen.10.11) were afterwards all united into one and called Nineveh (q.v.)."
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-27T01:48:13.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -10083,6 +10182,9 @@
             "eastons": [
                 "recaX8kNfwZwHrCoU"
             ],
+            "timeline": [
+                "recmnGiHVM3Hylr7r"
+            ],
             "verseCount": 2,
             "latitude": "32.127213",
             "longitude": "45.229995",
@@ -10091,7 +10193,7 @@
             "dictText": [
                 "Fort, one of the four cities founded by Nimrod ([Gen. 10:10](/gen#Gen.10.10)). It is the modern Niffer, a lofty mound of earth and rubbish situated in the marshes on the left, i.e., the east, bank of the Euphrates, but 30 miles distant from its present course, and about 60 miles south-south-east from Babylon. It is mentioned as one of the towns with which Tyre carried on trade. It was finally taken and probably destroyed by one of the Assyrian kings ([Amos 6:2](/amos#Amos.6.2)). It is called Calno ([Isa. 10:9](/isa#Isa.10.9)) and Canneh ([Ezek. 27:23](/ezek#Ezek.27.23))."
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-27T01:48:21.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -10269,6 +10371,10 @@
             "eastons": [
                 "recsSpEQBGX0TiBRV"
             ],
+            "timeline": [
+                "rechJv1ksZ00ye38i",
+                "recG5DZ6bn0BDuYH9"
+            ],
             "verseCount": 76,
             "latitude": "31.69352950368834",
             "longitude": "34.84388288576839",
@@ -10281,7 +10387,7 @@
                 "Abraham's Sojourn in Canaan",
                 "Abraham's Sojourn in Canaan"
             ],
-            "modified": "2020-07-08T16:25:17.000Z"
+            "modified": "2020-08-27T01:34:08.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -10611,6 +10717,9 @@
             "eastons": [
                 "recfQgcmk8kmhU5ff"
             ],
+            "timeline": [
+                "recxAgEs5O3piUpAG"
+            ],
             "verseCount": 2,
             "latitude": "37.88239",
             "longitude": "22.992532",
@@ -10622,7 +10731,7 @@
             "eventGroups": [
                 "Second Missionary Journey"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-28T20:01:16.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -11152,6 +11261,9 @@
             "eastons": [
                 "recVYn5hQi1a2NnlP"
             ],
+            "timeline": [
+                "recbGb0Cb2yIRqmle"
+            ],
             "verseCount": 1,
             "latitude": "38.414",
             "alphaGroup": "C",
@@ -11162,7 +11274,7 @@
             "eventGroups": [
                 "Third Missionary Journey"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-27T01:33:25.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -11305,6 +11417,11 @@
             "eastons": [
                 "rechYD8NkFKLEZTmQ"
             ],
+            "timeline": [
+                "recsnRcoxqD4pQGHp",
+                "recJWNH2OCuUoOz6e",
+                "recAIElabptRPkpxz"
+            ],
             "verseCount": 8,
             "latitude": "36.91802695356275",
             "longitude": "34.89153398422567",
@@ -11317,7 +11434,7 @@
                 "Second Missionary Journey",
                 "Journey to Rome"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-28T20:09:35.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -11352,6 +11469,10 @@
             "eastons": [
                 "reci9jA8hmuAn3sSs"
             ],
+            "timeline": [
+                "recXiU82RVp1vo67a",
+                "recAIElabptRPkpxz"
+            ],
             "verseCount": 1,
             "latitude": "34.8370088",
             "alphaGroup": "C",
@@ -11362,7 +11483,7 @@
             "eventGroups": [
                 "Journey to Rome"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-28T20:09:51.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -11397,6 +11518,10 @@
             "eastons": [
                 "recEFtnvIjw6nQ3nX"
             ],
+            "timeline": [
+                "recJWNH2OCuUoOz6e",
+                "recAIElabptRPkpxz"
+            ],
             "verseCount": 1,
             "latitude": "36.686188",
             "longitude": "27.37404",
@@ -11408,7 +11533,7 @@
             "eventGroups": [
                 "Journey to Rome"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-28T20:09:35.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -11479,6 +11604,9 @@
             "eastons": [
                 "recXSGiQ7z6W6fKpa"
             ],
+            "timeline": [
+                "recxOoLkd6wFyKysC"
+            ],
             "verseCount": 1,
             "latitude": "36.844",
             "longitude": "27.17",
@@ -11490,7 +11618,7 @@
             "eventGroups": [
                 "Third Missionary Journey"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-27T01:33:25.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -11534,6 +11662,9 @@
             "eastons": [
                 "recjh6spsTuwS0UIB"
             ],
+            "timeline": [
+                "recZLqdKx9mrT0bCv"
+            ],
             "verseCount": 6,
             "latitude": "37.906045",
             "longitude": "22.878721",
@@ -11545,7 +11676,7 @@
             "eventGroups": [
                 "Second Missionary Journey"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-27T01:33:25.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -11657,6 +11788,11 @@
             "eastons": [
                 "rec1D0SGJy1ZpYW8q"
             ],
+            "timeline": [
+                "recJWNH2OCuUoOz6e",
+                "recXiU82RVp1vo67a",
+                "recAIElabptRPkpxz"
+            ],
             "verseCount": 5,
             "latitude": "35.23102579604995",
             "longitude": "24.85162918",
@@ -11669,7 +11805,7 @@
                 "Journey to Rome",
                 "Journey to Rome"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-28T20:09:35.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -11904,6 +12040,14 @@
             "eastons": [
                 "recp40v7829oQffxK"
             ],
+            "timeline": [
+                "recJeAtSLg0KP2loe",
+                "recW2x0namY3sL2iX",
+                "recxOoLkd6wFyKysC",
+                "recJWNH2OCuUoOz6e",
+                "recUWXmZlrKxIx99u",
+                "recAIElabptRPkpxz"
+            ],
             "verseCount": 12,
             "latitude": "35.040883529816504",
             "longitude": "33.27533716",
@@ -11918,7 +12062,7 @@
                 "Third Missionary Journey",
                 "Journey to Rome"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-28T20:09:35.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -12183,6 +12327,10 @@
             "eastons": [
                 "recro2Ns7YWnLDcEn"
             ],
+            "timeline": [
+                "recCz7opcoITkiZiq",
+                "reczeOH6wbjkZHP1w"
+            ],
             "verseCount": 55,
             "latitude": "33.511612",
             "longitude": "36.309102",
@@ -12195,7 +12343,7 @@
                 "Saul Converted",
                 "Saul Converted"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-27T01:33:25.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -12504,6 +12652,10 @@
             "eastons": [
                 "recyf2y3QCFFp68Yx"
             ],
+            "timeline": [
+                "recrre0r2IHdN3Y7Z",
+                "recinOtqH81aspLoO"
+            ],
             "verseCount": 4,
             "latitude": "37.348569",
             "longitude": "33.361453",
@@ -12516,7 +12668,7 @@
                 "First Missionary Journey",
                 "Second Missionary Journey"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-27T01:33:25.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -13452,6 +13604,15 @@
             "eastons": [
                 "recpdnJlUVc7AFKrV"
             ],
+            "timeline": [
+                "recTU3ZxG7zQ61N9d",
+                "recj3SioaPwrDtpGT",
+                "recp7P8QOAzrtw9Ly",
+                "recSFDBpbT8HGEtyd",
+                "recrEQsBlZOgXbLiB",
+                "recl4Bcpg9yzJsEqI",
+                "rec4kRWTXS86nus0I"
+            ],
             "verseCount": 15,
             "alphaGroup": "E",
             "slug": "eden_354",
@@ -13463,7 +13624,7 @@
                 "The Creation",
                 "Cain and Abel"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-22T01:52:10.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -14457,6 +14618,10 @@
             "eastons": [
                 "recaI03cdUrqCbVQE"
             ],
+            "timeline": [
+                "recbqTND1uSdqNjOx",
+                "recc78JIsfuTy7cNu"
+            ],
             "verseCount": 564,
             "latitude": "26.4902014068366",
             "longitude": "29.88079617",
@@ -14468,7 +14633,7 @@
             "eventGroups": [
                 "Abraham's Sojourn in Canaan"
             ],
-            "modified": "2020-07-08T16:27:18.000Z"
+            "modified": "2020-08-31T01:26:41.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -15786,6 +15951,12 @@
             "eastons": [
                 "recYdu80xR1fud67B"
             ],
+            "timeline": [
+                "recxAgEs5O3piUpAG",
+                "receG7A0Y0VjWPff1",
+                "rec2buqN0Q38Yuqme",
+                "recl2rPfuRl5ZYiYP"
+            ],
             "verseCount": 17,
             "latitude": "37.941944",
             "longitude": "27.339722",
@@ -15800,7 +15971,7 @@
                 "Third Missionary Journey",
                 "Third Missionary Journey"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-28T20:01:16.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -16006,6 +16177,9 @@
             "eastons": [
                 "rechy2ScMYDrDbYAv"
             ],
+            "timeline": [
+                "recmnGiHVM3Hylr7r"
+            ],
             "verseCount": 2,
             "latitude": "32.322222",
             "longitude": "45.636111",
@@ -16014,7 +16188,7 @@
             "dictText": [
                 "(LXX., \u201cOrech\u201d), length, or Moon-town, one of the cities of Nimrod\u2019s kingdom in the plain of Shinar ([Gen. 10:10](/gen#Gen.10.10)); the Orchoe of the Greeks and Romans. It was probably the city of the Archevites, who were transplanted to Samaria by Asnapper ([Ezra 4:9](/ezra#Ezra.4.9)). It lay on the left bank of the Euphrates, about 120 miles south-east of Babylon, and is now represented by the mounds and ruins of Warka. It appears to have been the necropolis of the Assyrian kings, as the whole region is strewed with bricks and the remains of coffins. \u201cStanding on the summit of the principal edifice, called the Buwarizza, a tower 200 feet square in the centre of the ruins, the beholder is struck with astonishment at the enormous accumulation of mounds and ancient relics at his feet. An irregular circle, nearly 6 miles in circumference, is defined by the traces of an earthen rampart, in some places 40 feet high.\u201d"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-27T01:48:27.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -16633,6 +16807,10 @@
             "eastons": [
                 "rec0TFeHdaDkFWubH"
             ],
+            "timeline": [
+                "recJWNH2OCuUoOz6e",
+                "recAIElabptRPkpxz"
+            ],
             "verseCount": 1,
             "latitude": "34.92138419",
             "longitude": "24.73114126",
@@ -16644,7 +16822,7 @@
             "eventGroups": [
                 "Journey to Rome"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-28T20:09:35.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -16866,6 +17044,10 @@
             "eastons": [
                 "rec6UW2EXYV7bVt18"
             ],
+            "timeline": [
+                "recayBHkzCbMe6dnD",
+                "recxAgEs5O3piUpAG"
+            ],
             "verseCount": 6,
             "latitude": "37.5",
             "longitude": "32.5",
@@ -16878,7 +17060,7 @@
                 "Second Missionary Journey",
                 "Second Missionary Journey"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-28T20:01:16.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -17583,6 +17765,9 @@
             "eastons": [
                 "recXpKODBKconG1x2"
             ],
+            "timeline": [
+                "recvI0SgATGCasGsV"
+            ],
             "verseCount": 19,
             "latitude": "31.503959",
             "longitude": "34.46203",
@@ -17594,7 +17779,7 @@
             "eventGroups": [
                 "Persecution/First Martyr"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-27T01:33:25.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -19497,6 +19682,9 @@
             "eastons": [
                 "recR580J0hc1u71NU"
             ],
+            "timeline": [
+                "recGXoNtdiKu28Wff"
+            ],
             "verseCount": 5,
             "latitude": "39.04697922405934",
             "longitude": "22.97947876",
@@ -19508,7 +19696,7 @@
             "eventGroups": [
                 "Third Missionary Journey"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-27T01:33:25.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -20525,6 +20713,10 @@
             "eastons": [
                 "recIw5RJ9r0CmWZna"
             ],
+            "timeline": [
+                "recYgh6yAIxRItDC9",
+                "rechJv1ksZ00ye38i"
+            ],
             "verseCount": 10,
             "latitude": "36.86",
             "longitude": "39.03139",
@@ -20536,7 +20728,7 @@
             "eventGroups": [
                 "Abraham's Sojourn in Canaan"
             ],
-            "modified": "2020-07-08T16:07:07.000Z"
+            "modified": "2020-08-27T01:34:08.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -21424,6 +21616,9 @@
             "eastons": [
                 "recNsv5uyuDUNx5pR"
             ],
+            "timeline": [
+                "recG5DZ6bn0BDuYH9"
+            ],
             "verseCount": 56,
             "latitude": "31.524354",
             "longitude": "35.108539",
@@ -21435,7 +21630,7 @@
             "eventGroups": [
                 "Abraham's Sojourn in Canaan"
             ],
-            "modified": "2020-07-08T16:42:18.000Z"
+            "modified": "2020-08-27T01:34:08.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -22808,6 +23003,12 @@
             "eastons": [
                 "recIY8SnlFx6rhrn6"
             ],
+            "timeline": [
+                "recGlchVqaW39mkY0",
+                "receeGDZ90DJxYxnX",
+                "reckt5soySSqCZnoa",
+                "recUWXmZlrKxIx99u"
+            ],
             "verseCount": 6,
             "latitude": "38.1910079",
             "longitude": "32.3745104",
@@ -22821,7 +23022,7 @@
                 "First Missionary Journey",
                 "First Missionary Journey"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-28T19:55:46.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -23197,6 +23398,10 @@
             "eastons": [
                 "rec5YQzhtiz2HL2EI"
             ],
+            "timeline": [
+                "recJWNH2OCuUoOz6e",
+                "recAIElabptRPkpxz"
+            ],
             "verseCount": 4,
             "latitude": "42.78740074008558",
             "longitude": "12.0810743",
@@ -23208,7 +23413,7 @@
             "eventGroups": [
                 "Journey to Rome"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-28T20:09:35.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -25319,6 +25524,34 @@
             "eastons": [
                 "recFoDoSDqAKkMCtw"
             ],
+            "timeline": [
+                "reczDqE366xgbgv2C",
+                "recIu7xhASS4Ufyfd",
+                "recQoK9KFveLh556S",
+                "recVrh6Nbm3PruADf",
+                "rech8qvzNnkDTqCi3",
+                "recNQxwdQFjZidQTP",
+                "rec5Y0EXegwQ5m9mX",
+                "recnjhZVhcbtc7WL0",
+                "recCcRDJtUxaIqXnD",
+                "rec1qE6wAe0XINRoV",
+                "recXUpfeHouc4qLEl",
+                "reclAFi4IpJvlWCDp",
+                "recNZVX1qwBc7F9AU",
+                "recgcZKRVZDvMUMOa",
+                "recVjdJplfI1wSxYk",
+                "reczeOH6wbjkZHP1w",
+                "recNnOBWct1TV6CUZ",
+                "recGlchVqaW39mkY0",
+                "recwmsQ1HEDGztu9O",
+                "recxOoLkd6wFyKysC",
+                "recYE6hOLCtnqejur",
+                "recuV2kc7FiAUIuBQ",
+                "recR2Yyty10Qn41wQ",
+                "rec9DRZs8DbQy0fv5",
+                "rectG8MR4Z2zb8mwZ",
+                "recUWXmZlrKxIx99u"
+            ],
             "verseCount": 754,
             "latitude": "31.776667",
             "longitude": "35.234167",
@@ -25354,7 +25587,7 @@
                 "Paul Arrested and Imprisoned",
                 "Paul Arrested and Imprisoned"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-28T19:56:53.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -25943,6 +26176,10 @@
             "eastons": [
                 "recDFjsDLMvKN65XM"
             ],
+            "timeline": [
+                "recxH9n2Xk1PM6DvB",
+                "rec4fFrtrUuDVkTNK"
+            ],
             "verseCount": 14,
             "latitude": "32.053722",
             "longitude": "34.752119",
@@ -25955,7 +26192,7 @@
                 "Peter and Cornelius",
                 "Peter and Cornelius"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-27T01:33:25.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -26318,6 +26555,12 @@
             "eastons": [
                 "rechx1IT1A67fL7t3"
             ],
+            "timeline": [
+                "recCCk6aW2ZbOCRTd",
+                "recDiHn0k1yUMCdjc",
+                "recMhkv38hrlSmT3K",
+                "recxOoLkd6wFyKysC"
+            ],
             "verseCount": 44,
             "latitude": "31.777444",
             "longitude": "35.234935",
@@ -26332,7 +26575,7 @@
                 "Herod's persecution of James and Peter",
                 "Herod's persecution of James and Peter"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-27T01:33:25.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -28381,6 +28624,10 @@
             "eastons": [
                 "recas08zY9e4TEjfM"
             ],
+            "timeline": [
+                "recJWNH2OCuUoOz6e",
+                "recAIElabptRPkpxz"
+            ],
             "verseCount": 1,
             "latitude": "34.94044",
             "alphaGroup": "L",
@@ -28391,7 +28638,7 @@
             "eventGroups": [
                 "Journey to Rome"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-28T20:09:35.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -29288,6 +29535,10 @@
             "eastons": [
                 "recoirjVNlbKg5u9o"
             ],
+            "timeline": [
+                "recJWNH2OCuUoOz6e",
+                "recAIElabptRPkpxz"
+            ],
             "verseCount": 1,
             "latitude": "36.513688333333334",
             "longitude": "29.1296185",
@@ -29299,7 +29550,7 @@
             "eventGroups": [
                 "Journey to Rome"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-28T20:09:35.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -29339,6 +29590,9 @@
             "eastons": [
                 "rec8xjjhZLjL4XIs4"
             ],
+            "timeline": [
+                "recxH9n2Xk1PM6DvB"
+            ],
             "verseCount": 3,
             "latitude": "31.950908",
             "longitude": "34.893068",
@@ -29350,7 +29604,7 @@
             "eventGroups": [
                 "Peter and Cornelius"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-27T01:33:25.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -29392,6 +29646,12 @@
             "eastons": [
                 "recsJLElJwSGv5LIR"
             ],
+            "timeline": [
+                "recrre0r2IHdN3Y7Z",
+                "reckt5soySSqCZnoa",
+                "recinOtqH81aspLoO",
+                "recUWXmZlrKxIx99u"
+            ],
             "verseCount": 6,
             "latitude": "37.60196",
             "longitude": "32.33849",
@@ -29405,7 +29665,7 @@
                 "First Missionary Journey",
                 "Second Missionary Journey"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-28T19:55:46.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -29594,6 +29854,10 @@
             "eastons": [
                 "recVd0ai4FGyKpIZW"
             ],
+            "timeline": [
+                "recmIpAsHFs5pOzZ6",
+                "recGXoNtdiKu28Wff"
+            ],
             "verseCount": 21,
             "latitude": "40.73291797607738",
             "longitude": "22.9351994",
@@ -29606,7 +29870,7 @@
                 "Second Missionary Journey",
                 "Third Missionary Journey"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-27T01:33:25.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -30726,6 +30990,10 @@
             "eastons": [
                 "rec1qVvDY9SFiDloi"
             ],
+            "timeline": [
+                "recXUXZhzA47ZRt5F",
+                "recAIElabptRPkpxz"
+            ],
             "verseCount": 1,
             "latitude": "35.87373581",
             "longitude": "14.44874427",
@@ -30737,7 +31005,7 @@
             "eventGroups": [
                 "Journey to Rome"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-28T20:10:05.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -31639,6 +31907,10 @@
             "eastons": [
                 "rectXH8McY9dspif2"
             ],
+            "timeline": [
+                "recbGb0Cb2yIRqmle",
+                "recwlxgjUu5AwPX9D"
+            ],
             "verseCount": 3,
             "latitude": "37.5292362",
             "longitude": "27.2774885",
@@ -31651,7 +31923,7 @@
                 "Third Missionary Journey",
                 "Third Missionary Journey"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-27T01:33:25.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -31898,6 +32170,9 @@
             "eastons": [
                 "reco0BmAMb7vi0IzQ"
             ],
+            "timeline": [
+                "recbGb0Cb2yIRqmle"
+            ],
             "verseCount": 1,
             "latitude": "39.10772",
             "longitude": "26.55529",
@@ -31909,7 +32184,7 @@
             "eventGroups": [
                 "Third Missionary Journey"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-27T01:33:25.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -32403,6 +32678,9 @@
             "eastons": [
                 "recqKAEqfFIQEHjGx"
             ],
+            "timeline": [
+                "rechJv1ksZ00ye38i"
+            ],
             "verseCount": 2,
             "latitude": "32.21369123124062",
             "longitude": "35.2817986718367",
@@ -32414,7 +32692,7 @@
             "eventGroups": [
                 "Abraham's Sojourn in Canaan"
             ],
-            "modified": "2020-07-08T16:44:41.000Z"
+            "modified": "2020-08-27T01:34:08.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -34034,6 +34312,10 @@
             "eastons": [
                 "recWNoyDOEXhUWVDO"
             ],
+            "timeline": [
+                "recJWNH2OCuUoOz6e",
+                "recAIElabptRPkpxz"
+            ],
             "verseCount": 1,
             "latitude": "36.258393",
             "longitude": "29.985559",
@@ -34045,7 +34327,7 @@
             "eventGroups": [
                 "Journey to Rome"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-28T20:09:35.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -34085,6 +34367,9 @@
             "eastons": [
                 "rec8PSdbttcYl4dec"
             ],
+            "timeline": [
+                "recayBHkzCbMe6dnD"
+            ],
             "verseCount": 2,
             "latitude": "40.25",
             "longitude": "27.75",
@@ -34096,7 +34381,7 @@
             "eventGroups": [
                 "Second Missionary Journey"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-27T01:33:25.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -34611,6 +34896,9 @@
             "eastons": [
                 "rec7tbYK8mD02tA6J"
             ],
+            "timeline": [
+                "recmIpAsHFs5pOzZ6"
+            ],
             "verseCount": 1,
             "latitude": "40.93504",
             "longitude": "24.415015",
@@ -34622,7 +34910,7 @@
             "eventGroups": [
                 "Second Missionary Journey"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-27T01:33:25.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -34834,6 +35122,9 @@
             "eastons": [
                 "recCR3M8adKcb3cGe"
             ],
+            "timeline": [
+                "rechJv1ksZ00ye38i"
+            ],
             "verseCount": 36,
             "latitude": "30.25",
             "longitude": "34.75",
@@ -34845,7 +35136,7 @@
             "eventGroups": [
                 "Abraham's Sojourn in Canaan"
             ],
-            "modified": "2020-07-10T14:40:46.000Z"
+            "modified": "2020-08-27T01:34:08.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -35356,6 +35647,9 @@
             "eastons": [
                 "recdz09xGZFllAjk5"
             ],
+            "timeline": [
+                "recmnGiHVM3Hylr7r"
+            ],
             "verseCount": 18,
             "latitude": "36.34773",
             "longitude": "43.1609",
@@ -35364,7 +35658,7 @@
             "dictText": [
                 "First mentioned in [Gen. 10:11](/gen#Gen.10.11), which is rendered in the Revised Version, \u201cHe [i.e., Nimrod] went forth into Assyria and builded Nineveh.\u201d It is not again noticed till the days of Jonah, when it is described ([Jonah 3:3](/jonah#Jonah.3.3); [4:11](/jonah#Jonah.4.11)) as a great and populous city, the flourishing capital of the Assyrian empire ([2 Kings 19:36](/2kgs#2Kgs.19.36); [Isa. 37:37](/isa#Isa.37.37)). The book of the prophet Nahum is almost exclusively taken up with prophetic denunciations against this city. Its ruin and utter desolation are foretold ([Nah. 1:14](/nah#Nah.1.14); [3:19](/nah#Nah.3.19), etc.). Zephaniah also (2:13-15) predicts its destruction along with the fall of the empire of which it was the capital. From this time there is no mention of it in Scripture till it is named in gospel history ([Matt. 12:41](/matt#Matt.12.41); [Luke 11:32](/luke#Luke.11.32)).\n\n This \u201cexceeding great city\u201d lay on the eastern or left bank of the river Tigris, along which it stretched for some 30 miles, having an average breadth of 10 miles or more from the river back toward the eastern hills. This whole extensive space is now one immense area of ruins. Occupying a central position on the great highway between the Mediterranean and the Indian Ocean, thus uniting the East and the West, wealth flowed into it from many sources, so that it became the greatest of all ancient cities.\n\n About B.C. 633 the Assyrian empire began to show signs of weakness, and Nineveh was attacked by the Medes, who subsequently, about B.C. 625, being joined by the Babylonians and Susianians, again attacked it, when it fell, and was razed to the ground. The Assyrian empire then came to an end, the Medes and Babylonians dividing its provinces between them. \u201cAfter having ruled for more than six hundred years with hideous tyranny and violence, from the Caucasus and the Caspian to the Persian Gulf, and from beyond the Tigris to Asia Minor and Egypt, it vanished like a dream\u201d ([Nah. 2:6-11](/nah#Nah.2.6)). Its end was strange, sudden, tragic. It was God\u2019s doing, his judgement on Assyria\u2019s pride ([Isa. 10:5-19](/isa#Isa.10.5)).\n\n Forty years ago our knowledge of the great Assyrian empire and of its magnificent capital was almost wholly a blank. Vague memories had indeed survived of its power and greatness, but very little was definitely known about it. Other cities which had perished, as Palmyra, Persepolis, and Thebes, had left ruins to mark their sites and tell of their former greatness; but of this city, imperial Nineveh, not a single vestige seemed to remain, and the very place on which it had stood was only matter of conjecture. In fulfilment of prophecy, God made \u201can utter end of the place.\u201d It became a \u201cdesolation.\u201d\n\n In the days of the Greek historian Herodotus, B.C. 400, it had become a thing of the past; and when Xenophon the historian passed the place in the \u201cRetreat of the Ten Thousand,\u201d the very memory of its name had been lost. It was buried out of sight, and no one knew its grave. It is never again to rise from its ruins.\n\n At length, after being lost for more than two thousand years, the city was disentombed. A little more than forty years ago the French consul at Mosul began to search the vast mounds that lay along the opposite bank of the river. The Arabs whom he employed in these excavations, to their great surprise, came upon the ruins of a building at the mound of Khorsabad, which, on further exploration, turned out to be the royal palace of Sargon, one of the Assyrian kings. They found their way into its extensive courts and chambers, and brought forth form its hidded depths many wonderful sculptures and other relics of those ancient times.\n\n The work of exploration has been carried on almost continuously by M. Botta, Sir Henry Layard, George Smith, and others, in the mounds of Nebi-Yunus, Nimrud, Koyunjik, and Khorsabad, and a vast treasury of specimens of old Assyrian art has been exhumed. Palace after palace has been discovered, with their decorations and their sculptured slabs, revealing the life and manners of this ancient people, their arts of war and peace, the forms of their religion, the style of their architecture, and the magnificence of their monarchs. The streets of the city have been explored, the inscriptions on the bricks and tablets and sculptured figures have been read, and now the secrets of their history have been brought to light.\n\n One of the most remarkable of recent discoveries is that of the library of King Assur-bani-pal, or, as the Greek historians call him, Sardanapalos, the grandson of Sennacherib (q.v.). (See ASNAPPER.) This library consists of about ten thousand flat bricks or tablets, all written over with Assyrian characters. They contain a record of the history, the laws, and the religion of Assyria, of the greatest value. These strange clay leaves found in the royal library form the most valuable of all the treasuries of the literature of the old world. The library contains also old Accadian documents, which are the oldest extant documents in the world, dating as far back as probably about the time of Abraham. (See SARGON.)\n\n \u201cThe Assyrian royalty is, perhaps, the most luxurious of our century [reign of Assur-bani-pa]...Its victories and conquests, uninterrupted for one hundred years, have enriched it with the spoil of twenty peoples. Sargon has taken what remained to the Hittites; Sennacherib overcame Chaldea, and the treasures of Babylon were transferred to his coffers; Esarhaddon and Assur-bani-pal himself have pillaged Egypt and her great cities, Sais, Memphis, and Thebes of the hundred gates...Now foreign merchants flock into Nineveh, bringing with them the most valuable productions from all countries, gold and perfume from South Arabia and the Chaldean Sea, Egyptian linen and glass-work, carved enamels, goldsmiths\u2019 work, tin, silver, Phoenician purple; cedar wood from Lebanon, unassailable by worms; furs and iron from Asia Minor and Armenia\u201d (Ancient Egypt and Assyria, by G. Maspero, page 271).\n\n The bas-reliefs, alabaster slabs, and sculptured monuments found in these recovered palaces serve in a remarkable manner to confirm the Old Testament history of the kings of Israel. The appearance of the ruins shows that the destruction of the city was due not only to the assailing foe but also to the flood and the fire, thus confirming the ancient prophecies concerning it. \u201cThe recent excavations,\u201d says Rawlinson, \u201chave shown that fire was a great instrument in the destruction of the Nineveh palaces. Calcined alabaster, charred wood, and charcoal, colossal statues split through with heat, are met with in parts of the Nineveh mounds, and attest the veracity of prophecy.\u201d\n\n Nineveh in its glory was ([Jonah 3:4](/jonah#Jonah.3.4)) an \u201cexceeding great city of three days\u2019 journey\u201d, i.e., probably in circuit. This would give a circumference of about 60 miles. At the four corners of an irregular quadrangle are the ruins of Kouyunjik, Nimrud, Karamless and Khorsabad. These four great masses of ruins, with the whole area included within the parallelogram they form by lines drawn from the one to the other, are generally regarded as composing the whole ruins of Nineveh."
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-27T01:48:32.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -35462,6 +35756,9 @@
             "eastons": [
                 "recTIhUiWXfejG1Xl"
             ],
+            "timeline": [
+                "recl4Bcpg9yzJsEqI"
+            ],
             "verseCount": 1,
             "alphaGroup": "N",
             "slug": "nod_902",
@@ -35471,7 +35768,7 @@
             "eventGroups": [
                 "Cain and Abel"
             ],
-            "modified": "2020-05-15T15:15:44.000Z"
+            "modified": "2020-08-20T19:23:08.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -35683,6 +35980,10 @@
             "duplicate_of": [
                 "recOahYbjltSaaIV0"
             ],
+            "timeline": [
+                "recvfB75N6vrQwhWW",
+                "rec06pcAZBChUBKxF"
+            ],
             "verseCount": 3,
             "latitude": "31.77809503",
             "longitude": "35.24719761",
@@ -35692,7 +35993,7 @@
                 "Ascension",
                 "Ascension"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-27T01:33:25.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -36119,6 +36420,13 @@
             "eastons": [
                 "rechFF2b8oyIM64cW"
             ],
+            "timeline": [
+                "recGlchVqaW39mkY0",
+                "reckt5soySSqCZnoa",
+                "recJWNH2OCuUoOz6e",
+                "recUWXmZlrKxIx99u",
+                "recAIElabptRPkpxz"
+            ],
             "verseCount": 5,
             "latitude": "36.990721",
             "longitude": "30.98638",
@@ -36132,7 +36440,7 @@
                 "First Missionary Journey",
                 "Journey to Rome"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-28T20:09:35.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -36169,6 +36477,11 @@
             "eastons": [
                 "recLtKNfIRSL0SqDF"
             ],
+            "timeline": [
+                "recJeAtSLg0KP2loe",
+                "recGlchVqaW39mkY0",
+                "recUWXmZlrKxIx99u"
+            ],
             "verseCount": 2,
             "latitude": "34.707147",
             "longitude": "32.573711",
@@ -36181,7 +36494,7 @@
                 "First Missionary Journey",
                 "First Missionary Journey"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-28T19:56:17.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -36353,6 +36666,9 @@
             "eastons": [
                 "rec1cgy6XsJnWlitq"
             ],
+            "timeline": [
+                "recxOoLkd6wFyKysC"
+            ],
             "verseCount": 1,
             "latitude": "36.26018",
             "longitude": "29.314279",
@@ -36364,7 +36680,7 @@
             "eventGroups": [
                 "Third Missionary Journey"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-27T01:33:25.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -36796,6 +37112,11 @@
             "eastons": [
                 "recDmfbAyhH7cGEtY"
             ],
+            "timeline": [
+                "recGlchVqaW39mkY0",
+                "reckt5soySSqCZnoa",
+                "recUWXmZlrKxIx99u"
+            ],
             "verseCount": 3,
             "latitude": "36.961406",
             "longitude": "30.854274",
@@ -36808,7 +37129,7 @@
                 "First Missionary Journey",
                 "First Missionary Journey"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-28T19:55:46.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -37002,6 +37323,10 @@
             "eastons": [
                 "recSQGEv1D98nJN3t"
             ],
+            "timeline": [
+                "recJWNH2OCuUoOz6e",
+                "recAIElabptRPkpxz"
+            ],
             "verseCount": 1,
             "latitude": "35.19888577",
             "longitude": "24.08098202",
@@ -37013,7 +37338,7 @@
             "eventGroups": [
                 "Journey to Rome"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-28T20:09:35.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -37054,6 +37379,9 @@
             "eastons": [
                 "recgzCM7nZwFMEl5j"
             ],
+            "timeline": [
+                "recxOoLkd6wFyKysC"
+            ],
             "verseCount": 3,
             "latitude": "33.25",
             "longitude": "35.25",
@@ -37065,7 +37393,7 @@
             "eventGroups": [
                 "Third Missionary Journey"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-27T01:33:25.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -37145,6 +37473,15 @@
             "eastons": [
                 "rec93keMY9ZqVjXtH"
             ],
+            "timeline": [
+                "recmIpAsHFs5pOzZ6",
+                "reczE4p2AzSrs4ppP",
+                "rec1Olk9cxeWoT5Jl",
+                "recVY5whVRxmh37rH",
+                "recX4DzqXgIe0R2T4",
+                "rec611BDzVM1WOUa5",
+                "recGXoNtdiKu28Wff"
+            ],
             "verseCount": 4,
             "latitude": "41.01316",
             "longitude": "24.28409",
@@ -37162,7 +37499,7 @@
                 "Second Missionary Journey",
                 "Second Missionary Journey"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-27T01:33:25.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -37246,6 +37583,10 @@
             "eastons": [
                 "recaSOVWc5HUqpshz"
             ],
+            "timeline": [
+                "recayBHkzCbMe6dnD",
+                "recxAgEs5O3piUpAG"
+            ],
             "verseCount": 3,
             "latitude": "37.5",
             "alphaGroup": "P",
@@ -37257,7 +37598,7 @@
                 "Second Missionary Journey",
                 "Second Missionary Journey"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-28T20:01:16.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -37508,6 +37849,10 @@
             "eastons": [
                 "recLi2wzx31VBFTz4"
             ],
+            "timeline": [
+                "reckt5soySSqCZnoa",
+                "recUWXmZlrKxIx99u"
+            ],
             "verseCount": 2,
             "latitude": "37.25",
             "longitude": "30.75",
@@ -37519,7 +37864,7 @@
             "eventGroups": [
                 "First Missionary Journey"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-28T19:55:46.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -37718,6 +38063,9 @@
             "eastons": [
                 "recxipXViqnzLhlyd"
             ],
+            "timeline": [
+                "recG5DZ6bn0BDuYH9"
+            ],
             "verseCount": 2,
             "latitude": "32.309099",
             "longitude": "35.5599",
@@ -37729,7 +38077,7 @@
             "eventGroups": [
                 "Abraham's Sojourn in Canaan"
             ],
-            "modified": "2020-07-08T16:46:33.000Z"
+            "modified": "2020-08-27T01:34:08.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -37913,6 +38261,9 @@
             "eastons": [
                 "rec7CrVzS8RwX3Mep"
             ],
+            "timeline": [
+                "recxOoLkd6wFyKysC"
+            ],
             "verseCount": 1,
             "latitude": "32.920744",
             "longitude": "35.068626",
@@ -37924,7 +38275,7 @@
             "eventGroups": [
                 "Third Missionary Journey"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-27T01:33:25.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -38070,6 +38421,10 @@
             "eastons": [
                 "recSKzeNuM2D220w3"
             ],
+            "timeline": [
+                "recuZhS7z4CatBOO0",
+                "recAIElabptRPkpxz"
+            ],
             "verseCount": 1,
             "latitude": "40.827957",
             "longitude": "14.121869",
@@ -38081,7 +38436,7 @@
             "eventGroups": [
                 "Journey to Rome"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-28T20:10:27.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -39187,6 +39542,9 @@
             "eastons": [
                 "recb75SIFOq5uivpn"
             ],
+            "timeline": [
+                "recmnGiHVM3Hylr7r"
+            ],
             "verseCount": 1,
             "latitude": "36.35941",
             "longitude": "43.152887",
@@ -39195,7 +39553,7 @@
             "dictText": [
                 "Named among the cities of Asshur ([Gen. 10:11](/gen#Gen.10.11)). Probably, however, the words \u201crehoboth\u2019ir\u201d are to be translated as in the Vulgate and the margin of A.V., \u201cthe streets of the city,\u201d or rather \u201cthe public square of the city\u201d, i.e., of Nineveh."
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-27T01:48:52.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -39378,6 +39736,9 @@
             "eastons": [
                 "recZ6H9rP9ja3tyOv"
             ],
+            "timeline": [
+                "recmnGiHVM3Hylr7r"
+            ],
             "verseCount": 1,
             "latitude": "36.359410",
             "longitude": "43.152887",
@@ -39386,7 +39747,7 @@
             "dictText": [
                 "Head of the stream; bridle, one of Nimrod\u2019s cities ([Gen. 10:12](/gen#Gen.10.12)), \u201cbetween Nineveh and Calah.\u201d It has been supposed that the four cities named in this verse were afterwards combined into one under the name of Nineveh (q.v.). Resen was on the east side of the Tigris. It is probably identified with the mound of ruins called Karamless."
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-27T01:50:00.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -39454,6 +39815,10 @@
             "eastons": [
                 "rec3NLDi64ZRcFP7G"
             ],
+            "timeline": [
+                "recuZhS7z4CatBOO0",
+                "recAIElabptRPkpxz"
+            ],
             "verseCount": 1,
             "latitude": "38.111146",
             "longitude": "15.649244",
@@ -39465,7 +39830,7 @@
             "eventGroups": [
                 "Journey to Rome"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-28T20:10:18.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -39500,6 +39865,9 @@
             "eastons": [
                 "recGp0tXjpRbA5xqN"
             ],
+            "timeline": [
+                "recxOoLkd6wFyKysC"
+            ],
             "verseCount": 1,
             "latitude": "36.41451",
             "longitude": "28.15629",
@@ -39511,7 +39879,7 @@
             "eventGroups": [
                 "Third Missionary Journey"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-27T01:33:25.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -40134,6 +40502,11 @@
             "eastons": [
                 "rec7Qv4zXq0cJXt03"
             ],
+            "timeline": [
+                "recuZhS7z4CatBOO0",
+                "recGrIgOxWnxVl8h0",
+                "recAIElabptRPkpxz"
+            ],
             "verseCount": 9,
             "latitude": "41.89262",
             "longitude": "12.4843457",
@@ -40146,7 +40519,7 @@
                 "Journey to Rome",
                 "Journey to Rome"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-28T20:09:38.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -40247,6 +40620,10 @@
             "eastons": [
                 "rec12J7y3VcSDD2I6"
             ],
+            "timeline": [
+                "recJeAtSLg0KP2loe",
+                "recUWXmZlrKxIx99u"
+            ],
             "verseCount": 1,
             "latitude": "35.17926",
             "longitude": "33.90294",
@@ -40258,7 +40635,7 @@
             "eventGroups": [
                 "First Missionary Journey"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-28T19:56:10.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -40408,6 +40785,10 @@
             "eastons": [
                 "recgoGedSodYu1GXy"
             ],
+            "timeline": [
+                "recJWNH2OCuUoOz6e",
+                "recAIElabptRPkpxz"
+            ],
             "verseCount": 1,
             "latitude": "37.69636",
             "longitude": "21.56999",
@@ -40419,7 +40800,7 @@
             "eventGroups": [
                 "Journey to Rome"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-28T20:09:35.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -40653,6 +41034,9 @@
             "eastons": [
                 "recAcJM6ieEAi4YsQ"
             ],
+            "timeline": [
+                "recP6mZs3oSlZdrT0"
+            ],
             "verseCount": 114,
             "latitude": "32.331417",
             "longitude": "35.228586",
@@ -40664,7 +41048,7 @@
             "eventGroups": [
                 "Persecution/First Martyr"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-27T01:33:25.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -40734,6 +41118,9 @@
             "eastons": [
                 "recPIfQ3YL4Z7Oujh"
             ],
+            "timeline": [
+                "recbGb0Cb2yIRqmle"
+            ],
             "verseCount": 1,
             "latitude": "37.73",
             "longitude": "26.97616",
@@ -40745,7 +41132,7 @@
             "eventGroups": [
                 "Third Missionary Journey"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-27T01:33:25.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -40780,6 +41167,9 @@
             "eastons": [
                 "recsuWxjxfyMwx1bv"
             ],
+            "timeline": [
+                "recmIpAsHFs5pOzZ6"
+            ],
             "verseCount": 1,
             "latitude": "40.5009431",
             "longitude": "25.5302283",
@@ -40791,7 +41181,7 @@
             "eventGroups": [
                 "Second Missionary Journey"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-27T01:33:25.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -40926,6 +41316,9 @@
             "eastons": [
                 "recyJj0SOPwX5FJIL"
             ],
+            "timeline": [
+                "recxH9n2Xk1PM6DvB"
+            ],
             "verseCount": 6,
             "latitude": "32.639068",
             "longitude": "34.945929",
@@ -40937,7 +41330,7 @@
             "eventGroups": [
                 "Peter and Cornelius"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-27T01:33:25.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -41518,6 +41911,10 @@
             "eastons": [
                 "recMzCw5B07URnfBD"
             ],
+            "timeline": [
+                "recJeAtSLg0KP2loe",
+                "recUWXmZlrKxIx99u"
+            ],
             "verseCount": 1,
             "latitude": "36.11705",
             "longitude": "35.93815",
@@ -41529,7 +41926,7 @@
             "eventGroups": [
                 "First Missionary Journey"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-28T19:56:06.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -42344,6 +42741,9 @@
             "eastons": [
                 "recLrEOyGPYK5n7fi"
             ],
+            "timeline": [
+                "rechJv1ksZ00ye38i"
+            ],
             "verseCount": 40,
             "latitude": "32.22111",
             "longitude": "35.25444",
@@ -42355,7 +42755,7 @@
             "eventGroups": [
                 "Abraham's Sojourn in Canaan"
             ],
-            "modified": "2020-07-08T16:46:29.000Z"
+            "modified": "2020-08-27T01:34:08.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -42953,6 +43353,9 @@
             "eastons": [
                 "recYkfMaaugQPRsmT"
             ],
+            "timeline": [
+                "recmnGiHVM3Hylr7r"
+            ],
             "verseCount": 8,
             "latitude": "32.53650368616845",
             "longitude": "44.42088287373876",
@@ -42961,7 +43364,7 @@
             "dictText": [
                 "LXX. and Vulgate \u201cSenaar;\u201d in the inscriptions, \u201cShumir;\u201d probably identical with Babylonia or Southern Mesopotamia, extending almost to the Persian Gulf. Here the tower of Babel was built ([Gen. 11:1-6](/gen#Gen.11.1)), and the city of Babylon. The name occurs later in Jewish history ([Isa. 11:11](/isa#Isa.11.11); [Zech. 5:11](/zech#Zech.5.11)). Shinar was apparently first peopled by Turanian tribes, who tilled the land and made bricks and built cities. Then tribes of Semites invaded the land and settled in it, and became its rulers. This was followed in course of time by an Elamite invasion; from which the land was finally delivered by Khammurabi, the son of Amarpel (\u201cAmraphel, king of Shinar,\u201d [Gen. 14:1](/gen#Gen.14.1)), who became the founder of the new empire of Chaldea. (See AMRAPHEL.)"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-27T01:45:44.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -43334,6 +43737,10 @@
             "eastons": [
                 "recApbNiYmak8tndL"
             ],
+            "timeline": [
+                "recJWNH2OCuUoOz6e",
+                "recAIElabptRPkpxz"
+            ],
             "verseCount": 30,
             "latitude": "33.560243",
             "longitude": "35.371208",
@@ -43345,7 +43752,7 @@
             "eventGroups": [
                 "Journey to Rome"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-28T20:09:35.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -43935,6 +44342,9 @@
             "eastons": [
                 "recwiHxPWqq9eVp0D"
             ],
+            "timeline": [
+                "recG5DZ6bn0BDuYH9"
+            ],
             "verseCount": 47,
             "latitude": "31.19656033",
             "longitude": "35.39648412",
@@ -43946,7 +44356,7 @@
             "eventGroups": [
                 "Abraham's Sojourn in Canaan"
             ],
-            "modified": "2020-07-08T16:25:01.000Z"
+            "modified": "2020-08-27T01:34:08.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -43983,6 +44393,10 @@
             "eastons": [
                 "recd4ka5sKzv7bXMC"
             ],
+            "timeline": [
+                "reciu7dT92C4dTrfl",
+                "rectkWZqlKG1cfOQT"
+            ],
             "verseCount": 2,
             "latitude": "31.777444",
             "longitude": "35.234935",
@@ -43995,7 +44409,7 @@
                 "Pentecost/Church Founded",
                 "Pentecost/Church Founded"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-27T01:33:25.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -44093,6 +44507,9 @@
             "eastons": [
                 "recG738SoF2FMaEs5"
             ],
+            "timeline": [
+                "recCz7opcoITkiZiq"
+            ],
             "verseCount": 1,
             "latitude": "33.519299",
             "longitude": "36.31344999999999",
@@ -44104,7 +44521,7 @@
             "eventGroups": [
                 "Saul Converted"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-27T01:33:25.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -44447,6 +44864,10 @@
             "eastons": [
                 "recxBLFpkGU4xsujl"
             ],
+            "timeline": [
+                "recuZhS7z4CatBOO0",
+                "recAIElabptRPkpxz"
+            ],
             "verseCount": 1,
             "latitude": "37.05963",
             "longitude": "15.29382",
@@ -44458,7 +44879,7 @@
             "eventGroups": [
                 "Journey to Rome"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-28T20:10:16.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -44564,6 +44985,11 @@
             "eastons": [
                 "recjhBNIgsrGbg1a0"
             ],
+            "timeline": [
+                "recsnRcoxqD4pQGHp",
+                "recxAgEs5O3piUpAG",
+                "recxOoLkd6wFyKysC"
+            ],
             "verseCount": 64,
             "latitude": "37.5",
             "longitude": "37.5",
@@ -44577,7 +45003,7 @@
                 "Second Missionary Journey",
                 "Third Missionary Journey"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-28T20:01:16.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -44611,6 +45037,10 @@
             "eastons": [
                 "recN1n2CQYpjiR75k"
             ],
+            "timeline": [
+                "recXiU82RVp1vo67a",
+                "recAIElabptRPkpxz"
+            ],
             "verseCount": 1,
             "latitude": "31.5",
             "longitude": "18",
@@ -44622,7 +45052,7 @@
             "eventGroups": [
                 "Journey to Rome"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-28T20:09:53.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -45242,6 +45672,9 @@
             "eastons": [
                 "rec1mutqZBXZbM9MT"
             ],
+            "timeline": [
+                "reczeOH6wbjkZHP1w"
+            ],
             "verseCount": 5,
             "latitude": "36.91242",
             "longitude": "34.89592",
@@ -45253,7 +45686,7 @@
             "eventGroups": [
                 "Saul Converted"
             ],
-            "modified": "2020-05-29T01:33:02.000Z"
+            "modified": "2020-08-27T01:33:25.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -45781,6 +46214,9 @@
             "eastons": [
                 "reckGjZhwmNW0VPuu"
             ],
+            "timeline": [
+                "recrnXnFkh9CGTgkn"
+            ],
             "verseCount": 6,
             "latitude": "40.630282",
             "longitude": "22.949569",
@@ -45792,7 +46228,7 @@
             "eventGroups": [
                 "Second Missionary Journey"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-27T01:33:25.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -45822,6 +46258,10 @@
             "eastons": [
                 "rec5hn4ahYjbZ4g2A"
             ],
+            "timeline": [
+                "recuZhS7z4CatBOO0",
+                "recAIElabptRPkpxz"
+            ],
             "verseCount": 1,
             "latitude": "41.59132",
             "longitude": "12.828636",
@@ -45833,7 +46273,7 @@
             "eventGroups": [
                 "Journey to Rome"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-28T20:10:40.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -46685,6 +47125,12 @@
             "eastons": [
                 "recdIxhlOBkxBWXjF"
             ],
+            "timeline": [
+                "recayBHkzCbMe6dnD",
+                "recmIpAsHFs5pOzZ6",
+                "recGXoNtdiKu28Wff",
+                "recCiHwYp3CSqFWrK"
+            ],
             "verseCount": 6,
             "latitude": "39.75135",
             "longitude": "26.15765",
@@ -46699,7 +47145,7 @@
                 "Third Missionary Journey",
                 "Third Missionary Journey"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-27T01:33:25.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -46725,6 +47171,9 @@
             "eastons": [
                 "recOQpig13F6Uy1DN"
             ],
+            "timeline": [
+                "recbGb0Cb2yIRqmle"
+            ],
             "verseCount": 1,
             "alphaGroup": "T",
             "slug": "trogyllium_1278",
@@ -46734,7 +47183,7 @@
             "eventGroups": [
                 "Third Missionary Journey"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-27T01:33:25.000Z"
         },
         "createdTime": "2018-08-26T20:43:01.000Z"
     },
@@ -46854,6 +47303,9 @@
             "eastons": [
                 "recjAb0vQR17Yk2Tg"
             ],
+            "timeline": [
+                "recxOoLkd6wFyKysC"
+            ],
             "verseCount": 52,
             "latitude": "33.268071",
             "longitude": "35.209358",
@@ -46865,7 +47317,7 @@
             "eventGroups": [
                 "Third Missionary Journey"
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-27T01:33:25.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },
@@ -47033,6 +47485,9 @@
             "eastons": [
                 "rectLfuCuL0GQIPjl"
             ],
+            "timeline": [
+                "recXveJRjCtPNMLqs"
+            ],
             "verseCount": 4,
             "latitude": "30.9625",
             "longitude": "46.103056",
@@ -47041,7 +47496,7 @@
             "dictText": [
                 "Light, or the moon city, a city \u201cof the Chaldees,\u201d the birthplace of Haran ([Gen. 11:28](/gen#Gen.11.28), [31](/gen#Gen.11.31)), the largest city of Shinar or northern Chaldea, and the principal commercial centre of the country as well as the centre of political power. It stood near the mouth of the Euphrates, on its western bank, and is represented by the mounds (of bricks cemented by bitumen) of el-Mugheir, i.e., \u201cthe bitumined,\u201d or \u201cthe town of bitumen,\u201d now 150 miles from the sea and some 6 miles from the Euphrates, a little above the point where it receives the Shat el-Hie, an affluent from the Tigris. It was formerly a maritime city, as the waters of the Persian Gulf reached thus far inland. Ur was the port of Babylonia, whence trade was carried on with the dwellers on the gulf, and with the distant countries of India, Ethiopia, and Egypt. It was abandoned about B.C. 500, but long continued, like Erech, to be a great sacred cemetery city, as is evident from the number of tombs found there. (See ABRAHAM.)\n\n The oldest king of Ur known to us is Ur-Ba\u2019u (servant of the goddess Ba\u2019u), as Hommel reads the name, or Ur-Gur, as others read it. He lived some twenty-eight hundred years B.C., and took part in building the famous temple of the moon-god Sin in Ur itself. The illustration here given represents his cuneiform inscription, written in the Sumerian language, and stamped upon every brick of the temple in Ur. It reads: \u201cUr-Ba\u2019u, king of Ur, who built the temple of the moon-god.\u201d\n\n \u201cUr was consecrated to the worship of Sin, the Babylonian moon-god. It shared this honour, however, with another city, and this city was Haran, or Harran. Harran was in Mesopotamia, and took its name from the highroad which led through it from the east to the west. The name is Babylonian, and bears witness to its having been founded by a Babylonian king. The same witness is still more decisively borne by the worship paid in it to the Babylonian moon-god and by its ancient temple of Sin. Indeed, the temple of the moon-god at Harran was perhaps even more famous in the Assyrian and Babylonian world than the temple of the moon-god at Ur.\n\n \u201cBetween Ur and Harran there must, consequently, have been a close connection in early times, the record of which has not yet been recovered. It may be that Harran owed its foundation to a king of Ur; at any rate the two cities were bound together by the worship of the same deity, the closest and most enduring bond of union that existed in the ancient world. That Terah should have migrated from Ur to Harran, therefore, ceases to be extraordinary. If he left Ur at all, it was the most natural place to which to go. It was like passing from one court of a temple into another.\n\n \u201cSuch a remarkable coincidence between the Biblical narrative and the evidence of archaeological research cannot be the result of chance. The narrative must be historical; no writer of late date, even if he were a Babylonian, could have invented a story so exactly in accordance with what we now know to have been the truth. For a story of the kind to have been the invention of Palestinian tradition is equally impossible. To the unprejudiced mind there is no escape from the conclusion that the history of the migration of Terah from Ur to Harran is founded on fact\u201d (Sayce)."
             ],
-            "modified": "2020-05-21T19:20:23.000Z"
+            "modified": "2020-08-20T20:44:42.000Z"
         },
         "createdTime": "2017-09-19T23:40:41.000Z"
     },

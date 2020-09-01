@@ -747,6 +747,25 @@
         "createdTime": "2019-07-08T22:44:33.000Z"
     },
     {
+        "id": "recFXVlhMwhbgypPn",
+        "fields": {
+            "dictLookup": "Abimelech 2",
+            "termID": "a-p66.3",
+            "termLabel": "Abimelech",
+            "def_id": "a-p66.4",
+            "has_list": "True",
+            "itemNum": 2,
+            "matchType": "unmatched",
+            "matchSlugs": "unmatched",
+            "dictText": "A king of Gerar in the time of Isaac, probably the son of the preceeding ([Gen. 26:1-22](/gen#Gen.26.1)). Isaac sought refuge in his territory during a famine, and there he acted a part with reference to his wife Rebekah similar to that of his father Abraham with reference to Sarah. Abimelech rebuked him for the deception, which he accidentally discovered. Isaac settled for a while here, and prospered. Abimelech desired him, however, to leave his territory, which Isaac did. Abimelech afterwards visited him when he was encamped at Beer-sheba, and expressed a desire to renew the covenant which had been entered into between their fathers ([Gen. 26:26-31](/gen#Gen.26.26)).",
+            "personLookup": [
+                "recT2bBHUbJYLIUdu"
+            ],
+            "index": 72
+        },
+        "createdTime": "2019-07-08T22:44:33.000Z"
+    },
+    {
         "id": "recFSivPtrDFzY7G2",
         "fields": {
             "dictLookup": "Abimelech 3",
@@ -3913,7 +3932,8 @@
             "matchSlugs": "['aram_286', 'aram_285']",
             "dictText": "The son of Shem ([Gen. 10:22](/gen#Gen.10.22)); according to [Gen. 22:21](/gen#Gen.22.21), a grandson of Nahor. In [Matt. 1:3](/matt#Matt.1.3), [4](/matt#Matt.1.4), and [Luke 3:33](/luke#Luke.3.33), this word is the Greek form of Ram, the father of Amminadab ([1 Chr. 2:10](/1chr#1Chr.2.10)).\n\n The word means high, or highlands, and as the name of a country denotes that elevated region extending from the northeast of Palestine to the Euphrates. It corresponded generally with the Syria and Mesopotamia of the Greeks and Romans. In [Gen. 25:20](/gen#Gen.25.20); [31:20](/gen#Gen.31.20), [24](/gen#Gen.31.24); [Deut. 26:5](/deut#Deut.26.5), the word \u201cSyrian\u201d is properly \u201cAramean\u201d (R.V., marg.). Damascus became at length the capital of the several smaller kingdoms comprehended under the designation \u201cAram\u201d or \u201cSyria.\u201d",
             "personLookup": [
-                "recT8u51EoS9dm05Q"
+                "recT8u51EoS9dm05Q",
+                "rec9yeIB6RsFeHdat"
             ],
             "placeLookup": [
                 "recjdhKnTnRSPWNUo"
@@ -6053,6 +6073,25 @@
                 "rec46MqJI7uxMvviP"
             ],
             "index": 883
+        },
+        "createdTime": "2019-07-08T22:44:33.000Z"
+    },
+    {
+        "id": "receWfXjmIBgKcfdU",
+        "fields": {
+            "dictLookup": "Bethuel 1",
+            "termID": "b-p301.2",
+            "termLabel": "Bethuel",
+            "def_id": "b-p301.3",
+            "has_list": "True",
+            "itemNum": 1,
+            "matchType": "unmatched",
+            "matchSlugs": "unmatched",
+            "dictText": "The son of Nahor by Milcah; nephew of Abraham, and father of Rebekah ([Gen. 22:22](/gen#Gen.22.22), [23](/gen#Gen.22.23); [24:15](/gen#Gen.24.15), [24](/gen#Gen.24.24), [47](/gen#Gen.24.47)). He appears in person only once (24:50).",
+            "personLookup": [
+                "reccN1xlFTOq0eIxu"
+            ],
+            "index": 936
         },
         "createdTime": "2019-07-08T22:44:33.000Z"
     },
@@ -8536,6 +8575,25 @@
                 "recj76LUNgft1M7Io"
             ],
             "index": 1837
+        },
+        "createdTime": "2019-07-08T22:44:33.000Z"
+    },
+    {
+        "id": "recuSsiwDt3IWTJpJ",
+        "fields": {
+            "dictLookup": "Eliezer 6",
+            "termID": "e-p141.2",
+            "termLabel": "Eliezer",
+            "def_id": "e-p141.3",
+            "has_list": "True",
+            "itemNum": 6,
+            "matchType": "multi",
+            "matchSlugs": "['eliezer_1121', 'eliezer_1118', 'eliezer_1122', 'eliezer_1119', 'eliezer_1123', 'eliezer_1120']",
+            "dictText": "A prophet in the time of Jehoshaphat ([2 Chr. 20:37](/2chr#2Chr.20.37)). Others of this name are mentioned [Luke 3:29](/luke#Luke.3.29); [Ezra 8:16](/ezra#Ezra.8.16); [10:18](/ezra#Ezra.10.18), [23](/ezra#Ezra.10.23), [31](/ezra#Ezra.10.31).",
+            "personLookup": [
+                "rec7C7QJKH2cXqNUO"
+            ],
+            "index": 1838
         },
         "createdTime": "2019-07-08T22:44:33.000Z"
     },
