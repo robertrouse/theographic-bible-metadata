@@ -185,7 +185,12 @@
                 "recDhG2YO0S87wRkJ",
                 "recJ6ymHhmzPmXx1s"
             ],
-            "modified": "2019-08-06T21:22:02.000Z"
+            "events_dev": [
+                "recjkmUO88wihv8Ci",
+                "recr71Fz4NHTnGLJ2",
+                "recSF4lyBebGjJEXI"
+            ],
+            "modified": "2020-09-07T20:00:01.000Z"
         },
         "createdTime": "2018-03-19T00:37:26.000Z"
     },
@@ -242,7 +247,13 @@
                 "recmLF3DkHikEGrlt",
                 "recREZovRXMOTCctd",
                 "recG44LmJGtx6hg6f"
-            ]
+            ],
+            "events_dev": [
+                "recjkmUO88wihv8Ci",
+                "recr71Fz4NHTnGLJ2",
+                "recSF4lyBebGjJEXI"
+            ],
+            "modified": "2020-09-07T20:00:01.000Z"
         },
         "createdTime": "2018-03-19T00:37:26.000Z"
     },
@@ -303,7 +314,13 @@
                 "reczaq5SZodNvSVSV",
                 "recyHsGKTQm7XDRCb",
                 "rec5IfTXcDLvx6ba1"
-            ]
+            ],
+            "events_dev": [
+                "recjkmUO88wihv8Ci",
+                "recr71Fz4NHTnGLJ2",
+                "recSF4lyBebGjJEXI"
+            ],
+            "modified": "2020-09-07T20:00:01.000Z"
         },
         "createdTime": "2018-03-19T00:37:26.000Z"
     },
@@ -594,7 +611,12 @@
             "verses": [
                 "recDl7QYLCsVnnMwn"
             ],
-            "modified": "2020-07-16T01:15:43.000Z"
+            "events_dev": [
+                "recjkmUO88wihv8Ci",
+                "recr71Fz4NHTnGLJ2",
+                "recSF4lyBebGjJEXI"
+            ],
+            "modified": "2020-09-07T20:00:01.000Z"
         },
         "createdTime": "2018-03-19T00:37:26.000Z"
     },
@@ -764,7 +786,16 @@
                 "recdyjZ1d8oc4SVe3",
                 "rec3hEUuRodQfjZYS",
                 "recto9z3tEOnLjVOi"
-            ]
+            ],
+            "events_dev": [
+                "recjkmUO88wihv8Ci",
+                "recr71Fz4NHTnGLJ2",
+                "recSF4lyBebGjJEXI"
+            ],
+            "partOf": [
+                "recsTcOXoP1DEM5lL"
+            ],
+            "modified": "2020-09-13T02:02:22.000Z"
         },
         "createdTime": "2018-03-19T00:37:26.000Z"
     },
@@ -814,7 +845,16 @@
                 "recXL28rWpTqcGeVq",
                 "recjCEJz0rX1EZp6a",
                 "recwvVFoKdTrG4yiz"
-            ]
+            ],
+            "events_dev": [
+                "recjkmUO88wihv8Ci",
+                "recr71Fz4NHTnGLJ2",
+                "recSF4lyBebGjJEXI"
+            ],
+            "partOf": [
+                "recsTcOXoP1DEM5lL"
+            ],
+            "modified": "2020-09-13T02:02:24.000Z"
         },
         "createdTime": "2018-03-19T00:37:26.000Z"
     },
@@ -831,7 +871,16 @@
                 "recPywmw0Czl7uOUq",
                 "recQ9D19NlBxM45q3",
                 "recV4ZJRTOSo4pTjq"
-            ]
+            ],
+            "events_dev": [
+                "recjkmUO88wihv8Ci",
+                "recr71Fz4NHTnGLJ2",
+                "recSF4lyBebGjJEXI"
+            ],
+            "partOf": [
+                "recsTcOXoP1DEM5lL"
+            ],
+            "modified": "2020-09-13T02:02:25.000Z"
         },
         "createdTime": "2018-03-19T00:37:26.000Z"
     },
@@ -842,7 +891,16 @@
             "members": [
                 "recwqzXQjpmdyyW9y",
                 "recM8vhtW0bf4XfFn"
-            ]
+            ],
+            "events_dev": [
+                "recjkmUO88wihv8Ci",
+                "recr71Fz4NHTnGLJ2",
+                "recSF4lyBebGjJEXI"
+            ],
+            "partOf": [
+                "recsTcOXoP1DEM5lL"
+            ],
+            "modified": "2020-09-13T02:02:26.000Z"
         },
         "createdTime": "2018-03-19T00:37:26.000Z"
     },
@@ -855,7 +913,16 @@
                 "recmyEBRCpWn3z151",
                 "recoRJK3ReuIPIsUc",
                 "recZ6YiBydClBiVVJ"
-            ]
+            ],
+            "events_dev": [
+                "recjkmUO88wihv8Ci",
+                "recr71Fz4NHTnGLJ2",
+                "recSF4lyBebGjJEXI"
+            ],
+            "partOf": [
+                "recsTcOXoP1DEM5lL"
+            ],
+            "modified": "2020-09-13T02:02:26.000Z"
         },
         "createdTime": "2018-03-19T00:37:26.000Z"
     },
@@ -869,7 +936,16 @@
                 "rec8rL9g71oMCW8CK",
                 "recmAUAIwW85ajksn",
                 "recquuEF4qN3GVe2c"
-            ]
+            ],
+            "events_dev": [
+                "recjkmUO88wihv8Ci",
+                "recr71Fz4NHTnGLJ2",
+                "recSF4lyBebGjJEXI"
+            ],
+            "partOf": [
+                "recsTcOXoP1DEM5lL"
+            ],
+            "modified": "2020-09-13T02:02:26.000Z"
         },
         "createdTime": "2018-03-19T00:37:26.000Z"
     },
@@ -891,7 +967,16 @@
                 "recjDsafRYaksAqa1",
                 "recYR0bYFdRHez4x5",
                 "recdjCxSoKilwrxC1"
-            ]
+            ],
+            "events_dev": [
+                "recjkmUO88wihv8Ci",
+                "recr71Fz4NHTnGLJ2",
+                "recSF4lyBebGjJEXI"
+            ],
+            "partOf": [
+                "recsTcOXoP1DEM5lL"
+            ],
+            "modified": "2020-09-13T02:02:27.000Z"
         },
         "createdTime": "2018-03-19T00:37:26.000Z"
     },
@@ -916,7 +1001,16 @@
                 "recRfHXuYOANSE5lm",
                 "rec09ciuLItlm8eWw",
                 "recvXbfxu4zy0yWnk"
-            ]
+            ],
+            "events_dev": [
+                "recjkmUO88wihv8Ci",
+                "recr71Fz4NHTnGLJ2",
+                "recSF4lyBebGjJEXI"
+            ],
+            "partOf": [
+                "recsTcOXoP1DEM5lL"
+            ],
+            "modified": "2020-09-13T02:02:27.000Z"
         },
         "createdTime": "2018-03-19T00:37:26.000Z"
     },
@@ -1049,7 +1143,32 @@
                 "recAaYc00mUmh8UON",
                 "recneQvldBplXZCYu"
             ],
-            "modified": "2020-07-10T14:56:34.000Z"
+            "events_dev": [
+                "recUvk5tT0xGxR71o",
+                "recG0Smwr0v3S7ShM",
+                "recxl5FkotW1u50nA",
+                "recEpl6nDyA0TWVdW",
+                "rec07gtJgfa7skhaQ",
+                "recoroJg305CLphtu",
+                "recSF4lyBebGjJEXI",
+                "recvA947nCyo8kadV",
+                "recr71Fz4NHTnGLJ2",
+                "recjkmUO88wihv8Ci",
+                "recNAaoS2dLaYGVgh",
+                "recD6xiJWvESO0Wea",
+                "recNLSBgKYUyByJwa",
+                "recWw6t8usixUbFOU",
+                "rectQ4Vg6XbpTyR92",
+                "rec7nesNMNffYRe3F",
+                "rec3z1OqSDMH0rR7y",
+                "recAfJj3Pv6wRG2nj",
+                "reczOHadpTVOuiidp",
+                "recGFZbQIjuGwXtTy",
+                "recoKV71uxsJeHTWW",
+                "rec24EmrBZzGvOD2U",
+                "recSRPo1LlWZ7tNaO"
+            ],
+            "modified": "2020-09-13T20:09:33.000Z"
         },
         "createdTime": "2020-07-10T12:06:09.000Z"
     }

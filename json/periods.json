@@ -885,10 +885,13 @@
         "id": "reccBM7IxyKqvkRjG",
         "fields": {
             "yearNum": "-1910",
+            "peopleBorn": [
+                "recL1zd3NT68owBAG"
+            ],
             "isoYear": -1909,
             "BC-AD": "BC",
             "formattedYear": "1910 BC",
-            "modified": "2020-05-17T01:14:07.000Z"
+            "modified": "2020-09-02T16:45:21.000Z"
         },
         "createdTime": "2018-09-23T19:28:50.000Z"
     },
@@ -1104,13 +1107,10 @@
         "id": "recAn7sr6naMpu11R",
         "fields": {
             "yearNum": "-1777",
-            "peopleBorn": [
-                "recto9z3tEOnLjVOi"
-            ],
             "isoYear": -1776,
             "BC-AD": "BC",
             "formattedYear": "1777 BC",
-            "modified": "2019-07-22T00:52:33.000Z"
+            "modified": "2020-09-02T01:56:03.000Z"
         },
         "createdTime": "2018-04-28T22:40:37.000Z"
     },
@@ -1118,13 +1118,10 @@
         "id": "recdQr1urV0P20FqQ",
         "fields": {
             "yearNum": "-1776",
-            "peopleBorn": [
-                "recjDsafRYaksAqa1"
-            ],
             "isoYear": -1775,
             "BC-AD": "BC",
             "formattedYear": "1776 BC",
-            "modified": "2019-07-22T00:52:33.000Z"
+            "modified": "2020-09-02T01:56:35.000Z"
         },
         "createdTime": "2018-04-28T22:40:37.000Z"
     },
@@ -1132,13 +1129,10 @@
         "id": "reczAj3JXzoOg0BSG",
         "fields": {
             "yearNum": "-1775",
-            "peopleBorn": [
-                "recdIZxgxO61iLEXm"
-            ],
             "isoYear": -1774,
             "BC-AD": "BC",
             "formattedYear": "1775 BC",
-            "modified": "2019-07-22T00:52:33.000Z"
+            "modified": "2020-09-02T01:56:56.000Z"
         },
         "createdTime": "2018-04-28T22:40:37.000Z"
     },
@@ -1146,13 +1140,10 @@
         "id": "rec9ZFZ9ZmC58tpyy",
         "fields": {
             "yearNum": "-1774",
-            "peopleBorn": [
-                "rec0rm6yYA4YUQrkh"
-            ],
             "isoYear": -1773,
             "BC-AD": "BC",
             "formattedYear": "1774 BC",
-            "modified": "2019-07-22T00:52:33.000Z"
+            "modified": "2020-09-02T01:55:21.000Z"
         },
         "createdTime": "2018-04-28T22:40:37.000Z"
     },
@@ -1160,13 +1151,13 @@
         "id": "recJU6JW86d6VWqxc",
         "fields": {
             "yearNum": "-1773",
-            "peopleBorn": [
-                "rec3HzZknu1HOvNci"
+            "peopleDied": [
+                "recvV3hxT3VINGuwx"
             ],
             "isoYear": -1772,
             "BC-AD": "BC",
             "formattedYear": "1773 BC",
-            "modified": "2019-07-22T00:52:33.000Z"
+            "modified": "2020-09-02T16:46:28.000Z"
         },
         "createdTime": "2018-04-28T22:40:37.000Z"
     },
@@ -1174,14 +1165,10 @@
         "id": "recyLKvenbgLxjfld",
         "fields": {
             "yearNum": "-1772",
-            "peopleBorn": [
-                "recmAUAIwW85ajksn",
-                "recZ6YiBydClBiVVJ"
-            ],
             "isoYear": -1771,
             "BC-AD": "BC",
             "formattedYear": "1772 BC",
-            "modified": "2019-07-22T00:52:33.000Z"
+            "modified": "2020-09-02T01:58:38.000Z"
         },
         "createdTime": "2018-04-28T22:40:37.000Z"
     },
@@ -1189,14 +1176,10 @@
         "id": "recKw4lJ5xhy7dpjG",
         "fields": {
             "yearNum": "-1771",
-            "peopleBorn": [
-                "recwqzXQjpmdyyW9y",
-                "recthlE4FTgDZvDef"
-            ],
             "isoYear": -1770,
             "BC-AD": "BC",
             "formattedYear": "1771 BC",
-            "modified": "2019-07-22T00:52:33.000Z"
+            "modified": "2020-09-02T01:58:55.000Z"
         },
         "createdTime": "2018-04-28T22:40:37.000Z"
     },
@@ -1204,13 +1187,10 @@
         "id": "recVC0WvBkQmSrFZU",
         "fields": {
             "yearNum": "-1767",
-            "peopleBorn": [
-                "recDggWlQNbxJLalN"
-            ],
             "isoYear": -1766,
             "BC-AD": "BC",
             "formattedYear": "1767 BC",
-            "modified": "2019-07-22T00:52:33.000Z"
+            "modified": "2020-09-02T01:57:50.000Z"
         },
         "createdTime": "2018-04-28T22:40:37.000Z"
     },
@@ -1218,13 +1198,10 @@
         "id": "recALqkoED8FOe78W",
         "fields": {
             "yearNum": "-1765",
-            "peopleBorn": [
-                "rectGDQCkKqZ6LgGB"
-            ],
             "isoYear": -1764,
             "BC-AD": "BC",
             "formattedYear": "1765 BC",
-            "modified": "2019-07-22T00:52:33.000Z"
+            "modified": "2020-09-02T01:58:06.000Z"
         },
         "createdTime": "2018-04-28T22:40:37.000Z"
     },
@@ -1232,10 +1209,14 @@
         "id": "recHBQ1QXgP61LtFS",
         "fields": {
             "yearNum": "-1756",
+            "peopleBorn": [
+                "recto9z3tEOnLjVOi",
+                "recdIZxgxO61iLEXm"
+            ],
             "isoYear": -1755,
             "BC-AD": "BC",
             "formattedYear": "1756 BC",
-            "modified": "2019-07-22T00:52:33.000Z"
+            "modified": "2020-09-02T01:57:00.000Z"
         },
         "createdTime": "2018-04-28T22:41:19.000Z"
     },
@@ -1271,10 +1252,13 @@
             "peopleBorn": [
                 "recBOUtTncbBlfEn9"
             ],
+            "peopleDied": [
+                "recT2Tm2K5XORGnbx"
+            ],
             "isoYear": -1738,
             "BC-AD": "BC",
             "formattedYear": "1739 BC",
-            "modified": "2019-07-22T00:52:33.000Z"
+            "modified": "2020-09-07T01:34:05.000Z"
         },
         "createdTime": "2018-10-21T21:48:24.000Z"
     },
@@ -1422,12 +1406,13 @@
         "fields": {
             "yearNum": "-1571",
             "peopleBorn": [
-                "recjNRR60PAuFtjha"
+                "recjNRR60PAuFtjha",
+                "recPXtuWYdjyghv7R"
             ],
             "isoYear": -1570,
             "BC-AD": "BC",
             "formattedYear": "1571 BC",
-            "modified": "2019-07-22T00:52:33.000Z"
+            "modified": "2020-09-02T16:45:33.000Z"
         },
         "createdTime": "2018-10-21T21:56:13.000Z"
     },
@@ -1450,13 +1435,12 @@
         "fields": {
             "yearNum": "-1451",
             "peopleDied": [
-                "recjNRR60PAuFtjha",
                 "recv0dAY2ULzJ687g"
             ],
             "isoYear": -1450,
             "BC-AD": "BC",
             "formattedYear": "1451 BC",
-            "modified": "2019-07-22T00:52:33.000Z"
+            "modified": "2020-09-02T02:03:03.000Z"
         },
         "createdTime": "2018-10-21T21:56:49.000Z"
     },
@@ -3158,5 +3142,204 @@
             "modified": "2020-07-09T12:37:33.000Z"
         },
         "createdTime": "2020-07-08T16:22:26.000Z"
+    },
+    {
+        "id": "recfFlHikkyJobYQu",
+        "fields": {
+            "yearNum": "-1755",
+            "peopleBorn": [
+                "rec0rm6yYA4YUQrkh",
+                "recwqzXQjpmdyyW9y",
+                "recT2Tm2K5XORGnbx"
+            ],
+            "isoYear": -1754,
+            "BC-AD": "BC",
+            "formattedYear": "1755 BC",
+            "modified": "2020-09-02T16:45:01.000Z"
+        },
+        "createdTime": "2020-09-02T01:55:29.000Z"
+    },
+    {
+        "id": "recwAkRmsIrVtr8Jf",
+        "fields": {
+            "yearNum": "-1721",
+            "peopleBorn": [
+                "recMUZkUfOwBiZ3jk"
+            ],
+            "isoYear": -1720,
+            "BC-AD": "BC",
+            "formattedYear": "1721 BC",
+            "modified": "2020-09-02T01:55:50.000Z"
+        },
+        "createdTime": "2020-09-02T01:55:50.000Z"
+    },
+    {
+        "id": "rec8T7pdwC4WPdvZi",
+        "fields": {
+            "yearNum": "-1757",
+            "peopleBorn": [
+                "recjDsafRYaksAqa1"
+            ],
+            "isoYear": -1756,
+            "BC-AD": "BC",
+            "formattedYear": "1757 BC",
+            "modified": "2020-09-02T01:56:40.000Z"
+        },
+        "createdTime": "2020-09-02T01:56:40.000Z"
+    },
+    {
+        "id": "rec5XsNfAbeW5ZqtT",
+        "fields": {
+            "yearNum": "-1754",
+            "peopleBorn": [
+                "recmAUAIwW85ajksn"
+            ],
+            "isoYear": -1753,
+            "BC-AD": "BC",
+            "formattedYear": "1754 BC",
+            "modified": "2020-09-02T01:57:36.000Z"
+        },
+        "createdTime": "2020-09-02T01:57:36.000Z"
+    },
+    {
+        "id": "recUGwoIFz6jFnMLm",
+        "fields": {
+            "yearNum": "-1753",
+            "peopleBorn": [
+                "recDggWlQNbxJLalN"
+            ],
+            "isoYear": -1752,
+            "BC-AD": "BC",
+            "formattedYear": "1753 BC",
+            "modified": "2020-09-02T01:57:54.000Z"
+        },
+        "createdTime": "2020-09-02T01:57:54.000Z"
+    },
+    {
+        "id": "recBAjDvWFAdZC0K4",
+        "fields": {
+            "yearNum": "-1752",
+            "peopleBorn": [
+                "rectGDQCkKqZ6LgGB",
+                "rec3HzZknu1HOvNci"
+            ],
+            "isoYear": -1751,
+            "BC-AD": "BC",
+            "formattedYear": "1752 BC",
+            "modified": "2020-09-02T01:58:27.000Z"
+        },
+        "createdTime": "2020-09-02T01:58:11.000Z"
+    },
+    {
+        "id": "recK9zoWguLTMs5QK",
+        "fields": {
+            "yearNum": "-1751",
+            "peopleBorn": [
+                "recZ6YiBydClBiVVJ"
+            ],
+            "isoYear": -1750,
+            "BC-AD": "BC",
+            "formattedYear": "1751 BC",
+            "modified": "2020-09-02T01:58:43.000Z"
+        },
+        "createdTime": "2020-09-02T01:58:43.000Z"
+    },
+    {
+        "id": "recu0NexSTlutf6PY",
+        "fields": {
+            "yearNum": "-1750",
+            "peopleBorn": [
+                "recthlE4FTgDZvDef"
+            ],
+            "isoYear": -1749,
+            "BC-AD": "BC",
+            "formattedYear": "1750 BC",
+            "modified": "2020-09-02T01:58:59.000Z"
+        },
+        "createdTime": "2020-09-02T01:58:59.000Z"
+    },
+    {
+        "id": "rec08OOHnWCdFr2kb",
+        "fields": {
+            "yearNum": "-1720",
+            "peopleBorn": [
+                "recKXL1QrW8qTw5Ux"
+            ],
+            "isoYear": -1719,
+            "BC-AD": "BC",
+            "formattedYear": "1720 BC",
+            "modified": "2020-09-02T02:02:27.000Z"
+        },
+        "createdTime": "2020-09-02T02:02:27.000Z"
+    },
+    {
+        "id": "rech4yzIsbhkGCpT5",
+        "fields": {
+            "yearNum": "-1580",
+            "peopleDied": [
+                "recKXL1QrW8qTw5Ux"
+            ],
+            "isoYear": -1579,
+            "BC-AD": "BC",
+            "formattedYear": "1580 BC",
+            "modified": "2020-09-02T02:02:44.000Z"
+        },
+        "createdTime": "2020-09-02T02:02:44.000Z"
+    },
+    {
+        "id": "rec1G0RddPZrfB8k3",
+        "fields": {
+            "yearNum": "-1452",
+            "peopleDied": [
+                "recjNRR60PAuFtjha"
+            ],
+            "isoYear": -1451,
+            "BC-AD": "BC",
+            "formattedYear": "1452 BC",
+            "modified": "2020-09-02T02:03:09.000Z"
+        },
+        "createdTime": "2020-09-02T02:03:09.000Z"
+    },
+    {
+        "id": "recUw6I9UyxfaQ4ip",
+        "fields": {
+            "yearNum": "-1529",
+            "peopleBorn": [
+                "recVua5TkKSl3y6Ol"
+            ],
+            "isoYear": -1528,
+            "BC-AD": "BC",
+            "formattedYear": "1529 BC",
+            "modified": "2020-09-02T02:03:51.000Z"
+        },
+        "createdTime": "2020-09-02T02:03:51.000Z"
+    },
+    {
+        "id": "recgscNRpK4HInDEM",
+        "fields": {
+            "yearNum": "-1122",
+            "peopleDied": [
+                "recH9ECLXz8IgSUgF"
+            ],
+            "isoYear": -1121,
+            "BC-AD": "BC",
+            "formattedYear": "1122 BC",
+            "modified": "2020-09-13T19:43:37.000Z"
+        },
+        "createdTime": "2020-09-13T19:43:37.000Z"
+    },
+    {
+        "id": "recWOA7YEpGNgEeMR",
+        "fields": {
+            "yearNum": "-1101",
+            "peopleDied": [
+                "recwcML6FMulTblKH"
+            ],
+            "isoYear": -1100,
+            "BC-AD": "BC",
+            "formattedYear": "1101 BC",
+            "modified": "2020-09-13T20:20:52.000Z"
+        },
+        "createdTime": "2020-09-13T20:20:52.000Z"
     }
 ]
