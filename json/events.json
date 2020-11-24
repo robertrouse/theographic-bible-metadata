@@ -59,8 +59,8 @@
                 "recP6vNSfmkeg6UdU",
                 "recuNS9VjVuLlv0LK"
             ],
-            "modified": "2020-08-22T01:52:10.000Z",
             "verseSort": "01001001",
+            "modified": "2020-08-22T01:52:10.000Z",
             "Sort Key": -399.98998999,
             "people (from verses)": [
                 "reccZB8SVU5bEMcgo",
@@ -138,8 +138,8 @@
                 "recSFDBpbT8HGEtyd",
                 "recTU3ZxG7zQ61N9d"
             ],
-            "modified": "2020-09-13T02:25:17.000Z",
             "verseSort": "01002004",
+            "modified": "2020-09-13T02:25:17.000Z",
             "Sort Key": -399.98997996,
             "places (from verses)": [
                 "recLIUK6VRKNjnGo6",
@@ -217,8 +217,8 @@
                 "recTU3ZxG7zQ61N9d"
             ],
             "rangeFlag": true,
-            "modified": "2020-09-06T13:58:51.000Z",
             "verseSort": "01003001",
+            "modified": "2020-09-06T13:58:51.000Z",
             "Sort Key": -399.98996999,
             "places (from verses)": [
                 "recLIUK6VRKNjnGo6",
@@ -265,8 +265,8 @@
             "predecessor": [
                 "recTU3ZxG7zQ61N9d"
             ],
-            "modified": "2020-08-20T15:22:36.000Z",
             "verseSort": "01005003",
+            "modified": "2020-08-20T15:22:36.000Z",
             "Sort Key": -399.98994997,
             "people (from verses)": [
                 "recyYgUiSETdWFgEP",
@@ -303,8 +303,8 @@
                 "recumnjmeptMmolBi",
                 "rec4NYmZWDT2eUFs4"
             ],
-            "modified": "2020-09-06T13:59:03.000Z",
             "verseSort": "01004001",
+            "modified": "2020-09-06T13:59:03.000Z",
             "Sort Key": -386.98995999,
             "people (from verses)": [
                 "recyYgUiSETdWFgEP",
@@ -354,8 +354,8 @@
             "predecessor": [
                 "recrEQsBlZOgXbLiB"
             ],
-            "modified": "2020-08-20T19:23:21.000Z",
             "verseSort": "01004011",
+            "modified": "2020-08-20T19:23:21.000Z",
             "Sort Key": -386.98995989,
             "places (from verses)": [
                 "recdQjZKTnAnIH91s"
@@ -398,8 +398,9 @@
             "partOf": [
                 "rec96xYWb8KLaUZpF"
             ],
-            "modified": "2020-08-20T18:42:27.000Z",
+            "Lag Type": "FS",
             "verseSort": "01004025",
+            "modified": "2020-11-06T14:46:00.000Z",
             "Sort Key": -386.98995975,
             "people (from verses)": [
                 "recyYgUiSETdWFgEP",
@@ -437,8 +438,8 @@
             "predecessor": [
                 "recp7P8QOAzrtw9Ly"
             ],
-            "modified": "2020-08-20T15:25:30.000Z",
             "verseSort": "01005006",
+            "modified": "2020-08-20T15:25:30.000Z",
             "Sort Key": -386.98994994,
             "people (from verses)": [
                 "recdvASnxGfjfmvDM",
@@ -472,8 +473,9 @@
             "partOf": [
                 "recAeYv2iAFNW3dOZ"
             ],
-            "modified": "2020-08-20T18:42:33.000Z",
+            "Lag Type": "FS",
             "verseSort": "01004026",
+            "modified": "2020-11-06T14:46:00.000Z",
             "Sort Key": -375.98995974,
             "people (from verses)": [
                 "recdvASnxGfjfmvDM",
@@ -505,8 +507,8 @@
             "predecessor": [
                 "rec0irQ4RDrOjQKWD"
             ],
-            "modified": "2020-08-20T15:27:19.000Z",
             "verseSort": "01005009",
+            "modified": "2020-08-20T15:27:19.000Z",
             "Sort Key": -375.98994991,
             "people (from verses)": [
                 "reco5AjdpK6pP1m0n",
@@ -540,8 +542,9 @@
             "partOf": [
                 "recJEeDtyPx5U35PG"
             ],
-            "modified": "2020-08-20T19:00:03.000Z",
+            "Lag Type": "FS",
             "verseSort": "01005009",
+            "modified": "2020-11-06T14:46:00.000Z",
             "Sort Key": -366.98994991,
             "people (from verses)": [
                 "reco5AjdpK6pP1m0n",
@@ -575,8 +578,8 @@
             "predecessor": [
                 "recM0WSoo4n0iYARu"
             ],
-            "modified": "2020-08-20T18:59:03.000Z",
             "verseSort": "01005012",
+            "modified": "2020-08-20T18:59:03.000Z",
             "Sort Key": -366.98994988,
             "people (from verses)": [
                 "recyuyvniLPCMOZyl",
@@ -608,8 +611,9 @@
             "partOf": [
                 "recP4eETeAB1w2UDk"
             ],
-            "modified": "2020-08-22T01:18:33.000Z",
+            "Lag Type": "FS",
             "verseSort": "01005012",
+            "modified": "2020-11-06T14:46:00.000Z",
             "Sort Key": -359.98994988,
             "people (from verses)": [
                 "recyuyvniLPCMOZyl",
@@ -635,8 +639,8 @@
             "predecessor": [
                 "recbhJTgfqzA2wi9g"
             ],
-            "modified": "2020-08-20T19:19:53.000Z",
             "verseSort": "01005015",
+            "modified": "2020-08-20T19:19:53.000Z",
             "Sort Key": -359.98994985,
             "people (from verses)": [
                 "recGo4Uek8ZB1jrJQ",
@@ -668,8 +672,9 @@
             "partOf": [
                 "reckfJ2MFfKg7AD3h"
             ],
-            "modified": "2020-08-22T01:18:36.000Z",
+            "Lag Type": "FS",
             "verseSort": "01005015",
+            "modified": "2020-11-06T14:46:00.000Z",
             "Sort Key": -353.98994985,
             "people (from verses)": [
                 "recGo4Uek8ZB1jrJQ",
@@ -695,8 +700,8 @@
             "predecessor": [
                 "rec1gA68LB2NDsnCR"
             ],
-            "modified": "2020-08-20T20:36:24.000Z",
             "verseSort": "01005018",
+            "modified": "2020-08-20T20:36:24.000Z",
             "Sort Key": -353.98994982,
             "people (from verses)": [
                 "rechDI5vmWFtiVmYq",
@@ -728,8 +733,9 @@
             "partOf": [
                 "recZy5b1c8nMODrQo"
             ],
-            "modified": "2020-08-22T01:21:47.000Z",
+            "Lag Type": "FS",
             "verseSort": "01005018",
+            "modified": "2020-11-06T14:46:00.000Z",
             "Sort Key": -337.98994982,
             "people (from verses)": [
                 "rechDI5vmWFtiVmYq",
@@ -756,8 +762,8 @@
             "predecessor": [
                 "rec0pSsVe8fi0jw9A"
             ],
-            "modified": "2020-08-22T01:21:35.000Z",
             "verseSort": "01005021",
+            "modified": "2020-08-22T01:21:35.000Z",
             "Sort Key": -337.98994979,
             "people (from verses)": [
                 "recj26MAojx8FuOsa",
@@ -792,8 +798,9 @@
             "partOf": [
                 "rec7F43tR0YS2M8xS"
             ],
-            "modified": "2020-08-22T01:25:39.000Z",
+            "Lag Type": "FS",
             "verseSort": "01005021",
+            "modified": "2020-11-06T14:46:00.000Z",
             "Sort Key": -330.98994979,
             "people (from verses)": [
                 "recj26MAojx8FuOsa",
@@ -819,8 +826,8 @@
             "predecessor": [
                 "recECi7gnsZNbykIS"
             ],
-            "modified": "2020-08-22T01:24:03.000Z",
             "verseSort": "01005025",
+            "modified": "2020-08-22T01:24:03.000Z",
             "Sort Key": -330.98994975,
             "people (from verses)": [
                 "recLggPghs0fnCfHB",
@@ -852,8 +859,9 @@
             "partOf": [
                 "rec3QYioaVB7t2ghK"
             ],
-            "modified": "2020-08-22T01:26:24.000Z",
+            "Lag Type": "FS",
             "verseSort": "01005025",
+            "modified": "2020-11-06T14:46:00.000Z",
             "Sort Key": -311.98994975,
             "people (from verses)": [
                 "recLggPghs0fnCfHB",
@@ -880,8 +888,8 @@
             "predecessor": [
                 "recYz6KtAthSLpDsE"
             ],
-            "modified": "2020-08-22T01:24:39.000Z",
             "verseSort": "01005028",
+            "modified": "2020-08-22T01:24:39.000Z",
             "Sort Key": -311.98994972,
             "people (from verses)": [
                 "recmpe4tTxcQ9YpS5",
@@ -916,8 +924,9 @@
             "partOf": [
                 "recSFDBpbT8HGEtyd"
             ],
-            "modified": "2020-08-22T01:52:03.000Z",
+            "Lag Type": "FS",
             "verseSort": "01005005",
+            "modified": "2020-11-06T14:46:00.000Z",
             "Sort Key": -306.98994995,
             "people (from verses)": [
                 "recyYgUiSETdWFgEP"
@@ -946,8 +955,9 @@
                 "recZy5b1c8nMODrQo"
             ],
             "notes": "\n",
-            "modified": "2020-08-22T01:23:40.000Z",
+            "Lag Type": "FS",
             "verseSort": "01005024",
+            "modified": "2020-11-06T14:46:00.000Z",
             "Sort Key": -300.98994976,
             "people (from verses)": [
                 "recj26MAojx8FuOsa",
@@ -977,8 +987,9 @@
             "partOf": [
                 "rec96xYWb8KLaUZpF"
             ],
-            "modified": "2020-08-20T15:56:36.000Z",
+            "Lag Type": "FS",
             "verseSort": "01005008",
+            "modified": "2020-11-06T14:46:00.000Z",
             "Sort Key": -295.98994992,
             "people (from verses)": [
                 "recdvASnxGfjfmvDM"
@@ -1007,8 +1018,9 @@
             "partOf": [
                 "recTdAS4YoPxLBszy"
             ],
-            "modified": "2020-08-22T01:24:39.000Z",
+            "Lag Type": "FS",
             "verseSort": "01005028",
+            "modified": "2020-11-06T14:46:00.000Z",
             "Sort Key": -293.98994972,
             "people (from verses)": [
                 "recmpe4tTxcQ9YpS5",
@@ -1036,8 +1048,8 @@
             "predecessor": [
                 "recLhxi3tDTOD3wzR"
             ],
-            "modified": "2020-08-22T01:29:47.000Z",
             "verseSort": "01005032",
+            "modified": "2020-08-22T01:29:47.000Z",
             "Sort Key": -293.98994968,
             "people (from verses)": [
                 "recVMHzYdllgvTo09",
@@ -1070,8 +1082,9 @@
             "partOf": [
                 "recAeYv2iAFNW3dOZ"
             ],
-            "modified": "2020-08-20T15:56:42.000Z",
+            "Lag Type": "FS",
             "verseSort": "01005011",
+            "modified": "2020-11-06T14:46:00.000Z",
             "Sort Key": -285.98994989,
             "people (from verses)": [
                 "reco5AjdpK6pP1m0n"
@@ -1098,8 +1111,9 @@
             "partOf": [
                 "recJEeDtyPx5U35PG"
             ],
-            "modified": "2020-08-20T19:00:26.000Z",
+            "Lag Type": "FS",
             "verseSort": "01005014",
+            "modified": "2020-11-06T14:46:00.000Z",
             "Sort Key": -275.98994986,
             "people (from verses)": [
                 "recyuyvniLPCMOZyl"
@@ -1125,8 +1139,8 @@
             "partOf": [
                 "recP4eETeAB1w2UDk"
             ],
-            "modified": "2020-08-20T19:19:07.000Z",
             "verseSort": "01005017",
+            "modified": "2020-08-20T19:19:07.000Z",
             "Sort Key": -270.98994983,
             "people (from verses)": [
                 "recGo4Uek8ZB1jrJQ"
@@ -1153,8 +1167,9 @@
             "partOf": [
                 "reckfJ2MFfKg7AD3h"
             ],
-            "modified": "2020-08-21T23:51:22.000Z",
+            "Lag Type": "FS",
             "verseSort": "01005020",
+            "modified": "2020-11-06T14:46:00.000Z",
             "Sort Key": -257.9899498,
             "people (from verses)": [
                 "rechDI5vmWFtiVmYq"
@@ -1180,8 +1195,8 @@
                 "recEpkOpdb15DH1iL",
                 "recjJbzPZdDRKQ7Wr"
             ],
-            "modified": "2020-08-27T01:13:08.000Z",
             "verseSort": "01006007",
+            "modified": "2020-08-27T01:13:08.000Z",
             "Sort Key": -245.98993993,
             "people (from verses)": [
                 "reccZB8SVU5bEMcgo",
@@ -1215,8 +1230,9 @@
                 "recxg4gEuXG5R6PUZ"
             ],
             "notes": "Not all of Noah's sons listed in Gen 5:32 would have been born the same year. Shem was born when Noah was 102 in light of Gen 11:12. \n",
-            "modified": "2020-08-22T01:37:25.000Z",
+            "Lag Type": "FS",
             "verseSort": "01005032",
+            "modified": "2020-11-06T14:46:00.000Z",
             "Sort Key": -243.98994968,
             "people (from verses)": [
                 "recVMHzYdllgvTo09",
@@ -1243,8 +1259,8 @@
             "predecessor": [
                 "recpUCaR0HNgYjco5"
             ],
-            "modified": "2020-08-22T01:30:08.000Z",
             "verseSort": "01011010",
+            "modified": "2020-08-22T01:30:08.000Z",
             "Sort Key": -243.9898899,
             "people (from verses)": [
                 "recOCbR2kuXoxyvkq",
@@ -1290,8 +1306,8 @@
             "predecessor": [
                 "rec1n3lFKpydGhoQL"
             ],
-            "modified": "2020-08-27T01:13:08.000Z",
             "verseSort": "01006009",
+            "modified": "2020-08-27T01:13:08.000Z",
             "Sort Key": -238.98993991,
             "people (from verses)": [
                 "recVMHzYdllgvTo09",
@@ -1335,8 +1351,9 @@
             "partOf": [
                 "rec3QYioaVB7t2ghK"
             ],
-            "modified": "2020-08-22T01:24:51.000Z",
+            "Lag Type": "FS",
             "verseSort": "01005031",
+            "modified": "2020-11-06T14:46:00.000Z",
             "Sort Key": -234.98994969,
             "people (from verses)": [
                 "recmpe4tTxcQ9YpS5"
@@ -1363,8 +1380,9 @@
             "partOf": [
                 "rec7F43tR0YS2M8xS"
             ],
-            "modified": "2020-08-22T01:25:55.000Z",
+            "Lag Type": "FS",
             "verseSort": "01005027",
+            "modified": "2020-11-06T14:46:00.000Z",
             "Sort Key": -233.98994973,
             "people (from verses)": [
                 "recLggPghs0fnCfHB"
@@ -1404,8 +1422,8 @@
             "partOf": [
                 "recwQJTWTmTkUMHHp"
             ],
-            "modified": "2020-08-27T01:15:42.000Z",
             "verseSort": "01007006",
+            "modified": "2020-08-27T01:15:42.000Z",
             "Sort Key": -233.98992994,
             "people (from verses)": [
                 "recVMHzYdllgvTo09",
@@ -1482,8 +1500,9 @@
                 "recLhxi3tDTOD3wzR"
             ],
             "lag": "600Y",
-            "modified": "2020-08-27T01:35:53.000Z",
+            "Lag Type": "FS",
             "verseSort": "01007006",
+            "modified": "2020-11-06T14:46:00.000Z",
             "Sort Key": -233.98992994,
             "places (from verses)": [
                 "recCn3rjVhgRbVWqk"
@@ -1540,8 +1559,8 @@
             "partOf": [
                 "recwQJTWTmTkUMHHp"
             ],
-            "modified": "2020-08-27T01:15:55.000Z",
             "verseSort": "01007018",
+            "modified": "2020-08-27T01:15:55.000Z",
             "Sort Key": -233.98992982,
             "people (from verses)": [
                 "recVMHzYdllgvTo09"
@@ -1586,8 +1605,8 @@
             "partOf": [
                 "recwQJTWTmTkUMHHp"
             ],
-            "modified": "2020-08-27T01:16:09.000Z",
             "verseSort": "01008001",
+            "modified": "2020-08-27T01:16:09.000Z",
             "Sort Key": -233.98991999,
             "places (from verses)": [
                 "recCn3rjVhgRbVWqk"
@@ -1630,8 +1649,8 @@
             "partOf": [
                 "recwQJTWTmTkUMHHp"
             ],
-            "modified": "2020-08-27T01:16:18.000Z",
             "verseSort": "01008015",
+            "modified": "2020-08-27T01:16:18.000Z",
             "Sort Key": -233.98991985,
             "people (from verses)": [
                 "recVMHzYdllgvTo09",
@@ -1679,8 +1698,8 @@
             "partOf": [
                 "recwQJTWTmTkUMHHp"
             ],
-            "modified": "2020-08-27T01:13:08.000Z",
             "verseSort": "01008020",
+            "modified": "2020-08-27T01:13:08.000Z",
             "Sort Key": -233.9899198,
             "people (from verses)": [
                 "recVMHzYdllgvTo09",
@@ -1725,8 +1744,8 @@
             "predecessor": [
                 "recUsWq7FcQB7vaMa"
             ],
-            "modified": "2020-08-27T01:13:08.000Z",
             "verseSort": "01009020",
+            "modified": "2020-08-27T01:13:08.000Z",
             "Sort Key": -233.9899098,
             "people (from verses)": [
                 "recVMHzYdllgvTo09",
@@ -1767,8 +1786,9 @@
             "partOf": [
                 "recQDMfXnyQKhXj01"
             ],
-            "modified": "2020-08-22T01:31:41.000Z",
+            "Lag Type": "FS",
             "verseSort": "01011010",
+            "modified": "2020-11-06T14:46:00.000Z",
             "Sort Key": -233.9898899,
             "people (from verses)": [
                 "recOCbR2kuXoxyvkq",
@@ -1793,8 +1813,8 @@
             "predecessor": [
                 "rec7uQ8Nhf6h5zdfj"
             ],
-            "modified": "2020-08-22T01:30:36.000Z",
             "verseSort": "01011012",
+            "modified": "2020-08-22T01:30:36.000Z",
             "Sort Key": -233.98988988,
             "people (from verses)": [
                 "recDncefA67SnXVsu",
@@ -1825,8 +1845,9 @@
             "partOf": [
                 "rectmsC3P5l7oRNpD"
             ],
-            "modified": "2020-10-30T16:45:27.000Z",
+            "Lag Type": "FS",
             "verseSort": "01011012",
+            "modified": "2020-11-06T14:46:00.000Z",
             "Sort Key": -230.98988988,
             "people (from verses)": [
                 "recDncefA67SnXVsu",
@@ -1851,8 +1872,8 @@
             "predecessor": [
                 "recN97j5QCkdCwVOC"
             ],
-            "modified": "2020-08-22T01:33:09.000Z",
             "verseSort": "01011014",
+            "modified": "2020-08-22T01:33:09.000Z",
             "Sort Key": -230.98988986,
             "people (from verses)": [
                 "recMoCCDPVw5IzYq8",
@@ -1883,8 +1904,9 @@
             "partOf": [
                 "rec3cw1D7e1QItoGc"
             ],
-            "modified": "2020-08-22T01:33:46.000Z",
+            "Lag Type": "FS",
             "verseSort": "01011014",
+            "modified": "2020-11-06T14:46:00.000Z",
             "Sort Key": -227.98988986,
             "people (from verses)": [
                 "recMoCCDPVw5IzYq8",
@@ -1909,8 +1931,8 @@
             "predecessor": [
                 "rec1JFgGFGfK07blt"
             ],
-            "modified": "2020-08-22T01:33:30.000Z",
             "verseSort": "01011016",
+            "modified": "2020-08-22T01:33:30.000Z",
             "Sort Key": -227.98988984,
             "people (from verses)": [
                 "recRO35quNb37mHVy",
@@ -1942,8 +1964,8 @@
                 "recM1AOXTSKtM4cFr"
             ],
             "rangeFlag": true,
-            "modified": "2020-09-06T13:59:27.000Z",
             "verseSort": "01011001",
+            "modified": "2020-09-06T13:59:27.000Z",
             "Sort Key": -223.98988999,
             "places (from verses)": [
                 "rechl3VIoaKFb2C9f",
@@ -1978,8 +2000,9 @@
             "partOf": [
                 "recFXC4GpemMuhURF"
             ],
-            "modified": "2020-08-22T01:34:07.000Z",
+            "Lag Type": "FS",
             "verseSort": "01011016",
+            "modified": "2020-11-06T14:46:00.000Z",
             "Sort Key": -223.98988984,
             "people (from verses)": [
                 "recRO35quNb37mHVy",
@@ -2004,8 +2027,8 @@
             "predecessor": [
                 "recsQpAQgJcwaSk9l"
             ],
-            "modified": "2020-08-22T01:33:39.000Z",
             "verseSort": "01011018",
+            "modified": "2020-08-22T01:33:39.000Z",
             "Sort Key": -223.98988982,
             "people (from verses)": [
                 "recIkDyjqErbTqdt0",
@@ -2036,8 +2059,9 @@
             "partOf": [
                 "recZegzr6mX3DH8vc"
             ],
-            "modified": "2020-08-22T01:34:15.000Z",
+            "Lag Type": "FS",
             "verseSort": "01011018",
+            "modified": "2020-11-06T14:46:00.000Z",
             "Sort Key": -220.98988982,
             "people (from verses)": [
                 "recIkDyjqErbTqdt0",
@@ -2062,8 +2086,8 @@
             "predecessor": [
                 "recO9NRftpoIMlYmr"
             ],
-            "modified": "2020-08-22T01:34:25.000Z",
             "verseSort": "01011020",
+            "modified": "2020-08-22T01:34:25.000Z",
             "Sort Key": -220.9898898,
             "people (from verses)": [
                 "recmCYRmiSdCy63Fc",
@@ -2094,8 +2118,9 @@
             "partOf": [
                 "recLx9SIvsFEIJgVo"
             ],
-            "modified": "2020-08-22T01:34:29.000Z",
+            "Lag Type": "FS",
             "verseSort": "01011020",
+            "modified": "2020-11-06T14:46:00.000Z",
             "Sort Key": -217.9898898,
             "people (from verses)": [
                 "recmCYRmiSdCy63Fc",
@@ -2120,8 +2145,8 @@
             "predecessor": [
                 "recfX4yWDQUMG8Oqh"
             ],
-            "modified": "2020-08-22T01:34:45.000Z",
             "verseSort": "01011022",
+            "modified": "2020-08-22T01:34:45.000Z",
             "Sort Key": -217.98988978,
             "people (from verses)": [
                 "rec5I7GZ9sLwh0hI2",
@@ -2152,8 +2177,9 @@
             "partOf": [
                 "recIfpeMJFEOdSQhh"
             ],
-            "modified": "2020-08-22T01:35:14.000Z",
+            "Lag Type": "FS",
             "verseSort": "01011022",
+            "modified": "2020-11-06T14:46:00.000Z",
             "Sort Key": -214.98988978,
             "people (from verses)": [
                 "rec5I7GZ9sLwh0hI2",
@@ -2178,8 +2204,8 @@
             "predecessor": [
                 "rec1LWfxUiRxxCrbn"
             ],
-            "modified": "2020-08-22T01:34:54.000Z",
             "verseSort": "01011024",
+            "modified": "2020-08-22T01:34:54.000Z",
             "Sort Key": -214.98988976,
             "people (from verses)": [
                 "recyVuQvM4Ue7gOd4",
@@ -2210,8 +2236,9 @@
             "partOf": [
                 "recB5Rg7JlgsMcPyq"
             ],
-            "modified": "2020-08-22T01:35:25.000Z",
+            "Lag Type": "FS",
             "verseSort": "01011024",
+            "modified": "2020-11-06T14:46:00.000Z",
             "Sort Key": -211.98988976,
             "people (from verses)": [
                 "recyVuQvM4Ue7gOd4",
@@ -2237,8 +2264,8 @@
             "predecessor": [
                 "recePREjv2zZ8Esoo"
             ],
-            "modified": "2020-08-22T01:35:51.000Z",
             "verseSort": "01011026",
+            "modified": "2020-08-22T01:35:51.000Z",
             "Sort Key": -211.98988974,
             "places (from verses)": [
                 "recgQtoCtBjbsPwAw"
@@ -2278,8 +2305,9 @@
             "partOf": [
                 "recFXC4GpemMuhURF"
             ],
-            "modified": "2020-08-22T01:34:19.000Z",
+            "Lag Type": "FS",
             "verseSort": "01011019",
+            "modified": "2020-11-06T14:46:00.000Z",
             "Sort Key": -199.98988981,
             "people (from verses)": [
                 "recIkDyjqErbTqdt0",
@@ -2307,8 +2335,9 @@
             "partOf": [
                 "recIfpeMJFEOdSQhh"
             ],
-            "modified": "2020-08-22T01:35:29.000Z",
+            "Lag Type": "FS",
             "verseSort": "01011025",
+            "modified": "2020-11-06T14:46:00.000Z",
             "Sort Key": -199.98988975,
             "people (from verses)": [
                 "recyVuQvM4Ue7gOd4",
@@ -2336,8 +2365,9 @@
             "partOf": [
                 "recTdAS4YoPxLBszy"
             ],
-            "modified": "2020-08-22T01:29:36.000Z",
+            "Lag Type": "FS",
             "verseSort": "01009029",
+            "modified": "2020-11-06T14:46:00.000Z",
             "Sort Key": -198.98990971,
             "people (from verses)": [
                 "recVMHzYdllgvTo09"
@@ -2370,8 +2400,9 @@
                 "recfnatCOLEHFYeLB"
             ],
             "notes": "Not all of Terah's sons would have been born the same year. In light of Acts 7:4 and Genesis 12:4, Abraham was born when Terah was 130 years old.\n",
-            "modified": "2020-08-22T01:39:26.000Z",
+            "Lag Type": "FS",
             "verseSort": "01011026",
+            "modified": "2020-11-06T14:46:00.000Z",
             "Sort Key": -198.98988974,
             "people (from verses)": [
                 "recXBYSWubfkpqNQm",
@@ -2403,8 +2434,8 @@
             "predecessor": [
                 "recXveJRjCtPNMLqs"
             ],
-            "modified": "2020-08-22T01:38:13.000Z",
             "verseSort": "01021005",
+            "modified": "2020-08-22T01:38:13.000Z",
             "Sort Key": -198.98978995,
             "people (from verses)": [
                 "reccdFYIq50NyxNej",
@@ -2437,8 +2468,8 @@
             "groups": [
                 "recsTcOXoP1DEM5lL"
             ],
-            "modified": "2020-09-13T02:19:57.000Z",
             "verseSort": "07010003",
+            "modified": "2020-09-13T02:19:57.000Z",
             "Sort Key": -198.92989997,
             "places (from verses)": [
                 "recPoImnA7S93jcHx",
@@ -2471,8 +2502,9 @@
             "partOf": [
                 "recZegzr6mX3DH8vc"
             ],
-            "modified": "2020-08-22T01:34:33.000Z",
+            "Lag Type": "FS",
             "verseSort": "01011021",
+            "modified": "2020-11-06T14:46:00.000Z",
             "Sort Key": -196.98988979,
             "people (from verses)": [
                 "recmCYRmiSdCy63Fc",
@@ -2500,8 +2532,9 @@
             "partOf": [
                 "recLx9SIvsFEIJgVo"
             ],
-            "modified": "2020-08-22T01:35:22.000Z",
+            "Lag Type": "FS",
             "verseSort": "01011023",
+            "modified": "2020-11-06T14:46:00.000Z",
             "Sort Key": -194.98988977,
             "people (from verses)": [
                 "rec5I7GZ9sLwh0hI2",
@@ -2532,8 +2565,9 @@
             "partOf": [
                 "recB5Rg7JlgsMcPyq"
             ],
-            "modified": "2020-08-22T01:37:48.000Z",
+            "Lag Type": "FS",
             "verseSort": "01011032",
+            "modified": "2020-11-06T14:46:00.000Z",
             "Sort Key": -191.98988968,
             "places (from verses)": [
                 "recyuzIRhPm1IFEu0"
@@ -2584,8 +2618,9 @@
             "partOf": [
                 "recc78JIsfuTy7cNu"
             ],
-            "modified": "2020-09-06T23:16:26.000Z",
+            "Lag Type": "FS",
             "verseSort": "01012001",
+            "modified": "2020-11-06T14:46:00.000Z",
             "Sort Key": -191.98987999,
             "places (from verses)": [
                 "recyuzIRhPm1IFEu0",
@@ -2645,8 +2680,9 @@
                 "recXveJRjCtPNMLqs"
             ],
             "lag": "75Y",
-            "modified": "2020-09-02T02:19:14.000Z",
+            "Lag Type": "FS",
             "verseSort": "01012001",
+            "modified": "2020-11-06T14:46:00.000Z",
             "Sort Key": -191.98987999,
             "people (from verses)": [
                 "reccdFYIq50NyxNej",
@@ -2688,8 +2724,8 @@
             "partOf": [
                 "recc78JIsfuTy7cNu"
             ],
-            "modified": "2020-08-31T01:26:19.000Z",
             "verseSort": "01012010",
+            "modified": "2020-08-31T01:26:19.000Z",
             "Sort Key": -191.9898799,
             "places (from verses)": [
                 "recfrXyxhuYOczKTm",
@@ -2737,8 +2773,8 @@
             "predecessor": [
                 "rechJv1ksZ00ye38i"
             ],
-            "modified": "2020-09-07T00:30:26.000Z",
             "verseSort": "02012040",
+            "modified": "2020-09-07T00:30:26.000Z",
             "Sort Key": -191.9798796,
             "places (from verses)": [
                 "recfrXyxhuYOczKTm"
@@ -2793,8 +2829,8 @@
             "partOf": [
                 "recc78JIsfuTy7cNu"
             ],
-            "modified": "2020-08-31T01:26:21.000Z",
             "verseSort": "01013001",
+            "modified": "2020-08-31T01:26:21.000Z",
             "Sort Key": -190.98986999,
             "places (from verses)": [
                 "recfrXyxhuYOczKTm",
@@ -2859,8 +2895,9 @@
             "partOf": [
                 "recQDMfXnyQKhXj01"
             ],
-            "modified": "2020-08-22T01:32:33.000Z",
+            "Lag Type": "FS",
             "verseSort": "01011013",
+            "modified": "2020-11-06T14:46:00.000Z",
             "Sort Key": -189.98988987,
             "people (from verses)": [
                 "recDncefA67SnXVsu",
@@ -2895,8 +2932,9 @@
             "partOf": [
                 "rec1CnwQbgxnwGiRS"
             ],
-            "modified": "2020-09-02T13:13:10.000Z",
+            "Lag Type": "FS",
             "verseSort": "01016011",
+            "modified": "2020-11-06T14:46:00.000Z",
             "Sort Key": -189.98983989,
             "places (from verses)": [
                 "recbFkcAeBmrPDZvG",
@@ -2932,8 +2970,8 @@
             "predecessor": [
                 "rechXJhZerr2X4BnE"
             ],
-            "modified": "2020-09-02T13:27:12.000Z",
             "verseSort": "01016016",
+            "modified": "2020-09-02T13:27:12.000Z",
             "Sort Key": -189.98983984,
             "people (from verses)": [
                 "reccdFYIq50NyxNej",
@@ -2962,8 +3000,8 @@
             "partOf": [
                 "recMAoYK2dHmjhRh9"
             ],
-            "modified": "2020-09-02T02:13:27.000Z",
             "verseSort": "01017019",
+            "modified": "2020-09-02T02:13:27.000Z",
             "Sort Key": -188.98982981,
             "people (from verses)": [
                 "rechda7WMDuW1jBTq",
@@ -2993,8 +3031,8 @@
             "predecessor": [
                 "recsPU7EMhmA9z27x"
             ],
-            "modified": "2020-09-02T13:06:30.000Z",
             "verseSort": "01017019",
+            "modified": "2020-09-02T13:06:30.000Z",
             "Sort Key": -188.98982981,
             "people (from verses)": [
                 "rechda7WMDuW1jBTq",
@@ -3070,8 +3108,8 @@
                 "recfg6du6Hqlsk3zE",
                 "reczwfqymZrSbqaQp"
             ],
-            "modified": "2020-09-02T13:21:40.000Z",
             "verseSort": "01018020",
+            "modified": "2020-09-02T13:21:40.000Z",
             "Sort Key": -188.9898198,
             "places (from verses)": [
                 "recEwQ7ucCWe9yVvi",
@@ -3148,8 +3186,9 @@
             "partOf": [
                 "rectmsC3P5l7oRNpD"
             ],
-            "modified": "2020-08-22T01:34:01.000Z",
+            "Lag Type": "FS",
             "verseSort": "01011015",
+            "modified": "2020-11-06T14:46:00.000Z",
             "Sort Key": -186.98988985,
             "people (from verses)": [
                 "recMoCCDPVw5IzYq8",
@@ -3175,8 +3214,9 @@
                 "recsPU7EMhmA9z27x"
             ],
             "lag": "40Y",
-            "modified": "2020-09-07T19:05:38.000Z",
+            "Lag Type": "FS",
             "verseSort": "01025020",
+            "modified": "2020-11-06T14:46:00.000Z",
             "Sort Key": -184.9897498,
             "places (from verses)": [
                 "recrEteYtMZW1c46t"
@@ -3209,8 +3249,9 @@
             "partOf": [
                 "recxg4gEuXG5R6PUZ"
             ],
-            "modified": "2020-08-22T01:30:16.000Z",
+            "Lag Type": "FS",
             "verseSort": "01011011",
+            "modified": "2020-11-06T14:46:00.000Z",
             "Sort Key": -183.98988989,
             "people (from verses)": [
                 "recOCbR2kuXoxyvkq",
@@ -3239,8 +3280,8 @@
             "partOf": [
                 "recTkocSMI0NxpIrw"
             ],
-            "modified": "2020-09-02T02:21:40.000Z",
             "verseSort": "01025025",
+            "modified": "2020-09-02T02:21:40.000Z",
             "Sort Key": -182.98974975,
             "people (from verses)": [
                 "recUQWSZuOecG4z1Q",
@@ -3269,8 +3310,8 @@
             "predecessor": [
                 "recd4mOzI2nL66vR5"
             ],
-            "modified": "2020-09-02T13:02:30.000Z",
             "verseSort": "01025025",
+            "modified": "2020-09-02T13:02:30.000Z",
             "Sort Key": -182.98974975,
             "people (from verses)": [
                 "recUQWSZuOecG4z1Q",
@@ -3310,8 +3351,8 @@
                 "recboBHjrxNTpj8D6",
                 "rec6ko1E4ctpKjw4B"
             ],
-            "modified": "2020-08-27T01:50:05.000Z",
             "verseSort": "01010008",
+            "modified": "2020-08-27T01:50:05.000Z",
             "Sort Key": -181.98989992,
             "places (from verses)": [
                 "rec2QcD6jrQCxSGp2",
@@ -3359,8 +3400,9 @@
             "partOf": [
                 "recfnatCOLEHFYeLB"
             ],
-            "modified": "2020-09-02T02:16:46.000Z",
+            "Lag Type": "FS",
             "verseSort": "01025007",
+            "modified": "2020-11-06T14:46:00.000Z",
             "Sort Key": -181.98974993,
             "people (from verses)": [
                 "reccdFYIq50NyxNej"
@@ -3387,8 +3429,9 @@
             "partOf": [
                 "rec3cw1D7e1QItoGc"
             ],
-            "modified": "2020-08-22T01:34:11.000Z",
+            "Lag Type": "FS",
             "verseSort": "01011017",
+            "modified": "2020-11-06T14:46:00.000Z",
             "Sort Key": -180.98988983,
             "people (from verses)": [
                 "recRO35quNb37mHVy",
@@ -3416,8 +3459,9 @@
             "partOf": [
                 "rec1CnwQbgxnwGiRS"
             ],
-            "modified": "2020-09-02T13:27:03.000Z",
+            "Lag Type": "FS",
             "verseSort": "01025017",
+            "modified": "2020-11-06T14:46:00.000Z",
             "Sort Key": -176.98974983,
             "people (from verses)": [
                 "recvV3hxT3VINGuwx"
@@ -3439,8 +3483,8 @@
             "verses": [
                 "recna8Q9kQVeZk1RV"
             ],
-            "modified": "2020-09-02T13:20:28.000Z",
             "verseSort": "01029032",
+            "modified": "2020-09-02T13:20:28.000Z",
             "Sort Key": -174.98970968,
             "people (from verses)": [
                 "recCLJAZbd4JtoMv6",
@@ -3464,8 +3508,8 @@
             "verses": [
                 "rec0EyYCkQqHraNMA"
             ],
-            "modified": "2020-09-02T13:23:40.000Z",
             "verseSort": "01029033",
+            "modified": "2020-09-02T13:23:40.000Z",
             "Sort Key": -174.98970967,
             "people (from verses)": [
                 "recjDsafRYaksAqa1",
@@ -3488,8 +3532,8 @@
             "verses": [
                 "recvYxCnIun9Rqz60"
             ],
-            "modified": "2020-09-02T13:24:27.000Z",
             "verseSort": "01029034",
+            "modified": "2020-09-02T13:24:27.000Z",
             "Sort Key": -174.98970966,
             "people (from verses)": [
                 "recdIZxgxO61iLEXm"
@@ -3511,8 +3555,8 @@
             "verses": [
                 "recu8NTXXzfok3QHg"
             ],
-            "modified": "2020-09-02T13:19:34.000Z",
             "verseSort": "01029035",
+            "modified": "2020-09-02T13:19:34.000Z",
             "Sort Key": -174.98970965,
             "people (from verses)": [
                 "rec0rm6yYA4YUQrkh",
@@ -3535,8 +3579,8 @@
             "verses": [
                 "recs0lN6Rkz4IDPjN"
             ],
-            "modified": "2020-09-02T13:25:02.000Z",
             "verseSort": "01030006",
+            "modified": "2020-09-02T13:25:02.000Z",
             "Sort Key": -174.98969994,
             "people (from verses)": [
                 "recT2Tm2K5XORGnbx",
@@ -3561,8 +3605,8 @@
                 "recPbFHYlWRzwRlDo",
                 "recCW99SO5uCU1ZDc"
             ],
-            "modified": "2020-09-02T13:25:39.000Z",
             "verseSort": "01030007",
+            "modified": "2020-09-02T13:25:39.000Z",
             "Sort Key": -174.98969993,
             "people (from verses)": [
                 "recdaqUcGEFXwM0Ml",
@@ -3589,8 +3633,8 @@
                 "recyt36w0PNascK5o",
                 "recOhwajeT5rWyPM3"
             ],
-            "modified": "2020-09-02T13:29:48.000Z",
             "verseSort": "01030010",
+            "modified": "2020-09-02T13:29:48.000Z",
             "Sort Key": -174.9896999,
             "people (from verses)": [
                 "recFLDH19XTo80Gpr",
@@ -3617,8 +3661,8 @@
                 "recVvkPlWwtFpFS17",
                 "recz843uwsf7aZ23f"
             ],
-            "modified": "2020-09-02T13:36:37.000Z",
             "verseSort": "01030012",
+            "modified": "2020-09-02T13:36:37.000Z",
             "Sort Key": -174.98969988,
             "people (from verses)": [
                 "recFLDH19XTo80Gpr",
@@ -3645,8 +3689,8 @@
                 "recHzwL9KWORCBwX7",
                 "recMTPNhWSOr3Pe2B"
             ],
-            "modified": "2020-09-02T13:31:14.000Z",
             "verseSort": "01030017",
+            "modified": "2020-09-02T13:31:14.000Z",
             "Sort Key": -174.98969983,
             "people (from verses)": [
                 "recCLJAZbd4JtoMv6",
@@ -3674,8 +3718,8 @@
                 "recnyLhxMCe8R65zE",
                 "recuI12opCCUft8Wd"
             ],
-            "modified": "2020-09-02T13:36:39.000Z",
             "verseSort": "01030019",
+            "modified": "2020-09-02T13:36:39.000Z",
             "Sort Key": -174.98969981,
             "people (from verses)": [
                 "recCLJAZbd4JtoMv6",
@@ -3701,8 +3745,8 @@
             "verses": [
                 "rec5U9P6GQYNZ1gDq"
             ],
-            "modified": "2020-09-02T13:32:45.000Z",
             "verseSort": "01030021",
+            "modified": "2020-09-02T13:32:45.000Z",
             "Sort Key": -173.98969979,
             "people (from verses)": [
                 "recthlE4FTgDZvDef"
@@ -3731,8 +3775,8 @@
             "partOf": [
                 "recj8qDYwzBEfwBAa"
             ],
-            "modified": "2020-09-02T13:08:01.000Z",
             "verseSort": "01030023",
+            "modified": "2020-09-02T13:08:01.000Z",
             "Sort Key": -173.98969977,
             "people (from verses)": [
                 "reccZB8SVU5bEMcgo",
@@ -3762,8 +3806,8 @@
             "predecessor": [
                 "recZDLkLCBpaZjV7D"
             ],
-            "modified": "2020-09-02T13:08:52.000Z",
             "verseSort": "01030023",
+            "modified": "2020-09-02T13:08:52.000Z",
             "Sort Key": -173.98969977,
             "places (from verses)": [
                 "recfrXyxhuYOczKTm"
@@ -3805,8 +3849,8 @@
                 "recOEfEXGg2ExOSuG",
                 "recJxTWLBjFxqFULi"
             ],
-            "modified": "2020-09-07T01:36:50.000Z",
             "verseSort": "01035016",
+            "modified": "2020-09-07T01:36:50.000Z",
             "Sort Key": -172.98964984,
             "places (from verses)": [
                 "recJK76HLZSOzxTWW",
@@ -3921,8 +3965,8 @@
             "partOf": [
                 "recj8qDYwzBEfwBAa"
             ],
-            "modified": "2020-09-06T23:43:27.000Z",
             "verseSort": "01037003",
+            "modified": "2020-09-06T23:43:27.000Z",
             "Sort Key": -171.98962997,
             "places (from verses)": [
                 "recUySlrBva4ffoVs",
@@ -3972,8 +4016,8 @@
             "verses": [
                 "recc1dlch2jCH0mE5"
             ],
-            "modified": "2020-09-02T13:20:04.000Z",
             "verseSort": "01038029",
+            "modified": "2020-09-02T13:20:04.000Z",
             "Sort Key": -171.98961971,
             "people (from verses)": [
                 "recMUZkUfOwBiZ3jk"
@@ -4004,8 +4048,9 @@
             "partOf": [
                 "recMAoYK2dHmjhRh9"
             ],
-            "modified": "2020-09-02T13:05:23.000Z",
+            "Lag Type": "FS",
             "verseSort": "01035028",
+            "modified": "2020-11-06T14:46:00.000Z",
             "Sort Key": -170.98964972,
             "people (from verses)": [
                 "recqIoG1fkaNWJ1y0",
@@ -4077,8 +4122,8 @@
             "predecessor": [
                 "recNE3SvBrPoTRiMS"
             ],
-            "modified": "2020-09-06T23:52:25.000Z",
             "verseSort": "01040004",
+            "modified": "2020-09-06T23:52:25.000Z",
             "Sort Key": -170.98959996,
             "places (from verses)": [
                 "rec1RMZhQrrzq5oHJ",
@@ -4154,8 +4199,8 @@
             "partOf": [
                 "recj8qDYwzBEfwBAa"
             ],
-            "modified": "2020-09-06T23:45:35.000Z",
             "verseSort": "01041037",
+            "modified": "2020-09-06T23:45:35.000Z",
             "Sort Key": -170.98958963,
             "places (from verses)": [
                 "recfrXyxhuYOczKTm",
@@ -4217,8 +4262,8 @@
             "partOf": [
                 "recD7RqjeIpsJAoBc"
             ],
-            "modified": "2020-09-06T23:52:17.000Z",
             "verseSort": "01041047",
+            "modified": "2020-09-06T23:52:17.000Z",
             "Sort Key": -170.98958953,
             "places (from verses)": [
                 "recfrXyxhuYOczKTm",
@@ -4254,8 +4299,8 @@
             "partOf": [
                 "recq4rk0MUq6acKxS"
             ],
-            "modified": "2020-09-02T01:48:02.000Z",
             "verseSort": "01046013",
+            "modified": "2020-09-02T01:48:02.000Z",
             "Sort Key": -170.98953987,
             "people (from verses)": [
                 "rec3HzZknu1HOvNci",
@@ -4284,8 +4329,8 @@
             "predecessor": [
                 "rechIcTdBsoSsooEI"
             ],
-            "modified": "2020-09-02T13:39:11.000Z",
             "verseSort": "01046013",
+            "modified": "2020-09-02T13:39:11.000Z",
             "Sort Key": -170.98953987,
             "people (from verses)": [
                 "rec3HzZknu1HOvNci",
@@ -4400,8 +4445,8 @@
             "predecessor": [
                 "recZlsev4ThVh4o6I"
             ],
-            "modified": "2020-09-07T01:25:19.000Z",
             "verseSort": "01041054",
+            "modified": "2020-09-07T01:25:19.000Z",
             "Sort Key": -169.98958946,
             "places (from verses)": [
                 "recfrXyxhuYOczKTm",
@@ -4532,8 +4577,8 @@
             "predecessor": [
                 "recZlsev4ThVh4o6I"
             ],
-            "modified": "2020-09-07T01:25:19.000Z",
             "verseSort": "01042001",
+            "modified": "2020-09-07T01:25:19.000Z",
             "Sort Key": -169.98957999,
             "places (from verses)": [
                 "recfrXyxhuYOczKTm",
@@ -4709,8 +4754,9 @@
             "partOf": [
                 "rec85BvWuap3CDiMT"
             ],
-            "modified": "2020-09-07T01:27:54.000Z",
+            "Lag Type": "FS",
             "verseSort": "01045001",
+            "modified": "2020-11-06T14:46:00.000Z",
             "Sort Key": -169.98954999,
             "places (from verses)": [
                 "recRxBBePxyyV6TFO",
@@ -4826,8 +4872,9 @@
             "partOf": [
                 "recTkocSMI0NxpIrw"
             ],
-            "modified": "2020-09-06T23:58:16.000Z",
+            "Lag Type": "FS",
             "verseSort": "01049028",
+            "modified": "2020-11-06T14:46:00.000Z",
             "Sort Key": -167.98950972,
             "places (from verses)": [
                 "recQea8xEa8yZBFdt",
@@ -5937,8 +5984,9 @@
             ],
             "lag": "70Y",
             "rangeFlag": true,
-            "modified": "2020-09-06T14:00:05.000Z",
+            "Lag Type": "FS",
             "verseSort": "18001001",
+            "modified": "2020-11-06T14:46:00.000Z",
             "Sort Key": -163.81998999,
             "places (from verses)": [
                 "recMLkyqKWtDeTzWm",
@@ -6216,8 +6264,9 @@
             "partOf": [
                 "recj8qDYwzBEfwBAa"
             ],
-            "modified": "2020-09-02T13:10:05.000Z",
+            "Lag Type": "FS",
             "verseSort": "01050022",
+            "modified": "2020-11-06T14:46:00.000Z",
             "Sort Key": -162.98949978,
             "places (from verses)": [
                 "recfrXyxhuYOczKTm",
@@ -6271,8 +6320,8 @@
             "partOf": [
                 "recJOhn4C4yKIJmvH"
             ],
-            "modified": "2020-09-02T13:45:06.000Z",
             "verseSort": "02002001",
+            "modified": "2020-09-02T13:45:06.000Z",
             "Sort Key": -156.97997999,
             "people (from verses)": [
                 "recdIZxgxO61iLEXm",
@@ -6310,8 +6359,8 @@
             "predecessor": [
                 "rec6atQ3as7Qj2n5d"
             ],
-            "modified": "2020-09-02T13:48:51.000Z",
             "verseSort": "02002002",
+            "modified": "2020-09-02T13:48:51.000Z",
             "Sort Key": -156.97997998,
             "people (from verses)": [
                 "recjNRR60PAuFtjha"
@@ -6339,8 +6388,9 @@
             "partOf": [
                 "recq4rk0MUq6acKxS"
             ],
-            "modified": "2020-09-02T13:38:53.000Z",
+            "Lag Type": "FS",
             "verseSort": "18042016",
+            "modified": "2020-11-06T14:46:00.000Z",
             "Sort Key": -156.81957984,
             "people (from verses)": [
                 "recKXL1QrW8qTw5Ux",
@@ -6366,8 +6416,9 @@
                 "rec6atQ3as7Qj2n5d"
             ],
             "lag": "40Y",
-            "modified": "2020-09-07T00:04:43.000Z",
+            "Lag Type": "FS",
             "verseSort": "02002011",
+            "modified": "2020-11-06T14:46:00.000Z",
             "Sort Key": -152.97997989,
             "places (from verses)": [
                 "recBZhqAvy5xhTNRn"
@@ -6394,8 +6445,8 @@
             "verses": [
                 "recWyWTjIkszdZ0Xm"
             ],
-            "modified": "2020-09-02T13:43:48.000Z",
             "verseSort": "04013006",
+            "modified": "2020-09-02T13:43:48.000Z",
             "Sort Key": -151.95986994,
             "people (from verses)": [
                 "rec0rm6yYA4YUQrkh",
@@ -6420,8 +6471,8 @@
             "predecessor": [
                 "rectQwyx8dnexkNLi"
             ],
-            "modified": "2020-09-07T20:32:53.000Z",
             "verseSort": "07002008",
+            "modified": "2020-09-07T20:32:53.000Z",
             "Sort Key": -151.92997992,
             "people (from verses)": [
                 "recLuZtSmAO6erIsc",
@@ -6688,8 +6739,9 @@
                 "recad5Sz0E9gKbWYe",
                 "recsTcOXoP1DEM5lL"
             ],
-            "modified": "2020-09-13T02:00:24.000Z",
+            "Lag Type": "FS",
             "verseSort": "02006007",
+            "modified": "2020-11-06T14:46:00.000Z",
             "Sort Key": -148.97993993,
             "places (from verses)": [
                 "recfrXyxhuYOczKTm",
@@ -7340,8 +7392,8 @@
                 "recad5Sz0E9gKbWYe",
                 "recsTcOXoP1DEM5lL"
             ],
-            "modified": "2020-09-13T02:00:22.000Z",
             "verseSort": "02013018",
+            "modified": "2020-09-13T02:00:22.000Z",
             "Sort Key": -148.97986982,
             "places (from verses)": [
                 "recfrXyxhuYOczKTm",
@@ -7680,8 +7732,8 @@
                 "recr71Fz4NHTnGLJ2"
             ],
             "rangeFlag": true,
-            "modified": "2020-09-07T19:51:52.000Z",
             "verseSort": "02019001",
+            "modified": "2020-09-07T19:51:52.000Z",
             "Sort Key": -148.97980999,
             "places (from verses)": [
                 "recfrXyxhuYOczKTm",
@@ -8059,8 +8111,9 @@
             "groups": [
                 "recsTcOXoP1DEM5lL"
             ],
-            "modified": "2020-09-13T02:00:17.000Z",
+            "Lag Type": "FS",
             "verseSort": "02033023",
+            "modified": "2020-11-06T14:46:00.000Z",
             "Sort Key": -147.97966977,
             "places (from verses)": [
                 "recN1lVu0hmxpmrAq",
@@ -8308,8 +8361,9 @@
                 "recJOhn4C4yKIJmvH",
                 "recr71Fz4NHTnGLJ2"
             ],
-            "modified": "2020-09-07T19:58:45.000Z",
+            "Lag Type": "FS",
             "verseSort": "01034001",
+            "modified": "2020-11-06T14:46:00.000Z",
             "Sort Key": -144.98965999,
             "places (from verses)": [
                 "recdMHFSmu222VnJG",
@@ -8457,8 +8511,8 @@
                 "recad5Sz0E9gKbWYe",
                 "recsTcOXoP1DEM5lL"
             ],
-            "modified": "2020-09-13T02:00:11.000Z",
             "verseSort": "06001001",
+            "modified": "2020-09-13T02:00:11.000Z",
             "Sort Key": -144.93998999,
             "places (from verses)": [
                 "rec5dSSsOutWlH2fW",
@@ -8809,8 +8863,8 @@
             "predecessor": [
                 "recSF4lyBebGjJEXI"
             ],
-            "modified": "2020-09-07T20:16:32.000Z",
             "verseSort": "06012024",
+            "modified": "2020-09-07T20:16:32.000Z",
             "Sort Key": -144.93987976,
             "places (from verses)": [
                 "recj04aKt1MXd5eDY",
@@ -9395,8 +9449,8 @@
             "predecessor": [
                 "rec0t3McGWoyd6kTB"
             ],
-            "modified": "2020-09-07T20:19:57.000Z",
             "verseSort": "06014001",
+            "modified": "2020-09-07T20:19:57.000Z",
             "Sort Key": -143.93985999,
             "places (from verses)": [
                 "recRxBBePxyyV6TFO",
@@ -9570,8 +9624,9 @@
                 "rectQwyx8dnexkNLi"
             ],
             "lag": "110Y",
-            "modified": "2020-09-07T20:32:18.000Z",
+            "Lag Type": "FS",
             "verseSort": "06024029",
+            "modified": "2020-11-06T14:46:00.000Z",
             "Sort Key": -141.93975971,
             "places (from verses)": [
                 "recLqhClSrRFpvMvG",
@@ -9609,8 +9664,8 @@
             "groups": [
                 "recsTcOXoP1DEM5lL"
             ],
-            "modified": "2020-09-13T19:47:34.000Z",
             "verseSort": "07003007",
+            "modified": "2020-09-13T19:47:34.000Z",
             "Sort Key": -140.92996993,
             "places (from verses)": [
                 "rec8Dy0OPNtiTqsoS"
@@ -9656,8 +9711,8 @@
             "groups": [
                 "recsTcOXoP1DEM5lL"
             ],
-            "modified": "2020-09-13T01:55:04.000Z",
             "verseSort": "07002016",
+            "modified": "2020-09-13T01:55:04.000Z",
             "Sort Key": -139.92997984,
             "places (from verses)": [
                 "rec8Dy0OPNtiTqsoS"
@@ -9709,8 +9764,8 @@
             "groups": [
                 "recsTcOXoP1DEM5lL"
             ],
-            "modified": "2020-09-13T19:47:09.000Z",
             "verseSort": "07003012",
+            "modified": "2020-09-13T19:47:09.000Z",
             "Sort Key": -136.92996988,
             "places (from verses)": [
                 "recUn6eVJDoG4xI0j",
@@ -9766,8 +9821,8 @@
             "groups": [
                 "recsTcOXoP1DEM5lL"
             ],
-            "modified": "2020-09-13T01:56:15.000Z",
             "verseSort": "07003015",
+            "modified": "2020-09-13T01:56:15.000Z",
             "Sort Key": -135.92996985,
             "places (from verses)": [
                 "recUn6eVJDoG4xI0j",
@@ -9826,8 +9881,8 @@
             "groups": [
                 "recsTcOXoP1DEM5lL"
             ],
-            "modified": "2020-09-13T19:46:49.000Z",
             "verseSort": "07004001",
+            "modified": "2020-09-13T19:46:49.000Z",
             "Sort Key": -128.92995999,
             "places (from verses)": [
                 "recZ0LQukEPoExEIn",
@@ -9921,8 +9976,8 @@
             "groups": [
                 "recsTcOXoP1DEM5lL"
             ],
-            "modified": "2020-09-13T02:13:01.000Z",
             "verseSort": "07004004",
+            "modified": "2020-09-13T02:13:01.000Z",
             "Sort Key": -126.92995996,
             "places (from verses)": [
                 "rectFOmd9oBb0DoQ1",
@@ -10085,8 +10140,8 @@
             "groups": [
                 "recsTcOXoP1DEM5lL"
             ],
-            "modified": "2020-09-13T19:46:17.000Z",
             "verseSort": "07006001",
+            "modified": "2020-09-13T19:46:17.000Z",
             "Sort Key": -124.92993999,
             "places (from verses)": [
                 "recBZhqAvy5xhTNRn",
@@ -10217,8 +10272,8 @@
             "groups": [
                 "recsTcOXoP1DEM5lL"
             ],
-            "modified": "2020-09-13T02:16:12.000Z",
             "verseSort": "07006011",
+            "modified": "2020-09-13T02:16:12.000Z",
             "Sort Key": -124.92993989,
             "places (from verses)": [
                 "rec8SNX7XoTfkfbY1",
@@ -10488,8 +10543,8 @@
             "groups": [
                 "recsTcOXoP1DEM5lL"
             ],
-            "modified": "2020-09-13T02:17:54.000Z",
             "verseSort": "07008029",
+            "modified": "2020-09-13T02:17:54.000Z",
             "Sort Key": -120.92991971,
             "places (from verses)": [
                 "recUySlrBva4ffoVs",
@@ -10639,8 +10694,8 @@
             "groups": [
                 "recsTcOXoP1DEM5lL"
             ],
-            "modified": "2020-09-13T02:19:16.000Z",
             "verseSort": "07010001",
+            "modified": "2020-09-13T02:19:16.000Z",
             "Sort Key": -120.92989999,
             "places (from verses)": [
                 "recsONky7qFKhd5Ec",
@@ -10687,8 +10742,8 @@
             "groups": [
                 "recsTcOXoP1DEM5lL"
             ],
-            "modified": "2020-09-13T02:22:30.000Z",
             "verseSort": "07010006",
+            "modified": "2020-09-13T02:22:30.000Z",
             "Sort Key": -115.92989994,
             "places (from verses)": [
                 "recxiSg5QZWkj9Hy3",
@@ -10744,8 +10799,9 @@
             "groups": [
                 "recsTcOXoP1DEM5lL"
             ],
-            "modified": "2020-09-13T20:09:07.000Z",
+            "Lag Type": "FS",
             "verseSort": "09004015",
+            "modified": "2020-11-06T14:46:00.000Z",
             "Sort Key": -115.90995985,
             "people (from verses)": [
                 "recH9ECLXz8IgSUgF",
@@ -10825,8 +10881,8 @@
             "groups": [
                 "recsTcOXoP1DEM5lL"
             ],
-            "modified": "2020-09-13T20:09:09.000Z",
             "verseSort": "07011001",
+            "modified": "2020-09-13T20:09:09.000Z",
             "Sort Key": -114.92988999,
             "places (from verses)": [
                 "rec4yrH3aeLayLu5Y",
@@ -10962,8 +11018,8 @@
             "groups": [
                 "recsTcOXoP1DEM5lL"
             ],
-            "modified": "2020-09-13T20:09:09.000Z",
             "verseSort": "07012008",
+            "modified": "2020-09-13T20:09:09.000Z",
             "Sort Key": -113.92987992,
             "places (from verses)": [
                 "rec81f3wE4gATsRRE",
@@ -10997,8 +11053,8 @@
             "groups": [
                 "recsTcOXoP1DEM5lL"
             ],
-            "modified": "2020-09-13T20:19:49.000Z",
             "verseSort": "07013001",
+            "modified": "2020-09-13T20:19:49.000Z",
             "Sort Key": -113.92986999,
             "places (from verses)": [
                 "recYaOsZP30QMYgJV"
@@ -11038,8 +11094,8 @@
             "groups": [
                 "recsTcOXoP1DEM5lL"
             ],
-            "modified": "2020-09-13T20:21:51.000Z",
             "verseSort": "07012011",
+            "modified": "2020-09-13T20:21:51.000Z",
             "Sort Key": -112.92987989,
             "places (from verses)": [
                 "recAW3NovSbgdfNfk"
@@ -11078,8 +11134,8 @@
             "groups": [
                 "recsTcOXoP1DEM5lL"
             ],
-            "modified": "2020-09-13T20:21:51.000Z",
             "verseSort": "07012013",
+            "modified": "2020-09-13T20:21:51.000Z",
             "Sort Key": -111.92987987,
             "places (from verses)": [
                 "recuKYVxx1PqOEsiB"
@@ -11119,8 +11175,8 @@
             "groups": [
                 "recsTcOXoP1DEM5lL"
             ],
-            "modified": "2020-09-13T20:21:37.000Z",
             "verseSort": "07015020",
+            "modified": "2020-09-13T20:21:37.000Z",
             "Sort Key": -111.9298498,
             "places (from verses)": [
                 "recdiq65RtvGagXOn",
@@ -11150,8 +11206,8 @@
             "predecessor": [
                 "rec3z1OqSDMH0rR7y"
             ],
-            "modified": "2020-09-13T19:54:22.000Z",
             "verseSort": "09004015",
+            "modified": "2020-09-13T19:54:22.000Z",
             "Sort Key": -111.90995985,
             "people (from verses)": [
                 "recH9ECLXz8IgSUgF",
@@ -11190,8 +11246,8 @@
             "partOf": [
                 "recSRPo1LlWZ7tNaO"
             ],
-            "modified": "2020-09-13T20:21:35.000Z",
             "verseSort": "07016023",
+            "modified": "2020-09-13T20:21:35.000Z",
             "Sort Key": -109.92983977,
             "places (from verses)": [
                 "recdiq65RtvGagXOn",
@@ -11233,8 +11289,8 @@
             "groups": [
                 "recb9l9ttaZlODOFV"
             ],
-            "modified": "2020-08-27T01:58:08.000Z",
             "verseSort": "44001004",
+            "modified": "2020-08-27T01:58:08.000Z",
             "Sort Key": 33.44001004,
             "places (from verses)": [
                 "recL1WV82pXaRBQ59"
@@ -11274,8 +11330,8 @@
             "groups": [
                 "recb9l9ttaZlODOFV"
             ],
-            "modified": "2020-08-27T01:58:08.000Z",
             "verseSort": "44001006",
+            "modified": "2020-08-27T01:58:08.000Z",
             "Sort Key": 33.44001006,
             "places (from verses)": [
                 "recEP3QZ3HUmIkv4Q",
@@ -11341,8 +11397,8 @@
                 "recb9l9ttaZlODOFV",
                 "recBC0I2HaciTQbaa"
             ],
-            "modified": "2020-08-27T01:58:08.000Z",
             "verseSort": "44001012",
+            "modified": "2020-08-27T01:58:08.000Z",
             "Sort Key": 33.44001012,
             "places (from verses)": [
                 "recp5J3K9kl6DteAM",
@@ -11414,8 +11470,8 @@
             "groups": [
                 "recBC0I2HaciTQbaa"
             ],
-            "modified": "2020-08-27T01:58:08.000Z",
             "verseSort": "44002001",
+            "modified": "2020-08-27T01:58:08.000Z",
             "Sort Key": 33.44002001,
             "places (from verses)": [
                 "recL1WV82pXaRBQ59",
@@ -11483,8 +11539,8 @@
             "predecessor": [
                 "recIu7xhASS4Ufyfd"
             ],
-            "modified": "2020-08-27T01:58:08.000Z",
             "verseSort": "44002014",
+            "modified": "2020-08-27T01:58:08.000Z",
             "Sort Key": 33.44002014,
             "places (from verses)": [
                 "recAalC2QoLT7cJKN",
@@ -11549,8 +11605,8 @@
             "predecessor": [
                 "recQoK9KFveLh556S"
             ],
-            "modified": "2020-08-27T01:57:36.000Z",
             "verseSort": "44002042",
+            "modified": "2020-08-27T01:57:36.000Z",
             "Sort Key": 33.44002042,
             "people (from verses)": [
                 "reccZB8SVU5bEMcgo",
@@ -11587,8 +11643,8 @@
             "predecessor": [
                 "recVrh6Nbm3PruADf"
             ],
-            "modified": "2020-08-27T01:57:36.000Z",
             "verseSort": "44003001",
+            "modified": "2020-08-27T01:57:36.000Z",
             "Sort Key": 33.44003001,
             "places (from verses)": [
                 "rec232gzESK5PLtd0",
@@ -11643,8 +11699,8 @@
             "predecessor": [
                 "recLnDbrahKzEue0K"
             ],
-            "modified": "2020-08-27T01:57:36.000Z",
             "verseSort": "44003011",
+            "modified": "2020-08-27T01:57:36.000Z",
             "Sort Key": 33.44003011,
             "places (from verses)": [
                 "reclfB8zbauosDusS"
@@ -11725,8 +11781,8 @@
             "predecessor": [
                 "reciu7dT92C4dTrfl"
             ],
-            "modified": "2020-08-27T01:57:36.000Z",
             "verseSort": "44004001",
+            "modified": "2020-08-27T01:57:36.000Z",
             "Sort Key": 33.44004001,
             "places (from verses)": [
                 "recmRfnw4XzPBH9jc",
@@ -11781,8 +11837,8 @@
             "predecessor": [
                 "rech8qvzNnkDTqCi3"
             ],
-            "modified": "2020-08-27T01:57:36.000Z",
             "verseSort": "44004023",
+            "modified": "2020-08-27T01:57:36.000Z",
             "Sort Key": 33.44004023,
             "people (from verses)": [
                 "reccZB8SVU5bEMcgo",
@@ -11823,8 +11879,8 @@
             "predecessor": [
                 "recNQxwdQFjZidQTP"
             ],
-            "modified": "2020-08-27T01:57:36.000Z",
             "verseSort": "44004032",
+            "modified": "2020-08-27T01:57:36.000Z",
             "Sort Key": 33.44004032,
             "places (from verses)": [
                 "receEjvf5hXhkgVuZ"
@@ -11869,8 +11925,8 @@
             "predecessor": [
                 "rec5Y0EXegwQ5m9mX"
             ],
-            "modified": "2020-08-27T01:57:36.000Z",
             "verseSort": "44005001",
+            "modified": "2020-08-27T01:57:36.000Z",
             "Sort Key": 33.44005001,
             "people (from verses)": [
                 "reciQ6JZbbGyzAk2N",
@@ -11915,8 +11971,8 @@
             "groups": [
                 "recBC0I2HaciTQbaa"
             ],
-            "modified": "2020-08-27T01:57:36.000Z",
             "verseSort": "44005012",
+            "modified": "2020-08-27T01:57:36.000Z",
             "Sort Key": 33.44005012,
             "places (from verses)": [
                 "reclfB8zbauosDusS",
@@ -11966,8 +12022,8 @@
             "groups": [
                 "recBC0I2HaciTQbaa"
             ],
-            "modified": "2020-08-27T01:57:36.000Z",
             "verseSort": "44005018",
+            "modified": "2020-08-27T01:57:36.000Z",
             "Sort Key": 33.44005018,
             "places (from verses)": [
                 "recL1WV82pXaRBQ59"
@@ -12016,8 +12072,8 @@
             "groups": [
                 "recBC0I2HaciTQbaa"
             ],
-            "modified": "2020-08-27T01:57:36.000Z",
             "verseSort": "44005034",
+            "modified": "2020-08-27T01:57:36.000Z",
             "Sort Key": 33.44005034,
             "people (from verses)": [
                 "reciIAjF1PRn4qPbM",
@@ -12064,8 +12120,8 @@
             "groups": [
                 "recBC0I2HaciTQbaa"
             ],
-            "modified": "2020-08-27T01:57:36.000Z",
             "verseSort": "44006001",
+            "modified": "2020-08-27T01:57:36.000Z",
             "Sort Key": 33.44006001,
             "places (from verses)": [
                 "recKAFuMIt8BAi2OH",
@@ -12112,8 +12168,8 @@
             "predecessor": [
                 "recXUpfeHouc4qLEl"
             ],
-            "modified": "2020-08-27T01:57:36.000Z",
             "verseSort": "44006008",
+            "modified": "2020-08-27T01:57:36.000Z",
             "Sort Key": 33.44006008,
             "places (from verses)": [
                 "rectQcNZqgNSFBmfm",
@@ -12201,8 +12257,8 @@
             "predecessor": [
                 "reclAFi4IpJvlWCDp"
             ],
-            "modified": "2020-08-27T01:57:36.000Z",
             "verseSort": "44007001",
+            "modified": "2020-08-27T01:57:36.000Z",
             "Sort Key": 33.44007001,
             "places (from verses)": [
                 "rec8Dy0OPNtiTqsoS",
@@ -12309,8 +12365,8 @@
             "predecessor": [
                 "recNZVX1qwBc7F9AU"
             ],
-            "modified": "2020-08-27T01:57:36.000Z",
             "verseSort": "44007054",
+            "modified": "2020-08-27T01:57:36.000Z",
             "Sort Key": 33.44007054,
             "people (from verses)": [
                 "reccZB8SVU5bEMcgo",
@@ -12347,8 +12403,8 @@
             "predecessor": [
                 "recgcZKRVZDvMUMOa"
             ],
-            "modified": "2020-08-27T01:57:21.000Z",
             "verseSort": "44008001",
+            "modified": "2020-08-27T01:57:21.000Z",
             "Sort Key": 34.44008001,
             "places (from verses)": [
                 "recAalC2QoLT7cJKN",
@@ -12406,8 +12462,8 @@
             "predecessor": [
                 "recVjdJplfI1wSxYk"
             ],
-            "modified": "2020-08-27T01:57:22.000Z",
             "verseSort": "44008004",
+            "modified": "2020-08-27T01:57:22.000Z",
             "Sort Key": 34.44008004,
             "places (from verses)": [
                 "recEP3QZ3HUmIkv4Q",
@@ -12481,8 +12537,8 @@
             "predecessor": [
                 "recP6mZs3oSlZdrT0"
             ],
-            "modified": "2020-08-27T01:57:22.000Z",
             "verseSort": "44008026",
+            "modified": "2020-08-27T01:57:22.000Z",
             "Sort Key": 34.44008026,
             "places (from verses)": [
                 "recL1WV82pXaRBQ59",
@@ -12555,8 +12611,8 @@
             "predecessor": [
                 "recvI0SgATGCasGsV"
             ],
-            "modified": "2020-08-27T01:57:20.000Z",
             "verseSort": "44009001",
+            "modified": "2020-08-27T01:57:20.000Z",
             "Sort Key": 35.44009001,
             "places (from verses)": [
                 "recL1WV82pXaRBQ59",
@@ -12629,8 +12685,8 @@
             "predecessor": [
                 "recCz7opcoITkiZiq"
             ],
-            "modified": "2020-08-27T01:57:20.000Z",
             "verseSort": "44009020",
+            "modified": "2020-08-27T01:57:20.000Z",
             "Sort Key": 35.4400902,
             "places (from verses)": [
                 "recL1WV82pXaRBQ59",
@@ -12694,8 +12750,8 @@
             "predecessor": [
                 "reczeOH6wbjkZHP1w"
             ],
-            "modified": "2020-08-27T01:57:08.000Z",
             "verseSort": "44009032",
+            "modified": "2020-08-27T01:57:08.000Z",
             "Sort Key": 41.44009032,
             "places (from verses)": [
                 "recL4DQQ2ghOhOCZI",
@@ -12780,8 +12836,8 @@
             "predecessor": [
                 "recxH9n2Xk1PM6DvB"
             ],
-            "modified": "2020-08-27T01:57:11.000Z",
             "verseSort": "44010001",
+            "modified": "2020-08-27T01:57:11.000Z",
             "Sort Key": 41.44010001,
             "places (from verses)": [
                 "recKrSp5YmwkgRKv0",
@@ -12865,8 +12921,8 @@
             "predecessor": [
                 "rec4fFrtrUuDVkTNK"
             ],
-            "modified": "2020-08-27T01:57:11.000Z",
             "verseSort": "44010034",
+            "modified": "2020-08-27T01:57:11.000Z",
             "Sort Key": 41.44010034,
             "places (from verses)": [
                 "recAalC2QoLT7cJKN",
@@ -12933,8 +12989,8 @@
             "predecessor": [
                 "recCef9mlyuV3XWd3"
             ],
-            "modified": "2020-08-27T01:57:11.000Z",
             "verseSort": "44011001",
+            "modified": "2020-08-27T01:57:11.000Z",
             "Sort Key": 41.44011001,
             "places (from verses)": [
                 "recAalC2QoLT7cJKN",
@@ -12994,8 +13050,8 @@
             "predecessor": [
                 "recNnOBWct1TV6CUZ"
             ],
-            "modified": "2020-08-27T01:57:11.000Z",
             "verseSort": "44011019",
+            "modified": "2020-08-27T01:57:11.000Z",
             "Sort Key": 41.44011019,
             "places (from verses)": [
                 "recToD2yiguR5xCQ0",
@@ -13052,8 +13108,8 @@
             "predecessor": [
                 "recn2U67FPmywxqcb"
             ],
-            "modified": "2020-08-27T01:56:58.000Z",
             "verseSort": "44012001",
+            "modified": "2020-08-27T01:56:58.000Z",
             "Sort Key": 43.44012001,
             "people (from verses)": [
                 "recGjoYsVY3r2JVso",
@@ -13084,8 +13140,8 @@
             "predecessor": [
                 "recCCk6aW2ZbOCRTd"
             ],
-            "modified": "2020-08-27T01:56:59.000Z",
             "verseSort": "44012003",
+            "modified": "2020-08-27T01:56:59.000Z",
             "Sort Key": 43.44012003,
             "people (from verses)": [
                 "recX9MMADoVI2CSP1",
@@ -13130,8 +13186,8 @@
             "predecessor": [
                 "recDiHn0k1yUMCdjc"
             ],
-            "modified": "2020-08-27T01:56:59.000Z",
             "verseSort": "44012006",
+            "modified": "2020-08-27T01:56:59.000Z",
             "Sort Key": 43.44012006,
             "places (from verses)": [
                 "recAalC2QoLT7cJKN",
@@ -13180,8 +13236,8 @@
             "predecessor": [
                 "recMhkv38hrlSmT3K"
             ],
-            "modified": "2020-08-27T01:56:59.000Z",
             "verseSort": "44012020",
+            "modified": "2020-08-27T01:56:59.000Z",
             "Sort Key": 43.4401202,
             "places (from verses)": [
                 "reco9Wc4YyNXZq43z",
@@ -13228,8 +13284,8 @@
             "partOf": [
                 "recUWXmZlrKxIx99u"
             ],
-            "modified": "2020-08-28T20:12:46.000Z",
             "verseSort": "44012024",
+            "modified": "2020-08-28T20:12:46.000Z",
             "Sort Key": 48.44012024,
             "places (from verses)": [
                 "recL1WV82pXaRBQ59",
@@ -13365,8 +13421,8 @@
                 "recFFz7cJ33RLa1Rs",
                 "recR5cw43K7wMviXn"
             ],
-            "modified": "2020-08-28T20:27:34.000Z",
             "verseSort": "44012024",
+            "modified": "2020-08-28T20:27:34.000Z",
             "Sort Key": 48.44012024,
             "places (from verses)": [
                 "recL1WV82pXaRBQ59",
@@ -13531,8 +13587,8 @@
             "partOf": [
                 "recUWXmZlrKxIx99u"
             ],
-            "modified": "2020-08-28T20:12:56.000Z",
             "verseSort": "44013004",
+            "modified": "2020-08-28T20:12:56.000Z",
             "Sort Key": 48.44013004,
             "places (from verses)": [
                 "recf5gqGGUdNN4pas",
@@ -13626,8 +13682,8 @@
             "partOf": [
                 "recUWXmZlrKxIx99u"
             ],
-            "modified": "2020-08-28T20:13:13.000Z",
             "verseSort": "44013013",
+            "modified": "2020-08-28T20:13:13.000Z",
             "Sort Key": 48.44013013,
             "places (from verses)": [
                 "recxdLVLPiSKfK2iB",
@@ -13716,8 +13772,8 @@
             "partOf": [
                 "recUWXmZlrKxIx99u"
             ],
-            "modified": "2020-08-28T20:13:21.000Z",
             "verseSort": "44014001",
+            "modified": "2020-08-28T20:13:21.000Z",
             "Sort Key": 48.44014001,
             "places (from verses)": [
                 "recy6BBIMIGwmihwL"
@@ -13765,8 +13821,8 @@
             "partOf": [
                 "recUWXmZlrKxIx99u"
             ],
-            "modified": "2020-08-28T20:13:32.000Z",
             "verseSort": "44014006",
+            "modified": "2020-08-28T20:13:32.000Z",
             "Sort Key": 49.44014006,
             "places (from verses)": [
                 "recbm5ZBUjTQ5uAGT",
@@ -13828,8 +13884,8 @@
             "partOf": [
                 "recUWXmZlrKxIx99u"
             ],
-            "modified": "2020-08-28T20:13:42.000Z",
             "verseSort": "44014021",
+            "modified": "2020-08-28T20:13:42.000Z",
             "Sort Key": 49.44014021,
             "places (from verses)": [
                 "recevhMicAECGWRVk",
@@ -13912,8 +13968,8 @@
             "groups": [
                 "recBC0I2HaciTQbaa"
             ],
-            "modified": "2020-08-28T20:14:12.000Z",
             "verseSort": "44015001",
+            "modified": "2020-08-28T20:14:12.000Z",
             "Sort Key": 49.440150009999996,
             "places (from verses)": [
                 "recAalC2QoLT7cJKN",
@@ -14129,8 +14185,8 @@
             "predecessor": [
                 "recUWXmZlrKxIx99u"
             ],
-            "modified": "2020-08-28T20:27:19.000Z",
             "verseSort": "44015001",
+            "modified": "2020-08-28T20:27:19.000Z",
             "Sort Key": 49.440150009999996,
             "places (from verses)": [
                 "recAalC2QoLT7cJKN",
@@ -14365,8 +14421,8 @@
             "partOf": [
                 "recUWXmZlrKxIx99u"
             ],
-            "modified": "2020-08-28T20:14:31.000Z",
             "verseSort": "44015035",
+            "modified": "2020-08-28T20:14:31.000Z",
             "Sort Key": 49.44015035,
             "places (from verses)": [
                 "recKAFuMIt8BAi2OH",
@@ -14404,8 +14460,8 @@
             "predecessor": [
                 "reckt5soySSqCZnoa"
             ],
-            "modified": "2020-08-28T19:57:54.000Z",
             "verseSort": "48001001",
+            "modified": "2020-08-28T19:57:54.000Z",
             "Sort Key": 49.48001001,
             "people (from verses)": [
                 "recgkzNX07a7kGFYL",
@@ -14440,8 +14496,8 @@
             "partOf": [
                 "reciR4wcxOAcLxak0"
             ],
-            "modified": "2020-08-28T20:14:38.000Z",
             "verseSort": "44015040",
+            "modified": "2020-08-28T20:14:38.000Z",
             "Sort Key": 50.4401504,
             "places (from verses)": [
                 "rectQcNZqgNSFBmfm",
@@ -14483,8 +14539,8 @@
             "partOf": [
                 "reciR4wcxOAcLxak0"
             ],
-            "modified": "2020-08-28T20:14:44.000Z",
             "verseSort": "44016001",
+            "modified": "2020-08-28T20:14:44.000Z",
             "Sort Key": 50.44016001,
             "places (from verses)": [
                 "recMQPFxBneofA9nV",
@@ -14530,8 +14586,8 @@
             "partOf": [
                 "reciR4wcxOAcLxak0"
             ],
-            "modified": "2020-08-28T20:14:49.000Z",
             "verseSort": "44016006",
+            "modified": "2020-08-28T20:14:49.000Z",
             "Sort Key": 50.44016006,
             "places (from verses)": [
                 "reco41jQa2HDPSWx2",
@@ -14580,8 +14636,8 @@
             "partOf": [
                 "reciR4wcxOAcLxak0"
             ],
-            "modified": "2020-08-28T20:15:06.000Z",
             "verseSort": "44016009",
+            "modified": "2020-08-28T20:15:06.000Z",
             "Sort Key": 50.44016009,
             "places (from verses)": [
                 "recly2TmP9CBHh8OQ",
@@ -14626,8 +14682,8 @@
             "partOf": [
                 "reciR4wcxOAcLxak0"
             ],
-            "modified": "2020-08-28T20:15:12.000Z",
             "verseSort": "44016013",
+            "modified": "2020-08-28T20:15:12.000Z",
             "Sort Key": 50.44016013,
             "places (from verses)": [
                 "recV6eT82m0GLrB42"
@@ -14668,8 +14724,8 @@
             "partOf": [
                 "reciR4wcxOAcLxak0"
             ],
-            "modified": "2020-08-28T20:15:18.000Z",
             "verseSort": "44016016",
+            "modified": "2020-08-28T20:15:18.000Z",
             "Sort Key": 50.44016016,
             "people (from verses)": [
                 "recgkzNX07a7kGFYL",
@@ -14717,8 +14773,8 @@
             "partOf": [
                 "reciR4wcxOAcLxak0"
             ],
-            "modified": "2020-08-28T20:15:29.000Z",
             "verseSort": "44016019",
+            "modified": "2020-08-28T20:15:29.000Z",
             "Sort Key": 50.44016019,
             "people (from verses)": [
                 "recgkzNX07a7kGFYL",
@@ -14767,8 +14823,8 @@
             "partOf": [
                 "reciR4wcxOAcLxak0"
             ],
-            "modified": "2020-08-30T21:54:55.000Z",
             "verseSort": "44016025",
+            "modified": "2020-08-30T21:54:55.000Z",
             "Sort Key": 50.44016025,
             "people (from verses)": [
                 "recgkzNX07a7kGFYL",
@@ -14812,8 +14868,8 @@
             "partOf": [
                 "reciR4wcxOAcLxak0"
             ],
-            "modified": "2020-08-28T20:15:38.000Z",
             "verseSort": "44016035",
+            "modified": "2020-08-28T20:15:38.000Z",
             "Sort Key": 50.44016035,
             "people (from verses)": [
                 "recgkzNX07a7kGFYL",
@@ -14854,8 +14910,8 @@
             "partOf": [
                 "reciR4wcxOAcLxak0"
             ],
-            "modified": "2020-08-28T20:15:46.000Z",
             "verseSort": "44017001",
+            "modified": "2020-08-28T20:15:46.000Z",
             "Sort Key": 50.44017001,
             "places (from verses)": [
                 "recjAd4VSbzamAXaB",
@@ -14904,8 +14960,8 @@
             "partOf": [
                 "reciR4wcxOAcLxak0"
             ],
-            "modified": "2020-08-28T20:15:53.000Z",
             "verseSort": "44017010",
+            "modified": "2020-08-28T20:15:53.000Z",
             "Sort Key": 51.4401701,
             "places (from verses)": [
                 "rech04nnKCaXqzU0U",
@@ -14971,8 +15027,8 @@
             "partOf": [
                 "reciR4wcxOAcLxak0"
             ],
-            "modified": "2020-08-28T20:16:04.000Z",
             "verseSort": "44017016",
+            "modified": "2020-08-28T20:16:04.000Z",
             "Sort Key": 51.44017016,
             "places (from verses)": [
                 "rec6n0u78dB1QOA1Z",
@@ -15044,8 +15100,8 @@
             "partOf": [
                 "reciR4wcxOAcLxak0"
             ],
-            "modified": "2020-08-28T20:16:25.000Z",
             "verseSort": "44018001",
+            "modified": "2020-08-28T20:16:25.000Z",
             "Sort Key": 51.44018001,
             "places (from verses)": [
                 "rec6n0u78dB1QOA1Z",
@@ -15117,8 +15173,8 @@
             "partOf": [
                 "reciR4wcxOAcLxak0"
             ],
-            "modified": "2020-08-28T20:16:33.000Z",
             "verseSort": "44018018",
+            "modified": "2020-08-28T20:16:33.000Z",
             "Sort Key": 52.44018018,
             "places (from verses)": [
                 "recASJJNAAnhodvWY",
@@ -15167,8 +15223,8 @@
             "partOf": [
                 "rec4bAiAcAOo9mPwO"
             ],
-            "modified": "2020-08-28T20:26:17.000Z",
             "verseSort": "44018024",
+            "modified": "2020-08-28T20:26:17.000Z",
             "Sort Key": 53.44018024,
             "places (from verses)": [
                 "recBH7NuHKP1aJEqF",
@@ -15272,8 +15328,9 @@
                 "reciR4wcxOAcLxak0"
             ],
             "lag": "1Y",
-            "modified": "2020-08-28T20:26:43.000Z",
+            "Lag Type": "FS",
             "verseSort": "44018024",
+            "modified": "2020-11-06T14:46:00.000Z",
             "Sort Key": 53.44018024,
             "places (from verses)": [
                 "recBH7NuHKP1aJEqF",
@@ -15423,8 +15480,8 @@
             "partOf": [
                 "rec4bAiAcAOo9mPwO"
             ],
-            "modified": "2020-08-28T20:26:18.000Z",
             "verseSort": "44019001",
+            "modified": "2020-08-28T20:26:18.000Z",
             "Sort Key": 53.44019001,
             "places (from verses)": [
                 "recQThsW3uau1oxf9",
@@ -15512,8 +15569,8 @@
             "partOf": [
                 "rec4bAiAcAOo9mPwO"
             ],
-            "modified": "2020-08-28T20:26:22.000Z",
             "verseSort": "44019023",
+            "modified": "2020-08-28T20:26:22.000Z",
             "Sort Key": 56.44019023,
             "places (from verses)": [
                 "recBYO9ocr5Gssb47",
@@ -15576,8 +15633,8 @@
             "partOf": [
                 "rec4bAiAcAOo9mPwO"
             ],
-            "modified": "2020-08-28T20:26:22.000Z",
             "verseSort": "44020006",
+            "modified": "2020-08-28T20:26:22.000Z",
             "Sort Key": 56.44020006,
             "places (from verses)": [
                 "recv6STuRUsKfnjFn",
@@ -15630,8 +15687,8 @@
             "partOf": [
                 "rec4bAiAcAOo9mPwO"
             ],
-            "modified": "2020-08-28T20:26:22.000Z",
             "verseSort": "44020012",
+            "modified": "2020-08-28T20:26:22.000Z",
             "Sort Key": 57.44020012,
             "people (from verses)": [
                 "recgkzNX07a7kGFYL",
@@ -15673,8 +15730,8 @@
             "partOf": [
                 "rec4bAiAcAOo9mPwO"
             ],
-            "modified": "2020-08-28T20:26:22.000Z",
             "verseSort": "44020016",
+            "modified": "2020-08-28T20:26:22.000Z",
             "Sort Key": 57.44020016,
             "places (from verses)": [
                 "recpCMN0bRpzByjaR",
@@ -15738,8 +15795,8 @@
             "partOf": [
                 "rec4bAiAcAOo9mPwO"
             ],
-            "modified": "2020-08-28T20:26:22.000Z",
             "verseSort": "44020017",
+            "modified": "2020-08-28T20:26:22.000Z",
             "Sort Key": 57.44020017,
             "places (from verses)": [
                 "recBYO9ocr5Gssb47",
@@ -15816,8 +15873,8 @@
             "partOf": [
                 "rec4bAiAcAOo9mPwO"
             ],
-            "modified": "2020-08-28T20:26:22.000Z",
             "verseSort": "44021001",
+            "modified": "2020-08-28T20:26:22.000Z",
             "Sort Key": 57.44021001,
             "places (from verses)": [
                 "recgeNFbkdcvVBH0o",
@@ -15887,8 +15944,8 @@
             "partOf": [
                 "rec4bAiAcAOo9mPwO"
             ],
-            "modified": "2020-08-28T20:26:22.000Z",
             "verseSort": "44021018",
+            "modified": "2020-08-28T20:26:22.000Z",
             "Sort Key": 57.44021018,
             "people (from verses)": [
                 "recgkzNX07a7kGFYL",
@@ -15932,8 +15989,8 @@
             "partOf": [
                 "rec4bAiAcAOo9mPwO"
             ],
-            "modified": "2020-08-28T20:26:22.000Z",
             "verseSort": "44021027",
+            "modified": "2020-08-28T20:26:22.000Z",
             "Sort Key": 57.44021027,
             "places (from verses)": [
                 "recpCMN0bRpzByjaR",
@@ -16001,8 +16058,8 @@
             "partOf": [
                 "rec4bAiAcAOo9mPwO"
             ],
-            "modified": "2020-08-28T20:26:22.000Z",
             "verseSort": "44021037",
+            "modified": "2020-08-28T20:26:22.000Z",
             "Sort Key": 57.44021037,
             "places (from verses)": [
                 "recyT2hLNYpIFXcAs",
@@ -16072,8 +16129,8 @@
             "partOf": [
                 "rec4bAiAcAOo9mPwO"
             ],
-            "modified": "2020-08-28T20:26:22.000Z",
             "verseSort": "44022030",
+            "modified": "2020-08-28T20:26:22.000Z",
             "Sort Key": 57.4402203,
             "places (from verses)": [
                 "recL1WV82pXaRBQ59",
@@ -16128,8 +16185,8 @@
             "partOf": [
                 "rec4bAiAcAOo9mPwO"
             ],
-            "modified": "2020-08-28T20:26:22.000Z",
             "verseSort": "44023012",
+            "modified": "2020-08-28T20:26:22.000Z",
             "Sort Key": 57.44023012,
             "people (from verses)": [
                 "recgkzNX07a7kGFYL",
@@ -16209,8 +16266,8 @@
             "partOf": [
                 "rec4bAiAcAOo9mPwO"
             ],
-            "modified": "2020-08-28T20:26:22.000Z",
             "verseSort": "44023023",
+            "modified": "2020-08-28T20:26:22.000Z",
             "Sort Key": 57.44023023,
             "places (from verses)": [
                 "recKrSp5YmwkgRKv0",
@@ -16285,8 +16342,8 @@
             "partOf": [
                 "rec4bAiAcAOo9mPwO"
             ],
-            "modified": "2020-08-28T20:26:22.000Z",
             "verseSort": "44025001",
+            "modified": "2020-08-28T20:26:22.000Z",
             "Sort Key": 59.44025001,
             "places (from verses)": [
                 "recL1WV82pXaRBQ59",
@@ -16345,8 +16402,8 @@
             "partOf": [
                 "rec4bAiAcAOo9mPwO"
             ],
-            "modified": "2020-08-28T20:26:22.000Z",
             "verseSort": "44025013",
+            "modified": "2020-08-28T20:26:22.000Z",
             "Sort Key": 59.44025013,
             "places (from verses)": [
                 "recKrSp5YmwkgRKv0",
@@ -16431,8 +16488,8 @@
             "partOf": [
                 "rec4bAiAcAOo9mPwO"
             ],
-            "modified": "2020-08-28T20:26:22.000Z",
             "verseSort": "44025022",
+            "modified": "2020-08-28T20:26:22.000Z",
             "Sort Key": 59.44025022,
             "places (from verses)": [
                 "recL1WV82pXaRBQ59",
@@ -16536,8 +16593,8 @@
             "partOf": [
                 "rec4bAiAcAOo9mPwO"
             ],
-            "modified": "2020-08-28T20:26:22.000Z",
             "verseSort": "44027001",
+            "modified": "2020-08-28T20:26:22.000Z",
             "Sort Key": 59.44027001,
             "places (from verses)": [
                 "rec17BV2zJmVUdbIV",
@@ -16692,8 +16749,9 @@
                 "rec4bAiAcAOo9mPwO"
             ],
             "lag": "2Y",
-            "modified": "2020-08-28T20:26:04.000Z",
+            "Lag Type": "FS",
             "verseSort": "44027001",
+            "modified": "2020-11-06T14:46:00.000Z",
             "Sort Key": 59.44027001,
             "places (from verses)": [
                 "rec17BV2zJmVUdbIV",
@@ -16829,8 +16887,8 @@
             "partOf": [
                 "rec4bAiAcAOo9mPwO"
             ],
-            "modified": "2020-08-28T20:24:39.000Z",
             "verseSort": "44027013",
+            "modified": "2020-08-28T20:24:39.000Z",
             "Sort Key": 59.44027013,
             "places (from verses)": [
                 "rec6yittVQwxJlpye",
@@ -16887,8 +16945,8 @@
             "partOf": [
                 "rec4bAiAcAOo9mPwO"
             ],
-            "modified": "2020-08-28T20:24:42.000Z",
             "verseSort": "44028001",
+            "modified": "2020-08-28T20:24:42.000Z",
             "Sort Key": 60.44028001,
             "places (from verses)": [
                 "recHGqci8tWKDU549"
@@ -16936,8 +16994,8 @@
             "partOf": [
                 "rec4bAiAcAOo9mPwO"
             ],
-            "modified": "2020-08-28T20:24:42.000Z",
             "verseSort": "44028011",
+            "modified": "2020-08-28T20:24:42.000Z",
             "Sort Key": 60.44028011,
             "places (from verses)": [
                 "recBH7NuHKP1aJEqF",
@@ -16995,8 +17053,8 @@
             "partOf": [
                 "rec4bAiAcAOo9mPwO"
             ],
-            "modified": "2020-08-28T20:24:42.000Z",
             "verseSort": "44028017",
+            "modified": "2020-08-28T20:24:42.000Z",
             "Sort Key": 60.44028017,
             "places (from verses)": [
                 "recL1WV82pXaRBQ59",
@@ -17622,8 +17680,8 @@
                 "recxnkDAiFMjaql6I",
                 "rec2TPIsvCymIbXhi"
             ],
-            "modified": "2020-10-30T17:15:28.000Z",
             "verseSort": "09010001",
+            "modified": "2020-10-30T17:15:28.000Z",
             "Sort Key": -108.90989999,
             "places (from verses)": [
                 "recdK2aTnuFDIx6XY",
@@ -19502,8 +19560,8 @@
             "partOf": [
                 "rec3uYdP5Fca5BJfX"
             ],
-            "modified": "2020-10-30T18:46:10.000Z",
             "verseSort": "10002001",
+            "modified": "2020-10-30T18:46:10.000Z",
             "Sort Key": -104.89997999,
             "places (from verses)": [
                 "recJSfVnIcPibY6aX",
@@ -21277,8 +21335,8 @@
             "partOf": [
                 "rec3uYdP5Fca5BJfX"
             ],
-            "modified": "2020-10-30T19:27:31.000Z",
             "verseSort": "11002012",
+            "modified": "2020-10-30T19:27:31.000Z",
             "Sort Key": -100.88997988,
             "places (from verses)": [
                 "recL1WV82pXaRBQ59",
@@ -21956,8 +22014,9 @@
                 "rec3uYdP5Fca5BJfX"
             ],
             "rangeFlag": true,
-            "modified": "2020-10-30T18:48:18.000Z",
+            "Lag Type": "FS",
             "verseSort": "09017001",
+            "modified": "2020-11-06T14:46:00.000Z",
             "Sort Key": -105.90982999,
             "places (from verses)": [
                 "rec3RF6Fb7wZUoamW",
@@ -22098,8 +22157,8 @@
             "partOf": [
                 "rec3uYdP5Fca5BJfX"
             ],
-            "modified": "2020-10-30T18:48:14.000Z",
             "verseSort": "09031006",
+            "modified": "2020-10-30T18:48:14.000Z",
             "Sort Key": -104.90968994,
             "places (from verses)": [
                 "rec5dSSsOutWlH2fW",
@@ -22145,8 +22204,8 @@
             "partOf": [
                 "rec3uYdP5Fca5BJfX"
             ],
-            "modified": "2020-10-30T18:51:38.000Z",
             "verseSort": "11002010",
+            "modified": "2020-10-30T18:51:38.000Z",
             "Sort Key": -100.8899799,
             "places (from verses)": [
                 "recL1WV82pXaRBQ59",
@@ -22175,8 +22234,8 @@
                 "rec3uYdP5Fca5BJfX"
             ],
             "rangeFlag": true,
-            "modified": "2020-10-30T18:59:47.000Z",
             "verseSort": "09009002",
+            "modified": "2020-10-30T18:59:47.000Z",
             "Sort Key": -112.90990998,
             "people (from verses)": [
                 "recjMT68aIzFLh6cQ",
@@ -22310,8 +22369,9 @@
             "partOf": [
                 "rec3uYdP5Fca5BJfX"
             ],
-            "modified": "2020-10-30T19:27:31.000Z",
+            "Lag Type": "FS",
             "verseSort": "11006001",
+            "modified": "2020-11-06T14:45:51.000Z",
             "Sort Key": -100.88993999,
             "places (from verses)": [
                 "recfrXyxhuYOczKTm",
@@ -22412,8 +22472,8 @@
             "predecessor": [
                 "recKTbnO8VY7lXLeX"
             ],
-            "modified": "2020-10-30T19:04:16.000Z",
             "verseSort": "11011043",
+            "modified": "2020-10-30T19:04:16.000Z",
             "Sort Key": -973.88988957,
             "people (from verses)": [
                 "rec0BAacWSGBXZ0zI",
@@ -22451,13 +22511,31 @@
             "title": "Reign of Nadab",
             "startDate": "-953",
             "duration": "2Y",
+            "participants": [
+                "reckwIXkgDob8lLJB"
+            ],
+            "verses": [
+                "recHfaB6nG7A4FCAo",
+                "recg1SEiiRs2UogM5"
+            ],
+            "predecessor": [
+                "recmEKC9vgAJDYa2z"
+            ],
+            "lag": "2Y",
             "partOf": [
                 "rec3R4qyFlVjCRORt"
             ],
-            "modified": "2020-10-30T20:05:07.000Z",
-            "Sort Key": {
-                "error": "#ERROR!"
-            }
+            "Lag Type": "SS",
+            "verseSort": "11015025",
+            "modified": "2020-11-06T14:45:29.000Z",
+            "Sort Key": -952.88984975,
+            "people (from verses)": [
+                "reckwIXkgDob8lLJB",
+                "recXhPherZAxvXTS4",
+                "recaraSBvlHIwaaOB",
+                "rec0rm6yYA4YUQrkh",
+                "reccZB8SVU5bEMcgo"
+            ]
         },
         "createdTime": "2020-10-30T19:16:47.000Z"
     },
@@ -22467,13 +22545,51 @@
             "title": "Reign of Baasha",
             "startDate": "-952",
             "duration": "24Y",
+            "participants": [
+                "recBshoEF7PEnjaAy"
+            ],
+            "verses": [
+                "recI4I3m0NZkE3gbG",
+                "recCA8BxzeYvxNSle",
+                "recTGHtq9dhUrbxTa",
+                "recGWFifAOzCcKpLJ",
+                "recE35sflEE6nxyNZ",
+                "recRVjSJ7mRd7uwkj",
+                "rectSBuEIvtHYYED5"
+            ],
+            "predecessor": [
+                "recmEKC9vgAJDYa2z"
+            ],
+            "lag": "3Y",
             "partOf": [
                 "rec3R4qyFlVjCRORt"
             ],
-            "modified": "2020-10-30T20:05:08.000Z",
-            "Sort Key": {
-                "error": "#ERROR!"
-            }
+            "Lag Type": "SS",
+            "verseSort": "11015033",
+            "modified": "2020-11-06T14:45:32.000Z",
+            "Sort Key": -951.88984967,
+            "places (from verses)": [
+                "recj04aKt1MXd5eDY"
+            ],
+            "people (from verses)": [
+                "recaraSBvlHIwaaOB",
+                "rec0rm6yYA4YUQrkh",
+                "recBshoEF7PEnjaAy",
+                "recnZlhSisoHWjDCn",
+                "recQQxfSPSO5wWdFx",
+                "recXhPherZAxvXTS4",
+                "reccZB8SVU5bEMcgo",
+                "recD0WTn8jytakSeJ",
+                "recV1XqmNcmWio8p5",
+                "recBshoEF7PEnjaAy",
+                "reccZB8SVU5bEMcgo",
+                "recXhPherZAxvXTS4",
+                "recBshoEF7PEnjaAy",
+                "recXhPherZAxvXTS4",
+                "recPF80I9rSEP1EHd",
+                "recBshoEF7PEnjaAy",
+                "recBshoEF7PEnjaAy"
+            ]
         },
         "createdTime": "2020-10-30T19:16:55.000Z"
     },
@@ -22483,13 +22599,42 @@
             "title": "Reign of Elah",
             "startDate": "-929",
             "duration": "2Y",
+            "participants": [
+                "recFexGOO6Xag0jw7"
+            ],
+            "verses": [
+                "recpKVvdc3NtUfKxI",
+                "recvCDneIBNQ12mKF",
+                "recGurdTZxV9RfCsu"
+            ],
+            "predecessor": [
+                "recmEKC9vgAJDYa2z"
+            ],
+            "lag": "26Y",
             "partOf": [
                 "rec3R4qyFlVjCRORt"
             ],
-            "modified": "2020-10-30T20:05:17.000Z",
-            "Sort Key": {
-                "error": "#ERROR!"
-            }
+            "Lag Type": "SS",
+            "verseSort": "11016006",
+            "modified": "2020-11-06T14:45:32.000Z",
+            "Sort Key": -928.88983994,
+            "places (from verses)": [
+                "recj04aKt1MXd5eDY",
+                "recj04aKt1MXd5eDY"
+            ],
+            "people (from verses)": [
+                "recBshoEF7PEnjaAy",
+                "recFexGOO6Xag0jw7",
+                "recD0WTn8jytakSeJ",
+                "recV1XqmNcmWio8p5",
+                "recBshoEF7PEnjaAy",
+                "recXhPherZAxvXTS4",
+                "reccZB8SVU5bEMcgo",
+                "recaraSBvlHIwaaOB",
+                "rec0rm6yYA4YUQrkh",
+                "recFexGOO6Xag0jw7",
+                "recBshoEF7PEnjaAy"
+            ]
         },
         "createdTime": "2020-10-30T19:17:05.000Z"
     },
@@ -22499,13 +22644,35 @@
             "title": "Reign of Zimri",
             "startDate": "-928",
             "duration": "7D",
+            "participants": [
+                "reclrP11qLpXRCROa"
+            ],
+            "verses": [
+                "recDKZz3udlXAaihP",
+                "recle5wpdt9snzDIB"
+            ],
+            "predecessor": [
+                "recmEKC9vgAJDYa2z"
+            ],
+            "lag": "27Y",
             "partOf": [
                 "rec3R4qyFlVjCRORt"
             ],
-            "modified": "2020-10-30T20:05:18.000Z",
-            "Sort Key": {
-                "error": "#ERROR!"
-            }
+            "Lag Type": "SS",
+            "verseSort": "11016015",
+            "modified": "2020-11-06T14:45:32.000Z",
+            "Sort Key": -927.88983985,
+            "places (from verses)": [
+                "recj04aKt1MXd5eDY",
+                "recF7d7nbuyMJEUP2"
+            ],
+            "people (from verses)": [
+                "recaraSBvlHIwaaOB",
+                "rec0rm6yYA4YUQrkh",
+                "reclrP11qLpXRCROa",
+                "reclrP11qLpXRCROa",
+                "reck40BPIsL4eOuMr"
+            ]
         },
         "createdTime": "2020-10-30T19:17:18.000Z"
     },
@@ -22515,13 +22682,32 @@
             "title": "Reign of Tibni",
             "startDate": "-928",
             "duration": "4Y",
+            "participants": [
+                "recsgJ2OsMdwhVHYj"
+            ],
+            "verses": [
+                "recB2Fa73z6iDstq4",
+                "rec0ctTosDNT9WJ6z"
+            ],
+            "predecessor": [
+                "recmEKC9vgAJDYa2z"
+            ],
+            "lag": "27Y",
             "partOf": [
                 "rec3R4qyFlVjCRORt"
             ],
-            "modified": "2020-10-30T20:06:00.000Z",
-            "Sort Key": {
-                "error": "#ERROR!"
-            }
+            "Lag Type": "SS",
+            "verseSort": "11016021",
+            "modified": "2020-11-06T14:45:32.000Z",
+            "Sort Key": -927.88983979,
+            "people (from verses)": [
+                "recsgJ2OsMdwhVHYj",
+                "rec8CpdJgloDWtEqM",
+                "reck40BPIsL4eOuMr",
+                "reck40BPIsL4eOuMr",
+                "recsgJ2OsMdwhVHYj",
+                "rec8CpdJgloDWtEqM"
+            ]
         },
         "createdTime": "2020-10-30T20:05:37.000Z"
     },
@@ -22531,13 +22717,51 @@
             "title": "Reign of Omri",
             "startDate": "-928",
             "duration": "12Y",
+            "participants": [
+                "reck40BPIsL4eOuMr"
+            ],
+            "verses": [
+                "recmXb3Mmqa0qVOMF",
+                "recDmYsxYf5dzyhwg",
+                "recpnZhRFF8M8uB8Z",
+                "rec8EdgbaJCNbHw20",
+                "recVM8OdbfZb20kN1",
+                "rec0ctTosDNT9WJ6z",
+                "recpjAyfk4fjNv3bP"
+            ],
+            "predecessor": [
+                "recmEKC9vgAJDYa2z"
+            ],
+            "lag": "31Y",
             "partOf": [
                 "rec3R4qyFlVjCRORt"
             ],
-            "modified": "2020-10-30T20:05:34.000Z",
-            "Sort Key": {
-                "error": "#ERROR!"
-            }
+            "Lag Type": "SS",
+            "verseSort": "11016023",
+            "modified": "2020-11-06T14:45:32.000Z",
+            "Sort Key": -927.88983977,
+            "places (from verses)": [
+                "recj04aKt1MXd5eDY",
+                "recEP3QZ3HUmIkv4Q",
+                "recEP3QZ3HUmIkv4Q"
+            ],
+            "people (from verses)": [
+                "recaraSBvlHIwaaOB",
+                "rec0rm6yYA4YUQrkh",
+                "reck40BPIsL4eOuMr",
+                "recC7Kwqh2aPDVXtQ",
+                "reck40BPIsL4eOuMr",
+                "reccZB8SVU5bEMcgo",
+                "recXhPherZAxvXTS4",
+                "recPF80I9rSEP1EHd",
+                "reccZB8SVU5bEMcgo",
+                "reck40BPIsL4eOuMr",
+                "reck40BPIsL4eOuMr",
+                "recsgJ2OsMdwhVHYj",
+                "rec8CpdJgloDWtEqM",
+                "reck40BPIsL4eOuMr",
+                "rec91wntVnuliHv7E"
+            ]
         },
         "createdTime": "2020-10-30T19:17:29.000Z"
     },
@@ -22547,13 +22771,40 @@
             "title": "Reign of Ahab",
             "startDate": "-917",
             "duration": "22Y",
+            "participants": [
+                "rec91wntVnuliHv7E"
+            ],
+            "verses": [
+                "recpjAyfk4fjNv3bP",
+                "recGqjSztmGLySyfs",
+                "reclm4qVQYEXCH8g2"
+            ],
+            "predecessor": [
+                "recmEKC9vgAJDYa2z"
+            ],
+            "lag": "38Y",
             "partOf": [
                 "rec3R4qyFlVjCRORt"
             ],
-            "modified": "2020-10-30T20:06:46.000Z",
-            "Sort Key": {
-                "error": "#ERROR!"
-            }
+            "Lag Type": "SS",
+            "verseSort": "11016028",
+            "modified": "2020-11-06T14:45:32.000Z",
+            "Sort Key": -916.88983972,
+            "places (from verses)": [
+                "recEP3QZ3HUmIkv4Q",
+                "recEP3QZ3HUmIkv4Q"
+            ],
+            "people (from verses)": [
+                "reck40BPIsL4eOuMr",
+                "rec91wntVnuliHv7E",
+                "recaraSBvlHIwaaOB",
+                "rec0rm6yYA4YUQrkh",
+                "rec91wntVnuliHv7E",
+                "reck40BPIsL4eOuMr",
+                "rec91wntVnuliHv7E",
+                "reck40BPIsL4eOuMr",
+                "reccZB8SVU5bEMcgo"
+            ]
         },
         "createdTime": "2020-10-30T19:17:50.000Z"
     },
@@ -22563,32 +22814,91 @@
             "title": "Reign of Ahaziah",
             "startDate": "-897",
             "duration": "2Y",
+            "participants": [
+                "rechGwqMPGYsNy5xT"
+            ],
+            "verses": [
+                "recZ64dsjerVzjM2u",
+                "rec01baP2CB6cg7b3",
+                "rec4Y0SV8P7LXNgMp"
+            ],
+            "predecessor": [
+                "recHolFWoWqNqtmup"
+            ],
+            "lag": "17Y",
             "partOf": [
                 "rec3R4qyFlVjCRORt"
             ],
-            "modified": "2020-10-30T20:06:46.000Z",
-            "Sort Key": {
-                "error": "#ERROR!"
-            }
+            "Lag Type": "SS",
+            "verseSort": "11022051",
+            "modified": "2020-11-06T14:45:32.000Z",
+            "Sort Key": -896.88977949,
+            "places (from verses)": [
+                "recEP3QZ3HUmIkv4Q"
+            ],
+            "people (from verses)": [
+                "rechGwqMPGYsNy5xT",
+                "rec91wntVnuliHv7E",
+                "recyNusCmwtrDBSab",
+                "rec0rm6yYA4YUQrkh",
+                "recXhPherZAxvXTS4",
+                "recPF80I9rSEP1EHd",
+                "reccZB8SVU5bEMcgo",
+                "recE9nWKk1vLR7zi1",
+                "reccZB8SVU5bEMcgo"
+            ]
         },
         "createdTime": "2020-10-30T19:18:02.000Z"
     },
     {
         "id": "receNV351SLbofU0a",
         "fields": {
-            "title": "Reign of Jehoram",
+            "title": "Reign of Joram",
             "startDate": "-896",
             "duration": "12Y",
             "participants": [
-                "recsyU2HqpyE9PeTo"
+                "rec6bglEYL173T2KE"
             ],
+            "verses": [
+                "rechojCqifQwluNv5",
+                "recdDy9gWSRZe3duu",
+                "recHs6PcRU4bU1Qhy",
+                "recWrz3p8Be8mK1co",
+                "recgr4lzwfAUEzXVr",
+                "recY8zFIRnr5BfFu4"
+            ],
+            "predecessor": [
+                "recHolFWoWqNqtmup"
+            ],
+            "lag": "18Y",
             "partOf": [
                 "rec3R4qyFlVjCRORt"
             ],
-            "modified": "2020-10-30T20:06:56.000Z",
-            "Sort Key": {
-                "error": "#ERROR!"
-            }
+            "Lag Type": "SS",
+            "verseSort": "12003001",
+            "modified": "2020-11-06T14:45:32.000Z",
+            "Sort Key": -895.87996999,
+            "places (from verses)": [
+                "recEP3QZ3HUmIkv4Q",
+                "recUn6eVJDoG4xI0j",
+                "recUn6eVJDoG4xI0j",
+                "recEP3QZ3HUmIkv4Q"
+            ],
+            "people (from verses)": [
+                "rec6bglEYL173T2KE",
+                "rec91wntVnuliHv7E",
+                "recyNusCmwtrDBSab",
+                "rec0rm6yYA4YUQrkh",
+                "recE9nWKk1vLR7zi1",
+                "reccZB8SVU5bEMcgo",
+                "recXhPherZAxvXTS4",
+                "recPF80I9rSEP1EHd",
+                "recW8ms6gzhQqixYT",
+                "rec3qiPi8JN2h86Mj",
+                "rec91wntVnuliHv7E",
+                "rec3qiPi8JN2h86Mj",
+                "rec6bglEYL173T2KE"
+            ]
         },
         "createdTime": "2020-10-30T19:18:13.000Z"
     },
@@ -22598,13 +22908,257 @@
             "title": "Reign of Jehu",
             "startDate": "-885",
             "duration": "28Y",
+            "participants": [
+                "receyzziW4sDhoPTk"
+            ],
+            "verses": [
+                "recrf3WrFdUOPC7Fd",
+                "recGBohJkVO04oeNc",
+                "recfo66ZLo3BlhMqB",
+                "reckHASelE8AA7Gsb",
+                "rec1KUrUO8h1Wj56T",
+                "recdPSucG1sTzlHx7",
+                "recL5cz8SmLvQQHWf",
+                "recGhjPx5aON4pjly",
+                "recvQJlRByxS8NyVa",
+                "recQaz03NvE8WAEvE",
+                "recQ51y4t7UM0KVOD",
+                "recxQ00DDdNJkYyfX",
+                "reccZ0VOSgKfJMpV0",
+                "recPAAcgL0utheDxz",
+                "recrQ06udhs1BIbHU",
+                "recXmpI6DJKcmViYP",
+                "recycX7FqZZkhBvb4",
+                "rec3Lugwb2vQVrKcc",
+                "rec0ZpMP6kLbjF1e7",
+                "recNmkZKO7JRRabIV",
+                "reclPXkIXwTaHiNeP",
+                "recCfP2J5wvNLpCXT",
+                "recYaFjolu4RYpVty",
+                "recigcko9fvhqQ86t",
+                "recbCzmXIS3KlgjY2",
+                "recEgdRYjAt3k6h8G",
+                "recOruePbqjuWjJJA",
+                "recVZjVJJsBwFS7aC",
+                "recGSV15l0UjOd3zn",
+                "recDMozho74YcVV6z",
+                "recydeSJxkuU0AfZt",
+                "rec8oZgFVUmdMxug8",
+                "recJctrsVv0ldI7qI",
+                "reczyLT5OhyU50Wzm",
+                "recDZ520udsScgD5k",
+                "recBGRfq72gk5cg37",
+                "recaFVPAEw83g70aK",
+                "rec12KVr3Z7xeltSg",
+                "reckB6iHUXDsalwhA",
+                "recumNinNyvxK3waI",
+                "recmSNmVjGJogmYTw",
+                "rec3DwTcn5UX5X0dQ",
+                "recPTmWTQRobUf07c",
+                "recGFaUYUvvB7h6Vp",
+                "recJLXq3VwWQ7Nhpt",
+                "recqEF0JkRF1SvSTk",
+                "recC7BFHM47J08yOY",
+                "recXnPYWnnl1tJv6p",
+                "recGM3FIhZcddF4Cy",
+                "recB4xz2wl6ZdVYGD",
+                "recDnsiM8sOgSqW9W",
+                "recTal6UgGcxU491u",
+                "recxUfKKyn2EcEpCF",
+                "recUyJD5kaaONvP3r",
+                "recPW3Tso0eblTIaR",
+                "recnD0ZfqNR9PtoTR",
+                "recFcbSDWPsN9Zggv",
+                "rec2Xh4FiwcPUktQK",
+                "recmMc5Z8kXfZNoj3",
+                "rec3fBx3lHiC6Ebb0",
+                "recDaC1ZXOHPhRp3q",
+                "recKsUDCvVGJSU3Vc",
+                "recdLNVMpQMj2Zn2I",
+                "recve4Y4igBhk9U8w",
+                "rec1aavRwM1r3Cqll",
+                "recz1qKoeiZpI76C6",
+                "recTSoqHQx1ryHBey",
+                "rec3C2HfHxbDD8thE",
+                "recCgq4P5FG1yeRJg",
+                "recaXz2TN8xCmY3ta",
+                "rechyNjdtzElPjt8y",
+                "rec81G9tr9mowvet3"
+            ],
+            "predecessor": [
+                "recwy2j4O3x7NcWz5"
+            ],
+            "lag": "7Y",
             "partOf": [
                 "rec3R4qyFlVjCRORt"
             ],
-            "modified": "2020-10-30T20:06:56.000Z",
-            "Sort Key": {
-                "error": "#ERROR!"
-            }
+            "Lag Type": "SS",
+            "verseSort": "12009002",
+            "modified": "2020-11-06T14:45:32.000Z",
+            "Sort Key": -884.87990998,
+            "places (from verses)": [
+                "recp2WSSUeSBeg6rV",
+                "reczRCunsz83wZ1Q1",
+                "recp2WSSUeSBeg6rV",
+                "recEoYRAyVeAancS0",
+                "recEoYRAyVeAancS0",
+                "reczRCunsz83wZ1Q1",
+                "reczRCunsz83wZ1Q1",
+                "reczRCunsz83wZ1Q1",
+                "rechSy0aCb5vNVH3f",
+                "recibyUU35wwn74aM",
+                "recGbYgNGdyfnyZg0",
+                "rec91Z7a1D7vQHOgk",
+                "recL1WV82pXaRBQ59",
+                "reczRCunsz83wZ1Q1",
+                "reczRCunsz83wZ1Q1",
+                "reczRCunsz83wZ1Q1",
+                "recEP3QZ3HUmIkv4Q",
+                "reczRCunsz83wZ1Q1",
+                "reczRCunsz83wZ1Q1",
+                "reczRCunsz83wZ1Q1",
+                "recEP3QZ3HUmIkv4Q",
+                "reckYA26NlPh6Xe9R",
+                "reckYA26NlPh6Xe9R",
+                "recEP3QZ3HUmIkv4Q",
+                "recwFUncFiNWPsPWN",
+                "recJK76HLZSOzxTWW",
+                "recgdvRbWEPMp5I0z",
+                "recV2VLKz20IKBZ1N",
+                "recbv8OwCVWm7wEAK",
+                "rec5dSSsOutWlH2fW",
+                "recPoImnA7S93jcHx",
+                "recEP3QZ3HUmIkv4Q",
+                "recEP3QZ3HUmIkv4Q"
+            ],
+            "people (from verses)": [
+                "receyzziW4sDhoPTk",
+                "rec0OUmt7KruXeZPE",
+                "rec8zm7uv7YK8gY8D",
+                "reccZB8SVU5bEMcgo",
+                "receyzziW4sDhoPTk",
+                "reccZB8SVU5bEMcgo",
+                "rec91wntVnuliHv7E",
+                "recJRZ55dvZRRb0mg",
+                "reccZB8SVU5bEMcgo",
+                "rec91wntVnuliHv7E",
+                "rec91wntVnuliHv7E",
+                "recXhPherZAxvXTS4",
+                "recPF80I9rSEP1EHd",
+                "recBshoEF7PEnjaAy",
+                "recnZlhSisoHWjDCn",
+                "recJRZ55dvZRRb0mg",
+                "receyzziW4sDhoPTk",
+                "reccZB8SVU5bEMcgo",
+                "receyzziW4sDhoPTk",
+                "receyzziW4sDhoPTk",
+                "rec0OUmt7KruXeZPE",
+                "rec8zm7uv7YK8gY8D",
+                "rec6bglEYL173T2KE",
+                "recdZn27T4U42O0LH",
+                "rec6bglEYL173T2KE",
+                "recdZn27T4U42O0LH",
+                "receyzziW4sDhoPTk",
+                "receyzziW4sDhoPTk",
+                "rec6bglEYL173T2KE",
+                "rec83PZfB7PGjHMh0",
+                "rec0rm6yYA4YUQrkh",
+                "receyzziW4sDhoPTk",
+                "rec6bglEYL173T2KE",
+                "receyzziW4sDhoPTk",
+                "receyzziW4sDhoPTk",
+                "receyzziW4sDhoPTk",
+                "rec8zm7uv7YK8gY8D",
+                "rec6bglEYL173T2KE",
+                "rec83PZfB7PGjHMh0",
+                "rec0rm6yYA4YUQrkh",
+                "receyzziW4sDhoPTk",
+                "recZzpkHckkrMHT0h",
+                "rec6bglEYL173T2KE",
+                "receyzziW4sDhoPTk",
+                "recJRZ55dvZRRb0mg",
+                "rec6bglEYL173T2KE",
+                "rec83PZfB7PGjHMh0",
+                "receyzziW4sDhoPTk",
+                "rec6bglEYL173T2KE",
+                "receyzziW4sDhoPTk",
+                "recZzpkHckkrMHT0h",
+                "rec91wntVnuliHv7E",
+                "reccZB8SVU5bEMcgo",
+                "recZzpkHckkrMHT0h",
+                "reccZB8SVU5bEMcgo",
+                "rec83PZfB7PGjHMh0",
+                "rec0rm6yYA4YUQrkh",
+                "receyzziW4sDhoPTk",
+                "rec1ZMFtfbEvoGC73",
+                "rec6bglEYL173T2KE",
+                "rec91wntVnuliHv7E",
+                "rec83PZfB7PGjHMh0",
+                "rec0rm6yYA4YUQrkh",
+                "receyzziW4sDhoPTk",
+                "recJRZ55dvZRRb0mg",
+                "receyzziW4sDhoPTk",
+                "reclrP11qLpXRCROa",
+                "recbHLkz06CSe3C4K",
+                "recJRZ55dvZRRb0mg",
+                "reccZB8SVU5bEMcgo",
+                "recJRZ55dvZRRb0mg",
+                "rec91wntVnuliHv7E",
+                "receyzziW4sDhoPTk",
+                "receyzziW4sDhoPTk",
+                "rec91wntVnuliHv7E",
+                "recbHLkz06CSe3C4K",
+                "reccZB8SVU5bEMcgo",
+                "receyzziW4sDhoPTk",
+                "rec91wntVnuliHv7E",
+                "receyzziW4sDhoPTk",
+                "rec83PZfB7PGjHMh0",
+                "rec0rm6yYA4YUQrkh",
+                "recTIBe3HYxgnmy9D",
+                "recI3I2hTyt8KI5kr",
+                "reccZB8SVU5bEMcgo",
+                "rec91wntVnuliHv7E",
+                "recbHLkz06CSe3C4K",
+                "reccZB8SVU5bEMcgo",
+                "receyzziW4sDhoPTk",
+                "rec91wntVnuliHv7E",
+                "recE9nWKk1vLR7zi1",
+                "recE9nWKk1vLR7zi1",
+                "receyzziW4sDhoPTk",
+                "receyzziW4sDhoPTk",
+                "recE9nWKk1vLR7zi1",
+                "receyzziW4sDhoPTk",
+                "recE9nWKk1vLR7zi1",
+                "recE9nWKk1vLR7zi1",
+                "receyzziW4sDhoPTk",
+                "recTIBe3HYxgnmy9D",
+                "recI3I2hTyt8KI5kr",
+                "recE9nWKk1vLR7zi1",
+                "reccZB8SVU5bEMcgo",
+                "receyzziW4sDhoPTk",
+                "receyzziW4sDhoPTk",
+                "recE9nWKk1vLR7zi1",
+                "recE9nWKk1vLR7zi1",
+                "recE9nWKk1vLR7zi1",
+                "receyzziW4sDhoPTk",
+                "recE9nWKk1vLR7zi1",
+                "recXhPherZAxvXTS4",
+                "recPF80I9rSEP1EHd",
+                "receyzziW4sDhoPTk",
+                "recwqzXQjpmdyyW9y",
+                "receyzziW4sDhoPTk",
+                "rec91wntVnuliHv7E",
+                "reccZB8SVU5bEMcgo",
+                "receyzziW4sDhoPTk",
+                "recXhPherZAxvXTS4",
+                "reccZB8SVU5bEMcgo",
+                "recdZn27T4U42O0LH",
+                "reccZB8SVU5bEMcgo",
+                "receyzziW4sDhoPTk",
+                "receyzziW4sDhoPTk",
+                "recwbEMJCh71vCprI",
+                "receyzziW4sDhoPTk"
+            ]
         },
         "createdTime": "2020-10-30T19:19:15.000Z"
     },
@@ -22614,13 +23168,61 @@
             "title": "Reign of Jehoahaz",
             "startDate": "-856",
             "duration": "17Y",
+            "participants": [
+                "recwbEMJCh71vCprI"
+            ],
+            "verses": [
+                "recgSeqNP1gDtN505",
+                "reczX5ud992f4wWph",
+                "recVeJJSYieT4Ystj",
+                "recjW8Ev42zOQ96PV",
+                "recPfGWEQd253TTBY",
+                "recbHdGGusSSxDvBl",
+                "recC5mMHVs9ASIocy",
+                "reclx0NGzeXsJPvbg",
+                "recZktRpSkGyX0DqZ"
+            ],
+            "predecessor": [
+                "recwy2j4O3x7NcWz5"
+            ],
+            "lag": "23Y",
             "partOf": [
                 "rec3R4qyFlVjCRORt"
             ],
-            "modified": "2020-10-30T20:07:11.000Z",
-            "Sort Key": {
-                "error": "#ERROR!"
-            }
+            "Lag Type": "SS",
+            "verseSort": "12013001",
+            "modified": "2020-11-06T16:28:34.000Z",
+            "Sort Key": -855.87986999,
+            "places (from verses)": [
+                "recEP3QZ3HUmIkv4Q",
+                "recEoYRAyVeAancS0",
+                "recEoYRAyVeAancS0",
+                "recEP3QZ3HUmIkv4Q",
+                "recEoYRAyVeAancS0",
+                "recEP3QZ3HUmIkv4Q"
+            ],
+            "people (from verses)": [
+                "recA6SoUZemkcNXbN",
+                "rec83PZfB7PGjHMh0",
+                "rec0rm6yYA4YUQrkh",
+                "recwbEMJCh71vCprI",
+                "receyzziW4sDhoPTk",
+                "recXhPherZAxvXTS4",
+                "recPF80I9rSEP1EHd",
+                "reccZB8SVU5bEMcgo",
+                "recdZn27T4U42O0LH",
+                "rec5IGTYdWQnHNbrX",
+                "reccZB8SVU5bEMcgo",
+                "recwbEMJCh71vCprI",
+                "reccZB8SVU5bEMcgo",
+                "recsU2ZSdzBvDqzgI",
+                "reccZB8SVU5bEMcgo",
+                "recXhPherZAxvXTS4",
+                "recwbEMJCh71vCprI",
+                "recwbEMJCh71vCprI",
+                "recwbEMJCh71vCprI",
+                "recXmKvS4YnlgRaln"
+            ]
         },
         "createdTime": "2020-10-30T19:19:39.000Z"
     },
@@ -22630,13 +23232,35 @@
             "title": "Reign of Jehoash",
             "startDate": "-839",
             "duration": "16Y",
+            "participants": [
+                "recXmKvS4YnlgRaln"
+            ],
+            "verses": [
+                "recTYEU7mN0hu4VqL",
+                "recNoCkHWezsTwzjo"
+            ],
+            "predecessor": [
+                "recwy2j4O3x7NcWz5"
+            ],
+            "lag": "37Y",
             "partOf": [
                 "rec3R4qyFlVjCRORt"
             ],
-            "modified": "2020-10-30T20:07:11.000Z",
-            "Sort Key": {
-                "error": "#ERROR!"
-            }
+            "Lag Type": "SS",
+            "verseSort": "12013010",
+            "modified": "2020-11-06T14:45:32.000Z",
+            "Sort Key": -838.8798699,
+            "places (from verses)": [
+                "recEP3QZ3HUmIkv4Q"
+            ],
+            "people (from verses)": [
+                "recXmKvS4YnlgRaln",
+                "rec0rm6yYA4YUQrkh",
+                "recwbEMJCh71vCprI",
+                "recXhPherZAxvXTS4",
+                "recPF80I9rSEP1EHd",
+                "reccZB8SVU5bEMcgo"
+            ]
         },
         "createdTime": "2020-10-30T19:19:53.000Z"
     },
@@ -22649,13 +23273,54 @@
             "participants": [
                 "recxkR6HLJD0xWE6R"
             ],
+            "verses": [
+                "rec090cKewy9naU2g",
+                "recNdhtvfIr3tg9GD",
+                "recVbagpPtNXHXaHG",
+                "recLpJWkT019BTc5r",
+                "rec0hGKiWeOjk71mB",
+                "rec72fpRD2fYUDDB2",
+                "recdRlAbb5xjj64Uo"
+            ],
+            "predecessor": [
+                "rec75MawjODD5ju3b"
+            ],
+            "lag": "15Y",
             "partOf": [
                 "rec3R4qyFlVjCRORt"
             ],
-            "modified": "2020-10-30T20:07:24.000Z",
-            "Sort Key": {
-                "error": "#ERROR!"
-            }
+            "Lag Type": "SS",
+            "verseSort": "12014023",
+            "modified": "2020-11-06T14:45:32.000Z",
+            "Sort Key": -823.87985977,
+            "places (from verses)": [
+                "recEP3QZ3HUmIkv4Q",
+                "recXs9hirzM1zgQ18",
+                "recTOELkXIVkgI0vr",
+                "rec8bEdIqk6qrW3mt",
+                "recR67sC02MfTx4al",
+                "recA34XfYsCxhyu31"
+            ],
+            "people (from verses)": [
+                "receruzYNFLuIW0Kn",
+                "recXmKvS4YnlgRaln",
+                "rec0rm6yYA4YUQrkh",
+                "recxkR6HLJD0xWE6R",
+                "recXhPherZAxvXTS4",
+                "recPF80I9rSEP1EHd",
+                "reccZB8SVU5bEMcgo",
+                "recDDzG65U8UNAY4h",
+                "reclXd5FJqDvtDgg6",
+                "reccZB8SVU5bEMcgo",
+                "reccZB8SVU5bEMcgo",
+                "recxkR6HLJD0xWE6R",
+                "recXmKvS4YnlgRaln",
+                "reccZB8SVU5bEMcgo",
+                "recxkR6HLJD0xWE6R",
+                "rec0rm6yYA4YUQrkh",
+                "recxkR6HLJD0xWE6R",
+                "recsXoXlK7uu49Xun"
+            ]
         },
         "createdTime": "2020-10-30T19:20:13.000Z"
     },
@@ -22665,13 +23330,34 @@
             "title": "Reign of Zachariah",
             "startDate": "-783",
             "duration": "11Y",
+            "participants": [
+                "recsXoXlK7uu49Xun"
+            ],
+            "verses": [
+                "recqYG33vkvSdmFuJ",
+                "recwlLyo0PpjCo8dX"
+            ],
+            "predecessor": [
+                "recGe7VTJOGbn63NQ"
+            ],
             "partOf": [
                 "rec3R4qyFlVjCRORt"
             ],
-            "modified": "2020-10-30T20:07:35.000Z",
-            "Sort Key": {
-                "error": "#ERROR!"
-            }
+            "verseSort": "12015008",
+            "modified": "2020-11-06T14:46:54.000Z",
+            "Sort Key": -782.87984992,
+            "places (from verses)": [
+                "recEP3QZ3HUmIkv4Q"
+            ],
+            "people (from verses)": [
+                "recZOriotFt9GIf6b",
+                "rec0rm6yYA4YUQrkh",
+                "recsXoXlK7uu49Xun",
+                "recxkR6HLJD0xWE6R",
+                "recXhPherZAxvXTS4",
+                "recPF80I9rSEP1EHd",
+                "reccZB8SVU5bEMcgo"
+            ]
         },
         "createdTime": "2020-10-30T19:21:12.000Z"
     },
@@ -22681,13 +23367,27 @@
             "title": "Reign of Shallum",
             "startDate": "-771",
             "duration": "1M",
+            "participants": [
+                "receWggHu1UphF6y2"
+            ],
+            "verses": [
+                "recWZ0Sr6xaGgGlv4"
+            ],
+            "predecessor": [
+                "recOJfWD0IUcT4yJD"
+            ],
+            "lag": "39Y",
             "partOf": [
                 "rec3R4qyFlVjCRORt"
             ],
-            "modified": "2020-10-30T20:07:44.000Z",
-            "Sort Key": {
-                "error": "#ERROR!"
-            }
+            "Lag Type": "SS",
+            "verseSort": "12015010",
+            "modified": "2020-11-06T14:45:32.000Z",
+            "Sort Key": -770.8798499,
+            "people (from verses)": [
+                "receWggHu1UphF6y2",
+                "recsFLDc9CYQx9BAS"
+            ]
         },
         "createdTime": "2020-10-30T19:21:35.000Z"
     },
@@ -22697,13 +23397,48 @@
             "title": "Reign of Menahem",
             "startDate": "-770",
             "duration": "10Y",
+            "participants": [
+                "recxj2mVzk0u300vz"
+            ],
+            "verses": [
+                "rec7lvlVQwGf1lNLB",
+                "recQtFr4pYg2LBNIM",
+                "recessxxG24WcnQ2g",
+                "rec0xAuqnGekXKzLM",
+                "recejDoMK1OAXhlXJ",
+                "recblZJFMXiH5jlQF"
+            ],
+            "predecessor": [
+                "recOJfWD0IUcT4yJD"
+            ],
+            "lag": "39Y",
             "partOf": [
                 "rec3R4qyFlVjCRORt"
             ],
-            "modified": "2020-10-30T20:07:55.000Z",
-            "Sort Key": {
-                "error": "#ERROR!"
-            }
+            "Lag Type": "SS",
+            "verseSort": "12015017",
+            "modified": "2020-11-06T14:45:32.000Z",
+            "Sort Key": -769.87984983,
+            "places (from verses)": [
+                "recEP3QZ3HUmIkv4Q",
+                "recIJFRcqI6KbKgXb",
+                "recIJFRcqI6KbKgXb"
+            ],
+            "people (from verses)": [
+                "recZOriotFt9GIf6b",
+                "rec0rm6yYA4YUQrkh",
+                "recxj2mVzk0u300vz",
+                "recRlbryh291rKT7F",
+                "recXhPherZAxvXTS4",
+                "recPF80I9rSEP1EHd",
+                "reccZB8SVU5bEMcgo",
+                "reck8CctXspLk0VZZ",
+                "recxj2mVzk0u300vz",
+                "recxj2mVzk0u300vz",
+                "recxj2mVzk0u300vz",
+                "recxj2mVzk0u300vz",
+                "recwpznUsSBoYfPnh"
+            ]
         },
         "createdTime": "2020-10-30T19:21:47.000Z"
     },
@@ -22713,13 +23448,45 @@
             "title": "Reign of Pekahiah",
             "startDate": "-760",
             "duration": "2Y",
+            "participants": [
+                "recwpznUsSBoYfPnh"
+            ],
+            "verses": [
+                "recAiayCIiGZXyvtf",
+                "recj7OJMV7LNGTcqX",
+                "recTbvOYeZLrQSncd",
+                "rec9WRYsqCsPpmXUF"
+            ],
+            "predecessor": [
+                "recOJfWD0IUcT4yJD"
+            ],
+            "lag": "50Y",
             "partOf": [
                 "rec3R4qyFlVjCRORt"
             ],
-            "modified": "2020-10-30T20:08:00.000Z",
-            "Sort Key": {
-                "error": "#ERROR!"
-            }
+            "Lag Type": "SS",
+            "verseSort": "12015023",
+            "modified": "2020-11-06T14:45:32.000Z",
+            "Sort Key": -759.87984977,
+            "places (from verses)": [
+                "recEP3QZ3HUmIkv4Q",
+                "recEP3QZ3HUmIkv4Q",
+                "recPoImnA7S93jcHx"
+            ],
+            "people (from verses)": [
+                "recZOriotFt9GIf6b",
+                "rec0rm6yYA4YUQrkh",
+                "recwpznUsSBoYfPnh",
+                "recxj2mVzk0u300vz",
+                "recXhPherZAxvXTS4",
+                "recPF80I9rSEP1EHd",
+                "reccZB8SVU5bEMcgo",
+                "recZtcxs57c7NXXlg",
+                "reckVW6qsLQZJbasF",
+                "recTP9XwpeA1w2Mfg",
+                "rec2AlzP9yXIETqrr",
+                "recwpznUsSBoYfPnh"
+            ]
         },
         "createdTime": "2020-10-30T19:21:59.000Z"
     },
@@ -22729,13 +23496,56 @@
             "title": "Reign of Pekah",
             "startDate": "-758",
             "duration": "20Y",
+            "participants": [
+                "recZtcxs57c7NXXlg"
+            ],
+            "verses": [
+                "recGzGdmu3Y5srDp5",
+                "rec5XLTS50MbXDMiT",
+                "recMVinINqReqZ4zb",
+                "recEJgNmUyjTVu9rP",
+                "reckQXmxSD3DGxYtQ"
+            ],
+            "predecessor": [
+                "recOJfWD0IUcT4yJD"
+            ],
+            "lag": "52Y",
             "partOf": [
                 "rec3R4qyFlVjCRORt"
             ],
-            "modified": "2020-10-30T20:08:17.000Z",
-            "Sort Key": {
-                "error": "#ERROR!"
-            }
+            "Lag Type": "SS",
+            "verseSort": "12015027",
+            "modified": "2020-11-06T14:45:32.000Z",
+            "Sort Key": -757.87984973,
+            "places (from verses)": [
+                "recEP3QZ3HUmIkv4Q",
+                "recPoImnA7S93jcHx",
+                "rec6NMdB9Jz6HdV8M",
+                "recIJFRcqI6KbKgXb",
+                "recmL1lWBqWP3mAq3",
+                "rec6G3mRvN9MpCyjT",
+                "recWhosCfy5IVd2fU",
+                "recCFbPoMSDmIyxXM",
+                "recyET7N6CKcQ1wsP"
+            ],
+            "people (from verses)": [
+                "recZOriotFt9GIf6b",
+                "rec0rm6yYA4YUQrkh",
+                "recZtcxs57c7NXXlg",
+                "reckVW6qsLQZJbasF",
+                "recXhPherZAxvXTS4",
+                "recPF80I9rSEP1EHd",
+                "reccZB8SVU5bEMcgo",
+                "recZtcxs57c7NXXlg",
+                "recmAUAIwW85ajksn",
+                "recjOvYXbQXPhGpBN",
+                "recCZEm6IYAFKlq7r",
+                "recZtcxs57c7NXXlg",
+                "reckVW6qsLQZJbasF",
+                "recRMsfahAI4RmTZe",
+                "recZOriotFt9GIf6b",
+                "recZtcxs57c7NXXlg"
+            ]
         },
         "createdTime": "2020-10-30T19:22:24.000Z"
     },
@@ -22745,13 +23555,43 @@
             "title": "Reign of Hoshea",
             "startDate": "-729",
             "duration": "9Y",
+            "participants": [
+                "recjOvYXbQXPhGpBN"
+            ],
+            "verses": [
+                "recLKTxPfDyjUnHsp",
+                "reciXJCCmK7xEzdkT",
+                "recrlhv6oKVkUQrwF",
+                "reclVXVjNp5mIE6pZ"
+            ],
+            "predecessor": [
+                "recglW6zUkkgDVPt9"
+            ],
+            "lag": "12Y",
             "partOf": [
                 "rec3R4qyFlVjCRORt"
             ],
-            "modified": "2020-10-30T20:08:17.000Z",
-            "Sort Key": {
-                "error": "#ERROR!"
-            }
+            "Lag Type": "SS",
+            "verseSort": "12017001",
+            "modified": "2020-11-06T15:32:55.000Z",
+            "Sort Key": -728.87982999,
+            "places (from verses)": [
+                "recEP3QZ3HUmIkv4Q",
+                "recIJFRcqI6KbKgXb",
+                "recIJFRcqI6KbKgXb",
+                "recfrXyxhuYOczKTm"
+            ],
+            "people (from verses)": [
+                "recQoq4AXnZxZhOFh",
+                "rec0rm6yYA4YUQrkh",
+                "recjOvYXbQXPhGpBN",
+                "recCZEm6IYAFKlq7r",
+                "reccZB8SVU5bEMcgo",
+                "rechyp4HYKyxnaCF1",
+                "recjOvYXbQXPhGpBN",
+                "recjOvYXbQXPhGpBN",
+                "recnqwmQlchdVX96L"
+            ]
         },
         "createdTime": "2020-10-30T19:22:45.000Z"
     },
@@ -22761,13 +23601,55 @@
             "title": "Reign of Rehoboam",
             "startDate": "-974",
             "duration": "17Y",
+            "participants": [
+                "recqQthL4TAHb0KeC"
+            ],
+            "verses": [
+                "recX6YgGSSfqihikQ",
+                "rec3TRF2gpHMBYorT",
+                "recDDaxoH628Hiwbn",
+                "recz2NF0LAqAyHFX8",
+                "recpEdq77zWooJEX0",
+                "recvpUQqVrch0No5y",
+                "reciteywlSg0rPyMc",
+                "recqdicJC30qOIVxk"
+            ],
+            "predecessor": [
+                "rec3u4dUBOoBi5pUx"
+            ],
             "partOf": [
                 "rec5W0YtPdi4yrvaY"
             ],
-            "modified": "2020-10-30T20:24:35.000Z",
-            "Sort Key": {
-                "error": "#ERROR!"
-            }
+            "verseSort": "11012017",
+            "modified": "2020-11-06T14:46:56.000Z",
+            "Sort Key": -973.88987983,
+            "places (from verses)": [
+                "recL1WV82pXaRBQ59",
+                "recL1WV82pXaRBQ59"
+            ],
+            "people (from verses)": [
+                "recsU2ZSdzBvDqzgI",
+                "rec0rm6yYA4YUQrkh",
+                "recqQthL4TAHb0KeC",
+                "recqQthL4TAHb0KeC",
+                "recmQCQy94vebCsiC",
+                "rec1ZMFtfbEvoGC73",
+                "recXhPherZAxvXTS4",
+                "rec1ZMFtfbEvoGC73",
+                "rec0rm6yYA4YUQrkh",
+                "recqQthL4TAHb0KeC",
+                "rec0rm6yYA4YUQrkh",
+                "recBOUtTncbBlfEn9",
+                "rec0BAacWSGBXZ0zI",
+                "reca7COilV04EhZgr",
+                "reccZB8SVU5bEMcgo",
+                "recqQthL4TAHb0KeC",
+                "rec0BAacWSGBXZ0zI",
+                "rec0rm6yYA4YUQrkh",
+                "recBOUtTncbBlfEn9",
+                "recsU2ZSdzBvDqzgI",
+                "reccZB8SVU5bEMcgo"
+            ]
         },
         "createdTime": "2020-10-30T19:39:14.000Z"
     },
@@ -22777,13 +23659,57 @@
             "title": "Reign of Abijam",
             "startDate": "-957",
             "duration": "3Y",
+            "participants": [
+                "recEg9i0J2MgmkZr8"
+            ],
+            "verses": [
+                "recLGQkG90baAsiXe",
+                "recTABm7YQ7XCsGCZ",
+                "recIEcpnlbLGjnPE3",
+                "recVDSkNDzkZC5Ttr",
+                "rec3iyMLVRFH8pm5V",
+                "rec2cAdTSJ6tKYZ3J",
+                "recb4lZVKjmFQ8FoW",
+                "reclFC6Casjm2Tz0F"
+            ],
+            "predecessor": [
+                "rec824qPcsyF7GtTh"
+            ],
+            "lag": "18Y",
             "partOf": [
                 "rec5W0YtPdi4yrvaY"
             ],
-            "modified": "2020-10-30T20:24:35.000Z",
-            "Sort Key": {
-                "error": "#ERROR!"
-            }
+            "Lag Type": "SS",
+            "verseSort": "11015001",
+            "modified": "2020-11-06T14:45:32.000Z",
+            "Sort Key": -956.88984999,
+            "places (from verses)": [
+                "recL1WV82pXaRBQ59",
+                "recL1WV82pXaRBQ59"
+            ],
+            "people (from verses)": [
+                "recXhPherZAxvXTS4",
+                "recPF80I9rSEP1EHd",
+                "recEg9i0J2MgmkZr8",
+                "rec0rm6yYA4YUQrkh",
+                "recmGUzaFR2xi2Fjr",
+                "recEdhjnlbofKC5rc",
+                "rec1ZMFtfbEvoGC73",
+                "reccZB8SVU5bEMcgo",
+                "rec1ZMFtfbEvoGC73",
+                "reccZB8SVU5bEMcgo",
+                "rec1ZMFtfbEvoGC73",
+                "recqDQWQP9P7218TS",
+                "reccZB8SVU5bEMcgo",
+                "recqQthL4TAHb0KeC",
+                "recXhPherZAxvXTS4",
+                "recEg9i0J2MgmkZr8",
+                "rec0rm6yYA4YUQrkh",
+                "recXhPherZAxvXTS4",
+                "recEg9i0J2MgmkZr8",
+                "rec1ZMFtfbEvoGC73",
+                "recaraSBvlHIwaaOB"
+            ]
         },
         "createdTime": "2020-10-30T19:40:27.000Z"
     },
@@ -22793,13 +23719,93 @@
             "title": "Reign of Asa",
             "startDate": "-954",
             "duration": "41Y",
+            "participants": [
+                "recaraSBvlHIwaaOB"
+            ],
+            "verses": [
+                "recnMKIsox19NhXhK",
+                "recPuUdlJYaOE1BZn",
+                "recgAYDm2E6gedrpz",
+                "recaX0g30A3aoppMz",
+                "rec1NGaQGoGHBtXLO",
+                "recza493w7mUKisjM",
+                "reciUNhMzgjRvrxf0",
+                "recYGeW8zBKyIxdcI",
+                "rec7LrO1Lu1ie6Rag",
+                "recfPtzYTz1djiIo5",
+                "recXh2dpDcyuOVLUH",
+                "recWCiH3AY8HNDrU4",
+                "recHyDcxjjZdHmbGO",
+                "recG2FK6N91t78cOM",
+                "recjgGZe9yQnsidWC",
+                "recrweOPB1wxNwDZR"
+            ],
+            "predecessor": [
+                "rec824qPcsyF7GtTh"
+            ],
+            "lag": "20Y",
             "partOf": [
                 "rec5W0YtPdi4yrvaY"
             ],
-            "modified": "2020-10-30T20:24:35.000Z",
-            "Sort Key": {
-                "error": "#ERROR!"
-            }
+            "Lag Type": "SS",
+            "verseSort": "11015009",
+            "modified": "2020-11-06T14:45:32.000Z",
+            "Sort Key": -953.88984991,
+            "places (from verses)": [
+                "recL1WV82pXaRBQ59",
+                "reccf5Vf48NjEXaxz",
+                "rectFOmd9oBb0DoQ1",
+                "recR67sC02MfTx4al",
+                "recEoYRAyVeAancS0",
+                "recyET7N6CKcQ1wsP",
+                "recaGCm1p3KSLswYI",
+                "recWhosCfy5IVd2fU",
+                "recwFUncFiNWPsPWN",
+                "rectFOmd9oBb0DoQ1",
+                "recj04aKt1MXd5eDY",
+                "rectFOmd9oBb0DoQ1",
+                "recE4R1DFGiDMLM5y"
+            ],
+            "people (from verses)": [
+                "recXhPherZAxvXTS4",
+                "recaraSBvlHIwaaOB",
+                "rec0rm6yYA4YUQrkh",
+                "recmGUzaFR2xi2Fjr",
+                "recEdhjnlbofKC5rc",
+                "recaraSBvlHIwaaOB",
+                "rec1ZMFtfbEvoGC73",
+                "reccZB8SVU5bEMcgo",
+                "recmGUzaFR2xi2Fjr",
+                "recaraSBvlHIwaaOB",
+                "recaraSBvlHIwaaOB",
+                "reccZB8SVU5bEMcgo",
+                "reccZB8SVU5bEMcgo",
+                "recaraSBvlHIwaaOB",
+                "recBshoEF7PEnjaAy",
+                "recBshoEF7PEnjaAy",
+                "rec0rm6yYA4YUQrkh",
+                "recaraSBvlHIwaaOB",
+                "recaraSBvlHIwaaOB",
+                "recGpetgbThAidJR4",
+                "recIbeaxs8s1Vuy7t",
+                "recnPnBVen7jE5KQp",
+                "reccZB8SVU5bEMcgo",
+                "recBshoEF7PEnjaAy",
+                "recGpetgbThAidJR4",
+                "recaraSBvlHIwaaOB",
+                "recwqzXQjpmdyyW9y",
+                "recmAUAIwW85ajksn",
+                "recBshoEF7PEnjaAy",
+                "recaraSBvlHIwaaOB",
+                "rec0rm6yYA4YUQrkh",
+                "recBshoEF7PEnjaAy",
+                "recBOUtTncbBlfEn9",
+                "recaraSBvlHIwaaOB",
+                "rec0rm6yYA4YUQrkh",
+                "recaraSBvlHIwaaOB",
+                "rec1ZMFtfbEvoGC73",
+                "recyNusCmwtrDBSab"
+            ]
         },
         "createdTime": "2020-10-30T19:40:44.000Z"
     },
@@ -22809,13 +23815,62 @@
             "title": "Reign of Jehosaphat",
             "startDate": "-913",
             "duration": "25Y",
+            "participants": [
+                "recyNusCmwtrDBSab"
+            ],
+            "verses": [
+                "rec3pgzuiiNr2P9q7",
+                "recPmeOGSdDLTLCIG",
+                "rec6Jbgku1OeOjRKG",
+                "recBWovd40B4mMAGE",
+                "recBV8p1JtIU7KYZt",
+                "recOMk3eI5aS2fl8L",
+                "recRojD1tClUsUHwf",
+                "rec5KiC8Y6LtLW8zg",
+                "recccF3HQbXEg7bTQ",
+                "recBwju2xHQoRQz36"
+            ],
+            "predecessor": [
+                "rec44ed0m1pZUujzb"
+            ],
+            "lag": "4Y",
             "partOf": [
                 "rec5W0YtPdi4yrvaY"
             ],
-            "modified": "2020-10-30T20:24:50.000Z",
-            "Sort Key": {
-                "error": "#ERROR!"
-            }
+            "Lag Type": "SS",
+            "verseSort": "11022041",
+            "modified": "2020-11-06T14:45:32.000Z",
+            "Sort Key": -912.88977959,
+            "places (from verses)": [
+                "recL1WV82pXaRBQ59",
+                "recLcxRZbz3yIQB7b",
+                "rec8hi9Ksp4awz9FJ",
+                "recPkpwSKDIF9jQ3T",
+                "recPhbU6SICXKWVJ8"
+            ],
+            "people (from verses)": [
+                "recyNusCmwtrDBSab",
+                "recaraSBvlHIwaaOB",
+                "rec0rm6yYA4YUQrkh",
+                "rec91wntVnuliHv7E",
+                "recyNusCmwtrDBSab",
+                "recKLKmdOHYlmwggw",
+                "recovdiRcToKP19Bh",
+                "recaraSBvlHIwaaOB",
+                "reccZB8SVU5bEMcgo",
+                "recyNusCmwtrDBSab",
+                "recyNusCmwtrDBSab",
+                "rec0rm6yYA4YUQrkh",
+                "recaraSBvlHIwaaOB",
+                "recUQWSZuOecG4z1Q",
+                "recyNusCmwtrDBSab",
+                "rechGwqMPGYsNy5xT",
+                "rec91wntVnuliHv7E",
+                "recyNusCmwtrDBSab",
+                "recyNusCmwtrDBSab",
+                "rec1ZMFtfbEvoGC73",
+                "recsyU2HqpyE9PeTo"
+            ]
         },
         "createdTime": "2020-10-30T19:40:58.000Z"
     },
@@ -22825,29 +23880,122 @@
             "title": "Reign of Jehoram",
             "startDate": "-892",
             "duration": "8Y",
+            "participants": [
+                "recsyU2HqpyE9PeTo"
+            ],
+            "verses": [
+                "rec7Y6ZvzW5JLWU7R",
+                "recNFF5vGpEJfcT21",
+                "recj6qwu9MrrKnUXW",
+                "recpBybHib6fa4tX4",
+                "recWvbyIOdIHalrJL",
+                "recccwg5zpYT3NjCU",
+                "recmPklyWSloP786O",
+                "rec8FgPElMNJEwWXP",
+                "recd0cuZZzYbgg0HF",
+                "rec0RJ5RN6cvvM3Dr"
+            ],
+            "predecessor": [
+                "receNV351SLbofU0a"
+            ],
+            "lag": "2Y",
             "partOf": [
                 "rec5W0YtPdi4yrvaY"
             ],
-            "modified": "2020-10-30T20:24:50.000Z",
-            "Sort Key": {
-                "error": "#ERROR!"
-            }
+            "Lag Type": "SS",
+            "verseSort": "12001017",
+            "modified": "2020-11-06T14:45:32.000Z",
+            "Sort Key": -891.87998983,
+            "places (from verses)": [
+                "recL1WV82pXaRBQ59",
+                "recLcxRZbz3yIQB7b",
+                "rec25eNzSTmosC7xU",
+                "recLcxRZbz3yIQB7b",
+                "rec5g1fzEKYzCO1Re"
+            ],
+            "people (from verses)": [
+                "recbHLkz06CSe3C4K",
+                "rec6bglEYL173T2KE",
+                "recyNusCmwtrDBSab",
+                "rec0rm6yYA4YUQrkh",
+                "reccZB8SVU5bEMcgo",
+                "rec6bglEYL173T2KE",
+                "rec91wntVnuliHv7E",
+                "recyNusCmwtrDBSab",
+                "rec0rm6yYA4YUQrkh",
+                "rec91wntVnuliHv7E",
+                "reccZB8SVU5bEMcgo",
+                "rec0rm6yYA4YUQrkh",
+                "rec1ZMFtfbEvoGC73",
+                "reccZB8SVU5bEMcgo",
+                "recUQWSZuOecG4z1Q",
+                "rec0rm6yYA4YUQrkh",
+                "recsyU2HqpyE9PeTo",
+                "recUQWSZuOecG4z1Q",
+                "rec0rm6yYA4YUQrkh",
+                "recsyU2HqpyE9PeTo",
+                "rec0rm6yYA4YUQrkh",
+                "recsyU2HqpyE9PeTo",
+                "rec1ZMFtfbEvoGC73",
+                "rec83PZfB7PGjHMh0"
+            ]
         },
         "createdTime": "2020-10-30T19:41:19.000Z"
     },
     {
         "id": "rec8neSzth86PNqvR",
         "fields": {
-            "title": "Reign of Ahaziah",
+            "title": "Reign of Ahaziah (Jehoahaz)",
             "startDate": "-885",
             "duration": "1Y",
+            "participants": [
+                "rec83PZfB7PGjHMh0"
+            ],
+            "verses": [
+                "rec4tfN06JVK49Lh1",
+                "recye7AjXHBO9FqbM",
+                "recY2AjHVY2Au4SNT",
+                "recQPQYHpxlezqiX6",
+                "recKenxV91eEXsnW7"
+            ],
+            "predecessor": [
+                "receNV351SLbofU0a"
+            ],
+            "lag": "12Y",
             "partOf": [
                 "rec5W0YtPdi4yrvaY"
             ],
-            "modified": "2020-10-30T20:25:01.000Z",
-            "Sort Key": {
-                "error": "#ERROR!"
-            }
+            "Lag Type": "SS",
+            "verseSort": "12008025",
+            "modified": "2020-11-06T14:45:32.000Z",
+            "Sort Key": -884.87991975,
+            "places (from verses)": [
+                "recL1WV82pXaRBQ59",
+                "recEoYRAyVeAancS0",
+                "recp2WSSUeSBeg6rV",
+                "recsuir3CsToQbBjn",
+                "recEoYRAyVeAancS0",
+                "reczRCunsz83wZ1Q1"
+            ],
+            "people (from verses)": [
+                "rec6bglEYL173T2KE",
+                "rec91wntVnuliHv7E",
+                "rec83PZfB7PGjHMh0",
+                "rec0rm6yYA4YUQrkh",
+                "rec83PZfB7PGjHMh0",
+                "recjyWBYEzNaB2uZC",
+                "reck40BPIsL4eOuMr",
+                "rec91wntVnuliHv7E",
+                "reccZB8SVU5bEMcgo",
+                "rec6bglEYL173T2KE",
+                "rec91wntVnuliHv7E",
+                "recdZn27T4U42O0LH",
+                "rec6bglEYL173T2KE",
+                "recdZn27T4U42O0LH",
+                "rec83PZfB7PGjHMh0",
+                "rec0rm6yYA4YUQrkh",
+                "rec91wntVnuliHv7E"
+            ]
         },
         "createdTime": "2020-10-30T19:42:01.000Z"
     },
@@ -22857,13 +24005,34 @@
             "title": "Reign of Athaliah",
             "startDate": "-885",
             "duration": "7Y",
+            "participants": [
+                "recjyWBYEzNaB2uZC"
+            ],
+            "verses": [
+                "rec91z1Gb07U1sXzl",
+                "rechfEDGoOdfZAYje",
+                "recVBtD0OfiiN4JuT"
+            ],
+            "predecessor": [
+                "rec8neSzth86PNqvR"
+            ],
             "partOf": [
                 "rec5W0YtPdi4yrvaY"
             ],
-            "modified": "2020-10-30T20:25:44.000Z",
-            "Sort Key": {
-                "error": "#ERROR!"
-            }
+            "verseSort": "12011001",
+            "modified": "2020-11-06T14:46:58.000Z",
+            "Sort Key": -884.87988999,
+            "people (from verses)": [
+                "recjyWBYEzNaB2uZC",
+                "rec83PZfB7PGjHMh0",
+                "receirdHjT36JrgKt",
+                "recsyU2HqpyE9PeTo",
+                "rec83PZfB7PGjHMh0",
+                "recA6SoUZemkcNXbN",
+                "recjyWBYEzNaB2uZC",
+                "recjyWBYEzNaB2uZC",
+                "reccZB8SVU5bEMcgo"
+            ]
         },
         "createdTime": "2020-10-30T19:42:26.000Z"
     },
@@ -22873,13 +24042,93 @@
             "title": "Reign of Joash",
             "startDate": "-878",
             "duration": "40Y",
+            "participants": [
+                "recA6SoUZemkcNXbN"
+            ],
+            "verses": [
+                "recHWGmhNc4w7XVem",
+                "rectRcPGfW7fM96if",
+                "recz38tAl6Bf8c18E",
+                "rec8ZZOXEFGxmCaxS",
+                "recd9a7WC67P9UV54",
+                "recf6s44tMYIZ8tq0",
+                "recmKrFLVTCeP0j4j",
+                "recAz9LFBxL6EWzPj",
+                "recFt6zRBvhYlL2LP",
+                "rec67aWqalKIC3bbi",
+                "recUJ8WfzOhjM1h3n",
+                "rechaQLBuHTOjPcG1",
+                "rec2soZJGQH5xT5i0",
+                "rec4TrosMagQ0FfLy",
+                "recipUx02AfEcXnJN",
+                "recTKTEdpA882cxAX",
+                "recF9NsomMFiBVOMD",
+                "rec8meBI28aTFyYMH",
+                "recHOE1EgeuWHlJIX",
+                "recx71ymvX2XMR3Q8",
+                "recRde782dp668BKM",
+                "rec5OOn05KlK9qwmG"
+            ],
+            "predecessor": [
+                "reck6rXD9hZiDk0Kz"
+            ],
+            "lag": "7Y",
             "partOf": [
                 "rec5W0YtPdi4yrvaY"
             ],
-            "modified": "2020-10-30T20:25:55.000Z",
-            "Sort Key": {
-                "error": "#ERROR!"
-            }
+            "Lag Type": "SS",
+            "verseSort": "12012001",
+            "modified": "2020-11-06T14:45:32.000Z",
+            "Sort Key": -877.87987999,
+            "places (from verses)": [
+                "recL1WV82pXaRBQ59",
+                "rectrAkGtrZH5LMp8",
+                "recEoYRAyVeAancS0",
+                "recDWNfN3f6E04V4m",
+                "recL1WV82pXaRBQ59",
+                "recL1WV82pXaRBQ59",
+                "recEoYRAyVeAancS0",
+                "rechwC9RVeZxnckLq"
+            ],
+            "people (from verses)": [
+                "receyzziW4sDhoPTk",
+                "recA6SoUZemkcNXbN",
+                "recfjweXQEdOHLzsN",
+                "recA6SoUZemkcNXbN",
+                "rec8NKLzx7ea62SiE",
+                "reccZB8SVU5bEMcgo",
+                "recA6SoUZemkcNXbN",
+                "reccZB8SVU5bEMcgo",
+                "recA6SoUZemkcNXbN",
+                "recA6SoUZemkcNXbN",
+                "rec8NKLzx7ea62SiE",
+                "rec8NKLzx7ea62SiE",
+                "reccZB8SVU5bEMcgo",
+                "reccZB8SVU5bEMcgo",
+                "reccZB8SVU5bEMcgo",
+                "reccZB8SVU5bEMcgo",
+                "reccZB8SVU5bEMcgo",
+                "reccZB8SVU5bEMcgo",
+                "reccZB8SVU5bEMcgo",
+                "recdZn27T4U42O0LH",
+                "recA6SoUZemkcNXbN",
+                "rec0rm6yYA4YUQrkh",
+                "recyNusCmwtrDBSab",
+                "recsyU2HqpyE9PeTo",
+                "rec83PZfB7PGjHMh0",
+                "recdZn27T4U42O0LH",
+                "reccZB8SVU5bEMcgo",
+                "recA6SoUZemkcNXbN",
+                "rec0rm6yYA4YUQrkh",
+                "recA6SoUZemkcNXbN",
+                "rectD6CkMVptyimaA",
+                "reci8SZXukI5B2duF",
+                "recFVfDDfa4oFUT8v",
+                "recQkKw4MM5Hxu7de",
+                "rec1ZMFtfbEvoGC73",
+                "receruzYNFLuIW0Kn",
+                "recA6SoUZemkcNXbN"
+            ]
         },
         "createdTime": "2020-10-30T19:42:42.000Z"
     },
@@ -22889,13 +24138,110 @@
             "title": "Reign of Amaziah",
             "startDate": "-838",
             "duration": "29Y",
+            "participants": [
+                "receruzYNFLuIW0Kn"
+            ],
+            "verses": [
+                "recKR7HGMJfvqCYDO",
+                "recwUfn7NL5URmYvg",
+                "recxAvB26GkEX8G6H",
+                "recYQYKvr9yrWasx6",
+                "rec6oa5Q9xf1gTRaU",
+                "recaerGxiqkGchskS",
+                "rec9YnpLnBOeFmuQo",
+                "recuqrJgj1NZ7Hm4q",
+                "recvFwtH8KI1Trx4R",
+                "recjbVzPgx8T9SLcY",
+                "recPbjOLdDtwUqeq4",
+                "recs1ZPOGgPZ6d4iF",
+                "recXPWLjsL1rVOsxp",
+                "rechVWIis3BKCzHEF",
+                "recIrNoIrQfpInlJO",
+                "recEzOJuo3q0lJo6L",
+                "recWvlRKrm2PFsWWg",
+                "rec0iNCC7ClcR7gLg",
+                "rec3RFmAgKqaObkEi",
+                "rec6EQe21m2zW41MJ",
+                "recMOhtevH19OFFRd",
+                "recqietRuSuJFeG7a"
+            ],
+            "predecessor": [
+                "recwy2j4O3x7NcWz5"
+            ],
+            "lag": "2Y",
             "partOf": [
                 "rec5W0YtPdi4yrvaY"
             ],
-            "modified": "2020-10-30T20:25:55.000Z",
-            "Sort Key": {
-                "error": "#ERROR!"
-            }
+            "Lag Type": "SS",
+            "verseSort": "12014001",
+            "modified": "2020-11-06T15:05:33.000Z",
+            "Sort Key": -837.87985999,
+            "places (from verses)": [
+                "recL1WV82pXaRBQ59",
+                "recSWu2nTiJjPfd7u",
+                "recGenkfsnfZDqW3F",
+                "recCXgnK86jc1U9IB",
+                "recLcxRZbz3yIQB7b",
+                "recocNih6Mr5ISN1d",
+                "recXJTt1RtCp5IWJG",
+                "recocNih6Mr5ISN1d",
+                "recAaf40EEWyTLYmo",
+                "recL1WV82pXaRBQ59",
+                "recEP3QZ3HUmIkv4Q",
+                "recEP3QZ3HUmIkv4Q",
+                "recH30EhVzvnkXBTl",
+                "recL1WV82pXaRBQ59",
+                "recL1WV82pXaRBQ59",
+                "recbAK2JxigPufNCM"
+            ],
+            "people (from verses)": [
+                "recXmKvS4YnlgRaln",
+                "recwbEMJCh71vCprI",
+                "receruzYNFLuIW0Kn",
+                "rec0rm6yYA4YUQrkh",
+                "reculjWbbURE9iY8o",
+                "rec1ZMFtfbEvoGC73",
+                "recA6SoUZemkcNXbN",
+                "reccZB8SVU5bEMcgo",
+                "recjNRR60PAuFtjha",
+                "reccZB8SVU5bEMcgo",
+                "recUQWSZuOecG4z1Q",
+                "receruzYNFLuIW0Kn",
+                "recXmKvS4YnlgRaln",
+                "recwbEMJCh71vCprI",
+                "receyzziW4sDhoPTk",
+                "recXmKvS4YnlgRaln",
+                "receruzYNFLuIW0Kn",
+                "rec0rm6yYA4YUQrkh",
+                "recUQWSZuOecG4z1Q",
+                "rec0rm6yYA4YUQrkh",
+                "receruzYNFLuIW0Kn",
+                "recXmKvS4YnlgRaln",
+                "rec0rm6yYA4YUQrkh",
+                "rec0rm6yYA4YUQrkh",
+                "recXmKvS4YnlgRaln",
+                "receruzYNFLuIW0Kn",
+                "rec0rm6yYA4YUQrkh",
+                "rec83PZfB7PGjHMh0",
+                "recEtv9ql7Hh4XAW4",
+                "reccZB8SVU5bEMcgo",
+                "recXmKvS4YnlgRaln",
+                "receruzYNFLuIW0Kn",
+                "rec0rm6yYA4YUQrkh",
+                "recXmKvS4YnlgRaln",
+                "recxkR6HLJD0xWE6R",
+                "receruzYNFLuIW0Kn",
+                "recXmKvS4YnlgRaln",
+                "rec0rm6yYA4YUQrkh",
+                "recwbEMJCh71vCprI",
+                "receruzYNFLuIW0Kn",
+                "rec0rm6yYA4YUQrkh",
+                "rec1ZMFtfbEvoGC73",
+                "rec0rm6yYA4YUQrkh",
+                "recZOriotFt9GIf6b",
+                "receruzYNFLuIW0Kn",
+                "rec0rm6yYA4YUQrkh"
+            ]
         },
         "createdTime": "2020-10-30T19:43:16.000Z"
     },
@@ -22905,13 +24251,48 @@
             "title": "Reign of Uzziah",
             "startDate": "-809",
             "duration": "52Y",
+            "participants": [
+                "recZOriotFt9GIf6b"
+            ],
+            "verses": [
+                "recgw8qkMulCopTmz",
+                "recMQfljHGaNc19HF",
+                "recylul7eOGkKySPM",
+                "recfONdMFISt9sCiv",
+                "reccR17ek6zwvfrIg",
+                "recjQ580ve16JIjlQ",
+                "recVKPGdRooFXrSpj"
+            ],
+            "predecessor": [
+                "rec824qPcsyF7GtTh"
+            ],
+            "lag": "27Y",
             "partOf": [
                 "rec5W0YtPdi4yrvaY"
             ],
-            "modified": "2020-10-30T20:26:10.000Z",
-            "Sort Key": {
-                "error": "#ERROR!"
-            }
+            "Lag Type": "SS",
+            "verseSort": "12015001",
+            "modified": "2020-11-06T15:05:51.000Z",
+            "Sort Key": -808.87984999,
+            "places (from verses)": [
+                "recL1WV82pXaRBQ59"
+            ],
+            "people (from verses)": [
+                "recxkR6HLJD0xWE6R",
+                "recZOriotFt9GIf6b",
+                "receruzYNFLuIW0Kn",
+                "rec0rm6yYA4YUQrkh",
+                "recBD7sQUzjJYTdn3",
+                "receruzYNFLuIW0Kn",
+                "reccZB8SVU5bEMcgo",
+                "recRMsfahAI4RmTZe",
+                "reccZB8SVU5bEMcgo",
+                "recZOriotFt9GIf6b",
+                "rec0rm6yYA4YUQrkh",
+                "recZOriotFt9GIf6b",
+                "rec1ZMFtfbEvoGC73",
+                "recRMsfahAI4RmTZe"
+            ]
         },
         "createdTime": "2020-10-30T19:44:06.000Z"
     },
@@ -22921,13 +24302,55 @@
             "title": "Reign of Jotham",
             "startDate": "-757",
             "duration": "16Y",
+            "participants": [
+                "recRMsfahAI4RmTZe"
+            ],
+            "verses": [
+                "recVXvk6gezzwwu8H",
+                "recOtpsl13jwRGJM1",
+                "recqAZo9ecOPZahQK",
+                "recIC62gLkQGVPA0o",
+                "recd37HSAKleQhyA9",
+                "recEWJJ306k032MjA",
+                "rec4VIHYVi5l0tsGd"
+            ],
+            "predecessor": [
+                "recEOMPybxT6g8y8E"
+            ],
+            "lag": "2Y",
             "partOf": [
                 "rec5W0YtPdi4yrvaY"
             ],
-            "modified": "2020-10-30T20:26:10.000Z",
-            "Sort Key": {
-                "error": "#ERROR!"
-            }
+            "Lag Type": "SS",
+            "verseSort": "12015032",
+            "modified": "2020-11-06T15:10:20.000Z",
+            "Sort Key": -756.87984968,
+            "places (from verses)": [
+                "recL1WV82pXaRBQ59",
+                "recEoYRAyVeAancS0"
+            ],
+            "people (from verses)": [
+                "recZtcxs57c7NXXlg",
+                "reckVW6qsLQZJbasF",
+                "recRMsfahAI4RmTZe",
+                "recZOriotFt9GIf6b",
+                "rec0rm6yYA4YUQrkh",
+                "recKNb3HobCNmQcfO",
+                "recU9fgzUOc5OZ8xr",
+                "recZOriotFt9GIf6b",
+                "reccZB8SVU5bEMcgo",
+                "reccZB8SVU5bEMcgo",
+                "recRMsfahAI4RmTZe",
+                "rec0rm6yYA4YUQrkh",
+                "rec0rm6yYA4YUQrkh",
+                "rec1nwxpOMQgGsW7C",
+                "recZtcxs57c7NXXlg",
+                "reckVW6qsLQZJbasF",
+                "reccZB8SVU5bEMcgo",
+                "recRMsfahAI4RmTZe",
+                "rec1ZMFtfbEvoGC73",
+                "recQoq4AXnZxZhOFh"
+            ]
         },
         "createdTime": "2020-10-30T19:44:24.000Z"
     },
@@ -22937,13 +24360,97 @@
             "title": "Reign of Ahaz",
             "startDate": "-742",
             "duration": "16Y",
+            "participants": [
+                "recQoq4AXnZxZhOFh"
+            ],
+            "verses": [
+                "recSW4ims9JbAVLaq",
+                "recrfrq5OynL6h7wx",
+                "recD3px3FBw4P836j",
+                "recztLZfnnaTZgIeX",
+                "recV9hb7NctKlZT1n",
+                "recr9oIWC45xPGSWr",
+                "recYhSxYDoDRaq3SS",
+                "recIWt9uKlyD2uVxO",
+                "recpKWGlVgIepf4Pz",
+                "recoVeMzTNW8BsV1c",
+                "recZlWArnOExKFmfc",
+                "rec2Bz4p2qefFlFV0",
+                "recumkTcILqRkPki4",
+                "recqsezaO5oHGUNyK",
+                "recWhq6hP43otTFWO",
+                "recEaTaZS7d5mYhEe",
+                "rec7zLE7aRHrtUZx7",
+                "recZYqPqwVONcwlWy",
+                "rec6iH6v1qvey21RK",
+                "recFXvrhNZ8D14lvc"
+            ],
+            "predecessor": [
+                "recuwnodcdBQpgk6J"
+            ],
+            "lag": "17Y",
             "partOf": [
                 "rec5W0YtPdi4yrvaY"
             ],
-            "modified": "2020-10-30T20:26:23.000Z",
-            "Sort Key": {
-                "error": "#ERROR!"
-            }
+            "Lag Type": "SS",
+            "verseSort": "12016001",
+            "modified": "2020-11-06T15:22:46.000Z",
+            "Sort Key": -741.87983999,
+            "places (from verses)": [
+                "recL1WV82pXaRBQ59",
+                "recEoYRAyVeAancS0",
+                "recL1WV82pXaRBQ59",
+                "recbAK2JxigPufNCM",
+                "recEoYRAyVeAancS0",
+                "recIJFRcqI6KbKgXb",
+                "recEoYRAyVeAancS0",
+                "recIJFRcqI6KbKgXb",
+                "recR67sC02MfTx4al",
+                "receagvMif63k28fg",
+                "recIJFRcqI6KbKgXb",
+                "recIJFRcqI6KbKgXb",
+                "recR67sC02MfTx4al",
+                "recR67sC02MfTx4al",
+                "recR67sC02MfTx4al",
+                "recIJFRcqI6KbKgXb"
+            ],
+            "people (from verses)": [
+                "recZtcxs57c7NXXlg",
+                "reckVW6qsLQZJbasF",
+                "recQoq4AXnZxZhOFh",
+                "recRMsfahAI4RmTZe",
+                "rec0rm6yYA4YUQrkh",
+                "recQoq4AXnZxZhOFh",
+                "rec1ZMFtfbEvoGC73",
+                "reccZB8SVU5bEMcgo",
+                "recsU2ZSdzBvDqzgI",
+                "reccZB8SVU5bEMcgo",
+                "rec1nwxpOMQgGsW7C",
+                "recZtcxs57c7NXXlg",
+                "reckVW6qsLQZJbasF",
+                "recQoq4AXnZxZhOFh",
+                "rec1nwxpOMQgGsW7C",
+                "recQoq4AXnZxZhOFh",
+                "recQoq4AXnZxZhOFh",
+                "reccZB8SVU5bEMcgo",
+                "rec1nwxpOMQgGsW7C",
+                "recQoq4AXnZxZhOFh",
+                "rec1DfTad45xFXUe3",
+                "rec1DfTad45xFXUe3",
+                "recQoq4AXnZxZhOFh",
+                "reccZB8SVU5bEMcgo",
+                "recQoq4AXnZxZhOFh",
+                "rec1DfTad45xFXUe3",
+                "rec1DfTad45xFXUe3",
+                "recQoq4AXnZxZhOFh",
+                "recQoq4AXnZxZhOFh",
+                "reccZB8SVU5bEMcgo",
+                "recQoq4AXnZxZhOFh",
+                "rec0rm6yYA4YUQrkh",
+                "recQoq4AXnZxZhOFh",
+                "rec1ZMFtfbEvoGC73",
+                "recNlVijtEIdQhAIm"
+            ]
         },
         "createdTime": "2020-10-30T19:44:31.000Z"
     },
@@ -22953,13 +24460,344 @@
             "title": "Reign of Hezekiah",
             "startDate": "-725",
             "duration": "29Y",
+            "participants": [
+                "recNlVijtEIdQhAIm"
+            ],
+            "verses": [
+                "recR6nEBRWHojgDIE",
+                "recgkt4YRgEOAljwI",
+                "rec8WI6MFcdCD9y4Z",
+                "rec6aawP3yPbHcY2H",
+                "recNqyTupaBUDGRNe",
+                "recqHRGBDczjEcRwS",
+                "recWxJQx5aaDSDDBz",
+                "recrNBU1yMr9NHJWe",
+                "recYO3FSRAN4hlWSx",
+                "reciPsrVfzdo4VU06",
+                "recxriI4Jto8v6n3x",
+                "recIWGv7UGT5wj55B",
+                "recU2lVkF0uljpdAV",
+                "recMY35Msl4Nwabj8",
+                "recdYOkiCKY2GZTyA",
+                "recHxQEmavEWEuSH9",
+                "recmTWiNveI2WjCbB",
+                "recORS0p2b4xEiSFX",
+                "recIHa4DQ48aSlrSt",
+                "recJl4xVhIrwmpirA",
+                "recoZbgpAk8o4pHfS",
+                "reca0cJwBhySuI6HW",
+                "recW2AgroGC3JjVsL",
+                "recv9vQAeLk9BXUt3",
+                "recs5DuIbixAZVu4V",
+                "reczu9m4O9kcWtb2l",
+                "rec0NTCnxrEssRXkt",
+                "recr59bJC7sWFXbXf",
+                "rec35J3zMvJkxTvZw",
+                "recmAs7tagLRPMUor",
+                "recXucrOiB5S5JXhO",
+                "recl8f8KVvCECatFW",
+                "rect0G7ryGDITn4Ki",
+                "recB7rs2u3hJYRBe3",
+                "recnrOFdunGkq48YI",
+                "recc9qi6uxJajb3SW",
+                "rec2iG6ZVu0dm9dLY",
+                "rec3WniICjUhL31iD",
+                "recaiaW5K3h7zlUBo",
+                "recTQwdMSTVxS33vp",
+                "recA1rQ1WUUTVByWb",
+                "recgMFUEVagOvr79f",
+                "recEZIuCqQShIEQ4t",
+                "recmSvTaZlshUR2fN",
+                "rec4tez7xcdJqySz6",
+                "rec2mAFZWHzyXw1fj",
+                "rec8dvNZs2oBQ92TC",
+                "recKYVdEjRb545vUt",
+                "recTYkxTbaa8phqlh",
+                "recpeMhD0rbxCC3Wn",
+                "recMT4R4MCDk0EIX1",
+                "recRICfET3HHx77Nz",
+                "recIbPze3u2ybNeZo",
+                "rec7e1UAJTMTILpPU",
+                "recZ9sHCgsnOeUBG2",
+                "recyFaK0sTgtvd8a6",
+                "recDNWGGCKVwfrSSU",
+                "recONBmX7M4VDLsPc",
+                "recaVe4zeKWWiBylX",
+                "recm9YQWYyEBeWySU",
+                "rechm5jiNZMPC7Wtg",
+                "reccNiKysk1vy6QT9",
+                "recaKJWoZKrxOP41k",
+                "recOZXlZhFxTgbF8K",
+                "recUQuqoQ1CztVxje",
+                "recyM1Lw04MtzTMt9",
+                "recDLzC7Du7UQeHux",
+                "recPcq13b0Pn6OiNq",
+                "recT3FixSGRA9tCgv",
+                "rec4rrRB8kGpv4qm1",
+                "rec7WR6jQfaNrvYNR",
+                "rec6YPwaR50QkC2Dp",
+                "recM3hNkzbodSozda",
+                "rec6HYQAncgLQF3St",
+                "rec4r0zLDrJ5yfpzP",
+                "recCaUNmTnEpnB4MN",
+                "recjdyMIZztASvt0q",
+                "rec5kHySxbI3ucjrV",
+                "recVT5T6EAtuEapHS",
+                "recOusuI5zKR42ntq",
+                "recZ9zxOL3U3gfGmW",
+                "recv0oLfl7fjQ7RJG",
+                "recjEgnKNyIyjGSwh",
+                "recGKobZPIuLoOfWw",
+                "recfsmr68qdLVZjs7",
+                "rec3rhiVyLBGx6gD0",
+                "recrLchHPGClzRbIc",
+                "recCUsywBDFgNGKSX",
+                "recKfzDhshX8xGL3M",
+                "reciVjLALTJL03iId",
+                "recxexxSqL6NVxyFb",
+                "rec71lY68YOQUaLaS",
+                "recKR7RLKUHDrt8cG",
+                "recbMHfMeJdsXjPVg",
+                "recMuSs9XkT3PhuxG"
+            ],
+            "predecessor": [
+                "recj8DXN0Leolmr8O"
+            ],
+            "lag": "3Y",
             "partOf": [
                 "rec5W0YtPdi4yrvaY"
             ],
-            "modified": "2020-10-30T20:26:23.000Z",
-            "Sort Key": {
-                "error": "#ERROR!"
-            }
+            "Lag Type": "SS",
+            "verseSort": "12018001",
+            "modified": "2020-11-06T15:52:20.000Z",
+            "Sort Key": -724.87981999,
+            "places (from verses)": [
+                "recL1WV82pXaRBQ59",
+                "recIJFRcqI6KbKgXb",
+                "recNzNKGhPz5qS3Kc",
+                "recIJFRcqI6KbKgXb",
+                "recEP3QZ3HUmIkv4Q",
+                "recEP3QZ3HUmIkv4Q",
+                "rec1AuhYfD1Pt34oA",
+                "recIJFRcqI6KbKgXb",
+                "recuNldBULsq0RoMw",
+                "recmMd8e4NhBbEixF",
+                "recIJFRcqI6KbKgXb",
+                "recH30EhVzvnkXBTl",
+                "recIJFRcqI6KbKgXb",
+                "recIJFRcqI6KbKgXb",
+                "recL1WV82pXaRBQ59",
+                "recIJFRcqI6KbKgXb",
+                "recX579C9Sml7TQRI",
+                "recH30EhVzvnkXBTl",
+                "recIJFRcqI6KbKgXb",
+                "recfrXyxhuYOczKTm",
+                "recL1WV82pXaRBQ59",
+                "recIJFRcqI6KbKgXb",
+                "recfrXyxhuYOczKTm",
+                "recIJFRcqI6KbKgXb",
+                "recIJFRcqI6KbKgXb",
+                "recIJFRcqI6KbKgXb",
+                "recIJFRcqI6KbKgXb",
+                "rechEDzh62P6Oq3tQ",
+                "recA34XfYsCxhyu31",
+                "recxZzKRwcRUciXjm",
+                "recKPPAyXwKEJ9Ht8",
+                "recEP3QZ3HUmIkv4Q",
+                "recvyjBlyKvcsXhY1",
+                "recL1WV82pXaRBQ59",
+                "recIJFRcqI6KbKgXb",
+                "recIJFRcqI6KbKgXb",
+                "recIJFRcqI6KbKgXb",
+                "rec5g1fzEKYzCO1Re",
+                "recH30EhVzvnkXBTl",
+                "recaHkhAvEICQr7fB",
+                "recL1WV82pXaRBQ59",
+                "recIJFRcqI6KbKgXb",
+                "recIJFRcqI6KbKgXb",
+                "recLIUK6VRKNjnGo6",
+                "recuNldBULsq0RoMw",
+                "reckMtGITvZc8u1bI",
+                "recyuzIRhPm1IFEu0",
+                "recsgEmgYboc9zneO",
+                "recxZzKRwcRUciXjm",
+                "recKPPAyXwKEJ9Ht8",
+                "recvyjBlyKvcsXhY1",
+                "rechEDzh62P6Oq3tQ",
+                "recA34XfYsCxhyu31",
+                "recIJFRcqI6KbKgXb",
+                "recIJFRcqI6KbKgXb",
+                "recL1WV82pXaRBQ59",
+                "reczPjeq0UdahiRrn",
+                "recCXgnK86jc1U9IB",
+                "rechZwu8ZbWlB6fyU",
+                "recL1WV82pXaRBQ59",
+                "recIJFRcqI6KbKgXb",
+                "rec5WK4QGcKa48pA6",
+                "recIJFRcqI6KbKgXb",
+                "recIJFRcqI6KbKgXb",
+                "recpqKANUDcRgN4HU",
+                "recpqKANUDcRgN4HU",
+                "recpqKANUDcRgN4HU",
+                "recpqKANUDcRgN4HU"
+            ],
+            "people (from verses)": [
+                "recjOvYXbQXPhGpBN",
+                "recCZEm6IYAFKlq7r",
+                "recNlVijtEIdQhAIm",
+                "recQoq4AXnZxZhOFh",
+                "rec0rm6yYA4YUQrkh",
+                "reck2X1F3OBtxfauF",
+                "recnSrVm18Xp6I2qk",
+                "rec1ZMFtfbEvoGC73",
+                "reccZB8SVU5bEMcgo",
+                "recjNRR60PAuFtjha",
+                "recsU2ZSdzBvDqzgI",
+                "rec0rm6yYA4YUQrkh",
+                "reccZB8SVU5bEMcgo",
+                "recjNRR60PAuFtjha",
+                "reccZB8SVU5bEMcgo",
+                "reccZB8SVU5bEMcgo",
+                "recNlVijtEIdQhAIm",
+                "recjOvYXbQXPhGpBN",
+                "recCZEm6IYAFKlq7r",
+                "rechyp4HYKyxnaCF1",
+                "recNlVijtEIdQhAIm",
+                "recjOvYXbQXPhGpBN",
+                "recjNRR60PAuFtjha",
+                "reccZB8SVU5bEMcgo",
+                "recNlVijtEIdQhAIm",
+                "reczabgSpj7QAzpHQ",
+                "rec0rm6yYA4YUQrkh",
+                "recNlVijtEIdQhAIm",
+                "rec0rm6yYA4YUQrkh",
+                "recNlVijtEIdQhAIm",
+                "reccZB8SVU5bEMcgo",
+                "recNlVijtEIdQhAIm",
+                "rec0rm6yYA4YUQrkh",
+                "reccZB8SVU5bEMcgo",
+                "recC50Ms974i9uAX6",
+                "recJeaRksQQXBYkf1",
+                "rec3lckuDNdMQOXXU",
+                "recNlVijtEIdQhAIm",
+                "recZUByYaXzjYwBDp",
+                "recdkG8F8ni1mBHRD",
+                "recjQ5QgUAAMyIAmE",
+                "recBLgAN20Np6p0KN",
+                "recvgPc1qs2XrDYQN",
+                "rec3lckuDNdMQOXXU",
+                "recNlVijtEIdQhAIm",
+                "recyGoqLyubply8DF",
+                "recNlVijtEIdQhAIm",
+                "rec0rm6yYA4YUQrkh",
+                "reccZB8SVU5bEMcgo",
+                "reccZB8SVU5bEMcgo",
+                "recZUByYaXzjYwBDp",
+                "recdkG8F8ni1mBHRD",
+                "recjQ5QgUAAMyIAmE",
+                "recBLgAN20Np6p0KN",
+                "rec3lckuDNdMQOXXU",
+                "rec3lckuDNdMQOXXU",
+                "rec3lckuDNdMQOXXU",
+                "recNlVijtEIdQhAIm",
+                "recNlVijtEIdQhAIm",
+                "reccZB8SVU5bEMcgo",
+                "recNlVijtEIdQhAIm",
+                "recNlVijtEIdQhAIm",
+                "reccZB8SVU5bEMcgo",
+                "reccZB8SVU5bEMcgo",
+                "recZUByYaXzjYwBDp",
+                "recdkG8F8ni1mBHRD",
+                "recjQ5QgUAAMyIAmE",
+                "recBLgAN20Np6p0KN",
+                "recvgPc1qs2XrDYQN",
+                "recNlVijtEIdQhAIm",
+                "rec3lckuDNdMQOXXU",
+                "recNlVijtEIdQhAIm",
+                "reccZB8SVU5bEMcgo",
+                "recZUByYaXzjYwBDp",
+                "recjQ5QgUAAMyIAmE",
+                "recit3DiamFt2zO0S",
+                "reclPYWgWZWK5ccsg",
+                "recNlVijtEIdQhAIm",
+                "rec3lckuDNdMQOXXU",
+                "reccZB8SVU5bEMcgo",
+                "recNlVijtEIdQhAIm",
+                "recit3DiamFt2zO0S",
+                "recit3DiamFt2zO0S",
+                "reccZB8SVU5bEMcgo",
+                "rec3lckuDNdMQOXXU",
+                "recYGIjyPqFKqtiKp",
+                "recNlVijtEIdQhAIm",
+                "recNlVijtEIdQhAIm",
+                "rec0rm6yYA4YUQrkh",
+                "reccZB8SVU5bEMcgo",
+                "recNlVijtEIdQhAIm",
+                "reccZB8SVU5bEMcgo",
+                "recNlVijtEIdQhAIm",
+                "reccZB8SVU5bEMcgo",
+                "reczabgSpj7QAzpHQ",
+                "reccZB8SVU5bEMcgo",
+                "reccZB8SVU5bEMcgo",
+                "reccZB8SVU5bEMcgo",
+                "recit3DiamFt2zO0S",
+                "reclPYWgWZWK5ccsg",
+                "recNlVijtEIdQhAIm",
+                "reczabgSpj7QAzpHQ",
+                "reccZB8SVU5bEMcgo",
+                "reccZB8SVU5bEMcgo",
+                "reccZB8SVU5bEMcgo",
+                "rec0rm6yYA4YUQrkh",
+                "reccZB8SVU5bEMcgo",
+                "reccZB8SVU5bEMcgo",
+                "reccZB8SVU5bEMcgo",
+                "rec1ZMFtfbEvoGC73",
+                "reccZB8SVU5bEMcgo",
+                "reczabgSpj7QAzpHQ",
+                "recABuWPq8eOLUHqI",
+                "recibew2LuKVxgRy3",
+                "recsh9hpgxj5TEej4",
+                "recNlVijtEIdQhAIm",
+                "recit3DiamFt2zO0S",
+                "reclPYWgWZWK5ccsg",
+                "reccZB8SVU5bEMcgo",
+                "reccZB8SVU5bEMcgo",
+                "recNlVijtEIdQhAIm",
+                "reccZB8SVU5bEMcgo",
+                "recit3DiamFt2zO0S",
+                "reccZB8SVU5bEMcgo",
+                "recNlVijtEIdQhAIm",
+                "rec1ZMFtfbEvoGC73",
+                "reccZB8SVU5bEMcgo",
+                "rec1ZMFtfbEvoGC73",
+                "recit3DiamFt2zO0S",
+                "recNlVijtEIdQhAIm",
+                "recit3DiamFt2zO0S",
+                "reccZB8SVU5bEMcgo",
+                "recit3DiamFt2zO0S",
+                "reccZB8SVU5bEMcgo",
+                "recNlVijtEIdQhAIm",
+                "recit3DiamFt2zO0S",
+                "recQoq4AXnZxZhOFh",
+                "reccZB8SVU5bEMcgo",
+                "reciLuXly5rugJ11M",
+                "recNlVijtEIdQhAIm",
+                "recNlVijtEIdQhAIm",
+                "recit3DiamFt2zO0S",
+                "recNlVijtEIdQhAIm",
+                "recNlVijtEIdQhAIm",
+                "recit3DiamFt2zO0S",
+                "recNlVijtEIdQhAIm",
+                "reccZB8SVU5bEMcgo",
+                "reccZB8SVU5bEMcgo",
+                "recNlVijtEIdQhAIm",
+                "recit3DiamFt2zO0S",
+                "reccZB8SVU5bEMcgo",
+                "recNlVijtEIdQhAIm",
+                "rec0rm6yYA4YUQrkh",
+                "recNlVijtEIdQhAIm",
+                "rec5LjGfCEP8klGHt"
+            ]
         },
         "createdTime": "2020-10-30T19:45:58.000Z"
     },
@@ -22969,13 +24807,82 @@
             "title": "Reign of Manasseh",
             "startDate": "-696",
             "duration": "55Y",
+            "participants": [
+                "rec5LjGfCEP8klGHt"
+            ],
+            "verses": [
+                "recRgRyHsSpgSwY0v",
+                "recxLV4NoEwIS0SmC",
+                "recavBXGZPPxXKCUq",
+                "recY1xjVfT9SBrvaY",
+                "recDpjhByE57cwYZO",
+                "recP8iP58Hvsoorae",
+                "recfaGUEnmymvDQvb",
+                "recUSqisk20EVF6UE",
+                "recTsrkcV9qBtvnSl",
+                "recWzZruBOA9yC31u",
+                "recqaqZhPW4bpzmb1",
+                "recE3ihXjYFiXUDtm",
+                "rechsIwI94alp3dGu",
+                "recnGaIztiLukMK8k",
+                "recd5LP4cNoUVDPgZ",
+                "recFwrM2gsKRnsps2",
+                "recoSYydhUGTKULui",
+                "recaUfd8o4uMoTRf8"
+            ],
+            "predecessor": [
+                "recRusMYR5At9TlEV"
+            ],
             "partOf": [
                 "rec5W0YtPdi4yrvaY"
             ],
-            "modified": "2020-10-30T20:26:37.000Z",
-            "Sort Key": {
-                "error": "#ERROR!"
-            }
+            "verseSort": "12021001",
+            "modified": "2020-11-06T16:29:07.000Z",
+            "Sort Key": -695.87978999,
+            "places (from verses)": [
+                "recL1WV82pXaRBQ59",
+                "recL1WV82pXaRBQ59",
+                "recL1WV82pXaRBQ59",
+                "recL1WV82pXaRBQ59",
+                "recL1WV82pXaRBQ59",
+                "recEP3QZ3HUmIkv4Q",
+                "recfrXyxhuYOczKTm",
+                "recL1WV82pXaRBQ59",
+                "recdamy0rKo9jHoE1"
+            ],
+            "people (from verses)": [
+                "rec5LjGfCEP8klGHt",
+                "recgjY9uUSXywgPBc",
+                "recsU2ZSdzBvDqzgI",
+                "reccZB8SVU5bEMcgo",
+                "recNlVijtEIdQhAIm",
+                "recE9nWKk1vLR7zi1",
+                "rec91wntVnuliHv7E",
+                "reccZB8SVU5bEMcgo",
+                "reccZB8SVU5bEMcgo",
+                "reccZB8SVU5bEMcgo",
+                "rec1ZMFtfbEvoGC73",
+                "rec0BAacWSGBXZ0zI",
+                "reccZB8SVU5bEMcgo",
+                "recjNRR60PAuFtjha",
+                "rec5LjGfCEP8klGHt",
+                "recsU2ZSdzBvDqzgI",
+                "reccZB8SVU5bEMcgo",
+                "reccZB8SVU5bEMcgo",
+                "rec5LjGfCEP8klGHt",
+                "rec0rm6yYA4YUQrkh",
+                "rec0rm6yYA4YUQrkh",
+                "reccZB8SVU5bEMcgo",
+                "rec91wntVnuliHv7E",
+                "rec5LjGfCEP8klGHt",
+                "rec0rm6yYA4YUQrkh",
+                "reccZB8SVU5bEMcgo",
+                "rec5LjGfCEP8klGHt",
+                "rec0rm6yYA4YUQrkh",
+                "rec5LjGfCEP8klGHt",
+                "recOLCa0zzEKuK5nn",
+                "rectyCDQXPV0r8tal"
+            ]
         },
         "createdTime": "2020-10-30T19:46:05.000Z"
     },
@@ -22985,13 +24892,48 @@
             "title": "Reign of Amon",
             "startDate": "-641",
             "duration": "2Y",
+            "participants": [
+                "rectyCDQXPV0r8tal"
+            ],
+            "verses": [
+                "recepHxsoa7ubk2P2",
+                "recGbKiTzby2PpqbU",
+                "rec9vGgzDMox0whLo",
+                "recmkD64LRXbyUPQJ",
+                "rec6PHFiqnuWUPG09",
+                "recGiocEZubTkMZwm",
+                "recerAgovYxoYnNNU",
+                "recdvqrvAFt7p1rvU"
+            ],
+            "predecessor": [
+                "rece9FgMugc1bp3tG"
+            ],
             "partOf": [
                 "rec5W0YtPdi4yrvaY"
             ],
-            "modified": "2020-10-30T20:26:43.000Z",
-            "Sort Key": {
-                "error": "#ERROR!"
-            }
+            "verseSort": "12021019",
+            "modified": "2020-11-06T16:29:15.000Z",
+            "Sort Key": -640.87978981,
+            "places (from verses)": [
+                "recL1WV82pXaRBQ59",
+                "recgcRR8lIX8T7Tr7",
+                "recdamy0rKo9jHoE1"
+            ],
+            "people (from verses)": [
+                "rectyCDQXPV0r8tal",
+                "recfiTEIha0iiq7to",
+                "recjUidl1Prwi5w5B",
+                "rec5LjGfCEP8klGHt",
+                "reccZB8SVU5bEMcgo",
+                "reccZB8SVU5bEMcgo",
+                "rectyCDQXPV0r8tal",
+                "rectyCDQXPV0r8tal",
+                "recNOn1RcB3sCzCnh",
+                "rectyCDQXPV0r8tal",
+                "rec0rm6yYA4YUQrkh",
+                "recOLCa0zzEKuK5nn",
+                "recNOn1RcB3sCzCnh"
+            ]
         },
         "createdTime": "2020-10-30T19:46:46.000Z"
     },
@@ -23001,32 +24943,253 @@
             "title": "Reign of Josiah",
             "startDate": "-640",
             "duration": "31Y",
+            "participants": [
+                "recNOn1RcB3sCzCnh"
+            ],
+            "verses": [
+                "recBVbne9S52ZMHW4",
+                "reclvOPmgOQwfIjt9",
+                "rec1N7zj4O2Xw6edK",
+                "recKuQMBftfeDkivN",
+                "rechQkos2gOOviDhD",
+                "rec8KrdY0a1Up9tO4",
+                "recaRRFYFqZLA1k2R",
+                "recFMXBT12wpPUylq",
+                "recKwdY6NynnmLrt2",
+                "rec8IKRNscZiKYRb9",
+                "recUyjxVLcpwHb4zC",
+                "recU547yLxzs9fsSo",
+                "rec8T3ktkinqnpvNB",
+                "rect087hJ93Sha7OA",
+                "recr5Mg743AGKdMIp",
+                "rec2gyuoZyOO4uYkZ",
+                "recCEaHOoGC3jQ3rn",
+                "recqxSRWCIuFFj6kU",
+                "rechyNX2sSvWp0kF7",
+                "recnyKfs9fPW8rstD",
+                "recDFtnELxDAQHFi0",
+                "recP3kd1J3uxuq85y",
+                "recIhj4CuYXLpB6Fz",
+                "reckhbFmwXvUdM9yX",
+                "recuCHIsjPHsD2Jlj",
+                "recQBjidOf8Ljjxsu",
+                "recUf2qkldtRiCy0m",
+                "recNfS4AshZ1dA3Ak",
+                "recR4EzrOpE8xRjmL",
+                "recbiddBM7jlVmsO4",
+                "recpngJ0Ficxt5PO9",
+                "recBzzW0jDKgg6pFP",
+                "recrRxSFomybW3ze1",
+                "recFk7B85wm4AFpbD",
+                "reco5RFIWezJzVaDH",
+                "recWuQoKxqnYi0Mea",
+                "recZ7kE5nSspf8aZY",
+                "rechOsBUxcAs7MOpC",
+                "reckkebz7xq2ryz3G",
+                "recyhULKQY34WFvpk",
+                "recchn9z9fU7BIP4Y",
+                "recBysCvXJkO0UPhe",
+                "recqMvMBWTQyiglQP",
+                "recXWiINuqogSxVVu",
+                "rec1UgcDiVFOzRdzZ",
+                "recGyfXQhh4bhQ7t3",
+                "recGUhjaRw4CMdE6A",
+                "recNBmYL9OTqiK0CW",
+                "recoo3tOFr04v0MIP",
+                "recdhc7yfkhO7IL1b"
+            ],
+            "predecessor": [
+                "rec1X3krfmWLAKJXU"
+            ],
             "partOf": [
                 "rec5W0YtPdi4yrvaY"
             ],
-            "modified": "2020-10-30T20:26:56.000Z",
-            "Sort Key": {
-                "error": "#ERROR!"
-            }
+            "verseSort": "12022001",
+            "modified": "2020-11-06T16:27:05.000Z",
+            "Sort Key": -639.87977999,
+            "places (from verses)": [
+                "recL1WV82pXaRBQ59",
+                "recH2ShkDhPfgm2TM",
+                "recFXcRQrRaeVt8Wq",
+                "recL1WV82pXaRBQ59",
+                "recL1WV82pXaRBQ59",
+                "recL1WV82pXaRBQ59",
+                "reccf5Vf48NjEXaxz",
+                "recJK76HLZSOzxTWW",
+                "recL1WV82pXaRBQ59",
+                "recL1WV82pXaRBQ59",
+                "recL1WV82pXaRBQ59",
+                "reccf5Vf48NjEXaxz",
+                "recE4R1DFGiDMLM5y",
+                "rectrAkGtrZH5LMp8",
+                "recL1WV82pXaRBQ59",
+                "rec4usYdsZVP42UId",
+                "recBsRcVlu8hkiGKW",
+                "reccf5Vf48NjEXaxz",
+                "recL1WV82pXaRBQ59",
+                "recUn6eVJDoG4xI0j",
+                "recJK76HLZSOzxTWW",
+                "recJK76HLZSOzxTWW",
+                "recEP3QZ3HUmIkv4Q",
+                "recEP3QZ3HUmIkv4Q",
+                "recJK76HLZSOzxTWW",
+                "recL1WV82pXaRBQ59",
+                "recL1WV82pXaRBQ59",
+                "recL1WV82pXaRBQ59",
+                "recL1WV82pXaRBQ59",
+                "recJ0N5yStBk9CjXA",
+                "rechSy0aCb5vNVH3f",
+                "recfrXyxhuYOczKTm",
+                "recIJFRcqI6KbKgXb",
+                "recL1WV82pXaRBQ59",
+                "rechSy0aCb5vNVH3f"
+            ],
+            "people (from verses)": [
+                "recNOn1RcB3sCzCnh",
+                "recuQ1FSZvCUCpQNS",
+                "rec75D3Ir3BzzypQN",
+                "rec1ZMFtfbEvoGC73",
+                "reccZB8SVU5bEMcgo",
+                "recNOn1RcB3sCzCnh",
+                "rec4EUmldD378UeiV",
+                "rec2KAEO7iwYNl8n5",
+                "recYP5ahtwR2t4Pi3",
+                "reccZB8SVU5bEMcgo",
+                "recW6B8hIdx04ROez",
+                "reccZB8SVU5bEMcgo",
+                "reccZB8SVU5bEMcgo",
+                "recW6B8hIdx04ROez",
+                "rec4EUmldD378UeiV",
+                "reccZB8SVU5bEMcgo",
+                "rec4EUmldD378UeiV",
+                "reccZB8SVU5bEMcgo",
+                "rec4EUmldD378UeiV",
+                "recW6B8hIdx04ROez",
+                "recW6B8hIdx04ROez",
+                "reclqqQjQ1vEw7Rz1",
+                "rec4EUmldD378UeiV",
+                "recSD9bSgNTLAUbgP",
+                "recO0rdVuQVnO7AW5",
+                "recVrO057QLxwxEse",
+                "rec0rm6yYA4YUQrkh",
+                "reccZB8SVU5bEMcgo",
+                "recW6B8hIdx04ROez",
+                "reclqqQjQ1vEw7Rz1",
+                "recSD9bSgNTLAUbgP",
+                "rec4EUmldD378UeiV",
+                "recVrO057QLxwxEse",
+                "recez5OpTgftkzc99",
+                "recyQFWHw8afPNBzq",
+                "recEL7n9bErm6Y75Q",
+                "recRQsJ4Z9x5YFMtx",
+                "reccZB8SVU5bEMcgo",
+                "rec0rm6yYA4YUQrkh",
+                "reccZB8SVU5bEMcgo",
+                "rec0rm6yYA4YUQrkh",
+                "reccZB8SVU5bEMcgo",
+                "reccZB8SVU5bEMcgo",
+                "rec0rm6yYA4YUQrkh",
+                "rec0rm6yYA4YUQrkh",
+                "reccZB8SVU5bEMcgo",
+                "reccZB8SVU5bEMcgo",
+                "recW6B8hIdx04ROez",
+                "recE9nWKk1vLR7zi1",
+                "reccZB8SVU5bEMcgo",
+                "rec0rm6yYA4YUQrkh",
+                "recE9nWKk1vLR7zi1",
+                "reccZB8SVU5bEMcgo",
+                "reccZB8SVU5bEMcgo",
+                "rec0rm6yYA4YUQrkh",
+                "recFZ3EA96npimUEZ",
+                "reccZB8SVU5bEMcgo",
+                "recM30yMa9NH5DOVq",
+                "rec0rm6yYA4YUQrkh",
+                "recQLRvArTftcBmfx",
+                "reccZB8SVU5bEMcgo",
+                "recQoq4AXnZxZhOFh",
+                "rec0rm6yYA4YUQrkh",
+                "rec5LjGfCEP8klGHt",
+                "reccZB8SVU5bEMcgo",
+                "rec0BAacWSGBXZ0zI",
+                "recCRjXLRuJfwgvtj",
+                "recCWY7OHg1GzDtTq",
+                "recSkOeJmdjXiZrco",
+                "recXhPherZAxvXTS4",
+                "recPF80I9rSEP1EHd",
+                "recNOn1RcB3sCzCnh",
+                "reccZB8SVU5bEMcgo",
+                "rec0rm6yYA4YUQrkh",
+                "reccZB8SVU5bEMcgo",
+                "recNOn1RcB3sCzCnh",
+                "reccZB8SVU5bEMcgo",
+                "reccZB8SVU5bEMcgo",
+                "rec0rm6yYA4YUQrkh",
+                "recNOn1RcB3sCzCnh",
+                "reccZB8SVU5bEMcgo",
+                "rec0rm6yYA4YUQrkh",
+                "recNOn1RcB3sCzCnh",
+                "recW6B8hIdx04ROez",
+                "reccZB8SVU5bEMcgo",
+                "recjNRR60PAuFtjha",
+                "reccZB8SVU5bEMcgo",
+                "rec5LjGfCEP8klGHt",
+                "reccZB8SVU5bEMcgo",
+                "reccZB8SVU5bEMcgo",
+                "recNOn1RcB3sCzCnh",
+                "recj4jStie8ofBOVu",
+                "recNOn1RcB3sCzCnh",
+                "reckTJIVOYS9ZKKz3",
+                "recNOn1RcB3sCzCnh"
+            ]
         },
         "createdTime": "2020-10-30T19:46:53.000Z"
     },
     {
         "id": "recmY05Xj0sxEcdCh",
         "fields": {
-            "title": "Reign of Johoahaz",
+            "title": "Reign of Johoahaz (Shallum)",
             "startDate": "-608",
             "duration": "3M",
             "participants": [
                 "reckTJIVOYS9ZKKz3"
             ],
+            "verses": [
+                "recyjXRpqFPRWuBcs",
+                "recicK4yvCUqRFuwt",
+                "recYDzGkH2n4Ogkho",
+                "recOWzG69fzaNb93D",
+                "rec8oNzMbAOvctU8Q"
+            ],
+            "predecessor": [
+                "recVf3eQjAq3nk94o"
+            ],
             "partOf": [
                 "rec5W0YtPdi4yrvaY"
             ],
-            "modified": "2020-10-30T20:26:56.000Z",
-            "Sort Key": {
-                "error": "#ERROR!"
-            }
+            "verseSort": "12023031",
+            "modified": "2020-11-06T16:28:34.000Z",
+            "Sort Key": -607.87976969,
+            "places (from verses)": [
+                "recL1WV82pXaRBQ59",
+                "rec5g1fzEKYzCO1Re",
+                "recA34XfYsCxhyu31",
+                "recL1WV82pXaRBQ59",
+                "recwejjn5PDlbkVgH",
+                "recfrXyxhuYOczKTm"
+            ],
+            "people (from verses)": [
+                "reckTJIVOYS9ZKKz3",
+                "reckUcMdr1RcKxqfY",
+                "recwT5qEd1zruosqA",
+                "reccZB8SVU5bEMcgo",
+                "recj4jStie8ofBOVu",
+                "recj4jStie8ofBOVu",
+                "recRVq3v1aG0UAtsg",
+                "recNOn1RcB3sCzCnh",
+                "reckTJIVOYS9ZKKz3",
+                "recRVq3v1aG0UAtsg",
+                "recj4jStie8ofBOVu"
+            ]
         },
         "createdTime": "2020-10-30T19:47:10.000Z"
     },
@@ -23036,13 +25199,53 @@
             "title": "Reign of Jehoiakim",
             "startDate": "-608",
             "duration": "11Y",
+            "participants": [
+                "recRVq3v1aG0UAtsg"
+            ],
+            "verses": [
+                "recet9cVoaPkaL9Si",
+                "recmjKmSS2JoZ0MA6",
+                "recIyyaWNj5SNJ80m",
+                "recU0db8FVaZ31NtM",
+                "recw8NyUmrTLGDDa1",
+                "rec679TkUTdYfZMzu",
+                "recwIALvqzJ3WtIvc",
+                "rec4GsbcQVrUN0aQS",
+                "recp6sKtpDsD4Ty8v"
+            ],
+            "predecessor": [
+                "recmY05Xj0sxEcdCh"
+            ],
             "partOf": [
                 "rec5W0YtPdi4yrvaY"
             ],
-            "modified": "2020-10-30T20:27:11.000Z",
-            "Sort Key": {
-                "error": "#ERROR!"
-            }
+            "verseSort": "12023036",
+            "modified": "2020-11-06T16:30:22.000Z",
+            "Sort Key": -607.87976964,
+            "places (from verses)": [
+                "recL1WV82pXaRBQ59",
+                "recgR56C1unVPKivr",
+                "recpqKANUDcRgN4HU",
+                "recL1WV82pXaRBQ59",
+                "recMFUSc6GzrLNNtt",
+                "recJ0N5yStBk9CjXA",
+                "recpqKANUDcRgN4HU"
+            ],
+            "people (from verses)": [
+                "recRVq3v1aG0UAtsg",
+                "rec1QLIVZP3KojpbY",
+                "recVXO78PqCxhqQSg",
+                "reccZB8SVU5bEMcgo",
+                "recTMYikvzJ27cDlA",
+                "recRVq3v1aG0UAtsg",
+                "reccZB8SVU5bEMcgo",
+                "rec5LjGfCEP8klGHt",
+                "reccZB8SVU5bEMcgo",
+                "reccZB8SVU5bEMcgo",
+                "recRVq3v1aG0UAtsg",
+                "recRVq3v1aG0UAtsg",
+                "recO6jj8WG1gFfhIR"
+            ]
         },
         "createdTime": "2020-10-30T19:47:52.000Z"
     },
@@ -23052,13 +25255,55 @@
             "title": "Reign of Jeconiah",
             "startDate": "-597",
             "duration": "3M10D",
+            "participants": [
+                "recO6jj8WG1gFfhIR"
+            ],
+            "verses": [
+                "recK1HqhgW5fdTU7w",
+                "recbdj8rru0CosmJF",
+                "rec8Mv035AFCyIwyZ",
+                "recMQANo9qdBCEu40",
+                "recYbJoFE7ZAdqlnA",
+                "reczuI3uROkVyk2Iy",
+                "recuZJABCFFuTYXDc",
+                "recAHZyAipsTbRbmc",
+                "reccTqN48iiw8ufNX",
+                "recVqFtgHX8VJmT0Y"
+            ],
+            "predecessor": [
+                "reciunQ6bRGaY2gib"
+            ],
             "partOf": [
                 "rec5W0YtPdi4yrvaY"
             ],
-            "modified": "2020-10-30T20:27:27.000Z",
-            "Sort Key": {
-                "error": "#ERROR!"
-            }
+            "verseSort": "12024008",
+            "modified": "2020-11-06T16:34:16.000Z",
+            "Sort Key": -596.87975992,
+            "places (from verses)": [
+                "recL1WV82pXaRBQ59",
+                "recpqKANUDcRgN4HU",
+                "recL1WV82pXaRBQ59",
+                "recpqKANUDcRgN4HU",
+                "recpqKANUDcRgN4HU",
+                "recL1WV82pXaRBQ59",
+                "recpqKANUDcRgN4HU",
+                "recL1WV82pXaRBQ59",
+                "recpqKANUDcRgN4HU",
+                "recpqKANUDcRgN4HU"
+            ],
+            "people (from verses)": [
+                "recO6jj8WG1gFfhIR",
+                "rec3rRfDMJzuNPKNk",
+                "recpTGfTZ4ipuuSuK",
+                "reccZB8SVU5bEMcgo",
+                "recTMYikvzJ27cDlA",
+                "recTMYikvzJ27cDlA",
+                "recO6jj8WG1gFfhIR",
+                "rec0BAacWSGBXZ0zI",
+                "reccZB8SVU5bEMcgo",
+                "recO6jj8WG1gFfhIR",
+                "rec5naIzF29A8wJIP"
+            ]
         },
         "createdTime": "2020-10-30T20:19:05.000Z"
     },
@@ -23071,13 +25316,52 @@
             "participants": [
                 "rec5naIzF29A8wJIP"
             ],
+            "verses": [
+                "recD6UKQkWm78hXUu",
+                "recr7d39E0cK1GETR",
+                "recglkod8PbnFhs8V",
+                "rect4NtDermGEuDoH",
+                "recEwQrjYxaXQEQVy",
+                "recw60oEzGoDA0m87",
+                "recrseLBne8vNsJGD",
+                "recm9CqiFQrYXy9GY",
+                "recsjOwVmn4hsBD07",
+                "recNmoHEshMsbCs27"
+            ],
+            "predecessor": [
+                "reczmi6XtMXALtcNn"
+            ],
             "partOf": [
                 "rec5W0YtPdi4yrvaY"
             ],
-            "modified": "2020-10-30T20:27:27.000Z",
-            "Sort Key": {
-                "error": "#ERROR!"
-            }
+            "verseSort": "12024018",
+            "modified": "2020-11-06T16:33:41.000Z",
+            "Sort Key": -595.87975982,
+            "places (from verses)": [
+                "recL1WV82pXaRBQ59",
+                "rec5g1fzEKYzCO1Re",
+                "recL1WV82pXaRBQ59",
+                "recpqKANUDcRgN4HU",
+                "recpqKANUDcRgN4HU",
+                "recL1WV82pXaRBQ59",
+                "recWKNRLvmxh9CMku",
+                "recdMHFSmu222VnJG",
+                "recwejjn5PDlbkVgH",
+                "recpqKANUDcRgN4HU",
+                "recpqKANUDcRgN4HU"
+            ],
+            "people (from verses)": [
+                "rec5naIzF29A8wJIP",
+                "reckUcMdr1RcKxqfY",
+                "recwT5qEd1zruosqA",
+                "recRVq3v1aG0UAtsg",
+                "reccZB8SVU5bEMcgo",
+                "rec5naIzF29A8wJIP",
+                "reccZB8SVU5bEMcgo",
+                "recTMYikvzJ27cDlA",
+                "rec5naIzF29A8wJIP",
+                "rec5naIzF29A8wJIP"
+            ]
         },
         "createdTime": "2020-10-30T19:48:02.000Z"
     }
