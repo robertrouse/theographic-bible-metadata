@@ -1,6 +1,7 @@
 [
     {
         "id": "recIFusdNl6d8dj3L",
+        "createdTime": "2018-05-13T17:19:17.000Z",
         "fields": {
             "osisName": "Gen",
             "bookName": "Genesis",
@@ -1603,11 +1604,11 @@
             "slug": "gen",
             "peopleCount": 1082,
             "placeCount": 266
-        },
-        "createdTime": "2018-05-13T17:19:17.000Z"
+        }
     },
     {
         "id": "recsr5TGvFGOwA5SZ",
+        "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "Exod",
             "bookName": "Exodus",
@@ -2880,11 +2881,11 @@
             "slug": "exod",
             "peopleCount": 619,
             "placeCount": 179
-        },
-        "createdTime": "2018-05-22T19:36:23.000Z"
+        }
     },
     {
         "id": "rec6qL6gTvX4tUw4A",
+        "createdTime": "2018-05-13T17:19:17.000Z",
         "fields": {
             "osisName": "Lev",
             "bookName": "Leviticus",
@@ -3790,11 +3791,11 @@
             "slug": "lev",
             "peopleCount": 366,
             "placeCount": 28
-        },
-        "createdTime": "2018-05-13T17:19:17.000Z"
+        }
     },
     {
         "id": "recs5u7KfYwwEE6JO",
+        "createdTime": "2018-05-13T17:19:17.000Z",
         "fields": {
             "osisName": "Num",
             "bookName": "Numbers",
@@ -5138,11 +5139,11 @@
             "slug": "num",
             "peopleCount": 832,
             "placeCount": 207
-        },
-        "createdTime": "2018-05-13T17:19:17.000Z"
+        }
     },
     {
         "id": "rec2LnZw7EoTWReC0",
+        "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "Deut",
             "bookName": "Deuteronomy",
@@ -6155,11 +6156,11 @@
             "slug": "deut",
             "peopleCount": 528,
             "placeCount": 146
-        },
-        "createdTime": "2018-05-22T19:36:23.000Z"
+        }
     },
     {
         "id": "rec5dSv8N1iv8z9uC",
+        "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "Josh",
             "bookName": "Joshua",
@@ -6861,11 +6862,11 @@
             "slug": "josh",
             "peopleCount": 413,
             "placeCount": 370
-        },
-        "createdTime": "2018-05-22T19:36:23.000Z"
+        }
     },
     {
         "id": "reczL2ckRW1qHvVfe",
+        "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "Judg",
             "bookName": "Judges",
@@ -7524,11 +7525,11 @@
             "slug": "judg",
             "peopleCount": 454,
             "placeCount": 244
-        },
-        "createdTime": "2018-05-22T19:36:23.000Z"
+        }
     },
     {
         "id": "recZuCb9Bn0RErpsL",
+        "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "Ruth",
             "bookName": "Ruth",
@@ -7637,11 +7638,11 @@
             "slug": "ruth",
             "peopleCount": 57,
             "placeCount": 9
-        },
-        "createdTime": "2018-05-22T19:36:23.000Z"
+        }
     },
     {
         "id": "rec4GS8yWh2R4mpdB",
+        "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "1Sam",
             "bookName": "1 Samuel",
@@ -8503,11 +8504,11 @@
             "slug": "1sam",
             "peopleCount": 662,
             "placeCount": 193
-        },
-        "createdTime": "2018-05-22T19:36:23.000Z"
+        }
     },
     {
         "id": "recMYdxLC2GjLRomD",
+        "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "2Sam",
             "bookName": "2 Samuel",
@@ -9246,11 +9247,11 @@
             "slug": "2sam",
             "peopleCount": 556,
             "placeCount": 166
-        },
-        "createdTime": "2018-05-22T19:36:23.000Z"
+        }
     },
     {
         "id": "reconzJEzr8kOsb3j",
+        "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "1Kgs",
             "bookName": "1 Kings",
@@ -10108,11 +10109,11 @@
             "slug": "1kgs",
             "peopleCount": 586,
             "placeCount": 192
-        },
-        "createdTime": "2018-05-22T19:36:23.000Z"
+        }
     },
     {
         "id": "recutYqTqunXPJKQO",
+        "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "2Kgs",
             "bookName": "2 Kings",
@@ -10876,11 +10877,11 @@
             "slug": "2kgs",
             "peopleCount": 554,
             "placeCount": 265
-        },
-        "createdTime": "2018-05-22T19:36:23.000Z"
+        }
     },
     {
         "id": "rec2ZFQHqI4eUjhqX",
+        "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "1Chr",
             "bookName": "1 Chronicles",
@@ -11871,11 +11872,11 @@
             "slug": "1chr",
             "peopleCount": 836,
             "placeCount": 161
-        },
-        "createdTime": "2018-05-22T19:36:23.000Z"
+        }
     },
     {
         "id": "rec410yOewjNfbeE3",
+        "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "2Chr",
             "bookName": "2 Chronicles",
@@ -12753,11 +12754,11 @@
             "slug": "2chr",
             "peopleCount": 611,
             "placeCount": 236
-        },
-        "createdTime": "2018-05-22T19:36:23.000Z"
+        }
     },
     {
         "id": "recit4Q50QB9nM3q2",
+        "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "Ezra",
             "bookName": "Ezra",
@@ -13067,11 +13068,11 @@
             "slug": "ezra",
             "peopleCount": 209,
             "placeCount": 89
-        },
-        "createdTime": "2018-05-22T19:36:23.000Z"
+        }
     },
     {
         "id": "rec3WEGPl0a1PS0cC",
+        "createdTime": "2018-05-13T17:19:17.000Z",
         "fields": {
             "osisName": "Neh",
             "bookName": "Nehemiah",
@@ -13510,11 +13511,11 @@
             "slug": "neh",
             "peopleCount": 259,
             "placeCount": 99
-        },
-        "createdTime": "2018-05-13T17:19:17.000Z"
+        }
     },
     {
         "id": "rec6yHFZ6w7UUw5Cu",
+        "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "Esth",
             "bookName": "Esther",
@@ -13711,11 +13712,11 @@
             "slug": "esth",
             "peopleCount": 119,
             "placeCount": 24
-        },
-        "createdTime": "2018-05-22T19:36:23.000Z"
+        }
     },
     {
         "id": "recOA8nVVhKs30PSI",
+        "createdTime": "2018-05-13T17:19:17.000Z",
         "fields": {
             "osisName": "Job",
             "bookName": "Job",
@@ -14847,11 +14848,11 @@
             "slug": "job",
             "peopleCount": 190,
             "placeCount": 6
-        },
-        "createdTime": "2018-05-13T17:19:17.000Z"
+        }
     },
     {
         "id": "recKXZXO6cJwk2SxO",
+        "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "Ps",
             "bookName": "Psalms",
@@ -17488,11 +17489,11 @@
             "slug": "ps",
             "peopleCount": 1026,
             "placeCount": 118
-        },
-        "createdTime": "2018-05-22T19:36:23.000Z"
+        }
     },
     {
         "id": "recRLdYtz1vjdW7yd",
+        "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "Prov",
             "bookName": "Proverbs",
@@ -18460,11 +18461,11 @@
             "slug": "prov",
             "peopleCount": 100,
             "placeCount": 0
-        },
-        "createdTime": "2018-05-22T19:36:23.000Z"
+        }
     },
     {
         "id": "recd3p656hOWx95Jk",
+        "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "Eccl",
             "bookName": "Ecclesiastes",
@@ -18718,11 +18719,11 @@
             "slug": "eccl",
             "peopleCount": 37,
             "placeCount": 5
-        },
-        "createdTime": "2018-05-22T19:36:23.000Z"
+        }
     },
     {
         "id": "recnUwcJABJVgZDCI",
+        "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "Song",
             "bookName": "Song of Solomon",
@@ -18867,11 +18868,11 @@
             "slug": "song",
             "peopleCount": 9,
             "placeCount": 21
-        },
-        "createdTime": "2018-05-22T19:36:23.000Z"
+        }
     },
     {
         "id": "recr2ic6Ws3R14a5I",
+        "createdTime": "2018-05-13T17:19:17.000Z",
         "fields": {
             "osisName": "Isa",
             "bookName": "Isaiah",
@@ -20249,11 +20250,11 @@
             "slug": "isa",
             "peopleCount": 556,
             "placeCount": 248
-        },
-        "createdTime": "2018-05-13T17:19:17.000Z"
+        }
     },
     {
         "id": "rec3jLxfw7hvvvw7J",
+        "createdTime": "2018-05-13T17:19:17.000Z",
         "fields": {
             "osisName": "Jer",
             "bookName": "Jeremiah",
@@ -21689,11 +21690,11 @@
             "slug": "jer",
             "peopleCount": 840,
             "placeCount": 443
-        },
-        "createdTime": "2018-05-13T17:19:17.000Z"
+        }
     },
     {
         "id": "recdT4VI6VdkEzixN",
+        "createdTime": "2018-05-13T17:19:17.000Z",
         "fields": {
             "osisName": "Lam",
             "bookName": "Lamentations",
@@ -21872,11 +21873,11 @@
             "slug": "lam",
             "peopleCount": 47,
             "placeCount": 22
-        },
-        "createdTime": "2018-05-13T17:19:17.000Z"
+        }
     },
     {
         "id": "recqSg3DygQ97p2n7",
+        "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "Ezek",
             "bookName": "Ezekiel",
@@ -23217,11 +23218,11 @@
             "slug": "ezek",
             "peopleCount": 482,
             "placeCount": 195
-        },
-        "createdTime": "2018-05-22T19:36:23.000Z"
+        }
     },
     {
         "id": "recJZDGEIEZOMQVFU",
+        "createdTime": "2018-05-13T17:19:17.000Z",
         "fields": {
             "osisName": "Dan",
             "bookName": "Daniel",
@@ -23610,11 +23611,11 @@
             "slug": "dan",
             "peopleCount": 158,
             "placeCount": 40
-        },
-        "createdTime": "2018-05-13T17:19:17.000Z"
+        }
     },
     {
         "id": "rect9laYKg0Xd0Uzg",
+        "createdTime": "2018-05-13T17:19:17.000Z",
         "fields": {
             "osisName": "Hos",
             "bookName": "Hosea",
@@ -23845,11 +23846,11 @@
             "slug": "hos",
             "peopleCount": 95,
             "placeCount": 44
-        },
-        "createdTime": "2018-05-13T17:19:17.000Z"
+        }
     },
     {
         "id": "recJhMBucEbOC6FyV",
+        "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "Joel",
             "bookName": "Joel",
@@ -23945,11 +23946,11 @@
             "slug": "joel",
             "peopleCount": 31,
             "placeCount": 16
-        },
-        "createdTime": "2018-05-22T19:36:23.000Z"
+        }
     },
     {
         "id": "rec5weNA8SDG9Gk1x",
+        "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "Amos",
             "bookName": "Amos",
@@ -24124,11 +24125,11 @@
             "slug": "amos",
             "peopleCount": 89,
             "placeCount": 39
-        },
-        "createdTime": "2018-05-22T19:36:23.000Z"
+        }
     },
     {
         "id": "recVlXpkRK0TkcxFm",
+        "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "Obad",
             "bookName": "Obadiah",
@@ -24170,11 +24171,11 @@
             "slug": "obad",
             "peopleCount": 12,
             "placeCount": 9
-        },
-        "createdTime": "2018-05-22T19:36:23.000Z"
+        }
     },
     {
         "id": "recHPjIgqDYfAbySY",
+        "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "Jonah",
             "bookName": "Jonah",
@@ -24246,11 +24247,11 @@
             "slug": "jonah",
             "peopleCount": 35,
             "placeCount": 10
-        },
-        "createdTime": "2018-05-22T19:36:23.000Z"
+        }
     },
     {
         "id": "recA2CMdJWbqaoTA0",
+        "createdTime": "2018-05-13T17:19:17.000Z",
         "fields": {
             "osisName": "Mic",
             "bookName": "Micah",
@@ -24382,11 +24383,11 @@
             "slug": "mic",
             "peopleCount": 49,
             "placeCount": 25
-        },
-        "createdTime": "2018-05-13T17:19:17.000Z"
+        }
     },
     {
         "id": "recQKyO5TMxwPm4Ky",
+        "createdTime": "2018-05-13T17:19:17.000Z",
         "fields": {
             "osisName": "Nah",
             "bookName": "Nahum",
@@ -24456,11 +24457,11 @@
             "slug": "nah",
             "peopleCount": 11,
             "placeCount": 7
-        },
-        "createdTime": "2018-05-13T17:19:17.000Z"
+        }
     },
     {
         "id": "rectOGfyQI1dkl9Jy",
+        "createdTime": "2018-05-13T17:19:17.000Z",
         "fields": {
             "osisName": "Hab",
             "bookName": "Habakkuk",
@@ -24539,11 +24540,11 @@
             "slug": "hab",
             "peopleCount": 15,
             "placeCount": 3
-        },
-        "createdTime": "2018-05-13T17:19:17.000Z"
+        }
     },
     {
         "id": "recRmQJUpakFullFM",
+        "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "Zeph",
             "bookName": "Zephaniah",
@@ -24619,11 +24620,11 @@
             "slug": "zeph",
             "peopleCount": 29,
             "placeCount": 13
-        },
-        "createdTime": "2018-05-22T19:36:23.000Z"
+        }
     },
     {
         "id": "recieu3CSdcWH6rMj",
+        "createdTime": "2018-05-13T17:19:17.000Z",
         "fields": {
             "osisName": "Hag",
             "bookName": "Haggai",
@@ -24683,11 +24684,11 @@
             "slug": "hag",
             "peopleCount": 28,
             "placeCount": 1
-        },
-        "createdTime": "2018-05-13T17:19:17.000Z"
+        }
     },
     {
         "id": "rec2EEptPS7M8gQC3",
+        "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "Zech",
             "bookName": "Zechariah",
@@ -24932,11 +24933,11 @@
             "slug": "zech",
             "peopleCount": 120,
             "placeCount": 58
-        },
-        "createdTime": "2018-05-22T19:36:23.000Z"
+        }
     },
     {
         "id": "recFNHNgEiPlhRRpQ",
+        "createdTime": "2018-05-13T17:19:17.000Z",
         "fields": {
             "osisName": "Mal",
             "bookName": "Malachi",
@@ -25015,11 +25016,11 @@
             "slug": "mal",
             "peopleCount": 47,
             "placeCount": 4
-        },
-        "createdTime": "2018-05-13T17:19:17.000Z"
+        }
     },
     {
         "id": "recEJId5B98HV0x6D",
+        "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "Matt",
             "bookName": "Matthew",
@@ -26141,11 +26142,11 @@
             "slug": "matt",
             "peopleCount": 431,
             "placeCount": 69
-        },
-        "createdTime": "2018-05-22T19:36:23.000Z"
+        }
     },
     {
         "id": "recNvq1wZtB13BbbW",
+        "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "Mark",
             "bookName": "Mark",
@@ -26862,11 +26863,11 @@
             "slug": "mark",
             "peopleCount": 245,
             "placeCount": 46
-        },
-        "createdTime": "2018-05-22T19:36:23.000Z"
+        }
     },
     {
         "id": "recclIex2hH0wdTST",
+        "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "Luke",
             "bookName": "Luke",
@@ -28064,11 +28065,11 @@
             "slug": "luke",
             "peopleCount": 461,
             "placeCount": 76
-        },
-        "createdTime": "2018-05-22T19:36:23.000Z"
+        }
     },
     {
         "id": "recq8W1kWwtVoUlwB",
+        "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "John",
             "bookName": "John",
@@ -28988,11 +28989,11 @@
             "slug": "john",
             "peopleCount": 514,
             "placeCount": 62
-        },
-        "createdTime": "2018-05-22T19:36:23.000Z"
+        }
     },
     {
         "id": "recF09FMjRr0gzjQk",
+        "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "Acts",
             "bookName": "Acts",
@@ -30050,11 +30051,11 @@
             "slug": "acts",
             "peopleCount": 592,
             "placeCount": 244
-        },
-        "createdTime": "2018-05-22T19:36:23.000Z"
+        }
     },
     {
         "id": "recyvIyxRMFob6SoM",
+        "createdTime": "2018-05-13T17:19:17.000Z",
         "fields": {
             "osisName": "Rom",
             "bookName": "Romans",
@@ -30529,11 +30530,11 @@
             "slug": "rom",
             "peopleCount": 238,
             "placeCount": 13
-        },
-        "createdTime": "2018-05-13T17:19:17.000Z"
+        }
     },
     {
         "id": "recVtbTyqtbbtqRC5",
+        "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "1Cor",
             "bookName": "1 Corinthians",
@@ -31012,11 +31013,11 @@
             "slug": "1cor",
             "peopleCount": 192,
             "placeCount": 8
-        },
-        "createdTime": "2018-05-22T19:36:23.000Z"
+        }
     },
     {
         "id": "rec0CTDRtMnNCmQr9",
+        "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "2Cor",
             "bookName": "2 Corinthians",
@@ -31312,11 +31313,11 @@
             "slug": "2cor",
             "peopleCount": 122,
             "placeCount": 12
-        },
-        "createdTime": "2018-05-22T19:36:23.000Z"
+        }
     },
     {
         "id": "recF3ilKWfSjLzpsj",
+        "createdTime": "2018-05-13T17:19:17.000Z",
         "fields": {
             "osisName": "Gal",
             "bookName": "Galatians",
@@ -31497,11 +31498,11 @@
             "slug": "gal",
             "peopleCount": 87,
             "placeCount": 10
-        },
-        "createdTime": "2018-05-13T17:19:17.000Z"
+        }
     },
     {
         "id": "rec3IwUp30NnnEqSL",
+        "createdTime": "2018-05-13T17:19:17.000Z",
         "fields": {
             "osisName": "Eph",
             "bookName": "Ephesians",
@@ -31688,11 +31689,11 @@
             "slug": "eph",
             "peopleCount": 88,
             "placeCount": 1
-        },
-        "createdTime": "2018-05-13T17:19:17.000Z"
+        }
     },
     {
         "id": "recY95JJhNEzOwMNv",
+        "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "Phil",
             "bookName": "Philippians",
@@ -31826,11 +31827,11 @@
             "slug": "phil",
             "peopleCount": 63,
             "placeCount": 3
-        },
-        "createdTime": "2018-05-22T19:36:23.000Z"
+        }
     },
     {
         "id": "recY37UhYyyAlabnd",
+        "createdTime": "2018-05-13T17:19:17.000Z",
         "fields": {
             "osisName": "Col",
             "bookName": "Colossians",
@@ -31955,11 +31956,11 @@
             "slug": "col",
             "peopleCount": 51,
             "placeCount": 5
-        },
-        "createdTime": "2018-05-13T17:19:17.000Z"
+        }
     },
     {
         "id": "recDZc63lmQiSe0gn",
+        "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "1Thess",
             "bookName": "1 Thessalonians",
@@ -32079,11 +32080,11 @@
             "slug": "1thess",
             "peopleCount": 49,
             "placeCount": 6
-        },
-        "createdTime": "2018-05-22T19:36:23.000Z"
+        }
     },
     {
         "id": "recnZBkoT7W0SV19v",
+        "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "2Thess",
             "bookName": "2 Thessalonians",
@@ -32159,11 +32160,11 @@
             "slug": "2thess",
             "peopleCount": 29,
             "placeCount": 0
-        },
-        "createdTime": "2018-05-22T19:36:23.000Z"
+        }
     },
     {
         "id": "rec2yyoaHMOHZcynX",
+        "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "1Tim",
             "bookName": "1 Timothy",
@@ -32305,11 +32306,11 @@
             "slug": "1tim",
             "peopleCount": 38,
             "placeCount": 1
-        },
-        "createdTime": "2018-05-22T19:36:23.000Z"
+        }
     },
     {
         "id": "rec28yVZWWOL1gftz",
+        "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "2Tim",
             "bookName": "2 Timothy",
@@ -32422,11 +32423,11 @@
             "slug": "2tim",
             "peopleCount": 47,
             "placeCount": 8
-        },
-        "createdTime": "2018-05-22T19:36:23.000Z"
+        }
     },
     {
         "id": "recZJmtLFS2QnJG2b",
+        "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "Titus",
             "bookName": "Titus",
@@ -32498,11 +32499,11 @@
             "slug": "titus",
             "peopleCount": 16,
             "placeCount": 2
-        },
-        "createdTime": "2018-05-22T19:36:23.000Z"
+        }
     },
     {
         "id": "recZm66X4kEQ7X3j2",
+        "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "Phlm",
             "bookName": "Philemon",
@@ -32554,11 +32555,11 @@
             "slug": "phlm",
             "peopleCount": 15,
             "placeCount": 0
-        },
-        "createdTime": "2018-05-22T19:36:23.000Z"
+        }
     },
     {
         "id": "recKvTNUismk1ckEr",
+        "createdTime": "2018-05-13T17:19:17.000Z",
         "fields": {
             "osisName": "Heb",
             "bookName": "Hebrews",
@@ -32897,11 +32898,11 @@
             "slug": "heb",
             "peopleCount": 139,
             "placeCount": 11
-        },
-        "createdTime": "2018-05-13T17:19:17.000Z"
+        }
     },
     {
         "id": "recDk5A8p9VHMaXAC",
+        "createdTime": "2018-05-13T17:19:17.000Z",
         "fields": {
             "osisName": "Jas",
             "bookName": "James",
@@ -33037,11 +33038,11 @@
             "slug": "jas",
             "peopleCount": 29,
             "placeCount": 0
-        },
-        "createdTime": "2018-05-13T17:19:17.000Z"
+        }
     },
     {
         "id": "receVE4rg7HzwRays",
+        "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "1Pet",
             "bookName": "1 Peter",
@@ -33174,11 +33175,11 @@
             "slug": "1pet",
             "peopleCount": 56,
             "placeCount": 3
-        },
-        "createdTime": "2018-05-22T19:36:23.000Z"
+        }
     },
     {
         "id": "recFNtUGO3RQUDGPv",
+        "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "2Pet",
             "bookName": "2 Peter",
@@ -33265,11 +33266,11 @@
             "slug": "2pet",
             "peopleCount": 24,
             "placeCount": 1
-        },
-        "createdTime": "2018-05-22T19:36:23.000Z"
+        }
     },
     {
         "id": "recnCKWpaf0b7Q1dy",
+        "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "1John",
             "bookName": "1 John",
@@ -33399,11 +33400,11 @@
             "slug": "1john",
             "peopleCount": 61,
             "placeCount": 0
-        },
-        "createdTime": "2018-05-22T19:36:23.000Z"
+        }
     },
     {
         "id": "recvfX2A1wSqR2QiC",
+        "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "2John",
             "bookName": "2 John",
@@ -33437,11 +33438,11 @@
             "slug": "2john",
             "peopleCount": 6,
             "placeCount": 0
-        },
-        "createdTime": "2018-05-22T19:36:23.000Z"
+        }
     },
     {
         "id": "recMApftYXBHE8lV5",
+        "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "3John",
             "bookName": "3 John",
@@ -33476,11 +33477,11 @@
             "slug": "3john",
             "peopleCount": 4,
             "placeCount": 0
-        },
-        "createdTime": "2018-05-22T19:36:23.000Z"
+        }
     },
     {
         "id": "rec2ddtGk1mJxYoy4",
+        "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "Jude",
             "bookName": "Jude",
@@ -33526,11 +33527,11 @@
             "slug": "jude",
             "peopleCount": 11,
             "placeCount": 2
-        },
-        "createdTime": "2018-05-22T19:36:23.000Z"
+        }
     },
     {
         "id": "recUbhyLLUrl849r7",
+        "createdTime": "2018-05-13T17:19:17.000Z",
         "fields": {
             "osisName": "Rev",
             "bookName": "Revelation",
@@ -33976,7 +33977,6 @@
             "slug": "rev",
             "peopleCount": 156,
             "placeCount": 27
-        },
-        "createdTime": "2018-05-13T17:19:17.000Z"
+        }
     }
 ]
