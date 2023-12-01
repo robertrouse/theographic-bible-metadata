@@ -1,0 +1,500 @@
+{
+  "0": {
+    "id": {
+      "type": "string"
+    },
+    "createdTime": {
+      "type": "date"
+    },
+    "fields": {
+      "groupName": {
+        "type": "string"
+      },
+      "members": {
+        "type": "array"
+      },
+      "events_dev": {
+        "type": "array"
+      },
+      "modified": {
+        "type": "date"
+      },
+      "type": "object"
+    },
+    "type": "object"
+  },
+  "1": {
+    "id": {
+      "type": "string"
+    },
+    "createdTime": {
+      "type": "date"
+    },
+    "fields": {
+      "groupName": {
+        "type": "string"
+      },
+      "members": {
+        "type": "array"
+      },
+      "events_dev": {
+        "type": "array"
+      },
+      "modified": {
+        "type": "date"
+      },
+      "type": "object"
+    },
+    "type": "object"
+  },
+  "2": {
+    "id": {
+      "type": "string"
+    },
+    "createdTime": {
+      "type": "date"
+    },
+    "fields": {
+      "groupName": {
+        "type": "string"
+      },
+      "members": {
+        "type": "array"
+      },
+      "events_dev": {
+        "type": "array"
+      },
+      "modified": {
+        "type": "date"
+      },
+      "type": "object"
+    },
+    "type": "object"
+  },
+  "3": {
+    "id": {
+      "type": "string"
+    },
+    "createdTime": {
+      "type": "date"
+    },
+    "fields": {
+      "groupName": {
+        "type": "string"
+      },
+      "members": {
+        "type": "array"
+      },
+      "verses": {
+        "type": "array"
+      },
+      "events_dev": {
+        "type": "array"
+      },
+      "modified": {
+        "type": "date"
+      },
+      "type": "object"
+    },
+    "type": "object"
+  },
+  "4": {
+    "id": {
+      "type": "string"
+    },
+    "createdTime": {
+      "type": "date"
+    },
+    "fields": {
+      "groupName": {
+        "type": "string"
+      },
+      "members": {
+        "type": "array"
+      },
+      "type": "object"
+    },
+    "type": "object"
+  },
+  "5": {
+    "id": {
+      "type": "string"
+    },
+    "createdTime": {
+      "type": "date"
+    },
+    "fields": {
+      "groupName": {
+        "type": "string"
+      },
+      "members": {
+        "type": "array"
+      },
+      "events_dev": {
+        "type": "array"
+      },
+      "partOf": {
+        "type": "array"
+      },
+      "modified": {
+        "type": "date"
+      },
+      "type": "object"
+    },
+    "type": "object"
+  },
+  "6": {
+    "id": {
+      "type": "string"
+    },
+    "createdTime": {
+      "type": "date"
+    },
+    "fields": {
+      "groupName": {
+        "type": "string"
+      },
+      "members": {
+        "type": "array"
+      },
+      "events_dev": {
+        "type": "array"
+      },
+      "partOf": {
+        "type": "array"
+      },
+      "modified": {
+        "type": "date"
+      },
+      "type": "object"
+    },
+    "type": "object"
+  },
+  "7": {
+    "id": {
+      "type": "string"
+    },
+    "createdTime": {
+      "type": "date"
+    },
+    "fields": {
+      "groupName": {
+        "type": "string"
+      },
+      "members": {
+        "type": "array"
+      },
+      "events_dev": {
+        "type": "array"
+      },
+      "partOf": {
+        "type": "array"
+      },
+      "modified": {
+        "type": "date"
+      },
+      "type": "object"
+    },
+    "type": "object"
+  },
+  "8": {
+    "id": {
+      "type": "string"
+    },
+    "createdTime": {
+      "type": "date"
+    },
+    "fields": {
+      "groupName": {
+        "type": "string"
+      },
+      "members": {
+        "type": "array"
+      },
+      "events_dev": {
+        "type": "array"
+      },
+      "partOf": {
+        "type": "array"
+      },
+      "modified": {
+        "type": "date"
+      },
+      "type": "object"
+    },
+    "type": "object"
+  },
+  "9": {
+    "id": {
+      "type": "string"
+    },
+    "createdTime": {
+      "type": "date"
+    },
+    "fields": {
+      "groupName": {
+        "type": "string"
+      },
+      "members": {
+        "type": "array"
+      },
+      "events_dev": {
+        "type": "array"
+      },
+      "partOf": {
+        "type": "array"
+      },
+      "modified": {
+        "type": "date"
+      },
+      "type": "object"
+    },
+    "type": "object"
+  },
+  "10": {
+    "id": {
+      "type": "string"
+    },
+    "createdTime": {
+      "type": "date"
+    },
+    "fields": {
+      "groupName": {
+        "type": "string"
+      },
+      "members": {
+        "type": "array"
+      },
+      "events_dev": {
+        "type": "array"
+      },
+      "partOf": {
+        "type": "array"
+      },
+      "modified": {
+        "type": "date"
+      },
+      "type": "object"
+    },
+    "type": "object"
+  },
+  "11": {
+    "id": {
+      "type": "string"
+    },
+    "createdTime": {
+      "type": "date"
+    },
+    "fields": {
+      "groupName": {
+        "type": "string"
+      },
+      "members": {
+        "type": "array"
+      },
+      "events_dev": {
+        "type": "array"
+      },
+      "partOf": {
+        "type": "array"
+      },
+      "modified": {
+        "type": "date"
+      },
+      "type": "object"
+    },
+    "type": "object"
+  },
+  "12": {
+    "id": {
+      "type": "string"
+    },
+    "createdTime": {
+      "type": "date"
+    },
+    "fields": {
+      "groupName": {
+        "type": "string"
+      },
+      "members": {
+        "type": "array"
+      },
+      "events_dev": {
+        "type": "array"
+      },
+      "partOf": {
+        "type": "array"
+      },
+      "modified": {
+        "type": "date"
+      },
+      "type": "object"
+    },
+    "type": "object"
+  },
+  "13": {
+    "id": {
+      "type": "string"
+    },
+    "createdTime": {
+      "type": "date"
+    },
+    "fields": {
+      "groupName": {
+        "type": "string"
+      },
+      "members": {
+        "type": "array"
+      },
+      "events_dev": {
+        "type": "array"
+      },
+      "modified": {
+        "type": "date"
+      },
+      "type": "object"
+    },
+    "type": "object"
+  },
+  "14": {
+    "id": {
+      "type": "string"
+    },
+    "createdTime": {
+      "type": "date"
+    },
+    "fields": {
+      "groupName": {
+        "type": "string"
+      },
+      "members": {
+        "type": "array"
+      },
+      "events": {
+        "type": "array"
+      },
+      "events_dev": {
+        "type": "array"
+      },
+      "modified": {
+        "type": "date"
+      },
+      "type": "object"
+    },
+    "type": "object"
+  },
+  "15": {
+    "id": {
+      "type": "string"
+    },
+    "createdTime": {
+      "type": "date"
+    },
+    "fields": {
+      "groupName": {
+        "type": "string"
+      },
+      "members": {
+        "type": "array"
+      },
+      "events": {
+        "type": "array"
+      },
+      "events_dev": {
+        "type": "array"
+      },
+      "modified": {
+        "type": "date"
+      },
+      "type": "object"
+    },
+    "type": "object"
+  },
+  "16": {
+    "id": {
+      "type": "string"
+    },
+    "createdTime": {
+      "type": "date"
+    },
+    "fields": {
+      "groupName": {
+        "type": "string"
+      },
+      "members": {
+        "type": "array"
+      },
+      "modified": {
+        "type": "date"
+      },
+      "type": "object"
+    },
+    "type": "object"
+  },
+  "17": {
+    "id": {
+      "type": "string"
+    },
+    "createdTime": {
+      "type": "date"
+    },
+    "fields": {
+      "groupName": {
+        "type": "string"
+      },
+      "verses": {
+        "type": "array"
+      },
+      "events_dev": {
+        "type": "array"
+      },
+      "modified": {
+        "type": "date"
+      },
+      "type": "object"
+    },
+    "type": "object"
+  },
+  "18": {
+    "id": {
+      "type": "string"
+    },
+    "createdTime": {
+      "type": "date"
+    },
+    "fields": {
+      "groupName": {
+        "type": "string"
+      },
+      "events_dev": {
+        "type": "array"
+      },
+      "modified": {
+        "type": "date"
+      },
+      "type": "object"
+    },
+    "type": "object"
+  },
+  "19": {
+    "id": {
+      "type": "string"
+    },
+    "createdTime": {
+      "type": "date"
+    },
+    "fields": {
+      "groupName": {
+        "type": "string"
+      },
+      "events_dev": {
+        "type": "array"
+      },
+      "modified": {
+        "type": "date"
+      },
+      "type": "object"
+    },
+    "type": "object"
+  }
+}
