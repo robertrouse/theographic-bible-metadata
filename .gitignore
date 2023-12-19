@@ -215,3 +215,5 @@ dist
 .history
 .ionide
 /private/
+
+*.php

@@ -24,8 +24,6 @@
   $peopleChaptersWritten=[];
   // children
   $peopleChildren=[];
-  // dictText
-  $peopleDictText=[];
   // eastons
   $peopleEastons=[];
   // eventGroups
@@ -50,22 +48,21 @@
   $peopleTimeline=[];
   // verses
   $peopleVerses=[];
+
   // Scholor
-  // ambiguous
-  // dictionaryLink
-  // dictionaryText
-  // Disambiguation (temp)
-  // displayTitle
-  // Easton's Count
-  // gender
-  // isProperName
-  // maxYear
-  // minYear
-  // name
-  // personLookup
-  // slug
-  // status
-  // verseCount
+  // alphaGroup:String
+  // alsoCalled:String
+  // ambiguous:boolean
+  // Disambiguation (temp):string
+  // displayTitle:string
+  // Easton's Count:int
+  // gender:string
+  // isProperName:boolean
+  // maxYear:int
+  // minYear:int
+  // name:string
+  // verseCount:int
+  // surname:string
 
   // No filter
   $filter = [];
