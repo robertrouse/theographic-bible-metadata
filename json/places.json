@@ -47283,9 +47283,16 @@
             "dictionaryLink": "https://www.biblestudytools.com/dictionaries/eastons-bible-dictionary/trogyllium.html",
             "dictionaryText": "<p>a town on the western coast of Asia Minor, where Paul \"tarried\" when on his way from Assos to Miletus, on his third missionary journey ( <a href=\"http://www.biblestudytools.com/acts/20-15.html\" target=\"_blank\" url=\"/acts/20-15.html\">Acts 20:15</a> ).",
             "placeID": 1278,
+            "recogitoUri": "https://pleiades.stoa.org/places/599991",
+            "recogitoLat": "37.657",
+            "recogitoLon": "27.006",
             "verses": [
                 "recWh3W6cZegoXs7e"
             ],
+            "recogitoStatus": "VERIFIED",
+            "recogitoType": "cape,promontory",
+            "recogitoLabel": "Dipburnu (Dip Burnu: Turkish, AD 1900 - AD 2099), Trogilia ora (Trogilia (ora): Latin, 30 BC - AD 300), Τρωγίλιον (Trogilion: Ancient Greek, unspecified date range), Τρωγγύλιον ἄκρον (Trongylion akron: Ancient Greek, 30 BC - AD 300), Τρωγίλιος ἄκρα (Troyilios akra: Ancient Greek, 30 BC - AD 300)",
+            "recogitoUID": "",
             "eventsHere": "Voyage to Miletus",
             "hasBeenHere": "paul_2479",
             "status": "wip",
@@ -47297,6 +47304,8 @@
                 "recbGb0Cb2yIRqmle"
             ],
             "verseCount": 1,
+            "latitude": "37.657",
+            "longitude": "27.006",
             "alphaGroup": "T",
             "slug": "trogyllium_1278",
             "dictText": [
