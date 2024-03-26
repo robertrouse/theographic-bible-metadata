@@ -1039,9 +1039,12 @@
                 "recpYSwD914PD9tHU",
                 "recSpTfIckUAeEOLd",
                 "rec5EydSXHdbLbzk1",
-                "recMCgwIq1sw9Q779"
+                "recMCgwIq1sw9Q779",
+                "reccrRGqDRLWjCHog",
+                "recqtoV4JQiYCmkZN",
+                "recBuPmgXN9v9X6WI"
             ],
-            "modified": "2023-01-16T19:59:41.000Z"
+            "modified": "2024-02-02T03:02:50.000Z"
         }
     },
     {
@@ -1188,9 +1191,33 @@
             "groupName": "Pharisees",
             "events_dev": [
                 "recDFt0ANS33dAxri",
-                "reciGxBNHjPZwHKvO"
+                "reciGxBNHjPZwHKvO",
+                "recah9fwlW8Xyk4gn",
+                "recqtoV4JQiYCmkZN"
             ],
-            "modified": "2021-07-09T20:20:58.000Z"
+            "modified": "2024-02-02T02:52:50.000Z"
+        }
+    },
+    {
+        "id": "recpa0oGIarzpwKkL",
+        "createdTime": "2024-02-02T02:27:48.000Z",
+        "fields": {
+            "groupName": "Scribes",
+            "events_dev": [
+                "recah9fwlW8Xyk4gn"
+            ],
+            "modified": "2024-02-02T02:27:48.000Z"
+        }
+    },
+    {
+        "id": "recKp5SL9R1I8Ll9D",
+        "createdTime": "2024-02-02T02:53:07.000Z",
+        "fields": {
+            "groupName": "Sadducees",
+            "events_dev": [
+                "recqtoV4JQiYCmkZN"
+            ],
+            "modified": "2024-02-02T02:53:07.000Z"
         }
     }
 ]
