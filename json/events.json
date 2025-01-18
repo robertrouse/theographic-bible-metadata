@@ -3833,13 +3833,13 @@
             "verses": [
                 "rec5U9P6GQYNZ1gDq"
             ],
-            "verseSort": "01030021",
+            "eventID": 101,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "01030021",
             "sortKey": -1748.98969979,
             "people (from verses)": [
                 "recthlE4FTgDZvDef"
-            ],
-            "eventID": 101
+            ]
         }
     },
     {
@@ -3864,15 +3864,15 @@
             "partOf": [
                 "recj8qDYwzBEfwBAa"
             ],
-            "verseSort": "01030023",
+            "eventID": 102,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "01030023",
             "sortKey": -1743.98969977,
             "people (from verses)": [
                 "reccZB8SVU5bEMcgo",
                 "rechuDYJoK32gmrME",
                 "reccZB8SVU5bEMcgo"
-            ],
-            "eventID": 102
+            ]
         }
     },
     {
@@ -3896,8 +3896,9 @@
             "predecessor": [
                 "recZDLkLCBpaZjV7D"
             ],
-            "verseSort": "01030023",
+            "eventID": 103,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "01030023",
             "sortKey": -1743.98969977,
             "places (from verses)": [
                 "recfrXyxhuYOczKTm"
@@ -3907,8 +3908,7 @@
                 "rechuDYJoK32gmrME",
                 "reccZB8SVU5bEMcgo",
                 "rechuDYJoK32gmrME"
-            ],
-            "eventID": 103
+            ]
         }
     },
     {
@@ -3940,8 +3940,9 @@
                 "recOEfEXGg2ExOSuG",
                 "recJxTWLBjFxqFULi"
             ],
-            "verseSort": "01035016",
+            "eventID": 104,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "01035016",
             "sortKey": -1737.98964984,
             "places (from verses)": [
                 "recJK76HLZSOzxTWW",
@@ -3987,8 +3988,7 @@
                 "recsU2ZSdzBvDqzgI",
                 "recqIoG1fkaNWJ1y0",
                 "reccdFYIq50NyxNej"
-            ],
-            "eventID": 104
+            ]
         }
     },
     {
@@ -4057,8 +4057,9 @@
             "partOf": [
                 "recj8qDYwzBEfwBAa"
             ],
-            "verseSort": "01037003",
+            "eventID": 105,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "01037003",
             "sortKey": -1726.98962997,
             "places (from verses)": [
                 "recUySlrBva4ffoVs",
@@ -4090,8 +4091,7 @@
                 "recsU2ZSdzBvDqzgI",
                 "reck73WZt0xpFw8yM",
                 "recOdl9oB4UWmbiqP"
-            ],
-            "eventID": 105
+            ]
         }
     },
     {
@@ -4109,13 +4109,13 @@
             "verses": [
                 "recc1dlch2jCH0mE5"
             ],
-            "verseSort": "01038029",
+            "eventID": 106,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "01038029",
             "sortKey": -1719.98961971,
             "people (from verses)": [
                 "recMUZkUfOwBiZ3jk"
-            ],
-            "eventID": 106
+            ]
         }
     },
     {
@@ -4134,8 +4134,9 @@
             "partOf": [
                 "recq4rk0MUq6acKxS"
             ],
-            "verseSort": "01046013",
+            "eventID": 107,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "01046013",
             "sortKey": -1718.98953987,
             "people (from verses)": [
                 "rec3HzZknu1HOvNci",
@@ -4143,8 +4144,7 @@
                 "recqt6z1Yq81Dy8j9",
                 "rec0xO99xdlEFpsJY",
                 "recRfHXuYOANSE5lm"
-            ],
-            "eventID": 107
+            ]
         }
     },
     {
@@ -4165,8 +4165,9 @@
             "predecessor": [
                 "rechIcTdBsoSsooEI"
             ],
-            "verseSort": "01046013",
+            "eventID": 108,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "01046013",
             "sortKey": -1718.98953987,
             "people (from verses)": [
                 "rec3HzZknu1HOvNci",
@@ -4176,8 +4177,7 @@
                 "recRfHXuYOANSE5lm",
                 "recKXL1QrW8qTw5Ux",
                 "recKXL1QrW8qTw5Ux"
-            ],
-            "eventID": 108
+            ]
         }
     },
     {
@@ -4242,8 +4242,9 @@
             "predecessor": [
                 "recNE3SvBrPoTRiMS"
             ],
-            "verseSort": "01040004",
+            "eventID": 109,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "01040004",
             "sortKey": -1716.98959996,
             "places (from verses)": [
                 "rec1RMZhQrrzq5oHJ",
@@ -4288,8 +4289,7 @@
                 "recT5VXFTSilSlzVX",
                 "recT5VXFTSilSlzVX",
                 "recT5VXFTSilSlzVX"
-            ],
-            "eventID": 109
+            ]
         }
     },
     {
@@ -4316,17 +4316,17 @@
             "partOf": [
                 "recMAoYK2dHmjhRh9"
             ],
-            "verseSort": "01035028",
+            "lagType": "FS",
+            "eventID": 110,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "01035028",
             "sortKey": -1714.98964972,
             "people (from verses)": [
                 "recqIoG1fkaNWJ1y0",
                 "recqIoG1fkaNWJ1y0",
                 "recUQWSZuOecG4z1Q",
                 "recsU2ZSdzBvDqzgI"
-            ],
-            "lagType": "FS",
-            "eventID": 110
+            ]
         }
     },
     {
@@ -4357,8 +4357,9 @@
             "partOf": [
                 "recj8qDYwzBEfwBAa"
             ],
-            "verseSort": "01041037",
+            "eventID": 111,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "01041037",
             "sortKey": -1713.98958963,
             "places (from verses)": [
                 "recfrXyxhuYOczKTm",
@@ -4388,8 +4389,7 @@
                 "recQvsOFh0nowQ1gD",
                 "rechuDYJoK32gmrME",
                 "recT5VXFTSilSlzVX"
-            ],
-            "eventID": 111
+            ]
         }
     },
     {
@@ -4421,8 +4421,9 @@
             "partOf": [
                 "recD7RqjeIpsJAoBc"
             ],
-            "verseSort": "01041047",
+            "eventID": 112,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "01041047",
             "sortKey": -1713.98958953,
             "places (from verses)": [
                 "recfrXyxhuYOczKTm",
@@ -4439,8 +4440,7 @@
                 "reccZB8SVU5bEMcgo",
                 "recEtv9ql7Hh4XAW4",
                 "reccZB8SVU5bEMcgo"
-            ],
-            "eventID": 112
+            ]
         }
     },
     {
@@ -4545,8 +4545,9 @@
             "predecessor": [
                 "recZlsev4ThVh4o6I"
             ],
-            "verseSort": "01041054",
+            "eventID": 113,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "01041054",
             "sortKey": -1706.98958946,
             "places (from verses)": [
                 "recfrXyxhuYOczKTm",
@@ -4624,8 +4625,7 @@
                 "recjDsafRYaksAqa1",
                 "recBOUtTncbBlfEn9",
                 "recto9z3tEOnLjVOi"
-            ],
-            "eventID": 113
+            ]
         }
     },
     {
@@ -4678,8 +4678,9 @@
             "predecessor": [
                 "recZlsev4ThVh4o6I"
             ],
-            "verseSort": "01042001",
+            "eventID": 114,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "01042001",
             "sortKey": -1705.98957999,
             "places (from verses)": [
                 "recfrXyxhuYOczKTm",
@@ -4723,8 +4724,7 @@
                 "recjDsafRYaksAqa1",
                 "recBOUtTncbBlfEn9",
                 "recto9z3tEOnLjVOi"
-            ],
-            "eventID": 114
+            ]
         }
     },
     {
@@ -4856,8 +4856,10 @@
             "partOf": [
                 "rec85BvWuap3CDiMT"
             ],
-            "verseSort": "01045001",
+            "lagType": "FS",
+            "eventID": 115,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "01045001",
             "sortKey": -1704.98954999,
             "places (from verses)": [
                 "recRxBBePxyyV6TFO",
@@ -4943,9 +4945,7 @@
                 "recsU2ZSdzBvDqzgI",
                 "recsU2ZSdzBvDqzgI",
                 "rechuDYJoK32gmrME"
-            ],
-            "lagType": "FS",
-            "eventID": 115
+            ]
         }
     },
     {
@@ -4975,8 +4975,10 @@
             "partOf": [
                 "recTkocSMI0NxpIrw"
             ],
-            "verseSort": "01049028",
+            "lagType": "FS",
+            "eventID": 116,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "01049028",
             "sortKey": -1687.98950972,
             "places (from verses)": [
                 "recQea8xEa8yZBFdt",
@@ -4996,9 +4998,7 @@
                 "recZb9e7YIG9qh2qX",
                 "recCLJAZbd4JtoMv6",
                 "recsU2ZSdzBvDqzgI"
-            ],
-            "lagType": "FS",
-            "eventID": 116
+            ]
         }
     },
     {
@@ -6087,8 +6087,11 @@
                 "rechIcTdBsoSsooEI"
             ],
             "lag": "70Y",
-            "verseSort": "18001001",
+            "rangeFlag": true,
+            "lagType": "FS",
+            "eventID": 117,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "18001001",
             "sortKey": -1648.81998999,
             "places (from verses)": [
                 "recMLkyqKWtDeTzWm",
@@ -6099,7 +6102,6 @@
                 "rec3AkQ2GFvTqPxCx",
                 "rec5dSSsOutWlH2fW"
             ],
-            "rangeFlag": true,
             "people (from verses)": [
                 "recKXL1QrW8qTw5Ux",
                 "reccZB8SVU5bEMcgo",
@@ -6337,9 +6339,7 @@
                 "recKXL1QrW8qTw5Ux",
                 "recKXL1QrW8qTw5Ux",
                 "recKXL1QrW8qTw5Ux"
-            ],
-            "lagType": "FS",
-            "eventID": 117
+            ]
         }
     },
     {
@@ -6369,8 +6369,10 @@
             "partOf": [
                 "recj8qDYwzBEfwBAa"
             ],
-            "verseSort": "01050022",
+            "lagType": "FS",
+            "eventID": 118,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "01050022",
             "sortKey": -1633.98949978,
             "places (from verses)": [
                 "recfrXyxhuYOczKTm",
@@ -6391,9 +6393,7 @@
                 "recsU2ZSdzBvDqzgI",
                 "reccZB8SVU5bEMcgo",
                 "rechuDYJoK32gmrME"
-            ],
-            "lagType": "FS",
-            "eventID": 118
+            ]
         }
     },
     {
@@ -6417,15 +6417,15 @@
             "partOf": [
                 "recq4rk0MUq6acKxS"
             ],
-            "verseSort": "18042016",
+            "lagType": "FS",
+            "eventID": 119,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "18042016",
             "sortKey": -1578.81957984,
             "people (from verses)": [
                 "recKXL1QrW8qTw5Ux",
                 "recKXL1QrW8qTw5Ux"
-            ],
-            "lagType": "FS",
-            "eventID": 119
+            ]
         }
     },
     {
@@ -6458,8 +6458,9 @@
             "partOf": [
                 "recJOhn4C4yKIJmvH"
             ],
-            "verseSort": "02002001",
+            "eventID": 120,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "02002001",
             "sortKey": -1569.97997999,
             "people (from verses)": [
                 "recdIZxgxO61iLEXm",
@@ -6474,8 +6475,7 @@
                 "recOdl9oB4UWmbiqP",
                 "reczVnaIwayhs7vVk",
                 "recjNRR60PAuFtjha"
-            ],
-            "eventID": 120
+            ]
         }
     },
     {
@@ -6498,13 +6498,13 @@
             "predecessor": [
                 "rec6atQ3as7Qj2n5d"
             ],
-            "verseSort": "02002002",
+            "eventID": 121,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "02002002",
             "sortKey": -1569.97997998,
             "people (from verses)": [
                 "recjNRR60PAuFtjha"
-            ],
-            "eventID": 121
+            ]
         }
     },
     {
@@ -6525,8 +6525,10 @@
                 "rec6atQ3as7Qj2n5d"
             ],
             "lag": "40Y",
-            "verseSort": "02002011",
+            "lagType": "FS",
+            "eventID": 122,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "02002011",
             "sortKey": -1529.97997989,
             "places (from verses)": [
                 "recBZhqAvy5xhTNRn"
@@ -6537,9 +6539,7 @@
                 "recH2SSVsfsrmUwOx",
                 "recjNRR60PAuFtjha",
                 "recuAalSpGhVahIhx"
-            ],
-            "lagType": "FS",
-            "eventID": 122
+            ]
         }
     },
     {
@@ -6555,15 +6555,15 @@
             "verses": [
                 "recWyWTjIkszdZ0Xm"
             ],
-            "verseSort": "04013006",
+            "eventID": 123,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "04013006",
             "sortKey": -1527.95986994,
             "people (from verses)": [
                 "rec0rm6yYA4YUQrkh",
                 "recVua5TkKSl3y6Ol",
                 "recsZrzcKXJ8R2JCb"
-            ],
-            "eventID": 123
+            ]
         }
     },
     {
@@ -6579,15 +6579,15 @@
             "verses": [
                 "recVcTWP9SSgGFWoZ"
             ],
-            "verseSort": "07002008",
+            "eventID": 124,
             "modified": "2020-12-04T13:51:55.000Z",
+            "verseSort": "07002008",
             "sortKey": -1519.92997992,
             "people (from verses)": [
                 "recLuZtSmAO6erIsc",
                 "rectAKOMFVWfGYUGW",
                 "reccZB8SVU5bEMcgo"
-            ],
-            "eventID": 124
+            ]
         }
     },
     {
@@ -6833,7 +6833,6 @@
                 "recwofVaBASTvL8lL"
             ],
             "lag": "40Y",
-            "verseSort": "02006007",
             "groups": [
                 "recuYvXjZsXumRLPL",
                 "recDMQg1nEIjMnZ58",
@@ -6849,7 +6848,10 @@
                 "recad5Sz0E9gKbWYe",
                 "recsTcOXoP1DEM5lL"
             ],
+            "lagType": "FS",
+            "eventID": 125,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "02006007",
             "sortKey": -1489.97993993,
             "places (from verses)": [
                 "recfrXyxhuYOczKTm",
@@ -7306,9 +7308,7 @@
                 "reccZB8SVU5bEMcgo",
                 "recOdl9oB4UWmbiqP",
                 "reccZB8SVU5bEMcgo"
-            ],
-            "lagType": "FS",
-            "eventID": 125
+            ]
         }
     },
     {
@@ -7487,7 +7487,6 @@
             "predecessor": [
                 "recjkmUO88wihv8Ci"
             ],
-            "verseSort": "02013018",
             "groups": [
                 "recuYvXjZsXumRLPL",
                 "recDMQg1nEIjMnZ58",
@@ -7503,7 +7502,9 @@
                 "recad5Sz0E9gKbWYe",
                 "recsTcOXoP1DEM5lL"
             ],
+            "eventID": 126,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "02013018",
             "sortKey": -1489.97986982,
             "places (from verses)": [
                 "recfrXyxhuYOczKTm",
@@ -7774,8 +7775,7 @@
                 "recsU2ZSdzBvDqzgI",
                 "recjNRR60PAuFtjha",
                 "recjNRR60PAuFtjha"
-            ],
-            "eventID": 126
+            ]
         }
     },
     {
@@ -7842,8 +7842,10 @@
             "partOf": [
                 "recr71Fz4NHTnGLJ2"
             ],
-            "verseSort": "02019001",
+            "rangeFlag": true,
+            "eventID": 127,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "02019001",
             "sortKey": -1489.97980999,
             "places (from verses)": [
                 "recfrXyxhuYOczKTm",
@@ -7856,7 +7858,6 @@
                 "rec5Yu6987dc60uKz",
                 "recfrXyxhuYOczKTm"
             ],
-            "rangeFlag": true,
             "people (from verses)": [
                 "recsU2ZSdzBvDqzgI",
                 "recsU2ZSdzBvDqzgI",
@@ -7896,8 +7897,7 @@
                 "reccZB8SVU5bEMcgo",
                 "reccZB8SVU5bEMcgo",
                 "reccZB8SVU5bEMcgo"
-            ],
-            "eventID": 127
+            ]
         }
     },
     {
@@ -8220,11 +8220,13 @@
             "partOf": [
                 "recr71Fz4NHTnGLJ2"
             ],
-            "verseSort": "02033023",
             "groups": [
                 "recsTcOXoP1DEM5lL"
             ],
+            "lagType": "FS",
+            "eventID": 128,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "02033023",
             "sortKey": -1488.97966977,
             "places (from verses)": [
                 "recN1lVu0hmxpmrAq",
@@ -8433,9 +8435,7 @@
                 "reccZB8SVU5bEMcgo",
                 "reccZB8SVU5bEMcgo",
                 "reccZB8SVU5bEMcgo"
-            ],
-            "lagType": "FS",
-            "eventID": 128
+            ]
         }
     },
     {
@@ -8474,8 +8474,10 @@
                 "recJOhn4C4yKIJmvH",
                 "recr71Fz4NHTnGLJ2"
             ],
-            "verseSort": "01034001",
+            "lagType": "FS",
+            "eventID": 129,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "01034001",
             "sortKey": -1450.98965999,
             "places (from verses)": [
                 "recdMHFSmu222VnJG",
@@ -8528,9 +8530,7 @@
                 "recOdl9oB4UWmbiqP",
                 "reccZB8SVU5bEMcgo",
                 "recjNRR60PAuFtjha"
-            ],
-            "lagType": "FS",
-            "eventID": 129
+            ]
         }
     },
     {
@@ -8610,7 +8610,6 @@
             "predecessor": [
                 "recxj71m6XPSaqIg2"
             ],
-            "verseSort": "06001001",
             "groups": [
                 "recuYvXjZsXumRLPL",
                 "recDMQg1nEIjMnZ58",
@@ -8626,7 +8625,9 @@
                 "recad5Sz0E9gKbWYe",
                 "recsTcOXoP1DEM5lL"
             ],
+            "eventID": 130,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "06001001",
             "sortKey": -1449.93998999,
             "places (from verses)": [
                 "rec5dSSsOutWlH2fW",
@@ -8714,8 +8715,7 @@
                 "reccZB8SVU5bEMcgo",
                 "reccZB8SVU5bEMcgo",
                 "reccZB8SVU5bEMcgo"
-            ],
-            "eventID": 130
+            ]
         }
     },
     {
@@ -8978,8 +8978,9 @@
             "predecessor": [
                 "recSF4lyBebGjJEXI"
             ],
-            "verseSort": "06012024",
+            "eventID": 131,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "06012024",
             "sortKey": -1449.93987976,
             "places (from verses)": [
                 "recj04aKt1MXd5eDY",
@@ -9503,8 +9504,7 @@
                 "reccZB8SVU5bEMcgo",
                 "recLuZtSmAO6erIsc",
                 "recsU2ZSdzBvDqzgI"
-            ],
-            "eventID": 131
+            ]
         }
     },
     {
@@ -9565,8 +9565,9 @@
             "predecessor": [
                 "rec0t3McGWoyd6kTB"
             ],
-            "verseSort": "06014001",
+            "eventID": 132,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "06014001",
             "sortKey": -1443.93985999,
             "places (from verses)": [
                 "recRxBBePxyyV6TFO",
@@ -9715,8 +9716,7 @@
                 "recdIZxgxO61iLEXm",
                 "recjNRR60PAuFtjha",
                 "reccZB8SVU5bEMcgo"
-            ],
-            "eventID": 132
+            ]
         }
     },
     {
@@ -9738,8 +9738,10 @@
                 "recCxmBkZ15R7i1w6"
             ],
             "lag": "110Y",
-            "verseSort": "06024029",
+            "lagType": "FS",
+            "eventID": 133,
             "modified": "2020-12-04T13:51:55.000Z",
+            "verseSort": "06024029",
             "sortKey": -1422.93975971,
             "places (from verses)": [
                 "recLqhClSrRFpvMvG",
@@ -9753,9 +9755,7 @@
                 "rectAKOMFVWfGYUGW",
                 "reccZB8SVU5bEMcgo",
                 "recEtv9ql7Hh4XAW4"
-            ],
-            "lagType": "FS",
-            "eventID": 133
+            ]
         }
     },
     {
@@ -9776,11 +9776,12 @@
                 "recY3aaNO7G817XIi",
                 "recyiK8ucbgIlfsJg"
             ],
-            "verseSort": "07003007",
             "groups": [
                 "recsTcOXoP1DEM5lL"
             ],
+            "eventID": 134,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "07003007",
             "sortKey": -1416.92996993,
             "places (from verses)": [
                 "rec8Dy0OPNtiTqsoS"
@@ -9791,8 +9792,7 @@
                 "recPGvZdc49mHUu0j",
                 "recsU2ZSdzBvDqzgI",
                 "reccZB8SVU5bEMcgo"
-            ],
-            "eventID": 134
+            ]
         }
     },
     {
@@ -9824,11 +9824,12 @@
             "predecessor": [
                 "recEpl6nDyA0TWVdW"
             ],
-            "verseSort": "07002016",
             "groups": [
                 "recsTcOXoP1DEM5lL"
             ],
+            "eventID": 135,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "07002016",
             "sortKey": -1408.92997984,
             "places (from verses)": [
                 "rec8Dy0OPNtiTqsoS"
@@ -9852,8 +9853,7 @@
                 "reco82mzy0XTzaOgv",
                 "recgfx8iuSsor6yXf",
                 "recBwUFLiv93rfJsB"
-            ],
-            "eventID": 135
+            ]
         }
     },
     {
@@ -9878,11 +9878,12 @@
             "predecessor": [
                 "recUvk5tT0xGxR71o"
             ],
-            "verseSort": "07003012",
             "groups": [
                 "recsTcOXoP1DEM5lL"
             ],
+            "eventID": 136,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "07003012",
             "sortKey": -1376.92996988,
             "places (from verses)": [
                 "recUn6eVJDoG4xI0j",
@@ -9897,8 +9898,7 @@
                 "recsU2ZSdzBvDqzgI",
                 "reciyUNQrtUIFnVpj",
                 "rec3qiPi8JN2h86Mj"
-            ],
-            "eventID": 136
+            ]
         }
     },
     {
@@ -9936,11 +9936,12 @@
             "predecessor": [
                 "recG0Smwr0v3S7ShM"
             ],
-            "verseSort": "07003015",
             "groups": [
                 "recsTcOXoP1DEM5lL"
             ],
+            "eventID": 137,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "07003015",
             "sortKey": -1359.92996985,
             "places (from verses)": [
                 "recUn6eVJDoG4xI0j",
@@ -9971,8 +9972,7 @@
                 "reccZB8SVU5bEMcgo",
                 "rec3qiPi8JN2h86Mj",
                 "rec3qiPi8JN2h86Mj"
-            ],
-            "eventID": 137
+            ]
         }
     },
     {
@@ -9997,11 +9997,12 @@
             "predecessor": [
                 "recxl5FkotW1u50nA"
             ],
-            "verseSort": "07004001",
             "groups": [
                 "recsTcOXoP1DEM5lL"
             ],
+            "eventID": 138,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "07004001",
             "sortKey": -1296.92995999,
             "places (from verses)": [
                 "recZ0LQukEPoExEIn",
@@ -10018,8 +10019,7 @@
                 "reccZB8SVU5bEMcgo",
                 "recsU2ZSdzBvDqzgI",
                 "reccZB8SVU5bEMcgo"
-            ],
-            "eventID": 138
+            ]
         }
     },
     {
@@ -10093,11 +10093,12 @@
             "predecessor": [
                 "rec07gtJgfa7skhaQ"
             ],
-            "verseSort": "07004004",
             "groups": [
                 "recsTcOXoP1DEM5lL"
             ],
+            "eventID": 139,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "07004004",
             "sortKey": -1276.92995996,
             "places (from verses)": [
                 "rectFOmd9oBb0DoQ1",
@@ -10225,8 +10226,7 @@
                 "recCQlDLuGURuOOBb",
                 "recCQlDLuGURuOOBb",
                 "reccZB8SVU5bEMcgo"
-            ],
-            "eventID": 139
+            ]
         }
     },
     {
@@ -10258,11 +10258,12 @@
             "predecessor": [
                 "recoroJg305CLphtu"
             ],
-            "verseSort": "07006001",
             "groups": [
                 "recsTcOXoP1DEM5lL"
             ],
+            "eventID": 140,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "07006001",
             "sortKey": -1256.92993999,
             "places (from verses)": [
                 "recBZhqAvy5xhTNRn",
@@ -10286,8 +10287,7 @@
                 "recsU2ZSdzBvDqzgI",
                 "reccZB8SVU5bEMcgo",
                 "reccZB8SVU5bEMcgo"
-            ],
-            "eventID": 140
+            ]
         }
     },
     {
@@ -10391,11 +10391,12 @@
             "predecessor": [
                 "recNAaoS2dLaYGVgh"
             ],
-            "verseSort": "07006011",
             "groups": [
                 "recsTcOXoP1DEM5lL"
             ],
+            "eventID": 141,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "07006011",
             "sortKey": -1249.92993989,
             "places (from verses)": [
                 "rec8SNX7XoTfkfbY1",
@@ -10577,8 +10578,7 @@
                 "recuAalSpGhVahIhx",
                 "recsU2ZSdzBvDqzgI",
                 "recjU9TzJTjllYnUJ"
-            ],
-            "eventID": 141
+            ]
         }
     },
     {
@@ -10663,11 +10663,12 @@
             "predecessor": [
                 "recD6xiJWvESO0Wea"
             ],
-            "verseSort": "07008029",
             "groups": [
                 "recsTcOXoP1DEM5lL"
             ],
+            "eventID": 142,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "07008029",
             "sortKey": -1216.92991971,
             "places (from verses)": [
                 "recUySlrBva4ffoVs",
@@ -10791,8 +10792,7 @@
                 "recT3YrRiNH6O7cZm",
                 "recjU9TzJTjllYnUJ",
                 "reccZB8SVU5bEMcgo"
-            ],
-            "eventID": 142
+            ]
         }
     },
     {
@@ -10815,11 +10815,12 @@
             "predecessor": [
                 "recNLSBgKYUyByJwa"
             ],
-            "verseSort": "07010001",
             "groups": [
                 "recsTcOXoP1DEM5lL"
             ],
+            "eventID": 143,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "07010001",
             "sortKey": -1213.92989999,
             "places (from verses)": [
                 "recsONky7qFKhd5Ec",
@@ -10832,8 +10833,7 @@
                 "recx6sUiQ9ePMRAgm",
                 "rec3HzZknu1HOvNci",
                 "recEtv9ql7Hh4XAW4"
-            ],
-            "eventID": 143
+            ]
         }
     },
     {
@@ -10864,11 +10864,12 @@
             "predecessor": [
                 "rectQ4Vg6XbpTyR92"
             ],
-            "verseSort": "07010006",
             "groups": [
                 "recsTcOXoP1DEM5lL"
             ],
+            "eventID": 144,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "07010006",
             "sortKey": -1168.92989994,
             "places (from verses)": [
                 "recxiSg5QZWkj9Hy3",
@@ -10898,8 +10899,7 @@
                 "reccZB8SVU5bEMcgo",
                 "reccZB8SVU5bEMcgo",
                 "recsU2ZSdzBvDqzgI"
-            ],
-            "eventID": 144
+            ]
         }
     },
     {
@@ -10922,11 +10922,13 @@
                 "rec8n0BjcimmedGe3"
             ],
             "lag": "28Y",
-            "verseSort": "09004015",
             "groups": [
                 "recsTcOXoP1DEM5lL"
             ],
+            "lagType": "FS",
+            "eventID": 145,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "09004015",
             "sortKey": -1160.90995985,
             "people (from verses)": [
                 "recH9ECLXz8IgSUgF",
@@ -10935,9 +10937,7 @@
                 "recrRAVkDKZCXTSl7",
                 "reccZB8SVU5bEMcgo",
                 "reccZB8SVU5bEMcgo"
-            ],
-            "lagType": "FS",
-            "eventID": 145
+            ]
         }
     },
     {
@@ -11005,11 +11005,12 @@
             "predecessor": [
                 "rec7nesNMNffYRe3F"
             ],
-            "verseSort": "07011001",
             "groups": [
                 "recsTcOXoP1DEM5lL"
             ],
+            "eventID": 146,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "07011001",
             "sortKey": -1150.92988999,
             "places (from verses)": [
                 "rec4yrH3aeLayLu5Y",
@@ -11118,8 +11119,7 @@
                 "recIo7V1LEn9xfvcc",
                 "recEtv9ql7Hh4XAW4",
                 "recIo7V1LEn9xfvcc"
-            ],
-            "eventID": 146
+            ]
         }
     },
     {
@@ -11143,11 +11143,12 @@
             "predecessor": [
                 "recAfJj3Pv6wRG2nj"
             ],
-            "verseSort": "07012008",
             "groups": [
                 "recsTcOXoP1DEM5lL"
             ],
+            "eventID": 147,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "07012008",
             "sortKey": -1144.92987992,
             "places (from verses)": [
                 "rec81f3wE4gATsRRE",
@@ -11156,8 +11157,7 @@
             "people (from verses)": [
                 "reczVqdevrzgbL2pj",
                 "reczVqdevrzgbL2pj"
-            ],
-            "eventID": 147
+            ]
         }
     },
     {
@@ -11179,11 +11179,12 @@
                 "recqnRidwqD6so8gZ",
                 "rec6IYi1B41ycSgnz"
             ],
-            "verseSort": "07013001",
             "groups": [
                 "recsTcOXoP1DEM5lL"
             ],
+            "eventID": 148,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "07013001",
             "sortKey": -1139.92986999,
             "places (from verses)": [
                 "recYaOsZP30QMYgJV"
@@ -11194,8 +11195,7 @@
                 "reccZB8SVU5bEMcgo",
                 "rec0rm6yYA4YUQrkh",
                 "recwcML6FMulTblKH"
-            ],
-            "eventID": 148
+            ]
         }
     },
     {
@@ -11221,11 +11221,12 @@
             "partOf": [
                 "recSRPo1LlWZ7tNaO"
             ],
-            "verseSort": "07012011",
             "groups": [
                 "recsTcOXoP1DEM5lL"
             ],
+            "eventID": 149,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "07012011",
             "sortKey": -1137.92987989,
             "places (from verses)": [
                 "recAW3NovSbgdfNfk"
@@ -11234,8 +11235,7 @@
                 "recqrxJxFqOgX38ok",
                 "recqrxJxFqOgX38ok",
                 "recZ6YiBydClBiVVJ"
-            ],
-            "eventID": 149
+            ]
         }
     },
     {
@@ -11254,15 +11254,15 @@
             "partOf": [
                 "rec3uYdP5Fca5BJfX"
             ],
-            "verseSort": "09009002",
-            "modified": "2020-11-25T15:12:15.000Z",
-            "sortKey": -1133.90990998,
             "rangeFlag": true,
+            "eventID": 150,
+            "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "09009002",
+            "sortKey": -1133.90990998,
             "people (from verses)": [
                 "recjMT68aIzFLh6cQ",
                 "recsU2ZSdzBvDqzgI"
-            ],
-            "eventID": 150
+            ]
         }
     },
     {
@@ -11289,11 +11289,12 @@
             "partOf": [
                 "recSRPo1LlWZ7tNaO"
             ],
-            "verseSort": "07012013",
             "groups": [
                 "recsTcOXoP1DEM5lL"
             ],
+            "eventID": 151,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "07012013",
             "sortKey": -1127.92987987,
             "places (from verses)": [
                 "recuKYVxx1PqOEsiB"
@@ -11304,8 +11305,7 @@
                 "recbW7lsoVIceD25y",
                 "reca8OxzWyaFzg7TT",
                 "recEtv9ql7Hh4XAW4"
-            ],
-            "eventID": 151
+            ]
         }
     },
     {
@@ -11327,8 +11327,9 @@
             "predecessor": [
                 "rec3z1OqSDMH0rR7y"
             ],
-            "verseSort": "09004015",
+            "eventID": 152,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "09004015",
             "sortKey": -1120.90995985,
             "people (from verses)": [
                 "recH9ECLXz8IgSUgF",
@@ -11337,8 +11338,7 @@
                 "recrRAVkDKZCXTSl7",
                 "reccZB8SVU5bEMcgo",
                 "reccZB8SVU5bEMcgo"
-            ],
-            "eventID": 152
+            ]
         }
     },
     {
@@ -11364,11 +11364,12 @@
             "partOf": [
                 "recSRPo1LlWZ7tNaO"
             ],
-            "verseSort": "07015020",
             "groups": [
                 "recsTcOXoP1DEM5lL"
             ],
+            "eventID": 153,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "07015020",
             "sortKey": -1119.9298498,
             "places (from verses)": [
                 "recdiq65RtvGagXOn",
@@ -11376,8 +11377,7 @@
             ],
             "people (from verses)": [
                 "recVrmSzvxPuuzQ3v"
-            ],
-            "eventID": 153
+            ]
         }
     },
     {
@@ -11407,8 +11407,9 @@
             "partOf": [
                 "recSRPo1LlWZ7tNaO"
             ],
-            "verseSort": "07016023",
+            "eventID": 154,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "07016023",
             "sortKey": -1100.92983977,
             "places (from verses)": [
                 "recdiq65RtvGagXOn",
@@ -11425,8 +11426,7 @@
                 "recwcML6FMulTblKH",
                 "recwcML6FMulTblKH",
                 "recVrmSzvxPuuzQ3v"
-            ],
-            "eventID": 154
+            ]
         }
     },
     {
@@ -12034,8 +12034,9 @@
                 "recxnkDAiFMjaql6I",
                 "rec2TPIsvCymIbXhi"
             ],
-            "verseSort": "09010001",
+            "eventID": 155,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "09010001",
             "sortKey": -1093.90989999,
             "places (from verses)": [
                 "recdK2aTnuFDIx6XY",
@@ -13221,8 +13222,7 @@
                 "recjMT68aIzFLh6cQ",
                 "rec1ZMFtfbEvoGC73",
                 "rec9lplwEhGgkXdOn"
-            ],
-            "eventID": 155
+            ]
         }
     },
     {
@@ -13235,14 +13235,14 @@
             "verses": [
                 "recWxARcN28uLyEL1"
             ],
-            "verseSort": "09010001",
+            "eventID": 156,
             "modified": "2020-12-04T13:54:50.000Z",
+            "verseSort": "09010001",
             "sortKey": -1093.90989999,
             "people (from verses)": [
                 "recZsS2Zu0zIDwqdv",
                 "reccZB8SVU5bEMcgo"
-            ],
-            "eventID": 156
+            ]
         }
     },
     {
@@ -13319,8 +13319,10 @@
             "partOf": [
                 "rec3uYdP5Fca5BJfX"
             ],
-            "verseSort": "09017001",
+            "rangeFlag": true,
+            "eventID": 157,
             "modified": "2022-07-23T13:02:13.000Z",
+            "verseSort": "09017001",
             "sortKey": -1065.90982999,
             "places (from verses)": [
                 "rec3RF6Fb7wZUoamW",
@@ -13335,7 +13337,6 @@
                 "recFF06mG50AJliKz",
                 "recL1WV82pXaRBQ59"
             ],
-            "rangeFlag": true,
             "people (from verses)": [
                 "rec0rm6yYA4YUQrkh",
                 "recjMT68aIzFLh6cQ",
@@ -13408,8 +13409,7 @@
                 "recjMT68aIzFLh6cQ",
                 "rec1ZMFtfbEvoGC73",
                 "rec9lplwEhGgkXdOn"
-            ],
-            "eventID": 157
+            ]
         }
     },
     {
@@ -13444,8 +13444,9 @@
             "partOf": [
                 "rec3uYdP5Fca5BJfX"
             ],
-            "verseSort": "09031006",
+            "eventID": 158,
             "modified": "2022-07-23T12:59:05.000Z",
+            "verseSort": "09031006",
             "sortKey": -1053.90968994,
             "places (from verses)": [
                 "rec5dSSsOutWlH2fW",
@@ -13465,8 +13466,7 @@
                 "recjMT68aIzFLh6cQ",
                 "recjMT68aIzFLh6cQ",
                 "recjMT68aIzFLh6cQ"
-            ],
-            "eventID": 158
+            ]
         }
     },
     {
@@ -14159,8 +14159,9 @@
             "partOf": [
                 "rec3uYdP5Fca5BJfX"
             ],
-            "verseSort": "10002001",
+            "eventID": 159,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "10002001",
             "sortKey": -1053.89997999,
             "places (from verses)": [
                 "recJSfVnIcPibY6aX",
@@ -15499,8 +15500,7 @@
                 "reccZB8SVU5bEMcgo",
                 "rec1ZMFtfbEvoGC73",
                 "reccZB8SVU5bEMcgo"
-            ],
-            "eventID": 159
+            ]
         }
     },
     {
@@ -15526,8 +15526,9 @@
             "partOf": [
                 "rec3uYdP5Fca5BJfX"
             ],
-            "verseSort": "11002010",
+            "eventID": 160,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "11002010",
             "sortKey": -1013.8899799,
             "places (from verses)": [
                 "recL1WV82pXaRBQ59",
@@ -15536,8 +15537,7 @@
             "people (from verses)": [
                 "rec1ZMFtfbEvoGC73",
                 "rec1ZMFtfbEvoGC73"
-            ],
-            "eventID": 160
+            ]
         }
     },
     {
@@ -15930,8 +15930,9 @@
             "partOf": [
                 "rec3uYdP5Fca5BJfX"
             ],
-            "verseSort": "11002012",
+            "eventID": 161,
             "modified": "2020-12-04T13:33:49.000Z",
+            "verseSort": "11002012",
             "sortKey": -1013.88997988,
             "places (from verses)": [
                 "recL1WV82pXaRBQ59",
@@ -16527,8 +16528,7 @@
                 "rec0BAacWSGBXZ0zI",
                 "rec0BAacWSGBXZ0zI",
                 "recT4NuU7ta6hhcTv"
-            ],
-            "eventID": 161
+            ]
         }
     },
     {
@@ -16657,8 +16657,10 @@
             "partOf": [
                 "rec3uYdP5Fca5BJfX"
             ],
-            "verseSort": "11006001",
+            "lagType": "FS",
+            "eventID": 162,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "11006001",
             "sortKey": -1010.88993999,
             "places (from verses)": [
                 "recfrXyxhuYOczKTm",
@@ -16743,9 +16745,7 @@
                 "rec0BAacWSGBXZ0zI",
                 "rec0BAacWSGBXZ0zI",
                 "recT4NuU7ta6hhcTv"
-            ],
-            "lagType": "FS",
-            "eventID": 162
+            ]
         }
     },
     {
@@ -16761,15 +16761,15 @@
             "predecessor": [
                 "rec3u4dUBOoBi5pUx"
             ],
-            "verseSort": "11011043",
+            "eventID": 163,
             "modified": "2020-12-04T13:55:59.000Z",
+            "verseSort": "11011043",
             "sortKey": -973.88988957,
             "people (from verses)": [
                 "rec0BAacWSGBXZ0zI",
                 "rec1ZMFtfbEvoGC73",
                 "recqQthL4TAHb0KeC"
-            ],
-            "eventID": 163
+            ]
         }
     },
     {
@@ -16788,15 +16788,15 @@
             "predecessor": [
                 "recKTbnO8VY7lXLeX"
             ],
-            "verseSort": "11011043",
+            "eventID": 164,
             "modified": "2020-12-04T13:15:55.000Z",
+            "verseSort": "11011043",
             "sortKey": -973.88988957,
             "people (from verses)": [
                 "rec0BAacWSGBXZ0zI",
                 "rec1ZMFtfbEvoGC73",
                 "recqQthL4TAHb0KeC"
-            ],
-            "eventID": 164
+            ]
         }
     },
     {
@@ -16828,8 +16828,9 @@
             "partOf": [
                 "rec5W0YtPdi4yrvaY"
             ],
-            "verseSort": "11012017",
+            "eventID": 165,
             "modified": "2020-12-04T13:35:52.000Z",
+            "verseSort": "11012017",
             "sortKey": -973.88987983,
             "places (from verses)": [
                 "recL1WV82pXaRBQ59",
@@ -16857,8 +16858,7 @@
                 "recBOUtTncbBlfEn9",
                 "recsU2ZSdzBvDqzgI",
                 "reccZB8SVU5bEMcgo"
-            ],
-            "eventID": 165
+            ]
         }
     },
     {
@@ -16874,15 +16874,15 @@
             "predecessor": [
                 "rec3u4dUBOoBi5pUx"
             ],
-            "verseSort": "11012020",
+            "eventID": 166,
             "modified": "2020-12-04T13:56:38.000Z",
+            "verseSort": "11012020",
             "sortKey": -973.8898798,
             "people (from verses)": [
                 "recXhPherZAxvXTS4",
                 "rec1ZMFtfbEvoGC73",
                 "rec0rm6yYA4YUQrkh"
-            ],
-            "eventID": 166
+            ]
         }
     },
     {
@@ -16970,8 +16970,9 @@
             "partOf": [
                 "rec3R4qyFlVjCRORt"
             ],
-            "verseSort": "11012020",
+            "eventID": 167,
             "modified": "2020-12-04T13:49:00.000Z",
+            "verseSort": "11012020",
             "sortKey": -973.8898798,
             "places (from verses)": [
                 "recUySlrBva4ffoVs",
@@ -17072,8 +17073,7 @@
                 "recXhPherZAxvXTS4",
                 "recXhPherZAxvXTS4",
                 "reckwIXkgDob8lLJB"
-            ],
-            "eventID": 167
+            ]
         }
     },
     {
@@ -17106,8 +17106,10 @@
             "partOf": [
                 "rec5W0YtPdi4yrvaY"
             ],
-            "verseSort": "11015001",
+            "lagType": "SS",
+            "eventID": 168,
             "modified": "2020-12-04T13:36:28.000Z",
+            "verseSort": "11015001",
             "sortKey": -956.88984999,
             "places (from verses)": [
                 "recL1WV82pXaRBQ59",
@@ -17135,9 +17137,7 @@
                 "recEg9i0J2MgmkZr8",
                 "rec1ZMFtfbEvoGC73",
                 "recaraSBvlHIwaaOB"
-            ],
-            "lagType": "SS",
-            "eventID": 168
+            ]
         }
     },
     {
@@ -17162,15 +17162,15 @@
             "partOf": [
                 "rec5W0YtPdi4yrvaY"
             ],
-            "verseSort": "11015008",
+            "eventID": 169,
             "modified": "2020-12-04T13:16:15.000Z",
+            "verseSort": "11015008",
             "sortKey": -953.88984992,
             "people (from verses)": [
                 "recEg9i0J2MgmkZr8",
                 "rec1ZMFtfbEvoGC73",
                 "recaraSBvlHIwaaOB"
-            ],
-            "eventID": 169
+            ]
         }
     },
     {
@@ -17211,8 +17211,10 @@
             "partOf": [
                 "rec5W0YtPdi4yrvaY"
             ],
-            "verseSort": "11015009",
+            "lagType": "SS",
+            "eventID": 170,
             "modified": "2020-12-04T13:36:28.000Z",
+            "verseSort": "11015009",
             "sortKey": -953.88984991,
             "places (from verses)": [
                 "recL1WV82pXaRBQ59",
@@ -17268,9 +17270,7 @@
                 "recaraSBvlHIwaaOB",
                 "rec1ZMFtfbEvoGC73",
                 "recyNusCmwtrDBSab"
-            ],
-            "lagType": "SS",
-            "eventID": 170
+            ]
         }
     },
     {
@@ -17297,8 +17297,10 @@
             "partOf": [
                 "rec3R4qyFlVjCRORt"
             ],
-            "verseSort": "11015025",
+            "lagType": "SS",
+            "eventID": 171,
             "modified": "2020-12-04T13:37:09.000Z",
+            "verseSort": "11015025",
             "sortKey": -952.88984975,
             "people (from verses)": [
                 "reckwIXkgDob8lLJB",
@@ -17306,9 +17308,7 @@
                 "recaraSBvlHIwaaOB",
                 "rec0rm6yYA4YUQrkh",
                 "reccZB8SVU5bEMcgo"
-            ],
-            "lagType": "SS",
-            "eventID": 171
+            ]
         }
     },
     {
@@ -17340,8 +17340,10 @@
             "partOf": [
                 "rec3R4qyFlVjCRORt"
             ],
-            "verseSort": "11015033",
+            "lagType": "SS",
+            "eventID": 172,
             "modified": "2020-12-04T13:37:09.000Z",
+            "verseSort": "11015033",
             "sortKey": -951.88984967,
             "places (from verses)": [
                 "recj04aKt1MXd5eDY"
@@ -17364,9 +17366,7 @@
                 "recPF80I9rSEP1EHd",
                 "recBshoEF7PEnjaAy",
                 "recBshoEF7PEnjaAy"
-            ],
-            "lagType": "SS",
-            "eventID": 172
+            ]
         }
     },
     {
@@ -17394,8 +17394,10 @@
             "partOf": [
                 "rec3R4qyFlVjCRORt"
             ],
-            "verseSort": "11016006",
+            "lagType": "SS",
+            "eventID": 173,
             "modified": "2020-12-04T13:37:09.000Z",
+            "verseSort": "11016006",
             "sortKey": -928.88983994,
             "places (from verses)": [
                 "recj04aKt1MXd5eDY",
@@ -17413,9 +17415,7 @@
                 "rec0rm6yYA4YUQrkh",
                 "recFexGOO6Xag0jw7",
                 "recBshoEF7PEnjaAy"
-            ],
-            "lagType": "SS",
-            "eventID": 173
+            ]
         }
     },
     {
@@ -17442,8 +17442,10 @@
             "partOf": [
                 "rec3R4qyFlVjCRORt"
             ],
-            "verseSort": "11016015",
+            "lagType": "SS",
+            "eventID": 174,
             "modified": "2020-12-04T13:37:09.000Z",
+            "verseSort": "11016015",
             "sortKey": -927.88983985,
             "places (from verses)": [
                 "recj04aKt1MXd5eDY",
@@ -17455,9 +17457,7 @@
                 "reclrP11qLpXRCROa",
                 "reclrP11qLpXRCROa",
                 "reck40BPIsL4eOuMr"
-            ],
-            "lagType": "SS",
-            "eventID": 174
+            ]
         }
     },
     {
@@ -17484,8 +17484,10 @@
             "partOf": [
                 "rec3R4qyFlVjCRORt"
             ],
-            "verseSort": "11016021",
+            "lagType": "SS",
+            "eventID": 175,
             "modified": "2020-12-04T13:37:09.000Z",
+            "verseSort": "11016021",
             "sortKey": -927.88983979,
             "people (from verses)": [
                 "recsgJ2OsMdwhVHYj",
@@ -17494,9 +17496,7 @@
                 "reck40BPIsL4eOuMr",
                 "recsgJ2OsMdwhVHYj",
                 "rec8CpdJgloDWtEqM"
-            ],
-            "lagType": "SS",
-            "eventID": 175
+            ]
         }
     },
     {
@@ -17528,8 +17528,10 @@
             "partOf": [
                 "rec3R4qyFlVjCRORt"
             ],
-            "verseSort": "11016023",
+            "lagType": "SS",
+            "eventID": 176,
             "modified": "2020-12-04T13:37:09.000Z",
+            "verseSort": "11016023",
             "sortKey": -927.88983977,
             "places (from verses)": [
                 "recj04aKt1MXd5eDY",
@@ -17552,9 +17554,7 @@
                 "rec8CpdJgloDWtEqM",
                 "reck40BPIsL4eOuMr",
                 "rec91wntVnuliHv7E"
-            ],
-            "lagType": "SS",
-            "eventID": 176
+            ]
         }
     },
     {
@@ -17576,15 +17576,15 @@
             "partOf": [
                 "rec3R4qyFlVjCRORt"
             ],
-            "verseSort": "11016022",
+            "eventID": 177,
             "modified": "2020-12-02T16:51:07.000Z",
+            "verseSort": "11016022",
             "sortKey": -923.88983978,
             "people (from verses)": [
                 "reck40BPIsL4eOuMr",
                 "recsgJ2OsMdwhVHYj",
                 "rec8CpdJgloDWtEqM"
-            ],
-            "eventID": 177
+            ]
         }
     },
     {
@@ -17612,8 +17612,10 @@
             "partOf": [
                 "rec3R4qyFlVjCRORt"
             ],
-            "verseSort": "11016028",
+            "lagType": "SS",
+            "eventID": 178,
             "modified": "2020-12-04T13:37:09.000Z",
+            "verseSort": "11016028",
             "sortKey": -916.88983972,
             "places (from verses)": [
                 "recEP3QZ3HUmIkv4Q",
@@ -17629,9 +17631,7 @@
                 "rec91wntVnuliHv7E",
                 "reck40BPIsL4eOuMr",
                 "reccZB8SVU5bEMcgo"
-            ],
-            "lagType": "SS",
-            "eventID": 178
+            ]
         }
     },
     {
@@ -17656,8 +17656,9 @@
             "partOf": [
                 "rec3R4qyFlVjCRORt"
             ],
-            "verseSort": "11016028",
+            "eventID": 179,
             "modified": "2020-12-04T13:16:41.000Z",
+            "verseSort": "11016028",
             "sortKey": -915.88983972,
             "places (from verses)": [
                 "recEP3QZ3HUmIkv4Q"
@@ -17665,8 +17666,7 @@
             "people (from verses)": [
                 "reck40BPIsL4eOuMr",
                 "rec91wntVnuliHv7E"
-            ],
-            "eventID": 179
+            ]
         }
     },
     {
@@ -17691,15 +17691,15 @@
             "partOf": [
                 "rec5W0YtPdi4yrvaY"
             ],
-            "verseSort": "11015024",
+            "eventID": 180,
             "modified": "2020-12-04T13:16:56.000Z",
+            "verseSort": "11015024",
             "sortKey": -912.88984976,
             "people (from verses)": [
                 "recaraSBvlHIwaaOB",
                 "rec1ZMFtfbEvoGC73",
                 "recyNusCmwtrDBSab"
-            ],
-            "eventID": 180
+            ]
         }
     },
     {
@@ -17733,8 +17733,10 @@
             "partOf": [
                 "rec5W0YtPdi4yrvaY"
             ],
-            "verseSort": "11022041",
+            "lagType": "SS",
+            "eventID": 181,
             "modified": "2020-12-04T13:36:28.000Z",
+            "verseSort": "11022041",
             "sortKey": -912.88977959,
             "places (from verses)": [
                 "recL1WV82pXaRBQ59",
@@ -17763,9 +17765,7 @@
                 "recyNusCmwtrDBSab",
                 "rec1ZMFtfbEvoGC73",
                 "recsyU2HqpyE9PeTo"
-            ],
-            "lagType": "SS",
-            "eventID": 181
+            ]
         }
     },
     {
@@ -17943,8 +17943,9 @@
                 "recb2qiso66EkaNkQ",
                 "recLagFr9olax8vua"
             ],
-            "verseSort": "11017001",
+            "eventID": 182,
             "modified": "2020-12-02T16:35:56.000Z",
+            "verseSort": "11017001",
             "sortKey": -908.88982999,
             "places (from verses)": [
                 "recLMzdtXiHskli2K",
@@ -18233,8 +18234,7 @@
                 "recbHLkz06CSe3C4K",
                 "recKGwJpH24g67ZTm",
                 "reccZB8SVU5bEMcgo"
-            ],
-            "eventID": 182
+            ]
         }
     },
     {
@@ -18259,15 +18259,15 @@
             "partOf": [
                 "rec5W0YtPdi4yrvaY"
             ],
-            "verseSort": "11022050",
+            "eventID": 183,
             "modified": "2020-12-04T13:17:05.000Z",
+            "verseSort": "11022050",
             "sortKey": -908.8897795,
             "people (from verses)": [
                 "recyNusCmwtrDBSab",
                 "rec1ZMFtfbEvoGC73",
                 "recsyU2HqpyE9PeTo"
-            ],
-            "eventID": 183
+            ]
         }
     },
     {
@@ -18295,8 +18295,10 @@
             "partOf": [
                 "rec3R4qyFlVjCRORt"
             ],
-            "verseSort": "11022051",
+            "lagType": "SS",
+            "eventID": 184,
             "modified": "2020-12-04T13:37:09.000Z",
+            "verseSort": "11022051",
             "sortKey": -896.88977949,
             "places (from verses)": [
                 "recEP3QZ3HUmIkv4Q"
@@ -18311,9 +18313,7 @@
                 "reccZB8SVU5bEMcgo",
                 "recE9nWKk1vLR7zi1",
                 "reccZB8SVU5bEMcgo"
-            ],
-            "lagType": "SS",
-            "eventID": 184
+            ]
         }
     },
     {
@@ -18342,8 +18342,9 @@
             "partOf": [
                 "recRiyMlpGQNCIZvm"
             ],
-            "verseSort": "12002001",
+            "eventID": 185,
             "modified": "2020-12-02T16:35:56.000Z",
+            "verseSort": "12002001",
             "sortKey": -895.87997999,
             "places (from verses)": [
                 "recMk8e2xt1Lf5HKz",
@@ -18380,8 +18381,7 @@
                 "recbHLkz06CSe3C4K",
                 "recKGwJpH24g67ZTm",
                 "reccZB8SVU5bEMcgo"
-            ],
-            "eventID": 185
+            ]
         }
     },
     {
@@ -18547,8 +18547,9 @@
             "predecessor": [
                 "recRiyMlpGQNCIZvm"
             ],
-            "verseSort": "12002015",
+            "eventID": 186,
             "modified": "2020-12-01T16:24:11.000Z",
+            "verseSort": "12002015",
             "sortKey": -895.87997985,
             "places (from verses)": [
                 "recdMHFSmu222VnJG",
@@ -18712,8 +18713,7 @@
                 "reccZB8SVU5bEMcgo",
                 "recKGwJpH24g67ZTm",
                 "recKGwJpH24g67ZTm"
-            ],
-            "eventID": 186
+            ]
         }
     },
     {
@@ -18744,8 +18744,10 @@
             "partOf": [
                 "rec3R4qyFlVjCRORt"
             ],
-            "verseSort": "12003001",
+            "lagType": "SS",
+            "eventID": 187,
             "modified": "2020-12-04T13:37:09.000Z",
+            "verseSort": "12003001",
             "sortKey": -895.87996999,
             "places (from verses)": [
                 "recEP3QZ3HUmIkv4Q",
@@ -18767,9 +18769,7 @@
                 "rec91wntVnuliHv7E",
                 "rec3qiPi8JN2h86Mj",
                 "rec6bglEYL173T2KE"
-            ],
-            "lagType": "SS",
-            "eventID": 187
+            ]
         }
     },
     {
@@ -18804,8 +18804,10 @@
             "partOf": [
                 "rec5W0YtPdi4yrvaY"
             ],
-            "verseSort": "12001017",
+            "lagType": "SS",
+            "eventID": 188,
             "modified": "2020-12-04T13:36:28.000Z",
+            "verseSort": "12001017",
             "sortKey": -891.87998983,
             "places (from verses)": [
                 "recL1WV82pXaRBQ59",
@@ -18839,9 +18841,7 @@
                 "recsyU2HqpyE9PeTo",
                 "rec1ZMFtfbEvoGC73",
                 "rec83PZfB7PGjHMh0"
-            ],
-            "lagType": "SS",
-            "eventID": 188
+            ]
         }
     },
     {
@@ -18871,8 +18871,10 @@
             "partOf": [
                 "rec5W0YtPdi4yrvaY"
             ],
-            "verseSort": "12008025",
+            "lagType": "SS",
+            "eventID": 189,
             "modified": "2020-12-04T13:36:28.000Z",
+            "verseSort": "12008025",
             "sortKey": -884.87991975,
             "places (from verses)": [
                 "recL1WV82pXaRBQ59",
@@ -18900,9 +18902,7 @@
                 "rec83PZfB7PGjHMh0",
                 "rec0rm6yYA4YUQrkh",
                 "rec91wntVnuliHv7E"
-            ],
-            "lagType": "SS",
-            "eventID": 189
+            ]
         }
     },
     {
@@ -18999,8 +18999,10 @@
             "partOf": [
                 "rec3R4qyFlVjCRORt"
             ],
-            "verseSort": "12009002",
+            "lagType": "SS",
+            "eventID": 190,
             "modified": "2020-12-04T13:37:09.000Z",
+            "verseSort": "12009002",
             "sortKey": -884.87990998,
             "places (from verses)": [
                 "recp2WSSUeSBeg6rV",
@@ -19164,9 +19166,7 @@
                 "receyzziW4sDhoPTk",
                 "recwbEMJCh71vCprI",
                 "receyzziW4sDhoPTk"
-            ],
-            "lagType": "SS",
-            "eventID": 190
+            ]
         }
     },
     {
@@ -19193,8 +19193,9 @@
             "partOf": [
                 "rec5W0YtPdi4yrvaY"
             ],
-            "verseSort": "12011001",
+            "eventID": 191,
             "modified": "2020-12-04T13:36:28.000Z",
+            "verseSort": "12011001",
             "sortKey": -884.87988999,
             "people (from verses)": [
                 "recjyWBYEzNaB2uZC",
@@ -19206,8 +19207,7 @@
                 "recjyWBYEzNaB2uZC",
                 "recjyWBYEzNaB2uZC",
                 "reccZB8SVU5bEMcgo"
-            ],
-            "eventID": 191
+            ]
         }
     },
     {
@@ -19232,15 +19232,15 @@
             "partOf": [
                 "rec5W0YtPdi4yrvaY"
             ],
-            "verseSort": "12008024",
+            "eventID": 192,
             "modified": "2020-12-04T13:17:14.000Z",
+            "verseSort": "12008024",
             "sortKey": -883.87991976,
             "people (from verses)": [
                 "recsyU2HqpyE9PeTo",
                 "rec1ZMFtfbEvoGC73",
                 "rec83PZfB7PGjHMh0"
-            ],
-            "eventID": 192
+            ]
         }
     },
     {
@@ -19287,8 +19287,10 @@
             "partOf": [
                 "rec5W0YtPdi4yrvaY"
             ],
-            "verseSort": "12012001",
+            "lagType": "SS",
+            "eventID": 193,
             "modified": "2020-12-04T13:36:28.000Z",
+            "verseSort": "12012001",
             "sortKey": -877.87987999,
             "places (from verses)": [
                 "recL1WV82pXaRBQ59",
@@ -19338,9 +19340,7 @@
                 "rec1ZMFtfbEvoGC73",
                 "receruzYNFLuIW0Kn",
                 "recA6SoUZemkcNXbN"
-            ],
-            "lagType": "SS",
-            "eventID": 193
+            ]
         }
     },
     {
@@ -19365,8 +19365,9 @@
             "partOf": [
                 "rec3R4qyFlVjCRORt"
             ],
-            "verseSort": "12010035",
+            "eventID": 194,
             "modified": "2020-12-04T13:17:28.000Z",
+            "verseSort": "12010035",
             "sortKey": -856.87989965,
             "places (from verses)": [
                 "recEP3QZ3HUmIkv4Q"
@@ -19374,8 +19375,7 @@
             "people (from verses)": [
                 "receyzziW4sDhoPTk",
                 "recwbEMJCh71vCprI"
-            ],
-            "eventID": 194
+            ]
         }
     },
     {
@@ -19409,8 +19409,10 @@
             "partOf": [
                 "rec3R4qyFlVjCRORt"
             ],
-            "verseSort": "12013001",
+            "lagType": "SS",
+            "eventID": 195,
             "modified": "2020-12-04T13:37:09.000Z",
+            "verseSort": "12013001",
             "sortKey": -855.87986999,
             "places (from verses)": [
                 "recEP3QZ3HUmIkv4Q",
@@ -19441,9 +19443,7 @@
                 "recwbEMJCh71vCprI",
                 "recwbEMJCh71vCprI",
                 "recXmKvS4YnlgRaln"
-            ],
-            "lagType": "SS",
-            "eventID": 195
+            ]
         }
     },
     {
@@ -19468,8 +19468,9 @@
             "partOf": [
                 "rec3R4qyFlVjCRORt"
             ],
-            "verseSort": "12013009",
+            "eventID": 196,
             "modified": "2020-12-04T13:17:38.000Z",
+            "verseSort": "12013009",
             "sortKey": -838.87986991,
             "places (from verses)": [
                 "recEP3QZ3HUmIkv4Q"
@@ -19477,8 +19478,7 @@
             "people (from verses)": [
                 "recwbEMJCh71vCprI",
                 "recXmKvS4YnlgRaln"
-            ],
-            "eventID": 196
+            ]
         }
     },
     {
@@ -19507,8 +19507,10 @@
             "partOf": [
                 "rec3R4qyFlVjCRORt"
             ],
-            "verseSort": "12013010",
+            "lagType": "SS",
+            "eventID": 197,
             "modified": "2020-12-04T13:37:09.000Z",
+            "verseSort": "12013010",
             "sortKey": -838.8798699,
             "places (from verses)": [
                 "recEP3QZ3HUmIkv4Q",
@@ -19526,9 +19528,7 @@
                 "rec0rm6yYA4YUQrkh",
                 "recXmKvS4YnlgRaln",
                 "recxkR6HLJD0xWE6R"
-            ],
-            "lagType": "SS",
-            "eventID": 197
+            ]
         }
     },
     {
@@ -19575,8 +19575,10 @@
             "partOf": [
                 "rec5W0YtPdi4yrvaY"
             ],
-            "verseSort": "12014001",
+            "lagType": "SS",
+            "eventID": 198,
             "modified": "2020-12-04T13:36:28.000Z",
+            "verseSort": "12014001",
             "sortKey": -837.87985999,
             "places (from verses)": [
                 "recL1WV82pXaRBQ59",
@@ -19643,9 +19645,7 @@
                 "recZOriotFt9GIf6b",
                 "receruzYNFLuIW0Kn",
                 "rec0rm6yYA4YUQrkh"
-            ],
-            "lagType": "SS",
-            "eventID": 198
+            ]
         }
     },
     {
@@ -19677,8 +19677,10 @@
             "partOf": [
                 "rec3R4qyFlVjCRORt"
             ],
-            "verseSort": "12014023",
+            "lagType": "SS",
+            "eventID": 199,
             "modified": "2020-12-04T13:37:09.000Z",
+            "verseSort": "12014023",
             "sortKey": -823.87985977,
             "places (from verses)": [
                 "recEP3QZ3HUmIkv4Q",
@@ -19707,9 +19709,7 @@
                 "rec0rm6yYA4YUQrkh",
                 "recxkR6HLJD0xWE6R",
                 "recsXoXlK7uu49Xun"
-            ],
-            "lagType": "SS",
-            "eventID": 199
+            ]
         }
     },
     {
@@ -19772,8 +19772,9 @@
                 "recryvWteZJkZdFpW",
                 "recp9iR58llu9tuiI"
             ],
-            "verseSort": "32001001",
+            "eventID": 200,
             "modified": "2020-12-01T15:28:11.000Z",
+            "verseSort": "32001001",
             "sortKey": -823.67998999,
             "places (from verses)": [
                 "rec5WK4QGcKa48pA6",
@@ -19835,8 +19836,7 @@
                 "recDDzG65U8UNAY4h",
                 "reccZB8SVU5bEMcgo",
                 "reccZB8SVU5bEMcgo"
-            ],
-            "eventID": 200
+            ]
         }
     },
     {
@@ -36121,8 +36121,9 @@
             "predecessor": [
                 "recqkOAX88FDIN0ee"
             ],
-            "verseSort": "40013001",
+            "eventID": 386,
             "modified": "2022-03-15T20:10:39.000Z",
+            "verseSort": "40013001",
             "sortKey": 28.40013001,
             "people (from verses)": [
                 "recgkFqZovgbr3pAi",
@@ -36154,8 +36155,7 @@
                 "reccZB8SVU5bEMcgo",
                 "recgkFqZovgbr3pAi",
                 "recgkFqZovgbr3pAi"
-            ],
-            "eventID": 386
+            ]
         }
     },
     {
@@ -36188,8 +36188,9 @@
             "predecessor": [
                 "reczf8H4EoM3gfimU"
             ],
-            "verseSort": "41001035",
+            "eventID": 285,
             "modified": "2021-07-07T19:36:14.000Z",
+            "verseSort": "41001035",
             "sortKey": 28.41001035,
             "places (from verses)": [
                 "recmL1lWBqWP3mAq3",
@@ -36205,8 +36206,7 @@
                 "recX9MMADoVI2CSP1",
                 "recgkFqZovgbr3pAi",
                 "reccZB8SVU5bEMcgo"
-            ],
-            "eventID": 285
+            ]
         }
     },
     {
@@ -36234,8 +36234,9 @@
             "predecessor": [
                 "rec6mNLyG5AVN4X1b"
             ],
-            "verseSort": "42007011",
+            "eventID": 298,
             "modified": "2021-07-09T20:43:07.000Z",
+            "verseSort": "42007011",
             "sortKey": 28.42007011,
             "places (from verses)": [
                 "recDMEtrw6FGZIJ9J",
@@ -36244,8 +36245,7 @@
             "people (from verses)": [
                 "recgkFqZovgbr3pAi",
                 "reccZB8SVU5bEMcgo"
-            ],
-            "eventID": 298
+            ]
         }
     },
     {
@@ -36281,16 +36281,16 @@
             "predecessor": [
                 "recYaZ1gwefzzNB1V"
             ],
-            "verseSort": "42007036",
+            "eventID": 301,
             "modified": "2021-07-09T21:12:15.000Z",
+            "verseSort": "42007036",
             "sortKey": 28.42007036,
             "people (from verses)": [
                 "recgkFqZovgbr3pAi",
                 "rec04sGSKA1kdTxYY",
                 "rec04sGSKA1kdTxYY",
                 "rec04sGSKA1kdTxYY"
-            ],
-            "eventID": 301
+            ]
         }
     },
     {
@@ -36317,8 +36317,9 @@
             "predecessor": [
                 "recXZv0xfad7smkqB"
             ],
-            "verseSort": "42008001",
+            "eventID": 302,
             "modified": "2021-07-09T21:14:29.000Z",
+            "verseSort": "42008001",
             "sortKey": 28.42008001,
             "people (from verses)": [
                 "reccZB8SVU5bEMcgo",
@@ -36327,8 +36328,7 @@
                 "recaKpxRpDVSYxjMf",
                 "recmjoavfsyFJcm9S",
                 "recpSJoVnjxbOFSsx"
-            ],
-            "eventID": 302
+            ]
         }
     },
     {
@@ -36396,8 +36396,9 @@
             "predecessor": [
                 "rec4P9y8WdotpjMm9"
             ],
-            "verseSort": "43005001",
+            "eventID": 291,
             "modified": "2021-07-09T20:16:34.000Z",
+            "verseSort": "43005001",
             "sortKey": 28.43005001,
             "places (from verses)": [
                 "recL1WV82pXaRBQ59",
@@ -36442,8 +36443,7 @@
                 "recjNRR60PAuFtjha",
                 "reccZB8SVU5bEMcgo",
                 "recjNRR60PAuFtjha"
-            ],
-            "eventID": 291
+            ]
         }
     },
     {
@@ -36524,8 +36524,9 @@
             "predecessor": [
                 "recnCLTHvWRdrFwVY"
             ],
-            "verseSort": "40009035",
+            "eventID": 390,
             "modified": "2022-03-15T21:32:15.000Z",
+            "verseSort": "40009035",
             "sortKey": 29.40009035,
             "places (from verses)": [
                 "rec34nlC2Rt0dlYyu",
@@ -36558,8 +36559,7 @@
                 "reccZB8SVU5bEMcgo",
                 "recgkFqZovgbr3pAi",
                 "reccZB8SVU5bEMcgo"
-            ],
-            "eventID": 390
+            ]
         }
     },
     {
@@ -36591,8 +36591,9 @@
             "predecessor": [
                 "recMTSIklCghjlACt"
             ],
-            "verseSort": "40013054",
+            "eventID": 389,
             "modified": "2022-03-15T21:32:15.000Z",
+            "verseSort": "40013054",
             "sortKey": 29.40013054,
             "people (from verses)": [
                 "recnheSkryxih4g9J",
@@ -36608,8 +36609,7 @@
                 "rec8R7Os9hEDyuTkI",
                 "recgkFqZovgbr3pAi",
                 "recgkFqZovgbr3pAi"
-            ],
-            "eventID": 389
+            ]
         }
     },
     {
@@ -36647,8 +36647,9 @@
             "predecessor": [
                 "rec6tRRdOlOUY9UNN"
             ],
-            "verseSort": "40014006",
+            "eventID": 391,
             "modified": "2022-03-15T21:33:13.000Z",
+            "verseSort": "40014006",
             "sortKey": 29.40014006,
             "places (from verses)": [
                 "recmL1lWBqWP3mAq3"
@@ -36671,8 +36672,7 @@
                 "recbHLkz06CSe3C4K",
                 "recV4ujd4P2vfpd2D",
                 "recNRRITyGzXsl4yp"
-            ],
-            "eventID": 391
+            ]
         }
     },
     {
@@ -36741,8 +36741,9 @@
             "predecessor": [
                 "rec5E1T7Mq1psBubn"
             ],
-            "verseSort": "40014013",
+            "eventID": 393,
             "modified": "2023-01-16T15:11:12.000Z",
+            "verseSort": "40014013",
             "sortKey": 29.40014013,
             "places (from verses)": [
                 "recntv9dPBMgCWCPD",
@@ -36766,8 +36767,7 @@
                 "recgkFqZovgbr3pAi",
                 "recgkFqZovgbr3pAi",
                 "recgkFqZovgbr3pAi"
-            ],
-            "eventID": 393
+            ]
         }
     },
     {
@@ -36816,8 +36816,9 @@
             "predecessor": [
                 "rec8AUk5qsGus2shA"
             ],
-            "verseSort": "40014022",
+            "eventID": 394,
             "modified": "2023-01-16T15:16:45.000Z",
+            "verseSort": "40014022",
             "sortKey": 29.40014022,
             "places (from verses)": [
                 "recntv9dPBMgCWCPD",
@@ -36838,8 +36839,7 @@
                 "recgkFqZovgbr3pAi",
                 "recgkFqZovgbr3pAi",
                 "recgkFqZovgbr3pAi"
-            ],
-            "eventID": 394
+            ]
         }
     },
     {
@@ -36867,14 +36867,14 @@
             "predecessor": [
                 "recQ8WbFKwtwzK9Xm"
             ],
-            "verseSort": "40014034",
+            "eventID": 396,
             "modified": "2023-01-16T19:56:25.000Z",
+            "verseSort": "40014034",
             "sortKey": 29.40014034,
             "places (from verses)": [
                 "recoHThWegAzIJ6I8",
                 "recoHThWegAzIJ6I8"
-            ],
-            "eventID": 396
+            ]
         }
     },
     {
@@ -36946,11 +36946,12 @@
             "predecessor": [
                 "recXbkZXIXcuKVF6d"
             ],
-            "verseSort": "43006022",
             "groups": [
                 "recDquhyNAst5bTvn"
             ],
+            "eventID": 397,
             "modified": "2023-01-16T19:59:41.000Z",
+            "verseSort": "43006022",
             "sortKey": 29.43006022,
             "places (from verses)": [
                 "recJ5Vr9vsvg72UIz",
@@ -36997,8 +36998,7 @@
                 "recgkFqZovgbr3pAi",
                 "rec95raiD3sLuptbO",
                 "rec04sGSKA1kdTxYY"
-            ],
-            "eventID": 397
+            ]
         }
     },
     {
@@ -37020,11 +37020,12 @@
                 "recvhYfpdHDZzIUVM",
                 "recs0PQO7uvtT2wvn"
             ],
-            "verseSort": "44001004",
             "groups": [
                 "recb9l9ttaZlODOFV"
             ],
+            "eventID": 304,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44001004",
             "sortKey": 33.44001004,
             "places (from verses)": [
                 "recL1WV82pXaRBQ59"
@@ -37033,8 +37034,7 @@
                 "reccZB8SVU5bEMcgo",
                 "recNRRITyGzXsl4yp",
                 "reco82mzy0XTzaOgv"
-            ],
-            "eventID": 304
+            ]
         }
     },
     {
@@ -37062,11 +37062,12 @@
             "predecessor": [
                 "recvfB75N6vrQwhWW"
             ],
-            "verseSort": "44001006",
             "groups": [
                 "recb9l9ttaZlODOFV"
             ],
+            "eventID": 305,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44001006",
             "sortKey": 33.44001006,
             "places (from verses)": [
                 "recEP3QZ3HUmIkv4Q",
@@ -37079,8 +37080,7 @@
                 "reccZB8SVU5bEMcgo",
                 "reco82mzy0XTzaOgv",
                 "recgkFqZovgbr3pAi"
-            ],
-            "eventID": 305
+            ]
         }
     },
     {
@@ -37129,12 +37129,13 @@
             "predecessor": [
                 "rec06pcAZBChUBKxF"
             ],
-            "verseSort": "44001012",
             "groups": [
                 "recb9l9ttaZlODOFV",
                 "recBC0I2HaciTQbaa"
             ],
+            "eventID": 306,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44001012",
             "sortKey": 33.44001012,
             "places (from verses)": [
                 "recp5J3K9kl6DteAM",
@@ -37168,8 +37169,7 @@
                 "recgkFqZovgbr3pAi",
                 "rec95raiD3sLuptbO",
                 "recAKZBlllSFGbCSM"
-            ],
-            "eventID": 306
+            ]
         }
     },
     {
@@ -37204,11 +37204,12 @@
             "predecessor": [
                 "reczDqE366xgbgv2C"
             ],
-            "verseSort": "44002001",
             "groups": [
                 "recBC0I2HaciTQbaa"
             ],
+            "eventID": 307,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44002001",
             "sortKey": 33.44002001,
             "places (from verses)": [
                 "recL1WV82pXaRBQ59",
@@ -37227,8 +37228,7 @@
             "people (from verses)": [
                 "reco82mzy0XTzaOgv",
                 "reccZB8SVU5bEMcgo"
-            ],
-            "eventID": 307
+            ]
         }
     },
     {
@@ -37277,8 +37277,9 @@
             "predecessor": [
                 "recIu7xhASS4Ufyfd"
             ],
-            "verseSort": "44002014",
+            "eventID": 308,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44002014",
             "sortKey": 33.44002014,
             "places (from verses)": [
                 "recAalC2QoLT7cJKN",
@@ -37319,8 +37320,7 @@
                 "recgkFqZovgbr3pAi",
                 "reccZB8SVU5bEMcgo",
                 "recgkFqZovgbr3pAi"
-            ],
-            "eventID": 308
+            ]
         }
     },
     {
@@ -37344,14 +37344,14 @@
             "predecessor": [
                 "recQoK9KFveLh556S"
             ],
-            "verseSort": "44002042",
+            "eventID": 309,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44002042",
             "sortKey": 33.44002042,
             "people (from verses)": [
                 "reccZB8SVU5bEMcgo",
                 "recgkFqZovgbr3pAi"
-            ],
-            "eventID": 309
+            ]
         }
     },
     {
@@ -37383,8 +37383,9 @@
             "predecessor": [
                 "recVrh6Nbm3PruADf"
             ],
-            "verseSort": "44003001",
+            "eventID": 310,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44003001",
             "sortKey": 33.44003001,
             "places (from verses)": [
                 "rec232gzESK5PLtd0",
@@ -37402,8 +37403,7 @@
                 "recgkFqZovgbr3pAi",
                 "reccZB8SVU5bEMcgo",
                 "reccZB8SVU5bEMcgo"
-            ],
-            "eventID": 310
+            ]
         }
     },
     {
@@ -37440,8 +37440,9 @@
             "predecessor": [
                 "recLnDbrahKzEue0K"
             ],
-            "verseSort": "44003011",
+            "eventID": 311,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44003011",
             "sortKey": 33.44003011,
             "places (from verses)": [
                 "reclfB8zbauosDusS"
@@ -37473,8 +37474,7 @@
                 "reccZB8SVU5bEMcgo",
                 "reccZB8SVU5bEMcgo",
                 "recgkFqZovgbr3pAi"
-            ],
-            "eventID": 311
+            ]
         }
     },
     {
@@ -37523,8 +37523,9 @@
             "predecessor": [
                 "reciu7dT92C4dTrfl"
             ],
-            "verseSort": "44004001",
+            "eventID": 312,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44004001",
             "sortKey": 33.44004001,
             "places (from verses)": [
                 "recmRfnw4XzPBH9jc",
@@ -37548,8 +37549,7 @@
                 "recvAB7vkczUEFH8Z",
                 "reccZB8SVU5bEMcgo",
                 "reccZB8SVU5bEMcgo"
-            ],
-            "eventID": 312
+            ]
         }
     },
     {
@@ -37580,8 +37580,9 @@
             "predecessor": [
                 "rech8qvzNnkDTqCi3"
             ],
-            "verseSort": "44004023",
+            "eventID": 313,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44004023",
             "sortKey": 33.44004023,
             "people (from verses)": [
                 "reccZB8SVU5bEMcgo",
@@ -37595,8 +37596,7 @@
                 "recgkFqZovgbr3pAi",
                 "reccZB8SVU5bEMcgo",
                 "reco82mzy0XTzaOgv"
-            ],
-            "eventID": 313
+            ]
         }
     },
     {
@@ -37623,8 +37623,9 @@
             "predecessor": [
                 "recNQxwdQFjZidQTP"
             ],
-            "verseSort": "44004032",
+            "eventID": 314,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44004032",
             "sortKey": 33.44004032,
             "places (from verses)": [
                 "receEjvf5hXhkgVuZ"
@@ -37632,8 +37633,7 @@
             "people (from verses)": [
                 "recgkFqZovgbr3pAi",
                 "recUA9Fc2yoNk8c5d"
-            ],
-            "eventID": 314
+            ]
         }
     },
     {
@@ -37670,8 +37670,9 @@
             "predecessor": [
                 "rec5Y0EXegwQ5m9mX"
             ],
-            "verseSort": "44005001",
+            "eventID": 315,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44005001",
             "sortKey": 33.44005001,
             "people (from verses)": [
                 "reciQ6JZbbGyzAk2N",
@@ -37686,8 +37687,7 @@
                 "recX9MMADoVI2CSP1",
                 "reco82mzy0XTzaOgv",
                 "recgkFqZovgbr3pAi"
-            ],
-            "eventID": 315
+            ]
         }
     },
     {
@@ -37714,11 +37714,12 @@
             "predecessor": [
                 "recnjhZVhcbtc7WL0"
             ],
-            "verseSort": "44005012",
             "groups": [
                 "recBC0I2HaciTQbaa"
             ],
+            "eventID": 316,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44005012",
             "sortKey": 33.44005012,
             "places (from verses)": [
                 "reclfB8zbauosDusS",
@@ -37728,8 +37729,7 @@
                 "rec0BAacWSGBXZ0zI",
                 "recgkFqZovgbr3pAi",
                 "recX9MMADoVI2CSP1"
-            ],
-            "eventID": 316
+            ]
         }
     },
     {
@@ -37766,11 +37766,12 @@
             "predecessor": [
                 "rectkWZqlKG1cfOQT"
             ],
-            "verseSort": "44005018",
             "groups": [
                 "recBC0I2HaciTQbaa"
             ],
+            "eventID": 317,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44005018",
             "sortKey": 33.44005018,
             "places (from verses)": [
                 "recL1WV82pXaRBQ59"
@@ -37786,8 +37787,7 @@
                 "recgkFqZovgbr3pAi",
                 "reccZB8SVU5bEMcgo",
                 "reco82mzy0XTzaOgv"
-            ],
-            "eventID": 317
+            ]
         }
     },
     {
@@ -37817,11 +37817,12 @@
             "predecessor": [
                 "recCcRDJtUxaIqXnD"
             ],
-            "verseSort": "44005034",
             "groups": [
                 "recBC0I2HaciTQbaa"
             ],
+            "eventID": 318,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44005034",
             "sortKey": 33.44005034,
             "people (from verses)": [
                 "reciIAjF1PRn4qPbM",
@@ -37830,8 +37831,7 @@
                 "reccZB8SVU5bEMcgo",
                 "recgkFqZovgbr3pAi",
                 "recgkFqZovgbr3pAi"
-            ],
-            "eventID": 318
+            ]
         }
     },
     {
@@ -37866,11 +37866,12 @@
             "predecessor": [
                 "rec1qE6wAe0XINRoV"
             ],
-            "verseSort": "44006001",
             "groups": [
                 "recBC0I2HaciTQbaa"
             ],
+            "eventID": 319,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44006001",
             "sortKey": 33.44006001,
             "places (from verses)": [
                 "recKAFuMIt8BAi2OH",
@@ -37888,8 +37889,7 @@
                 "recENDxs6LhpYVesQ",
                 "reco82mzy0XTzaOgv",
                 "reccZB8SVU5bEMcgo"
-            ],
-            "eventID": 319
+            ]
         }
     },
     {
@@ -37918,8 +37918,9 @@
             "predecessor": [
                 "recXUpfeHouc4qLEl"
             ],
-            "verseSort": "44006008",
+            "eventID": 320,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44006008",
             "sortKey": 33.44006008,
             "places (from verses)": [
                 "rectQcNZqgNSFBmfm",
@@ -37933,8 +37934,7 @@
                 "reccZB8SVU5bEMcgo",
                 "recjNRR60PAuFtjha",
                 "recgkFqZovgbr3pAi"
-            ],
-            "eventID": 320
+            ]
         }
     },
     {
@@ -38008,8 +38008,9 @@
             "predecessor": [
                 "reclAFi4IpJvlWCDp"
             ],
-            "verseSort": "44007001",
+            "eventID": 321,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44007001",
             "sortKey": 33.44007001,
             "places (from verses)": [
                 "rec8Dy0OPNtiTqsoS",
@@ -38087,8 +38088,7 @@
                 "rec0BAacWSGBXZ0zI",
                 "recgkFqZovgbr3pAi",
                 "reco82mzy0XTzaOgv"
-            ],
-            "eventID": 321
+            ]
         }
     },
     {
@@ -38117,8 +38117,9 @@
             "predecessor": [
                 "recNZVX1qwBc7F9AU"
             ],
-            "verseSort": "44007054",
+            "eventID": 322,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44007054",
             "sortKey": 33.44007054,
             "people (from verses)": [
                 "reccZB8SVU5bEMcgo",
@@ -38130,8 +38131,7 @@
                 "recUipM9EEsnFSZI0",
                 "recgkFqZovgbr3pAi",
                 "recgkFqZovgbr3pAi"
-            ],
-            "eventID": 322
+            ]
         }
     },
     {
@@ -38156,8 +38156,9 @@
             "predecessor": [
                 "recgcZKRVZDvMUMOa"
             ],
-            "verseSort": "44008001",
+            "eventID": 323,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44008001",
             "sortKey": 34.44008001,
             "places (from verses)": [
                 "recAalC2QoLT7cJKN",
@@ -38168,8 +38169,7 @@
                 "recgkzNX07a7kGFYL",
                 "recUipM9EEsnFSZI0",
                 "recgkzNX07a7kGFYL"
-            ],
-            "eventID": 323
+            ]
         }
     },
     {
@@ -38216,8 +38216,9 @@
             "predecessor": [
                 "recVjdJplfI1wSxYk"
             ],
-            "verseSort": "44008004",
+            "eventID": 324,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44008004",
             "sortKey": 34.44008004,
             "places (from verses)": [
                 "recEP3QZ3HUmIkv4Q",
@@ -38253,8 +38254,7 @@
                 "rec7mbq5BahDRoSlS",
                 "recgkFqZovgbr3pAi",
                 "recgkFqZovgbr3pAi"
-            ],
-            "eventID": 324
+            ]
         }
     },
     {
@@ -38292,8 +38292,9 @@
             "predecessor": [
                 "recP6mZs3oSlZdrT0"
             ],
-            "verseSort": "44008026",
+            "eventID": 325,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44008026",
             "sortKey": 34.44008026,
             "places (from verses)": [
                 "recL1WV82pXaRBQ59",
@@ -38323,8 +38324,7 @@
                 "reco82mzy0XTzaOgv",
                 "recgkFqZovgbr3pAi",
                 "recNsU6uPfTysNEKM"
-            ],
-            "eventID": 325
+            ]
         }
     },
     {
@@ -38367,8 +38367,9 @@
             "predecessor": [
                 "recvI0SgATGCasGsV"
             ],
-            "verseSort": "44009001",
+            "eventID": 326,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44009001",
             "sortKey": 35.44009001,
             "places (from verses)": [
                 "recL1WV82pXaRBQ59",
@@ -38403,8 +38404,7 @@
                 "reco82mzy0XTzaOgv",
                 "recgkFqZovgbr3pAi",
                 "recgkzNX07a7kGFYL"
-            ],
-            "eventID": 326
+            ]
         }
     },
     {
@@ -38442,8 +38442,9 @@
             "predecessor": [
                 "recCz7opcoITkiZiq"
             ],
-            "verseSort": "44009020",
+            "eventID": 327,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44009020",
             "sortKey": 35.4400902,
             "places (from verses)": [
                 "recL1WV82pXaRBQ59",
@@ -38469,8 +38470,7 @@
                 "recgkFqZovgbr3pAi",
                 "reco82mzy0XTzaOgv",
                 "recgkFqZovgbr3pAi"
-            ],
-            "eventID": 327
+            ]
         }
     },
     {
@@ -38508,8 +38508,9 @@
             "predecessor": [
                 "reczeOH6wbjkZHP1w"
             ],
-            "verseSort": "44009032",
+            "eventID": 328,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44009032",
             "sortKey": 41.44009032,
             "places (from verses)": [
                 "recL4DQQ2ghOhOCZI",
@@ -38536,8 +38537,7 @@
                 "recDt7JkmnmKqdnB7",
                 "recgkFqZovgbr3pAi",
                 "recTa6EpjvdBbC1Uk"
-            ],
-            "eventID": 328
+            ]
         }
     },
     {
@@ -38595,8 +38595,9 @@
             "predecessor": [
                 "recxH9n2Xk1PM6DvB"
             ],
-            "verseSort": "44010001",
+            "eventID": 329,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44010001",
             "sortKey": 41.44010001,
             "places (from verses)": [
                 "recKrSp5YmwkgRKv0",
@@ -38643,8 +38644,7 @@
                 "recTa6EpjvdBbC1Uk",
                 "recX9MMADoVI2CSP1",
                 "reccZB8SVU5bEMcgo"
-            ],
-            "eventID": 329
+            ]
         }
     },
     {
@@ -38681,8 +38681,9 @@
             "predecessor": [
                 "rec4fFrtrUuDVkTNK"
             ],
-            "verseSort": "44010034",
+            "eventID": 330,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44010034",
             "sortKey": 41.44010034,
             "places (from verses)": [
                 "recAalC2QoLT7cJKN",
@@ -38710,8 +38711,7 @@
                 "reccZB8SVU5bEMcgo",
                 "reco82mzy0XTzaOgv",
                 "recgkFqZovgbr3pAi"
-            ],
-            "eventID": 330
+            ]
         }
     },
     {
@@ -38750,8 +38750,9 @@
             "predecessor": [
                 "recCef9mlyuV3XWd3"
             ],
-            "verseSort": "44011001",
+            "eventID": 331,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44011001",
             "sortKey": 41.44011001,
             "places (from verses)": [
                 "recAalC2QoLT7cJKN",
@@ -38776,8 +38777,7 @@
                 "reccZB8SVU5bEMcgo",
                 "recgkFqZovgbr3pAi",
                 "reccZB8SVU5bEMcgo"
-            ],
-            "eventID": 331
+            ]
         }
     },
     {
@@ -38812,8 +38812,9 @@
             "predecessor": [
                 "recNnOBWct1TV6CUZ"
             ],
-            "verseSort": "44011019",
+            "eventID": 332,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44011019",
             "sortKey": 41.44011019,
             "places (from verses)": [
                 "recToD2yiguR5xCQ0",
@@ -38846,8 +38847,7 @@
                 "reco82mzy0XTzaOgv",
                 "recUA9Fc2yoNk8c5d",
                 "recgkzNX07a7kGFYL"
-            ],
-            "eventID": 332
+            ]
         }
     },
     {
@@ -38871,15 +38871,15 @@
             "predecessor": [
                 "recn2U67FPmywxqcb"
             ],
-            "verseSort": "44012001",
+            "eventID": 333,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44012001",
             "sortKey": 43.44012001,
             "people (from verses)": [
                 "recGjoYsVY3r2JVso",
                 "rechkAyIwugqcLaaY",
                 "recvAB7vkczUEFH8Z"
-            ],
-            "eventID": 333
+            ]
         }
     },
     {
@@ -38904,15 +38904,15 @@
             "predecessor": [
                 "recCCk6aW2ZbOCRTd"
             ],
-            "verseSort": "44012003",
+            "eventID": 334,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44012003",
             "sortKey": 43.44012003,
             "people (from verses)": [
                 "recX9MMADoVI2CSP1",
                 "recX9MMADoVI2CSP1",
                 "reccZB8SVU5bEMcgo"
-            ],
-            "eventID": 334
+            ]
         }
     },
     {
@@ -38951,8 +38951,9 @@
             "predecessor": [
                 "recDiHn0k1yUMCdjc"
             ],
-            "verseSort": "44012006",
+            "eventID": 335,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44012006",
             "sortKey": 43.44012006,
             "places (from verses)": [
                 "recAalC2QoLT7cJKN",
@@ -38976,8 +38977,7 @@
                 "recgkFqZovgbr3pAi",
                 "recX9MMADoVI2CSP1",
                 "recGjoYsVY3r2JVso"
-            ],
-            "eventID": 335
+            ]
         }
     },
     {
@@ -39002,8 +39002,9 @@
             "predecessor": [
                 "recMhkv38hrlSmT3K"
             ],
-            "verseSort": "44012020",
+            "eventID": 336,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44012020",
             "sortKey": 43.4401202,
             "places (from verses)": [
                 "reco9Wc4YyNXZq43z",
@@ -39015,8 +39016,7 @@
                 "recGjoYsVY3r2JVso",
                 "reccZB8SVU5bEMcgo",
                 "recgkFqZovgbr3pAi"
-            ],
-            "eventID": 336
+            ]
         }
     },
     {
@@ -39051,8 +39051,9 @@
             "partOf": [
                 "recUWXmZlrKxIx99u"
             ],
-            "verseSort": "44012024",
+            "eventID": 337,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44012024",
             "sortKey": 48.44012024,
             "places (from verses)": [
                 "recL1WV82pXaRBQ59",
@@ -39074,8 +39075,7 @@
                 "recgkzNX07a7kGFYL",
                 "reco82mzy0XTzaOgv",
                 "recgkFqZovgbr3pAi"
-            ],
-            "eventID": 337
+            ]
         }
     },
     {
@@ -39189,8 +39189,9 @@
                 "recFFz7cJ33RLa1Rs",
                 "recR5cw43K7wMviXn"
             ],
-            "verseSort": "44012024",
+            "eventID": 338,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44012024",
             "sortKey": 48.44012024,
             "places (from verses)": [
                 "recL1WV82pXaRBQ59",
@@ -39315,8 +39316,7 @@
                 "recgkFqZovgbr3pAi",
                 "reccZB8SVU5bEMcgo",
                 "reccZB8SVU5bEMcgo"
-            ],
-            "eventID": 338
+            ]
         }
     },
     {
@@ -39356,8 +39356,9 @@
             "partOf": [
                 "recUWXmZlrKxIx99u"
             ],
-            "verseSort": "44013004",
+            "eventID": 339,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44013004",
             "sortKey": 48.44013004,
             "places (from verses)": [
                 "recf5gqGGUdNN4pas",
@@ -39380,8 +39381,7 @@
                 "recgkFqZovgbr3pAi",
                 "recgkFqZovgbr3pAi",
                 "recgkFqZovgbr3pAi"
-            ],
-            "eventID": 339
+            ]
         }
     },
     {
@@ -39452,8 +39452,9 @@
             "partOf": [
                 "recUWXmZlrKxIx99u"
             ],
-            "verseSort": "44013013",
+            "eventID": 340,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44013013",
             "sortKey": 48.44013013,
             "places (from verses)": [
                 "recxdLVLPiSKfK2iB",
@@ -39512,8 +39513,7 @@
                 "recgkzNX07a7kGFYL",
                 "recUA9Fc2yoNk8c5d",
                 "reco82mzy0XTzaOgv"
-            ],
-            "eventID": 340
+            ]
         }
     },
     {
@@ -39543,16 +39543,16 @@
             "partOf": [
                 "recUWXmZlrKxIx99u"
             ],
-            "verseSort": "44014001",
+            "eventID": 341,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44014001",
             "sortKey": 48.44014001,
             "places (from verses)": [
                 "recy6BBIMIGwmihwL"
             ],
             "people (from verses)": [
                 "recgkFqZovgbr3pAi"
-            ],
-            "eventID": 341
+            ]
         }
     },
     {
@@ -39593,8 +39593,9 @@
             "partOf": [
                 "recUWXmZlrKxIx99u"
             ],
-            "verseSort": "44014006",
+            "eventID": 342,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44014006",
             "sortKey": 49.44014006,
             "places (from verses)": [
                 "recbm5ZBUjTQ5uAGT",
@@ -39616,8 +39617,7 @@
                 "reccZB8SVU5bEMcgo",
                 "recgkzNX07a7kGFYL",
                 "recUA9Fc2yoNk8c5d"
-            ],
-            "eventID": 342
+            ]
         }
     },
     {
@@ -39657,8 +39657,9 @@
             "partOf": [
                 "recUWXmZlrKxIx99u"
             ],
-            "verseSort": "44014021",
+            "eventID": 343,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44014021",
             "sortKey": 49.44014021,
             "places (from verses)": [
                 "recevhMicAECGWRVk",
@@ -39675,8 +39676,7 @@
                 "recgkFqZovgbr3pAi",
                 "reccZB8SVU5bEMcgo",
                 "reccZB8SVU5bEMcgo"
-            ],
-            "eventID": 343
+            ]
         }
     },
     {
@@ -39739,11 +39739,12 @@
             "partOf": [
                 "recUWXmZlrKxIx99u"
             ],
-            "verseSort": "44015001",
             "groups": [
                 "recBC0I2HaciTQbaa"
             ],
+            "eventID": 344,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44015001",
             "sortKey": 49.440150009999996,
             "places (from verses)": [
                 "recAalC2QoLT7cJKN",
@@ -39793,8 +39794,7 @@
                 "recakt9CAUAwg46xw",
                 "recSo7V3yW4zpZBLM",
                 "recSo7V3yW4zpZBLM"
-            ],
-            "eventID": 344
+            ]
         }
     },
     {
@@ -39960,8 +39960,9 @@
             "predecessor": [
                 "recUWXmZlrKxIx99u"
             ],
-            "verseSort": "44015001",
+            "eventID": 345,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44015001",
             "sortKey": 49.440150009999996,
             "places (from verses)": [
                 "recAalC2QoLT7cJKN",
@@ -40164,8 +40165,7 @@
                 "recOpU2GjcCC2kTg9",
                 "rec5L6bAZR3j8fYAE",
                 "reccZB8SVU5bEMcgo"
-            ],
-            "eventID": 345
+            ]
         }
     },
     {
@@ -40197,8 +40197,9 @@
             "partOf": [
                 "recUWXmZlrKxIx99u"
             ],
-            "verseSort": "44015035",
+            "eventID": 346,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44015035",
             "sortKey": 49.44015035,
             "places (from verses)": [
                 "recKAFuMIt8BAi2OH",
@@ -40217,8 +40218,7 @@
                 "recgkzNX07a7kGFYL",
                 "recUA9Fc2yoNk8c5d",
                 "rec3LAlubKgbPw9H9"
-            ],
-            "eventID": 346
+            ]
         }
     },
     {
@@ -40237,15 +40237,15 @@
             "predecessor": [
                 "reckt5soySSqCZnoa"
             ],
-            "verseSort": "48001001",
+            "eventID": 347,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "48001001",
             "sortKey": 49.48001001,
             "people (from verses)": [
                 "recgkzNX07a7kGFYL",
                 "reccZB8SVU5bEMcgo",
                 "recgkFqZovgbr3pAi"
-            ],
-            "eventID": 347
+            ]
         }
     },
     {
@@ -40274,8 +40274,9 @@
             "partOf": [
                 "reciR4wcxOAcLxak0"
             ],
-            "verseSort": "44015040",
+            "eventID": 348,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44015040",
             "sortKey": 50.4401504,
             "places (from verses)": [
                 "rectQcNZqgNSFBmfm",
@@ -40285,8 +40286,7 @@
                 "recgkzNX07a7kGFYL",
                 "recSo7V3yW4zpZBLM",
                 "reccZB8SVU5bEMcgo"
-            ],
-            "eventID": 348
+            ]
         }
     },
     {
@@ -40318,8 +40318,9 @@
             "partOf": [
                 "reciR4wcxOAcLxak0"
             ],
-            "verseSort": "44016001",
+            "eventID": 349,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44016001",
             "sortKey": 50.44016001,
             "places (from verses)": [
                 "recMQPFxBneofA9nV",
@@ -40331,8 +40332,7 @@
             "people (from verses)": [
                 "recIRlDcRDv2MBfxW",
                 "recgkzNX07a7kGFYL"
-            ],
-            "eventID": 349
+            ]
         }
     },
     {
@@ -40366,8 +40366,9 @@
             "partOf": [
                 "reciR4wcxOAcLxak0"
             ],
-            "verseSort": "44016006",
+            "eventID": 350,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44016006",
             "sortKey": 50.44016006,
             "places (from verses)": [
                 "reco41jQa2HDPSWx2",
@@ -40381,8 +40382,7 @@
             "people (from verses)": [
                 "reco82mzy0XTzaOgv",
                 "reco82mzy0XTzaOgv"
-            ],
-            "eventID": 350
+            ]
         }
     },
     {
@@ -40417,8 +40417,9 @@
             "partOf": [
                 "reciR4wcxOAcLxak0"
             ],
-            "verseSort": "44016009",
+            "eventID": 351,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44016009",
             "sortKey": 50.44016009,
             "places (from verses)": [
                 "recly2TmP9CBHh8OQ",
@@ -40432,8 +40433,7 @@
             "people (from verses)": [
                 "recgkzNX07a7kGFYL",
                 "recgkFqZovgbr3pAi"
-            ],
-            "eventID": 351
+            ]
         }
     },
     {
@@ -40464,8 +40464,9 @@
             "partOf": [
                 "reciR4wcxOAcLxak0"
             ],
-            "verseSort": "44016013",
+            "eventID": 352,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44016013",
             "sortKey": 50.44016013,
             "places (from verses)": [
                 "recV6eT82m0GLrB42"
@@ -40476,8 +40477,7 @@
                 "reccZB8SVU5bEMcgo",
                 "recgkFqZovgbr3pAi",
                 "recgkFqZovgbr3pAi"
-            ],
-            "eventID": 352
+            ]
         }
     },
     {
@@ -40507,16 +40507,16 @@
             "partOf": [
                 "reciR4wcxOAcLxak0"
             ],
-            "verseSort": "44016016",
+            "eventID": 353,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44016016",
             "sortKey": 50.44016016,
             "people (from verses)": [
                 "recgkzNX07a7kGFYL",
                 "reccZB8SVU5bEMcgo",
                 "recgkzNX07a7kGFYL",
                 "recgkFqZovgbr3pAi"
-            ],
-            "eventID": 353
+            ]
         }
     },
     {
@@ -40557,8 +40557,9 @@
             "partOf": [
                 "reciR4wcxOAcLxak0"
             ],
-            "verseSort": "44016019",
+            "eventID": 354,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44016019",
             "sortKey": 50.44016019,
             "people (from verses)": [
                 "recgkzNX07a7kGFYL",
@@ -40572,8 +40573,7 @@
                 "recgkFqZovgbr3pAi",
                 "recgkFqZovgbr3pAi",
                 "reccZB8SVU5bEMcgo"
-            ],
-            "eventID": 354
+            ]
         }
     },
     {
@@ -40608,8 +40608,9 @@
             "partOf": [
                 "reciR4wcxOAcLxak0"
             ],
-            "verseSort": "44016025",
+            "eventID": 355,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44016025",
             "sortKey": 50.44016025,
             "people (from verses)": [
                 "recgkzNX07a7kGFYL",
@@ -40621,8 +40622,7 @@
                 "recgkFqZovgbr3pAi",
                 "recgkFqZovgbr3pAi",
                 "reccZB8SVU5bEMcgo"
-            ],
-            "eventID": 355
+            ]
         }
     },
     {
@@ -40654,15 +40654,15 @@
             "partOf": [
                 "reciR4wcxOAcLxak0"
             ],
-            "verseSort": "44016035",
+            "eventID": 356,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44016035",
             "sortKey": 50.44016035,
             "people (from verses)": [
                 "recgkzNX07a7kGFYL",
                 "recgkzNX07a7kGFYL",
                 "recL7FKDcTneTvG5r"
-            ],
-            "eventID": 356
+            ]
         }
     },
     {
@@ -40697,8 +40697,9 @@
             "partOf": [
                 "reciR4wcxOAcLxak0"
             ],
-            "verseSort": "44017001",
+            "eventID": 357,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44017001",
             "sortKey": 50.44017001,
             "places (from verses)": [
                 "recjAd4VSbzamAXaB",
@@ -40715,8 +40716,7 @@
                 "recFgALWbY8KpUwCH",
                 "recgkFqZovgbr3pAi",
                 "recFgALWbY8KpUwCH"
-            ],
-            "eventID": 357
+            ]
         }
     },
     {
@@ -40748,8 +40748,9 @@
             "partOf": [
                 "reciR4wcxOAcLxak0"
             ],
-            "verseSort": "44017010",
+            "eventID": 358,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44017010",
             "sortKey": 51.4401701,
             "places (from verses)": [
                 "rech04nnKCaXqzU0U",
@@ -40769,8 +40770,7 @@
                 "recgkzNX07a7kGFYL",
                 "recSo7V3yW4zpZBLM",
                 "recIRlDcRDv2MBfxW"
-            ],
-            "eventID": 358
+            ]
         }
     },
     {
@@ -40816,8 +40816,9 @@
             "partOf": [
                 "reciR4wcxOAcLxak0"
             ],
-            "verseSort": "44017016",
+            "eventID": 359,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44017016",
             "sortKey": 51.44017016,
             "places (from verses)": [
                 "rec6n0u78dB1QOA1Z",
@@ -40839,8 +40840,7 @@
                 "recgkzNX07a7kGFYL",
                 "recUHG987DvnUEI3I",
                 "rec1m2Sxz6hjKkkfn"
-            ],
-            "eventID": 359
+            ]
         }
     },
     {
@@ -40890,8 +40890,9 @@
             "partOf": [
                 "reciR4wcxOAcLxak0"
             ],
-            "verseSort": "44018001",
+            "eventID": 360,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44018001",
             "sortKey": 51.44018001,
             "places (from verses)": [
                 "rec6n0u78dB1QOA1Z",
@@ -40925,8 +40926,7 @@
                 "recrCz8fr3Xs1Ckc1",
                 "rec5Qv1iQh9VuWNsS",
                 "recrCz8fr3Xs1Ckc1"
-            ],
-            "eventID": 360
+            ]
         }
     },
     {
@@ -40964,8 +40964,9 @@
             "partOf": [
                 "reciR4wcxOAcLxak0"
             ],
-            "verseSort": "44018018",
+            "eventID": 361,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44018018",
             "sortKey": 52.44018018,
             "places (from verses)": [
                 "recASJJNAAnhodvWY",
@@ -40982,8 +40983,7 @@
                 "recOpU2GjcCC2kTg9",
                 "rec5L6bAZR3j8fYAE",
                 "reccZB8SVU5bEMcgo"
-            ],
-            "eventID": 361
+            ]
         }
     },
     {
@@ -41015,8 +41015,9 @@
             "partOf": [
                 "rec4bAiAcAOo9mPwO"
             ],
-            "verseSort": "44018024",
+            "eventID": 362,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44018024",
             "sortKey": 53.44018024,
             "places (from verses)": [
                 "recBH7NuHKP1aJEqF",
@@ -41031,8 +41032,7 @@
                 "recOpU2GjcCC2kTg9",
                 "reccZB8SVU5bEMcgo",
                 "recgkFqZovgbr3pAi"
-            ],
-            "eventID": 362
+            ]
         }
     },
     {
@@ -41121,8 +41121,10 @@
                 "reciR4wcxOAcLxak0"
             ],
             "lag": "1Y",
-            "verseSort": "44018024",
+            "lagType": "FS",
+            "eventID": 363,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44018024",
             "sortKey": 53.44018024,
             "places (from verses)": [
                 "recBH7NuHKP1aJEqF",
@@ -41221,9 +41223,7 @@
                 "recWH2h1MvOkrAHuQ",
                 "recWH2h1MvOkrAHuQ",
                 "recnjSr5ffVmmz3Rf"
-            ],
-            "lagType": "FS",
-            "eventID": 363
+            ]
         }
     },
     {
@@ -41274,8 +41274,9 @@
             "partOf": [
                 "rec4bAiAcAOo9mPwO"
             ],
-            "verseSort": "44019001",
+            "eventID": 364,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44019001",
             "sortKey": 53.44019001,
             "places (from verses)": [
                 "recQThsW3uau1oxf9",
@@ -41315,8 +41316,7 @@
                 "recgkzNX07a7kGFYL",
                 "recIRlDcRDv2MBfxW",
                 "recfi3ywdyFSeO31x"
-            ],
-            "eventID": 364
+            ]
         }
     },
     {
@@ -41364,8 +41364,9 @@
             "partOf": [
                 "rec4bAiAcAOo9mPwO"
             ],
-            "verseSort": "44019023",
+            "eventID": 365,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44019023",
             "sortKey": 56.44019023,
             "places (from verses)": [
                 "recBYO9ocr5Gssb47",
@@ -41387,8 +41388,7 @@
                 "recWH2h1MvOkrAHuQ",
                 "recWH2h1MvOkrAHuQ",
                 "recnjSr5ffVmmz3Rf"
-            ],
-            "eventID": 365
+            ]
         }
     },
     {
@@ -41429,8 +41429,9 @@
             "partOf": [
                 "rec4bAiAcAOo9mPwO"
             ],
-            "verseSort": "44020006",
+            "eventID": 366,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44020006",
             "sortKey": 56.44020006,
             "places (from verses)": [
                 "recv6STuRUsKfnjFn",
@@ -41451,8 +41452,7 @@
                 "recIRlDcRDv2MBfxW",
                 "reciJDq0wUbyVGePr",
                 "receoHTP3qEbiD7HB"
-            ],
-            "eventID": 366
+            ]
         }
     },
     {
@@ -41484,16 +41484,16 @@
             "partOf": [
                 "rec4bAiAcAOo9mPwO"
             ],
-            "verseSort": "44020012",
+            "eventID": 367,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44020012",
             "sortKey": 57.44020012,
             "people (from verses)": [
                 "recgkzNX07a7kGFYL",
                 "recuqHd9gHVWFFHNK",
                 "recgkzNX07a7kGFYL",
                 "recgkzNX07a7kGFYL"
-            ],
-            "eventID": 367
+            ]
         }
     },
     {
@@ -41528,8 +41528,9 @@
             "partOf": [
                 "rec4bAiAcAOo9mPwO"
             ],
-            "verseSort": "44020016",
+            "eventID": 368,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44020016",
             "sortKey": 57.44020016,
             "places (from verses)": [
                 "recpCMN0bRpzByjaR",
@@ -41546,8 +41547,7 @@
             "people (from verses)": [
                 "recgkzNX07a7kGFYL",
                 "recgkzNX07a7kGFYL"
-            ],
-            "eventID": 368
+            ]
         }
     },
     {
@@ -41594,8 +41594,9 @@
             "partOf": [
                 "rec4bAiAcAOo9mPwO"
             ],
-            "verseSort": "44020017",
+            "eventID": 369,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44020017",
             "sortKey": 57.44020017,
             "places (from verses)": [
                 "recBYO9ocr5Gssb47",
@@ -41617,8 +41618,7 @@
                 "reccZB8SVU5bEMcgo",
                 "recgkFqZovgbr3pAi",
                 "recgkzNX07a7kGFYL"
-            ],
-            "eventID": 369
+            ]
         }
     },
     {
@@ -41673,8 +41673,9 @@
             "partOf": [
                 "rec4bAiAcAOo9mPwO"
             ],
-            "verseSort": "44021001",
+            "eventID": 370,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44021001",
             "sortKey": 57.44021001,
             "places (from verses)": [
                 "recgeNFbkdcvVBH0o",
@@ -41709,8 +41710,7 @@
                 "recgkFqZovgbr3pAi",
                 "recgkFqZovgbr3pAi",
                 "recxDDC0jtl9bpc63"
-            ],
-            "eventID": 370
+            ]
         }
     },
     {
@@ -41745,8 +41745,9 @@
             "partOf": [
                 "rec4bAiAcAOo9mPwO"
             ],
-            "verseSort": "44021018",
+            "eventID": 371,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44021018",
             "sortKey": 57.44021018,
             "people (from verses)": [
                 "recgkzNX07a7kGFYL",
@@ -41755,8 +41756,7 @@
                 "recgkFqZovgbr3pAi",
                 "recjNRR60PAuFtjha",
                 "recgkzNX07a7kGFYL"
-            ],
-            "eventID": 371
+            ]
         }
     },
     {
@@ -41791,8 +41791,9 @@
             "partOf": [
                 "rec4bAiAcAOo9mPwO"
             ],
-            "verseSort": "44021027",
+            "eventID": 372,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44021027",
             "sortKey": 57.44021027,
             "places (from verses)": [
                 "recpCMN0bRpzByjaR",
@@ -41803,8 +41804,7 @@
                 "recgkzNX07a7kGFYL",
                 "recgkzNX07a7kGFYL",
                 "recgkzNX07a7kGFYL"
-            ],
-            "eventID": 372
+            ]
         }
     },
     {
@@ -41861,8 +41861,9 @@
             "partOf": [
                 "rec4bAiAcAOo9mPwO"
             ],
-            "verseSort": "44021037",
+            "eventID": 373,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44021037",
             "sortKey": 57.44021037,
             "places (from verses)": [
                 "recyT2hLNYpIFXcAs",
@@ -41895,8 +41896,7 @@
                 "recUipM9EEsnFSZI0",
                 "recgkzNX07a7kGFYL",
                 "recgkzNX07a7kGFYL"
-            ],
-            "eventID": 373
+            ]
         }
     },
     {
@@ -41933,8 +41933,9 @@
             "partOf": [
                 "rec4bAiAcAOo9mPwO"
             ],
-            "verseSort": "44022030",
+            "eventID": 374,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44022030",
             "sortKey": 57.4402203,
             "places (from verses)": [
                 "recL1WV82pXaRBQ59",
@@ -41954,8 +41955,7 @@
                 "recgkzNX07a7kGFYL",
                 "recgkzNX07a7kGFYL",
                 "recgkFqZovgbr3pAi"
-            ],
-            "eventID": 374
+            ]
         }
     },
     {
@@ -41990,8 +41990,9 @@
             "partOf": [
                 "rec4bAiAcAOo9mPwO"
             ],
-            "verseSort": "44023012",
+            "eventID": 375,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44023012",
             "sortKey": 57.44023012,
             "people (from verses)": [
                 "recgkzNX07a7kGFYL",
@@ -42000,8 +42001,7 @@
                 "recgkzNX07a7kGFYL",
                 "recgkzNX07a7kGFYL",
                 "recgkzNX07a7kGFYL"
-            ],
-            "eventID": 375
+            ]
         }
     },
     {
@@ -42072,8 +42072,9 @@
             "partOf": [
                 "rec4bAiAcAOo9mPwO"
             ],
-            "verseSort": "44023023",
+            "eventID": 376,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44023023",
             "sortKey": 57.44023023,
             "places (from verses)": [
                 "recKrSp5YmwkgRKv0",
@@ -42111,8 +42112,7 @@
                 "reckKYeZ5P0KFuSkB",
                 "recSRPfTSaf7TsRiN",
                 "recgkzNX07a7kGFYL"
-            ],
-            "eventID": 376
+            ]
         }
     },
     {
@@ -42149,8 +42149,9 @@
             "partOf": [
                 "rec4bAiAcAOo9mPwO"
             ],
-            "verseSort": "44025001",
+            "eventID": 377,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44025001",
             "sortKey": 59.44025001,
             "places (from verses)": [
                 "recL1WV82pXaRBQ59",
@@ -42172,8 +42173,7 @@
                 "recgkzNX07a7kGFYL",
                 "recgkzNX07a7kGFYL",
                 "reckKYeZ5P0KFuSkB"
-            ],
-            "eventID": 377
+            ]
         }
     },
     {
@@ -42210,8 +42210,9 @@
             "partOf": [
                 "rec4bAiAcAOo9mPwO"
             ],
-            "verseSort": "44025013",
+            "eventID": 378,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44025013",
             "sortKey": 59.44025013,
             "places (from verses)": [
                 "recKrSp5YmwkgRKv0",
@@ -42230,8 +42231,7 @@
                 "recgkFqZovgbr3pAi",
                 "recgkzNX07a7kGFYL",
                 "recU1v1l7ZuJsuK0g"
-            ],
-            "eventID": 378
+            ]
         }
     },
     {
@@ -42297,8 +42297,9 @@
             "partOf": [
                 "rec4bAiAcAOo9mPwO"
             ],
-            "verseSort": "44025022",
+            "eventID": 379,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44025022",
             "sortKey": 59.44025022,
             "places (from verses)": [
                 "recL1WV82pXaRBQ59",
@@ -42348,8 +42349,7 @@
                 "rec46MqJI7uxMvviP",
                 "recMxoVUt13ExT48g",
                 "reckKYeZ5P0KFuSkB"
-            ],
-            "eventID": 379
+            ]
         }
     },
     {
@@ -42403,8 +42403,9 @@
             "partOf": [
                 "rec4bAiAcAOo9mPwO"
             ],
-            "verseSort": "44027001",
+            "eventID": 380,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44027001",
             "sortKey": 59.44027001,
             "places (from verses)": [
                 "rec17BV2zJmVUdbIV",
@@ -42435,8 +42436,7 @@
                 "recgkzNX07a7kGFYL",
                 "recgkzNX07a7kGFYL",
                 "recgkzNX07a7kGFYL"
-            ],
-            "eventID": 380
+            ]
         }
     },
     {
@@ -42560,8 +42560,10 @@
                 "rec4bAiAcAOo9mPwO"
             ],
             "lag": "2Y",
-            "verseSort": "44027001",
+            "lagType": "FS",
+            "eventID": 381,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44027001",
             "sortKey": 59.44027001,
             "places (from verses)": [
                 "rec17BV2zJmVUdbIV",
@@ -42635,9 +42637,7 @@
                 "recgkzNX07a7kGFYL",
                 "reccZB8SVU5bEMcgo",
                 "recgkFqZovgbr3pAi"
-            ],
-            "lagType": "FS",
-            "eventID": 381
+            ]
         }
     },
     {
@@ -42699,8 +42699,9 @@
             "partOf": [
                 "rec4bAiAcAOo9mPwO"
             ],
-            "verseSort": "44027013",
+            "eventID": 382,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44027013",
             "sortKey": 59.44027013,
             "places (from verses)": [
                 "rec6yittVQwxJlpye",
@@ -42719,8 +42720,7 @@
                 "recgkzNX07a7kGFYL",
                 "reccZB8SVU5bEMcgo",
                 "recgkzNX07a7kGFYL"
-            ],
-            "eventID": 382
+            ]
         }
     },
     {
@@ -42758,8 +42758,9 @@
             "partOf": [
                 "rec4bAiAcAOo9mPwO"
             ],
-            "verseSort": "44028001",
+            "eventID": 383,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44028001",
             "sortKey": 60.44028001,
             "places (from verses)": [
                 "recHGqci8tWKDU549"
@@ -42769,8 +42770,7 @@
                 "rec6Vi2UMzYFGsbHu",
                 "rec6Vi2UMzYFGsbHu",
                 "recgkzNX07a7kGFYL"
-            ],
-            "eventID": 383
+            ]
         }
     },
     {
@@ -42808,8 +42808,9 @@
             "partOf": [
                 "rec4bAiAcAOo9mPwO"
             ],
-            "verseSort": "44028011",
+            "eventID": 384,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44028011",
             "sortKey": 60.44028011,
             "places (from verses)": [
                 "recBH7NuHKP1aJEqF",
@@ -42825,8 +42826,7 @@
                 "recgkzNX07a7kGFYL",
                 "reccZB8SVU5bEMcgo",
                 "recgkzNX07a7kGFYL"
-            ],
-            "eventID": 384
+            ]
         }
     },
     {
@@ -42868,8 +42868,9 @@
             "partOf": [
                 "rec4bAiAcAOo9mPwO"
             ],
-            "verseSort": "44028017",
+            "eventID": 385,
             "modified": "2020-11-25T15:12:15.000Z",
+            "verseSort": "44028017",
             "sortKey": 60.44028017,
             "places (from verses)": [
                 "recL1WV82pXaRBQ59",
@@ -42887,8 +42888,7 @@
                 "recgkzNX07a7kGFYL",
                 "reccZB8SVU5bEMcgo",
                 "recgkFqZovgbr3pAi"
-            ],
-            "eventID": 385
+            ]
         }
     },
     {
@@ -42953,12 +42953,13 @@
             "predecessor": [
                 "recMCgwIq1sw9Q779"
             ],
-            "verseSort": "40015001",
             "groups": [
                 "recbqH6urBQvfVPz1",
                 "recpa0oGIarzpwKkL"
             ],
+            "eventID": 398,
             "modified": "2024-02-02T02:30:51.000Z",
+            "verseSort": "40015001",
             "sortKey": 29.40015001,
             "places (from verses)": [
                 "recL1WV82pXaRBQ59",
@@ -42978,8 +42979,7 @@
                 "reccZB8SVU5bEMcgo",
                 "recjNRR60PAuFtjha",
                 "reccZB8SVU5bEMcgo"
-            ],
-            "eventID": 398
+            ]
         }
     },
     {
@@ -43016,8 +43016,9 @@
             "predecessor": [
                 "recah9fwlW8Xyk4gn"
             ],
-            "verseSort": "40015021",
+            "eventID": 399,
             "modified": "2024-02-02T02:31:30.000Z",
+            "verseSort": "40015021",
             "sortKey": 29.40015021,
             "places (from verses)": [
                 "reco9Wc4YyNXZq43z",
@@ -43035,8 +43036,7 @@
                 "recgkFqZovgbr3pAi",
                 "recgkFqZovgbr3pAi",
                 "recgkFqZovgbr3pAi"
-            ],
-            "eventID": 399
+            ]
         }
     },
     {
@@ -43068,8 +43068,9 @@
             "predecessor": [
                 "rec7Xd0T6QiyeeChg"
             ],
-            "verseSort": "41007031",
+            "eventID": 400,
             "modified": "2024-02-02T02:36:57.000Z",
+            "verseSort": "41007031",
             "sortKey": 29.41007031,
             "places (from verses)": [
                 "recRe6uBpPMDP6u82",
@@ -43082,8 +43083,7 @@
                 "recgkFqZovgbr3pAi",
                 "recgkFqZovgbr3pAi",
                 "reccZB8SVU5bEMcgo"
-            ],
-            "eventID": 400
+            ]
         }
     },
     {
@@ -43121,11 +43121,12 @@
             "predecessor": [
                 "rechQpDJIE2FCEYTU"
             ],
-            "verseSort": "40015032",
             "groups": [
                 "recDquhyNAst5bTvn"
             ],
+            "eventID": 401,
             "modified": "2024-02-02T02:45:06.000Z",
+            "verseSort": "40015032",
             "sortKey": 29.40015032,
             "places (from verses)": [
                 "rec8scqP30fz5SjGW"
@@ -43134,8 +43135,7 @@
                 "recgkFqZovgbr3pAi",
                 "recgkFqZovgbr3pAi",
                 "recgkFqZovgbr3pAi"
-            ],
-            "eventID": 401
+            ]
         }
     },
     {
@@ -43180,13 +43180,14 @@
             "predecessor": [
                 "reccrRGqDRLWjCHog"
             ],
-            "verseSort": "41008010",
             "groups": [
                 "recDquhyNAst5bTvn",
                 "recbqH6urBQvfVPz1",
                 "recKp5SL9R1I8Ll9D"
             ],
+            "eventID": 402,
             "modified": "2024-02-02T02:53:07.000Z",
+            "verseSort": "41008010",
             "sortKey": 29.4100801,
             "places (from verses)": [
                 "rec14G9VSYQFR0PSV"
@@ -43197,8 +43198,7 @@
                 "recDDzG65U8UNAY4h",
                 "recgkFqZovgbr3pAi",
                 "recgkFqZovgbr3pAi"
-            ],
-            "eventID": 402
+            ]
         }
     },
     {
@@ -43224,13 +43224,13 @@
             "predecessor": [
                 "recqtoV4JQiYCmkZN"
             ],
-            "verseSort": "41008022",
+            "eventID": 403,
             "modified": "2024-02-02T02:55:38.000Z",
+            "verseSort": "41008022",
             "sortKey": 29.41008022,
             "places (from verses)": [
                 "recntv9dPBMgCWCPD"
-            ],
-            "eventID": 403
+            ]
         }
     },
     {
@@ -43268,11 +43268,12 @@
             "predecessor": [
                 "rec1QOmEc6elW8boO"
             ],
-            "verseSort": "40016013",
             "groups": [
                 "recDquhyNAst5bTvn"
             ],
+            "eventID": 404,
             "modified": "2024-02-02T03:02:50.000Z",
+            "verseSort": "40016013",
             "sortKey": 29.40016013,
             "places (from verses)": [
                 "recC1BM9lEiyJHxTR",
@@ -43301,8 +43302,7 @@
                 "recX9MMADoVI2CSP1",
                 "reccZB8SVU5bEMcgo",
                 "recgkFqZovgbr3pAi"
-            ],
-            "eventID": 404
+            ]
         }
     }
 ]
