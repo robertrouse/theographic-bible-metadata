@@ -1033,7 +1033,7 @@
                 "recONdJVwpYA57oAi",
                 "recRuqBdtrgeag4gT"
             ],
-            "modified": "2025-05-01T01:22:54.000Z",
+            "modified": "2025-07-31T05:11:51.000Z",
             "events_dev": [
                 "recajWYSuk71jMpgi",
                 "recDFt0ANS33dAxri",
@@ -1051,7 +1051,15 @@
                 "recIZ6XquF0X7jaNE",
                 "rec5EAcIz2rHZRN8q",
                 "rec70ZLu9pdrEWXR9",
-                "recMIEeRCAf7IGRwc"
+                "recMIEeRCAf7IGRwc",
+                "recBsshyiGaHc6bgC",
+                "recotN6XCwPBF0OzT",
+                "rece7YQZcZkN73mF8",
+                "recYOqX5Qe2a0FHvw",
+                "recOZxrWd00qyF4Ej",
+                "recN1gyMPKbPPQIMa",
+                "recehyRQPiIuEscz4",
+                "recNQ0XuoN4rfJR3o"
             ]
         }
     },
@@ -1074,11 +1082,14 @@
                 "recRuqBdtrgeag4gT"
             ],
             "events": "The Holy Spirit is promised, Jesus ascends to Heaven, Matthias replaces Judas",
-            "modified": "2023-12-02T23:09:33.000Z",
+            "modified": "2025-08-21T23:23:51.000Z",
             "events_dev": [
                 "recvfB75N6vrQwhWW",
                 "rec06pcAZBChUBKxF",
-                "reczDqE366xgbgv2C"
+                "reczDqE366xgbgv2C",
+                "recu6M6co9Iaw0Ow5",
+                "recP6WhPl8eV4tavO",
+                "recwQXXtK8ZbnYuIJ"
             ]
         }
     },
@@ -1197,7 +1208,7 @@
         "createdTime": "2021-07-09T20:17:57.000Z",
         "fields": {
             "groupName": "Pharisees",
-            "modified": "2025-05-06T22:54:24.000Z",
+            "modified": "2025-07-01T13:16:34.000Z",
             "events_dev": [
                 "recDFt0ANS33dAxri",
                 "reciGxBNHjPZwHKvO",
@@ -1209,7 +1220,8 @@
                 "recxURN2uAbTe7CGr",
                 "recrSSo7ihKbdos1g",
                 "recZhxqZJmXuGMdvd",
-                "recrwlbTDWOETPpei"
+                "recrwlbTDWOETPpei",
+                "recOZxrWd00qyF4Ej"
             ]
         }
     },
@@ -1218,10 +1230,12 @@
         "createdTime": "2024-02-02T02:27:48.000Z",
         "fields": {
             "groupName": "Scribes",
-            "modified": "2025-01-22T22:52:13.000Z",
+            "modified": "2025-07-04T03:12:02.000Z",
             "events_dev": [
                 "recah9fwlW8Xyk4gn",
-                "recWT2eiDCOXEAbGB"
+                "recWT2eiDCOXEAbGB",
+                "recOZxrWd00qyF4Ej",
+                "recym9Dfibw7KdshX"
             ]
         }
     },
@@ -1230,9 +1244,24 @@
         "createdTime": "2024-02-02T02:53:07.000Z",
         "fields": {
             "groupName": "Sadducees",
-            "modified": "2024-02-02T02:53:07.000Z",
+            "modified": "2025-07-01T13:53:19.000Z",
             "events_dev": [
-                "recqtoV4JQiYCmkZN"
+                "recqtoV4JQiYCmkZN",
+                "recOZxrWd00qyF4Ej"
+            ]
+        }
+    },
+    {
+        "id": "recFhfVJ2TDcWu6Gj",
+        "createdTime": "2025-07-01T13:51:15.000Z",
+        "fields": {
+            "groupName": "Chief Priests",
+            "modified": "2025-08-06T21:03:10.000Z",
+            "events_dev": [
+                "recOZxrWd00qyF4Ej",
+                "recym9Dfibw7KdshX",
+                "rec3IGuoFfX4wwc0u",
+                "recvsq3X87BSBcInj"
             ]
         }
     }
