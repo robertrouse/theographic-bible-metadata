@@ -24818,27 +24818,6 @@
         }
     },
     {
-        "id": "recIauM7ngrOI4BwH",
-        "createdTime": "2018-03-19T00:26:39.000Z",
-        "fields": {
-            "personLookup": "cush_963",
-            "personID": 963,
-            "name": "Cush",
-            "isProperName": true,
-            "gender": "Male",
-            "verseCount": 0,
-            "minYear": 0,
-            "maxYear": 0,
-            "displayTitle": "Cush (a Benjamite)",
-            "status": "wip",
-            "alphaGroup": "C",
-            "slug": "cush_963",
-            "Disambiguation (temp)": "Cush (Lord concerning)",
-            "Easton's Count": 0,
-            "modified": "2020-07-10T11:58:14.000Z"
-        }
-    },
-    {
         "id": "recqXcKzSpUe7lXej",
         "createdTime": "2018-03-19T00:26:39.000Z",
         "fields": {
@@ -132833,32 +132812,6 @@
                 "A Gershonite Levite ([1 Chr. 23:11](/1chr#1Chr.23.11))."
             ],
             "modified": "2019-07-27T11:49:43.000Z"
-        }
-    },
-    {
-        "id": "recDxMY9yZjgCvyeC",
-        "createdTime": "2018-03-19T00:26:39.000Z",
-        "fields": {
-            "personLookup": "zoar_3099",
-            "personID": 3099,
-            "name": "Zoar",
-            "isProperName": true,
-            "gender": "Male",
-            "verseCount": 0,
-            "minYear": 0,
-            "maxYear": 0,
-            "displayTitle": "Zoar",
-            "status": "wip",
-            "alphaGroup": "Z",
-            "slug": "zoar_3099",
-            "eastons": [
-                "recNeSbPJztH1IMZg"
-            ],
-            "Easton's Count": 1,
-            "dictText": [
-                "Small, a town on the east or south-east of the Dead Sea, to which Lot and his daughters fled from Sodom ([Gen. 19:22](/gen#Gen.19.22), [23](/gen#Gen.19.23)). It was originally called Bela (14:2, 8). It is referred to by the prophets Isaiah (15:5) and Jeremiah (48:34). Its ruins are still seen at the opening of the ravine of Kerak, the Kir-Moab referred to in [2 Kings 3](/2kgs#2Kgs.3), the modern Tell esh-Shaghur."
-            ],
-            "modified": "2020-07-16T17:06:02.000Z"
         }
     },
     {
