@@ -144,10 +144,10 @@ ISO 8601 astronomical year numbering counts backward from AD 1, with **year 0 eq
 | `0`      | 1 BC            |
 | `-1`     | 2 BC            |
 | `-1004`  | 1005 BC         |
-| `-4004`  | 4003 BC         |
+| `-4003`  | 4004 BC         |
 
 To convert a negative ISO year to a BC year: **negate the value and add 1**.
-For example: `-4004 → 4003 BC`, `-1574 → 1575 BC`.
+For example: `-4003 → 4004 BC`, `-1574 → 1575 BC`.
 
 Positive values represent AD years directly (e.g. `30` = AD 30).
 

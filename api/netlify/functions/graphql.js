@@ -395,7 +395,7 @@ const typeDefs = gql`
 
     Uses ISO 8601 astronomical year numbering: 0 = 1 BC, -1 = 2 BC, etc.
     To convert to a traditional BC year: negate and add 1 (e.g. -1574 = 1575 BC,
-    -4004 = 4003 BC). Positive values are AD years (e.g. 30 = AD 30).
+    -4003 = 4004 BC). Positive values are AD years (e.g. 30 = AD 30).
     """
     birthYear: Int
     """

@@ -366,11 +366,11 @@ describe('people query', () => {
         assert.ok(Number.isInteger(p.deathYear), `deathYear should be an integer for ${p.name}, got ${p.deathYear}`);
       }
     }
-    // Adam should have a birthYear of -4004 (= 4003 BC in ISO astronomical year numbering)
+    // Adam should have a birthYear of -4004 (= 4005 BC in ISO astronomical year numbering)
     const adam = data.people.find(p => p.name === 'Adam');
     assert.ok(adam, 'Adam should be in the dataset');
     assert.ok(adam.birthYear !== null, 'Adam should have a birthYear');
-    assert.equal(adam.birthYear, -4004, `Adam's birthYear should be -4004 (= 4003 BC)`);
+    assert.equal(adam.birthYear, -4004, `Adam's birthYear should be -4004 (= 4005 BC)`);
   });
 });
 
