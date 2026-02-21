@@ -1,0 +1,2689 @@
+[
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/abarim-mountains.json",
+        "properties": {
+          "title": "Abarim",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/abarim-mountains"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/abarim-mountains_2"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/aefaa2d"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/aner.json",
+        "properties": {
+          "title": "Aner",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/aner"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/aner_65"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a6f05f6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/beth-ashbea.json",
+        "properties": {
+          "title": "Beth-Ashbea",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/beth-ashbea"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/beth-ashbea_190"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/ac0254c"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/beeroth bene-jaakan.json",
+        "properties": {
+          "title": "Beeroth Bene-jaakan",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/beeroth bene-jaakan"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/beeroth bene-jaakan_169"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a0fe2be"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/beesh-terah.json",
+        "properties": {
+          "title": "Beesh-terah",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/beesh-terah"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/beesh-terah_171"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a6fea11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/chinnereth.json",
+        "properties": {
+          "title": "Chinnereth",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/chinnereth"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/chinnereth_1029"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a562fcc"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/chisloth-tabor.json",
+        "properties": {
+          "title": "Chisloth-tabor",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/chisloth-tabor"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/chisloth-tabor_297"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/ac3d92d"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/bizjothjah.json",
+        "properties": {
+          "title": "Biziothiah",
+          "fclasses": [
+            "P",
+            "S"
+          ]
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/bizjothjah"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/bizjothjah_251"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a2227ba"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/baale-judah.json",
+        "properties": {
+          "title": "Baale-judah",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/baale-judah"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/baale-judah_139"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a9bba61"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/baal-gad.json",
+        "properties": {
+          "title": "Baal-gad",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/baal-gad"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/baal-gad_140"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a341fe8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/baal-hamon.json",
+        "properties": {
+          "title": "Baal-hamon",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/baal-hamon"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/baal-hamon_141"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a341fe8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/baal-hermon-of-the-hivites.json",
+        "properties": {
+          "title": "Baal-hermon of the Hivites",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/baal-hermon-of-the-hivites"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/baal-hermon-of-the-hivites_829"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a341fe8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/bamah.json",
+        "properties": {
+          "title": "Bamah",
+          "fclasses": [
+            "S",
+            "S"
+          ]
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/bamah"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/bamah_156"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a849ca2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/beth-diblathaim.json",
+        "properties": {
+          "title": "Beth-diblathaim",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/beth-diblathaim"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/beth-diblathaim_199"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a0d784a"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/beth-meon.json",
+        "properties": {
+          "title": "Beth-meon",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/beth-meon"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/beth-meon_223"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a76f7b7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/chozeba.json",
+        "properties": {
+          "title": "Chozeba",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/chozeba"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/chozeba_309"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a2270e4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/harosheth-hagoyim.json",
+        "properties": {
+          "title": "Harosheth-hagoyim",
+          "fclasses": [
+            "L",
+            "P",
+            "S"
+          ]
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/harosheth-hagoyim"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/harosheth-hagoyim_530"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a49c017"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/el-elohe-israel.json",
+        "properties": {
+          "title": "El-elohe-Israel",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/el-elohe-israel"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/adf74d4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/elkoshite.json",
+        "properties": {
+          "title": "Elkoshite",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/elkoshite"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/elkoshite_371"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a221d82"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/hazezon-tamar.json",
+        "properties": {
+          "title": "Hazezon-tamar",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/hazezon-tamar"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/hazezon-tamar_542"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a51df0e"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/heres.json",
+        "properties": {
+          "title": "Heres",
+          "fclasses": [
+            "T",
+            "T",
+            "P",
+            "S"
+          ]
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/heres"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/heres_840"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a2466e4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/en-tappuah.json",
+        "properties": {
+          "title": "En-tappuah",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/en-tappuah"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/en-tappuah_397"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a03be2e"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/ephratah.json",
+        "properties": {
+          "title": "Ephratah",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/ephratah"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/ephratah_404"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a112427"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/hara.json",
+        "properties": {
+          "title": "Hara",
+          "fclasses": [
+            "T",
+            "L",
+            "P",
+            "S"
+          ]
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/hara"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/hara_525"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/ab786f4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/sheol.json",
+        "properties": {
+          "title": "Sheol",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/sheol"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/jordan-valley.json",
+        "properties": {
+          "title": "Jordan Valley",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/jordan-valley"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/jordan-valley_654"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/ae686c9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/ir-shemesh.json",
+        "properties": {
+          "title": "Ir-shemesh",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/ir-shemesh"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/ir-shemesh_600"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a3b5b53"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/madmen.json",
+        "properties": {
+          "title": "Madmen",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/madmen"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/madmen_750"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a73a74f"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/jashubi-lehem.json",
+        "properties": {
+          "title": "Jashubi-Lehem",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/jashubi-lehem"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/jashubi-lehem_725"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a112427"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/judah.json",
+        "properties": {
+          "title": "Judah",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/judah"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/rehob-at-hamath.json",
+        "properties": {
+          "title": "Rehob",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/rehob-at-hamath"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/rehob-at-hamath_987"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/ad44b24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/rehoboth-ir.json",
+        "properties": {
+          "title": "Rehoboth-Ir",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/rehoboth-ir"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/rehoboth-ir_992"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a70fd5d"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/remmon-methoar.json",
+        "properties": {
+          "title": "Remmon-methoar",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/remmon-methoar"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a971a54"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/resen.json",
+        "properties": {
+          "title": "Resen",
+          "fclasses": [
+            "P",
+            "S"
+          ]
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/resen"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/resen_997"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/abd8ada"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/rumah.json",
+        "properties": {
+          "title": "Rumah",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/rumah"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/rumah_1014"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/af536fb"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/naarath.json",
+        "properties": {
+          "title": "Naarath",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/naarath"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/naarath_867"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a9f5289"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/nahaliel.json",
+        "properties": {
+          "title": "Nahaliel",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/nahaliel"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/nahaliel_870"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/adaef13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/nehelam.json",
+        "properties": {
+          "title": "Nehelam",
+          "fclasses": [
+            "P",
+            "S"
+          ]
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/nehelam"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/nehelam_886"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a071cb2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/neiel.json",
+        "properties": {
+          "title": "Neiel",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/neiel"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/neiel_887"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/ab571de"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/parvaim.json",
+        "properties": {
+          "title": "Parvaim",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/parvaim"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/parvaim_922"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a938779"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/rimmon-of-judah.json",
+        "properties": {
+          "title": "Rimmon",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/rimmon-of-judah"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/rimmon-of-judah_1004"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a89511f"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/shimron-meron.json",
+        "properties": {
+          "title": "Shimron-meron",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/shimron-meron"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/shimron-meron_1083"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a072bae"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/ai.json",
+        "properties": {
+          "title": "Ai of Jeremiah",
+          "fclasses": [
+            "P",
+            "S"
+          ]
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/ai"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/ai_37"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a2526f8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/ayyah.json",
+        "properties": {
+          "title": "Ayyah",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/ayyah"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/ayyah_125"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/aa8edd2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/zelzah.json",
+        "properties": {
+          "title": "Zelzah",
+          "fclasses": [
+            "P",
+            "S"
+          ]
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/zelzah"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/zelzah_1248"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a44c89d"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/tishbite.json",
+        "properties": {
+          "title": "Tishbe",
+          "fclasses": [
+            "P",
+            "S"
+          ]
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/tishbite"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/tishbite_1171"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a4199a1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/zoheleth.json",
+        "properties": {
+          "title": "Zoheleth",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/zoheleth"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/zoheleth_1051"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/af9cfc9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/sihor.json",
+        "properties": {
+          "title": "Sihor",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/sihor"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/sihor_1076"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a7a59b4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/baal-hermon-of-manasseh.json",
+        "properties": {
+          "title": "Baal-Hermon",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/baal-hermon-of-manasseh"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/baal-hermon-of-manasseh_143"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a341fe8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/kedesh-of-judah.json",
+        "properties": {
+          "title": "Kedesh of Judah",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/kedesh-of-judah"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/kedesh-of-judah_677"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/ac2cef0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/kerioth.json",
+        "properties": {
+          "title": "Kerioth",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/kerioth"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/kerioth_683"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/ad54201"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/luz-of-the-hittites.json",
+        "properties": {
+          "title": "Luz of the Hittites",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/luz-of-the-hittites"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/luz-of-the-hittites_738"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a422a1f"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/mahalab.json",
+        "properties": {
+          "title": "Mahalab",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/mahalab"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/mahalab_755"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a36348c"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/goiim.json",
+        "properties": {
+          "title": "Goiim",
+          "fclasses": [
+            "L",
+            "S"
+          ]
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/goiim"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/goiim_485"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a9796ee"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/havilah-land-of-gold.json",
+        "properties": {
+          "title": "Havilah",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/havilah-land-of-gold"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/havilah-land-of-gold_533"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/ad7e819"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/eden.json",
+        "properties": {
+          "title": "Eden (garden)",
+          "fclasses": [
+            "S",
+            "S"
+          ]
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/eden"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/eden_354"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/af3daeb"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/forest.json",
+        "properties": {
+          "title": "Forest",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/forest"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/forest_584"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a966bdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/gate-of-the-children-of-the-people.json",
+        "properties": {
+          "title": "Gate of the children of the people",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/gate-of-the-children-of-the-people"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/gate-of-the-children-of-the-people_932"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a15257a"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/gate-of-the-valley.json",
+        "properties": {
+          "title": "Gate of the valley",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/gate-of-the-valley"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/gate-of-the-valley_1195"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a81b7b1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/gibeath-haaraloth.json",
+        "properties": {
+          "title": "Gibeath-haaraloth",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/gibeath-haaraloth"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/gibeath-haaraloth_469"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/ab94aea"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/jokneam.json",
+        "properties": {
+          "title": "Jokneam",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/jokneam"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/jokneam_647"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/ab2e402"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/baalah-of-simeon.json",
+        "properties": {
+          "title": "Baalah (of Judah)",
+          "fclasses": [
+            "P",
+            "S"
+          ]
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/baalah-of-simeon"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/baalah-of-simeon_134"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a289254"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/beth-gilgal.json",
+        "properties": {
+          "title": "Beth-gilgal",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/beth-gilgal"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/beth-gilgal_208"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/ab94aea"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/mount-ephraim.json",
+        "properties": {
+          "title": "Mount Ephraim",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/mount-ephraim"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/mount-ephraim_833"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/aa5cc66"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/mount-gilead.json",
+        "properties": {
+          "title": "Mount Gilead",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/mount-gilead"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/mount-gilead_838"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/acf57c5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/brook-of-kidron.json",
+        "properties": {
+          "title": "Brook of Kidron",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/brook-of-kidron"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/brook-of-kidron_688"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a553110"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/chephar-haammoni.json",
+        "properties": {
+          "title": "Chephar-haammoni",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/chephar-haammoni"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/chephar-haammoni_284"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a2cb16b"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/debir-of-gad.json",
+        "properties": {
+          "title": "Debir",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/debir-of-gad"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/debir-of-gad_327"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a376eed"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/mount-zemaraim.json",
+        "properties": {
+          "title": "Mount Zemaraim",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/mount-zemaraim"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/mount-zemaraim_859"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a811a10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/mount-zion.json",
+        "properties": {
+          "title": "Mount Zion",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/mount-zion"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/mount-zion_860"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a15257a"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/nebaioth.json",
+        "properties": {
+          "title": "Nebaioth",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/nebaioth"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/nebaioth_881"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/nimrod.json",
+        "properties": {
+          "title": "Nimrod",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/nimrod"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/nimrod_898"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a3d1321"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/nod.json",
+        "properties": {
+          "title": "Nod",
+          "fclasses": [
+            "L",
+            "S"
+          ]
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/nod"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/nod_902"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a1ad8e1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/gate-of-yeshanah.json",
+        "properties": {
+          "title": "Gate of Yeshanah",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/gate-of-yeshanah"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/gate-of-yeshanah_439"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a2fa712"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/valley-of-slaughter.json",
+        "properties": {
+          "title": "Valley of slaughter",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/valley-of-slaughter"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/valley-of-slaughter_1219"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a37c8e6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/valley-of-the-passengers.json",
+        "properties": {
+          "title": "Valley of the passengers",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/valley-of-the-passengers"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/valley-of-the-passengers_1227"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a2109c3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/brook-of-the-willows.json",
+        "properties": {
+          "title": "Brook of the Willows",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/brook-of-the-willows"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/brook-of-the-willows_261"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a0f88fb"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/sidon--zidon-.json",
+        "properties": {
+          "title": "Sidon (Zidon)",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/sidon--zidon-"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/sidon--zidon-_494"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a98e4d7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/sidon--the-great-.json",
+        "properties": {
+          "title": "Sidon (the great)",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/sidon--the-great-"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/sidon--the-great-_1094"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a98e4d7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/hall-of-pillars.json",
+        "properties": {
+          "title": "Hall of Pillars",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/hall-of-pillars"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/hall-of-pillars_512"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a493f37"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/plain-of-aven.json",
+        "properties": {
+          "title": "Plain of Aven",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/plain-of-aven"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/plain-of-aven_1198"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a0c71dc"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/pool-of-shelah.json",
+        "properties": {
+          "title": "Pool of Shelah",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/pool-of-shelah"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/pool-of-shelah_691"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a294859"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/prison-gate.json",
+        "properties": {
+          "title": "Prison Gate",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/prison-gate"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/prison-gate_441"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a4eb961"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/ramoth.json",
+        "properties": {
+          "title": "Ramoth",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/ramoth"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/ramoth_981"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/ada2a0b"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/west-of-the-euphrates-river.json",
+        "properties": {
+          "title": "West of the Euphrates River",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/west-of-the-euphrates-river"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/west-of-the-euphrates-river_244"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a62dec4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/wildgoat-rocks.json",
+        "properties": {
+          "title": "Wildgoat Rocks",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/wildgoat-rocks"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/wildgoat-rocks_1232"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/adea7b0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/sea-of-chinneroth.json",
+        "properties": {
+          "title": "Sea of Chinneroth",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/sea-of-chinneroth"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/sea-of-chinneroth_1030"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a562fcc"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/hall-of-the-throne.json",
+        "properties": {
+          "title": "Hall of the Throne",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/hall-of-the-throne"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/hall-of-the-throne_513"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a5e2c12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/trogyllium.json",
+        "properties": {
+          "title": "Trogyllium",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/trogyllium"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/trogyllium_1278"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a6f61d3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/valley-of-hebron.json",
+        "properties": {
+          "title": "Valley of Hebron",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/valley-of-hebron"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/valley-of-hebron_1206"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a375f5a"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/valley-of-jehoshaphat.json",
+        "properties": {
+          "title": "Valley of Jehoshaphat",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/valley-of-jehoshaphat"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/valley-of-jehoshaphat_1209"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/a553110"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld",
+    "features": [
+      {
+        "@id": "https://bible.helloao.org/api/c/places/tabor-of-zebulun.json",
+        "properties": {
+          "title": "Tabor",
+          "fclasses": []
+        },
+        "type": "Feature",
+        "geometry": null,
+        "links": [
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.digitalmanna.org/encyclopedia/places/tabor-of-zebulun"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://theographic.netlify.app/place/tabor-of-zebulun_1129"
+          },
+          {
+            "type": "seeAlso",
+            "identifier": "https://www.openbible.info/geo/ancient/ac3d92d"
+          }
+        ]
+      }
+    ]
+  }
+]
