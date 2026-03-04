@@ -1,6 +1,6 @@
 __pycache__/
 .DS_Store
-airtable_etl.ipynb
+scripts/
 .gitignore
 dev
 # Local Netlify folder
