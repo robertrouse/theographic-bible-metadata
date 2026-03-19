@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Theographic — Connections Explorer</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: system-ui, sans-serif; background: var(--bg-primary); color: var(--text-primary); }
+
+    #app { display: grid; grid-template-columns: 300px 1fr; grid-template-rows: auto 1fr; height: 100vh; }
+
+    header {
+      grid-column: 1 / -1;
+      padding: 10px 20px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    header h1 { font-size: 18px; font-weight: 600; color: var(--accent); white-space: nowrap; }
+    nav { display: flex; gap: 12px; }
+    nav a { color: var(--link); text-decoration: none; font-size: 13px; }
+    nav a:hover { text-decoration: underline; }
+    nav a.active { color: var(--accent); }
+    #loading { color: var(--accent); font-size: 13px; margin-left: auto; }
+
+    aside {
+      background: var(--bg-secondary);
+      border-right: 1px solid var(--border);
+      padding: 14px;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+    aside h2 { font-size: 12px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; }
+
+    .search-box {
+      width: 100%;
+      padding: 8px 12px;
+      background: var(--bg-tertiary);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      color: var(--text-primary);
+      font-size: 14px;
+    }
+    .search-box:focus { outline: none; border-color: var(--accent); }
+
+    .endpoint-box {
+      padding: 10px;
+      background: var(--bg-tertiary);
+      border-radius: 6px;
+      border: 1px solid var(--border);
+    }
+    .endpoint-box.selected { border-color: var(--accent); }
+    .endpoint-box label {
+      font-size: 11px;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      display: block;
+      margin-bottom: 4px;
+    }
+    .endpoint-name {
+      font-size: 14px;
+      color: var(--text-primary);
+    }
+    .endpoint-name .type-tag {
+      display: inline-block;
+      font-size: 9px;
+      padding: 1px 5px;
+      border-radius: 6px;
+      margin-right: 4px;
+    }
+    .endpoint-placeholder { color: var(--text-subtle); font-size: 13px; }
+
+    .find-btn {
+      width: 100%;
+      padding: 10px;
+      font-size: 13px;
+      font-weight: 600;
+      border: 1px solid var(--accent);
+      border-radius: 6px;
+      background: var(--accent-bg);
+      color: var(--accent);
+      cursor: pointer;
+    }
+    .find-btn:hover { background: var(--accent); color: var(--text-inverse); }
+    .find-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+
+    .swap-btn {
+      padding: 6px;
+      font-size: 14px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      background: transparent;
+      color: var(--text-muted);
+      cursor: pointer;
+      align-self: center;
+    }
+    .swap-btn:hover { border-color: var(--accent); color: var(--accent); }
+
+    #results { list-style: none; max-height: 180px; overflow-y: auto; }
+    #results li {
+      padding: 6px 8px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 12px;
+      margin-bottom: 1px;
+    }
+    #results li:hover { background: var(--bg-hover); }
+
+    #path-info {
+      padding: 12px;
+      background: var(--bg-tertiary);
+      border-radius: 8px;
+      font-size: 12px;
+      display: none;
+    }
+    #path-info h3 { font-size: 14px; color: var(--accent); margin-bottom: 6px; }
+    #path-info .meta { color: var(--text-secondary); margin-bottom: 3px; }
+
+    .path-steps { list-style: none; margin-top: 8px; }
+    .path-steps li {
+      padding: 6px 8px;
+      margin-bottom: 2px;
+      border-radius: 4px;
+      font-size: 12px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .path-steps li:hover { background: var(--bg-hover); }
+    .path-step-num {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: var(--accent-bg);
+      color: var(--accent);
+      font-size: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .path-edge-label {
+      font-size: 10px;
+      color: var(--text-subtle);
+      margin-left: auto;
+    }
+
+    .cooccurrence-section { margin-top: 10px; }
+    .cooccurrence-bar {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 11px;
+      margin-bottom: 3px;
+      cursor: pointer;
+      padding: 3px 0;
+    }
+    .cooccurrence-bar:hover { color: var(--accent); }
+    .cooccurrence-fill {
+      height: 6px;
+      border-radius: 3px;
+      background: var(--accent);
+      opacity: 0.6;
+    }
+
+    #graph-container {
+      position: relative;
+      overflow: hidden;
+    }
+    #graph-container svg { width: 100%; height: 100%; background: var(--svg-bg); }
+
+    .link { stroke: var(--border); stroke-width: 1.5; }
+    .link.path-link { stroke: var(--accent); stroke-width: 3; stroke-dasharray: 6,3; }
+
+    .node text { font-size: 11px; fill: var(--text-secondary); pointer-events: none; }
+    .node circle { stroke: var(--node-stroke); stroke-width: 1.5; cursor: pointer; }
+    .node circle:hover { stroke: var(--accent); stroke-width: 2.5; }
+    .node circle.endpoint { stroke: var(--accent); stroke-width: 3; }
+
+    .edge-label {
+      font-size: 8px;
+      fill: var(--text-subtle);
+      pointer-events: none;
+    }
+
+    .tooltip {
+      position: absolute;
+      background: var(--tooltip-bg);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 8px 12px;
+      font-size: 12px;
+      pointer-events: none;
+      display: none;
+      z-index: 10;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1>Connections</h1>
+      <nav>
+        <a href="index.html">Subgraph</a>
+        <a href="sigma-graph.html">Full Graph</a>
+        <a href="tree-view.html">Trees</a>
+        <a href="map-view.html">Map</a>
+        <a href="timeline-view.html">Timeline</a>
+        <a href="connections.html" class="active">Connections</a>
+      </nav>
+      <span id="loading">Loading data...</span>
+    </header>
+
+    <aside>
+      <div>
+        <h2>Find Path</h2>
+        <div class="endpoint-box" id="from-box">
+          <label>From</label>
+          <div class="endpoint-name" id="from-name"><span class="endpoint-placeholder">Click search to select...</span></div>
+        </div>
+        <button class="swap-btn" id="swap-btn" title="Swap endpoints">&#8645;</button>
+        <div class="endpoint-box" id="to-box">
+          <label>To</label>
+          <div class="endpoint-name" id="to-name"><span class="endpoint-placeholder">Click search to select...</span></div>
+        </div>
+      </div>
+
+      <button class="find-btn" id="find-btn" disabled>Find Shortest Path</button>
+
+      <div>
+        <h2>Search</h2>
+        <input class="search-box" id="search" type="text" placeholder="Search people, places, events...">
+        <ul id="results"></ul>
+      </div>
+
+      <div id="path-info">
+        <h3 id="path-title"></h3>
+        <div id="path-meta" class="meta"></div>
+        <ol class="path-steps" id="path-steps"></ol>
+      </div>
+
+      <div id="cooccurrence-panel" style="display:none">
+        <h2>Co-occurrences</h2>
+        <div id="cooccurrence-list" class="cooccurrence-section"></div>
+      </div>
+    </aside>
+
+    <div id="graph-container">
+      <svg id="graph-svg"></svg>
+      <div class="tooltip" id="tooltip"></div>
+    </div>
+  </div>
+
+  <script type="module">
+    import init, { TheographicGraph } from './pkg/theographic_graph.js';
+    import { initTheme, getTypeColors, themeVar } from './theme.js';
+
+    initTheme();
+
+    let graph = null;
+    let fromNode = null;
+    let toNode = null;
+    let selectingFor = 'from'; // which endpoint we're selecting
+
+    const svg = d3.select('#graph-svg');
+    const container = document.getElementById('graph-container');
+    const tooltip = document.getElementById('tooltip');
+    let simulation, linkGroup, nodeGroup, labelGroup, edgeLabelGroup;
+    let currentNodes = [], currentLinks = [];
+
+    function initGraph() {
+      const g = svg.append('g').attr('class', 'graph-layer');
+      linkGroup = g.append('g').attr('class', 'links');
+      edgeLabelGroup = g.append('g').attr('class', 'edge-labels');
+      nodeGroup = g.append('g').attr('class', 'nodes');
+      labelGroup = g.append('g').attr('class', 'labels');
+
+      const zoom = d3.zoom()
+        .scaleExtent([0.1, 8])
+        .on('zoom', (event) => g.attr('transform', event.transform));
+      svg.call(zoom);
+
+      simulation = d3.forceSimulation()
+        .force('link', d3.forceLink().id(d => d.id).distance(100))
+        .force('charge', d3.forceManyBody().strength(-200))
+        .force('center', d3.forceCenter(container.clientWidth / 2, container.clientHeight / 2))
+        .force('collision', d3.forceCollide().radius(30));
+    }
+
+    function renderPath(pathData, egoData) {
+      const TYPE_COLORS = getTypeColors();
+      const pathNodeIds = new Set(pathData.nodes.map(n => n.id));
+
+      // Merge path nodes with ego graph nodes around them
+      const nodeMap = new Map();
+      for (const n of pathData.nodes) nodeMap.set(n.id, { ...n, isPath: true });
+
+      if (egoData) {
+        const ego = JSON.parse(egoData);
+        for (const n of ego.nodes) {
+          if (!nodeMap.has(n.id)) nodeMap.set(n.id, { ...n, isPath: false });
+        }
+      }
+
+      currentNodes = [...nodeMap.values()].map(n => ({ ...n, x: undefined, y: undefined }));
+
+      // Build edges: path edges + ego edges
+      currentLinks = [];
+      const pathEdges = new Set();
+
+      // Path edges (consecutive nodes in path)
+      for (let i = 0; i < pathData.nodes.length - 1; i++) {
+        const s = pathData.nodes[i].id;
+        const t = pathData.nodes[i + 1].id;
+        currentLinks.push({ source: s, target: t, isPath: true, type: '' });
+        pathEdges.add(`${s}-${t}`);
+        pathEdges.add(`${t}-${s}`);
+      }
+
+      if (egoData) {
+        const ego = JSON.parse(egoData);
+        for (const e of ego.edges) {
+          const key = `${e.source}-${e.target}`;
+          if (!pathEdges.has(key)) {
+            const srcExists = nodeMap.has(e.source);
+            const tgtExists = nodeMap.has(e.target);
+            if (srcExists && tgtExists) {
+              currentLinks.push({ source: e.source, target: e.target, isPath: false, type: e.edge_type });
+            }
+          }
+        }
+      }
+
+      // Render
+      linkGroup.selectAll('*').remove();
+      nodeGroup.selectAll('*').remove();
+      labelGroup.selectAll('*').remove();
+      edgeLabelGroup.selectAll('*').remove();
+
+      const links = linkGroup.selectAll('line').data(currentLinks).join('line')
+        .attr('class', d => 'link' + (d.isPath ? ' path-link' : ''))
+        .attr('stroke-opacity', d => d.isPath ? 1 : 0.3);
+
+      const nodes = nodeGroup.selectAll('circle').data(currentNodes, d => d.id).join('circle')
+        .attr('r', d => {
+          if (d.id === fromNode?.id || d.id === toNode?.id) return 12;
+          if (d.isPath) return 9;
+          return 5;
+        })
+        .attr('fill', d => TYPE_COLORS[d.node_type] || '#888')
+        .attr('stroke', d => (d.id === fromNode?.id || d.id === toNode?.id) ? themeVar('--accent') : 'var(--node-stroke)')
+        .attr('stroke-width', d => (d.id === fromNode?.id || d.id === toNode?.id) ? 3 : 1.5)
+        .attr('cursor', 'pointer')
+        .attr('opacity', d => d.isPath ? 1 : 0.4)
+        .on('click', (event, d) => selectEndpoint(d))
+        .on('mouseover', (event, d) => {
+          tooltip.style.display = 'block';
+          tooltip.innerHTML = `<strong>${d.label}</strong><br><span style="color:${TYPE_COLORS[d.node_type]}">${d.node_type}</span>`;
+        })
+        .on('mousemove', (event) => {
+          tooltip.style.left = (event.offsetX + 12) + 'px';
+          tooltip.style.top = (event.offsetY - 12) + 'px';
+        })
+        .on('mouseout', () => { tooltip.style.display = 'none'; })
+        .call(d3.drag()
+          .on('start', (event, d) => { if (!event.active) simulation.alphaTarget(0.3).restart(); d.fx = d.x; d.fy = d.y; })
+          .on('drag', (event, d) => { d.fx = event.x; d.fy = event.y; })
+          .on('end', (event, d) => { if (!event.active) simulation.alphaTarget(0); d.fx = null; d.fy = null; })
+        );
+
+      const labels = labelGroup.selectAll('text')
+        .data(currentNodes.filter(n => n.isPath || n.id === fromNode?.id || n.id === toNode?.id), d => d.id)
+        .join('text')
+        .attr('font-size', 11)
+        .attr('fill', 'var(--text-primary)')
+        .attr('font-weight', d => d.isPath ? '600' : '400')
+        .attr('dx', 14).attr('dy', 4)
+        .attr('pointer-events', 'none')
+        .text(d => d.label.length > 25 ? d.label.slice(0, 25) + '...' : d.label);
+
+      simulation.nodes(currentNodes).on('tick', () => {
+        links.attr('x1', d => d.source.x).attr('y1', d => d.source.y)
+          .attr('x2', d => d.target.x).attr('y2', d => d.target.y);
+        nodes.attr('cx', d => d.x).attr('cy', d => d.y);
+        labels.attr('x', d => d.x).attr('y', d => d.y);
+      });
+
+      simulation.force('link').links(currentLinks);
+      simulation.alpha(1).restart();
+
+      // Show path info
+      const info = document.getElementById('path-info');
+      info.style.display = 'block';
+      document.getElementById('path-title').textContent =
+        `${fromNode.label} → ${toNode.label}`;
+      document.getElementById('path-meta').textContent =
+        `${pathData.length} steps · ${pathData.nodes.length} nodes`;
+
+      const stepsEl = document.getElementById('path-steps');
+      stepsEl.innerHTML = pathData.nodes.map((n, i) =>
+        `<li onclick="window.selectEndpoint_('${n.id}')">` +
+        `<span class="path-step-num">${i + 1}</span>` +
+        `<span class="type-tag" style="background:${TYPE_COLORS[n.node_type]}22;color:${TYPE_COLORS[n.node_type]}">${n.node_type}</span>` +
+        `${n.label}</li>`
+      ).join('');
+    }
+
+    function selectEndpoint(d) {
+      const TYPE_COLORS = getTypeColors();
+      if (!fromNode || (fromNode && toNode)) {
+        fromNode = d;
+        toNode = null;
+        selectingFor = 'to';
+        document.getElementById('from-name').innerHTML =
+          `<span class="type-tag" style="background:${TYPE_COLORS[d.node_type]}22;color:${TYPE_COLORS[d.node_type]}">${d.node_type}</span>${d.label}`;
+        document.getElementById('from-box').classList.add('selected');
+        document.getElementById('to-name').innerHTML = '<span class="endpoint-placeholder">Now select destination...</span>';
+        document.getElementById('to-box').classList.remove('selected');
+        showCooccurrences(d.id);
+      } else {
+        toNode = d;
+        selectingFor = 'from';
+        document.getElementById('to-name').innerHTML =
+          `<span class="type-tag" style="background:${TYPE_COLORS[d.node_type]}22;color:${TYPE_COLORS[d.node_type]}">${d.node_type}</span>${d.label}`;
+        document.getElementById('to-box').classList.add('selected');
+      }
+      document.getElementById('find-btn').disabled = !(fromNode && toNode);
+    }
+
+    window.selectEndpoint_ = function(id) {
+      const node = JSON.parse(graph.find_by_id(id) || 'null');
+      if (node) selectEndpoint(node);
+    };
+
+    function showCooccurrences(id) {
+      const panel = document.getElementById('cooccurrence-panel');
+      const list = document.getElementById('cooccurrence-list');
+      const coData = JSON.parse(graph.co_occurrences(id, '', 15));
+      if (coData.length === 0) { panel.style.display = 'none'; return; }
+
+      panel.style.display = '';
+      const TYPE_COLORS = getTypeColors();
+      const maxCount = coData[0].count;
+      list.innerHTML = coData.map(c =>
+        `<div class="cooccurrence-bar" onclick="window.selectEndpoint_('${c.node.id}')">` +
+        `<span class="type-tag" style="background:${TYPE_COLORS[c.node.node_type]}22;color:${TYPE_COLORS[c.node.node_type]}">${c.node.node_type}</span>` +
+        `<span>${c.node.label}</span>` +
+        `<div class="cooccurrence-fill" style="width:${Math.max(4, (c.count / maxCount) * 60)}px"></div>` +
+        `<span style="color:var(--text-subtle);font-size:10px">${c.count}</span></div>`
+      ).join('');
+    }
+
+    // Search
+    function setupSearch() {
+      const searchInput = document.getElementById('search');
+      const resultsEl = document.getElementById('results');
+      let timeout;
+
+      searchInput.addEventListener('input', () => {
+        clearTimeout(timeout);
+        timeout = setTimeout(() => {
+          const q = searchInput.value.trim();
+          if (q.length < 2 || !graph) { resultsEl.innerHTML = ''; return; }
+
+          const TYPE_COLORS = getTypeColors();
+          const results = JSON.parse(graph.search(q, 20));
+          resultsEl.innerHTML = results.map(r =>
+            `<li onclick="window.selectEndpoint_('${r.id}')">` +
+            `<span class="type-tag" style="background:${TYPE_COLORS[r.node_type]}22;color:${TYPE_COLORS[r.node_type]}">${r.node_type}</span>${r.label}</li>`
+          ).join('');
+        }, 200);
+      });
+    }
+
+    // Swap
+    document.getElementById('swap-btn').addEventListener('click', () => {
+      const tmp = fromNode;
+      fromNode = toNode;
+      toNode = tmp;
+      updateEndpointUI();
+    });
+
+    function updateEndpointUI() {
+      const TYPE_COLORS = getTypeColors();
+      if (fromNode) {
+        document.getElementById('from-name').innerHTML =
+          `<span class="type-tag" style="background:${TYPE_COLORS[fromNode.node_type]}22;color:${TYPE_COLORS[fromNode.node_type]}">${fromNode.node_type}</span>${fromNode.label}`;
+        document.getElementById('from-box').classList.add('selected');
+      } else {
+        document.getElementById('from-name').innerHTML = '<span class="endpoint-placeholder">Click search to select...</span>';
+        document.getElementById('from-box').classList.remove('selected');
+      }
+      if (toNode) {
+        document.getElementById('to-name').innerHTML =
+          `<span class="type-tag" style="background:${TYPE_COLORS[toNode.node_type]}22;color:${TYPE_COLORS[toNode.node_type]}">${toNode.node_type}</span>${toNode.label}`;
+        document.getElementById('to-box').classList.add('selected');
+      } else {
+        document.getElementById('to-name').innerHTML = '<span class="endpoint-placeholder">Click search to select...</span>';
+        document.getElementById('to-box').classList.remove('selected');
+      }
+      document.getElementById('find-btn').disabled = !(fromNode && toNode);
+    }
+
+    // Find path
+    document.getElementById('find-btn').addEventListener('click', () => {
+      if (!fromNode || !toNode || !graph) return;
+
+      const pathJson = graph.shortest_path(fromNode.id, toNode.id);
+      if (!pathJson) {
+        const info = document.getElementById('path-info');
+        info.style.display = 'block';
+        document.getElementById('path-title').textContent = 'No path found';
+        document.getElementById('path-meta').textContent =
+          `No connection between ${fromNode.label} and ${toNode.label}`;
+        document.getElementById('path-steps').innerHTML = '';
+        return;
+      }
+
+      const pathData = JSON.parse(pathJson);
+
+      // Get ego graphs around path nodes for context
+      let egoJson = null;
+      if (pathData.nodes.length <= 8) {
+        egoJson = graph.ego_graph(fromNode.id, 1, '', 30);
+      }
+
+      renderPath(pathData, egoJson);
+    });
+
+    // Initialize
+    async function main() {
+      const loadingEl = document.getElementById('loading');
+      await init();
+
+      const files = ['books', 'chapters', 'verses', 'people', 'places', 'events', 'peopleGroups', 'easton'];
+      const jsonData = {};
+
+      for (const name of files) {
+        loadingEl.textContent = `Loading ${name}.json...`;
+        const resp = await fetch(`../JSON/${name}.json`);
+        jsonData[name] = await resp.text();
+      }
+
+      loadingEl.textContent = 'Building graph...';
+      await new Promise(r => setTimeout(r, 10));
+
+      graph = new TheographicGraph(
+        jsonData.books, jsonData.chapters, jsonData.verses,
+        jsonData.people, jsonData.places, jsonData.events,
+        jsonData.peopleGroups, jsonData.easton
+      );
+
+      loadingEl.style.display = 'none';
+      initGraph();
+      setupSearch();
+
+      // Pre-select Jesus as "from"
+      const jesus = JSON.parse(graph.search_by_type('Person', 'Jesus', 1));
+      if (jesus.length > 0) {
+        const node = JSON.parse(graph.find_by_id(jesus[0].id));
+        if (node) selectEndpoint(node);
+      }
+    }
+
+    main().catch(console.error);
+  </script>
+</body>
+</html>

@@ -258,6 +258,150 @@ function injectPickerStyles() {
       color: var(--accent);
     }
 
+    /* ── Sidebar toggle ── */
+    .sidebar-toggle {
+      position: fixed;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+      z-index: 50;
+      width: 20px;
+      height: 48px;
+      border: 1px solid var(--border);
+      border-left: none;
+      border-radius: 0 6px 6px 0;
+      background: var(--bg-secondary);
+      color: var(--text-muted);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      transition: left 0.3s ease, background 0.15s;
+    }
+    .sidebar-toggle:hover { background: var(--bg-hover); color: var(--accent); }
+    #app.sidebar-collapsed aside { display: none; }
+    #app.sidebar-collapsed { grid-template-columns: 1fr !important; }
+    #app.sidebar-collapsed .sidebar-toggle { left: 0; }
+
+    /* ── Global search overlay (Ctrl+K) ── */
+    .global-search-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.6);
+      z-index: 200;
+      display: none;
+      align-items: flex-start;
+      justify-content: center;
+      padding-top: 15vh;
+    }
+    .global-search-overlay.open { display: flex; }
+    .global-search-box {
+      width: 500px;
+      max-width: 90vw;
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+      overflow: hidden;
+    }
+    .global-search-input {
+      width: 100%;
+      padding: 14px 16px;
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid var(--border);
+      color: var(--text-primary);
+      font-size: 16px;
+      outline: none;
+    }
+    .global-search-input::placeholder { color: var(--text-subtle); }
+    .global-search-hint {
+      padding: 6px 16px;
+      font-size: 11px;
+      color: var(--text-subtle);
+      display: flex;
+      justify-content: space-between;
+    }
+    .global-search-results {
+      list-style: none;
+      max-height: 300px;
+      overflow-y: auto;
+    }
+    .global-search-results li {
+      padding: 10px 16px;
+      cursor: pointer;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      border-bottom: 1px solid var(--border);
+    }
+    .global-search-results li:hover,
+    .global-search-results li.focused { background: var(--bg-hover); }
+    .global-search-results .gs-type {
+      font-size: 10px;
+      padding: 1px 6px;
+      border-radius: 6px;
+      white-space: nowrap;
+    }
+    .global-search-results .gs-page {
+      margin-left: auto;
+      font-size: 11px;
+      color: var(--text-subtle);
+    }
+
+    /* ── Export button ── */
+    .export-btn {
+      padding: 3px 8px;
+      font-size: 11px;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: transparent;
+      color: var(--text-muted);
+      cursor: pointer;
+      white-space: nowrap;
+    }
+    .export-btn:hover { border-color: var(--accent); color: var(--accent); }
+    .export-menu {
+      position: absolute;
+      top: 100%;
+      right: 0;
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+      padding: 4px 0;
+      display: none;
+      z-index: 60;
+      min-width: 160px;
+    }
+    .export-menu.open { display: block; }
+    .export-menu button {
+      display: block;
+      width: 100%;
+      padding: 8px 14px;
+      border: none;
+      background: transparent;
+      color: var(--text-primary);
+      font-size: 12px;
+      text-align: left;
+      cursor: pointer;
+    }
+    .export-menu button:hover { background: var(--bg-hover); }
+
+    /* ── Loading skeleton ── */
+    .skeleton-pulse {
+      background: linear-gradient(90deg, var(--bg-tertiary) 25%, var(--bg-hover) 50%, var(--bg-tertiary) 75%);
+      background-size: 200% 100%;
+      animation: skeleton-shimmer 1.5s infinite;
+      border-radius: 4px;
+    }
+    @keyframes skeleton-shimmer {
+      0% { background-position: 200% 0; }
+      100% { background-position: -200% 0; }
+    }
+
     /* ── Responsive: collapse sidebar on narrow screens ── */
     @media (max-width: 768px) {
       #app {
@@ -359,6 +503,345 @@ export function initTheme() {
 
   const header = document.querySelector('header');
   if (header) renderThemePicker(header);
+
+  // Sidebar toggle
+  setupSidebarToggle();
+
+  // Global search (Ctrl/Cmd+K)
+  setupGlobalSearch();
+
+  // Export button
+  setupExportButton(header);
+
+  // Loading skeleton
+  setupLoadingSkeleton();
+}
+
+// ── Sidebar Toggle ─────────────────────────────────────────────────────
+
+function setupSidebarToggle() {
+  const app = document.getElementById('app');
+  const aside = document.querySelector('aside');
+  if (!app || !aside) return;
+
+  const btn = document.createElement('button');
+  btn.className = 'sidebar-toggle';
+  btn.innerHTML = '&#9664;';
+  btn.title = 'Toggle sidebar';
+  btn.setAttribute('aria-label', 'Toggle sidebar');
+  document.body.appendChild(btn);
+
+  // Restore state
+  try {
+    if (localStorage.getItem('theographic-sidebar') === 'collapsed') {
+      app.classList.add('sidebar-collapsed');
+      btn.innerHTML = '&#9654;';
+    }
+  } catch {}
+
+  btn.addEventListener('click', () => {
+    const collapsed = app.classList.toggle('sidebar-collapsed');
+    btn.innerHTML = collapsed ? '&#9654;' : '&#9664;';
+    try { localStorage.setItem('theographic-sidebar', collapsed ? 'collapsed' : 'open'); } catch {}
+  });
+}
+
+// ── Global Search (Ctrl/Cmd+K) ────────────────────────────────────────
+
+function setupGlobalSearch() {
+  const overlay = document.createElement('div');
+  overlay.className = 'global-search-overlay';
+  overlay.innerHTML = `
+    <div class="global-search-box">
+      <input class="global-search-input" type="text" placeholder="Search across all views..." autofocus>
+      <div class="global-search-hint">
+        <span>Type to search people, places, events...</span>
+        <span>ESC to close</span>
+      </div>
+      <ul class="global-search-results"></ul>
+    </div>
+  `;
+  document.body.appendChild(overlay);
+
+  const input = overlay.querySelector('.global-search-input');
+  const results = overlay.querySelector('.global-search-results');
+  let focusedIdx = -1;
+
+  // Pages for navigation
+  const PAGES = {
+    Person:      { url: 'tree-view.html',    label: 'Trees' },
+    Place:       { url: 'map-view.html',     label: 'Map' },
+    Event:       { url: 'timeline-view.html', label: 'Timeline' },
+    Book:        { url: 'index.html',        label: 'Explorer' },
+    PeopleGroup: { url: 'sigma-graph.html',  label: 'Graph' },
+    Easton:      { url: 'sigma-graph.html',  label: 'Graph' },
+  };
+
+  function open() {
+    overlay.classList.add('open');
+    input.value = '';
+    results.innerHTML = '';
+    focusedIdx = -1;
+    setTimeout(() => input.focus(), 50);
+  }
+
+  function close() {
+    overlay.classList.remove('open');
+  }
+
+  function navigate(id, nodeType) {
+    const page = PAGES[nodeType] || { url: 'index.html' };
+    // Store selection for the target page
+    try { localStorage.setItem('theographic-navigate', JSON.stringify({ id, nodeType })); } catch {}
+    close();
+    // If we're already on the right page, trigger the local search
+    const currentPage = window.location.pathname.split('/').pop();
+    if (currentPage === page.url) {
+      // Find the local search box and fill it
+      const localSearch = document.getElementById('search');
+      if (localSearch) {
+        localSearch.value = '';
+        localSearch.dispatchEvent(new Event('input'));
+      }
+      // Try to call page-specific selection
+      if (window.selectResult) window.selectResult(id);
+      if (window.selectPerson) window.selectPerson(id);
+      if (window.focusNode) window.focusNode(id);
+    } else {
+      window.location.href = page.url;
+    }
+  }
+
+  // Keyboard shortcut
+  document.addEventListener('keydown', (e) => {
+    if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+      e.preventDefault();
+      if (overlay.classList.contains('open')) close();
+      else open();
+    }
+    if (e.key === 'Escape' && overlay.classList.contains('open')) {
+      close();
+    }
+  });
+
+  // Close on backdrop click
+  overlay.addEventListener('click', (e) => {
+    if (e.target === overlay) close();
+  });
+
+  // Search input
+  let searchTimeout;
+  input.addEventListener('input', () => {
+    clearTimeout(searchTimeout);
+    searchTimeout = setTimeout(() => {
+      const q = input.value.trim();
+      if (q.length < 2) { results.innerHTML = ''; focusedIdx = -1; return; }
+
+      // Use the page's existing search if available via local search box
+      const localSearch = document.getElementById('search');
+      if (localSearch) {
+        // Trigger the same search logic
+        localSearch.value = q;
+        localSearch.dispatchEvent(new Event('input'));
+      }
+
+      // Also show results in global overlay by reading from the local results
+      setTimeout(() => {
+        const localResults = document.querySelectorAll('#results li');
+        const items = [];
+        localResults.forEach(li => {
+          const onclick = li.getAttribute('onclick') || '';
+          const idMatch = onclick.match(/'([^']+)'/);
+          const typeTag = li.querySelector('.type-tag');
+          if (idMatch) {
+            items.push({
+              id: idMatch[1],
+              label: li.textContent.trim(),
+              type: typeTag ? typeTag.textContent.trim() : '',
+              color: typeTag ? typeTag.style.color : '',
+            });
+          }
+        });
+
+        results.innerHTML = items.slice(0, 10).map((item, i) =>
+          `<li data-id="${item.id}" data-type="${item.type}" class="${i === 0 ? 'focused' : ''}">` +
+          `<span class="gs-type" style="background:${item.color}22;color:${item.color}">${item.type}</span>` +
+          `${item.label.replace(item.type, '').trim()}` +
+          `<span class="gs-page">${PAGES[item.type]?.label || 'Explorer'}</span></li>`
+        ).join('');
+        focusedIdx = items.length > 0 ? 0 : -1;
+      }, 300);
+    }, 150);
+  });
+
+  // Keyboard navigation in results
+  input.addEventListener('keydown', (e) => {
+    const items = results.querySelectorAll('li');
+    if (e.key === 'ArrowDown') {
+      e.preventDefault();
+      focusedIdx = Math.min(focusedIdx + 1, items.length - 1);
+      items.forEach((li, i) => li.classList.toggle('focused', i === focusedIdx));
+    } else if (e.key === 'ArrowUp') {
+      e.preventDefault();
+      focusedIdx = Math.max(focusedIdx - 1, 0);
+      items.forEach((li, i) => li.classList.toggle('focused', i === focusedIdx));
+    } else if (e.key === 'Enter') {
+      e.preventDefault();
+      const focused = items[focusedIdx];
+      if (focused) navigate(focused.dataset.id, focused.dataset.type);
+    }
+  });
+
+  // Click on result
+  results.addEventListener('click', (e) => {
+    const li = e.target.closest('li');
+    if (li) navigate(li.dataset.id, li.dataset.type);
+  });
+}
+
+// ── Export Button ──────────────────────────────────────────────────────
+
+function setupExportButton(headerEl) {
+  if (!headerEl) return;
+
+  const wrapper = document.createElement('div');
+  wrapper.style.cssText = 'position:relative;display:inline-block';
+
+  const btn = document.createElement('button');
+  btn.className = 'export-btn';
+  btn.textContent = 'Export';
+  btn.title = 'Export visualization';
+
+  const menu = document.createElement('div');
+  menu.className = 'export-menu';
+  menu.innerHTML = `
+    <button data-action="png">Save as PNG</button>
+    <button data-action="svg">Save as SVG</button>
+    <button data-action="json">Export data as JSON</button>
+  `;
+
+  wrapper.appendChild(btn);
+  wrapper.appendChild(menu);
+
+  // Insert before theme picker
+  const picker = headerEl.querySelector('.theme-picker');
+  if (picker) headerEl.insertBefore(wrapper, picker);
+  else headerEl.appendChild(wrapper);
+
+  btn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    menu.classList.toggle('open');
+  });
+
+  document.addEventListener('click', () => menu.classList.remove('open'));
+
+  menu.addEventListener('click', (e) => {
+    const action = e.target.dataset.action;
+    if (!action) return;
+    menu.classList.remove('open');
+
+    const svgEl = document.querySelector('svg');
+    if (!svgEl) return;
+
+    if (action === 'png') {
+      exportAsPng(svgEl);
+    } else if (action === 'svg') {
+      exportAsSvg(svgEl);
+    } else if (action === 'json') {
+      exportAsJson();
+    }
+  });
+}
+
+function exportAsPng(svgEl) {
+  const svgData = new XMLSerializer().serializeToString(svgEl);
+  const canvas = document.createElement('canvas');
+  const rect = svgEl.getBoundingClientRect();
+  canvas.width = rect.width * 2;
+  canvas.height = rect.height * 2;
+  const ctx = canvas.getContext('2d');
+  ctx.scale(2, 2);
+
+  const img = new Image();
+  img.onload = () => {
+    ctx.fillStyle = themeVar('--bg-primary');
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    ctx.drawImage(img, 0, 0, rect.width, rect.height);
+    const a = document.createElement('a');
+    a.download = 'theographic-export.png';
+    a.href = canvas.toDataURL('image/png');
+    a.click();
+  };
+  img.src = 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svgData);
+}
+
+function exportAsSvg(svgEl) {
+  const svgData = new XMLSerializer().serializeToString(svgEl);
+  const blob = new Blob([svgData], { type: 'image/svg+xml' });
+  const a = document.createElement('a');
+  a.download = 'theographic-export.svg';
+  a.href = URL.createObjectURL(blob);
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+
+function exportAsJson() {
+  // Collect visible data from the page
+  const data = {
+    page: document.title,
+    theme: currentTheme,
+    exportedAt: new Date().toISOString(),
+    nodes: [],
+  };
+
+  // Try to read from local graph state
+  document.querySelectorAll('#results li').forEach(li => {
+    data.nodes.push({ text: li.textContent.trim() });
+  });
+
+  const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+  const a = document.createElement('a');
+  a.download = 'theographic-export.json';
+  a.href = URL.createObjectURL(blob);
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+
+// ── Loading Skeleton ──────────────────────────────────────────────────
+
+function setupLoadingSkeleton() {
+  const aside = document.querySelector('aside');
+  if (!aside) return;
+
+  // Show skeleton until #loading is hidden
+  const loadingEl = document.getElementById('loading');
+  if (!loadingEl || loadingEl.style.display === 'none') return;
+
+  const skeleton = document.createElement('div');
+  skeleton.className = 'loading-skeleton';
+  skeleton.innerHTML = `
+    <div class="skeleton-pulse" style="height:36px;margin-bottom:12px"></div>
+    <div style="display:flex;gap:6px;margin-bottom:16px">
+      <div class="skeleton-pulse" style="height:24px;flex:1"></div>
+      <div class="skeleton-pulse" style="height:24px;flex:1"></div>
+      <div class="skeleton-pulse" style="height:24px;flex:1"></div>
+    </div>
+    <div class="skeleton-pulse" style="height:16px;width:60%;margin-bottom:8px"></div>
+    <div class="skeleton-pulse" style="height:16px;width:80%;margin-bottom:8px"></div>
+    <div class="skeleton-pulse" style="height:16px;width:45%;margin-bottom:8px"></div>
+    <div class="skeleton-pulse" style="height:16px;width:70%;margin-bottom:16px"></div>
+    <div class="skeleton-pulse" style="height:100px;margin-bottom:12px"></div>
+  `;
+  aside.prepend(skeleton);
+
+  // Remove skeleton when loading finishes
+  const observer = new MutationObserver(() => {
+    if (loadingEl.style.display === 'none') {
+      skeleton.remove();
+      observer.disconnect();
+    }
+  });
+  observer.observe(loadingEl, { attributes: true, attributeFilter: ['style'] });
 }
 
 /**
