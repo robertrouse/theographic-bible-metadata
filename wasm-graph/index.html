@@ -131,6 +131,7 @@
         <a href="map-view.html">Map</a>
         <a href="timeline-view.html">Timeline</a>
         <a href="connections.html">Connections</a>
+        <a href="reader.html">Reader</a>
       </nav>
       <span id="stats"></span>
       <span id="loading">Loading data...</span>
@@ -165,8 +166,13 @@
   <script type="module">
     import init, { TheographicGraph } from './pkg/theographic_graph.js';
     import { initTheme, getTypeColors } from './theme.js';
+    import { initUX, pushBreadcrumb, toggleBookmark, isBookmarked } from './ux.js';
+    import { loadAllJSON, QueryCache } from './perf.js';
 
     initTheme();
+    initUX((entry) => {
+      if (entry.id) expandNode(entry.id);
+    });
 
     let graph = null;
 
@@ -272,6 +278,11 @@
     function expandNode(id) {
       if (!graph) return;
       const subgraph = graph.ego_graph(id, 1, '', 100);
+      const nodeData = graph.find_by_id(id);
+      if (nodeData) {
+        const parsed = JSON.parse(nodeData);
+        pushBreadcrumb({ id: parsed.id, label: parsed.label, nodeType: parsed.node_type, page: 'index.html' });
+      }
       renderGraph(subgraph);
       showDetail(id);
     }
@@ -368,14 +379,10 @@
       const loadingEl = document.getElementById('loading');
       loadingEl.textContent = 'Fetching JSON files...';
 
-      const files = ['books', 'chapters', 'verses', 'people', 'places', 'events', 'peopleGroups', 'easton'];
-      const jsonData = {};
-
-      for (const name of files) {
+      loadingEl.textContent = 'Loading JSON files...';
+      const jsonData = await loadAllJSON((name) => {
         loadingEl.textContent = `Loading ${name}.json...`;
-        const resp = await fetch(`../JSON/${name}.json`);
-        jsonData[name] = await resp.text();
-      }
+      });
 
       loadingEl.textContent = 'Building graph...';
       await new Promise(r => setTimeout(r, 10));

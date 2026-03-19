@@ -1,0 +1,82 @@
+name: Build & Deploy WASM Graph
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - 'wasm-graph/**'
+      - '.github/workflows/wasm-build.yml'
+  pull_request:
+    branches: [master]
+    paths:
+      - 'wasm-graph/**'
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    name: Rust Tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: wasm-graph
+      - name: Run tests
+        working-directory: wasm-graph
+        run: cargo test
+
+  build:
+    name: Build WASM
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: wasm32-unknown-unknown
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: wasm-graph
+      - name: Install wasm-pack
+        run: curl https://rustwasm.github.io/wasm-pack/installer/init.sh -sSf | sh
+      - name: Build WASM package
+        working-directory: wasm-graph
+        run: wasm-pack build --target web --out-dir pkg --release
+      - name: Prepare deploy directory
+        run: |
+          mkdir -p _site/wasm-graph/pkg
+          # Copy HTML pages and JS
+          cp wasm-graph/*.html _site/wasm-graph/
+          cp wasm-graph/*.js _site/wasm-graph/
+          # Copy WASM build output
+          cp wasm-graph/pkg/*.js wasm-graph/pkg/*.wasm _site/wasm-graph/pkg/
+          # Copy JSON data (note: directory is lowercase 'json')
+          mkdir -p _site/JSON
+          cp json/*.json _site/JSON/
+      - name: Upload Pages artifact
+        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    name: Deploy to GitHub Pages
+    if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

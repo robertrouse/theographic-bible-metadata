@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Theographic — Verse Reader &amp; Cross-References</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: system-ui, sans-serif; background: var(--bg-primary); color: var(--text-primary); }
+
+    #app { display: grid; grid-template-columns: 280px 1fr 280px; grid-template-rows: auto 1fr; height: 100vh; }
+
+    header {
+      grid-column: 1 / -1;
+      padding: 10px 20px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    header h1 { font-size: 18px; font-weight: 600; color: var(--accent); white-space: nowrap; }
+    nav { display: flex; gap: 12px; }
+    nav a { color: var(--link); text-decoration: none; font-size: 13px; }
+    nav a:hover { text-decoration: underline; }
+    nav a.active { color: var(--accent); }
+    #loading { color: var(--accent); font-size: 13px; margin-left: auto; }
+
+    aside {
+      background: var(--bg-secondary);
+      border-right: 1px solid var(--border);
+      padding: 14px;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    aside h2 { font-size: 12px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; }
+
+    #right-panel {
+      background: var(--bg-secondary);
+      border-left: 1px solid var(--border);
+      padding: 14px;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    select {
+      width: 100%;
+      padding: 8px;
+      background: var(--bg-tertiary);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      color: var(--text-primary);
+      font-size: 13px;
+    }
+    select:focus { outline: none; border-color: var(--accent); }
+
+    /* Reading plans */
+    .plan-card {
+      padding: 10px;
+      background: var(--bg-tertiary);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      cursor: pointer;
+      margin-bottom: 6px;
+    }
+    .plan-card:hover { border-color: var(--accent); }
+    .plan-card.active { border-color: var(--accent); background: var(--accent-bg); }
+    .plan-card h3 { font-size: 13px; color: var(--text-primary); margin-bottom: 2px; }
+    .plan-card p { font-size: 11px; color: var(--text-muted); }
+    .plan-progress {
+      height: 4px;
+      background: var(--bg-hover);
+      border-radius: 2px;
+      margin-top: 6px;
+      overflow: hidden;
+    }
+    .plan-progress-fill {
+      height: 100%;
+      background: var(--accent);
+      border-radius: 2px;
+      transition: width 0.3s;
+    }
+
+    /* Verse reader */
+    #reader {
+      padding: 24px 32px;
+      overflow-y: auto;
+      line-height: 1.8;
+    }
+    #reader-title {
+      font-size: 20px;
+      font-weight: 600;
+      color: var(--accent);
+      margin-bottom: 16px;
+    }
+
+    .verse-line {
+      margin-bottom: 2px;
+      cursor: pointer;
+      padding: 2px 6px;
+      border-radius: 4px;
+      transition: background 0.15s;
+    }
+    .verse-line:hover { background: var(--bg-hover); }
+    .verse-line.selected { background: var(--accent-bg); }
+    .verse-num {
+      font-size: 10px;
+      color: var(--accent);
+      vertical-align: super;
+      margin-right: 2px;
+      font-weight: 600;
+    }
+    .verse-text { font-size: 15px; }
+
+    .entity-tag {
+      background: transparent;
+      border-bottom: 1px dashed;
+      cursor: pointer;
+      padding: 0;
+      transition: background 0.15s;
+    }
+    .entity-tag:hover { background: var(--accent-bg); }
+    .entity-person { border-color: var(--color-person); color: var(--color-person); }
+    .entity-place { border-color: var(--color-place); color: var(--color-place); }
+    .entity-event { border-color: var(--color-event); color: var(--color-event); }
+
+    /* Cross-references panel */
+    .xref-section { margin-bottom: 12px; }
+    .xref-section h3 { font-size: 12px; color: var(--text-muted); text-transform: uppercase; margin-bottom: 6px; }
+    .xref-item {
+      padding: 6px 8px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 12px;
+      margin-bottom: 2px;
+    }
+    .xref-item:hover { background: var(--bg-hover); }
+    .xref-label { font-weight: 600; color: var(--text-primary); }
+    .xref-detail { font-size: 11px; color: var(--text-muted); }
+    .type-tag {
+      display: inline-block;
+      font-size: 9px;
+      padding: 1px 5px;
+      border-radius: 6px;
+      margin-right: 4px;
+    }
+
+    /* Reading plan navigation */
+    .plan-nav {
+      display: flex;
+      gap: 8px;
+      margin-top: 8px;
+    }
+    .plan-nav button {
+      flex: 1;
+      padding: 8px;
+      font-size: 12px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      background: transparent;
+      color: var(--text-muted);
+      cursor: pointer;
+    }
+    .plan-nav button:hover { border-color: var(--accent); color: var(--accent); }
+    .plan-nav button:disabled { opacity: 0.3; cursor: not-allowed; }
+
+    .plan-day-label {
+      font-size: 12px;
+      color: var(--text-secondary);
+      text-align: center;
+      padding: 4px 0;
+    }
+
+    /* Responsive */
+    @media (max-width: 900px) {
+      #app { grid-template-columns: 1fr !important; grid-template-rows: auto auto 1fr auto !important; }
+      aside { border-right: none; border-bottom: 1px solid var(--border); max-height: 30vh; }
+      #right-panel { border-left: none; border-top: 1px solid var(--border); max-height: 30vh; }
+    }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1>Verse Reader</h1>
+      <nav>
+        <a href="index.html">Subgraph</a>
+        <a href="sigma-graph.html">Full Graph</a>
+        <a href="tree-view.html">Trees</a>
+        <a href="map-view.html">Map</a>
+        <a href="timeline-view.html">Timeline</a>
+        <a href="connections.html">Connections</a>
+        <a href="reader.html" class="active">Reader</a>
+      </nav>
+      <span id="loading">Loading data...</span>
+    </header>
+
+    <aside>
+      <div>
+        <h2>Navigation</h2>
+        <select id="book-select"><option value="">Choose book...</option></select>
+        <select id="chapter-select" style="margin-top:6px"><option value="">Choose chapter...</option></select>
+      </div>
+
+      <div>
+        <h2>Reading Plans</h2>
+        <div id="plans-list"></div>
+        <div id="plan-controls" style="display:none">
+          <div class="plan-day-label" id="plan-day-label"></div>
+          <div class="plan-nav">
+            <button id="plan-prev">&larr; Previous</button>
+            <button id="plan-next">Next &rarr;</button>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <div id="reader">
+      <div id="reader-title">Select a book and chapter to begin reading</div>
+      <div id="reader-content"></div>
+    </div>
+
+    <div id="right-panel">
+      <h2>Cross-References</h2>
+      <div id="xref-content">
+        <p style="font-size:12px;color:var(--text-muted)">Click a verse to see people, places, and events mentioned in it.</p>
+      </div>
+    </div>
+  </div>
+
+  <script type="module">
+    import init, { TheographicGraph } from './pkg/theographic_graph.js';
+    import { initTheme, getTypeColors, themeVar } from './theme.js';
+
+    initTheme();
+
+    let graph = null;
+    let booksData = [];
+    let chaptersData = [];
+    let versesData = [];
+    let selectedVerseId = null;
+    let currentPlan = null;
+    let currentPlanDay = 0;
+
+    // ── Reading Plans ─────────────────────────────────────────────────
+
+    const READING_PLANS = [
+      {
+        name: 'Key Events',
+        description: '30 pivotal Bible events with context',
+        readings: [
+          { label: 'Day 1: Creation', book: 'Genesis', chapters: [1, 2] },
+          { label: 'Day 2: The Fall', book: 'Genesis', chapters: [3] },
+          { label: 'Day 3: The Flood', book: 'Genesis', chapters: [6, 7, 8] },
+          { label: 'Day 4: Covenant with Abraham', book: 'Genesis', chapters: [12, 15] },
+          { label: 'Day 5: Sacrifice of Isaac', book: 'Genesis', chapters: [22] },
+          { label: 'Day 6: Jacob & Esau', book: 'Genesis', chapters: [25, 27] },
+          { label: 'Day 7: Joseph in Egypt', book: 'Genesis', chapters: [37, 39, 40] },
+          { label: 'Day 8: The Exodus', book: 'Exodus', chapters: [1, 2, 3] },
+          { label: 'Day 9: Plagues & Passover', book: 'Exodus', chapters: [7, 12] },
+          { label: 'Day 10: Red Sea Crossing', book: 'Exodus', chapters: [14, 15] },
+          { label: 'Day 11: Ten Commandments', book: 'Exodus', chapters: [19, 20] },
+          { label: 'Day 12: The Golden Calf', book: 'Exodus', chapters: [32] },
+          { label: 'Day 13: Spies in Canaan', book: 'Numbers', chapters: [13, 14] },
+          { label: 'Day 14: Fall of Jericho', book: 'Joshua', chapters: [1, 6] },
+          { label: 'Day 15: Gideon', book: 'Judges', chapters: [6, 7] },
+          { label: 'Day 16: Samson', book: 'Judges', chapters: [13, 16] },
+          { label: 'Day 17: Ruth', book: 'Ruth', chapters: [1, 4] },
+          { label: 'Day 18: David & Goliath', book: '1 Samuel', chapters: [17] },
+          { label: 'Day 19: Solomon\'s Wisdom', book: '1 Kings', chapters: [3] },
+          { label: 'Day 20: Elijah on Carmel', book: '1 Kings', chapters: [18] },
+          { label: 'Day 21: Exile to Babylon', book: '2 Kings', chapters: [25] },
+          { label: 'Day 22: Daniel in Lions\' Den', book: 'Daniel', chapters: [6] },
+          { label: 'Day 23: Return from Exile', book: 'Ezra', chapters: [1, 3] },
+          { label: 'Day 24: Birth of Jesus', book: 'Luke', chapters: [1, 2] },
+          { label: 'Day 25: Sermon on the Mount', book: 'Matthew', chapters: [5, 6, 7] },
+          { label: 'Day 26: Miracles of Jesus', book: 'Mark', chapters: [4, 5] },
+          { label: 'Day 27: The Last Supper', book: 'Luke', chapters: [22] },
+          { label: 'Day 28: Crucifixion', book: 'John', chapters: [18, 19] },
+          { label: 'Day 29: Resurrection', book: 'John', chapters: [20, 21] },
+          { label: 'Day 30: Pentecost', book: 'Acts', chapters: [1, 2] },
+        ],
+      },
+      {
+        name: 'Gospels in 28 Days',
+        description: 'Read all four Gospels in a month',
+        readings: Array.from({ length: 28 }, (_, i) => {
+          const gospels = [
+            { book: 'Matthew', total: 28 },
+            { book: 'Mark', total: 16 },
+            { book: 'Luke', total: 24 },
+            { book: 'John', total: 21 },
+          ];
+          // ~3.2 chapters per day across 89 total chapters
+          const startCh = Math.floor(i * 89 / 28);
+          const endCh = Math.floor((i + 1) * 89 / 28);
+          // Map to gospel+chapter
+          let remaining = startCh;
+          let book = '', chapters = [];
+          for (const g of gospels) {
+            if (remaining < g.total) {
+              book = g.book;
+              const end = Math.min(g.total, remaining + (endCh - startCh));
+              chapters = Array.from({ length: end - remaining }, (_, j) => remaining + j + 1);
+              break;
+            }
+            remaining -= g.total;
+          }
+          return { label: `Day ${i + 1}: ${book} ${chapters.join(', ')}`, book, chapters };
+        }),
+      },
+      {
+        name: 'People of the Bible',
+        description: '14 days exploring key biblical figures',
+        readings: [
+          { label: 'Day 1: Adam & Eve', book: 'Genesis', chapters: [1, 2, 3] },
+          { label: 'Day 2: Noah', book: 'Genesis', chapters: [6, 7, 8, 9] },
+          { label: 'Day 3: Abraham', book: 'Genesis', chapters: [12, 15, 17, 22] },
+          { label: 'Day 4: Jacob', book: 'Genesis', chapters: [25, 28, 32] },
+          { label: 'Day 5: Joseph', book: 'Genesis', chapters: [37, 39, 41, 45] },
+          { label: 'Day 6: Moses', book: 'Exodus', chapters: [2, 3, 14, 20] },
+          { label: 'Day 7: Joshua', book: 'Joshua', chapters: [1, 6, 24] },
+          { label: 'Day 8: David', book: '1 Samuel', chapters: [16, 17] },
+          { label: 'Day 9: Solomon', book: '1 Kings', chapters: [3, 8] },
+          { label: 'Day 10: Elijah', book: '1 Kings', chapters: [17, 18, 19] },
+          { label: 'Day 11: Daniel', book: 'Daniel', chapters: [1, 3, 6] },
+          { label: 'Day 12: Mary & Joseph', book: 'Luke', chapters: [1, 2] },
+          { label: 'Day 13: Jesus', book: 'John', chapters: [1, 3, 11] },
+          { label: 'Day 14: Paul', book: 'Acts', chapters: [9, 13, 17] },
+        ],
+      },
+    ];
+
+    // ── Load Data ─────────────────────────────────────────────────────
+
+    async function main() {
+      const loadingEl = document.getElementById('loading');
+      await init();
+
+      const files = ['books', 'chapters', 'verses', 'people', 'places', 'events', 'peopleGroups', 'easton'];
+      const jsonData = {};
+
+      for (const name of files) {
+        loadingEl.textContent = `Loading ${name}.json...`;
+        const resp = await fetch(`../JSON/${name}.json`);
+        jsonData[name] = await resp.text();
+      }
+
+      loadingEl.textContent = 'Building graph...';
+      await new Promise(r => setTimeout(r, 10));
+
+      graph = new TheographicGraph(
+        jsonData.books, jsonData.chapters, jsonData.verses,
+        jsonData.people, jsonData.places, jsonData.events,
+        jsonData.peopleGroups, jsonData.easton
+      );
+
+      booksData = JSON.parse(jsonData.books);
+      chaptersData = JSON.parse(jsonData.chapters);
+      versesData = JSON.parse(jsonData.verses);
+
+      loadingEl.style.display = 'none';
+
+      setupBookSelector();
+      setupReadingPlans();
+    }
+
+    // ── Book/Chapter Navigation ───────────────────────────────────────
+
+    function setupBookSelector() {
+      const bookSelect = document.getElementById('book-select');
+      const chapterSelect = document.getElementById('chapter-select');
+
+      const sorted = [...booksData].sort((a, b) =>
+        (a.fields.bookOrder || 0) - (b.fields.bookOrder || 0));
+
+      for (const book of sorted) {
+        const opt = document.createElement('option');
+        opt.value = book.id;
+        opt.textContent = book.fields.bookName || book.fields.osisName;
+        bookSelect.appendChild(opt);
+      }
+
+      bookSelect.addEventListener('change', () => {
+        const bookId = bookSelect.value;
+        if (!bookId) return;
+
+        const book = booksData.find(b => b.id === bookId);
+        if (!book) return;
+
+        // Populate chapters
+        chapterSelect.innerHTML = '<option value="">Choose chapter...</option>';
+        const bookChapters = (book.fields.chapters || [])
+          .map(id => chaptersData.find(c => c.id === id))
+          .filter(Boolean)
+          .sort((a, b) => (a.fields.chapterNum || 0) - (b.fields.chapterNum || 0));
+
+        for (const ch of bookChapters) {
+          const opt = document.createElement('option');
+          opt.value = ch.id;
+          opt.textContent = `Chapter ${ch.fields.chapterNum}`;
+          chapterSelect.appendChild(opt);
+        }
+      });
+
+      chapterSelect.addEventListener('change', () => {
+        if (chapterSelect.value) {
+          loadChapter(chapterSelect.value);
+        }
+      });
+    }
+
+    function loadChapter(chapterId) {
+      const chapter = chaptersData.find(c => c.id === chapterId);
+      if (!chapter) return;
+
+      const book = booksData.find(b =>
+        (b.fields.chapters || []).includes(chapterId));
+      const bookName = book?.fields.bookName || 'Unknown';
+
+      document.getElementById('reader-title').textContent =
+        `${bookName} ${chapter.fields.chapterNum}`;
+
+      const chapterVerses = (chapter.fields.verses || [])
+        .map(id => versesData.find(v => v.id === id))
+        .filter(Boolean)
+        .sort((a, b) => {
+          const aNum = parseInt(a.fields.verseNum || '0');
+          const bNum = parseInt(b.fields.verseNum || '0');
+          return aNum - bNum;
+        });
+
+      renderVerses(chapterVerses);
+    }
+
+    function renderVerses(verses) {
+      const content = document.getElementById('reader-content');
+      const TYPE_COLORS = getTypeColors();
+
+      content.innerHTML = verses.map(v => {
+        const f = v.fields;
+        let text = f.verseText || '';
+
+        // Highlight entity mentions by looking up who's in this verse
+        const people = (f.people || []).map(id => {
+          const r = graph.find_by_id(id);
+          return r ? JSON.parse(r) : null;
+        }).filter(Boolean);
+
+        const places = (f.places || []).map(id => {
+          const r = graph.find_by_id(id);
+          return r ? JSON.parse(r) : null;
+        }).filter(Boolean);
+
+        return `<div class="verse-line" data-id="${v.id}" onclick="window.selectVerse('${v.id}')">` +
+          `<span class="verse-num">${f.verseNum || ''}</span>` +
+          `<span class="verse-text">${text}</span>` +
+          (people.length || places.length ?
+            `<span style="margin-left:4px;font-size:10px;color:var(--text-subtle)">` +
+            people.map(p => `<span class="entity-tag entity-person" onclick="event.stopPropagation();window.showEntity('${p.id}')" title="${p.label}">${p.label}</span>`).join(' ') +
+            ' ' +
+            places.map(p => `<span class="entity-tag entity-place" onclick="event.stopPropagation();window.showEntity('${p.id}')" title="${p.label}">${p.label}</span>`).join(' ') +
+            `</span>` : '') +
+          `</div>`;
+      }).join('');
+    }
+
+    // ── Verse Selection & Cross-References ────────────────────────────
+
+    window.selectVerse = function(verseId) {
+      selectedVerseId = verseId;
+
+      // Highlight selected verse
+      document.querySelectorAll('.verse-line').forEach(el =>
+        el.classList.toggle('selected', el.dataset.id === verseId));
+
+      showCrossReferences(verseId);
+    };
+
+    function showCrossReferences(verseId) {
+      const TYPE_COLORS = getTypeColors();
+      const xrefEl = document.getElementById('xref-content');
+      const verse = versesData.find(v => v.id === verseId);
+      if (!verse) { xrefEl.innerHTML = ''; return; }
+
+      const f = verse.fields;
+      let html = '';
+
+      // Verse text
+      html += `<div style="padding:10px;background:var(--bg-tertiary);border-radius:8px;margin-bottom:12px;font-size:13px;line-height:1.6">` +
+        `<strong style="color:var(--accent)">${f.osisRef}</strong><br>` +
+        `${f.verseText || ''}</div>`;
+
+      // People mentioned
+      const people = (f.people || []).map(id => {
+        const r = graph.find_by_id(id);
+        return r ? JSON.parse(r) : null;
+      }).filter(Boolean);
+
+      if (people.length > 0) {
+        html += `<div class="xref-section"><h3>People (${people.length})</h3>`;
+        for (const p of people) {
+          html += `<div class="xref-item" onclick="window.showEntity('${p.id}')">` +
+            `<span class="type-tag" style="background:${TYPE_COLORS.Person}22;color:${TYPE_COLORS.Person}">Person</span>` +
+            `<span class="xref-label">${p.label}</span>`;
+          if (p.extra?.gender) html += `<br><span class="xref-detail">${p.extra.gender}`;
+          if (p.extra?.birthYear) html += ` · Born ${p.extra.birthYear}`;
+          html += `</span></div>`;
+        }
+        html += '</div>';
+      }
+
+      // Places mentioned
+      const places = (f.places || []).map(id => {
+        const r = graph.find_by_id(id);
+        return r ? JSON.parse(r) : null;
+      }).filter(Boolean);
+
+      if (places.length > 0) {
+        html += `<div class="xref-section"><h3>Places (${places.length})</h3>`;
+        for (const p of places) {
+          html += `<div class="xref-item" onclick="window.showEntity('${p.id}')">` +
+            `<span class="type-tag" style="background:${TYPE_COLORS.Place}22;color:${TYPE_COLORS.Place}">Place</span>` +
+            `<span class="xref-label">${p.label}</span>`;
+          if (p.extra?.featureType) html += `<br><span class="xref-detail">${p.extra.featureType}`;
+          if (p.extra?.lat && p.extra?.lng) html += ` · ${parseFloat(p.extra.lat).toFixed(2)}, ${parseFloat(p.extra.lng).toFixed(2)}`;
+          html += `</span></div>`;
+        }
+        html += '</div>';
+      }
+
+      // Events
+      const events = (f.event || []).map(id => {
+        const r = graph.find_by_id(id);
+        return r ? JSON.parse(r) : null;
+      }).filter(Boolean);
+
+      if (events.length > 0) {
+        html += `<div class="xref-section"><h3>Events (${events.length})</h3>`;
+        for (const e of events) {
+          html += `<div class="xref-item" onclick="window.showEntity('${e.id}')">` +
+            `<span class="type-tag" style="background:${TYPE_COLORS.Event}22;color:${TYPE_COLORS.Event}">Event</span>` +
+            `<span class="xref-label">${e.label}</span>`;
+          if (e.extra?.startDate) html += `<br><span class="xref-detail">${e.extra.startDate}</span>`;
+          html += `</div>`;
+        }
+        html += '</div>';
+      }
+
+      // Co-occurring entities (people that appear in other verses with the same entities)
+      if (people.length > 0) {
+        const coData = JSON.parse(graph.co_occurrences(people[0].id, 'Person', 8));
+        if (coData.length > 0) {
+          html += `<div class="xref-section"><h3>Often Appears With</h3>`;
+          for (const c of coData) {
+            html += `<div class="xref-item" onclick="window.showEntity('${c.node.id}')">` +
+              `<span class="xref-label">${c.node.label}</span>` +
+              `<span class="xref-detail"> · ${c.count} shared verses</span></div>`;
+          }
+          html += '</div>';
+        }
+      }
+
+      if (!html) {
+        html = '<p style="font-size:12px;color:var(--text-muted)">No cross-references found for this verse.</p>';
+      }
+
+      xrefEl.innerHTML = html;
+    }
+
+    window.showEntity = function(id) {
+      const node = graph.find_by_id(id);
+      if (!node) return;
+      const data = JSON.parse(node);
+
+      const TYPE_COLORS = getTypeColors();
+      const xrefEl = document.getElementById('xref-content');
+
+      let html = `<div style="padding:10px;background:var(--bg-tertiary);border-radius:8px;margin-bottom:12px">` +
+        `<span class="type-tag" style="background:${TYPE_COLORS[data.node_type]}22;color:${TYPE_COLORS[data.node_type]}">${data.node_type}</span>` +
+        `<strong style="font-size:15px;color:var(--accent)">${data.label}</strong>`;
+
+      if (data.extra) {
+        html += '<div style="margin-top:6px;font-size:12px;color:var(--text-secondary)">';
+        for (const [k, v] of Object.entries(data.extra)) {
+          if (v != null && v !== '') html += `<div><strong>${k}:</strong> ${v}</div>`;
+        }
+        html += '</div>';
+      }
+      html += '</div>';
+
+      // Show verses where this entity appears
+      const versesJson = graph.verses_for_entity(id, 20);
+      const entityVerses = JSON.parse(versesJson);
+      if (entityVerses.length > 0) {
+        html += `<div class="xref-section"><h3>Mentioned In (${entityVerses.length} verses)</h3>`;
+        for (const v of entityVerses) {
+          const text = v.extra?.text || '';
+          const preview = text.length > 80 ? text.slice(0, 80) + '...' : text;
+          html += `<div class="xref-item" onclick="window.selectVerse('${v.id}')">` +
+            `<span class="xref-label">${v.label}</span>` +
+            `<br><span class="xref-detail">${preview}</span></div>`;
+        }
+        html += '</div>';
+      }
+
+      // Family tree for persons
+      if (data.node_type === 'Person') {
+        const ftJson = graph.family_tree(id);
+        if (ftJson) {
+          const ft = JSON.parse(ftJson);
+          html += `<div class="xref-section"><h3>Family</h3>`;
+          if (ft.father) html += `<div class="xref-item" onclick="window.showEntity('${ft.father.id}')"><span class="xref-detail">Father:</span> <span class="xref-label">${ft.father.label}</span></div>`;
+          if (ft.mother) html += `<div class="xref-item" onclick="window.showEntity('${ft.mother.id}')"><span class="xref-detail">Mother:</span> <span class="xref-label">${ft.mother.label}</span></div>`;
+          for (const p of ft.partners) html += `<div class="xref-item" onclick="window.showEntity('${p.id}')"><span class="xref-detail">Partner:</span> <span class="xref-label">${p.label}</span></div>`;
+          for (const c of ft.children) html += `<div class="xref-item" onclick="window.showEntity('${c.id}')"><span class="xref-detail">Child:</span> <span class="xref-label">${c.label}</span></div>`;
+          for (const s of ft.siblings) html += `<div class="xref-item" onclick="window.showEntity('${s.id}')"><span class="xref-detail">Sibling:</span> <span class="xref-label">${s.label}</span></div>`;
+          html += '</div>';
+        }
+      }
+
+      xrefEl.innerHTML = html;
+    };
+
+    // ── Reading Plans ─────────────────────────────────────────────────
+
+    function setupReadingPlans() {
+      const listEl = document.getElementById('plans-list');
+
+      listEl.innerHTML = READING_PLANS.map((plan, i) => {
+        const saved = getPlanProgress(i);
+        const pct = Math.round((saved / plan.readings.length) * 100);
+        return `<div class="plan-card" data-idx="${i}">` +
+          `<h3>${plan.name}</h3>` +
+          `<p>${plan.description} · ${plan.readings.length} days</p>` +
+          `<div class="plan-progress"><div class="plan-progress-fill" style="width:${pct}%"></div></div>` +
+          `</div>`;
+      }).join('');
+
+      listEl.querySelectorAll('.plan-card').forEach(card => {
+        card.addEventListener('click', () => {
+          const idx = parseInt(card.dataset.idx);
+          startPlan(idx);
+        });
+      });
+
+      // Plan nav buttons
+      document.getElementById('plan-prev').addEventListener('click', () => {
+        if (currentPlan !== null && currentPlanDay > 0) {
+          currentPlanDay--;
+          loadPlanDay();
+        }
+      });
+
+      document.getElementById('plan-next').addEventListener('click', () => {
+        if (currentPlan !== null) {
+          const plan = READING_PLANS[currentPlan];
+          if (currentPlanDay < plan.readings.length - 1) {
+            currentPlanDay++;
+            loadPlanDay();
+          }
+        }
+      });
+    }
+
+    function startPlan(planIdx) {
+      currentPlan = planIdx;
+      currentPlanDay = getPlanProgress(planIdx);
+      if (currentPlanDay >= READING_PLANS[planIdx].readings.length) {
+        currentPlanDay = 0; // restart
+      }
+
+      // Highlight active card
+      document.querySelectorAll('.plan-card').forEach((c, i) =>
+        c.classList.toggle('active', i === planIdx));
+
+      document.getElementById('plan-controls').style.display = '';
+      loadPlanDay();
+    }
+
+    function loadPlanDay() {
+      const plan = READING_PLANS[currentPlan];
+      const reading = plan.readings[currentPlanDay];
+
+      document.getElementById('plan-day-label').textContent = reading.label;
+      document.getElementById('plan-prev').disabled = currentPlanDay === 0;
+      document.getElementById('plan-next').disabled = currentPlanDay >= plan.readings.length - 1;
+
+      // Save progress
+      savePlanProgress(currentPlan, currentPlanDay);
+
+      // Update progress bar
+      const pct = Math.round(((currentPlanDay + 1) / plan.readings.length) * 100);
+      const card = document.querySelectorAll('.plan-card')[currentPlan];
+      if (card) {
+        const fill = card.querySelector('.plan-progress-fill');
+        if (fill) fill.style.width = pct + '%';
+      }
+
+      // Find book and load first chapter
+      const book = booksData.find(b =>
+        (b.fields.bookName || '') === reading.book ||
+        (b.fields.osisName || '') === reading.book);
+      if (!book) return;
+
+      // Set the book selector
+      document.getElementById('book-select').value = book.id;
+      document.getElementById('book-select').dispatchEvent(new Event('change'));
+
+      // Load chapters for this reading
+      const chapterIds = (book.fields.chapters || [])
+        .map(id => chaptersData.find(c => c.id === id))
+        .filter(Boolean)
+        .filter(c => reading.chapters.includes(c.fields.chapterNum))
+        .sort((a, b) => (a.fields.chapterNum || 0) - (b.fields.chapterNum || 0));
+
+      if (chapterIds.length > 0) {
+        // Load all chapters in the reading
+        const allVerses = [];
+        for (const ch of chapterIds) {
+          const chVerses = (ch.fields.verses || [])
+            .map(id => versesData.find(v => v.id === id))
+            .filter(Boolean)
+            .sort((a, b) => parseInt(a.fields.verseNum || '0') - parseInt(b.fields.verseNum || '0'));
+          allVerses.push(...chVerses);
+        }
+
+        const chapLabels = chapterIds.map(c => c.fields.chapterNum).join(', ');
+        document.getElementById('reader-title').textContent =
+          `${reading.book} ${chapLabels}`;
+        renderVerses(allVerses);
+      }
+    }
+
+    function getPlanProgress(planIdx) {
+      try {
+        return parseInt(localStorage.getItem(`theographic-plan-${planIdx}`) || '0');
+      } catch { return 0; }
+    }
+
+    function savePlanProgress(planIdx, day) {
+      try { localStorage.setItem(`theographic-plan-${planIdx}`, day.toString()); } catch {}
+    }
+
+    main().catch(console.error);
+  </script>
+</body>
+</html>

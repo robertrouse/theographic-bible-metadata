@@ -6,6 +6,8 @@
 mod graph;
 mod model;
 mod query;
+#[cfg(test)]
+mod tests;
 
 use graph::BibleGraph;
 use model::RecordIndex;
