@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Theographic — Biblical Timeline</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: system-ui, sans-serif; background: #0a0a0f; color: #e0e0e0; }
+
+    #app { display: grid; grid-template-columns: 300px 1fr; grid-template-rows: auto auto 1fr; height: 100vh; }
+
+    header {
+      grid-column: 1 / -1;
+      padding: 10px 20px;
+      background: #111118;
+      border-bottom: 1px solid #2a2a35;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    header h1 { font-size: 18px; font-weight: 600; color: #c4a55a; white-space: nowrap; }
+    nav { display: flex; gap: 12px; }
+    nav a { color: #5a9ec4; text-decoration: none; font-size: 13px; }
+    nav a:hover { text-decoration: underline; }
+    nav a.active { color: #c4a55a; }
+    #loading { color: #c4a55a; font-size: 13px; margin-left: auto; }
+
+    #brush-container {
+      grid-column: 1 / -1;
+      height: 60px;
+      background: #111118;
+      border-bottom: 1px solid #2a2a35;
+    }
+    #brush-container svg { width: 100%; height: 100%; }
+
+    aside {
+      background: #111118;
+      border-right: 1px solid #2a2a35;
+      padding: 14px;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+    aside h2 { font-size: 12px; color: #888; text-transform: uppercase; letter-spacing: 1px; }
+
+    .era-list { list-style: none; }
+    .era-list li {
+      padding: 5px 8px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 12px;
+      margin-bottom: 1px;
+      border-left: 3px solid transparent;
+    }
+    .era-list li:hover { background: #1a1a24; }
+    .era-list li.active { border-left-color: #c4a55a; background: #1a1a24; }
+
+    .mode-row { display: flex; gap: 6px; }
+    .mode-btn {
+      flex: 1;
+      padding: 6px;
+      font-size: 11px;
+      border: 1px solid #2a2a35;
+      border-radius: 6px;
+      background: transparent;
+      color: #888;
+      cursor: pointer;
+      text-align: center;
+    }
+    .mode-btn.active { background: #c4a55a22; border-color: #c4a55a; color: #c4a55a; }
+
+    #detail-panel {
+      padding: 12px;
+      background: #1a1a24;
+      border-radius: 8px;
+      font-size: 12px;
+      display: none;
+    }
+    #detail-panel h3 { font-size: 14px; color: #c45a7a; margin-bottom: 6px; }
+    #detail-panel .meta { color: #aaa; margin-bottom: 3px; }
+    #detail-panel .meta strong { color: #ccc; }
+    #detail-participants {
+      list-style: none;
+      margin-top: 6px;
+      max-height: 150px;
+      overflow-y: auto;
+    }
+    #detail-participants li { font-size: 11px; color: #aaa; padding: 2px 0; }
+
+    #timeline-container {
+      position: relative;
+      overflow: hidden;
+    }
+    #timeline-container svg { width: 100%; height: 100%; background: #0a0a0f; }
+
+    .event-bar {
+      cursor: pointer;
+      transition: opacity 0.15s;
+    }
+    .event-bar:hover { opacity: 1 !important; }
+    .event-bar.highlight { stroke: #c4a55a; stroke-width: 2; }
+
+    .person-bar {
+      cursor: pointer;
+      opacity: 0.7;
+    }
+    .person-bar:hover { opacity: 1; }
+
+    .axis text { fill: #888; font-size: 11px; }
+    .axis line, .axis path { stroke: #2a2a35; }
+
+    .tooltip {
+      position: absolute;
+      background: #1a1a24ee;
+      border: 1px solid #2a2a35;
+      border-radius: 6px;
+      padding: 8px 12px;
+      font-size: 12px;
+      pointer-events: none;
+      display: none;
+      z-index: 10;
+      max-width: 300px;
+    }
+
+    .brush .selection { fill: #c4a55a33; stroke: #c4a55a; }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1>Biblical Timeline</h1>
+      <nav>
+        <a href="index.html">Subgraph</a>
+        <a href="sigma-graph.html">Full Graph</a>
+        <a href="tree-view.html">Trees</a>
+        <a href="map-view.html">Map</a>
+        <a href="timeline-view.html" class="active">Timeline</a>
+      </nav>
+      <span id="loading">Loading data...</span>
+    </header>
+
+    <div id="brush-container">
+      <svg id="brush-svg"></svg>
+    </div>
+
+    <aside>
+      <div>
+        <h2>View Mode</h2>
+        <div class="mode-row">
+          <button class="mode-btn active" data-mode="events">Events</button>
+          <button class="mode-btn" data-mode="lifespans">Lifespans</button>
+        </div>
+      </div>
+
+      <div>
+        <h2>Biblical Eras</h2>
+        <ul class="era-list" id="era-list"></ul>
+      </div>
+
+      <div id="detail-panel">
+        <h3 id="detail-title"></h3>
+        <div id="detail-content"></div>
+        <ul id="detail-participants"></ul>
+      </div>
+    </aside>
+
+    <div id="timeline-container">
+      <svg id="timeline-svg"></svg>
+      <div class="tooltip" id="tooltip"></div>
+    </div>
+  </div>
+
+  <script type="module">
+    import init, { TheographicGraph } from './pkg/theographic_graph.js';
+
+    let wasmGraph = null;
+    let allEvents = [];
+    let allPeople = [];
+    let currentMode = 'events';
+    let timeScale = null;
+    let brushTimeScale = null;
+    const tooltip = document.getElementById('tooltip');
+
+    // ── Biblical Eras ─────────────────────────────────────────────────────
+    const ERAS = [
+      { name: 'All Time', start: -4100, end: 150 },
+      { name: 'Creation & Patriarchs', start: -4100, end: -1800 },
+      { name: 'Egypt & Exodus', start: -1800, end: -1400 },
+      { name: 'Conquest & Judges', start: -1400, end: -1050 },
+      { name: 'United Monarchy', start: -1050, end: -930 },
+      { name: 'Divided Kingdom', start: -930, end: -586 },
+      { name: 'Exile & Return', start: -586, end: -400 },
+      { name: 'Intertestamental', start: -400, end: -5 },
+      { name: 'Life of Christ', start: -5, end: 35 },
+      { name: 'Early Church', start: 35, end: 100 },
+    ];
+
+    // ── Initialize WASM ───────────────────────────────────────────────────
+    async function loadWasm() {
+      const loadingEl = document.getElementById('loading');
+      await init();
+
+      const files = ['books', 'chapters', 'verses', 'people', 'places', 'events', 'peopleGroups', 'easton'];
+      const jsonData = {};
+
+      for (const name of files) {
+        loadingEl.textContent = `Loading ${name}.json...`;
+        const resp = await fetch(`../JSON/${name}.json`);
+        jsonData[name] = await resp.text();
+      }
+
+      loadingEl.textContent = 'Building graph...';
+      await new Promise(r => setTimeout(r, 10));
+
+      wasmGraph = new TheographicGraph(
+        jsonData.books, jsonData.chapters, jsonData.verses,
+        jsonData.people, jsonData.places, jsonData.events,
+        jsonData.peopleGroups, jsonData.easton
+      );
+
+      loadingEl.style.display = 'none';
+      return jsonData;
+    }
+
+    // ── Format year ───────────────────────────────────────────────────────
+    function fmtYear(y) {
+      if (y == null || isNaN(y)) return '?';
+      return y < 0 ? `${Math.abs(Math.round(y))} BC` : `${Math.round(y)} AD`;
+    }
+
+    // ── Load data from WASM ───────────────────────────────────────────────
+    function loadEvents() {
+      const eventsJson = wasmGraph.events_timeline(NaN, NaN);
+      allEvents = JSON.parse(eventsJson);
+      // Enrich with sortKey for positioning
+      allEvents = allEvents.filter(e => e.extra?.sortKey != null);
+      allEvents.sort((a, b) => (a.extra.sortKey || 0) - (b.extra.sortKey || 0));
+    }
+
+    function loadPeople(jsonStr) {
+      const raw = JSON.parse(jsonStr);
+      allPeople = raw
+        .filter(r => r.fields.birthYear && r.fields.deathYear)
+        .map(r => ({
+          id: r.id,
+          name: r.fields.name || r.fields.displayTitle || '?',
+          birthYear: parseFloat(r.fields.birthYear),
+          deathYear: parseFloat(r.fields.deathYear),
+          gender: r.fields.gender || 'Unknown',
+        }))
+        .filter(p => !isNaN(p.birthYear) && !isNaN(p.deathYear))
+        .sort((a, b) => a.birthYear - b.birthYear);
+    }
+
+    // ── Brush (overview) ──────────────────────────────────────────────────
+    function initBrush() {
+      const svg = d3.select('#brush-svg');
+      const container = document.getElementById('brush-container');
+      const w = container.clientWidth;
+      const h = 60;
+      const margin = { left: 50, right: 20, top: 5, bottom: 20 };
+
+      brushTimeScale = d3.scaleLinear()
+        .domain([-4100, 150])
+        .range([margin.left, w - margin.right]);
+
+      // Mini axis
+      const axis = d3.axisBottom(brushTimeScale)
+        .ticks(15)
+        .tickFormat(d => fmtYear(d));
+
+      svg.append('g')
+        .attr('class', 'axis')
+        .attr('transform', `translate(0,${h - margin.bottom})`)
+        .call(axis);
+
+      // Mini event marks
+      for (const e of allEvents) {
+        const x = brushTimeScale(e.extra.sortKey);
+        svg.append('line')
+          .attr('x1', x).attr('x2', x)
+          .attr('y1', margin.top).attr('y2', h - margin.bottom)
+          .attr('stroke', '#c45a7a33')
+          .attr('stroke-width', 1);
+      }
+
+      // Brush
+      const brush = d3.brushX()
+        .extent([[margin.left, margin.top], [w - margin.right, h - margin.bottom]])
+        .on('brush end', (event) => {
+          if (!event.selection) return;
+          const [x0, x1] = event.selection.map(brushTimeScale.invert);
+          renderTimeline(x0, x1);
+        });
+
+      svg.append('g')
+        .attr('class', 'brush')
+        .call(brush)
+        .call(brush.move, [
+          brushTimeScale(-4100),
+          brushTimeScale(150),
+        ]);
+    }
+
+    // ── Main Timeline Rendering ───────────────────────────────────────────
+    function renderTimeline(startYear, endYear) {
+      const svg = d3.select('#timeline-svg');
+      const container = document.getElementById('timeline-container');
+      const w = container.clientWidth;
+      const h = container.clientHeight;
+      const margin = { left: 60, right: 30, top: 30, bottom: 40 };
+
+      svg.selectAll('*').remove();
+
+      timeScale = d3.scaleLinear()
+        .domain([startYear, endYear])
+        .range([margin.left, w - margin.right]);
+
+      // X Axis
+      const xAxis = d3.axisBottom(timeScale)
+        .ticks(Math.min(20, Math.abs(endYear - startYear) / 50))
+        .tickFormat(d => fmtYear(d));
+
+      svg.append('g')
+        .attr('class', 'axis')
+        .attr('transform', `translate(0,${h - margin.bottom})`)
+        .call(xAxis);
+
+      // Top axis too
+      svg.append('g')
+        .attr('class', 'axis')
+        .attr('transform', `translate(0,${margin.top})`)
+        .call(d3.axisTop(timeScale).ticks(Math.min(20, Math.abs(endYear - startYear) / 50)).tickFormat(d => fmtYear(d)));
+
+      if (currentMode === 'events') {
+        renderEvents(svg, startYear, endYear, w, h, margin);
+      } else {
+        renderLifespans(svg, startYear, endYear, w, h, margin);
+      }
+    }
+
+    function renderEvents(svg, startYear, endYear, w, h, margin) {
+      const filtered = allEvents.filter(e => {
+        const sk = e.extra.sortKey;
+        return sk >= startYear && sk <= endYear;
+      });
+
+      if (filtered.length === 0) return;
+
+      const barHeight = Math.min(24, Math.max(12, (h - margin.top - margin.bottom) / filtered.length - 2));
+
+      // Simple vertical stacking
+      const yScale = d3.scaleBand()
+        .domain(filtered.map((_, i) => i))
+        .range([margin.top + 10, h - margin.bottom - 10])
+        .padding(0.15);
+
+      const g = svg.append('g');
+
+      g.selectAll('.event-bar')
+        .data(filtered)
+        .join('rect')
+        .attr('class', 'event-bar')
+        .attr('x', d => timeScale(d.extra.sortKey))
+        .attr('y', (d, i) => yScale(i))
+        .attr('width', d => Math.max(4, (endYear - startYear) / filtered.length * 0.3))
+        .attr('height', yScale.bandwidth())
+        .attr('fill', '#c45a7a')
+        .attr('rx', 3)
+        .attr('opacity', 0.7)
+        .on('mouseover', (event, d) => {
+          tooltip.style.display = 'block';
+          tooltip.innerHTML = `<strong>${d.label}</strong><br>` +
+            `<span style="color:#c45a7a">${fmtYear(d.extra.sortKey)}</span>`;
+        })
+        .on('mousemove', (event) => {
+          tooltip.style.left = (event.offsetX + 12) + 'px';
+          tooltip.style.top = (event.offsetY - 12) + 'px';
+        })
+        .on('mouseout', () => { tooltip.style.display = 'none'; })
+        .on('click', (event, d) => showEventDetail(d));
+
+      // Labels
+      g.selectAll('.event-label')
+        .data(filtered)
+        .join('text')
+        .attr('x', d => timeScale(d.extra.sortKey) + Math.max(4, (endYear - startYear) / filtered.length * 0.3) + 6)
+        .attr('y', (d, i) => yScale(i) + yScale.bandwidth() / 2 + 4)
+        .attr('font-size', Math.min(11, yScale.bandwidth() - 2))
+        .attr('fill', '#ccc')
+        .text(d => {
+          const label = d.label;
+          return label.length > 50 ? label.slice(0, 50) + '...' : label;
+        });
+    }
+
+    function renderLifespans(svg, startYear, endYear, w, h, margin) {
+      const filtered = allPeople.filter(p =>
+        p.deathYear >= startYear && p.birthYear <= endYear
+      );
+
+      if (filtered.length === 0) return;
+
+      const barHeight = Math.min(18, Math.max(6, (h - margin.top - margin.bottom) / filtered.length - 1));
+
+      const yScale = d3.scaleBand()
+        .domain(filtered.map((_, i) => i))
+        .range([margin.top + 10, h - margin.bottom - 10])
+        .padding(0.1);
+
+      const g = svg.append('g');
+
+      g.selectAll('.person-bar')
+        .data(filtered)
+        .join('rect')
+        .attr('class', 'person-bar')
+        .attr('x', d => timeScale(Math.max(startYear, d.birthYear)))
+        .attr('y', (d, i) => yScale(i))
+        .attr('width', d => Math.max(2, timeScale(Math.min(endYear, d.deathYear)) - timeScale(Math.max(startYear, d.birthYear))))
+        .attr('height', yScale.bandwidth())
+        .attr('fill', d => d.gender === 'Male' ? '#5a9ec4' : d.gender === 'Female' ? '#c45a7a' : '#888')
+        .attr('rx', 2)
+        .on('mouseover', (event, d) => {
+          tooltip.style.display = 'block';
+          tooltip.innerHTML = `<strong>${d.name}</strong><br>` +
+            `<span style="color:${d.gender === 'Male' ? '#5a9ec4' : '#c45a7a'}">` +
+            `${fmtYear(d.birthYear)} — ${fmtYear(d.deathYear)}</span><br>` +
+            `Lived ~${Math.abs(Math.round(d.deathYear - d.birthYear))} years`;
+        })
+        .on('mousemove', (event) => {
+          tooltip.style.left = (event.offsetX + 12) + 'px';
+          tooltip.style.top = (event.offsetY - 12) + 'px';
+        })
+        .on('mouseout', () => { tooltip.style.display = 'none'; })
+        .on('click', (event, d) => showPersonDetail(d));
+
+      // Labels for bars wide enough
+      g.selectAll('.person-label')
+        .data(filtered)
+        .join('text')
+        .attr('x', d => timeScale(Math.max(startYear, d.birthYear)) + 4)
+        .attr('y', (d, i) => yScale(i) + yScale.bandwidth() / 2 + 3)
+        .attr('font-size', Math.min(10, yScale.bandwidth() - 2))
+        .attr('fill', '#fff')
+        .attr('pointer-events', 'none')
+        .text(d => {
+          const barW = timeScale(d.deathYear) - timeScale(d.birthYear);
+          if (barW < 40) return '';
+          return d.name.length > 20 ? d.name.slice(0, 20) + '...' : d.name;
+        });
+    }
+
+    // ── Detail panels ─────────────────────────────────────────────────────
+    function showEventDetail(event) {
+      const panel = document.getElementById('detail-panel');
+      panel.style.display = 'block';
+      document.getElementById('detail-title').textContent = event.label;
+
+      let html = `<div class="meta"><strong>Date:</strong> ${fmtYear(event.extra.sortKey)}</div>`;
+      if (event.extra.startDate) html += `<div class="meta"><strong>Start:</strong> ${event.extra.startDate}</div>`;
+
+      // Get participants and locations
+      const neighborsJson = wasmGraph.neighbors(event.id, '', '');
+      const neighbors = JSON.parse(neighborsJson);
+      const participants = neighbors.nodes.filter(n => n.node_type === 'Person');
+      const locations = neighbors.nodes.filter(n => n.node_type === 'Place');
+
+      if (locations.length > 0) {
+        html += `<div class="meta"><strong>Locations:</strong> ${locations.map(l => l.label).join(', ')}</div>`;
+      }
+
+      document.getElementById('detail-content').innerHTML = html;
+
+      const list = document.getElementById('detail-participants');
+      list.innerHTML = participants.map(p =>
+        `<li><span style="color:#5a9ec4">Participant:</span> ${p.label}</li>`
+      ).join('');
+    }
+
+    function showPersonDetail(person) {
+      const panel = document.getElementById('detail-panel');
+      panel.style.display = 'block';
+      document.getElementById('detail-title').textContent = person.name;
+
+      let html = `<div class="meta"><strong>Gender:</strong> ${person.gender}</div>`;
+      html += `<div class="meta"><strong>Born:</strong> ${fmtYear(person.birthYear)}</div>`;
+      html += `<div class="meta"><strong>Died:</strong> ${fmtYear(person.deathYear)}</div>`;
+      html += `<div class="meta"><strong>Lifespan:</strong> ~${Math.abs(Math.round(person.deathYear - person.birthYear))} years</div>`;
+
+      document.getElementById('detail-content').innerHTML = html;
+
+      // Get family
+      const ftJson = wasmGraph.family_tree(person.id);
+      const list = document.getElementById('detail-participants');
+      if (ftJson) {
+        const ft = JSON.parse(ftJson);
+        let items = [];
+        if (ft.father) items.push(`<li><span style="color:#5a9ec4">Father:</span> ${ft.father.label}</li>`);
+        if (ft.mother) items.push(`<li><span style="color:#c45a7a">Mother:</span> ${ft.mother.label}</li>`);
+        for (const c of ft.children) items.push(`<li>Child: ${c.label}</li>`);
+        list.innerHTML = items.join('');
+      } else {
+        list.innerHTML = '';
+      }
+    }
+
+    // ── Era Navigation ────────────────────────────────────────────────────
+    function setupEras() {
+      const list = document.getElementById('era-list');
+      list.innerHTML = ERAS.map((era, i) =>
+        `<li data-idx="${i}" class="${i === 0 ? 'active' : ''}">${era.name} <span style="color:#555;font-size:10px">${fmtYear(era.start)}–${fmtYear(era.end)}</span></li>`
+      ).join('');
+
+      list.querySelectorAll('li').forEach(li => {
+        li.addEventListener('click', () => {
+          list.querySelectorAll('li').forEach(l => l.classList.remove('active'));
+          li.classList.add('active');
+          const era = ERAS[parseInt(li.dataset.idx)];
+          renderTimeline(era.start, era.end);
+
+          // Update brush position
+          const brushSvg = d3.select('#brush-svg');
+          const brush = d3.brushX()
+            .extent([[50, 5], [document.getElementById('brush-container').clientWidth - 20, 40]]);
+          brushSvg.select('.brush').call(brush.move, [
+            brushTimeScale(era.start),
+            brushTimeScale(era.end),
+          ]);
+        });
+      });
+    }
+
+    // ── Mode switching ────────────────────────────────────────────────────
+    function setupModes() {
+      document.querySelectorAll('.mode-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          document.querySelectorAll('.mode-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          currentMode = btn.dataset.mode;
+          renderTimeline(-4100, 150);
+        });
+      });
+    }
+
+    // ── Main ──────────────────────────────────────────────────────────────
+    async function main() {
+      const jsonData = await loadWasm();
+
+      loadEvents();
+      loadPeople(jsonData.people);
+
+      initBrush();
+      setupEras();
+      setupModes();
+
+      // Initial render
+      renderTimeline(-4100, 150);
+    }
+
+    main().catch(console.error);
+  </script>
+</body>
+</html>

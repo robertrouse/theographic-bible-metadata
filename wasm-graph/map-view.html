@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Theographic — Biblical Places Map</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: system-ui, sans-serif; background: #0a0a0f; color: #e0e0e0; }
+
+    #app { display: grid; grid-template-columns: 300px 1fr; grid-template-rows: auto 1fr; height: 100vh; }
+
+    header {
+      grid-column: 1 / -1;
+      padding: 10px 20px;
+      background: #111118;
+      border-bottom: 1px solid #2a2a35;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    header h1 { font-size: 18px; font-weight: 600; color: #c4a55a; white-space: nowrap; }
+    nav { display: flex; gap: 12px; }
+    nav a { color: #5a9ec4; text-decoration: none; font-size: 13px; }
+    nav a:hover { text-decoration: underline; }
+    nav a.active { color: #c4a55a; }
+    #loading { color: #c4a55a; font-size: 13px; margin-left: auto; }
+
+    aside {
+      background: #111118;
+      border-right: 1px solid #2a2a35;
+      padding: 14px;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+    aside h2 { font-size: 12px; color: #888; text-transform: uppercase; letter-spacing: 1px; }
+
+    .search-box {
+      width: 100%;
+      padding: 8px 12px;
+      background: #1a1a24;
+      border: 1px solid #2a2a35;
+      border-radius: 6px;
+      color: #e0e0e0;
+      font-size: 14px;
+    }
+    .search-box:focus { outline: none; border-color: #c4a55a; }
+
+    .filter-row { display: flex; gap: 4px; flex-wrap: wrap; }
+    .filter-btn {
+      padding: 3px 8px;
+      font-size: 11px;
+      border: 1px solid #2a2a35;
+      border-radius: 10px;
+      background: transparent;
+      color: #888;
+      cursor: pointer;
+    }
+    .filter-btn.active { background: #5ac47a22; border-color: #5ac47a; color: #5ac47a; }
+    .filter-btn:hover { border-color: #555; }
+
+    #results { list-style: none; max-height: 200px; overflow-y: auto; }
+    #results li {
+      padding: 6px 8px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 12px;
+      margin-bottom: 1px;
+    }
+    #results li:hover { background: #1a1a24; }
+
+    #detail-panel {
+      padding: 12px;
+      background: #1a1a24;
+      border-radius: 8px;
+      font-size: 12px;
+      display: none;
+    }
+    #detail-panel h3 { font-size: 14px; color: #5ac47a; margin-bottom: 6px; }
+    #detail-panel .meta { color: #aaa; margin-bottom: 3px; }
+    #detail-panel .meta strong { color: #ccc; }
+    #detail-people {
+      list-style: none;
+      margin-top: 6px;
+      max-height: 150px;
+      overflow-y: auto;
+    }
+    #detail-people li { font-size: 11px; color: #aaa; padding: 2px 0; }
+
+    .legend-scale {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 11px;
+      color: #888;
+    }
+    .legend-gradient {
+      width: 100px;
+      height: 10px;
+      border-radius: 3px;
+      background: linear-gradient(to right, #5ac47a44, #5ac47a);
+    }
+
+    #map-container {
+      position: relative;
+      overflow: hidden;
+    }
+    #map-container svg { width: 100%; height: 100%; background: #0a0a0f; }
+
+    .place-dot {
+      fill: #5ac47a;
+      stroke: #0a0a0f;
+      stroke-width: 1;
+      cursor: pointer;
+      opacity: 0.8;
+      transition: opacity 0.15s;
+    }
+    .place-dot:hover { opacity: 1; stroke: #c4a55a; stroke-width: 2; }
+    .place-dot.highlight { opacity: 1; stroke: #c4a55a; stroke-width: 2.5; fill: #c4a55a; }
+
+    .place-label {
+      font-size: 10px;
+      fill: #ccc;
+      pointer-events: none;
+    }
+
+    .graticule {
+      fill: none;
+      stroke: #1a1a24;
+      stroke-width: 0.5;
+    }
+
+    .tooltip {
+      position: absolute;
+      background: #1a1a24ee;
+      border: 1px solid #2a2a35;
+      border-radius: 6px;
+      padding: 8px 12px;
+      font-size: 12px;
+      pointer-events: none;
+      display: none;
+      z-index: 10;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1>Biblical Places Map</h1>
+      <nav>
+        <a href="index.html">Subgraph</a>
+        <a href="sigma-graph.html">Full Graph</a>
+        <a href="tree-view.html">Trees</a>
+        <a href="map-view.html" class="active">Map</a>
+        <a href="timeline-view.html">Timeline</a>
+      </nav>
+      <span id="loading">Loading data...</span>
+    </header>
+
+    <aside>
+      <div>
+        <h2>Search Places</h2>
+        <input class="search-box" id="search" type="text" placeholder="Search places...">
+      </div>
+
+      <div>
+        <h2>Feature Type</h2>
+        <div class="filter-row" id="feature-filters"></div>
+      </div>
+
+      <ul id="results"></ul>
+
+      <div>
+        <h2>Size = Verse Count</h2>
+        <div class="legend-scale">
+          <span>Few</span>
+          <div class="legend-gradient"></div>
+          <span>Many</span>
+        </div>
+      </div>
+
+      <div id="detail-panel">
+        <h3 id="detail-title"></h3>
+        <div id="detail-content"></div>
+        <ul id="detail-people"></ul>
+      </div>
+    </aside>
+
+    <div id="map-container">
+      <svg id="map-svg"></svg>
+      <div class="tooltip" id="tooltip"></div>
+    </div>
+  </div>
+
+  <script type="module">
+    import init, { TheographicGraph } from './pkg/theographic_graph.js';
+
+    let wasmGraph = null;
+    let allPlaces = [];
+    let projection = null;
+    let mapGroup = null;
+    let placesGroup = null;
+    let labelsGroup = null;
+    let activeFeatureType = '';
+    let highlightedPlace = null;
+
+    const tooltip = document.getElementById('tooltip');
+
+    // ── Initialize WASM ───────────────────────────────────────────────────
+    async function loadWasm() {
+      const loadingEl = document.getElementById('loading');
+      await init();
+
+      const files = ['books', 'chapters', 'verses', 'people', 'places', 'events', 'peopleGroups', 'easton'];
+      const jsonData = {};
+
+      for (const name of files) {
+        loadingEl.textContent = `Loading ${name}.json...`;
+        const resp = await fetch(`../JSON/${name}.json`);
+        jsonData[name] = await resp.text();
+      }
+
+      loadingEl.textContent = 'Building graph...';
+      await new Promise(r => setTimeout(r, 10));
+
+      wasmGraph = new TheographicGraph(
+        jsonData.books, jsonData.chapters, jsonData.verses,
+        jsonData.people, jsonData.places, jsonData.events,
+        jsonData.peopleGroups, jsonData.easton
+      );
+
+      loadingEl.style.display = 'none';
+    }
+
+    // ── Map Rendering ─────────────────────────────────────────────────────
+    function initMap() {
+      const svg = d3.select('#map-svg');
+      const container = document.getElementById('map-container');
+      const w = container.clientWidth;
+      const h = container.clientHeight;
+
+      // Projection centered on the ancient Near East
+      projection = d3.geoMercator()
+        .center([35.5, 31.5])
+        .scale(Math.min(w, h) * 3)
+        .translate([w / 2, h / 2]);
+
+      mapGroup = svg.append('g').attr('class', 'map-layer');
+
+      // Graticule (grid lines)
+      const graticule = d3.geoGraticule()
+        .step([2, 2])
+        .extent([[25, 20], [50, 42]]);
+
+      mapGroup.append('path')
+        .datum(graticule)
+        .attr('class', 'graticule')
+        .attr('d', d3.geoPath().projection(projection));
+
+      // Coordinate reference lines
+      const refLines = [
+        { coords: [[29, 20], [29, 42]], label: '29°E' },
+        { coords: [[35, 20], [35, 42]], label: '35°E' },
+        { coords: [[41, 20], [41, 42]], label: '41°E' },
+        { coords: [[47, 20], [47, 42]], label: '47°E' },
+        { coords: [[25, 25], [50, 25]], label: '25°N' },
+        { coords: [[25, 30], [50, 30]], label: '30°N' },
+        { coords: [[25, 35], [50, 35]], label: '35°N' },
+        { coords: [[25, 40], [50, 40]], label: '40°N' },
+      ];
+
+      for (const ref of refLines) {
+        const [x, y] = projection(ref.coords[0]);
+        mapGroup.append('text')
+          .attr('x', x + 3)
+          .attr('y', y + 3)
+          .attr('font-size', 8)
+          .attr('fill', '#333')
+          .text(ref.label);
+      }
+
+      // Region labels
+      const regions = [
+        { name: 'Mediterranean Sea', coords: [33, 34], rotate: -20 },
+        { name: 'Egypt', coords: [31, 28] },
+        { name: 'Mesopotamia', coords: [43, 33.5] },
+        { name: 'Canaan', coords: [35, 31.8] },
+        { name: 'Arabia', coords: [39, 26] },
+        { name: 'Asia Minor', coords: [33, 38.5] },
+        { name: 'Persia', coords: [48, 32] },
+      ];
+
+      for (const region of regions) {
+        const [x, y] = projection(region.coords);
+        mapGroup.append('text')
+          .attr('x', x)
+          .attr('y', y)
+          .attr('text-anchor', 'middle')
+          .attr('font-size', 13)
+          .attr('fill', '#222')
+          .attr('font-style', 'italic')
+          .attr('transform', region.rotate ? `rotate(${region.rotate},${x},${y})` : null)
+          .text(region.name);
+      }
+
+      placesGroup = mapGroup.append('g').attr('class', 'places');
+      labelsGroup = mapGroup.append('g').attr('class', 'labels');
+
+      // Zoom
+      const zoom = d3.zoom()
+        .scaleExtent([0.5, 20])
+        .on('zoom', (event) => {
+          mapGroup.attr('transform', event.transform);
+          // Scale labels inversely
+          const k = event.transform.k;
+          labelsGroup.selectAll('text').attr('font-size', 10 / k);
+          placesGroup.selectAll('circle').attr('stroke-width', 1 / k);
+        });
+      svg.call(zoom);
+    }
+
+    function renderPlaces() {
+      // Get all places with coordinates from WASM
+      const placesJson = wasmGraph.places_with_coords();
+      allPlaces = JSON.parse(placesJson);
+
+      // Compute max verse count for sizing
+      const maxVerses = d3.max(allPlaces, p => {
+        const vc = wasmGraph.verses_for_entity(p.id, 1000);
+        return JSON.parse(vc).length;
+      }) || 1;
+
+      // Collect feature types
+      const featureTypes = new Set();
+
+      // Enrich with verse counts and positions
+      for (const place of allPlaces) {
+        const lat = parseFloat(place.extra?.lat);
+        const lng = parseFloat(place.extra?.lng);
+        if (isNaN(lat) || isNaN(lng)) continue;
+        const [px, py] = projection([lng, lat]);
+        place.px = px;
+        place.py = py;
+        place.featureType = place.extra?.featureType || 'Unknown';
+        featureTypes.add(place.featureType);
+      }
+
+      // Filter places that have valid positions
+      allPlaces = allPlaces.filter(p => p.px !== undefined);
+
+      // Size scale
+      const sizeScale = d3.scaleSqrt().domain([0, 500]).range([3, 18]).clamp(true);
+
+      // Draw dots
+      placesGroup.selectAll('.place-dot')
+        .data(allPlaces, d => d.id)
+        .join('circle')
+        .attr('class', 'place-dot')
+        .attr('cx', d => d.px)
+        .attr('cy', d => d.py)
+        .attr('r', d => sizeScale(d.extra?.verseCount || 3))
+        .on('mouseover', (event, d) => {
+          tooltip.style.display = 'block';
+          tooltip.innerHTML = `<strong>${d.label}</strong><br>` +
+            `<span style="color:#5ac47a">${d.featureType}</span>`;
+        })
+        .on('mousemove', (event) => {
+          tooltip.style.left = (event.offsetX + 12) + 'px';
+          tooltip.style.top = (event.offsetY - 12) + 'px';
+        })
+        .on('mouseout', () => { tooltip.style.display = 'none'; })
+        .on('click', (event, d) => {
+          event.stopPropagation();
+          showPlaceDetail(d);
+        });
+
+      // Labels for larger places
+      labelsGroup.selectAll('.place-label')
+        .data(allPlaces.filter(p => sizeScale(p.extra?.verseCount || 3) > 5), d => d.id)
+        .join('text')
+        .attr('class', 'place-label')
+        .attr('x', d => d.px + sizeScale(d.extra?.verseCount || 3) + 3)
+        .attr('y', d => d.py + 4)
+        .text(d => d.label);
+
+      // Build feature type filter buttons
+      setupFeatureFilters([...featureTypes].sort());
+    }
+
+    function showPlaceDetail(place) {
+      const panel = document.getElementById('detail-panel');
+      panel.style.display = 'block';
+      document.getElementById('detail-title').textContent = place.label;
+
+      let html = '';
+      if (place.featureType) html += `<div class="meta"><strong>Type:</strong> ${place.featureType}</div>`;
+      if (place.extra?.lat && place.extra?.lng)
+        html += `<div class="meta"><strong>Coords:</strong> ${parseFloat(place.extra.lat).toFixed(3)}, ${parseFloat(place.extra.lng).toFixed(3)}</div>`;
+
+      // Get people born/died here
+      const neighborsJson = wasmGraph.neighbors(place.id, '', '');
+      const neighbors = JSON.parse(neighborsJson);
+      const relatedPeople = neighbors.nodes.filter(n => n.node_type === 'Person');
+      const relatedEvents = neighbors.nodes.filter(n => n.node_type === 'Event');
+
+      if (relatedPeople.length > 0)
+        html += `<div class="meta"><strong>Related people:</strong> ${relatedPeople.length}</div>`;
+      if (relatedEvents.length > 0)
+        html += `<div class="meta"><strong>Related events:</strong> ${relatedEvents.length}</div>`;
+
+      document.getElementById('detail-content').innerHTML = html;
+
+      // List related people
+      const peopleList = document.getElementById('detail-people');
+      const allRelated = [...relatedPeople, ...relatedEvents].slice(0, 30);
+      peopleList.innerHTML = allRelated.map(p =>
+        `<li><span style="color:${p.node_type === 'Person' ? '#5a9ec4' : '#c45a7a'}">${p.node_type}:</span> ${p.label}</li>`
+      ).join('');
+
+      // Highlight the dot
+      placesGroup.selectAll('.place-dot')
+        .classed('highlight', d => d.id === place.id);
+    }
+
+    // ── Feature Type Filters ──────────────────────────────────────────────
+    function setupFeatureFilters(types) {
+      const container = document.getElementById('feature-filters');
+      container.innerHTML = `<button class="filter-btn active" data-type="">All</button>` +
+        types.map(t => `<button class="filter-btn" data-type="${t}">${t}</button>`).join('');
+
+      container.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          container.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          activeFeatureType = btn.dataset.type;
+          filterPlaces();
+        });
+      });
+    }
+
+    function filterPlaces() {
+      placesGroup.selectAll('.place-dot')
+        .attr('display', d => {
+          if (!activeFeatureType) return null;
+          return d.featureType === activeFeatureType ? null : 'none';
+        });
+
+      labelsGroup.selectAll('.place-label')
+        .attr('display', d => {
+          if (!activeFeatureType) return null;
+          return d.featureType === activeFeatureType ? null : 'none';
+        });
+    }
+
+    // ── Search ────────────────────────────────────────────────────────────
+    function setupSearch() {
+      const searchInput = document.getElementById('search');
+      const resultsEl = document.getElementById('results');
+      let timeout;
+
+      searchInput.addEventListener('input', () => {
+        clearTimeout(timeout);
+        timeout = setTimeout(() => {
+          const q = searchInput.value.trim();
+          if (q.length < 2 || !wasmGraph) {
+            resultsEl.innerHTML = '';
+            return;
+          }
+
+          const results = JSON.parse(wasmGraph.search_by_type('Place', q, 20));
+          resultsEl.innerHTML = results.map(r =>
+            `<li onclick="window.selectPlace('${r.id}')">` +
+            `<span style="color:#5ac47a;font-size:10px;margin-right:4px">${r.extra?.featureType || 'Place'}</span>` +
+            `${r.label}</li>`
+          ).join('');
+        }, 200);
+      });
+    }
+
+    window.selectPlace = function(id) {
+      const place = allPlaces.find(p => p.id === id);
+      if (place) {
+        showPlaceDetail(place);
+        // Zoom to place
+        const svg = d3.select('#map-svg');
+        const container = document.getElementById('map-container');
+        const zoom = d3.zoom().scaleExtent([0.5, 20]);
+        svg.transition().duration(500).call(
+          zoom.transform,
+          d3.zoomIdentity
+            .translate(container.clientWidth / 2, container.clientHeight / 2)
+            .scale(5)
+            .translate(-place.px, -place.py)
+        );
+      }
+    };
+
+    // ── Main ──────────────────────────────────────────────────────────────
+    async function main() {
+      await loadWasm();
+      initMap();
+      renderPlaces();
+      setupSearch();
+    }
+
+    main().catch(console.error);
+  </script>
+</body>
+</html>

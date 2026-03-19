@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Theographic — Family Trees &amp; Book Structure</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: system-ui, sans-serif; background: #0a0a0f; color: #e0e0e0; }
+
+    #app { display: grid; grid-template-columns: 300px 1fr; grid-template-rows: auto 1fr; height: 100vh; }
+
+    header {
+      grid-column: 1 / -1;
+      padding: 10px 20px;
+      background: #111118;
+      border-bottom: 1px solid #2a2a35;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    header h1 { font-size: 18px; font-weight: 600; color: #c4a55a; white-space: nowrap; }
+    nav { display: flex; gap: 12px; }
+    nav a { color: #5a9ec4; text-decoration: none; font-size: 13px; }
+    nav a:hover { text-decoration: underline; }
+    nav a.active { color: #c4a55a; }
+    #loading { color: #c4a55a; font-size: 13px; margin-left: auto; }
+
+    aside {
+      background: #111118;
+      border-right: 1px solid #2a2a35;
+      padding: 14px;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+    aside h2 { font-size: 12px; color: #888; text-transform: uppercase; letter-spacing: 1px; }
+
+    .search-box {
+      width: 100%;
+      padding: 8px 12px;
+      background: #1a1a24;
+      border: 1px solid #2a2a35;
+      border-radius: 6px;
+      color: #e0e0e0;
+      font-size: 14px;
+    }
+    .search-box:focus { outline: none; border-color: #c4a55a; }
+
+    .mode-row { display: flex; gap: 6px; }
+    .mode-btn {
+      flex: 1;
+      padding: 8px;
+      font-size: 12px;
+      border: 1px solid #2a2a35;
+      border-radius: 6px;
+      background: transparent;
+      color: #888;
+      cursor: pointer;
+      text-align: center;
+    }
+    .mode-btn.active { background: #c4a55a22; border-color: #c4a55a; color: #c4a55a; }
+
+    #results { list-style: none; max-height: 250px; overflow-y: auto; }
+    #results li {
+      padding: 6px 8px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 12px;
+      margin-bottom: 1px;
+    }
+    #results li:hover { background: #1a1a24; }
+
+    .type-tag {
+      display: inline-block;
+      font-size: 9px;
+      padding: 1px 5px;
+      border-radius: 6px;
+      margin-right: 4px;
+    }
+
+    #info-panel {
+      padding: 12px;
+      background: #1a1a24;
+      border-radius: 8px;
+      font-size: 12px;
+    }
+    #info-panel h3 { font-size: 14px; color: #c4a55a; margin-bottom: 6px; }
+    #info-panel .meta { color: #aaa; margin-bottom: 3px; }
+    #info-panel .meta strong { color: #ccc; }
+
+    #tree-container {
+      position: relative;
+      overflow: hidden;
+    }
+    #tree-container svg { width: 100%; height: 100%; background: #0a0a0f; }
+
+    .node circle {
+      stroke: #1a1a24;
+      stroke-width: 2;
+      cursor: pointer;
+    }
+    .node circle:hover { stroke: #c4a55a; stroke-width: 2.5; }
+    .node text {
+      font-size: 11px;
+      fill: #ccc;
+    }
+    .link {
+      fill: none;
+      stroke: #2a2a45;
+      stroke-width: 1.5;
+    }
+
+    .node-male circle { fill: #5a9ec4; }
+    .node-female circle { fill: #c45a7a; }
+    .node-unknown circle { fill: #888; }
+    .node-book circle { fill: #c4a55a; }
+    .node-chapter circle { fill: #666; }
+
+    .node.collapsed circle { stroke: #c4a55a; stroke-dasharray: 3,2; }
+
+    select {
+      width: 100%;
+      padding: 8px;
+      background: #1a1a24;
+      border: 1px solid #2a2a35;
+      border-radius: 6px;
+      color: #e0e0e0;
+      font-size: 13px;
+    }
+    select:focus { outline: none; border-color: #c4a55a; }
+
+    .depth-control {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 12px;
+      color: #aaa;
+    }
+    .depth-control input[type="range"] {
+      flex: 1;
+      accent-color: #c4a55a;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1>Hierarchy View</h1>
+      <nav>
+        <a href="index.html">Subgraph</a>
+        <a href="sigma-graph.html">Full Graph</a>
+        <a href="tree-view.html" class="active">Trees</a>
+        <a href="map-view.html">Map</a>
+        <a href="timeline-view.html">Timeline</a>
+      </nav>
+      <span id="loading">Loading data...</span>
+    </header>
+
+    <aside>
+      <div>
+        <h2>Mode</h2>
+        <div class="mode-row">
+          <button class="mode-btn active" data-mode="family">Family Trees</button>
+          <button class="mode-btn" data-mode="books">Book Structure</button>
+        </div>
+      </div>
+
+      <div id="family-controls">
+        <h2>Search Person</h2>
+        <input class="search-box" id="search" type="text" placeholder="Search people...">
+        <ul id="results"></ul>
+        <div class="depth-control" style="margin-top: 8px;">
+          <span>Generations:</span>
+          <input type="range" id="depth-slider" min="1" max="12" value="4">
+          <span id="depth-value">4</span>
+        </div>
+      </div>
+
+      <div id="book-controls" style="display:none;">
+        <h2>Select Book</h2>
+        <select id="book-select">
+          <option value="">Choose a book...</option>
+        </select>
+      </div>
+
+      <div id="info-panel">
+        <h3 id="info-title">Select a person or book</h3>
+        <div id="info-content"></div>
+      </div>
+    </aside>
+
+    <div id="tree-container">
+      <svg id="tree-svg"></svg>
+    </div>
+  </div>
+
+  <script type="module">
+    import init, { TheographicGraph } from './pkg/theographic_graph.js';
+
+    let wasmGraph = null;
+    let currentMode = 'family';
+
+    // ── Color helpers ─────────────────────────────────────────────────────
+    function genderColor(gender) {
+      if (gender === 'Male') return '#5a9ec4';
+      if (gender === 'Female') return '#c45a7a';
+      return '#888';
+    }
+
+    // ── Initialize WASM ───────────────────────────────────────────────────
+    async function loadWasm() {
+      const loadingEl = document.getElementById('loading');
+      await init();
+
+      const files = ['books', 'chapters', 'verses', 'people', 'places', 'events', 'peopleGroups', 'easton'];
+      const jsonData = {};
+
+      for (const name of files) {
+        loadingEl.textContent = `Loading ${name}.json...`;
+        const resp = await fetch(`../JSON/${name}.json`);
+        jsonData[name] = await resp.text();
+      }
+
+      loadingEl.textContent = 'Building graph...';
+      await new Promise(r => setTimeout(r, 10));
+
+      wasmGraph = new TheographicGraph(
+        jsonData.books, jsonData.chapters, jsonData.verses,
+        jsonData.people, jsonData.places, jsonData.events,
+        jsonData.peopleGroups, jsonData.easton
+      );
+
+      loadingEl.style.display = 'none';
+      return jsonData;
+    }
+
+    // ── D3 Tree Rendering ─────────────────────────────────────────────────
+    const svg = d3.select('#tree-svg');
+    const container = document.getElementById('tree-container');
+    let treeGroup = null;
+    let zoomBehavior = null;
+
+    function initTreeCanvas() {
+      treeGroup = svg.append('g').attr('class', 'tree-layer');
+      zoomBehavior = d3.zoom()
+        .scaleExtent([0.05, 4])
+        .on('zoom', (event) => treeGroup.attr('transform', event.transform));
+      svg.call(zoomBehavior);
+    }
+
+    // ── Family Tree ───────────────────────────────────────────────────────
+    function buildFamilyHierarchy(personId, maxGens) {
+      // Get the person info
+      const personJson = wasmGraph.find_by_id(personId);
+      if (!personJson) return null;
+      const person = JSON.parse(personJson);
+
+      // Get descendants
+      const descJson = wasmGraph.descendants(personId, maxGens);
+      const descGens = JSON.parse(descJson);
+
+      // Get ancestors
+      const ancJson = wasmGraph.ancestors(personId, maxGens);
+      const ancGens = JSON.parse(ancJson);
+
+      // Build a tree rooted at the oldest known ancestor
+      // First, build downward tree from the person
+      function buildDown(node, generations, genIdx) {
+        const result = {
+          id: node.id,
+          name: node.label,
+          nodeType: node.node_type,
+          gender: node.extra?.gender || 'Unknown',
+          birthYear: node.extra?.birthYear,
+          deathYear: node.extra?.deathYear,
+          children: [],
+        };
+
+        if (genIdx < generations.length) {
+          // Find children of this node in the next generation
+          const ftJson = wasmGraph.family_tree(node.id);
+          if (ftJson) {
+            const ft = JSON.parse(ftJson);
+            for (const child of ft.children) {
+              result.children.push(buildDown(child, generations, genIdx + 1));
+            }
+          }
+        }
+
+        return result;
+      }
+
+      // Simple approach: build tree with the person as root, showing descendants
+      const root = {
+        id: person.id,
+        name: person.label,
+        nodeType: person.node_type,
+        gender: person.extra?.gender || 'Unknown',
+        birthYear: person.extra?.birthYear,
+        deathYear: person.extra?.deathYear,
+        children: [],
+        isRoot: true,
+      };
+
+      // Add ancestors as a "parent chain" above
+      if (ancGens.length > 0) {
+        // Build ancestor chain (oldest first)
+        let ancestorChain = null;
+        for (let i = ancGens.length - 1; i >= 0; i--) {
+          for (const anc of ancGens[i]) {
+            if (!ancestorChain) {
+              ancestorChain = {
+                id: anc.id, name: anc.label, nodeType: anc.node_type,
+                gender: anc.extra?.gender || 'Unknown',
+                birthYear: anc.extra?.birthYear, deathYear: anc.extra?.deathYear,
+                children: [],
+              };
+            } else {
+              const node = {
+                id: anc.id, name: anc.label, nodeType: anc.node_type,
+                gender: anc.extra?.gender || 'Unknown',
+                birthYear: anc.extra?.birthYear, deathYear: anc.extra?.deathYear,
+                children: [],
+              };
+              // Find leaf and attach
+              let leaf = ancestorChain;
+              while (leaf.children.length > 0) leaf = leaf.children[0];
+              leaf.children.push(node);
+            }
+          }
+        }
+
+        if (ancestorChain) {
+          // Find the leaf of ancestor chain and attach the root person
+          let leaf = ancestorChain;
+          while (leaf.children.length > 0) leaf = leaf.children[0];
+
+          // The root person node with descendants
+          const personNode = { ...root };
+          leaf.children.push(personNode);
+
+          // Now add descendants to personNode
+          addDescendants(personNode, personId, descGens, 0);
+
+          return ancestorChain;
+        }
+      }
+
+      // No ancestors — just show descendants
+      addDescendants(root, personId, descGens, 0);
+      return root;
+    }
+
+    function addDescendants(node, personId, descGens, genIdx) {
+      if (genIdx >= descGens.length) return;
+
+      // Use family_tree to get children
+      const ftJson = wasmGraph.family_tree(node.id);
+      if (!ftJson) return;
+      const ft = JSON.parse(ftJson);
+
+      for (const child of ft.children) {
+        const childNode = {
+          id: child.id,
+          name: child.label,
+          nodeType: child.node_type,
+          gender: child.extra?.gender || 'Unknown',
+          birthYear: child.extra?.birthYear,
+          deathYear: child.extra?.deathYear,
+          children: [],
+        };
+        node.children.push(childNode);
+        addDescendants(childNode, child.id, descGens, genIdx + 1);
+      }
+    }
+
+    function renderFamilyTree(personId) {
+      const maxGens = parseInt(document.getElementById('depth-slider').value);
+      const data = buildFamilyHierarchy(personId, maxGens);
+      if (!data) return;
+
+      treeGroup.selectAll('*').remove();
+
+      const root = d3.hierarchy(data);
+      const nodeCount = root.descendants().length;
+
+      // Dynamic sizing based on tree size
+      const nodeHeight = 28;
+      const nodeWidth = 180;
+      const treeHeight = Math.max(400, nodeCount * nodeHeight);
+      const treeWidth = Math.max(600, (root.height + 1) * nodeWidth);
+
+      const treeLayout = d3.tree()
+        .size([treeHeight, treeWidth])
+        .separation((a, b) => a.parent === b.parent ? 1 : 1.5);
+
+      treeLayout(root);
+
+      // Horizontal layout: swap x/y for left-to-right
+      // Links
+      treeGroup.selectAll('.link')
+        .data(root.links())
+        .join('path')
+        .attr('class', 'link')
+        .attr('d', d3.linkHorizontal()
+          .x(d => d.y)
+          .y(d => d.x)
+        );
+
+      // Nodes
+      const nodes = treeGroup.selectAll('.node')
+        .data(root.descendants())
+        .join('g')
+        .attr('class', d => `node node-${(d.data.gender || 'unknown').toLowerCase()}`)
+        .attr('transform', d => `translate(${d.y},${d.x})`)
+        .on('click', (event, d) => {
+          event.stopPropagation();
+          showPersonInfo(d.data);
+          renderFamilyTree(d.data.id);
+        });
+
+      nodes.append('circle')
+        .attr('r', d => d.data.isRoot ? 8 : 6)
+        .attr('fill', d => genderColor(d.data.gender));
+
+      nodes.append('text')
+        .attr('dx', d => d.children ? -10 : 10)
+        .attr('dy', 4)
+        .attr('text-anchor', d => d.children ? 'end' : 'start')
+        .text(d => {
+          let label = d.data.name;
+          if (d.data.birthYear) label += ` (${d.data.birthYear})`;
+          return label;
+        });
+
+      // Highlight the root person
+      nodes.filter(d => d.data.isRoot)
+        .select('circle')
+        .attr('stroke', '#c4a55a')
+        .attr('stroke-width', 3);
+
+      // Fit to view
+      const bounds = treeGroup.node().getBBox();
+      const w = container.clientWidth;
+      const h = container.clientHeight;
+      const scale = Math.min(w / (bounds.width + 100), h / (bounds.height + 100), 1);
+      const tx = w / 2 - (bounds.x + bounds.width / 2) * scale;
+      const ty = h / 2 - (bounds.y + bounds.height / 2) * scale;
+
+      svg.transition().duration(500).call(
+        zoomBehavior.transform,
+        d3.zoomIdentity.translate(tx, ty).scale(scale)
+      );
+
+      showPersonInfo(data);
+    }
+
+    function showPersonInfo(data) {
+      document.getElementById('info-title').textContent = data.name;
+      let html = `<div class="meta"><strong>Type:</strong> ${data.gender || data.nodeType}</div>`;
+      if (data.birthYear) html += `<div class="meta"><strong>Born:</strong> ${data.birthYear}</div>`;
+      if (data.deathYear) html += `<div class="meta"><strong>Died:</strong> ${data.deathYear}</div>`;
+      if (data.children && data.children.length > 0) {
+        html += `<div class="meta"><strong>Children shown:</strong> ${data.children.length}</div>`;
+      }
+      document.getElementById('info-content').innerHTML = html;
+    }
+
+    // ── Book Structure (Treemap) ──────────────────────────────────────────
+    let booksData = null;
+    let chaptersData = null;
+
+    function buildBookHierarchy(bookId) {
+      if (!booksData) return null;
+      const book = booksData.find(b => b.id === bookId);
+      if (!book) return null;
+
+      const f = book.fields;
+      const bookChapters = (f.chapters || [])
+        .map(chId => chaptersData.find(c => c.id === chId))
+        .filter(Boolean)
+        .sort((a, b) => (a.fields.chapterNum || 0) - (b.fields.chapterNum || 0));
+
+      return {
+        name: f.bookName || f.osisName,
+        nodeType: 'Book',
+        children: bookChapters.map(ch => ({
+          name: `Ch. ${ch.fields.chapterNum}`,
+          nodeType: 'Chapter',
+          verseCount: (ch.fields.verses || []).length,
+          peopleCount: ch.fields.peopleCount || 0,
+          placesCount: ch.fields.placesCount || 0,
+          value: (ch.fields.verses || []).length || 1,
+        })),
+      };
+    }
+
+    function renderBookTreemap(bookId) {
+      const data = buildBookHierarchy(bookId);
+      if (!data) return;
+
+      treeGroup.selectAll('*').remove();
+
+      const w = container.clientWidth - 40;
+      const h = container.clientHeight - 40;
+
+      const root = d3.hierarchy(data)
+        .sum(d => d.value || 0)
+        .sort((a, b) => b.value - a.value);
+
+      d3.treemap()
+        .size([w, h])
+        .padding(3)
+        .round(true)(root);
+
+      // Color scale based on people density
+      const maxPeople = d3.max(root.leaves(), d => d.data.peopleCount) || 1;
+      const colorScale = d3.scaleSequential(d3.interpolateYlOrRd)
+        .domain([0, maxPeople]);
+
+      const cell = treeGroup.selectAll('.cell')
+        .data(root.leaves())
+        .join('g')
+        .attr('class', 'cell')
+        .attr('transform', d => `translate(${d.x0 + 20},${d.y0 + 20})`);
+
+      cell.append('rect')
+        .attr('width', d => Math.max(0, d.x1 - d.x0))
+        .attr('height', d => Math.max(0, d.y1 - d.y0))
+        .attr('fill', d => colorScale(d.data.peopleCount || 0))
+        .attr('stroke', '#0a0a0f')
+        .attr('stroke-width', 1)
+        .attr('rx', 3)
+        .attr('cursor', 'pointer')
+        .on('mouseover', function(event, d) {
+          d3.select(this).attr('stroke', '#c4a55a').attr('stroke-width', 2);
+          document.getElementById('info-title').textContent = `${data.name} — ${d.data.name}`;
+          document.getElementById('info-content').innerHTML =
+            `<div class="meta"><strong>Verses:</strong> ${d.data.verseCount}</div>` +
+            `<div class="meta"><strong>People mentioned:</strong> ${d.data.peopleCount}</div>` +
+            `<div class="meta"><strong>Places mentioned:</strong> ${d.data.placesCount}</div>`;
+        })
+        .on('mouseout', function() {
+          d3.select(this).attr('stroke', '#0a0a0f').attr('stroke-width', 1);
+        });
+
+      cell.append('text')
+        .attr('x', 4)
+        .attr('y', 14)
+        .attr('font-size', d => {
+          const w = d.x1 - d.x0;
+          return w > 60 ? 11 : w > 30 ? 9 : 0;
+        })
+        .attr('fill', '#000')
+        .attr('pointer-events', 'none')
+        .text(d => d.data.name);
+
+      cell.filter(d => (d.x1 - d.x0) > 50 && (d.y1 - d.y0) > 30)
+        .append('text')
+        .attr('x', 4)
+        .attr('y', 28)
+        .attr('font-size', 9)
+        .attr('fill', '#333')
+        .attr('pointer-events', 'none')
+        .text(d => `${d.data.verseCount} verses`);
+
+      // Reset zoom for treemap
+      svg.transition().duration(300).call(
+        zoomBehavior.transform,
+        d3.zoomIdentity
+      );
+
+      document.getElementById('info-title').textContent = data.name;
+      document.getElementById('info-content').innerHTML =
+        `<div class="meta"><strong>Chapters:</strong> ${data.children.length}</div>` +
+        `<div class="meta"><strong>Color:</strong> people mentioned (yellow → red)</div>`;
+    }
+
+    // ── Search ────────────────────────────────────────────────────────────
+    function setupSearch() {
+      const searchInput = document.getElementById('search');
+      const resultsEl = document.getElementById('results');
+      let timeout;
+
+      searchInput.addEventListener('input', () => {
+        clearTimeout(timeout);
+        timeout = setTimeout(() => {
+          const q = searchInput.value.trim();
+          if (q.length < 2 || !wasmGraph) {
+            resultsEl.innerHTML = '';
+            return;
+          }
+
+          const results = JSON.parse(wasmGraph.search_by_type('Person', q, 20));
+          resultsEl.innerHTML = results.map(r =>
+            `<li onclick="window.selectPerson('${r.id}')">` +
+            `<span class="type-tag" style="background:#5a9ec422;color:#5a9ec4">${r.extra?.gender || 'Person'}</span>` +
+            `${r.label}</li>`
+          ).join('');
+        }, 200);
+      });
+    }
+
+    window.selectPerson = function(id) {
+      renderFamilyTree(id);
+    };
+
+    // ── Mode switching ────────────────────────────────────────────────────
+    function setupModes() {
+      document.querySelectorAll('.mode-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          document.querySelectorAll('.mode-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          currentMode = btn.dataset.mode;
+
+          document.getElementById('family-controls').style.display =
+            currentMode === 'family' ? '' : 'none';
+          document.getElementById('book-controls').style.display =
+            currentMode === 'books' ? '' : 'none';
+
+          if (currentMode === 'books') {
+            const select = document.getElementById('book-select');
+            if (select.value) renderBookTreemap(select.value);
+          }
+        });
+      });
+
+      // Depth slider
+      const slider = document.getElementById('depth-slider');
+      const depthVal = document.getElementById('depth-value');
+      slider.addEventListener('input', () => {
+        depthVal.textContent = slider.value;
+      });
+    }
+
+    // ── Main ──────────────────────────────────────────────────────────────
+    async function main() {
+      const jsonData = await loadWasm();
+
+      // Parse books and chapters for the book mode
+      booksData = JSON.parse(jsonData.books);
+      chaptersData = JSON.parse(jsonData.chapters);
+
+      // Populate book selector
+      const select = document.getElementById('book-select');
+      const sortedBooks = [...booksData].sort((a, b) =>
+        (a.fields.bookOrder || 0) - (b.fields.bookOrder || 0));
+      for (const book of sortedBooks) {
+        const opt = document.createElement('option');
+        opt.value = book.id;
+        opt.textContent = book.fields.bookName || book.fields.osisName;
+        select.appendChild(opt);
+      }
+      select.addEventListener('change', () => {
+        if (select.value) renderBookTreemap(select.value);
+      });
+
+      initTreeCanvas();
+      setupSearch();
+      setupModes();
+
+      // Default: show Jesus family tree
+      const jesus = JSON.parse(wasmGraph.search_by_type('Person', 'Jesus', 1));
+      if (jesus.length > 0) {
+        renderFamilyTree(jesus[0].id);
+      }
+    }
+
+    main().catch(console.error);
+  </script>
+</body>
+</html>
