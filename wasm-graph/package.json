@@ -1,0 +1,11 @@
+{
+  "name": "theographic-graph",
+  "version": "0.1.0",
+  "description": "In-browser graph engine for Theographic Bible metadata (Rust+WASM)",
+  "type": "module",
+  "scripts": {
+    "build": "bash build.sh",
+    "serve": "python3 -m http.server 8080"
+  },
+  "license": "CC-BY-SA-4.0"
+}

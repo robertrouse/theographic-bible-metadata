@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Theographic Bible Graph Explorer</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: system-ui, sans-serif; background: #0a0a0f; color: #e0e0e0; }
+
+    #app { display: grid; grid-template-columns: 320px 1fr; grid-template-rows: auto 1fr; height: 100vh; }
+
+    header {
+      grid-column: 1 / -1;
+      padding: 12px 20px;
+      background: #111118;
+      border-bottom: 1px solid #2a2a35;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    header h1 { font-size: 18px; font-weight: 600; color: #c4a55a; }
+    #stats { font-size: 13px; color: #888; }
+    #loading { color: #c4a55a; font-size: 14px; }
+
+    aside {
+      background: #111118;
+      border-right: 1px solid #2a2a35;
+      padding: 16px;
+      overflow-y: auto;
+    }
+    aside h2 { font-size: 14px; margin-bottom: 8px; color: #999; text-transform: uppercase; letter-spacing: 1px; }
+
+    .search-box {
+      width: 100%;
+      padding: 8px 12px;
+      background: #1a1a24;
+      border: 1px solid #2a2a35;
+      border-radius: 6px;
+      color: #e0e0e0;
+      font-size: 14px;
+      margin-bottom: 12px;
+    }
+    .search-box:focus { outline: none; border-color: #c4a55a; }
+
+    .filter-row { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 16px; }
+    .filter-btn {
+      padding: 4px 10px;
+      font-size: 12px;
+      border: 1px solid #2a2a35;
+      border-radius: 12px;
+      background: transparent;
+      color: #888;
+      cursor: pointer;
+    }
+    .filter-btn.active { background: #c4a55a22; border-color: #c4a55a; color: #c4a55a; }
+
+    #results { list-style: none; }
+    #results li {
+      padding: 8px 10px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 13px;
+      margin-bottom: 2px;
+    }
+    #results li:hover { background: #1a1a24; }
+    #results .type-tag {
+      display: inline-block;
+      font-size: 10px;
+      padding: 1px 6px;
+      border-radius: 8px;
+      margin-right: 6px;
+    }
+
+    #detail-panel {
+      margin-top: 16px;
+      padding: 12px;
+      background: #1a1a24;
+      border-radius: 8px;
+      font-size: 13px;
+      display: none;
+    }
+    #detail-panel h3 { font-size: 15px; color: #c4a55a; margin-bottom: 8px; }
+    #detail-panel .meta { color: #888; margin-bottom: 4px; }
+
+    #graph-container {
+      position: relative;
+      overflow: hidden;
+    }
+    #graph-container svg { width: 100%; height: 100%; }
+
+    /* Node colors by type */
+    .node-Book { fill: #c4a55a; }
+    .node-Person { fill: #5a9ec4; }
+    .node-Place { fill: #5ac47a; }
+    .node-Event { fill: #c45a7a; }
+    .node-Verse { fill: #888; }
+    .node-Chapter { fill: #666; }
+    .node-PeopleGroup { fill: #a55ac4; }
+    .node-Easton { fill: #c49a5a; }
+
+    .link { stroke: #2a2a35; stroke-width: 1; }
+    .link:hover { stroke: #c4a55a; stroke-width: 2; }
+
+    .node text { font-size: 10px; fill: #ccc; pointer-events: none; }
+    .node circle { stroke: #1a1a24; stroke-width: 1.5; cursor: pointer; }
+    .node circle:hover { stroke: #c4a55a; stroke-width: 2; }
+
+    .tooltip {
+      position: absolute;
+      background: #1a1a24ee;
+      border: 1px solid #2a2a35;
+      border-radius: 6px;
+      padding: 8px 12px;
+      font-size: 12px;
+      pointer-events: none;
+      display: none;
+      z-index: 10;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1>Theographic Graph Explorer</h1>
+      <span id="stats"></span>
+      <span id="loading">Loading data...</span>
+    </header>
+
+    <aside>
+      <h2>Search</h2>
+      <input class="search-box" id="search" type="text" placeholder="Search people, places, events...">
+
+      <div class="filter-row">
+        <button class="filter-btn active" data-type="">All</button>
+        <button class="filter-btn" data-type="Person">People</button>
+        <button class="filter-btn" data-type="Place">Places</button>
+        <button class="filter-btn" data-type="Event">Events</button>
+        <button class="filter-btn" data-type="Book">Books</button>
+      </div>
+
+      <ul id="results"></ul>
+
+      <div id="detail-panel">
+        <h3 id="detail-title"></h3>
+        <div id="detail-content"></div>
+      </div>
+    </aside>
+
+    <div id="graph-container">
+      <svg id="graph-svg"></svg>
+      <div class="tooltip" id="tooltip"></div>
+    </div>
+  </div>
+
+  <script type="module">
+    // ── WASM + D3 Graph Visualization ──────────────────────────────────
+
+    // Import WASM module (after wasm-pack build)
+    import init, { TheographicGraph } from './pkg/theographic_graph.js';
+
+    let graph = null;
+
+    // ── Color scheme ───────────────────────────────────────────────────
+    const TYPE_COLORS = {
+      Book:        '#c4a55a',
+      Chapter:     '#666666',
+      Verse:       '#888888',
+      Person:      '#5a9ec4',
+      Place:       '#5ac47a',
+      Event:       '#c45a7a',
+      PeopleGroup: '#a55ac4',
+      Easton:      '#c49a5a',
+    };
+
+    // ── D3 Force Graph ────────────────────────────────────────────────
+    const svg = d3.select('#graph-svg');
+    const container = document.getElementById('graph-container');
+    const tooltip = document.getElementById('tooltip');
+
+    let simulation, linkGroup, nodeGroup, labelGroup;
+    let currentNodes = [], currentLinks = [];
+
+    function initGraph() {
+      const g = svg.append('g').attr('class', 'graph-layer');
+      linkGroup = g.append('g').attr('class', 'links');
+      nodeGroup = g.append('g').attr('class', 'nodes');
+      labelGroup = g.append('g').attr('class', 'labels');
+
+      // Zoom
+      const zoom = d3.zoom()
+        .scaleExtent([0.1, 8])
+        .on('zoom', (event) => g.attr('transform', event.transform));
+      svg.call(zoom);
+
+      simulation = d3.forceSimulation()
+        .force('link', d3.forceLink().id(d => d.id).distance(60))
+        .force('charge', d3.forceManyBody().strength(-120))
+        .force('center', d3.forceCenter(
+          container.clientWidth / 2,
+          container.clientHeight / 2
+        ))
+        .force('collision', d3.forceCollide().radius(20));
+    }
+
+    function renderGraph(subgraph) {
+      const data = JSON.parse(subgraph);
+      currentNodes = data.nodes.map(n => ({...n, x: undefined, y: undefined}));
+      currentLinks = data.edges.map(e => ({source: e.source, target: e.target, type: e.edge_type}));
+
+      // Filter out links referencing missing nodes
+      const nodeIds = new Set(currentNodes.map(n => n.id));
+      currentLinks = currentLinks.filter(l => nodeIds.has(l.source) && nodeIds.has(l.target));
+
+      // Links
+      const links = linkGroup.selectAll('line').data(currentLinks, d => `${d.source}-${d.target}`);
+      links.exit().remove();
+      const linksEnter = links.enter().append('line').attr('class', 'link');
+
+      // Nodes
+      const nodes = nodeGroup.selectAll('circle').data(currentNodes, d => d.id);
+      nodes.exit().remove();
+      const nodesEnter = nodes.enter().append('circle')
+        .attr('r', d => d.node_type === 'Person' || d.node_type === 'Place' ? 8 : 5)
+        .attr('fill', d => TYPE_COLORS[d.node_type] || '#888')
+        .attr('stroke', '#1a1a24')
+        .attr('stroke-width', 1.5)
+        .attr('cursor', 'pointer')
+        .on('click', (event, d) => expandNode(d.id))
+        .on('mouseover', (event, d) => {
+          tooltip.style.display = 'block';
+          tooltip.innerHTML = `<strong>${d.label}</strong><br><span style="color:${TYPE_COLORS[d.node_type]}">${d.node_type}</span>`;
+        })
+        .on('mousemove', (event) => {
+          tooltip.style.left = (event.offsetX + 12) + 'px';
+          tooltip.style.top = (event.offsetY - 12) + 'px';
+        })
+        .on('mouseout', () => { tooltip.style.display = 'none'; })
+        .call(d3.drag()
+          .on('start', (event, d) => {
+            if (!event.active) simulation.alphaTarget(0.3).restart();
+            d.fx = d.x; d.fy = d.y;
+          })
+          .on('drag', (event, d) => { d.fx = event.x; d.fy = event.y; })
+          .on('end', (event, d) => {
+            if (!event.active) simulation.alphaTarget(0);
+            d.fx = null; d.fy = null;
+          })
+        );
+
+      // Labels (only for key nodes)
+      const labels = labelGroup.selectAll('text').data(
+        currentNodes.filter(n => n.node_type !== 'Verse' && n.node_type !== 'Chapter'),
+        d => d.id
+      );
+      labels.exit().remove();
+      labels.enter().append('text')
+        .attr('font-size', 10)
+        .attr('fill', '#ccc')
+        .attr('dx', 12)
+        .attr('dy', 4)
+        .attr('pointer-events', 'none')
+        .text(d => d.label.length > 20 ? d.label.slice(0, 20) + '...' : d.label);
+
+      // Update simulation
+      simulation.nodes(currentNodes).on('tick', () => {
+        linkGroup.selectAll('line')
+          .attr('x1', d => d.source.x).attr('y1', d => d.source.y)
+          .attr('x2', d => d.target.x).attr('y2', d => d.target.y);
+        nodeGroup.selectAll('circle')
+          .attr('cx', d => d.x).attr('cy', d => d.y);
+        labelGroup.selectAll('text')
+          .attr('x', d => d.x).attr('y', d => d.y);
+      });
+
+      simulation.force('link').links(currentLinks);
+      simulation.alpha(1).restart();
+    }
+
+    function expandNode(id) {
+      if (!graph) return;
+      const subgraph = graph.ego_graph(id, 1, '', 100);
+      renderGraph(subgraph);
+      showDetail(id);
+    }
+
+    function showDetail(id) {
+      const node = JSON.parse(graph.find_by_id(id) || 'null');
+      if (!node) return;
+
+      const panel = document.getElementById('detail-panel');
+      const title = document.getElementById('detail-title');
+      const content = document.getElementById('detail-content');
+
+      panel.style.display = 'block';
+      title.textContent = node.label;
+
+      let html = `<div class="meta">${node.node_type}</div>`;
+      if (node.extra) {
+        for (const [key, val] of Object.entries(node.extra)) {
+          if (val != null) {
+            html += `<div class="meta"><strong>${key}:</strong> ${val}</div>`;
+          }
+        }
+      }
+
+      // Family tree for people
+      if (node.node_type === 'Person') {
+        const tree = graph.family_tree(id);
+        if (tree) {
+          const ft = JSON.parse(tree);
+          if (ft.father) html += `<div class="meta"><strong>Father:</strong> ${ft.father.label}</div>`;
+          if (ft.mother) html += `<div class="meta"><strong>Mother:</strong> ${ft.mother.label}</div>`;
+          if (ft.partners.length) html += `<div class="meta"><strong>Partners:</strong> ${ft.partners.map(p => p.label).join(', ')}</div>`;
+          if (ft.children.length) html += `<div class="meta"><strong>Children:</strong> ${ft.children.map(c => c.label).join(', ')}</div>`;
+          if (ft.siblings.length) html += `<div class="meta"><strong>Siblings:</strong> ${ft.siblings.map(s => s.label).join(', ')}</div>`;
+        }
+      }
+
+      content.innerHTML = html;
+    }
+
+    // ── Search & Filter UI ─────────────────────────────────────────────
+
+    let activeFilter = '';
+
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        activeFilter = btn.dataset.type;
+        doSearch();
+      });
+    });
+
+    const searchInput = document.getElementById('search');
+    let searchTimeout;
+    searchInput.addEventListener('input', () => {
+      clearTimeout(searchTimeout);
+      searchTimeout = setTimeout(doSearch, 200);
+    });
+
+    function doSearch() {
+      if (!graph) return;
+      const q = searchInput.value.trim();
+      if (q.length < 2) {
+        document.getElementById('results').innerHTML = '';
+        return;
+      }
+
+      let results;
+      if (activeFilter) {
+        results = JSON.parse(graph.search_by_type(activeFilter, q, 30));
+      } else {
+        results = JSON.parse(graph.search(q, 30));
+      }
+
+      const ul = document.getElementById('results');
+      ul.innerHTML = results.map(r => `
+        <li onclick="window.selectResult('${r.id}')">
+          <span class="type-tag" style="background:${TYPE_COLORS[r.node_type]}22;color:${TYPE_COLORS[r.node_type]}">${r.node_type}</span>
+          ${r.label}
+        </li>
+      `).join('');
+    }
+
+    window.selectResult = function(id) {
+      expandNode(id);
+    };
+
+    // ── Initialize ─────────────────────────────────────────────────────
+
+    async function main() {
+      await init();
+
+      const loadingEl = document.getElementById('loading');
+      loadingEl.textContent = 'Fetching JSON files...';
+
+      const files = ['books', 'chapters', 'verses', 'people', 'places', 'events', 'peopleGroups', 'easton'];
+      const jsonData = {};
+
+      for (const name of files) {
+        loadingEl.textContent = `Loading ${name}.json...`;
+        const resp = await fetch(`../JSON/${name}.json`);
+        jsonData[name] = await resp.text();
+      }
+
+      loadingEl.textContent = 'Building graph...';
+      await new Promise(r => setTimeout(r, 10)); // Let UI update
+
+      graph = new TheographicGraph(
+        jsonData.books,
+        jsonData.chapters,
+        jsonData.verses,
+        jsonData.people,
+        jsonData.places,
+        jsonData.events,
+        jsonData.peopleGroups,
+        jsonData.easton
+      );
+
+      const stats = JSON.parse(graph.stats());
+      document.getElementById('stats').textContent =
+        `${stats.nodeCount.toLocaleString()} nodes | ${stats.edgeCount.toLocaleString()} edges | ` +
+        `${stats.people} people | ${stats.places} places | ${stats.events} events`;
+      loadingEl.style.display = 'none';
+
+      initGraph();
+
+      // Start with a default view — expand "Jesus" or first person
+      const jesus = JSON.parse(graph.search_by_type('Person', 'Jesus', 1));
+      if (jesus.length > 0) {
+        expandNode(jesus[0].id);
+      }
+    }
+
+    main().catch(console.error);
+  </script>
+</body>
+</html>
