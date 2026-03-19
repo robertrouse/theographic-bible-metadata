@@ -48,6 +48,9 @@ const THEMES = {
       '--color-male':     '#5a9ec4',
       '--color-female':   '#c45a7a',
       '--color-unknown':  '#888888',
+      '--color-person-bg':'#5a9ec422',
+      '--color-place-bg': '#5ac47a22',
+      '--color-place-fade':'#5ac47a44',
       '--svg-bg':         '#0a0a0f',
     },
   },
@@ -87,6 +90,9 @@ const THEMES = {
       '--color-male':     '#2a6496',
       '--color-female':   '#a02050',
       '--color-unknown':  '#999999',
+      '--color-person-bg':'#2a649622',
+      '--color-place-bg': '#1a7a3a22',
+      '--color-place-fade':'#1a7a3a44',
       '--svg-bg':         '#f5f5f0',
     },
   },
@@ -126,6 +132,9 @@ const THEMES = {
       '--color-male':     '#7aaa9a',
       '--color-female':   '#c47a6a',
       '--color-unknown':  '#7a6e58',
+      '--color-person-bg':'#7aaa9a22',
+      '--color-place-bg': '#8ab47a22',
+      '--color-place-fade':'#8ab47a44',
       '--svg-bg':         '#1c1710',
     },
   },
@@ -165,6 +174,9 @@ const THEMES = {
       '--color-male':     '#66bbff',
       '--color-female':   '#ff6688',
       '--color-unknown':  '#aaaaaa',
+      '--color-person-bg':'#66bbff22',
+      '--color-place-bg': '#66ff6622',
+      '--color-place-fade':'#66ff6644',
       '--svg-bg':         '#000000',
     },
   },
@@ -191,7 +203,9 @@ function applyTheme(name) {
 
   // Update picker UI
   document.querySelectorAll('.theme-btn').forEach(btn => {
-    btn.classList.toggle('active', btn.dataset.theme === name);
+    const isActive = btn.dataset.theme === name;
+    btn.classList.toggle('active', isActive);
+    btn.setAttribute('aria-checked', isActive);
   });
 }
 
@@ -200,8 +214,10 @@ function applyTheme(name) {
 function renderThemePicker(headerEl) {
   const picker = document.createElement('div');
   picker.className = 'theme-picker';
+  picker.setAttribute('role', 'radiogroup');
+  picker.setAttribute('aria-label', 'Color theme');
   picker.innerHTML = Object.entries(THEMES).map(([key, theme]) =>
-    `<button class="theme-btn ${key === currentTheme ? 'active' : ''}" data-theme="${key}" title="${theme.label}">${theme.label}</button>`
+    `<button class="theme-btn ${key === currentTheme ? 'active' : ''}" data-theme="${key}" title="${theme.label}" role="radio" aria-checked="${key === currentTheme}">${theme.label}</button>`
   ).join('');
 
   picker.querySelectorAll('.theme-btn').forEach(btn => {
@@ -216,6 +232,9 @@ function renderThemePicker(headerEl) {
 function injectPickerStyles() {
   const style = document.createElement('style');
   style.textContent = `
+    *, *::before, *::after {
+      transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease, fill 0.25s ease, stroke 0.25s ease;
+    }
     .theme-picker {
       display: flex;
       gap: 4px;
@@ -238,6 +257,62 @@ function injectPickerStyles() {
       border-color: var(--accent);
       color: var(--accent);
     }
+
+    /* ── Responsive: collapse sidebar on narrow screens ── */
+    @media (max-width: 768px) {
+      #app {
+        grid-template-columns: 1fr !important;
+        grid-template-rows: auto auto 1fr !important;
+      }
+      header {
+        flex-wrap: wrap;
+        padding: 8px 12px !important;
+        gap: 8px !important;
+      }
+      header h1 { font-size: 15px !important; }
+      aside {
+        border-right: none !important;
+        border-bottom: 1px solid var(--border);
+        max-height: 35vh;
+        overflow-y: auto;
+      }
+      .theme-picker { margin-left: 0; }
+      .theme-btn { font-size: 10px; padding: 2px 6px; }
+      nav { order: 2; width: 100%; }
+      nav a { font-size: 12px; }
+    }
+
+    @media (max-width: 480px) {
+      header h1 { font-size: 13px !important; }
+      aside { max-height: 25vh; padding: 10px !important; }
+      .theme-btn { font-size: 9px; padding: 2px 5px; }
+    }
+
+    /* ── Skip link for keyboard users ── */
+    .skip-link {
+      position: absolute;
+      top: -40px;
+      left: 0;
+      background: var(--accent);
+      color: var(--text-inverse);
+      padding: 8px 16px;
+      z-index: 100;
+      font-size: 14px;
+      text-decoration: none;
+      border-radius: 0 0 6px 0;
+      transition: top 0.2s;
+    }
+    .skip-link:focus { top: 0; }
+
+    /* ── Focus visible outlines ── */
+    :focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+    }
+    button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+    }
   `;
   document.head.appendChild(style);
 }
@@ -249,14 +324,38 @@ function injectPickerStyles() {
  * Injects CSS variables, renders theme picker in <header>, restores saved preference.
  */
 export function initTheme() {
-  // Restore saved theme
+  // Restore saved theme, or detect OS preference
+  let hasSaved = false;
   try {
     const saved = localStorage.getItem('theographic-theme');
-    if (saved && THEMES[saved]) currentTheme = saved;
+    if (saved && THEMES[saved]) {
+      currentTheme = saved;
+      hasSaved = true;
+    }
   } catch {}
+
+  if (!hasSaved && window.matchMedia) {
+    if (window.matchMedia('(prefers-color-scheme: light)').matches) {
+      currentTheme = 'light';
+    } else if (window.matchMedia('(prefers-contrast: more)').matches) {
+      currentTheme = 'high-contrast';
+    }
+  }
 
   injectPickerStyles();
   applyTheme(currentTheme);
+
+  // Add skip link for keyboard accessibility
+  const skip = document.createElement('a');
+  skip.href = '#main-content';
+  skip.className = 'skip-link';
+  skip.textContent = 'Skip to content';
+  document.body.insertBefore(skip, document.body.firstChild);
+
+  // Mark main content area
+  const mainArea = document.querySelector('#graph-container, #sigma-container, #tree-container, #map-container, #timeline-container');
+  if (mainArea) mainArea.id = mainArea.id || 'main-content';
+  if (mainArea && !mainArea.getAttribute('role')) mainArea.setAttribute('role', 'main');
 
   const header = document.querySelector('header');
   if (header) renderThemePicker(header);

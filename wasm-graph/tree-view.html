@@ -595,7 +595,7 @@
           const results = JSON.parse(wasmGraph.search_by_type('Person', q, 20));
           resultsEl.innerHTML = results.map(r =>
             `<li onclick="window.selectPerson('${r.id}')">` +
-            `<span class="type-tag" style="background:var(--color-person)22;color:var(--color-person)">${r.extra?.gender || 'Person'}</span>` +
+            `<span class="type-tag" style="background:var(--color-person-bg);color:var(--color-person)">${r.extra?.gender || 'Person'}</span>` +
             `${r.label}</li>`
           ).join('');
         }, 200);
