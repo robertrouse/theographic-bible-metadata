@@ -7,56 +7,56 @@
   <script src="https://d3js.org/d3.v7.min.js"></script>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: system-ui, sans-serif; background: #0a0a0f; color: #e0e0e0; }
+    body { font-family: system-ui, sans-serif; background: var(--bg-primary); color: var(--text-primary); }
 
     #app { display: grid; grid-template-columns: 320px 1fr; grid-template-rows: auto 1fr; height: 100vh; }
 
     header {
       grid-column: 1 / -1;
       padding: 12px 20px;
-      background: #111118;
-      border-bottom: 1px solid #2a2a35;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
       display: flex;
       align-items: center;
       gap: 16px;
     }
-    header h1 { font-size: 18px; font-weight: 600; color: #c4a55a; }
-    header a { color: #5a9ec4; text-decoration: none; font-size: 13px; }
-    header a:hover { text-decoration: underline; }
-    #stats { font-size: 13px; color: #888; }
-    #loading { color: #c4a55a; font-size: 14px; }
+    header h1 { font-size: 18px; font-weight: 600; color: var(--accent); }
+    nav a { color: var(--link); text-decoration: none; font-size: 13px; }
+    nav a:hover { text-decoration: underline; }
+    #stats { font-size: 13px; color: var(--text-muted); }
+    #loading { color: var(--accent); font-size: 14px; }
 
     aside {
-      background: #111118;
-      border-right: 1px solid #2a2a35;
+      background: var(--bg-secondary);
+      border-right: 1px solid var(--border);
       padding: 16px;
       overflow-y: auto;
     }
-    aside h2 { font-size: 14px; margin-bottom: 8px; color: #999; text-transform: uppercase; letter-spacing: 1px; }
+    aside h2 { font-size: 14px; margin-bottom: 8px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; }
 
     .search-box {
       width: 100%;
       padding: 8px 12px;
-      background: #1a1a24;
-      border: 1px solid #2a2a35;
+      background: var(--bg-tertiary);
+      border: 1px solid var(--border);
       border-radius: 6px;
-      color: #e0e0e0;
+      color: var(--text-primary);
       font-size: 14px;
       margin-bottom: 12px;
     }
-    .search-box:focus { outline: none; border-color: #c4a55a; }
+    .search-box:focus { outline: none; border-color: var(--accent); }
 
     .filter-row { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 16px; }
     .filter-btn {
       padding: 4px 10px;
       font-size: 12px;
-      border: 1px solid #2a2a35;
+      border: 1px solid var(--border);
       border-radius: 12px;
       background: transparent;
-      color: #888;
+      color: var(--text-muted);
       cursor: pointer;
     }
-    .filter-btn.active { background: #c4a55a22; border-color: #c4a55a; color: #c4a55a; }
+    .filter-btn.active { background: var(--accent-bg); border-color: var(--accent); color: var(--accent); }
 
     #results { list-style: none; }
     #results li {
@@ -66,7 +66,7 @@
       font-size: 13px;
       margin-bottom: 2px;
     }
-    #results li:hover { background: #1a1a24; }
+    #results li:hover { background: var(--bg-hover); }
     #results .type-tag {
       display: inline-block;
       font-size: 10px;
@@ -78,13 +78,13 @@
     #detail-panel {
       margin-top: 16px;
       padding: 12px;
-      background: #1a1a24;
+      background: var(--bg-tertiary);
       border-radius: 8px;
       font-size: 13px;
       display: none;
     }
-    #detail-panel h3 { font-size: 15px; color: #c4a55a; margin-bottom: 8px; }
-    #detail-panel .meta { color: #888; margin-bottom: 4px; }
+    #detail-panel h3 { font-size: 15px; color: var(--accent); margin-bottom: 8px; }
+    #detail-panel .meta { color: var(--text-muted); margin-bottom: 4px; }
 
     #graph-container {
       position: relative;
@@ -92,27 +92,26 @@
     }
     #graph-container svg { width: 100%; height: 100%; }
 
-    /* Node colors by type */
-    .node-Book { fill: #c4a55a; }
-    .node-Person { fill: #5a9ec4; }
-    .node-Place { fill: #5ac47a; }
-    .node-Event { fill: #c45a7a; }
-    .node-Verse { fill: #888; }
-    .node-Chapter { fill: #666; }
-    .node-PeopleGroup { fill: #a55ac4; }
-    .node-Easton { fill: #c49a5a; }
+    .node-Book { fill: var(--color-book); }
+    .node-Person { fill: var(--color-person); }
+    .node-Place { fill: var(--color-place); }
+    .node-Event { fill: var(--color-event); }
+    .node-Verse { fill: var(--color-verse); }
+    .node-Chapter { fill: var(--color-chapter); }
+    .node-PeopleGroup { fill: var(--color-group); }
+    .node-Easton { fill: var(--color-easton); }
 
-    .link { stroke: #2a2a35; stroke-width: 1; }
-    .link:hover { stroke: #c4a55a; stroke-width: 2; }
+    .link { stroke: var(--border); stroke-width: 1; }
+    .link:hover { stroke: var(--accent); stroke-width: 2; }
 
-    .node text { font-size: 10px; fill: #ccc; pointer-events: none; }
-    .node circle { stroke: #1a1a24; stroke-width: 1.5; cursor: pointer; }
-    .node circle:hover { stroke: #c4a55a; stroke-width: 2; }
+    .node text { font-size: 10px; fill: var(--text-secondary); pointer-events: none; }
+    .node circle { stroke: var(--node-stroke); stroke-width: 1.5; cursor: pointer; }
+    .node circle:hover { stroke: var(--accent); stroke-width: 2; }
 
     .tooltip {
       position: absolute;
-      background: #1a1a24ee;
-      border: 1px solid #2a2a35;
+      background: var(--tooltip-bg);
+      border: 1px solid var(--border);
       border-radius: 6px;
       padding: 8px 12px;
       font-size: 12px;
@@ -163,24 +162,12 @@
   </div>
 
   <script type="module">
-    // ── WASM + D3 Graph Visualization ──────────────────────────────────
-
-    // Import WASM module (after wasm-pack build)
     import init, { TheographicGraph } from './pkg/theographic_graph.js';
+    import { initTheme, getTypeColors } from './theme.js';
+
+    initTheme();
 
     let graph = null;
-
-    // ── Color scheme ───────────────────────────────────────────────────
-    const TYPE_COLORS = {
-      Book:        '#c4a55a',
-      Chapter:     '#666666',
-      Verse:       '#888888',
-      Person:      '#5a9ec4',
-      Place:       '#5ac47a',
-      Event:       '#c45a7a',
-      PeopleGroup: '#a55ac4',
-      Easton:      '#c49a5a',
-    };
 
     // ── D3 Force Graph ────────────────────────────────────────────────
     const svg = d3.select('#graph-svg');
@@ -196,7 +183,6 @@
       nodeGroup = g.append('g').attr('class', 'nodes');
       labelGroup = g.append('g').attr('class', 'labels');
 
-      // Zoom
       const zoom = d3.zoom()
         .scaleExtent([0.1, 8])
         .on('zoom', (event) => g.attr('transform', event.transform));
@@ -213,26 +199,24 @@
     }
 
     function renderGraph(subgraph) {
+      const TYPE_COLORS = getTypeColors();
       const data = JSON.parse(subgraph);
       currentNodes = data.nodes.map(n => ({...n, x: undefined, y: undefined}));
       currentLinks = data.edges.map(e => ({source: e.source, target: e.target, type: e.edge_type}));
 
-      // Filter out links referencing missing nodes
       const nodeIds = new Set(currentNodes.map(n => n.id));
       currentLinks = currentLinks.filter(l => nodeIds.has(l.source) && nodeIds.has(l.target));
 
-      // Links
       const links = linkGroup.selectAll('line').data(currentLinks, d => `${d.source}-${d.target}`);
       links.exit().remove();
-      const linksEnter = links.enter().append('line').attr('class', 'link');
+      links.enter().append('line').attr('class', 'link');
 
-      // Nodes
       const nodes = nodeGroup.selectAll('circle').data(currentNodes, d => d.id);
       nodes.exit().remove();
-      const nodesEnter = nodes.enter().append('circle')
+      nodes.enter().append('circle')
         .attr('r', d => d.node_type === 'Person' || d.node_type === 'Place' ? 8 : 5)
         .attr('fill', d => TYPE_COLORS[d.node_type] || '#888')
-        .attr('stroke', '#1a1a24')
+        .attr('stroke', 'var(--node-stroke)')
         .attr('stroke-width', 1.5)
         .attr('cursor', 'pointer')
         .on('click', (event, d) => expandNode(d.id))
@@ -257,7 +241,6 @@
           })
         );
 
-      // Labels (only for key nodes)
       const labels = labelGroup.selectAll('text').data(
         currentNodes.filter(n => n.node_type !== 'Verse' && n.node_type !== 'Chapter'),
         d => d.id
@@ -265,13 +248,12 @@
       labels.exit().remove();
       labels.enter().append('text')
         .attr('font-size', 10)
-        .attr('fill', '#ccc')
+        .attr('fill', 'var(--text-secondary)')
         .attr('dx', 12)
         .attr('dy', 4)
         .attr('pointer-events', 'none')
         .text(d => d.label.length > 20 ? d.label.slice(0, 20) + '...' : d.label);
 
-      // Update simulation
       simulation.nodes(currentNodes).on('tick', () => {
         linkGroup.selectAll('line')
           .attr('x1', d => d.source.x).attr('y1', d => d.source.y)
@@ -313,7 +295,6 @@
         }
       }
 
-      // Family tree for people
       if (node.node_type === 'Person') {
         const tree = graph.family_tree(id);
         if (tree) {
@@ -351,6 +332,7 @@
 
     function doSearch() {
       if (!graph) return;
+      const TYPE_COLORS = getTypeColors();
       const q = searchInput.value.trim();
       if (q.length < 2) {
         document.getElementById('results').innerHTML = '';
@@ -395,17 +377,12 @@
       }
 
       loadingEl.textContent = 'Building graph...';
-      await new Promise(r => setTimeout(r, 10)); // Let UI update
+      await new Promise(r => setTimeout(r, 10));
 
       graph = new TheographicGraph(
-        jsonData.books,
-        jsonData.chapters,
-        jsonData.verses,
-        jsonData.people,
-        jsonData.places,
-        jsonData.events,
-        jsonData.peopleGroups,
-        jsonData.easton
+        jsonData.books, jsonData.chapters, jsonData.verses,
+        jsonData.people, jsonData.places, jsonData.events,
+        jsonData.peopleGroups, jsonData.easton
       );
 
       const stats = JSON.parse(graph.stats());
@@ -416,7 +393,6 @@
 
       initGraph();
 
-      // Start with a default view — expand "Jesus" or first person
       const jesus = JSON.parse(graph.search_by_type('Person', 'Jesus', 1));
       if (jesus.length > 0) {
         expandNode(jesus[0].id);

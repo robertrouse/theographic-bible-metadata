@@ -7,60 +7,60 @@
   <script src="https://d3js.org/d3.v7.min.js"></script>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: system-ui, sans-serif; background: #0a0a0f; color: #e0e0e0; }
+    body { font-family: system-ui, sans-serif; background: var(--bg-primary); color: var(--text-primary); }
 
     #app { display: grid; grid-template-columns: 300px 1fr; grid-template-rows: auto 1fr; height: 100vh; }
 
     header {
       grid-column: 1 / -1;
       padding: 10px 20px;
-      background: #111118;
-      border-bottom: 1px solid #2a2a35;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
       display: flex;
       align-items: center;
       gap: 16px;
     }
-    header h1 { font-size: 18px; font-weight: 600; color: #c4a55a; white-space: nowrap; }
+    header h1 { font-size: 18px; font-weight: 600; color: var(--accent); white-space: nowrap; }
     nav { display: flex; gap: 12px; }
-    nav a { color: #5a9ec4; text-decoration: none; font-size: 13px; }
+    nav a { color: var(--link); text-decoration: none; font-size: 13px; }
     nav a:hover { text-decoration: underline; }
-    nav a.active { color: #c4a55a; }
-    #loading { color: #c4a55a; font-size: 13px; margin-left: auto; }
+    nav a.active { color: var(--accent); }
+    #loading { color: var(--accent); font-size: 13px; margin-left: auto; }
 
     aside {
-      background: #111118;
-      border-right: 1px solid #2a2a35;
+      background: var(--bg-secondary);
+      border-right: 1px solid var(--border);
       padding: 14px;
       overflow-y: auto;
       display: flex;
       flex-direction: column;
       gap: 14px;
     }
-    aside h2 { font-size: 12px; color: #888; text-transform: uppercase; letter-spacing: 1px; }
+    aside h2 { font-size: 12px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; }
 
     .search-box {
       width: 100%;
       padding: 8px 12px;
-      background: #1a1a24;
-      border: 1px solid #2a2a35;
+      background: var(--bg-tertiary);
+      border: 1px solid var(--border);
       border-radius: 6px;
-      color: #e0e0e0;
+      color: var(--text-primary);
       font-size: 14px;
     }
-    .search-box:focus { outline: none; border-color: #c4a55a; }
+    .search-box:focus { outline: none; border-color: var(--accent); }
 
     .filter-row { display: flex; gap: 4px; flex-wrap: wrap; }
     .filter-btn {
       padding: 3px 8px;
       font-size: 11px;
-      border: 1px solid #2a2a35;
+      border: 1px solid var(--border);
       border-radius: 10px;
       background: transparent;
-      color: #888;
+      color: var(--text-muted);
       cursor: pointer;
     }
-    .filter-btn.active { background: #5ac47a22; border-color: #5ac47a; color: #5ac47a; }
-    .filter-btn:hover { border-color: #555; }
+    .filter-btn.active { background: var(--color-place)22; border-color: var(--color-place); color: var(--color-place); }
+    .filter-btn:hover { border-color: var(--text-subtle); }
 
     #results { list-style: none; max-height: 200px; overflow-y: auto; }
     #results li {
@@ -70,73 +70,73 @@
       font-size: 12px;
       margin-bottom: 1px;
     }
-    #results li:hover { background: #1a1a24; }
+    #results li:hover { background: var(--bg-hover); }
 
     #detail-panel {
       padding: 12px;
-      background: #1a1a24;
+      background: var(--bg-tertiary);
       border-radius: 8px;
       font-size: 12px;
       display: none;
     }
-    #detail-panel h3 { font-size: 14px; color: #5ac47a; margin-bottom: 6px; }
-    #detail-panel .meta { color: #aaa; margin-bottom: 3px; }
-    #detail-panel .meta strong { color: #ccc; }
+    #detail-panel h3 { font-size: 14px; color: var(--color-place); margin-bottom: 6px; }
+    #detail-panel .meta { color: var(--text-secondary); margin-bottom: 3px; }
+    #detail-panel .meta strong { color: var(--text-primary); }
     #detail-people {
       list-style: none;
       margin-top: 6px;
       max-height: 150px;
       overflow-y: auto;
     }
-    #detail-people li { font-size: 11px; color: #aaa; padding: 2px 0; }
+    #detail-people li { font-size: 11px; color: var(--text-secondary); padding: 2px 0; }
 
     .legend-scale {
       display: flex;
       align-items: center;
       gap: 6px;
       font-size: 11px;
-      color: #888;
+      color: var(--text-muted);
     }
     .legend-gradient {
       width: 100px;
       height: 10px;
       border-radius: 3px;
-      background: linear-gradient(to right, #5ac47a44, #5ac47a);
+      background: linear-gradient(to right, var(--color-place)44, var(--color-place));
     }
 
     #map-container {
       position: relative;
       overflow: hidden;
     }
-    #map-container svg { width: 100%; height: 100%; background: #0a0a0f; }
+    #map-container svg { width: 100%; height: 100%; background: var(--svg-bg); }
 
     .place-dot {
-      fill: #5ac47a;
-      stroke: #0a0a0f;
+      fill: var(--color-place);
+      stroke: var(--bg-primary);
       stroke-width: 1;
       cursor: pointer;
       opacity: 0.8;
       transition: opacity 0.15s;
     }
-    .place-dot:hover { opacity: 1; stroke: #c4a55a; stroke-width: 2; }
-    .place-dot.highlight { opacity: 1; stroke: #c4a55a; stroke-width: 2.5; fill: #c4a55a; }
+    .place-dot:hover { opacity: 1; stroke: var(--accent); stroke-width: 2; }
+    .place-dot.highlight { opacity: 1; stroke: var(--accent); stroke-width: 2.5; fill: var(--accent); }
 
     .place-label {
       font-size: 10px;
-      fill: #ccc;
+      fill: var(--text-secondary);
       pointer-events: none;
     }
 
     .graticule {
       fill: none;
-      stroke: #1a1a24;
+      stroke: var(--graticule);
       stroke-width: 0.5;
     }
 
     .tooltip {
       position: absolute;
-      background: #1a1a24ee;
-      border: 1px solid #2a2a35;
+      background: var(--tooltip-bg);
+      border: 1px solid var(--border);
       border-radius: 6px;
       padding: 8px 12px;
       font-size: 12px;
@@ -197,6 +197,9 @@
 
   <script type="module">
     import init, { TheographicGraph } from './pkg/theographic_graph.js';
+    import { initTheme, themeVar } from './theme.js';
+
+    initTheme();
 
     let wasmGraph = null;
     let allPlaces = [];
@@ -278,7 +281,7 @@
           .attr('x', x + 3)
           .attr('y', y + 3)
           .attr('font-size', 8)
-          .attr('fill', '#333')
+          .attr('fill', themeVar('--ref-text'))
           .text(ref.label);
       }
 
@@ -300,7 +303,7 @@
           .attr('y', y)
           .attr('text-anchor', 'middle')
           .attr('font-size', 13)
-          .attr('fill', '#222')
+          .attr('fill', themeVar('--region-text'))
           .attr('font-style', 'italic')
           .attr('transform', region.rotate ? `rotate(${region.rotate},${x},${y})` : null)
           .text(region.name);
@@ -365,7 +368,7 @@
         .on('mouseover', (event, d) => {
           tooltip.style.display = 'block';
           tooltip.innerHTML = `<strong>${d.label}</strong><br>` +
-            `<span style="color:#5ac47a">${d.featureType}</span>`;
+            `<span style="color:var(--color-place)">${d.featureType}</span>`;
         })
         .on('mousemove', (event) => {
           tooltip.style.left = (event.offsetX + 12) + 'px';
@@ -417,7 +420,7 @@
       const peopleList = document.getElementById('detail-people');
       const allRelated = [...relatedPeople, ...relatedEvents].slice(0, 30);
       peopleList.innerHTML = allRelated.map(p =>
-        `<li><span style="color:${p.node_type === 'Person' ? '#5a9ec4' : '#c45a7a'}">${p.node_type}:</span> ${p.label}</li>`
+        `<li><span style="color:${p.node_type === 'Person' ? 'var(--color-person)' : 'var(--color-event)'}">${p.node_type}:</span> ${p.label}</li>`
       ).join('');
 
       // Highlight the dot
@@ -473,7 +476,7 @@
           const results = JSON.parse(wasmGraph.search_by_type('Place', q, 20));
           resultsEl.innerHTML = results.map(r =>
             `<li onclick="window.selectPlace('${r.id}')">` +
-            `<span style="color:#5ac47a;font-size:10px;margin-right:4px">${r.extra?.featureType || 'Place'}</span>` +
+            `<span style="color:var(--color-place);font-size:10px;margin-right:4px">${r.extra?.featureType || 'Place'}</span>` +
             `${r.label}</li>`
           ).join('');
         }, 200);

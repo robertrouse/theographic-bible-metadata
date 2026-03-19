@@ -7,61 +7,61 @@
   <script src="https://d3js.org/d3.v7.min.js"></script>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: system-ui, sans-serif; background: #0a0a0f; color: #e0e0e0; }
+    body { font-family: system-ui, sans-serif; background: var(--bg-primary); color: var(--text-primary); }
 
     #app { display: grid; grid-template-columns: 300px 1fr; grid-template-rows: auto 1fr; height: 100vh; }
 
     header {
       grid-column: 1 / -1;
       padding: 10px 20px;
-      background: #111118;
-      border-bottom: 1px solid #2a2a35;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
       display: flex;
       align-items: center;
       gap: 16px;
     }
-    header h1 { font-size: 18px; font-weight: 600; color: #c4a55a; white-space: nowrap; }
+    header h1 { font-size: 18px; font-weight: 600; color: var(--accent); white-space: nowrap; }
     nav { display: flex; gap: 12px; }
-    nav a { color: #5a9ec4; text-decoration: none; font-size: 13px; }
+    nav a { color: var(--link); text-decoration: none; font-size: 13px; }
     nav a:hover { text-decoration: underline; }
-    nav a.active { color: #c4a55a; }
-    #loading { color: #c4a55a; font-size: 13px; margin-left: auto; }
+    nav a.active { color: var(--accent); }
+    #loading { color: var(--accent); font-size: 13px; margin-left: auto; }
 
     aside {
-      background: #111118;
-      border-right: 1px solid #2a2a35;
+      background: var(--bg-secondary);
+      border-right: 1px solid var(--border);
       padding: 14px;
       overflow-y: auto;
       display: flex;
       flex-direction: column;
       gap: 14px;
     }
-    aside h2 { font-size: 12px; color: #888; text-transform: uppercase; letter-spacing: 1px; }
+    aside h2 { font-size: 12px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; }
 
     .search-box {
       width: 100%;
       padding: 8px 12px;
-      background: #1a1a24;
-      border: 1px solid #2a2a35;
+      background: var(--bg-tertiary);
+      border: 1px solid var(--border);
       border-radius: 6px;
-      color: #e0e0e0;
+      color: var(--text-primary);
       font-size: 14px;
     }
-    .search-box:focus { outline: none; border-color: #c4a55a; }
+    .search-box:focus { outline: none; border-color: var(--accent); }
 
     .mode-row { display: flex; gap: 6px; }
     .mode-btn {
       flex: 1;
       padding: 8px;
       font-size: 12px;
-      border: 1px solid #2a2a35;
+      border: 1px solid var(--border);
       border-radius: 6px;
       background: transparent;
-      color: #888;
+      color: var(--text-muted);
       cursor: pointer;
       text-align: center;
     }
-    .mode-btn.active { background: #c4a55a22; border-color: #c4a55a; color: #c4a55a; }
+    .mode-btn.active { background: var(--accent-bg); border-color: var(--accent); color: var(--accent); }
 
     #results { list-style: none; max-height: 250px; overflow-y: auto; }
     #results li {
@@ -71,7 +71,7 @@
       font-size: 12px;
       margin-bottom: 1px;
     }
-    #results li:hover { background: #1a1a24; }
+    #results li:hover { background: var(--bg-hover); }
 
     .type-tag {
       display: inline-block;
@@ -83,65 +83,65 @@
 
     #info-panel {
       padding: 12px;
-      background: #1a1a24;
+      background: var(--bg-tertiary);
       border-radius: 8px;
       font-size: 12px;
     }
-    #info-panel h3 { font-size: 14px; color: #c4a55a; margin-bottom: 6px; }
-    #info-panel .meta { color: #aaa; margin-bottom: 3px; }
-    #info-panel .meta strong { color: #ccc; }
+    #info-panel h3 { font-size: 14px; color: var(--accent); margin-bottom: 6px; }
+    #info-panel .meta { color: var(--text-secondary); margin-bottom: 3px; }
+    #info-panel .meta strong { color: var(--text-primary); }
 
     #tree-container {
       position: relative;
       overflow: hidden;
     }
-    #tree-container svg { width: 100%; height: 100%; background: #0a0a0f; }
+    #tree-container svg { width: 100%; height: 100%; background: var(--svg-bg); }
 
     .node circle {
-      stroke: #1a1a24;
+      stroke: var(--node-stroke);
       stroke-width: 2;
       cursor: pointer;
     }
-    .node circle:hover { stroke: #c4a55a; stroke-width: 2.5; }
+    .node circle:hover { stroke: var(--accent); stroke-width: 2.5; }
     .node text {
       font-size: 11px;
-      fill: #ccc;
+      fill: var(--text-secondary);
     }
     .link {
       fill: none;
-      stroke: #2a2a45;
+      stroke: var(--border);
       stroke-width: 1.5;
     }
 
-    .node-male circle { fill: #5a9ec4; }
-    .node-female circle { fill: #c45a7a; }
-    .node-unknown circle { fill: #888; }
-    .node-book circle { fill: #c4a55a; }
-    .node-chapter circle { fill: #666; }
+    .node-male circle { fill: var(--color-male); }
+    .node-female circle { fill: var(--color-female); }
+    .node-unknown circle { fill: var(--color-unknown); }
+    .node-book circle { fill: var(--color-book); }
+    .node-chapter circle { fill: var(--color-chapter); }
 
-    .node.collapsed circle { stroke: #c4a55a; stroke-dasharray: 3,2; }
+    .node.collapsed circle { stroke: var(--accent); stroke-dasharray: 3,2; }
 
     select {
       width: 100%;
       padding: 8px;
-      background: #1a1a24;
-      border: 1px solid #2a2a35;
+      background: var(--bg-tertiary);
+      border: 1px solid var(--border);
       border-radius: 6px;
-      color: #e0e0e0;
+      color: var(--text-primary);
       font-size: 13px;
     }
-    select:focus { outline: none; border-color: #c4a55a; }
+    select:focus { outline: none; border-color: var(--accent); }
 
     .depth-control {
       display: flex;
       align-items: center;
       gap: 8px;
       font-size: 12px;
-      color: #aaa;
+      color: var(--text-secondary);
     }
     .depth-control input[type="range"] {
       flex: 1;
-      accent-color: #c4a55a;
+      accent-color: var(--accent);
     }
   </style>
 </head>
@@ -199,16 +199,14 @@
 
   <script type="module">
     import init, { TheographicGraph } from './pkg/theographic_graph.js';
+    import { initTheme, getGenderColor, themeVar } from './theme.js';
+
+    initTheme();
 
     let wasmGraph = null;
     let currentMode = 'family';
 
-    // ── Color helpers ─────────────────────────────────────────────────────
-    function genderColor(gender) {
-      if (gender === 'Male') return '#5a9ec4';
-      if (gender === 'Female') return '#c45a7a';
-      return '#888';
-    }
+    function genderColor(gender) { return getGenderColor(gender); }
 
     // ── Initialize WASM ───────────────────────────────────────────────────
     async function loadWasm() {
@@ -439,7 +437,7 @@
       // Highlight the root person
       nodes.filter(d => d.data.isRoot)
         .select('circle')
-        .attr('stroke', '#c4a55a')
+        .attr('stroke', themeVar('--accent'))
         .attr('stroke-width', 3);
 
       // Fit to view
@@ -531,12 +529,12 @@
         .attr('width', d => Math.max(0, d.x1 - d.x0))
         .attr('height', d => Math.max(0, d.y1 - d.y0))
         .attr('fill', d => colorScale(d.data.peopleCount || 0))
-        .attr('stroke', '#0a0a0f')
+        .attr('stroke', themeVar('--bg-primary'))
         .attr('stroke-width', 1)
         .attr('rx', 3)
         .attr('cursor', 'pointer')
         .on('mouseover', function(event, d) {
-          d3.select(this).attr('stroke', '#c4a55a').attr('stroke-width', 2);
+          d3.select(this).attr('stroke', themeVar('--accent')).attr('stroke-width', 2);
           document.getElementById('info-title').textContent = `${data.name} — ${d.data.name}`;
           document.getElementById('info-content').innerHTML =
             `<div class="meta"><strong>Verses:</strong> ${d.data.verseCount}</div>` +
@@ -544,7 +542,7 @@
             `<div class="meta"><strong>Places mentioned:</strong> ${d.data.placesCount}</div>`;
         })
         .on('mouseout', function() {
-          d3.select(this).attr('stroke', '#0a0a0f').attr('stroke-width', 1);
+          d3.select(this).attr('stroke', themeVar('--bg-primary')).attr('stroke-width', 1);
         });
 
       cell.append('text')
@@ -554,7 +552,7 @@
           const w = d.x1 - d.x0;
           return w > 60 ? 11 : w > 30 ? 9 : 0;
         })
-        .attr('fill', '#000')
+        .attr('fill', 'var(--text-inverse)')
         .attr('pointer-events', 'none')
         .text(d => d.data.name);
 
@@ -563,7 +561,7 @@
         .attr('x', 4)
         .attr('y', 28)
         .attr('font-size', 9)
-        .attr('fill', '#333')
+        .attr('fill', 'var(--ref-text)')
         .attr('pointer-events', 'none')
         .text(d => `${d.data.verseCount} verses`);
 
@@ -597,7 +595,7 @@
           const results = JSON.parse(wasmGraph.search_by_type('Person', q, 20));
           resultsEl.innerHTML = results.map(r =>
             `<li onclick="window.selectPerson('${r.id}')">` +
-            `<span class="type-tag" style="background:#5a9ec422;color:#5a9ec4">${r.extra?.gender || 'Person'}</span>` +
+            `<span class="type-tag" style="background:var(--color-person)22;color:var(--color-person)">${r.extra?.gender || 'Person'}</span>` +
             `${r.label}</li>`
           ).join('');
         }, 200);

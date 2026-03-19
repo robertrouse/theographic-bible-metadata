@@ -7,44 +7,44 @@
   <script src="https://d3js.org/d3.v7.min.js"></script>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: system-ui, sans-serif; background: #0a0a0f; color: #e0e0e0; }
+    body { font-family: system-ui, sans-serif; background: var(--bg-primary); color: var(--text-primary); }
 
     #app { display: grid; grid-template-columns: 300px 1fr; grid-template-rows: auto auto 1fr; height: 100vh; }
 
     header {
       grid-column: 1 / -1;
       padding: 10px 20px;
-      background: #111118;
-      border-bottom: 1px solid #2a2a35;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
       display: flex;
       align-items: center;
       gap: 16px;
     }
-    header h1 { font-size: 18px; font-weight: 600; color: #c4a55a; white-space: nowrap; }
+    header h1 { font-size: 18px; font-weight: 600; color: var(--accent); white-space: nowrap; }
     nav { display: flex; gap: 12px; }
-    nav a { color: #5a9ec4; text-decoration: none; font-size: 13px; }
+    nav a { color: var(--link); text-decoration: none; font-size: 13px; }
     nav a:hover { text-decoration: underline; }
-    nav a.active { color: #c4a55a; }
-    #loading { color: #c4a55a; font-size: 13px; margin-left: auto; }
+    nav a.active { color: var(--accent); }
+    #loading { color: var(--accent); font-size: 13px; margin-left: auto; }
 
     #brush-container {
       grid-column: 1 / -1;
       height: 60px;
-      background: #111118;
-      border-bottom: 1px solid #2a2a35;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
     }
     #brush-container svg { width: 100%; height: 100%; }
 
     aside {
-      background: #111118;
-      border-right: 1px solid #2a2a35;
+      background: var(--bg-secondary);
+      border-right: 1px solid var(--border);
       padding: 14px;
       overflow-y: auto;
       display: flex;
       flex-direction: column;
       gap: 14px;
     }
-    aside h2 { font-size: 12px; color: #888; text-transform: uppercase; letter-spacing: 1px; }
+    aside h2 { font-size: 12px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; }
 
     .era-list { list-style: none; }
     .era-list li {
@@ -55,53 +55,53 @@
       margin-bottom: 1px;
       border-left: 3px solid transparent;
     }
-    .era-list li:hover { background: #1a1a24; }
-    .era-list li.active { border-left-color: #c4a55a; background: #1a1a24; }
+    .era-list li:hover { background: var(--bg-hover); }
+    .era-list li.active { border-left-color: var(--accent); background: var(--bg-hover); }
 
     .mode-row { display: flex; gap: 6px; }
     .mode-btn {
       flex: 1;
       padding: 6px;
       font-size: 11px;
-      border: 1px solid #2a2a35;
+      border: 1px solid var(--border);
       border-radius: 6px;
       background: transparent;
-      color: #888;
+      color: var(--text-muted);
       cursor: pointer;
       text-align: center;
     }
-    .mode-btn.active { background: #c4a55a22; border-color: #c4a55a; color: #c4a55a; }
+    .mode-btn.active { background: var(--accent-bg); border-color: var(--accent); color: var(--accent); }
 
     #detail-panel {
       padding: 12px;
-      background: #1a1a24;
+      background: var(--bg-tertiary);
       border-radius: 8px;
       font-size: 12px;
       display: none;
     }
-    #detail-panel h3 { font-size: 14px; color: #c45a7a; margin-bottom: 6px; }
-    #detail-panel .meta { color: #aaa; margin-bottom: 3px; }
-    #detail-panel .meta strong { color: #ccc; }
+    #detail-panel h3 { font-size: 14px; color: var(--color-event); margin-bottom: 6px; }
+    #detail-panel .meta { color: var(--text-secondary); margin-bottom: 3px; }
+    #detail-panel .meta strong { color: var(--text-primary); }
     #detail-participants {
       list-style: none;
       margin-top: 6px;
       max-height: 150px;
       overflow-y: auto;
     }
-    #detail-participants li { font-size: 11px; color: #aaa; padding: 2px 0; }
+    #detail-participants li { font-size: 11px; color: var(--text-secondary); padding: 2px 0; }
 
     #timeline-container {
       position: relative;
       overflow: hidden;
     }
-    #timeline-container svg { width: 100%; height: 100%; background: #0a0a0f; }
+    #timeline-container svg { width: 100%; height: 100%; background: var(--svg-bg); }
 
     .event-bar {
       cursor: pointer;
       transition: opacity 0.15s;
     }
     .event-bar:hover { opacity: 1 !important; }
-    .event-bar.highlight { stroke: #c4a55a; stroke-width: 2; }
+    .event-bar.highlight { stroke: var(--accent); stroke-width: 2; }
 
     .person-bar {
       cursor: pointer;
@@ -109,13 +109,13 @@
     }
     .person-bar:hover { opacity: 1; }
 
-    .axis text { fill: #888; font-size: 11px; }
-    .axis line, .axis path { stroke: #2a2a35; }
+    .axis text { fill: var(--text-muted); font-size: 11px; }
+    .axis line, .axis path { stroke: var(--border); }
 
     .tooltip {
       position: absolute;
-      background: #1a1a24ee;
-      border: 1px solid #2a2a35;
+      background: var(--tooltip-bg);
+      border: 1px solid var(--border);
       border-radius: 6px;
       padding: 8px 12px;
       font-size: 12px;
@@ -125,7 +125,7 @@
       max-width: 300px;
     }
 
-    .brush .selection { fill: #c4a55a33; stroke: #c4a55a; }
+    .brush .selection { fill: var(--brush-fill); stroke: var(--accent); }
   </style>
 </head>
 <body>
@@ -175,6 +175,9 @@
 
   <script type="module">
     import init, { TheographicGraph } from './pkg/theographic_graph.js';
+    import { initTheme, themeVar, getGenderColor } from './theme.js';
+
+    initTheme();
 
     let wasmGraph = null;
     let allEvents = [];
@@ -283,7 +286,7 @@
         svg.append('line')
           .attr('x1', x).attr('x2', x)
           .attr('y1', margin.top).attr('y2', h - margin.bottom)
-          .attr('stroke', '#c45a7a33')
+          .attr('stroke', themeVar('--color-event') + '33')
           .attr('stroke-width', 1);
       }
 
@@ -368,13 +371,13 @@
         .attr('y', (d, i) => yScale(i))
         .attr('width', d => Math.max(4, (endYear - startYear) / filtered.length * 0.3))
         .attr('height', yScale.bandwidth())
-        .attr('fill', '#c45a7a')
+        .attr('fill', themeVar('--color-event'))
         .attr('rx', 3)
         .attr('opacity', 0.7)
         .on('mouseover', (event, d) => {
           tooltip.style.display = 'block';
           tooltip.innerHTML = `<strong>${d.label}</strong><br>` +
-            `<span style="color:#c45a7a">${fmtYear(d.extra.sortKey)}</span>`;
+            `<span style="color:var(--color-event)">${fmtYear(d.extra.sortKey)}</span>`;
         })
         .on('mousemove', (event) => {
           tooltip.style.left = (event.offsetX + 12) + 'px';
@@ -390,7 +393,7 @@
         .attr('x', d => timeScale(d.extra.sortKey) + Math.max(4, (endYear - startYear) / filtered.length * 0.3) + 6)
         .attr('y', (d, i) => yScale(i) + yScale.bandwidth() / 2 + 4)
         .attr('font-size', Math.min(11, yScale.bandwidth() - 2))
-        .attr('fill', '#ccc')
+        .attr('fill', themeVar('--text-secondary'))
         .text(d => {
           const label = d.label;
           return label.length > 50 ? label.slice(0, 50) + '...' : label;
@@ -421,12 +424,12 @@
         .attr('y', (d, i) => yScale(i))
         .attr('width', d => Math.max(2, timeScale(Math.min(endYear, d.deathYear)) - timeScale(Math.max(startYear, d.birthYear))))
         .attr('height', yScale.bandwidth())
-        .attr('fill', d => d.gender === 'Male' ? '#5a9ec4' : d.gender === 'Female' ? '#c45a7a' : '#888')
+        .attr('fill', d => getGenderColor(d.gender))
         .attr('rx', 2)
         .on('mouseover', (event, d) => {
           tooltip.style.display = 'block';
           tooltip.innerHTML = `<strong>${d.name}</strong><br>` +
-            `<span style="color:${d.gender === 'Male' ? '#5a9ec4' : '#c45a7a'}">` +
+            `<span style="color:${d.gender === 'Male' ? 'var(--color-male)' : 'var(--color-female)'}">` +
             `${fmtYear(d.birthYear)} — ${fmtYear(d.deathYear)}</span><br>` +
             `Lived ~${Math.abs(Math.round(d.deathYear - d.birthYear))} years`;
         })
@@ -444,7 +447,7 @@
         .attr('x', d => timeScale(Math.max(startYear, d.birthYear)) + 4)
         .attr('y', (d, i) => yScale(i) + yScale.bandwidth() / 2 + 3)
         .attr('font-size', Math.min(10, yScale.bandwidth() - 2))
-        .attr('fill', '#fff')
+        .attr('fill', themeVar('--text-on-color'))
         .attr('pointer-events', 'none')
         .text(d => {
           const barW = timeScale(d.deathYear) - timeScale(d.birthYear);
@@ -476,7 +479,7 @@
 
       const list = document.getElementById('detail-participants');
       list.innerHTML = participants.map(p =>
-        `<li><span style="color:#5a9ec4">Participant:</span> ${p.label}</li>`
+        `<li><span style="color:var(--color-person)">Participant:</span> ${p.label}</li>`
       ).join('');
     }
 
@@ -498,8 +501,8 @@
       if (ftJson) {
         const ft = JSON.parse(ftJson);
         let items = [];
-        if (ft.father) items.push(`<li><span style="color:#5a9ec4">Father:</span> ${ft.father.label}</li>`);
-        if (ft.mother) items.push(`<li><span style="color:#c45a7a">Mother:</span> ${ft.mother.label}</li>`);
+        if (ft.father) items.push(`<li><span style="color:var(--color-male)">Father:</span> ${ft.father.label}</li>`);
+        if (ft.mother) items.push(`<li><span style="color:var(--color-female)">Mother:</span> ${ft.mother.label}</li>`);
         for (const c of ft.children) items.push(`<li>Child: ${c.label}</li>`);
         list.innerHTML = items.join('');
       } else {
@@ -511,7 +514,7 @@
     function setupEras() {
       const list = document.getElementById('era-list');
       list.innerHTML = ERAS.map((era, i) =>
-        `<li data-idx="${i}" class="${i === 0 ? 'active' : ''}">${era.name} <span style="color:#555;font-size:10px">${fmtYear(era.start)}–${fmtYear(era.end)}</span></li>`
+        `<li data-idx="${i}" class="${i === 0 ? 'active' : ''}">${era.name} <span style="color:var(--text-subtle);font-size:10px">${fmtYear(era.start)}–${fmtYear(era.end)}</span></li>`
       ).join('');
 
       list.querySelectorAll('li').forEach(li => {
