@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Documentation
+    url: https://github.com/robertrouse/theographic-bible-metadata/tree/master/docs
+    about: Field definitions, formats, chronology, API, and Neo4j guides
+  - name: Email
+    url: mailto:robert@viz.bible
+    about: Questions that don't fit an issue

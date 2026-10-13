@@ -1,0 +1,19 @@
+name: Bug report
+description: Something is wrong with the docs, the GraphQL API, or the Neo4j import scripts
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options: [Documentation, GraphQL API, Neo4j import scripts, CSV/JSON export format, Other]
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what did you expect?
+      description: Include the query, script, or doc link, and any error message.
+    validations:
+      required: true

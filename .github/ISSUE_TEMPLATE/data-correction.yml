@@ -1,0 +1,40 @@
+name: Data correction
+description: Report an error in a person, place, event, verse, or other record
+title: "[Data] "
+labels: ["data"]
+body:
+  - type: input
+    id: record
+    attributes:
+      label: Record
+      description: Lookup, slug, reference, or event title
+      placeholder: "moses_2108, jerusalem_636, Gen.1.1, or \"Birth of Abraham\""
+    validations:
+      required: true
+  - type: dropdown
+    id: table
+    attributes:
+      label: Table
+      options: [People, Places, Events, Verses, Books / Chapters, People groups, Easton's dictionary, GeoJSON, Other]
+    validations:
+      required: true
+  - type: input
+    id: field
+    attributes:
+      label: Field and current value
+      placeholder: "deathYear: -1452"
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: What it should be
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Source
+      description: A verse, a work from docs/data-source-bibliography.md, or another citable reference. For dates, note that the timeline follows Floyd Nolen Jones (see docs/chronology-and-dates.md).
+    validations:
+      required: true

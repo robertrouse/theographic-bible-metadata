@@ -47,7 +47,7 @@ Every verse of the King James Version (1769) is linked to the people, places, ev
 - [Data Source Bibliography](docs/data-source-bibliography.md)
 
 ## Learn More
-[✍ Contributing](docs/contributing.md) · [📰 Articles](https://theographic.notion.site/Articles-41ac2e70f3d742a0921f9dec95fdfe99?pvs=25) · [🐞 Report a data issue](https://github.com/robertrouse/theographic-bible-metadata/issues)
+[✍ Contributing](docs/contributing.md) · [📰 Articles](https://viz.bible/posts/) · [🐞 Report a data issue](https://github.com/robertrouse/theographic-bible-metadata/issues/new?template=data-correction.yml)
 
 ## Contact
 
