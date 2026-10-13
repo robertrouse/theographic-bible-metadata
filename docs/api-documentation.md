@@ -35,7 +35,7 @@ Every collection query takes the same three optional arguments:
 | `chapters` | `[Chapter]` | `id`, `osisRef`, `slug`, `chapterNum`, `peopleCount`, `placesCount`, `writerCount` |
 | `verses` | `[Verse]` | `id`, `osisRef`, `verseText`, `yearNum`, `peopleCount`, `status` |
 | `people` | `[Person]` | `id`, `name`, `displayTitle`, `personLookup`, `gender`, `slug`, `alsoCalled`, `alphaGroup`, `status`, `ambiguous`, `isProperName`, `verseCount`, `minYear`, `maxYear` |
-| `places` | `[Place]` | `id`, `kjvName`, `esvName`, `displayTitle`, `placeLookup`, `featureType`, `featureSubType`, `slug`, `alphaGroup`, `status`, `ambiguous`, `verseCount` |
+| `places` | `[Place]` | `id`, `kjvName`, `esvName`, `displayTitle`, `placeLookup`, `featureType`, `featureSubType`, `slug`, `alphaGroup`, `ambiguous`, `verseCount` |
 | `events` | `[Event]` | `id`, `title`, `notes`, `startDate`, `duration`, `lagType`, `rangeFlag`, `eventID`, `sortKey` |
 | `peopleGroups` | `[PeopleGroup]` | `id`, `groupName` |
 | `easton` | `[Easton]` | `id`, `termLabel`, `dictLookup`, `matchType`, `dictText` |
@@ -60,7 +60,7 @@ Search is substring matching, not ranked full-text search, so `searchVerses(inpu
 
 ### Relationships
 
-Link fields resolve to full objects, so queries can traverse the graph. For example: `Person.father`, `mother`, `children`, `siblings`, `partners`, `memberOf`, `birthPlace`, `deathPlace`, and `verses`; `Verse.people`, `places`, and `book`; `Event.participants`, `locations`, `verses`, and `predecessor`. Nested lists do not accept `where`/`limit`. To keep responses small, paginate at the top level.
+Link fields resolve to full objects, so queries can traverse the graph. For example: `Person.father`, `mother`, `children`, `siblings`, `partners`, `memberOf`, `birthPlace`, `deathPlace`, and `verses`; `Verse.people`, `places`, and `book`; `Event.participants`, `locations`, `verses`, and `predecessor`; `Place.canonicalPlace`, `otherNames`, `partOf`, `parts`, `near`, and `nearby` (with `startYear` / `endYear` on kingdoms). Nested lists do not accept `where`/`limit`. To keep responses small, paginate at the top level.
 
 The explorer shows the full schema with a description for every field.
 

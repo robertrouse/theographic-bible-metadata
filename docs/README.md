@@ -21,6 +21,6 @@ Theographic is a knowledge graph of the Bible that links every verse of the King
 ## Key facts
 
 - **Text:** King James Version, 1769 Cambridge edition. 66 books, 1,189 chapters, 31,102 verses.
-- **Entities:** 3,067 people, 1,274 places, 450 events, 23 people groups, and 6,519 Easton's Bible Dictionary entries.
+- **Entities:** 3,067 people, 1,298 place records (1,030 distinct places once other names are merged; see [Geospatial Data](geospatial-data.md)), 450 events, 23 people groups, and 6,519 Easton's Bible Dictionary entries.
 - **Chronology:** Event dates and people's birth and death years follow Dr. Floyd Nolen Jones, *The Chronology of the Old Testament*. Year fields use two numbering conventions; see [Chronology and Dates](chronology-and-dates.md#year-numbering-conventions).
 - **License:** [CC BY-SA 4.0](../LICENSE).

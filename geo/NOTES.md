@@ -13,10 +13,11 @@ Applied 2026-10-13 with `geo/pipeline/phase11_airtable_apply.py` (logs and
 rollbacks in `geo/airtable/`): `canonicalPlace` on 250 alias records, 24 new
 records (22 DM-only places, 2 Israel kingdoms), 7 `duplicate_of` links moved
 into `canonicalPlace`, and `partOf` / `near` / `startYear` / `endYear` filled
-(11c). Exported again the same day (`etl/airtable_export.py`); the pipeline
+(11c). Exported again the same day (`etl/export_airtable.py`, json/ and CSV/); the pipeline
 reads the links back and they match the GeoJSON relations one for one.
-`rootID` and `duplicate_of` are archived and ready to delete in the UI;
-`status` was removed.
+`rootID`, `duplicate_of` and `status` have been deleted from the table
+(values archived). The Neo4j import, GraphQL API and docs cover the new
+fields (`ALIAS_OF` / `PART_OF` / `NEAR` relationships; `Place.partOf` etc.).
 
 The new placeIDs (1279–1302) map to their features through
 `theographic_assign` in `decisions.json`; DM should also list them in

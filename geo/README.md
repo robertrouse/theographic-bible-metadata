@@ -43,7 +43,9 @@ python3 geo/pipeline/phase10_validate.py
 cp geo/working/phase-9b-output.geojson geo/bible-places.geojson
 ```
 
-Everything is written to `geo/working/` (not committed). Nothing overwrites
+The inputs are `json/` (export it first with `etl/export_airtable.py`, or use
+the monthly export) and the sources `fetch_sources.py` caches. Everything is
+written to `geo/working/` (not committed). Nothing overwrites
 `bible-places.geojson` until the copy step.
 
 | Step | Script | Does |
@@ -64,6 +66,7 @@ Everything is written to `geo/working/` (not committed). Nothing overwrites
 | `decisions.json` | Human decisions: merges, keep-separates, orphan assignments, exclusions, Pleiades picks, titles, fclasses, coordinates, dates, anchor verses, kingdoms, Joshua allotment ranges, and curated part-of/near pairs. Each says who made it. Edit and re-run |
 | `pipeline/periodo_neaehl.json` | Holy Land periods from PeriodO (Stern, *NEAEHL*, 1993) |
 | `legacy/bible-places-2026-03.geojson` | The March 2026 file, read for old `@id`s, fclasses and coordinates |
+| Airtable `places` fields | `partOf`, `near`, `startYear`, `endYear` and `canonicalPlace` are read from the export: a link added in Airtable becomes a relation on the next rebuild |
 
 ## Review files
 

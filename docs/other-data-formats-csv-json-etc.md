@@ -21,7 +21,7 @@ All Theographic data is free to download from this GitHub repository under [CC B
 | Verses | `verses.json` | `Verses.csv` | 31,102 |
 | People | `people.json` | `People.csv` | 3,067 |
 | People groups | `peopleGroups.json` | `PeopleGroups.csv` | 23 |
-| Places | `places.json` | `Places.csv` | 1,274 |
+| Places | `places.json` | `Places.csv` | 1,298 |
 | Events | `events.json` | `Events.csv` | 450 |
 | Easton's Bible Dictionary | `easton.json` | `Easton.csv` | 6,519 |
 

@@ -23,6 +23,21 @@ CALL apoc.periodic.iterate(
    FOREACH (died IN value.fields.peopleDied |
      MERGE (pd:Person {id: died})
      MERGE (pd)-[:DIED_IN]->(p)
+   )
+
+   FOREACH (canonical IN value.fields.canonicalPlace |
+     MERGE (cp:Place {id: canonical})
+     MERGE (p)-[:ALIAS_OF]->(cp)
+   )
+
+   FOREACH (parent IN value.fields.partOf |
+     MERGE (pp:Place {id: parent})
+     MERGE (p)-[:PART_OF]->(pp)
+   )
+
+   FOREACH (other IN value.fields.near |
+     MERGE (np:Place {id: other})
+     MERGE (p)-[:NEAR]->(np)
    )",
   {batchSize: 1000, iterateList: true, parallel: false}
 );

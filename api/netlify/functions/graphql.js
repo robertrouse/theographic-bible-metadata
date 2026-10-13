@@ -506,8 +506,22 @@ const typeDefs = gql`
     precision: String
     "Geographic feature type: \\"City\\", \\"Water\\", \\"Mountain\\", \\"Region\\", \\"Country\\", etc."
     featureType: String
-    "Record ID of the place this record is another name for (Salem -> Jerusalem); empty on canonical records"
-    canonicalPlace: [String]
+    "The place this record is another name for (Salem -> Jerusalem); null on canonical records"
+    canonicalPlace: Place
+    "On a canonical record, its other names (the records whose canonicalPlace is this one)"
+    otherNames: [Place]
+    "Places this place lies within: tribal territory, city, Roman region, kingdom"
+    partOf: [Place]
+    "Places that lie within this one"
+    parts: [Place]
+    "Places this place lies beside or just outside (Gethsemane -> Jerusalem)"
+    near: [Place]
+    "Places that lie beside this one"
+    nearby: [Place]
+    "First year, for places that existed for a period such as kingdoms (ISO 8601: -1094 = 1095 BC)"
+    startYear: Int
+    "Last year, same numbering"
+    endYear: Int
     "Retired 2026-10-13; always empty"
     rootID: [String] @deprecated(reason: "Retired 2026-10-13. Use canonicalPlace for other names of a place.")
     "Alternate names or aliases"
@@ -558,8 +572,8 @@ const typeDefs = gql`
     alphaGroup: String
     "URL-friendly slug"
     slug: String
-    "If this is a duplicate, the canonical place record(s)"
-    duplicateOf: [Place]
+    "Retired 2026-10-13; always empty"
+    duplicateOf: [Place] @deprecated(reason: "Retired 2026-10-13. Use canonicalPlace.")
     "Whether this place's identification is disputed"
     ambiguous: Boolean
     "Easton's Bible Dictionary entries linked to this place"
@@ -1298,7 +1312,14 @@ const resolvers = {
     comment:         (place) => place.fields.comment,
     precision:       (place) => place.fields.precision,
     featureType:     (place) => place.fields.featureType,
-    canonicalPlace:  (place) => place.fields.canonicalPlace || [],
+    canonicalPlace:  (place) => maps.places.get(place.fields.canonicalPlace?.[0]) || null,
+    otherNames:      (place) => place.fields.otherNames?.map(id => maps.places.get(id)).filter(Boolean) || [],
+    partOf:          (place) => place.fields.partOf?.map(id => maps.places.get(id)).filter(Boolean) || [],
+    parts:           (place) => place.fields.parts?.map(id => maps.places.get(id)).filter(Boolean) || [],
+    near:            (place) => place.fields.near?.map(id => maps.places.get(id)).filter(Boolean) || [],
+    nearby:          (place) => place.fields.nearby?.map(id => maps.places.get(id)).filter(Boolean) || [],
+    startYear:       (place) => place.fields.startYear ?? null,
+    endYear:         (place) => place.fields.endYear ?? null,
     rootID:          (place) => place.fields.rootID || [],
     aliases:         (place) => place.fields.aliases,
     dictionaryLink:  (place) => place.fields.dictionaryLink,

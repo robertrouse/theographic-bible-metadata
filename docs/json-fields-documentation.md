@@ -24,7 +24,7 @@ The JSON files are in the repository's `json/` directory. The export script [`et
 | `verses.json` | 31,102 |
 | `people.json` | 3,067 |
 | `peopleGroups.json` | 23 |
-| `places.json` | 1,274 |
+| `places.json` | 1,298 |
 | `events.json` | 450 |
 | `easton.json` | 6,519 |
 
@@ -430,10 +430,10 @@ This table defines collective groups of people, such as tribes, nations, or fami
 }
 ```
 
-## Places (40 Fields)
+## Places (45 Fields)
 This table catalogs all geographic locations mentioned in the Bible. Each record includes identifying names (e.g. `kjvName`, `displayTitle`), geographic coordinates (e.g. `latitude`, `longitude`), and feature classifications (e.g. `featureType`, `featureSubType`). It also links to all `verses` mentioning the location, `events` that occurred there, and people associated with it.
 
-### Fields Reference (40 Fields)
+### Fields Reference (45 Fields)
 
 | Field | Type | Status | Description |
 |-------|------|--------|-------------|
@@ -444,7 +444,7 @@ This table catalogs all geographic locations mentioned in the Bible. Each record
 | `esvName` | string | Validated | Place Name in the English Standard Version (from OpenBible.info/geo) |
 | `comment` | string | Incomplete | Comments from OpenBible.info/geo |
 | `precision` | string | Incomplete | Relative accuracy of lat/long assignment |
-| `featureType` | string | Incomplete | Broad classification such as City, Region, Water, Mountain. Populated for 720 of 1,274 places. |
+| `featureType` | string | Incomplete | Broad classification such as City, Region, Water, Mountain. Populated for 744 of 1,298 place records. |
 | `canonicalPlace` | array | Populated | The record ID of the place record this record is another name for (e.g. Salem → Jerusalem). Empty on the canonical record and on places with only one name. Each record keeps its own verses, so each name keeps its own time frame. Replaces `rootID` and `duplicate_of`, retired 2026-10-13 (archived in `geo/airtable/`). |
 | `otherNames` | array | Populated | On a canonical record, the records that point to it via `canonicalPlace` (the other names of this place). |
 | `partOf` | array | Populated | Record IDs of the places this place lies within: a city's tribal territory (Joshua's allotment lists), a site's city (gates of Jerusalem), a city's Roman region, a territory's kingdom. A place can be part of several (Zorah: Dan and Judah). Set on canonical records. |
@@ -471,7 +471,7 @@ This table catalogs all geographic locations mentioned in the Bible. Each record
 | `recogitoLabel` | string | Populated | Title from Recogito matches |
 | `recogitoUID` | string | Populated | Unique ID for importing Recogito records |
 | `hasBeenHere` | string | Incomplete | A string containing a comma-separated list of `personLookup` identifiers for people who have visited this location. |
-| `latitude` | string | Populated | Best available latitude, chosen from Recogito and OpenBible validation. Stored as a string; convert to a number before mapping. Present on 1,252 places. |
+| `latitude` | string | Populated | Best available latitude, chosen from Recogito and OpenBible validation. Stored as a string; convert to a number before mapping. Present on 1,272 place records. |
 | `longitude` | string | Populated | Best available longitude, depending on Recogito and OpenBible validation |
 | `displayTitle` | string | Populated | Disambiguated name suitable for page titles and search results |
 | `alphaGroup` | string | Validated | Used for alphabetical indexing |

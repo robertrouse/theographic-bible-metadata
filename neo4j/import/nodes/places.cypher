@@ -15,7 +15,8 @@ CALL apoc.periodic.iterate(
                     ELSE 'https://openbible.info/geo'
                   END,
        p.slug = value.fields.slug,
-       p.status = value.fields.status,
+       p.startYear = value.fields.startYear,
+       p.endYear = value.fields.endYear,
        p.comment = value.fields.comment",
   {batchSize: 1000, iterateList: true, parallel: false}
 );
