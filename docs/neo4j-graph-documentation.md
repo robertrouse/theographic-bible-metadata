@@ -110,6 +110,8 @@ The import scripts turn the JSON tables into a connected graph. Below, each node
 (:Person)-[:CHILD_OF]->(:Person)         (:Person)-[:PARENT_OF]->(:Person)
 (:Person)-[:PARTNER_OF]->(:Person)       (:Person)-[:MEMBER_OF]->(:PeopleGroup)
 (:Person)-[:BORN_IN]->(:Place)           (:Person)-[:DIED_IN]->(:Place)
+(:Place)-[:PART_OF]->(:Place)            (:Place)-[:NEAR]->(:Place)
+(:Place)-[:ALIAS_OF]->(:Place)
 (:Person)-[:PARTICIPATED_IN]->(:Event)
 
 (:Event)-[:OCCURRED_IN]->(:Place)
@@ -228,13 +230,24 @@ One of the 66 books of the Protestant canon.
 | `description` | `dictionaryText` | Easton's Bible Dictionary text |
 | `comment` | `comment` | OpenBible.info comment |
 | `slug` | `slug` | e.g. "jerusalem_636" |
-| `status` | `status` | Record validation status |
+| `startYear` | `startYear` | Integer, ISO 8601 year; set on places that existed for a period, such as kingdoms |
+| `endYear` | `endYear` | Integer, ISO 8601 year |
 
 **Relationships:**
 - `(:Verse)-[:MENTIONS]->(:Place)`
 - `(:Event)-[:OCCURRED_IN]->(:Place)`
 - `(:Person)-[:BORN_IN]->(:Place)`
 - `(:Person)-[:DIED_IN]->(:Place)`
+- `(:Place)-[:ALIAS_OF]->(:Place)`, from `canonicalPlace`: this record is another name of that place (Salem → Jerusalem)
+- `(:Place)-[:PART_OF]->(:Place)`, from `partOf`: a city in its tribal territory, a site in its city, a territory in its kingdom. A kingdom's `startYear` and `endYear` date the link.
+- `(:Place)-[:NEAR]->(:Place)`, from `near` (Gethsemane → Jerusalem)
+
+Example: every place in the Northern Kingdom, with the kingdom's dates.
+
+```cypher
+MATCH (p:Place)-[:PART_OF*1..2]->(k:Place {name: "Northern Kingdom of Israel"})
+RETURN p.name, k.startYear, k.endYear
+```
 
 ---
 

@@ -184,7 +184,7 @@ const typeDefs = gql`
     slug: StringFilter
     "Alphabetical grouping letter"
     alphaGroup: StringFilter
-    "Record status"
+    "Retired 2026-10-13 for places; matches nothing once the data no longer carries it"
     status: StringFilter
     "Whether this place's identification is disputed"
     ambiguous: BooleanFilter
@@ -506,8 +506,24 @@ const typeDefs = gql`
     precision: String
     "Geographic feature type: \\"City\\", \\"Water\\", \\"Mountain\\", \\"Region\\", \\"Country\\", etc."
     featureType: String
-    "Root place IDs this place is derived from"
-    rootID: [String]
+    "The place this record is another name for (Salem -> Jerusalem); null on canonical records"
+    canonicalPlace: Place
+    "On a canonical record, its other names (the records whose canonicalPlace is this one)"
+    otherNames: [Place]
+    "Places this place lies within: tribal territory, city, Roman region, kingdom"
+    partOf: [Place]
+    "Places that lie within this one"
+    parts: [Place]
+    "Places this place lies beside or just outside (Gethsemane -> Jerusalem)"
+    near: [Place]
+    "Places that lie beside this one"
+    nearby: [Place]
+    "First year, for places that existed for a period such as kingdoms (ISO 8601: -1094 = 1095 BC)"
+    startYear: Int
+    "Last year, same numbering"
+    endYear: Int
+    "Retired 2026-10-13; always empty"
+    rootID: [String] @deprecated(reason: "Retired 2026-10-13. Use canonicalPlace for other names of a place.")
     "Alternate names or aliases"
     aliases: String
     "URL to an external dictionary entry"
@@ -548,16 +564,16 @@ const typeDefs = gql`
     latitude: String
     "Preferred longitude (decimal degrees)"
     longitude: String
-    "Record status"
-    status: String
+    "Retired 2026-10-13; null"
+    status: String @deprecated(reason: "Retired from the places table 2026-10-13.")
     "Display title, may include disambiguation"
     displayTitle: String
     "Alphabetical grouping letter"
     alphaGroup: String
     "URL-friendly slug"
     slug: String
-    "If this is a duplicate, the canonical place record(s)"
-    duplicateOf: [Place]
+    "Retired 2026-10-13; always empty"
+    duplicateOf: [Place] @deprecated(reason: "Retired 2026-10-13. Use canonicalPlace.")
     "Whether this place's identification is disputed"
     ambiguous: Boolean
     "Easton's Bible Dictionary entries linked to this place"
@@ -1296,6 +1312,14 @@ const resolvers = {
     comment:         (place) => place.fields.comment,
     precision:       (place) => place.fields.precision,
     featureType:     (place) => place.fields.featureType,
+    canonicalPlace:  (place) => maps.places.get(place.fields.canonicalPlace?.[0]) || null,
+    otherNames:      (place) => place.fields.otherNames?.map(id => maps.places.get(id)).filter(Boolean) || [],
+    partOf:          (place) => place.fields.partOf?.map(id => maps.places.get(id)).filter(Boolean) || [],
+    parts:           (place) => place.fields.parts?.map(id => maps.places.get(id)).filter(Boolean) || [],
+    near:            (place) => place.fields.near?.map(id => maps.places.get(id)).filter(Boolean) || [],
+    nearby:          (place) => place.fields.nearby?.map(id => maps.places.get(id)).filter(Boolean) || [],
+    startYear:       (place) => place.fields.startYear ?? null,
+    endYear:         (place) => place.fields.endYear ?? null,
     rootID:          (place) => place.fields.rootID || [],
     aliases:         (place) => place.fields.aliases,
     dictionaryLink:  (place) => place.fields.dictionaryLink,

@@ -34,7 +34,11 @@ For how these sources map onto each field, see [Chronology and Dates](chronology
 
 - OpenBible.info. *Bible Geocoding.* [openbible.info/geo](https://www.openbible.info/geo/). **Basis for:** `openBibleLat`, `openBibleLong`, `esvName`, and `comment` on places.
 - Pelagios Network. *Recogito*, used to link places to gazetteers such as GeoNames, Pleiades, and the Digital Atlas of the Roman Empire. [recogito.pelagios.org](https://recogito.pelagios.org/). **Basis for:** the `recogito*` fields on places.
-- Pleiades: A Gazetteer of Past Places. [pleiades.stoa.org](https://pleiades.stoa.org/)
+- Pleiades: A Gazetteer of Past Places. [pleiades.stoa.org](https://pleiades.stoa.org/). **Basis for:** Pleiades links, ancient-language names and earliest attestation dates in `geo/bible-places.geojson`.
+- Digital Manna. *Encyclopedia: Places.* [digitalmanna.org](https://www.digitalmanna.org/encyclopedia/places). **Basis for:** place identity (which records are one place), names, coordinates, verse lists and region notes in `geo/bible-places.geojson`.
+- Wikidata. [wikidata.org](https://www.wikidata.org/). **Basis for:** Wikidata links and additional Pleiades identifiers in `geo/bible-places.geojson`.
+- Stern, E. (ed.). *The New Encyclopedia of Archaeological Excavations in the Holy Land.* Jerusalem: Israel Exploration Society (1993), periods as published in PeriodO, [n2t.net/ark:/99152/p0dkm29](http://n2t.net/ark:/99152/p0dkm29). **Basis for:** the PeriodO periods on place dates in `geo/bible-places.geojson`.
+- Grossner, K., Janowicz, K. & Keßler, C. *Linked Places Format* and the World Historical Gazetteer validation schema. [github.com/LinkedPasts/linked-places-format](https://github.com/LinkedPasts/linked-places-format). **Basis for:** the structure of `geo/bible-places.geojson`.
 - GeoNames. [geonames.org](https://www.geonames.org/)
 - Wilson, M. (2009). "The Route of Paul's First Journey to Pisidian Antioch." *New Testament Studies* 55(4), 471. [academia.edu](https://www.academia.edu/15359253/_The_Route_of_Pauls_First_Journey_to_Pisidian_Antioch_)
 - Thompson, G. & Wilson, M. (2016). "The Route of Paul's Second Journey in Asia Minor." *Tyndale Bulletin* 67.2, 217–246. [academia.edu](https://www.academia.edu/31703977/THE_ROUTE_OF_PAULS_SECOND_JOURNEY_IN_ASIA_MINOR_IN_THE_STEPS_OF_ROBERT_JEWETT_AND_BEYOND)

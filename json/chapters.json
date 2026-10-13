@@ -145,7 +145,7 @@
             ],
             "slug": "1chr_2",
             "peopleCount": 54,
-            "placesCount": 4,
+            "placesCount": 6,
             "modified": "2019-08-08T01:43:21.000Z",
             "writer count": 1
         }
@@ -301,7 +301,7 @@
             ],
             "slug": "1chr_5",
             "peopleCount": 21,
-            "placesCount": 10,
+            "placesCount": 11,
             "modified": "2019-08-08T01:43:21.000Z",
             "writer count": 1
         }
@@ -1397,7 +1397,7 @@
             ],
             "slug": "1chr_26",
             "peopleCount": 26,
-            "placesCount": 3,
+            "placesCount": 4,
             "modified": "2019-08-08T01:43:21.000Z",
             "writer count": 1
         }
@@ -2773,7 +2773,7 @@
             ],
             "slug": "1kgs_4",
             "peopleCount": 29,
-            "placesCount": 13,
+            "placesCount": 16,
             "modified": "2019-08-08T01:43:21.000Z",
             "writer count": 1
         }
@@ -3247,7 +3247,7 @@
             ],
             "slug": "1kgs_12",
             "peopleCount": 23,
-            "placesCount": 11,
+            "placesCount": 14,
             "modified": "2019-08-08T01:43:21.000Z",
             "writer count": 1
         }
@@ -4459,7 +4459,7 @@
             ],
             "slug": "1sam_10",
             "peopleCount": 22,
-            "placesCount": 7,
+            "placesCount": 8,
             "modified": "2020-08-07T13:12:13.000Z",
             "writer count": 1
         }
@@ -5126,7 +5126,7 @@
             ],
             "slug": "1sam_23",
             "peopleCount": 27,
-            "placesCount": 20,
+            "placesCount": 21,
             "modified": "2020-08-07T13:12:18.000Z",
             "writer count": 1
         }
@@ -6352,7 +6352,7 @@
             ],
             "slug": "2chr_10",
             "peopleCount": 11,
-            "placesCount": 3,
+            "placesCount": 4,
             "modified": "2019-08-08T01:43:21.000Z",
             "writer count": 1
         }
@@ -7059,7 +7059,7 @@
             ],
             "slug": "2chr_27",
             "peopleCount": 6,
-            "placesCount": 3,
+            "placesCount": 4,
             "modified": "2019-08-08T01:43:21.000Z",
             "writer count": 1
         }
@@ -8912,7 +8912,7 @@
             ],
             "slug": "2kgs_17",
             "peopleCount": 34,
-            "placesCount": 14,
+            "placesCount": 15,
             "modified": "2019-08-08T01:43:21.000Z",
             "writer count": 1
         }
@@ -10335,7 +10335,7 @@
             ],
             "slug": "2sam_18",
             "peopleCount": 26,
-            "placesCount": 1,
+            "placesCount": 3,
             "modified": "2020-08-07T13:11:53.000Z",
             "writer count": 3
         }
@@ -15134,7 +15134,7 @@
             ],
             "slug": "deut_29",
             "peopleCount": 20,
-            "placesCount": 6,
+            "placesCount": 7,
             "modified": "2019-08-08T01:43:21.000Z",
             "writer count": 1
         }
@@ -15349,7 +15349,7 @@
             ],
             "slug": "deut_33",
             "peopleCount": 22,
-            "placesCount": 3,
+            "placesCount": 6,
             "modified": "2019-08-08T01:43:21.000Z",
             "writer count": 1
         }
@@ -15382,7 +15382,7 @@
             ],
             "slug": "deut_34",
             "peopleCount": 11,
-            "placesCount": 6,
+            "placesCount": 7,
             "modified": "2019-08-08T01:43:21.000Z",
             "writer count": 1
         }
@@ -20848,7 +20848,7 @@
             ],
             "slug": "ezek_48",
             "peopleCount": 24,
-            "placesCount": 3,
+            "placesCount": 12,
             "modified": "2019-08-08T01:43:21.000Z",
             "writer count": 1
         }
@@ -23287,7 +23287,7 @@
             ],
             "slug": "gen_33",
             "peopleCount": 13,
-            "placesCount": 4,
+            "placesCount": 5,
             "modified": "2019-08-08T01:43:21.000Z",
             "writer count": 1
         }
@@ -25762,7 +25762,7 @@
             ],
             "slug": "isa_7",
             "peopleCount": 17,
-            "placesCount": 10,
+            "placesCount": 11,
             "modified": "2019-08-08T01:43:21.000Z",
             "writer count": 1
         }
@@ -30602,7 +30602,7 @@
             ],
             "slug": "jer_49",
             "peopleCount": 26,
-            "placesCount": 24,
+            "placesCount": 25,
             "modified": "2019-08-08T01:43:21.000Z",
             "writer count": 1
         }
@@ -34388,7 +34388,7 @@
             ],
             "slug": "josh_1",
             "peopleCount": 14,
-            "placesCount": 5,
+            "placesCount": 6,
             "modified": "2019-08-08T01:43:21.000Z",
             "writer count": 1
         }
@@ -34904,7 +34904,7 @@
             ],
             "slug": "josh_12",
             "peopleCount": 6,
-            "placesCount": 23,
+            "placesCount": 24,
             "modified": "2019-08-08T01:43:21.000Z",
             "writer count": 1
         }
@@ -34958,7 +34958,7 @@
             ],
             "slug": "josh_13",
             "peopleCount": 20,
-            "placesCount": 23,
+            "placesCount": 28,
             "modified": "2019-08-08T01:43:21.000Z",
             "writer count": 1
         }
@@ -35109,7 +35109,7 @@
             ],
             "slug": "josh_16",
             "peopleCount": 5,
-            "placesCount": 8,
+            "placesCount": 10,
             "modified": "2019-08-08T01:43:21.000Z",
             "writer count": 1
         }
@@ -35148,7 +35148,7 @@
             ],
             "slug": "josh_17",
             "peopleCount": 17,
-            "placesCount": 8,
+            "placesCount": 15,
             "modified": "2019-08-08T01:43:21.000Z",
             "writer count": 1
         }
@@ -35197,7 +35197,7 @@
             ],
             "slug": "josh_18",
             "peopleCount": 15,
-            "placesCount": 22,
+            "placesCount": 23,
             "modified": "2019-08-08T01:43:21.000Z",
             "writer count": 1
         }
@@ -35269,7 +35269,7 @@
             ],
             "slug": "josh_19",
             "peopleCount": 20,
-            "placesCount": 39,
+            "placesCount": 47,
             "modified": "2019-08-08T01:43:21.000Z",
             "writer count": 1
         }
@@ -35614,7 +35614,7 @@
             ],
             "slug": "judg_1",
             "peopleCount": 29,
-            "placesCount": 24,
+            "placesCount": 26,
             "modified": "2019-08-08T01:43:21.000Z",
             "writer count": 1
         }
@@ -36450,7 +36450,7 @@
             ],
             "slug": "judg_18",
             "peopleCount": 19,
-            "placesCount": 10,
+            "placesCount": 11,
             "modified": "2019-08-08T01:43:21.000Z",
             "writer count": 1
         }
@@ -45764,7 +45764,7 @@
             ],
             "slug": "num_34",
             "peopleCount": 18,
-            "placesCount": 13,
+            "placesCount": 14,
             "modified": "2019-08-08T01:43:21.000Z",
             "writer count": 1
         }
@@ -49899,7 +49899,7 @@
             ],
             "slug": "ps_63",
             "peopleCount": 2,
-            "placesCount": 0,
+            "placesCount": 1,
             "modified": "2019-08-08T01:43:21.000Z",
             "writer count": 1
         }

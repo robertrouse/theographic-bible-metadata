@@ -1,0 +1,138 @@
+{
+  "about": "Non-overlapping Holy Land periods from PeriodO authority p0dkm29: E. Stern (ed.), The New Encyclopedia of Archaeological Excavations in the Holy Land (1993). Years are astronomical (-1999 = 2000 BCE); a year y is in a period when start <= y < stop.",
+  "authority": "http://n2t.net/ark:/99152/p0dkm29",
+  "periods": [
+    {
+      "name": "Pottery Neolithic",
+      "uri": "http://n2t.net/ark:/99152/p0dkm29sd62",
+      "start": -5499,
+      "stop": -4499
+    },
+    {
+      "name": "Chalcolithic",
+      "uri": "http://n2t.net/ark:/99152/p0dkm29j944",
+      "start": -4499,
+      "stop": -3299
+    },
+    {
+      "name": "Early Bronze Age IA-B",
+      "uri": "http://n2t.net/ark:/99152/p0dkm296d68",
+      "start": -3299,
+      "stop": -2999
+    },
+    {
+      "name": "Early Bronze Age II",
+      "uri": "http://n2t.net/ark:/99152/p0dkm29hcqf",
+      "start": -2999,
+      "stop": -2699
+    },
+    {
+      "name": "Early Bronze Age III",
+      "uri": "http://n2t.net/ark:/99152/p0dkm29j5bt",
+      "start": -2699,
+      "stop": -2199
+    },
+    {
+      "name": "Middle Bronze Age I",
+      "uri": "http://n2t.net/ark:/99152/p0dkm297nr2",
+      "start": -2199,
+      "stop": -1999
+    },
+    {
+      "name": "Middle Bronze Age IIA",
+      "uri": "http://n2t.net/ark:/99152/p0dkm2974cv",
+      "start": -1999,
+      "stop": -1749
+    },
+    {
+      "name": "Middle Bronze Age IIB",
+      "uri": "http://n2t.net/ark:/99152/p0dkm29ht3g",
+      "start": -1749,
+      "stop": -1549
+    },
+    {
+      "name": "Late Bronze Age I",
+      "uri": "http://n2t.net/ark:/99152/p0dkm29dp6n",
+      "start": -1549,
+      "stop": -1399
+    },
+    {
+      "name": "Late Bronze Age IIA",
+      "uri": "http://n2t.net/ark:/99152/p0dkm29shzb",
+      "start": -1399,
+      "stop": -1299
+    },
+    {
+      "name": "Late Bronze Age IIB",
+      "uri": "http://n2t.net/ark:/99152/p0dkm29sxqc",
+      "start": -1299,
+      "stop": -1199
+    },
+    {
+      "name": "Iron Age IA",
+      "uri": "http://n2t.net/ark:/99152/p0dkm29qfk4",
+      "start": -1199,
+      "stop": -1149
+    },
+    {
+      "name": "Iron Age IB",
+      "uri": "http://n2t.net/ark:/99152/p0dkm29cb6t",
+      "start": -1149,
+      "stop": -999
+    },
+    {
+      "name": "Iron Age IIA",
+      "uri": "http://n2t.net/ark:/99152/p0dkm29672r",
+      "start": -999,
+      "stop": -899
+    },
+    {
+      "name": "Iron Age IIB",
+      "uri": "http://n2t.net/ark:/99152/p0dkm29hn4g",
+      "start": -899,
+      "stop": -699
+    },
+    {
+      "name": "Iron Age IIC",
+      "uri": "http://n2t.net/ark:/99152/p0dkm29x68x",
+      "start": -699,
+      "stop": -585
+    },
+    {
+      "name": "Babylonian and Persian Periods",
+      "uri": "http://n2t.net/ark:/99152/p0dkm29w665",
+      "start": -585,
+      "stop": -331
+    },
+    {
+      "name": "Early Hellenistic period",
+      "uri": "http://n2t.net/ark:/99152/p0dkm29f2qn",
+      "start": -331,
+      "stop": -166
+    },
+    {
+      "name": "Late Hellenistic period",
+      "uri": "http://n2t.net/ark:/99152/p0dkm29wb8r",
+      "start": -166,
+      "stop": -36
+    },
+    {
+      "name": "Early Roman period",
+      "uri": "http://n2t.net/ark:/99152/p0dkm292f42",
+      "start": -36,
+      "stop": 132
+    },
+    {
+      "name": "Late Roman period",
+      "uri": "http://n2t.net/ark:/99152/p0dkm293g37",
+      "start": 132,
+      "stop": 324
+    },
+    {
+      "name": "Byzantine period",
+      "uri": "http://n2t.net/ark:/99152/p0dkm29jfdh",
+      "start": 324,
+      "stop": 638
+    }
+  ]
+}

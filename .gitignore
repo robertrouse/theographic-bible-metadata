@@ -1,6 +1,6 @@
 __pycache__/
 .DS_Store
-airtable_etl.ipynb
+scripts/
 .gitignore
 dev
 # Local Netlify folder
@@ -8,3 +8,6 @@ dev
 node_modules/
 # Claude Code worktrees (local only, must not be tracked as submodules)
 .claude/worktrees/
+
+# Digital Manna data comes from a private repo; keep the raw cache out of this public repo
+geo/working/dm-places-cache.json

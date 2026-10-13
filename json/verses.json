@@ -26859,11 +26859,14 @@
             "verseText": "And he erected there an altar, and called it Elelohe-Israel.",
             "mdText": "And he erected there an altar, and called it El-elohe-Israel.",
             "peopleCount": 0,
-            "placesCount": 0,
+            "places": [
+                "recGaTtuMZfuy1Y8d"
+            ],
+            "placesCount": 1,
             "yearNum": -1738,
             "richText": "And he erected there an altar, and called it El-elohe-Israel.\n",
             "verseID": "01033020",
-            "modified": "2026-10-13T03:41:14.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -41135,13 +41138,14 @@
             ],
             "peopleCount": 1,
             "places": [
-                "recxiSg5QZWkj9Hy3"
+                "recxiSg5QZWkj9Hy3",
+                "recQubz0YtXby0qbE"
             ],
-            "placesCount": 1,
+            "placesCount": 2,
             "yearNum": -1688,
             "richText": "[Zebulun](/person/zebulun_3002) shall dwell at the haven of the sea; and he _shall_ _be_ for an haven of ships; and his border _shall_ _be_ unto [Zidon](/place/sidon_1093).\n",
             "verseID": "01049013",
-            "modified": "2026-10-13T03:31:50.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -126477,13 +126481,14 @@
             ],
             "peopleCount": 7,
             "places": [
-                "recgdvRbWEPMp5I0z"
+                "recgdvRbWEPMp5I0z",
+                "recAOk9B1CLPKV2iD"
             ],
-            "placesCount": 1,
+            "placesCount": 2,
             "yearNum": -1451,
             "richText": "And [Moses](/person/moses_2108) gave unto them, _even_ to the children of [Gad](/person/gad_1262), and to the children of [Reuben](/person/reuben_2429), and unto half the tribe of [Manasseh](/person/manasseh_1928) the son of [Joseph](/person/joseph_1710), the kingdom of [Sihon](/person/sihon_2739) king of the Amorites, and the kingdom of [Og](/person/og_2238) king of [Bashan](/place/bashan_159), the land, with the cities thereof in the coasts, _even_ the cities of the country round about.\n",
             "verseID": "04032033",
-            "modified": "2026-10-13T03:36:35.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -126508,13 +126513,14 @@
             "places": [
                 "recc5zT9liYdJJXPl",
                 "recX7O8Nba9reBG0k",
-                "rechszjphdueUPvPi"
+                "rechszjphdueUPvPi",
+                "recAOk9B1CLPKV2iD"
             ],
-            "placesCount": 3,
+            "placesCount": 4,
             "yearNum": -1451,
             "richText": "And the children of [Gad](/person/gad_1262) built [Dibon](/place/dibon_331), and [Ataroth](/place/ataroth_113), and [Aroer](/place/aroer_94),\n",
             "verseID": "04032034",
-            "modified": "2026-10-13T03:48:52.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -126594,13 +126600,14 @@
             "places": [
                 "receKKjJVBBYJWFPx",
                 "recabsaJkxxtgdUSt",
-                "recbaKaeB0APyZYLy"
+                "recbaKaeB0APyZYLy",
+                "recdpEhvQtHoNcRZQ"
             ],
-            "placesCount": 3,
+            "placesCount": 4,
             "yearNum": -1451,
             "richText": "And the children of [Reuben](/person/reuben_2429) built [Heshbon](/place/heshbon_565), and [Elealeh](/place/elealeh_368), and [Kirjathaim](/place/kiriathaim_695),\n",
             "verseID": "04032037",
-            "modified": "2026-10-13T03:29:16.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -126652,13 +126659,14 @@
             ],
             "peopleCount": 2,
             "places": [
-                "recPoImnA7S93jcHx"
+                "recPoImnA7S93jcHx",
+                "rechavO1cdznGQVRh"
             ],
-            "placesCount": 1,
+            "placesCount": 2,
             "yearNum": -1451,
             "richText": "And the children of [Machir](/person/machir_1877) the son of [Manasseh](/person/manasseh_1928) went to [Gilead](/place/gilead_475), and took it, and dispossessed the Amorite which _was_ in it.\n",
             "verseID": "04032039",
-            "modified": "2026-10-13T03:32:23.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -126683,13 +126691,14 @@
             ],
             "peopleCount": 3,
             "places": [
-                "recPoImnA7S93jcHx"
+                "recPoImnA7S93jcHx",
+                "rechavO1cdznGQVRh"
             ],
-            "placesCount": 1,
+            "placesCount": 2,
             "yearNum": -1451,
             "richText": "And [Moses](/person/moses_2108) gave [Gilead](/place/gilead_475) unto [Machir](/person/machir_1877) the son of [Manasseh](/person/manasseh_1928); and he dwelt therein.\n",
             "verseID": "04032040",
-            "modified": "2026-10-13T03:29:38.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -126713,13 +126722,14 @@
             ],
             "peopleCount": 2,
             "places": [
-                "recpx625y2be2c5YY"
+                "recpx625y2be2c5YY",
+                "rechavO1cdznGQVRh"
             ],
-            "placesCount": 1,
+            "placesCount": 2,
             "yearNum": -1451,
             "richText": "And [Jair](/person/jair_708) the son of [Manasseh](/person/manasseh_1928) went and took the small towns thereof, and called them Havoth-jair.\n",
             "verseID": "04032041",
-            "modified": "2026-10-13T03:46:24.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -126743,13 +126753,14 @@
             "peopleCount": 1,
             "places": [
                 "recW9pJRZ4cg9A2k6",
-                "rec6TagODGnHaVOkU"
+                "rec6TagODGnHaVOkU",
+                "rechavO1cdznGQVRh"
             ],
-            "placesCount": 2,
+            "placesCount": 3,
             "yearNum": -1451,
             "richText": "And [Nobah](/person/nobah_2212) went and took [Kenath](/place/kenath_682), and the villages thereof, and called it [Nobah](/person/nobah_2212), after his own name.\n",
             "verseID": "04032042",
-            "modified": "2026-10-13T03:31:44.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -128627,11 +128638,14 @@
                 "rec1YbscOE9IyJ5ey"
             ],
             "peopleCount": 3,
-            "placesCount": 0,
+            "places": [
+                "recAOk9B1CLPKV2iD"
+            ],
+            "placesCount": 1,
             "yearNum": -1451,
             "richText": "For the tribe of the children of [Reuben](/person/reuben_2429) according to the house of their fathers, and the tribe of the children of [Gad](/person/gad_1262) according to the house of their fathers, have received _their_ _inheritance_; and half the tribe of [Manasseh](/person/manasseh_1928) have received their inheritance:\n",
             "verseID": "04034014",
-            "modified": "2026-10-13T03:29:59.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -132775,13 +132789,14 @@
             "places": [
                 "recV2VLKz20IKBZ1N",
                 "recbv8OwCVWm7wEAK",
-                "recPoImnA7S93jcHx"
+                "recPoImnA7S93jcHx",
+                "recAOk9B1CLPKV2iD"
             ],
-            "placesCount": 3,
+            "placesCount": 4,
             "yearNum": -1451,
             "richText": "And this land, _which_ we possessed at that time, from [Aroer](/place/aroer_93), which _is_ by the river [Arnon](/place/river_of_arnon_1225), and half mount [Gilead](/place/gilead_475), and the cities thereof, gave I unto the Reubenites and to the Gadites.\n",
             "verseID": "05003012",
-            "modified": "2026-10-13T03:33:34.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -132808,13 +132823,14 @@
                 "recgdvRbWEPMp5I0z",
                 "recPoImnA7S93jcHx",
                 "reci8dghn7shG5pMX",
-                "recxzSPsXo0a8wMFt"
+                "recxzSPsXo0a8wMFt",
+                "rechavO1cdznGQVRh"
             ],
-            "placesCount": 4,
+            "placesCount": 5,
             "yearNum": -1451,
             "richText": "And the rest of [Gilead](/place/gilead_475), and all [Bashan](/place/bashan_159), _being_ the kingdom of [Og](/person/og_2238), gave I unto the half tribe of [Manasseh](/person/manasseh_1928); all the region of [Argob](/place/argob_88), with all [Bashan](/place/bashan_159), which was called the [land](/place/rephaim_995) of giants.\n",
             "verseID": "05003013",
-            "modified": "2026-10-13T03:47:50.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -132839,13 +132855,14 @@
             "peopleCount": 2,
             "places": [
                 "recxzSPsXo0a8wMFt",
-                "recpx625y2be2c5YY"
+                "recpx625y2be2c5YY",
+                "rechavO1cdznGQVRh"
             ],
-            "placesCount": 2,
+            "placesCount": 3,
             "yearNum": -1451,
             "richText": "[Jair](/person/jair_708) the son of [Manasseh](/person/manasseh_1928) took all the country of [Argob](/place/argob_88) unto the coasts of Geshuri and Maachathi; and called them after his own name, Bashan-havoth-jair, unto this day.\n",
             "verseID": "05003014",
-            "modified": "2026-10-13T03:37:37.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -132868,13 +132885,14 @@
             ],
             "peopleCount": 1,
             "places": [
-                "recPoImnA7S93jcHx"
+                "recPoImnA7S93jcHx",
+                "rechavO1cdznGQVRh"
             ],
-            "placesCount": 1,
+            "placesCount": 2,
             "yearNum": -1451,
             "richText": "And I gave [Gilead](/place/gilead_475) unto [Machir](/person/machir_1877).\n",
             "verseID": "05003015",
-            "modified": "2026-10-13T03:29:13.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -132896,13 +132914,14 @@
             "places": [
                 "recbv8OwCVWm7wEAK",
                 "recDmxCwEt4vEy5RQ",
-                "recPoImnA7S93jcHx"
+                "recPoImnA7S93jcHx",
+                "recAOk9B1CLPKV2iD"
             ],
-            "placesCount": 3,
+            "placesCount": 4,
             "yearNum": -1451,
             "richText": "And unto the Reubenites and unto the Gadites I gave from [Gilead](/place/gilead_475) even unto the river [Arnon](/place/river_of_arnon_1225) half the valley, and the border even unto the river [Jabbok](/place/jabbok_609), _which_ _is_ the border of the children of Ammon;\n",
             "verseID": "05003016",
-            "modified": "2026-10-13T03:48:48.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -150315,11 +150334,14 @@
                 "rec1YbscOE9IyJ5ey"
             ],
             "peopleCount": 1,
-            "placesCount": 0,
+            "places": [
+                "recAOk9B1CLPKV2iD"
+            ],
+            "placesCount": 1,
             "yearNum": -1450,
             "richText": "And we took their land, and gave it for an inheritance unto the Reubenites, and to the Gadites, and to the half tribe of [Manasseh](/person/manasseh_1928).\n",
             "verseID": "05029008",
-            "modified": "2026-10-13T03:47:17.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -153831,11 +153853,15 @@
                 "rec1YbscOE9IyJ5ey"
             ],
             "peopleCount": 2,
-            "placesCount": 0,
+            "places": [
+                "recB4j4FGhLQPCbqw",
+                "rect3olmTnwW17ieJ"
+            ],
+            "placesCount": 2,
             "yearNum": -1450,
             "richText": "His glory _is_ _like_ the firstling of his bullock, and his horns _are_ _like_ the horns of unicorns: with them he shall push the people together to the ends of the earth: and they _are_ the ten thousands of [Ephraim](/person/ephraim_1206), and they _are_ the thousands of [Manasseh](/person/manasseh_1928).\n",
             "verseID": "05033017",
-            "modified": "2026-10-13T03:36:28.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -154015,11 +154041,14 @@
                 "rectGDQCkKqZ6LgGB"
             ],
             "peopleCount": 1,
-            "placesCount": 0,
+            "places": [
+                "rec3lQCLJDUCRIbFb"
+            ],
+            "placesCount": 1,
             "yearNum": -1450,
             "richText": "And of [Asher](/person/asher_337) he said, _Let_ [Asher](/person/asher_337) _be_ blessed with children; let him be acceptable to his brethren, and let him dip his foot in oil.\n",
             "verseID": "05033024",
-            "modified": "2026-10-13T03:29:41.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -154038,11 +154067,14 @@
             "verseText": "Thy shoes shall be iron and brass; and as thy days, so shall thy strength be.",
             "mdText": "Thy shoes _shall_ _be_ iron and brass; and as thy days, _so_ _shall_ thy strength _be._",
             "peopleCount": 0,
-            "placesCount": 0,
+            "places": [
+                "rec3lQCLJDUCRIbFb"
+            ],
+            "placesCount": 1,
             "yearNum": -1450,
             "richText": "Thy shoes _shall_ _be_ iron and brass; and as thy days, _so_ _shall_ thy strength _be_.\n",
             "verseID": "05033025",
-            "modified": "2026-10-13T03:44:53.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -154210,11 +154242,14 @@
                 "rec0rm6yYA4YUQrkh"
             ],
             "peopleCount": 4,
-            "placesCount": 0,
+            "places": [
+                "reckELyVYi4Wnms4H"
+            ],
+            "placesCount": 1,
             "yearNum": -1450,
             "richText": "And all [Naphtali](/person/naphtali_2149), and the land of [Ephraim](/person/ephraim_1206), and [Manasseh](/person/manasseh_1928), and all the land of [Judah](/person/judah_1751), unto the utmost sea,\n",
             "verseID": "05034002",
-            "modified": "2026-10-13T03:35:49.000Z",
+            "modified": "2026-10-13T19:35:59.000Z",
             "event": [
                 "recxj71m6XPSaqIg2"
             ]
@@ -154886,11 +154921,14 @@
                 "recLuZtSmAO6erIsc"
             ],
             "peopleCount": 2,
-            "placesCount": 0,
+            "places": [
+                "recAOk9B1CLPKV2iD"
+            ],
+            "placesCount": 1,
             "yearNum": -1450,
             "richText": "And to the Reubenites, and to the Gadites, and to half the tribe of [Manasseh](/person/manasseh_1928), spake [Joshua](/person/joshua_1727), saying,\n",
             "verseID": "06001012",
-            "modified": "2026-10-13T03:28:57.000Z",
+            "modified": "2026-10-13T19:35:59.000Z",
             "event": [
                 "recSF4lyBebGjJEXI"
             ]
@@ -162891,13 +162929,14 @@
             "places": [
                 "recJSfVnIcPibY6aX",
                 "reclzdXLmXHPKYAou",
-                "recZZewoVSk3CfnPZ"
+                "recZZewoVSk3CfnPZ",
+                "recuzNJh7jSpK2w8w"
             ],
-            "placesCount": 3,
+            "placesCount": 4,
             "yearNum": -1449,
             "richText": "And at that time came [Joshua](/person/joshua_1727), and cut off the Anakims from the mountains, from [Hebron](/place/hebron_551), from [Debir](/place/debir_325), from [Anab](/place/anab_60), and from all the mountains of [Judah](/person/judah_1751), and from all the mountains of Israel: [Joshua](/person/joshua_1727) destroyed them utterly with their cities.\n",
             "verseID": "06011021",
-            "modified": "2026-10-13T03:33:09.000Z",
+            "modified": "2026-10-13T19:35:59.000Z",
             "event": [
                 "rec0t3McGWoyd6kTB"
             ]
@@ -163163,11 +163202,14 @@
                 "reccZB8SVU5bEMcgo"
             ],
             "peopleCount": 4,
-            "placesCount": 0,
+            "places": [
+                "recAOk9B1CLPKV2iD"
+            ],
+            "placesCount": 1,
             "yearNum": -1449,
             "richText": "Them did [Moses](/person/moses_2108) the servant of the [LORD](/person/god_1324) and the children of [Israel](/person/israel_682) smite: and [Moses](/person/moses_2108) the servant of the [LORD](/person/god_1324) gave it _for_ a possession unto the Reubenites, and the Gadites, and the half tribe of [Manasseh](/person/manasseh_1928).\n",
             "verseID": "06012006",
-            "modified": "2026-10-13T03:31:59.000Z",
+            "modified": "2026-10-13T19:35:59.000Z",
             "event": [
                 "rec0t3McGWoyd6kTB"
             ]
@@ -163955,13 +163997,14 @@
             ],
             "peopleCount": 2,
             "places": [
-                "rec5dSSsOutWlH2fW"
+                "rec5dSSsOutWlH2fW",
+                "recAOk9B1CLPKV2iD"
             ],
-            "placesCount": 1,
+            "placesCount": 2,
             "yearNum": -1443,
             "richText": "With whom the Reubenites and the Gadites have received their inheritance, which [Moses](/person/moses_2108) gave them, beyond [Jordan](/place/jordan_653) eastward, _even_ as [Moses](/person/moses_2108) the servant of the [LORD](/person/god_1324) gave them;\n",
             "verseID": "06013008",
-            "modified": "2026-10-13T03:44:59.000Z",
+            "modified": "2026-10-13T19:35:59.000Z",
             "event": [
                 "rec91XeIAmvH5rhav"
             ]
@@ -164181,11 +164224,14 @@
                 "recto9z3tEOnLjVOi"
             ],
             "peopleCount": 2,
-            "placesCount": 0,
+            "places": [
+                "recdpEhvQtHoNcRZQ"
+            ],
+            "placesCount": 1,
             "yearNum": -1443,
             "richText": "And [Moses](/person/moses_2108) gave unto the tribe of the children of [Reuben](/person/reuben_2429) _inheritance_ according to their families.\n",
             "verseID": "06013015",
-            "modified": "2026-10-13T03:29:46.000Z",
+            "modified": "2026-10-13T19:35:59.000Z",
             "event": [
                 "rec91XeIAmvH5rhav"
             ]
@@ -164210,13 +164256,14 @@
             "places": [
                 "recbv8OwCVWm7wEAK",
                 "recM4YMG9qAp6yLP1",
-                "recV2VLKz20IKBZ1N"
+                "recV2VLKz20IKBZ1N",
+                "recdpEhvQtHoNcRZQ"
             ],
-            "placesCount": 3,
+            "placesCount": 4,
             "yearNum": -1443,
             "richText": "And their coast was from [Aroer](/place/aroer_93), that _is_ on the bank of the river [Arnon](/place/river_of_arnon_1225), and the city that _is_ in the midst of the river, and all the plain by [Medeba](/place/medeba_775);\n",
             "verseID": "06013016",
-            "modified": "2026-10-13T03:49:19.000Z",
+            "modified": "2026-10-13T19:35:59.000Z",
             "event": [
                 "rec91XeIAmvH5rhav"
             ]
@@ -164242,13 +164289,14 @@
                 "rechszjphdueUPvPi",
                 "rec48Xqy5594zh8gV",
                 "recIQJnRBKR4sEF0C",
-                "recabsaJkxxtgdUSt"
+                "recabsaJkxxtgdUSt",
+                "recdpEhvQtHoNcRZQ"
             ],
-            "placesCount": 4,
+            "placesCount": 5,
             "yearNum": -1443,
             "richText": "[Heshbon](/place/heshbon_565), and all her cities that _are_ in the plain; [Dibon](/place/dibon_331), and [Bamoth-baal](/place/bamoth-baal_158), and [Beth-baal-meon](/place/beth-baal-meon_193),\n",
             "verseID": "06013017",
-            "modified": "2026-10-13T03:45:49.000Z",
+            "modified": "2026-10-13T19:35:59.000Z",
             "event": [
                 "rec91XeIAmvH5rhav"
             ]
@@ -164272,13 +164320,14 @@
             "peopleCount": 0,
             "places": [
                 "recek1GiER70Le7qh",
-                "rec73VSeOz3XtX2ph"
+                "rec73VSeOz3XtX2ph",
+                "recdpEhvQtHoNcRZQ"
             ],
-            "placesCount": 2,
+            "placesCount": 3,
             "yearNum": -1443,
             "richText": "And Jahazah, and [Kedemoth](/place/kedemoth_675), and [Mephaath](/place/mephaath_780),\n",
             "verseID": "06013018",
-            "modified": "2026-10-13T03:30:19.000Z",
+            "modified": "2026-10-13T19:35:59.000Z",
             "event": [
                 "rec91XeIAmvH5rhav"
             ]
@@ -164303,13 +164352,14 @@
             "places": [
                 "recesqn5JDm6ZwKE5",
                 "recmitDCfzrDlCc2P",
-                "receKKjJVBBYJWFPx"
+                "receKKjJVBBYJWFPx",
+                "recdpEhvQtHoNcRZQ"
             ],
-            "placesCount": 3,
+            "placesCount": 4,
             "yearNum": -1443,
             "richText": "And [Kirjathaim](/place/kiriathaim_695), and [Sibmah](/place/sibmah_1091), and [Zareth-shahar](/place/zereth-shahar_1257) in the mount of the valley,\n",
             "verseID": "06013019",
-            "modified": "2026-10-13T03:47:11.000Z",
+            "modified": "2026-10-13T19:35:59.000Z",
             "event": [
                 "rec91XeIAmvH5rhav"
             ]
@@ -164333,13 +164383,14 @@
             "peopleCount": 0,
             "places": [
                 "recwpg56oDIY5SWvr",
-                "recuiTwiOIofBlMOB"
+                "recuiTwiOIofBlMOB",
+                "recdpEhvQtHoNcRZQ"
             ],
-            "placesCount": 2,
+            "placesCount": 3,
             "yearNum": -1443,
             "richText": "And [Beth-peor](/place/beth-peor_228), and Ashdoth-pisgah, and [Beth-jeshimoth](/place/beth-jeshimoth_215),\n",
             "verseID": "06013020",
-            "modified": "2026-10-13T03:49:55.000Z",
+            "modified": "2026-10-13T19:35:59.000Z",
             "event": [
                 "rec91XeIAmvH5rhav"
             ]
@@ -164373,13 +164424,14 @@
             "peopleCount": 8,
             "places": [
                 "recabsaJkxxtgdUSt",
-                "recBZhqAvy5xhTNRn"
+                "recBZhqAvy5xhTNRn",
+                "recdpEhvQtHoNcRZQ"
             ],
-            "placesCount": 2,
+            "placesCount": 3,
             "yearNum": -1443,
             "richText": "And all the cities of the plain, and all the kingdom of [Sihon](/person/sihon_2739) king of the Amorites, which reigned in [Heshbon](/place/heshbon_565), whom [Moses](/person/moses_2108) smote with the princes of [Midian](/person/midian_2075), [Evi](/person/evi_1232), and [Rekem](/person/rekem_2418), and [Zur](/person/zur_3110), and [Hur](/person/hur_1572), and [Reba](/person/reba_2400), _which_ _were_ dukes of [Sihon](/person/sihon_2739), dwelling in the country.\n",
             "verseID": "06013021",
-            "modified": "2026-10-13T03:43:33.000Z",
+            "modified": "2026-10-13T19:35:59.000Z",
             "event": [
                 "rec91XeIAmvH5rhav"
             ]
@@ -164406,11 +164458,14 @@
                 "recsU2ZSdzBvDqzgI"
             ],
             "peopleCount": 3,
-            "placesCount": 0,
+            "places": [
+                "recdpEhvQtHoNcRZQ"
+            ],
+            "placesCount": 1,
             "yearNum": -1443,
             "richText": "[Balaam](/person/balaam_593) also the son of [Beor](/person/beor_466), the soothsayer, did the children of [Israel](/person/israel_682) slay with the sword among them that were slain by them.\n",
             "verseID": "06013022",
-            "modified": "2026-10-13T03:48:45.000Z",
+            "modified": "2026-10-13T19:35:59.000Z",
             "event": [
                 "rec91XeIAmvH5rhav"
             ]
@@ -164436,13 +164491,14 @@
             ],
             "peopleCount": 1,
             "places": [
-                "rec5dSSsOutWlH2fW"
+                "rec5dSSsOutWlH2fW",
+                "recdpEhvQtHoNcRZQ"
             ],
-            "placesCount": 1,
+            "placesCount": 2,
             "yearNum": -1443,
             "richText": "And the border of the children of [Reuben](/person/reuben_2429) was [Jordan](/place/jordan_653), and the border _thereof_. This _was_ the inheritance of the children of [Reuben](/person/reuben_2429) after their families, the cities and the villages thereof.\n",
             "verseID": "06013023",
-            "modified": "2026-10-13T03:29:47.000Z",
+            "modified": "2026-10-13T19:35:59.000Z",
             "event": [
                 "rec91XeIAmvH5rhav"
             ]
@@ -164468,11 +164524,14 @@
                 "recDggWlQNbxJLalN"
             ],
             "peopleCount": 2,
-            "placesCount": 0,
+            "places": [
+                "recAOk9B1CLPKV2iD"
+            ],
+            "placesCount": 1,
             "yearNum": -1443,
             "richText": "And [Moses](/person/moses_2108) gave _inheritance_ unto the tribe of [Gad](/person/gad_1262), _even_ unto the children of [Gad](/person/gad_1262) according to their families.\n",
             "verseID": "06013024",
-            "modified": "2026-10-13T03:49:18.000Z",
+            "modified": "2026-10-13T19:35:59.000Z",
             "event": [
                 "rec91XeIAmvH5rhav"
             ]
@@ -164498,13 +164557,14 @@
                 "recq9ttBUfBJW1lhG",
                 "recGEuLOhqY6PsgzE",
                 "recPoImnA7S93jcHx",
-                "recX7O8Nba9reBG0k"
+                "recX7O8Nba9reBG0k",
+                "recAOk9B1CLPKV2iD"
             ],
-            "placesCount": 4,
+            "placesCount": 5,
             "yearNum": -1443,
             "richText": "And their coast was [Jazer](/place/jazer_628), and all the cities of [Gilead](/place/gilead_475), and half the land of the children of Ammon, unto [Aroer](/place/aroer_94) that _is_ before [Rabbah](/place/rabbah_966);\n",
             "verseID": "06013025",
-            "modified": "2026-10-13T03:37:37.000Z",
+            "modified": "2026-10-13T19:35:59.000Z",
             "event": [
                 "rec91XeIAmvH5rhav"
             ]
@@ -164531,13 +164591,14 @@
                 "recIY9mUBLApR33cG",
                 "recabsaJkxxtgdUSt",
                 "recwaPJ7WKYDiMNPv",
-                "recQ31KLebB8uVNzM"
+                "recQ31KLebB8uVNzM",
+                "recAOk9B1CLPKV2iD"
             ],
-            "placesCount": 5,
+            "placesCount": 6,
             "yearNum": -1443,
             "richText": "And from [Heshbon](/place/heshbon_565) unto [Ramath-mizpeh](/place/ramath-mizpeh_979), and [Betonim](/place/betonim_243); and from [Mahanaim](/place/mahanaim_756) unto the border of [Debir](/place/debir_327);\n",
             "verseID": "06013026",
-            "modified": "2026-10-13T03:47:58.000Z",
+            "modified": "2026-10-13T19:35:59.000Z",
             "event": [
                 "rec91XeIAmvH5rhav"
             ]
@@ -164569,13 +164630,14 @@
                 "recsu2tjam7UDFthp",
                 "recFcRV7goLrcQm17",
                 "recYpSKSmkkbzakzX",
-                "recEuXq2QoeRlG8vL"
+                "recEuXq2QoeRlG8vL",
+                "recAOk9B1CLPKV2iD"
             ],
-            "placesCount": 7,
+            "placesCount": 8,
             "yearNum": -1443,
             "richText": "And in the valley, [Beth-aram](/place/beth-haram_211), and [Beth-nimrah](/place/beth-nimrah_225), and [Succoth](/place/succoth_1113), and [Zaphon](/place/zaphon_1241), the rest of the kingdom of [Sihon](/person/sihon_2739) king of [Heshbon](/place/heshbon_565), [Jordan](/place/jordan_653) and _his_ border, _even_ unto the edge of the sea of [Chinnereth](/place/sea_of_chinnereth_1029) on the other side [Jordan](/place/jordan_653) eastward.\n",
             "verseID": "06013027",
-            "modified": "2026-10-13T03:43:41.000Z",
+            "modified": "2026-10-13T19:35:59.000Z",
             "event": [
                 "rec91XeIAmvH5rhav"
             ]
@@ -164600,11 +164662,14 @@
                 "recDggWlQNbxJLalN"
             ],
             "peopleCount": 1,
-            "placesCount": 0,
+            "places": [
+                "recAOk9B1CLPKV2iD"
+            ],
+            "placesCount": 1,
             "yearNum": -1443,
             "richText": "This _is_ the inheritance of the children of [Gad](/person/gad_1262) after their families, the cities, and their villages.\n",
             "verseID": "06013028",
-            "modified": "2026-10-13T03:39:20.000Z",
+            "modified": "2026-10-13T19:35:59.000Z",
             "event": [
                 "rec91XeIAmvH5rhav"
             ]
@@ -164630,11 +164695,14 @@
                 "rec1YbscOE9IyJ5ey"
             ],
             "peopleCount": 2,
-            "placesCount": 0,
+            "places": [
+                "rechavO1cdznGQVRh"
+            ],
+            "placesCount": 1,
             "yearNum": -1443,
             "richText": "And [Moses](/person/moses_2108) gave _inheritance_ unto the half tribe of [Manasseh](/person/manasseh_1928): and _this_ was _the_ _possession_ of the half tribe of the children of [Manasseh](/person/manasseh_1928) by their families.\n",
             "verseID": "06013029",
-            "modified": "2026-10-13T03:33:53.000Z",
+            "modified": "2026-10-13T19:36:01.000Z",
             "event": [
                 "rec91XeIAmvH5rhav"
             ]
@@ -164662,13 +164730,14 @@
             "places": [
                 "recgdvRbWEPMp5I0z",
                 "reciPNlPJ18bPGAZM",
-                "recIY9mUBLApR33cG"
+                "recIY9mUBLApR33cG",
+                "rechavO1cdznGQVRh"
             ],
-            "placesCount": 3,
+            "placesCount": 4,
             "yearNum": -1443,
             "richText": "And their coast was from [Mahanaim](/place/mahanaim_756), all [Bashan](/place/bashan_159), all the kingdom of [Og](/person/og_2238) king of [Bashan](/place/bashan_159), and all the towns of [Jair](/place/jair_619), which _are_ in [Bashan](/place/bashan_159), threescore cities:\n",
             "verseID": "06013030",
-            "modified": "2026-10-13T03:38:11.000Z",
+            "modified": "2026-10-13T19:36:01.000Z",
             "event": [
                 "rec91XeIAmvH5rhav"
             ]
@@ -164699,13 +164768,14 @@
                 "recgdvRbWEPMp5I0z",
                 "recPoImnA7S93jcHx",
                 "recgQ3PF8NjkiBIKf",
-                "recjQ3pJ2xDBU6gtE"
+                "recjQ3pJ2xDBU6gtE",
+                "rechavO1cdznGQVRh"
             ],
-            "placesCount": 4,
+            "placesCount": 5,
             "yearNum": -1443,
             "richText": "And half [Gilead](/place/gilead_475), and [Ashtaroth](/place/ashtaroth_106), and [Edrei](/place/edrei_358), cities of the kingdom of [Og](/person/og_2238) in [Bashan](/place/bashan_159), _were_ _pertaining_ unto the children of [Machir](/person/machir_1877) the son of [Manasseh](/person/manasseh_1928), _even_ to the one half of the children of [Machir](/person/machir_1877) by their families.\n",
             "verseID": "06013031",
-            "modified": "2026-10-13T03:36:15.000Z",
+            "modified": "2026-10-13T19:36:01.000Z",
             "event": [
                 "rec91XeIAmvH5rhav"
             ]
@@ -165263,13 +165333,14 @@
             "peopleCount": 2,
             "places": [
                 "recLcxRZbz3yIQB7b",
-                "recM1lN580CYvi2y8"
+                "recM1lN580CYvi2y8",
+                "recuzNJh7jSpK2w8w"
             ],
-            "placesCount": 2,
+            "placesCount": 3,
             "yearNum": -1442,
             "richText": "_This_ then was the lot of the tribe of the children of [Judah](/person/judah_1751) by their families; _even_ to the border of [Edom](/person/esau_1216) the wilderness of [Zin](/place/zin_1261) southward _was_ the uttermost part of the south coast.\n",
             "verseID": "06015001",
-            "modified": "2026-10-13T03:43:10.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -165320,13 +165391,14 @@
                 "recG78okmLuWjXoVq",
                 "rec8VO6kIG5kkTOhC",
                 "rec2cgUKcZA0YwC7u",
-                "recVfy9PlsXdODNGL"
+                "recVfy9PlsXdODNGL",
+                "recuzNJh7jSpK2w8w"
             ],
-            "placesCount": 6,
+            "placesCount": 7,
             "yearNum": -1442,
             "richText": "And it went out to the south side to [Maaleh-acrabbim](/place/akrabbim_44), and passed along to [Zin](/place/zin_1262), and ascended up on the south side unto [Kadesh-barnea](/place/kadesh-barnea_663), and passed along to [Hezron](/place/hezron_568), and went up to [Adar](/place/addar_24), and fetched a compass to [Karkaa](/place/karka_668):\n",
             "verseID": "06015003",
-            "modified": "2026-10-13T03:49:40.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -165436,13 +165508,14 @@
                 "recQ97smru5JVjpNG",
                 "recHhcgUHKjNOWICz",
                 "recdm9AlLF01lFAfP",
-                "rec5SkGvGgdC9E9bf"
+                "rec5SkGvGgdC9E9bf",
+                "recuzNJh7jSpK2w8w"
             ],
-            "placesCount": 6,
+            "placesCount": 7,
             "yearNum": -1442,
             "richText": "And the border went up toward [Debir](/place/debir_326) from the valley of [Achor](/place/valley_of_achor_1196), and so northward, looking toward [Gilgal](/place/gilgal_476), that _is_ before the going up to [Adummim](/place/adummim_32), which _is_ on the south side of the river: and the border passed toward the waters of [En-shemesh](/place/en-shemesh_396), and the goings out thereof were at [En-rogel](/place/en-rogel_395):\n",
             "verseID": "06015007",
-            "modified": "2026-10-13T03:38:05.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -165494,13 +165567,14 @@
                 "recVYcDguYN6bVqxy",
                 "recr2SUrb2G1X79xs",
                 "recpv8kBAFWrBcGYD",
-                "recmzFZzjfqsRjkZ9"
+                "recmzFZzjfqsRjkZ9",
+                "recuzNJh7jSpK2w8w"
             ],
-            "placesCount": 4,
+            "placesCount": 5,
             "yearNum": -1442,
             "richText": "And the border was drawn from the top of the hill unto the fountain of the water of [Nephtoah](/place/nephtoah_888), and went out to the cities of mount [Ephron](/place/mount_ephron_834); and the border was drawn to [Baalah](/place/baalah_135), which _is_ [Kirjath-jearim](/place/kiriath-jearim_701):\n",
             "verseID": "06015009",
-            "modified": "2026-10-13T03:35:34.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -165583,13 +165657,14 @@
             ],
             "peopleCount": 1,
             "places": [
-                "recn47IzNNlhvTtXK"
+                "recn47IzNNlhvTtXK",
+                "recuzNJh7jSpK2w8w"
             ],
-            "placesCount": 1,
+            "placesCount": 2,
             "yearNum": -1442,
             "richText": "And the west border _was_ to the great [sea](/place/great_sea_493), and the coast _thereof_. This _is_ the coast of the children of [Judah](/person/judah_1751) round about according to their families.\n",
             "verseID": "06015012",
-            "modified": "2026-10-13T03:30:53.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -165845,13 +165920,14 @@
                 "reczCenxH07UbY0ps",
                 "recmuiHPO6M2Goxyf",
                 "recLcxRZbz3yIQB7b",
-                "recAiaG6JoV8gdChq"
+                "recAiaG6JoV8gdChq",
+                "recuzNJh7jSpK2w8w"
             ],
-            "placesCount": 4,
+            "placesCount": 5,
             "yearNum": -1442,
             "richText": "And the uttermost cities of the tribe of the children of [Judah](/person/judah_1751) toward the coast of [Edom](/person/esau_1216) southward were [Kabzeel](/place/kabzeel_660), and [Eder](/place/eder_356), and [Jagur](/place/jagur_616),\n",
             "verseID": "06015021",
-            "modified": "2026-10-13T03:29:14.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -166041,13 +166117,14 @@
             "places": [
                 "recgek8WUtx6vEFbu",
                 "rectrAkGtrZH5LMp8",
-                "recX6Geuthxftkb51"
+                "recX6Geuthxftkb51",
+                "recuzNJh7jSpK2w8w"
             ],
-            "placesCount": 3,
+            "placesCount": 4,
             "yearNum": -1442,
             "richText": "And [Hazar-shual](/place/hazar-shual_539), and [Beer-sheba](/place/beersheba_170), and [Bizjothjah](/place/biziothiah_251),\n",
             "verseID": "06015028",
-            "modified": "2026-10-13T03:31:51.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -166353,13 +166430,14 @@
             "places": [
                 "recH2ShkDhPfgm2TM",
                 "recncbaBT6pbrg94B",
-                "recH30EhVzvnkXBTl"
+                "recH30EhVzvnkXBTl",
+                "recuzNJh7jSpK2w8w"
             ],
-            "placesCount": 3,
+            "placesCount": 4,
             "yearNum": -1442,
             "richText": "[Lachish](/place/lachish_711), and [Bozkath](/place/bozkath_255), and [Eglon](/place/eglon_361),\n",
             "verseID": "06015039",
-            "modified": "2026-10-13T03:39:54.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -166438,13 +166516,14 @@
             "places": [
                 "recmpaqzhaWI0JOso",
                 "recnRPbgfF5LIg3yw",
-                "rec5g1fzEKYzCO1Re"
+                "rec5g1fzEKYzCO1Re",
+                "recuzNJh7jSpK2w8w"
             ],
-            "placesCount": 3,
+            "placesCount": 4,
             "yearNum": -1442,
             "richText": "[Libnah](/place/libnah_728), and [Ether](/place/ether_418), and [Ashan](/place/ashan_100),\n",
             "verseID": "06015042",
-            "modified": "2026-10-13T03:46:11.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -166466,13 +166545,14 @@
             "places": [
                 "recR2iltmaNI9n7HL",
                 "recXXm401lkzqKbXj",
-                "recK3b32WznCD3Boq"
+                "recK3b32WznCD3Boq",
+                "recuzNJh7jSpK2w8w"
             ],
-            "placesCount": 3,
+            "placesCount": 4,
             "yearNum": -1442,
             "richText": "And [Jiphtah](/place/iphtah_598), and [Ashnah](/place/ashnah_105), and [Nezib](/place/nezib_892),\n",
             "verseID": "06015043",
-            "modified": "2026-10-13T03:45:08.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -166604,13 +166684,14 @@
             "places": [
                 "recaKtNNdTaSwmzoB",
                 "recBOEbIMlNPi1oX7",
-                "rech0hELdCMmKx1Il"
+                "rech0hELdCMmKx1Il",
+                "recuzNJh7jSpK2w8w"
             ],
-            "placesCount": 3,
+            "placesCount": 4,
             "yearNum": -1442,
             "richText": "And in the mountains, [Shamir](/place/shamir_1060), and [Jattir](/place/jattir_626), and [Socoh](/place/socoh_1106),\n",
             "verseID": "06015048",
-            "modified": "2026-10-13T03:48:52.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -166744,13 +166825,14 @@
             "places": [
                 "rectQkLOmxxcMv1kQ",
                 "recgWUUTO9djSSOCa",
-                "recWsUM9byFhGYq6u"
+                "recWsUM9byFhGYq6u",
+                "recuzNJh7jSpK2w8w"
             ],
-            "placesCount": 3,
+            "placesCount": 4,
             "yearNum": -1442,
             "richText": "And [Janum](/place/janim_620), and [Beth-tappuah](/place/beth-tappuah_238), and [Aphekah](/place/aphekah_74),\n",
             "verseID": "06015053",
-            "modified": "2026-10-13T03:29:43.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -166803,13 +166885,14 @@
                 "rec8Xwv1TNVXnXwNj",
                 "rec90EhaDwucT0tm2",
                 "recE7gMJ0r4eJWepx",
-                "rec31pLZApXuca8pm"
+                "rec31pLZApXuca8pm",
+                "recuzNJh7jSpK2w8w"
             ],
-            "placesCount": 5,
+            "placesCount": 6,
             "yearNum": -1442,
             "richText": "[Maon](/place/maon_764), [Carmel](/place/carmel_278), and [Ziph](/place/ziph_1266), and [Juttah](/place/juttah_659),\n",
             "verseID": "06015055",
-            "modified": "2026-10-13T03:40:11.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -166831,13 +166914,14 @@
             "places": [
                 "rec8sQDC7LI5Abufe",
                 "recCeummfztvoBQDp",
-                "recdU0shMzVelyTiU"
+                "recdU0shMzVelyTiU",
+                "recuzNJh7jSpK2w8w"
             ],
-            "placesCount": 3,
+            "placesCount": 4,
             "yearNum": -1442,
             "richText": "And [Jezreel](/place/jezreel_642), and [Jokdeam](/place/jokdeam_646), and [Zanoah](/place/zanoah_1240),\n",
             "verseID": "06015056",
-            "modified": "2026-10-13T03:41:21.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -166887,13 +166971,14 @@
             "places": [
                 "rec8BjFsbL4Of5MGn",
                 "reclg1YBA0tsZbZ6Y",
-                "recS1mhPCN7PKv9Iy"
+                "recS1mhPCN7PKv9Iy",
+                "recuzNJh7jSpK2w8w"
             ],
-            "placesCount": 3,
+            "placesCount": 4,
             "yearNum": -1442,
             "richText": "[Halhul](/place/halhul_509), [Beth-zur](/place/beth-zur_242), and [Gedor](/place/gedor_455),\n",
             "verseID": "06015058",
-            "modified": "2026-10-13T03:49:09.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -167059,13 +167144,14 @@
             "places": [
                 "recdMHFSmu222VnJG",
                 "rec5dSSsOutWlH2fW",
-                "recJK76HLZSOzxTWW"
+                "recJK76HLZSOzxTWW",
+                "rect3olmTnwW17ieJ"
             ],
-            "placesCount": 3,
+            "placesCount": 4,
             "yearNum": -1442,
             "richText": "And the lot of the children of [Joseph](/person/joseph_1710) fell from [Jordan](/place/jordan_653) by [Jericho](/place/jericho_634), unto the water of [Jericho](/place/jericho_634) on the east, to the wilderness that goeth up from [Jericho](/place/jericho_634) throughout mount [Beth-el](/place/bethel_202),\n",
             "verseID": "06016001",
-            "modified": "2026-10-13T03:41:43.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -167087,13 +167173,14 @@
             "places": [
                 "rec7ux6O0fwgSs7Cw",
                 "recSNxzg5rYEeDG16",
-                "recJK76HLZSOzxTWW"
+                "recJK76HLZSOzxTWW",
+                "rect3olmTnwW17ieJ"
             ],
-            "placesCount": 3,
+            "placesCount": 4,
             "yearNum": -1442,
             "richText": "And goeth out from [Beth-el](/place/bethel_202) to [Luz](/place/luz_737), and passeth along unto the borders of Archi to [Ataroth](/place/ataroth_114),\n",
             "verseID": "06016002",
-            "modified": "2026-10-13T03:40:45.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -167114,13 +167201,14 @@
             "peopleCount": 0,
             "places": [
                 "recFkoFKnoYZeBqsi",
-                "recqxkLUTRbyks2qF"
+                "recqxkLUTRbyks2qF",
+                "rect3olmTnwW17ieJ"
             ],
-            "placesCount": 2,
+            "placesCount": 3,
             "yearNum": -1442,
             "richText": "And goeth down westward to the coast of Japhleti, unto the coast of [Beth-horon](/place/beth-horon_733) the nether, and to [Gezer](/place/gezer_463): and the goings out thereof are at the sea.\n",
             "verseID": "06016003",
-            "modified": "2026-10-13T03:49:21.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -167144,11 +167232,15 @@
                 "recEtv9ql7Hh4XAW4"
             ],
             "peopleCount": 3,
-            "placesCount": 0,
+            "places": [
+                "recB4j4FGhLQPCbqw",
+                "rect3olmTnwW17ieJ"
+            ],
+            "placesCount": 2,
             "yearNum": -1442,
             "richText": "So the children of [Joseph](/person/joseph_1710), [Manasseh](/person/manasseh_1928) and [Ephraim](/person/ephraim_1206), took their inheritance.\n",
             "verseID": "06016004",
-            "modified": "2026-10-13T03:28:53.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -167172,13 +167264,14 @@
             "peopleCount": 1,
             "places": [
                 "recrkvrFB4Bmzq2dk",
-                "recMJFxR4wli1Ly6z"
+                "recMJFxR4wli1Ly6z",
+                "rect3olmTnwW17ieJ"
             ],
-            "placesCount": 2,
+            "placesCount": 3,
             "yearNum": -1442,
             "richText": "And the border of the children of [Ephraim](/person/ephraim_1206) according to their families was _thus_: even the border of their inheritance on the east side was [Ataroth-addar](/place/ataroth-addar_115), unto [Beth-horon](/place/upper_beth-horon_1188) the upper;\n",
             "verseID": "06016005",
-            "modified": "2026-10-13T03:38:41.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -167200,13 +167293,14 @@
             "places": [
                 "recSB0XE8xrDrg77g",
                 "recB4mpmdhIrF5Vhk",
-                "recF69CdVAagFerl9"
+                "recF69CdVAagFerl9",
+                "rect3olmTnwW17ieJ"
             ],
-            "placesCount": 3,
+            "placesCount": 4,
             "yearNum": -1442,
             "richText": "And the border went out toward the sea to [Michmethah](/place/michmethath_794) on the north side; and the border went about eastward unto [Taanath-shiloh](/place/taanath-shiloh_1125), and passed by it on the east to [Janohah](/place/janoah_621);\n",
             "verseID": "06016006",
-            "modified": "2026-10-13T03:41:37.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -167230,13 +167324,14 @@
                 "recSNxzg5rYEeDG16",
                 "recHcEu0vJOxAQJDI",
                 "recdMHFSmu222VnJG",
-                "recB4mpmdhIrF5Vhk"
+                "recB4mpmdhIrF5Vhk",
+                "rect3olmTnwW17ieJ"
             ],
-            "placesCount": 5,
+            "placesCount": 6,
             "yearNum": -1442,
             "richText": "And it went down from [Janohah](/place/janoah_621) to [Ataroth](/place/ataroth_114), and to [Naarath](/place/naarah_867), and came to [Jericho](/place/jericho_634), and went out at [Jordan](/place/jordan_653).\n",
             "verseID": "06016007",
-            "modified": "2026-10-13T03:37:07.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -167260,13 +167355,14 @@
             "peopleCount": 1,
             "places": [
                 "recBlqCdGXa2kE8T6",
-                "recUm3S3DtGCksvug"
+                "recUm3S3DtGCksvug",
+                "rect3olmTnwW17ieJ"
             ],
-            "placesCount": 2,
+            "placesCount": 3,
             "yearNum": -1442,
             "richText": "The border went out from [Tappuah](/place/tappuah_1136) westward unto the river [Kanah](/place/kanah_666); and the goings out thereof were at the sea. This _is_ the inheritance of the tribe of the children of [Ephraim](/person/ephraim_1206) by their families.\n",
             "verseID": "06016008",
-            "modified": "2026-10-13T03:41:22.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -167289,11 +167385,15 @@
                 "rec1YbscOE9IyJ5ey"
             ],
             "peopleCount": 2,
-            "placesCount": 0,
+            "places": [
+                "recB4j4FGhLQPCbqw",
+                "rect3olmTnwW17ieJ"
+            ],
+            "placesCount": 2,
             "yearNum": -1442,
             "richText": "And the separate cities for the children of [Ephraim](/person/ephraim_1206) _were_ among the inheritance of the children of [Manasseh](/person/manasseh_1928), all the cities with their villages.\n",
             "verseID": "06016009",
-            "modified": "2026-10-13T03:49:51.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -167313,13 +167413,14 @@
             "mdText": "And they drave not out the Canaanites that dwelt in [Gezer:](/place/gezer_463) but the Canaanites dwell among the Ephraimites unto this day, and serve under tribute.",
             "peopleCount": 0,
             "places": [
-                "recqxkLUTRbyks2qF"
+                "recqxkLUTRbyks2qF",
+                "rect3olmTnwW17ieJ"
             ],
-            "placesCount": 1,
+            "placesCount": 2,
             "yearNum": -1442,
             "richText": "And they drave not out the Canaanites that dwelt in [Gezer](/place/gezer_463): but the Canaanites dwell among the Ephraimites unto this day, and serve under tribute.\n",
             "verseID": "06016010",
-            "modified": "2026-10-13T03:43:37.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -167346,13 +167447,14 @@
             "peopleCount": 4,
             "places": [
                 "recPoImnA7S93jcHx",
-                "recgdvRbWEPMp5I0z"
+                "recgdvRbWEPMp5I0z",
+                "recB4j4FGhLQPCbqw"
             ],
-            "placesCount": 2,
+            "placesCount": 3,
             "yearNum": -1442,
             "richText": "There was also a lot for the tribe of [Manasseh](/person/manasseh_1928); for he _was_ the firstborn of [Joseph](/person/joseph_1710); _to_ _wit_, for [Machir](/person/machir_1877) the firstborn of [Manasseh](/person/manasseh_1928), the father of [Gilead](/person/gilead_1317): because he was a man of war, therefore he had [Gilead](/person/gilead_1317) and [Bashan](/place/bashan_159).\n",
             "verseID": "06017001",
-            "modified": "2026-10-13T03:28:29.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -167381,11 +167483,14 @@
                 "rechuDYJoK32gmrME"
             ],
             "peopleCount": 8,
-            "placesCount": 0,
+            "places": [
+                "recB4j4FGhLQPCbqw"
+            ],
+            "placesCount": 1,
             "yearNum": -1442,
             "richText": "There was also _a_ _lot_ for the rest of the children of [Manasseh](/person/manasseh_1928) by their families; for the children of [Abiezer](/person/abiezer_763), and for the children of [Helek](/person/helek_1481), and for the children of [Asriel](/person/asriel_348), and for the children of [Shechem](/person/shechem_2589), and for the children of [Hepher](/person/hepher_1496), and for the children of [Shemida](/person/shemida_2650): these _were_ the male children of [Manasseh](/person/manasseh_1928) the son of [Joseph](/person/joseph_1710) by their families.\n",
             "verseID": "06017002",
-            "modified": "2026-10-13T03:45:49.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -167416,11 +167521,14 @@
                 "recQQxfSPSO5wWdFx"
             ],
             "peopleCount": 10,
-            "placesCount": 0,
+            "places": [
+                "recB4j4FGhLQPCbqw"
+            ],
+            "placesCount": 1,
             "yearNum": -1442,
             "richText": "But [Zelophehad](/person/zelophehad_3035), the son of [Hepher](/person/hepher_1496), the son of [Gilead](/person/gilead_1317), the son of [Machir](/person/machir_1877), the son of [Manasseh](/person/manasseh_1928), had no sons, but daughters: and these _are_ the names of his daughters, [Mahlah](/person/mahlah_1895), and [Noah](/person/noah_2211), [Hoglah](/person/hoglah_1548), [Milcah](/person/milcah_2083), and [Tirzah](/person/tirzah_2868).\n",
             "verseID": "06017003",
-            "modified": "2026-10-13T03:28:30.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -167446,11 +167554,14 @@
                 "reccZB8SVU5bEMcgo"
             ],
             "peopleCount": 5,
-            "placesCount": 0,
+            "places": [
+                "recB4j4FGhLQPCbqw"
+            ],
+            "placesCount": 1,
             "yearNum": -1442,
             "richText": "And they came near before [Eleazar](/person/eleazar_1062) the priest, and before [Joshua](/person/joshua_1727) the son of [Nun](/person/nun_2214), and before the princes, saying, The [LORD](/person/god_1324) commanded [Moses](/person/moses_2108) to give us an inheritance among our brethren. Therefore according to the commandment of the [LORD](/person/god_1324) he gave them an inheritance among the brethren of their father.\n",
             "verseID": "06017004",
-            "modified": "2026-10-13T03:28:29.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -167475,13 +167586,14 @@
             "places": [
                 "recPoImnA7S93jcHx",
                 "recgdvRbWEPMp5I0z",
-                "rec5dSSsOutWlH2fW"
+                "rec5dSSsOutWlH2fW",
+                "recB4j4FGhLQPCbqw"
             ],
-            "placesCount": 3,
+            "placesCount": 4,
             "yearNum": -1442,
             "richText": "And there fell ten portions to [Manasseh](/person/manasseh_1928), beside the land of [Gilead](/place/gilead_475) and [Bashan](/place/bashan_159), which _were_ on the other side [Jordan](/place/jordan_653);\n",
             "verseID": "06017005",
-            "modified": "2026-10-13T03:33:50.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -167504,13 +167616,14 @@
             ],
             "peopleCount": 1,
             "places": [
-                "recPoImnA7S93jcHx"
+                "recPoImnA7S93jcHx",
+                "recB4j4FGhLQPCbqw"
             ],
-            "placesCount": 1,
+            "placesCount": 2,
             "yearNum": -1442,
             "richText": "Because the daughters of [Manasseh](/person/manasseh_1928) had an inheritance among his sons: and the rest of [Manasseh\u2019s](/person/manasseh_1928) sons had the land of [Gilead](/place/gilead_475).\n",
             "verseID": "06017006",
-            "modified": "2026-10-13T03:47:17.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -167536,13 +167649,14 @@
             "places": [
                 "recSySWSC0EoRsqIB",
                 "recF69CdVAagFerl9",
-                "recUySlrBva4ffoVs"
+                "recUySlrBva4ffoVs",
+                "recB4j4FGhLQPCbqw"
             ],
-            "placesCount": 3,
+            "placesCount": 4,
             "yearNum": -1442,
             "richText": "And the coast of [Manasseh](/person/manasseh_1928) was from [Asher](/person/asher_337) to [Michmethah](/place/michmethath_794), that _lieth_ before [Shechem](/place/shechem_1069); and the border went along on the right hand unto the inhabitants of [En-tappuah](/place/en-tappuah_397).\n",
             "verseID": "06017007",
-            "modified": "2026-10-13T03:37:00.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -167566,13 +167680,15 @@
             ],
             "peopleCount": 2,
             "places": [
-                "recBlqCdGXa2kE8T6"
+                "recBlqCdGXa2kE8T6",
+                "recB4j4FGhLQPCbqw",
+                "rect3olmTnwW17ieJ"
             ],
-            "placesCount": 1,
+            "placesCount": 3,
             "yearNum": -1442,
             "richText": "_Now_ [Manasseh](/person/manasseh_1928) had the land of [Tappuah](/place/tappuah_1136): but [Tappuah](/place/tappuah_1136) on the border of [Manasseh](/person/manasseh_1928) _belonged_ to the children of [Ephraim](/person/ephraim_1206);\n",
             "verseID": "06017008",
-            "modified": "2026-10-13T03:29:58.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -167596,13 +167712,15 @@
             ],
             "peopleCount": 2,
             "places": [
-                "recUm3S3DtGCksvug"
+                "recUm3S3DtGCksvug",
+                "recB4j4FGhLQPCbqw",
+                "rect3olmTnwW17ieJ"
             ],
-            "placesCount": 1,
+            "placesCount": 3,
             "yearNum": -1442,
             "richText": "And the coast descended unto the river [Kanah](/place/kanah_666), southward of the river: these cities of [Ephraim](/person/ephraim_1206) _are_ among the cities of [Manasseh](/person/manasseh_1928): the coast of [Manasseh](/person/manasseh_1928) also _was_ on the north side of the river, and the outgoings of it were at the sea:\n",
             "verseID": "06017009",
-            "modified": "2026-10-13T03:50:13.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -167626,11 +167744,17 @@
                 "rectGDQCkKqZ6LgGB"
             ],
             "peopleCount": 3,
-            "placesCount": 0,
+            "places": [
+                "rec3lQCLJDUCRIbFb",
+                "rec5oytZ1tzkgwty5",
+                "recB4j4FGhLQPCbqw",
+                "rect3olmTnwW17ieJ"
+            ],
+            "placesCount": 4,
             "yearNum": -1442,
             "richText": "Southward _it_ _was_ [Ephraim\u2019s](/person/ephraim_1206), and northward _it_ _was_ [Manasseh\u2019s](/person/manasseh_1928), and the sea is his border; and they met together in [Asher](/person/asher_337) on the north, and in Issachar on the east.\n",
             "verseID": "06017010",
-            "modified": "2026-10-13T03:49:52.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -167660,13 +167784,16 @@
                 "recWpI3yiVzlUPgnT",
                 "recyS1I7gkQt8hvRD",
                 "rec91Z7a1D7vQHOgk",
-                "rechSy0aCb5vNVH3f"
+                "rechSy0aCb5vNVH3f",
+                "rec3lQCLJDUCRIbFb",
+                "rec5oytZ1tzkgwty5",
+                "recB4j4FGhLQPCbqw"
             ],
-            "placesCount": 7,
+            "placesCount": 10,
             "yearNum": -1442,
             "richText": "And [Manasseh](/person/manasseh_1928) had in Issachar and in [Asher](/person/asher_337) [Beth-shean](/place/beth-shean_233) and her towns, and [Ibleam](/place/ibleam_589) and her towns, and the inhabitants of [Dor](/place/dor_341) and her towns, and the inhabitants of [En-dor](/place/en-dor_385) and her towns, and the inhabitants of [Taanach](/place/taanach_1124) and her towns, and the inhabitants of [Megiddo](/place/megiddo_777) and her towns, _even_ three [countries](/place/naphath_874).\n",
             "verseID": "06017011",
-            "modified": "2026-10-13T03:47:56.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -167688,11 +167815,14 @@
                 "rec1YbscOE9IyJ5ey"
             ],
             "peopleCount": 1,
-            "placesCount": 0,
+            "places": [
+                "recB4j4FGhLQPCbqw"
+            ],
+            "placesCount": 1,
             "yearNum": -1442,
             "richText": "Yet the children of [Manasseh](/person/manasseh_1928) could not drive out _the_ _inhabitants_ _of_ those cities; but the Canaanites would dwell in that land.\n",
             "verseID": "06017012",
-            "modified": "2026-10-13T03:38:32.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -167714,11 +167844,14 @@
                 "recsU2ZSdzBvDqzgI"
             ],
             "peopleCount": 1,
-            "placesCount": 0,
+            "places": [
+                "recB4j4FGhLQPCbqw"
+            ],
+            "placesCount": 1,
             "yearNum": -1442,
             "richText": "Yet it came to pass, when the children of [Israel](/person/israel_682) were waxen strong, that they put the Canaanites to tribute; but did not utterly drive them out.\n",
             "verseID": "06017013",
-            "modified": "2026-10-13T03:35:11.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -167827,11 +167960,14 @@
                 "rec1YbscOE9IyJ5ey"
             ],
             "peopleCount": 4,
-            "placesCount": 0,
+            "places": [
+                "recB4j4FGhLQPCbqw"
+            ],
+            "placesCount": 1,
             "yearNum": -1442,
             "richText": "And [Joshua](/person/joshua_1727) spake unto the house of [Joseph](/person/joseph_1710), _even_ to [Ephraim](/person/ephraim_1206) and to [Manasseh](/person/manasseh_1928), saying, Thou _art_ a great people, and hast great power: thou shalt not have one lot _only_:\n",
             "verseID": "06017017",
-            "modified": "2026-10-13T03:33:30.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -168040,13 +168176,14 @@
             ],
             "peopleCount": 5,
             "places": [
-                "rec5dSSsOutWlH2fW"
+                "rec5dSSsOutWlH2fW",
+                "recAOk9B1CLPKV2iD"
             ],
-            "placesCount": 1,
+            "placesCount": 2,
             "yearNum": -1442,
             "richText": "But the Levites have no part among you; for the priesthood of the [LORD](/person/god_1324) _is_ their inheritance: and [Gad](/person/gad_1262), and [Reuben](/person/reuben_2429), and half the tribe of [Manasseh](/person/manasseh_1928), have received their inheritance beyond [Jordan](/place/jordan_653) on the east, which [Moses](/person/moses_2108) the servant of the [LORD](/person/god_1324) gave them.\n",
             "verseID": "06018007",
-            "modified": "2026-10-13T03:49:14.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -168160,11 +168297,14 @@
                 "rechuDYJoK32gmrME"
             ],
             "peopleCount": 3,
-            "placesCount": 0,
+            "places": [
+                "recMRitcM5QeA7Q4M"
+            ],
+            "placesCount": 1,
             "yearNum": -1442,
             "richText": "And the lot of the tribe of the children of [Benjamin](/person/benjamin_463) came up according to their families: and the coast of their lot came forth between the children of [Judah](/person/judah_1751) and the children of [Joseph](/person/joseph_1710).\n",
             "verseID": "06018011",
-            "modified": "2026-10-13T03:49:29.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -168186,13 +168326,14 @@
             "places": [
                 "recdMHFSmu222VnJG",
                 "recgAmwf1FZDe8DST",
-                "rec5dSSsOutWlH2fW"
+                "rec5dSSsOutWlH2fW",
+                "recMRitcM5QeA7Q4M"
             ],
-            "placesCount": 3,
+            "placesCount": 4,
             "yearNum": -1442,
             "richText": "And their border on the north side was from [Jordan](/place/jordan_653); and the border went up to the side of [Jericho](/place/jericho_634) on the north side, and went up through the mountains westward; and the goings out thereof were at the wilderness of [Beth-aven](/place/beth-aven_191).\n",
             "verseID": "06018012",
-            "modified": "2026-10-13T03:30:19.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -168214,13 +168355,14 @@
             "places": [
                 "rec7ux6O0fwgSs7Cw",
                 "recJK76HLZSOzxTWW",
-                "recFkoFKnoYZeBqsi"
+                "recFkoFKnoYZeBqsi",
+                "recMRitcM5QeA7Q4M"
             ],
-            "placesCount": 3,
+            "placesCount": 4,
             "yearNum": -1442,
             "richText": "And the border went over from thence toward [Luz](/place/luz_737), to the side of [Luz](/place/luz_737), which _is_ [Beth-el](/place/bethel_202), southward; and the border descended to Ataroth-adar, near the hill that _lieth_ on the south side of the nether [Beth-horon](/place/beth-horon_733).\n",
             "verseID": "06018013",
-            "modified": "2026-10-13T03:49:40.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -168245,13 +168387,14 @@
             "places": [
                 "recRJEQbrGi24OUFZ",
                 "recVYcDguYN6bVqxy",
-                "recSx0USOwA2fisi6"
+                "recSx0USOwA2fisi6",
+                "recMRitcM5QeA7Q4M"
             ],
-            "placesCount": 3,
+            "placesCount": 4,
             "yearNum": -1442,
             "richText": "And the border was drawn _thence_, and compassed the corner of the sea southward, from the hill that _lieth_ before [Beth-horon](/place/beth-horon_214) southward; and the goings out thereof were at [Kirjath-baal](/place/kiriath-baal_699), which _is_ [Kirjath-jearim](/place/kiriath-jearim_701), a city of the children of [Judah](/person/judah_1751): this _was_ the west quarter.\n",
             "verseID": "06018014",
-            "modified": "2026-10-13T03:28:43.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -168273,13 +168416,14 @@
             "places": [
                 "recUukkWaSOK7dkHk",
                 "recr2SUrb2G1X79xs",
-                "recVYcDguYN6bVqxy"
+                "recVYcDguYN6bVqxy",
+                "recMRitcM5QeA7Q4M"
             ],
-            "placesCount": 3,
+            "placesCount": 4,
             "yearNum": -1442,
             "richText": "And the south quarter _was_ from the end of [Kirjath-jearim](/place/kiriath-jearim_701), and the border went out on the [west](/place/ephron_405), and went out to the well of waters of [Nephtoah](/place/nephtoah_888):\n",
             "verseID": "06018015",
-            "modified": "2026-10-13T03:45:33.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -168301,13 +168445,14 @@
             "places": [
                 "recsoRbSuiqYLSGzN",
                 "recHhcgUHKjNOWICz",
-                "recTdeFWjvLAXs0t3"
+                "recTdeFWjvLAXs0t3",
+                "recMRitcM5QeA7Q4M"
             ],
-            "placesCount": 3,
+            "placesCount": 4,
             "yearNum": -1442,
             "richText": "And the border came down to the end of the mountain that _lieth_ before the [valley](/place/valley_of_rephaim_1214) of the son of [Hinnom](/place/valley_of_hinnom_1207), _and_ which _is_ in the [valley](/place/valley_of_rephaim_1214) of the giants on the north, and descended to the [valley](/place/valley_of_rephaim_1214) of [Hinnom](/place/valley_of_hinnom_1207), to the side of Jebusi on the south, and descended to [En-rogel](/place/en-rogel_395),\n",
             "verseID": "06018016",
-            "modified": "2026-10-13T03:34:31.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -168333,13 +168478,14 @@
             "places": [
                 "recmXnEHeGtX63jTW",
                 "rec5SkGvGgdC9E9bf",
-                "recyt1xT91nAHD8Gf"
+                "recyt1xT91nAHD8Gf",
+                "recMRitcM5QeA7Q4M"
             ],
-            "placesCount": 3,
+            "placesCount": 4,
             "yearNum": -1442,
             "richText": "And was drawn from the north, and went forth to [En-shemesh](/place/en-shemesh_396), and went forth toward [Geliloth](/place/geliloth_457), which _is_ over against the going up of [Adummim](/place/adummim_32), and descended to the stone of [Bohan](/person/bohan_521) the son of [Reuben](/person/reuben_2429),\n",
             "verseID": "06018017",
-            "modified": "2026-10-13T03:47:19.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -168359,13 +168505,14 @@
             "mdText": "And passed along toward the side over against [Arabah](/place/arabah_79) northward, and went down unto [Arabah:](/place/arabah_79)",
             "peopleCount": 0,
             "places": [
-                "recWKNRLvmxh9CMku"
+                "recWKNRLvmxh9CMku",
+                "recMRitcM5QeA7Q4M"
             ],
-            "placesCount": 1,
+            "placesCount": 2,
             "yearNum": -1442,
             "richText": "And passed along toward the side over against [Arabah](/place/arabah_79) northward, and went down unto [Arabah](/place/arabah_79):\n",
             "verseID": "06018018",
-            "modified": "2026-10-13T03:31:49.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -168387,13 +168534,14 @@
             "places": [
                 "rec5dSSsOutWlH2fW",
                 "recRg102TEaTaifd2",
-                "recN4jruK7QVakoJh"
+                "recN4jruK7QVakoJh",
+                "recMRitcM5QeA7Q4M"
             ],
-            "placesCount": 3,
+            "placesCount": 4,
             "yearNum": -1442,
             "richText": "And the border passed along to the side of [Beth-hoglah](/place/beth-hoglah_213) northward: and the outgoings of the border were at the north bay of the [salt](/place/salt_sea_1021) [sea](/place/salt_sea_1021) at the south end of [Jordan](/place/jordan_653): this _was_ the south coast.\n",
             "verseID": "06018019",
-            "modified": "2026-10-13T03:45:42.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -168416,13 +168564,14 @@
             ],
             "peopleCount": 1,
             "places": [
-                "rec5dSSsOutWlH2fW"
+                "rec5dSSsOutWlH2fW",
+                "recMRitcM5QeA7Q4M"
             ],
-            "placesCount": 1,
+            "placesCount": 2,
             "yearNum": -1442,
             "richText": "And [Jordan](/place/jordan_653) was the border of it on the east side. This _was_ the inheritance of the children of [Benjamin](/person/benjamin_463), by the coasts thereof round about, according to their families.\n",
             "verseID": "06018020",
-            "modified": "2026-10-13T03:45:19.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -168447,13 +168596,14 @@
             "places": [
                 "recRg102TEaTaifd2",
                 "rec3jnWpO8DBacyGU",
-                "recdMHFSmu222VnJG"
+                "recdMHFSmu222VnJG",
+                "recMRitcM5QeA7Q4M"
             ],
-            "placesCount": 3,
+            "placesCount": 4,
             "yearNum": -1442,
             "richText": "Now the cities of the tribe of the children of [Benjamin](/person/benjamin_463) according to their families were [Jericho](/place/jericho_634), and [Beth-hoglah](/place/beth-hoglah_213), and the [valley](/place/emek-keziz_381) of [Keziz](/place/emek-keziz_381),\n",
             "verseID": "06018021",
-            "modified": "2026-10-13T03:30:44.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -168531,13 +168681,14 @@
             "places": [
                 "recE4R1DFGiDMLM5y",
                 "recgg7kwUkrmxzV6Z",
-                "rec9WinQK7lA6PSWj"
+                "rec9WinQK7lA6PSWj",
+                "recMRitcM5QeA7Q4M"
             ],
-            "placesCount": 3,
+            "placesCount": 4,
             "yearNum": -1442,
             "richText": "And Chephar-haammonai, and [Ophni](/place/ophni_912), and [Gaba](/place/geba_447); twelve cities with their villages:\n",
             "verseID": "06018024",
-            "modified": "2026-10-13T03:42:54.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -168559,13 +168710,14 @@
             "places": [
                 "rec4IK8BRFWJUhjhQ",
                 "recYsXWjhw6FUqHLY",
-                "rectFOmd9oBb0DoQ1"
+                "rectFOmd9oBb0DoQ1",
+                "recMRitcM5QeA7Q4M"
             ],
-            "placesCount": 3,
+            "placesCount": 4,
             "yearNum": -1442,
             "richText": "[Gibeon](/place/gibeon_470), and [Ramah](/place/ramah_972), and [Beeroth](/place/beeroth_168),\n",
             "verseID": "06018025",
-            "modified": "2026-10-13T03:37:28.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -168649,13 +168801,14 @@
                 "recAWbKj7JcLQWmme",
                 "recADz5cMmoTWAEzV",
                 "recegcIDXYN456Nlx",
-                "recVYcDguYN6bVqxy"
+                "recVYcDguYN6bVqxy",
+                "recMRitcM5QeA7Q4M"
             ],
-            "placesCount": 6,
+            "placesCount": 7,
             "yearNum": -1442,
             "richText": "And [Zelah](/place/zela_1247), [Eleph](/place/haeleph_505), and [Jebusi](/place/jebus_629), which _is_ [Jerusalem](/place/jerusalem_636), [Gibeath](/place/gibeah_466), _and_ [Kirjath](/place/kiriath-jearim_701); fourteen cities with their villages. This _is_ the inheritance of the children of [Benjamin](/person/benjamin_463) according to their families.\n",
             "verseID": "06018028",
-            "modified": "2026-10-13T03:50:16.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -168931,13 +169084,14 @@
             ],
             "peopleCount": 1,
             "places": [
-                "recVItypgO6FciXjP"
+                "recVItypgO6FciXjP",
+                "recQubz0YtXby0qbE"
             ],
-            "placesCount": 1,
+            "placesCount": 2,
             "yearNum": -1442,
             "richText": "And the third lot came up for the children of [Zebulun](/person/zebulun_3002) according to their families: and the border of their inheritance was unto [Sarid](/place/sarid_1028):\n",
             "verseID": "06019010",
-            "modified": "2026-10-13T03:43:14.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -168959,13 +169113,14 @@
             "places": [
                 "rec5GyUpKvcWOTCzM",
                 "recy0HyLOIi5C4CQQ",
-                "recn160CZ6TA5vcBU"
+                "recn160CZ6TA5vcBU",
+                "recQubz0YtXby0qbE"
             ],
-            "placesCount": 3,
+            "placesCount": 4,
             "yearNum": -1442,
             "richText": "And their border went up toward the sea, and [Maralah](/place/mareal_766), and reached to [Dabbasheth](/place/dabbesheth_318), and reached to the river that _is_ before [Jokneam](/place/jokneam_649);\n",
             "verseID": "06019011",
-            "modified": "2026-10-13T03:36:04.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -168988,13 +169143,14 @@
                 "recLzkeoI6eyBaAIr",
                 "recVItypgO6FciXjP",
                 "recTLtdYknboPobdU",
-                "recff4FRbdbZ8DPBM"
+                "recff4FRbdbZ8DPBM",
+                "recQubz0YtXby0qbE"
             ],
-            "placesCount": 4,
+            "placesCount": 5,
             "yearNum": -1442,
             "richText": "And turned from [Sarid](/place/sarid_1028) eastward toward the sunrising unto the border of [Chisloth-tabor](/place/chisloth-tabor_297), and then goeth out to [Daberath](/place/daberath_319), and goeth up to [Japhia](/place/japhia_623),\n",
             "verseID": "06019012",
-            "modified": "2026-10-13T03:36:57.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -169016,13 +169172,14 @@
             "places": [
                 "recXs9hirzM1zgQ18",
                 "rec01lUK0ZRXUnohv",
-                "recNZOAW3NhGJ2Vqs"
+                "recNZOAW3NhGJ2Vqs",
+                "recQubz0YtXby0qbE"
             ],
-            "placesCount": 3,
+            "placesCount": 4,
             "yearNum": -1442,
             "richText": "And from thence passeth on along on the east to [Gittah-hepher](/place/gath-hepher_443), to [Ittah-kazin](/place/eth-kazin_420), and goeth out to Remmon-methoar to [Neah](/place/neah_879);\n",
             "verseID": "06019013",
-            "modified": "2026-10-13T03:46:39.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -169043,13 +169200,14 @@
             "peopleCount": 0,
             "places": [
                 "recVCr26UndrdyQVj",
-                "recqTSGbQtBjp7MGu"
+                "recqTSGbQtBjp7MGu",
+                "recQubz0YtXby0qbE"
             ],
-            "placesCount": 2,
+            "placesCount": 3,
             "yearNum": -1442,
             "richText": "And the border compasseth it on the north side to [Hannathon](/place/hannathon_523): and the outgoings thereof are in the valley of [Jiphthah-el](/place/valley_of_jiphthahel_1208):\n",
             "verseID": "06019014",
-            "modified": "2026-10-13T03:47:56.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -169073,13 +169231,14 @@
                 "recemJEsxfDEoBRUE",
                 "recJJNRuOtrW0M49k",
                 "rec823UwaDk4ovNpb",
-                "recxMzVcOH9Xl3F2D"
+                "recxMzVcOH9Xl3F2D",
+                "recQubz0YtXby0qbE"
             ],
-            "placesCount": 5,
+            "placesCount": 6,
             "yearNum": -1442,
             "richText": "And [Kattath](/place/kattath_673), and [Nahallal](/place/nahalal_869), and [Shimron](/place/shimron_1082), and [Idalah](/place/idalah_591), and [Beth-lehem](/place/bethlehem_219): twelve cities with their villages.\n",
             "verseID": "06019015",
-            "modified": "2026-10-13T03:47:05.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -169101,11 +169260,14 @@
                 "recZ6YiBydClBiVVJ"
             ],
             "peopleCount": 1,
-            "placesCount": 0,
+            "places": [
+                "recQubz0YtXby0qbE"
+            ],
+            "placesCount": 1,
             "yearNum": -1442,
             "richText": "This _is_ the inheritance of the children of [Zebulun](/person/zebulun_3002) according to their families, these cities with their villages.\n",
             "verseID": "06019016",
-            "modified": "2026-10-13T03:44:24.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -169127,11 +169289,14 @@
                 "rec3HzZknu1HOvNci"
             ],
             "peopleCount": 1,
-            "placesCount": 0,
+            "places": [
+                "rec5oytZ1tzkgwty5"
+            ],
+            "placesCount": 1,
             "yearNum": -1442,
             "richText": "_And_ the fourth lot came out to [Issachar](/person/issachar_645), for the children of [Issachar](/person/issachar_645) according to their families.\n",
             "verseID": "06019017",
-            "modified": "2026-10-13T03:38:58.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -169153,13 +169318,14 @@
             "places": [
                 "recyWwiJB7OnchiIG",
                 "reczRCunsz83wZ1Q1",
-                "recQ8DF0pj7A20FyQ"
+                "recQ8DF0pj7A20FyQ",
+                "rec5oytZ1tzkgwty5"
             ],
-            "placesCount": 3,
+            "placesCount": 4,
             "yearNum": -1442,
             "richText": "And their border was toward [Jezreel](/place/jezreel_643), and [Chesulloth](/place/chesulloth_290), and [Shunem](/place/shunem_1089),\n",
             "verseID": "06019018",
-            "modified": "2026-10-13T03:40:18.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -169181,13 +169347,14 @@
             "places": [
                 "recF3M1isU0G0L3hU",
                 "recPBAlvTZPyRnyOC",
-                "recRtHs9OycjMit0t"
+                "recRtHs9OycjMit0t",
+                "rec5oytZ1tzkgwty5"
             ],
-            "placesCount": 3,
+            "placesCount": 4,
             "yearNum": -1442,
             "richText": "And [Haphraim](/place/hapharaim_524), and [Shion](/place/shion_1085), and [Anaharath](/place/anaharath_61),\n",
             "verseID": "06019019",
-            "modified": "2026-10-13T03:34:38.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -169209,13 +169376,14 @@
             "places": [
                 "recogkxUvvQCFlo42",
                 "recVCFDBLoj1s0eNr",
-                "rec79ZPvnj5KL18GI"
+                "rec79ZPvnj5KL18GI",
+                "rec5oytZ1tzkgwty5"
             ],
-            "placesCount": 3,
+            "placesCount": 4,
             "yearNum": -1442,
             "richText": "And [Rabbith](/place/rabbith_967), and [Kishion](/place/kishion_704), and [Abez](/place/ebez_351),\n",
             "verseID": "06019020",
-            "modified": "2026-10-13T03:48:31.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -169238,13 +169406,14 @@
                 "recHD6AIzyoUsNQiT",
                 "rechqsejUnM2fn63T",
                 "recKotcLQBDuesdIb",
-                "recWT28kKso9Ayp7t"
+                "recWT28kKso9Ayp7t",
+                "rec5oytZ1tzkgwty5"
             ],
-            "placesCount": 4,
+            "placesCount": 5,
             "yearNum": -1442,
             "richText": "And [Remeth](/place/remeth_994), and [En-gannim](/place/en-gannim_388), and [En-haddah](/place/en-haddah_390), and [Beth-pazzez](/place/beth-pazzez_226);\n",
             "verseID": "06019021",
-            "modified": "2026-10-13T03:39:02.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -169267,13 +169436,14 @@
                 "recpZeW1C0RXq5NxR",
                 "rec5dSSsOutWlH2fW",
                 "recmyzVBdbLEBB0Y0",
-                "receepwWdZe3c7HEy"
+                "receepwWdZe3c7HEy",
+                "rec5oytZ1tzkgwty5"
             ],
-            "placesCount": 4,
+            "placesCount": 5,
             "yearNum": -1442,
             "richText": "And the coast reacheth to [Tabor](/place/tabor_1128), and [Shahazimah](/place/shahazumah_1057), and [Beth-shemesh](/place/beth-shemesh_235); and the outgoings of their border were at [Jordan](/place/jordan_653): sixteen cities with their villages.\n",
             "verseID": "06019022",
-            "modified": "2026-10-13T03:39:25.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -169295,11 +169465,14 @@
                 "rec3HzZknu1HOvNci"
             ],
             "peopleCount": 1,
-            "placesCount": 0,
+            "places": [
+                "rec5oytZ1tzkgwty5"
+            ],
+            "placesCount": 1,
             "yearNum": -1442,
             "richText": "This _is_ the inheritance of the tribe of the children of [Issachar](/person/issachar_645) according to their families, the cities and their villages.\n",
             "verseID": "06019023",
-            "modified": "2026-10-13T03:34:20.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -169321,11 +169494,14 @@
                 "rectGDQCkKqZ6LgGB"
             ],
             "peopleCount": 1,
-            "placesCount": 0,
+            "places": [
+                "rec3lQCLJDUCRIbFb"
+            ],
+            "placesCount": 1,
             "yearNum": -1442,
             "richText": "And the fifth lot came out for the tribe of the children of [Asher](/person/asher_337) according to their families.\n",
             "verseID": "06019024",
-            "modified": "2026-10-13T03:45:03.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -169348,13 +169524,14 @@
                 "recAaSopoyGJdiCvF",
                 "rec2dzY5q746RtWtv",
                 "recpWpZY3f2mu4MUh",
-                "recuSExgoHnwcPaSp"
+                "recuSExgoHnwcPaSp",
+                "rec3lQCLJDUCRIbFb"
             ],
-            "placesCount": 4,
+            "placesCount": 5,
             "yearNum": -1442,
             "richText": "And their border was [Helkath](/place/helkath_558), and [Hali](/place/hali_510), and [Beten](/place/beten_183), and [Achshaph](/place/achshaph_17),\n",
             "verseID": "06019025",
-            "modified": "2026-10-13T03:37:43.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -169378,13 +169555,14 @@
                 "recb7xEqTVCOEEI2n",
                 "recQZawjLYtunaZaZ",
                 "recwoglv6niCugPjM",
-                "reca2kSTlowovUOD4"
+                "reca2kSTlowovUOD4",
+                "rec3lQCLJDUCRIbFb"
             ],
-            "placesCount": 5,
+            "placesCount": 6,
             "yearNum": -1442,
             "richText": "And [Alammelech](/place/allammelech_47), and [Amad](/place/amad_52), and [Misheal](/place/mishal_805); and reacheth to [Carmel](/place/carmel_278) westward, and to [Shihor-libnath](/place/shihor-libnath_1077);\n",
             "verseID": "06019026",
-            "modified": "2026-10-13T03:50:13.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -169411,13 +169589,15 @@
                 "rec2FVo1ApaaObSl8",
                 "recjgY0m1tj2lUfHI",
                 "recdybmplJR4qJKgH",
-                "recqTSGbQtBjp7MGu"
+                "recqTSGbQtBjp7MGu",
+                "rec3lQCLJDUCRIbFb",
+                "recQubz0YtXby0qbE"
             ],
-            "placesCount": 5,
+            "placesCount": 7,
             "yearNum": -1442,
             "richText": "And turneth toward the sunrising to [Beth-dagon](/place/beth-dagon_198), and reacheth to [Zebulun](/person/zebulun_3002), and to the valley of [Jiphthah-el](/place/valley_of_jiphthahel_1208) toward the north side of [Beth-emek](/place/beth-emek_204), and [Neiel](/place/neiel_887), and goeth out to [Cabul](/place/cabul_264) on the left hand,\n",
             "verseID": "06019027",
-            "modified": "2026-10-13T03:28:33.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -169441,13 +169621,14 @@
                 "recy1DLOJRAuwMXyj",
                 "reckXhjBX8I6jSNkg",
                 "recMJ37YErgueg9i2",
-                "recEfNbXnb60Qu7Fe"
+                "recEfNbXnb60Qu7Fe",
+                "rec3lQCLJDUCRIbFb"
             ],
-            "placesCount": 5,
+            "placesCount": 6,
             "yearNum": -1442,
             "richText": "And [Hebron](/place/ebron_352), and [Rehob](/place/rehob_988), and [Hammon](/place/hammon_519), and [Kanah](/place/kanah_667), _even_ unto great [Zidon](/place/sidon_1094);\n",
             "verseID": "06019028",
-            "modified": "2026-10-13T03:49:06.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -169471,13 +169652,14 @@
                 "rec7eWoWlxhVZAjX8",
                 "reco9Wc4YyNXZq43z",
                 "recYweWcGLcvYVDDF",
-                "recSPzi0p68v5OEah"
+                "recSPzi0p68v5OEah",
+                "rec3lQCLJDUCRIbFb"
             ],
-            "placesCount": 5,
+            "placesCount": 6,
             "yearNum": -1442,
             "richText": "And _then_ the [coast](/place/mahalab_755) turneth to [Ramah](/place/ramah_973), and to the strong city [Tyre](/place/tyre_1184); and the [coast](/place/mahalab_755) turneth to [Hosah](/place/hosah_583); and the outgoings thereof are at the sea from the [coast](/place/mahalab_755) to [Achzib](/place/achzib_19):\n",
             "verseID": "06019029",
-            "modified": "2026-10-13T03:40:33.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -169499,13 +169681,14 @@
             "places": [
                 "recpdFqMr64GytQYz",
                 "recDsgW2rUeXNQsN9",
-                "recdCNTd1GiKWp4MH"
+                "recdCNTd1GiKWp4MH",
+                "rec3lQCLJDUCRIbFb"
             ],
-            "placesCount": 3,
+            "placesCount": 4,
             "yearNum": -1442,
             "richText": "[Ummah](/place/ummah_1186) also, and [Aphek](/place/aphek_71), and [Rehob](/place/rehob_989): twenty and two cities with their villages.\n",
             "verseID": "06019030",
-            "modified": "2026-10-13T03:40:03.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -169527,11 +169710,14 @@
                 "rectGDQCkKqZ6LgGB"
             ],
             "peopleCount": 1,
-            "placesCount": 0,
+            "places": [
+                "rec3lQCLJDUCRIbFb"
+            ],
+            "placesCount": 1,
             "yearNum": -1442,
             "richText": "This _is_ the inheritance of the tribe of the children of [Asher](/person/asher_337) according to their families, these cities with their villages.\n",
             "verseID": "06019031",
-            "modified": "2026-10-13T03:34:02.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -169553,11 +169739,14 @@
                 "recmAUAIwW85ajksn"
             ],
             "peopleCount": 1,
-            "placesCount": 0,
+            "places": [
+                "reckELyVYi4Wnms4H"
+            ],
+            "placesCount": 1,
             "yearNum": -1442,
             "richText": "The sixth lot came out to the children of [Naphtali](/person/naphtali_2149), _even_ for the children of [Naphtali](/person/naphtali_2149) according to their families.\n",
             "verseID": "06019032",
-            "modified": "2026-10-13T03:39:25.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -169585,13 +169774,14 @@
                 "recnfxMzJmRCjlEnB",
                 "recJIedE5uUUhMaMx",
                 "rec5dSSsOutWlH2fW",
-                "rec7La3S5LreMht6s"
+                "rec7La3S5LreMht6s",
+                "reckELyVYi4Wnms4H"
             ],
-            "placesCount": 6,
+            "placesCount": 7,
             "yearNum": -1442,
             "richText": "And their coast was from [Heleph](/place/heleph_556), from [Allon](/person/allon_190) to [Zaanannim](/place/zaanannim_1235), and [Adami](/place/adami-nekeb_23), [Nekeb](/place/adami-nekeb_23), and [Jabneel](/place/jabneel_614), unto [Lakum](/place/lakkum_715); and the outgoings thereof were at [Jordan](/place/jordan_653):\n",
             "verseID": "06019033",
-            "modified": "2026-10-13T03:48:39.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -169618,13 +169808,16 @@
             "places": [
                 "rec6CBbPCu4LYuZY9",
                 "recj54HWxfFJvfSD4",
-                "rec5dSSsOutWlH2fW"
+                "rec5dSSsOutWlH2fW",
+                "reckELyVYi4Wnms4H",
+                "rec3lQCLJDUCRIbFb",
+                "recQubz0YtXby0qbE"
             ],
-            "placesCount": 3,
+            "placesCount": 6,
             "yearNum": -1442,
             "richText": "And _then_ the coast turneth westward to [Aznoth-tabor](/place/aznoth-tabor_131), and goeth out from thence to [Hukkok](/place/hukkok_586), and reacheth to [Zebulun](/person/zebulun_3002) on the south side, and reacheth to [Asher](/person/asher_337) on the west side, and to [Judah](/person/judah_1751) upon [Jordan](/place/jordan_653) toward the sunrising.\n",
             "verseID": "06019034",
-            "modified": "2026-10-13T03:33:43.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -169648,13 +169841,14 @@
                 "rectJBnQ5S4JYF8Ab",
                 "reclzgV7mRRSxyhph",
                 "reczghi5uPnwl4Wej",
-                "reciPjLN4mix2lTna"
+                "reciPjLN4mix2lTna",
+                "reckELyVYi4Wnms4H"
             ],
-            "placesCount": 5,
+            "placesCount": 6,
             "yearNum": -1442,
             "richText": "And the fenced cities _are_ [Ziddim](/place/ziddim_1258), [Zer](/place/zer_1252), and [Hammath](/place/hammath_518), [Rakkath](/place/rakkath_970), and [Chinnereth](/place/chinnereth_294),\n",
             "verseID": "06019035",
-            "modified": "2026-10-13T03:29:20.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -169676,13 +169870,14 @@
             "places": [
                 "recCFbPoMSDmIyxXM",
                 "recRBrjsT4oGwbZ2a",
-                "rec1krwAWclcQ8EeG"
+                "rec1krwAWclcQ8EeG",
+                "reckELyVYi4Wnms4H"
             ],
-            "placesCount": 3,
+            "placesCount": 4,
             "yearNum": -1442,
             "richText": "And [Adamah](/place/adamah_22), and [Ramah](/place/ramah_974), and [Hazor](/place/hazor_545),\n",
             "verseID": "06019036",
-            "modified": "2026-10-13T03:38:33.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -169704,13 +169899,15 @@
             "places": [
                 "recNr91lpkTslxF4f",
                 "rec6G3mRvN9MpCyjT",
-                "recjQ3pJ2xDBU6gtE"
+                "recjQ3pJ2xDBU6gtE",
+                "reckELyVYi4Wnms4H",
+                "recG9W13IqBso3iHl"
             ],
-            "placesCount": 3,
+            "placesCount": 5,
             "yearNum": -1442,
             "richText": "And [Kedesh](/place/kedesh_676), and [Edrei](/place/edrei_358), and [En-hazor](/place/en-hazor_392),\n",
             "verseID": "06019037",
-            "modified": "2026-10-13T03:33:20.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -169734,13 +169931,14 @@
                 "recHNN7gzsBdtfjhK",
                 "recpvm5bP5JLcPYhR",
                 "rec8qfFCsgL6zLVbt",
-                "rec3HDjmH4pPdYm8X"
+                "rec3HDjmH4pPdYm8X",
+                "reckELyVYi4Wnms4H"
             ],
-            "placesCount": 5,
+            "placesCount": 6,
             "yearNum": -1442,
             "richText": "And [Iron](/place/yiron_1233), and [Migdal-el](/place/migdal-el_797), [Horem](/place/horem_577), and [Beth-anath](/place/beth-anath_184), and [Beth-shemesh](/place/beth-shemesh_236); nineteen cities with their villages.\n",
             "verseID": "06019038",
-            "modified": "2026-10-13T03:41:12.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -169762,11 +169960,14 @@
                 "recmAUAIwW85ajksn"
             ],
             "peopleCount": 1,
-            "placesCount": 0,
+            "places": [
+                "reckELyVYi4Wnms4H"
+            ],
+            "placesCount": 1,
             "yearNum": -1442,
             "richText": "This _is_ the inheritance of the tribe of the children of [Naphtali](/person/naphtali_2149) according to their families, the cities and their villages.\n",
             "verseID": "06019039",
-            "modified": "2026-10-13T03:45:15.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -169788,11 +169989,14 @@
                 "recwqzXQjpmdyyW9y"
             ],
             "peopleCount": 1,
-            "placesCount": 0,
+            "places": [
+                "recxPIN14tjKQONpD"
+            ],
+            "placesCount": 1,
             "yearNum": -1442,
             "richText": "_And_ the seventh lot came out for the tribe of the children of [Dan](/person/dan_973) according to their families.\n",
             "verseID": "06019040",
-            "modified": "2026-10-13T03:34:08.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -169814,13 +170018,14 @@
             "places": [
                 "recdiq65RtvGagXOn",
                 "rec2CA3fcreugXc2x",
-                "recTzP6VykOhwetgm"
+                "recTzP6VykOhwetgm",
+                "recxPIN14tjKQONpD"
             ],
-            "placesCount": 3,
+            "placesCount": 4,
             "yearNum": -1442,
             "richText": "And the coast of their inheritance was [Zorah](/place/zorah_1275), and [Eshtaol](/place/eshtaol_411), and [Ir-shemesh](/place/ir-shemesh_600),\n",
             "verseID": "06019041",
-            "modified": "2026-10-13T03:38:37.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -169842,13 +170047,14 @@
             "places": [
                 "recAW3NovSbgdfNfk",
                 "recBqx0nW5YhJsINd",
-                "recQi9pDBUBeeYJip"
+                "recQi9pDBUBeeYJip",
+                "recxPIN14tjKQONpD"
             ],
-            "placesCount": 3,
+            "placesCount": 4,
             "yearNum": -1442,
             "richText": "And [Shaalabbin](/place/shaalabbin_1052), and [Ajalon](/place/aijalon_40), and [Jethlah](/place/ithlah_602),\n",
             "verseID": "06019042",
-            "modified": "2026-10-13T03:46:59.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -169869,13 +170075,14 @@
             "peopleCount": 0,
             "places": [
                 "rec3gWYVMktOUkAzZ",
-                "recZhFEpFG9CKHMou"
+                "recZhFEpFG9CKHMou",
+                "recxPIN14tjKQONpD"
             ],
-            "placesCount": 2,
+            "placesCount": 3,
             "yearNum": -1442,
             "richText": "And [Elon](/place/elon_373), and Thimnathah, and [Ekron](/place/ekron_364),\n",
             "verseID": "06019043",
-            "modified": "2026-10-13T03:34:00.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -169897,13 +170104,14 @@
             "places": [
                 "recKM0IXdEN1RtLYi",
                 "rec2H0XhjHGTh1ivm",
-                "recF7d7nbuyMJEUP2"
+                "recF7d7nbuyMJEUP2",
+                "recxPIN14tjKQONpD"
             ],
-            "placesCount": 3,
+            "placesCount": 4,
             "yearNum": -1442,
             "richText": "And [Eltekeh](/place/eltekeh_378), and [Gibbethon](/place/gibbethon_465), and [Baalath](/place/baalath_136),\n",
             "verseID": "06019044",
-            "modified": "2026-10-13T03:44:49.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -169925,13 +170133,14 @@
             "places": [
                 "recCLRd89XHzdfXgE",
                 "reci3HUeTdgWbCGXb",
-                "recQckh2u8vNfkcna"
+                "recQckh2u8vNfkcna",
+                "recxPIN14tjKQONpD"
             ],
-            "placesCount": 3,
+            "placesCount": 4,
             "yearNum": -1442,
             "richText": "And [Jehud](/place/jehud_632), and [Bene-berak](/place/bene-berak_173), and [Gath-rimmon](/place/gath-rimmon_444),\n",
             "verseID": "06019045",
-            "modified": "2026-10-13T03:42:54.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -169953,13 +170162,14 @@
             "places": [
                 "rec0wrua442IGGgtN",
                 "recFlw9QjiTit8Kdt",
-                "recIeuZZMsolnZA6n"
+                "recIeuZZMsolnZA6n",
+                "recxPIN14tjKQONpD"
             ],
-            "placesCount": 3,
+            "placesCount": 4,
             "yearNum": -1442,
             "richText": "And [Me-jarkon](/place/me-jarkon_778), and [Rakkon](/place/rakkon_971), with the border before [Japho](/place/joppa_652).\n",
             "verseID": "06019046",
-            "modified": "2026-10-13T03:31:50.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -170066,13 +170276,14 @@
             ],
             "peopleCount": 1,
             "places": [
-                "recLqhClSrRFpvMvG"
+                "recLqhClSrRFpvMvG",
+                "rect3olmTnwW17ieJ"
             ],
-            "placesCount": 1,
+            "placesCount": 2,
             "yearNum": -1442,
             "richText": "According to the word of the [LORD](/person/god_1324) they gave him the city which he asked, _even_ [Timnath-serah](/place/timnath-serah_1167) in mount Ephraim: and he built the city, and dwelt therein.\n",
             "verseID": "06019050",
-            "modified": "2026-10-13T03:49:20.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -170280,13 +170491,15 @@
                 "recmL1lWBqWP3mAq3",
                 "recUySlrBva4ffoVs",
                 "reccnARM8vn8OfAgg",
-                "rec6G3mRvN9MpCyjT"
+                "rec6G3mRvN9MpCyjT",
+                "recuzNJh7jSpK2w8w",
+                "reckELyVYi4Wnms4H"
             ],
-            "placesCount": 5,
+            "placesCount": 7,
             "yearNum": -1442,
             "richText": "And they appointed [Kedesh](/place/kedesh_676) in [Galilee](/place/galilee_433) in mount [Naphtali](/person/naphtali_2149), and [Shechem](/place/shechem_1069) in mount [Ephraim](/person/ephraim_1206), and [Kirjath-arba](/place/kiriath-arba_697), which _is_ [Hebron](/place/hebron_551), in the mountain of [Judah](/person/judah_1751).\n",
             "verseID": "06020007",
-            "modified": "2026-10-13T03:31:18.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -170664,13 +170877,14 @@
             ],
             "peopleCount": 3,
             "places": [
-                "recJSfVnIcPibY6aX"
+                "recJSfVnIcPibY6aX",
+                "recuzNJh7jSpK2w8w"
             ],
-            "placesCount": 1,
+            "placesCount": 2,
             "yearNum": -1442,
             "richText": "And they gave them the city of [Arba](/person/arba_290) the father of [Anak](/person/anak_252), which _city_ _is_ [Hebron](/place/hebron_551), in the hill _country_ of [Judah](/person/judah_1751), with the suburbs thereof round about it.\n",
             "verseID": "06021011",
-            "modified": "2026-10-13T03:31:12.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -171372,13 +171586,14 @@
             ],
             "peopleCount": 1,
             "places": [
-                "recwBsc9ohHXV6b60"
+                "recwBsc9ohHXV6b60",
+                "recdpEhvQtHoNcRZQ"
             ],
-            "placesCount": 1,
+            "placesCount": 2,
             "yearNum": -1442,
             "richText": "And out of the tribe of [Reuben](/person/reuben_2429), [Bezer](/place/bezer_247) with her suburbs, and Jahazah with her suburbs,\n",
             "verseID": "06021036",
-            "modified": "2026-10-13T03:33:14.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -171399,13 +171614,14 @@
             "peopleCount": 0,
             "places": [
                 "recek1GiER70Le7qh",
-                "rec73VSeOz3XtX2ph"
+                "rec73VSeOz3XtX2ph",
+                "recdpEhvQtHoNcRZQ"
             ],
-            "placesCount": 2,
+            "placesCount": 3,
             "yearNum": -1442,
             "richText": "[Kedemoth](/place/kedemoth_675) with her suburbs, and [Mephaath](/place/mephaath_780) with her suburbs; four cities.\n",
             "verseID": "06021037",
-            "modified": "2026-10-13T03:46:31.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -174360,12 +174576,13 @@
             "peopleCount": 1,
             "places": [
                 "recRnjWuL5tcXfusW",
-                "recsX4et9ux7g07Zg"
+                "recsX4et9ux7g07Zg",
+                "recuzNJh7jSpK2w8w"
             ],
-            "placesCount": 2,
+            "placesCount": 3,
             "richText": "And the children of the Kenite, Moses\u2019 father in law, went up out of the city of palm trees with the children of [Judah](/person/judah_1751) into the wilderness of [Judah](/person/judah_1751), which _lieth_ in the [south](/place/negeb_885) of [Arad](/place/arad_81); and they went and dwelt among the people.\n",
             "verseID": "07001016",
-            "modified": "2021-01-08T15:08:28.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -174663,12 +174880,13 @@
                 "recWpI3yiVzlUPgnT",
                 "rechSy0aCb5vNVH3f",
                 "recyS1I7gkQt8hvRD",
-                "recvyeVO2Ex1jYF7o"
+                "recvyeVO2Ex1jYF7o",
+                "recB4j4FGhLQPCbqw"
             ],
-            "placesCount": 5,
+            "placesCount": 6,
             "richText": "Neither did [Manasseh](/person/manasseh_1928) drive out _the_ _inhabitants_ _of_ [Beth-shean](/place/beth-shean_233) and her towns, nor [Taanach](/place/taanach_1124) and her towns, nor the inhabitants of [Dor](/place/dor_341) and her towns, nor the inhabitants of [Ibleam](/place/ibleam_589) and her towns, nor the inhabitants of [Megiddo](/place/megiddo_777) and her towns: but the Canaanites would dwell in that land.\n",
             "verseID": "07001027",
-            "modified": "2021-01-08T15:08:28.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -174776,12 +174994,13 @@
                 "rec6a1LOQkLPcfRPk",
                 "recRpCv9XP4GPVkPQ",
                 "recDsgW2rUeXNQsN9",
-                "recYweWcGLcvYVDDF"
+                "recYweWcGLcvYVDDF",
+                "rec3lQCLJDUCRIbFb"
             ],
-            "placesCount": 7,
+            "placesCount": 8,
             "richText": "Neither did [Asher](/person/asher_337) drive out the inhabitants of [Accho](/place/acco_15), nor the inhabitants of [Zidon](/place/sidon_1093), nor of [Ahlab](/place/ahlab_35), nor of [Achzib](/place/achzib_19), nor of [Helbah](/place/helbah_553), nor of [Aphik](/place/aphik_75), nor of [Rehob](/place/rehob_989):\n",
             "verseID": "07001031",
-            "modified": "2021-01-08T15:08:28.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -174800,10 +175019,13 @@
             "verseText": "But the Asherites dwelt among the Canaanites, the inhabitants of the land: for they did not drive them out.",
             "mdText": "But the Asherites dwelt among the Canaanites, the inhabitants of the land: for they did not drive them out.",
             "peopleCount": 0,
-            "placesCount": 0,
+            "places": [
+                "rec3lQCLJDUCRIbFb"
+            ],
+            "placesCount": 1,
             "richText": "But the Asherites dwelt among the Canaanites, the inhabitants of the land: for they did not drive them out.\n",
             "verseID": "07001032",
-            "modified": "2020-06-07T15:16:16.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -174854,10 +175076,13 @@
                 "recwqzXQjpmdyyW9y"
             ],
             "peopleCount": 1,
-            "placesCount": 0,
+            "places": [
+                "recxPIN14tjKQONpD"
+            ],
+            "placesCount": 1,
             "richText": "And the Amorites forced the children of [Dan](/person/dan_973) into the mountain: for they would not suffer them to come down to the valley:\n",
             "verseID": "07001034",
-            "modified": "2021-01-08T15:08:28.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -177734,12 +177959,13 @@
             "peopleCount": 2,
             "places": [
                 "recPoImnA7S93jcHx",
-                "rec5dSSsOutWlH2fW"
+                "rec5dSSsOutWlH2fW",
+                "rec3lQCLJDUCRIbFb"
             ],
-            "placesCount": 2,
+            "placesCount": 3,
             "richText": "[Gilead](/place/gilead_475) abode beyond [Jordan](/place/jordan_653): and why did [Dan](/person/dan_973) remain in ships? [Asher](/person/asher_337) continued on the sea shore, and abode in his breaches.\n",
             "verseID": "07005017",
-            "modified": "2021-01-08T15:08:29.000Z",
+            "modified": "2026-10-13T19:35:59.000Z",
             "event": [
                 "recoroJg305CLphtu"
             ]
@@ -186508,13 +186734,14 @@
             ],
             "peopleCount": 1,
             "places": [
-                "recNowoUM11x2dhdR"
+                "recNowoUM11x2dhdR",
+                "recuzNJh7jSpK2w8w"
             ],
-            "placesCount": 1,
+            "placesCount": 2,
             "yearNum": -1140,
             "richText": "Then the Philistines went up, and pitched in [Judah](/person/judah_1751), and spread themselves in [Lehi](/place/lehi_726).\n",
             "verseID": "07015009",
-            "modified": "2026-10-13T03:37:00.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -187995,11 +188222,14 @@
             "verseText": "In those days there was no king in Israel: and in those days the tribe of the Danites sought them an inheritance to dwell in; for unto that day all their inheritance had not fallen unto them among the tribes of Israel.",
             "mdText": "In those days _there_ _was_ no king in Israel: and in those days the tribe of the Danites sought them an inheritance to dwell in; for unto that day _all_ _their_ inheritance had not fallen unto them among the tribes of Israel.",
             "peopleCount": 0,
-            "placesCount": 0,
+            "places": [
+                "recxPIN14tjKQONpD"
+            ],
+            "placesCount": 1,
             "yearNum": -1405,
             "richText": "In those days _there_ _was_ no king in Israel: and in those days the tribe of the Danites sought them an inheritance to dwell in; for unto that day _all_ _their_ inheritance had not fallen unto them among the tribes of Israel.\n",
             "verseID": "07018001",
-            "modified": "2026-10-13T03:43:55.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -199194,11 +199424,14 @@
                 "reccZB8SVU5bEMcgo"
             ],
             "peopleCount": 2,
-            "placesCount": 0,
+            "places": [
+                "recVs3Ah7KNLdczEe"
+            ],
+            "placesCount": 1,
             "yearNum": -1094,
             "richText": "Then [Samuel](/person/samuel_2469) took a vial of oil, and poured _it_ upon his head, and kissed him, and said, _Is_ _it_ not because the [LORD](/person/god_1324) hath anointed thee _to_ _be_ captain over his inheritance?\n",
             "verseID": "09010001",
-            "modified": "2026-10-13T03:40:25.000Z",
+            "modified": "2026-10-13T19:51:45.000Z",
             "event": [
                 "recKRsEFLaEueJvei",
                 "rec3uYdP5Fca5BJfX"
@@ -200434,13 +200667,14 @@
             ],
             "peopleCount": 2,
             "places": [
-                "recdm9AlLF01lFAfP"
+                "recdm9AlLF01lFAfP",
+                "recVs3Ah7KNLdczEe"
             ],
-            "placesCount": 1,
+            "placesCount": 2,
             "yearNum": -1094,
             "richText": "And all the people went to [Gilgal](/place/gilgal_476); and there they made [Saul](/person/saul_2478) king before the [LORD](/person/god_1324) in [Gilgal](/place/gilgal_476); and there they sacrificed sacrifices of peace offerings before the [LORD](/person/god_1324); and there [Saul](/person/saul_2478) and all the men of Israel rejoiced greatly.\n",
             "verseID": "09011015",
-            "modified": "2026-10-13T03:48:21.000Z",
+            "modified": "2026-10-13T19:51:45.000Z",
             "event": [
                 "recKRsEFLaEueJvei"
             ]
@@ -210462,13 +210696,14 @@
             ],
             "peopleCount": 3,
             "places": [
-                "recjYhSORzD3RrIQX"
+                "recjYhSORzD3RrIQX",
+                "recuzNJh7jSpK2w8w"
             ],
-            "placesCount": 1,
+            "placesCount": 2,
             "yearNum": -1061,
             "richText": "And the prophet [Gad](/person/gad_1263) said unto [David](/person/david_994), Abide not in the hold; depart, and get thee into the land of [Judah](/person/judah_1751). Then [David](/person/david_994) departed, and came into the forest of [Hareth](/place/hereth_563).\n",
             "verseID": "09022005",
-            "modified": "2026-10-13T03:35:34.000Z",
+            "modified": "2026-10-13T19:35:59.000Z",
             "event": [
                 "recKRsEFLaEueJvei"
             ]
@@ -211819,13 +212054,14 @@
             "peopleCount": 2,
             "places": [
                 "recE7gMJ0r4eJWepx",
-                "rec31pLZApXuca8pm"
+                "rec31pLZApXuca8pm",
+                "recg8QrlQaLRaSc7C"
             ],
-            "placesCount": 2,
+            "placesCount": 3,
             "yearNum": -1060,
             "richText": "[Saul](/person/saul_2478) also and his men went to seek _him_. And they told [David](/person/david_994): wherefore he came down into a rock, and abode in the wilderness of [Maon](/place/maon_764). And when [Saul](/person/saul_2478) heard _that_, he pursued after [David](/person/david_994) in the wilderness of [Maon](/place/maon_764).\n",
             "verseID": "09023025",
-            "modified": "2026-10-13T03:29:54.000Z",
+            "modified": "2026-10-13T19:36:01.000Z",
             "event": [
                 "recKRsEFLaEueJvei"
             ]
@@ -211910,11 +212146,14 @@
                 "rec1ZMFtfbEvoGC73"
             ],
             "peopleCount": 2,
-            "placesCount": 0,
+            "places": [
+                "recg8QrlQaLRaSc7C"
+            ],
+            "placesCount": 1,
             "yearNum": -1060,
             "richText": "Wherefore [Saul](/person/saul_2478) returned from pursuing after [David](/person/david_994), and went against the Philistines: therefore they called that place Selahammahlekoth.\n",
             "verseID": "09023028",
-            "modified": "2026-10-13T03:40:17.000Z",
+            "modified": "2026-10-13T19:36:01.000Z",
             "event": [
                 "recKRsEFLaEueJvei"
             ]
@@ -214965,13 +215204,14 @@
             ],
             "peopleCount": 3,
             "places": [
-                "recsX4et9ux7g07Zg"
+                "recsX4et9ux7g07Zg",
+                "recuzNJh7jSpK2w8w"
             ],
-            "placesCount": 1,
+            "placesCount": 2,
             "yearNum": -1055,
             "richText": "And [Achish](/person/achish_66) said, Whither have ye made a road to day? And [David](/person/david_994) said, Against the [south](/place/negeb_885) of [Judah](/person/judah_1751), and against the [south](/place/negeb_885) of the Jerahmeelites, and against the [south](/place/negeb_885) of the Kenites.\n",
             "verseID": "09027010",
-            "modified": "2026-10-13T03:28:22.000Z",
+            "modified": "2026-10-13T19:35:59.000Z",
             "event": [
                 "recKRsEFLaEueJvei"
             ]
@@ -218160,12 +218400,13 @@
             ],
             "peopleCount": 3,
             "places": [
-                "recJSfVnIcPibY6aX"
+                "recJSfVnIcPibY6aX",
+                "recuzNJh7jSpK2w8w"
             ],
-            "placesCount": 1,
+            "placesCount": 2,
             "richText": "And it came to pass after this, that [David](/person/david_994) enquired of the [LORD](/person/god_1324), saying, Shall I go up into any of the cities of [Judah](/person/judah_1751)? And the [LORD](/person/god_1324) said unto him, Go up. And [David](/person/david_994) said, Whither shall I go up? And he said, Unto [Hebron](/place/hebron_551).\n",
             "verseID": "10002001",
-            "modified": "2021-01-08T15:06:17.000Z",
+            "modified": "2026-10-13T19:35:59.000Z",
             "event": [
                 "reczzYTmzPPDcP3qv"
             ]
@@ -220828,13 +221069,14 @@
             ],
             "peopleCount": 2,
             "places": [
-                "recJSfVnIcPibY6aX"
+                "recJSfVnIcPibY6aX",
+                "recVs3Ah7KNLdczEe"
             ],
-            "placesCount": 1,
+            "placesCount": 2,
             "yearNum": -1047,
             "richText": "So all the elders of Israel came to the king to [Hebron](/place/hebron_551); and king [David](/person/david_994) made a league with them in [Hebron](/place/hebron_551) before the [LORD](/person/god_1324): and they anointed [David](/person/david_994) king over Israel.\n",
             "verseID": "10005003",
-            "modified": "2026-10-13T03:39:21.000Z",
+            "modified": "2026-10-13T19:51:45.000Z",
             "event": [
                 "reczzYTmzPPDcP3qv"
             ]
@@ -231274,11 +231516,14 @@
                 "recEtv9ql7Hh4XAW4"
             ],
             "peopleCount": 1,
-            "placesCount": 0,
+            "places": [
+                "rec1kr2N5f0RwrJhD"
+            ],
+            "placesCount": 1,
             "yearNum": -1022,
             "richText": "So the people went out into the field against Israel: and the battle was in the wood of [Ephraim](/person/ephraim_1206);\n",
             "verseID": "10018006",
-            "modified": "2026-10-13T03:46:19.000Z",
+            "modified": "2026-10-13T19:36:01.000Z",
             "event": [
                 "reczzYTmzPPDcP3qv"
             ]
@@ -231329,11 +231574,14 @@
             "verseText": "For the battle was there scattered over the face of all the country: and the wood devoured more people that day than the sword devoured.",
             "mdText": "For the battle was there scattered over the face of all the country: and the wood devoured more people that day than the sword devoured.",
             "peopleCount": 0,
-            "placesCount": 0,
+            "places": [
+                "rec1kr2N5f0RwrJhD"
+            ],
+            "placesCount": 1,
             "yearNum": -1022,
             "richText": "For the battle was there scattered over the face of all the country: and the wood devoured more people that day than the sword devoured.\n",
             "verseID": "10018008",
-            "modified": "2026-10-13T03:46:49.000Z",
+            "modified": "2026-10-13T19:36:01.000Z",
             "event": [
                 "reczzYTmzPPDcP3qv"
             ]
@@ -237661,13 +237909,14 @@
             "places": [
                 "reco9Wc4YyNXZq43z",
                 "recsX4et9ux7g07Zg",
-                "rectrAkGtrZH5LMp8"
+                "rectrAkGtrZH5LMp8",
+                "recuzNJh7jSpK2w8w"
             ],
-            "placesCount": 3,
+            "placesCount": 4,
             "yearNum": -1016,
             "richText": "And came to the strong hold of [Tyre](/place/tyre_1184), and to all the cities of the Hivites, and of the Canaanites: and they went out to the [south](/place/negeb_885) of [Judah](/person/judah_1751), _even_ to [Beer-sheba](/place/beersheba_170).\n",
             "verseID": "10024007",
-            "modified": "2026-10-13T03:39:55.000Z",
+            "modified": "2026-10-13T19:35:59.000Z",
             "event": [
                 "reczzYTmzPPDcP3qv"
             ]
@@ -241847,11 +242096,14 @@
                 "rec0BAacWSGBXZ0zI"
             ],
             "peopleCount": 1,
-            "placesCount": 0,
+            "places": [
+                "recVs3Ah7KNLdczEe"
+            ],
+            "placesCount": 1,
             "yearNum": -1013,
             "richText": "So king [Solomon](/person/solomon_2762) was king over all Israel.\n",
             "verseID": "11004001",
-            "modified": "2026-10-13T03:39:36.000Z",
+            "modified": "2026-10-13T19:51:45.000Z",
             "event": [
                 "recKTbnO8VY7lXLeX"
             ]
@@ -242311,11 +242563,14 @@
                 "rec0BAacWSGBXZ0zI"
             ],
             "peopleCount": 4,
-            "placesCount": 0,
+            "places": [
+                "reckELyVYi4Wnms4H"
+            ],
+            "placesCount": 1,
             "yearNum": -1013,
             "richText": "[Ahimaaz](/person/ahimaaz_145) _was_ in [Naphtali](/person/naphtali_2149); he also took [Basmath](/person/basmath_415) the daughter of [Solomon](/person/solomon_2762) to wife:\n",
             "verseID": "11004015",
-            "modified": "2026-10-13T03:37:15.000Z",
+            "modified": "2026-10-13T19:35:59.000Z",
             "event": [
                 "recKTbnO8VY7lXLeX"
             ]
@@ -242343,13 +242598,14 @@
             ],
             "peopleCount": 3,
             "places": [
-                "recFIAoypGksc1iK6"
+                "recFIAoypGksc1iK6",
+                "rec3lQCLJDUCRIbFb"
             ],
-            "placesCount": 1,
+            "placesCount": 2,
             "yearNum": -1013,
             "richText": "[Baanah](/person/baanah_584) the son of [Hushai](/person/hushai_1577) _was_ in [Asher](/person/asher_337) and in [Aloth](/place/bealoth_162):\n",
             "verseID": "11004016",
-            "modified": "2026-10-13T03:29:09.000Z",
+            "modified": "2026-10-13T19:35:59.000Z",
             "event": [
                 "recKTbnO8VY7lXLeX"
             ]
@@ -242376,11 +242632,14 @@
                 "rec3HzZknu1HOvNci"
             ],
             "peopleCount": 3,
-            "placesCount": 0,
+            "places": [
+                "rec5oytZ1tzkgwty5"
+            ],
+            "placesCount": 1,
             "yearNum": -1013,
             "richText": "[Jehoshaphat](/person/jehoshaphat_807) the son of [Paruah](/person/paruah_2278), in [Issachar](/person/issachar_645):\n",
             "verseID": "11004017",
-            "modified": "2026-10-13T03:46:54.000Z",
+            "modified": "2026-10-13T19:35:59.000Z",
             "event": [
                 "recKTbnO8VY7lXLeX"
             ]
@@ -251271,10 +251530,13 @@
                 "recqQthL4TAHb0KeC"
             ],
             "peopleCount": 3,
-            "placesCount": 0,
+            "places": [
+                "recM4RAfBVSEH5W7l"
+            ],
+            "placesCount": 1,
             "richText": "But _as_ _for_ the children of [Israel](/person/israel_682) which dwelt in the cities of [Judah](/person/judah_1751), [Rehoboam](/person/rehoboam_2412) reigned over them.\n",
             "verseID": "11012017",
-            "modified": "2021-01-08T15:05:57.000Z",
+            "modified": "2026-10-13T19:35:59.000Z",
             "event": [
                 "recX0KzMJywvbeM6D"
             ]
@@ -251331,10 +251593,13 @@
                 "rec1ZMFtfbEvoGC73"
             ],
             "peopleCount": 1,
-            "placesCount": 0,
+            "places": [
+                "recmjed5waWF62yBe"
+            ],
+            "placesCount": 1,
             "richText": "So Israel rebelled against the house of [David](/person/david_994) unto this day.\n",
             "verseID": "11012019",
-            "modified": "2021-01-08T15:05:57.000Z",
+            "modified": "2026-10-13T19:51:45.000Z",
             "event": [
                 "recX0KzMJywvbeM6D"
             ]
@@ -251361,10 +251626,13 @@
                 "rec0rm6yYA4YUQrkh"
             ],
             "peopleCount": 3,
-            "placesCount": 0,
+            "places": [
+                "recmjed5waWF62yBe"
+            ],
+            "placesCount": 1,
             "richText": "And it came to pass, when all Israel heard that [Jeroboam](/person/jeroboam_872) was come again, that they sent and called him unto the congregation, and made him king over all Israel: there was none that followed the house of [David](/person/david_994), but the tribe of [Judah](/person/judah_1751) only.\n",
             "verseID": "11012020",
-            "modified": "2021-01-08T15:05:57.000Z",
+            "modified": "2026-10-13T19:51:45.000Z",
             "event": [
                 "recX0KzMJywvbeM6D",
                 "rec824qPcsyF7GtTh",
@@ -251395,12 +251663,13 @@
             ],
             "peopleCount": 4,
             "places": [
-                "recL1WV82pXaRBQ59"
+                "recL1WV82pXaRBQ59",
+                "recM4RAfBVSEH5W7l"
             ],
-            "placesCount": 1,
+            "placesCount": 2,
             "richText": "And when [Rehoboam](/person/rehoboam_2412) was come to [Jerusalem](/place/jerusalem_636), he assembled all the house of [Judah](/person/judah_1751), with the tribe of [Benjamin](/person/benjamin_463), an hundred and fourscore thousand chosen men, which were warriors, to fight against the house of Israel, to bring the kingdom again to [Rehoboam](/person/rehoboam_2412) the son of [Solomon](/person/solomon_2762).\n",
             "verseID": "11012021",
-            "modified": "2021-01-08T15:05:57.000Z",
+            "modified": "2026-10-13T19:35:59.000Z",
             "event": [
                 "recX0KzMJywvbeM6D"
             ]
@@ -251795,12 +252064,13 @@
             ],
             "peopleCount": 3,
             "places": [
-                "recJK76HLZSOzxTWW"
+                "recJK76HLZSOzxTWW",
+                "recM4RAfBVSEH5W7l"
             ],
-            "placesCount": 1,
+            "placesCount": 2,
             "richText": "And, behold, there came a man of [God](/person/god_1324) out of [Judah](/person/judah_1751) by the word of the [LORD](/person/god_1324) unto [Beth-el](/place/bethel_202): and [Jeroboam](/person/jeroboam_872) stood by the altar to burn incense.\n",
             "verseID": "11013001",
-            "modified": "2021-01-08T15:05:57.000Z",
+            "modified": "2026-10-13T19:35:59.000Z",
             "event": [
                 "rec824qPcsyF7GtTh"
             ]
@@ -254212,13 +254482,14 @@
                 "recyET7N6CKcQ1wsP",
                 "recaGCm1p3KSLswYI",
                 "recWhosCfy5IVd2fU",
-                "recwFUncFiNWPsPWN"
+                "recwFUncFiNWPsPWN",
+                "reckELyVYi4Wnms4H"
             ],
-            "placesCount": 4,
+            "placesCount": 5,
             "yearNum": -929,
             "richText": "So [Ben-hadad](/person/ben-hadad_452) hearkened unto king [Asa](/person/asa_318), and sent the captains of the hosts which he had against the cities of Israel, and smote [Ijon](/place/ijon_594), and [Dan](/person/dan_973), and [Abel-beth-maachah](/place/abel-beth-maacah_5), and all [Cinneroth](/place/chinneroth_295), with all the land of [Naphtali](/person/naphtali_2149).\n",
             "verseID": "11015020",
-            "modified": "2026-10-13T03:40:09.000Z",
+            "modified": "2026-10-13T19:35:59.000Z",
             "event": [
                 "recmEKC9vgAJDYa2z"
             ]
@@ -270412,13 +270683,14 @@
                 "recV2VLKz20IKBZ1N",
                 "recbv8OwCVWm7wEAK",
                 "rec5dSSsOutWlH2fW",
-                "recPoImnA7S93jcHx"
+                "recPoImnA7S93jcHx",
+                "recAOk9B1CLPKV2iD"
             ],
-            "placesCount": 5,
+            "placesCount": 6,
             "yearNum": -883,
             "richText": "From [Jordan](/place/jordan_653) eastward, all the land of [Gilead](/place/gilead_475), the Gadites, and the Reubenites, and the Manassites, from [Aroer](/place/aroer_93), which _is_ by the river [Arnon](/place/river_of_arnon_1225), even [Gilead](/place/gilead_475) and [Bashan](/place/bashan_159).\n",
             "verseID": "12010033",
-            "modified": "2026-10-13T03:32:54.000Z",
+            "modified": "2026-10-13T19:35:59.000Z",
             "event": [
                 "reck6rXD9hZiDk0Kz"
             ]
@@ -274308,13 +274580,14 @@
                 "rec6G3mRvN9MpCyjT",
                 "recWhosCfy5IVd2fU",
                 "recCFbPoMSDmIyxXM",
-                "recyET7N6CKcQ1wsP"
+                "recyET7N6CKcQ1wsP",
+                "reckELyVYi4Wnms4H"
             ],
-            "placesCount": 8,
+            "placesCount": 9,
             "yearNum": -758,
             "richText": "In the days of [Pekah](/person/pekah_2299) king of Israel came Tiglath-pileser king of [Assyria](/place/assyria_111), and took [Ijon](/place/ijon_594), and [Abel-beth-maachah](/place/abel-beth-maacah_5), and [Janoah](/place/janoah_622), and [Kedesh](/place/kedesh_676), and [Hazor](/place/hazor_545), and [Gilead](/place/gilead_475), and [Galilee](/place/galilee_433), all the land of [Naphtali](/person/naphtali_2149), and carried them captive to [Assyria](/place/assyria_111).\n",
             "verseID": "12015029",
-            "modified": "2026-10-13T03:36:34.000Z",
+            "modified": "2026-10-13T19:35:59.000Z",
             "event": [
                 "recuwnodcdBQpgk6J"
             ]
@@ -275411,13 +275684,14 @@
                 "recIJFRcqI6KbKgXb",
                 "recmMd8e4NhBbEixF",
                 "rec1AuhYfD1Pt34oA",
-                "recEP3QZ3HUmIkv4Q"
+                "recEP3QZ3HUmIkv4Q",
+                "recmjed5waWF62yBe"
             ],
-            "placesCount": 5,
+            "placesCount": 6,
             "yearNum": -720,
             "richText": "In the ninth year of [Hoshea](/person/hoshea_1559) the king of [Assyria](/place/assyria_111) took [Samaria](/place/samaria_1022), and carried Israel away into [Assyria](/place/assyria_111), and placed them in [Halah](/place/halah_508) and in [Habor](/place/habor_499) _by_ the river of [Gozan](/place/gozan_492), and in the cities of the Medes.\n",
             "verseID": "12017006",
-            "modified": "2026-10-13T03:31:52.000Z"
+            "modified": "2026-10-13T19:51:45.000Z"
         }
     },
     {
@@ -275732,11 +276006,14 @@
                 "reccZB8SVU5bEMcgo"
             ],
             "peopleCount": 2,
-            "placesCount": 0,
+            "places": [
+                "recmjed5waWF62yBe"
+            ],
+            "placesCount": 1,
             "yearNum": -720,
             "richText": "Therefore the [LORD](/person/god_1324) was very angry with Israel, and removed them out of his sight: there was none left but the tribe of [Judah](/person/judah_1751) only.\n",
             "verseID": "12017018",
-            "modified": "2026-10-13T03:29:04.000Z"
+            "modified": "2026-10-13T19:51:45.000Z"
         }
     },
     {
@@ -276763,13 +277040,14 @@
             ],
             "peopleCount": 3,
             "places": [
-                "recIJFRcqI6KbKgXb"
+                "recIJFRcqI6KbKgXb",
+                "recM4RAfBVSEH5W7l"
             ],
-            "placesCount": 1,
+            "placesCount": 2,
             "yearNum": -712,
             "richText": "Now in the fourteenth year of king [Hezekiah](/person/hezekiah_1512) did [Sennacherib](/person/sennacherib_2489) king of [Assyria](/place/assyria_111) come up against all the fenced cities of [Judah](/person/judah_1751), and took them.\n",
             "verseID": "12018013",
-            "modified": "2026-10-13T03:39:25.000Z",
+            "modified": "2026-10-13T19:35:59.000Z",
             "event": [
                 "recRusMYR5At9TlEV"
             ]
@@ -280835,12 +281113,13 @@
             ],
             "peopleCount": 2,
             "places": [
-                "recL1WV82pXaRBQ59"
+                "recL1WV82pXaRBQ59",
+                "recM4RAfBVSEH5W7l"
             ],
-            "placesCount": 1,
+            "placesCount": 2,
             "richText": "And he put down the idolatrous priests, whom the kings of [Judah](/person/judah_1751) had ordained to burn incense in the high places in the cities of [Judah](/person/judah_1751), and in the places round about [Jerusalem](/place/jerusalem_636); them also that burned incense unto [Baal](/person/baal_573), to the sun, and to the moon, and to the planets, and to all the host of heaven.\n",
             "verseID": "12023005",
-            "modified": "2021-01-08T15:06:13.000Z",
+            "modified": "2026-10-13T19:35:59.000Z",
             "event": [
                 "recVf3eQjAq3nk94o"
             ]
@@ -280928,12 +281207,13 @@
             "peopleCount": 2,
             "places": [
                 "recE4R1DFGiDMLM5y",
-                "rectrAkGtrZH5LMp8"
+                "rectrAkGtrZH5LMp8",
+                "recuzNJh7jSpK2w8w"
             ],
-            "placesCount": 2,
+            "placesCount": 3,
             "richText": "And he brought all the priests out of the cities of [Judah](/person/judah_1751), and defiled the high places where the priests had burned incense, from [Geba](/place/geba_447) to [Beer-sheba](/place/beersheba_170), and brake down the high places of the gates that _were_ in the entering in of the gate of [Joshua](/person/joshua_1729) the governor of the city, which _were_ on a man\u2019s left hand at the gate of the city.\n",
             "verseID": "12023008",
-            "modified": "2021-01-08T15:06:13.000Z",
+            "modified": "2026-10-13T19:35:59.000Z",
             "event": [
                 "recVf3eQjAq3nk94o"
             ]
@@ -281419,12 +281699,13 @@
             ],
             "peopleCount": 4,
             "places": [
-                "recL1WV82pXaRBQ59"
+                "recL1WV82pXaRBQ59",
+                "recM4RAfBVSEH5W7l"
             ],
-            "placesCount": 1,
+            "placesCount": 2,
             "richText": "Moreover the _workers_ _with_ familiar spirits, and the wizards, and the images, and the idols, and all the abominations that were spied in the land of [Judah](/person/judah_1751) and in [Jerusalem](/place/jerusalem_636), did [Josiah](/person/josiah_1730) put away, that he might perform the words of the law which were written in the book that [Hilkiah](/person/hilkiah_1524) the priest found in the house of the [LORD](/person/god_1324).\n",
             "verseID": "12023024",
-            "modified": "2021-01-08T15:06:13.000Z",
+            "modified": "2026-10-13T19:35:59.000Z",
             "event": [
                 "recVf3eQjAq3nk94o"
             ]
@@ -285588,11 +285869,14 @@
                 "recuTZx9PNi3rHpju"
             ],
             "peopleCount": 4,
-            "placesCount": 0,
+            "places": [
+                "recegV6Iq0TAebjHx"
+            ],
+            "placesCount": 1,
             "yearNum": -1469,
             "richText": "And after that [Hezron](/person/hezron_1520) was dead in Caleb-ephratah, then [Abiah](/person/abiah_16) [Hezron\u2019s](/person/hezron_1519) wife bare him [Ashur](/person/ashur_342) the father of Tekoa.\n",
             "verseID": "13002024",
-            "modified": "2026-10-13T03:35:21.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -286163,11 +286447,14 @@
                 "recKfrGorOhs3JwFF"
             ],
             "peopleCount": 4,
-            "placesCount": 0,
+            "places": [
+                "recVdNg3Rmw21SGMW"
+            ],
+            "placesCount": 1,
             "yearNum": -1469,
             "richText": "And [Shema](/person/shema_2614) begat [Raham](/person/raham_2389), the father of Jorkoam: and [Rekem](/person/rekem_2419) begat [Shammai](/person/shammai_2543).\n",
             "verseID": "13002044",
-            "modified": "2026-10-13T03:42:03.000Z"
+            "modified": "2026-10-13T19:36:02.000Z"
         }
     },
     {
@@ -286312,13 +286599,14 @@
             ],
             "peopleCount": 4,
             "places": [
-                "recVaBWxUUcXkszSZ"
+                "recVaBWxUUcXkszSZ",
+                "recHwFcRdrHUVpbEx"
             ],
-            "placesCount": 1,
+            "placesCount": 2,
             "yearNum": -1469,
             "richText": "She bare also [Shaaph](/person/shaaph_2507) the father of [Madmannah](/place/madmannah_749), [Sheva](/person/sheva_2675) the father of Machbenah, and the father of Gibea: and the daughter of [Caleb](/person/caleb_538) _was_ [Achsa](/person/achsa_67).\n",
             "verseID": "13002049",
-            "modified": "2026-10-13T03:30:14.000Z"
+            "modified": "2026-10-13T19:36:02.000Z"
         }
     },
     {
@@ -288749,13 +289037,14 @@
             "peopleCount": 1,
             "places": [
                 "recP89MRmWURlmjL7",
-                "recgdvRbWEPMp5I0z"
+                "recgdvRbWEPMp5I0z",
+                "recAOk9B1CLPKV2iD"
             ],
-            "placesCount": 2,
+            "placesCount": 3,
             "yearNum": -1059,
             "richText": "And the children of [Gad](/person/gad_1262) dwelt over against them, in the land of [Bashan](/place/bashan_159) unto [Salchah](/place/salecah_1017):\n",
             "verseID": "13005011",
-            "modified": "2026-10-13T03:39:29.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -288958,11 +289247,14 @@
                 "rec1YbscOE9IyJ5ey"
             ],
             "peopleCount": 2,
-            "placesCount": 0,
+            "places": [
+                "rechavO1cdznGQVRh"
+            ],
+            "placesCount": 1,
             "yearNum": -1059,
             "richText": "The sons of [Reuben](/person/reuben_2429), and the Gadites, and half the tribe of [Manasseh](/person/manasseh_1928), of valiant men, men able to bear buckler and sword, and to shoot with bow, and skilful in war, _were_ four and forty thousand seven hundred and threescore, that went out to the war.\n",
             "verseID": "13005018",
-            "modified": "2026-10-13T03:28:59.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -289091,13 +289383,14 @@
                 "recl43rvNqfYRmsyj",
                 "rec1ET3TBR0oBaWJu",
                 "recgdvRbWEPMp5I0z",
-                "rechHon8UlSwM17p9"
+                "rechHon8UlSwM17p9",
+                "rechavO1cdznGQVRh"
             ],
-            "placesCount": 4,
+            "placesCount": 5,
             "yearNum": -1059,
             "richText": "And the children of the half tribe of [Manasseh](/person/manasseh_1928) dwelt in the land: they increased from [Bashan](/place/bashan_159) unto [Baal-hermon](/place/baal-hermon_143) and [Senir](/place/senir_1047), and unto mount [Hermon](/place/mount_hermon_841).\n",
             "verseID": "13005023",
-            "modified": "2026-10-13T03:33:48.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -289184,13 +289477,14 @@
                 "recIJFRcqI6KbKgXb",
                 "recuNldBULsq0RoMw",
                 "recmMd8e4NhBbEixF",
-                "rec1AuhYfD1Pt34oA"
+                "rec1AuhYfD1Pt34oA",
+                "rechavO1cdznGQVRh"
             ],
-            "placesCount": 5,
+            "placesCount": 6,
             "yearNum": -1059,
             "richText": "And the [God](/person/god_1324) of Israel stirred up the spirit of [Pul](/person/tilgath-pilneser_2376) king of [Assyria](/place/assyria_111), and the spirit of [Tilgath-pilneser](/person/tilgath-pilneser_2376) king of [Assyria](/place/assyria_111), and he carried them away, even the Reubenites, and the Gadites, and the half tribe of [Manasseh](/person/manasseh_1928), and brought them unto [Halah](/place/halah_508), and [Habor](/place/habor_499), and [Hara](/place/hara_525), and to the river [Gozan](/place/gozan_492), unto this day.\n",
             "verseID": "13005026",
-            "modified": "2026-10-13T03:44:05.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -306855,11 +307149,14 @@
             "verseText": "At Parbar westward, four at the causeway, and two at Parbar.",
             "mdText": "At Parbar westward, four at the causeway, _and_ two at Parbar.",
             "peopleCount": 0,
-            "placesCount": 0,
+            "places": [
+                "reckFS2TCA8Oni3r8"
+            ],
+            "placesCount": 1,
             "yearNum": -1014,
             "richText": "At Parbar westward, four at the causeway, _and_ two at Parbar.\n",
             "verseID": "13026018",
-            "modified": "2026-10-13T03:48:08.000Z"
+            "modified": "2026-10-13T19:36:01.000Z"
         }
     },
     {
@@ -315192,11 +315489,14 @@
                 "rec1ZMFtfbEvoGC73"
             ],
             "peopleCount": 1,
-            "placesCount": 0,
+            "places": [
+                "recmjed5waWF62yBe"
+            ],
+            "placesCount": 1,
             "yearNum": -974,
             "richText": "And Israel rebelled against the house of [David](/person/david_994) unto this day.\n",
             "verseID": "14010019",
-            "modified": "2026-10-13T03:31:57.000Z"
+            "modified": "2026-10-13T19:51:45.000Z"
         }
     },
     {
@@ -315327,13 +315627,14 @@
             ],
             "peopleCount": 1,
             "places": [
-                "recL1WV82pXaRBQ59"
+                "recL1WV82pXaRBQ59",
+                "recM4RAfBVSEH5W7l"
             ],
-            "placesCount": 1,
+            "placesCount": 2,
             "yearNum": -974,
             "richText": "And [Rehoboam](/person/rehoboam_2412) dwelt in [Jerusalem](/place/jerusalem_636), and built cities for defence in Judah.\n",
             "verseID": "14011005",
-            "modified": "2026-10-13T03:43:17.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -324584,11 +324885,14 @@
             "verseText": "Moreover he built cities in the mountains of Judah, and in the forests he built castles and towers.",
             "mdText": "Moreover he built cities in the mountains of Judah, and in the forests he built castles and towers.",
             "peopleCount": 0,
-            "placesCount": 0,
+            "places": [
+                "recuzNJh7jSpK2w8w"
+            ],
+            "placesCount": 1,
             "yearNum": -752,
             "richText": "Moreover he built cities in the mountains of Judah, and in the forests he built castles and towers.\n",
             "verseID": "14027004",
-            "modified": "2026-10-13T03:48:15.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -404256,10 +404560,13 @@
                 "reccZB8SVU5bEMcgo"
             ],
             "peopleCount": 1,
-            "placesCount": 0,
+            "places": [
+                "recuzNJh7jSpK2w8w"
+            ],
+            "placesCount": 1,
             "richText": "O [God](/person/god_1324), thou _art_ my [God](/person/god_1324); early will I seek thee: my soul thirsteth for thee, my flesh longeth for thee in a dry and thirsty land, where no water is;\n",
             "verseID": "19063001",
-            "modified": "2021-01-08T15:09:18.000Z"
+            "modified": "2026-10-13T19:35:59.000Z"
         }
     },
     {
@@ -474500,11 +474807,14 @@
                 "recJ6zvRNItTCPjaq"
             ],
             "peopleCount": 1,
-            "placesCount": 0,
+            "places": [
+                "recM4RAfBVSEH5W7l"
+            ],
+            "placesCount": 1,
             "yearNum": -740,
             "richText": "Let us go up against Judah, and vex it, and let us make a breach therein for us, and set a king in the midst of it, _even_ the son of [Tabeal](/person/tabeal_2808):\n",
             "verseID": "23007006",
-            "modified": "2026-10-13T03:46:15.000Z",
+            "modified": "2026-10-13T19:35:59.000Z",
             "event": [
                 "recQ1bj3p4Lj5MYY6"
             ]
@@ -475718,13 +476028,15 @@
             "peopleCount": 2,
             "places": [
                 "rec5dSSsOutWlH2fW",
-                "recmL1lWBqWP3mAq3"
+                "recmL1lWBqWP3mAq3",
+                "reckELyVYi4Wnms4H",
+                "recQubz0YtXby0qbE"
             ],
-            "placesCount": 2,
+            "placesCount": 4,
             "yearNum": -739,
             "richText": "Nevertheless the dimness _shall_ not _be_ such as _was_ in her vexation, when at the first he lightly afflicted the land of [Zebulun](/person/zebulun_3002) and the land of [Naphtali](/person/naphtali_2149), and afterward did more grievously afflict _her_ _by_ the way of the sea, beyond [Jordan](/place/jordan_653), in [Galilee](/place/galilee_433) of the nations.\n",
             "verseID": "23009001",
-            "modified": "2026-10-13T03:46:24.000Z",
+            "modified": "2026-10-13T19:36:01.000Z",
             "event": [
                 "recQ1bj3p4Lj5MYY6"
             ]
@@ -540047,13 +540359,14 @@
             "places": [
                 "recMNg0pz95anDnCU",
                 "receKKjJVBBYJWFPx",
-                "recUn6eVJDoG4xI0j"
+                "recUn6eVJDoG4xI0j",
+                "recDFFOHcaQhdRuq1"
             ],
-            "placesCount": 3,
+            "placesCount": 4,
             "yearNum": -583,
             "richText": "Against [Moab](/person/moab_2103) thus saith the [LORD](/person/god_1324) of hosts, the [God](/person/god_1324) of Israel; Woe unto [Nebo](/place/nebo_883)! for it is spoiled: [Kiriathaim](/place/kiriathaim_695) is confounded _and_ taken: Misgab is confounded and dismayed.\n",
             "verseID": "24048001",
-            "modified": "2026-10-13T03:42:35.000Z",
+            "modified": "2026-10-13T19:36:01.000Z",
             "event": [
                 "rec5pDuWtEaOK7ehk"
             ]
@@ -541518,11 +541831,14 @@
                 "reccZB8SVU5bEMcgo"
             ],
             "peopleCount": 2,
-            "placesCount": 0,
+            "places": [
+                "recAOk9B1CLPKV2iD"
+            ],
+            "placesCount": 1,
             "yearNum": -582,
             "richText": "Concerning the Ammonites, thus saith the [LORD](/person/god_1324); Hath Israel no sons? hath he no heir? why _then_ doth their king inherit [Gad](/person/gad_1262), and his people dwell in his cities?\n",
             "verseID": "24049001",
-            "modified": "2026-10-13T03:36:05.000Z",
+            "modified": "2026-10-13T19:35:59.000Z",
             "event": [
                 "rec5pDuWtEaOK7ehk"
             ]
@@ -585034,11 +585350,14 @@
                 "rectGDQCkKqZ6LgGB"
             ],
             "peopleCount": 2,
-            "placesCount": 0,
+            "places": [
+                "rec3lQCLJDUCRIbFb"
+            ],
+            "placesCount": 1,
             "yearNum": -573,
             "richText": "And by the border of [Dan](/person/dan_973), from the east side unto the west side, a _portion_ _for_ [Asher](/person/asher_337).\n",
             "verseID": "26048002",
-            "modified": "2026-10-13T03:30:40.000Z",
+            "modified": "2026-10-13T19:35:59.000Z",
             "event": [
                 "recGUuZfUbylFAytG"
             ]
@@ -585064,11 +585383,14 @@
                 "recmAUAIwW85ajksn"
             ],
             "peopleCount": 2,
-            "placesCount": 0,
+            "places": [
+                "rec3lQCLJDUCRIbFb"
+            ],
+            "placesCount": 1,
             "yearNum": -573,
             "richText": "And by the border of [Asher](/person/asher_337), from the east side even unto the west side, a _portion_ _for_ [Naphtali](/person/naphtali_2149).\n",
             "verseID": "26048003",
-            "modified": "2026-10-13T03:33:24.000Z",
+            "modified": "2026-10-13T19:35:59.000Z",
             "event": [
                 "recGUuZfUbylFAytG"
             ]
@@ -585094,11 +585416,14 @@
                 "rec1YbscOE9IyJ5ey"
             ],
             "peopleCount": 2,
-            "placesCount": 0,
+            "places": [
+                "rechavO1cdznGQVRh"
+            ],
+            "placesCount": 1,
             "yearNum": -573,
             "richText": "And by the border of [Naphtali](/person/naphtali_2149), from the east side unto the west side, a _portion_ _for_ [Manasseh](/person/manasseh_1928).\n",
             "verseID": "26048004",
-            "modified": "2026-10-13T03:41:09.000Z",
+            "modified": "2026-10-13T19:36:01.000Z",
             "event": [
                 "recGUuZfUbylFAytG"
             ]
@@ -585124,11 +585449,14 @@
                 "recEtv9ql7Hh4XAW4"
             ],
             "peopleCount": 2,
-            "placesCount": 0,
+            "places": [
+                "recB4j4FGhLQPCbqw"
+            ],
+            "placesCount": 1,
             "yearNum": -573,
             "richText": "And by the border of [Manasseh](/person/manasseh_1928), from the east side unto the west side, a _portion_ _for_ [Ephraim](/person/ephraim_1206).\n",
             "verseID": "26048005",
-            "modified": "2026-10-13T03:46:13.000Z",
+            "modified": "2026-10-13T19:36:01.000Z",
             "event": [
                 "recGUuZfUbylFAytG"
             ]
@@ -585678,11 +586006,14 @@
                 "rec3HzZknu1HOvNci"
             ],
             "peopleCount": 2,
-            "placesCount": 0,
+            "places": [
+                "rec5oytZ1tzkgwty5"
+            ],
+            "placesCount": 1,
             "yearNum": -573,
             "richText": "And by the border of [Simeon](/person/simeon_2741), from the east side unto the west side, [Issachar](/person/issachar_645) a _portion_.\n",
             "verseID": "26048025",
-            "modified": "2026-10-13T03:31:44.000Z",
+            "modified": "2026-10-13T19:35:59.000Z",
             "event": [
                 "recGUuZfUbylFAytG"
             ]
@@ -585708,11 +586039,15 @@
                 "recZ6YiBydClBiVVJ"
             ],
             "peopleCount": 2,
-            "placesCount": 0,
+            "places": [
+                "rec5oytZ1tzkgwty5",
+                "recQubz0YtXby0qbE"
+            ],
+            "placesCount": 2,
             "yearNum": -573,
             "richText": "And by the border of [Issachar](/person/issachar_645), from the east side unto the west side, [Zebulun](/person/zebulun_3002) a _portion_.\n",
             "verseID": "26048026",
-            "modified": "2026-10-13T03:34:01.000Z",
+            "modified": "2026-10-13T19:36:01.000Z",
             "event": [
                 "recGUuZfUbylFAytG"
             ]
@@ -585738,11 +586073,15 @@
                 "recDggWlQNbxJLalN"
             ],
             "peopleCount": 2,
-            "placesCount": 0,
+            "places": [
+                "recAOk9B1CLPKV2iD",
+                "recQubz0YtXby0qbE"
+            ],
+            "placesCount": 2,
             "yearNum": -573,
             "richText": "And by the border of [Zebulun](/person/zebulun_3002), from the east side unto the west side, [Gad](/person/gad_1262) a _portion_.\n",
             "verseID": "26048027",
-            "modified": "2026-10-13T03:48:12.000Z",
+            "modified": "2026-10-13T19:36:01.000Z",
             "event": [
                 "recGUuZfUbylFAytG"
             ]
@@ -585770,13 +586109,14 @@
             "places": [
                 "recn47IzNNlhvTtXK",
                 "recHLKp2nLWVF8Vod",
-                "recRdCHfAquS9MQQ1"
+                "recRdCHfAquS9MQQ1",
+                "recAOk9B1CLPKV2iD"
             ],
-            "placesCount": 3,
+            "placesCount": 4,
             "yearNum": -573,
             "richText": "And by the border of [Gad](/person/gad_1262), at the south side southward, the border shall be even from [Tamar](/place/tamar_1135) _unto_ the waters of strife _in_ [Kadesh](/place/meribah-kadesh_784), _and_ to the river toward the great [sea](/place/great_sea_493).\n",
             "verseID": "26048028",
-            "modified": "2026-10-13T03:29:48.000Z",
+            "modified": "2026-10-13T19:35:59.000Z",
             "event": [
                 "recGUuZfUbylFAytG"
             ]
@@ -585919,11 +586259,15 @@
                 "recZ6YiBydClBiVVJ"
             ],
             "peopleCount": 3,
-            "placesCount": 0,
+            "places": [
+                "rec5oytZ1tzkgwty5",
+                "recQubz0YtXby0qbE"
+            ],
+            "placesCount": 2,
             "yearNum": -573,
             "richText": "And at the south side four thousand and five hundred measures: and three gates; one gate of [Simeon](/person/simeon_2741), one gate of [Issachar](/person/issachar_645), one gate of [Zebulun](/person/zebulun_3002).\n",
             "verseID": "26048033",
-            "modified": "2026-10-13T03:49:52.000Z",
+            "modified": "2026-10-13T19:36:01.000Z",
             "event": [
                 "recGUuZfUbylFAytG"
             ]
@@ -585950,11 +586294,15 @@
                 "recmAUAIwW85ajksn"
             ],
             "peopleCount": 3,
-            "placesCount": 0,
+            "places": [
+                "recAOk9B1CLPKV2iD",
+                "rec3lQCLJDUCRIbFb"
+            ],
+            "placesCount": 2,
             "yearNum": -573,
             "richText": "At the west side four thousand and five hundred, _with_ their three gates; one gate of [Gad](/person/gad_1262), one gate of [Asher](/person/asher_337), one gate of [Naphtali](/person/naphtali_2149).\n",
             "verseID": "26048034",
-            "modified": "2026-10-13T03:45:02.000Z",
+            "modified": "2026-10-13T19:35:59.000Z",
             "event": [
                 "recGUuZfUbylFAytG"
             ]
@@ -628125,13 +628473,15 @@
             "peopleCount": 2,
             "places": [
                 "recmRfnw4XzPBH9jc",
-                "recGkTmeTOeg38tLo"
+                "recGkTmeTOeg38tLo",
+                "reckELyVYi4Wnms4H",
+                "recQubz0YtXby0qbE"
             ],
-            "placesCount": 2,
+            "placesCount": 4,
             "yearNum": 26,
             "richText": "And leaving [Nazareth](/place/nazareth_878), he came and dwelt in [Capernaum](/place/capernaum_274), which is upon the sea coast, in the borders of [Zabulon](/person/zebulun_3002) and [Nephthalim](/person/naphtali_2149):\n",
             "verseID": "40004013",
-            "modified": "2021-07-07T18:50:44.000Z",
+            "modified": "2026-10-13T19:36:01.000Z",
             "event": [
                 "recfKYBkGyK1iVyQ7"
             ]
@@ -628188,13 +628538,15 @@
             "peopleCount": 2,
             "places": [
                 "recmL1lWBqWP3mAq3",
-                "rec5dSSsOutWlH2fW"
+                "rec5dSSsOutWlH2fW",
+                "reckELyVYi4Wnms4H",
+                "recQubz0YtXby0qbE"
             ],
-            "placesCount": 2,
+            "placesCount": 4,
             "yearNum": 26,
             "richText": "The land of [Zabulon](/person/zebulun_3002), and the land of [Nephthalim](/person/naphtali_2149), _by_ the way of the sea, beyond [Jordan](/place/jordan_653), [Galilee](/place/galilee_433) of the Gentiles;\n",
             "verseID": "40004015",
-            "modified": "2021-07-07T18:51:00.000Z",
+            "modified": "2026-10-13T19:36:01.000Z",
             "event": [
                 "recfKYBkGyK1iVyQ7"
             ]

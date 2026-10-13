@@ -17,7 +17,7 @@ Every verse of the King James Version (1769) is linked to the people, places, ev
 |---|---|---|
 | Books / Chapters / Verses | 66 / 1,189 / 31,102 | KJV text, authorship, and counts of people and places |
 | People | 3,067 | Names, family relationships, groups, birth and death places and years |
-| Places | 1,274 | Coordinates, feature types, gazetteer links |
+| Places | 1,298 | Coordinates, feature types, gazetteer links, other names, part-of links |
 | Events | 450 | Timeline with dates, durations, predecessors, participants, and locations |
 | People groups | 23 | Tribes, apostles, and other groups |
 | Easton's Bible Dictionary | 6,519 | Entries linked to people and places |
@@ -30,7 +30,7 @@ Every verse of the King James Version (1769) is linked to the people, places, ev
 |---|---|
 | [`json/`](json) | **Preferred source.** One file per table; link fields are arrays of record IDs. |
 | [`CSV/`](CSV) | The same tables as CSV, plus `WordIndex.csv` (one row per KJV word). |
-| [`geo/`](geo) | GeoJSON for mapping |
+| [`geo/`](geo) | GeoJSON for mapping: every place as a [Linked Places](https://github.com/LinkedPasts/linked-places-format) gazetteer (`bible-places.geojson`) and Paul's journeys |
 | [`neo4j/`](neo4j) | Cypher scripts that build a Neo4j graph from the JSON |
 | [`api/`](api) | A GraphQL API over the JSON, live at `https://theographic-api.netlify.app/api/graphql` |
 
