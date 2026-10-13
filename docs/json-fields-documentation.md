@@ -11,7 +11,7 @@ This documentation provides a comprehensive reference for the structure and fiel
 - [People](#people-38-fields)
 - [PeopleGroups](#peoplegroups-7-fields)
 - [Places](#places-40-fields)
-- [Verses](#verses-17-fields)
+- [Verses](#verses-19-fields)
 - [Status Values](#status-values)
 
 ## Dataset Overview
@@ -555,10 +555,10 @@ This table catalogs all geographic locations mentioned in the Bible. Each record
 }
 ```
 
-## Verses (17 Fields)
+## Verses (19 Fields)
 This table contains the full text of every verse in the King James Version (`verseText`). Each verse is a fundamental unit of the dataset, identified by its `osisRef` (an ID using Open Scriptural Information Standard) and linked to its `book` and `chapter`. It also contains the core relational data, linking to the specific `people`, `places`, `peopleGroups`, and `event` referenced in its text.
 
-### Fields Reference (17 Fields)
+### Fields Reference (19 Fields)
 
 | Field | Type | Status | Description |
 |-------|------|--------|-------------|
@@ -579,6 +579,8 @@ This table contains the full text of every verse in the King James Version (`ver
 | `verseID` | string | Validated | Unique sequential identifier, useful for sorting. |
 | `modified` | string | Unknown | Last modified date and time |
 | `event` | array | Unknown | An array of record IDs linking to the 'events' table, representing events associated with this verse. |
+| `quotesFrom` | array | Incomplete | Record IDs of the verses this verse quotes (e.g. New Testament quotations of the Old Testament), to be sourced from [Blue Letter Bible](https://www.blueletterbible.org/study/misc/quotes.cfm). Not yet populated, so it is absent from the JSON until values are added. |
+| `eventsReferenced` | string | Incomplete | Events the verse refers to without narrating them. Not yet populated. |
 
 ### Relationships
 - `book` → References field `id` of `books` table records
@@ -587,6 +589,7 @@ This table contains the full text of every verse in the King James Version (`ver
 - `chapter` → References field `id` of `chapters` table records
 - `peopleGroups` → References field `id` of `peopleGroups` table records
 - `event` → References field `id` of `events` table records
+- `quotesFrom` → References field `id` of `verses` table records
 
 ### Example
 ```json
