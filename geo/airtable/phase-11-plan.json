@@ -1,0 +1,5964 @@
+{
+ "base": "app5UK4s70d5PwupX",
+ "table": "tblrUnh4Q79pmELgB",
+ "snapshot": {
+  "commit": "bc4c1f1",
+  "file": "json/places.json",
+  "tag": "airtable-places-backup-2026-10-13"
+ },
+ "create_fields": [
+  {
+   "name": "canonicalPlace",
+   "type": "multipleRecordLinks",
+   "description": "The record for the same real place when this record is one of its other names (Linked Places sync). Empty on canonical records.",
+   "options": {
+    "linkedTableId": "tblrUnh4Q79pmELgB",
+    "prefersSingleRecordLink": true
+   }
+  }
+ ],
+ "update_records": [
+  {
+   "id": "recy1DLOJRAuwMXyj",
+   "placeID": 352,
+   "displayTitle": "Ebron",
+   "feature": "Abdon",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recPdJgyI1kRUNw35"
+   ],
+   "canonical_placeID": 3,
+   "canonical_title": "Abdon"
+  },
+  {
+   "id": "recbGH2r2ob7OjK4j",
+   "placeID": 4,
+   "displayTitle": "Abel",
+   "feature": "Abel-Beth-Maacah",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recyET7N6CKcQ1wsP"
+   ],
+   "canonical_placeID": 5,
+   "canonical_title": "Abel-beth-maacah"
+  },
+  {
+   "id": "recvBrqC52ifM2FSm",
+   "placeID": 7,
+   "displayTitle": "Abel-maim",
+   "feature": "Abel-Beth-Maacah",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recyET7N6CKcQ1wsP"
+   ],
+   "canonical_placeID": 5,
+   "canonical_title": "Abel-beth-maacah"
+  },
+  {
+   "id": "recb0HKOcNCfd1sCn",
+   "placeID": 221,
+   "displayTitle": "Beth-maacah",
+   "feature": "Abel-Beth-Maacah",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recyET7N6CKcQ1wsP"
+   ],
+   "canonical_placeID": 5,
+   "canonical_title": "Abel-beth-maacah"
+  },
+  {
+   "id": "recCdyPm5ehwB2lsH",
+   "placeID": 959,
+   "displayTitle": "Ptolemais",
+   "feature": "Accho",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recCxPm3UUcexTdBW"
+   ],
+   "canonical_placeID": 15,
+   "canonical_title": "Acco"
+  },
+  {
+   "id": "recU8xLJc1yFmRk7p",
+   "placeID": 291,
+   "displayTitle": "Chezib",
+   "feature": "Achzib (of Judah)",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recrmEKu11xT3oWQd"
+   ],
+   "canonical_placeID": 18,
+   "canonical_title": "Achzib"
+  },
+  {
+   "id": "recm8RzMhm7XDgVE1",
+   "placeID": 309,
+   "displayTitle": "Cozeba",
+   "feature": "Achzib (of Judah)",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recrmEKu11xT3oWQd"
+   ],
+   "canonical_placeID": 18,
+   "canonical_title": "Achzib"
+  },
+  {
+   "id": "rec7eWoWlxhVZAjX8",
+   "placeID": 755,
+   "displayTitle": "Mahalab",
+   "feature": "Ahlab",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recRpCv9XP4GPVkPQ"
+   ],
+   "canonical_placeID": 35,
+   "canonical_title": "Ahlab"
+  },
+  {
+   "id": "recwBcaQrg8xhl7a7",
+   "placeID": 38,
+   "displayTitle": "Aiath",
+   "feature": "Ai of Joshua",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recedRWoiFNdeGFm4"
+   ],
+   "canonical_placeID": 36,
+   "canonical_title": "Ai"
+  },
+  {
+   "id": "recTnu7k5LCNvA37v",
+   "placeID": 39,
+   "displayTitle": "Aija",
+   "feature": "Ai of Joshua",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recedRWoiFNdeGFm4"
+   ],
+   "canonical_placeID": 36,
+   "canonical_title": "Ai"
+  },
+  {
+   "id": "recfAJwYgmKZMAeHP",
+   "placeID": 45,
+   "displayTitle": "Alemeth",
+   "feature": "Almon",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recwuQfjxyqSHBpeN"
+   ],
+   "canonical_placeID": 49,
+   "canonical_title": "Almon"
+  },
+  {
+   "id": "rec6a1LOQkLPcfRPk",
+   "placeID": 75,
+   "displayTitle": "Aphik",
+   "feature": "Aphek (of Asher)",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recpdFqMr64GytQYz"
+   ],
+   "canonical_placeID": 71,
+   "canonical_title": "Aphek"
+  },
+  {
+   "id": "rectQkLOmxxcMv1kQ",
+   "placeID": 74,
+   "displayTitle": "Aphekah",
+   "feature": "Aphek of Sharon",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recUGTpxTrOA7MPkd"
+   ],
+   "canonical_placeID": 72,
+   "canonical_title": "Aphek"
+  },
+  {
+   "id": "recHrXj4CZl6AH9TQ",
+   "placeID": 70,
+   "displayTitle": "Antipatris",
+   "feature": "Aphek of Sharon",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recUGTpxTrOA7MPkd"
+   ],
+   "canonical_placeID": 72,
+   "canonical_title": "Aphek"
+  },
+  {
+   "id": "recqoLWlnh3Qritdc",
+   "placeID": 260,
+   "displayTitle": "Arabah",
+   "feature": "Arabah",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recWKNRLvmxh9CMku"
+   ],
+   "canonical_placeID": 79,
+   "canonical_title": "Arabah"
+  },
+  {
+   "id": "recbv8OwCVWm7wEAK",
+   "placeID": 1225,
+   "displayTitle": "River of Arnon",
+   "feature": "Arnon",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "rec1NgBQ2zMeIsFyT"
+   ],
+   "canonical_placeID": 92,
+   "canonical_title": "Arnon"
+  },
+  {
+   "id": "recgR56C1unVPKivr",
+   "placeID": 1014,
+   "displayTitle": "Rumah",
+   "feature": "Arumah",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recCJGVY9NNPvs1py"
+   ],
+   "canonical_placeID": 98,
+   "canonical_title": "Arumah"
+  },
+  {
+   "id": "recAPCFiiSX6hmHhX",
+   "placeID": 132,
+   "displayTitle": "Azotus",
+   "feature": "Ashdod",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recN2YJFW0fYzSL9r"
+   ],
+   "canonical_placeID": 101,
+   "canonical_title": "Ashdod"
+  },
+  {
+   "id": "recjPh8iusH2RsY0b",
+   "placeID": 171,
+   "displayTitle": "Beeshterah",
+   "feature": "Ashtaroth",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recgQ3PF8NjkiBIKf"
+   ],
+   "canonical_placeID": 106,
+   "canonical_title": "Ashtaroth"
+  },
+  {
+   "id": "rectOnOUbj3MjGIoL",
+   "placeID": 670,
+   "displayTitle": "Karnaim",
+   "feature": "Ashteroth-Karnaim",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recL9dEZ2PHl7Vrrt"
+   ],
+   "canonical_placeID": 107,
+   "canonical_title": "Ashteroth-karnaim"
+  },
+  {
+   "id": "recAiXXgqL914wNA9",
+   "placeID": 109,
+   "displayTitle": "Asshur",
+   "feature": "Assyria",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recIJFRcqI6KbKgXb"
+   ],
+   "canonical_placeID": 111,
+   "canonical_title": "Assyria"
+  },
+  {
+   "id": "recepqQCxjioAao15",
+   "placeID": 898,
+   "displayTitle": "Nimrod",
+   "feature": "Assyria",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recIJFRcqI6KbKgXb"
+   ],
+   "canonical_placeID": 111,
+   "canonical_title": "Assyria"
+  },
+  {
+   "id": "recNGsIGVIK9Quqo4",
+   "placeID": 9,
+   "displayTitle": "Abel-mizraim",
+   "feature": "Atad",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recbH04cWWTUPT5HI"
+   ],
+   "canonical_placeID": 112,
+   "canonical_title": "Atad"
+  },
+  {
+   "id": "recxZzKRwcRUciXjm",
+   "placeID": 605,
+   "displayTitle": "Ivvah",
+   "feature": "Avva",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recEQouzJnwIXnbfV"
+   ],
+   "canonical_placeID": 123,
+   "canonical_title": "Avva"
+  },
+  {
+   "id": "recwPACgpqabJeUvd",
+   "placeID": 192,
+   "displayTitle": "Beth-azmaveth",
+   "feature": "Azmaveth (town)",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recqjhxabaoyCoXAg"
+   ],
+   "canonical_placeID": 129,
+   "canonical_title": "Azmaveth"
+  },
+  {
+   "id": "rec3iGhIgwWlatj5Z",
+   "placeID": 176,
+   "displayTitle": "Beon",
+   "feature": "Baal-meon",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recUga1ulf3rDvMru"
+   ],
+   "canonical_placeID": 144,
+   "canonical_title": "Baal-meon"
+  },
+  {
+   "id": "recIQJnRBKR4sEF0C",
+   "placeID": 193,
+   "displayTitle": "Beth-baal-meon",
+   "feature": "Baal-meon",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recUga1ulf3rDvMru"
+   ],
+   "canonical_placeID": 144,
+   "canonical_title": "Baal-meon"
+  },
+  {
+   "id": "recqyPSe4athazQy4",
+   "placeID": 223,
+   "displayTitle": "Beth-meon",
+   "feature": "Baal-meon",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recUga1ulf3rDvMru"
+   ],
+   "canonical_placeID": 144,
+   "canonical_title": "Baal-meon"
+  },
+  {
+   "id": "recEqQREaXQbx8Uuf",
+   "placeID": 133,
+   "displayTitle": "Baal",
+   "feature": "Baalath-beer",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recGvmVzGXwM0gcuz"
+   ],
+   "canonical_placeID": 138,
+   "canonical_title": "Baalath-beer"
+  },
+  {
+   "id": "recFIAoypGksc1iK6",
+   "placeID": 162,
+   "displayTitle": "Bealoth",
+   "feature": "Baalath-beer",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recGvmVzGXwM0gcuz"
+   ],
+   "canonical_placeID": 138,
+   "canonical_title": "Baalath-beer"
+  },
+  {
+   "id": "reciBYklvLCuVsref",
+   "placeID": 161,
+   "displayTitle": "Bealoth",
+   "feature": "Baalath-beer",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recGvmVzGXwM0gcuz"
+   ],
+   "canonical_placeID": 138,
+   "canonical_title": "Baalath-beer"
+  },
+  {
+   "id": "recevwD8aPKX3CoC6",
+   "placeID": 982,
+   "displayTitle": "Ramoth",
+   "feature": "Baalath-beer",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recGvmVzGXwM0gcuz"
+   ],
+   "canonical_placeID": 138,
+   "canonical_title": "Baalath-beer"
+  },
+  {
+   "id": "recO7At5WvGRe0Xsu",
+   "placeID": 150,
+   "displayTitle": "Babel",
+   "feature": "Babel",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recpqKANUDcRgN4HU"
+   ],
+   "canonical_placeID": 151,
+   "canonical_title": "Babylon"
+  },
+  {
+   "id": "rec2006YHGi4zadxa",
+   "placeID": 781,
+   "displayTitle": "Merathaim",
+   "feature": "Babel",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recpqKANUDcRgN4HU"
+   ],
+   "canonical_placeID": 151,
+   "canonical_title": "Babylon"
+  },
+  {
+   "id": "reciqLEHEJ42oR4bN",
+   "placeID": 928,
+   "displayTitle": "Pekod",
+   "feature": "Babel",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recpqKANUDcRgN4HU"
+   ],
+   "canonical_placeID": 151,
+   "canonical_title": "Babylon"
+  },
+  {
+   "id": "reclpX4P8Fa2JcMKn",
+   "placeID": 153,
+   "displayTitle": "Baharum",
+   "feature": "Bahurim",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recrIxQuDpJHk9OiN"
+   ],
+   "canonical_placeID": 154,
+   "canonical_title": "Bahurim"
+  },
+  {
+   "id": "recZfXro4PsQ84gVp",
+   "placeID": 165,
+   "displayTitle": "Beer",
+   "feature": "Beer",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recJD9cmtiBXxNSEK"
+   ],
+   "canonical_placeID": 164,
+   "canonical_title": "Beer"
+  },
+  {
+   "id": "recVHSiFLmbUrZHLJ",
+   "placeID": 1075,
+   "displayTitle": "Shibah",
+   "feature": "Beer-Sheba",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "rectrAkGtrZH5LMp8"
+   ],
+   "canonical_placeID": 170,
+   "canonical_title": "Beersheba"
+  },
+  {
+   "id": "recoup7E1KIvzRIvR",
+   "placeID": 169,
+   "displayTitle": "Beeroth Bene-jaakan",
+   "feature": "Bene-jaakan",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "reccCI2061PQY2ole"
+   ],
+   "canonical_placeID": 174,
+   "canonical_title": "Bene-jaakan"
+  },
+  {
+   "id": "recvLUMajbYnYDikr",
+   "placeID": 437,
+   "displayTitle": "Benjamin's Gate",
+   "feature": "Benjamin Gate",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recNdvSZuqT39nqz4"
+   ],
+   "canonical_placeID": 175,
+   "canonical_title": "Gate of Benjamin"
+  },
+  {
+   "id": "recp4c7XfzOnOlOHT",
+   "placeID": 180,
+   "displayTitle": "Berothai",
+   "feature": "Berothah",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recPhJtPyCKl7di9Y"
+   ],
+   "canonical_placeID": 179,
+   "canonical_title": "Berothah"
+  },
+  {
+   "id": "rec871Urh3FpMXS3G",
+   "placeID": 311,
+   "displayTitle": "Cun",
+   "feature": "Berothah",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recPhJtPyCKl7di9Y"
+   ],
+   "canonical_placeID": 179,
+   "canonical_title": "Berothah"
+  },
+  {
+   "id": "recynxQNL8B19XrOm",
+   "placeID": 212,
+   "displayTitle": "Beth-haran",
+   "feature": "Beth-Haram",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recnInvPwUX8axnX3"
+   ],
+   "canonical_placeID": 211,
+   "canonical_title": "Beth-haram"
+  },
+  {
+   "id": "recFkoFKnoYZeBqsi",
+   "placeID": 733,
+   "displayTitle": "Beth-horon",
+   "feature": "Beth-horon",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recSx0USOwA2fisi6"
+   ],
+   "canonical_placeID": 214,
+   "canonical_title": "Beth-horon"
+  },
+  {
+   "id": "recrGHr34zyi8zDUV",
+   "placeID": 896,
+   "displayTitle": "Nimrah",
+   "feature": "Beth-nimrah",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recsu2tjam7UDFthp"
+   ],
+   "canonical_placeID": 225,
+   "canonical_title": "Beth-nimrah"
+  },
+  {
+   "id": "rec3gzPTVeaDAIJ5Q",
+   "placeID": 987,
+   "displayTitle": "Rehob",
+   "feature": "Beth-Rehob",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recDscMOGkYsInRIG"
+   ],
+   "canonical_placeID": 230,
+   "canonical_title": "Beth-rehob"
+  },
+  {
+   "id": "recWpI3yiVzlUPgnT",
+   "placeID": 233,
+   "displayTitle": "Beth-shean",
+   "feature": "Beth-Shan",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recasVvXRao2TAZVE"
+   ],
+   "canonical_placeID": 232,
+   "canonical_title": "Beth-shan"
+  },
+  {
+   "id": "rec2CA3fcreugXc2x",
+   "placeID": 600,
+   "displayTitle": "Ir-shemesh",
+   "feature": "Beth-shemesh (of Judah)",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recocNih6Mr5ISN1d"
+   ],
+   "canonical_placeID": 234,
+   "canonical_title": "Beth-shemesh"
+  },
+  {
+   "id": "recsbSnt3kftHlmU3",
+   "placeID": 194,
+   "displayTitle": "Beth-barah",
+   "feature": "Bethany (Beyond the Jordan)",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recuopRspYkwGpj5A"
+   ],
+   "canonical_placeID": 187,
+   "canonical_title": "Bethany"
+  },
+  {
+   "id": "reci4G5xtsAv4FRwr",
+   "placeID": 121,
+   "displayTitle": "Aven",
+   "feature": "Bethel (North of Jerusalem)",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recJK76HLZSOzxTWW"
+   ],
+   "canonical_placeID": 202,
+   "canonical_title": "Bethel (of Palestine)"
+  },
+  {
+   "id": "recgAmwf1FZDe8DST",
+   "placeID": 191,
+   "displayTitle": "Beth-aven",
+   "feature": "Bethel (North of Jerusalem)",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recJK76HLZSOzxTWW"
+   ],
+   "canonical_placeID": 202,
+   "canonical_title": "Bethel (of Palestine)"
+  },
+  {
+   "id": "recW1hr037qxVsNBt",
+   "placeID": 252,
+   "displayTitle": "Bochim",
+   "feature": "Bethel (North of Jerusalem)",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recJK76HLZSOzxTWW"
+   ],
+   "canonical_placeID": 202,
+   "canonical_title": "Bethel (of Palestine)"
+  },
+  {
+   "id": "rect9L2mkHh1K2Bka",
+   "placeID": 367,
+   "displayTitle": "El-bethel",
+   "feature": "Bethel (North of Jerusalem)",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recJK76HLZSOzxTWW"
+   ],
+   "canonical_placeID": 202,
+   "canonical_title": "Bethel (of Palestine)"
+  },
+  {
+   "id": "rec7ux6O0fwgSs7Cw",
+   "placeID": 737,
+   "displayTitle": "Luz",
+   "feature": "Bethel (North of Jerusalem)",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recJK76HLZSOzxTWW"
+   ],
+   "canonical_placeID": 202,
+   "canonical_title": "Bethel (of Palestine)"
+  },
+  {
+   "id": "recX46u00iXp2HIOW",
+   "placeID": 220,
+   "displayTitle": "Bethlehem Ephrathah",
+   "feature": "Bethlehem (of Judah)",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "rec81f3wE4gATsRRE"
+   ],
+   "canonical_placeID": 218,
+   "canonical_title": "Bethlehem"
+  },
+  {
+   "id": "recTsiqfHAu6vwW3H",
+   "placeID": 403,
+   "displayTitle": "Ephrath",
+   "feature": "Bethlehem (of Judah)",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "rec81f3wE4gATsRRE"
+   ],
+   "canonical_placeID": 218,
+   "canonical_title": "Bethlehem"
+  },
+  {
+   "id": "recIn7Y9y8ASc1bbA",
+   "placeID": 257,
+   "displayTitle": "Bozrah",
+   "feature": "Bozrah (in Edom)",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recIfdlpmLYrfPeAv"
+   ],
+   "canonical_placeID": 256,
+   "canonical_title": "Bozrah"
+  },
+  {
+   "id": "rec59YRMb8c7bTak3",
+   "placeID": 270,
+   "displayTitle": "Calno",
+   "feature": "Calneh",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recTCLydxA9SiyYUl"
+   ],
+   "canonical_placeID": 269,
+   "canonical_title": "Calneh"
+  },
+  {
+   "id": "recardcGMIv5hpUwf",
+   "placeID": 667,
+   "displayTitle": "Kanah",
+   "feature": "Cana",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "reckUbxmDHEnxC9dg"
+   ],
+   "canonical_placeID": 271,
+   "canonical_title": "Cana"
+  },
+  {
+   "id": "recTLtdYknboPobdU",
+   "placeID": 297,
+   "displayTitle": "Chisloth-tabor",
+   "feature": "Chesulloth",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recQ8DF0pj7A20FyQ"
+   ],
+   "canonical_placeID": 290,
+   "canonical_title": "Chesulloth"
+  },
+  {
+   "id": "recaGCm1p3KSLswYI",
+   "placeID": 295,
+   "displayTitle": "Chinneroth",
+   "feature": "Chinnereth",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recEKsQvYiMeFJgdN"
+   ],
+   "canonical_placeID": 293,
+   "canonical_title": "Chinnereth"
+  },
+  {
+   "id": "recZz0bB1uUWCV2RX",
+   "placeID": 294,
+   "displayTitle": "Chinnereth",
+   "feature": "Chinnereth",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recEKsQvYiMeFJgdN"
+   ],
+   "canonical_placeID": 293,
+   "canonical_title": "Chinnereth"
+  },
+  {
+   "id": "recdFJBOErXeELyd6",
+   "placeID": 557,
+   "displayTitle": "Heliopolis",
+   "feature": "City of the Sun",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recK0feE032FY9Hxi"
+   ],
+   "canonical_placeID": 908,
+   "canonical_title": "On"
+  },
+  {
+   "id": "reci1kkPbg8LSQStj",
+   "placeID": 275,
+   "displayTitle": "Caphtor",
+   "feature": "Crete",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "rec6yittVQwxJlpye"
+   ],
+   "canonical_placeID": 310,
+   "canonical_title": "Crete"
+  },
+  {
+   "id": "rec3AkQ2GFvTqPxCx",
+   "placeID": 419,
+   "displayTitle": "Ethiopia",
+   "feature": "Cush (region)",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recaHkhAvEICQr7fB"
+   ],
+   "canonical_placeID": 312,
+   "canonical_title": "Cush"
+  },
+  {
+   "id": "recYKI4ffid5OvTiE",
+   "placeID": 315,
+   "displayTitle": "Cuthah",
+   "feature": "Cuth",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "reckj2nMFQVOzR2E8"
+   ],
+   "canonical_placeID": 314,
+   "canonical_title": "Cuth"
+  },
+  {
+   "id": "recxONSPR7PbGyrLR",
+   "placeID": 707,
+   "displayTitle": "Kittim",
+   "feature": "Cyprus",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "receEjvf5hXhkgVuZ"
+   ],
+   "canonical_placeID": 316,
+   "canonical_title": "Cyprus"
+  },
+  {
+   "id": "rec9iLE1EPBSXW9He",
+   "placeID": 370,
+   "displayTitle": "Elishah",
+   "feature": "Cyprus",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "receEjvf5hXhkgVuZ"
+   ],
+   "canonical_placeID": 316,
+   "canonical_title": "Cyprus"
+  },
+  {
+   "id": "recf1YkEgSxLMhWlr",
+   "placeID": 713,
+   "displayTitle": "Laish",
+   "feature": "Dan (city)",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recwFUncFiNWPsPWN"
+   ],
+   "canonical_placeID": 323,
+   "canonical_title": "Dan"
+  },
+  {
+   "id": "recWRgEtgOHDG2ZtL",
+   "placeID": 727,
+   "displayTitle": "Leshem",
+   "feature": "Dan (city)",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recwFUncFiNWPsPWN"
+   ],
+   "canonical_placeID": 323,
+   "canonical_title": "Dan"
+  },
+  {
+   "id": "reccGcdn7DyKWuaJT",
+   "placeID": 702,
+   "displayTitle": "Kiriath-sannah",
+   "feature": "Debir (of South Hill Country)",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "reclzdXLmXHPKYAou"
+   ],
+   "canonical_placeID": 325,
+   "canonical_title": "Debir"
+  },
+  {
+   "id": "recC7NCGfppWKjpRg",
+   "placeID": 703,
+   "displayTitle": "Kiriath-sepher",
+   "feature": "Debir (of South Hill Country)",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "reclzdXLmXHPKYAou"
+   ],
+   "canonical_placeID": 325,
+   "canonical_title": "Debir"
+  },
+  {
+   "id": "rec3XNe7xQ7Jn7wyn",
+   "placeID": 333,
+   "displayTitle": "Dibon-gad",
+   "feature": "Dibon (north of the Arnon River)",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "rechszjphdueUPvPi"
+   ],
+   "canonical_placeID": 331,
+   "canonical_title": "Dibon"
+  },
+  {
+   "id": "rectNTiLmcS0hcEZ3",
+   "placeID": 877,
+   "displayTitle": "Naphoth-dor",
+   "feature": "Dor",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recvyeVO2Ex1jYF7o"
+   ],
+   "canonical_placeID": 341,
+   "canonical_title": "Dor"
+  },
+  {
+   "id": "rec6WgUUBIrAf8HEE",
+   "placeID": 875,
+   "displayTitle": "Naphath-dor",
+   "feature": "Dor",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recvyeVO2Ex1jYF7o"
+   ],
+   "canonical_placeID": 341,
+   "canonical_title": "Dor"
+  },
+  {
+   "id": "recqMLCLLurbShHne",
+   "placeID": 958,
+   "displayTitle": "East Gate",
+   "feature": "East Gate",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recZwsy0mEhiftoDs"
+   ],
+   "canonical_placeID": 349,
+   "canonical_title": "East Gate"
+  },
+  {
+   "id": "recDQe9YTG4wPXsNP",
+   "placeID": 408,
+   "displayTitle": "Esau",
+   "feature": "Edom",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recLcxRZbz3yIQB7b"
+   ],
+   "canonical_placeID": 357,
+   "canonical_title": "Edom"
+  },
+  {
+   "id": "recFinINtrGjUmVDi",
+   "placeID": 969,
+   "displayTitle": "Rahab",
+   "feature": "Egypt (nation)",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recfrXyxhuYOczKTm"
+   ],
+   "canonical_placeID": 362,
+   "canonical_title": "Egypt"
+  },
+  {
+   "id": "recbAK2JxigPufNCM",
+   "placeID": 366,
+   "displayTitle": "Elath",
+   "feature": "Eloth",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recGCEXT37NohcAM5"
+   ],
+   "canonical_placeID": 375,
+   "canonical_title": "Eloth"
+  },
+  {
+   "id": "recvLZB9Y6g5zrtse",
+   "placeID": 377,
+   "displayTitle": "Elteke",
+   "feature": "Eltekeh",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "rec2H0XhjHGTh1ivm"
+   ],
+   "canonical_placeID": 378,
+   "canonical_title": "Eltekeh"
+  },
+  {
+   "id": "recXH0UZI6yZKjxYj",
+   "placeID": 1174,
+   "displayTitle": "Tolad",
+   "feature": "Eltolad",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "rec8l1lVhso3t7ULj"
+   ],
+   "canonical_placeID": 380,
+   "canonical_title": "Eltolad"
+  },
+  {
+   "id": "reccHbpnFEJfJBtpy",
+   "placeID": 64,
+   "displayTitle": "Anem",
+   "feature": "En-gannim (of Issachar)",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recKotcLQBDuesdIb"
+   ],
+   "canonical_placeID": 388,
+   "canonical_title": "En-gannim"
+  },
+  {
+   "id": "recHhX3If7T8OFzqE",
+   "placeID": 542,
+   "displayTitle": "Hazazon-tamar",
+   "feature": "Engedi",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "rec47z6GarT41J5Vh"
+   ],
+   "canonical_placeID": 389,
+   "canonical_title": "Engedi"
+  },
+  {
+   "id": "recZWekS06dZsVfgD",
+   "placeID": 923,
+   "displayTitle": "Pas-dammim",
+   "feature": "Ephes-dammim",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "rec3w84nsjQvkJEE3"
+   ],
+   "canonical_placeID": 399,
+   "canonical_title": "Ephes-dammim"
+  },
+  {
+   "id": "recKaA37m3ryr9Yj3",
+   "placeID": 438,
+   "displayTitle": "Gate of Ephraim",
+   "feature": "Ephraim Gate",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recAaf40EEWyTLYmo"
+   ],
+   "canonical_placeID": 402,
+   "canonical_title": "Gate of Ephraim"
+  },
+  {
+   "id": "recBVeG0aEI4bdx00",
+   "placeID": 413,
+   "displayTitle": "Eshtemoh",
+   "feature": "Eshtemoa",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recNvVf6oxrh2Aqhe"
+   ],
+   "canonical_placeID": 412,
+   "canonical_title": "Eshtemoa"
+  },
+  {
+   "id": "recQIJnCSmWgA0ktQ",
+   "placeID": 1010,
+   "displayTitle": "River",
+   "feature": "Euphrates",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recJ0N5yStBk9CjXA"
+   ],
+   "canonical_placeID": 421,
+   "canonical_title": "Euphrates"
+  },
+  {
+   "id": "reczaDpSZSElt6Xxm",
+   "placeID": 791,
+   "displayTitle": "Metheg-ammah",
+   "feature": "Gath",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recDWNfN3f6E04V4m"
+   ],
+   "canonical_placeID": 442,
+   "canonical_title": "Gath"
+  },
+  {
+   "id": "recRjfwduOcMQAbDN",
+   "placeID": 448,
+   "displayTitle": "Geba",
+   "feature": "Geba",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recE4R1DFGiDMLM5y"
+   ],
+   "canonical_placeID": 447,
+   "canonical_title": "Geba"
+  },
+  {
+   "id": "reclDeMC2ZcL7FsyA",
+   "placeID": 453,
+   "displayTitle": "Gederoth",
+   "feature": "Geder",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recF5IgX3dVt18Azk"
+   ],
+   "canonical_placeID": 452,
+   "canonical_title": "Gederah"
+  },
+  {
+   "id": "recINyglIMH5HJ6yW",
+   "placeID": 454,
+   "displayTitle": "Gederothaim",
+   "feature": "Geder",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recF5IgX3dVt18Azk"
+   ],
+   "canonical_placeID": 452,
+   "canonical_title": "Gederah"
+  },
+  {
+   "id": "recpukEDeQV7MqzNA",
+   "placeID": 451,
+   "displayTitle": "Geder",
+   "feature": "Gedor (of Judah)",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "reclg1YBA0tsZbZ6Y"
+   ],
+   "canonical_placeID": 455,
+   "canonical_title": "Gedor"
+  },
+  {
+   "id": "recHcMmB2WjEh1MXi",
+   "placeID": 456,
+   "displayTitle": "Gedor",
+   "feature": "Gedor (of Judah)",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "reclg1YBA0tsZbZ6Y"
+   ],
+   "canonical_placeID": 455,
+   "canonical_title": "Gedor"
+  },
+  {
+   "id": "recvDlppuKNnN5srC",
+   "placeID": 1203,
+   "displayTitle": "Valley of Gerar",
+   "feature": "Gerar",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recNwG4bBkZyEhAT4"
+   ],
+   "canonical_placeID": 459,
+   "canonical_title": "Gerar"
+  },
+  {
+   "id": "recnBkiFnanbkDZxe",
+   "placeID": 483,
+   "displayTitle": "Gob",
+   "feature": "Gezer",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recqxkLUTRbyks2qF"
+   ],
+   "canonical_placeID": 463,
+   "canonical_title": "Gezer"
+  },
+  {
+   "id": "recUvwKFFrn3148Ey",
+   "placeID": 1204,
+   "displayTitle": "Valley of Gibeon",
+   "feature": "Gibeon",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recYsXWjhw6FUqHLY"
+   ],
+   "canonical_placeID": 470,
+   "canonical_title": "Gibeon"
+  },
+  {
+   "id": "recmXnEHeGtX63jTW",
+   "placeID": 457,
+   "displayTitle": "Geliloth",
+   "feature": "Gilgal (near Jericho)",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recdm9AlLF01lFAfP"
+   ],
+   "canonical_placeID": 476,
+   "canonical_title": "Gilgal"
+  },
+  {
+   "id": "recw9Zm1HwiKM6qTn",
+   "placeID": 208,
+   "displayTitle": "Beth-gilgal",
+   "feature": "Gilgal (near Jericho)",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recdm9AlLF01lFAfP"
+   ],
+   "canonical_placeID": 476,
+   "canonical_title": "Gilgal"
+  },
+  {
+   "id": "recVoWObhcZdbdDmm",
+   "placeID": 478,
+   "displayTitle": "Gilo",
+   "feature": "Giloh",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "rec3WJ6kka7RKAwZm"
+   ],
+   "canonical_placeID": 479,
+   "canonical_title": "Giloh"
+  },
+  {
+   "id": "rec8e887YWXiVHAGy",
+   "placeID": 954,
+   "displayTitle": "Place",
+   "feature": "Golgotha",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recYlTJouLztJii9o"
+   ],
+   "canonical_placeID": 487,
+   "canonical_title": "Golgotha"
+  },
+  {
+   "id": "recsVabA4tEGT52Ym",
+   "placeID": 1153,
+   "displayTitle": "Place",
+   "feature": "Golgotha",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recYlTJouLztJii9o"
+   ],
+   "canonical_placeID": 487,
+   "canonical_title": "Golgotha"
+  },
+  {
+   "id": "recyLzZVuj6lpF5w9",
+   "placeID": 1154,
+   "displayTitle": "Skull",
+   "feature": "Golgotha",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recYlTJouLztJii9o"
+   ],
+   "canonical_placeID": 487,
+   "canonical_title": "Golgotha"
+  },
+  {
+   "id": "recTOELkXIVkgI0vr",
+   "placeID": 723,
+   "displayTitle": "Lebo-hamath",
+   "feature": "Hamath-Zobah",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recA34XfYsCxhyu31"
+   ],
+   "canonical_placeID": 516,
+   "canonical_title": "Hamath"
+  },
+  {
+   "id": "recQEnJ8wEKULipuY",
+   "placeID": 517,
+   "displayTitle": "Hamath-zobah",
+   "feature": "Hamath-Zobah",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recA34XfYsCxhyu31"
+   ],
+   "canonical_placeID": 516,
+   "canonical_title": "Hamath"
+  },
+  {
+   "id": "recEfNbXnb60Qu7Fe",
+   "placeID": 519,
+   "displayTitle": "Hammon",
+   "feature": "Hammath (Place)",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "reclzgV7mRRSxyhph"
+   ],
+   "canonical_placeID": 518,
+   "canonical_title": "Hammath"
+  },
+  {
+   "id": "recU0a48tvCQOFrxo",
+   "placeID": 520,
+   "displayTitle": "Hammoth-dor",
+   "feature": "Hammath (Place)",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "reclzgV7mRRSxyhph"
+   ],
+   "canonical_placeID": 518,
+   "canonical_title": "Hammath"
+  },
+  {
+   "id": "reciPNlPJ18bPGAZM",
+   "placeID": 619,
+   "displayTitle": "Jair",
+   "feature": "Havvoth-jair",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recpx625y2be2c5YY"
+   ],
+   "canonical_placeID": 535,
+   "canonical_title": "Havvoth-jair"
+  },
+  {
+   "id": "rec3qLfY9kEC7Xnun",
+   "placeID": 541,
+   "displayTitle": "Hazar-susim",
+   "feature": "Hazar-Susah",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recI0tMa0vUukm1G0"
+   ],
+   "canonical_placeID": 540,
+   "canonical_title": "Hazar-susah"
+  },
+  {
+   "id": "reccnARM8vn8OfAgg",
+   "placeID": 697,
+   "displayTitle": "Kiriath-arba",
+   "feature": "Hebron (city)",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recJSfVnIcPibY6aX"
+   ],
+   "canonical_placeID": 551,
+   "canonical_title": "Hebron"
+  },
+  {
+   "id": "recqTxaRekULVrdMC",
+   "placeID": 840,
+   "displayTitle": "Mount Heres",
+   "feature": "Heres",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recUoVFfVA066pPes"
+   ],
+   "canonical_placeID": 562,
+   "canonical_title": "Heres"
+  },
+  {
+   "id": "recSjPmPySxsIEpdj",
+   "placeID": 570,
+   "displayTitle": "Hilen",
+   "feature": "Hilon",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "rec76ox1jwnhFHmzl"
+   ],
+   "canonical_placeID": 572,
+   "canonical_title": "Holon"
+  },
+  {
+   "id": "recDzdFQedvpLxVrg",
+   "placeID": 496,
+   "displayTitle": "Gudgodah",
+   "feature": "Hor-Haggidgad",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recn603JbNWAX5cEE"
+   ],
+   "canonical_placeID": 579,
+   "canonical_title": "Hor-haggidgad"
+  },
+  {
+   "id": "rec4g6YLcH5MhL0th",
+   "placeID": 584,
+   "displayTitle": "Forest",
+   "feature": "House of the Forest of Lebanon",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "rechN4gu5ltBnuSD2"
+   ],
+   "canonical_placeID": 585,
+   "canonical_title": "Lebanon"
+  },
+  {
+   "id": "rectQfI2b5yqcGyKc",
+   "placeID": 587,
+   "displayTitle": "Hukok",
+   "feature": "Hukkok",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recj54HWxfFJvfSD4"
+   ],
+   "canonical_placeID": 586,
+   "canonical_title": "Hukkok"
+  },
+  {
+   "id": "rec2ngjsU0Y8MN6Nx",
+   "placeID": 248,
+   "displayTitle": "Bileam",
+   "feature": "Ibleam",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "rec91Z7a1D7vQHOgk"
+   ],
+   "canonical_placeID": 589,
+   "canonical_title": "Ibleam"
+  },
+  {
+   "id": "recDCYv3vAHJFz0BC",
+   "placeID": 445,
+   "displayTitle": "Gath-rimmon",
+   "feature": "Ibleam",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "rec91Z7a1D7vQHOgk"
+   ],
+   "canonical_placeID": 589,
+   "canonical_title": "Ibleam"
+  },
+  {
+   "id": "recZFeTunxtFB8Yie",
+   "placeID": 641,
+   "displayTitle": "Jetur",
+   "feature": "Ituraea",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recT5Pc6wmONxUJIp"
+   ],
+   "canonical_placeID": 604,
+   "canonical_title": "Ituraea"
+  },
+  {
+   "id": "recWGSw92LUtKuN0b",
+   "placeID": 607,
+   "displayTitle": "Iyim",
+   "feature": "Iye-abarim",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recr2LdyigJIb8bvj"
+   ],
+   "canonical_placeID": 606,
+   "canonical_title": "Iye-abarim"
+  },
+  {
+   "id": "recm3uRahzpZJ7lDk",
+   "placeID": 610,
+   "displayTitle": "Jabesh",
+   "feature": "Jabesh-Gilead",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "reczL2DzDEB0XnRNv"
+   ],
+   "canonical_placeID": 611,
+   "canonical_title": "Jabesh-gilead"
+  },
+  {
+   "id": "recyLShFzEJK8dBws",
+   "placeID": 615,
+   "displayTitle": "Jabneh",
+   "feature": "Jabneel (of Judah)",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recngVYo6AIxMvxoX"
+   ],
+   "canonical_placeID": 613,
+   "canonical_title": "Jabneel"
+  },
+  {
+   "id": "reck9NQJ79h9wVCBA",
+   "placeID": 618,
+   "displayTitle": "Jahzah",
+   "feature": "Jahaz",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "rec5DyQDXpkG4OiFl"
+   ],
+   "canonical_placeID": 617,
+   "canonical_title": "Jahaz"
+  },
+  {
+   "id": "recpmPd6JhbqhqA0Q",
+   "placeID": 495,
+   "displayTitle": "Greece",
+   "feature": "Javan (region)",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recwvS6ztRKFrA9rK"
+   ],
+   "canonical_placeID": 627,
+   "canonical_title": "Javan"
+  },
+  {
+   "id": "rec49TXccUxr6Dnhe",
+   "placeID": 89,
+   "displayTitle": "Ariel",
+   "feature": "Jerusalem",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recL1WV82pXaRBQ59"
+   ],
+   "canonical_placeID": 636,
+   "canonical_title": "Jerusalem"
+  },
+  {
+   "id": "rec3SLjiyY0ddRB03",
+   "placeID": 303,
+   "displayTitle": "City of the Lord",
+   "feature": "Jerusalem",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recL1WV82pXaRBQ59"
+   ],
+   "canonical_placeID": 636,
+   "canonical_title": "Jerusalem"
+  },
+  {
+   "id": "recynQnhWEkUNUZRU",
+   "placeID": 629,
+   "displayTitle": "Jebus",
+   "feature": "Jerusalem",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recL1WV82pXaRBQ59"
+   ],
+   "canonical_placeID": 636,
+   "canonical_title": "Jerusalem"
+  },
+  {
+   "id": "recXmfE7tECVVSN23",
+   "placeID": 1018,
+   "displayTitle": "Salem",
+   "feature": "Jerusalem",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recL1WV82pXaRBQ59"
+   ],
+   "canonical_placeID": 636,
+   "canonical_title": "Jerusalem"
+  },
+  {
+   "id": "recSWu2nTiJjPfd7u",
+   "placeID": 651,
+   "displayTitle": "Joktheel",
+   "feature": "Joktheel",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recYncMsyFtEC7kXF"
+   ],
+   "canonical_placeID": 650,
+   "canonical_title": "Joktheel"
+  },
+  {
+   "id": "recfyDMmdJqC0a3vI",
+   "placeID": 658,
+   "displayTitle": "Judea",
+   "feature": "Judea",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recAalC2QoLT7cJKN"
+   ],
+   "canonical_placeID": 657,
+   "canonical_title": "Judea"
+  },
+  {
+   "id": "recSerPO7uLWI5cck",
+   "placeID": 633,
+   "displayTitle": "Jekabzeel",
+   "feature": "Kabzeel",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recAiaG6JoV8gdChq"
+   ],
+   "canonical_placeID": 660,
+   "canonical_title": "Kabzeel"
+  },
+  {
+   "id": "rec6sSw7Z7ya7vwrR",
+   "placeID": 393,
+   "displayTitle": "En-mishpat",
+   "feature": "Kadesh-barnea",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recVfy9PlsXdODNGL"
+   ],
+   "canonical_placeID": 663,
+   "canonical_title": "Kadesh-barnea"
+  },
+  {
+   "id": "recbFkcAeBmrPDZvG",
+   "placeID": 661,
+   "displayTitle": "Kadesh",
+   "feature": "Kadesh-barnea",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recVfy9PlsXdODNGL"
+   ],
+   "canonical_placeID": 663,
+   "canonical_title": "Kadesh-barnea"
+  },
+  {
+   "id": "recEq0kDYaFbGXYWu",
+   "placeID": 677,
+   "displayTitle": "Kedesh",
+   "feature": "Kadesh-barnea",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recVfy9PlsXdODNGL"
+   ],
+   "canonical_placeID": 663,
+   "canonical_title": "Kadesh-barnea"
+  },
+  {
+   "id": "recbUWNXPw0egUflC",
+   "placeID": 696,
+   "displayTitle": "Kiriathaim",
+   "feature": "Kartan",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recAHELZ2LlYlYqDx"
+   ],
+   "canonical_placeID": 672,
+   "canonical_title": "Kartan"
+  },
+  {
+   "id": "recfPJ2PdSB18419T",
+   "placeID": 679,
+   "displayTitle": "Kedesh-naphtali",
+   "feature": "Kedesh",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "rec6G3mRvN9MpCyjT"
+   ],
+   "canonical_placeID": 676,
+   "canonical_title": "Kedesh"
+  },
+  {
+   "id": "recW9pJRZ4cg9A2k6",
+   "placeID": 901,
+   "displayTitle": "Nobah",
+   "feature": "Kenath",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "rec6TagODGnHaVOkU"
+   ],
+   "canonical_placeID": 682,
+   "canonical_title": "Kenath"
+  },
+  {
+   "id": "rechXI3CkTEGaIRBP",
+   "placeID": 905,
+   "displayTitle": "Nophah",
+   "feature": "Kenath",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "rec6TagODGnHaVOkU"
+   ],
+   "canonical_placeID": 682,
+   "canonical_title": "Kenath"
+  },
+  {
+   "id": "recEZk6tOBSVS51AC",
+   "placeID": 547,
+   "displayTitle": "Hazor",
+   "feature": "Kerioth-hezron",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recnzE5hzdUKE6HSX"
+   ],
+   "canonical_placeID": 684,
+   "canonical_title": "Kerioth-hezron"
+  },
+  {
+   "id": "recEGlxNTRCYkMv6l",
+   "placeID": 648,
+   "displayTitle": "Jokmeam",
+   "feature": "Kibzaim",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recxIvkrjy8frb65C"
+   ],
+   "canonical_placeID": 686,
+   "canonical_title": "Kibzaim"
+  },
+  {
+   "id": "recYRlZ4ewWJACJQ6",
+   "placeID": 688,
+   "displayTitle": "Brook Kidron",
+   "feature": "Kidron",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "reccf5Vf48NjEXaxz"
+   ],
+   "canonical_placeID": 687,
+   "canonical_title": "Kidron"
+  },
+  {
+   "id": "recYksg9zceqN9vql",
+   "placeID": 814,
+   "displayTitle": "Mizpeh",
+   "feature": "Kir",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "receagvMif63k28fg"
+   ],
+   "canonical_placeID": 693,
+   "canonical_title": "Kir"
+  },
+  {
+   "id": "recS20ddm3ioLoaOw",
+   "placeID": 698,
+   "displayTitle": "Kiriath-arim",
+   "feature": "Kiriath-jearim",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recVYcDguYN6bVqxy"
+   ],
+   "canonical_placeID": 701,
+   "canonical_title": "Kiriath-jearim"
+  },
+  {
+   "id": "recRJEQbrGi24OUFZ",
+   "placeID": 699,
+   "displayTitle": "Kiriath-baal",
+   "feature": "Kiriath-jearim",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recVYcDguYN6bVqxy"
+   ],
+   "canonical_placeID": 701,
+   "canonical_title": "Kiriath-jearim"
+  },
+  {
+   "id": "recFPH7XyfXrfRhTc",
+   "placeID": 608,
+   "displayTitle": "Jaar",
+   "feature": "Kiriath-jearim",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recVYcDguYN6bVqxy"
+   ],
+   "canonical_placeID": 701,
+   "canonical_title": "Kiriath-jearim"
+  },
+  {
+   "id": "recmzFZzjfqsRjkZ9",
+   "placeID": 135,
+   "displayTitle": "Baalah",
+   "feature": "Kiriath-jearim",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recVYcDguYN6bVqxy"
+   ],
+   "canonical_placeID": 701,
+   "canonical_title": "Kiriath-jearim"
+  },
+  {
+   "id": "recKm8gRoKw8JsNhV",
+   "placeID": 139,
+   "displayTitle": "Baale-judah",
+   "feature": "Kiriath-jearim",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recVYcDguYN6bVqxy"
+   ],
+   "canonical_placeID": 701,
+   "canonical_title": "Kiriath-jearim"
+  },
+  {
+   "id": "recI6nOkL8Hnyy5pd",
+   "placeID": 678,
+   "displayTitle": "Kedesh",
+   "feature": "Kishion",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recVCFDBLoj1s0eNr"
+   ],
+   "canonical_placeID": 704,
+   "canonical_title": "Kishion"
+  },
+  {
+   "id": "recprjFRXrCtT9kQ8",
+   "placeID": 671,
+   "displayTitle": "Kartah",
+   "feature": "Kitron",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recpWDOal3kgn43RZ"
+   ],
+   "canonical_placeID": 706,
+   "canonical_title": "Kitron"
+  },
+  {
+   "id": "recxMzVcOH9Xl3F2D",
+   "placeID": 673,
+   "displayTitle": "Kattath",
+   "feature": "Kitron",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recpWDOal3kgn43RZ"
+   ],
+   "canonical_placeID": 706,
+   "canonical_title": "Kitron"
+  },
+  {
+   "id": "recwaPJ7WKYDiMNPv",
+   "placeID": 327,
+   "displayTitle": "Debir",
+   "feature": "Lo-debar",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recVFQm1ajEWbVg5k"
+   ],
+   "canonical_placeID": 732,
+   "canonical_title": "Lo-debar"
+  },
+  {
+   "id": "recL4DQQ2ghOhOCZI",
+   "placeID": 741,
+   "displayTitle": "Lydda",
+   "feature": "Lod",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "reckrGn5GcFoGn0pD"
+   ],
+   "canonical_placeID": 731,
+   "canonical_title": "Lod"
+  },
+  {
+   "id": "reciSXQ6ZRGyALlDf",
+   "placeID": 83,
+   "displayTitle": "Aram-maacah",
+   "feature": "Maacah (kingdom)",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recE3XSfOMlaQJZRi"
+   ],
+   "canonical_placeID": 743,
+   "canonical_title": "Maacah"
+  },
+  {
+   "id": "recsOdmE31xeIbuNN",
+   "placeID": 744,
+   "displayTitle": "Maacath",
+   "feature": "Maacah (kingdom)",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recE3XSfOMlaQJZRi"
+   ],
+   "canonical_placeID": 743,
+   "canonical_title": "Maacah"
+  },
+  {
+   "id": "recIvd8hPkCOsl51H",
+   "placeID": 222,
+   "displayTitle": "Beth-marcaboth",
+   "feature": "Madmannah (town)",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recVaBWxUUcXkszSZ"
+   ],
+   "canonical_placeID": 749,
+   "canonical_title": "Madmannah"
+  },
+  {
+   "id": "rec14G9VSYQFR0PSV",
+   "placeID": 320,
+   "displayTitle": "Dalmanutha",
+   "feature": "Magadan",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "rec8scqP30fz5SjGW"
+   ],
+   "canonical_placeID": 753,
+   "canonical_title": "Magadan"
+  },
+  {
+   "id": "rec31pLZApXuca8pm",
+   "placeID": 1011,
+   "displayTitle": "Rock",
+   "feature": "Maon",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recE7gMJ0r4eJWepx"
+   ],
+   "canonical_placeID": 764,
+   "canonical_title": "Maon"
+  },
+  {
+   "id": "recIjmD76kMAuLrKO",
+   "placeID": 91,
+   "displayTitle": "Armageddon",
+   "feature": "Megiddo",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "rechSy0aCb5vNVH3f"
+   ],
+   "canonical_placeID": 777,
+   "canonical_title": "Megiddo"
+  },
+  {
+   "id": "recRdCHfAquS9MQQ1",
+   "placeID": 784,
+   "displayTitle": "Meribah-kadesh",
+   "feature": "Meribah (at Kadesh)",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "rec1irrySVGkYieCr"
+   ],
+   "canonical_placeID": 782,
+   "canonical_title": "Meribah (of Kadesh)"
+  },
+  {
+   "id": "recSnkixSwHw1Vdlh",
+   "placeID": 789,
+   "displayTitle": "Meshech-Tubal",
+   "feature": "Meshech (region)",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recYCmiFv6zLQJNak"
+   ],
+   "canonical_placeID": 788,
+   "canonical_title": "Meshech"
+  },
+  {
+   "id": "recGIXb55AmC8m4aT",
+   "placeID": 84,
+   "displayTitle": "Aram-naharaim",
+   "feature": "Mesopotamia",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "rec8Dy0OPNtiTqsoS"
+   ],
+   "canonical_placeID": 790,
+   "canonical_title": "Mesopotamia"
+  },
+  {
+   "id": "recubZKdq6gVyGPmd",
+   "placeID": 792,
+   "displayTitle": "Michmas",
+   "feature": "Michmash",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recHdRjsxQjhsjW3i"
+   ],
+   "canonical_placeID": 793,
+   "canonical_title": "Michmash"
+  },
+  {
+   "id": "reclPxltmTo1oIVxO",
+   "placeID": 769,
+   "displayTitle": "Mashal",
+   "feature": "Mishal",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recwoglv6niCugPjM"
+   ],
+   "canonical_placeID": 805,
+   "canonical_title": "Mishal"
+  },
+  {
+   "id": "recvtGi1Kp2anZbCt",
+   "placeID": 90,
+   "displayTitle": "Arimathea",
+   "feature": "Mizpah",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recGdQVod5SbLO87Z"
+   ],
+   "canonical_placeID": 811,
+   "canonical_title": "Mizpah"
+  },
+  {
+   "id": "recwjv3MPsYSE590U",
+   "placeID": 977,
+   "displayTitle": "Ramathaim-zophim",
+   "feature": "Mizpah",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recGdQVod5SbLO87Z"
+   ],
+   "canonical_placeID": 811,
+   "canonical_title": "Mizpah"
+  },
+  {
+   "id": "recXRGobFRZ4nFOei",
+   "placeID": 812,
+   "displayTitle": "Mizpeh",
+   "feature": "Mizpah",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recGdQVod5SbLO87Z"
+   ],
+   "canonical_placeID": 811,
+   "canonical_title": "Mizpah"
+  },
+  {
+   "id": "reczeMGDnN4eb0Y28",
+   "placeID": 975,
+   "displayTitle": "Ramah",
+   "feature": "Mizpah",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recGdQVod5SbLO87Z"
+   ],
+   "canonical_placeID": 811,
+   "canonical_title": "Mizpah"
+  },
+  {
+   "id": "rectJiRBVhcSh0AbX",
+   "placeID": 432,
+   "displayTitle": "Galeed",
+   "feature": "Mizpah of Gilead",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recOyMgubRhq1yatA"
+   ],
+   "canonical_placeID": 809,
+   "canonical_title": "Mizpah"
+  },
+  {
+   "id": "reczvqcmwwjTk90i3",
+   "placeID": 631,
+   "displayTitle": "Jegar-sahadutha",
+   "feature": "Mizpah of Gilead",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recOyMgubRhq1yatA"
+   ],
+   "canonical_placeID": 809,
+   "canonical_title": "Mizpah"
+  },
+  {
+   "id": "recQ31KLebB8uVNzM",
+   "placeID": 979,
+   "displayTitle": "Ramath-mizpeh",
+   "feature": "Mizpah of Gilead",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recOyMgubRhq1yatA"
+   ],
+   "canonical_placeID": 809,
+   "canonical_title": "Mizpah"
+  },
+  {
+   "id": "recbTYTiQORyjUXHN",
+   "placeID": 820,
+   "displayTitle": "Moresheth-gath",
+   "feature": "Moresheth",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recLBJEUYVKoCKuUg"
+   ],
+   "canonical_placeID": 819,
+   "canonical_title": "Moresheth"
+  },
+  {
+   "id": "recNAB8ozpbR1xT4V",
+   "placeID": 823,
+   "displayTitle": "Moserah",
+   "feature": "Moseroth",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recO5BBYiV9XXKwT5"
+   ],
+   "canonical_placeID": 824,
+   "canonical_title": "Moseroth"
+  },
+  {
+   "id": "reccXxI6gV3uS1tRt",
+   "placeID": 406,
+   "displayTitle": "Ephron",
+   "feature": "Mount Ephron",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recpv8kBAFWrBcGYD"
+   ],
+   "canonical_placeID": 834,
+   "canonical_title": "Mount Ephron"
+  },
+  {
+   "id": "recUukkWaSOK7dkHk",
+   "placeID": 405,
+   "displayTitle": "Ephron",
+   "feature": "Mount Ephron",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recpv8kBAFWrBcGYD"
+   ],
+   "canonical_placeID": 834,
+   "canonical_title": "Mount Ephron"
+  },
+  {
+   "id": "recl43rvNqfYRmsyj",
+   "placeID": 1047,
+   "displayTitle": "Senir",
+   "feature": "Mount Hermon",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "rec1ET3TBR0oBaWJu"
+   ],
+   "canonical_placeID": 841,
+   "canonical_title": "Mount Hermon"
+  },
+  {
+   "id": "recIyQIm2LMXScx0M",
+   "placeID": 856,
+   "displayTitle": "Mount Sion",
+   "feature": "Mount Hermon",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "rec1ET3TBR0oBaWJu"
+   ],
+   "canonical_placeID": 841,
+   "canonical_title": "Mount Hermon"
+  },
+  {
+   "id": "recWQDkxXj0IjAdkn",
+   "placeID": 1101,
+   "displayTitle": "Sirion",
+   "feature": "Mount Hermon",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "rec1ET3TBR0oBaWJu"
+   ],
+   "canonical_placeID": 841,
+   "canonical_title": "Mount Hermon"
+  },
+  {
+   "id": "recrpaouE7oxrv5jy",
+   "placeID": 564,
+   "displayTitle": "Hermon",
+   "feature": "Mount Hermon",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "rec1ET3TBR0oBaWJu"
+   ],
+   "canonical_placeID": 841,
+   "canonical_title": "Mount Hermon"
+  },
+  {
+   "id": "recCrwfh0wZHipZnN",
+   "placeID": 829,
+   "displayTitle": "Mount Baalhermon",
+   "feature": "Mount Hermon",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "rec1ET3TBR0oBaWJu"
+   ],
+   "canonical_placeID": 841,
+   "canonical_title": "Mount Hermon"
+  },
+  {
+   "id": "recDo9p41mKV8ptfj",
+   "placeID": 821,
+   "displayTitle": "Moriah",
+   "feature": "Mount Moriah",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "rec7WtUEqNx0gZrTa"
+   ],
+   "canonical_placeID": 848,
+   "canonical_title": "Mount Moriah"
+  },
+  {
+   "id": "recp5J3K9kl6DteAM",
+   "placeID": 907,
+   "displayTitle": "Olivet",
+   "feature": "Mount of Olives",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "rec5wqkJ6JXv03dvF"
+   ],
+   "canonical_placeID": 861,
+   "canonical_title": "Mount of Olives"
+  },
+  {
+   "id": "recOahYbjltSaaIV0",
+   "placeID": 828,
+   "displayTitle": "Mount of Olives",
+   "feature": "Mount of Olives",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "rec5wqkJ6JXv03dvF"
+   ],
+   "canonical_placeID": 861,
+   "canonical_title": "Mount of Olives"
+  },
+  {
+   "id": "recFPceE2ivY1B3sX",
+   "placeID": 145,
+   "displayTitle": "Baal-peor",
+   "feature": "Mount Peor",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recDsLjW4riPOxvp4"
+   ],
+   "canonical_placeID": 933,
+   "canonical_title": "Peor"
+  },
+  {
+   "id": "rec9FmVbRkqnkXn8n",
+   "placeID": 1042,
+   "displayTitle": "Seir",
+   "feature": "Mount Seir (of Edom)",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recE3qR8iDUqdkAuw"
+   ],
+   "canonical_placeID": 852,
+   "canonical_title": "Mount Seir"
+  },
+  {
+   "id": "rec6V51IWkgvAcnOU",
+   "placeID": 1098,
+   "displayTitle": "Sinai",
+   "feature": "Mount Sinai",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "rec5Yu6987dc60uKz"
+   ],
+   "canonical_placeID": 855,
+   "canonical_title": "Mount Sinai"
+  },
+  {
+   "id": "recufFfLnRDrtxLnL",
+   "placeID": 576,
+   "displayTitle": "Horeb",
+   "feature": "Mount Sinai",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "rec5Yu6987dc60uKz"
+   ],
+   "canonical_placeID": 855,
+   "canonical_title": "Mount Sinai"
+  },
+  {
+   "id": "recIgpvDJ3DxQVEfF",
+   "placeID": 844,
+   "displayTitle": "Mount Horeb",
+   "feature": "Mount Sinai",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "rec5Yu6987dc60uKz"
+   ],
+   "canonical_placeID": 855,
+   "canonical_title": "Mount Sinai"
+  },
+  {
+   "id": "recvt2PQbAxcUQYmR",
+   "placeID": 1237,
+   "displayTitle": "Zalmon",
+   "feature": "Mount Zalmon",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recAcOZQZcvRajG4d"
+   ],
+   "canonical_placeID": 858,
+   "canonical_title": "Mount Zalmon"
+  },
+  {
+   "id": "reczPjeq0UdahiRrn",
+   "placeID": 1263,
+   "displayTitle": "Zion",
+   "feature": "Mount Zion",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "rechZwu8ZbWlB6fyU"
+   ],
+   "canonical_placeID": 860,
+   "canonical_title": "Mount Zion"
+  },
+  {
+   "id": "recHcEu0vJOxAQJDI",
+   "placeID": 867,
+   "displayTitle": "Naarah",
+   "feature": "Naaran",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recDm5nMdE8meTQuJ"
+   ],
+   "canonical_placeID": 868,
+   "canonical_title": "Naaran"
+  },
+  {
+   "id": "rec8PJyBV3OBaZ8cO",
+   "placeID": 871,
+   "displayTitle": "Nahalol",
+   "feature": "Nahalal",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recemJEsxfDEoBRUE"
+   ],
+   "canonical_placeID": 869,
+   "canonical_title": "Nahalal"
+  },
+  {
+   "id": "recItoooL8TKSOT5p",
+   "placeID": 1110,
+   "displayTitle": "South",
+   "feature": "Negeb",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recsX4et9ux7g07Zg"
+   ],
+   "canonical_placeID": 885,
+   "canonical_title": "Negeb"
+  },
+  {
+   "id": "recPBAlvTZPyRnyOC",
+   "placeID": 524,
+   "displayTitle": "Hapharaim",
+   "feature": "Ophrah (of Manasseh)",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "rec8SNX7XoTfkfbY1"
+   ],
+   "canonical_placeID": 914,
+   "canonical_title": "Ophrah"
+  },
+  {
+   "id": "recDH5SAt8ll1TrfG",
+   "placeID": 915,
+   "displayTitle": "Paddan",
+   "feature": "Paddan-Aram",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recrEteYtMZW1c46t"
+   ],
+   "canonical_placeID": 916,
+   "canonical_title": "Paddan-aram"
+  },
+  {
+   "id": "recPjcrZhlgRQ3nHe",
+   "placeID": 917,
+   "displayTitle": "Pai",
+   "feature": "Pau",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recDTAsguCJpPM5ev"
+   ],
+   "canonical_placeID": 927,
+   "canonical_title": "Pau"
+  },
+  {
+   "id": "recGCjED5yTpggEi6",
+   "placeID": 930,
+   "displayTitle": "Peniel",
+   "feature": "Penuel (city)",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recKsSsPEDA3H2QXE"
+   ],
+   "canonical_placeID": 931,
+   "canonical_title": "Penuel"
+  },
+  {
+   "id": "recapsbflOiD4Y13u",
+   "placeID": 934,
+   "displayTitle": "Perez-uzza",
+   "feature": "Perez-Uzzah",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recNxQ3mwycY0rngs"
+   ],
+   "canonical_placeID": 935,
+   "canonical_title": "Perez-uzzah"
+  },
+  {
+   "id": "recvamv4D0fNJ9vri",
+   "placeID": 1036,
+   "displayTitle": "Sea of the Philistines",
+   "feature": "Philistia",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recirR7tLEeni78L3"
+   ],
+   "canonical_placeID": 943,
+   "canonical_title": "Philistia"
+  },
+  {
+   "id": "rec3L50DGaMt6lBb2",
+   "placeID": 506,
+   "displayTitle": "Hahiroth",
+   "feature": "Pi-Hahiroth",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recoDAncgjwP9jZVE"
+   ],
+   "canonical_placeID": 948,
+   "canonical_title": "Pi-hahiroth"
+  },
+  {
+   "id": "recglfjpGTUL9C7v1",
+   "placeID": 960,
+   "displayTitle": "Pul",
+   "feature": "Put (nation)",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recZ3tjOC2I7idswk"
+   ],
+   "canonical_placeID": 962,
+   "canonical_title": "Put"
+  },
+  {
+   "id": "recQfk1jNQuk2JPGb",
+   "placeID": 735,
+   "displayTitle": "Lud",
+   "feature": "Put (nation)",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recZ3tjOC2I7idswk"
+   ],
+   "canonical_placeID": 962,
+   "canonical_title": "Put"
+  },
+  {
+   "id": "recRqzbUZ7i6OPTa1",
+   "placeID": 58,
+   "displayTitle": "Ammon",
+   "feature": "Rabbah (Ammon)",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recq9ttBUfBJW1lhG"
+   ],
+   "canonical_placeID": 966,
+   "canonical_title": "Rabbah"
+  },
+  {
+   "id": "rec3sBoYreDR4Dskj",
+   "placeID": 514,
+   "displayTitle": "Ham",
+   "feature": "Rabbah (Ammon)",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recq9ttBUfBJW1lhG"
+   ],
+   "canonical_placeID": 966,
+   "canonical_title": "Rabbah"
+  },
+  {
+   "id": "recFKDaCksomouPcF",
+   "placeID": 965,
+   "displayTitle": "Raamses",
+   "feature": "Rameses",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recbzTNkxyES3LbQF"
+   ],
+   "canonical_placeID": 980,
+   "canonical_title": "Rameses"
+  },
+  {
+   "id": "rechqsejUnM2fn63T",
+   "placeID": 994,
+   "displayTitle": "Remeth",
+   "feature": "Ramoth",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recDWN5q09krFIERY"
+   ],
+   "canonical_placeID": 981,
+   "canonical_title": "Ramoth"
+  },
+  {
+   "id": "rec9szH9mCJFB3FV5",
+   "placeID": 983,
+   "displayTitle": "Ramoth",
+   "feature": "Ramoth-gilead",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recp2WSSUeSBeg6rV"
+   ],
+   "canonical_placeID": 984,
+   "canonical_title": "Ramoth-gilead"
+  },
+  {
+   "id": "recsuir3CsToQbBjn",
+   "placeID": 976,
+   "displayTitle": "Ramah",
+   "feature": "Ramoth-gilead",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recp2WSSUeSBeg6rV"
+   ],
+   "canonical_placeID": 984,
+   "canonical_title": "Ramoth-gilead"
+  },
+  {
+   "id": "recYdVr4FVGjduAvu",
+   "placeID": 394,
+   "displayTitle": "En-rimmon",
+   "feature": "Rimmon (of Judah)",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recZuw7dAJ1x1EUfb"
+   ],
+   "canonical_placeID": 1004,
+   "canonical_title": "Rimmon"
+  },
+  {
+   "id": "rect6bbJb7hq2uf6t",
+   "placeID": 1006,
+   "displayTitle": "Rimmono",
+   "feature": "Rimmon (of Zebulun)",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recerbxkGQRTanWmt"
+   ],
+   "canonical_placeID": 1005,
+   "canonical_title": "Rimmon"
+  },
+  {
+   "id": "recdj20FESzKensp3",
+   "placeID": 335,
+   "displayTitle": "Dimnah",
+   "feature": "Rimmon (of Zebulun)",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recerbxkGQRTanWmt"
+   ],
+   "canonical_placeID": 1005,
+   "canonical_title": "Rimmon"
+  },
+  {
+   "id": "rec8bEdIqk6qrW3mt",
+   "placeID": 1035,
+   "displayTitle": "Sea of the Plain",
+   "feature": "Salt Sea",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recN4jruK7QVakoJh"
+   ],
+   "canonical_placeID": 1021,
+   "canonical_title": "Salt Sea"
+  },
+  {
+   "id": "receUJC0VV7yquFBt",
+   "placeID": 1034,
+   "displayTitle": "Sea of Tiberias",
+   "feature": "Sea of Galilee",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recRe6uBpPMDP6u82"
+   ],
+   "canonical_placeID": 1032,
+   "canonical_title": "Sea of Galilee"
+  },
+  {
+   "id": "recYpSKSmkkbzakzX",
+   "placeID": 1029,
+   "displayTitle": "Sea of Chinnereth",
+   "feature": "Sea of Galilee",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recRe6uBpPMDP6u82"
+   ],
+   "canonical_placeID": 1032,
+   "canonical_title": "Sea of Galilee"
+  },
+  {
+   "id": "recks7hmMCkcKnCEo",
+   "placeID": 1030,
+   "displayTitle": "Sea of Chinneroth",
+   "feature": "Sea of Galilee",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recRe6uBpPMDP6u82"
+   ],
+   "canonical_placeID": 1032,
+   "canonical_title": "Sea of Galilee"
+  },
+  {
+   "id": "recQi9pDBUBeeYJip",
+   "placeID": 1052,
+   "displayTitle": "Shaalabbin",
+   "feature": "Shaalbim",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recqdNdwEAEU0Hlq2"
+   ],
+   "canonical_placeID": 1053,
+   "canonical_title": "Shaalbim"
+  },
+  {
+   "id": "recM5mUDUeuNmVj6E",
+   "placeID": 1056,
+   "displayTitle": "Shaaraim",
+   "feature": "Shaaraim",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recFF06mG50AJliKz"
+   ],
+   "canonical_placeID": 1055,
+   "canonical_title": "Shaaraim"
+  },
+  {
+   "id": "recRm8VDuk2fRyNdY",
+   "placeID": 1079,
+   "displayTitle": "Shilhim",
+   "feature": "Sharuhen",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recga1Xabw2DEyUv5"
+   ],
+   "canonical_placeID": 1065,
+   "canonical_title": "Sharuhen"
+  },
+  {
+   "id": "recrQGkK6uDl8hxAn",
+   "placeID": 1178,
+   "displayTitle": "Shechem (tower)",
+   "feature": "Shechem (city)",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recUySlrBva4ffoVs"
+   ],
+   "canonical_placeID": 1069,
+   "canonical_title": "Shechem"
+  },
+  {
+   "id": "recKy7FeV09vy9YKy",
+   "placeID": 1083,
+   "displayTitle": "Shimron-meron",
+   "feature": "Shimron (city)",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recJJNRuOtrW0M49k"
+   ],
+   "canonical_placeID": 1082,
+   "canonical_title": "Shimron"
+  },
+  {
+   "id": "recgfOCqzEYY932wA",
+   "placeID": 10,
+   "displayTitle": "Abel-shittim",
+   "feature": "Shittim",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "rec00JYAbLHvQFwog"
+   ],
+   "canonical_placeID": 1086,
+   "canonical_title": "Shittim"
+  },
+  {
+   "id": "recuAl3exVdlCg5zs",
+   "placeID": 1038,
+   "displayTitle": "Sebam",
+   "feature": "Sibmah",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recesqn5JDm6ZwKE5"
+   ],
+   "canonical_placeID": 1091,
+   "canonical_title": "Sibmah"
+  },
+  {
+   "id": "reckXhjBX8I6jSNkg",
+   "placeID": 1094,
+   "displayTitle": "Sidon",
+   "feature": "Sidon (city)",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recxiSg5QZWkj9Hy3"
+   ],
+   "canonical_placeID": 1093,
+   "canonical_title": "Sidon"
+  },
+  {
+   "id": "recRBhWSqBkqZk8fe",
+   "placeID": 494,
+   "displayTitle": "Sidon",
+   "feature": "Sidon (city)",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recxiSg5QZWkj9Hy3"
+   ],
+   "canonical_placeID": 1093,
+   "canonical_title": "Sidon"
+  },
+  {
+   "id": "rec4D5Z8lcPHzichv",
+   "placeID": 1080,
+   "displayTitle": "Shiloah",
+   "feature": "Siloam",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recsSXHp8TaXQVDGH"
+   ],
+   "canonical_placeID": 1096,
+   "canonical_title": "Siloam"
+  },
+  {
+   "id": "recbJJLMTzLRSP2PI",
+   "placeID": 957,
+   "displayTitle": "Pool",
+   "feature": "Siloam",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recsSXHp8TaXQVDGH"
+   ],
+   "canonical_placeID": 1096,
+   "canonical_title": "Siloam"
+  },
+  {
+   "id": "recxWtyi03VqD3AFx",
+   "placeID": 691,
+   "displayTitle": "Pool",
+   "feature": "Siloam",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recsSXHp8TaXQVDGH"
+   ],
+   "canonical_placeID": 1096,
+   "canonical_title": "Siloam"
+  },
+  {
+   "id": "recKy7NeHhH4Ni3Tu",
+   "placeID": 1104,
+   "displayTitle": "Soco",
+   "feature": "Socoh (in the Shephelah)",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recsVeoJRPG9LxKBN"
+   ],
+   "canonical_placeID": 1105,
+   "canonical_title": "Socoh"
+  },
+  {
+   "id": "recPmZCyVKpHuUOKt",
+   "placeID": 65,
+   "displayTitle": "Aner",
+   "feature": "Taanach",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recyS1I7gkQt8hvRD"
+   ],
+   "canonical_placeID": 1124,
+   "canonical_title": "Taanach"
+  },
+  {
+   "id": "recbTmIWQ3GZPZxdA",
+   "placeID": 857,
+   "displayTitle": "Mount Tabor",
+   "feature": "Tabor (Mountain)",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recmyzVBdbLEBB0Y0"
+   ],
+   "canonical_placeID": 1128,
+   "canonical_title": "Tabor (Mountain)"
+  },
+  {
+   "id": "recGwBS5vf8v2OCVU",
+   "placeID": 1134,
+   "displayTitle": "Tamar",
+   "feature": "Tadmor",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recQPMnBRF46WaA5k"
+   ],
+   "canonical_placeID": 1131,
+   "canonical_title": "Tadmor"
+  },
+  {
+   "id": "rec7YbGNmyu5hdQZl",
+   "placeID": 1141,
+   "displayTitle": "Tehaphnehes",
+   "feature": "Tahpanhes",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "rec7RMIt09whPuuSU"
+   ],
+   "canonical_placeID": 1133,
+   "canonical_title": "Tahpanhes"
+  },
+  {
+   "id": "recy0wVtUyvb64YSM",
+   "placeID": 1144,
+   "displayTitle": "Telaim",
+   "feature": "Telem (village)",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recH4JgAoJ7UVSGsv"
+   ],
+   "canonical_placeID": 1146,
+   "canonical_title": "Telem"
+  },
+  {
+   "id": "recCctY2iFKTyvAOc",
+   "placeID": 430,
+   "displayTitle": "Gabbatha",
+   "feature": "The Stone Pavement",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recWMy4BcpoOC3LSr"
+   ],
+   "canonical_placeID": 1155,
+   "canonical_title": "Pavement"
+  },
+  {
+   "id": "reczghi5uPnwl4Wej",
+   "placeID": 970,
+   "displayTitle": "Rakkath",
+   "feature": "Tiberias",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recJ5Vr9vsvg72UIz"
+   ],
+   "canonical_placeID": 1161,
+   "canonical_title": "Tiberias"
+  },
+  {
+   "id": "recnnR9Jn65LEBgKC",
+   "placeID": 182,
+   "displayTitle": "Betah",
+   "feature": "Tibhath",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "receUGVTCDMBusNhW"
+   ],
+   "canonical_placeID": 1162,
+   "canonical_title": "Tibhath"
+  },
+  {
+   "id": "recLqhClSrRFpvMvG",
+   "placeID": 1167,
+   "displayTitle": "Timnath-serah",
+   "feature": "Timnath-Heres",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recVJJVSqbm0DBuEb"
+   ],
+   "canonical_placeID": 1166,
+   "canonical_title": "Timnath-heres"
+  },
+  {
+   "id": "recHWD5V8s6tf9WyK",
+   "placeID": 734,
+   "displayTitle": "Beth-horon",
+   "feature": "Upper Beth-Horon",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recMJFxR4wli1Ly6z"
+   ],
+   "canonical_placeID": 1188,
+   "canonical_title": "Upper Beth-horon"
+  },
+  {
+   "id": "recBmAFzEOaWeXu1s",
+   "placeID": 1227,
+   "displayTitle": "Valley of the Passengers",
+   "feature": "Valley of Hamon-gog",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recbHkRKRsfKeOQoB"
+   ],
+   "canonical_placeID": 1205,
+   "canonical_title": "Valley of Hamongog"
+  },
+  {
+   "id": "recBsRcVlu8hkiGKW",
+   "placeID": 1226,
+   "displayTitle": "Valley of the Son of Hinnom",
+   "feature": "Valley of Hinnom",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recsoRbSuiqYLSGzN"
+   ],
+   "canonical_placeID": 1207,
+   "canonical_title": "Valley of Hinnom"
+  },
+  {
+   "id": "recI0bhf2ewWIHMRC",
+   "placeID": 1199,
+   "displayTitle": "Valley of Baca",
+   "feature": "Valley of Hinnom",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recsoRbSuiqYLSGzN"
+   ],
+   "canonical_placeID": 1207,
+   "canonical_title": "Valley of Hinnom"
+  },
+  {
+   "id": "rec4usYdsZVP42UId",
+   "placeID": 1176,
+   "displayTitle": "Topheth",
+   "feature": "Valley of Hinnom",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recsoRbSuiqYLSGzN"
+   ],
+   "canonical_placeID": 1207,
+   "canonical_title": "Valley of Hinnom"
+  },
+  {
+   "id": "rec8S2KLxGycWJ6sv",
+   "placeID": 1219,
+   "displayTitle": "Valley of Slaughter",
+   "feature": "Valley of Hinnom",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recsoRbSuiqYLSGzN"
+   ],
+   "canonical_placeID": 1207,
+   "canonical_title": "Valley of Hinnom"
+  },
+  {
+   "id": "rec6zuFbI9Andx3yK",
+   "placeID": 810,
+   "displayTitle": "Mizpah",
+   "feature": "Valley of Mizpeh",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recp19CEA8RQIkxZH"
+   ],
+   "canonical_placeID": 1213,
+   "canonical_title": "Valley of Mizpeh"
+  },
+  {
+   "id": "reci8dghn7shG5pMX",
+   "placeID": 995,
+   "displayTitle": "Rephaim",
+   "feature": "Valley of Rephaim",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recTdeFWjvLAXs0t3"
+   ],
+   "canonical_placeID": 1214,
+   "canonical_title": "Valley of Rephaim"
+  },
+  {
+   "id": "rec8VO6kIG5kkTOhC",
+   "placeID": 1262,
+   "displayTitle": "Zin",
+   "feature": "Wilderness of Zin",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recM1lN580CYvi2y8"
+   ],
+   "canonical_placeID": 1261,
+   "canonical_title": "Zin"
+  },
+  {
+   "id": "recBysc3TP9gezHu2",
+   "placeID": 1256,
+   "displayTitle": "Zererah",
+   "feature": "Zarethan",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recUlW6Qk0RBmMe07"
+   ],
+   "canonical_placeID": 1243,
+   "canonical_title": "Zarethan"
+  },
+  {
+   "id": "recSG6LfsxbfS94Wn",
+   "placeID": 1251,
+   "displayTitle": "Zephath",
+   "feature": "Zephath",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recJuXzCbm1TSujll"
+   ],
+   "canonical_placeID": 580,
+   "canonical_title": "Hormah"
+  },
+  {
+   "id": "recDFPe1YrsI827hP",
+   "placeID": 1224,
+   "displayTitle": "Valley of Zered",
+   "feature": "Zered",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "rec0SjrDrVPzEPdRu"
+   ],
+   "canonical_placeID": 1253,
+   "canonical_title": "Zered"
+  },
+  {
+   "id": "reckGKmKPQ1J0jw8r",
+   "placeID": 1255,
+   "displayTitle": "Zeredah",
+   "feature": "Zeredah",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recXCWnyyE7m1i7kO"
+   ],
+   "canonical_placeID": 1254,
+   "canonical_title": "Zeredah"
+  },
+  {
+   "id": "recz7g41dLAYpgPhB",
+   "placeID": 172,
+   "displayTitle": "Bela",
+   "feature": "Zoar",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "reciwuMXIVWYdwnZw"
+   ],
+   "canonical_placeID": 1271,
+   "canonical_title": "Zoar"
+  },
+  {
+   "id": "rec25eNzSTmosC7xU",
+   "placeID": 1236,
+   "displayTitle": "Zair",
+   "feature": "Zoar",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "reciwuMXIVWYdwnZw"
+   ],
+   "canonical_placeID": 1271,
+   "canonical_title": "Zoar"
+  },
+  {
+   "id": "rec5lsWLp4xB8ECtt",
+   "placeID": 85,
+   "displayTitle": "Aram-zobah",
+   "feature": "Zobah",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recpkvM8CHSklH6RP"
+   ],
+   "canonical_placeID": 1272,
+   "canonical_title": "Zobah"
+  },
+  {
+   "id": "recluhQrl8PcgaXJJ",
+   "placeID": 1273,
+   "displayTitle": "Zobah-Hamath",
+   "feature": "Zobah",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recpkvM8CHSklH6RP"
+   ],
+   "canonical_placeID": 1272,
+   "canonical_title": "Zobah"
+  }
+ ],
+ "update_batches": [
+  [
+   {
+    "id": "recy1DLOJRAuwMXyj",
+    "fields": {
+     "canonicalPlace": [
+      "recPdJgyI1kRUNw35"
+     ]
+    }
+   },
+   {
+    "id": "recbGH2r2ob7OjK4j",
+    "fields": {
+     "canonicalPlace": [
+      "recyET7N6CKcQ1wsP"
+     ]
+    }
+   },
+   {
+    "id": "recvBrqC52ifM2FSm",
+    "fields": {
+     "canonicalPlace": [
+      "recyET7N6CKcQ1wsP"
+     ]
+    }
+   },
+   {
+    "id": "recb0HKOcNCfd1sCn",
+    "fields": {
+     "canonicalPlace": [
+      "recyET7N6CKcQ1wsP"
+     ]
+    }
+   },
+   {
+    "id": "recCdyPm5ehwB2lsH",
+    "fields": {
+     "canonicalPlace": [
+      "recCxPm3UUcexTdBW"
+     ]
+    }
+   },
+   {
+    "id": "recU8xLJc1yFmRk7p",
+    "fields": {
+     "canonicalPlace": [
+      "recrmEKu11xT3oWQd"
+     ]
+    }
+   },
+   {
+    "id": "recm8RzMhm7XDgVE1",
+    "fields": {
+     "canonicalPlace": [
+      "recrmEKu11xT3oWQd"
+     ]
+    }
+   },
+   {
+    "id": "rec7eWoWlxhVZAjX8",
+    "fields": {
+     "canonicalPlace": [
+      "recRpCv9XP4GPVkPQ"
+     ]
+    }
+   },
+   {
+    "id": "recwBcaQrg8xhl7a7",
+    "fields": {
+     "canonicalPlace": [
+      "recedRWoiFNdeGFm4"
+     ]
+    }
+   },
+   {
+    "id": "recTnu7k5LCNvA37v",
+    "fields": {
+     "canonicalPlace": [
+      "recedRWoiFNdeGFm4"
+     ]
+    }
+   }
+  ],
+  [
+   {
+    "id": "recfAJwYgmKZMAeHP",
+    "fields": {
+     "canonicalPlace": [
+      "recwuQfjxyqSHBpeN"
+     ]
+    }
+   },
+   {
+    "id": "rec6a1LOQkLPcfRPk",
+    "fields": {
+     "canonicalPlace": [
+      "recpdFqMr64GytQYz"
+     ]
+    }
+   },
+   {
+    "id": "rectQkLOmxxcMv1kQ",
+    "fields": {
+     "canonicalPlace": [
+      "recUGTpxTrOA7MPkd"
+     ]
+    }
+   },
+   {
+    "id": "recHrXj4CZl6AH9TQ",
+    "fields": {
+     "canonicalPlace": [
+      "recUGTpxTrOA7MPkd"
+     ]
+    }
+   },
+   {
+    "id": "recqoLWlnh3Qritdc",
+    "fields": {
+     "canonicalPlace": [
+      "recWKNRLvmxh9CMku"
+     ]
+    }
+   },
+   {
+    "id": "recbv8OwCVWm7wEAK",
+    "fields": {
+     "canonicalPlace": [
+      "rec1NgBQ2zMeIsFyT"
+     ]
+    }
+   },
+   {
+    "id": "recgR56C1unVPKivr",
+    "fields": {
+     "canonicalPlace": [
+      "recCJGVY9NNPvs1py"
+     ]
+    }
+   },
+   {
+    "id": "recAPCFiiSX6hmHhX",
+    "fields": {
+     "canonicalPlace": [
+      "recN2YJFW0fYzSL9r"
+     ]
+    }
+   },
+   {
+    "id": "recjPh8iusH2RsY0b",
+    "fields": {
+     "canonicalPlace": [
+      "recgQ3PF8NjkiBIKf"
+     ]
+    }
+   },
+   {
+    "id": "rectOnOUbj3MjGIoL",
+    "fields": {
+     "canonicalPlace": [
+      "recL9dEZ2PHl7Vrrt"
+     ]
+    }
+   }
+  ],
+  [
+   {
+    "id": "recAiXXgqL914wNA9",
+    "fields": {
+     "canonicalPlace": [
+      "recIJFRcqI6KbKgXb"
+     ]
+    }
+   },
+   {
+    "id": "recepqQCxjioAao15",
+    "fields": {
+     "canonicalPlace": [
+      "recIJFRcqI6KbKgXb"
+     ]
+    }
+   },
+   {
+    "id": "recNGsIGVIK9Quqo4",
+    "fields": {
+     "canonicalPlace": [
+      "recbH04cWWTUPT5HI"
+     ]
+    }
+   },
+   {
+    "id": "recxZzKRwcRUciXjm",
+    "fields": {
+     "canonicalPlace": [
+      "recEQouzJnwIXnbfV"
+     ]
+    }
+   },
+   {
+    "id": "recwPACgpqabJeUvd",
+    "fields": {
+     "canonicalPlace": [
+      "recqjhxabaoyCoXAg"
+     ]
+    }
+   },
+   {
+    "id": "rec3iGhIgwWlatj5Z",
+    "fields": {
+     "canonicalPlace": [
+      "recUga1ulf3rDvMru"
+     ]
+    }
+   },
+   {
+    "id": "recIQJnRBKR4sEF0C",
+    "fields": {
+     "canonicalPlace": [
+      "recUga1ulf3rDvMru"
+     ]
+    }
+   },
+   {
+    "id": "recqyPSe4athazQy4",
+    "fields": {
+     "canonicalPlace": [
+      "recUga1ulf3rDvMru"
+     ]
+    }
+   },
+   {
+    "id": "recEqQREaXQbx8Uuf",
+    "fields": {
+     "canonicalPlace": [
+      "recGvmVzGXwM0gcuz"
+     ]
+    }
+   },
+   {
+    "id": "recFIAoypGksc1iK6",
+    "fields": {
+     "canonicalPlace": [
+      "recGvmVzGXwM0gcuz"
+     ]
+    }
+   }
+  ],
+  [
+   {
+    "id": "reciBYklvLCuVsref",
+    "fields": {
+     "canonicalPlace": [
+      "recGvmVzGXwM0gcuz"
+     ]
+    }
+   },
+   {
+    "id": "recevwD8aPKX3CoC6",
+    "fields": {
+     "canonicalPlace": [
+      "recGvmVzGXwM0gcuz"
+     ]
+    }
+   },
+   {
+    "id": "recO7At5WvGRe0Xsu",
+    "fields": {
+     "canonicalPlace": [
+      "recpqKANUDcRgN4HU"
+     ]
+    }
+   },
+   {
+    "id": "rec2006YHGi4zadxa",
+    "fields": {
+     "canonicalPlace": [
+      "recpqKANUDcRgN4HU"
+     ]
+    }
+   },
+   {
+    "id": "reciqLEHEJ42oR4bN",
+    "fields": {
+     "canonicalPlace": [
+      "recpqKANUDcRgN4HU"
+     ]
+    }
+   },
+   {
+    "id": "reclpX4P8Fa2JcMKn",
+    "fields": {
+     "canonicalPlace": [
+      "recrIxQuDpJHk9OiN"
+     ]
+    }
+   },
+   {
+    "id": "recZfXro4PsQ84gVp",
+    "fields": {
+     "canonicalPlace": [
+      "recJD9cmtiBXxNSEK"
+     ]
+    }
+   },
+   {
+    "id": "recVHSiFLmbUrZHLJ",
+    "fields": {
+     "canonicalPlace": [
+      "rectrAkGtrZH5LMp8"
+     ]
+    }
+   },
+   {
+    "id": "recoup7E1KIvzRIvR",
+    "fields": {
+     "canonicalPlace": [
+      "reccCI2061PQY2ole"
+     ]
+    }
+   },
+   {
+    "id": "recvLUMajbYnYDikr",
+    "fields": {
+     "canonicalPlace": [
+      "recNdvSZuqT39nqz4"
+     ]
+    }
+   }
+  ],
+  [
+   {
+    "id": "recp4c7XfzOnOlOHT",
+    "fields": {
+     "canonicalPlace": [
+      "recPhJtPyCKl7di9Y"
+     ]
+    }
+   },
+   {
+    "id": "rec871Urh3FpMXS3G",
+    "fields": {
+     "canonicalPlace": [
+      "recPhJtPyCKl7di9Y"
+     ]
+    }
+   },
+   {
+    "id": "recynxQNL8B19XrOm",
+    "fields": {
+     "canonicalPlace": [
+      "recnInvPwUX8axnX3"
+     ]
+    }
+   },
+   {
+    "id": "recFkoFKnoYZeBqsi",
+    "fields": {
+     "canonicalPlace": [
+      "recSx0USOwA2fisi6"
+     ]
+    }
+   },
+   {
+    "id": "recrGHr34zyi8zDUV",
+    "fields": {
+     "canonicalPlace": [
+      "recsu2tjam7UDFthp"
+     ]
+    }
+   },
+   {
+    "id": "rec3gzPTVeaDAIJ5Q",
+    "fields": {
+     "canonicalPlace": [
+      "recDscMOGkYsInRIG"
+     ]
+    }
+   },
+   {
+    "id": "recWpI3yiVzlUPgnT",
+    "fields": {
+     "canonicalPlace": [
+      "recasVvXRao2TAZVE"
+     ]
+    }
+   },
+   {
+    "id": "rec2CA3fcreugXc2x",
+    "fields": {
+     "canonicalPlace": [
+      "recocNih6Mr5ISN1d"
+     ]
+    }
+   },
+   {
+    "id": "recsbSnt3kftHlmU3",
+    "fields": {
+     "canonicalPlace": [
+      "recuopRspYkwGpj5A"
+     ]
+    }
+   },
+   {
+    "id": "reci4G5xtsAv4FRwr",
+    "fields": {
+     "canonicalPlace": [
+      "recJK76HLZSOzxTWW"
+     ]
+    }
+   }
+  ],
+  [
+   {
+    "id": "recgAmwf1FZDe8DST",
+    "fields": {
+     "canonicalPlace": [
+      "recJK76HLZSOzxTWW"
+     ]
+    }
+   },
+   {
+    "id": "recW1hr037qxVsNBt",
+    "fields": {
+     "canonicalPlace": [
+      "recJK76HLZSOzxTWW"
+     ]
+    }
+   },
+   {
+    "id": "rect9L2mkHh1K2Bka",
+    "fields": {
+     "canonicalPlace": [
+      "recJK76HLZSOzxTWW"
+     ]
+    }
+   },
+   {
+    "id": "rec7ux6O0fwgSs7Cw",
+    "fields": {
+     "canonicalPlace": [
+      "recJK76HLZSOzxTWW"
+     ]
+    }
+   },
+   {
+    "id": "recX46u00iXp2HIOW",
+    "fields": {
+     "canonicalPlace": [
+      "rec81f3wE4gATsRRE"
+     ]
+    }
+   },
+   {
+    "id": "recTsiqfHAu6vwW3H",
+    "fields": {
+     "canonicalPlace": [
+      "rec81f3wE4gATsRRE"
+     ]
+    }
+   },
+   {
+    "id": "recIn7Y9y8ASc1bbA",
+    "fields": {
+     "canonicalPlace": [
+      "recIfdlpmLYrfPeAv"
+     ]
+    }
+   },
+   {
+    "id": "rec59YRMb8c7bTak3",
+    "fields": {
+     "canonicalPlace": [
+      "recTCLydxA9SiyYUl"
+     ]
+    }
+   },
+   {
+    "id": "recardcGMIv5hpUwf",
+    "fields": {
+     "canonicalPlace": [
+      "reckUbxmDHEnxC9dg"
+     ]
+    }
+   },
+   {
+    "id": "recTLtdYknboPobdU",
+    "fields": {
+     "canonicalPlace": [
+      "recQ8DF0pj7A20FyQ"
+     ]
+    }
+   }
+  ],
+  [
+   {
+    "id": "recaGCm1p3KSLswYI",
+    "fields": {
+     "canonicalPlace": [
+      "recEKsQvYiMeFJgdN"
+     ]
+    }
+   },
+   {
+    "id": "recZz0bB1uUWCV2RX",
+    "fields": {
+     "canonicalPlace": [
+      "recEKsQvYiMeFJgdN"
+     ]
+    }
+   },
+   {
+    "id": "recdFJBOErXeELyd6",
+    "fields": {
+     "canonicalPlace": [
+      "recK0feE032FY9Hxi"
+     ]
+    }
+   },
+   {
+    "id": "reci1kkPbg8LSQStj",
+    "fields": {
+     "canonicalPlace": [
+      "rec6yittVQwxJlpye"
+     ]
+    }
+   },
+   {
+    "id": "rec3AkQ2GFvTqPxCx",
+    "fields": {
+     "canonicalPlace": [
+      "recaHkhAvEICQr7fB"
+     ]
+    }
+   },
+   {
+    "id": "recYKI4ffid5OvTiE",
+    "fields": {
+     "canonicalPlace": [
+      "reckj2nMFQVOzR2E8"
+     ]
+    }
+   },
+   {
+    "id": "recxONSPR7PbGyrLR",
+    "fields": {
+     "canonicalPlace": [
+      "receEjvf5hXhkgVuZ"
+     ]
+    }
+   },
+   {
+    "id": "rec9iLE1EPBSXW9He",
+    "fields": {
+     "canonicalPlace": [
+      "receEjvf5hXhkgVuZ"
+     ]
+    }
+   },
+   {
+    "id": "recf1YkEgSxLMhWlr",
+    "fields": {
+     "canonicalPlace": [
+      "recwFUncFiNWPsPWN"
+     ]
+    }
+   },
+   {
+    "id": "recWRgEtgOHDG2ZtL",
+    "fields": {
+     "canonicalPlace": [
+      "recwFUncFiNWPsPWN"
+     ]
+    }
+   }
+  ],
+  [
+   {
+    "id": "reccGcdn7DyKWuaJT",
+    "fields": {
+     "canonicalPlace": [
+      "reclzdXLmXHPKYAou"
+     ]
+    }
+   },
+   {
+    "id": "recC7NCGfppWKjpRg",
+    "fields": {
+     "canonicalPlace": [
+      "reclzdXLmXHPKYAou"
+     ]
+    }
+   },
+   {
+    "id": "rec3XNe7xQ7Jn7wyn",
+    "fields": {
+     "canonicalPlace": [
+      "rechszjphdueUPvPi"
+     ]
+    }
+   },
+   {
+    "id": "rectNTiLmcS0hcEZ3",
+    "fields": {
+     "canonicalPlace": [
+      "recvyeVO2Ex1jYF7o"
+     ]
+    }
+   },
+   {
+    "id": "rec6WgUUBIrAf8HEE",
+    "fields": {
+     "canonicalPlace": [
+      "recvyeVO2Ex1jYF7o"
+     ]
+    }
+   },
+   {
+    "id": "recqMLCLLurbShHne",
+    "fields": {
+     "canonicalPlace": [
+      "recZwsy0mEhiftoDs"
+     ]
+    }
+   },
+   {
+    "id": "recDQe9YTG4wPXsNP",
+    "fields": {
+     "canonicalPlace": [
+      "recLcxRZbz3yIQB7b"
+     ]
+    }
+   },
+   {
+    "id": "recFinINtrGjUmVDi",
+    "fields": {
+     "canonicalPlace": [
+      "recfrXyxhuYOczKTm"
+     ]
+    }
+   },
+   {
+    "id": "recbAK2JxigPufNCM",
+    "fields": {
+     "canonicalPlace": [
+      "recGCEXT37NohcAM5"
+     ]
+    }
+   },
+   {
+    "id": "recvLZB9Y6g5zrtse",
+    "fields": {
+     "canonicalPlace": [
+      "rec2H0XhjHGTh1ivm"
+     ]
+    }
+   }
+  ],
+  [
+   {
+    "id": "recXH0UZI6yZKjxYj",
+    "fields": {
+     "canonicalPlace": [
+      "rec8l1lVhso3t7ULj"
+     ]
+    }
+   },
+   {
+    "id": "reccHbpnFEJfJBtpy",
+    "fields": {
+     "canonicalPlace": [
+      "recKotcLQBDuesdIb"
+     ]
+    }
+   },
+   {
+    "id": "recHhX3If7T8OFzqE",
+    "fields": {
+     "canonicalPlace": [
+      "rec47z6GarT41J5Vh"
+     ]
+    }
+   },
+   {
+    "id": "recZWekS06dZsVfgD",
+    "fields": {
+     "canonicalPlace": [
+      "rec3w84nsjQvkJEE3"
+     ]
+    }
+   },
+   {
+    "id": "recKaA37m3ryr9Yj3",
+    "fields": {
+     "canonicalPlace": [
+      "recAaf40EEWyTLYmo"
+     ]
+    }
+   },
+   {
+    "id": "recBVeG0aEI4bdx00",
+    "fields": {
+     "canonicalPlace": [
+      "recNvVf6oxrh2Aqhe"
+     ]
+    }
+   },
+   {
+    "id": "recQIJnCSmWgA0ktQ",
+    "fields": {
+     "canonicalPlace": [
+      "recJ0N5yStBk9CjXA"
+     ]
+    }
+   },
+   {
+    "id": "reczaDpSZSElt6Xxm",
+    "fields": {
+     "canonicalPlace": [
+      "recDWNfN3f6E04V4m"
+     ]
+    }
+   },
+   {
+    "id": "recRjfwduOcMQAbDN",
+    "fields": {
+     "canonicalPlace": [
+      "recE4R1DFGiDMLM5y"
+     ]
+    }
+   },
+   {
+    "id": "reclDeMC2ZcL7FsyA",
+    "fields": {
+     "canonicalPlace": [
+      "recF5IgX3dVt18Azk"
+     ]
+    }
+   }
+  ],
+  [
+   {
+    "id": "recINyglIMH5HJ6yW",
+    "fields": {
+     "canonicalPlace": [
+      "recF5IgX3dVt18Azk"
+     ]
+    }
+   },
+   {
+    "id": "recpukEDeQV7MqzNA",
+    "fields": {
+     "canonicalPlace": [
+      "reclg1YBA0tsZbZ6Y"
+     ]
+    }
+   },
+   {
+    "id": "recHcMmB2WjEh1MXi",
+    "fields": {
+     "canonicalPlace": [
+      "reclg1YBA0tsZbZ6Y"
+     ]
+    }
+   },
+   {
+    "id": "recvDlppuKNnN5srC",
+    "fields": {
+     "canonicalPlace": [
+      "recNwG4bBkZyEhAT4"
+     ]
+    }
+   },
+   {
+    "id": "recnBkiFnanbkDZxe",
+    "fields": {
+     "canonicalPlace": [
+      "recqxkLUTRbyks2qF"
+     ]
+    }
+   },
+   {
+    "id": "recUvwKFFrn3148Ey",
+    "fields": {
+     "canonicalPlace": [
+      "recYsXWjhw6FUqHLY"
+     ]
+    }
+   },
+   {
+    "id": "recmXnEHeGtX63jTW",
+    "fields": {
+     "canonicalPlace": [
+      "recdm9AlLF01lFAfP"
+     ]
+    }
+   },
+   {
+    "id": "recw9Zm1HwiKM6qTn",
+    "fields": {
+     "canonicalPlace": [
+      "recdm9AlLF01lFAfP"
+     ]
+    }
+   },
+   {
+    "id": "recVoWObhcZdbdDmm",
+    "fields": {
+     "canonicalPlace": [
+      "rec3WJ6kka7RKAwZm"
+     ]
+    }
+   },
+   {
+    "id": "rec8e887YWXiVHAGy",
+    "fields": {
+     "canonicalPlace": [
+      "recYlTJouLztJii9o"
+     ]
+    }
+   }
+  ],
+  [
+   {
+    "id": "recsVabA4tEGT52Ym",
+    "fields": {
+     "canonicalPlace": [
+      "recYlTJouLztJii9o"
+     ]
+    }
+   },
+   {
+    "id": "recyLzZVuj6lpF5w9",
+    "fields": {
+     "canonicalPlace": [
+      "recYlTJouLztJii9o"
+     ]
+    }
+   },
+   {
+    "id": "recTOELkXIVkgI0vr",
+    "fields": {
+     "canonicalPlace": [
+      "recA34XfYsCxhyu31"
+     ]
+    }
+   },
+   {
+    "id": "recQEnJ8wEKULipuY",
+    "fields": {
+     "canonicalPlace": [
+      "recA34XfYsCxhyu31"
+     ]
+    }
+   },
+   {
+    "id": "recEfNbXnb60Qu7Fe",
+    "fields": {
+     "canonicalPlace": [
+      "reclzgV7mRRSxyhph"
+     ]
+    }
+   },
+   {
+    "id": "recU0a48tvCQOFrxo",
+    "fields": {
+     "canonicalPlace": [
+      "reclzgV7mRRSxyhph"
+     ]
+    }
+   },
+   {
+    "id": "reciPNlPJ18bPGAZM",
+    "fields": {
+     "canonicalPlace": [
+      "recpx625y2be2c5YY"
+     ]
+    }
+   },
+   {
+    "id": "rec3qLfY9kEC7Xnun",
+    "fields": {
+     "canonicalPlace": [
+      "recI0tMa0vUukm1G0"
+     ]
+    }
+   },
+   {
+    "id": "reccnARM8vn8OfAgg",
+    "fields": {
+     "canonicalPlace": [
+      "recJSfVnIcPibY6aX"
+     ]
+    }
+   },
+   {
+    "id": "recqTxaRekULVrdMC",
+    "fields": {
+     "canonicalPlace": [
+      "recUoVFfVA066pPes"
+     ]
+    }
+   }
+  ],
+  [
+   {
+    "id": "recSjPmPySxsIEpdj",
+    "fields": {
+     "canonicalPlace": [
+      "rec76ox1jwnhFHmzl"
+     ]
+    }
+   },
+   {
+    "id": "recDzdFQedvpLxVrg",
+    "fields": {
+     "canonicalPlace": [
+      "recn603JbNWAX5cEE"
+     ]
+    }
+   },
+   {
+    "id": "rec4g6YLcH5MhL0th",
+    "fields": {
+     "canonicalPlace": [
+      "rechN4gu5ltBnuSD2"
+     ]
+    }
+   },
+   {
+    "id": "rectQfI2b5yqcGyKc",
+    "fields": {
+     "canonicalPlace": [
+      "recj54HWxfFJvfSD4"
+     ]
+    }
+   },
+   {
+    "id": "rec2ngjsU0Y8MN6Nx",
+    "fields": {
+     "canonicalPlace": [
+      "rec91Z7a1D7vQHOgk"
+     ]
+    }
+   },
+   {
+    "id": "recDCYv3vAHJFz0BC",
+    "fields": {
+     "canonicalPlace": [
+      "rec91Z7a1D7vQHOgk"
+     ]
+    }
+   },
+   {
+    "id": "recZFeTunxtFB8Yie",
+    "fields": {
+     "canonicalPlace": [
+      "recT5Pc6wmONxUJIp"
+     ]
+    }
+   },
+   {
+    "id": "recWGSw92LUtKuN0b",
+    "fields": {
+     "canonicalPlace": [
+      "recr2LdyigJIb8bvj"
+     ]
+    }
+   },
+   {
+    "id": "recm3uRahzpZJ7lDk",
+    "fields": {
+     "canonicalPlace": [
+      "reczL2DzDEB0XnRNv"
+     ]
+    }
+   },
+   {
+    "id": "recyLShFzEJK8dBws",
+    "fields": {
+     "canonicalPlace": [
+      "recngVYo6AIxMvxoX"
+     ]
+    }
+   }
+  ],
+  [
+   {
+    "id": "reck9NQJ79h9wVCBA",
+    "fields": {
+     "canonicalPlace": [
+      "rec5DyQDXpkG4OiFl"
+     ]
+    }
+   },
+   {
+    "id": "recpmPd6JhbqhqA0Q",
+    "fields": {
+     "canonicalPlace": [
+      "recwvS6ztRKFrA9rK"
+     ]
+    }
+   },
+   {
+    "id": "rec49TXccUxr6Dnhe",
+    "fields": {
+     "canonicalPlace": [
+      "recL1WV82pXaRBQ59"
+     ]
+    }
+   },
+   {
+    "id": "rec3SLjiyY0ddRB03",
+    "fields": {
+     "canonicalPlace": [
+      "recL1WV82pXaRBQ59"
+     ]
+    }
+   },
+   {
+    "id": "recynQnhWEkUNUZRU",
+    "fields": {
+     "canonicalPlace": [
+      "recL1WV82pXaRBQ59"
+     ]
+    }
+   },
+   {
+    "id": "recXmfE7tECVVSN23",
+    "fields": {
+     "canonicalPlace": [
+      "recL1WV82pXaRBQ59"
+     ]
+    }
+   },
+   {
+    "id": "recSWu2nTiJjPfd7u",
+    "fields": {
+     "canonicalPlace": [
+      "recYncMsyFtEC7kXF"
+     ]
+    }
+   },
+   {
+    "id": "recfyDMmdJqC0a3vI",
+    "fields": {
+     "canonicalPlace": [
+      "recAalC2QoLT7cJKN"
+     ]
+    }
+   },
+   {
+    "id": "recSerPO7uLWI5cck",
+    "fields": {
+     "canonicalPlace": [
+      "recAiaG6JoV8gdChq"
+     ]
+    }
+   },
+   {
+    "id": "rec6sSw7Z7ya7vwrR",
+    "fields": {
+     "canonicalPlace": [
+      "recVfy9PlsXdODNGL"
+     ]
+    }
+   }
+  ],
+  [
+   {
+    "id": "recbFkcAeBmrPDZvG",
+    "fields": {
+     "canonicalPlace": [
+      "recVfy9PlsXdODNGL"
+     ]
+    }
+   },
+   {
+    "id": "recEq0kDYaFbGXYWu",
+    "fields": {
+     "canonicalPlace": [
+      "recVfy9PlsXdODNGL"
+     ]
+    }
+   },
+   {
+    "id": "recbUWNXPw0egUflC",
+    "fields": {
+     "canonicalPlace": [
+      "recAHELZ2LlYlYqDx"
+     ]
+    }
+   },
+   {
+    "id": "recfPJ2PdSB18419T",
+    "fields": {
+     "canonicalPlace": [
+      "rec6G3mRvN9MpCyjT"
+     ]
+    }
+   },
+   {
+    "id": "recW9pJRZ4cg9A2k6",
+    "fields": {
+     "canonicalPlace": [
+      "rec6TagODGnHaVOkU"
+     ]
+    }
+   },
+   {
+    "id": "rechXI3CkTEGaIRBP",
+    "fields": {
+     "canonicalPlace": [
+      "rec6TagODGnHaVOkU"
+     ]
+    }
+   },
+   {
+    "id": "recEZk6tOBSVS51AC",
+    "fields": {
+     "canonicalPlace": [
+      "recnzE5hzdUKE6HSX"
+     ]
+    }
+   },
+   {
+    "id": "recEGlxNTRCYkMv6l",
+    "fields": {
+     "canonicalPlace": [
+      "recxIvkrjy8frb65C"
+     ]
+    }
+   },
+   {
+    "id": "recYRlZ4ewWJACJQ6",
+    "fields": {
+     "canonicalPlace": [
+      "reccf5Vf48NjEXaxz"
+     ]
+    }
+   },
+   {
+    "id": "recYksg9zceqN9vql",
+    "fields": {
+     "canonicalPlace": [
+      "receagvMif63k28fg"
+     ]
+    }
+   }
+  ],
+  [
+   {
+    "id": "recS20ddm3ioLoaOw",
+    "fields": {
+     "canonicalPlace": [
+      "recVYcDguYN6bVqxy"
+     ]
+    }
+   },
+   {
+    "id": "recRJEQbrGi24OUFZ",
+    "fields": {
+     "canonicalPlace": [
+      "recVYcDguYN6bVqxy"
+     ]
+    }
+   },
+   {
+    "id": "recFPH7XyfXrfRhTc",
+    "fields": {
+     "canonicalPlace": [
+      "recVYcDguYN6bVqxy"
+     ]
+    }
+   },
+   {
+    "id": "recmzFZzjfqsRjkZ9",
+    "fields": {
+     "canonicalPlace": [
+      "recVYcDguYN6bVqxy"
+     ]
+    }
+   },
+   {
+    "id": "recKm8gRoKw8JsNhV",
+    "fields": {
+     "canonicalPlace": [
+      "recVYcDguYN6bVqxy"
+     ]
+    }
+   },
+   {
+    "id": "recI6nOkL8Hnyy5pd",
+    "fields": {
+     "canonicalPlace": [
+      "recVCFDBLoj1s0eNr"
+     ]
+    }
+   },
+   {
+    "id": "recprjFRXrCtT9kQ8",
+    "fields": {
+     "canonicalPlace": [
+      "recpWDOal3kgn43RZ"
+     ]
+    }
+   },
+   {
+    "id": "recxMzVcOH9Xl3F2D",
+    "fields": {
+     "canonicalPlace": [
+      "recpWDOal3kgn43RZ"
+     ]
+    }
+   },
+   {
+    "id": "recwaPJ7WKYDiMNPv",
+    "fields": {
+     "canonicalPlace": [
+      "recVFQm1ajEWbVg5k"
+     ]
+    }
+   },
+   {
+    "id": "recL4DQQ2ghOhOCZI",
+    "fields": {
+     "canonicalPlace": [
+      "reckrGn5GcFoGn0pD"
+     ]
+    }
+   }
+  ],
+  [
+   {
+    "id": "reciSXQ6ZRGyALlDf",
+    "fields": {
+     "canonicalPlace": [
+      "recE3XSfOMlaQJZRi"
+     ]
+    }
+   },
+   {
+    "id": "recsOdmE31xeIbuNN",
+    "fields": {
+     "canonicalPlace": [
+      "recE3XSfOMlaQJZRi"
+     ]
+    }
+   },
+   {
+    "id": "recIvd8hPkCOsl51H",
+    "fields": {
+     "canonicalPlace": [
+      "recVaBWxUUcXkszSZ"
+     ]
+    }
+   },
+   {
+    "id": "rec14G9VSYQFR0PSV",
+    "fields": {
+     "canonicalPlace": [
+      "rec8scqP30fz5SjGW"
+     ]
+    }
+   },
+   {
+    "id": "rec31pLZApXuca8pm",
+    "fields": {
+     "canonicalPlace": [
+      "recE7gMJ0r4eJWepx"
+     ]
+    }
+   },
+   {
+    "id": "recIjmD76kMAuLrKO",
+    "fields": {
+     "canonicalPlace": [
+      "rechSy0aCb5vNVH3f"
+     ]
+    }
+   },
+   {
+    "id": "recRdCHfAquS9MQQ1",
+    "fields": {
+     "canonicalPlace": [
+      "rec1irrySVGkYieCr"
+     ]
+    }
+   },
+   {
+    "id": "recSnkixSwHw1Vdlh",
+    "fields": {
+     "canonicalPlace": [
+      "recYCmiFv6zLQJNak"
+     ]
+    }
+   },
+   {
+    "id": "recGIXb55AmC8m4aT",
+    "fields": {
+     "canonicalPlace": [
+      "rec8Dy0OPNtiTqsoS"
+     ]
+    }
+   },
+   {
+    "id": "recubZKdq6gVyGPmd",
+    "fields": {
+     "canonicalPlace": [
+      "recHdRjsxQjhsjW3i"
+     ]
+    }
+   }
+  ],
+  [
+   {
+    "id": "reclPxltmTo1oIVxO",
+    "fields": {
+     "canonicalPlace": [
+      "recwoglv6niCugPjM"
+     ]
+    }
+   },
+   {
+    "id": "recvtGi1Kp2anZbCt",
+    "fields": {
+     "canonicalPlace": [
+      "recGdQVod5SbLO87Z"
+     ]
+    }
+   },
+   {
+    "id": "recwjv3MPsYSE590U",
+    "fields": {
+     "canonicalPlace": [
+      "recGdQVod5SbLO87Z"
+     ]
+    }
+   },
+   {
+    "id": "recXRGobFRZ4nFOei",
+    "fields": {
+     "canonicalPlace": [
+      "recGdQVod5SbLO87Z"
+     ]
+    }
+   },
+   {
+    "id": "reczeMGDnN4eb0Y28",
+    "fields": {
+     "canonicalPlace": [
+      "recGdQVod5SbLO87Z"
+     ]
+    }
+   },
+   {
+    "id": "rectJiRBVhcSh0AbX",
+    "fields": {
+     "canonicalPlace": [
+      "recOyMgubRhq1yatA"
+     ]
+    }
+   },
+   {
+    "id": "reczvqcmwwjTk90i3",
+    "fields": {
+     "canonicalPlace": [
+      "recOyMgubRhq1yatA"
+     ]
+    }
+   },
+   {
+    "id": "recQ31KLebB8uVNzM",
+    "fields": {
+     "canonicalPlace": [
+      "recOyMgubRhq1yatA"
+     ]
+    }
+   },
+   {
+    "id": "recbTYTiQORyjUXHN",
+    "fields": {
+     "canonicalPlace": [
+      "recLBJEUYVKoCKuUg"
+     ]
+    }
+   },
+   {
+    "id": "recNAB8ozpbR1xT4V",
+    "fields": {
+     "canonicalPlace": [
+      "recO5BBYiV9XXKwT5"
+     ]
+    }
+   }
+  ],
+  [
+   {
+    "id": "reccXxI6gV3uS1tRt",
+    "fields": {
+     "canonicalPlace": [
+      "recpv8kBAFWrBcGYD"
+     ]
+    }
+   },
+   {
+    "id": "recUukkWaSOK7dkHk",
+    "fields": {
+     "canonicalPlace": [
+      "recpv8kBAFWrBcGYD"
+     ]
+    }
+   },
+   {
+    "id": "recl43rvNqfYRmsyj",
+    "fields": {
+     "canonicalPlace": [
+      "rec1ET3TBR0oBaWJu"
+     ]
+    }
+   },
+   {
+    "id": "recIyQIm2LMXScx0M",
+    "fields": {
+     "canonicalPlace": [
+      "rec1ET3TBR0oBaWJu"
+     ]
+    }
+   },
+   {
+    "id": "recWQDkxXj0IjAdkn",
+    "fields": {
+     "canonicalPlace": [
+      "rec1ET3TBR0oBaWJu"
+     ]
+    }
+   },
+   {
+    "id": "recrpaouE7oxrv5jy",
+    "fields": {
+     "canonicalPlace": [
+      "rec1ET3TBR0oBaWJu"
+     ]
+    }
+   },
+   {
+    "id": "recCrwfh0wZHipZnN",
+    "fields": {
+     "canonicalPlace": [
+      "rec1ET3TBR0oBaWJu"
+     ]
+    }
+   },
+   {
+    "id": "recDo9p41mKV8ptfj",
+    "fields": {
+     "canonicalPlace": [
+      "rec7WtUEqNx0gZrTa"
+     ]
+    }
+   },
+   {
+    "id": "recp5J3K9kl6DteAM",
+    "fields": {
+     "canonicalPlace": [
+      "rec5wqkJ6JXv03dvF"
+     ]
+    }
+   },
+   {
+    "id": "recOahYbjltSaaIV0",
+    "fields": {
+     "canonicalPlace": [
+      "rec5wqkJ6JXv03dvF"
+     ]
+    }
+   }
+  ],
+  [
+   {
+    "id": "recFPceE2ivY1B3sX",
+    "fields": {
+     "canonicalPlace": [
+      "recDsLjW4riPOxvp4"
+     ]
+    }
+   },
+   {
+    "id": "rec9FmVbRkqnkXn8n",
+    "fields": {
+     "canonicalPlace": [
+      "recE3qR8iDUqdkAuw"
+     ]
+    }
+   },
+   {
+    "id": "rec6V51IWkgvAcnOU",
+    "fields": {
+     "canonicalPlace": [
+      "rec5Yu6987dc60uKz"
+     ]
+    }
+   },
+   {
+    "id": "recufFfLnRDrtxLnL",
+    "fields": {
+     "canonicalPlace": [
+      "rec5Yu6987dc60uKz"
+     ]
+    }
+   },
+   {
+    "id": "recIgpvDJ3DxQVEfF",
+    "fields": {
+     "canonicalPlace": [
+      "rec5Yu6987dc60uKz"
+     ]
+    }
+   },
+   {
+    "id": "recvt2PQbAxcUQYmR",
+    "fields": {
+     "canonicalPlace": [
+      "recAcOZQZcvRajG4d"
+     ]
+    }
+   },
+   {
+    "id": "reczPjeq0UdahiRrn",
+    "fields": {
+     "canonicalPlace": [
+      "rechZwu8ZbWlB6fyU"
+     ]
+    }
+   },
+   {
+    "id": "recHcEu0vJOxAQJDI",
+    "fields": {
+     "canonicalPlace": [
+      "recDm5nMdE8meTQuJ"
+     ]
+    }
+   },
+   {
+    "id": "rec8PJyBV3OBaZ8cO",
+    "fields": {
+     "canonicalPlace": [
+      "recemJEsxfDEoBRUE"
+     ]
+    }
+   },
+   {
+    "id": "recItoooL8TKSOT5p",
+    "fields": {
+     "canonicalPlace": [
+      "recsX4et9ux7g07Zg"
+     ]
+    }
+   }
+  ],
+  [
+   {
+    "id": "recPBAlvTZPyRnyOC",
+    "fields": {
+     "canonicalPlace": [
+      "rec8SNX7XoTfkfbY1"
+     ]
+    }
+   },
+   {
+    "id": "recDH5SAt8ll1TrfG",
+    "fields": {
+     "canonicalPlace": [
+      "recrEteYtMZW1c46t"
+     ]
+    }
+   },
+   {
+    "id": "recPjcrZhlgRQ3nHe",
+    "fields": {
+     "canonicalPlace": [
+      "recDTAsguCJpPM5ev"
+     ]
+    }
+   },
+   {
+    "id": "recGCjED5yTpggEi6",
+    "fields": {
+     "canonicalPlace": [
+      "recKsSsPEDA3H2QXE"
+     ]
+    }
+   },
+   {
+    "id": "recapsbflOiD4Y13u",
+    "fields": {
+     "canonicalPlace": [
+      "recNxQ3mwycY0rngs"
+     ]
+    }
+   },
+   {
+    "id": "recvamv4D0fNJ9vri",
+    "fields": {
+     "canonicalPlace": [
+      "recirR7tLEeni78L3"
+     ]
+    }
+   },
+   {
+    "id": "rec3L50DGaMt6lBb2",
+    "fields": {
+     "canonicalPlace": [
+      "recoDAncgjwP9jZVE"
+     ]
+    }
+   },
+   {
+    "id": "recglfjpGTUL9C7v1",
+    "fields": {
+     "canonicalPlace": [
+      "recZ3tjOC2I7idswk"
+     ]
+    }
+   },
+   {
+    "id": "recQfk1jNQuk2JPGb",
+    "fields": {
+     "canonicalPlace": [
+      "recZ3tjOC2I7idswk"
+     ]
+    }
+   },
+   {
+    "id": "recRqzbUZ7i6OPTa1",
+    "fields": {
+     "canonicalPlace": [
+      "recq9ttBUfBJW1lhG"
+     ]
+    }
+   }
+  ],
+  [
+   {
+    "id": "rec3sBoYreDR4Dskj",
+    "fields": {
+     "canonicalPlace": [
+      "recq9ttBUfBJW1lhG"
+     ]
+    }
+   },
+   {
+    "id": "recFKDaCksomouPcF",
+    "fields": {
+     "canonicalPlace": [
+      "recbzTNkxyES3LbQF"
+     ]
+    }
+   },
+   {
+    "id": "rechqsejUnM2fn63T",
+    "fields": {
+     "canonicalPlace": [
+      "recDWN5q09krFIERY"
+     ]
+    }
+   },
+   {
+    "id": "rec9szH9mCJFB3FV5",
+    "fields": {
+     "canonicalPlace": [
+      "recp2WSSUeSBeg6rV"
+     ]
+    }
+   },
+   {
+    "id": "recsuir3CsToQbBjn",
+    "fields": {
+     "canonicalPlace": [
+      "recp2WSSUeSBeg6rV"
+     ]
+    }
+   },
+   {
+    "id": "recYdVr4FVGjduAvu",
+    "fields": {
+     "canonicalPlace": [
+      "recZuw7dAJ1x1EUfb"
+     ]
+    }
+   },
+   {
+    "id": "rect6bbJb7hq2uf6t",
+    "fields": {
+     "canonicalPlace": [
+      "recerbxkGQRTanWmt"
+     ]
+    }
+   },
+   {
+    "id": "recdj20FESzKensp3",
+    "fields": {
+     "canonicalPlace": [
+      "recerbxkGQRTanWmt"
+     ]
+    }
+   },
+   {
+    "id": "rec8bEdIqk6qrW3mt",
+    "fields": {
+     "canonicalPlace": [
+      "recN4jruK7QVakoJh"
+     ]
+    }
+   },
+   {
+    "id": "receUJC0VV7yquFBt",
+    "fields": {
+     "canonicalPlace": [
+      "recRe6uBpPMDP6u82"
+     ]
+    }
+   }
+  ],
+  [
+   {
+    "id": "recYpSKSmkkbzakzX",
+    "fields": {
+     "canonicalPlace": [
+      "recRe6uBpPMDP6u82"
+     ]
+    }
+   },
+   {
+    "id": "recks7hmMCkcKnCEo",
+    "fields": {
+     "canonicalPlace": [
+      "recRe6uBpPMDP6u82"
+     ]
+    }
+   },
+   {
+    "id": "recQi9pDBUBeeYJip",
+    "fields": {
+     "canonicalPlace": [
+      "recqdNdwEAEU0Hlq2"
+     ]
+    }
+   },
+   {
+    "id": "recM5mUDUeuNmVj6E",
+    "fields": {
+     "canonicalPlace": [
+      "recFF06mG50AJliKz"
+     ]
+    }
+   },
+   {
+    "id": "recRm8VDuk2fRyNdY",
+    "fields": {
+     "canonicalPlace": [
+      "recga1Xabw2DEyUv5"
+     ]
+    }
+   },
+   {
+    "id": "recrQGkK6uDl8hxAn",
+    "fields": {
+     "canonicalPlace": [
+      "recUySlrBva4ffoVs"
+     ]
+    }
+   },
+   {
+    "id": "recKy7FeV09vy9YKy",
+    "fields": {
+     "canonicalPlace": [
+      "recJJNRuOtrW0M49k"
+     ]
+    }
+   },
+   {
+    "id": "recgfOCqzEYY932wA",
+    "fields": {
+     "canonicalPlace": [
+      "rec00JYAbLHvQFwog"
+     ]
+    }
+   },
+   {
+    "id": "recuAl3exVdlCg5zs",
+    "fields": {
+     "canonicalPlace": [
+      "recesqn5JDm6ZwKE5"
+     ]
+    }
+   },
+   {
+    "id": "reckXhjBX8I6jSNkg",
+    "fields": {
+     "canonicalPlace": [
+      "recxiSg5QZWkj9Hy3"
+     ]
+    }
+   }
+  ],
+  [
+   {
+    "id": "recRBhWSqBkqZk8fe",
+    "fields": {
+     "canonicalPlace": [
+      "recxiSg5QZWkj9Hy3"
+     ]
+    }
+   },
+   {
+    "id": "rec4D5Z8lcPHzichv",
+    "fields": {
+     "canonicalPlace": [
+      "recsSXHp8TaXQVDGH"
+     ]
+    }
+   },
+   {
+    "id": "recbJJLMTzLRSP2PI",
+    "fields": {
+     "canonicalPlace": [
+      "recsSXHp8TaXQVDGH"
+     ]
+    }
+   },
+   {
+    "id": "recxWtyi03VqD3AFx",
+    "fields": {
+     "canonicalPlace": [
+      "recsSXHp8TaXQVDGH"
+     ]
+    }
+   },
+   {
+    "id": "recKy7NeHhH4Ni3Tu",
+    "fields": {
+     "canonicalPlace": [
+      "recsVeoJRPG9LxKBN"
+     ]
+    }
+   },
+   {
+    "id": "recPmZCyVKpHuUOKt",
+    "fields": {
+     "canonicalPlace": [
+      "recyS1I7gkQt8hvRD"
+     ]
+    }
+   },
+   {
+    "id": "recbTmIWQ3GZPZxdA",
+    "fields": {
+     "canonicalPlace": [
+      "recmyzVBdbLEBB0Y0"
+     ]
+    }
+   },
+   {
+    "id": "recGwBS5vf8v2OCVU",
+    "fields": {
+     "canonicalPlace": [
+      "recQPMnBRF46WaA5k"
+     ]
+    }
+   },
+   {
+    "id": "rec7YbGNmyu5hdQZl",
+    "fields": {
+     "canonicalPlace": [
+      "rec7RMIt09whPuuSU"
+     ]
+    }
+   },
+   {
+    "id": "recy0wVtUyvb64YSM",
+    "fields": {
+     "canonicalPlace": [
+      "recH4JgAoJ7UVSGsv"
+     ]
+    }
+   }
+  ],
+  [
+   {
+    "id": "recCctY2iFKTyvAOc",
+    "fields": {
+     "canonicalPlace": [
+      "recWMy4BcpoOC3LSr"
+     ]
+    }
+   },
+   {
+    "id": "reczghi5uPnwl4Wej",
+    "fields": {
+     "canonicalPlace": [
+      "recJ5Vr9vsvg72UIz"
+     ]
+    }
+   },
+   {
+    "id": "recnnR9Jn65LEBgKC",
+    "fields": {
+     "canonicalPlace": [
+      "receUGVTCDMBusNhW"
+     ]
+    }
+   },
+   {
+    "id": "recLqhClSrRFpvMvG",
+    "fields": {
+     "canonicalPlace": [
+      "recVJJVSqbm0DBuEb"
+     ]
+    }
+   },
+   {
+    "id": "recHWD5V8s6tf9WyK",
+    "fields": {
+     "canonicalPlace": [
+      "recMJFxR4wli1Ly6z"
+     ]
+    }
+   },
+   {
+    "id": "recBmAFzEOaWeXu1s",
+    "fields": {
+     "canonicalPlace": [
+      "recbHkRKRsfKeOQoB"
+     ]
+    }
+   },
+   {
+    "id": "recBsRcVlu8hkiGKW",
+    "fields": {
+     "canonicalPlace": [
+      "recsoRbSuiqYLSGzN"
+     ]
+    }
+   },
+   {
+    "id": "recI0bhf2ewWIHMRC",
+    "fields": {
+     "canonicalPlace": [
+      "recsoRbSuiqYLSGzN"
+     ]
+    }
+   },
+   {
+    "id": "rec4usYdsZVP42UId",
+    "fields": {
+     "canonicalPlace": [
+      "recsoRbSuiqYLSGzN"
+     ]
+    }
+   },
+   {
+    "id": "rec8S2KLxGycWJ6sv",
+    "fields": {
+     "canonicalPlace": [
+      "recsoRbSuiqYLSGzN"
+     ]
+    }
+   }
+  ],
+  [
+   {
+    "id": "rec6zuFbI9Andx3yK",
+    "fields": {
+     "canonicalPlace": [
+      "recp19CEA8RQIkxZH"
+     ]
+    }
+   },
+   {
+    "id": "reci8dghn7shG5pMX",
+    "fields": {
+     "canonicalPlace": [
+      "recTdeFWjvLAXs0t3"
+     ]
+    }
+   },
+   {
+    "id": "rec8VO6kIG5kkTOhC",
+    "fields": {
+     "canonicalPlace": [
+      "recM1lN580CYvi2y8"
+     ]
+    }
+   },
+   {
+    "id": "recBysc3TP9gezHu2",
+    "fields": {
+     "canonicalPlace": [
+      "recUlW6Qk0RBmMe07"
+     ]
+    }
+   },
+   {
+    "id": "recSG6LfsxbfS94Wn",
+    "fields": {
+     "canonicalPlace": [
+      "recJuXzCbm1TSujll"
+     ]
+    }
+   },
+   {
+    "id": "recDFPe1YrsI827hP",
+    "fields": {
+     "canonicalPlace": [
+      "rec0SjrDrVPzEPdRu"
+     ]
+    }
+   },
+   {
+    "id": "reckGKmKPQ1J0jw8r",
+    "fields": {
+     "canonicalPlace": [
+      "recXCWnyyE7m1i7kO"
+     ]
+    }
+   },
+   {
+    "id": "recz7g41dLAYpgPhB",
+    "fields": {
+     "canonicalPlace": [
+      "reciwuMXIVWYdwnZw"
+     ]
+    }
+   },
+   {
+    "id": "rec25eNzSTmosC7xU",
+    "fields": {
+     "canonicalPlace": [
+      "reciwuMXIVWYdwnZw"
+     ]
+    }
+   },
+   {
+    "id": "rec5lsWLp4xB8ECtt",
+    "fields": {
+     "canonicalPlace": [
+      "recpkvM8CHSklH6RP"
+     ]
+    }
+   }
+  ],
+  [
+   {
+    "id": "recluhQrl8PcgaXJJ",
+    "fields": {
+     "canonicalPlace": [
+      "recpkvM8CHSklH6RP"
+     ]
+    }
+   }
+  ]
+ ],
+ "create_records": [
+  {
+   "dm_id": "places-0390",
+   "feature": "El-elohe-Israel",
+   "fields": {
+    "placeID": 1279,
+    "placeLookup": "el-elohe-israel_1279",
+    "displayTitle": "El-elohe-Israel",
+    "kjvName": "El-elohe-Israel",
+    "status": "wip",
+    "featureType": "Landmark",
+    "comment": "Added from Digital Manna places-0390 (LPF sync 2026-10-13)",
+    "openBibleLong": "35.281944",
+    "openBibleLat": "32.213611",
+    "verses": [
+     "recZ8CKQzKGvSETsc"
+    ]
+   }
+  },
+  {
+   "dm_id": "places-0611",
+   "feature": "Judah",
+   "fields": {
+    "placeID": 1280,
+    "placeLookup": "judah_1280",
+    "displayTitle": "Judah",
+    "kjvName": "Judah",
+    "status": "wip",
+    "featureType": "Region",
+    "comment": "Added from Digital Manna places-0611 (LPF sync 2026-10-13)",
+    "verses": [
+     "recDLPFGx8eUMtAOC",
+     "recegIhQcNlt9xm6J",
+     "recxX7bnbcMw3Y0MQ",
+     "recQfD1TLuyT0ydRx",
+     "recJqLLCrELDfWFWg",
+     "rec7527z2aOSyj6k6",
+     "rec2h4u4Z7D9ifQfB",
+     "rec9vH4Ym6JZGespX",
+     "recVTQlHf9aUORaUy",
+     "recnO3u5ScyjA3jMQ",
+     "reckN7pyVBdXchUAe",
+     "recvF5gj77Ti0RUGn",
+     "rec3yWIzjcjss1X2p",
+     "recWHufu8KmB1g9Wp",
+     "recZVpFDHTbhkodZc",
+     "recw3KJt4RtX1Ru6p",
+     "rec8K4mEDAwXmvOFF",
+     "rec803hiE0uuhWz9G",
+     "recia0t07pKMiX0lI",
+     "recNm4Dks6NUTqw93",
+     "recJqYvoWLYfrg12V",
+     "rec0Lefnmz3KtjtXV",
+     "reccLk929R3BuCp4S",
+     "recVWuDxPdatFQzIm",
+     "recNfS4AshZ1dA3Ak",
+     "rectOZxpqlExsKLm8",
+     "recFWeQfq3DSubAFE"
+    ]
+   }
+  },
+  {
+   "dm_id": "places-1255",
+   "feature": "Israel (United)",
+   "fields": {
+    "placeID": 1281,
+    "placeLookup": "israel-united_1281",
+    "displayTitle": "Israel (United)",
+    "kjvName": "Israel (United)",
+    "status": "wip",
+    "featureType": "Region",
+    "comment": "Added from Digital Manna places-1255 (LPF sync 2026-10-13)",
+    "openBibleLong": "35.234167",
+    "openBibleLat": "31.776667"
+   }
+  },
+  {
+   "dm_id": "places-1256",
+   "feature": "Israel (Northern Kingdom)",
+   "fields": {
+    "placeID": 1282,
+    "placeLookup": "israel-northern-kingdom_1282",
+    "displayTitle": "Israel (Northern Kingdom)",
+    "kjvName": "Israel (Northern Kingdom)",
+    "status": "wip",
+    "featureType": "Region",
+    "comment": "Added from Digital Manna places-1256 (LPF sync 2026-10-13)",
+    "openBibleLong": "35.195",
+    "openBibleLat": "32.276111"
+   }
+  },
+  {
+   "dm_id": "places-1257",
+   "feature": "Judah (Southern)",
+   "fields": {
+    "placeID": 1283,
+    "placeLookup": "judah-southern_1283",
+    "displayTitle": "Judah (Southern)",
+    "kjvName": "Judah (Southern)",
+    "status": "wip",
+    "featureType": "Region",
+    "comment": "Added from Digital Manna places-1257 (LPF sync 2026-10-13)",
+    "openBibleLong": "35.234167",
+    "openBibleLat": "31.776667",
+    "verses": [
+     "recX6YgGSSfqihikQ",
+     "recpEdq77zWooJEX0",
+     "recLPWctnIPXcIT3B",
+     "recU2lVkF0uljpdAV",
+     "recuCHIsjPHsD2Jlj",
+     "recXWiINuqogSxVVu",
+     "recf03nZFlqQbozZU",
+     "recnZHCgANEY3ndA1"
+    ]
+   }
+  },
+  {
+   "dm_id": "places-1258",
+   "feature": "Reuben",
+   "fields": {
+    "placeID": 1284,
+    "placeLookup": "reuben_1284",
+    "displayTitle": "Reuben",
+    "kjvName": "Reuben",
+    "status": "wip",
+    "featureType": "Region",
+    "comment": "Added from Digital Manna places-1258 (LPF sync 2026-10-13)",
+    "openBibleLong": "35.809062",
+    "openBibleLat": "31.800811",
+    "verses": [
+     "rec2m9f9cyJhufkqu",
+     "rec46EoegowxnzKba",
+     "recwTuJupURF5Ce4j",
+     "recmNoh8Kyylj9cWB",
+     "rec5YIFTuyU4icuBl",
+     "recqKFjss3WfdY2aB",
+     "recyH2zTZJqBVeF2X",
+     "recfknHTkiandb1PV",
+     "recus5gLWl7m3wTVu",
+     "rec4AEwiYvNZjBMS0",
+     "recDYsCfUcDFFhpEP",
+     "recoMDOLzibrABfDw"
+    ]
+   }
+  },
+  {
+   "dm_id": "places-1259",
+   "feature": "Dan",
+   "fields": {
+    "placeID": 1285,
+    "placeLookup": "dan_1285",
+    "displayTitle": "Dan",
+    "kjvName": "Dan",
+    "status": "wip",
+    "featureType": "Region",
+    "comment": "Added from Digital Manna places-1259 (LPF sync 2026-10-13)",
+    "openBibleLong": "34.985289",
+    "openBibleLat": "31.773992",
+    "verses": [
+     "recFsQhIpKivc6W8Z",
+     "recSCmebZca172Q2Q",
+     "recphAA4I5HIEh4Kv",
+     "recFZ9W6PVNN6vntK",
+     "recjNJze3cQiNE30e",
+     "recdv2nikd6jC7PpE",
+     "rec9rW7UhzIPyDCPn",
+     "recgwd2EMg7qxMQw5",
+     "recgqt5ptZPSYDZQl"
+    ]
+   }
+  },
+  {
+   "dm_id": "places-1260",
+   "feature": "Naphtali",
+   "fields": {
+    "placeID": 1286,
+    "placeLookup": "naphtali_1286",
+    "displayTitle": "Naphtali",
+    "kjvName": "Naphtali",
+    "status": "wip",
+    "featureType": "Region",
+    "comment": "Added from Digital Manna places-1260 (LPF sync 2026-10-13)",
+    "openBibleLong": "35.569167",
+    "openBibleLat": "33.018333",
+    "verses": [
+     "recKTKjOCofBNVlSt",
+     "recU3LyW28Ubznhbb",
+     "recuZ1h1Drk6y1pZg",
+     "recEnQH1bbNS6KwJf",
+     "rec2y2ybYKsaPXf97",
+     "recS2zUy0KhMQKg19",
+     "recDl8ySTWFaWv75r",
+     "recZ5Q2m5Oybuq3dX",
+     "reckjHCMcbfq1Xim0",
+     "rec8K4mEDAwXmvOFF",
+     "recOQ98LHHHUynjOy",
+     "recWCiH3AY8HNDrU4",
+     "recMVinINqReqZ4zb",
+     "reco1uePW5NfandA9",
+     "rec27KkRIFWlfHd8l",
+     "recVAgdxW6ScqYKDd"
+    ]
+   }
+  },
+  {
+   "dm_id": "places-1261",
+   "feature": "Edrei",
+   "fields": {
+    "placeID": 1287,
+    "placeLookup": "edrei_1287",
+    "displayTitle": "Edrei",
+    "kjvName": "Edrei",
+    "status": "wip",
+    "featureType": "City",
+    "comment": "Added from Digital Manna places-1261 (LPF sync 2026-10-13)",
+    "verses": [
+     "recDl8ySTWFaWv75r"
+    ]
+   }
+  },
+  {
+   "dm_id": "places-1262",
+   "feature": "Gad",
+   "fields": {
+    "placeID": 1288,
+    "placeLookup": "gad_1288",
+    "displayTitle": "Gad",
+    "kjvName": "Gad",
+    "status": "wip",
+    "featureType": "Region",
+    "comment": "Added from Digital Manna places-1262 (LPF sync 2026-10-13)",
+    "openBibleLong": "35.745805",
+    "openBibleLat": "32.046967",
+    "verses": [
+     "recMXyY60gDxZ3a6O",
+     "recvF4H6uHT4jOhr3",
+     "rec4ejnhjuN4GNHb8",
+     "recENeon4IkJGeoz0",
+     "recv0SVo7fAmjABnw",
+     "recqYGp09zvUDKDHr",
+     "rec1vb2i03bdtrvh4",
+     "recAHstVlUs59jIAu",
+     "recjwuVAjlr0SqolL",
+     "recwSBpHOdijX0Evc",
+     "recPOTNWD8mmttNyQ",
+     "recsR2spjp79KdAZg",
+     "recg86yYAsemH4R50",
+     "recTlQHFVZ43TVZcO",
+     "recwI5uUsrNFKbuum",
+     "recCgq4P5FG1yeRJg",
+     "recUBsPCeSR8vuVyk",
+     "recLErYOPsB65mGTZ",
+     "rectBNHqvzH9VeY5U",
+     "rec4CZugCf9e0ebRL",
+     "reck42yXkll1BCLKA"
+    ]
+   }
+  },
+  {
+   "dm_id": "places-1264",
+   "feature": "Asher",
+   "fields": {
+    "placeID": 1289,
+    "placeLookup": "asher_1289",
+    "displayTitle": "Asher",
+    "kjvName": "Asher",
+    "status": "wip",
+    "featureType": "Region",
+    "comment": "Added from Digital Manna places-1264 (LPF sync 2026-10-13)",
+    "openBibleLong": "35.158133",
+    "openBibleLat": "32.914536",
+    "verses": [
+     "rec3uOn4JLKPSXPSy",
+     "recjcKeb2YM2CfAh5",
+     "recy9hvytYbH7ULOa",
+     "recsLeiko90z3Mef7",
+     "reck8YHLM72RBWaTY",
+     "recPeODtSfXoznjtF",
+     "recz906K2ipt2QLwL",
+     "rec0oIvjCjh1iKIpg",
+     "recvuV6vm2wVLYOiT",
+     "recXMErzLKUOjCd5m",
+     "recVuxz3U8ZtHh2tg",
+     "recFbYHyrKUZJtNGT",
+     "recEnQH1bbNS6KwJf",
+     "rec2YwMdvbLZAwYMm",
+     "recFMAuLM1QfPceZm",
+     "recAbdOViPsKbNkIY",
+     "rec2SyJVeZGSps9Zo",
+     "rec6WTv9UMGjEQF2m",
+     "recDyhu3EIWbYmobR",
+     "reck42yXkll1BCLKA"
+    ]
+   }
+  },
+  {
+   "dm_id": "places-1265",
+   "feature": "Issachar",
+   "fields": {
+    "placeID": 1290,
+    "placeLookup": "issachar_1290",
+    "displayTitle": "Issachar",
+    "kjvName": "Issachar",
+    "status": "wip",
+    "featureType": "Region",
+    "comment": "Added from Digital Manna places-1265 (LPF sync 2026-10-13)",
+    "openBibleLong": "35.42031",
+    "openBibleLat": "32.648544",
+    "verses": [
+     "recy9hvytYbH7ULOa",
+     "recsLeiko90z3Mef7",
+     "recSnjn1FWuTnrL7t",
+     "recWZGkOHlq15C2PD",
+     "recH95KvwNVwO0FsT",
+     "recuCgXtOutNj23MT",
+     "recSw1zgtBHoZwJtf",
+     "recU3tzlar5AE2qHw",
+     "recGO7K5UOkuvkQoS",
+     "recpPZCP9IyExWXAn",
+     "rec9WVOK4qQU3ORny",
+     "recFZuHFaVXIpMjtZ",
+     "recy9clBPo5EC3t67"
+    ]
+   }
+  },
+  {
+   "dm_id": "places-1266",
+   "feature": "Zebulun",
+   "fields": {
+    "placeID": 1291,
+    "placeLookup": "zebulun_1291",
+    "displayTitle": "Zebulun",
+    "kjvName": "Zebulun",
+    "status": "wip",
+    "featureType": "Region",
+    "comment": "Added from Digital Manna places-1266 (LPF sync 2026-10-13)",
+    "openBibleLong": "35.239568",
+    "openBibleLat": "32.714861",
+    "verses": [
+     "rec9t3mBiFRnsySq8",
+     "recesMUPZ6zaDCdhi",
+     "recLA9PGCyqjaKwR9",
+     "recNZHEt1IgEQBX90",
+     "recojHLsCXLbs621x",
+     "recsLq6y7mI4yPDPv",
+     "recq1sZJfQ5qLh8l3",
+     "reciCFYdysUtNItbP",
+     "rec0oIvjCjh1iKIpg",
+     "recEnQH1bbNS6KwJf",
+     "reco1uePW5NfandA9",
+     "recFZuHFaVXIpMjtZ",
+     "rectBNHqvzH9VeY5U",
+     "recy9clBPo5EC3t67",
+     "rec27KkRIFWlfHd8l",
+     "recVAgdxW6ScqYKDd"
+    ]
+   }
+  },
+  {
+   "dm_id": "places-1268",
+   "feature": "East Manasseh (Half-Tribe)",
+   "fields": {
+    "placeID": 1292,
+    "placeLookup": "east-manasseh-half-tribe_1292",
+    "displayTitle": "East Manasseh (Half-Tribe)",
+    "kjvName": "East Manasseh (Half-Tribe)",
+    "status": "wip",
+    "featureType": "Region",
+    "comment": "Added from Digital Manna places-1268 (LPF sync 2026-10-13)",
+    "openBibleLong": "36.071543",
+    "openBibleLat": "32.641108",
+    "verses": [
+     "recBHXRuKfaTHrmVk",
+     "rec3mMGeaza6aXfB4",
+     "reco3o9BV9VLHtMMI",
+     "rec9WoyvzyNn1O8Yy",
+     "recs5Whx1CQf0rfQh",
+     "recPOnaxqRLrKYsWG",
+     "rec2ftqsjO7teQEd5",
+     "recFG17i2KNzVZCrl",
+     "recQvokQFyqbCBNhQ",
+     "recLagp9lovxR79OO",
+     "rec218gguWzxXGKKL",
+     "recExBuDbBh9248Px",
+     "rechFEnkRHbhDcgWP",
+     "recYvUt9qxWCyMuwB"
+    ]
+   }
+  },
+  {
+   "dm_id": "places-1269",
+   "feature": "West Manasseh",
+   "fields": {
+    "placeID": 1293,
+    "placeLookup": "west-manasseh_1293",
+    "displayTitle": "West Manasseh",
+    "kjvName": "West Manasseh",
+    "status": "wip",
+    "featureType": "Region",
+    "comment": "Added from Digital Manna places-1269 (LPF sync 2026-10-13)",
+    "openBibleLong": "35.310064",
+    "openBibleLat": "32.481922",
+    "verses": [
+     "recMEp8XxJzmR90Ta",
+     "rec1hPThCeSn9Ljrs",
+     "recy8Kn7FIHaG9zhM",
+     "rec0dVHAJlGfrsF2N",
+     "recmLSzJFy2HBU3WJ",
+     "rec0f5iZZkegGBCfq",
+     "rec0dK30FB9BxvWTO",
+     "recF7TSvT31OjxVcO",
+     "recqY7enaDwgswLK8",
+     "recNkbMfdHh9d6UDk",
+     "rec4aVx0igYbs7TGH",
+     "reczB6P5XYDR64Nlr",
+     "recy9hvytYbH7ULOa",
+     "recsLeiko90z3Mef7",
+     "recRxvfu3LUF5CfBz",
+     "recIgkchJjst6zUTk",
+     "recECX50twuVtAV4Y",
+     "recDls5z3iQAcFRiE",
+     "recnUg6xtKhIJXZYb"
+    ]
+   }
+  },
+  {
+   "dm_id": "places-1270",
+   "feature": "Ephraim (Territory)",
+   "fields": {
+    "placeID": 1294,
+    "placeLookup": "ephraim-territory_1294",
+    "displayTitle": "Ephraim (Territory)",
+    "kjvName": "Ephraim (Territory)",
+    "status": "wip",
+    "featureType": "Region",
+    "comment": "Added from Digital Manna places-1270 (LPF sync 2026-10-13)",
+    "openBibleLong": "35.232834",
+    "openBibleLat": "32.016322",
+    "verses": [
+     "recMEp8XxJzmR90Ta",
+     "recadAAkrtsAETRHq",
+     "recXsMQkcdvRFwD4I",
+     "recwaXgavDBtDZAg7",
+     "rec1hPThCeSn9Ljrs",
+     "recSLtr5HrTqIJ8hb",
+     "recaMKXiUAEnIHrXP",
+     "recO1q7Hnx4U8nQgP",
+     "recZZ2bqAdJvgHFID",
+     "recy8Kn7FIHaG9zhM",
+     "recfvuyHYaW0yVB2N",
+     "rec4aVx0igYbs7TGH",
+     "reczB6P5XYDR64Nlr",
+     "recy9hvytYbH7ULOa",
+     "recwVo7AHqDYwR83c"
+    ]
+   }
+  },
+  {
+   "dm_id": "places-1271",
+   "feature": "Benjamin (Territory)",
+   "fields": {
+    "placeID": 1295,
+    "placeLookup": "benjamin-territory_1295",
+    "displayTitle": "Benjamin (Territory)",
+    "kjvName": "Benjamin (Territory)",
+    "status": "wip",
+    "featureType": "Region",
+    "comment": "Added from Digital Manna places-1271 (LPF sync 2026-10-13)",
+    "openBibleLong": "35.263257",
+    "openBibleLat": "31.853294",
+    "verses": [
+     "recx1nJt2tJUgdN3h",
+     "rec5bSiw1AB9jgS8Q",
+     "recxXtw3PggbYmN9R",
+     "rec1HapdZm3pCKfna",
+     "reclVscYUzsBEIxHk",
+     "recGr8y0qbTC3PN8x",
+     "recqbysdlS5EV7qVV",
+     "rec9p2SaE768ZKG9X",
+     "recm0ZPoZdZtSVnCG",
+     "reckuUrcFeXCUkvGw",
+     "rec6fz1A2bXfiBPWA",
+     "recdx5YS6pnZ8Mr8F",
+     "recOzVSuMmaENBu0R",
+     "reczJYi6jTXkwwprm"
+    ]
+   }
+  },
+  {
+   "dm_id": "places-1273",
+   "feature": "Forest of Ephraim",
+   "fields": {
+    "placeID": 1296,
+    "placeLookup": "forest-of-ephraim_1296",
+    "displayTitle": "Forest of Ephraim",
+    "kjvName": "Forest of Ephraim",
+    "status": "wip",
+    "featureType": "Region",
+    "comment": "Added from Digital Manna places-1273 (LPF sync 2026-10-13)",
+    "openBibleLong": "35.764722",
+    "openBibleLat": "32.381111",
+    "verses": [
+     "recnmmiZ15bE9E5iB",
+     "recpC9DYWA97LfJqG"
+    ]
+   }
+  },
+  {
+   "dm_id": "places-1274",
+   "feature": "Misgab",
+   "fields": {
+    "placeID": 1297,
+    "placeLookup": "misgab_1297",
+    "displayTitle": "Misgab",
+    "kjvName": "Misgab",
+    "status": "wip",
+    "featureType": "City",
+    "comment": "Added from Digital Manna places-1274 (LPF sync 2026-10-13)",
+    "openBibleLong": "35.701389",
+    "openBibleLat": "31.180556",
+    "verses": [
+     "reccwdnnd4ajxIyHI"
+    ]
+   }
+  },
+  {
+   "dm_id": "places-1275",
+   "feature": "Parbar",
+   "fields": {
+    "placeID": 1298,
+    "placeLookup": "parbar_1298",
+    "displayTitle": "Parbar",
+    "kjvName": "Parbar",
+    "status": "wip",
+    "featureType": "Landmark",
+    "comment": "Added from Digital Manna places-1275 (LPF sync 2026-10-13)",
+    "openBibleLong": "35.234167",
+    "openBibleLat": "31.776667",
+    "verses": [
+     "rect1MrCUfPmugMth"
+    ]
+   }
+  },
+  {
+   "dm_id": "places-1276",
+   "feature": "Rock of Escape",
+   "fields": {
+    "placeID": 1299,
+    "placeLookup": "sela-hammahlekoth_1299",
+    "displayTitle": "Rock of Escape",
+    "kjvName": "Sela-hammahlekoth",
+    "status": "wip",
+    "featureType": "Mountain",
+    "comment": "Added from Digital Manna places-1276 (LPF sync 2026-10-13)",
+    "openBibleLong": "35.232889",
+    "openBibleLat": "31.451513",
+    "verses": [
+     "rec4Q3qlktAcqcXI8",
+     "recWYlzJ727E5kygM"
+    ]
+   }
+  },
+  {
+   "dm_id": "places-1277",
+   "feature": "Caleb-Ephrathah",
+   "fields": {
+    "placeID": 1300,
+    "placeLookup": "caleb-ephratah_1300",
+    "displayTitle": "Caleb-Ephrathah",
+    "kjvName": "Caleb-ephratah",
+    "status": "wip",
+    "featureType": "City",
+    "comment": "Added from Digital Manna places-1277 (LPF sync 2026-10-13)",
+    "openBibleLong": "35.207639",
+    "openBibleLat": "31.704306",
+    "verses": [
+     "recJDTCyjkYTfeHmW"
+    ]
+   }
+  },
+  {
+   "dm_id": "places-1281",
+   "feature": "Machbenah",
+   "fields": {
+    "placeID": 1301,
+    "placeLookup": "machbenah_1301",
+    "displayTitle": "Machbenah",
+    "kjvName": "Machbenah",
+    "status": "wip",
+    "featureType": "City",
+    "comment": "Added from Digital Manna places-1281 (LPF sync 2026-10-13)",
+    "openBibleLong": "34.896797",
+    "openBibleLat": "31.554151",
+    "verses": [
+     "rec5L1oYUBruxJNII"
+    ]
+   }
+  },
+  {
+   "dm_id": "places-1283",
+   "feature": "Jorkeam",
+   "fields": {
+    "placeID": 1302,
+    "placeLookup": "jorkoam_1302",
+    "displayTitle": "Jorkeam",
+    "kjvName": "Jorkoam",
+    "status": "wip",
+    "featureType": "City",
+    "comment": "Added from Digital Manna places-1283 (LPF sync 2026-10-13)",
+    "openBibleLong": "35.118489",
+    "openBibleLat": "31.461967",
+    "verses": [
+     "recbQOBTu74Qvyzek"
+    ]
+   }
+  }
+ ]
+}

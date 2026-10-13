@@ -1020,9 +1020,12 @@
     ],
     "places-1272": [
       "P"
+    ],
+    "places-0390": [
+      "S"
     ]
   },
-  "fclasses_note": "For DM entries with no type in any source: tribal territories and kingdoms are L; Edrei of Naphtali and Mizpah of Gilead are P.",
+  "fclasses_note": "For DM entries with no type in any source: tribal territories and kingdoms are L; Edrei of Naphtali and Mizpah of Gilead are P. El-elohe-Israel is S: the altar Jacob built at Shechem (Gen 33:20).",
   "pleiades_add": [
     {
       "dm_id": "places-0079",
@@ -1064,5 +1067,11 @@
       "certainty": "certain",
       "note": "Trogyllium (Acts 20:15) = Trogilion promontory opposite Samos (Pleiades 599991)"
     }
-  }
+  },
+  "airtable_canonical": {
+    "places-0206": 151,
+    "places-1015": 516,
+    "places-0861": 580
+  },
+  "airtable_canonical_note": "Airtable record (placeID) that other names of the place link to, where the title-then-verses rule picks a minor record."
 }
