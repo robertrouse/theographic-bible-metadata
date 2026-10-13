@@ -6,8 +6,8 @@ so "Beth-lehem" = "Bethlehem"):
   1. Digital Manna: name + names[] of every DM entry merged into the feature
   2. Theographic: displayTitle / kjvName / esvName / aliases of its placeIDs
   3. OpenBible: translation_name_counts of its OpenBible places
-  4. Pleiades: names attested in antiquity (start <= 640, or undated in an
-     ancient language), with Pleiades' lang and start/end
+  4. Pleiades: ancient attestations (see pleiades.py), with Pleiades' lang
+     and start/end
 
 Filters (counted in the report): parenthetical qualifiers are stripped
 ("Antioch (Syria)" -> "Antioch"); generic single words ("Mount", "Tower"),
@@ -22,8 +22,10 @@ placeIDs whose displayTitle/kjvName/esvName is that name (Airtable `aliases`
 contribute names but not dates) (e.g. Azotus only in Acts). Pleiades names use
 Pleiades' own start/end instead.
 
-Reads:  geo/working/phase-6-output.geojson, phase-6-index.json, dm-places-cache.json,
-        openbible-ancient.jsonl, pleiades-cache.json; json/places.json, json/verses.json
+Runs after Phase 8, which settles the Pleiades links.
+
+Reads:  geo/working/phase-8-output.geojson, phase-8-index.json, dm-places-cache.json,
+        openbible-ancient.jsonl, pleiades-names.csv.gz; json/places.json, json/verses.json
 Writes: geo/working/phase-7-output.geojson, geo/working/phase-7-report.md
 
 Usage: python3 geo/pipeline/phase7_names.py
@@ -33,11 +35,9 @@ import json
 import re
 from datetime import date
 
-WORK = 'geo/working'
-LATEST_ANCIENT = 640
-ANCIENT_LANGS = {'grc', 'la', 'akk', 'egy', 'hbo', 'arc', 'cop', 'hit', 'peo', 'phn', 'sux', 'elx',
-                 'xur', 'cana', 'xmn', 'xmr', 'xlc', 'syc', 'uga'}
+from pleiades import ancient, dated, load_names
 
+WORK = 'geo/working'
 
 GENERIC = {'mount', 'mountain', 'mountains', 'river', 'city', 'field', 'tower', 'valley', 'sea', 'brook',
            'gate', 'hill', 'lower', 'upper', 'plain', 'desert', 'wilderness', 'land', 'house', 'rock',
@@ -56,19 +56,6 @@ def norm(name):
     return re.sub(r'[^a-z]', '', (name or '').lower())
 
 
-def dated(n):
-    return n.get('start') is not None and (n['start'], n.get('end')) != UNKNOWN_SPAN
-
-
-def ancient(n):
-    if n.get('nameType') not in ('geographic', 'ethnic'):
-        return False
-    if dated(n):
-        return n['start'] <= LATEST_ANCIENT
-    lang = (n.get('language') or '').split('-')[0]
-    return lang in ANCIENT_LANGS
-
-
 def timespan(start, end=None):
     span = {'start': {'in': str(start)}}
     if end is not None:
@@ -77,14 +64,14 @@ def timespan(start, end=None):
 
 
 def main():
-    fc = json.load(open(f'{WORK}/phase-6-output.geojson'))
-    index = {x['@id']: x for x in json.load(open(f'{WORK}/phase-6-index.json'))}
+    fc = json.load(open(f'{WORK}/phase-8-output.geojson'))
+    index = {x['@id']: x for x in json.load(open(f'{WORK}/phase-8-index.json'))}
     dm = {e['id']: e for e in json.load(open(f'{WORK}/dm-places-cache.json'))['entries']}
     ob = {}
     for line in open(f'{WORK}/openbible-ancient.jsonl'):
         rec = json.loads(line)
         ob[rec['id']] = rec
-    pleiades = json.load(open(f'{WORK}/pleiades-cache.json'))
+    pleiades = load_names()
     places = {p['fields']['placeID']: p['fields'] for p in json.load(open('json/places.json'))}
     year = {v['id']: v['fields'].get('yearNum') for v in json.load(open('json/verses.json'))}
 
@@ -199,19 +186,17 @@ def main():
             for n in sorted(counts, key=lambda k: -counts[k]):
                 add_with_verses(n, 'en', 'OpenBible', f'https://www.openbible.info/geo/ancient/{o}')
         for pid in x['pleiades']:
-            rec = pleiades.get(pid)
-            if not rec:
-                stats['pleiades id not retrievable'] += 1
+            if pid not in pleiades:
+                stats['pleiades place without names'] += 1
                 continue
-            for n in rec.get('names') or []:
-                if not n.get('romanized'):
+            for n in pleiades[pid]:
+                if not n['romanized']:
                     continue
                 if not ancient(n):
-                    pleiades_skipped[n.get('language') or '(none)'] += 1
+                    pleiades_skipped[n['language'] or '(none)'] += 1
                     continue
-                when = timespan(n['start'], n.get('end')) if dated(n) else None
-                add(n['romanized'], n.get('language') or '', 'Pleiades',
-                    f'https://pleiades.stoa.org/places/{pid}', when)
+                when = timespan(n['start'], n['end']) if dated(n) else None
+                add(n['romanized'], n['language'], 'Pleiades', f'https://pleiades.stoa.org/places/{pid}', when)
 
         feat['names'] = names
         stats['features'] += 1
@@ -241,7 +226,7 @@ def main():
         f'| From Pleiades (ancient attestations) | {stats["name from Pleiades"]} |',
         f'| Duplicates folded into an existing name as extra citations | '
         f'{sum(v for k, v in stats.items() if k.startswith("duplicate"))} |',
-        f'| Pleiades IDs that could not be retrieved | {stats["pleiades id not retrievable"]} |', '',
+        f'| Pleiades places with no names in the dump (e.g. Mount Nebo) | {stats["pleiades place without names"]} |', '',
         'Names dropped by filter: ' + ', '.join(f'{k} {v}' for k, v in dropped.most_common()), '',
         'Names per feature (10 = 10+): ' + ', '.join(f'{k}: {v}' for k, v in sorted(per.items())), '',
         'Pleiades names left out (modern, or undated in a non-ancient language), by language: '

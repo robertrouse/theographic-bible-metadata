@@ -1022,5 +1022,23 @@
       "P"
     ]
   },
-  "fclasses_note": "For DM entries with no type in any source: tribal territories and kingdoms are L; Edrei of Naphtali and Mizpah of Gilead are P."
+  "fclasses_note": "For DM entries with no type in any source: tribal territories and kingdoms are L; Edrei of Naphtali and Mizpah of Gilead are P.",
+  "pleiades_add": [
+    {
+      "dm_id": "places-0079",
+      "id": "687961",
+      "note": "Ascent of Adummim = Ma'ale Adummim; Roman fort Maledomnei"
+    },
+    {
+      "dm_id": "places-0885",
+      "id": "674270",
+      "note": "Tiphsah = Thapsacus on the Euphrates (Pleiades has it unlocated)"
+    },
+    {
+      "dm_id": "places-1122",
+      "id": "727117",
+      "note": "On (Gen 41:45) is Heliopolis; 'City of the Sun' (Isa 19:18) only possibly"
+    }
+  ],
+  "pleiades_reject": []
 }
