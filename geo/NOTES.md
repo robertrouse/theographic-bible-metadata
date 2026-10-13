@@ -1,17 +1,25 @@
 # geo/bible-places.geojson — Open Items
 
 **Last updated:** 2026-10-13
-**State:** LPF pipeline phases 5–10 complete (`geo/pipeline/`). 1,030 features,
+**State:** LPF pipeline phases 5–10 complete (`geo/pipeline/`). 1,028 features,
 all valid against the WHG LPF schema v1.2.2, all with `names[]` and `when{}`.
+Every place has at least one verse reference (Theographic or Digital Manna);
+Phase 6 drops any place without one.
 
-## 1. Airtable (Phase 11, next)
+## 1. Airtable (Phase 11): planned, not applied
 
-Conform the Airtable `places` table to the one-place-many-names model in
-`decisions.json`: link each alias record to its canonical place, add the
-Digital Manna ID, and add records for places DM has and Theographic lacks
-(tribal territories, the kingdoms, Misgab, Parbar, and others listed under
-`dm_needs_theographic_record`). Draft the changes and approve them before any
-write.
+`geo/airtable/phase-11-plan.md`: a `canonicalPlace` link on 250 alias records
+and 22 new records (tribal territories, Judah, Misgab, Parbar, ...) with
+Digital Manna's verse links. The connected Airtable token is read-only, so the
+plan has not been applied. Run `geo/pipeline/phase11_airtable_apply.py` with a
+token that can write (see `geo/airtable/README.md`); `--rollback` reverses it.
+After applying and re-exporting, add the new placeIDs to Digital Manna's
+`ids.theographic` (or to `theographic_assign` in `decisions.json`).
+
+Theographic records with no verse links although the text names them:
+Jaar #608 (Ps 132:6), Aram-naharaim #84 (Gen 24:10), Aram-zobah #85
+(Ps 60 title), Ham #515 (Gen 14:5). Their places are kept because Digital
+Manna lists verses for them; the Airtable records need their verse links.
 
 ## 2. Digital Manna corrections to make upstream
 

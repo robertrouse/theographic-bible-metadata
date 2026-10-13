@@ -6,7 +6,7 @@ Snapshot before any change: `json/places.json` at commit `bc4c1f1` (tag `airtabl
 
 `canonicalPlace`: link to another `places` record, single. Set only on alias records.
 
-## 2. Set canonicalPlace on 251 alias records (180 canonical places)
+## 2. Set canonicalPlace on 250 alias records (179 canonical places)
 
 | Alias record | → Canonical record | Feature |
 |---|---|---|
@@ -49,7 +49,6 @@ Snapshot before any change: `json/places.json` at commit `bc4c1f1` (tag `airtabl
 | #165 Beer | #164 Beer | Beer |
 | #1075 Shibah | #170 Beersheba | Beer-Sheba |
 | #169 Beeroth Bene-jaakan | #174 Bene-jaakan | Bene-jaakan |
-| #437 Benjamin's Gate | #175 Gate of Benjamin | Benjamin Gate |
 | #180 Berothai | #179 Berothah | Berothah |
 | #311 Cun | #179 Berothah | Berothah |
 | #212 Beth-haran | #211 Beth-haram | Beth-Haram |
@@ -262,34 +261,32 @@ Snapshot before any change: `json/places.json` at commit `bc4c1f1` (tag `airtabl
 | #85 Aram-zobah | #1272 Zobah | Zobah |
 | #1273 Zobah-Hamath | #1272 Zobah | Zobah |
 
-## 3. Create 24 records
+## 3. Create 22 records
 
 | placeID | placeLookup | displayTitle | featureType | coordinates | verses | from |
 |---|---|---|---|---|---|---|
 | 1279 | el-elohe-israel_1279 | El-elohe-Israel | Landmark | 35.281944, 32.213611 | 1 | places-0390 |
 | 1280 | judah_1280 | Judah | Region | ,  | 27 | places-0611 |
-| 1281 | israel-united_1281 | Israel (United) | Region | 35.234167, 31.776667 | 0 | places-1255 |
-| 1282 | israel-northern-kingdom_1282 | Israel (Northern Kingdom) | Region | 35.195, 32.276111 | 0 | places-1256 |
-| 1283 | judah-southern_1283 | Judah (Southern) | Region | 35.234167, 31.776667 | 8 | places-1257 |
-| 1284 | reuben_1284 | Reuben | Region | 35.809062, 31.800811 | 12 | places-1258 |
-| 1285 | dan_1285 | Dan | Region | 34.985289, 31.773992 | 9 | places-1259 |
-| 1286 | naphtali_1286 | Naphtali | Region | 35.569167, 33.018333 | 16 | places-1260 |
-| 1287 | edrei_1287 | Edrei | City | ,  | 1 | places-1261 |
-| 1288 | gad_1288 | Gad | Region | 35.745805, 32.046967 | 21 | places-1262 |
-| 1289 | asher_1289 | Asher | Region | 35.158133, 32.914536 | 20 | places-1264 |
-| 1290 | issachar_1290 | Issachar | Region | 35.42031, 32.648544 | 13 | places-1265 |
-| 1291 | zebulun_1291 | Zebulun | Region | 35.239568, 32.714861 | 16 | places-1266 |
-| 1292 | east-manasseh-half-tribe_1292 | East Manasseh (Half-Tribe) | Region | 36.071543, 32.641108 | 14 | places-1268 |
-| 1293 | west-manasseh_1293 | West Manasseh | Region | 35.310064, 32.481922 | 19 | places-1269 |
-| 1294 | ephraim-territory_1294 | Ephraim (Territory) | Region | 35.232834, 32.016322 | 15 | places-1270 |
-| 1295 | benjamin-territory_1295 | Benjamin (Territory) | Region | 35.263257, 31.853294 | 14 | places-1271 |
-| 1296 | forest-of-ephraim_1296 | Forest of Ephraim | Region | 35.764722, 32.381111 | 2 | places-1273 |
-| 1297 | misgab_1297 | Misgab | City | 35.701389, 31.180556 | 1 | places-1274 |
-| 1298 | parbar_1298 | Parbar | Landmark | 35.234167, 31.776667 | 1 | places-1275 |
-| 1299 | sela-hammahlekoth_1299 | Rock of Escape | Mountain | 35.232889, 31.451513 | 2 | places-1276 |
-| 1300 | caleb-ephratah_1300 | Caleb-Ephrathah | City | 35.207639, 31.704306 | 1 | places-1277 |
-| 1301 | machbenah_1301 | Machbenah | City | 34.896797, 31.554151 | 1 | places-1281 |
-| 1302 | jorkoam_1302 | Jorkeam | City | 35.118489, 31.461967 | 1 | places-1283 |
+| 1281 | judah-southern_1281 | Judah (Southern) | Region | 35.234167, 31.776667 | 8 | places-1257 |
+| 1282 | reuben_1282 | Reuben | Region | 35.809062, 31.800811 | 12 | places-1258 |
+| 1283 | dan_1283 | Dan | Region | 34.985289, 31.773992 | 9 | places-1259 |
+| 1284 | naphtali_1284 | Naphtali | Region | 35.569167, 33.018333 | 16 | places-1260 |
+| 1285 | edrei_1285 | Edrei | City | ,  | 1 | places-1261 |
+| 1286 | gad_1286 | Gad | Region | 35.745805, 32.046967 | 21 | places-1262 |
+| 1287 | asher_1287 | Asher | Region | 35.158133, 32.914536 | 20 | places-1264 |
+| 1288 | issachar_1288 | Issachar | Region | 35.42031, 32.648544 | 13 | places-1265 |
+| 1289 | zebulun_1289 | Zebulun | Region | 35.239568, 32.714861 | 16 | places-1266 |
+| 1290 | east-manasseh-half-tribe_1290 | East Manasseh (Half-Tribe) | Region | 36.071543, 32.641108 | 14 | places-1268 |
+| 1291 | west-manasseh_1291 | West Manasseh | Region | 35.310064, 32.481922 | 19 | places-1269 |
+| 1292 | ephraim-territory_1292 | Ephraim (Territory) | Region | 35.232834, 32.016322 | 15 | places-1270 |
+| 1293 | benjamin-territory_1293 | Benjamin (Territory) | Region | 35.263257, 31.853294 | 14 | places-1271 |
+| 1294 | forest-of-ephraim_1294 | Forest of Ephraim | Region | 35.764722, 32.381111 | 2 | places-1273 |
+| 1295 | misgab_1295 | Misgab | City | 35.701389, 31.180556 | 1 | places-1274 |
+| 1296 | parbar_1296 | Parbar | Landmark | 35.234167, 31.776667 | 1 | places-1275 |
+| 1297 | sela-hammahlekoth_1297 | Rock of Escape | Mountain | 35.232889, 31.451513 | 2 | places-1276 |
+| 1298 | caleb-ephratah_1298 | Caleb-Ephrathah | City | 35.207639, 31.704306 | 1 | places-1277 |
+| 1299 | machbenah_1299 | Machbenah | City | 34.896797, 31.554151 | 1 | places-1281 |
+| 1300 | jorkoam_1300 | Jorkeam | City | 35.118489, 31.461967 | 1 | places-1283 |
 
 ## Not changed
 

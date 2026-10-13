@@ -1,7 +1,9 @@
 """Phase 6: rebuild the place features from the crosswalk and geo/decisions.json.
 
 One LPF Feature per surviving Digital Manna entry (after merges and
-exclusions), plus the Theographic places kept as their own features. This phase
+exclusions), plus the Theographic places kept as their own features. A place
+with no verse reference (none linked in Theographic, none listed by Digital
+Manna) is dropped: every place in the data must be biblical. This phase
 sets @id, properties.title, properties.fclasses, geometry and links[].
 names[] and when{} are added by later phases.
 
@@ -109,6 +111,16 @@ def main():
         # decisions refer to these by "theographic:<placeID>"
         feats.append({'kind': 'theographic', 'canonical': f'theographic:{nf["placeID"]}', 'rows': [],
                       'placeIDs': [nf['placeID']], 'orphan': orphan_rows[nf['placeID']]})
+
+    # A place belongs in the data only if the Bible mentions it: at least one
+    # verse linked in Theographic or listed by Digital Manna.
+    dm_verses = {e['id']: e.get('verses') or [] for e in json.load(open(f'{WORK}/dm-places-cache.json'))['entries']}
+
+    def verse_refs(f):
+        return sum(len(places[p].get('verses') or []) for p in f['placeIDs'] if p in places) + \
+            sum(len(dm_verses.get(r['dm_id'], [])) for r in f['rows'])
+    no_verses = [f['rows'][0]['dm_name'] if f['rows'] else f['canonical'] for f in feats if not verse_refs(f)]
+    feats = [f for f in feats if verse_refs(f)]
 
     # ---- per-feature fields -------------------------------------------------
     ob_feature_count = collections.Counter()
@@ -310,6 +322,7 @@ def main():
         f'| Theographic-only features | {sum(1 for f in feats if f["kind"] == "theographic")} |',
         f'| DM entries merged away | {len(absorbed_into)} |',
         f'| DM entries excluded | {len(excluded_dm)} |',
+        f'| Places dropped: no verse reference in Theographic or Digital Manna | {len(no_verses)} |',
         f'| Theographic places excluded | {len(excluded_pid)} |',
         f'| Features absorbing 2+ legacy records | {sum(1 for x in index if len(x["legacy_ids"]) > 1)} |',
         f'| New features (no legacy record) | {sum(1 for x in index if not x["legacy_ids"])} |',
@@ -333,6 +346,8 @@ def main():
         lines += ['', '### Theographic places not placed', ''] + [f'- #{p} {places[p]["displayTitle"]}' for p in unplaced]
     if legacy_dropped:
         lines += ['', '### Legacy records with no feature', ''] + [f'- {i}' for i in legacy_dropped]
+    if no_verses:
+        lines += ['', '## Dropped: no verse reference', ''] + [f'- {t}' for t in no_verses]
     lines += ['', '## No coordinates', ''] + [f'- {t}' for t in sorted(no_geom)]
     lines += ['', '## Points moved more than 1 km (DM coordinates vs legacy)', '',
               '| Feature | Legacy record | km |', '|---|---|---|']

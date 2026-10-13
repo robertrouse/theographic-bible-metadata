@@ -16432,10 +16432,6 @@
               "@id": "https://theographic.netlify.app/place/gate_of_benjamin_175/"
             },
             {
-              "label": "Theographic",
-              "@id": "https://theographic.netlify.app/place/benjamins_gate_437/"
-            },
-            {
               "label": "OpenBible",
               "@id": "https://www.openbible.info/geo/ancient/ae04aa8"
             }
@@ -16480,13 +16476,9 @@
           }
         },
         {
-          "toponym": "Benjamin's Gate",
+          "toponym": "Benjamin’s Gate",
           "lang": "en",
           "citations": [
-            {
-              "label": "Theographic",
-              "@id": "https://theographic.netlify.app/place/benjamins_gate_437/"
-            },
             {
               "label": "OpenBible",
               "@id": "https://www.openbible.info/geo/ancient/ae04aa8"
@@ -16502,10 +16494,6 @@
         {
           "type": "seeAlso",
           "identifier": "https://theographic.netlify.app/place/gate_of_benjamin_175/"
-        },
-        {
-          "type": "seeAlso",
-          "identifier": "https://theographic.netlify.app/place/benjamins_gate_437/"
         },
         {
           "type": "seeAlso",
@@ -55018,110 +55006,6 @@
         {
           "type": "seeAlso",
           "identifier": "https://www.openbible.info/geo/ancient/a21b934"
-        }
-      ]
-    },
-    {
-      "@id": "https://bible.helloao.org/api/c/places/israel-northern.json",
-      "properties": {
-        "title": "Israel (Northern Kingdom)",
-        "fclasses": [
-          "L"
-        ]
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          35.195,
-          32.276111
-        ],
-        "certainty": "less-certain"
-      },
-      "when": {
-        "timespans": [
-          {
-            "start": {
-              "in": "-974"
-            }
-          }
-        ],
-        "periods": [
-          {
-            "name": "Iron Age IIA",
-            "uri": "http://n2t.net/ark:/99152/p0dkm29672r"
-          }
-        ],
-        "label": "division of the kingdom (2Chr.10.19), Theographic chronology"
-      },
-      "names": [
-        {
-          "toponym": "Israel",
-          "lang": "en",
-          "citations": [
-            {
-              "label": "Digital Manna",
-              "@id": "https://www.digitalmanna.org/encyclopedia/places/israel-northern"
-            }
-          ]
-        }
-      ],
-      "links": [
-        {
-          "type": "seeAlso",
-          "identifier": "https://www.digitalmanna.org/encyclopedia/places/israel-northern"
-        }
-      ]
-    },
-    {
-      "@id": "https://bible.helloao.org/api/c/places/israel.json",
-      "properties": {
-        "title": "Israel (United)",
-        "fclasses": [
-          "L"
-        ]
-      },
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          35.234167,
-          31.776667
-        ],
-        "certainty": "less-certain"
-      },
-      "when": {
-        "timespans": [
-          {
-            "start": {
-              "in": "-1094"
-            }
-          }
-        ],
-        "periods": [
-          {
-            "name": "Iron Age IB",
-            "uri": "http://n2t.net/ark:/99152/p0dkm29cb6t"
-          }
-        ],
-        "label": "start of the united monarchy: Saul anointed (1Sam.10.1), Theographic chronology"
-      },
-      "names": [
-        {
-          "toponym": "Israel",
-          "lang": "en",
-          "citations": [
-            {
-              "label": "Digital Manna",
-              "@id": "https://www.digitalmanna.org/encyclopedia/places/israel"
-            }
-          ]
-        }
-      ],
-      "links": [
-        {
-          "type": "seeAlso",
-          "identifier": "https://www.digitalmanna.org/encyclopedia/places/israel"
         }
       ]
     },

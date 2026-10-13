@@ -666,12 +666,6 @@
       "note": "Ethiopia = Cush"
     },
     {
-      "placeID": 437,
-      "dm_id": "places-1047",
-      "source": "claude-proposed",
-      "note": "Benjamin's Gate (duplicate_of #175)"
-    },
-    {
       "placeID": 445,
       "dm_id": "places-0466",
       "source": "claude-proposed",
@@ -803,6 +797,12 @@
         827
       ],
       "reason": "rooms or halls inside the Tabernacle/Temple/palace; DM omits them"
+    },
+    {
+      "placeIDs": [
+        437
+      ],
+      "reason": "Benjamin's Gate: zero-verse duplicate of Gate of Benjamin (#175), already marked duplicate_of in Airtable"
     }
   ],
   "theographic_new_feature": [
@@ -828,8 +828,6 @@
   "dm_needs_theographic_record": [
     "places-0390",
     "places-0611",
-    "places-1255",
-    "places-1256",
     "places-1257",
     "places-1258",
     "places-1259",
@@ -973,12 +971,6 @@
     "places-1051": "Gate of the Foundation"
   },
   "fclasses": {
-    "places-1255": [
-      "L"
-    ],
-    "places-1256": [
-      "L"
-    ],
     "places-1257": [
       "L"
     ],
@@ -1025,7 +1017,7 @@
       "S"
     ]
   },
-  "fclasses_note": "For DM entries with no type in any source: tribal territories and kingdoms are L; Edrei of Naphtali and Mizpah of Gilead are P. El-elohe-Israel is S: the altar Jacob built at Shechem (Gen 33:20).",
+  "fclasses_note": "For DM entries with no type in any source: tribal territories and Judah (Southern) are L; Edrei of Naphtali and Mizpah of Gilead are P. El-elohe-Israel is S: the altar Jacob built at Shechem (Gen 33:20).",
   "pleiades_add": [
     {
       "dm_id": "places-0079",
@@ -1049,17 +1041,8 @@
     }
   ],
   "pleiades_reject": [],
-  "when": {
-    "places-1255": {
-      "year": -1094,
-      "label": "start of the united monarchy: Saul anointed (1Sam.10.1), Theographic chronology"
-    },
-    "places-1256": {
-      "year": -974,
-      "label": "division of the kingdom (2Chr.10.19), Theographic chronology"
-    }
-  },
-  "when_note": "Feature start dates for places no source dates; the PeriodO period is added automatically.",
+  "when": {},
+  "when_note": "Feature start dates for places no source dates; the PeriodO period is added automatically. (Israel (United) and Israel (Northern Kingdom) were dropped: no verse reference in any source.)",
   "coordinates": {
     "theographic:1278": {
       "lon": 27.006,
