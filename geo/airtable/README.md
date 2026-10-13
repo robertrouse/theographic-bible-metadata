@@ -15,8 +15,9 @@ records for places Digital Manna has and Theographic lacks.
 
 The token needs `data.records:write`, and `schema.bases:write` to create the
 `canonicalPlace` field. Without that scope, first add the field in the Airtable
-UI: name `canonicalPlace`, type *Link to another record* → `places`, with
-*Allow linking to multiple records* off.
+UI: name `canonicalPlace`, type *Link to another record* → `places`. The API
+cannot create the field as single-link; every value the sync writes is one
+record, and *Allow linking to multiple records* can be turned off in the UI.
 
 ```bash
 AIRTABLE_TOKEN=pat... python3 geo/pipeline/phase11_airtable_apply.py --dry-run

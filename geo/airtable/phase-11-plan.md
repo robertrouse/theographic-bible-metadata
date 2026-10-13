@@ -4,7 +4,7 @@ Snapshot before any change: `json/places.json` at commit `bc4c1f1` (tag `airtabl
 
 ## 1. New field
 
-`canonicalPlace`: link to another `places` record, single. Set only on alias records.
+`canonicalPlace`: link to another `places` record. Set only on alias records, always to one record.
 
 ## 2. Set canonicalPlace on 250 alias records (179 canonical places)
 

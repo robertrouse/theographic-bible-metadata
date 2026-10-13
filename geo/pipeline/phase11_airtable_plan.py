@@ -98,7 +98,8 @@ def main():
         'create_fields': [{'name': 'canonicalPlace', 'type': 'multipleRecordLinks',
                            'description': 'The record for the same real place when this record is one of its '
                                           'other names (Linked Places sync). Empty on canonical records.',
-                           'options': {'linkedTableId': TABLE, 'prefersSingleRecordLink': True}}],
+                           # the API rejects prefersSingleRecordLink on create; set it in the UI if wanted
+                           'options': {'linkedTableId': TABLE}}],
         'update_records': updates,
         'update_batches': [[{'id': u['id'], 'fields': {'canonicalPlace': u['after']}} for u in updates[i:i + 10]]
                            for i in range(0, len(updates), 10)],
@@ -111,7 +112,7 @@ def main():
         f'Snapshot before any change: `json/places.json` at commit `{SNAPSHOT_COMMIT}` '
         f'(tag `{plan["snapshot"]["tag"]}`); no record was modified after that export.', '',
         '## 1. New field', '',
-        '`canonicalPlace`: link to another `places` record, single. Set only on alias records.', '',
+        '`canonicalPlace`: link to another `places` record. Set only on alias records, always to one record.', '',
         f'## 2. Set canonicalPlace on {len(updates)} alias records '
         f'({len({u["canonical_placeID"] for u in updates})} canonical places)', '',
         '| Alias record | → Canonical record | Feature |', '|---|---|---|',
