@@ -96,7 +96,7 @@ The import scripts turn the JSON tables into a connected graph. Below, each node
 
 > **IDs:** `id` on every node except `Dictionary` is the 17-character Airtable record ID (e.g. `recRAcqtgn28zXm1a`). It matches `id` in the JSON files.
 >
-> **Years:** `Person.birthYear` and `deathYear` are imported as **strings** that hold negated-BC years (`"-1571"` = 1571 BC), following Jones. `Event.startDate` is an ISO 8601 astronomical year or date (`"-4003"` = 4004 BC). Use `toInteger()` for numeric comparisons. See [Chronology and Dates](chronology-and-dates.md).
+> **Years:** `Person.birthYear` and `deathYear` are imported as **strings**, and `Event.startDate` is a string year or date. All of them use ISO 8601 astronomical years following Jones (`"-4003"` = 4004 BC). Use `toInteger()` for numeric comparisons. See [Chronology and Dates](chronology-and-dates.md).
 
 ### Overview
 
@@ -197,8 +197,8 @@ One of the 66 books of the Protestant canon.
 | `alsoCalled` | `alsoCalled` | Alternate names |
 | `gender` | `gender` | "Male" or "Female" |
 | `description` | `dictionaryText` | Easton's Bible Dictionary text |
-| `birthYear` | `birthYear` | String, negated-BC year (Jones) |
-| `deathYear` | `deathYear` | String, negated-BC year (Jones) |
+| `birthYear` | `birthYear` | String, ISO 8601 year (Jones) |
+| `deathYear` | `deathYear` | String, ISO 8601 year (Jones) |
 | `slug` | `slug` | e.g. "moses_2108" |
 | `status` | `status` | Record validation status |
 
@@ -398,11 +398,11 @@ YIELD node, score
 RETURN node.title, score LIMIT 3;
 ```
 
-For numeric ranges such as years, use an ordinary `WHERE` clause instead of the full-text index. People born between 1100 BC and 1000 BC:
+For numeric ranges such as years, use an ordinary `WHERE` clause instead of the full-text index. People born between 1100 BC and 1000 BC (ISO `-1099` to `-999`):
 ```cypher
 MATCH (p:Person)
 WHERE p.birthYear IS NOT NULL
-  AND toInteger(p.birthYear) >= -1100 AND toInteger(p.birthYear) <= -1000
+  AND toInteger(p.birthYear) >= -1099 AND toInteger(p.birthYear) <= -999
 RETURN p.title, p.birthYear
 ORDER BY toInteger(p.birthYear);
 ```

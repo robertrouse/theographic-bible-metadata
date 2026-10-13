@@ -120,16 +120,16 @@ The explorer shows the full schema with a description for every field.
 
 ## Dates and year numbering
 
-Dates follow the chronology of Dr. Floyd Nolen Jones. Year fields do **not** all use the same convention:
+Dates follow the chronology of Dr. Floyd Nolen Jones. Every year field uses **ISO 8601 astronomical year numbering**, so `-4003` is 4004 BC, `0` is 1 BC, and `30` is AD 30:
 
-| Field | Type | Convention | 4004 BC is |
-|---|---|---|---|
-| `Event.startDate` | String | ISO 8601 astronomical year or `YYYY-MM-DD` date | `"-4003"` |
-| `Event.sortKey` | Float | ISO 8601 astronomical year + verse-order fraction | `-4002.98…` |
-| `Person.birthYear`, `Person.deathYear` | Int | Negated BC year | `-4004` |
-| `Verse.yearNum` | Int | Negated BC year (Ussher, via the *Treasury of Scripture Knowledge*) | `-4004` |
+| Field | Type | Example |
+|---|---|---|
+| `Event.startDate` | String | `"-4003"`, or a `YYYY-MM-DD` date such as `"0030-04-04"` |
+| `Event.sortKey` | Float | `-4002.98998999` |
+| `Person.birthYear`, `Person.deathYear` | Int | Moses: `-1570`, `-1451` |
+| `Verse.yearNum` | Int | `Gen.1.1`: `-4003` (Ussher, via the *Treasury of Scripture Knowledge*) |
 
-To compare a person's dates with event dates, add 1 to negative `birthYear`/`deathYear` values. The full explanation is in [Chronology and Dates](chronology-and-dates.md).
+BC year = `1 - value` for values ≤ 0. See [Chronology and Dates](chronology-and-dates.md).
 
 ## Limits
 

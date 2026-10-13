@@ -1,12 +1,12 @@
 # Data Formats and Downloads
 
-All Theographic data is free to download from this GitHub repository under [CC BY-SA 4.0](../LICENSE). Airtable is where the data is edited. Every other format on this page is exported from Airtable and published here.
+All Theographic data is free to download from this GitHub repository under [CC BY-SA 4.0](../LICENSE). Airtable is where the data is edited. The JSON and CSV files are generated from it by [`etl/export_airtable.py`](../etl/export_airtable.py), and the other formats on this page are built from those files.
 
 | Format | Location | Best for |
 |---|---|---|
 | **JSON** | [`json/`](../json) | The preferred source. Each file is an array of `{id, createdTime, fields}` records, and link fields are arrays of record IDs. See [JSON Fields Documentation](json-fields-documentation.md). |
 | **CSV** | [`CSV/`](../CSV) | Spreadsheets and SQL databases. Same tables and field names as the JSON, but link fields hold comma-separated lookup values (e.g. `god_1324,jesus_905`, `Gen.1.1,Gen.1.2`) instead of record IDs. |
-| **Word index** | [`CSV/WordIndex.csv`](../CSV/WordIndex.csv) | One row per KJV word (~790,000 rows) with book, chapter, verse, word position, punctuation, italics, syllables, and the person, place, and year IDs tied to that word. |
+| **Word index** | [`CSV/WordIndex.csv`](../CSV/WordIndex.csv) | One row per KJV word (~790,000 rows) with book, chapter, verse, word position, punctuation, italics, syllables, and the person and place IDs and year (ISO 8601) tied to that word. It is not generated from Airtable and is updated by hand. |
 | **GeoJSON** | [`geo/`](../geo) | Mapping. See [Geospatial Data](geospatial-data.md). |
 | **Neo4j** | [`neo4j/import/`](../neo4j/import) | Graph queries. Cypher scripts build a Neo4j graph straight from the JSON on GitHub. See [Neo4j Graph Documentation](neo4j-graph-documentation.md). |
 | **GraphQL API** | `https://theographic-api.netlify.app/api/graphql` | Live queries without downloading anything. See [API Documentation](api-documentation.md). |
@@ -31,4 +31,4 @@ The CSV files do not follow normalized database design: many-to-many links are s
 
 ## Freshness
 
-Exports are published to GitHub periodically, not continuously. The commit history of [`json/`](https://github.com/robertrouse/theographic-bible-metadata/commits/master/json) shows when the data was last refreshed. If you need something more recent than the latest export, [open an issue](https://github.com/robertrouse/theographic-bible-metadata/issues) or email [robert@viz.bible](mailto:robert@viz.bible).
+Exports are published to GitHub periodically, not continuously. To regenerate them yourself with an Airtable token, run `python3 etl/export_airtable.py` from the repository root. The commit history of [`json/`](https://github.com/robertrouse/theographic-bible-metadata/commits/master/json) shows when the data was last refreshed. If you need something more recent than the latest export, [open an issue](https://github.com/robertrouse/theographic-bible-metadata/issues) or email [robert@viz.bible](mailto:robert@viz.bible).

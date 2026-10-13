@@ -4,11 +4,71 @@
         "createdTime": "2018-05-13T17:19:17.000Z",
         "fields": {
             "osisName": "Gen",
-            "bookName": "Genesis",
-            "chapterCount": 50,
-            "bookDiv": "Pentateuch",
-            "shortName": "Ge",
             "bookOrder": 1,
+            "bookName": "Genesis",
+            "bookDiv": "Pentateuch",
+            "testament": "Old Testament",
+            "shortName": "Ge",
+            "slug": "gen",
+            "chapters": [
+                "recViIBdFQyyJQtzE",
+                "recParAnlMHJy8vSQ",
+                "recFPXWCk5BQTPeZY",
+                "recP0SWtVdLjuIsXo",
+                "rec0leZ51O8fXDo6r",
+                "recjXpiUI0r8Ma11W",
+                "recxSHVgoL3BoMxOP",
+                "recfY12EfTLY9VoLP",
+                "recIxOmj9WmPdtUWc",
+                "recNe4V5qAwNHXNMc",
+                "recInMECEitwZTHM0",
+                "recc4ApecuLWrZMuh",
+                "recllmR5rukrFSUsi",
+                "recBcPIGTwFWGBn04",
+                "recdHI8fqHx4zccls",
+                "recwo9DIOSmMQDB6z",
+                "rechTLbS1EnTvr3sL",
+                "reck27zhLVkpj6Fpn",
+                "recOT0AOR5UdXfdwD",
+                "recSXyBMMil0ATlK7",
+                "recszlTejn2IRVAVC",
+                "recLYU7Vp3rBfJOtm",
+                "recreXyy79kcgBiJW",
+                "recXF8o3wB0BmjZ4r",
+                "recxDsXio9dxdVwHB",
+                "recnP1NhXroEtZCXx",
+                "recrICrWZgIfbOETV",
+                "recsdRvDdBKPQtNKp",
+                "recuPyUbklXqyiqp4",
+                "recpu5GtAbupRMynA",
+                "rec8uivhoM72XPYwS",
+                "recVV47bc9X2dbqdK",
+                "recp9tGRin6jhkssa",
+                "recSQTHNdBcnPUtU4",
+                "recTvZAj4hiKgeSax",
+                "recvA0DmEWC5GQX15",
+                "reclSPh5SckFcMobQ",
+                "rec3Kxg3et95tHYwx",
+                "recxx3IGZ9BXiMqQ8",
+                "recyzSMnby64eT6VE",
+                "recIbu14OJJwJEe9q",
+                "recffjPBqJlXGQtbm",
+                "recA4h70quhZ1Nb7U",
+                "recTmTnXNUPGKLCqs",
+                "recL85rbdPQObJ8dJ",
+                "recPEy6XUYwot2fWj",
+                "rec5SoANuok79hxue",
+                "rec8wWpNbi2GXGLao",
+                "rec3VSmyC7OGjT6jT",
+                "reczLbVqF5DUKfrYk"
+            ],
+            "chapterCount": 50,
+            "verseCount": 1533,
+            "writers": [
+                "moses_2108"
+            ],
+            "peopleCount": 1082,
+            "placeCount": 266,
             "verses": [
                 "rec7mkRLwey2ntUG9",
                 "rec7DRaTJV5ANnvEj",
@@ -1543,67 +1603,7 @@
                 "rece0JkE5NxZHiVdW",
                 "recUvBlpLFXt8XSg1",
                 "rectwCKpBHgzmKrw3"
-            ],
-            "verseCount": 1533,
-            "chapters": [
-                "recViIBdFQyyJQtzE",
-                "recParAnlMHJy8vSQ",
-                "recFPXWCk5BQTPeZY",
-                "recP0SWtVdLjuIsXo",
-                "rec0leZ51O8fXDo6r",
-                "recjXpiUI0r8Ma11W",
-                "recxSHVgoL3BoMxOP",
-                "recfY12EfTLY9VoLP",
-                "recIxOmj9WmPdtUWc",
-                "recNe4V5qAwNHXNMc",
-                "recInMECEitwZTHM0",
-                "recc4ApecuLWrZMuh",
-                "recllmR5rukrFSUsi",
-                "recBcPIGTwFWGBn04",
-                "recdHI8fqHx4zccls",
-                "recwo9DIOSmMQDB6z",
-                "rechTLbS1EnTvr3sL",
-                "reck27zhLVkpj6Fpn",
-                "recOT0AOR5UdXfdwD",
-                "recSXyBMMil0ATlK7",
-                "recszlTejn2IRVAVC",
-                "recLYU7Vp3rBfJOtm",
-                "recreXyy79kcgBiJW",
-                "recXF8o3wB0BmjZ4r",
-                "recxDsXio9dxdVwHB",
-                "recnP1NhXroEtZCXx",
-                "recrICrWZgIfbOETV",
-                "recsdRvDdBKPQtNKp",
-                "recuPyUbklXqyiqp4",
-                "recpu5GtAbupRMynA",
-                "rec8uivhoM72XPYwS",
-                "recVV47bc9X2dbqdK",
-                "recp9tGRin6jhkssa",
-                "recSQTHNdBcnPUtU4",
-                "recTvZAj4hiKgeSax",
-                "recvA0DmEWC5GQX15",
-                "reclSPh5SckFcMobQ",
-                "rec3Kxg3et95tHYwx",
-                "recxx3IGZ9BXiMqQ8",
-                "recyzSMnby64eT6VE",
-                "recIbu14OJJwJEe9q",
-                "recffjPBqJlXGQtbm",
-                "recA4h70quhZ1Nb7U",
-                "recTmTnXNUPGKLCqs",
-                "recL85rbdPQObJ8dJ",
-                "recPEy6XUYwot2fWj",
-                "rec5SoANuok79hxue",
-                "rec8wWpNbi2GXGLao",
-                "rec3VSmyC7OGjT6jT",
-                "reczLbVqF5DUKfrYk"
-            ],
-            "writers": [
-                "moses_2108"
-            ],
-            "testament": "Old Testament",
-            "slug": "gen",
-            "peopleCount": 1082,
-            "placeCount": 266
+            ]
         }
     },
     {
@@ -1611,11 +1611,61 @@
         "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "Exod",
-            "bookName": "Exodus",
-            "chapterCount": 40,
-            "bookDiv": "Pentateuch",
-            "shortName": "Ex",
             "bookOrder": 2,
+            "bookName": "Exodus",
+            "bookDiv": "Pentateuch",
+            "testament": "Old Testament",
+            "shortName": "Ex",
+            "slug": "exod",
+            "chapters": [
+                "rec1yPgl5iaGn05J8",
+                "rec3JYCsuVp3qy6br",
+                "recpy9bjDMPlkdkna",
+                "recWDY4XojvMEoD6D",
+                "recb9lYmMSM4WebhJ",
+                "reckcr0RuUQSg6osR",
+                "receDR6PLl8FxyIRO",
+                "recYvHeoLGUOD80bk",
+                "rec4Af1za5unyj15Q",
+                "recAXAsbCI161umxN",
+                "recCuodKcAJmFFnQ8",
+                "rec3YFfJMzzElQguf",
+                "recdzPPtLfIj7pL0G",
+                "rec2RAiIBM6zo0cQ9",
+                "rec1HpJUVhCegp5Vk",
+                "recCQWEYeikpiV6h2",
+                "rec1WBx8dIl1un4Ry",
+                "recBluWY1di96vVqp",
+                "recRMThnEcQhryCmk",
+                "recUDZtYWfs21j37J",
+                "rec9asWd25kdZ57Qm",
+                "recSzPQ2d96ytEsQq",
+                "reclBccE7CMY1SYpJ",
+                "recMJn7GfZkW7aUXG",
+                "recmwdlsRaMY2neI0",
+                "recaUQKe0fqx7EcNF",
+                "recdeWRH2Fix6JBqB",
+                "rec8y9uHZOrekH6Bj",
+                "recQvsBE6juuM35qs",
+                "recI4iVBbuKlMWOsl",
+                "recXNpD2lRVT35GkD",
+                "recmyViljDV8FWM0i",
+                "reckYtFQjtICPB2dl",
+                "recRCmiVgA4CEuw8x",
+                "recf5nvI9spt2eVf0",
+                "recoCUIrIhN2uuCtP",
+                "recNybpw0oGS7ZAAy",
+                "rechte09A3U6EWXBU",
+                "recXpWdpVlcIPrUnv",
+                "reciBz3tH3otZjASO"
+            ],
+            "chapterCount": 40,
+            "verseCount": 1213,
+            "writers": [
+                "moses_2108"
+            ],
+            "peopleCount": 619,
+            "placeCount": 179,
             "verses": [
                 "rec2zBQqsXFFt5QU8",
                 "recJAqyGqN1CDN5Ri",
@@ -2830,57 +2880,7 @@
                 "recKgfR13wsfr7Q7G",
                 "rec5Lp4D1UEX5nMoI",
                 "rectk60avlRxvIjoc"
-            ],
-            "verseCount": 1213,
-            "chapters": [
-                "rec1yPgl5iaGn05J8",
-                "rec3JYCsuVp3qy6br",
-                "recpy9bjDMPlkdkna",
-                "recWDY4XojvMEoD6D",
-                "recb9lYmMSM4WebhJ",
-                "reckcr0RuUQSg6osR",
-                "receDR6PLl8FxyIRO",
-                "recYvHeoLGUOD80bk",
-                "rec4Af1za5unyj15Q",
-                "recAXAsbCI161umxN",
-                "recCuodKcAJmFFnQ8",
-                "rec3YFfJMzzElQguf",
-                "recdzPPtLfIj7pL0G",
-                "rec2RAiIBM6zo0cQ9",
-                "rec1HpJUVhCegp5Vk",
-                "recCQWEYeikpiV6h2",
-                "rec1WBx8dIl1un4Ry",
-                "recBluWY1di96vVqp",
-                "recRMThnEcQhryCmk",
-                "recUDZtYWfs21j37J",
-                "rec9asWd25kdZ57Qm",
-                "recSzPQ2d96ytEsQq",
-                "reclBccE7CMY1SYpJ",
-                "recMJn7GfZkW7aUXG",
-                "recmwdlsRaMY2neI0",
-                "recaUQKe0fqx7EcNF",
-                "recdeWRH2Fix6JBqB",
-                "rec8y9uHZOrekH6Bj",
-                "recQvsBE6juuM35qs",
-                "recI4iVBbuKlMWOsl",
-                "recXNpD2lRVT35GkD",
-                "recmyViljDV8FWM0i",
-                "reckYtFQjtICPB2dl",
-                "recRCmiVgA4CEuw8x",
-                "recf5nvI9spt2eVf0",
-                "recoCUIrIhN2uuCtP",
-                "recNybpw0oGS7ZAAy",
-                "rechte09A3U6EWXBU",
-                "recXpWdpVlcIPrUnv",
-                "reciBz3tH3otZjASO"
-            ],
-            "writers": [
-                "moses_2108"
-            ],
-            "testament": "Old Testament",
-            "slug": "exod",
-            "peopleCount": 619,
-            "placeCount": 179
+            ]
         }
     },
     {
@@ -2888,11 +2888,48 @@
         "createdTime": "2018-05-13T17:19:17.000Z",
         "fields": {
             "osisName": "Lev",
-            "bookName": "Leviticus",
-            "chapterCount": 27,
-            "bookDiv": "Pentateuch",
-            "shortName": "Le",
             "bookOrder": 3,
+            "bookName": "Leviticus",
+            "bookDiv": "Pentateuch",
+            "testament": "Old Testament",
+            "shortName": "Le",
+            "slug": "lev",
+            "chapters": [
+                "recPbcf8q1Q8v1vyT",
+                "recyhHNxyN12nFARP",
+                "recRMP5V0VqZ67jxv",
+                "recYSm48IZlMPsagZ",
+                "recBkqNOhdi4BiCKW",
+                "recZpmph8fE8tQT4U",
+                "recs87kU7EOfOlE5P",
+                "recE8AB3WpBNfgVBj",
+                "recrBZn41en6Zj2HF",
+                "recaV2Vj165g7Jgwm",
+                "recHmQeUlNCWAFA5R",
+                "recMbbOuZzRqKTH7e",
+                "recRl2QDPMvVKCJ62",
+                "recjUIjfSYHui6f7H",
+                "recQll9tSbi4gtZMN",
+                "recVxMqdA0i0HJNeM",
+                "recVj5MaklPasicvP",
+                "rec1nAExXUHjZ3h97",
+                "recn2SghzShPw4JVE",
+                "recPu93EMkXkohpfh",
+                "reccht1ZbYcKUFX5U",
+                "recbt2PrgnDnKAmgs",
+                "rec8t4YVF0icDJjMJ",
+                "recrc18drGPL3nGvw",
+                "recsAh5XF6o1YXLGP",
+                "reco5BUIy3l4lrfjA",
+                "rec7ugWsZW3wEhdzt"
+            ],
+            "chapterCount": 27,
+            "verseCount": 859,
+            "writers": [
+                "moses_2108"
+            ],
+            "peopleCount": 366,
+            "placeCount": 28,
             "verses": [
                 "recvORXeb1bzTTQoW",
                 "recF3sovWGJkcW3IA",
@@ -3753,44 +3790,7 @@
                 "recYQd9HlWd0bc5P2",
                 "recfGuOWHppyLNUaZ",
                 "recEBPK47rJDTfNBY"
-            ],
-            "verseCount": 859,
-            "chapters": [
-                "recPbcf8q1Q8v1vyT",
-                "recyhHNxyN12nFARP",
-                "recRMP5V0VqZ67jxv",
-                "recYSm48IZlMPsagZ",
-                "recBkqNOhdi4BiCKW",
-                "recZpmph8fE8tQT4U",
-                "recs87kU7EOfOlE5P",
-                "recE8AB3WpBNfgVBj",
-                "recrBZn41en6Zj2HF",
-                "recaV2Vj165g7Jgwm",
-                "recHmQeUlNCWAFA5R",
-                "recMbbOuZzRqKTH7e",
-                "recRl2QDPMvVKCJ62",
-                "recjUIjfSYHui6f7H",
-                "recQll9tSbi4gtZMN",
-                "recVxMqdA0i0HJNeM",
-                "recVj5MaklPasicvP",
-                "rec1nAExXUHjZ3h97",
-                "recn2SghzShPw4JVE",
-                "recPu93EMkXkohpfh",
-                "reccht1ZbYcKUFX5U",
-                "recbt2PrgnDnKAmgs",
-                "rec8t4YVF0icDJjMJ",
-                "recrc18drGPL3nGvw",
-                "recsAh5XF6o1YXLGP",
-                "reco5BUIy3l4lrfjA",
-                "rec7ugWsZW3wEhdzt"
-            ],
-            "writers": [
-                "moses_2108"
-            ],
-            "testament": "Old Testament",
-            "slug": "lev",
-            "peopleCount": 366,
-            "placeCount": 28
+            ]
         }
     },
     {
@@ -3798,11 +3798,57 @@
         "createdTime": "2018-05-13T17:19:17.000Z",
         "fields": {
             "osisName": "Num",
-            "bookName": "Numbers",
-            "chapterCount": 36,
-            "bookDiv": "Pentateuch",
-            "shortName": "Nu",
             "bookOrder": 4,
+            "bookName": "Numbers",
+            "bookDiv": "Pentateuch",
+            "testament": "Old Testament",
+            "shortName": "Nu",
+            "slug": "num",
+            "chapters": [
+                "rec02lZpELyizXrU2",
+                "rec2uMaXZdk3EaI3M",
+                "recy6VKxgMNlRStSf",
+                "recFw3O8sdfrkhvg8",
+                "recGVBwXqD4Rp48lS",
+                "recUz7uNBShg4pE0k",
+                "rectAjmUHRIx1cnRw",
+                "recTtWhNpJ1doA7fY",
+                "recK7JCHYyyrnS0fJ",
+                "rec4BOroZG7RhsbPX",
+                "rec5eM9RUvbNhq5V7",
+                "recuP9uFmgCrezuHO",
+                "recBD8ZVUkir6Qbfl",
+                "recNzXhdx2UJmToIb",
+                "recPR843bREo4aUpq",
+                "recmVrXM2W7I4HJ7l",
+                "reclto7XCog9zXkgH",
+                "recyEjr4N6Zo8vqSq",
+                "recXkD3TZXYOmBFE7",
+                "recpLEePZHnAS5lx3",
+                "recdhRSAgJbeIgSWR",
+                "recCxsxWQjR3ArfXb",
+                "recHZhY416TBEkJtQ",
+                "rec36Pq9qK9HGPm0L",
+                "recxcVplUFDVyoM3v",
+                "recp1FrGX1fMXu8Tg",
+                "recD9knXcuxblF5mC",
+                "rec8YLEkITqNKI5Zr",
+                "recGspEgVNgYxM2t1",
+                "rec6kaeUgdzg1uAke",
+                "recCIAJIz0iVd4ZTe",
+                "recfFBXpWpFCNHIe3",
+                "rec9VLemqAKiP74jB",
+                "recMCdhqDGkZDPF39",
+                "rec3scgYuKY2SwW2d",
+                "recvkGJF0w1jVZOHf"
+            ],
+            "chapterCount": 36,
+            "verseCount": 1288,
+            "writers": [
+                "moses_2108"
+            ],
+            "peopleCount": 832,
+            "placeCount": 207,
             "verses": [
                 "rec1IoqE6NJmJuaaM",
                 "rec9jLf2r3N4jxyk6",
@@ -5092,53 +5138,7 @@
                 "recStqFjZJy7Fu2M4",
                 "recUahyxvEP7GsT1Q",
                 "recXn9KdgxmBs9Dda"
-            ],
-            "verseCount": 1288,
-            "chapters": [
-                "rec02lZpELyizXrU2",
-                "rec2uMaXZdk3EaI3M",
-                "recy6VKxgMNlRStSf",
-                "recFw3O8sdfrkhvg8",
-                "recGVBwXqD4Rp48lS",
-                "recUz7uNBShg4pE0k",
-                "rectAjmUHRIx1cnRw",
-                "recTtWhNpJ1doA7fY",
-                "recK7JCHYyyrnS0fJ",
-                "rec4BOroZG7RhsbPX",
-                "rec5eM9RUvbNhq5V7",
-                "recuP9uFmgCrezuHO",
-                "recBD8ZVUkir6Qbfl",
-                "recNzXhdx2UJmToIb",
-                "recPR843bREo4aUpq",
-                "recmVrXM2W7I4HJ7l",
-                "reclto7XCog9zXkgH",
-                "recyEjr4N6Zo8vqSq",
-                "recXkD3TZXYOmBFE7",
-                "recpLEePZHnAS5lx3",
-                "recdhRSAgJbeIgSWR",
-                "recCxsxWQjR3ArfXb",
-                "recHZhY416TBEkJtQ",
-                "rec36Pq9qK9HGPm0L",
-                "recxcVplUFDVyoM3v",
-                "recp1FrGX1fMXu8Tg",
-                "recD9knXcuxblF5mC",
-                "rec8YLEkITqNKI5Zr",
-                "recGspEgVNgYxM2t1",
-                "rec6kaeUgdzg1uAke",
-                "recCIAJIz0iVd4ZTe",
-                "recfFBXpWpFCNHIe3",
-                "rec9VLemqAKiP74jB",
-                "recMCdhqDGkZDPF39",
-                "rec3scgYuKY2SwW2d",
-                "recvkGJF0w1jVZOHf"
-            ],
-            "writers": [
-                "moses_2108"
-            ],
-            "testament": "Old Testament",
-            "slug": "num",
-            "peopleCount": 832,
-            "placeCount": 207
+            ]
         }
     },
     {
@@ -5146,11 +5146,55 @@
         "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "Deut",
-            "bookName": "Deuteronomy",
-            "chapterCount": 34,
-            "bookDiv": "Pentateuch",
-            "shortName": "Dt",
             "bookOrder": 5,
+            "bookName": "Deuteronomy",
+            "bookDiv": "Pentateuch",
+            "testament": "Old Testament",
+            "shortName": "Dt",
+            "slug": "deut",
+            "chapters": [
+                "recg0BgJlU23c03HG",
+                "rechFxWdAO1P6igcp",
+                "recDBNQIuUdCDBm5t",
+                "reci3ABDBRzY9GpaG",
+                "recsQQX9oRWXkvpR3",
+                "rec7B6ywtmNG1uzbj",
+                "recvuP3zOX9xMu0Ry",
+                "recuEwjoqhMl6sYlh",
+                "recvlUQ5oLIwgIFMt",
+                "reccEgHZ4tFHh7WrE",
+                "recb7I7Wdx3Wrg90h",
+                "recSiZDqBgCL6VDwu",
+                "recy8wXkMscyYWBK2",
+                "recAlMXcuGO3hwEzD",
+                "recnZZBhIKkwz1Nxl",
+                "recDbOmeDHx2byxrp",
+                "recmhOLM1CafCYISE",
+                "recIpMlSgcUbyYkW8",
+                "recPLMcLzmCfhPMmP",
+                "recMtogmmgGguE1Zs",
+                "recrV4XXRr01uVLN8",
+                "recHaj4SDUKHWFhyA",
+                "recg2nodZqXEFK1fZ",
+                "recAWb9HE8FWN415x",
+                "rec78djREzkEZZQ0z",
+                "recUka3ucnVzFJkOH",
+                "recpb9czS0lUOfAeb",
+                "recdBbr0umD959KSG",
+                "recH5GSL9z4nPbrqf",
+                "rec1an57lMQtRwfEF",
+                "recgf6PTWtq2lGCDW",
+                "recVQocomO43Lc3Mx",
+                "recNnMr6H5HgwbzKA",
+                "recLNPod9rdzDdhbN"
+            ],
+            "chapterCount": 34,
+            "verseCount": 959,
+            "writers": [
+                "moses_2108"
+            ],
+            "peopleCount": 528,
+            "placeCount": 146,
             "verses": [
                 "recN3DO87dPKiAj9n",
                 "rect8KwgjUlJFv32l",
@@ -6111,51 +6155,7 @@
                 "recDdh0dud7BQN6OL",
                 "rec7pMsDZjFKBsDqF",
                 "recNeIXatlEeBeAhy"
-            ],
-            "verseCount": 959,
-            "chapters": [
-                "recg0BgJlU23c03HG",
-                "rechFxWdAO1P6igcp",
-                "recDBNQIuUdCDBm5t",
-                "reci3ABDBRzY9GpaG",
-                "recsQQX9oRWXkvpR3",
-                "rec7B6ywtmNG1uzbj",
-                "recvuP3zOX9xMu0Ry",
-                "recuEwjoqhMl6sYlh",
-                "recvlUQ5oLIwgIFMt",
-                "reccEgHZ4tFHh7WrE",
-                "recb7I7Wdx3Wrg90h",
-                "recSiZDqBgCL6VDwu",
-                "recy8wXkMscyYWBK2",
-                "recAlMXcuGO3hwEzD",
-                "recnZZBhIKkwz1Nxl",
-                "recDbOmeDHx2byxrp",
-                "recmhOLM1CafCYISE",
-                "recIpMlSgcUbyYkW8",
-                "recPLMcLzmCfhPMmP",
-                "recMtogmmgGguE1Zs",
-                "recrV4XXRr01uVLN8",
-                "recHaj4SDUKHWFhyA",
-                "recg2nodZqXEFK1fZ",
-                "recAWb9HE8FWN415x",
-                "rec78djREzkEZZQ0z",
-                "recUka3ucnVzFJkOH",
-                "recpb9czS0lUOfAeb",
-                "recdBbr0umD959KSG",
-                "recH5GSL9z4nPbrqf",
-                "rec1an57lMQtRwfEF",
-                "recgf6PTWtq2lGCDW",
-                "recVQocomO43Lc3Mx",
-                "recNnMr6H5HgwbzKA",
-                "recLNPod9rdzDdhbN"
-            ],
-            "writers": [
-                "moses_2108"
-            ],
-            "testament": "Old Testament",
-            "slug": "deut",
-            "peopleCount": 528,
-            "placeCount": 146
+            ]
         }
     },
     {
@@ -6163,11 +6163,45 @@
         "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "Josh",
-            "bookName": "Joshua",
-            "chapterCount": 24,
-            "bookDiv": "Historical",
-            "shortName": "Jos",
             "bookOrder": 6,
+            "bookName": "Joshua",
+            "bookDiv": "Historical",
+            "testament": "Old Testament",
+            "shortName": "Jos",
+            "slug": "josh",
+            "chapters": [
+                "recPDXtVWeiGPUqfO",
+                "receaYPGdMp32IiWY",
+                "recuu5VuXwWkHBKBs",
+                "recbHbjDEQ8lzqKgd",
+                "rec5gCBYR1so5By4t",
+                "recHSiOwntY7UQjm1",
+                "rec4KBSTZZtZxIoJz",
+                "recoXSKdpg3eYq1F5",
+                "recmT94XD8dpEzMfi",
+                "rec0MtKzVYZqZjWL6",
+                "recst7y8B9g9RMqpB",
+                "recmxkhA5gVpJfkFA",
+                "reciaOnjCjBqJMsJa",
+                "recdka75no5IK44Fm",
+                "reczBad36lQl4gx3F",
+                "recY3WR4VDRoTSbYY",
+                "recfnEvcR2dquL4o3",
+                "recxuWU3OCo5xhz5S",
+                "recDQP3DXysifn7TA",
+                "recGfp1HkvyZplgfR",
+                "recHWwuAdyROZogTq",
+                "recV4eegO5WMCP6r2",
+                "recBYIG0kmdeyrsYD",
+                "recmGUnHP6NJWKIca"
+            ],
+            "chapterCount": 24,
+            "verseCount": 658,
+            "writers": [
+                "joshua_1727"
+            ],
+            "peopleCount": 413,
+            "placeCount": 370,
             "verses": [
                 "recc44HeeZ0o9XU0D",
                 "recWl61kTp483Uyjp",
@@ -6827,41 +6861,7 @@
                 "recRceZUFRamYqNAC",
                 "recLvrzYH4qEM6p3e",
                 "recVY0D3fJy7UmnLN"
-            ],
-            "verseCount": 658,
-            "chapters": [
-                "recPDXtVWeiGPUqfO",
-                "receaYPGdMp32IiWY",
-                "recuu5VuXwWkHBKBs",
-                "recbHbjDEQ8lzqKgd",
-                "rec5gCBYR1so5By4t",
-                "recHSiOwntY7UQjm1",
-                "rec4KBSTZZtZxIoJz",
-                "recoXSKdpg3eYq1F5",
-                "recmT94XD8dpEzMfi",
-                "rec0MtKzVYZqZjWL6",
-                "recst7y8B9g9RMqpB",
-                "recmxkhA5gVpJfkFA",
-                "reciaOnjCjBqJMsJa",
-                "recdka75no5IK44Fm",
-                "reczBad36lQl4gx3F",
-                "recY3WR4VDRoTSbYY",
-                "recfnEvcR2dquL4o3",
-                "recxuWU3OCo5xhz5S",
-                "recDQP3DXysifn7TA",
-                "recGfp1HkvyZplgfR",
-                "recHWwuAdyROZogTq",
-                "recV4eegO5WMCP6r2",
-                "recBYIG0kmdeyrsYD",
-                "recmGUnHP6NJWKIca"
-            ],
-            "writers": [
-                "joshua_1727"
-            ],
-            "testament": "Old Testament",
-            "slug": "josh",
-            "peopleCount": 413,
-            "placeCount": 370
+            ]
         }
     },
     {
@@ -6869,11 +6869,42 @@
         "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "Judg",
-            "bookName": "Judges",
-            "chapterCount": 21,
-            "bookDiv": "Historical",
-            "shortName": "Jdg",
             "bookOrder": 7,
+            "bookName": "Judges",
+            "bookDiv": "Historical",
+            "testament": "Old Testament",
+            "shortName": "Jdg",
+            "slug": "judg",
+            "chapters": [
+                "recQ9L6sfa0CWf8GS",
+                "recxGczDPGWmecQhD",
+                "recCm2DWE3zKDSnJ1",
+                "rec0nurYuJScaN1Xi",
+                "recl2ItLxseNwJRqk",
+                "recWaMEHcqDRNxgIo",
+                "recfQ8vCYCPM1Zdhb",
+                "rec20qS21pdPP0YOx",
+                "recQolu4nVFcQwaNu",
+                "recDiLa8pD4kXHSUE",
+                "rec37SscfGTcRZyPr",
+                "rec16GvK7rfcDDD90",
+                "recGZVAf1dpNuAwnv",
+                "recTQOrWohkuTwqMn",
+                "recpPAfBFsb9QaZvG",
+                "recXrEbk8Tb5ahtRa",
+                "recGggvPu1ZVfu3CK",
+                "recvOx9iCL04DxdIy",
+                "recGxBXncllL5Q3MO",
+                "recBow8zJvd7y8Gxl",
+                "recS3PS3TEvu38Pnx"
+            ],
+            "chapterCount": 21,
+            "verseCount": 618,
+            "writers": [
+                "samuel_2469"
+            ],
+            "peopleCount": 454,
+            "placeCount": 244,
             "verses": [
                 "rec4jOp9nIBkRWY7P",
                 "recm8bMKG9OBGmnVm",
@@ -7493,38 +7524,7 @@
                 "recnlerz4SYI1ObqU",
                 "reca9Ud7WO6hNIaNz",
                 "recxHWBFsgIYwS2Ou"
-            ],
-            "verseCount": 618,
-            "chapters": [
-                "recQ9L6sfa0CWf8GS",
-                "recxGczDPGWmecQhD",
-                "recCm2DWE3zKDSnJ1",
-                "rec0nurYuJScaN1Xi",
-                "recl2ItLxseNwJRqk",
-                "recWaMEHcqDRNxgIo",
-                "recfQ8vCYCPM1Zdhb",
-                "rec20qS21pdPP0YOx",
-                "recQolu4nVFcQwaNu",
-                "recDiLa8pD4kXHSUE",
-                "rec37SscfGTcRZyPr",
-                "rec16GvK7rfcDDD90",
-                "recGZVAf1dpNuAwnv",
-                "recTQOrWohkuTwqMn",
-                "recpPAfBFsb9QaZvG",
-                "recXrEbk8Tb5ahtRa",
-                "recGggvPu1ZVfu3CK",
-                "recvOx9iCL04DxdIy",
-                "recGxBXncllL5Q3MO",
-                "recBow8zJvd7y8Gxl",
-                "recS3PS3TEvu38Pnx"
-            ],
-            "writers": [
-                "samuel_2469"
-            ],
-            "testament": "Old Testament",
-            "slug": "judg",
-            "peopleCount": 454,
-            "placeCount": 244
+            ]
         }
     },
     {
@@ -7532,11 +7532,25 @@
         "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "Ruth",
-            "bookName": "Ruth",
-            "chapterCount": 4,
-            "bookDiv": "Historical",
-            "shortName": "Ru",
             "bookOrder": 8,
+            "bookName": "Ruth",
+            "bookDiv": "Historical",
+            "testament": "Old Testament",
+            "shortName": "Ru",
+            "slug": "ruth",
+            "chapters": [
+                "recPjfSkXwKJVsj3O",
+                "recuSi5JM3aBCwdAQ",
+                "rectMQStHirhCXsHq",
+                "recbpPunqiVGYg68O"
+            ],
+            "chapterCount": 4,
+            "verseCount": 85,
+            "writers": [
+                "samuel_2469"
+            ],
+            "peopleCount": 57,
+            "placeCount": 9,
             "verses": [
                 "rec7KGzavR0Wcnmvw",
                 "recc3dXlNHtUFsC9H",
@@ -7623,21 +7637,7 @@
                 "recqNYGUQS47Bvy3q",
                 "recj75aOBq2Cedr8f",
                 "recRa6etEOt4KHCdg"
-            ],
-            "verseCount": 85,
-            "chapters": [
-                "recPjfSkXwKJVsj3O",
-                "recuSi5JM3aBCwdAQ",
-                "rectMQStHirhCXsHq",
-                "recbpPunqiVGYg68O"
-            ],
-            "writers": [
-                "samuel_2469"
-            ],
-            "testament": "Old Testament",
-            "slug": "ruth",
-            "peopleCount": 57,
-            "placeCount": 9
+            ]
         }
     },
     {
@@ -7645,11 +7645,53 @@
         "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "1Sam",
-            "bookName": "1 Samuel",
-            "chapterCount": 31,
-            "bookDiv": "Historical",
-            "shortName": "1Sa",
             "bookOrder": 9,
+            "bookName": "1 Samuel",
+            "bookDiv": "Historical",
+            "testament": "Old Testament",
+            "shortName": "1Sa",
+            "slug": "1sam",
+            "chapters": [
+                "rec9G8e7trKJtRjM0",
+                "recs6afL1V306fZC7",
+                "recOLetFBdjHedmIM",
+                "recQdMktfczEFobAL",
+                "recAQW86u4vcbE7SK",
+                "recPwVqEptXm6JilW",
+                "recSh1Wtk3yALG8di",
+                "recrX0JvZsQiVwNva",
+                "recBzsKYJgF3fBBQD",
+                "recp5v6ficixJUyyU",
+                "recsAWtM801mXxPiJ",
+                "recqxpqRX1OtlmF04",
+                "recet9fjVH2WyS5sg",
+                "recRTadhSLiiWH8fM",
+                "reclFwXrPVnfsrLHQ",
+                "recz1arTM9CQhDhy0",
+                "recieeGmwbblVWK8u",
+                "rec2gO0taCNMj3JfF",
+                "recMJ7MRpni7UXKmU",
+                "recjElnpq4OHmM2Do",
+                "recQqOX8KU2CUQJ4h",
+                "recgJTFGfHqCf3mHe",
+                "recnHwQqhX95SNP1r",
+                "recTZ1b4y4SDS80zJ",
+                "recDQBURWk06n8iqB",
+                "recOuyxAS0aVmC8lJ",
+                "reczjujwxrh8eGN7Q",
+                "rec9KLfZ9FcD5xgLC",
+                "recp2OAUBOLF8iv1R",
+                "reczy0VRwGTx2fhWg",
+                "recQVapu1YbDIGQkK"
+            ],
+            "chapterCount": 31,
+            "verseCount": 810,
+            "writers": [
+                "samuel_2469",
+                "samuel_2469, gad_1263, nathan_2153"
+            ],
+            "peopleCount": 662,
+            "placeCount": 193,
             "verses": [
                 "rec4zTbFEsJmyIFwZ",
                 "recYxvFrjvMxiOvlE",
@@ -8461,49 +8503,7 @@
                 "recbFtwQtE9Hs8JmV",
                 "recTzfNTICN4W1kbX",
                 "recfKCUEtee46iQ5o"
-            ],
-            "verseCount": 810,
-            "chapters": [
-                "rec9G8e7trKJtRjM0",
-                "recs6afL1V306fZC7",
-                "recOLetFBdjHedmIM",
-                "recQdMktfczEFobAL",
-                "recAQW86u4vcbE7SK",
-                "recPwVqEptXm6JilW",
-                "recSh1Wtk3yALG8di",
-                "recrX0JvZsQiVwNva",
-                "recBzsKYJgF3fBBQD",
-                "recp5v6ficixJUyyU",
-                "recsAWtM801mXxPiJ",
-                "recqxpqRX1OtlmF04",
-                "recet9fjVH2WyS5sg",
-                "recRTadhSLiiWH8fM",
-                "reclFwXrPVnfsrLHQ",
-                "recz1arTM9CQhDhy0",
-                "recieeGmwbblVWK8u",
-                "rec2gO0taCNMj3JfF",
-                "recMJ7MRpni7UXKmU",
-                "recjElnpq4OHmM2Do",
-                "recQqOX8KU2CUQJ4h",
-                "recgJTFGfHqCf3mHe",
-                "recnHwQqhX95SNP1r",
-                "recTZ1b4y4SDS80zJ",
-                "recDQBURWk06n8iqB",
-                "recOuyxAS0aVmC8lJ",
-                "reczjujwxrh8eGN7Q",
-                "rec9KLfZ9FcD5xgLC",
-                "recp2OAUBOLF8iv1R",
-                "reczy0VRwGTx2fhWg",
-                "recQVapu1YbDIGQkK"
-            ],
-            "writers": [
-                "samuel_2469",
-                "samuel_2469, gad_1263, nathan_2153"
-            ],
-            "testament": "Old Testament",
-            "slug": "1sam",
-            "peopleCount": 662,
-            "placeCount": 193
+            ]
         }
     },
     {
@@ -8511,11 +8511,45 @@
         "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "2Sam",
-            "bookName": "2 Samuel",
-            "chapterCount": 24,
-            "bookDiv": "Historical",
-            "shortName": "2Sa",
             "bookOrder": 10,
+            "bookName": "2 Samuel",
+            "bookDiv": "Historical",
+            "testament": "Old Testament",
+            "shortName": "2Sa",
+            "slug": "2sam",
+            "chapters": [
+                "recn4ESCpiFjeGaCY",
+                "recCwWU2x9oqa7qV0",
+                "rec19LeyEFCspmg5N",
+                "recNe61jMqnQQN5Uv",
+                "rec7zUq70fRZRqKkZ",
+                "rec3c7IhC4KhsMTgv",
+                "recbYwKbnIF7B8ChW",
+                "recfF7oyCct4wk1Vr",
+                "rec1pbtWyuJC3Y4Mn",
+                "recM8Xcv3bOUIUGjX",
+                "recQysI0lNoep8ViB",
+                "recn9sbuzqAtgp8Sz",
+                "rec5uQ21R6khWQCBJ",
+                "recz5YuUwXOcvSKpd",
+                "recjFkRD3A4uTw8VM",
+                "rec1GIDeWkCJCMQog",
+                "recKW8aYmsXfGBlgv",
+                "recFvp51LbEPe4XdA",
+                "rec4YEhKFmRlzzcii",
+                "recWYkw342whJqETl",
+                "recbIZ8kf3DjLkkYB",
+                "recuLJkFTWWowElfi",
+                "recFL2pSSEhKJbqAt",
+                "reciWX0ICsL42Vc4p"
+            ],
+            "chapterCount": 24,
+            "verseCount": 695,
+            "writers": [
+                "samuel_2469, gad_1263, nathan_2153"
+            ],
+            "peopleCount": 556,
+            "placeCount": 166,
             "verses": [
                 "rec4H0eJWW6BzE1L2",
                 "recbBF1rzVdtRJxUq",
@@ -9212,41 +9246,7 @@
                 "rec4T1ciLNFjZFE2z",
                 "recgRpeiAJflkTz3N",
                 "recsyiA52Iqj6ROHP"
-            ],
-            "verseCount": 695,
-            "chapters": [
-                "recn4ESCpiFjeGaCY",
-                "recCwWU2x9oqa7qV0",
-                "rec19LeyEFCspmg5N",
-                "recNe61jMqnQQN5Uv",
-                "rec7zUq70fRZRqKkZ",
-                "rec3c7IhC4KhsMTgv",
-                "recbYwKbnIF7B8ChW",
-                "recfF7oyCct4wk1Vr",
-                "rec1pbtWyuJC3Y4Mn",
-                "recM8Xcv3bOUIUGjX",
-                "recQysI0lNoep8ViB",
-                "recn9sbuzqAtgp8Sz",
-                "rec5uQ21R6khWQCBJ",
-                "recz5YuUwXOcvSKpd",
-                "recjFkRD3A4uTw8VM",
-                "rec1GIDeWkCJCMQog",
-                "recKW8aYmsXfGBlgv",
-                "recFvp51LbEPe4XdA",
-                "rec4YEhKFmRlzzcii",
-                "recWYkw342whJqETl",
-                "recbIZ8kf3DjLkkYB",
-                "recuLJkFTWWowElfi",
-                "recFL2pSSEhKJbqAt",
-                "reciWX0ICsL42Vc4p"
-            ],
-            "writers": [
-                "samuel_2469, gad_1263, nathan_2153"
-            ],
-            "testament": "Old Testament",
-            "slug": "2sam",
-            "peopleCount": 556,
-            "placeCount": 166
+            ]
         }
     },
     {
@@ -9254,11 +9254,43 @@
         "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "1Kgs",
-            "bookName": "1 Kings",
-            "chapterCount": 22,
-            "bookDiv": "Historical",
-            "shortName": "1Ki",
             "bookOrder": 11,
+            "bookName": "1 Kings",
+            "bookDiv": "Historical",
+            "testament": "Old Testament",
+            "shortName": "1Ki",
+            "slug": "1kgs",
+            "chapters": [
+                "rec4djrICdGSICvxX",
+                "recrtNm729EzLobjg",
+                "reccNRz1M1prb75a4",
+                "rec36Wss4sZUe2pw9",
+                "recsMLUHkQMCJArkA",
+                "recY20srPax59mapI",
+                "recmPfav6tRfSE7x0",
+                "recQ9RAN6V3quRxeB",
+                "recq8RESivM2mxBlf",
+                "recAM6RYHZlt2t543",
+                "recocp1GNHacLuZdd",
+                "recWc3PdPkyFeeM3F",
+                "recKsrXYNDASkFnhp",
+                "reciOry8OuNX12hFk",
+                "recWsnNtj0xDBLeNS",
+                "recNCpsVmOrvwV6vC",
+                "recKFBFo8r2gCMNiC",
+                "recyKsHgSkdOCqMR5",
+                "recHSmQEKntpgnVpS",
+                "recMVSYNOGqcE2pYg",
+                "recrNQlTdPjUBhSWk",
+                "recFTqdw2oyQPBKan"
+            ],
+            "chapterCount": 22,
+            "verseCount": 816,
+            "writers": [
+                "jeremiah_853"
+            ],
+            "peopleCount": 586,
+            "placeCount": 192,
             "verses": [
                 "recmCkLvUxpY51bJB",
                 "reckdZkNk43koX9gT",
@@ -10076,39 +10108,7 @@
                 "recZ64dsjerVzjM2u",
                 "rec01baP2CB6cg7b3",
                 "rec4Y0SV8P7LXNgMp"
-            ],
-            "verseCount": 816,
-            "chapters": [
-                "rec4djrICdGSICvxX",
-                "recrtNm729EzLobjg",
-                "reccNRz1M1prb75a4",
-                "rec36Wss4sZUe2pw9",
-                "recsMLUHkQMCJArkA",
-                "recY20srPax59mapI",
-                "recmPfav6tRfSE7x0",
-                "recQ9RAN6V3quRxeB",
-                "recq8RESivM2mxBlf",
-                "recAM6RYHZlt2t543",
-                "recocp1GNHacLuZdd",
-                "recWc3PdPkyFeeM3F",
-                "recKsrXYNDASkFnhp",
-                "reciOry8OuNX12hFk",
-                "recWsnNtj0xDBLeNS",
-                "recNCpsVmOrvwV6vC",
-                "recKFBFo8r2gCMNiC",
-                "recyKsHgSkdOCqMR5",
-                "recHSmQEKntpgnVpS",
-                "recMVSYNOGqcE2pYg",
-                "recrNQlTdPjUBhSWk",
-                "recFTqdw2oyQPBKan"
-            ],
-            "writers": [
-                "jeremiah_853"
-            ],
-            "testament": "Old Testament",
-            "slug": "1kgs",
-            "peopleCount": 586,
-            "placeCount": 192
+            ]
         }
     },
     {
@@ -10116,11 +10116,46 @@
         "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "2Kgs",
-            "bookName": "2 Kings",
-            "chapterCount": 25,
-            "bookDiv": "Historical",
-            "shortName": "2Ki",
             "bookOrder": 12,
+            "bookName": "2 Kings",
+            "bookDiv": "Historical",
+            "testament": "Old Testament",
+            "shortName": "2Ki",
+            "slug": "2kgs",
+            "chapters": [
+                "recaznGTmwKOSIzKw",
+                "recrHbxxa3CWH42HL",
+                "recAjj4tqd7L0gzqU",
+                "reco7fXNaIbhirNOL",
+                "recl65yy6nMZImxNk",
+                "rec4eDKmyRHoXa15e",
+                "recWis6mMpDME2cIT",
+                "recHr5tRn42pMgigo",
+                "rec6gnXJayVkVnDRU",
+                "recnLj6sGIDvOWP7S",
+                "recCXdIZu2X8xcYDX",
+                "recTncGo545bDjazz",
+                "recRKyrXcng6TuMmA",
+                "recBUaihn4zlBprCe",
+                "recHqtApYRnRVQ5Zd",
+                "recxV9SRABxUuKUbh",
+                "recvRXMGNz8VpOAXz",
+                "recWtQGYuXeOZVxRM",
+                "recNGAvte6wQrBEW4",
+                "recBiPZ8g7KrUoWvd",
+                "recy5ouQniTeDzST0",
+                "recAG5tFB0V2GLaKm",
+                "recB3Ew0Y2MybR30j",
+                "rec5IDNKg5CMSstGl",
+                "recunV2Vcvep2odUV"
+            ],
+            "chapterCount": 25,
+            "verseCount": 719,
+            "writers": [
+                "jeremiah_853"
+            ],
+            "peopleCount": 554,
+            "placeCount": 265,
             "verses": [
                 "rec7MGthx26lS6bA1",
                 "rec9mlf76S8iUOLd4",
@@ -10841,42 +10876,7 @@
                 "recF2CM4zB7zeBwuQ",
                 "receE5Ldg3Z49IqM0",
                 "reckufpRFuEf8vaUj"
-            ],
-            "verseCount": 719,
-            "chapters": [
-                "recaznGTmwKOSIzKw",
-                "recrHbxxa3CWH42HL",
-                "recAjj4tqd7L0gzqU",
-                "reco7fXNaIbhirNOL",
-                "recl65yy6nMZImxNk",
-                "rec4eDKmyRHoXa15e",
-                "recWis6mMpDME2cIT",
-                "recHr5tRn42pMgigo",
-                "rec6gnXJayVkVnDRU",
-                "recnLj6sGIDvOWP7S",
-                "recCXdIZu2X8xcYDX",
-                "recTncGo545bDjazz",
-                "recRKyrXcng6TuMmA",
-                "recBUaihn4zlBprCe",
-                "recHqtApYRnRVQ5Zd",
-                "recxV9SRABxUuKUbh",
-                "recvRXMGNz8VpOAXz",
-                "recWtQGYuXeOZVxRM",
-                "recNGAvte6wQrBEW4",
-                "recBiPZ8g7KrUoWvd",
-                "recy5ouQniTeDzST0",
-                "recAG5tFB0V2GLaKm",
-                "recB3Ew0Y2MybR30j",
-                "rec5IDNKg5CMSstGl",
-                "recunV2Vcvep2odUV"
-            ],
-            "writers": [
-                "jeremiah_853"
-            ],
-            "testament": "Old Testament",
-            "slug": "2kgs",
-            "peopleCount": 554,
-            "placeCount": 265
+            ]
         }
     },
     {
@@ -10884,11 +10884,50 @@
         "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "1Chr",
-            "bookName": "1 Chronicles",
-            "chapterCount": 29,
-            "bookDiv": "Historical",
-            "shortName": "1Ch",
             "bookOrder": 13,
+            "bookName": "1 Chronicles",
+            "bookDiv": "Historical",
+            "testament": "Old Testament",
+            "shortName": "1Ch",
+            "slug": "1chr",
+            "chapters": [
+                "recRAcqtgn28zXm1a",
+                "recTk3YPSGiQfMcCu",
+                "recstDFVAKd9mHj6B",
+                "recEY9OiO9oIiGRvY",
+                "recfQ2aO8jyVdsDZ1",
+                "recuJkLfdIlZ1Pmo8",
+                "recIlDQM2mbznugnZ",
+                "reckFyOoeskUS028A",
+                "receIsUiSYxBdqh5Z",
+                "rec27IikMmEpQI136",
+                "rec9qiynXVMVAywMA",
+                "recJPEcZOk4riGDxf",
+                "recD6kNaR9KHRhiJv",
+                "recDOAGIl9ZrnblEt",
+                "recLZ90op0QUaXMnv",
+                "recLLa36yZwD5CR7P",
+                "recLCtq8JwzRUTvNx",
+                "recnbBU0mNWzlIIdC",
+                "recupnCYd5I28WXFQ",
+                "recIpQLeUYAsjajJ1",
+                "rec1FAvujLYvBJfHg",
+                "recL6Ks2nZGJhtgX8",
+                "rec6txyFuVK9Z7r6E",
+                "rec8WqmWghvJzBuw7",
+                "recdn4LvKsxCl9OpG",
+                "rechMVWAwE4l49VjQ",
+                "recQv7ixzd1iNXaDf",
+                "recKRdvpITqiqIFLG",
+                "recmcwyFaiRi6diBQ"
+            ],
+            "chapterCount": 29,
+            "verseCount": 942,
+            "writers": [
+                "ezra_1245"
+            ],
+            "peopleCount": 836,
+            "placeCount": 161,
             "verses": [
                 "recIJ14BlamQIvokW",
                 "recMeUNvOQWjYQOFE",
@@ -11832,46 +11871,7 @@
                 "recdH1dpqFZvMNqTF",
                 "reckys28gsM87JMhD",
                 "recFaLskvDVuLJY55"
-            ],
-            "verseCount": 942,
-            "chapters": [
-                "recRAcqtgn28zXm1a",
-                "recTk3YPSGiQfMcCu",
-                "recstDFVAKd9mHj6B",
-                "recEY9OiO9oIiGRvY",
-                "recfQ2aO8jyVdsDZ1",
-                "recuJkLfdIlZ1Pmo8",
-                "recIlDQM2mbznugnZ",
-                "reckFyOoeskUS028A",
-                "receIsUiSYxBdqh5Z",
-                "rec27IikMmEpQI136",
-                "rec9qiynXVMVAywMA",
-                "recJPEcZOk4riGDxf",
-                "recD6kNaR9KHRhiJv",
-                "recDOAGIl9ZrnblEt",
-                "recLZ90op0QUaXMnv",
-                "recLLa36yZwD5CR7P",
-                "recLCtq8JwzRUTvNx",
-                "recnbBU0mNWzlIIdC",
-                "recupnCYd5I28WXFQ",
-                "recIpQLeUYAsjajJ1",
-                "rec1FAvujLYvBJfHg",
-                "recL6Ks2nZGJhtgX8",
-                "rec6txyFuVK9Z7r6E",
-                "rec8WqmWghvJzBuw7",
-                "recdn4LvKsxCl9OpG",
-                "rechMVWAwE4l49VjQ",
-                "recQv7ixzd1iNXaDf",
-                "recKRdvpITqiqIFLG",
-                "recmcwyFaiRi6diBQ"
-            ],
-            "writers": [
-                "ezra_1245"
-            ],
-            "testament": "Old Testament",
-            "slug": "1chr",
-            "peopleCount": 836,
-            "placeCount": 161
+            ]
         }
     },
     {
@@ -11879,11 +11879,57 @@
         "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "2Chr",
-            "bookName": "2 Chronicles",
-            "chapterCount": 36,
-            "bookDiv": "Historical",
-            "shortName": "2Ch",
             "bookOrder": 14,
+            "bookName": "2 Chronicles",
+            "bookDiv": "Historical",
+            "testament": "Old Testament",
+            "shortName": "2Ch",
+            "slug": "2chr",
+            "chapters": [
+                "recgaZgmvFdgwgfzp",
+                "rec5yRqFwqlseOK4m",
+                "recxQeIQ0SnmZy8Ei",
+                "recpPnjGpzvnSnO8o",
+                "rec0IGi5zhspIasvN",
+                "recnmovbp0Du2GUhT",
+                "rec5DbIFjCaaNhr2a",
+                "recEroBeLU7eoMguT",
+                "reciIwO9bzHCw4Zqb",
+                "recYiSm0A4LgIh4Cl",
+                "rectvzhqvLubs5xLY",
+                "rec2KpSfrULf1k4jo",
+                "recex8g9lklyiCa0Z",
+                "recbqWBKV8PO9OVix",
+                "recROh2ytMz7P3dHz",
+                "receIfAFt658FpqOI",
+                "recdUDsHkI21wKcmG",
+                "recce3y5oKAJEfUEf",
+                "recgQa8kQWaf2O2Ci",
+                "recU9JtW68vRyRGmS",
+                "reccTpc9fcBYBehiT",
+                "recuTXOFnBeM9RICE",
+                "recpbm2lfitfD4TaQ",
+                "recKdBQdCUP4cHUia",
+                "rec8BrcIGgJpvMGUZ",
+                "rec9GAePZbdwIsps0",
+                "rechVJj8R9dvQKeQW",
+                "recaumGoiZddh4wzC",
+                "rec35kHN1EX6eBg1X",
+                "rec8YCzvRxgDzuYXa",
+                "rec9o6GgSLymlCpwB",
+                "recN4LCoERjevzaea",
+                "reckTSwmGnaNloYcH",
+                "recP7ZzdOAFOEcVzM",
+                "recPJlZIJYBtJxZoO",
+                "receham0m1NXU1PLw"
+            ],
+            "chapterCount": 36,
+            "verseCount": 822,
+            "writers": [
+                "ezra_1245"
+            ],
+            "peopleCount": 611,
+            "placeCount": 236,
             "verses": [
                 "recMuoqjvb7j9PfYD",
                 "recrXdYguZxd5bibR",
@@ -12707,53 +12753,7 @@
                 "recHfJsOhpZ7mtNrG",
                 "rec0nbeoubGvyP9gr",
                 "rec8SV59rgLeSd2BK"
-            ],
-            "verseCount": 822,
-            "chapters": [
-                "recgaZgmvFdgwgfzp",
-                "rec5yRqFwqlseOK4m",
-                "recxQeIQ0SnmZy8Ei",
-                "recpPnjGpzvnSnO8o",
-                "rec0IGi5zhspIasvN",
-                "recnmovbp0Du2GUhT",
-                "rec5DbIFjCaaNhr2a",
-                "recEroBeLU7eoMguT",
-                "reciIwO9bzHCw4Zqb",
-                "recYiSm0A4LgIh4Cl",
-                "rectvzhqvLubs5xLY",
-                "rec2KpSfrULf1k4jo",
-                "recex8g9lklyiCa0Z",
-                "recbqWBKV8PO9OVix",
-                "recROh2ytMz7P3dHz",
-                "receIfAFt658FpqOI",
-                "recdUDsHkI21wKcmG",
-                "recce3y5oKAJEfUEf",
-                "recgQa8kQWaf2O2Ci",
-                "recU9JtW68vRyRGmS",
-                "reccTpc9fcBYBehiT",
-                "recuTXOFnBeM9RICE",
-                "recpbm2lfitfD4TaQ",
-                "recKdBQdCUP4cHUia",
-                "rec8BrcIGgJpvMGUZ",
-                "rec9GAePZbdwIsps0",
-                "rechVJj8R9dvQKeQW",
-                "recaumGoiZddh4wzC",
-                "rec35kHN1EX6eBg1X",
-                "rec8YCzvRxgDzuYXa",
-                "rec9o6GgSLymlCpwB",
-                "recN4LCoERjevzaea",
-                "reckTSwmGnaNloYcH",
-                "recP7ZzdOAFOEcVzM",
-                "recPJlZIJYBtJxZoO",
-                "receham0m1NXU1PLw"
-            ],
-            "writers": [
-                "ezra_1245"
-            ],
-            "testament": "Old Testament",
-            "slug": "2chr",
-            "peopleCount": 611,
-            "placeCount": 236
+            ]
         }
     },
     {
@@ -12761,11 +12761,31 @@
         "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "Ezra",
-            "bookName": "Ezra",
-            "chapterCount": 10,
-            "bookDiv": "Historical",
-            "shortName": "Ezr",
             "bookOrder": 15,
+            "bookName": "Ezra",
+            "bookDiv": "Historical",
+            "testament": "Old Testament",
+            "shortName": "Ezr",
+            "slug": "ezra",
+            "chapters": [
+                "rec8NRZuBuX6duX0i",
+                "recSBoXF7alc9wq9E",
+                "rec8zM7zrm84qo6It",
+                "rec495RSjiF7sCfR6",
+                "recIBpS3OWWlPBP6C",
+                "reckTSiphHViLzJx8",
+                "recELsoANURHrvSXX",
+                "reciEISvqXZeNOWEg",
+                "recB7wlMM7R5qyy6r",
+                "recWNIVbdneKSwZMu"
+            ],
+            "chapterCount": 10,
+            "verseCount": 280,
+            "writers": [
+                "ezra_1245"
+            ],
+            "peopleCount": 209,
+            "placeCount": 89,
             "verses": [
                 "recwGyFev3S5m2Cvp",
                 "recZu1YVPWvuR6zpH",
@@ -13047,27 +13067,7 @@
                 "recd8mBQcdgaVOZFv",
                 "recS92MkxkowtmaI5",
                 "reci7NV2UMcJHoFOB"
-            ],
-            "verseCount": 280,
-            "chapters": [
-                "rec8NRZuBuX6duX0i",
-                "recSBoXF7alc9wq9E",
-                "rec8zM7zrm84qo6It",
-                "rec495RSjiF7sCfR6",
-                "recIBpS3OWWlPBP6C",
-                "reckTSiphHViLzJx8",
-                "recELsoANURHrvSXX",
-                "reciEISvqXZeNOWEg",
-                "recB7wlMM7R5qyy6r",
-                "recWNIVbdneKSwZMu"
-            ],
-            "writers": [
-                "ezra_1245"
-            ],
-            "testament": "Old Testament",
-            "slug": "ezra",
-            "peopleCount": 209,
-            "placeCount": 89
+            ]
         }
     },
     {
@@ -13075,11 +13075,34 @@
         "createdTime": "2018-05-13T17:19:17.000Z",
         "fields": {
             "osisName": "Neh",
-            "bookName": "Nehemiah",
-            "chapterCount": 13,
-            "bookDiv": "Historical",
-            "shortName": "Ne",
             "bookOrder": 16,
+            "bookName": "Nehemiah",
+            "bookDiv": "Historical",
+            "testament": "Old Testament",
+            "shortName": "Ne",
+            "slug": "neh",
+            "chapters": [
+                "recjHwBVHfYo4JY5D",
+                "recaJXZY7teAXDpdV",
+                "rec1K9O2oxmdeoaZj",
+                "rec4KeU9jzOOhLWlP",
+                "recc7cq3O97rQwutn",
+                "recfEkptwxDwE0W5t",
+                "recZT1POfc2v5Zfwo",
+                "recD3BzpZqjC37AEZ",
+                "recFXpJlF3u2siasm",
+                "reci43qNHPZt4UoH4",
+                "recPRSCm1mXsYysWt",
+                "recspiWUK57ITz1ZP",
+                "rec4XBEJ4acineeWw"
+            ],
+            "chapterCount": 13,
+            "verseCount": 406,
+            "writers": [
+                "nehemiah_2172"
+            ],
+            "peopleCount": 259,
+            "placeCount": 99,
             "verses": [
                 "rec3pQvMwnq8Vpimi",
                 "recL8pQbvWKnRXdJJ",
@@ -13487,30 +13510,7 @@
                 "recompD0cL6kVfpFE",
                 "recFgRYZrF9CRjEZp",
                 "recy1KEkX9jwN3nRz"
-            ],
-            "verseCount": 406,
-            "chapters": [
-                "recjHwBVHfYo4JY5D",
-                "recaJXZY7teAXDpdV",
-                "rec1K9O2oxmdeoaZj",
-                "rec4KeU9jzOOhLWlP",
-                "recc7cq3O97rQwutn",
-                "recfEkptwxDwE0W5t",
-                "recZT1POfc2v5Zfwo",
-                "recD3BzpZqjC37AEZ",
-                "recFXpJlF3u2siasm",
-                "reci43qNHPZt4UoH4",
-                "recPRSCm1mXsYysWt",
-                "recspiWUK57ITz1ZP",
-                "rec4XBEJ4acineeWw"
-            ],
-            "writers": [
-                "nehemiah_2172"
-            ],
-            "testament": "Old Testament",
-            "slug": "neh",
-            "peopleCount": 259,
-            "placeCount": 99
+            ]
         }
     },
     {
@@ -13518,11 +13518,31 @@
         "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "Esth",
-            "bookName": "Esther",
-            "chapterCount": 10,
-            "bookDiv": "Historical",
-            "shortName": "Es",
             "bookOrder": 17,
+            "bookName": "Esther",
+            "bookDiv": "Historical",
+            "testament": "Old Testament",
+            "shortName": "Es",
+            "slug": "esth",
+            "chapters": [
+                "recpsbvzNqOs4mik2",
+                "recqfeVaEIQwChlh1",
+                "recQfF6NdC5GPidEQ",
+                "recsdne2WyQRC1gpg",
+                "rec3d0Kn1bubuzxd1",
+                "rec2fkekSaZPYqJyn",
+                "recYjrggNKLJXny4w",
+                "recMumvTdCvBwtxfC",
+                "recspX0aKMVhDDrVt",
+                "rec8NJtDrmQffWT3r"
+            ],
+            "chapterCount": 10,
+            "verseCount": 167,
+            "writers": [
+                "mordecai_2107"
+            ],
+            "peopleCount": 119,
+            "placeCount": 24,
             "verses": [
                 "reclgVXEpUAXnveNt",
                 "recUWQXPZNvcuiboy",
@@ -13691,27 +13711,7 @@
                 "reciG2OpGjxaTGxFt",
                 "recgqF5GZqlca8xZh",
                 "recr9N6uHVaf9jt8b"
-            ],
-            "verseCount": 167,
-            "chapters": [
-                "recpsbvzNqOs4mik2",
-                "recqfeVaEIQwChlh1",
-                "recQfF6NdC5GPidEQ",
-                "recsdne2WyQRC1gpg",
-                "rec3d0Kn1bubuzxd1",
-                "rec2fkekSaZPYqJyn",
-                "recYjrggNKLJXny4w",
-                "recMumvTdCvBwtxfC",
-                "recspX0aKMVhDDrVt",
-                "rec8NJtDrmQffWT3r"
-            ],
-            "writers": [
-                "mordecai_2107"
-            ],
-            "testament": "Old Testament",
-            "slug": "esth",
-            "peopleCount": 119,
-            "placeCount": 24
+            ]
         }
     },
     {
@@ -13719,11 +13719,63 @@
         "createdTime": "2018-05-13T17:19:17.000Z",
         "fields": {
             "osisName": "Job",
-            "bookName": "Job",
-            "chapterCount": 42,
-            "bookDiv": "Poetry-Wisdom",
-            "shortName": "Job",
             "bookOrder": 18,
+            "bookName": "Job",
+            "bookDiv": "Poetry-Wisdom",
+            "testament": "Old Testament",
+            "shortName": "Job",
+            "slug": "job",
+            "chapters": [
+                "recaEis0tGGoX9S9m",
+                "recMJzhthV9jaeJKq",
+                "recFM3kFT0bWeT13k",
+                "recC8rTUHyDLgnCoU",
+                "recO8UMekVXcjWf3b",
+                "rec9wlOhUqQwo4nZh",
+                "recWdGy7uSkn7bXzt",
+                "rec8FDwzPz81IZm2A",
+                "recgW0gJqouqNKq1V",
+                "recCcNDUbvaIOOSqg",
+                "reclw5MqDa0cwvCoU",
+                "rec9bGo1MwA1gOgDv",
+                "reclJK5CyiqqAcv6f",
+                "recmTJEvBVriGThuH",
+                "recRt5yKqyKFuXNso",
+                "recUoGyebP8lze1GQ",
+                "recuieTgvbB7E1rZZ",
+                "recGmIF4O1jGzaWSs",
+                "recOPItOjX8XLT7Rf",
+                "rect2f3Nn8GOj5HcF",
+                "recjZskXPnJonUv72",
+                "recC9xHsTGu2j4p2W",
+                "rec6ugLKho1VOqbm6",
+                "recuAaaRQxp0GVuZx",
+                "reclZHxKAlUn0FByE",
+                "recdAEKHh1UTSldTD",
+                "recTR7yttrdTsiMEP",
+                "recpquhYkIEWPhLrr",
+                "recYj931mWxbpfKfd",
+                "recTprlL09mS3BCYM",
+                "recG5wljzHGymnsrk",
+                "recdGCVauxHuSAzzG",
+                "recmJc0OZDze2r95i",
+                "recvuyS0jxsTcHEOz",
+                "recmHFGmp4tpV49D6",
+                "recVAjLhpLJp3XCVR",
+                "recWjGiEd3zqrWNRB",
+                "recqBNTcUQzYmjtL4",
+                "recYGIDy7Q15qPQaa",
+                "recPwxSzrzVWDkpMl",
+                "rec3Bm00TTMAoBL0Z",
+                "recBLTylmYFs9qjp7"
+            ],
+            "chapterCount": 42,
+            "verseCount": 1070,
+            "writers": [
+                "moses_2108"
+            ],
+            "peopleCount": 190,
+            "placeCount": 6,
             "verses": [
                 "recAmeTBiKKwa9996",
                 "rechxbQ0pJI3U7A7U",
@@ -14795,59 +14847,7 @@
                 "recmwHItlluFh2EdZ",
                 "recQ7VhDqBvPvAIV7",
                 "recephb4n1JqOXJoa"
-            ],
-            "verseCount": 1070,
-            "chapters": [
-                "recaEis0tGGoX9S9m",
-                "recMJzhthV9jaeJKq",
-                "recFM3kFT0bWeT13k",
-                "recC8rTUHyDLgnCoU",
-                "recO8UMekVXcjWf3b",
-                "rec9wlOhUqQwo4nZh",
-                "recWdGy7uSkn7bXzt",
-                "rec8FDwzPz81IZm2A",
-                "recgW0gJqouqNKq1V",
-                "recCcNDUbvaIOOSqg",
-                "reclw5MqDa0cwvCoU",
-                "rec9bGo1MwA1gOgDv",
-                "reclJK5CyiqqAcv6f",
-                "recmTJEvBVriGThuH",
-                "recRt5yKqyKFuXNso",
-                "recUoGyebP8lze1GQ",
-                "recuieTgvbB7E1rZZ",
-                "recGmIF4O1jGzaWSs",
-                "recOPItOjX8XLT7Rf",
-                "rect2f3Nn8GOj5HcF",
-                "recjZskXPnJonUv72",
-                "recC9xHsTGu2j4p2W",
-                "rec6ugLKho1VOqbm6",
-                "recuAaaRQxp0GVuZx",
-                "reclZHxKAlUn0FByE",
-                "recdAEKHh1UTSldTD",
-                "recTR7yttrdTsiMEP",
-                "recpquhYkIEWPhLrr",
-                "recYj931mWxbpfKfd",
-                "recTprlL09mS3BCYM",
-                "recG5wljzHGymnsrk",
-                "recdGCVauxHuSAzzG",
-                "recmJc0OZDze2r95i",
-                "recvuyS0jxsTcHEOz",
-                "recmHFGmp4tpV49D6",
-                "recVAjLhpLJp3XCVR",
-                "recWjGiEd3zqrWNRB",
-                "recqBNTcUQzYmjtL4",
-                "recYGIDy7Q15qPQaa",
-                "recPwxSzrzVWDkpMl",
-                "rec3Bm00TTMAoBL0Z",
-                "recBLTylmYFs9qjp7"
-            ],
-            "writers": [
-                "moses_2108"
-            ],
-            "testament": "Old Testament",
-            "slug": "job",
-            "peopleCount": 190,
-            "placeCount": 6
+            ]
         }
     },
     {
@@ -14855,11 +14855,176 @@
         "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "Ps",
-            "bookName": "Psalms",
-            "chapterCount": 150,
-            "bookDiv": "Poetry-Wisdom",
-            "shortName": "Ps",
             "bookOrder": 19,
+            "bookName": "Psalms",
+            "bookDiv": "Poetry-Wisdom",
+            "testament": "Old Testament",
+            "shortName": "Ps",
+            "slug": "ps",
+            "chapters": [
+                "recN5roZArs4UW8ij",
+                "recNdBCqTc12ZgaPM",
+                "rec7rRRhVzroSUhlf",
+                "recHUIerBMQznqwcu",
+                "recZDTAUkLEk4qioM",
+                "recvPlqQBB0zM0qFh",
+                "recJhxQ6XXjZPIAkY",
+                "recdVL9wb1P8SZRf9",
+                "recPTJ1D6sQ759YA0",
+                "rec3JS7dSZfn41lCr",
+                "recFihhLIlK039lDC",
+                "recvkv4ZVcHig7GaN",
+                "recKFERGeH91N9TLd",
+                "reczSzaDy5IdQR6Nl",
+                "recfEvlG8GkMtTfO4",
+                "recEPLlUtRSrKWSmQ",
+                "recr0tdgAdPcwjCQf",
+                "recRWdNYy08DjD4Gh",
+                "rec3mxn3aerv2R0p7",
+                "recWC1YKYkxvQQUeW",
+                "recDC5bBub3olgZi1",
+                "recSwlUuvuQ6LjR0z",
+                "recqiztR8DtM3Km9f",
+                "rec0daPB5d0HIkvcG",
+                "recLd9kvj6ujXmcH7",
+                "recBcqIoMXL55QmSC",
+                "recs2xLXDKD69CWIw",
+                "rec6tD3xJsIpXhkjr",
+                "rec4uVQczHOKPON7v",
+                "recBmtdkJwTAT4ZpZ",
+                "recsCcSEit23UmQsr",
+                "recFzUSHxrtRuzv70",
+                "recrlTkgqRo2Cz6Du",
+                "recSEn4iTy00Y0o1t",
+                "recPnSOWy97mNHvSG",
+                "recs06je0ZfhMXovL",
+                "recRP17BhOpl9Q6pE",
+                "recGnRCMON3Z04qSP",
+                "recYgGx9DZ3MCKKDz",
+                "rec3Wjkyen8ZonICK",
+                "recjnL7k7Qy2xBAfO",
+                "recoadbmnCaFtMdeo",
+                "recowZSPj9uUlcvKP",
+                "recNX6fECIOP3pqr9",
+                "recRmZFuvzSCDzQDf",
+                "recrSfRKzkdqDK675",
+                "rec3cZj5EQqJ2lo2c",
+                "rec3wmzMFsmelBYgG",
+                "recIXoLPjQnoGGVnz",
+                "recbg1qORSwjX6lHz",
+                "rec7wRiRxrXbDiZJn",
+                "recXk1FxbW2VCu5Rb",
+                "recLVJUPulubNWNq2",
+                "recl8c3qrZeLOIf1Z",
+                "recHa7hOvzqbV2zk3",
+                "recyKSqJXOSIOFkHH",
+                "recQF0X7byMJ2iqn9",
+                "rec6wty070jEoDwkZ",
+                "recU1ho0GeIydDkdq",
+                "recUL0iWPzeEhRESl",
+                "recM2QA7PS7dRgLM5",
+                "recu3zUUpBjrDmXIE",
+                "rec2lyxLjxfbbUJxs",
+                "recXMXK269ivlzqKp",
+                "recpv6wKlD89Fopdp",
+                "recXdZ2gbXFTCf70b",
+                "recZ5ln1NPrsK6dcZ",
+                "recyB1eDDoBeVm0Mt",
+                "recHz4U2EVCmvo2RT",
+                "rec2FZXQfWiljz8Q8",
+                "recGTLFISqNPho4vN",
+                "reck8dV0VozBRCYbc",
+                "rec44HYmmM92uyW0g",
+                "recgQLDOrY3dzvd4S",
+                "recbLw0VDNdKkhAuP",
+                "reczhZsN5o9pZaCQW",
+                "rec4Upl2zv4Zy8vbY",
+                "rec8hLkYRsa7xas4j",
+                "recAAp6D4WtbxJhd5",
+                "recKP94Q81pvY1rwt",
+                "reckzN0BCHJ2e6t81",
+                "recgY9WB9cjjNXg49",
+                "recyADCa1iBgKqhkd",
+                "rec1zm3eWl3OT8FEI",
+                "recMKJPDl9X98O2Bk",
+                "recbVI0HUGGACSshL",
+                "rec1jaFE0M4y5HEIV",
+                "rec4YF8JXkeYJ96LV",
+                "reclVA1cbLK4WauLF",
+                "recBPQ8FXg7uG8V9O",
+                "recjxRXbDtzb3X8Kc",
+                "reck80x9cRLzKJcpR",
+                "recjdnsypyk9fC15w",
+                "recUeChhQe9JCQrMH",
+                "recmdrL9ZRGJAxVqD",
+                "recVwxYccctDOp6Ar",
+                "recl3LhuEdMJK5WjD",
+                "reczPGOSa5DRb6R24",
+                "rec3T7sPe99m1QTlu",
+                "rec66sseGbB5awauC",
+                "rec4TsPCY6iqDHRuW",
+                "recM055BzJglyMbl5",
+                "recffG7DAwMrFoGj4",
+                "rec8cXM1NXsjXDRsd",
+                "recb1NqH6XHtg6zKA",
+                "recpf10vxXkgL8UiN",
+                "recrRjYH0RMxKwInX",
+                "reciZ371sebxZD5qb",
+                "recXWoDEKZzXffTEQ",
+                "recHTW2LFCdvbiHlK",
+                "recIXpfYzPCA3y9VR",
+                "reciC36vjJrNym1YU",
+                "reclK86lBBvzNcSOh",
+                "recUja3OLY83mrWKE",
+                "recSmqoBLUCWRslCS",
+                "rech9QIYeh48fD7OC",
+                "recmo4LMvQ7906Y6u",
+                "recLNkBQcMjFrW3ZY",
+                "rectqVxXuXLYcE4Qp",
+                "reccffrvT8FQ4QK9c",
+                "recw5I0OK4TFGUzPE",
+                "recC7S3UoblpeaDm4",
+                "recXddMigsO1qTOCl",
+                "recaFxE0lVruv4fCa",
+                "recXMRjy7P0glj2Cr",
+                "recsY7TDGbiig98Cs",
+                "recG0Ge9e1p2E8vr4",
+                "recHed8wT9jrZI4rh",
+                "recUzzDx4aHXBXtYQ",
+                "rec7pMNIKSYGiftOQ",
+                "recbXZQkx4bPebjQB",
+                "recvJOgCXCRY7dLCp",
+                "rec86urg5KOHlQbyQ",
+                "recb9Tzu7JLGDUyvY",
+                "recg7AzcVs7C5uag3",
+                "recyTmf0s008Xcesf",
+                "rec0jwZa5ky7jSTpc",
+                "rec8VBq0uou7UTOnO",
+                "recCzPoGLSP8fcZuT",
+                "recOzBsZ3NONfjPIo",
+                "recSZ26AFMljaCNws",
+                "recTnSrXOBoo8xK9J",
+                "rec2tpVzxI6NjIruv",
+                "recsUWwjyBHiy2aEq",
+                "reclYJ484Q7SYBBsI",
+                "recauwd5QKybhaMf8",
+                "rec1WKmUOFxOMCeyg",
+                "recZt9IGqbpQlVoJu",
+                "recgQOICMW4ZNS8kE",
+                "recZrxmYpDLoigx02"
+            ],
+            "chapterCount": 150,
+            "verseCount": 2461,
+            "writers": [
+                "david_994",
+                "asaph_330",
+                "solomon_2762",
+                "heman_1488",
+                "ethan_1222",
+                "moses_2108"
+            ],
+            "peopleCount": 1026,
+            "placeCount": 118,
             "verses": [
                 "recUrohpUTnXw8RTn",
                 "recOlWrZgD006w89A",
@@ -17322,172 +17487,7 @@
                 "recSdeKys8UcEU0d6",
                 "recqM5W3XGVFnrnYa",
                 "recBkH1QvLMTt14i2"
-            ],
-            "verseCount": 2461,
-            "chapters": [
-                "recN5roZArs4UW8ij",
-                "recNdBCqTc12ZgaPM",
-                "rec7rRRhVzroSUhlf",
-                "recHUIerBMQznqwcu",
-                "recZDTAUkLEk4qioM",
-                "recvPlqQBB0zM0qFh",
-                "recJhxQ6XXjZPIAkY",
-                "recdVL9wb1P8SZRf9",
-                "recPTJ1D6sQ759YA0",
-                "rec3JS7dSZfn41lCr",
-                "recFihhLIlK039lDC",
-                "recvkv4ZVcHig7GaN",
-                "recKFERGeH91N9TLd",
-                "reczSzaDy5IdQR6Nl",
-                "recfEvlG8GkMtTfO4",
-                "recEPLlUtRSrKWSmQ",
-                "recr0tdgAdPcwjCQf",
-                "recRWdNYy08DjD4Gh",
-                "rec3mxn3aerv2R0p7",
-                "recWC1YKYkxvQQUeW",
-                "recDC5bBub3olgZi1",
-                "recSwlUuvuQ6LjR0z",
-                "recqiztR8DtM3Km9f",
-                "rec0daPB5d0HIkvcG",
-                "recLd9kvj6ujXmcH7",
-                "recBcqIoMXL55QmSC",
-                "recs2xLXDKD69CWIw",
-                "rec6tD3xJsIpXhkjr",
-                "rec4uVQczHOKPON7v",
-                "recBmtdkJwTAT4ZpZ",
-                "recsCcSEit23UmQsr",
-                "recFzUSHxrtRuzv70",
-                "recrlTkgqRo2Cz6Du",
-                "recSEn4iTy00Y0o1t",
-                "recPnSOWy97mNHvSG",
-                "recs06je0ZfhMXovL",
-                "recRP17BhOpl9Q6pE",
-                "recGnRCMON3Z04qSP",
-                "recYgGx9DZ3MCKKDz",
-                "rec3Wjkyen8ZonICK",
-                "recjnL7k7Qy2xBAfO",
-                "recoadbmnCaFtMdeo",
-                "recowZSPj9uUlcvKP",
-                "recNX6fECIOP3pqr9",
-                "recRmZFuvzSCDzQDf",
-                "recrSfRKzkdqDK675",
-                "rec3cZj5EQqJ2lo2c",
-                "rec3wmzMFsmelBYgG",
-                "recIXoLPjQnoGGVnz",
-                "recbg1qORSwjX6lHz",
-                "rec7wRiRxrXbDiZJn",
-                "recXk1FxbW2VCu5Rb",
-                "recLVJUPulubNWNq2",
-                "recl8c3qrZeLOIf1Z",
-                "recHa7hOvzqbV2zk3",
-                "recyKSqJXOSIOFkHH",
-                "recQF0X7byMJ2iqn9",
-                "rec6wty070jEoDwkZ",
-                "recU1ho0GeIydDkdq",
-                "recUL0iWPzeEhRESl",
-                "recM2QA7PS7dRgLM5",
-                "recu3zUUpBjrDmXIE",
-                "rec2lyxLjxfbbUJxs",
-                "recXMXK269ivlzqKp",
-                "recpv6wKlD89Fopdp",
-                "recXdZ2gbXFTCf70b",
-                "recZ5ln1NPrsK6dcZ",
-                "recyB1eDDoBeVm0Mt",
-                "recHz4U2EVCmvo2RT",
-                "rec2FZXQfWiljz8Q8",
-                "recGTLFISqNPho4vN",
-                "reck8dV0VozBRCYbc",
-                "rec44HYmmM92uyW0g",
-                "recgQLDOrY3dzvd4S",
-                "recbLw0VDNdKkhAuP",
-                "reczhZsN5o9pZaCQW",
-                "rec4Upl2zv4Zy8vbY",
-                "rec8hLkYRsa7xas4j",
-                "recAAp6D4WtbxJhd5",
-                "recKP94Q81pvY1rwt",
-                "reckzN0BCHJ2e6t81",
-                "recgY9WB9cjjNXg49",
-                "recyADCa1iBgKqhkd",
-                "rec1zm3eWl3OT8FEI",
-                "recMKJPDl9X98O2Bk",
-                "recbVI0HUGGACSshL",
-                "rec1jaFE0M4y5HEIV",
-                "rec4YF8JXkeYJ96LV",
-                "reclVA1cbLK4WauLF",
-                "recBPQ8FXg7uG8V9O",
-                "recjxRXbDtzb3X8Kc",
-                "reck80x9cRLzKJcpR",
-                "recjdnsypyk9fC15w",
-                "recUeChhQe9JCQrMH",
-                "recmdrL9ZRGJAxVqD",
-                "recVwxYccctDOp6Ar",
-                "recl3LhuEdMJK5WjD",
-                "reczPGOSa5DRb6R24",
-                "rec3T7sPe99m1QTlu",
-                "rec66sseGbB5awauC",
-                "rec4TsPCY6iqDHRuW",
-                "recM055BzJglyMbl5",
-                "recffG7DAwMrFoGj4",
-                "rec8cXM1NXsjXDRsd",
-                "recb1NqH6XHtg6zKA",
-                "recpf10vxXkgL8UiN",
-                "recrRjYH0RMxKwInX",
-                "reciZ371sebxZD5qb",
-                "recXWoDEKZzXffTEQ",
-                "recHTW2LFCdvbiHlK",
-                "recIXpfYzPCA3y9VR",
-                "reciC36vjJrNym1YU",
-                "reclK86lBBvzNcSOh",
-                "recUja3OLY83mrWKE",
-                "recSmqoBLUCWRslCS",
-                "rech9QIYeh48fD7OC",
-                "recmo4LMvQ7906Y6u",
-                "recLNkBQcMjFrW3ZY",
-                "rectqVxXuXLYcE4Qp",
-                "reccffrvT8FQ4QK9c",
-                "recw5I0OK4TFGUzPE",
-                "recC7S3UoblpeaDm4",
-                "recXddMigsO1qTOCl",
-                "recaFxE0lVruv4fCa",
-                "recXMRjy7P0glj2Cr",
-                "recsY7TDGbiig98Cs",
-                "recG0Ge9e1p2E8vr4",
-                "recHed8wT9jrZI4rh",
-                "recUzzDx4aHXBXtYQ",
-                "rec7pMNIKSYGiftOQ",
-                "recbXZQkx4bPebjQB",
-                "recvJOgCXCRY7dLCp",
-                "rec86urg5KOHlQbyQ",
-                "recb9Tzu7JLGDUyvY",
-                "recg7AzcVs7C5uag3",
-                "recyTmf0s008Xcesf",
-                "rec0jwZa5ky7jSTpc",
-                "rec8VBq0uou7UTOnO",
-                "recCzPoGLSP8fcZuT",
-                "recOzBsZ3NONfjPIo",
-                "recSZ26AFMljaCNws",
-                "recTnSrXOBoo8xK9J",
-                "rec2tpVzxI6NjIruv",
-                "recsUWwjyBHiy2aEq",
-                "reclYJ484Q7SYBBsI",
-                "recauwd5QKybhaMf8",
-                "rec1WKmUOFxOMCeyg",
-                "recZt9IGqbpQlVoJu",
-                "recgQOICMW4ZNS8kE",
-                "recZrxmYpDLoigx02"
-            ],
-            "writers": [
-                "david_994",
-                "asaph_330",
-                "solomon_2762",
-                "heman_1488",
-                "ethan_1222",
-                "moses_2108"
-            ],
-            "testament": "Old Testament",
-            "slug": "ps",
-            "peopleCount": 1026,
-            "placeCount": 118
+            ]
         }
     },
     {
@@ -17495,11 +17495,54 @@
         "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "Prov",
-            "bookName": "Proverbs",
-            "chapterCount": 31,
-            "bookDiv": "Poetry-Wisdom",
-            "shortName": "Pr",
             "bookOrder": 20,
+            "bookName": "Proverbs",
+            "bookDiv": "Poetry-Wisdom",
+            "testament": "Old Testament",
+            "shortName": "Pr",
+            "slug": "prov",
+            "chapters": [
+                "rec6j5h8oblJDEU5Q",
+                "recTkYBXkECVgCgqu",
+                "receg1EKhgx02DBpy",
+                "recwcnMzNpsofkE6u",
+                "recjAzaF8VBd3eMeR",
+                "recd6L3wP1zvVx5Bj",
+                "recQFlA55xxAKHTUg",
+                "recLhwgSqmsTVx9SP",
+                "rec2TOZNMXTQj9aQ1",
+                "recUpGN4WrdCqj5ln",
+                "rec1fEki815MUlUtR",
+                "recQCuXMjviZmA8rF",
+                "recrDtFrYgjc4cPm9",
+                "rec3WZZZBHuozezPB",
+                "recfFabqF9mwLptiA",
+                "recEoZjGifNiKasrN",
+                "recRXhX1FZhxJ5Qxq",
+                "recjaR80XmpBgoqUK",
+                "recJJRG23tVb49thh",
+                "recJgjd1iEcBqTLBy",
+                "recJ5esKHfZNoaFIE",
+                "rec1uFCYk7kggAEgo",
+                "recsC3A4gk0O0cBFL",
+                "reczNqau3nint7kgx",
+                "reciVC01lm9Rezf6w",
+                "rec9MckocDnp6qCHQ",
+                "recv0O9thUUuyjKKj",
+                "recm7YvDL4MiMiQIv",
+                "reccT1Z9402QP5PsQ",
+                "recLaze5HfK25saIL",
+                "recoHiPrKLjyaawuQ"
+            ],
+            "chapterCount": 31,
+            "verseCount": 915,
+            "writers": [
+                "solomon_2762",
+                "agur_112",
+                "lemuel_1817"
+            ],
+            "peopleCount": 100,
+            "placeCount": 0,
             "verses": [
                 "rechXM25zW5EJhKYM",
                 "recHMLKmCpfniVnL6",
@@ -18416,50 +18459,7 @@
                 "recDoU1TRqkex6ugh",
                 "recInJmz2LkOwjPpt",
                 "recqlYZZQ3EgJoBFn"
-            ],
-            "verseCount": 915,
-            "chapters": [
-                "rec6j5h8oblJDEU5Q",
-                "recTkYBXkECVgCgqu",
-                "receg1EKhgx02DBpy",
-                "recwcnMzNpsofkE6u",
-                "recjAzaF8VBd3eMeR",
-                "recd6L3wP1zvVx5Bj",
-                "recQFlA55xxAKHTUg",
-                "recLhwgSqmsTVx9SP",
-                "rec2TOZNMXTQj9aQ1",
-                "recUpGN4WrdCqj5ln",
-                "rec1fEki815MUlUtR",
-                "recQCuXMjviZmA8rF",
-                "recrDtFrYgjc4cPm9",
-                "rec3WZZZBHuozezPB",
-                "recfFabqF9mwLptiA",
-                "recEoZjGifNiKasrN",
-                "recRXhX1FZhxJ5Qxq",
-                "recjaR80XmpBgoqUK",
-                "recJJRG23tVb49thh",
-                "recJgjd1iEcBqTLBy",
-                "recJ5esKHfZNoaFIE",
-                "rec1uFCYk7kggAEgo",
-                "recsC3A4gk0O0cBFL",
-                "reczNqau3nint7kgx",
-                "reciVC01lm9Rezf6w",
-                "rec9MckocDnp6qCHQ",
-                "recv0O9thUUuyjKKj",
-                "recm7YvDL4MiMiQIv",
-                "reccT1Z9402QP5PsQ",
-                "recLaze5HfK25saIL",
-                "recoHiPrKLjyaawuQ"
-            ],
-            "writers": [
-                "solomon_2762",
-                "agur_112",
-                "lemuel_1817"
-            ],
-            "testament": "Old Testament",
-            "slug": "prov",
-            "peopleCount": 100,
-            "placeCount": 0
+            ]
         }
     },
     {
@@ -18467,11 +18467,33 @@
         "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "Eccl",
-            "bookName": "Ecclesiastes",
-            "chapterCount": 12,
-            "bookDiv": "Poetry-Wisdom",
-            "shortName": "Ec",
             "bookOrder": 21,
+            "bookName": "Ecclesiastes",
+            "bookDiv": "Poetry-Wisdom",
+            "testament": "Old Testament",
+            "shortName": "Ec",
+            "slug": "eccl",
+            "chapters": [
+                "recuWzq6lVIM0Ik6Z",
+                "recTBtxCQwnMPsCxZ",
+                "rectDuakYANbvhEhD",
+                "recK9v7OsJfm4Rfoj",
+                "recQAUhFgOQgEZX4w",
+                "recABtaOYyyKnovJX",
+                "recKI0mcqNqKoTDRK",
+                "reco9uSoQZ7pA6zHF",
+                "recwlU0DsxuPK8YNU",
+                "recL9ztj307R6HSDR",
+                "rech4XUyrHLJELsuY",
+                "recogHkEKWxl1hTCI"
+            ],
+            "chapterCount": 12,
+            "verseCount": 222,
+            "writers": [
+                "solomon_2762"
+            ],
+            "peopleCount": 37,
+            "placeCount": 5,
             "verses": [
                 "reclWu06cJeQ6nIt3",
                 "recXpt17Z2vFmLq8u",
@@ -18695,29 +18717,7 @@
                 "recAYwdjWk2zbcp4I",
                 "recjvZS7cBinDxq5p",
                 "recuRIJ1JIo5pqPdY"
-            ],
-            "verseCount": 222,
-            "chapters": [
-                "recuWzq6lVIM0Ik6Z",
-                "recTBtxCQwnMPsCxZ",
-                "rectDuakYANbvhEhD",
-                "recK9v7OsJfm4Rfoj",
-                "recQAUhFgOQgEZX4w",
-                "recABtaOYyyKnovJX",
-                "recKI0mcqNqKoTDRK",
-                "reco9uSoQZ7pA6zHF",
-                "recwlU0DsxuPK8YNU",
-                "recL9ztj307R6HSDR",
-                "rech4XUyrHLJELsuY",
-                "recogHkEKWxl1hTCI"
-            ],
-            "writers": [
-                "solomon_2762"
-            ],
-            "testament": "Old Testament",
-            "slug": "eccl",
-            "peopleCount": 37,
-            "placeCount": 5
+            ]
         }
     },
     {
@@ -18725,11 +18725,29 @@
         "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "Song",
-            "bookName": "Song of Solomon",
-            "chapterCount": 8,
-            "bookDiv": "Poetry-Wisdom",
-            "shortName": "So",
             "bookOrder": 22,
+            "bookName": "Song of Solomon",
+            "bookDiv": "Poetry-Wisdom",
+            "testament": "Old Testament",
+            "shortName": "So",
+            "slug": "song",
+            "chapters": [
+                "recVxN6RaimjF2UuX",
+                "recvhNYpcHhjrLoTc",
+                "recaSVkN7wtLqDRnv",
+                "rec8QOK5QxoUzDJFE",
+                "recu5hiR6srGIzX8d",
+                "recenZexGPrOb5mYx",
+                "recI3sQunJZ9lc0Hk",
+                "rec8d7slf12UoA8eh"
+            ],
+            "chapterCount": 8,
+            "verseCount": 117,
+            "writers": [
+                "solomon_2762"
+            ],
+            "peopleCount": 9,
+            "placeCount": 21,
             "verses": [
                 "rece8ON7oDIJwGFVQ",
                 "recHT1cZxVjlKO91z",
@@ -18848,25 +18866,7 @@
                 "rec5aRHVyjTbl1rca",
                 "recf1OHNrwq72JEdL",
                 "rec0GBiYTG2JBoliu"
-            ],
-            "verseCount": 117,
-            "chapters": [
-                "recVxN6RaimjF2UuX",
-                "recvhNYpcHhjrLoTc",
-                "recaSVkN7wtLqDRnv",
-                "rec8QOK5QxoUzDJFE",
-                "recu5hiR6srGIzX8d",
-                "recenZexGPrOb5mYx",
-                "recI3sQunJZ9lc0Hk",
-                "rec8d7slf12UoA8eh"
-            ],
-            "writers": [
-                "solomon_2762"
-            ],
-            "testament": "Old Testament",
-            "slug": "song",
-            "peopleCount": 9,
-            "placeCount": 21
+            ]
         }
     },
     {
@@ -18874,11 +18874,87 @@
         "createdTime": "2018-05-13T17:19:17.000Z",
         "fields": {
             "osisName": "Isa",
-            "bookName": "Isaiah",
-            "chapterCount": 66,
-            "bookDiv": "Major Prophets",
-            "shortName": "Is",
             "bookOrder": 23,
+            "bookName": "Isaiah",
+            "bookDiv": "Major Prophets",
+            "testament": "Old Testament",
+            "shortName": "Is",
+            "slug": "isa",
+            "chapters": [
+                "recStU2XGk8b6PoYs",
+                "recvQvJwDqCqTrANC",
+                "recHbHGtlyqGvDEv4",
+                "recat5VsepoG7lGHM",
+                "reccZ2ieUWGi5riyZ",
+                "recw52k8yhQhy9pYY",
+                "recaainVSN7RiLStQ",
+                "reclfFGYXkCuPLtmG",
+                "recXm5cOVePIJv7yl",
+                "recoUKJCuiRJs1R2F",
+                "rec25iBVG0uunMR3W",
+                "recwgKOjbYvoNwTaX",
+                "recPfZC7YcYKoQZis",
+                "recHLDFKd1MmAzK6w",
+                "recwed5JcMZTCbdk1",
+                "recuaojGkwInnfYgK",
+                "rec5jwHvT87o27Wjt",
+                "recFyBSGuQl27Ve0h",
+                "recGe3vzixYvebLd1",
+                "recMUeZ1nVcM7GNRO",
+                "rec0jtP2jmhWEog8i",
+                "recriFzbuA4wHtOZ2",
+                "recSQPnh6OYztxqL0",
+                "receL66cGkpCvdmB3",
+                "recMAVbPS2MxcQGMf",
+                "rects6wqEaR6rNZju",
+                "reca7HEiPdstRWOnf",
+                "recFdlM2plqU6XOya",
+                "rec5kgPxYS2JSL3Cj",
+                "rec8UH7UXPw7MeV2g",
+                "recR4LSzAQfV6E7SD",
+                "recpnPu7hbledyce4",
+                "recgAvM2HotRLjYjo",
+                "recfYi0D03yJtDYEI",
+                "recEI2Zy2aPiGZn9N",
+                "rec0TFyW8jpdjrmRj",
+                "recnoLlI5hkOXWC34",
+                "recVQWYL1yipU8MPZ",
+                "reciYmGtMUAHUSJc4",
+                "recWYK5Vj3YfsLOii",
+                "reclTTMqDSZBa1LeP",
+                "recYiaURU1CMifmit",
+                "recqryKvdQUrtzi7Q",
+                "recYS0UL5K1EVLVkN",
+                "recsYIn8fT8daqpjC",
+                "rectqaw8jLaJgYKSS",
+                "recKGN0ARhzO0n23Y",
+                "recvhz9v7RgIUEqb0",
+                "recCdu8DohK2BM6Ku",
+                "rec2DBC3JAHFMzygo",
+                "rec3wisXL2KGWbmrU",
+                "rec43bSjuXJzZ8Mjp",
+                "rec8HZWfRoKmTa1De",
+                "reck9f0vHWsDSpHgD",
+                "reckdWuX6KS2d3sKC",
+                "recNtbdUSQSUN7Kob",
+                "recUPSFLsTwLiIQyu",
+                "rec88fU7IPTPqA5WL",
+                "recSbWhE1EvEB5188",
+                "recnoAaPHbD9oycXF",
+                "recRg6arSi4u5tpu9",
+                "recJtVezWjfqiUFbJ",
+                "rec7cdkRSkEFBzuXL",
+                "recAfWCQ9pmA2x8lL",
+                "recOyvHHizK7lCc5K",
+                "rec4PPjhl5Q9nUt22"
+            ],
+            "chapterCount": 66,
+            "verseCount": 1292,
+            "writers": [
+                "isaiah_617"
+            ],
+            "peopleCount": 556,
+            "placeCount": 248,
             "verses": [
                 "rec8FYqlhjFHJKevZ",
                 "rec2JkknX3cvDRSCa",
@@ -20172,83 +20248,7 @@
                 "recEdjurujL60hN8q",
                 "recjafAQf0oJVDgpF",
                 "recatQ8cAsCqOp4PC"
-            ],
-            "verseCount": 1292,
-            "chapters": [
-                "recStU2XGk8b6PoYs",
-                "recvQvJwDqCqTrANC",
-                "recHbHGtlyqGvDEv4",
-                "recat5VsepoG7lGHM",
-                "reccZ2ieUWGi5riyZ",
-                "recw52k8yhQhy9pYY",
-                "recaainVSN7RiLStQ",
-                "reclfFGYXkCuPLtmG",
-                "recXm5cOVePIJv7yl",
-                "recoUKJCuiRJs1R2F",
-                "rec25iBVG0uunMR3W",
-                "recwgKOjbYvoNwTaX",
-                "recPfZC7YcYKoQZis",
-                "recHLDFKd1MmAzK6w",
-                "recwed5JcMZTCbdk1",
-                "recuaojGkwInnfYgK",
-                "rec5jwHvT87o27Wjt",
-                "recFyBSGuQl27Ve0h",
-                "recGe3vzixYvebLd1",
-                "recMUeZ1nVcM7GNRO",
-                "rec0jtP2jmhWEog8i",
-                "recriFzbuA4wHtOZ2",
-                "recSQPnh6OYztxqL0",
-                "receL66cGkpCvdmB3",
-                "recMAVbPS2MxcQGMf",
-                "rects6wqEaR6rNZju",
-                "reca7HEiPdstRWOnf",
-                "recFdlM2plqU6XOya",
-                "rec5kgPxYS2JSL3Cj",
-                "rec8UH7UXPw7MeV2g",
-                "recR4LSzAQfV6E7SD",
-                "recpnPu7hbledyce4",
-                "recgAvM2HotRLjYjo",
-                "recfYi0D03yJtDYEI",
-                "recEI2Zy2aPiGZn9N",
-                "rec0TFyW8jpdjrmRj",
-                "recnoLlI5hkOXWC34",
-                "recVQWYL1yipU8MPZ",
-                "reciYmGtMUAHUSJc4",
-                "recWYK5Vj3YfsLOii",
-                "reclTTMqDSZBa1LeP",
-                "recYiaURU1CMifmit",
-                "recqryKvdQUrtzi7Q",
-                "recYS0UL5K1EVLVkN",
-                "recsYIn8fT8daqpjC",
-                "rectqaw8jLaJgYKSS",
-                "recKGN0ARhzO0n23Y",
-                "recvhz9v7RgIUEqb0",
-                "recCdu8DohK2BM6Ku",
-                "rec2DBC3JAHFMzygo",
-                "rec3wisXL2KGWbmrU",
-                "rec43bSjuXJzZ8Mjp",
-                "rec8HZWfRoKmTa1De",
-                "reck9f0vHWsDSpHgD",
-                "reckdWuX6KS2d3sKC",
-                "recNtbdUSQSUN7Kob",
-                "recUPSFLsTwLiIQyu",
-                "rec88fU7IPTPqA5WL",
-                "recSbWhE1EvEB5188",
-                "recnoAaPHbD9oycXF",
-                "recRg6arSi4u5tpu9",
-                "recJtVezWjfqiUFbJ",
-                "rec7cdkRSkEFBzuXL",
-                "recAfWCQ9pmA2x8lL",
-                "recOyvHHizK7lCc5K",
-                "rec4PPjhl5Q9nUt22"
-            ],
-            "writers": [
-                "isaiah_617"
-            ],
-            "testament": "Old Testament",
-            "slug": "isa",
-            "peopleCount": 556,
-            "placeCount": 248
+            ]
         }
     },
     {
@@ -20256,11 +20256,73 @@
         "createdTime": "2018-05-13T17:19:17.000Z",
         "fields": {
             "osisName": "Jer",
-            "bookName": "Jeremiah",
-            "chapterCount": 52,
-            "bookDiv": "Major Prophets",
-            "shortName": "Je",
             "bookOrder": 24,
+            "bookName": "Jeremiah",
+            "bookDiv": "Major Prophets",
+            "testament": "Old Testament",
+            "shortName": "Je",
+            "slug": "jer",
+            "chapters": [
+                "recPpD9bU4aQLXoZt",
+                "recjzxr9YqcIMLCvH",
+                "reclkXSLRuPkwfzX1",
+                "recM4Mt1PywOiwrz3",
+                "recZAKXKI4GtQk4em",
+                "recMmKGklQIgeg8ix",
+                "recFwLMU8kUT7MrvI",
+                "recikx6YXiIbMFJvQ",
+                "recaUxqFqPvnuYfMu",
+                "recXszyxPsKFDXWHd",
+                "reco8qdky3sQltAAk",
+                "recgnbONV6TgkAiCo",
+                "rec7XX6He6wS0jGdf",
+                "recYNOzMx8ksZhwRE",
+                "rec6trnGfrfZUhBSY",
+                "recQkWfntS7OzYIOQ",
+                "recikgcgwt6nZNDVv",
+                "recAP8Vqqs7yWRM80",
+                "recyLRqca6oCxCHWQ",
+                "recMCNZFZzCNmEosj",
+                "recLlyTFNvK4JOqrd",
+                "recHz4DOmqj5ud2B3",
+                "recEPTbT5w9sR1Mx5",
+                "recdlfVy2WOBewGgK",
+                "reckuOWlsnWxqDB09",
+                "recbdWfFoMzag2Kbr",
+                "rec7DdD9LRKAQBkve",
+                "recWBVk5ifXM8thgL",
+                "rec4LMcw1gnPeNBfp",
+                "rec1ZT1IEPUjpBN9t",
+                "recWVXEOR7UwgaqDK",
+                "recO90vwNl73z9r2r",
+                "recsqbl25wgtRjiZA",
+                "rec7LtmneLtSLGrUb",
+                "recNCWAyr6HKI2g84",
+                "recsPd13bsOMuN7aO",
+                "recqCY3SdhsY6VfKR",
+                "recFmZAYBt5nsYMPF",
+                "recxSbxnvpL033LSn",
+                "recu2JHWRyAuBHVVZ",
+                "recdDmntOok77BujZ",
+                "recnYiyBSMTajCmYt",
+                "recywmHsQqAtEaJbq",
+                "reciZLQIuG7WjfWXs",
+                "recN194xvt4MRmNVv",
+                "recdUCJ2ZGTMKrZnZ",
+                "rec28JZUhpES1GmMt",
+                "reczsPBvGRhD29FNl",
+                "recwLfyoUurZSjq1N",
+                "recivco7Yo1gobWYV",
+                "recX9xeijDCWqoyat",
+                "recePqlhti04Ea5Wn"
+            ],
+            "chapterCount": 52,
+            "verseCount": 1364,
+            "writers": [
+                "jeremiah_853"
+            ],
+            "peopleCount": 840,
+            "placeCount": 443,
             "verses": [
                 "recxjINW7fAurqWcD",
                 "rec3r38uhOCtVL5pZ",
@@ -21626,69 +21688,7 @@
                 "recYexZHtv2kuO9IE",
                 "recXxB2SOafZOGckJ",
                 "reclaIbdim0cbB7W5"
-            ],
-            "verseCount": 1364,
-            "chapters": [
-                "recPpD9bU4aQLXoZt",
-                "recjzxr9YqcIMLCvH",
-                "reclkXSLRuPkwfzX1",
-                "recM4Mt1PywOiwrz3",
-                "recZAKXKI4GtQk4em",
-                "recMmKGklQIgeg8ix",
-                "recFwLMU8kUT7MrvI",
-                "recikx6YXiIbMFJvQ",
-                "recaUxqFqPvnuYfMu",
-                "recXszyxPsKFDXWHd",
-                "reco8qdky3sQltAAk",
-                "recgnbONV6TgkAiCo",
-                "rec7XX6He6wS0jGdf",
-                "recYNOzMx8ksZhwRE",
-                "rec6trnGfrfZUhBSY",
-                "recQkWfntS7OzYIOQ",
-                "recikgcgwt6nZNDVv",
-                "recAP8Vqqs7yWRM80",
-                "recyLRqca6oCxCHWQ",
-                "recMCNZFZzCNmEosj",
-                "recLlyTFNvK4JOqrd",
-                "recHz4DOmqj5ud2B3",
-                "recEPTbT5w9sR1Mx5",
-                "recdlfVy2WOBewGgK",
-                "reckuOWlsnWxqDB09",
-                "recbdWfFoMzag2Kbr",
-                "rec7DdD9LRKAQBkve",
-                "recWBVk5ifXM8thgL",
-                "rec4LMcw1gnPeNBfp",
-                "rec1ZT1IEPUjpBN9t",
-                "recWVXEOR7UwgaqDK",
-                "recO90vwNl73z9r2r",
-                "recsqbl25wgtRjiZA",
-                "rec7LtmneLtSLGrUb",
-                "recNCWAyr6HKI2g84",
-                "recsPd13bsOMuN7aO",
-                "recqCY3SdhsY6VfKR",
-                "recFmZAYBt5nsYMPF",
-                "recxSbxnvpL033LSn",
-                "recu2JHWRyAuBHVVZ",
-                "recdDmntOok77BujZ",
-                "recnYiyBSMTajCmYt",
-                "recywmHsQqAtEaJbq",
-                "reciZLQIuG7WjfWXs",
-                "recN194xvt4MRmNVv",
-                "recdUCJ2ZGTMKrZnZ",
-                "rec28JZUhpES1GmMt",
-                "reczsPBvGRhD29FNl",
-                "recwLfyoUurZSjq1N",
-                "recivco7Yo1gobWYV",
-                "recX9xeijDCWqoyat",
-                "recePqlhti04Ea5Wn"
-            ],
-            "writers": [
-                "jeremiah_853"
-            ],
-            "testament": "Old Testament",
-            "slug": "jer",
-            "peopleCount": 840,
-            "placeCount": 443
+            ]
         }
     },
     {
@@ -21696,11 +21696,26 @@
         "createdTime": "2018-05-13T17:19:17.000Z",
         "fields": {
             "osisName": "Lam",
-            "bookName": "Lamentations",
-            "chapterCount": 5,
-            "bookDiv": "Poetry-Wisdom",
-            "shortName": "La",
             "bookOrder": 25,
+            "bookName": "Lamentations",
+            "bookDiv": "Poetry-Wisdom",
+            "testament": "Old Testament",
+            "shortName": "La",
+            "slug": "lam",
+            "chapters": [
+                "recdD0TKc7mI3uNCT",
+                "rec3hVL3LJ5redBtQ",
+                "recmOatvxtvuBgAhP",
+                "recD4PB14LIlTJjJR",
+                "rec86pm7FqeZBAc7O"
+            ],
+            "chapterCount": 5,
+            "verseCount": 154,
+            "writers": [
+                "jeremiah_853"
+            ],
+            "peopleCount": 47,
+            "placeCount": 22,
             "verses": [
                 "recwksB7y7vYRXQZE",
                 "rectpxOMNm3M3IUfl",
@@ -21856,22 +21871,7 @@
                 "reclbNbs8xSpiowAG",
                 "recvnwfauSz0DrzgJ",
                 "reclciwHitiod8TcW"
-            ],
-            "verseCount": 154,
-            "chapters": [
-                "recdD0TKc7mI3uNCT",
-                "rec3hVL3LJ5redBtQ",
-                "recmOatvxtvuBgAhP",
-                "recD4PB14LIlTJjJR",
-                "rec86pm7FqeZBAc7O"
-            ],
-            "writers": [
-                "jeremiah_853"
-            ],
-            "testament": "Old Testament",
-            "slug": "lam",
-            "peopleCount": 47,
-            "placeCount": 22
+            ]
         }
     },
     {
@@ -21879,11 +21879,69 @@
         "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "Ezek",
-            "bookName": "Ezekiel",
-            "chapterCount": 48,
-            "bookDiv": "Major Prophets",
-            "shortName": "Eze",
             "bookOrder": 26,
+            "bookName": "Ezekiel",
+            "bookDiv": "Major Prophets",
+            "testament": "Old Testament",
+            "shortName": "Eze",
+            "slug": "ezek",
+            "chapters": [
+                "rec9Id9FvFWZsCiP3",
+                "recSByj470vU23CL7",
+                "recnxlHFKxrFRO36Q",
+                "recD01F1m9nc5m4Es",
+                "rec3MLJyTvP4xU7Io",
+                "recGJ0ljljrIBKSvA",
+                "recWKlSlpR76a8VnC",
+                "recq5HarlEUbfJzhP",
+                "rec7y0ELtqCPjZLOL",
+                "recDCTlmIaMy7PFDA",
+                "recyV14XkGjz1LF8b",
+                "recV0CbXJfjXq6T5x",
+                "recnoQxONDsQkq3U1",
+                "recwFjDMAC5GmzHPT",
+                "recr2EEOgiPxuuFyQ",
+                "recld2OHJS0Q1CTV7",
+                "reckQ4ner6BCTa3Yu",
+                "recIUn0DuCZApvDqi",
+                "rec5wYvt3HqsggEWy",
+                "recEfORXU04hgPARE",
+                "recqrn7fLbge4lpgf",
+                "recp29VTceZRspSDS",
+                "recZOTL6wQNVaIUHR",
+                "recJLOriNR3VFIGGy",
+                "recs2Tmw6eKFRpelg",
+                "recag0d401jPsJYqE",
+                "rec9RWmgEFZd3mQeS",
+                "recEqSFXHzJzWhZ9A",
+                "recEB3hAmW7qSFSGL",
+                "recTlyRcIVYok2uzd",
+                "recD23PP1mVEOx1sp",
+                "recHPcU7hu14UEN0T",
+                "recSCCuNcZXnpVLOv",
+                "recs2o3NIVktvhT2T",
+                "recBQ67HrQeeMRQ3g",
+                "rec6JJB7QnB8yFCYa",
+                "recpby0JXvlu7DcMb",
+                "recnE3a05RSOJchwR",
+                "recJOHhCHrHyqsgez",
+                "rec5YU18L8LxZzB8O",
+                "recDvF5N4DsS5m1i7",
+                "recKDRwJ65ITCBnph",
+                "reccr2sgUrd99zQh1",
+                "recGqslRXznKN544Y",
+                "rec1w1DwIN47XMw7d",
+                "recf46RrnhBKGRQpK",
+                "reccXDmrcc5iWNPHB",
+                "recLRAP4BDFvu3S65"
+            ],
+            "chapterCount": 48,
+            "verseCount": 1273,
+            "writers": [
+                "ezekiel_1237"
+            ],
+            "peopleCount": 482,
+            "placeCount": 195,
             "verses": [
                 "rec2VSERixC0rK7BE",
                 "recD6ifqi9guo1Yad",
@@ -23158,65 +23216,7 @@
                 "recy9clBPo5EC3t67",
                 "reck42yXkll1BCLKA",
                 "recxZqYTilGGHFGG0"
-            ],
-            "verseCount": 1273,
-            "chapters": [
-                "rec9Id9FvFWZsCiP3",
-                "recSByj470vU23CL7",
-                "recnxlHFKxrFRO36Q",
-                "recD01F1m9nc5m4Es",
-                "rec3MLJyTvP4xU7Io",
-                "recGJ0ljljrIBKSvA",
-                "recWKlSlpR76a8VnC",
-                "recq5HarlEUbfJzhP",
-                "rec7y0ELtqCPjZLOL",
-                "recDCTlmIaMy7PFDA",
-                "recyV14XkGjz1LF8b",
-                "recV0CbXJfjXq6T5x",
-                "recnoQxONDsQkq3U1",
-                "recwFjDMAC5GmzHPT",
-                "recr2EEOgiPxuuFyQ",
-                "recld2OHJS0Q1CTV7",
-                "reckQ4ner6BCTa3Yu",
-                "recIUn0DuCZApvDqi",
-                "rec5wYvt3HqsggEWy",
-                "recEfORXU04hgPARE",
-                "recqrn7fLbge4lpgf",
-                "recp29VTceZRspSDS",
-                "recZOTL6wQNVaIUHR",
-                "recJLOriNR3VFIGGy",
-                "recs2Tmw6eKFRpelg",
-                "recag0d401jPsJYqE",
-                "rec9RWmgEFZd3mQeS",
-                "recEqSFXHzJzWhZ9A",
-                "recEB3hAmW7qSFSGL",
-                "recTlyRcIVYok2uzd",
-                "recD23PP1mVEOx1sp",
-                "recHPcU7hu14UEN0T",
-                "recSCCuNcZXnpVLOv",
-                "recs2o3NIVktvhT2T",
-                "recBQ67HrQeeMRQ3g",
-                "rec6JJB7QnB8yFCYa",
-                "recpby0JXvlu7DcMb",
-                "recnE3a05RSOJchwR",
-                "recJOHhCHrHyqsgez",
-                "rec5YU18L8LxZzB8O",
-                "recDvF5N4DsS5m1i7",
-                "recKDRwJ65ITCBnph",
-                "reccr2sgUrd99zQh1",
-                "recGqslRXznKN544Y",
-                "rec1w1DwIN47XMw7d",
-                "recf46RrnhBKGRQpK",
-                "reccXDmrcc5iWNPHB",
-                "recLRAP4BDFvu3S65"
-            ],
-            "writers": [
-                "ezekiel_1237"
-            ],
-            "testament": "Old Testament",
-            "slug": "ezek",
-            "peopleCount": 482,
-            "placeCount": 195
+            ]
         }
     },
     {
@@ -23224,11 +23224,33 @@
         "createdTime": "2018-05-13T17:19:17.000Z",
         "fields": {
             "osisName": "Dan",
-            "bookName": "Daniel",
-            "chapterCount": 12,
-            "bookDiv": "Major Prophets",
-            "shortName": "Da",
             "bookOrder": 27,
+            "bookName": "Daniel",
+            "bookDiv": "Major Prophets",
+            "testament": "Old Testament",
+            "shortName": "Da",
+            "slug": "dan",
+            "chapters": [
+                "recmLiaKC4BlBgcJ6",
+                "recGrKDvjBo4iZeNX",
+                "recJALWzEOPGRdBsU",
+                "reczV6XX47f0ps0T3",
+                "recLTqdUGSyKbMkYG",
+                "recRuQlHKJS9KN8ZP",
+                "recl2XpPRs5TLh899",
+                "recVUoLJNREx46cJ6",
+                "reco84i84dhCyhXqa",
+                "recqPKmXDdxc3nSut",
+                "recNJcFq0gT9FSMSE",
+                "recP8e084WJM2Or3q"
+            ],
+            "chapterCount": 12,
+            "verseCount": 357,
+            "writers": [
+                "daniel_975"
+            ],
+            "peopleCount": 158,
+            "placeCount": 40,
             "verses": [
                 "recJo1sTKEiCiOtl6",
                 "recGOySOxovQyqooG",
@@ -23587,29 +23609,7 @@
                 "recKmk1lqylmtG3UJ",
                 "recduOjT5v3pvnUra",
                 "recMwSgXhoQxVjktg"
-            ],
-            "verseCount": 357,
-            "chapters": [
-                "recmLiaKC4BlBgcJ6",
-                "recGrKDvjBo4iZeNX",
-                "recJALWzEOPGRdBsU",
-                "reczV6XX47f0ps0T3",
-                "recLTqdUGSyKbMkYG",
-                "recRuQlHKJS9KN8ZP",
-                "recl2XpPRs5TLh899",
-                "recVUoLJNREx46cJ6",
-                "reco84i84dhCyhXqa",
-                "recqPKmXDdxc3nSut",
-                "recNJcFq0gT9FSMSE",
-                "recP8e084WJM2Or3q"
-            ],
-            "writers": [
-                "daniel_975"
-            ],
-            "testament": "Old Testament",
-            "slug": "dan",
-            "peopleCount": 158,
-            "placeCount": 40
+            ]
         }
     },
     {
@@ -23617,11 +23617,35 @@
         "createdTime": "2018-05-13T17:19:17.000Z",
         "fields": {
             "osisName": "Hos",
-            "bookName": "Hosea",
-            "chapterCount": 14,
-            "bookDiv": "Minor Prophets",
-            "shortName": "Ho",
             "bookOrder": 28,
+            "bookName": "Hosea",
+            "bookDiv": "Minor Prophets",
+            "testament": "Old Testament",
+            "shortName": "Ho",
+            "slug": "hos",
+            "chapters": [
+                "recbMqY9XC3iTy7Eo",
+                "rec23MT3kJ7hfq0Tt",
+                "rec2H65lwmwAVJWYD",
+                "recMiNGvlWvRiTP0m",
+                "rec6tm3CMyFRn64Tw",
+                "recMCOc0TZvKtf033",
+                "recahqehDkuigrOJF",
+                "rechrbgu4D2H0U6OS",
+                "recF1KdCn8kKMN9H5",
+                "recAVsXYETc2NG2Xo",
+                "recMxvMdUtYMo4Azu",
+                "recjt9WUYw6KLKSeB",
+                "recdjBSoqvQjN6pSH",
+                "rec7zYRnwtzduSiGJ"
+            ],
+            "chapterCount": 14,
+            "verseCount": 197,
+            "writers": [
+                "hosea_1555"
+            ],
+            "peopleCount": 95,
+            "placeCount": 44,
             "verses": [
                 "recn83TtFEfmCYPVW",
                 "recUolade4fo0UydJ",
@@ -23820,31 +23844,7 @@
                 "recDfI2rj6gsMfM2k",
                 "recMnHMSTHgadsCDF",
                 "recSIQHbITLFjGBIt"
-            ],
-            "verseCount": 197,
-            "chapters": [
-                "recbMqY9XC3iTy7Eo",
-                "rec23MT3kJ7hfq0Tt",
-                "rec2H65lwmwAVJWYD",
-                "recMiNGvlWvRiTP0m",
-                "rec6tm3CMyFRn64Tw",
-                "recMCOc0TZvKtf033",
-                "recahqehDkuigrOJF",
-                "rechrbgu4D2H0U6OS",
-                "recF1KdCn8kKMN9H5",
-                "recAVsXYETc2NG2Xo",
-                "recMxvMdUtYMo4Azu",
-                "recjt9WUYw6KLKSeB",
-                "recdjBSoqvQjN6pSH",
-                "rec7zYRnwtzduSiGJ"
-            ],
-            "writers": [
-                "hosea_1555"
-            ],
-            "testament": "Old Testament",
-            "slug": "hos",
-            "peopleCount": 95,
-            "placeCount": 44
+            ]
         }
     },
     {
@@ -23852,11 +23852,24 @@
         "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "Joel",
-            "bookName": "Joel",
-            "chapterCount": 3,
-            "bookDiv": "Minor Prophets",
-            "shortName": "Joe",
             "bookOrder": 29,
+            "bookName": "Joel",
+            "bookDiv": "Minor Prophets",
+            "testament": "Old Testament",
+            "shortName": "Joe",
+            "slug": "joel",
+            "chapters": [
+                "rechyIHsQA1aHYHvj",
+                "recgUZp5804QWHzSZ",
+                "recb4wWzI3dSQCatz"
+            ],
+            "chapterCount": 3,
+            "verseCount": 73,
+            "writers": [
+                "joel_1660"
+            ],
+            "peopleCount": 31,
+            "placeCount": 16,
             "verses": [
                 "rec6l4Iardk75VmJS",
                 "recRVq3N3CWrjzMyx",
@@ -23931,20 +23944,7 @@
                 "recdVY8HXWVaVD064",
                 "recEw8dKfH5dZQfbe",
                 "recHZLqNAsQoVB8NH"
-            ],
-            "verseCount": 73,
-            "chapters": [
-                "rechyIHsQA1aHYHvj",
-                "recgUZp5804QWHzSZ",
-                "recb4wWzI3dSQCatz"
-            ],
-            "writers": [
-                "joel_1660"
-            ],
-            "testament": "Old Testament",
-            "slug": "joel",
-            "peopleCount": 31,
-            "placeCount": 16
+            ]
         }
     },
     {
@@ -23952,11 +23952,30 @@
         "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "Amos",
-            "bookName": "Amos",
-            "chapterCount": 9,
-            "bookDiv": "Minor Prophets",
-            "shortName": "Am",
             "bookOrder": 30,
+            "bookName": "Amos",
+            "bookDiv": "Minor Prophets",
+            "testament": "Old Testament",
+            "shortName": "Am",
+            "slug": "amos",
+            "chapters": [
+                "recMNsXEXZGhaUWxF",
+                "rec5eqoYZPRZ8CVEB",
+                "recJp0ivZJdD74BGp",
+                "recOeHZYvDGUbB794",
+                "rec45SFTOMoSlxow2",
+                "recNx5YpWriEPgz6C",
+                "rec8ICghu6zqaTFeW",
+                "recjJ0w33sPKfvye1",
+                "recpIOnQQ2i5PR2YW"
+            ],
+            "chapterCount": 9,
+            "verseCount": 146,
+            "writers": [
+                "amos_238"
+            ],
+            "peopleCount": 89,
+            "placeCount": 39,
             "verses": [
                 "recgGgXNbDGkuPtKM",
                 "recI5dVLqpuknJv7S",
@@ -24104,26 +24123,7 @@
                 "recsIFQQFTETcHQ4G",
                 "recY6iv7cvQeebJ5o",
                 "reczhIhc9zzNDqSaP"
-            ],
-            "verseCount": 146,
-            "chapters": [
-                "recMNsXEXZGhaUWxF",
-                "rec5eqoYZPRZ8CVEB",
-                "recJp0ivZJdD74BGp",
-                "recOeHZYvDGUbB794",
-                "rec45SFTOMoSlxow2",
-                "recNx5YpWriEPgz6C",
-                "rec8ICghu6zqaTFeW",
-                "recjJ0w33sPKfvye1",
-                "recpIOnQQ2i5PR2YW"
-            ],
-            "writers": [
-                "amos_238"
-            ],
-            "testament": "Old Testament",
-            "slug": "amos",
-            "peopleCount": 89,
-            "placeCount": 39
+            ]
         }
     },
     {
@@ -24131,11 +24131,22 @@
         "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "Obad",
-            "bookName": "Obadiah",
-            "chapterCount": 1,
-            "bookDiv": "Minor Prophets",
-            "shortName": "Ob",
             "bookOrder": 31,
+            "bookName": "Obadiah",
+            "bookDiv": "Minor Prophets",
+            "testament": "Old Testament",
+            "shortName": "Ob",
+            "slug": "obad",
+            "chapters": [
+                "recuRl2mIQ2E3O5ia"
+            ],
+            "chapterCount": 1,
+            "verseCount": 21,
+            "writers": [
+                "obadiah_2226"
+            ],
+            "peopleCount": 12,
+            "placeCount": 9,
             "verses": [
                 "recPzDNQ9bxXChhGD",
                 "rech0LR0wrBOpx40w",
@@ -24158,18 +24169,7 @@
                 "reckQCJpp9z1VjC9b",
                 "recuITCPeRtbtjvMg",
                 "recLNa3L5G38a1SnW"
-            ],
-            "verseCount": 21,
-            "chapters": [
-                "recuRl2mIQ2E3O5ia"
-            ],
-            "writers": [
-                "obadiah_2226"
-            ],
-            "testament": "Old Testament",
-            "slug": "obad",
-            "peopleCount": 12,
-            "placeCount": 9
+            ]
         }
     },
     {
@@ -24177,11 +24177,25 @@
         "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "Jonah",
-            "bookName": "Jonah",
-            "chapterCount": 4,
-            "bookDiv": "Minor Prophets",
-            "shortName": "Jon",
             "bookOrder": 32,
+            "bookName": "Jonah",
+            "bookDiv": "Minor Prophets",
+            "testament": "Old Testament",
+            "shortName": "Jon",
+            "slug": "jonah",
+            "chapters": [
+                "recfQpq6IfbfPnvAw",
+                "recyI5XXZdncT62jx",
+                "recYjqH40s6WKDmBM",
+                "recRf5OPB2att2iUA"
+            ],
+            "chapterCount": 4,
+            "verseCount": 48,
+            "writers": [
+                "jonah_1689"
+            ],
+            "peopleCount": 35,
+            "placeCount": 10,
             "verses": [
                 "rec01vTTWV73yjA6Y",
                 "recKfQHG7j4ZF5kTS",
@@ -24231,21 +24245,7 @@
                 "recv5SPHAdu4d3zEU",
                 "recryvWteZJkZdFpW",
                 "recp9iR58llu9tuiI"
-            ],
-            "verseCount": 48,
-            "chapters": [
-                "recfQpq6IfbfPnvAw",
-                "recyI5XXZdncT62jx",
-                "recYjqH40s6WKDmBM",
-                "recRf5OPB2att2iUA"
-            ],
-            "writers": [
-                "jonah_1689"
-            ],
-            "testament": "Old Testament",
-            "slug": "jonah",
-            "peopleCount": 35,
-            "placeCount": 10
+            ]
         }
     },
     {
@@ -24253,11 +24253,28 @@
         "createdTime": "2018-05-13T17:19:17.000Z",
         "fields": {
             "osisName": "Mic",
-            "bookName": "Micah",
-            "chapterCount": 7,
-            "bookDiv": "Minor Prophets",
-            "shortName": "Mic",
             "bookOrder": 33,
+            "bookName": "Micah",
+            "bookDiv": "Minor Prophets",
+            "testament": "Old Testament",
+            "shortName": "Mic",
+            "slug": "mic",
+            "chapters": [
+                "recgtAFbPOHLarZPq",
+                "rec3mY8SUbDbz2QDQ",
+                "recocpHvNa0c6Cyh7",
+                "reciwq8AkYIyomlNr",
+                "recz4XgFlbikNxBvl",
+                "rec53LrKixa1vfIgy",
+                "recR0q7lx90aC72zR"
+            ],
+            "chapterCount": 7,
+            "verseCount": 105,
+            "writers": [
+                "micah_2053"
+            ],
+            "peopleCount": 49,
+            "placeCount": 25,
             "verses": [
                 "recCa8zLvxdbK5ic5",
                 "recRtx6w4DyNmpdo0",
@@ -24364,24 +24381,7 @@
                 "recEMj1Yj0gGpz9bN",
                 "recFoLovoTVu6B6QL",
                 "recSLsAAdClOiDnMC"
-            ],
-            "verseCount": 105,
-            "chapters": [
-                "recgtAFbPOHLarZPq",
-                "rec3mY8SUbDbz2QDQ",
-                "recocpHvNa0c6Cyh7",
-                "reciwq8AkYIyomlNr",
-                "recz4XgFlbikNxBvl",
-                "rec53LrKixa1vfIgy",
-                "recR0q7lx90aC72zR"
-            ],
-            "writers": [
-                "micah_2053"
-            ],
-            "testament": "Old Testament",
-            "slug": "mic",
-            "peopleCount": 49,
-            "placeCount": 25
+            ]
         }
     },
     {
@@ -24389,11 +24389,24 @@
         "createdTime": "2018-05-13T17:19:17.000Z",
         "fields": {
             "osisName": "Nah",
-            "bookName": "Nahum",
-            "chapterCount": 3,
-            "bookDiv": "Minor Prophets",
-            "shortName": "Na",
             "bookOrder": 34,
+            "bookName": "Nahum",
+            "bookDiv": "Minor Prophets",
+            "testament": "Old Testament",
+            "shortName": "Na",
+            "slug": "nah",
+            "chapters": [
+                "recH94xNn0RLK1KHF",
+                "rec1omIfP0iW1vi0q",
+                "recb6JJzRuxAipkJj"
+            ],
+            "chapterCount": 3,
+            "verseCount": 47,
+            "writers": [
+                "nahum_2145"
+            ],
+            "peopleCount": 11,
+            "placeCount": 7,
             "verses": [
                 "rec02EgC8o2FhCK4P",
                 "recMbXGBz0CJBLamA",
@@ -24442,20 +24455,7 @@
                 "recDHD7yt2SEDaqHk",
                 "recZ5zqdIt0IyGcC3",
                 "reccvef2mpPDcTWc4"
-            ],
-            "verseCount": 47,
-            "chapters": [
-                "recH94xNn0RLK1KHF",
-                "rec1omIfP0iW1vi0q",
-                "recb6JJzRuxAipkJj"
-            ],
-            "writers": [
-                "nahum_2145"
-            ],
-            "testament": "Old Testament",
-            "slug": "nah",
-            "peopleCount": 11,
-            "placeCount": 7
+            ]
         }
     },
     {
@@ -24463,11 +24463,24 @@
         "createdTime": "2018-05-13T17:19:17.000Z",
         "fields": {
             "osisName": "Hab",
-            "bookName": "Habakkuk",
-            "chapterCount": 3,
-            "bookDiv": "Minor Prophets",
-            "shortName": "Hab",
             "bookOrder": 35,
+            "bookName": "Habakkuk",
+            "bookDiv": "Minor Prophets",
+            "testament": "Old Testament",
+            "shortName": "Hab",
+            "slug": "hab",
+            "chapters": [
+                "recy9m5h2HIVdqmtm",
+                "recMUYOCuwD88D9OJ",
+                "recAQjVX5EU5Fx8co"
+            ],
+            "chapterCount": 3,
+            "verseCount": 56,
+            "writers": [
+                "habakkuk_1334"
+            ],
+            "peopleCount": 15,
+            "placeCount": 3,
             "verses": [
                 "recZecZq7GFjSkMut",
                 "recbcoiLohUSR78CZ",
@@ -24525,20 +24538,7 @@
                 "recR3w3BXbVvviAMh",
                 "recifsWD7e0ua5M8k",
                 "recY9Zf6yMIamVsbg"
-            ],
-            "verseCount": 56,
-            "chapters": [
-                "recy9m5h2HIVdqmtm",
-                "recMUYOCuwD88D9OJ",
-                "recAQjVX5EU5Fx8co"
-            ],
-            "writers": [
-                "habakkuk_1334"
-            ],
-            "testament": "Old Testament",
-            "slug": "hab",
-            "peopleCount": 15,
-            "placeCount": 3
+            ]
         }
     },
     {
@@ -24546,11 +24546,24 @@
         "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "Zeph",
-            "bookName": "Zephaniah",
-            "chapterCount": 3,
-            "bookDiv": "Minor Prophets",
-            "shortName": "Zep",
             "bookOrder": 36,
+            "bookName": "Zephaniah",
+            "bookDiv": "Minor Prophets",
+            "testament": "Old Testament",
+            "shortName": "Zep",
+            "slug": "zeph",
+            "chapters": [
+                "recdpwqNwwulfFUzq",
+                "recveDfwajJQLFIg6",
+                "recisoDIjnHqqMUfT"
+            ],
+            "chapterCount": 3,
+            "verseCount": 53,
+            "writers": [
+                "zephaniah_3040"
+            ],
+            "peopleCount": 29,
+            "placeCount": 13,
             "verses": [
                 "recxwLpAQ4fvcRRxi",
                 "receR7z2Ju2ou6EY9",
@@ -24605,20 +24618,7 @@
                 "recyddAMyt8kVtRId",
                 "rec2WjHbJzQDCeAYD",
                 "rec1CEwubRMNykrPI"
-            ],
-            "verseCount": 53,
-            "chapters": [
-                "recdpwqNwwulfFUzq",
-                "recveDfwajJQLFIg6",
-                "recisoDIjnHqqMUfT"
-            ],
-            "writers": [
-                "zephaniah_3040"
-            ],
-            "testament": "Old Testament",
-            "slug": "zeph",
-            "peopleCount": 29,
-            "placeCount": 13
+            ]
         }
     },
     {
@@ -24626,11 +24626,23 @@
         "createdTime": "2018-05-13T17:19:17.000Z",
         "fields": {
             "osisName": "Hag",
-            "bookName": "Haggai",
-            "chapterCount": 2,
-            "bookDiv": "Minor Prophets",
-            "shortName": "Hag",
             "bookOrder": 37,
+            "bookName": "Haggai",
+            "bookDiv": "Minor Prophets",
+            "testament": "Old Testament",
+            "shortName": "Hag",
+            "slug": "hag",
+            "chapters": [
+                "recDmg4smCLEkR1ED",
+                "recDa5koJRmXkFroY"
+            ],
+            "chapterCount": 2,
+            "verseCount": 38,
+            "writers": [
+                "haggai_1349"
+            ],
+            "peopleCount": 28,
+            "placeCount": 1,
             "verses": [
                 "recxUzIDzcDbaIESA",
                 "reczU5uCrWnCnJ0jz",
@@ -24670,19 +24682,7 @@
                 "recheMuxosSEgXS7P",
                 "recoXm4D9ffLBC8BU",
                 "recFHXgS4QUOqC9Mj"
-            ],
-            "verseCount": 38,
-            "chapters": [
-                "recDmg4smCLEkR1ED",
-                "recDa5koJRmXkFroY"
-            ],
-            "writers": [
-                "haggai_1349"
-            ],
-            "testament": "Old Testament",
-            "slug": "hag",
-            "peopleCount": 28,
-            "placeCount": 1
+            ]
         }
     },
     {
@@ -24690,11 +24690,35 @@
         "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "Zech",
-            "bookName": "Zechariah",
-            "chapterCount": 14,
-            "bookDiv": "Minor Prophets",
-            "shortName": "Zec",
             "bookOrder": 38,
+            "bookName": "Zechariah",
+            "bookDiv": "Minor Prophets",
+            "testament": "Old Testament",
+            "shortName": "Zec",
+            "slug": "zech",
+            "chapters": [
+                "recRFbcPnVUQNYnwL",
+                "recUW6zKe6yCDwqZL",
+                "recIbf7C7ERDYGB6c",
+                "rec4MOUn477SV9Z9F",
+                "recCGxbBOcqVQUxIg",
+                "recvpaHX8y0XVi0Om",
+                "recT6bmv6H19bTZ7x",
+                "recqOonw6App3yoxZ",
+                "recUksGHfvwZd6FpB",
+                "recXjbnBi83yxzscv",
+                "recFY8H5nmRbVnj0w",
+                "recmZt5zrYVAViDdB",
+                "recZaem5CT6vuFEPQ",
+                "recTcYfoiFn4MXAiP"
+            ],
+            "chapterCount": 14,
+            "verseCount": 211,
+            "writers": [
+                "zechariah_3016"
+            ],
+            "peopleCount": 120,
+            "placeCount": 58,
             "verses": [
                 "recXxC6Jv3ZTAXI8w",
                 "recmdluFlzduhb9Nm",
@@ -24907,31 +24931,7 @@
                 "recNcv0J3HsxF58Rg",
                 "recwtlE9QRisoyv3k",
                 "recnQPT0H1oJFKXsL"
-            ],
-            "verseCount": 211,
-            "chapters": [
-                "recRFbcPnVUQNYnwL",
-                "recUW6zKe6yCDwqZL",
-                "recIbf7C7ERDYGB6c",
-                "rec4MOUn477SV9Z9F",
-                "recCGxbBOcqVQUxIg",
-                "recvpaHX8y0XVi0Om",
-                "recT6bmv6H19bTZ7x",
-                "recqOonw6App3yoxZ",
-                "recUksGHfvwZd6FpB",
-                "recXjbnBi83yxzscv",
-                "recFY8H5nmRbVnj0w",
-                "recmZt5zrYVAViDdB",
-                "recZaem5CT6vuFEPQ",
-                "recTcYfoiFn4MXAiP"
-            ],
-            "writers": [
-                "zechariah_3016"
-            ],
-            "testament": "Old Testament",
-            "slug": "zech",
-            "peopleCount": 120,
-            "placeCount": 58
+            ]
         }
     },
     {
@@ -24939,11 +24939,25 @@
         "createdTime": "2018-05-13T17:19:17.000Z",
         "fields": {
             "osisName": "Mal",
-            "bookName": "Malachi",
-            "chapterCount": 4,
-            "bookDiv": "Minor Prophets",
-            "shortName": "Mal",
             "bookOrder": 39,
+            "bookName": "Malachi",
+            "bookDiv": "Minor Prophets",
+            "testament": "Old Testament",
+            "shortName": "Mal",
+            "slug": "mal",
+            "chapters": [
+                "rec2OiKN1eC4I8Sd9",
+                "recS90x8xcWq4GhLN",
+                "rec8bPoCXiDopGKoS",
+                "recqGCj5zLOb8gR1v"
+            ],
+            "chapterCount": 4,
+            "verseCount": 55,
+            "writers": [
+                "malachi_1899"
+            ],
+            "peopleCount": 47,
+            "placeCount": 4,
             "verses": [
                 "rec7EnTcacHMu8nXe",
                 "recwx5yitmXnMS4vm",
@@ -25000,21 +25014,7 @@
                 "rec4fWvtdgnihThWz",
                 "rec4Inh9Tdm12tNad",
                 "recMSS8ZHsvoYxNDH"
-            ],
-            "verseCount": 55,
-            "chapters": [
-                "rec2OiKN1eC4I8Sd9",
-                "recS90x8xcWq4GhLN",
-                "rec8bPoCXiDopGKoS",
-                "recqGCj5zLOb8gR1v"
-            ],
-            "writers": [
-                "malachi_1899"
-            ],
-            "testament": "Old Testament",
-            "slug": "mal",
-            "peopleCount": 47,
-            "placeCount": 4
+            ]
         }
     },
     {
@@ -25022,11 +25022,51 @@
         "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "Matt",
-            "bookName": "Matthew",
-            "chapterCount": 28,
-            "bookDiv": "Gospels",
-            "shortName": "Mt",
             "bookOrder": 40,
+            "bookName": "Matthew",
+            "bookDiv": "Gospels",
+            "testament": "New Testament",
+            "shortName": "Mt",
+            "slug": "matt",
+            "yearWritten": "50",
+            "chapters": [
+                "rec7qtvOOctSDNom8",
+                "recWw1ssOLYVTdEEM",
+                "recJCEBbfMRcsHeWB",
+                "recfc0WEkVsVeq91r",
+                "recm2K1VUOf86UIVr",
+                "rec4AKzy6PHr90wYU",
+                "recqRW0P45EZJjsNu",
+                "recpb9odzRu1Mpf4B",
+                "rec8Oo7tXfm3nrFWT",
+                "recu6RFOxs2kL1sVz",
+                "recKMQ2SA2FFOxRO7",
+                "rec4uSJhV2ej6gWLu",
+                "rec2G9I15zEBK0EUo",
+                "recEToQIXgAZZZFf6",
+                "recn1IPlgj6ML4wf5",
+                "recCtfDokNvhTKMeJ",
+                "recqFcRzGt867NdQK",
+                "recRtgIrqHjsp8S5L",
+                "reciLmEjLUJBaikvq",
+                "recrHRx6nkLENhlpP",
+                "recc6IiUTvpvwnZou",
+                "recEB3NTMbC0eDJhR",
+                "recsly4Bh865AECo2",
+                "rec25vPjXA5CFW8ND",
+                "recShSqNXUiHc6PfA",
+                "recrx0bO7aofdkeZc",
+                "recWB9gcAjVs6NYFx",
+                "recj37cEewYXLgQ3v"
+            ],
+            "chapterCount": 28,
+            "verseCount": 1071,
+            "writers": [
+                "matthew_1971"
+            ],
+            "peopleCount": 431,
+            "placeCount": 69,
+            "modified": "2026-01-05T10:59:36.000Z",
             "verses": [
                 "recdcfDhWb30qx5A9",
                 "recrY5j3W5NyR8pbB",
@@ -26099,47 +26139,7 @@
                 "recwo2YTmN0rEn9dQ",
                 "rec5ImGtAWYMm21vk",
                 "recQkqdxMs85v095s"
-            ],
-            "yearWritten": "50",
-            "verseCount": 1071,
-            "chapters": [
-                "rec7qtvOOctSDNom8",
-                "recWw1ssOLYVTdEEM",
-                "recJCEBbfMRcsHeWB",
-                "recfc0WEkVsVeq91r",
-                "recm2K1VUOf86UIVr",
-                "rec4AKzy6PHr90wYU",
-                "recqRW0P45EZJjsNu",
-                "recpb9odzRu1Mpf4B",
-                "rec8Oo7tXfm3nrFWT",
-                "recu6RFOxs2kL1sVz",
-                "recKMQ2SA2FFOxRO7",
-                "rec4uSJhV2ej6gWLu",
-                "rec2G9I15zEBK0EUo",
-                "recEToQIXgAZZZFf6",
-                "recn1IPlgj6ML4wf5",
-                "recCtfDokNvhTKMeJ",
-                "recqFcRzGt867NdQK",
-                "recRtgIrqHjsp8S5L",
-                "reciLmEjLUJBaikvq",
-                "recrHRx6nkLENhlpP",
-                "recc6IiUTvpvwnZou",
-                "recEB3NTMbC0eDJhR",
-                "recsly4Bh865AECo2",
-                "rec25vPjXA5CFW8ND",
-                "recShSqNXUiHc6PfA",
-                "recrx0bO7aofdkeZc",
-                "recWB9gcAjVs6NYFx",
-                "recj37cEewYXLgQ3v"
-            ],
-            "writers": [
-                "matthew_1971"
-            ],
-            "testament": "New Testament",
-            "slug": "matt",
-            "peopleCount": 431,
-            "placeCount": 69,
-            "modified": "2026-01-05T10:59:36.000Z"
+            ]
         }
     },
     {
@@ -26147,11 +26147,39 @@
         "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "Mark",
-            "bookName": "Mark",
-            "chapterCount": 16,
-            "bookDiv": "Gospels",
-            "shortName": "Mk",
             "bookOrder": 41,
+            "bookName": "Mark",
+            "bookDiv": "Gospels",
+            "testament": "New Testament",
+            "shortName": "Mk",
+            "slug": "mark",
+            "yearWritten": "67",
+            "chapters": [
+                "recTzsqcZeto3gXih",
+                "recMVdytm34LX15Vr",
+                "recLyA3g79sH0Qlax",
+                "receQnoOHxqxx55i2",
+                "recI1mfPyvrG11DC9",
+                "recPAnhhsOD9GSV49",
+                "recdU155S7oLWiY4o",
+                "rec4U9vx1ZddLdVcG",
+                "recM8VxxcI2giOaqg",
+                "rec61pFHpnEk0S6u1",
+                "receALd33Fry14PTp",
+                "rec7c4225eIMb7UJd",
+                "rec3x2DfYTv2qKpBb",
+                "reconaFgSTzFjBisB",
+                "recA3HGfHmQXuKEJo",
+                "rec68IJBLua1opMCp"
+            ],
+            "chapterCount": 16,
+            "verseCount": 678,
+            "writers": [
+                "mark_1679"
+            ],
+            "peopleCount": 245,
+            "placeCount": 46,
+            "modified": "2026-01-05T10:59:36.000Z",
             "verses": [
                 "recDClOHwXob7tIlQ",
                 "recOngjVfCUywgHAO",
@@ -26831,35 +26859,7 @@
                 "recPNNsLROMyzXBaY",
                 "recIK8qrpQi8dgzti",
                 "recd6uGzIJhn1fJdp"
-            ],
-            "yearWritten": "67",
-            "verseCount": 678,
-            "chapters": [
-                "recTzsqcZeto3gXih",
-                "recMVdytm34LX15Vr",
-                "recLyA3g79sH0Qlax",
-                "receQnoOHxqxx55i2",
-                "recI1mfPyvrG11DC9",
-                "recPAnhhsOD9GSV49",
-                "recdU155S7oLWiY4o",
-                "rec4U9vx1ZddLdVcG",
-                "recM8VxxcI2giOaqg",
-                "rec61pFHpnEk0S6u1",
-                "receALd33Fry14PTp",
-                "rec7c4225eIMb7UJd",
-                "rec3x2DfYTv2qKpBb",
-                "reconaFgSTzFjBisB",
-                "recA3HGfHmQXuKEJo",
-                "rec68IJBLua1opMCp"
-            ],
-            "writers": [
-                "mark_1679"
-            ],
-            "testament": "New Testament",
-            "slug": "mark",
-            "peopleCount": 245,
-            "placeCount": 46,
-            "modified": "2026-01-05T10:59:36.000Z"
+            ]
         }
     },
     {
@@ -26867,11 +26867,47 @@
         "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "Luke",
-            "bookName": "Luke",
-            "chapterCount": 24,
-            "bookDiv": "Gospels",
-            "shortName": "Lu",
             "bookOrder": 42,
+            "bookName": "Luke",
+            "bookDiv": "Gospels",
+            "testament": "New Testament",
+            "shortName": "Lu",
+            "slug": "luke",
+            "yearWritten": "57",
+            "chapters": [
+                "recT5jBeSTonVjPOv",
+                "recr48ICdpbXFGEYN",
+                "rec1iko6F4rDO8ppm",
+                "recrWlMA1LFXfHgSE",
+                "recdsAeniUfRb6dBF",
+                "recQSFIBpRA5u7fZ1",
+                "reczv8VzVhyNBsNT0",
+                "recRmWedGhpLbTGnT",
+                "recjc595DCzPgHVEC",
+                "rec0yqNBGoW1pMZUU",
+                "recvCZOFq4ON67V0N",
+                "rectA9g7GMNHeCL5c",
+                "recCVCmRKl3rh45j7",
+                "recyePHZp2EF2knBU",
+                "recKYt2XY34DNdjbH",
+                "rec1xVOnufqamGyg8",
+                "rec8N9CvRkM1rJYVY",
+                "recDp9hwsFxDZrHd3",
+                "reckCl4OcknEkhRwN",
+                "recTfDatB2Jn6cbZN",
+                "recKkbZvoGokiDHJ1",
+                "recNUJ0AAcBXS0O1i",
+                "recYA3zEm7ihY3Nx7",
+                "recmRRsNdqIUWLgGo"
+            ],
+            "chapterCount": 24,
+            "verseCount": 1151,
+            "writers": [
+                "luke_1836"
+            ],
+            "peopleCount": 461,
+            "placeCount": 76,
+            "modified": "2026-01-05T10:59:36.000Z",
             "verses": [
                 "rec80EjBpcYgZkXJ8",
                 "rectxvOjOe0QaHzkP",
@@ -28024,43 +28060,7 @@
                 "recCsg7ZLi70CbPsk",
                 "recb8C7X6hkFOS0BB",
                 "recLSgT6XRK97jDxf"
-            ],
-            "yearWritten": "57",
-            "verseCount": 1151,
-            "chapters": [
-                "recT5jBeSTonVjPOv",
-                "recr48ICdpbXFGEYN",
-                "rec1iko6F4rDO8ppm",
-                "recrWlMA1LFXfHgSE",
-                "recdsAeniUfRb6dBF",
-                "recQSFIBpRA5u7fZ1",
-                "reczv8VzVhyNBsNT0",
-                "recRmWedGhpLbTGnT",
-                "recjc595DCzPgHVEC",
-                "rec0yqNBGoW1pMZUU",
-                "recvCZOFq4ON67V0N",
-                "rectA9g7GMNHeCL5c",
-                "recCVCmRKl3rh45j7",
-                "recyePHZp2EF2knBU",
-                "recKYt2XY34DNdjbH",
-                "rec1xVOnufqamGyg8",
-                "rec8N9CvRkM1rJYVY",
-                "recDp9hwsFxDZrHd3",
-                "reckCl4OcknEkhRwN",
-                "recTfDatB2Jn6cbZN",
-                "recKkbZvoGokiDHJ1",
-                "recNUJ0AAcBXS0O1i",
-                "recYA3zEm7ihY3Nx7",
-                "recmRRsNdqIUWLgGo"
-            ],
-            "writers": [
-                "luke_1836"
-            ],
-            "testament": "New Testament",
-            "slug": "luke",
-            "peopleCount": 461,
-            "placeCount": 76,
-            "modified": "2026-01-05T10:59:36.000Z"
+            ]
         }
     },
     {
@@ -28068,11 +28068,42 @@
         "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "John",
-            "bookName": "John",
-            "chapterCount": 21,
-            "bookDiv": "Gospels",
-            "shortName": "Jn",
             "bookOrder": 43,
+            "bookName": "John",
+            "bookDiv": "Gospels",
+            "testament": "New Testament",
+            "shortName": "Jn",
+            "slug": "john",
+            "chapters": [
+                "recRewBbXS7mVg3NN",
+                "recMK81fIA2FBwaNP",
+                "recPbqqK3hCNhgzh2",
+                "reclaV7B4IHu1CLor",
+                "rec6lIETVvqT6FF3x",
+                "recd9hgy0vpTAW3VA",
+                "rechlCy6ulGfJywHy",
+                "rec9o2JBXvXf6QX4Y",
+                "reczxqgpCwV1GvhzO",
+                "recJCQEwTM86i6mHK",
+                "rec9NjT9ytnXD22sn",
+                "recI6nMQWLs4QOBL1",
+                "recUHFl9VXnWqYeCm",
+                "recnWWQFBmWUecSaF",
+                "rec9S383butSmuSwl",
+                "recnHeDY8DGy7xywX",
+                "recD8vGiYCaX4Jplv",
+                "rec5U0e8J3XVAQW6B",
+                "recat3XylBUUNw22a",
+                "recHbq18r4FIAJ44B",
+                "rec36pNYmUq8A2Gd1"
+            ],
+            "chapterCount": 21,
+            "verseCount": 879,
+            "writers": [
+                "john_1677"
+            ],
+            "peopleCount": 514,
+            "placeCount": 62,
             "verses": [
                 "recWG76RF8wxD5zJB",
                 "recWc2BanbuzVrPpP",
@@ -28953,38 +28984,7 @@
                 "rec9HKjOBGDvZgGH5",
                 "recdgyppUMfrq6Y4I",
                 "rech6IrsGTDMERjKl"
-            ],
-            "verseCount": 879,
-            "chapters": [
-                "recRewBbXS7mVg3NN",
-                "recMK81fIA2FBwaNP",
-                "recPbqqK3hCNhgzh2",
-                "reclaV7B4IHu1CLor",
-                "rec6lIETVvqT6FF3x",
-                "recd9hgy0vpTAW3VA",
-                "rechlCy6ulGfJywHy",
-                "rec9o2JBXvXf6QX4Y",
-                "reczxqgpCwV1GvhzO",
-                "recJCQEwTM86i6mHK",
-                "rec9NjT9ytnXD22sn",
-                "recI6nMQWLs4QOBL1",
-                "recUHFl9VXnWqYeCm",
-                "recnWWQFBmWUecSaF",
-                "rec9S383butSmuSwl",
-                "recnHeDY8DGy7xywX",
-                "recD8vGiYCaX4Jplv",
-                "rec5U0e8J3XVAQW6B",
-                "recat3XylBUUNw22a",
-                "recHbq18r4FIAJ44B",
-                "rec36pNYmUq8A2Gd1"
-            ],
-            "writers": [
-                "john_1677"
-            ],
-            "testament": "New Testament",
-            "slug": "john",
-            "peopleCount": 514,
-            "placeCount": 62
+            ]
         }
     },
     {
@@ -28992,11 +28992,51 @@
         "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "Acts",
-            "bookName": "Acts",
-            "chapterCount": 28,
-            "bookDiv": "Acts",
-            "shortName": "Ac",
             "bookOrder": 44,
+            "bookName": "Acts",
+            "bookDiv": "Acts",
+            "testament": "New Testament",
+            "shortName": "Ac",
+            "slug": "acts",
+            "yearWritten": "61",
+            "chapters": [
+                "recZAOjAUnGihkYVU",
+                "recfhXfeeT8pTaEQB",
+                "recIJgRNSX9clJMsL",
+                "recIk8daHG3VJFTpg",
+                "recjxHpdMPrNSpjdq",
+                "recebsRoDnevz2NYw",
+                "rec8M0CnPrc0b12Bc",
+                "recIO78nsxxgukFKH",
+                "reckLXJtYOOjR83Bc",
+                "recP18Nmzz6LiIb4O",
+                "reciQxEUpRZrPUdzq",
+                "recqFiYdevye9GsCx",
+                "recf7YV5yvbWuaVMt",
+                "recaYhlyXWKMZ54eu",
+                "reczNFwMGVVIVEpSh",
+                "recwLsngh9kW8mYeV",
+                "recqD6OozK7dAKZcl",
+                "rec4mA3sbY8uaICXx",
+                "reckBZf4A3gRQpKBn",
+                "reccBT4Uc8LuF49zV",
+                "rec26XOdV2eJynkm0",
+                "recEBRX6ym7r78KLJ",
+                "recHevUN3Gc1MIFCi",
+                "recp7x7eelYoC2eJC",
+                "recig8oK0LfpJJt76",
+                "recP7b9XZLCwAh5lU",
+                "rec6aetpRc7zD5Y05",
+                "recFyde4DlK98x0qv"
+            ],
+            "chapterCount": 28,
+            "verseCount": 1007,
+            "writers": [
+                "luke_1836"
+            ],
+            "peopleCount": 592,
+            "placeCount": 244,
+            "modified": "2026-01-05T10:59:36.000Z",
             "verses": [
                 "recNbAWySV9eG8Eux",
                 "recPnpXXIZg1mjAj2",
@@ -30005,47 +30045,7 @@
                 "recTWsj3U5NUj9Sk3",
                 "recqHPYyN91BfqyBw",
                 "recBkOYVf3laZBCJo"
-            ],
-            "yearWritten": "61",
-            "verseCount": 1007,
-            "chapters": [
-                "recZAOjAUnGihkYVU",
-                "recfhXfeeT8pTaEQB",
-                "recIJgRNSX9clJMsL",
-                "recIk8daHG3VJFTpg",
-                "recjxHpdMPrNSpjdq",
-                "recebsRoDnevz2NYw",
-                "rec8M0CnPrc0b12Bc",
-                "recIO78nsxxgukFKH",
-                "reckLXJtYOOjR83Bc",
-                "recP18Nmzz6LiIb4O",
-                "reciQxEUpRZrPUdzq",
-                "recqFiYdevye9GsCx",
-                "recf7YV5yvbWuaVMt",
-                "recaYhlyXWKMZ54eu",
-                "reczNFwMGVVIVEpSh",
-                "recwLsngh9kW8mYeV",
-                "recqD6OozK7dAKZcl",
-                "rec4mA3sbY8uaICXx",
-                "reckBZf4A3gRQpKBn",
-                "reccBT4Uc8LuF49zV",
-                "rec26XOdV2eJynkm0",
-                "recEBRX6ym7r78KLJ",
-                "recHevUN3Gc1MIFCi",
-                "recp7x7eelYoC2eJC",
-                "recig8oK0LfpJJt76",
-                "recP7b9XZLCwAh5lU",
-                "rec6aetpRc7zD5Y05",
-                "recFyde4DlK98x0qv"
-            ],
-            "writers": [
-                "luke_1836"
-            ],
-            "testament": "New Testament",
-            "slug": "acts",
-            "peopleCount": 592,
-            "placeCount": 244,
-            "modified": "2026-01-05T10:59:36.000Z"
+            ]
         }
     },
     {
@@ -30053,11 +30053,42 @@
         "createdTime": "2018-05-13T17:19:17.000Z",
         "fields": {
             "osisName": "Rom",
-            "bookName": "Romans",
-            "chapterCount": 16,
-            "bookDiv": "Pauline Epistles",
-            "shortName": "Ro",
             "bookOrder": 45,
+            "bookName": "Romans",
+            "bookDiv": "Pauline Epistles",
+            "testament": "New Testament",
+            "shortName": "Ro",
+            "slug": "rom",
+            "yearWritten": "57",
+            "placeWritten": [
+                "recpmPd6JhbqhqA0Q"
+            ],
+            "chapters": [
+                "recMCMGLnVg4olx48",
+                "recMcLBnD88gjBXir",
+                "rec55ut8yc7i0cU8Z",
+                "rec2cddorsDxouJ4k",
+                "recJoY8GADKFZYuqW",
+                "reclRGFRYgunVpjvf",
+                "recJggkSGOnELrlBB",
+                "recgEkalssJHTNSyq",
+                "recwdXKwqGqQ4v9r5",
+                "reczSs4MU0qNcYM0q",
+                "recuaSqUsqm6AJOol",
+                "recApT3pEV1NsMTEu",
+                "recVsfK0RjPgZBbO8",
+                "recLSTEnp4oO32B5V",
+                "recWPc7OYh52hGxzs",
+                "recK4kY433fHpRweu"
+            ],
+            "chapterCount": 16,
+            "verseCount": 433,
+            "writers": [
+                "paul_2479"
+            ],
+            "peopleCount": 238,
+            "placeCount": 13,
+            "modified": "2026-01-05T10:59:36.000Z",
             "verses": [
                 "recld8Sxx8yDn1Ik8",
                 "reczZ8CrNFwW1n6MD",
@@ -30492,38 +30523,7 @@
                 "recGpuejNMMSMsu5u",
                 "recJfIRYqySJ70Sjr",
                 "recWW45TZQWhoaMqj"
-            ],
-            "yearWritten": "57",
-            "placeWritten": [
-                "recpmPd6JhbqhqA0Q"
-            ],
-            "verseCount": 433,
-            "chapters": [
-                "recMCMGLnVg4olx48",
-                "recMcLBnD88gjBXir",
-                "rec55ut8yc7i0cU8Z",
-                "rec2cddorsDxouJ4k",
-                "recJoY8GADKFZYuqW",
-                "reclRGFRYgunVpjvf",
-                "recJggkSGOnELrlBB",
-                "recgEkalssJHTNSyq",
-                "recwdXKwqGqQ4v9r5",
-                "reczSs4MU0qNcYM0q",
-                "recuaSqUsqm6AJOol",
-                "recApT3pEV1NsMTEu",
-                "recVsfK0RjPgZBbO8",
-                "recLSTEnp4oO32B5V",
-                "recWPc7OYh52hGxzs",
-                "recK4kY433fHpRweu"
-            ],
-            "writers": [
-                "paul_2479"
-            ],
-            "testament": "New Testament",
-            "slug": "rom",
-            "peopleCount": 238,
-            "placeCount": 13,
-            "modified": "2026-01-05T10:59:36.000Z"
+            ]
         }
     },
     {
@@ -30531,11 +30531,42 @@
         "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "1Cor",
-            "bookName": "1 Corinthians",
-            "chapterCount": 16,
-            "bookDiv": "Pauline Epistles",
-            "shortName": "1Co",
             "bookOrder": 46,
+            "bookName": "1 Corinthians",
+            "bookDiv": "Pauline Epistles",
+            "testament": "New Testament",
+            "shortName": "1Co",
+            "slug": "1cor",
+            "yearWritten": "56",
+            "placeWritten": [
+                "recBYO9ocr5Gssb47"
+            ],
+            "chapters": [
+                "recuM8o3MRRjsRpCa",
+                "rec0BQ7klmJXdnzHQ",
+                "rectfXxL0wo0qURRh",
+                "reczqFQohADZmhLsg",
+                "reccMdm5XQiiakv0v",
+                "rec20R39iz6KRW35X",
+                "rec4QtbrhEtWcVwkQ",
+                "recdShZOR81vhJcBv",
+                "recMKOA2wyRYF2N9q",
+                "recMFSTFpWdojRKBD",
+                "recGCLTnyrv0S5gmZ",
+                "rec45XUuCQf7Dfw5h",
+                "recGIcXHuvjs58zgI",
+                "rec3ONhQVGN8FTum1",
+                "recH2oKlyOXHWUwwg",
+                "recxoD1hdZGgcxeOA"
+            ],
+            "chapterCount": 16,
+            "verseCount": 437,
+            "writers": [
+                "paul_2479"
+            ],
+            "peopleCount": 192,
+            "placeCount": 8,
+            "modified": "2026-01-05T10:59:36.000Z",
             "verses": [
                 "rec0yLwq3rSPsQC5r",
                 "rec5t80ttmHdVbAZN",
@@ -30974,38 +31005,7 @@
                 "reckrY0cViKD33vKO",
                 "recHbFda6fkwadPti",
                 "rec2b64ypm2UUy2PG"
-            ],
-            "yearWritten": "56",
-            "placeWritten": [
-                "recBYO9ocr5Gssb47"
-            ],
-            "verseCount": 437,
-            "chapters": [
-                "recuM8o3MRRjsRpCa",
-                "rec0BQ7klmJXdnzHQ",
-                "rectfXxL0wo0qURRh",
-                "reczqFQohADZmhLsg",
-                "reccMdm5XQiiakv0v",
-                "rec20R39iz6KRW35X",
-                "rec4QtbrhEtWcVwkQ",
-                "recdShZOR81vhJcBv",
-                "recMKOA2wyRYF2N9q",
-                "recMFSTFpWdojRKBD",
-                "recGCLTnyrv0S5gmZ",
-                "rec45XUuCQf7Dfw5h",
-                "recGIcXHuvjs58zgI",
-                "rec3ONhQVGN8FTum1",
-                "recH2oKlyOXHWUwwg",
-                "recxoD1hdZGgcxeOA"
-            ],
-            "writers": [
-                "paul_2479"
-            ],
-            "testament": "New Testament",
-            "slug": "1cor",
-            "peopleCount": 192,
-            "placeCount": 8,
-            "modified": "2026-01-05T10:59:36.000Z"
+            ]
         }
     },
     {
@@ -31013,11 +31013,39 @@
         "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "2Cor",
-            "bookName": "2 Corinthians",
-            "chapterCount": 13,
-            "bookDiv": "Pauline Epistles",
-            "shortName": "2Co",
             "bookOrder": 47,
+            "bookName": "2 Corinthians",
+            "bookDiv": "Pauline Epistles",
+            "testament": "New Testament",
+            "shortName": "2Co",
+            "slug": "2cor",
+            "yearWritten": "56",
+            "placeWritten": [
+                "recly2TmP9CBHh8OQ"
+            ],
+            "chapters": [
+                "recikRt8RL0hvJ1Jr",
+                "recUeIs4gxfoDB8La",
+                "recpzzh7XLRQdQBE4",
+                "rectZcIT9W9tsa5uo",
+                "recS4YntOtW36Ix9O",
+                "recJQJygPPiMWkGxa",
+                "reccNb4skV2fFYq6d",
+                "recaCdYBxZHgIO9dH",
+                "recnSbwWxgN8Pae9T",
+                "recPQXFFqq2JLYPJ8",
+                "recEKGOXc4MxlQklE",
+                "rechHWkWoWpRHN5Zy",
+                "rec73CpNOuuMinA94"
+            ],
+            "chapterCount": 13,
+            "verseCount": 257,
+            "writers": [
+                "paul_2479"
+            ],
+            "peopleCount": 122,
+            "placeCount": 12,
+            "modified": "2026-01-05T10:59:36.000Z",
             "verses": [
                 "recTgys1iuuYXWikh",
                 "recnI8HCkDh00wTUY",
@@ -31276,35 +31304,7 @@
                 "receHHvVmdiI3RLqx",
                 "recDuwzQQYD0Gi3UQ",
                 "recqDAbPi29sOrSnR"
-            ],
-            "yearWritten": "56",
-            "placeWritten": [
-                "recly2TmP9CBHh8OQ"
-            ],
-            "verseCount": 257,
-            "chapters": [
-                "recikRt8RL0hvJ1Jr",
-                "recUeIs4gxfoDB8La",
-                "recpzzh7XLRQdQBE4",
-                "rectZcIT9W9tsa5uo",
-                "recS4YntOtW36Ix9O",
-                "recJQJygPPiMWkGxa",
-                "reccNb4skV2fFYq6d",
-                "recaCdYBxZHgIO9dH",
-                "recnSbwWxgN8Pae9T",
-                "recPQXFFqq2JLYPJ8",
-                "recEKGOXc4MxlQklE",
-                "rechHWkWoWpRHN5Zy",
-                "rec73CpNOuuMinA94"
-            ],
-            "writers": [
-                "paul_2479"
-            ],
-            "testament": "New Testament",
-            "slug": "2cor",
-            "peopleCount": 122,
-            "placeCount": 12,
-            "modified": "2026-01-05T10:59:36.000Z"
+            ]
         }
     },
     {
@@ -31312,11 +31312,32 @@
         "createdTime": "2018-05-13T17:19:17.000Z",
         "fields": {
             "osisName": "Gal",
-            "bookName": "Galatians",
-            "chapterCount": 6,
-            "bookDiv": "Pauline Epistles",
-            "shortName": "Ga",
             "bookOrder": 48,
+            "bookName": "Galatians",
+            "bookDiv": "Pauline Epistles",
+            "testament": "New Testament",
+            "shortName": "Ga",
+            "slug": "gal",
+            "yearWritten": "49",
+            "placeWritten": [
+                "recKAFuMIt8BAi2OH"
+            ],
+            "chapters": [
+                "recQzZJTHhuGShRKa",
+                "recuiiXIXDK57QeLA",
+                "recPOPMv2e1otNmwF",
+                "recdRx0vEkQDaF3WW",
+                "recOvrol5txX9OhvS",
+                "rec2x9ZZvioIp5pBS"
+            ],
+            "chapterCount": 6,
+            "verseCount": 149,
+            "writers": [
+                "paul_2479"
+            ],
+            "peopleCount": 87,
+            "placeCount": 10,
+            "modified": "2026-01-05T10:59:36.000Z",
             "verses": [
                 "recwep11dNUMlk2Ki",
                 "recmviEmcNTtf9zhp",
@@ -31467,28 +31488,7 @@
                 "reco6VqXssLOV5vZi",
                 "recPzysEOhMSmdWy2",
                 "recpKpTZQgrrH7ej8"
-            ],
-            "yearWritten": "49",
-            "placeWritten": [
-                "recKAFuMIt8BAi2OH"
-            ],
-            "verseCount": 149,
-            "chapters": [
-                "recQzZJTHhuGShRKa",
-                "recuiiXIXDK57QeLA",
-                "recPOPMv2e1otNmwF",
-                "recdRx0vEkQDaF3WW",
-                "recOvrol5txX9OhvS",
-                "rec2x9ZZvioIp5pBS"
-            ],
-            "writers": [
-                "paul_2479"
-            ],
-            "testament": "New Testament",
-            "slug": "gal",
-            "peopleCount": 87,
-            "placeCount": 10,
-            "modified": "2026-01-05T10:59:36.000Z"
+            ]
         }
     },
     {
@@ -31496,11 +31496,32 @@
         "createdTime": "2018-05-13T17:19:17.000Z",
         "fields": {
             "osisName": "Eph",
-            "bookName": "Ephesians",
-            "chapterCount": 6,
-            "bookDiv": "Pauline Epistles",
-            "shortName": "Eph",
             "bookOrder": 49,
+            "bookName": "Ephesians",
+            "bookDiv": "Pauline Epistles",
+            "testament": "New Testament",
+            "shortName": "Eph",
+            "slug": "eph",
+            "yearWritten": "61",
+            "placeWritten": [
+                "recDDkVF36ecPUge4"
+            ],
+            "chapters": [
+                "recSLhSNy8htKWFjo",
+                "recsXbD3T3F8MbXwX",
+                "recgw3QGmI6FAbcw3",
+                "reczI7IDkOQBjLzzw",
+                "rec29jWvix3ORE6QN",
+                "recd0BM05lbMnPn7a"
+            ],
+            "chapterCount": 6,
+            "verseCount": 155,
+            "writers": [
+                "paul_2479"
+            ],
+            "peopleCount": 88,
+            "placeCount": 1,
+            "modified": "2026-01-05T10:59:36.000Z",
             "verses": [
                 "rec1p1JVKaABeUCb1",
                 "recR1cf28AnNGNnsZ",
@@ -31657,28 +31678,7 @@
                 "recH1KQUqZGTGJNNV",
                 "recXexlugfx7pZ8iy",
                 "rece9YPM83k87vSxD"
-            ],
-            "yearWritten": "61",
-            "placeWritten": [
-                "recDDkVF36ecPUge4"
-            ],
-            "verseCount": 155,
-            "chapters": [
-                "recSLhSNy8htKWFjo",
-                "recsXbD3T3F8MbXwX",
-                "recgw3QGmI6FAbcw3",
-                "reczI7IDkOQBjLzzw",
-                "rec29jWvix3ORE6QN",
-                "recd0BM05lbMnPn7a"
-            ],
-            "writers": [
-                "paul_2479"
-            ],
-            "testament": "New Testament",
-            "slug": "eph",
-            "peopleCount": 88,
-            "placeCount": 1,
-            "modified": "2026-01-05T10:59:36.000Z"
+            ]
         }
     },
     {
@@ -31686,11 +31686,30 @@
         "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "Phil",
-            "bookName": "Philippians",
-            "chapterCount": 4,
-            "bookDiv": "Pauline Epistles",
-            "shortName": "Php",
             "bookOrder": 50,
+            "bookName": "Philippians",
+            "bookDiv": "Pauline Epistles",
+            "testament": "New Testament",
+            "shortName": "Php",
+            "slug": "phil",
+            "yearWritten": "61",
+            "placeWritten": [
+                "recDDkVF36ecPUge4"
+            ],
+            "chapters": [
+                "recPE8yUmP9V4utuG",
+                "recRXc0J6jFXQ782n",
+                "recd3c3iLlZe6KfRm",
+                "rec3XZm0Jqwgkydvn"
+            ],
+            "chapterCount": 4,
+            "verseCount": 104,
+            "writers": [
+                "paul_2479"
+            ],
+            "peopleCount": 63,
+            "placeCount": 3,
+            "modified": "2026-01-05T10:59:36.000Z",
             "verses": [
                 "recA1CELqqhDExoq4",
                 "recH5BQjBcXElClx4",
@@ -31796,26 +31815,7 @@
                 "recPIIFXEDix2PvkB",
                 "recok1HhwC3xV6mtT",
                 "recm0CGjFH31qIexH"
-            ],
-            "yearWritten": "61",
-            "placeWritten": [
-                "recDDkVF36ecPUge4"
-            ],
-            "verseCount": 104,
-            "chapters": [
-                "recPE8yUmP9V4utuG",
-                "recRXc0J6jFXQ782n",
-                "recd3c3iLlZe6KfRm",
-                "rec3XZm0Jqwgkydvn"
-            ],
-            "writers": [
-                "paul_2479"
-            ],
-            "testament": "New Testament",
-            "slug": "phil",
-            "peopleCount": 63,
-            "placeCount": 3,
-            "modified": "2026-01-05T10:59:36.000Z"
+            ]
         }
     },
     {
@@ -31823,11 +31823,30 @@
         "createdTime": "2018-05-13T17:19:17.000Z",
         "fields": {
             "osisName": "Col",
-            "bookName": "Colossians",
-            "chapterCount": 4,
-            "bookDiv": "Pauline Epistles",
-            "shortName": "Col",
             "bookOrder": 51,
+            "bookName": "Colossians",
+            "bookDiv": "Pauline Epistles",
+            "testament": "New Testament",
+            "shortName": "Col",
+            "slug": "col",
+            "yearWritten": "61",
+            "placeWritten": [
+                "recDDkVF36ecPUge4"
+            ],
+            "chapters": [
+                "rec6xVrkSz39SguDd",
+                "recwqSEmxu592dHkx",
+                "rec0KJU32O25P51c5",
+                "recUfNjRA1fAcJeae"
+            ],
+            "chapterCount": 4,
+            "verseCount": 95,
+            "writers": [
+                "paul_2479"
+            ],
+            "peopleCount": 51,
+            "placeCount": 5,
+            "modified": "2026-01-05T10:59:36.000Z",
             "verses": [
                 "recuJuitvGvn5pP49",
                 "recT9Yh4WiAtxdoVm",
@@ -31924,26 +31943,7 @@
                 "recYKHuu3IzLozoID",
                 "recUQ0CXl1LLC6Eah",
                 "recuudF5BYrllOPt7"
-            ],
-            "yearWritten": "61",
-            "placeWritten": [
-                "recDDkVF36ecPUge4"
-            ],
-            "verseCount": 95,
-            "chapters": [
-                "rec6xVrkSz39SguDd",
-                "recwqSEmxu592dHkx",
-                "rec0KJU32O25P51c5",
-                "recUfNjRA1fAcJeae"
-            ],
-            "writers": [
-                "paul_2479"
-            ],
-            "testament": "New Testament",
-            "slug": "col",
-            "peopleCount": 51,
-            "placeCount": 5,
-            "modified": "2026-01-05T10:59:36.000Z"
+            ]
         }
     },
     {
@@ -31951,11 +31951,31 @@
         "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "1Thess",
-            "bookName": "1 Thessalonians",
-            "chapterCount": 5,
-            "bookDiv": "Pauline Epistles",
-            "shortName": "1Th",
             "bookOrder": 52,
+            "bookName": "1 Thessalonians",
+            "bookDiv": "Pauline Epistles",
+            "testament": "New Testament",
+            "shortName": "1Th",
+            "slug": "1thess",
+            "yearWritten": "51",
+            "placeWritten": [
+                "recQThsW3uau1oxf9"
+            ],
+            "chapters": [
+                "reca5y8qrzew69WDL",
+                "recFuzalUuxuYG2qd",
+                "rec7vODljEKudG8QE",
+                "reczvpnFjyDmOwUoi",
+                "recwiRu6DiwyaNzqO"
+            ],
+            "chapterCount": 5,
+            "verseCount": 89,
+            "writers": [
+                "paul_2479"
+            ],
+            "peopleCount": 49,
+            "placeCount": 6,
+            "modified": "2026-01-05T10:59:36.000Z",
             "verses": [
                 "recoZ6AogEfZAyDD4",
                 "recJ8Ix2mlKIBWIcN",
@@ -32046,27 +32066,7 @@
                 "rec6MRJ4mNC0lZ0gR",
                 "recskm05A0CdGevJ3",
                 "reclSfBSVmuTPvZti"
-            ],
-            "yearWritten": "51",
-            "placeWritten": [
-                "recQThsW3uau1oxf9"
-            ],
-            "verseCount": 89,
-            "chapters": [
-                "reca5y8qrzew69WDL",
-                "recFuzalUuxuYG2qd",
-                "rec7vODljEKudG8QE",
-                "reczvpnFjyDmOwUoi",
-                "recwiRu6DiwyaNzqO"
-            ],
-            "writers": [
-                "paul_2479"
-            ],
-            "testament": "New Testament",
-            "slug": "1thess",
-            "peopleCount": 49,
-            "placeCount": 6,
-            "modified": "2026-01-05T10:59:36.000Z"
+            ]
         }
     },
     {
@@ -32074,11 +32074,29 @@
         "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "2Thess",
-            "bookName": "2 Thessalonians",
-            "chapterCount": 3,
-            "bookDiv": "Pauline Epistles",
-            "shortName": "2Th",
             "bookOrder": 53,
+            "bookName": "2 Thessalonians",
+            "bookDiv": "Pauline Epistles",
+            "testament": "New Testament",
+            "shortName": "2Th",
+            "slug": "2thess",
+            "yearWritten": "51",
+            "placeWritten": [
+                "recQThsW3uau1oxf9"
+            ],
+            "chapters": [
+                "recFIadWwNcwFQDsi",
+                "rec1WoFlIAgDtEvkI",
+                "recHbLrTso4xcgKNi"
+            ],
+            "chapterCount": 3,
+            "verseCount": 47,
+            "writers": [
+                "paul_2479"
+            ],
+            "peopleCount": 29,
+            "placeCount": 0,
+            "modified": "2026-01-05T10:59:36.000Z",
             "verses": [
                 "recyB3ziTbecRxeVS",
                 "recR2cfELye4xWSrp",
@@ -32127,25 +32145,7 @@
                 "recSFcQKxWF0XyIth",
                 "recHzweFq22UdosZK",
                 "rec8tsvceyCD7B9hi"
-            ],
-            "yearWritten": "51",
-            "placeWritten": [
-                "recQThsW3uau1oxf9"
-            ],
-            "verseCount": 47,
-            "chapters": [
-                "recFIadWwNcwFQDsi",
-                "rec1WoFlIAgDtEvkI",
-                "recHbLrTso4xcgKNi"
-            ],
-            "writers": [
-                "paul_2479"
-            ],
-            "testament": "New Testament",
-            "slug": "2thess",
-            "peopleCount": 29,
-            "placeCount": 0,
-            "modified": "2026-01-05T10:59:36.000Z"
+            ]
         }
     },
     {
@@ -32153,11 +32153,29 @@
         "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "1Tim",
-            "bookName": "1 Timothy",
-            "chapterCount": 6,
-            "bookDiv": "Pauline Epistles",
-            "shortName": "1Ti",
             "bookOrder": 54,
+            "bookName": "1 Timothy",
+            "bookDiv": "Pauline Epistles",
+            "testament": "New Testament",
+            "shortName": "1Ti",
+            "slug": "1tim",
+            "yearWritten": "63",
+            "chapters": [
+                "rece7hdDGdaTeneok",
+                "rec3wKvOm7CfRjRR0",
+                "rec0PCINrFAHRXwdO",
+                "rec6iMdTdk9z5eN3y",
+                "recCqafny9SQuhezG",
+                "recGjyMJNUQWSN7WJ"
+            ],
+            "chapterCount": 6,
+            "verseCount": 113,
+            "writers": [
+                "paul_2479"
+            ],
+            "peopleCount": 38,
+            "placeCount": 1,
+            "modified": "2026-01-05T10:59:36.000Z",
             "verses": [
                 "reczffIIG1JpN2VRn",
                 "rec1XHrikq2uuLDq4",
@@ -32272,25 +32290,7 @@
                 "reciatpHf4s60zJHK",
                 "recnowxWF1SxSPffB",
                 "recwZVvYWVM05VKYw"
-            ],
-            "yearWritten": "63",
-            "verseCount": 113,
-            "chapters": [
-                "rece7hdDGdaTeneok",
-                "rec3wKvOm7CfRjRR0",
-                "rec0PCINrFAHRXwdO",
-                "rec6iMdTdk9z5eN3y",
-                "recCqafny9SQuhezG",
-                "recGjyMJNUQWSN7WJ"
-            ],
-            "writers": [
-                "paul_2479"
-            ],
-            "testament": "New Testament",
-            "slug": "1tim",
-            "peopleCount": 38,
-            "placeCount": 1,
-            "modified": "2026-01-05T10:59:36.000Z"
+            ]
         }
     },
     {
@@ -32298,11 +32298,30 @@
         "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "2Tim",
-            "bookName": "2 Timothy",
-            "chapterCount": 4,
-            "bookDiv": "Pauline Epistles",
-            "shortName": "2Ti",
             "bookOrder": 55,
+            "bookName": "2 Timothy",
+            "bookDiv": "Pauline Epistles",
+            "testament": "New Testament",
+            "shortName": "2Ti",
+            "slug": "2tim",
+            "yearWritten": "66",
+            "placeWritten": [
+                "recDDkVF36ecPUge4"
+            ],
+            "chapters": [
+                "recYXapOsOd17TzPR",
+                "recU6gnvyKW6qmM6o",
+                "rec916QLvCemVPgj2",
+                "recO3dxNU0FrXPmWY"
+            ],
+            "chapterCount": 4,
+            "verseCount": 83,
+            "writers": [
+                "paul_2479"
+            ],
+            "peopleCount": 47,
+            "placeCount": 8,
+            "modified": "2026-01-05T10:59:36.000Z",
             "verses": [
                 "recEoKSPGEH4ZZPFv",
                 "rece68HCNUr2Jp32M",
@@ -32387,26 +32406,7 @@
                 "recrV8qsNc367q9cN",
                 "recdOaJKBeUwLMq2M",
                 "rec53fDlWTdpbSu68"
-            ],
-            "yearWritten": "66",
-            "placeWritten": [
-                "recDDkVF36ecPUge4"
-            ],
-            "verseCount": 83,
-            "chapters": [
-                "recYXapOsOd17TzPR",
-                "recU6gnvyKW6qmM6o",
-                "rec916QLvCemVPgj2",
-                "recO3dxNU0FrXPmWY"
-            ],
-            "writers": [
-                "paul_2479"
-            ],
-            "testament": "New Testament",
-            "slug": "2tim",
-            "peopleCount": 47,
-            "placeCount": 8,
-            "modified": "2026-01-05T10:59:36.000Z"
+            ]
         }
     },
     {
@@ -32414,11 +32414,26 @@
         "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "Titus",
-            "bookName": "Titus",
-            "chapterCount": 3,
-            "bookDiv": "Pauline Epistles",
-            "shortName": "Tit",
             "bookOrder": 56,
+            "bookName": "Titus",
+            "bookDiv": "Pauline Epistles",
+            "testament": "New Testament",
+            "shortName": "Tit",
+            "slug": "titus",
+            "yearWritten": "63",
+            "chapters": [
+                "recut3mid3XomgMBP",
+                "recZCBD8DL7tVQ64h",
+                "rec6T08pJgHwNLH3R"
+            ],
+            "chapterCount": 3,
+            "verseCount": 46,
+            "writers": [
+                "paul_2479"
+            ],
+            "peopleCount": 16,
+            "placeCount": 2,
+            "modified": "2026-01-05T10:59:36.000Z",
             "verses": [
                 "recKC5GqYAYHo3rcW",
                 "recDjc5gWkqf9Y1RZ",
@@ -32466,22 +32481,7 @@
                 "recM9MEvNBvkAvfzE",
                 "recqk2CFv7ZT6c0rh",
                 "recQF8evtCwXHY0xw"
-            ],
-            "yearWritten": "63",
-            "verseCount": 46,
-            "chapters": [
-                "recut3mid3XomgMBP",
-                "recZCBD8DL7tVQ64h",
-                "rec6T08pJgHwNLH3R"
-            ],
-            "writers": [
-                "paul_2479"
-            ],
-            "testament": "New Testament",
-            "slug": "titus",
-            "peopleCount": 16,
-            "placeCount": 2,
-            "modified": "2026-01-05T10:59:36.000Z"
+            ]
         }
     },
     {
@@ -32489,11 +32489,27 @@
         "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "Phlm",
-            "bookName": "Philemon",
-            "chapterCount": 1,
-            "bookDiv": "Pauline Epistles",
-            "shortName": "Phm",
             "bookOrder": 57,
+            "bookName": "Philemon",
+            "bookDiv": "Pauline Epistles",
+            "testament": "New Testament",
+            "shortName": "Phm",
+            "slug": "phlm",
+            "yearWritten": "61",
+            "placeWritten": [
+                "recDDkVF36ecPUge4"
+            ],
+            "chapters": [
+                "recZ2o7MAHvRBqvlF"
+            ],
+            "chapterCount": 1,
+            "verseCount": 25,
+            "writers": [
+                "paul_2479"
+            ],
+            "peopleCount": 15,
+            "placeCount": 0,
+            "modified": "2026-01-05T10:59:36.000Z",
             "verses": [
                 "recZDi75YsEjiWPSZ",
                 "recxi0eSUNq7JlqCE",
@@ -32520,23 +32536,7 @@
                 "recyemFOGL1s1vrp8",
                 "rec2IfSfMx9WBPrOq",
                 "recj1RyED84AExicf"
-            ],
-            "yearWritten": "61",
-            "placeWritten": [
-                "recDDkVF36ecPUge4"
-            ],
-            "verseCount": 25,
-            "chapters": [
-                "recZ2o7MAHvRBqvlF"
-            ],
-            "writers": [
-                "paul_2479"
-            ],
-            "testament": "New Testament",
-            "slug": "phlm",
-            "peopleCount": 15,
-            "placeCount": 0,
-            "modified": "2026-01-05T10:59:36.000Z"
+            ]
         }
     },
     {
@@ -32544,11 +32544,36 @@
         "createdTime": "2018-05-13T17:19:17.000Z",
         "fields": {
             "osisName": "Heb",
-            "bookName": "Hebrews",
-            "chapterCount": 13,
-            "bookDiv": "Pauline Epistles",
-            "shortName": "Heb",
             "bookOrder": 58,
+            "bookName": "Hebrews",
+            "bookDiv": "Pauline Epistles",
+            "testament": "New Testament",
+            "shortName": "Heb",
+            "slug": "heb",
+            "yearWritten": "67",
+            "chapters": [
+                "rec1NwCbwtBqJy07a",
+                "recKTdJg9I24WQdgK",
+                "recwRjMA3VxKfawHt",
+                "recA1R8O0ABctXgpE",
+                "recoGQnD3ErZfdFjw",
+                "recdHh2hgu8Ggrmij",
+                "recIU5zQctTzB8PO7",
+                "recDrVDtjNVrgnqCX",
+                "recotaeJQ7jvG0eA0",
+                "recQ9FJQtMkGMFYji",
+                "recRvkLcMPoWt2wiN",
+                "recvosRlBA1gzSmDO",
+                "recvOeoHGt3H4I5p0"
+            ],
+            "chapterCount": 13,
+            "verseCount": 303,
+            "writers": [
+                "paul_2479"
+            ],
+            "peopleCount": 139,
+            "placeCount": 11,
+            "modified": "2026-01-05T10:59:36.000Z",
             "verses": [
                 "recSwdcLttBTbQv4x",
                 "recSPqc6CGa36PBYM",
@@ -32853,32 +32878,7 @@
                 "recCMrwwIEhccYNcy",
                 "recuWcI9hj2a9UFy6",
                 "reckIZRHofJBUUP5S"
-            ],
-            "yearWritten": "67",
-            "verseCount": 303,
-            "chapters": [
-                "rec1NwCbwtBqJy07a",
-                "recKTdJg9I24WQdgK",
-                "recwRjMA3VxKfawHt",
-                "recA1R8O0ABctXgpE",
-                "recoGQnD3ErZfdFjw",
-                "recdHh2hgu8Ggrmij",
-                "recIU5zQctTzB8PO7",
-                "recDrVDtjNVrgnqCX",
-                "recotaeJQ7jvG0eA0",
-                "recQ9FJQtMkGMFYji",
-                "recRvkLcMPoWt2wiN",
-                "recvosRlBA1gzSmDO",
-                "recvOeoHGt3H4I5p0"
-            ],
-            "writers": [
-                "paul_2479"
-            ],
-            "testament": "New Testament",
-            "slug": "heb",
-            "peopleCount": 139,
-            "placeCount": 11,
-            "modified": "2026-01-05T10:59:36.000Z"
+            ]
         }
     },
     {
@@ -32886,11 +32886,28 @@
         "createdTime": "2018-05-13T17:19:17.000Z",
         "fields": {
             "osisName": "Jas",
-            "bookName": "James",
-            "chapterCount": 5,
-            "bookDiv": "General Epistles",
-            "shortName": "Jas",
             "bookOrder": 59,
+            "bookName": "James",
+            "bookDiv": "General Epistles",
+            "testament": "New Testament",
+            "shortName": "Jas",
+            "slug": "jas",
+            "yearWritten": "45",
+            "chapters": [
+                "recLKdKz1PjbJNN3h",
+                "recwQmsjkqeVaUubK",
+                "rec3VFMIMJOjHpXmx",
+                "rec2UgJCoHRjJ7DQA",
+                "recYGqUGxJY7RNRO4"
+            ],
+            "chapterCount": 5,
+            "verseCount": 108,
+            "writers": [
+                "james_719"
+            ],
+            "peopleCount": 29,
+            "placeCount": 0,
+            "modified": "2026-01-05T10:59:36.000Z",
             "verses": [
                 "recMb3LQsSCZXUtuq",
                 "rec2cauuO0PqSpVso",
@@ -33000,24 +33017,7 @@
                 "recbnJamAIYsB6aB6",
                 "recgaTFZIUvYDOi5P",
                 "rectyJhFIfiWzTYqb"
-            ],
-            "yearWritten": "45",
-            "verseCount": 108,
-            "chapters": [
-                "recLKdKz1PjbJNN3h",
-                "recwQmsjkqeVaUubK",
-                "rec3VFMIMJOjHpXmx",
-                "rec2UgJCoHRjJ7DQA",
-                "recYGqUGxJY7RNRO4"
-            ],
-            "writers": [
-                "james_719"
-            ],
-            "testament": "New Testament",
-            "slug": "jas",
-            "peopleCount": 29,
-            "placeCount": 0,
-            "modified": "2026-01-05T10:59:36.000Z"
+            ]
         }
     },
     {
@@ -33025,11 +33025,28 @@
         "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "1Pet",
-            "bookName": "1 Peter",
-            "chapterCount": 5,
-            "bookDiv": "General Epistles",
-            "shortName": "1Pe",
             "bookOrder": 60,
+            "bookName": "1 Peter",
+            "bookDiv": "General Epistles",
+            "testament": "New Testament",
+            "shortName": "1Pe",
+            "slug": "1pet",
+            "yearWritten": "64",
+            "chapters": [
+                "recVZx7zfsoJWFIz7",
+                "recX6UjsQhcnlr8H2",
+                "recMDx3FOFKvAoKEr",
+                "recDOP6YsAPdXcnay",
+                "recPyB5jESDK52Hep"
+            ],
+            "chapterCount": 5,
+            "verseCount": 105,
+            "writers": [
+                "peter_2745"
+            ],
+            "peopleCount": 56,
+            "placeCount": 3,
+            "modified": "2026-01-05T10:59:36.000Z",
             "verses": [
                 "reczkrSRLt8qSAS10",
                 "rech39ZNy4AjmkX7E",
@@ -33136,24 +33153,7 @@
                 "recuRPEbGO15hceho",
                 "recLHoLOuq7wqwzT1",
                 "recOEZYjXwiPjbALr"
-            ],
-            "yearWritten": "64",
-            "verseCount": 105,
-            "chapters": [
-                "recVZx7zfsoJWFIz7",
-                "recX6UjsQhcnlr8H2",
-                "recMDx3FOFKvAoKEr",
-                "recDOP6YsAPdXcnay",
-                "recPyB5jESDK52Hep"
-            ],
-            "writers": [
-                "peter_2745"
-            ],
-            "testament": "New Testament",
-            "slug": "1pet",
-            "peopleCount": 56,
-            "placeCount": 3,
-            "modified": "2026-01-05T10:59:36.000Z"
+            ]
         }
     },
     {
@@ -33161,11 +33161,26 @@
         "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "2Pet",
-            "bookName": "2 Peter",
-            "chapterCount": 3,
-            "bookDiv": "General Epistles",
-            "shortName": "2Pe",
             "bookOrder": 61,
+            "bookName": "2 Peter",
+            "bookDiv": "General Epistles",
+            "testament": "New Testament",
+            "shortName": "2Pe",
+            "slug": "2pet",
+            "yearWritten": "67",
+            "chapters": [
+                "recmu9PngE1C6rU9E",
+                "recSC6eRfCmlOlB2S",
+                "recdmLDhUhGPzMggX"
+            ],
+            "chapterCount": 3,
+            "verseCount": 61,
+            "writers": [
+                "peter_2745"
+            ],
+            "peopleCount": 24,
+            "placeCount": 1,
+            "modified": "2026-01-05T10:59:36.000Z",
             "verses": [
                 "recJywfdv1mGv3bNH",
                 "recBBIO4IenF1sW8r",
@@ -33228,22 +33243,7 @@
                 "recYRkw2JWoGVoEBe",
                 "recivnTALiGZTPy4b",
                 "recjUVTDiJoEekP4J"
-            ],
-            "yearWritten": "67",
-            "verseCount": 61,
-            "chapters": [
-                "recmu9PngE1C6rU9E",
-                "recSC6eRfCmlOlB2S",
-                "recdmLDhUhGPzMggX"
-            ],
-            "writers": [
-                "peter_2745"
-            ],
-            "testament": "New Testament",
-            "slug": "2pet",
-            "peopleCount": 24,
-            "placeCount": 1,
-            "modified": "2026-01-05T10:59:36.000Z"
+            ]
         }
     },
     {
@@ -33251,11 +33251,26 @@
         "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "1John",
-            "bookName": "1 John",
-            "chapterCount": 5,
-            "bookDiv": "General Epistles",
-            "shortName": "1Jn",
             "bookOrder": 62,
+            "bookName": "1 John",
+            "bookDiv": "General Epistles",
+            "testament": "New Testament",
+            "shortName": "1Jn",
+            "slug": "1john",
+            "chapters": [
+                "recae9fsaMGJA5asr",
+                "recAdlLNktEIVHUsd",
+                "rec5s6jjHTAalF81i",
+                "recb5JMGVgr0vCL3X",
+                "recMssh5ftJunCKSv"
+            ],
+            "chapterCount": 5,
+            "verseCount": 105,
+            "writers": [
+                "john_1677"
+            ],
+            "peopleCount": 61,
+            "placeCount": 0,
             "verses": [
                 "recBxujg9bNfrLm6a",
                 "recB1efO2snc6Bfzj",
@@ -33362,22 +33377,7 @@
                 "rechHqbFP8T691dqC",
                 "recXdli5fp7qeRZMK",
                 "recUm76I9r8gkeYaR"
-            ],
-            "verseCount": 105,
-            "chapters": [
-                "recae9fsaMGJA5asr",
-                "recAdlLNktEIVHUsd",
-                "rec5s6jjHTAalF81i",
-                "recb5JMGVgr0vCL3X",
-                "recMssh5ftJunCKSv"
-            ],
-            "writers": [
-                "john_1677"
-            ],
-            "testament": "New Testament",
-            "slug": "1john",
-            "peopleCount": 61,
-            "placeCount": 0
+            ]
         }
     },
     {
@@ -33385,11 +33385,22 @@
         "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "2John",
-            "bookName": "2 John",
-            "chapterCount": 1,
-            "bookDiv": "General Epistles",
-            "shortName": "2Jn",
             "bookOrder": 63,
+            "bookName": "2 John",
+            "bookDiv": "General Epistles",
+            "testament": "New Testament",
+            "shortName": "2Jn",
+            "slug": "2john",
+            "chapters": [
+                "recUpCj7orTNacVvx"
+            ],
+            "chapterCount": 1,
+            "verseCount": 13,
+            "writers": [
+                "john_1677"
+            ],
+            "peopleCount": 6,
+            "placeCount": 0,
             "verses": [
                 "recVP0HSC2orFvKyq",
                 "recaCAOAojSwhlmto",
@@ -33404,18 +33415,7 @@
                 "recUEPVvXvT2lvRsJ",
                 "recA9GsdDEV07EofK",
                 "recv7ZXhMOa6MSBUy"
-            ],
-            "verseCount": 13,
-            "chapters": [
-                "recUpCj7orTNacVvx"
-            ],
-            "writers": [
-                "john_1677"
-            ],
-            "testament": "New Testament",
-            "slug": "2john",
-            "peopleCount": 6,
-            "placeCount": 0
+            ]
         }
     },
     {
@@ -33423,11 +33423,22 @@
         "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "3John",
-            "bookName": "3 John",
-            "chapterCount": 1,
-            "bookDiv": "General Epistles",
-            "shortName": "3Jn",
             "bookOrder": 64,
+            "bookName": "3 John",
+            "bookDiv": "General Epistles",
+            "testament": "New Testament",
+            "shortName": "3Jn",
+            "slug": "3john",
+            "chapters": [
+                "recC7eHfosTXlVT5U"
+            ],
+            "chapterCount": 1,
+            "verseCount": 14,
+            "writers": [
+                "john_1677"
+            ],
+            "peopleCount": 4,
+            "placeCount": 0,
             "verses": [
                 "recQEgzU2qUisV8cc",
                 "recjJZ3fXYtHKaKjg",
@@ -33443,18 +33454,7 @@
                 "recKGBLg6skvCLO4S",
                 "recxMpRAhWnETvKvE",
                 "rece47qD0Nm1hwzMu"
-            ],
-            "verseCount": 14,
-            "chapters": [
-                "recC7eHfosTXlVT5U"
-            ],
-            "writers": [
-                "john_1677"
-            ],
-            "testament": "New Testament",
-            "slug": "3john",
-            "peopleCount": 4,
-            "placeCount": 0
+            ]
         }
     },
     {
@@ -33462,11 +33462,22 @@
         "createdTime": "2018-05-22T19:36:23.000Z",
         "fields": {
             "osisName": "Jude",
-            "bookName": "Jude",
-            "chapterCount": 1,
-            "bookDiv": "General Epistles",
-            "shortName": "Jud",
             "bookOrder": 65,
+            "bookName": "Jude",
+            "bookDiv": "General Epistles",
+            "testament": "New Testament",
+            "shortName": "Jud",
+            "slug": "jude",
+            "chapters": [
+                "rec4EH7bV2nNDLQV9"
+            ],
+            "chapterCount": 1,
+            "verseCount": 25,
+            "writers": [
+                "jude_1756"
+            ],
+            "peopleCount": 11,
+            "placeCount": 2,
             "verses": [
                 "rec0qj5yU8vbP4wzJ",
                 "recN9cRCLQnBYiDUZ",
@@ -33493,18 +33504,7 @@
                 "recLywL1a4y1KzloP",
                 "rec4v4mKvffmkINww",
                 "rec8XmoAxprqZexXj"
-            ],
-            "verseCount": 25,
-            "chapters": [
-                "rec4EH7bV2nNDLQV9"
-            ],
-            "writers": [
-                "jude_1756"
-            ],
-            "testament": "New Testament",
-            "slug": "jude",
-            "peopleCount": 11,
-            "placeCount": 2
+            ]
         }
     },
     {
@@ -33512,11 +33512,43 @@
         "createdTime": "2018-05-13T17:19:17.000Z",
         "fields": {
             "osisName": "Rev",
-            "bookName": "Revelation",
-            "chapterCount": 22,
-            "bookDiv": "Revelation",
-            "shortName": "Re",
             "bookOrder": 66,
+            "bookName": "Revelation",
+            "bookDiv": "Revelation",
+            "testament": "New Testament",
+            "shortName": "Re",
+            "slug": "rev",
+            "chapters": [
+                "rec4IteMmrzJkGwvB",
+                "recbY21K55SlkLybd",
+                "recHnMratQGyCTH8c",
+                "recxOJ1PS3Aq33fib",
+                "recp4Ehj1wVmA64Yk",
+                "rec9YooD5EPC31NyB",
+                "rec1AquO6rVXsEwGg",
+                "recfinW5fE4BBKKvB",
+                "recSWM1iLmySvfzGv",
+                "recC6M4OTsTi2CIze",
+                "recpkhxamPz5lL9if",
+                "rec7nSaVC1NcnKwGU",
+                "reckbWVyBYdPcXJ2A",
+                "recqCGdNsxjPdLIqN",
+                "rec4nzfmJisJHQhjj",
+                "recIBAJYaJwDRMKWH",
+                "recISNZ75E6DKUvGx",
+                "recViG0Pl9a6e5fvM",
+                "recuB1D0SVrXHk5Ix",
+                "recPVac7S0BL01NMm",
+                "reczCKBt9yqtbFq23",
+                "rec48NbZtyjNslLOV"
+            ],
+            "chapterCount": 22,
+            "verseCount": 404,
+            "writers": [
+                "john_1677"
+            ],
+            "peopleCount": 156,
+            "placeCount": 27,
             "verses": [
                 "reclL7En6xCuYvcqQ",
                 "recYuO4GMj8g8G9sX",
@@ -33922,39 +33954,7 @@
                 "recb6AU07t1PvNroS",
                 "recuxhlLPzgp2xNXh",
                 "recogsGhS7vA94UZh"
-            ],
-            "verseCount": 404,
-            "chapters": [
-                "rec4IteMmrzJkGwvB",
-                "recbY21K55SlkLybd",
-                "recHnMratQGyCTH8c",
-                "recxOJ1PS3Aq33fib",
-                "recp4Ehj1wVmA64Yk",
-                "rec9YooD5EPC31NyB",
-                "rec1AquO6rVXsEwGg",
-                "recfinW5fE4BBKKvB",
-                "recSWM1iLmySvfzGv",
-                "recC6M4OTsTi2CIze",
-                "recpkhxamPz5lL9if",
-                "rec7nSaVC1NcnKwGU",
-                "reckbWVyBYdPcXJ2A",
-                "recqCGdNsxjPdLIqN",
-                "rec4nzfmJisJHQhjj",
-                "recIBAJYaJwDRMKWH",
-                "recISNZ75E6DKUvGx",
-                "recViG0Pl9a6e5fvM",
-                "recuB1D0SVrXHk5Ix",
-                "recPVac7S0BL01NMm",
-                "reczCKBt9yqtbFq23",
-                "rec48NbZtyjNslLOV"
-            ],
-            "writers": [
-                "john_1677"
-            ],
-            "testament": "New Testament",
-            "slug": "rev",
-            "peopleCount": 156,
-            "placeCount": 27
+            ]
         }
     }
 ]
