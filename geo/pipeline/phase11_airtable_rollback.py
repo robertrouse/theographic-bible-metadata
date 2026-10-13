@@ -38,7 +38,9 @@ def main():
         'base': log['base'], 'table': log['table'],
         'update_batches': batches(updates),
         'delete_records': batches(created),
-        'manual': [f'Delete field "{f["name"]}" ({f["id"]}) in the Airtable UI' for f in log.get('fields_created', [])],
+        # Airtable adds the reverse side of a self-link ("From field: <name>") on its own
+        'manual': [f'Delete fields "{f["name"]}" ({f["id"]}) and its reverse "From field: {f["name"]}" '
+                   f'(or whatever it was renamed to) in the Airtable UI' for f in log.get('fields_created', [])],
         'snapshot': 'json/places.json at git tag airtable-places-backup-2026-10-13',
     }
     json.dump(out, open('geo/airtable/phase-11-rollback.json', 'w'), indent=1)

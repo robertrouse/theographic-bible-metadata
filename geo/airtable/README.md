@@ -35,7 +35,9 @@ AIRTABLE_TOKEN=pat... python3 geo/pipeline/phase11_airtable_apply.py --rollback
 This builds `phase-11-rollback.json` from the log, restores every changed
 field to its logged value and deletes the records the sync created. Then
 delete the `canonicalPlace` field in the Airtable UI; the API cannot delete
-fields.
+fields. Airtable also created the reverse side of the link, "From field:
+canonicalPlace" (on each canonical record, the list of its other-name
+records); delete it too, under whatever name it has by then.
 
 Full snapshot of the table before any change: `json/places.json` at git tag
 `airtable-places-backup-2026-10-13` (commit `bc4c1f1`). No record had been
