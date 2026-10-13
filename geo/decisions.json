@@ -1,0 +1,1026 @@
+{
+  "about": "Place-identity decisions from the Phase 5 review (2026-10-13). Read by later pipeline phases. source: suggested = Phase 5 heuristic accepted by the user; claude-proposed = Claude's decision on a row the heuristic left for review; claude-override = Claude overrode a suggestion. Edit freely and re-run.",
+  "merges": [
+    {
+      "canonical": "places-0801",
+      "absorb": [
+        "places-0802"
+      ],
+      "source": "suggested",
+      "note": "Shimron / Shimron-meron"
+    },
+    {
+      "canonical": "places-0686",
+      "absorb": [
+        "places-0676"
+      ],
+      "source": "suggested",
+      "note": "Rameses / Raamses"
+    },
+    {
+      "canonical": "places-0131",
+      "absorb": [
+        "places-0126"
+      ],
+      "source": "suggested",
+      "note": "Bene-jaakan / Beeroth Bene-jaakan"
+    },
+    {
+      "canonical": "places-0549",
+      "absorb": [
+        "places-0545"
+      ],
+      "source": "suggested",
+      "note": "Kabzeel / Jekabzeel"
+    },
+    {
+      "canonical": "places-0381",
+      "absorb": [
+        "places-0383"
+      ],
+      "source": "suggested",
+      "note": "Hammath / Hammoth-dor"
+    },
+    {
+      "canonical": "places-0082",
+      "absorb": [
+        "places-1001"
+      ],
+      "source": "suggested",
+      "note": "Ahlab / Mahalab"
+    },
+    {
+      "canonical": "places-0268",
+      "absorb": [
+        "places-0518"
+      ],
+      "source": "suggested",
+      "note": "Beth-shemesh / Ir-shemesh"
+    },
+    {
+      "canonical": "places-0402",
+      "absorb": [
+        "places-0889"
+      ],
+      "source": "suggested",
+      "note": "Eltolad / Tolad"
+    },
+    {
+      "canonical": "places-1004",
+      "absorb": [
+        "places-1005"
+      ],
+      "source": "suggested",
+      "note": "Meshech / Meshech-Tubal"
+    },
+    {
+      "canonical": "places-1096",
+      "absorb": [
+        "places-0646"
+      ],
+      "source": "suggested",
+      "note": "Moresheth / Moresheth-gath"
+    },
+    {
+      "canonical": "places-0871",
+      "absorb": [
+        "places-0870"
+      ],
+      "source": "suggested",
+      "note": "Telem / Telaim"
+    },
+    {
+      "canonical": "places-0649",
+      "absorb": [
+        "places-0648"
+      ],
+      "source": "suggested",
+      "note": "Moseroth / Mosera"
+    },
+    {
+      "canonical": "places-0730",
+      "absorb": [
+        "places-0731"
+      ],
+      "source": "suggested",
+      "note": "Naaran / Naarath"
+    },
+    {
+      "canonical": "places-0313",
+      "absorb": [
+        "places-0404"
+      ],
+      "source": "suggested",
+      "note": "Hazar-susah / Hazar-susim"
+    },
+    {
+      "canonical": "places-0264",
+      "absorb": [
+        "places-0689"
+      ],
+      "source": "suggested",
+      "note": "Beth-rehob / Rehob (Num 13:21)"
+    },
+    {
+      "canonical": "places-0057",
+      "absorb": [
+        "places-0725"
+      ],
+      "source": "suggested",
+      "note": "Arumah / Rumah"
+    },
+    {
+      "canonical": "places-0511",
+      "absorb": [
+        "places-0510"
+      ],
+      "source": "claude-proposed",
+      "note": "Iim is the short form of Iye-abarim (Num 33:44-45)"
+    },
+    {
+      "canonical": "places-0470",
+      "absorb": [
+        "places-0699"
+      ],
+      "source": "claude-proposed",
+      "note": "Metheg-ammah (2 Sam 8:1) = Gath (1 Chr 18:1)"
+    },
+    {
+      "canonical": "places-0385",
+      "absorb": [
+        "places-1166"
+      ],
+      "source": "claude-proposed",
+      "note": "Valley of the Passengers renamed Hamon-gog (Ezek 39:11)"
+    },
+    {
+      "canonical": "places-0012",
+      "absorb": [
+        "places-0269"
+      ],
+      "source": "claude-proposed",
+      "note": "Chozeba usually identified with Chezib/Achzib"
+    },
+    {
+      "canonical": "places-0307",
+      "absorb": [
+        "places-0532"
+      ],
+      "source": "claude-proposed",
+      "note": "Jair's towns = Havvoth-jair"
+    },
+    {
+      "canonical": "places-0986",
+      "absorb": [
+        "places-1202"
+      ],
+      "source": "claude-proposed",
+      "note": "Pool of Shelah (Neh 3:15) = Pool of Siloam"
+    },
+    {
+      "canonical": "places-0014",
+      "absorb": [
+        "places-0117"
+      ],
+      "source": "claude-proposed",
+      "note": "Threshing floor of Atad named Abel-mizraim (Gen 50:10-11)"
+    },
+    {
+      "canonical": "places-0418",
+      "absorb": [
+        "places-0199"
+      ],
+      "source": "claude-proposed",
+      "note": "Mount Baal-hermon (Judg 3:3) = Hermon; Baal-gad, Baal-hamon, Baal-Hermon kept separate"
+    },
+    {
+      "canonical": "places-0584",
+      "absorb": [
+        "places-1121"
+      ],
+      "source": "claude-proposed",
+      "note": "Debir of Gad (Josh 13:26) = Lo-debar"
+    },
+    {
+      "canonical": "places-1167",
+      "absorb": [
+        "places-1164"
+      ],
+      "source": "claude-proposed",
+      "note": "Hinnom renamed Valley of Slaughter (Jer 7:32)"
+    },
+    {
+      "canonical": "places-0067",
+      "absorb": [
+        "places-1142"
+      ],
+      "source": "claude-proposed",
+      "note": "Land of Nimrod parallels Assyria (Mic 5:6)"
+    },
+    {
+      "canonical": "places-0427",
+      "absorb": [
+        "places-0406"
+      ],
+      "source": "claude-proposed",
+      "note": "Hazazon-tamar, that is En-gedi (2 Chr 20:2)"
+    },
+    {
+      "canonical": "places-0478",
+      "absorb": [
+        "places-1112"
+      ],
+      "source": "claude-proposed",
+      "note": "Kidron / Brook of Kidron; Valley of Jehoshaphat kept separate"
+    },
+    {
+      "canonical": "places-1225",
+      "absorb": [
+        "places-0146",
+        "places-1224"
+      ],
+      "source": "claude-proposed",
+      "note": "Sea of Chinnereth / Chinneroth / Galilee: one lake"
+    },
+    {
+      "canonical": "places-0200",
+      "absorb": [
+        "places-0259"
+      ],
+      "source": "claude-proposed",
+      "note": "Beth-meon (Jer 48:23) = Baal-meon"
+    },
+    {
+      "canonical": "places-0037",
+      "absorb": [
+        "places-0036"
+      ],
+      "source": "claude-proposed",
+      "note": "Antipatris built on Aphek of Sharon"
+    },
+    {
+      "canonical": "places-0979",
+      "absorb": [
+        "places-0139"
+      ],
+      "source": "claude-proposed",
+      "note": "Betah (2 Sam 8:8) = Tibhath (1 Chr 18:8)"
+    },
+    {
+      "canonical": "places-1045",
+      "absorb": [
+        "places-0995"
+      ],
+      "source": "claude-proposed",
+      "note": "'Lebanon' entry is the House of the Forest of Lebanon"
+    },
+    {
+      "canonical": "places-1249",
+      "absorb": [
+        "places-0713"
+      ],
+      "source": "claude-proposed",
+      "note": "Remmon-methoar = Rimmon of Zebulun (Josh 19:13)"
+    },
+    {
+      "canonical": "places-0486",
+      "absorb": [
+        "places-0033",
+        "places-0195"
+      ],
+      "source": "claude-proposed",
+      "note": "Baalah, that is Kiriath-jearim (Josh 15:9); Baale-judah (2 Sam 6:2)"
+    },
+    {
+      "canonical": "places-0940",
+      "absorb": [
+        "places-0918"
+      ],
+      "source": "claude-proposed",
+      "note": "Sebam (Num 32:3) = Sibmah (32:38)"
+    },
+    {
+      "canonical": "places-0317",
+      "absorb": [
+        "places-1084"
+      ],
+      "source": "claude-proposed",
+      "note": "Beth-gilgal = Gilgal; Gibeath-haaraloth kept as a separate site"
+    },
+    {
+      "canonical": "places-0551",
+      "absorb": [
+        "places-0990"
+      ],
+      "source": "claude-proposed",
+      "note": "Kedesh in the Negev (Josh 15:23) usually = Kadesh-barnea"
+    },
+    {
+      "canonical": "places-0143",
+      "absorb": [
+        "places-0149"
+      ],
+      "source": "claude-proposed",
+      "note": "Chesulloth = Chisloth-tabor; Tabor (town) kept separate"
+    },
+    {
+      "canonical": "places-0609",
+      "absorb": [
+        "places-0963"
+      ],
+      "source": "claude-proposed",
+      "note": "Syria-maachah = Maacah"
+    },
+    {
+      "canonical": "places-1209",
+      "absorb": [
+        "places-0712"
+      ],
+      "source": "claude-proposed",
+      "note": "Remeth (Josh 19:21) = Ramoth (1 Chr 6:73)"
+    },
+    {
+      "canonical": "places-0842",
+      "absorb": [
+        "places-1130"
+      ],
+      "source": "claude-proposed",
+      "note": "Seir / Mount Seir"
+    },
+    {
+      "canonical": "places-0237",
+      "absorb": [
+        "places-1263"
+      ],
+      "source": "claude-proposed",
+      "note": "DM duplicate: places-0237 already holds Beth-haram/Beth-haran"
+    },
+    {
+      "canonical": "places-0218",
+      "absorb": [
+        "places-1267"
+      ],
+      "source": "claude-proposed",
+      "note": "DM duplicate: places-0218 already holds Dabbesheth (#318)"
+    }
+  ],
+  "keep_separate": [
+    {
+      "entries": [
+        "places-0839",
+        "places-0916"
+      ],
+      "source": "claude-override",
+      "note": "Seba and Sheba are distinct peoples (Ps 72:10 names both); heuristic said merge"
+    },
+    {
+      "entries": [
+        "places-0434",
+        "places-0973"
+      ],
+      "source": "suggested",
+      "note": "En-tappuah (spring) / Tappuah"
+    },
+    {
+      "entries": [
+        "places-0612",
+        "places-1050",
+        "places-1134"
+      ],
+      "source": "suggested",
+      "note": "Jerusalem / Gate of the People / Mount Zion"
+    },
+    {
+      "entries": [
+        "places-0342",
+        "places-1217"
+      ],
+      "source": "suggested",
+      "note": "Euphrates / West of the Euphrates"
+    },
+    {
+      "entries": [
+        "places-0859",
+        "places-1133"
+      ],
+      "source": "suggested",
+      "note": "Zemaraim / Mount Zemaraim"
+    },
+    {
+      "entries": [
+        "places-0315",
+        "places-1101"
+      ],
+      "source": "suggested",
+      "note": "Gilboa region / Mount Gilboa"
+    },
+    {
+      "entries": [
+        "places-0573",
+        "places-0732"
+      ],
+      "source": "suggested",
+      "note": "Lasha / Nahaliel"
+    },
+    {
+      "entries": [
+        "places-0109",
+        "places-1107"
+      ],
+      "source": "suggested",
+      "note": "Abarim range / Mount Nebo"
+    },
+    {
+      "entries": [
+        "places-0185",
+        "places-0678"
+      ],
+      "source": "claude-proposed",
+      "note": "Rachal is a separate town; Carmel only via a Greek variant"
+    },
+    {
+      "entries": [
+        "places-0093",
+        "places-0229",
+        "places-0245"
+      ],
+      "source": "claude-proposed",
+      "note": "Almon-diblathaim / Beth-diblathaim are near Dibon, not Dibon"
+    },
+    {
+      "entries": [
+        "places-0196",
+        "places-0197",
+        "places-0978",
+        "places-0418"
+      ],
+      "source": "claude-proposed",
+      "note": "Baal-gad, Baal-hamon, Baal-Hermon are towns near Hermon"
+    },
+    {
+      "entries": [
+        "places-0478",
+        "places-1241"
+      ],
+      "source": "claude-proposed",
+      "note": "Valley of Jehoshaphat (Joel 3) only traditionally the Kidron"
+    },
+    {
+      "entries": [
+        "places-0617",
+        "places-0710"
+      ],
+      "source": "claude-proposed",
+      "note": "Rehoboth-Ir is a separate city built with Nineveh (Gen 10:11)"
+    },
+    {
+      "entries": [
+        "places-0943",
+        "places-1148"
+      ],
+      "source": "claude-proposed",
+      "note": "Shihor is sometimes the Nile; ambiguous"
+    },
+    {
+      "entries": [
+        "places-0915",
+        "places-1162"
+      ],
+      "source": "claude-proposed",
+      "note": "Shaveh-kiriathaim is in Moab; Valley of Shaveh is the King's Valley (Gen 14:17)"
+    },
+    {
+      "entries": [
+        "places-0086",
+        "places-0787"
+      ],
+      "source": "claude-proposed",
+      "note": "Ain of Num 34:11 is on the north border"
+    },
+    {
+      "entries": [
+        "places-0288",
+        "places-1100"
+      ],
+      "source": "claude-proposed",
+      "note": "Mount Ephraim is the hill country, not Ebal"
+    },
+    {
+      "entries": [
+        "places-0350",
+        "places-0825"
+      ],
+      "source": "claude-proposed",
+      "note": "Ayyah (1 Chr 7:28) is in Ephraim, not Gaza"
+    },
+    {
+      "entries": [
+        "places-0738",
+        "places-0743"
+      ],
+      "source": "claude-proposed",
+      "note": "Neah and Neiel are separate towns"
+    },
+    {
+      "entries": [
+        "places-0480",
+        "places-0481"
+      ],
+      "source": "claude-proposed",
+      "note": "Kir also names the Assyrian place of exile; do not fold into Kir-haraseth"
+    },
+    {
+      "entries": [
+        "places-0317",
+        "places-1056"
+      ],
+      "source": "claude-proposed",
+      "note": "Gibeath-haaraloth is a hill at Gilgal"
+    },
+    {
+      "entries": [
+        "places-0143",
+        "places-1246"
+      ],
+      "source": "claude-proposed",
+      "note": "Tabor (Levitical town) kept apart from Chisloth-tabor"
+    },
+    {
+      "entries": [
+        "places-0603",
+        "places-0991"
+      ],
+      "source": "claude-proposed",
+      "note": "Kerioth is a separate Moabite city"
+    },
+    {
+      "entries": [
+        "places-0390",
+        "places-0920"
+      ],
+      "source": "claude-proposed",
+      "note": "El-elohe-Israel is Jacob's altar at Shechem (site)"
+    },
+    {
+      "entries": [
+        "places-0507",
+        "places-1070"
+      ],
+      "source": "claude-proposed",
+      "note": "Jordan Valley region / Jordan River"
+    },
+    {
+      "entries": [
+        "places-0432",
+        "places-0934"
+      ],
+      "source": "claude-proposed",
+      "note": "Stone of Zoheleth is beside En-rogel"
+    }
+  ],
+  "shared_coordinates": "Keep separate unless listed under merges. Coincident points are treated as uncertain placement, not identity.",
+  "rootid_conflicts": "Accept all 20 DM merges (source: suggested). Airtable rootID means borrowed coordinates, not identity.",
+  "theographic_assign": [
+    {
+      "placeID": 65,
+      "dm_id": "places-0964",
+      "source": "claude-proposed",
+      "note": "Aner (1 Chr 6:70) = Taanach (Josh 21:25)"
+    },
+    {
+      "placeID": 85,
+      "dm_id": "places-0977",
+      "source": "claude-proposed",
+      "note": "Aram-zobah"
+    },
+    {
+      "placeID": 89,
+      "dm_id": "places-0612",
+      "source": "claude-proposed",
+      "note": "Ariel = Jerusalem (Isa 29)"
+    },
+    {
+      "placeID": 171,
+      "dm_id": "places-0063",
+      "source": "claude-proposed",
+      "note": "Beeshterah = Ashtaroth"
+    },
+    {
+      "placeID": 218,
+      "dm_id": "places-0278",
+      "source": "claude-proposed",
+      "note": "Bethlehem of Judah; DM lost the link"
+    },
+    {
+      "placeID": 219,
+      "dm_id": "places-1090",
+      "source": "claude-proposed",
+      "note": "Bethlehem of Zebulun"
+    },
+    {
+      "placeID": 220,
+      "dm_id": "places-0278",
+      "source": "claude-proposed",
+      "note": "Bethlehem Ephrathah alias"
+    },
+    {
+      "placeID": 248,
+      "dm_id": "places-0466",
+      "source": "claude-proposed",
+      "note": "Bileam = Ibleam"
+    },
+    {
+      "placeID": 260,
+      "dm_id": "places-0983",
+      "source": "claude-proposed",
+      "note": "Arabah"
+    },
+    {
+      "placeID": 303,
+      "dm_id": "places-0612",
+      "source": "claude-proposed",
+      "note": "City of the LORD (Isa 60:14)"
+    },
+    {
+      "placeID": 335,
+      "dm_id": "places-1249",
+      "source": "claude-proposed",
+      "note": "Dimnah (Josh 21:35) = Rimmono"
+    },
+    {
+      "placeID": 394,
+      "dm_id": "places-0787",
+      "source": "claude-proposed",
+      "note": "En-rimmon"
+    },
+    {
+      "placeID": 403,
+      "dm_id": "places-0278",
+      "source": "claude-proposed",
+      "note": "Ephrath = Bethlehem (Gen 35:19)"
+    },
+    {
+      "placeID": 419,
+      "dm_id": "places-1119",
+      "source": "claude-proposed",
+      "note": "Ethiopia = Cush"
+    },
+    {
+      "placeID": 437,
+      "dm_id": "places-1047",
+      "source": "claude-proposed",
+      "note": "Benjamin's Gate (duplicate_of #175)"
+    },
+    {
+      "placeID": 445,
+      "dm_id": "places-0466",
+      "source": "claude-proposed",
+      "note": "Gath-rimmon of Manasseh (Josh 21:25) = Ibleam"
+    },
+    {
+      "placeID": 448,
+      "dm_id": "places-0471",
+      "source": "claude-proposed",
+      "note": "Geba (2 Sam 5:25)"
+    },
+    {
+      "placeID": 501,
+      "dm_id": "places-1278",
+      "source": "claude-proposed",
+      "note": "Hadad-rimmon"
+    },
+    {
+      "placeID": 515,
+      "dm_id": "places-1280",
+      "source": "claude-proposed",
+      "note": "Ham"
+    },
+    {
+      "placeID": 629,
+      "dm_id": "places-0612",
+      "source": "claude-proposed",
+      "note": "Jebus = Jerusalem"
+    },
+    {
+      "placeID": 662,
+      "dm_id": "places-1279",
+      "source": "claude-proposed",
+      "note": "Reassign Tahtim-hodshi from Kadesh-barnea to its own DM entry"
+    },
+    {
+      "placeID": 679,
+      "dm_id": "places-0608",
+      "source": "claude-proposed",
+      "note": "Kedesh-naphtali"
+    },
+    {
+      "placeID": 744,
+      "dm_id": "places-0609",
+      "source": "claude-proposed",
+      "note": "Maacath = Maacah"
+    },
+    {
+      "placeID": 1005,
+      "dm_id": "places-1249",
+      "source": "claude-proposed",
+      "note": "Rimmon(o) of Zebulun"
+    },
+    {
+      "placeID": 1018,
+      "dm_id": "places-0612",
+      "source": "claude-proposed",
+      "note": "Salem = Jerusalem"
+    },
+    {
+      "placeID": 1035,
+      "dm_id": "places-1223",
+      "source": "claude-proposed",
+      "note": "Sea of the Plain = Salt Sea"
+    },
+    {
+      "placeID": 1128,
+      "dm_id": "places-1156",
+      "source": "claude-proposed",
+      "note": "Mount Tabor"
+    },
+    {
+      "placeID": 1263,
+      "dm_id": "places-1134",
+      "source": "claude-proposed",
+      "note": "Zion = Mount Zion"
+    },
+    {
+      "placeID": 1273,
+      "dm_id": "places-0977",
+      "source": "claude-proposed",
+      "note": "Zobah-Hamath (1 Chr 18:3) = Aram-zobah"
+    }
+  ],
+  "theographic_exclude": [
+    {
+      "placeIDs": [
+        102,
+        363,
+        637,
+        1023,
+        1264
+      ],
+      "reason": "possessive duplicate with 0 verses (Ashdod's, Egypt's, Jerusalem's, Samaria's, Zion's)"
+    },
+    {
+      "placeIDs": [
+        1152
+      ],
+      "reason": "'There' (Ezek 48:35) is not a place name"
+    },
+    {
+      "placeIDs": [
+        127
+      ],
+      "reason": "Azazel is not a place"
+    },
+    {
+      "placeIDs": [
+        630,
+        876,
+        903
+      ],
+      "reason": "people groups (Jebusite, Naphish, Nodab)"
+    },
+    {
+      "placeIDs": [
+        904
+      ],
+      "reason": "Nohah is a person (1 Chr 8:2), mis-tagged"
+    },
+    {
+      "placeIDs": [
+        511,
+        574,
+        575,
+        825,
+        826,
+        827
+      ],
+      "reason": "rooms or halls inside the Tabernacle/Temple/palace; DM omits them"
+    }
+  ],
+  "theographic_new_feature": [
+    {
+      "placeID": 881,
+      "note": "Nebaioth: no DM entry; keep the existing geojson feature"
+    },
+    {
+      "placeID": 1278,
+      "note": "Trogyllium: no DM entry; keep the existing geojson feature"
+    }
+  ],
+  "dm_exclude": [
+    {
+      "dm_id": "places-0475",
+      "reason": "Sheol is not a geographic place (already removed in Phase 1)"
+    },
+    {
+      "dm_id": "places-1282",
+      "reason": "Gehenna used as a name for hell, not a location"
+    }
+  ],
+  "dm_needs_theographic_record": [
+    "places-0390",
+    "places-0611",
+    "places-1255",
+    "places-1256",
+    "places-1257",
+    "places-1258",
+    "places-1259",
+    "places-1260",
+    "places-1261",
+    "places-1262",
+    "places-1264",
+    "places-1265",
+    "places-1266",
+    "places-1268",
+    "places-1269",
+    "places-1270",
+    "places-1271",
+    "places-1273",
+    "places-1274",
+    "places-1275",
+    "places-1276",
+    "places-1277",
+    "places-1281",
+    "places-1283"
+  ],
+  "pleiades": [
+    {
+      "dm_id": "places-0045",
+      "id": "29475",
+      "reject": [
+        "912809"
+      ],
+      "note": "Arabia (region)"
+    },
+    {
+      "dm_id": "places-0155",
+      "id": "599576",
+      "reject": [
+        "707539"
+      ],
+      "note": "707539 is plotted on Cyprus"
+    },
+    {
+      "dm_id": "places-0165",
+      "id": "511189",
+      "reject": [
+        "991389"
+      ],
+      "note": "region with real coordinates over province grid cell"
+    },
+    {
+      "dm_id": "places-0213",
+      "id": "589748",
+      "reject": [
+        "1001897"
+      ],
+      "note": "Crete the island"
+    },
+    {
+      "dm_id": "places-0345",
+      "id": "619161",
+      "reject": [
+        "991393"
+      ],
+      "note": "region with real coordinates over province grid cell"
+    },
+    {
+      "dm_id": "places-0589",
+      "id": "638965",
+      "reject": [
+        "1001914"
+      ],
+      "note": "region with real coordinates over province grid cell"
+    },
+    {
+      "dm_id": "places-0750",
+      "id": "639034",
+      "reject": [
+        "1001913"
+      ],
+      "note": "region with real coordinates over province grid cell"
+    },
+    {
+      "dm_id": "places-0776",
+      "id": "907036116",
+      "reject": [
+        "991386"
+      ],
+      "note": "Phrygia; province grid cell rejected"
+    },
+    {
+      "dm_id": "places-0777",
+      "id": "727088",
+      "reject": [
+        "736899"
+      ],
+      "note": "Boubastis settlement"
+    },
+    {
+      "dm_id": "places-0834",
+      "id": "501597",
+      "reject": [
+        "501596"
+      ],
+      "note": "Samothrace the island (Acts 16:11)"
+    },
+    {
+      "dm_id": "places-0952",
+      "id": "550893",
+      "reject": [
+        "550771"
+      ],
+      "note": "Hellenistic/Roman Smyrna, not Old Smyrna"
+    },
+    {
+      "dm_id": "places-0988",
+      "id": "678370",
+      "reject": [
+        "678369"
+      ],
+      "note": "Samaria the city"
+    }
+  ],
+  "titles": {
+    "places-0059": "Ashan",
+    "places-0151": "Chor-ashan",
+    "places-0193": "Baalath (of Dan)",
+    "places-1076": "Baalath (of Judah)",
+    "places-0172": "Cabul (of Asher)",
+    "places-1113": "Cabul (in Galilee)",
+    "places-0175": "Calneh",
+    "places-0180": "Canneh",
+    "places-0447": "Hilon",
+    "places-1059": "Holon",
+    "places-0580": "Libnah (campsite)",
+    "places-0996": "Libnah (of Judah)",
+    "places-0694": "Meribah (at Rephidim)",
+    "places-1002": "Meribah (at Kadesh)",
+    "places-0461": "Egyptian Sea",
+    "places-0784": "Red Sea",
+    "places-1212": "Rehob (of Asher)",
+    "places-0787": "Rimmon (of Judah)",
+    "places-1249": "Rimmon (of Zebulun)",
+    "places-0981": "Shallecheth Gate",
+    "places-1051": "Gate of the Foundation"
+  },
+  "fclasses": {
+    "places-1255": [
+      "L"
+    ],
+    "places-1256": [
+      "L"
+    ],
+    "places-1257": [
+      "L"
+    ],
+    "places-1258": [
+      "L"
+    ],
+    "places-1259": [
+      "L"
+    ],
+    "places-1260": [
+      "L"
+    ],
+    "places-1262": [
+      "L"
+    ],
+    "places-1264": [
+      "L"
+    ],
+    "places-1265": [
+      "L"
+    ],
+    "places-1266": [
+      "L"
+    ],
+    "places-1268": [
+      "L"
+    ],
+    "places-1269": [
+      "L"
+    ],
+    "places-1270": [
+      "L"
+    ],
+    "places-1271": [
+      "L"
+    ],
+    "places-1261": [
+      "P"
+    ],
+    "places-1272": [
+      "P"
+    ]
+  },
+  "fclasses_note": "For DM entries with no type in any source: tribal territories and kingdoms are L; Edrei of Naphtali and Mizpah of Gilead are P."
+}

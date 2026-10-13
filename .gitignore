@@ -8,3 +8,6 @@ dev
 node_modules/
 # Claude Code worktrees (local only, must not be tracked as submodules)
 .claude/worktrees/
+
+# Digital Manna data comes from a private repo; keep the raw cache out of this public repo
+geo/working/dm-places-cache.json
