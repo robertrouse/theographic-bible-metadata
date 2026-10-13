@@ -15,6 +15,10 @@ Sources (geo/decisions.json unless noted), merged when they agree:
   DM regions   the Digital Manna editors' "Region:" lines (dm-places-cache.json):
                stated or historical = certain, implied only = less certain
   part_of/near curated pairs (from the retired Airtable rootID links and the text)
+  Airtable     the partOf / near links and startYear / endYear in json/places.json
+               (once exported): a link added in Airtable becomes a relation here,
+               cited by the verses its two records share; a parent's years date it.
+               Airtable never raises or lowers a certainty set by another source.
 
 Reads:  geo/working/phase-9-output.geojson, phase-8-index.json, dm-places-cache.json,
         json/places.json, json/verses.json, geo/decisions.json
@@ -43,7 +47,8 @@ def main():
     dec = json.load(open('geo/decisions.json'))
     dm = {e['id']: e for e in json.load(open(f'{WORK}/dm-places-cache.json'))['entries']}
     places = {p['id']: p['fields'] for p in json.load(open('json/places.json'))}
-    verses = sorted((int(v['fields']['verseID']), v['fields']) for v in json.load(open('json/verses.json')))
+    verses = sorted((int(v['fields']['verseID']), {**v['fields'], '_rec': v['id']})
+                    for v in json.load(open('json/verses.json')))
     by_osis = {f['osisRef']: (vid, f) for vid, f in verses}
 
     feats = {f['@id']: f for f in fc['features']}
@@ -66,6 +71,7 @@ def main():
     skipped = collections.Counter()
 
     def add(child, parent, rtype, source, certainty='certain', start=None, end=None, cites=()):
+        # certainty=None: no opinion (new relations default to certain)
         if not child or not parent or child == parent or child not in feats or parent not in feats:
             skipped[f'{source}: place not in the data'] += 1
             return
@@ -74,11 +80,11 @@ def main():
         if r is None:
             r = rels[key] = {'relationType': rtype, 'relationTo': parent,
                              'label': f'{"part of" if rtype == PART_OF else "near"} {title[parent]}',
-                             'certainty': certainty, '_start': start, '_end': end, 'citations': []}
+                             'certainty': certainty or 'certain', '_start': start, '_end': end, 'citations': []}
             sources[source] += 1
         else:
             sources[f'{source} (merged)'] += 1
-            if RANK[certainty] > RANK[r['certainty']]:
+            if certainty and RANK[certainty] > RANK[r['certainty']]:
                 r['certainty'] = certainty
             if start is not None and (r['_start'] is None or start < r['_start']):
                 r['_start'] = start
@@ -133,6 +139,18 @@ def main():
     for kind, rtype in (('part_of', PART_OF), ('near', NEAR)):
         for p in dec.get(kind, []):
             add(feat_of.get(p['child']), feat_of.get(p['parent']), rtype, f'decisions.json {kind}', p['certainty'])
+
+    # 5. Airtable partOf / near (present after an export that includes the fields)
+    by_rec = {rid: f for rid, f in places.items()}
+    rec_feat = {rid: pid_feat.get(f['placeID']) for rid, f in places.items()}
+    for rid, f in places.items():
+        for field, rtype in (('partOf', PART_OF), ('near', NEAR)):
+            for prid in f.get(field) or []:
+                p = by_rec.get(prid, {})
+                shared = sorted(set(f.get('verses') or []) & set(p.get('verses') or []))
+                osis = sorted({vf['osisRef'] for vid, vf in verses if vf.get('_rec') in shared})[:3] if shared else []
+                add(rec_feat.get(rid), rec_feat.get(prid), rtype, f'Airtable {field}', None,
+                    p.get('startYear'), p.get('endYear'), [verse_cite(o) for o in osis])
 
     # write relations onto children
     per_child = collections.defaultdict(list)

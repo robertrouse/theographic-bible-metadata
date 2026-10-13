@@ -8,7 +8,7 @@ geo/airtable/phase-11-applied.json:
 
 This script writes geo/airtable/phase-11-rollback.json:
   update_batches   records to set back to their "before" value, 10 per batch
-                   (the Airtable API's limit); an empty link is []
+                   (the Airtable API's limit); empty becomes null, which clears the field
   delete_records   records the sync created, 10 per batch
   manual           steps the API cannot do: deleting a field must be done in
                    the Airtable UI (field menu > Delete field)
@@ -36,7 +36,8 @@ def main():
     restore = {}
     for u in log.get('records_updated', []):
         # the first logged "before" for a field is the original value
-        restore.setdefault(u['id'], {}).setdefault(u['field'], u['before'] if u['before'] is not None else [])
+        # an empty "before" is restored as null, which clears any field type
+        restore.setdefault(u['id'], {}).setdefault(u['field'], u['before'] if u['before'] not in ([], '') else None)
     updates = [{'id': rid, 'fields': fields} for rid, fields in restore.items()]
     created = [r['id'] for r in log.get('records_created', [])]
     out = {

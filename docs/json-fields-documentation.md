@@ -452,7 +452,6 @@ This table catalogs all geographic locations mentioned in the Bible. Each record
 | `hasBeenHere` | string | Incomplete | A string containing a comma-separated list of `personLookup` identifiers for people who have visited this location. |
 | `latitude` | string | Populated | Best available latitude, depending on Recogito and OpenBible validation |
 | `longitude` | string | Populated | Best available longitude, depending on Recogito and OpenBible validation |
-| `status` | string | Temporary | The validation status of the individual place record |
 | `displayTitle` | string | Populated | Disambiguated name suitable for page titles and search results |
 | `alphaGroup` | string | Validated | Used for alphabetical indexing |
 | `slug` | string | Validated | Lowercase, url-friendly version of placeLookup |

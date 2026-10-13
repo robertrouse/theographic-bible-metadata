@@ -7,15 +7,18 @@ Every place has at least one verse reference (Theographic or Digital Manna);
 Phase 6 drops any place without one. 387 "part of" / "near" relations
 (Phase 9b), including the three kingdoms.
 
-## 1. Airtable (Phase 11): planned, not applied
+## 1. Airtable (Phase 11)
 
-`geo/airtable/phase-11-plan.md`: a `canonicalPlace` link on 250 alias records
-and 22 new records (tribal territories, Judah, Misgab, Parbar, ...) with
-Digital Manna's verse links. The connected Airtable token is read-only, so the
-plan has not been applied. Run `geo/pipeline/phase11_airtable_apply.py` with a
-token that can write (see `geo/airtable/README.md`); `--rollback` reverses it.
-After applying and re-exporting, add the new placeIDs to Digital Manna's
-`ids.theographic` (or to `theographic_assign` in `decisions.json`).
+Applied 2026-10-13 with `geo/pipeline/phase11_airtable_apply.py` (logs and
+rollbacks in `geo/airtable/`): `canonicalPlace` on 250 alias records, 24 new
+records (22 DM-only places, 2 Israel kingdoms), 7 `duplicate_of` links moved
+into `canonicalPlace`. `partOf` / `near` / `startYear` / `endYear` added in
+the UI; `phase-11c-plan` fills them. `rootID` and `duplicate_of` are archived
+and ready to delete in the UI; `status` was removed.
+
+After the next export, the new placeIDs (1279–1302) map to their features
+through `theographic_assign` in `decisions.json`; DM should also list them in
+`ids.theographic`.
 
 Theographic records with no verse links although the text names them:
 Jaar #608 (Ps 132:6), Aram-naharaim #84 (Gen 24:10), Aram-zobah #85

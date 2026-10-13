@@ -58,3 +58,24 @@ AIRTABLE_TOKEN=pat... python3 geo/pipeline/phase11_airtable_apply.py --plan geo/
 Then delete the `rootID` and `duplicate_of` fields in the Airtable UI.
 `--rollback --plan geo/airtable/phase-11b-plan.json` reverses the writes; a
 deleted field's values can be restored from the archive CSV.
+
+## Phase 11c: partOf / near / startYear / endYear
+
+The fields were added in the UI (`partOf` and `near` with reverses `parts` and
+`nearby`, `startYear` / `endYear`, and `otherNames` as the reverse of
+`canonicalPlace`). `phase-11c-plan.md` (built by
+`geo/pipeline/phase11c_airtable_plan.py`) fills them from the relations in
+`bible-places.geojson`: partOf and near on each place's canonical record, and
+start and end years on the three kingdoms.
+
+```bash
+AIRTABLE_TOKEN=pat... python3 geo/pipeline/phase11_airtable_apply.py --plan geo/airtable/phase-11c-plan.json
+```
+
+After the next export, the pipeline reads these fields back
+(`phase9b_relations.py`): a partOf or near link added in Airtable becomes a
+relation in the GeoJSON, cited by the verses its two records share and dated
+by the parent's startYear / endYear.
+
+The `status` field was removed from the table on 2026-10-13 (its values are in
+`json/places.json` at tag `airtable-places-backup-2026-10-13`).

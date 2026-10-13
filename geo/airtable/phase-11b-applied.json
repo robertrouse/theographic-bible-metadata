@@ -1,0 +1,95 @@
+{
+ "base": "app5UK4s70d5PwupX",
+ "table": "tblrUnh4Q79pmELgB",
+ "started": "2026-10-13T19:51:42+00:00",
+ "fields_created": [],
+ "records_updated": [
+  {
+   "id": "rec1TOi8sIOGfx3kH",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recfrXyxhuYOczKTm"
+   ],
+   "at": "2026-10-13T19:51:44+00:00"
+  },
+  {
+   "id": "recC8Nf4sI5O2LSMv",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recL1WV82pXaRBQ59"
+   ],
+   "at": "2026-10-13T19:51:44+00:00"
+  },
+  {
+   "id": "recHLZEykCCOixlEm",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recL1WV82pXaRBQ59"
+   ],
+   "at": "2026-10-13T19:51:44+00:00"
+  },
+  {
+   "id": "recb3HpTdDfZCDwrP",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recEP3QZ3HUmIkv4Q"
+   ],
+   "at": "2026-10-13T19:51:44+00:00"
+  },
+  {
+   "id": "recixwLRyYolnIwB6",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "rechZwu8ZbWlB6fyU"
+   ],
+   "at": "2026-10-13T19:51:44+00:00"
+  },
+  {
+   "id": "reckWxV3dWFM3clrQ",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recN2YJFW0fYzSL9r"
+   ],
+   "at": "2026-10-13T19:51:44+00:00"
+  },
+  {
+   "id": "recvLUMajbYnYDikr",
+   "field": "canonicalPlace",
+   "before": null,
+   "after": [
+    "recNdvSZuqT39nqz4"
+   ],
+   "at": "2026-10-13T19:51:44+00:00"
+  },
+  {
+   "id": "recM4RAfBVSEH5W7l",
+   "field": "displayTitle",
+   "before": "Judah (Southern)",
+   "after": "Kingdom of Judah",
+   "at": "2026-10-13T19:51:44+00:00"
+  }
+ ],
+ "records_created": [
+  {
+   "id": "recVs3Ah7KNLdczEe",
+   "placeID": 1301,
+   "placeLookup": "united-kingdom-of-israel_1301",
+   "dm_id": "places-1255",
+   "at": "2026-10-13T19:51:45+00:00"
+  },
+  {
+   "id": "recmjed5waWF62yBe",
+   "placeID": 1302,
+   "placeLookup": "northern-kingdom-of-israel_1302",
+   "dm_id": "places-1256",
+   "at": "2026-10-13T19:51:45+00:00"
+  }
+ ],
+ "finished": "2026-10-13T19:51:45+00:00"
+}

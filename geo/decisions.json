@@ -748,6 +748,150 @@
       "dm_id": "places-0977",
       "source": "claude-proposed",
       "note": "Zobah-Hamath (1 Chr 18:3) = Aram-zobah"
+    },
+    {
+      "placeID": 1279,
+      "dm_id": "places-0390",
+      "source": "airtable-sync",
+      "note": "record created by the Phase 11 sync (el-elohe-israel_1279)"
+    },
+    {
+      "placeID": 1280,
+      "dm_id": "places-0611",
+      "source": "airtable-sync",
+      "note": "record created by the Phase 11 sync (judah_1280)"
+    },
+    {
+      "placeID": 1281,
+      "dm_id": "places-1257",
+      "source": "airtable-sync",
+      "note": "record created by the Phase 11 sync (judah-southern_1281)"
+    },
+    {
+      "placeID": 1282,
+      "dm_id": "places-1258",
+      "source": "airtable-sync",
+      "note": "record created by the Phase 11 sync (reuben_1282)"
+    },
+    {
+      "placeID": 1283,
+      "dm_id": "places-1259",
+      "source": "airtable-sync",
+      "note": "record created by the Phase 11 sync (dan_1283)"
+    },
+    {
+      "placeID": 1284,
+      "dm_id": "places-1260",
+      "source": "airtable-sync",
+      "note": "record created by the Phase 11 sync (naphtali_1284)"
+    },
+    {
+      "placeID": 1285,
+      "dm_id": "places-1261",
+      "source": "airtable-sync",
+      "note": "record created by the Phase 11 sync (edrei_1285)"
+    },
+    {
+      "placeID": 1286,
+      "dm_id": "places-1262",
+      "source": "airtable-sync",
+      "note": "record created by the Phase 11 sync (gad_1286)"
+    },
+    {
+      "placeID": 1287,
+      "dm_id": "places-1264",
+      "source": "airtable-sync",
+      "note": "record created by the Phase 11 sync (asher_1287)"
+    },
+    {
+      "placeID": 1288,
+      "dm_id": "places-1265",
+      "source": "airtable-sync",
+      "note": "record created by the Phase 11 sync (issachar_1288)"
+    },
+    {
+      "placeID": 1289,
+      "dm_id": "places-1266",
+      "source": "airtable-sync",
+      "note": "record created by the Phase 11 sync (zebulun_1289)"
+    },
+    {
+      "placeID": 1290,
+      "dm_id": "places-1268",
+      "source": "airtable-sync",
+      "note": "record created by the Phase 11 sync (east-manasseh-half-tribe_1290)"
+    },
+    {
+      "placeID": 1291,
+      "dm_id": "places-1269",
+      "source": "airtable-sync",
+      "note": "record created by the Phase 11 sync (west-manasseh_1291)"
+    },
+    {
+      "placeID": 1292,
+      "dm_id": "places-1270",
+      "source": "airtable-sync",
+      "note": "record created by the Phase 11 sync (ephraim-territory_1292)"
+    },
+    {
+      "placeID": 1293,
+      "dm_id": "places-1271",
+      "source": "airtable-sync",
+      "note": "record created by the Phase 11 sync (benjamin-territory_1293)"
+    },
+    {
+      "placeID": 1294,
+      "dm_id": "places-1273",
+      "source": "airtable-sync",
+      "note": "record created by the Phase 11 sync (forest-of-ephraim_1294)"
+    },
+    {
+      "placeID": 1295,
+      "dm_id": "places-1274",
+      "source": "airtable-sync",
+      "note": "record created by the Phase 11 sync (misgab_1295)"
+    },
+    {
+      "placeID": 1296,
+      "dm_id": "places-1275",
+      "source": "airtable-sync",
+      "note": "record created by the Phase 11 sync (parbar_1296)"
+    },
+    {
+      "placeID": 1297,
+      "dm_id": "places-1276",
+      "source": "airtable-sync",
+      "note": "record created by the Phase 11 sync (sela-hammahlekoth_1297)"
+    },
+    {
+      "placeID": 1298,
+      "dm_id": "places-1277",
+      "source": "airtable-sync",
+      "note": "record created by the Phase 11 sync (caleb-ephratah_1298)"
+    },
+    {
+      "placeID": 1299,
+      "dm_id": "places-1281",
+      "source": "airtable-sync",
+      "note": "record created by the Phase 11 sync (machbenah_1299)"
+    },
+    {
+      "placeID": 1300,
+      "dm_id": "places-1283",
+      "source": "airtable-sync",
+      "note": "record created by the Phase 11 sync (jorkoam_1300)"
+    },
+    {
+      "placeID": 1301,
+      "dm_id": "places-1255",
+      "source": "airtable-sync",
+      "note": "record created by the Phase 11 sync (united-kingdom-of-israel_1301)"
+    },
+    {
+      "placeID": 1302,
+      "dm_id": "places-1256",
+      "source": "airtable-sync",
+      "note": "record created by the Phase 11 sync (northern-kingdom-of-israel_1302)"
     }
   ],
   "theographic_exclude": [

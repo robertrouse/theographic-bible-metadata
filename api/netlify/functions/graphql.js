@@ -184,7 +184,7 @@ const typeDefs = gql`
     slug: StringFilter
     "Alphabetical grouping letter"
     alphaGroup: StringFilter
-    "Record status"
+    "Retired 2026-10-13 for places; matches nothing once the data no longer carries it"
     status: StringFilter
     "Whether this place's identification is disputed"
     ambiguous: BooleanFilter
@@ -554,8 +554,8 @@ const typeDefs = gql`
     latitude: String
     "Preferred longitude (decimal degrees)"
     longitude: String
-    "Record status"
-    status: String
+    "Retired 2026-10-13; null"
+    status: String @deprecated(reason: "Retired from the places table 2026-10-13.")
     "Display title, may include disambiguation"
     displayTitle: String
     "Alphabetical grouping letter"
