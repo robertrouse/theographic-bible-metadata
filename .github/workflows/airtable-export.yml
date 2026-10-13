@@ -1,0 +1,64 @@
+# Monthly export of the Theographic Airtable base to json/ and CSV/.
+# Opens a pull request when the data changed; does nothing otherwise.
+#
+# Setup: add a repository secret named AIRTABLE_TOKEN holding an Airtable personal
+# access token with the data.records:read and schema.bases:read scopes on the
+# "Theographic Bible Data" base (read-only is enough).
+name: Airtable export
+
+on:
+  schedule:
+    - cron: "0 9 1 * *" # 09:00 UTC on the 1st of every month
+  workflow_dispatch: # "Run workflow" button on the Actions tab
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: airtable-export
+  cancel-in-progress: false
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4.2.2
+
+      - uses: actions/setup-python@v5.3.0
+        with:
+          python-version: "3.12"
+
+      - name: Export Airtable to json/ and CSV/
+        env:
+          AIRTABLE_TOKEN: ${{ secrets.AIRTABLE_TOKEN }}
+        run: python3 etl/export_airtable.py | tee export.log
+
+      - name: Summarize export
+        run: |
+          {
+            echo '### Airtable export'
+            echo '```'
+            grep -v '^fetched' export.log
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+          rm export.log
+
+      - name: Open pull request if data changed
+        uses: peter-evans/create-pull-request@v7.0.5
+        with:
+          branch: automation/airtable-export
+          delete-branch: true
+          add-paths: |
+            json/*.json
+            CSV/*.csv
+          commit-message: "Update json/ and CSV/ from Airtable"
+          title: "Monthly Airtable export"
+          body: |
+            Automated export of the Airtable base with `etl/export_airtable.py`, run by the
+            [Airtable export workflow](${{ github.server_url }}/${{ github.repository }}/actions/workflows/airtable-export.yml).
+
+            Review the data changes and merge to publish them. The workflow run summary lists
+            Airtable fields that exist but are not exported to CSV.
+          labels: data
