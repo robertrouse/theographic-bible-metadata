@@ -3,7 +3,6 @@
         "id": "rec4hpOWgtnNNXWSJ",
         "createdTime": "2018-03-19T00:37:26.000Z",
         "fields": {
-            "groupName": "Tribe of Joseph",
             "members": [
                 "rece9Qep7oMQHf1WS",
                 "recsMbcLqEhJ52ThW",
@@ -58,6 +57,7 @@
                 "recyHsGKTQm7XDRCb",
                 "rec5IfTXcDLvx6ba1"
             ],
+            "groupName": "Tribe of Joseph",
             "modified": "2020-09-07T20:00:01.000Z",
             "events_dev": [
                 "recjkmUO88wihv8Ci",
@@ -70,7 +70,7 @@
         "id": "recBC0I2HaciTQbaa",
         "createdTime": "2018-08-20T16:33:48.000Z",
         "fields": {
-            "groupName": "Apostles (Post-Ascension)",
+            "events": "The Holy Spirit comes, Matthias replaces Judas, Apostles work signs and wonders in Solomon's Portico, \"Apostles arrested, put on trial\", Gamaliel advises the counsel and Apostles freed, Seven chosen to serve, Jerusalem Council",
             "members": [
                 "recAKZBlllSFGbCSM",
                 "recX9MMADoVI2CSP1",
@@ -85,7 +85,7 @@
                 "recONdJVwpYA57oAi",
                 "recRuqBdtrgeag4gT"
             ],
-            "events": "The Holy Spirit comes, Matthias replaces Judas, Apostles work signs and wonders in Solomon's Portico, \"Apostles arrested, put on trial\", Gamaliel advises the counsel and Apostles freed, Seven chosen to serve, Jerusalem Council",
+            "groupName": "Apostles (Post-Ascension)",
             "modified": "2023-12-02T23:09:33.000Z",
             "events_dev": [
                 "reczDqE366xgbgv2C",
@@ -102,7 +102,6 @@
         "id": "recDMQg1nEIjMnZ58",
         "createdTime": "2018-03-19T00:37:26.000Z",
         "fields": {
-            "groupName": "Tribe of Benjamin",
             "members": [
                 "rec7W6d7aiN2eqPCh",
                 "rece4ugIHH1HXJvDH",
@@ -153,6 +152,7 @@
                 "recREZovRXMOTCctd",
                 "recG44LmJGtx6hg6f"
             ],
+            "groupName": "Tribe of Benjamin",
             "modified": "2020-09-07T20:00:01.000Z",
             "events_dev": [
                 "recjkmUO88wihv8Ci",
@@ -165,7 +165,9 @@
         "id": "recDbqwwwM8CIHQ7b",
         "createdTime": "2018-03-19T00:37:26.000Z",
         "fields": {
-            "groupName": "Tribe of Asher",
+            "partOf": [
+                "recsTcOXoP1DEM5lL"
+            ],
             "members": [
                 "recCM0c6trW9z7q1Z",
                 "recRMwAXMTzu8tgx6",
@@ -209,9 +211,7 @@
                 "recjCEJz0rX1EZp6a",
                 "recwvVFoKdTrG4yiz"
             ],
-            "partOf": [
-                "recsTcOXoP1DEM5lL"
-            ],
+            "groupName": "Tribe of Asher",
             "modified": "2020-09-13T02:02:24.000Z",
             "events_dev": [
                 "recjkmUO88wihv8Ci",
@@ -224,7 +224,6 @@
         "id": "recDquhyNAst5bTvn",
         "createdTime": "2018-05-13T20:01:17.000Z",
         "fields": {
-            "groupName": "Apostles",
             "members": [
                 "recX9MMADoVI2CSP1",
                 "recpvMKljbEMuiK9e",
@@ -239,6 +238,7 @@
                 "recONdJVwpYA57oAi",
                 "recRuqBdtrgeag4gT"
             ],
+            "groupName": "Apostles",
             "modified": "2025-07-31T05:11:51.000Z",
             "events_dev": [
                 "recajWYSuk71jMpgi",
@@ -287,16 +287,16 @@
         "id": "recIkGAnMRfAU1jgS",
         "createdTime": "2018-03-19T00:37:26.000Z",
         "fields": {
-            "groupName": "Tribe of Zebulun",
+            "partOf": [
+                "recsTcOXoP1DEM5lL"
+            ],
             "members": [
                 "recDcJyTBzshxHqmO",
                 "recmyEBRCpWn3z151",
                 "recoRJK3ReuIPIsUc",
                 "recZ6YiBydClBiVVJ"
             ],
-            "partOf": [
-                "recsTcOXoP1DEM5lL"
-            ],
+            "groupName": "Tribe of Zebulun",
             "modified": "2020-09-13T02:02:26.000Z",
             "events_dev": [
                 "recjkmUO88wihv8Ci",
@@ -321,7 +321,9 @@
         "id": "recLFeuBGwEeYYFWm",
         "createdTime": "2018-03-19T00:37:26.000Z",
         "fields": {
-            "groupName": "Tribe of Gad",
+            "partOf": [
+                "recsTcOXoP1DEM5lL"
+            ],
             "members": [
                 "recOjWIMdBW4mqhOm",
                 "recOE8azA8qN08QRq",
@@ -332,9 +334,7 @@
                 "recQ9D19NlBxM45q3",
                 "recV4ZJRTOSo4pTjq"
             ],
-            "partOf": [
-                "recsTcOXoP1DEM5lL"
-            ],
+            "groupName": "Tribe of Gad",
             "modified": "2020-09-13T02:02:25.000Z",
             "events_dev": [
                 "recjkmUO88wihv8Ci",
@@ -347,14 +347,14 @@
         "id": "recMcWETuGovYX3t8",
         "createdTime": "2018-03-19T00:37:26.000Z",
         "fields": {
-            "groupName": "Tribe of Dan",
+            "partOf": [
+                "recsTcOXoP1DEM5lL"
+            ],
             "members": [
                 "recwqzXQjpmdyyW9y",
                 "recM8vhtW0bf4XfFn"
             ],
-            "partOf": [
-                "recsTcOXoP1DEM5lL"
-            ],
+            "groupName": "Tribe of Dan",
             "modified": "2020-09-13T02:02:26.000Z",
             "events_dev": [
                 "recjkmUO88wihv8Ci",
@@ -367,7 +367,9 @@
         "id": "recad5Sz0E9gKbWYe",
         "createdTime": "2018-03-19T00:37:26.000Z",
         "fields": {
-            "groupName": "Tribe of Issachar",
+            "partOf": [
+                "recsTcOXoP1DEM5lL"
+            ],
             "members": [
                 "recBvYZAWw9591aQv",
                 "rec3HzZknu1HOvNci",
@@ -386,9 +388,7 @@
                 "rec09ciuLItlm8eWw",
                 "recvXbfxu4zy0yWnk"
             ],
-            "partOf": [
-                "recsTcOXoP1DEM5lL"
-            ],
+            "groupName": "Tribe of Issachar",
             "modified": "2020-09-13T02:02:27.000Z",
             "events_dev": [
                 "recjkmUO88wihv8Ci",
@@ -401,7 +401,7 @@
         "id": "recb9l9ttaZlODOFV",
         "createdTime": "2018-08-20T16:34:00.000Z",
         "fields": {
-            "groupName": "Apostles (The Eleven)",
+            "events": "The Holy Spirit is promised, Jesus ascends to Heaven, Matthias replaces Judas",
             "members": [
                 "recX9MMADoVI2CSP1",
                 "recpvMKljbEMuiK9e",
@@ -415,7 +415,7 @@
                 "recONdJVwpYA57oAi",
                 "recRuqBdtrgeag4gT"
             ],
-            "events": "The Holy Spirit is promised, Jesus ascends to Heaven, Matthias replaces Judas",
+            "groupName": "Apostles (The Eleven)",
             "modified": "2025-08-21T23:23:51.000Z",
             "events_dev": [
                 "recvfB75N6vrQwhWW",
@@ -465,7 +465,6 @@
         "id": "rechHR2dYztVvgNWa",
         "createdTime": "2018-03-19T00:37:26.000Z",
         "fields": {
-            "groupName": "Genealogy of Jesus",
             "members": [
                 "reck2X1F3OBtxfauF",
                 "recEg9i0J2MgmkZr8",
@@ -610,14 +609,14 @@
                 "rec0lXwCB3xvWjTVN",
                 "recfjweXQEdOHLzsN",
                 "rec9kWwxTer8CCKPM"
-            ]
+            ],
+            "groupName": "Genealogy of Jesus"
         }
     },
     {
         "id": "reciI2noa29XOlF3E",
         "createdTime": "2018-03-19T00:37:26.000Z",
         "fields": {
-            "groupName": "Tribe of Judah",
             "members": [
                 "recYIZfi53zX3NJh0",
                 "recEg9i0J2MgmkZr8",
@@ -898,10 +897,11 @@
                 "recTAjRQnFqthQI6N",
                 "rec9kWwxTer8CCKPM"
             ],
+            "groupName": "Tribe of Judah",
+            "modified": "2020-09-07T20:00:01.000Z",
             "verses": [
                 "recDl7QYLCsVnnMwn"
             ],
-            "modified": "2020-09-07T20:00:01.000Z",
             "events_dev": [
                 "recjkmUO88wihv8Ci",
                 "recr71Fz4NHTnGLJ2",
@@ -928,6 +928,7 @@
         "createdTime": "2020-07-10T12:06:09.000Z",
         "fields": {
             "groupName": "Nation of Israel",
+            "modified": "2020-09-13T20:09:33.000Z",
             "verses": [
                 "recq6FKwdJlNTduhu",
                 "recRrDhkXh71tOrOi",
@@ -942,7 +943,6 @@
                 "recAaYc00mUmh8UON",
                 "recneQvldBplXZCYu"
             ],
-            "modified": "2020-09-13T20:09:33.000Z",
             "events_dev": [
                 "recUvk5tT0xGxR71o",
                 "recG0Smwr0v3S7ShM",
@@ -974,7 +974,6 @@
         "id": "recuYvXjZsXumRLPL",
         "createdTime": "2018-03-19T00:37:26.000Z",
         "fields": {
-            "groupName": "Tribe of Levi",
             "members": [
                 "recv0dAY2ULzJ687g",
                 "recCkdqG3oAlsPbjr",
@@ -1157,6 +1156,7 @@
                 "recDhG2YO0S87wRkJ",
                 "recJ6ymHhmzPmXx1s"
             ],
+            "groupName": "Tribe of Levi",
             "modified": "2020-09-07T20:00:01.000Z",
             "events_dev": [
                 "recjkmUO88wihv8Ci",
@@ -1169,7 +1169,9 @@
         "id": "recvLnTX1XqhvGBx8",
         "createdTime": "2018-03-19T00:37:26.000Z",
         "fields": {
-            "groupName": "Tribe of Naphtali",
+            "partOf": [
+                "recsTcOXoP1DEM5lL"
+            ],
             "members": [
                 "recJ4lYdxuYyO07H7",
                 "recAbweFk5S3ILg8s",
@@ -1177,9 +1179,7 @@
                 "recmAUAIwW85ajksn",
                 "recquuEF4qN3GVe2c"
             ],
-            "partOf": [
-                "recsTcOXoP1DEM5lL"
-            ],
+            "groupName": "Tribe of Naphtali",
             "modified": "2020-09-13T02:02:26.000Z",
             "events_dev": [
                 "recjkmUO88wihv8Ci",
@@ -1192,7 +1192,9 @@
         "id": "recvnLGddvfa6P9fU",
         "createdTime": "2018-03-19T00:37:26.000Z",
         "fields": {
-            "groupName": "Tribe of Simeon",
+            "partOf": [
+                "recsTcOXoP1DEM5lL"
+            ],
             "members": [
                 "recdbnb7AtkqHC5o7",
                 "recq1vMzVPAJ0J2tk",
@@ -1208,9 +1210,7 @@
                 "recYR0bYFdRHez4x5",
                 "recdjCxSoKilwrxC1"
             ],
-            "partOf": [
-                "recsTcOXoP1DEM5lL"
-            ],
+            "groupName": "Tribe of Simeon",
             "modified": "2020-09-13T02:02:27.000Z",
             "events_dev": [
                 "recjkmUO88wihv8Ci",
@@ -1223,7 +1223,9 @@
         "id": "recwaeE7xPtLQrgEJ",
         "createdTime": "2018-03-19T00:37:26.000Z",
         "fields": {
-            "groupName": "Tribe of Reuben",
+            "partOf": [
+                "recsTcOXoP1DEM5lL"
+            ],
             "members": [
                 "rec8lYNa5C3L0QjP7",
                 "rec4MNqdM4NNH0eBC",
@@ -1235,9 +1237,7 @@
                 "rec3hEUuRodQfjZYS",
                 "recto9z3tEOnLjVOi"
             ],
-            "partOf": [
-                "recsTcOXoP1DEM5lL"
-            ],
+            "groupName": "Tribe of Reuben",
             "modified": "2020-09-13T02:02:22.000Z",
             "events_dev": [
                 "recjkmUO88wihv8Ci",
@@ -1250,7 +1250,6 @@
         "id": "reczbTTVKjfGyCOJS",
         "createdTime": "2020-05-15T01:34:04.000Z",
         "fields": {
-            "groupName": "Line of Cain",
             "members": [
                 "recOHEV7ktu3ugWOD",
                 "recCoSSvTtFmv69oV",
@@ -1262,6 +1261,7 @@
                 "recoQd6Yn0SynMgUs",
                 "recHxZ1b7KH2n3MBw"
             ],
+            "groupName": "Line of Cain",
             "modified": "2020-05-15T01:39:10.000Z"
         }
     }
