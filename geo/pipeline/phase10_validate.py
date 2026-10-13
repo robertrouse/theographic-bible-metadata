@@ -2,7 +2,8 @@
 
 1. Structure: one FeatureCollection with @context; unique @id and titles;
    valid Point geometry; fclasses from the spec (never "A"); certainty values;
-   feature-level when{} has a start and no end.
+   feature-level when{} has a start and no end (kingdoms in decisions.json
+   "polities" may have an end); every relation points at a feature.
 2. Schema: every Feature against the World Historical Gazetteer LPF schema
    (schema_lpf_v1.2.2.json from WorldHistoricalGazetteer/website), when the
    jsonschema package is installed (pip install jsonschema).
@@ -11,7 +12,7 @@
    cached in geo/working/link-check.json; --recheck ignores the cache.
    The @id URLs on bible.helloao.org are not checked: that API is on hold.
 
-Reads:  geo/working/phase-9-output.geojson
+Reads:  geo/working/phase-9b-output.geojson, geo/decisions.json, phase-8-index.json
 Writes: geo/working/schema_lpf_v1.2.2.json (downloaded once), link-check.json,
         phase-10-broken-links.csv, phase-10-report.md
 
@@ -39,8 +40,9 @@ CERTAINTY = {'certain', 'less-certain', 'uncertain'}
 PER_HOST = 4
 
 
-def structure_errors(fc):
+def structure_errors(fc, polity_ids=frozenset()):
     errs = []
+    ids_all = {f['@id'] for f in fc['features']}
     if fc.get('type') != 'FeatureCollection':
         errs.append('top level is not a FeatureCollection')
     if not fc.get('@context'):
@@ -59,6 +61,8 @@ def structure_errors(fc):
             c = g.get('coordinates')
             if g.get('type') == 'GeometryCollection' and g.get('geometries') == []:
                 pass    # location unknown
+            elif g.get('type') == 'MultiPoint' and f['@id'] in polity_ids:
+                pass    # a kingdom: the points of its member regions
             elif g.get('type') != 'Point' or not (isinstance(c, list) and len(c) == 2 and
                                                   all(isinstance(v, (int, float)) for v in c)):
                 errs.append(f'{t}: bad geometry {g}')
@@ -69,8 +73,11 @@ def structure_errors(fc):
         w = f.get('when')
         if not w or not w.get('timespans') or 'start' not in w['timespans'][0]:
             errs.append(f'{t}: feature when{{}} has no start')
-        elif any('end' in s for s in w['timespans']):
+        elif any('end' in s for s in w['timespans']) and f['@id'] not in polity_ids:
             errs.append(f'{t}: feature when{{}} has an end')
+        for r in f.get('relations') or []:
+            if r['relationTo'] not in ids_all:
+                errs.append(f'{t}: relation to unknown feature {r["relationTo"]}')
         if not f.get('names'):
             errs.append(f'{t}: no names')
         for n in f.get('names') or []:
@@ -139,9 +146,12 @@ def main():
     ap.add_argument('--recheck', action='store_true')
     ap.add_argument('--no-links', action='store_true')
     args = ap.parse_args()
-    fc = json.load(open(f'{WORK}/phase-9-output.geojson'))
+    fc = json.load(open(f'{WORK}/phase-9b-output.geojson'))
+    polity_dm = {p['dm_id'] for p in json.load(open('geo/decisions.json')).get('polities', [])}
+    polity_ids = frozenset(x['@id'] for x in json.load(open(f'{WORK}/phase-8-index.json'))
+                           if set(x['dm_ids']) & polity_dm)
 
-    struct = structure_errors(fc)
+    struct = structure_errors(fc, polity_ids)
     schema, schema_note = schema_errors(fc)
 
     link_rows, by_host = [], collections.Counter()
@@ -174,7 +184,7 @@ def main():
     lines = [
         '# Phase 10 Report: Validation', '',
         f'**Generated:** {date.today().isoformat()}  ',
-        '**File:** geo/working/phase-9-output.geojson', '',
+        '**File:** geo/working/phase-9b-output.geojson', '',
         '## Summary', '',
         '| Check | Result |', '|---|---|',
         f'| Features | {len(feats)} |',
@@ -193,6 +203,8 @@ def main():
         f'| names[] | {sum(1 for f in feats if f.get("names"))} ({sum(len(f["names"]) for f in feats)} names) |',
         f'| Pleiades link | {sum(1 for f in feats if any("pleiades.stoa.org" in l["identifier"] for l in f["links"]))} |',
         f'| Wikidata link | {sum(1 for f in feats if any("wikidata.org" in l["identifier"] for l in f["links"]))} |',
+        f'| relations (part of / near) | {sum(1 for f in feats if f.get("relations"))} features, '
+        f'{sum(len(f.get("relations", [])) for f in feats)} relations |',
     ]
     if not args.no_links:
         lines += ['', '## Links by host', '', '| Host | URLs | OK |', '|---|---|---|']

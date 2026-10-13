@@ -1,10 +1,11 @@
 # geo/bible-places.geojson — Open Items
 
 **Last updated:** 2026-10-13
-**State:** LPF pipeline phases 5–10 complete (`geo/pipeline/`). 1,028 features,
+**State:** LPF pipeline phases 5–10 complete (`geo/pipeline/`). 1,030 features,
 all valid against the WHG LPF schema v1.2.2, all with `names[]` and `when{}`.
 Every place has at least one verse reference (Theographic or Digital Manna);
-Phase 6 drops any place without one.
+Phase 6 drops any place without one. 387 "part of" / "near" relations
+(Phase 9b), including the three kingdoms.
 
 ## 1. Airtable (Phase 11): planned, not applied
 
@@ -21,7 +22,18 @@ Jaar #608 (Ps 132:6), Aram-naharaim #84 (Gen 24:10), Aram-zobah #85
 (Ps 60 title), Ham #515 (Gen 14:5). Their places are kept because Digital
 Manna lists verses for them; the Airtable records need their verse links.
 
-## 2. Digital Manna corrections to make upstream
+## 2. Relations: growing coverage
+
+368 "part of" and 19 "near" relations. Coverage is strongest for Joshua's
+tribal city lists, Jerusalem, and the NT regions DM's editors have reviewed
+(25 so far). More come automatically as DM adds "Region:" notes; add others
+to `part_of` / `near` in `decisions.json`. Joshua verses that name a
+neighbour's town or a mislinked place are excluded in `allotment_exclude`.
+
+## 3. Digital Manna corrections to make upstream
+
+- The two Israel kingdoms (`places-1255`, `-1256`) have no verse links; the
+  pipeline uses anchor verses from `decisions.json` "verses" until they do.
 
 - Bethlehem entries `places-0278` and `places-1090` have lost their
   Theographic IDs (#218, #220 and #219); Tahtim-hodshi (#662) is filed under
@@ -37,7 +49,7 @@ Manna lists verses for them; the Airtable records need their verse links.
   resolves (4,086 of 4,120). digitalmanna.org answers HEAD with 404, so link
   checkers must use GET.
 
-## 3. Review lists with open candidates
+## 4. Review lists with open candidates
 
 - `working/phase-8-review-pleiades.csv`: 92 Pleiades candidates not applied,
   11 applied matches with borderline names. Accept with `pleiades_add`, refuse
@@ -48,7 +60,7 @@ Manna lists verses for them; the Airtable records need their verse links.
 - `working/phase-5-review-shared-coordinates.csv`: 83 groups of places sharing
   one point by coincidence, likely placeholder coordinates.
 
-## 4. Known approximations
+## 5. Known approximations
 
 - Places mentioned only in undated verses take the nearest dated verse's
   year (labelled). The Numbers 33 campsites all get -1451 from Numbers 32,
@@ -59,7 +71,7 @@ Manna lists verses for them; the Airtable records need their verse links.
   Nebaioth, Nod) and carry an empty GeometryCollection.
 - `certainty` is never `uncertain`; the spec left that tier undefined.
 
-## 5. Not done yet
+## 6. Not done yet
 
 - `@id` URLs point to bible.helloao.org endpoints that do not exist yet (on hold).
 - Original-script names (Hebrew/Greek forms in DM's CMS cache) are not in `names[]`.

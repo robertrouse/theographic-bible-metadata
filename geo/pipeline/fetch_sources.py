@@ -1,7 +1,8 @@
 """Fetch and cache the external sources used by the LPF pipeline.
 
 Writes to geo/working/ (never to source data):
-  dm-places-cache.json        Digital Manna place entries (subset of fields plus verse refs)
+  dm-places-cache.json        Digital Manna place entries (subset of fields plus verse refs
+                              and the containing region from the editors' notes)
   openbible-ancient.jsonl     OpenBible Bible-Geocoding-Data ancient places
   wikidata-pleiades.json      Wikidata QID -> Pleiades ID (P1584)
   pleiades-places.csv.gz      Pleiades bulk dump: places (for matching)
@@ -19,6 +20,7 @@ Usage (from repo root):
 import argparse
 import json
 import os
+import re
 import subprocess
 import sys
 import urllib.parse
@@ -61,9 +63,13 @@ def fetch_dm(dm_dir):
         with ThreadPoolExecutor(max_workers=12) as pool:
             entries = list(pool.map(lambda s: json.loads(gh(f'repos/{DM_REPO}/git/blobs/{s}', raw=True)), blobs))
     # verses: the entry's verse references, as verses.json verseIDs (BBCCCVVV)
+    # regions: the containing place from the editors' "Region: places-#### <basis>" line;
+    #          only that line is kept, not the notes
     entries = [{**{k: e.get(k) for k in DM_KEEP},
                 'verses': sorted(int(r.split('-', 1)[1]) for r in (e.get('lookup') or {}).get('related', [])
-                                 if r.startswith('verses-'))}
+                                 if r.startswith('verses-')),
+                'regions': [{'id': m.group(1), 'basis': m.group(2).strip()}
+                            for m in re.finditer(r'^Region:\s*(places-\d{4})\s*(.*)$', e.get('admin_notes') or '', re.M)]}
                for e in entries]
     entries.sort(key=lambda e: e['id'])
     return {'source': f'https://github.com/{DM_REPO}/tree/{commit}/{DM_PATH}',

@@ -55,10 +55,12 @@ def main():
     rec_to_pid = {p['id']: p['fields']['placeID'] for p in json.load(open('json/places.json'))}
     verses = {}
     by_verse_id = {}
+    by_osis = {}
     for v in json.load(open('json/verses.json')):
         f = v['fields']
         verses[v['id']] = f
         by_verse_id[int(f['verseID'])] = f
+        by_osis[f['osisRef']] = int(f['verseID'])
     # nearest dated verse for undated ones: same book, within NEIGHBOR_CHAPTERS, preceding first
     dated_by_book = collections.defaultdict(list)
     for vid in sorted(by_verse_id):
@@ -85,6 +87,7 @@ def main():
                     events_at[rec_to_pid[loc]].append((int(m.group(1)), f['title']))
     periods = json.load(open('geo/pipeline/periodo_neaehl.json'))['periods']
     dec_when = json.load(open('geo/decisions.json')).get('when', {})
+    dec_verses = json.load(open('geo/decisions.json')).get('verses', {})
 
     def period_of(year):
         return next((p for p in periods if p['start'] <= year < p['stop']), None)
@@ -95,6 +98,7 @@ def main():
         vids = {int(verses[v]['verseID']) for p in x['placeIDs'] for v in (places.get(p) or {}).get('verses') or []
                 if v in verses}
         vids |= {vid for d in x['dm_ids'] for vid in dm[d].get('verses') or [] if vid in by_verse_id}
+        vids |= {by_osis[o] for d in x['dm_ids'] for o in dec_verses.get(d, []) if o in by_osis}
         for vid in vids:
             f = by_verse_id[vid]
             (found if f.get('yearNum') is not None else undated).append(vid)

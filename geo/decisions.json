@@ -968,7 +968,10 @@
     "places-0787": "Rimmon (of Judah)",
     "places-1249": "Rimmon (of Zebulun)",
     "places-0981": "Shallecheth Gate",
-    "places-1051": "Gate of the Foundation"
+    "places-1051": "Gate of the Foundation",
+    "places-1255": "United Kingdom of Israel",
+    "places-1256": "Northern Kingdom of Israel",
+    "places-1257": "Kingdom of Judah"
   },
   "fclasses": {
     "places-1257": [
@@ -1015,9 +1018,15 @@
     ],
     "places-0390": [
       "S"
+    ],
+    "places-1255": [
+      "L"
+    ],
+    "places-1256": [
+      "L"
     ]
   },
-  "fclasses_note": "For DM entries with no type in any source: tribal territories and Judah (Southern) are L; Edrei of Naphtali and Mizpah of Gilead are P. El-elohe-Israel is S: the altar Jacob built at Shechem (Gen 33:20).",
+  "fclasses_note": "For DM entries with no type in any source: tribal territories and kingdoms are L; Edrei of Naphtali and Mizpah of Gilead are P. El-elohe-Israel is S: the altar Jacob built at Shechem (Gen 33:20).",
   "pleiades_add": [
     {
       "dm_id": "places-0079",
@@ -1042,7 +1051,7 @@
   ],
   "pleiades_reject": [],
   "when": {},
-  "when_note": "Feature start dates for places no source dates; the PeriodO period is added automatically. (Israel (United) and Israel (Northern Kingdom) were dropped: no verse reference in any source.)",
+  "when_note": "Feature start dates for places no source dates; the PeriodO period is added automatically.",
   "coordinates": {
     "theographic:1278": {
       "lon": 27.006,
@@ -1056,5 +1065,551 @@
     "places-1015": 516,
     "places-0861": 580
   },
-  "airtable_canonical_note": "Airtable record (placeID) that other names of the place link to, where the title-then-verses rule picks a minor record."
+  "airtable_canonical_note": "Airtable record (placeID) that other names of the place link to, where the title-then-verses rule picks a minor record.",
+  "verses": {
+    "places-1255": [
+      "1Sam.10.1",
+      "1Sam.11.15",
+      "2Sam.5.3",
+      "1Kgs.4.1"
+    ],
+    "places-1256": [
+      "2Chr.10.19",
+      "1Kgs.12.19",
+      "1Kgs.12.20",
+      "2Kgs.17.6",
+      "2Kgs.17.18"
+    ]
+  },
+  "verses_note": "Verse references (OSIS) for places the sources have not yet linked to verses; they count toward the every-place-needs-a-verse rule and toward dating. Replace with Digital Manna verse links when they exist.",
+  "polities": [
+    {
+      "dm_id": "places-1255",
+      "label": "United Kingdom of Israel",
+      "start": -1094,
+      "end": -974,
+      "start_ref": "1Sam.10.1",
+      "end_ref": "2Chr.10.19",
+      "note": "Saul anointed to the division of the kingdom",
+      "members": [
+        "places-1258",
+        "places-1259",
+        "places-1260",
+        "places-1262",
+        "places-1264",
+        "places-1265",
+        "places-1266",
+        "places-1268",
+        "places-1269",
+        "places-1270",
+        "places-1271",
+        "places-0611",
+        "places-0612"
+      ]
+    },
+    {
+      "dm_id": "places-1256",
+      "label": "Northern Kingdom of Israel",
+      "start": -974,
+      "end": -720,
+      "start_ref": "2Chr.10.19",
+      "end_ref": "2Kgs.17.6",
+      "note": "the division of the kingdom to the fall of Samaria",
+      "members": [
+        "places-1258",
+        "places-1262",
+        "places-1268",
+        "places-1269",
+        "places-1270",
+        "places-1265",
+        "places-1266",
+        "places-1264",
+        "places-1260",
+        "places-0223",
+        "places-0988"
+      ]
+    },
+    {
+      "dm_id": "places-1257",
+      "label": "Kingdom of Judah",
+      "start": -974,
+      "end": -587,
+      "start_ref": "2Chr.10.19",
+      "end_ref": "2Kgs.25.8",
+      "note": "the division of the kingdom to the fall of Jerusalem",
+      "members": [
+        "places-0611",
+        "places-1271",
+        "places-0612"
+      ]
+    }
+  ],
+  "polities_note": "Kingdoms are time-bounded groupings of regions. Each gets a feature-level when{} with start AND end (an exception to start-only), a MultiPoint of its members, and each member gets a dated \"part of\" relation (gvp:broaderPartitive). Dates follow the Theographic chronology.",
+  "allotments": [
+    {
+      "territory": "places-0611",
+      "tribe": "Judah",
+      "verses": "Josh.15.21-Josh.15.62",
+      "certainty": "certain"
+    },
+    {
+      "territory": "places-1271",
+      "tribe": "Benjamin",
+      "verses": "Josh.18.21-Josh.18.28",
+      "certainty": "certain"
+    },
+    {
+      "territory": "places-1258",
+      "tribe": "Reuben",
+      "verses": "Josh.13.15-Josh.13.23",
+      "certainty": "certain"
+    },
+    {
+      "territory": "places-1262",
+      "tribe": "Gad",
+      "verses": "Josh.13.24-Josh.13.28",
+      "certainty": "certain"
+    },
+    {
+      "territory": "places-1268",
+      "tribe": "East Manasseh",
+      "verses": "Josh.13.29-Josh.13.31",
+      "certainty": "certain"
+    },
+    {
+      "territory": "places-1270",
+      "tribe": "Ephraim",
+      "verses": "Josh.16.5-Josh.16.10",
+      "certainty": "less certain"
+    },
+    {
+      "territory": "places-1269",
+      "tribe": "West Manasseh",
+      "verses": "Josh.17.7-Josh.17.11",
+      "certainty": "less certain"
+    },
+    {
+      "territory": "places-1266",
+      "tribe": "Zebulun",
+      "verses": "Josh.19.10-Josh.19.16",
+      "certainty": "certain"
+    },
+    {
+      "territory": "places-1265",
+      "tribe": "Issachar",
+      "verses": "Josh.19.17-Josh.19.23",
+      "certainty": "certain"
+    },
+    {
+      "territory": "places-1264",
+      "tribe": "Asher",
+      "verses": "Josh.19.24-Josh.19.31",
+      "certainty": "certain"
+    },
+    {
+      "territory": "places-1260",
+      "tribe": "Naphtali",
+      "verses": "Josh.19.32-Josh.19.39",
+      "certainty": "certain"
+    },
+    {
+      "territory": "places-1259",
+      "tribe": "Dan",
+      "verses": "Josh.19.40-Josh.19.48",
+      "certainty": "certain"
+    }
+  ],
+  "allotments_note": "Cities and sites (fclass P or S) linked to these verses become \"part of\" the tribal territory from the year of the verse. Boundary-only features (rivers, regions, mountains) are not children. Ranges are the city lists, not the boundary descriptions, except Ephraim and West Manasseh, whose cities are given only along their borders (less certain).",
+  "part_of": [
+    {
+      "child": "places-0816",
+      "parent": "places-0612",
+      "certainty": "certain",
+      "note": "Angle, The Angle"
+    },
+    {
+      "child": "places-0123",
+      "parent": "places-0612",
+      "certainty": "certain",
+      "note": "Beautiful Gate"
+    },
+    {
+      "child": "places-1047",
+      "parent": "places-0612",
+      "certainty": "certain",
+      "note": "Benjamin Gate"
+    },
+    {
+      "child": "places-0248",
+      "parent": "places-0612",
+      "certainty": "certain",
+      "note": "Bethesda"
+    },
+    {
+      "child": "places-1111",
+      "parent": "places-0612",
+      "certainty": "certain",
+      "note": "Broad Wall"
+    },
+    {
+      "child": "places-1118",
+      "parent": "places-0612",
+      "certainty": "certain",
+      "note": "Corner Gate"
+    },
+    {
+      "child": "places-1127",
+      "parent": "places-0612",
+      "certainty": "certain",
+      "note": "Dung Gate"
+    },
+    {
+      "child": "places-1026",
+      "parent": "places-0612",
+      "certainty": "certain",
+      "note": "East Gate"
+    },
+    {
+      "child": "places-1048",
+      "parent": "places-0612",
+      "certainty": "certain",
+      "note": "Ephraim Gate"
+    },
+    {
+      "child": "places-1044",
+      "parent": "places-0612",
+      "certainty": "certain",
+      "note": "Fish Gate"
+    },
+    {
+      "child": "places-1052",
+      "parent": "places-0612",
+      "certainty": "certain",
+      "note": "Fountain Gate"
+    },
+    {
+      "child": "places-1051",
+      "parent": "places-0612",
+      "certainty": "certain",
+      "note": "Gate of the Foundation"
+    },
+    {
+      "child": "places-1204",
+      "parent": "places-0612",
+      "certainty": "certain",
+      "note": "Gate of the Guard"
+    },
+    {
+      "child": "places-1050",
+      "parent": "places-0612",
+      "certainty": "certain",
+      "note": "Gate of the People"
+    },
+    {
+      "child": "places-1196",
+      "parent": "places-0612",
+      "certainty": "certain",
+      "note": "Hall of Pillars"
+    },
+    {
+      "child": "places-1230",
+      "parent": "places-0612",
+      "certainty": "certain",
+      "note": "Hall of the Throne"
+    },
+    {
+      "child": "places-1061",
+      "parent": "places-0612",
+      "certainty": "certain",
+      "note": "Horse Gate"
+    },
+    {
+      "child": "places-1045",
+      "parent": "places-0612",
+      "certainty": "certain",
+      "note": "House of the Forest of Lebanon"
+    },
+    {
+      "child": "places-1006",
+      "parent": "places-0612",
+      "certainty": "certain",
+      "note": "Millo"
+    },
+    {
+      "child": "places-1134",
+      "parent": "places-0612",
+      "certainty": "certain",
+      "note": "Mount Zion"
+    },
+    {
+      "child": "places-0636",
+      "parent": "places-0612",
+      "certainty": "certain",
+      "note": "Muster Gate"
+    },
+    {
+      "child": "places-1140",
+      "parent": "places-0612",
+      "certainty": "certain",
+      "note": "New Gate"
+    },
+    {
+      "child": "places-1145",
+      "parent": "places-0612",
+      "certainty": "certain",
+      "note": "Old Gate"
+    },
+    {
+      "child": "places-0628",
+      "parent": "places-0612",
+      "certainty": "certain",
+      "note": "Ophel"
+    },
+    {
+      "child": "places-0981",
+      "parent": "places-0612",
+      "certainty": "certain",
+      "note": "Shallecheth Gate"
+    },
+    {
+      "child": "places-1181",
+      "parent": "places-0612",
+      "certainty": "certain",
+      "note": "Sheep Gate"
+    },
+    {
+      "child": "places-0944",
+      "parent": "places-0612",
+      "certainty": "certain",
+      "note": "Silla"
+    },
+    {
+      "child": "places-0986",
+      "parent": "places-0612",
+      "certainty": "certain",
+      "note": "Siloam"
+    },
+    {
+      "child": "places-1186",
+      "parent": "places-0612",
+      "certainty": "certain",
+      "note": "Solomon’s Portico"
+    },
+    {
+      "child": "places-0959",
+      "parent": "places-0612",
+      "certainty": "certain",
+      "note": "Sur"
+    },
+    {
+      "child": "places-0344",
+      "parent": "places-0612",
+      "certainty": "certain",
+      "note": "The Stone Pavement"
+    },
+    {
+      "child": "places-0462",
+      "parent": "places-0612",
+      "certainty": "certain",
+      "note": "Tower of Hananel"
+    },
+    {
+      "child": "places-1245",
+      "parent": "places-0612",
+      "certainty": "certain",
+      "note": "Tower of the Hundred"
+    },
+    {
+      "child": "places-1233",
+      "parent": "places-0612",
+      "certainty": "certain",
+      "note": "Tower of the Ovens"
+    },
+    {
+      "child": "places-1238",
+      "parent": "places-0612",
+      "certainty": "certain",
+      "note": "Uzza (Place)"
+    },
+    {
+      "child": "places-1053",
+      "parent": "places-0612",
+      "certainty": "certain",
+      "note": "Valley Gate"
+    },
+    {
+      "child": "places-1170",
+      "parent": "places-0612",
+      "certainty": "certain",
+      "note": "Water Gate"
+    },
+    {
+      "child": "places-0048",
+      "parent": "places-0018",
+      "certainty": "certain",
+      "note": "Areopagus, Athens (Acts 17:19-22)"
+    },
+    {
+      "child": "places-1105",
+      "parent": "places-0575",
+      "certainty": "certain",
+      "note": "Mount Lebanon"
+    },
+    {
+      "child": "places-0633",
+      "parent": "places-0920",
+      "certainty": "certain",
+      "note": "house of Millo in Shechem (Judg 9:6)"
+    },
+    {
+      "child": "places-1261",
+      "parent": "places-1260",
+      "certainty": "certain",
+      "note": "Edrei, a fortified city of Naphtali (Josh 19:37)"
+    }
+  ],
+  "near": [
+    {
+      "child": "places-0007",
+      "parent": "places-0612",
+      "certainty": "certain",
+      "note": "Akeldama"
+    },
+    {
+      "child": "places-1046",
+      "parent": "places-0612",
+      "certainty": "certain",
+      "note": "Gareb (mountain)"
+    },
+    {
+      "child": "places-0363",
+      "parent": "places-0612",
+      "certainty": "certain",
+      "note": "Gethsemane"
+    },
+    {
+      "child": "places-0323",
+      "parent": "places-0612",
+      "certainty": "certain",
+      "note": "Goah"
+    },
+    {
+      "child": "places-0326",
+      "parent": "places-0612",
+      "certainty": "certain",
+      "note": "Golgotha"
+    },
+    {
+      "child": "places-1161",
+      "parent": "places-0612",
+      "certainty": "certain",
+      "note": "King’s Valley"
+    },
+    {
+      "child": "places-1162",
+      "parent": "places-0612",
+      "certainty": "certain",
+      "note": "Valley of Shaveh"
+    },
+    {
+      "child": "places-0333",
+      "parent": "places-0360",
+      "certainty": "certain",
+      "note": "well in the valley of Gerar (Gen 26:20)"
+    },
+    {
+      "child": "places-0951",
+      "parent": "places-0360",
+      "certainty": "certain",
+      "note": "well near Gerar (Gen 26:21)"
+    },
+    {
+      "child": "places-0691",
+      "parent": "places-0920",
+      "certainty": "less certain",
+      "note": "Judg 9:37"
+    },
+    {
+      "child": "places-0645",
+      "parent": "places-0920",
+      "certainty": "certain",
+      "note": "oak of Moreh at Shechem (Gen 12:6)"
+    },
+    {
+      "child": "places-0091",
+      "parent": "places-0246",
+      "certainty": "certain",
+      "note": "below Bethel (Gen 35:8)"
+    },
+    {
+      "child": "places-1242",
+      "parent": "places-0546",
+      "certainty": "certain",
+      "note": "Deut 34:3"
+    },
+    {
+      "child": "places-1243",
+      "parent": "places-1066",
+      "certainty": "certain",
+      "note": "Josh 17:16"
+    },
+    {
+      "child": "places-1054",
+      "parent": "places-0278",
+      "certainty": "certain",
+      "note": "near Bethlehem (Jer 41:17)"
+    },
+    {
+      "child": "places-1221",
+      "parent": "places-0427",
+      "certainty": "certain",
+      "note": "1 Sam 24:2"
+    },
+    {
+      "child": "places-1133",
+      "parent": "places-0859",
+      "certainty": "less certain",
+      "note": "2 Chr 13:4"
+    },
+    {
+      "child": "places-0469",
+      "parent": "places-0883",
+      "certainty": "certain",
+      "note": "north of Mount Gaash (Josh 24:30)"
+    },
+    {
+      "child": "places-0567",
+      "parent": "places-0551",
+      "certainty": "certain",
+      "note": "between Kadesh and Bered (Gen 16:14)"
+    }
+  ],
+  "part_of_note": "Containment and proximity that no source states in structured form, curated from the Airtable rootID links (retired 2026-10-13) and the text. \"part_of\" = inside (gvp:broaderPartitive); \"near\" = beside or outside (gvp:tgn3000_related_to). Digital Manna region notes and the Joshua allotments add more automatically.",
+  "allotment_exclude": [
+    {
+      "child": "places-0546",
+      "territory": "places-1270",
+      "note": "Josh 16:7: Ephraim's border only touches Jericho; Jericho is Benjamin's (18:21)"
+    },
+    {
+      "child": "places-0973",
+      "territory": "places-1269",
+      "note": "Josh 17:8: Tappuah on Manasseh's border belonged to Ephraim"
+    },
+    {
+      "child": "places-0185",
+      "territory": "places-1264",
+      "note": "Josh 19:26 is Mount Carmel; Theographic links the verse to the town of Carmel in Judah"
+    },
+    {
+      "child": "places-0293",
+      "territory": "places-1260",
+      "note": "Josh 19:37 is Edrei of Naphtali, not Og's city; Theographic links the verse to the wrong Edrei"
+    },
+    {
+      "child": "places-0381",
+      "territory": "places-1264",
+      "note": "Josh 19:28 Hammon in Asher, merged into Hammath of Naphtali"
+    }
+  ]
 }

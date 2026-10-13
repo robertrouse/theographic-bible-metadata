@@ -113,12 +113,13 @@ def main():
                       'placeIDs': [nf['placeID']], 'orphan': orphan_rows[nf['placeID']]})
 
     # A place belongs in the data only if the Bible mentions it: at least one
-    # verse linked in Theographic or listed by Digital Manna.
+    # verse linked in Theographic, listed by Digital Manna, or given in
+    # decisions.json "verses" for places the sources have not linked yet.
     dm_verses = {e['id']: e.get('verses') or [] for e in json.load(open(f'{WORK}/dm-places-cache.json'))['entries']}
 
     def verse_refs(f):
         return sum(len(places[p].get('verses') or []) for p in f['placeIDs'] if p in places) + \
-            sum(len(dm_verses.get(r['dm_id'], [])) for r in f['rows'])
+            sum(len(dm_verses.get(r['dm_id'], [])) + len(dec.get('verses', {}).get(r['dm_id'], [])) for r in f['rows'])
     no_verses = [f['rows'][0]['dm_name'] if f['rows'] else f['canonical'] for f in feats if not verse_refs(f)]
     feats = [f for f in feats if verse_refs(f)]
 
