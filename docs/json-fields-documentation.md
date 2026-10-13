@@ -10,18 +10,33 @@ This documentation provides a comprehensive reference for the structure and fiel
 - [Events](#events)
 - [People](#people-38-fields)
 - [PeopleGroups](#peoplegroups-7-fields)
-- [Periods](#periods-9-fields)
 - [Places](#places-40-fields)
 - [Verses](#verses-17-fields)
+- [Status Values](#status-values)
 
 ## Dataset Overview
-The JSON files are located in the `json/` directory of the root repository. These files were generated through a Python ETL script from Airtable, where the original data was inputted and continues to be updated. Because of this Airtable origin, you may encounter peculiarities in data structure and field name inconsistencies. Throughout this documentation, JSON files are referred to as "tables" since they directly represent tabular data exported from Airtable.
+The JSON files are in the repository's `json/` directory. A Python ETL script (`scripts/airtable_etl.ipynb`) generates them from Airtable, where the data is entered and maintained. Because the data originates in Airtable, some structures are irregular and some field names are inconsistent. This documentation calls each JSON file a "table" because it maps directly to an Airtable table.
+
+| File | Records |
+|---|---|
+| `books.json` | 66 |
+| `chapters.json` | 1,189 |
+| `verses.json` | 31,102 |
+| `people.json` | 3,067 |
+| `peopleGroups.json` | 23 |
+| `places.json` | 1,274 |
+| `events.json` | 450 |
+| `easton.json` | 6,519 |
+
+> **Dates:** Before you use any date or year field, read [Chronology and Dates](chronology-and-dates.md). The events timeline follows Dr. Floyd Nolen Jones, and the year fields do not all use the same numbering convention.
 
 ## Standard JSON Entity Structure
 All Theographic JSON entities have three root fields:
-- `id` - A 14-character alphanumeric case-sensitive unique record identifier (e.g., `recRAcqtgn28zXm1a`)
+- `id` - A 17-character, case-sensitive Airtable record ID: `rec` followed by 14 alphanumeric characters (e.g., `recRAcqtgn28zXm1a`)
 - `createdTime` - An ISO 8601/RFC 3339 formatted timestamp (e.g., `2018-06-01T13:12:45.000Z`)
 - `fields` - A nested object containing entity-specific data
+
+Link fields almost always hold arrays of these record IDs. The one exception is `books.writers`, which holds `personLookup` slugs (e.g., `"paul_2479"`). Fields with no value are omitted from a record rather than set to `null`.
 
 This documentation focuses exclusively on the fields within the `fields` object. Each section below corresponds to a specific JSON file and details its field names, data types, and relationships with other JSON files. Additionally, each section includes a sample JSON entity from real data to illustrate the structure in practice. Note that sample entities may not contain all possible fields, and some long text values or arrays have been truncated for conciseness.
 
@@ -39,7 +54,7 @@ This table contains high-level metadata for each of the 66 books in the Protesta
 | `shortName` | string | Validated | Shortest abbreviation, useful for small labels |
 | `bookOrder` | integer | Validated | Order of books in the traditional Protestant canon, excluding Apocrypha. |
 | `verses` | array | Validated | An array of record IDs linking to all verses contained within this book. |
-| `yearWritten` | array | Incomplete | Approximate year written, if known. **Currently in unusable format as of 2026/01/05, but undergoing a fix.** It references an entry in the `periods` table - a table that was removed. In the future, it will be updated with an integer value of the isoYear for that period. |
+| `yearWritten` | string | Incomplete | Approximate year written, if known (e.g., `"57"` for Romans). Populated for 21 of 66 books. See [Chronology and Dates](chronology-and-dates.md#book-dates-yearwritten). |
 | `placeWritten` | array | Incomplete | An array of record IDs linking to the 'places' table, representing the location where the book was written. |
 | `verseCount` | integer | Validated | An integer representing the total number of verses in the book. |
 | `chapters` | array | Validated | An array of record IDs linking to all chapters contained within this book. |
@@ -71,9 +86,7 @@ This table contains high-level metadata for each of the 66 books in the Protesta
     "verses": [
       "recld8Sxx8yDn1Ik8"
     ],
-    "yearWritten": [
-      "recvOFi9OkrgM1IAO"
-    ],
+    "yearWritten": "57",
     "placeWritten": [
       "recpmPd6JhbqhqA0Q"
     ],
@@ -189,26 +202,28 @@ This table contains parsed entries from the 1897 Easton's Bible Dictionary. Each
 ## Events
 This table chronicles the timeline of Biblical events. Each record details a specific event with a `title`, chronological data (e.g. `startDate`), and its relationship to other events (`predecessor`, `partOf`). It connects each event to its `participants` (people), `locations` (places), and the narrative `verses` that describe it.
 
+Old Testament and Gospel dates follow Dr. Floyd Nolen Jones, *The Chronology of the Old Testament*, and Acts dates follow timelines from Todd Atwood, ThM. Field formats, the ISO year convention, and the anchor dates are covered in [Chronology and Dates](chronology-and-dates.md#events-timeline-fields).
+
 ### Fields Reference (19 Fields)
 
 | Field | Type | Status | Description |
 |-------|------|--------|-------------|
 | `title` | string | Incomplete | Unique title for an event |
-| `startDate` | string | Incomplete | ISO formatted date to identify calendar dates where known |
-| `duration` | string | Incomplete | Event length in days, years, etc. for use in end date calculations |
+| `startDate` | string | Populated | An ISO 8601 astronomical year (`"-4003"` = 4004 BC) or calendar date (`"0030-04-04"`). Present on every event. |
+| `duration` | string | Populated | Event length: a number plus `D`, `W`, `M`, or `Y` (e.g. `"7D"`, `"40Y"`) |
 | `participants` | array | Incomplete | An array of record IDs linking to the 'people' table, representing the participants in the event. |
 | `locations` | array | Incomplete | An array of record IDs linking to the 'places' table, representing the location(s) where the event occurred. |
 | `verses` | array | Incomplete | An array of record IDs linking to the 'verses' table, representing the scriptural basis for the event. |
 | `predecessor` | array | Incomplete | An array containing the record ID of the immediately preceding event in the timeline. |
-| `lag` | string | Unknown | The time elapsed between the predecessor event and the current event. |
+| `lag` | string | Populated | Time between the predecessor event and this one, in the same format as `duration` (e.g. `"130Y"`). |
 | `partOf` | array | Unknown | An array containing the record ID of a parent event, indicating this event is a sub-component of a larger narrative arc. |
 | `notes` | string | Unknown | A field for additional commentary or explanatory notes about the event. |
 | `verseSort` | string | Unknown | The `verseID` of the first verse in the `verses` field of this event. |
 | `groups` | array | Unknown | An array of record IDs linking to the 'peopleGroups' table, representing groups involved in the event. |
 | `modified` | string | Unknown | Last modified date and time |
-| `sortKey` | float | Incomplete | Uses a combination of year and verseSort to sort all events chronolgically. The calculation formula, originated in airtable, is `INT(IF(LEFT(startDate,1)='-',LEFT(startDate,5),LEFT(startDate,4))) + INT(verseSort)/100000000`|
+| `sortKey` | float | Populated | Uses a combination of year and verseSort to sort all events chronologically. The calculation formula, originated in airtable, is `INT(IF(LEFT(startDate,1)='-',LEFT(startDate,5),LEFT(startDate,4))) + INT(verseSort)/100000000`|
 | `places (from verses)` | array | Unknown | An array of record IDs linking to the 'places' table, derived automatically from the associated verses. |
-| `rangeFlag` | boolean | Unknown | If rangeFlag is true, it means that the year is an approximation and not an exact date. |
+| `rangeFlag` | boolean | Populated | If rangeFlag is true, the year is an approximation and not an exact date. |
 | `people (from verses)` | array | Unknown | An array of record IDs linking to the 'people' table, derived automatically from the associated verses. |
 | `lagType` | string | Unknown | The type of predecessor relationship - either Start-to-Start (SS) or Finish-to-Start (FS). For example, for an event with lag of 130Y, lagType `FS` means that the event started 130 years after the predecessor event finished, whereas lagType `SS` means that the event started 130 years after the predecessor event started.|
 | `eventID` | integer | Unknown | Unique identifier |
@@ -264,14 +279,14 @@ This table provides a comprehensive catalog of every individual mentioned by nam
 | `surname` | string | Validated | Surname, if known. |
 | `isProperName` | boolean | Validated | Identifies those with proper names vs. descriptive names like "Wife of..." or "Son of..." |
 | `gender` | string | Validated | Male or Female |
-| `birthYear` | string | Populated | The person's estimated birth year as a numeric string using ISO 8601 astronomical year numbering. The value `0` corresponds to 1 BC, `-1` to 2 BC, and so on. To convert to a BC year, negate the value and add 1. For example, `-4003` = 4004 BC; `-1574` = 1575 BC. AD years are positive (e.g. `"30"` = AD 30). |
-| `deathYear` | string | Populated | The person's estimated death year as a numeric string using ISO 8601 astronomical year numbering (same convention as `birthYear`). For example, `-1451` = 1452 BC. |
+| `birthYear` | string | Incomplete | Estimated birth year, following Jones's chronology, as a numeric string. Negative values are BC years with a minus sign (`"-4004"` = 4004 BC; `"-1574"` = 1574 BC), and positive values are AD years. **This is not the ISO astronomical convention used by `events.startDate`.** Add 1 to a negative value to place it on the events axis. Populated for 75 people. See [Chronology and Dates](chronology-and-dates.md#people-dates). |
+| `deathYear` | string | Incomplete | Estimated death year, in the same convention as `birthYear` (`"-1015"` = 1015 BC). Populated for 64 people. |
 | `memberOf` | array | Validated | An array of record IDs linking to the 'peopleGroups' table, indicating the groups (tribes, families, etc.) the person belongs to. |
 | `birthPlace` | array | Validated | An array of record IDs linking to the 'places' table, representing the person's birthplace. |
 | `deathPlace` | array | Validated | An array of record IDs linking to the 'places' table, representing the person's place of death. |
 | `dictionaryLink` | string | Unknown | A URL to its Easton's Bible Dictionary entry at https://www.biblestudytools.com/dictionaries/eastons-bible-dictionary. |
 | `dictionaryText` | string | Unknown | The text content from its Easton's Bible Dictionary entry. |
-| `events` | string | Incomplete | Title of events in which the person participated. Complete for the book of Acts |
+| `events` | string | Incomplete | Comma-separated titles of events the person participated in. Use `timeline` for record IDs. |
 | `verseCount` | integer | Validated | Counts verses where the person is mentioned by name |
 | `verses` | array | Validated | An array of record IDs linking to the 'verses' table, representing every verse where this person is explicitly mentioned. |
 | `siblings` | array | Validated | An array of record IDs linking to the 'people' table, representing the person's full siblings. |
@@ -281,8 +296,8 @@ This table provides a comprehensive catalog of every individual mentioned by nam
 | `mother` | array | Validated | An array containing the record ID of the person's mother in the 'people' table. |
 | `father` | array | Validated | An array containing the record ID of the person's father in the 'people' table. |
 | `children` | array | Validated | An array of record IDs linking to the 'people' table, representing the person's children. |
-| `minYear` | integer | Temporary | Temporary to help align birth year to passage/events timeline |
-| `maxYear` | integer | Temporary | Temporary to help align birth year to passage/events timeline |
+| `minYear` | integer | Temporary | Earliest year of the verses that mention this person (negated-BC convention). Used to align people with the events timeline; not a birth year. |
+| `maxYear` | integer | Temporary | Latest year of the verses that mention this person (negated-BC convention). |
 | `displayTitle` | string | Populated | Disambiguated name suitable for page titles and search results |
 | `status` | string | Temporary | The validation status of the individual person record |
 | `alphaGroup` | string | Validated | Used for alphabetical indexing |
@@ -305,7 +320,7 @@ This table provides a comprehensive catalog of every individual mentioned by nam
 - `siblings` → References field `id` of `people` table records
 - `halfSiblingsSameMother` → References field `id` of `people` table records
 - `halfSiblingsSameFather` → References field `id` of `people` table records
-- `chaptersWritten` → References field `id` of `people` table records
+- `chaptersWritten` → References field `id` of `chapters` table records
 - `mother` → References field `id` of `people` table records
 - `father` → References field `id` of `people` table records
 - `children` → References field `id` of `people` table records
@@ -429,7 +444,7 @@ This table catalogs all geographic locations mentioned in the Bible. Each record
 | `esvName` | string | Validated | Place Name in the English Standard Version (from OpenBible.info/geo) |
 | `comment` | string | Incomplete | Comments from OpenBible.info/geo |
 | `precision` | string | Incomplete | Relative accuracy of lat/long assignment |
-| `featureType` | string | Incomplete | Delineates, region, city, water, etc. Complete for the book of Acts |
+| `featureType` | string | Incomplete | Broad classification such as City, Region, Water, Mountain. Populated for 720 of 1,274 places. |
 | `rootID` | array | Temporary | An array containing the record ID of another place record from which coordinates are inherited. |
 | `aliases` | string | Populated | Alternate names for the same coordinate |
 | `dictionaryLink` | string | Unknown | A URL to its Easton's Bible Dictionary entry at https://www.biblestudytools.com/dictionaries/eastons-bible-dictionary. |
@@ -443,13 +458,13 @@ This table catalogs all geographic locations mentioned in the Bible. Each record
 | `peopleDied` | array | Validated | An array of record IDs linking to the 'people' table, representing individuals who died at this location. |
 | `booksWritten` | array | Incomplete | An array of record IDs linking to the 'books' table, representing books written at this location. |
 | `verses` | array | Validated | An array of record IDs linking to the 'verses' table, representing verses where this place is mentioned. |
-| `recogitoStatus` | string | Populated | Verification of inks to other historical databases |
+| `recogitoStatus` | string | Populated | Verification of links to other historical databases |
 | `recogitoType` | string | Populated | Geographic type from Recogito matches |
 | `recogitoComments` | string | Populated | Notes on place assignments from Recogito |
 | `recogitoLabel` | string | Populated | Title from Recogito matches |
 | `recogitoUID` | string | Populated | Unique ID for importing Recogito records |
 | `hasBeenHere` | string | Incomplete | A string containing a comma-separated list of `personLookup` identifiers for people who have visited this location. |
-| `latitude` | string | Populated | Best available latitude, depending on Recogito and OpenBible validation |
+| `latitude` | string | Populated | Best available latitude, chosen from Recogito and OpenBible validation. Stored as a string; convert to a number before mapping. Present on 1,252 places. |
 | `longitude` | string | Populated | Best available longitude, depending on Recogito and OpenBible validation |
 | `status` | string | Temporary | The validation status of the individual place record |
 | `displayTitle` | string | Populated | Disambiguated name suitable for page titles and search results |
@@ -460,7 +475,7 @@ This table catalogs all geographic locations mentioned in the Bible. Each record
 | `eastons` | array | Incomplete | An array of record IDs linking to the 'easton' table, representing relevant dictionary entries. |
 | `dictText` | array | Incomplete | Markdown-formatted text from relevant sub-section in Easton's dictionary. |
 | `modified` | string | Unknown | Last modified date and time |
-| `eventsHere` | array | Incomplete | An array of record IDs linking to the 'events' table, representing events that occurred at this location.nts that occurred at this location. |
+| `eventsHere` | array | Incomplete | An array of record IDs linking to the 'events' table, representing events that occurred at this location. |
 | `featureSubType` | string | Unknown | A more specific classification of the featureType, such as "River" for the "Water" type. |
 
 ### Relationships
@@ -476,6 +491,9 @@ This table catalogs all geographic locations mentioned in the Bible. Each record
 ### Example
 ```json
 {
+  "id": "recfrXyxhuYOczKTm",
+  "createdTime": "2017-09-19T23:40:41.000Z",
+  "fields": {
   "placeLookup": "egypt_362",
   "openBibleLat": "30.108086",
   "openBibleLong": "31.338220",
@@ -490,7 +508,7 @@ This table catalogs all geographic locations mentioned in the Bible. Each record
   "recogitoLon": "29.88079617",
   "verses": [
     "recX74cRHwDmYb1sK",
-    "recPMnvB1cd7AQgro",
+    "recPMnvB1cd7AQgro"
   ],
   "recogitoStatus": "VERIFIED",
   "recogitoLabel": "Egypt",
@@ -522,7 +540,7 @@ This table catalogs all geographic locations mentioned in the Bible. Each record
   "hasBeenHere": "benjamin_463, moses_2108",
   "eventsHere": [
     "recbqTND1uSdqNjOx",
-    "recwCFb0NhrYMkl8t",
+    "recwCFb0NhrYMkl8t"
   ],
   "dictionaryLink": "https://www.biblestudytools.com/dictionaries/eastons-bible-dictionary/egypt.html",
   "dictionaryText": " the land of the Nile and the pyramids, the oldest kingdom of which we have any record, holds a place of great significance in Scripture.",
@@ -533,6 +551,7 @@ This table catalogs all geographic locations mentioned in the Bible. Each record
     "recvZksoA0NmFrYZ7",
     "recjNRR60PAuFtjha"
   ]
+  }
 }
 ```
 
@@ -551,7 +570,7 @@ This table contains the full text of every verse in the King James Version (`ver
 | `peopleCount` | integer | Validated | Number of people mentioned by name |
 | `placesCount` | integer | Validated | Number of place mentioned by name |
 | `places` | array | Validated | An array of record IDs linking to the 'places' table, representing locations mentioned in this verse. |
-| `yearNum` | integer | Populated | Year related to the verse from Torrey's Treasury of Scripture Knowledge. Not aligned with the events table. |
+| `yearNum` | integer | Populated | Approximate year of the verse, from the Ussher dates in Torrey's *Treasury of Scripture Knowledge*. Uses negated-BC years (`-4004` = 4004 BC). Not aligned with the Jones-based events table; see [Chronology and Dates](chronology-and-dates.md#verse-years-yearnum). |
 | `peopleGroups` | array | Incomplete | An array of record IDs linking to the 'peopleGroups' table, representing groups mentioned in this verse. |
 | `chapter` | array | Validated | An array containing the record ID of the chapter this verse belongs to. |
 | `status` | string | Temporary | The validation status of the linkage between the verse and people, places, or events. |
@@ -572,6 +591,9 @@ This table contains the full text of every verse in the King James Version (`ver
 ### Example
 ```json
 {
+  "id": "recmb6LrwBeHu6MJK",
+  "createdTime": "2018-05-13T17:36:24.000Z",
+  "fields": {
   "osisRef": "Gen.2.8",
   "verseNum": "8",
   "verseText": "And the LORD God planted a garden eastward in Eden; and there he put the man whom he had formed.",
@@ -591,12 +613,24 @@ This table contains the full text of every verse in the King James Version (`ver
     "recParAnlMHJy8vSQ"
   ],
   "status": "publish",
-  "mdText": "And the [LORD]([/person/god_1324) [God]([/person/god_1324) planted a garden eastward in Eden; and there he put the man whom he had formed.",
+  "mdText": "And the [LORD](/person/god_1324) [God](/person/god_1324) planted a garden eastward in Eden; and there he put the man whom he had formed.",
   "richText": "And the [LORD](/person/god_1324) [God](/person/god_1324) planted a garden eastward in Eden; and there he put the man whom he had formed.\n",
   "verseID": "01002008",
   "modified": "2021-01-08T15:07:18.000Z",
   "event": [
     "recTU3ZxG7zQ61N9d"
   ]
+  }
 }
 ```
+
+## Status Values
+The **Status** column in each field table describes how complete and reliable that field is:
+
+| Status | Meaning |
+|---|---|
+| **Validated** | Complete and reviewed. Safe to rely on. |
+| **Populated** | Present on most or all records, but not fully reviewed. |
+| **Incomplete** | Present on only part of the records, or still being filled in. |
+| **Temporary** | Working fields used during data cleanup. They may change or be removed without notice. |
+| **Unknown** | Not yet assessed. |

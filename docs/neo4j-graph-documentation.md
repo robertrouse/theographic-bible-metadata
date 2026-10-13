@@ -2,11 +2,14 @@
 
 This documentation provides a reference for the structure, nodes, and relationships of the Neo4j graph database implementation of Theographic.
 
+[Neo4j](https://neo4j.com/) is a graph database built for following connections through data, such as ancestry, social networks, and influence. Queries are written in [Cypher](https://neo4j.com/docs/cypher-manual/current/), which describes a pattern of nodes and relationships to match. In Theographic, one query can find everything connected to a passage (people, places, events) or trace a person's complete ancestry.
+
 ## Table of Contents
 - [Environment & Setup](#environment--setup)
 - [Import Instructions](#import-instructions)
 - [Graph Data Model](#graph-data-model)
 - [Example Queries](#example-queries)
+- [Helpful Resources](#helpful-resources)
 
 ## Environment & Setup
 
@@ -14,7 +17,11 @@ The queries and schema documented here were created and tested on:
 - **Neo4j Kernel**: 2025.10.1 (Enterprise Edition)
 - **Cypher Language**: Cypher 5
 
-For beginners looking to set up their Neo4j environment, please refer to the official [Neo4j GraphAcademy](https://graphacademy.neo4j.com/) or the [Neo4j Download Center](https://neo4j.com/download-center/) for installation guides (ex. Desktop, Docker, or AuraDB).
+For beginners looking to set up their Neo4j environment, please refer to the official [Neo4j GraphAcademy](https://graphacademy.neo4j.com/) or the [Neo4j Deployment Center](https://neo4j.com/deployment-center/) for installation guides (ex. Desktop, Docker, or AuraDB).
+
+**Requirements:**
+- The **APOC** plugin (`apoc.load.json` and `apoc.periodic.iterate` are used by every import script).
+- Outbound internet access from the database server. The scripts load JSON directly from `https://raw.githubusercontent.com/robertrouse/theographic-bible-metadata/master/json/`, so imports always use the latest published data on the `master` branch. To import a local or pinned copy, edit the URL at the top of each script.
 
 ## Import Instructions
 
@@ -85,177 +92,194 @@ The script will automatically:
 
 ## Graph Data Model
 
-The graph model transforms the flat JSON tables into a connected network of entities. Below is the documentation for each Node Label, its properties, and its relationships.
+The import scripts turn the JSON tables into a connected graph. Below, each node label lists the properties and relationships the scripts in `neo4j/import/` actually create. Arrows (`->`) show relationship direction.
 
-### Node: `Book`
-Represents one of the 66 books of the Protestant canon.
+> **IDs:** `id` on every node except `Dictionary` is the 17-character Airtable record ID (e.g. `recRAcqtgn28zXm1a`). It matches `id` in the JSON files.
+>
+> **Years:** `Person.birthYear` and `deathYear` are imported as **strings** that hold negated-BC years (`"-1571"` = 1571 BC), following Jones. `Event.startDate` is an ISO 8601 astronomical year or date (`"-4003"` = 4004 BC). Use `toInteger()` for numeric comparisons. See [Chronology and Dates](chronology-and-dates.md).
 
-**Properties:**
-| Property | Description |
-| :--- | :--- |
-| `id` | Unique 14-char identifier |
-| `title` | Full English name of the book |
-| `shortName` | Standard abbreviation (e.g., "Gen") |
-| `osisRef` | OSIS standard identifier (e.g., "Gen") |
-| `slug` | URL-friendly slug |
-| `bookOrder` | Canonical ordering (1-66) |
+### Overview
+
+```
+(:Testament)-[:CONTAINS]->(:Division)-[:CONTAINS]->(:Book)-[:CONTAINS]->(:Chapter)-[:CONTAINS]->(:Verse)
+(:Testament)-[:CONTAINS]->(:Book)
+
+(:Verse)-[:MENTIONS]->(:Person)          (:Verse)-[:MENTIONS]->(:Place)
+(:Verse)-[:DESCRIBES]->(:Event)          (:Person)-[:WROTE]->(:Chapter)
+
+(:Person)-[:CHILD_OF]->(:Person)         (:Person)-[:PARENT_OF]->(:Person)
+(:Person)-[:PARTNER_OF]->(:Person)       (:Person)-[:MEMBER_OF]->(:PeopleGroup)
+(:Person)-[:BORN_IN]->(:Place)           (:Person)-[:DIED_IN]->(:Place)
+(:Person)-[:PARTICIPATED_IN]->(:Event)
+
+(:Event)-[:OCCURRED_IN]->(:Place)
+(:Event)-[:PRECEEDS]->(:Event)           (:Event)-[:FOLLOWS]->(:Event)
+
+(:Dictionary)   // standalone; no relationships are imported yet
+```
+
+---
+
+### Node: `Testament` and `Division`
+Grouping nodes created from `books.testament` (e.g. "Old Testament") and `books.bookDiv` (e.g. "Pentateuch", "Pauline Epistles").
+
+**Properties:** `title`
 
 **Relationships:**
-*Note: Arrows (`->`) indicate the direction of the relationship.*
+- `(:Testament)-[:CONTAINS]->(:Division)`
+- `(:Testament)-[:CONTAINS]->(:Book)`
+- `(:Division)-[:CONTAINS]->(:Book)`
+
+---
+
+### Node: `Book`
+One of the 66 books of the Protestant canon.
+
+| Property | Source field | Description |
+| :--- | :--- | :--- |
+| `id` | `id` | Airtable record ID |
+| `title` | `bookName` | Full English name, e.g. "Genesis" |
+| `osisRef` | `osisName` | OSIS abbreviation, e.g. "Gen" |
+| `shortName` | `shortName` | Shortest abbreviation, e.g. "Ge" |
+| `slug` | `slug` | URL-friendly slug |
+| `bookOrder` | `bookOrder` | Canonical order (1–66) |
+
+**Relationships:**
 - `(:Testament)-[:CONTAINS]->(:Book)`
 - `(:Division)-[:CONTAINS]->(:Book)`
 - `(:Book)-[:CONTAINS]->(:Chapter)`
 
 ---
 
-### Node: `Person`
-Represents a distinct individual mentioned in the Bible.
+### Node: `Chapter`
 
-**Properties:**
-| Property | Description |
-| :--- | :--- |
-| `id` | Unique 14-char identifier |
-| `personId` | Integer ID for external mapping |
-| `name` | Primary name of the person |
-| `alsoCalled` | Alternative names or spellings |
-| `title` | Title or role (e.g., "King of Israel") |
-| `gender` | Gender of the person |
-| `description` | Biographical text from Easton's Dictionary |
-| `slug` | URL-friendly slug |
+| Property | Source field | Description |
+| :--- | :--- | :--- |
+| `id` | `id` | Airtable record ID |
+| `osisRef` | `osisRef` | e.g. "Gen.1" |
+| `chapterNum` | `chapterNum` | Chapter number |
+| `slug` | `slug` | e.g. "gen_1" |
 
 **Relationships:**
-- `(:Person)-[:CHILD_OF]->(:Person)`
-- `(:Person)-[:PARTNER_OF]->(:Person)`
+- `(:Book)-[:CONTAINS]->(:Chapter)`
+- `(:Chapter)-[:CONTAINS]->(:Verse)`
+- `(:Person)-[:WROTE]->(:Chapter)`
+
+---
+
+### Node: `Verse`
+
+| Property | Source field | Description |
+| :--- | :--- | :--- |
+| `id` | `id` | Airtable record ID |
+| `osisRef` | `osisRef` | e.g. "Gen.1.1" |
+| `verseId` | `verseID` | Sortable ID `BBCCCVVV`, e.g. "01001001" |
+| `verseNum` | `verseNum` | Verse number (string) |
+| `verseText` | `verseText` | KJV text |
+| `mdText` | `mdText` | KJV text with Markdown links to people and places |
+
+**Relationships:**
+- `(:Chapter)-[:CONTAINS]->(:Verse)`
+- `(:Verse)-[:MENTIONS]->(:Person)`
+- `(:Verse)-[:MENTIONS]->(:Place)`
+- `(:Verse)-[:DESCRIBES]->(:Event)`
+
+---
+
+### Node: `Person`
+
+| Property | Source field | Description |
+| :--- | :--- | :--- |
+| `id` | `id` | Airtable record ID |
+| `personId` | `personID` | Integer ID; also the suffix of the slug |
+| `name` | `name` | Primary KJV name |
+| `title` | `displayTitle` | Disambiguated title, e.g. "Joseph (son of Jacob)" |
+| `alsoCalled` | `alsoCalled` | Alternate names |
+| `gender` | `gender` | "Male" or "Female" |
+| `description` | `dictionaryText` | Easton's Bible Dictionary text |
+| `birthYear` | `birthYear` | String, negated-BC year (Jones) |
+| `deathYear` | `deathYear` | String, negated-BC year (Jones) |
+| `slug` | `slug` | e.g. "moses_2108" |
+| `status` | `status` | Record validation status |
+
+**Relationships:**
+- `(:Person)-[:CHILD_OF]->(:Person)` and the reverse `(:Person)-[:PARENT_OF]->(:Person)`, from `mother`, `father`, and `children`
+- `(:Person)-[:PARTNER_OF]->(:Person)`, created in both directions
+- `(:Person)-[:MEMBER_OF]->(:PeopleGroup)`
 - `(:Person)-[:BORN_IN]->(:Place)`
 - `(:Person)-[:DIED_IN]->(:Place)`
-- `(:Person)-[:BORN_IN]->(:Year)`
-- `(:Person)-[:DIED_IN]->(:Year)`
+- `(:Person)-[:PARTICIPATED_IN]->(:Event)`
+- `(:Person)-[:WROTE]->(:Chapter)`
 - `(:Verse)-[:MENTIONS]->(:Person)`
 
 ---
 
 ### Node: `Place`
-Represents a geographic location mentioned in the text.
 
-**Properties:**
-| Property | Description |
-| :--- | :--- |
-| `id` | Unique 14-char identifier |
-| `placeId` | Integer ID for external mapping |
-| `name` | Display name of the place |
-| `latitude` | GPS Latitude |
-| `longitude` | GPS Longitude |
-| `featureType` | Type of location (e.g., "City", "Mountain") |
-| `description` | Description from dictionary |
-| `comment` | Editor's comments or notes |
-| `precision` | Accuracy of the geolocation |
+| Property | Source field | Description |
+| :--- | :--- | :--- |
+| `id` | `id` | Airtable record ID |
+| `placeId` | `placeID` | Integer ID; also the suffix of the slug |
+| `name` | `displayTitle` | Disambiguated display name |
+| `latitude` | `latitude` | String; best available latitude |
+| `longitude` | `longitude` | String; best available longitude |
+| `precision` | `precision` | Geolocation precision note |
+| `featureType` | `featureType` | e.g. "City", "Region", "Water" |
+| `description` | `dictionaryText` | Easton's Bible Dictionary text |
+| `comment` | `comment` | OpenBible.info comment |
+| `slug` | `slug` | e.g. "jerusalem_636" |
+| `status` | `status` | Record validation status |
 
 **Relationships:**
+- `(:Verse)-[:MENTIONS]->(:Place)`
 - `(:Event)-[:OCCURRED_IN]->(:Place)`
 - `(:Person)-[:BORN_IN]->(:Place)`
 - `(:Person)-[:DIED_IN]->(:Place)`
-- `(:Verse)-[:MENTIONS]->(:Place)`
 
 ---
 
 ### Node: `Event`
-Represents a specific event or narrative unit in the biblical timeline.
+An event on the Theographic timeline. Dates follow Dr. Floyd Nolen Jones; see [Chronology and Dates](chronology-and-dates.md).
 
-**Properties:**
-| Property | Description |
-| :--- | :--- |
-| `id` | Unique 14-char identifier |
-| `title` | Title of the event |
-| `startDate` | Approximate start date |
-| `duration` | Duration of the event |
-| `sortKey` | Chronological sorting key |
+| Property | Source field | Description |
+| :--- | :--- | :--- |
+| `id` | `id` | Airtable record ID |
+| `eventID` | `eventID` | Integer ID |
+| `title` | `title` | Event title |
+| `startDate` | `startDate` | ISO 8601 astronomical year or date (string) |
+| `duration` | `duration` | e.g. "7D", "40Y" |
+| `sortKey` | `sortKey` | Float for chronological ordering |
 
 **Relationships:**
-- `(:Event)-[:PRECEEDS]->(:Event)`
+- `(:Event)-[:PRECEEDS]->(:Event)` and `(:Event)-[:FOLLOWS]->(:Event)`, from `predecessor`. Both carry `lag` and `lagType` properties. *(The relationship type is spelled `PRECEEDS` in the import scripts.)*
+- `(:Event)-[:OCCURRED_IN]->(:Place)`, built from both `events.places (from verses)` and `places.eventsHere`
 - `(:Person)-[:PARTICIPATED_IN]->(:Event)`
-- `(:Event)-[:OCCURRED_IN]->(:Place)`
 - `(:Verse)-[:DESCRIBES]->(:Event)`
-
----
-
-### Node: `Verse`
-Represents a single verse of scripture.
-
-**Properties:**
-| Property | Description |
-| :--- | :--- |
-| `id` | Unique 14-char identifier |
-| `osisRef` | Standard reference (e.g., "Gen.1.1") |
-| `verseText` | The text of the verse |
-| `verseNum` | Verse number |
-
-**Relationships:**
-- `(:Chapter)-[:CONTAINS]->(:Verse)`
-- `(:Verse)-[:MENTIONS]->(:Person)`
-- `(:Verse)-[:MENTIONS]->(:Place)`
-- `(:Verse)-[:DESCRIBES]->(:Event)`
-
----
-
-### Node: `Chapter`
-Represents a chapter within a book.
-
-**Properties:**
-| Property | Description |
-| :--- | :--- |
-| `id` | Unique 14-char identifier |
-| `chapterNum` | Chapter number |
-| `osisRef` | Standard reference (e.g., "Gen.1") |
-
-**Relationships:**
-- `(:Book)-[:CONTAINS]->(:Chapter)`
-- `(:Chapter)-[:CONTAINS]->(:Verse)`
-
----
-
-### Node: `Year`
-Represents a specific year in history.
-
-**Properties:**
-| Property | Description |
-| :--- | :--- |
-| `id` | Unique 14-char identifier |
-| `year` | Numeric year (negative for BC) |
-| `formattedYear` | Display string (e.g., "1000 BC") |
-
-**Relationships:**
-- `(:Person)-[:BORN_IN]->(:Year)`
-- `(:Person)-[:DIED_IN]->(:Year)`
 
 ---
 
 ### Node: `PeopleGroup`
-Represents a group of people (e.g., "Israelites", "Pharisees").
 
-**Properties:**
-| Property | Description |
-| :--- | :--- |
-| `id` | Unique 14-char identifier |
-| `name` | Name of the group |
+| Property | Source field | Description |
+| :--- | :--- | :--- |
+| `id` | `id` | Airtable record ID |
+| `name` | `groupName` | e.g. "Apostles (The Eleven)" |
 
 **Relationships:**
-- `(:Person)-[:BELONGS_TO]->(:PeopleGroup)`
+- `(:Person)-[:MEMBER_OF]->(:PeopleGroup)`
 
 ---
 
 ### Node: `Dictionary`
-Represents an entry from Easton's Bible Dictionary.
+An entry from Easton's Bible Dictionary.
 
-**Properties:**
-| Property | Description |
-| :--- | :--- |
-| `id` | Unique 14-char identifier |
-| `term` | The dictionary term |
-| `dictText` | The definition text |
+| Property | Source field | Description |
+| :--- | :--- | :--- |
+| `id` | `termID` | Position in the source XML, e.g. "a-p1.11". *(The import script overwrites the Airtable record ID with `termID`.)* |
+| `term` | `termLabel` | Dictionary headword |
+| `dictText` | `dictText` | Definition text |
 
-**Relationships:**
-- `(:Person)-[:DEFINED_BY]->(:Dictionary)`
-- `(:Place)-[:DEFINED_BY]->(:Dictionary)`
+**Relationships:** None are imported yet. To connect entries to people and places, use `easton.personLookup` / `easton.placeLookup` in the JSON, or `Person.description` / `Place.description` in the graph.
 
 ---
 
@@ -312,7 +336,7 @@ If you ran the `index.cypher` file during setup, you have access to powerful ful
 - **Boolean Search**: Combine required/optional/excluded terms with Lucene operators like AND, OR, and NOT.
 - **Proximity Search**: Find words that are near each other (e.g., "love" within 5 words of "hate").
 - **Fielded Search**: Search specific properties (e.g., `title:Prophet`).
-- **Range Search**: Find values within a range (e.g., years `[1000 TO 1010]`).
+- **Range Search**: Find terms within a lexical range (e.g., `title:[king TO kinsman]`).
 - **Weighted Search (Boosting)**: Boost the relevance of certain terms or fields (e.g., `title:king AND title:Israel^2`).
 
 The results will be ranked by how well they match the query.
@@ -367,19 +391,21 @@ RETURN node.name, node.title, score LIMIT 3;
 
 **Example 4: Range Search**
 
-Find years between 1000 BC and 1010 BC.
+Find people whose `title` contains a word between "king" and "kinsman" alphabetically.
 ```cypher
-CALL db.index.fulltext.queryNodes("year_fulltext", "[1000 TO 1010]") 
-YIELD node, score 
-RETURN node.formattedYear, score;
+CALL db.index.fulltext.queryNodes("person_fulltext", "title:[king TO kinsman]")
+YIELD node, score
+RETURN node.title, score LIMIT 3;
 ```
 
-**Returns:**
-| node.formattedYear | score |
-| :--- | :--- |
-| 1006 BC | 1.0 |
-| 1001 BC | 1.0 |
-| 1004 BC | 1.0 |
+For numeric ranges such as years, use an ordinary `WHERE` clause instead of the full-text index. People born between 1100 BC and 1000 BC:
+```cypher
+MATCH (p:Person)
+WHERE p.birthYear IS NOT NULL
+  AND toInteger(p.birthYear) >= -1100 AND toInteger(p.birthYear) <= -1000
+RETURN p.title, p.birthYear
+ORDER BY toInteger(p.birthYear);
+```
 
 **Example 5: Weighted Search (Boosting)**
 
@@ -402,3 +428,10 @@ RETURN node.name, node.title, score ORDER BY score DESC LIMIT 4;
 | Joseph | Joseph (son of Asaph) | 11.35 |
 | Joseph | Joseph (son of Judah) | 11.35 |
 | Joseph | Joseph | 7.86 |
+
+## Helpful Resources
+
+- [Neo4j GraphAcademy](https://graphacademy.neo4j.com/): free courses, including an introduction to Neo4j and Cypher
+- [Cypher Cheat Sheet](https://neo4j.com/docs/cypher-manual/current/cheat-sheet/)
+- [Full-text index query syntax](https://neo4j.com/docs/cypher-manual/current/indexes/semantic-indexes/full-text-indexes/)
+- [Neo4j Sandbox](https://neo4j.com/sandbox/): free, temporary hosted databases with example use cases
