@@ -8,3 +8,4 @@ python3 geo/pipeline/phase5_crosswalk.py
 python3 geo/pipeline/phase6_rebuild.py
 python3 geo/pipeline/phase8_pleiades.py
 python3 geo/pipeline/phase7_names.py
+python3 geo/pipeline/phase9_when.py

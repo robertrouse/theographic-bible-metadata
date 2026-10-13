@@ -1040,5 +1040,16 @@
       "note": "On (Gen 41:45) is Heliopolis; 'City of the Sun' (Isa 19:18) only possibly"
     }
   ],
-  "pleiades_reject": []
+  "pleiades_reject": [],
+  "when": {
+    "places-1255": {
+      "year": -1094,
+      "label": "start of the united monarchy: Saul anointed (1Sam.10.1), Theographic chronology"
+    },
+    "places-1256": {
+      "year": -974,
+      "label": "division of the kingdom (2Chr.10.19), Theographic chronology"
+    }
+  },
+  "when_note": "Feature start dates for places no source dates; the PeriodO period is added automatically."
 }

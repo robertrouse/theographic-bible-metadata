@@ -1,7 +1,7 @@
 """Fetch and cache the external sources used by the LPF pipeline.
 
 Writes to geo/working/ (never to source data):
-  dm-places-cache.json        Digital Manna place entries (subset of fields)
+  dm-places-cache.json        Digital Manna place entries (subset of fields plus verse refs)
   openbible-ancient.jsonl     OpenBible Bible-Geocoding-Data ancient places
   wikidata-pleiades.json      Wikidata QID -> Pleiades ID (P1584)
   pleiades-places.csv.gz      Pleiades bulk dump: places (for matching)
@@ -60,7 +60,11 @@ def fetch_dm(dm_dir):
         blobs = [x['sha'] for x in tree if x['path'].endswith('.json')]
         with ThreadPoolExecutor(max_workers=12) as pool:
             entries = list(pool.map(lambda s: json.loads(gh(f'repos/{DM_REPO}/git/blobs/{s}', raw=True)), blobs))
-    entries = [{k: e.get(k) for k in DM_KEEP} for e in entries]
+    # verses: the entry's verse references, as verses.json verseIDs (BBCCCVVV)
+    entries = [{**{k: e.get(k) for k in DM_KEEP},
+                'verses': sorted(int(r.split('-', 1)[1]) for r in (e.get('lookup') or {}).get('related', [])
+                                 if r.startswith('verses-'))}
+               for e in entries]
     entries.sort(key=lambda e: e['id'])
     return {'source': f'https://github.com/{DM_REPO}/tree/{commit}/{DM_PATH}',
             'commit': commit,
