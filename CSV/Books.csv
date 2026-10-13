@@ -38,28 +38,28 @@ Zeph,36,Zephaniah,Minor Prophets,Old Testament,Zep,zeph,,,"Zeph.1,Zeph.2,Zeph.3"
 Hag,37,Haggai,Minor Prophets,Old Testament,Hag,hag,,,"Hag.1,Hag.2",2,38,haggai_1349,28,1,
 Zech,38,Zechariah,Minor Prophets,Old Testament,Zec,zech,,,"Zech.1,Zech.2,Zech.3,Zech.4,Zech.5,Zech.6,Zech.7,Zech.8,Zech.9,Zech.10,Zech.11,Zech.12,Zech.13,Zech.14",14,211,zechariah_3016,120,58,
 Mal,39,Malachi,Minor Prophets,Old Testament,Mal,mal,,,"Mal.1,Mal.2,Mal.3,Mal.4",4,55,malachi_1899,47,4,
-Matt,40,Matthew,Gospels,New Testament,Mt,matt,50,,"Matt.1,Matt.2,Matt.3,Matt.4,Matt.5,Matt.6,Matt.7,Matt.8,Matt.9,Matt.10,Matt.11,Matt.12,Matt.13,Matt.14,Matt.15,Matt.16,Matt.17,Matt.18,Matt.19,Matt.20,Matt.21,Matt.22,Matt.23,Matt.24,Matt.25,Matt.26,Matt.27,Matt.28",28,1071,matthew_1971,431,69,
-Mark,41,Mark,Gospels,New Testament,Mk,mark,67,,"Mark.1,Mark.2,Mark.3,Mark.4,Mark.5,Mark.6,Mark.7,Mark.8,Mark.9,Mark.10,Mark.11,Mark.12,Mark.13,Mark.14,Mark.15,Mark.16",16,678,mark_1679,245,46,
-Luke,42,Luke,Gospels,New Testament,Lu,luke,57,,"Luke.1,Luke.2,Luke.3,Luke.4,Luke.5,Luke.6,Luke.7,Luke.8,Luke.9,Luke.10,Luke.11,Luke.12,Luke.13,Luke.14,Luke.15,Luke.16,Luke.17,Luke.18,Luke.19,Luke.20,Luke.21,Luke.22,Luke.23,Luke.24",24,1151,luke_1836,461,76,
+Matt,40,Matthew,Gospels,New Testament,Mt,matt,50,,"Matt.1,Matt.2,Matt.3,Matt.4,Matt.5,Matt.6,Matt.7,Matt.8,Matt.9,Matt.10,Matt.11,Matt.12,Matt.13,Matt.14,Matt.15,Matt.16,Matt.17,Matt.18,Matt.19,Matt.20,Matt.21,Matt.22,Matt.23,Matt.24,Matt.25,Matt.26,Matt.27,Matt.28",28,1071,matthew_1971,431,69,2026-01-05 10:59
+Mark,41,Mark,Gospels,New Testament,Mk,mark,67,,"Mark.1,Mark.2,Mark.3,Mark.4,Mark.5,Mark.6,Mark.7,Mark.8,Mark.9,Mark.10,Mark.11,Mark.12,Mark.13,Mark.14,Mark.15,Mark.16",16,678,mark_1679,245,46,2026-01-05 10:59
+Luke,42,Luke,Gospels,New Testament,Lu,luke,57,,"Luke.1,Luke.2,Luke.3,Luke.4,Luke.5,Luke.6,Luke.7,Luke.8,Luke.9,Luke.10,Luke.11,Luke.12,Luke.13,Luke.14,Luke.15,Luke.16,Luke.17,Luke.18,Luke.19,Luke.20,Luke.21,Luke.22,Luke.23,Luke.24",24,1151,luke_1836,461,76,2026-01-05 10:59
 John,43,John,Gospels,New Testament,Jn,john,,,"John.1,John.2,John.3,John.4,John.5,John.6,John.7,John.8,John.9,John.10,John.11,John.12,John.13,John.14,John.15,John.16,John.17,John.18,John.19,John.20,John.21",21,879,john_1677,514,62,
-Acts,44,Acts,Acts,New Testament,Ac,acts,61,,"Acts.1,Acts.2,Acts.3,Acts.4,Acts.5,Acts.6,Acts.7,Acts.8,Acts.9,Acts.10,Acts.11,Acts.12,Acts.13,Acts.14,Acts.15,Acts.16,Acts.17,Acts.18,Acts.19,Acts.20,Acts.21,Acts.22,Acts.23,Acts.24,Acts.25,Acts.26,Acts.27,Acts.28",28,1007,luke_1836,592,244,
-Rom,45,Romans,Pauline Epistles,New Testament,Ro,rom,57,greece_495,"Rom.1,Rom.2,Rom.3,Rom.4,Rom.5,Rom.6,Rom.7,Rom.8,Rom.9,Rom.10,Rom.11,Rom.12,Rom.13,Rom.14,Rom.15,Rom.16",16,433,paul_2479,238,13,
-1Cor,46,1 Corinthians,Pauline Epistles,New Testament,1Co,1cor,56,ephesus_400,"1Cor.1,1Cor.2,1Cor.3,1Cor.4,1Cor.5,1Cor.6,1Cor.7,1Cor.8,1Cor.9,1Cor.10,1Cor.11,1Cor.12,1Cor.13,1Cor.14,1Cor.15,1Cor.16",16,437,paul_2479,192,8,
-2Cor,47,2 Corinthians,Pauline Epistles,New Testament,2Co,2cor,56,macedonia_747,"2Cor.1,2Cor.2,2Cor.3,2Cor.4,2Cor.5,2Cor.6,2Cor.7,2Cor.8,2Cor.9,2Cor.10,2Cor.11,2Cor.12,2Cor.13",13,257,paul_2479,122,12,
-Gal,48,Galatians,Pauline Epistles,New Testament,Ga,gal,49,antioch_68,"Gal.1,Gal.2,Gal.3,Gal.4,Gal.5,Gal.6",6,149,paul_2479,87,10,
-Eph,49,Ephesians,Pauline Epistles,New Testament,Eph,eph,61,rome_1013,"Eph.1,Eph.2,Eph.3,Eph.4,Eph.5,Eph.6",6,155,paul_2479,88,1,
-Phil,50,Philippians,Pauline Epistles,New Testament,Php,phil,61,rome_1013,"Phil.1,Phil.2,Phil.3,Phil.4",4,104,paul_2479,63,3,
-Col,51,Colossians,Pauline Epistles,New Testament,Col,col,61,rome_1013,"Col.1,Col.2,Col.3,Col.4",4,95,paul_2479,51,5,
-1Thess,52,1 Thessalonians,Pauline Epistles,New Testament,1Th,1thess,51,corinth_306,"1Thess.1,1Thess.2,1Thess.3,1Thess.4,1Thess.5",5,89,paul_2479,49,6,
-2Thess,53,2 Thessalonians,Pauline Epistles,New Testament,2Th,2thess,51,corinth_306,"2Thess.1,2Thess.2,2Thess.3",3,47,paul_2479,29,0,
-1Tim,54,1 Timothy,Pauline Epistles,New Testament,1Ti,1tim,63,,"1Tim.1,1Tim.2,1Tim.3,1Tim.4,1Tim.5,1Tim.6",6,113,paul_2479,38,1,
-2Tim,55,2 Timothy,Pauline Epistles,New Testament,2Ti,2tim,66,rome_1013,"2Tim.1,2Tim.2,2Tim.3,2Tim.4",4,83,paul_2479,47,8,
-Titus,56,Titus,Pauline Epistles,New Testament,Tit,titus,63,,"Titus.1,Titus.2,Titus.3",3,46,paul_2479,16,2,
-Phlm,57,Philemon,Pauline Epistles,New Testament,Phm,phlm,61,rome_1013,Phlm.1,1,25,paul_2479,15,0,
-Heb,58,Hebrews,Pauline Epistles,New Testament,Heb,heb,67,,"Heb.1,Heb.2,Heb.3,Heb.4,Heb.5,Heb.6,Heb.7,Heb.8,Heb.9,Heb.10,Heb.11,Heb.12,Heb.13",13,303,paul_2479,139,11,
-Jas,59,James,General Epistles,New Testament,Jas,jas,45,,"Jas.1,Jas.2,Jas.3,Jas.4,Jas.5",5,108,james_719,29,0,
-1Pet,60,1 Peter,General Epistles,New Testament,1Pe,1pet,64,,"1Pet.1,1Pet.2,1Pet.3,1Pet.4,1Pet.5",5,105,peter_2745,56,3,
-2Pet,61,2 Peter,General Epistles,New Testament,2Pe,2pet,67,,"2Pet.1,2Pet.2,2Pet.3",3,61,peter_2745,24,1,
+Acts,44,Acts,Acts,New Testament,Ac,acts,61,,"Acts.1,Acts.2,Acts.3,Acts.4,Acts.5,Acts.6,Acts.7,Acts.8,Acts.9,Acts.10,Acts.11,Acts.12,Acts.13,Acts.14,Acts.15,Acts.16,Acts.17,Acts.18,Acts.19,Acts.20,Acts.21,Acts.22,Acts.23,Acts.24,Acts.25,Acts.26,Acts.27,Acts.28",28,1007,luke_1836,592,244,2026-01-05 10:59
+Rom,45,Romans,Pauline Epistles,New Testament,Ro,rom,57,greece_495,"Rom.1,Rom.2,Rom.3,Rom.4,Rom.5,Rom.6,Rom.7,Rom.8,Rom.9,Rom.10,Rom.11,Rom.12,Rom.13,Rom.14,Rom.15,Rom.16",16,433,paul_2479,238,13,2026-01-05 10:59
+1Cor,46,1 Corinthians,Pauline Epistles,New Testament,1Co,1cor,56,ephesus_400,"1Cor.1,1Cor.2,1Cor.3,1Cor.4,1Cor.5,1Cor.6,1Cor.7,1Cor.8,1Cor.9,1Cor.10,1Cor.11,1Cor.12,1Cor.13,1Cor.14,1Cor.15,1Cor.16",16,437,paul_2479,192,8,2026-01-05 10:59
+2Cor,47,2 Corinthians,Pauline Epistles,New Testament,2Co,2cor,56,macedonia_747,"2Cor.1,2Cor.2,2Cor.3,2Cor.4,2Cor.5,2Cor.6,2Cor.7,2Cor.8,2Cor.9,2Cor.10,2Cor.11,2Cor.12,2Cor.13",13,257,paul_2479,122,12,2026-01-05 10:59
+Gal,48,Galatians,Pauline Epistles,New Testament,Ga,gal,49,antioch_68,"Gal.1,Gal.2,Gal.3,Gal.4,Gal.5,Gal.6",6,149,paul_2479,87,10,2026-01-05 10:59
+Eph,49,Ephesians,Pauline Epistles,New Testament,Eph,eph,61,rome_1013,"Eph.1,Eph.2,Eph.3,Eph.4,Eph.5,Eph.6",6,155,paul_2479,88,1,2026-01-05 10:59
+Phil,50,Philippians,Pauline Epistles,New Testament,Php,phil,61,rome_1013,"Phil.1,Phil.2,Phil.3,Phil.4",4,104,paul_2479,63,3,2026-01-05 10:59
+Col,51,Colossians,Pauline Epistles,New Testament,Col,col,61,rome_1013,"Col.1,Col.2,Col.3,Col.4",4,95,paul_2479,51,5,2026-01-05 10:59
+1Thess,52,1 Thessalonians,Pauline Epistles,New Testament,1Th,1thess,51,corinth_306,"1Thess.1,1Thess.2,1Thess.3,1Thess.4,1Thess.5",5,89,paul_2479,49,6,2026-01-05 10:59
+2Thess,53,2 Thessalonians,Pauline Epistles,New Testament,2Th,2thess,51,corinth_306,"2Thess.1,2Thess.2,2Thess.3",3,47,paul_2479,29,0,2026-01-05 10:59
+1Tim,54,1 Timothy,Pauline Epistles,New Testament,1Ti,1tim,63,,"1Tim.1,1Tim.2,1Tim.3,1Tim.4,1Tim.5,1Tim.6",6,113,paul_2479,38,1,2026-01-05 10:59
+2Tim,55,2 Timothy,Pauline Epistles,New Testament,2Ti,2tim,66,rome_1013,"2Tim.1,2Tim.2,2Tim.3,2Tim.4",4,83,paul_2479,47,8,2026-01-05 10:59
+Titus,56,Titus,Pauline Epistles,New Testament,Tit,titus,63,,"Titus.1,Titus.2,Titus.3",3,46,paul_2479,16,2,2026-01-05 10:59
+Phlm,57,Philemon,Pauline Epistles,New Testament,Phm,phlm,61,rome_1013,Phlm.1,1,25,paul_2479,15,0,2026-01-05 10:59
+Heb,58,Hebrews,Pauline Epistles,New Testament,Heb,heb,67,,"Heb.1,Heb.2,Heb.3,Heb.4,Heb.5,Heb.6,Heb.7,Heb.8,Heb.9,Heb.10,Heb.11,Heb.12,Heb.13",13,303,paul_2479,139,11,2026-01-05 10:59
+Jas,59,James,General Epistles,New Testament,Jas,jas,45,,"Jas.1,Jas.2,Jas.3,Jas.4,Jas.5",5,108,james_719,29,0,2026-01-05 10:59
+1Pet,60,1 Peter,General Epistles,New Testament,1Pe,1pet,64,,"1Pet.1,1Pet.2,1Pet.3,1Pet.4,1Pet.5",5,105,peter_2745,56,3,2026-01-05 10:59
+2Pet,61,2 Peter,General Epistles,New Testament,2Pe,2pet,67,,"2Pet.1,2Pet.2,2Pet.3",3,61,peter_2745,24,1,2026-01-05 10:59
 1John,62,1 John,General Epistles,New Testament,1Jn,1john,,,"1John.1,1John.2,1John.3,1John.4,1John.5",5,105,john_1677,61,0,
 2John,63,2 John,General Epistles,New Testament,2Jn,2john,,,2John.1,1,13,john_1677,6,0,
 3John,64,3 John,General Epistles,New Testament,3Jn,3john,,,3John.1,1,14,john_1677,4,0,

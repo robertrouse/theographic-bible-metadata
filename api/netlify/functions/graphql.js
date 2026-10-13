@@ -108,7 +108,7 @@ const typeDefs = gql`
     osisRef: StringFilter
     "Case-insensitive substring search across verse text"
     verseText: StringFilter
-    "Estimated year of the verse's events (negative = BC)"
+    "Approximate year of the verse (Ussher dates via the Treasury of Scripture Knowledge); ISO 8601 astronomical year, e.g. -4003 = 4004 BC"
     yearNum: IntFilter
     "Number of people mentioned in this verse"
     peopleCount: IntFilter
@@ -351,7 +351,7 @@ const typeDefs = gql`
     places: [Place]
     "Number of places mentioned in this verse"
     placesCount: Int
-    "Estimated year of the verse's events (negative = BC)"
+    "Approximate year of the verse (Ussher dates via the Treasury of Scripture Knowledge); ISO 8601 astronomical year, e.g. -4003 = 4004 BC"
     yearNum: Int
     "People groups mentioned in this verse"
     peopleGroups: [PeopleGroup]
@@ -391,18 +391,14 @@ const typeDefs = gql`
     "\\"Male\\" or \\"Female\\""
     gender: String
     """
-    Estimated birth year as an ISO 8601 astronomical year integer (e.g. -1574).
+    Estimated birth year, following the chronology of Dr. Floyd Nolen Jones (e.g. -1573).
 
-    Uses ISO 8601 astronomical year numbering: 0 = 1 BC, -1 = 2 BC, etc.
-    To convert to a traditional BC year: negate and add 1 (e.g. -1574 = 1575 BC,
-    -4003 = 4004 BC). Positive values are AD years (e.g. 30 = AD 30).
+    ISO 8601 astronomical year numbering, the same as Event.startDate: 0 = 1 BC,
+    -1573 = 1574 BC, -4003 = 4004 BC. Positive values are AD years (e.g. 30 = AD 30).
     """
     birthYear: Int
     """
-    Estimated death year as an ISO 8601 astronomical year integer (e.g. -1451).
-
-    Uses ISO 8601 astronomical year numbering: 0 = 1 BC, -1 = 2 BC, etc.
-    To convert to a traditional BC year: negate and add 1 (e.g. -1451 = 1452 BC).
+    Estimated death year, same convention as birthYear (e.g. -1014 = 1015 BC).
     Positive values are AD years (e.g. 96 = AD 96).
     """
     deathYear: Int
@@ -590,7 +586,7 @@ const typeDefs = gql`
     id: String!
     "Event title, e.g. \\"Creation of all things\\", \\"Baptism of Jesus\\""
     title: String
-    "Start date string (may be a year number)"
+    "Start date (Jones chronology): an ISO 8601 astronomical year (\\"-4003\\" = 4004 BC) or a YYYY-MM-DD date (\\"0030-04-04\\")"
     startDate: String
     "Duration string, e.g. \\"7D\\" (7 days), \\"40Y\\" (40 years)"
     duration: String

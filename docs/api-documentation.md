@@ -1,179 +1,161 @@
 # Theographic Bible Metadata GraphQL API
 
-This document describes the GraphQL API for Theographic Bible Metadata, built using JSON data sources and hosted on Netlify.
+A read-only GraphQL API over the JSON files in this repository. It covers books, chapters, verses, people, places, events, people groups, and Easton's Bible Dictionary entries. The source is in [`api/`](../api) and runs as a Netlify serverless function.
 
-## Overview
+## Endpoint
 
-The API provides access to biblical data including books, chapters, verses, people, places, events, people groups, and Easton's dictionary entries. It is structured similarly to the original Neo4j-based API but uses static JSON files as the data source.
+| | |
+|---|---|
+| **URL** | `https://theographic-api.netlify.app/api/graphql` |
+| **Method** | `POST`, with `Content-Type: application/json` and a body of `{"query": "..."}` |
+| **Explorer** | Open the URL in a browser for the Apollo Sandbox explorer |
+| **Auth** | None |
 
-## Deployment
+```bash
+curl -s https://theographic-api.netlify.app/api/graphql \
+  -H 'Content-Type: application/json' \
+  -d '{"query":"{ people(where: { name: { eq: \"Moses\" } }) { name birthYear deathYear } }"}'
+```
 
-The API is designed to be hosted on Netlify as a serverless function.
+The API serves the JSON that was bundled at deploy time, so it can lag behind the files on `master` until the next deploy.
 
-### Local Development
+## Queries
 
-1. Navigate to the `api` directory:
-   ```
-   cd api
-   ```
+Every collection query takes the same three optional arguments:
 
-2. Install dependencies:
-   ```
-   npm install
-   ```
+| Argument | Description |
+|---|---|
+| `where` | A filter object. All conditions are combined with AND. |
+| `limit` | Maximum number of records to return. |
+| `offset` | Number of records to skip, for pagination. |
 
-3. Start the development server:
-   ```
-   npm start
-   ```
+| Query | Returns | Filterable fields (`where`) |
+|---|---|---|
+| `books` | `[Book]` | `id`, `bookName`, `osisName`, `shortName`, `testament`, `bookDiv`, `bookOrder`, `chapterCount`, `verseCount`, `slug` |
+| `chapters` | `[Chapter]` | `id`, `osisRef`, `slug`, `chapterNum`, `peopleCount`, `placesCount`, `writerCount` |
+| `verses` | `[Verse]` | `id`, `osisRef`, `verseText`, `yearNum`, `peopleCount`, `status` |
+| `people` | `[Person]` | `id`, `name`, `displayTitle`, `personLookup`, `gender`, `slug`, `alsoCalled`, `alphaGroup`, `status`, `ambiguous`, `isProperName`, `verseCount`, `minYear`, `maxYear` |
+| `places` | `[Place]` | `id`, `kjvName`, `esvName`, `displayTitle`, `placeLookup`, `featureType`, `featureSubType`, `slug`, `alphaGroup`, `status`, `ambiguous`, `verseCount` |
+| `events` | `[Event]` | `id`, `title`, `notes`, `startDate`, `duration`, `lagType`, `rangeFlag`, `eventID`, `sortKey` |
+| `peopleGroups` | `[PeopleGroup]` | `id`, `groupName` |
+| `easton` | `[Easton]` | `id`, `termLabel`, `dictLookup`, `matchType`, `dictText` |
 
-   This will start Netlify Dev, which serves the functions locally.
+### Filter operators
 
-### Production Deployment
+| Field type | Operators |
+|---|---|
+| String | `eq` (exact, case-sensitive), `contains` (case-insensitive substring) |
+| Int / Float | `eq`, `gte`, `lte` |
+| Boolean | `eq` |
 
-1. Push the code to a Git repository connected to Netlify.
-2. Netlify will automatically detect the `netlify.toml` configuration and deploy the functions.
-3. The GraphQL endpoint will be available at `https://your-site.netlify.app/.netlify/functions/graphql`
+### Search queries
 
-## GraphQL Endpoint
+| Query | Matches (case-insensitive substring) |
+|---|---|
+| `searchVerses(input: String!)` | `osisRef` or `verseText`. Use OSIS form: `"John.3.16"`, not `"John 3:16"`. |
+| `searchPeople(input: String!)` | `name`, `alsoCalled`, or `personLookup` |
+| `searchPlaces(input: String!)` | `kjvName`, `displayTitle`, or `placeLookup` |
 
-- **URL**: `/.netlify/functions/graphql`
-- **Method**: POST
-- **Content-Type**: application/json
+Search is substring matching, not ranked full-text search, so `searchVerses(input: "Gen.1.1")` also returns `Gen.1.10` through `Gen.1.19`. For ranked full-text search, use the [Neo4j import](neo4j-graph-documentation.md).
 
-## GraphiQL Interface
+### Relationships
 
-The API includes a built-in GraphiQL interface for exploration and testing.
+Link fields resolve to full objects, so queries can traverse the graph. For example: `Person.father`, `mother`, `children`, `siblings`, `partners`, `memberOf`, `birthPlace`, `deathPlace`, and `verses`; `Verse.people`, `places`, and `book`; `Event.participants`, `locations`, `verses`, and `predecessor`. Nested lists do not accept `where`/`limit`. To keep responses small, paginate at the top level.
 
-- **URL**: Same as the GraphQL endpoint
-- **Access**: Visit the endpoint URL in a web browser to access the interactive GraphiQL interface
+The explorer shows the full schema with a description for every field.
 
-## Schema
+## Examples
 
-The GraphQL schema includes the following main types:
-
-- `Book`: Biblical books with metadata and relationships
-- `Chapter`: Book chapters
-- `Verse`: Individual verses with text and references
-- `Person`: Individuals mentioned in the Bible
-- `Place`: Geographic locations
-- `Event`: Biblical events
-- `PeopleGroup`: Groups of people (tribes, nations, etc.)
-- `Easton`: Entries from Easton's Bible Dictionary
-
-### Root Queries
-
-- `books`: Get all books
-- `chapters`: Get all chapters
-- `verses`: Get all verses
-- `people`: Get all people
-- `places`: Get all places
-- `events`: Get all events
-- `peopleGroups`: Get all people groups
-- `easton`: Get all Easton's entries
-- `searchVerses(input: String!)`: Search verses by OSIS reference or text
-- `searchPeople(input: String!)`: Search people by name or lookup
-- `searchPlaces(input: String!)`: Search places by name or lookup
-
-## Example Queries
-
-### Get all books
+### New Testament books
 ```graphql
-query {
-  books {
-    id
+{
+  books(where: { testament: { eq: "New Testament" } }) {
     bookName
-    testament
     chapterCount
+    verseCount
   }
 }
 ```
 
-### Search verses
+### A verse by reference
 ```graphql
-query {
-  searchVerses(input: "Genesis 1:1") {
+{
+  verses(where: { osisRef: { eq: "John.3.16" } }) {
     osisRef
     verseText
   }
 }
 ```
 
-### Get person with relationships
+### A person with family and birthplace
 ```graphql
-query {
-  people {
-    name
-    gender
-    verses {
-      osisRef
-      verseText
-    }
-    birthPlace {
-      kjvName
-    }
+{
+  people(where: { slug: { eq: "paul_2479" } }) {
+    displayTitle
+    birthPlace { kjvName latitude longitude }
+    verses { osisRef }
   }
 }
 ```
 
-### Get people with birth and death years
+### Events in a date range, in timeline order
 ```graphql
-query {
-  people(where: { name: { eq: "Moses" } }) {
-    name
-    birthYear
-    deathYear
+{
+  events(where: { sortKey: { gte: -1100, lte: -1000 } }) {
+    title
+    startDate
+    duration
+    participants { name }
+    locations { kjvName }
   }
 }
 ```
 
-## Year Numbering Convention
+### Paginating through verses
+```graphql
+{
+  verses(limit: 1000, offset: 2000) { osisRef verseText }
+}
+```
 
-Several fields across the API use **ISO 8601 astronomical year numbering** for dates:
+## Dates and year numbering
 
-- **`Person.birthYear`** and **`Person.deathYear`**: integers representing the estimated birth or death year.
-- **`Verse.yearNum`** and **`Event.sortKey`**: integers/floats representing the approximate year of a verse's events or an event's timeline position.
+Dates follow the chronology of Dr. Floyd Nolen Jones. Every year field uses **ISO 8601 astronomical year numbering**, so `-4003` is 4004 BC, `0` is 1 BC, and `30` is AD 30:
 
-### How to read negative years
+| Field | Type | Example |
+|---|---|---|
+| `Event.startDate` | String | `"-4003"`, or a `YYYY-MM-DD` date such as `"0030-04-04"` |
+| `Event.sortKey` | Float | `-4002.98998999` |
+| `Person.birthYear`, `Person.deathYear` | Int | Moses: `-1570`, `-1451` |
+| `Verse.yearNum` | Int | `Gen.1.1`: `-4003` (Ussher, via the *Treasury of Scripture Knowledge*) |
 
-ISO 8601 astronomical year numbering counts backward from AD 1, with **year 0 equal to 1 BC**:
+BC year = `1 - value` for values ≤ 0. See [Chronology and Dates](chronology-and-dates.md).
 
-| ISO year | Traditional date |
-|----------|-----------------|
-| `1`      | AD 1            |
-| `0`      | 1 BC            |
-| `-1`     | 2 BC            |
-| `-1004`  | 1005 BC         |
-| `-4003`  | 4004 BC         |
+## Limits
 
-To convert a negative ISO year to a BC year: **negate the value and add 1**.
-For example: `-4003 → 4004 BC`, `-1574 → 1575 BC`.
+- **Response size:** Netlify functions return at most about 6 MB. An unpaginated `verses` query that asks for `verseText` comes close to that limit, and adding more fields pushes it over (HTTP 502). Always use `limit`/`offset` with `verses`.
+- **Rate limits:** The API runs on Netlify's function quotas, which have no published per-client rate limit. For heavy or bulk use, download the [JSON files](../json) directly.
 
-Positive values represent AD years directly (e.g. `30` = AD 30).
+## Running locally
 
-## Data Source
+```bash
+cd api
+npm install
+npm start
+```
 
-The API uses JSON files from the `json/` directory as its data source. These files are generated from Airtable exports and contain structured biblical metadata.
+`npm start` runs `netlify dev`, which serves the function at `http://localhost:8888/.netlify/functions/graphql` (also routed at `/api/graphql`). It reads JSON from the repository's `json/` directory.
 
-## Differences from Original API
+```bash
+npm test
+```
 
-- Uses JSON data instead of Neo4j database
-- Simplified search functionality (no full-text indexing)
-- Some computed fields (like verse counts) are calculated on-the-fly
-- Limited to the data available in the JSON files
+Runs the test suite in `api/tests/` against the deployed endpoint.
 
-## Error Handling
+## Deploying
 
-The API returns standard GraphQL errors. Common issues:
-
-- Invalid queries will return validation errors
-- Missing data will return null values for optional fields
-- Network issues may result in timeout errors
-
-## Rate Limiting
-
-As a Netlify serverless function, the API is subject to Netlify's function limits. For high-traffic applications, consider implementing caching or pagination.
+The site in `api/` deploys to Netlify. `api/netlify.toml` copies `../json` into the function bundle at build time and routes `/api/graphql` to the function.
 
 ## Support
 
-For issues or questions about the API, please refer to the main project documentation or create an issue in the repository.
+For bugs or questions, [open an issue](https://github.com/robertrouse/theographic-bible-metadata/issues).

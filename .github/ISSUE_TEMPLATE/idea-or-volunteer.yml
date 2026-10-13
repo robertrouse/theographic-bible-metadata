@@ -1,0 +1,19 @@
+name: Idea or volunteer
+description: Offer your skills, propose a feature or dataset, or share something you built
+title: "[Idea] "
+labels: ["idea"]
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: This is…
+      options: [I'd like to volunteer, A feature or dataset idea, Something I built with Theographic data]
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: For volunteering, describe your skills (data, development, design, research) and how much time you have.
+    validations:
+      required: true
