@@ -194,8 +194,9 @@ describe('verses query', () => {
   });
 
   test('every sampled verse has required fields', async () => {
+    // A sample: all 31,102 verses with their text exceed Netlify's 6 MB function response limit (HTTP 502)
     const data = await gql(`{
-      verses {
+      verses(limit: 20) {
         id
         osisRef
         verseNum
@@ -366,11 +367,11 @@ describe('people query', () => {
         assert.ok(Number.isInteger(p.deathYear), `deathYear should be an integer for ${p.name}, got ${p.deathYear}`);
       }
     }
-    // Adam should have a birthYear of -4004 (= 4005 BC in ISO astronomical year numbering)
+    // Adam's birthYear is -4003 (= 4004 BC in ISO astronomical year numbering; docs/chronology-and-dates.md)
     const adam = data.people.find(p => p.name === 'Adam');
     assert.ok(adam, 'Adam should be in the dataset');
     assert.ok(adam.birthYear !== null, 'Adam should have a birthYear');
-    assert.equal(adam.birthYear, -4004, `Adam's birthYear should be -4004 (= 4005 BC)`);
+    assert.equal(adam.birthYear, -4003, `Adam's birthYear should be -4003 (= 4004 BC)`);
   });
 });
 
