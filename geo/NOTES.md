@@ -12,13 +12,16 @@ Phase 6 drops any place without one. 387 "part of" / "near" relations
 Applied 2026-10-13 with `geo/pipeline/phase11_airtable_apply.py` (logs and
 rollbacks in `geo/airtable/`): `canonicalPlace` on 250 alias records, 24 new
 records (22 DM-only places, 2 Israel kingdoms), 7 `duplicate_of` links moved
-into `canonicalPlace`. `partOf` / `near` / `startYear` / `endYear` added in
-the UI; `phase-11c-plan` fills them. `rootID` and `duplicate_of` are archived
-and ready to delete in the UI; `status` was removed.
+into `canonicalPlace`, and `partOf` / `near` / `startYear` / `endYear` filled
+(11c). Exported again the same day (`etl/airtable_export.py`); the pipeline
+reads the links back and they match the GeoJSON relations one for one.
+`rootID` and `duplicate_of` are archived and ready to delete in the UI;
+`status` was removed.
 
-After the next export, the new placeIDs (1279–1302) map to their features
-through `theographic_assign` in `decisions.json`; DM should also list them in
-`ids.theographic`.
+The new placeIDs (1279–1302) map to their features through
+`theographic_assign` in `decisions.json`; DM should also list them in
+`ids.theographic`. Their Theographic pages appear once the site is rebuilt
+from the new export (24 of the 58 failing links until then).
 
 Theographic records with no verse links although the text names them:
 Jaar #608 (Ps 132:6), Aram-naharaim #84 (Gen 24:10), Aram-zobah #85

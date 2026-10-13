@@ -1943,6 +1943,10 @@
             {
               "label": "Josh.19.29",
               "@id": "https://theographic.netlify.app/josh#Josh.19.29"
+            },
+            {
+              "label": "Judg.1.31",
+              "@id": "https://theographic.netlify.app/judg#Judg.1.31"
             }
           ]
         }
@@ -4004,6 +4008,10 @@
             {
               "label": "Josh.19.29",
               "@id": "https://theographic.netlify.app/josh#Josh.19.29"
+            },
+            {
+              "label": "Judg.1.31",
+              "@id": "https://theographic.netlify.app/judg#Judg.1.31"
             }
           ]
         }
@@ -4744,7 +4752,13 @@
           "relationType": "gvp:tgn3000_related_to",
           "relationTo": "https://bible.helloao.org/api/c/places/jerusalem.json",
           "label": "near Jerusalem",
-          "certainty": "certain"
+          "certainty": "certain",
+          "citations": [
+            {
+              "label": "Acts.1.19",
+              "@id": "https://theographic.netlify.app/acts#Acts.1.19"
+            }
+          ]
         }
       ],
       "links": [
@@ -5306,7 +5320,13 @@
           "relationType": "gvp:tgn3000_related_to",
           "relationTo": "https://bible.helloao.org/api/c/places/bethel-of-benjamin.json",
           "label": "near Bethel (North of Jerusalem)",
-          "certainty": "certain"
+          "certainty": "certain",
+          "citations": [
+            {
+              "label": "Gen.35.8",
+              "@id": "https://theographic.netlify.app/gen#Gen.35.8"
+            }
+          ]
         }
       ],
       "links": [
@@ -6318,6 +6338,10 @@
             {
               "label": "Josh.15.50",
               "@id": "https://theographic.netlify.app/josh#Josh.15.50"
+            },
+            {
+              "label": "Josh.11.21",
+              "@id": "https://theographic.netlify.app/josh#Josh.11.21"
             }
           ]
         }
@@ -6682,7 +6706,13 @@
           "relationType": "gvp:broaderPartitive",
           "relationTo": "https://bible.helloao.org/api/c/places/jerusalem.json",
           "label": "part of Jerusalem",
-          "certainty": "certain"
+          "certainty": "certain",
+          "citations": [
+            {
+              "label": "2Chr.26.9",
+              "@id": "https://theographic.netlify.app/2chr#2Chr.26.9"
+            }
+          ]
         }
       ],
       "links": [
@@ -8640,7 +8670,13 @@
           "relationType": "gvp:broaderPartitive",
           "relationTo": "https://bible.helloao.org/api/c/places/athens.json",
           "label": "part of Athens",
-          "certainty": "certain"
+          "certainty": "certain",
+          "citations": [
+            {
+              "label": "Acts.17.22",
+              "@id": "https://theographic.netlify.app/acts#Acts.17.22"
+            }
+          ]
         }
       ],
       "links": [
@@ -9024,6 +9060,10 @@
             {
               "label": "Josh.13.25",
               "@id": "https://theographic.netlify.app/josh#Josh.13.25"
+            },
+            {
+              "label": "Num.32.34",
+              "@id": "https://theographic.netlify.app/num#Num.32.34"
             }
           ]
         }
@@ -10265,8 +10305,24 @@
             {
               "label": "Digital Manna",
               "@id": "https://www.digitalmanna.org/encyclopedia/places/land-of-asher"
+            },
+            {
+              "label": "Theographic",
+              "@id": "https://theographic.netlify.app/place/asher_1287/"
             }
-          ]
+          ],
+          "when": {
+            "timespans": [
+              {
+                "start": {
+                  "in": "-1450"
+                },
+                "end": {
+                  "in": "-573"
+                }
+              }
+            ]
+          }
         },
         {
           "toponym": "Territory of Asher",
@@ -10351,6 +10407,10 @@
         {
           "type": "seeAlso",
           "identifier": "https://www.digitalmanna.org/encyclopedia/places/land-of-asher"
+        },
+        {
+          "type": "seeAlso",
+          "identifier": "https://theographic.netlify.app/place/asher_1287/"
         }
       ]
     },
@@ -12109,6 +12169,10 @@
             {
               "label": "Josh.16.7",
               "@id": "https://theographic.netlify.app/josh#Josh.16.7"
+            },
+            {
+              "label": "Josh.16.2",
+              "@id": "https://theographic.netlify.app/josh#Josh.16.2"
             }
           ]
         }
@@ -16988,6 +17052,14 @@
             {
               "label": "Josh.15.28",
               "@id": "https://theographic.netlify.app/josh#Josh.15.28"
+            },
+            {
+              "label": "2Kgs.23.8",
+              "@id": "https://theographic.netlify.app/2kgs#2Kgs.23.8"
+            },
+            {
+              "label": "2Sam.24.7",
+              "@id": "https://theographic.netlify.app/2sam#2Sam.24.7"
             }
           ]
         }
@@ -17412,8 +17484,24 @@
             {
               "label": "Digital Manna",
               "@id": "https://www.digitalmanna.org/encyclopedia/places/land-of-benjamin"
+            },
+            {
+              "label": "Theographic",
+              "@id": "https://theographic.netlify.app/place/benjamin-territory_1293/"
             }
-          ]
+          ],
+          "when": {
+            "timespans": [
+              {
+                "start": {
+                  "in": "-1442"
+                },
+                "end": {
+                  "in": "-1442"
+                }
+              }
+            ]
+          }
         },
         {
           "toponym": "Land of Benjamin",
@@ -17498,6 +17586,10 @@
         {
           "type": "seeAlso",
           "identifier": "https://www.digitalmanna.org/encyclopedia/places/land-of-benjamin"
+        },
+        {
+          "type": "seeAlso",
+          "identifier": "https://theographic.netlify.app/place/benjamin-territory_1293/"
         }
       ]
     },
@@ -17607,7 +17699,13 @@
           "relationType": "gvp:broaderPartitive",
           "relationTo": "https://bible.helloao.org/api/c/places/jerusalem.json",
           "label": "part of Jerusalem",
-          "certainty": "certain"
+          "certainty": "certain",
+          "citations": [
+            {
+              "label": "Zech.14.10",
+              "@id": "https://theographic.netlify.app/zech#Zech.14.10"
+            }
+          ]
         }
       ],
       "links": [
@@ -20269,6 +20367,10 @@
             {
               "label": "Josh.18.21",
               "@id": "https://theographic.netlify.app/josh#Josh.18.21"
+            },
+            {
+              "label": "Josh.18.19",
+              "@id": "https://theographic.netlify.app/josh#Josh.18.19"
             }
           ]
         }
@@ -20792,7 +20894,17 @@
           "relationType": "gvp:broaderPartitive",
           "relationTo": "https://bible.helloao.org/api/c/places/shechem.json",
           "label": "part of Shechem (city)",
-          "certainty": "certain"
+          "certainty": "certain",
+          "citations": [
+            {
+              "label": "Judg.9.20",
+              "@id": "https://theographic.netlify.app/judg#Judg.9.20"
+            },
+            {
+              "label": "Judg.9.6",
+              "@id": "https://theographic.netlify.app/judg#Judg.9.6"
+            }
+          ]
         }
       ],
       "links": [
@@ -23026,6 +23138,10 @@
             {
               "label": "Josh.18.22",
               "@id": "https://theographic.netlify.app/josh#Josh.18.22"
+            },
+            {
+              "label": "Josh.18.13",
+              "@id": "https://theographic.netlify.app/josh#Josh.18.13"
             }
           ]
         }
@@ -23237,7 +23353,13 @@
           "relationType": "gvp:broaderPartitive",
           "relationTo": "https://bible.helloao.org/api/c/places/jerusalem.json",
           "label": "part of Jerusalem",
-          "certainty": "certain"
+          "certainty": "certain",
+          "citations": [
+            {
+              "label": "John.5.2",
+              "@id": "https://theographic.netlify.app/john#John.5.2"
+            }
+          ]
         }
       ],
       "links": [
@@ -24759,7 +24881,13 @@
           "relationType": "gvp:broaderPartitive",
           "relationTo": "https://bible.helloao.org/api/c/places/jerusalem.json",
           "label": "part of Jerusalem",
-          "certainty": "certain"
+          "certainty": "certain",
+          "citations": [
+            {
+              "label": "Neh.3.8",
+              "@id": "https://theographic.netlify.app/neh#Neh.3.8"
+            }
+          ]
         }
       ],
       "links": [
@@ -25970,10 +26098,26 @@
               "@id": "https://www.digitalmanna.org/encyclopedia/places/caleb-ephratah"
             },
             {
+              "label": "Theographic",
+              "@id": "https://theographic.netlify.app/place/caleb-ephratah_1298/"
+            },
+            {
               "label": "OpenBible",
               "@id": "https://www.openbible.info/geo/ancient/abf6e12"
             }
-          ]
+          ],
+          "when": {
+            "timespans": [
+              {
+                "start": {
+                  "in": "-1469"
+                },
+                "end": {
+                  "in": "-1469"
+                }
+              }
+            ]
+          }
         },
         {
           "toponym": "Caleb-ephrathah",
@@ -25984,16 +26128,36 @@
               "@id": "https://www.digitalmanna.org/encyclopedia/places/caleb-ephratah"
             },
             {
+              "label": "Theographic",
+              "@id": "https://theographic.netlify.app/place/caleb-ephratah_1298/"
+            },
+            {
               "label": "OpenBible",
               "@id": "https://www.openbible.info/geo/ancient/abf6e12"
             }
-          ]
+          ],
+          "when": {
+            "timespans": [
+              {
+                "start": {
+                  "in": "-1469"
+                },
+                "end": {
+                  "in": "-1469"
+                }
+              }
+            ]
+          }
         }
       ],
       "links": [
         {
           "type": "seeAlso",
           "identifier": "https://www.digitalmanna.org/encyclopedia/places/caleb-ephratah"
+        },
+        {
+          "type": "seeAlso",
+          "identifier": "https://theographic.netlify.app/place/caleb-ephratah_1298/"
         },
         {
           "type": "seeAlso",
@@ -30398,7 +30562,21 @@
           "relationType": "gvp:broaderPartitive",
           "relationTo": "https://bible.helloao.org/api/c/places/jerusalem.json",
           "label": "part of Jerusalem",
-          "certainty": "certain"
+          "certainty": "certain",
+          "citations": [
+            {
+              "label": "2Chr.25.23",
+              "@id": "https://theographic.netlify.app/2chr#2Chr.25.23"
+            },
+            {
+              "label": "2Chr.26.9",
+              "@id": "https://theographic.netlify.app/2chr#2Chr.26.9"
+            },
+            {
+              "label": "2Kgs.14.13",
+              "@id": "https://theographic.netlify.app/2kgs#2Kgs.14.13"
+            }
+          ]
         }
       ],
       "links": [
@@ -32363,8 +32541,24 @@
             {
               "label": "Digital Manna",
               "@id": "https://www.digitalmanna.org/encyclopedia/places/dan"
+            },
+            {
+              "label": "Theographic",
+              "@id": "https://theographic.netlify.app/place/dan_1283/"
             }
-          ]
+          ],
+          "when": {
+            "timespans": [
+              {
+                "start": {
+                  "in": "-1442"
+                },
+                "end": {
+                  "in": "-1405"
+                }
+              }
+            ]
+          }
         },
         {
           "toponym": "Territory of Dan",
@@ -32431,6 +32625,10 @@
         {
           "type": "seeAlso",
           "identifier": "https://www.digitalmanna.org/encyclopedia/places/dan"
+        },
+        {
+          "type": "seeAlso",
+          "identifier": "https://theographic.netlify.app/place/dan_1283/"
         }
       ]
     },
@@ -33044,6 +33242,10 @@
             {
               "label": "Josh.15.49",
               "@id": "https://theographic.netlify.app/josh#Josh.15.49"
+            },
+            {
+              "label": "Josh.11.21",
+              "@id": "https://theographic.netlify.app/josh#Josh.11.21"
             }
           ]
         }
@@ -34430,6 +34632,10 @@
             {
               "label": "Josh.17.11",
               "@id": "https://theographic.netlify.app/josh#Josh.17.11"
+            },
+            {
+              "label": "Judg.1.27",
+              "@id": "https://theographic.netlify.app/judg#Judg.1.27"
             }
           ]
         }
@@ -34858,7 +35064,13 @@
           "relationType": "gvp:broaderPartitive",
           "relationTo": "https://bible.helloao.org/api/c/places/jerusalem.json",
           "label": "part of Jerusalem",
-          "certainty": "certain"
+          "certainty": "certain",
+          "citations": [
+            {
+              "label": "Neh.2.13",
+              "@id": "https://theographic.netlify.app/neh#Neh.2.13"
+            }
+          ]
         }
       ],
       "links": [
@@ -35175,8 +35387,24 @@
             {
               "label": "Digital Manna",
               "@id": "https://www.digitalmanna.org/encyclopedia/places/east-manasseh"
+            },
+            {
+              "label": "Theographic",
+              "@id": "https://theographic.netlify.app/place/east-manasseh-half-tribe_1290/"
             }
-          ]
+          ],
+          "when": {
+            "timespans": [
+              {
+                "start": {
+                  "in": "-1451"
+                },
+                "end": {
+                  "in": "-573"
+                }
+              }
+            ]
+          }
         },
         {
           "toponym": "Land of East Manasseh",
@@ -35261,6 +35489,10 @@
         {
           "type": "seeAlso",
           "identifier": "https://www.digitalmanna.org/encyclopedia/places/east-manasseh"
+        },
+        {
+          "type": "seeAlso",
+          "identifier": "https://theographic.netlify.app/place/east-manasseh-half-tribe_1290/"
         }
       ]
     },
@@ -36193,8 +36425,24 @@
             {
               "label": "Digital Manna",
               "@id": "https://www.digitalmanna.org/encyclopedia/places/edrei-of-naphtali"
+            },
+            {
+              "label": "Theographic",
+              "@id": "https://theographic.netlify.app/place/edrei_1285/"
             }
-          ]
+          ],
+          "when": {
+            "timespans": [
+              {
+                "start": {
+                  "in": "-1442"
+                },
+                "end": {
+                  "in": "-1442"
+                }
+              }
+            ]
+          }
         }
       ],
       "relations": [
@@ -36202,13 +36450,32 @@
           "relationType": "gvp:broaderPartitive",
           "relationTo": "https://bible.helloao.org/api/c/places/naphtali.json",
           "label": "part of Naphtali",
-          "certainty": "certain"
+          "when": {
+            "timespans": [
+              {
+                "start": {
+                  "in": "-1442"
+                }
+              }
+            ]
+          },
+          "certainty": "certain",
+          "citations": [
+            {
+              "label": "Josh.19.37",
+              "@id": "https://theographic.netlify.app/josh#Josh.19.37"
+            }
+          ]
         }
       ],
       "links": [
         {
           "type": "seeAlso",
           "identifier": "https://www.digitalmanna.org/encyclopedia/places/edrei-of-naphtali"
+        },
+        {
+          "type": "seeAlso",
+          "identifier": "https://theographic.netlify.app/place/edrei_1285/"
         }
       ]
     },
@@ -37170,8 +37437,24 @@
             {
               "label": "Digital Manna",
               "@id": "https://www.digitalmanna.org/encyclopedia/places/el-elohe-israel"
+            },
+            {
+              "label": "Theographic",
+              "@id": "https://theographic.netlify.app/place/el-elohe-israel_1279/"
             }
-          ]
+          ],
+          "when": {
+            "timespans": [
+              {
+                "start": {
+                  "in": "-1738"
+                },
+                "end": {
+                  "in": "-1738"
+                }
+              }
+            ]
+          }
         },
         {
           "toponym": "Sychem",
@@ -37188,6 +37471,10 @@
         {
           "type": "seeAlso",
           "identifier": "https://www.digitalmanna.org/encyclopedia/places/el-elohe-israel"
+        },
+        {
+          "type": "seeAlso",
+          "identifier": "https://theographic.netlify.app/place/el-elohe-israel_1279/"
         },
         {
           "type": "seeAlso",
@@ -40818,8 +41105,24 @@
             {
               "label": "Digital Manna",
               "@id": "https://www.digitalmanna.org/encyclopedia/places/land-of-ephraim"
+            },
+            {
+              "label": "Theographic",
+              "@id": "https://theographic.netlify.app/place/ephraim-territory_1292/"
             }
-          ]
+          ],
+          "when": {
+            "timespans": [
+              {
+                "start": {
+                  "in": "-1450"
+                },
+                "end": {
+                  "in": "-1442"
+                }
+              }
+            ]
+          }
         },
         {
           "toponym": "Land of Ephraim",
@@ -40904,6 +41207,10 @@
         {
           "type": "seeAlso",
           "identifier": "https://www.digitalmanna.org/encyclopedia/places/land-of-ephraim"
+        },
+        {
+          "type": "seeAlso",
+          "identifier": "https://theographic.netlify.app/place/ephraim-territory_1292/"
         }
       ]
     },
@@ -41007,7 +41314,17 @@
           "relationType": "gvp:broaderPartitive",
           "relationTo": "https://bible.helloao.org/api/c/places/jerusalem.json",
           "label": "part of Jerusalem",
-          "certainty": "certain"
+          "certainty": "certain",
+          "citations": [
+            {
+              "label": "2Chr.25.23",
+              "@id": "https://theographic.netlify.app/2chr#2Chr.25.23"
+            },
+            {
+              "label": "2Kgs.14.13",
+              "@id": "https://theographic.netlify.app/2kgs#2Kgs.14.13"
+            }
+          ]
         }
       ],
       "links": [
@@ -41474,7 +41791,13 @@
           "relationType": "gvp:tgn3000_related_to",
           "relationTo": "https://bible.helloao.org/api/c/places/gerar.json",
           "label": "near Gerar",
-          "certainty": "certain"
+          "certainty": "certain",
+          "citations": [
+            {
+              "label": "Gen.26.20",
+              "@id": "https://theographic.netlify.app/gen#Gen.26.20"
+            }
+          ]
         }
       ],
       "links": [
@@ -43223,8 +43546,24 @@
             {
               "label": "Digital Manna",
               "@id": "https://www.digitalmanna.org/encyclopedia/places/forest-of-ephraim"
+            },
+            {
+              "label": "Theographic",
+              "@id": "https://theographic.netlify.app/place/forest-of-ephraim_1294/"
             }
-          ]
+          ],
+          "when": {
+            "timespans": [
+              {
+                "start": {
+                  "in": "-1022"
+                },
+                "end": {
+                  "in": "-1022"
+                }
+              }
+            ]
+          }
         },
         {
           "toponym": "Wood of Ephraim",
@@ -43241,6 +43580,10 @@
         {
           "type": "seeAlso",
           "identifier": "https://www.digitalmanna.org/encyclopedia/places/forest-of-ephraim"
+        },
+        {
+          "type": "seeAlso",
+          "identifier": "https://theographic.netlify.app/place/forest-of-ephraim_1294/"
         },
         {
           "type": "seeAlso",
@@ -43594,8 +43937,24 @@
             {
               "label": "Digital Manna",
               "@id": "https://www.digitalmanna.org/encyclopedia/places/gad"
+            },
+            {
+              "label": "Theographic",
+              "@id": "https://theographic.netlify.app/place/gad_1286/"
             }
-          ]
+          ],
+          "when": {
+            "timespans": [
+              {
+                "start": {
+                  "in": "-1451"
+                },
+                "end": {
+                  "in": "-573"
+                }
+              }
+            ]
+          }
         },
         {
           "toponym": "Territory of Gad",
@@ -43680,6 +44039,10 @@
         {
           "type": "seeAlso",
           "identifier": "https://www.digitalmanna.org/encyclopedia/places/gad"
+        },
+        {
+          "type": "seeAlso",
+          "identifier": "https://theographic.netlify.app/place/gad_1286/"
         }
       ]
     },
@@ -44588,7 +44951,13 @@
           "relationType": "gvp:broaderPartitive",
           "relationTo": "https://bible.helloao.org/api/c/places/jerusalem.json",
           "label": "part of Jerusalem",
-          "certainty": "certain"
+          "certainty": "certain",
+          "citations": [
+            {
+              "label": "Jer.17.19",
+              "@id": "https://theographic.netlify.app/jer#Jer.17.19"
+            }
+          ]
         }
       ],
       "links": [
@@ -46541,7 +46910,13 @@
           "relationType": "gvp:tgn3000_related_to",
           "relationTo": "https://bible.helloao.org/api/c/places/bethlehem-of-judah.json",
           "label": "near Bethlehem (of Judah)",
-          "certainty": "certain"
+          "certainty": "certain",
+          "citations": [
+            {
+              "label": "Jer.41.17",
+              "@id": "https://theographic.netlify.app/jer#Jer.41.17"
+            }
+          ]
         }
       ],
       "links": [
@@ -46907,6 +47282,10 @@
             {
               "label": "Josh.16.10",
               "@id": "https://theographic.netlify.app/josh#Josh.16.10"
+            },
+            {
+              "label": "Josh.16.3",
+              "@id": "https://theographic.netlify.app/josh#Josh.16.3"
             }
           ]
         }
@@ -54366,6 +54745,10 @@
             {
               "label": "Josh.19.36",
               "@id": "https://theographic.netlify.app/josh#Josh.19.36"
+            },
+            {
+              "label": "2Kgs.15.29",
+              "@id": "https://theographic.netlify.app/2kgs#2Kgs.15.29"
             }
           ]
         }
@@ -54772,6 +55155,18 @@
             {
               "label": "Josh.15.54",
               "@id": "https://theographic.netlify.app/josh#Josh.15.54"
+            },
+            {
+              "label": "2Sam.2.1",
+              "@id": "https://theographic.netlify.app/2sam#2Sam.2.1"
+            },
+            {
+              "label": "Josh.11.21",
+              "@id": "https://theographic.netlify.app/josh#Josh.11.21"
+            },
+            {
+              "label": "Josh.20.7",
+              "@id": "https://theographic.netlify.app/josh#Josh.20.7"
             }
           ]
         }
@@ -55971,6 +56366,10 @@
             {
               "label": "Josh.13.21",
               "@id": "https://theographic.netlify.app/josh#Josh.13.21"
+            },
+            {
+              "label": "Num.32.37",
+              "@id": "https://theographic.netlify.app/num#Num.32.37"
             }
           ]
         }
@@ -57847,6 +58246,10 @@
             {
               "label": "Josh.17.11",
               "@id": "https://theographic.netlify.app/josh#Josh.17.11"
+            },
+            {
+              "label": "Judg.1.27",
+              "@id": "https://theographic.netlify.app/judg#Judg.1.27"
             }
           ]
         }
@@ -59204,8 +59607,24 @@
             {
               "label": "Digital Manna",
               "@id": "https://www.digitalmanna.org/encyclopedia/places/land-of-issachar"
+            },
+            {
+              "label": "Theographic",
+              "@id": "https://theographic.netlify.app/place/issachar_1288/"
             }
-          ]
+          ],
+          "when": {
+            "timespans": [
+              {
+                "start": {
+                  "in": "-1442"
+                },
+                "end": {
+                  "in": "-573"
+                }
+              }
+            ]
+          }
         },
         {
           "toponym": "Territory of Issachar",
@@ -59290,6 +59709,10 @@
         {
           "type": "seeAlso",
           "identifier": "https://www.digitalmanna.org/encyclopedia/places/land-of-issachar"
+        },
+        {
+          "type": "seeAlso",
+          "identifier": "https://theographic.netlify.app/place/issachar_1288/"
         }
       ]
     },
@@ -62354,6 +62777,10 @@
             {
               "label": "Josh.18.21",
               "@id": "https://theographic.netlify.app/josh#Josh.18.21"
+            },
+            {
+              "label": "Josh.18.12",
+              "@id": "https://theographic.netlify.app/josh#Josh.18.12"
             }
           ]
         }
@@ -63025,6 +63452,18 @@
             {
               "label": "2Kgs.25.8",
               "@id": "https://theographic.netlify.app/2kgs#2Kgs.25.8"
+            },
+            {
+              "label": "1Kgs.12.21",
+              "@id": "https://theographic.netlify.app/1kgs#1Kgs.12.21"
+            },
+            {
+              "label": "2Chr.11.5",
+              "@id": "https://theographic.netlify.app/2chr#2Chr.11.5"
+            },
+            {
+              "label": "2Kgs.23.24",
+              "@id": "https://theographic.netlify.app/2kgs#2Kgs.23.24"
             }
           ]
         },
@@ -64951,10 +65390,26 @@
               "@id": "https://www.digitalmanna.org/encyclopedia/places/jorkoam"
             },
             {
+              "label": "Theographic",
+              "@id": "https://theographic.netlify.app/place/jorkoam_1300/"
+            },
+            {
               "label": "OpenBible",
               "@id": "https://www.openbible.info/geo/ancient/a2b389a"
             }
-          ]
+          ],
+          "when": {
+            "timespans": [
+              {
+                "start": {
+                  "in": "-1469"
+                },
+                "end": {
+                  "in": "-1469"
+                }
+              }
+            ]
+          }
         },
         {
           "toponym": "Jorkeam",
@@ -64965,16 +65420,36 @@
               "@id": "https://www.digitalmanna.org/encyclopedia/places/jorkoam"
             },
             {
+              "label": "Theographic",
+              "@id": "https://theographic.netlify.app/place/jorkoam_1300/"
+            },
+            {
               "label": "OpenBible",
               "@id": "https://www.openbible.info/geo/ancient/a2b389a"
             }
-          ]
+          ],
+          "when": {
+            "timespans": [
+              {
+                "start": {
+                  "in": "-1469"
+                },
+                "end": {
+                  "in": "-1469"
+                }
+              }
+            ]
+          }
         }
       ],
       "links": [
         {
           "type": "seeAlso",
           "identifier": "https://www.digitalmanna.org/encyclopedia/places/jorkoam"
+        },
+        {
+          "type": "seeAlso",
+          "identifier": "https://theographic.netlify.app/place/jorkoam_1300/"
         },
         {
           "type": "seeAlso",
@@ -65193,8 +65668,24 @@
             {
               "label": "Digital Manna",
               "@id": "https://www.digitalmanna.org/encyclopedia/places/judah"
+            },
+            {
+              "label": "Theographic",
+              "@id": "https://theographic.netlify.app/place/judah_1280/"
             }
-          ]
+          ],
+          "when": {
+            "timespans": [
+              {
+                "start": {
+                  "in": "-1449"
+                },
+                "end": {
+                  "in": "-752"
+                }
+              }
+            ]
+          }
         }
       ],
       "relations": [
@@ -65259,6 +65750,10 @@
         {
           "type": "seeAlso",
           "identifier": "https://www.digitalmanna.org/encyclopedia/places/judah"
+        },
+        {
+          "type": "seeAlso",
+          "identifier": "https://theographic.netlify.app/place/judah_1280/"
         }
       ]
     },
@@ -65890,6 +66385,10 @@
             {
               "label": "Josh.15.23",
               "@id": "https://theographic.netlify.app/josh#Josh.15.23"
+            },
+            {
+              "label": "Josh.15.3",
+              "@id": "https://theographic.netlify.app/josh#Josh.15.3"
             }
           ]
         }
@@ -66761,6 +67260,10 @@
             {
               "label": "Josh.13.18",
               "@id": "https://theographic.netlify.app/josh#Josh.13.18"
+            },
+            {
+              "label": "Josh.21.37",
+              "@id": "https://theographic.netlify.app/josh#Josh.21.37"
             }
           ]
         }
@@ -66944,6 +67447,14 @@
             {
               "label": "Josh.19.37",
               "@id": "https://theographic.netlify.app/josh#Josh.19.37"
+            },
+            {
+              "label": "2Kgs.15.29",
+              "@id": "https://theographic.netlify.app/2kgs#2Kgs.15.29"
+            },
+            {
+              "label": "Josh.20.7",
+              "@id": "https://theographic.netlify.app/josh#Josh.20.7"
             }
           ]
         }
@@ -68187,14 +68698,56 @@
             {
               "label": "Digital Manna",
               "@id": "https://www.digitalmanna.org/encyclopedia/places/judah-southern"
+            },
+            {
+              "label": "Theographic",
+              "@id": "https://theographic.netlify.app/place/judah-southern_1281/"
             }
-          ]
+          ],
+          "when": {
+            "timespans": [
+              {
+                "start": {
+                  "in": "-974"
+                },
+                "end": {
+                  "in": "-712"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "toponym": "Kingdom of Judah",
+          "lang": "en",
+          "citations": [
+            {
+              "label": "Theographic",
+              "@id": "https://theographic.netlify.app/place/judah-southern_1281/"
+            }
+          ],
+          "when": {
+            "timespans": [
+              {
+                "start": {
+                  "in": "-974"
+                },
+                "end": {
+                  "in": "-712"
+                }
+              }
+            ]
+          }
         }
       ],
       "links": [
         {
           "type": "seeAlso",
           "identifier": "https://www.digitalmanna.org/encyclopedia/places/judah-southern"
+        },
+        {
+          "type": "seeAlso",
+          "identifier": "https://theographic.netlify.app/place/judah-southern_1281/"
         }
       ]
     },
@@ -69057,6 +69610,14 @@
             {
               "label": "Josh.18.28",
               "@id": "https://theographic.netlify.app/josh#Josh.18.28"
+            },
+            {
+              "label": "Josh.18.14",
+              "@id": "https://theographic.netlify.app/josh#Josh.18.14"
+            },
+            {
+              "label": "Josh.18.15",
+              "@id": "https://theographic.netlify.app/josh#Josh.18.15"
             }
           ]
         },
@@ -69078,6 +69639,10 @@
             {
               "label": "Josh.15.60",
               "@id": "https://theographic.netlify.app/josh#Josh.15.60"
+            },
+            {
+              "label": "Josh.15.9",
+              "@id": "https://theographic.netlify.app/josh#Josh.15.9"
             }
           ]
         }
@@ -69223,6 +69788,10 @@
             {
               "label": "Josh.13.19",
               "@id": "https://theographic.netlify.app/josh#Josh.13.19"
+            },
+            {
+              "label": "Num.32.37",
+              "@id": "https://theographic.netlify.app/num#Num.32.37"
             }
           ]
         }
@@ -73008,10 +73577,26 @@
               "@id": "https://www.digitalmanna.org/encyclopedia/places/machbenah"
             },
             {
+              "label": "Theographic",
+              "@id": "https://theographic.netlify.app/place/machbenah_1299/"
+            },
+            {
               "label": "OpenBible",
               "@id": "https://www.openbible.info/geo/ancient/a3b7885"
             }
-          ]
+          ],
+          "when": {
+            "timespans": [
+              {
+                "start": {
+                  "in": "-1469"
+                },
+                "end": {
+                  "in": "-1469"
+                }
+              }
+            ]
+          }
         },
         {
           "toponym": "Machbena",
@@ -73052,6 +73637,10 @@
         {
           "type": "seeAlso",
           "identifier": "https://www.digitalmanna.org/encyclopedia/places/machbenah"
+        },
+        {
+          "type": "seeAlso",
+          "identifier": "https://theographic.netlify.app/place/machbenah_1299/"
         },
         {
           "type": "seeAlso",
@@ -76622,6 +77211,10 @@
             {
               "label": "Josh.17.11",
               "@id": "https://theographic.netlify.app/josh#Josh.17.11"
+            },
+            {
+              "label": "Judg.1.27",
+              "@id": "https://theographic.netlify.app/judg#Judg.1.27"
             }
           ]
         }
@@ -77086,6 +77679,10 @@
             {
               "label": "Josh.13.18",
               "@id": "https://theographic.netlify.app/josh#Josh.13.18"
+            },
+            {
+              "label": "Josh.21.37",
+              "@id": "https://theographic.netlify.app/josh#Josh.21.37"
             }
           ]
         }
@@ -79076,7 +79673,13 @@
           "relationType": "gvp:broaderPartitive",
           "relationTo": "https://bible.helloao.org/api/c/places/jerusalem.json",
           "label": "part of Jerusalem",
-          "certainty": "certain"
+          "certainty": "certain",
+          "citations": [
+            {
+              "label": "1Kgs.9.15",
+              "@id": "https://theographic.netlify.app/1kgs#1Kgs.9.15"
+            }
+          ]
         }
       ],
       "links": [
@@ -79300,16 +79903,36 @@
               "@id": "https://www.digitalmanna.org/encyclopedia/places/misgab"
             },
             {
+              "label": "Theographic",
+              "@id": "https://theographic.netlify.app/place/misgab_1295/"
+            },
+            {
               "label": "OpenBible",
               "@id": "https://www.openbible.info/geo/ancient/a7719f8"
             }
-          ]
+          ],
+          "when": {
+            "timespans": [
+              {
+                "start": {
+                  "in": "-583"
+                },
+                "end": {
+                  "in": "-583"
+                }
+              }
+            ]
+          }
         }
       ],
       "links": [
         {
           "type": "seeAlso",
           "identifier": "https://www.digitalmanna.org/encyclopedia/places/misgab"
+        },
+        {
+          "type": "seeAlso",
+          "identifier": "https://theographic.netlify.app/place/misgab_1295/"
         },
         {
           "type": "seeAlso",
@@ -80591,7 +81214,13 @@
           "relationType": "gvp:tgn3000_related_to",
           "relationTo": "https://bible.helloao.org/api/c/places/shechem.json",
           "label": "near Shechem (city)",
-          "certainty": "certain"
+          "certainty": "certain",
+          "citations": [
+            {
+              "label": "Gen.12.6",
+              "@id": "https://theographic.netlify.app/gen#Gen.12.6"
+            }
+          ]
         }
       ],
       "links": [
@@ -81587,7 +82216,13 @@
           "relationType": "gvp:tgn3000_related_to",
           "relationTo": "https://bible.helloao.org/api/c/places/timnath-heres.json",
           "label": "near Timnath-Heres",
-          "certainty": "certain"
+          "certainty": "certain",
+          "citations": [
+            {
+              "label": "Judg.2.9",
+              "@id": "https://theographic.netlify.app/judg#Judg.2.9"
+            }
+          ]
         }
       ],
       "links": [
@@ -84484,7 +85119,21 @@
           "relationType": "gvp:broaderPartitive",
           "relationTo": "https://bible.helloao.org/api/c/places/jerusalem.json",
           "label": "part of Jerusalem",
-          "certainty": "certain"
+          "certainty": "certain",
+          "citations": [
+            {
+              "label": "2Kgs.19.31",
+              "@id": "https://theographic.netlify.app/2kgs#2Kgs.19.31"
+            },
+            {
+              "label": "Heb.12.22",
+              "@id": "https://theographic.netlify.app/heb#Heb.12.22"
+            },
+            {
+              "label": "Isa.10.12",
+              "@id": "https://theographic.netlify.app/isa#Isa.10.12"
+            }
+          ]
         }
       ],
       "links": [
@@ -85887,8 +86536,24 @@
             {
               "label": "Digital Manna",
               "@id": "https://www.digitalmanna.org/encyclopedia/places/naphtali"
+            },
+            {
+              "label": "Theographic",
+              "@id": "https://theographic.netlify.app/place/naphtali_1284/"
             }
-          ]
+          ],
+          "when": {
+            "timespans": [
+              {
+                "start": {
+                  "in": "-1450"
+                },
+                "end": {
+                  "in": "26"
+                }
+              }
+            ]
+          }
         },
         {
           "toponym": "Territory of Naphtali",
@@ -85973,6 +86638,10 @@
         {
           "type": "seeAlso",
           "identifier": "https://www.digitalmanna.org/encyclopedia/places/naphtali"
+        },
+        {
+          "type": "seeAlso",
+          "identifier": "https://theographic.netlify.app/place/naphtali_1284/"
         }
       ]
     },
@@ -88259,14 +88928,56 @@
             {
               "label": "Digital Manna",
               "@id": "https://www.digitalmanna.org/encyclopedia/places/israel-northern"
+            },
+            {
+              "label": "Theographic",
+              "@id": "https://theographic.netlify.app/place/northern-kingdom-of-israel_1302/"
             }
-          ]
+          ],
+          "when": {
+            "timespans": [
+              {
+                "start": {
+                  "in": "-974"
+                },
+                "end": {
+                  "in": "-720"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "toponym": "Northern Kingdom of Israel",
+          "lang": "en",
+          "citations": [
+            {
+              "label": "Theographic",
+              "@id": "https://theographic.netlify.app/place/northern-kingdom-of-israel_1302/"
+            }
+          ],
+          "when": {
+            "timespans": [
+              {
+                "start": {
+                  "in": "-974"
+                },
+                "end": {
+                  "in": "-720"
+                }
+              }
+            ]
+          }
         }
       ],
       "links": [
         {
           "type": "seeAlso",
           "identifier": "https://www.digitalmanna.org/encyclopedia/places/israel-northern"
+        },
+        {
+          "type": "seeAlso",
+          "identifier": "https://theographic.netlify.app/place/northern-kingdom-of-israel_1302/"
         }
       ]
     },
@@ -90220,10 +90931,26 @@
               "@id": "https://www.digitalmanna.org/encyclopedia/places/parbar"
             },
             {
+              "label": "Theographic",
+              "@id": "https://theographic.netlify.app/place/parbar_1296/"
+            },
+            {
               "label": "OpenBible",
               "@id": "https://www.openbible.info/geo/ancient/ab1d701"
             }
-          ]
+          ],
+          "when": {
+            "timespans": [
+              {
+                "start": {
+                  "in": "-1014"
+                },
+                "end": {
+                  "in": "-1014"
+                }
+              }
+            ]
+          }
         },
         {
           "toponym": "Parvar",
@@ -90240,6 +90967,10 @@
         {
           "type": "seeAlso",
           "identifier": "https://www.digitalmanna.org/encyclopedia/places/parbar"
+        },
+        {
+          "type": "seeAlso",
+          "identifier": "https://theographic.netlify.app/place/parbar_1296/"
         },
         {
           "type": "seeAlso",
@@ -91372,6 +92103,10 @@
             {
               "label": "Digital Manna",
               "@id": "https://www.digitalmanna.org/encyclopedia/places/perga"
+            },
+            {
+              "label": "Acts.13.13",
+              "@id": "https://theographic.netlify.app/acts#Acts.13.13"
             }
           ]
         }
@@ -92079,6 +92814,10 @@
             {
               "label": "Digital Manna",
               "@id": "https://www.digitalmanna.org/encyclopedia/places/philippi"
+            },
+            {
+              "label": "Acts.16.12",
+              "@id": "https://theographic.netlify.app/acts#Acts.16.12"
             }
           ]
         }
@@ -95855,6 +96594,10 @@
             {
               "label": "Josh.19.30",
               "@id": "https://theographic.netlify.app/josh#Josh.19.30"
+            },
+            {
+              "label": "Judg.1.31",
+              "@id": "https://theographic.netlify.app/judg#Judg.1.31"
             }
           ]
         }
@@ -96489,8 +97232,24 @@
             {
               "label": "Digital Manna",
               "@id": "https://www.digitalmanna.org/encyclopedia/places/reuben"
+            },
+            {
+              "label": "Theographic",
+              "@id": "https://theographic.netlify.app/place/reuben_1282/"
             }
-          ]
+          ],
+          "when": {
+            "timespans": [
+              {
+                "start": {
+                  "in": "-1451"
+                },
+                "end": {
+                  "in": "-1442"
+                }
+              }
+            ]
+          }
         },
         {
           "toponym": "Territory of Reuben",
@@ -96575,6 +97334,10 @@
         {
           "type": "seeAlso",
           "identifier": "https://www.digitalmanna.org/encyclopedia/places/reuben"
+        },
+        {
+          "type": "seeAlso",
+          "identifier": "https://theographic.netlify.app/place/reuben_1282/"
         }
       ]
     },
@@ -97718,10 +98481,26 @@
               "@id": "https://www.digitalmanna.org/encyclopedia/places/sela-hammahlekoth"
             },
             {
+              "label": "Theographic",
+              "@id": "https://theographic.netlify.app/place/sela-hammahlekoth_1297/"
+            },
+            {
               "label": "OpenBible",
               "@id": "https://www.openbible.info/geo/ancient/a897bdb"
             }
-          ]
+          ],
+          "when": {
+            "timespans": [
+              {
+                "start": {
+                  "in": "-1060"
+                },
+                "end": {
+                  "in": "-1060"
+                }
+              }
+            ]
+          }
         },
         {
           "toponym": "Rock of Escape",
@@ -97732,10 +98511,26 @@
               "@id": "https://www.digitalmanna.org/encyclopedia/places/sela-hammahlekoth"
             },
             {
+              "label": "Theographic",
+              "@id": "https://theographic.netlify.app/place/sela-hammahlekoth_1297/"
+            },
+            {
               "label": "OpenBible",
               "@id": "https://www.openbible.info/geo/ancient/a897bdb"
             }
-          ]
+          ],
+          "when": {
+            "timespans": [
+              {
+                "start": {
+                  "in": "-1060"
+                },
+                "end": {
+                  "in": "-1060"
+                }
+              }
+            ]
+          }
         },
         {
           "toponym": "Rock of Division",
@@ -97762,6 +98557,10 @@
         {
           "type": "seeAlso",
           "identifier": "https://www.digitalmanna.org/encyclopedia/places/sela-hammahlekoth"
+        },
+        {
+          "type": "seeAlso",
+          "identifier": "https://theographic.netlify.app/place/sela-hammahlekoth_1297/"
         },
         {
           "type": "seeAlso",
@@ -103247,7 +104046,13 @@
           "relationType": "gvp:broaderPartitive",
           "relationTo": "https://bible.helloao.org/api/c/places/jerusalem.json",
           "label": "part of Jerusalem",
-          "certainty": "certain"
+          "certainty": "certain",
+          "citations": [
+            {
+              "label": "John.5.2",
+              "@id": "https://theographic.netlify.app/john#John.5.2"
+            }
+          ]
         }
       ],
       "links": [
@@ -105547,6 +106352,10 @@
             {
               "label": "Josh.19.28",
               "@id": "https://theographic.netlify.app/josh#Josh.19.28"
+            },
+            {
+              "label": "Judg.1.31",
+              "@id": "https://theographic.netlify.app/judg#Judg.1.31"
             }
           ]
         }
@@ -105972,7 +106781,13 @@
           "relationType": "gvp:broaderPartitive",
           "relationTo": "https://bible.helloao.org/api/c/places/jerusalem.json",
           "label": "part of Jerusalem",
-          "certainty": "certain"
+          "certainty": "certain",
+          "citations": [
+            {
+              "label": "Luke.13.4",
+              "@id": "https://theographic.netlify.app/luke#Luke.13.4"
+            }
+          ]
         }
       ],
       "links": [
@@ -108844,6 +109659,10 @@
             {
               "label": "Josh.17.11",
               "@id": "https://theographic.netlify.app/josh#Josh.17.11"
+            },
+            {
+              "label": "Judg.1.27",
+              "@id": "https://theographic.netlify.app/judg#Judg.1.27"
             }
           ]
         }
@@ -110401,6 +111220,10 @@
             {
               "label": "Josh.16.8",
               "@id": "https://theographic.netlify.app/josh#Josh.16.8"
+            },
+            {
+              "label": "Josh.17.8",
+              "@id": "https://theographic.netlify.app/josh#Josh.17.8"
             }
           ]
         }
@@ -111018,6 +111841,14 @@
             {
               "label": "Digital Manna",
               "@id": "https://www.digitalmanna.org/encyclopedia/places/tarsus"
+            },
+            {
+              "label": "Acts.21.39",
+              "@id": "https://theographic.netlify.app/acts#Acts.21.39"
+            },
+            {
+              "label": "Acts.22.3",
+              "@id": "https://theographic.netlify.app/acts#Acts.22.3"
             }
           ]
         }
@@ -115045,7 +115876,13 @@
           "relationType": "gvp:broaderPartitive",
           "relationTo": "https://bible.helloao.org/api/c/places/jerusalem.json",
           "label": "part of Jerusalem",
-          "certainty": "certain"
+          "certainty": "certain",
+          "citations": [
+            {
+              "label": "Zech.14.10",
+              "@id": "https://theographic.netlify.app/zech#Zech.14.10"
+            }
+          ]
         }
       ],
       "links": [
@@ -116385,14 +117222,56 @@
             {
               "label": "Digital Manna",
               "@id": "https://www.digitalmanna.org/encyclopedia/places/israel"
+            },
+            {
+              "label": "Theographic",
+              "@id": "https://theographic.netlify.app/place/united-kingdom-of-israel_1301/"
             }
-          ]
+          ],
+          "when": {
+            "timespans": [
+              {
+                "start": {
+                  "in": "-1094"
+                },
+                "end": {
+                  "in": "-1013"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "toponym": "United Kingdom of Israel",
+          "lang": "en",
+          "citations": [
+            {
+              "label": "Theographic",
+              "@id": "https://theographic.netlify.app/place/united-kingdom-of-israel_1301/"
+            }
+          ],
+          "when": {
+            "timespans": [
+              {
+                "start": {
+                  "in": "-1094"
+                },
+                "end": {
+                  "in": "-1013"
+                }
+              }
+            ]
+          }
         }
       ],
       "links": [
         {
           "type": "seeAlso",
           "identifier": "https://www.digitalmanna.org/encyclopedia/places/israel"
+        },
+        {
+          "type": "seeAlso",
+          "identifier": "https://theographic.netlify.app/place/united-kingdom-of-israel_1301/"
         }
       ]
     },
@@ -117166,7 +118045,13 @@
           "relationType": "gvp:broaderPartitive",
           "relationTo": "https://bible.helloao.org/api/c/places/jerusalem.json",
           "label": "part of Jerusalem",
-          "certainty": "certain"
+          "certainty": "certain",
+          "citations": [
+            {
+              "label": "Neh.2.13",
+              "@id": "https://theographic.netlify.app/neh#Neh.2.13"
+            }
+          ]
         }
       ],
       "links": [
@@ -120279,8 +121164,24 @@
             {
               "label": "Digital Manna",
               "@id": "https://www.digitalmanna.org/encyclopedia/places/west-manasseh"
+            },
+            {
+              "label": "Theographic",
+              "@id": "https://theographic.netlify.app/place/west-manasseh_1291/"
             }
-          ]
+          ],
+          "when": {
+            "timespans": [
+              {
+                "start": {
+                  "in": "-1450"
+                },
+                "end": {
+                  "in": "-573"
+                }
+              }
+            ]
+          }
         },
         {
           "toponym": "Land of West Manasseh",
@@ -120365,6 +121266,10 @@
         {
           "type": "seeAlso",
           "identifier": "https://www.digitalmanna.org/encyclopedia/places/west-manasseh"
+        },
+        {
+          "type": "seeAlso",
+          "identifier": "https://theographic.netlify.app/place/west-manasseh_1291/"
         }
       ]
     },
@@ -122281,8 +123186,24 @@
             {
               "label": "Digital Manna",
               "@id": "https://www.digitalmanna.org/encyclopedia/places/land-of-zebulun"
+            },
+            {
+              "label": "Theographic",
+              "@id": "https://theographic.netlify.app/place/zebulun_1289/"
             }
-          ]
+          ],
+          "when": {
+            "timespans": [
+              {
+                "start": {
+                  "in": "-1688"
+                },
+                "end": {
+                  "in": "26"
+                }
+              }
+            ]
+          }
         },
         {
           "toponym": "Territory of Zebulun",
@@ -122367,6 +123288,10 @@
         {
           "type": "seeAlso",
           "identifier": "https://www.digitalmanna.org/encyclopedia/places/land-of-zebulun"
+        },
+        {
+          "type": "seeAlso",
+          "identifier": "https://theographic.netlify.app/place/zebulun_1289/"
         }
       ]
     },
