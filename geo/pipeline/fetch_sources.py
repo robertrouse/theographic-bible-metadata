@@ -4,6 +4,8 @@ Writes to geo/working/ (never to source data):
   dm-places-cache.json        Digital Manna place entries (subset of fields)
   openbible-ancient.jsonl     OpenBible Bible-Geocoding-Data ancient places
   wikidata-pleiades.json      Wikidata QID -> Pleiades ID (P1584)
+  pleiades-cache.json         Pleiades place JSON for every ID in phase-6-index.json
+                              (only after Phase 6 has run; fills gaps, keeps what is cached)
 
 Digital Manna lives in the private repo digitalmanna/stewards_data and is
 read with the authenticated `gh` CLI. Only the fields the pipeline needs are
@@ -19,6 +21,7 @@ import json
 import os
 import subprocess
 import sys
+import time
 import urllib.parse
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
@@ -31,6 +34,7 @@ DM_PATH = 'encyclopedia/places/_entries'
 OB_URL = 'https://raw.githubusercontent.com/openbibleinfo/Bible-Geocoding-Data/main/data/ancient.jsonl'
 WD_SPARQL = 'https://query.wikidata.org/sparql'
 DM_KEEP = ['id', 'slug', 'name', 'names', 'title', 'location', 'ids']
+UA = {'User-Agent': 'theographic-bible-metadata LPF pipeline (github.com/robertrouse/theographic-bible-metadata)'}
 
 
 def gh(path, raw=False):
@@ -72,12 +76,25 @@ def fetch_wikidata_pleiades(qids):
         query = f'SELECT ?item ?pleiades WHERE {{ VALUES ?item {{ {values} }} ?item wdt:P1584 ?pleiades . }}'
         req = urllib.request.Request(
             WD_SPARQL + '?' + urllib.parse.urlencode({'query': query, 'format': 'json'}),
-            headers={'User-Agent': 'theographic-bible-metadata LPF pipeline (github.com/robertrouse/theographic-bible-metadata)'})
+            headers=UA)
         rows = json.load(urllib.request.urlopen(req, timeout=120))['results']['bindings']
         for r in rows:
             q = r['item']['value'].rsplit('/', 1)[1]
             out.setdefault(q, []).append(r['pleiades']['value'])
     return {q: sorted(set(v)) for q, v in out.items()}
+
+
+def fetch_pleiades(ids, cache):
+    missing = sorted(i for i in ids if not cache.get(i))
+    for n, pid in enumerate(missing, 1):
+        req = urllib.request.Request(f'https://pleiades.stoa.org/places/{pid}/json', headers=UA)
+        try:
+            cache[pid] = json.load(urllib.request.urlopen(req, timeout=60))
+        except Exception as e:  # keep going; a later run retries
+            print(f'Pleiades {pid}: {e}', file=sys.stderr)
+            cache[pid] = None
+        time.sleep(0.5)
+    return len(missing)
 
 
 def main():
@@ -109,6 +126,15 @@ def main():
         json.dump({'fetched': datetime.now(timezone.utc).isoformat(timespec='seconds'),
                    'queried': len(qids), 'pleiades_by_qid': wd}, open(wd_out, 'w'), indent=1)
         print(f'Wikidata: {len(wd)} of {len(qids)} QIDs have a Pleiades ID')
+
+    index = f'{WORK}/phase-6-index.json'
+    if os.path.exists(index):
+        pl_out = f'{WORK}/pleiades-cache.json'
+        cache = json.load(open(pl_out)) if os.path.exists(pl_out) else {}
+        ids = {p for x in json.load(open(index)) for p in x['pleiades']}
+        n = fetch_pleiades(ids, cache)
+        json.dump(cache, open(pl_out, 'w'))
+        print(f'Pleiades: fetched {n}; {sum(1 for i in ids if cache.get(i))} of {len(ids)} cached')
 
 
 if __name__ == '__main__':
