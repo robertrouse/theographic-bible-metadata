@@ -32,7 +32,7 @@ For how these sources map onto each field, see [Chronology and Dates](chronology
 
 ## Places
 
-- OpenBible.info. *Bible Geocoding.* [openbible.info/geo](https://www.openbible.info/geo/). **Basis for:** `openBibleLat`, `openBibleLong`, `esvName`, and `comment` on places, and for the geocoding confidence scores used in `geo/` work.
+- OpenBible.info. *Bible Geocoding.* [openbible.info/geo](https://www.openbible.info/geo/). **Basis for:** `openBibleLat`, `openBibleLong`, `esvName`, and `comment` on places.
 - Pelagios Network. *Recogito*, used to link places to gazetteers such as GeoNames, Pleiades, and the Digital Atlas of the Roman Empire. [recogito.pelagios.org](https://recogito.pelagios.org/). **Basis for:** the `recogito*` fields on places.
 - Pleiades: A Gazetteer of Past Places. [pleiades.stoa.org](https://pleiades.stoa.org/)
 - GeoNames. [geonames.org](https://www.geonames.org/)

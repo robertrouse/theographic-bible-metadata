@@ -33,7 +33,3 @@ A FeatureCollection of Paul's missionary journeys with 112 features: 44 `Point` 
 | `anchor`, `offset` | Label placement hints for map rendering |
 
 Routes follow the scholarship listed under *Places* in the [Data Source Bibliography](data-source-bibliography.md), including Wilson (2009) and Thompson & Wilson (2016) for Asia Minor.
-
-## Planned: Linked Places Format
-
-A `geo/bible-places.geojson` file conforming to the [Linked Places Format (LPF)](https://github.com/LinkedPasts/linked-places-format) is in progress. It adds feature classes, geometry certainty, attested names, and `when` time spans for each place. This page will document it once it is published to `master`.
