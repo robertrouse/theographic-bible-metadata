@@ -41,7 +41,7 @@ ORDER = ['@id', 'properties', 'type', 'geometry', 'when', 'names', 'links']   # 
 
 
 def in_levant(geom):
-    if not geom:
+    if not (geom or {}).get('coordinates'):
         return False
     lon, lat = geom['coordinates']
     return LEVANT['lon'][0] <= lon <= LEVANT['lon'][1] and LEVANT['lat'][0] <= lat <= LEVANT['lat'][1]

@@ -1038,6 +1038,11 @@
       "dm_id": "places-1122",
       "id": "727117",
       "note": "On (Gen 41:45) is Heliopolis; 'City of the Sun' (Isa 19:18) only possibly"
+    },
+    {
+      "dm_id": "theographic:1278",
+      "id": "599991",
+      "note": "Trogilion (promontory)"
     }
   ],
   "pleiades_reject": [],
@@ -1051,5 +1056,13 @@
       "label": "division of the kingdom (2Chr.10.19), Theographic chronology"
     }
   },
-  "when_note": "Feature start dates for places no source dates; the PeriodO period is added automatically."
+  "when_note": "Feature start dates for places no source dates; the PeriodO period is added automatically.",
+  "coordinates": {
+    "theographic:1278": {
+      "lon": 27.006,
+      "lat": 37.657,
+      "certainty": "certain",
+      "note": "Trogyllium (Acts 20:15) = Trogilion promontory opposite Samos (Pleiades 599991)"
+    }
+  }
 }

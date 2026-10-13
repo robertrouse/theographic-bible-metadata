@@ -1,112 +1,70 @@
-# geo/ — Bible Places Geospatial Data
+# geo/ — Bible Places in Linked Places Format
 
-This folder contains `bible-places.geojson` — 1,055 biblical place records being conformed to [Linked Places Format (LPF) v1.1](https://github.com/LinkedPasts/linked-places-format).
+`bible-places.geojson` is one GeoJSON FeatureCollection of 1,030 biblical
+places in [Linked Places Format (LPF)](https://github.com/LinkedPasts/linked-places-format),
+validated against the World Historical Gazetteer LPF schema v1.2.2. It merges
+[Digital Manna](https://www.digitalmanna.org), [Theographic](../json/places.json),
+[OpenBible.info](https://github.com/openbibleinfo/Bible-Geocoding-Data),
+[Pleiades](https://pleiades.stoa.org), Wikidata and
+[PeriodO](https://perio.do). `example-output.json` is the gold-standard record
+(Antioch of Syria) from the project spec.
 
----
+## What each feature has
 
-## What the process does
+| Member | Content |
+|---|---|
+| `@id` | `https://bible.helloao.org/api/c/places/<Digital Manna slug>.json` (API not live yet) |
+| `properties.title` | Unique. Biblia title from OpenBible, else the Digital Manna name |
+| `properties.fclasses` | LPF classes H, L, P, R, S, T (never A; regions are L) |
+| `geometry` | Point `[lon, lat]` with `certainty` from OpenBible's score (≥ 500 `certain`, else `less-certain`). Unknown locations are an empty GeometryCollection |
+| `when` | Start only. The earliest ancient Pleiades attestation, or the earliest biblical mention (Theographic chronology) with its PeriodO period when the Bible is over 300 years earlier |
+| `names` | Every name with citations: Digital Manna, Theographic, OpenBible, and Pleiades (ancient attestations with language). An alias carries its own `when` from the verses that use it, e.g. Azotus (Acts) under Ashdod |
+| `links` | `seeAlso` to Digital Manna, Theographic, OpenBible, Pleiades, Wikidata |
 
-Adds three missing elements to every record:
+One feature is one real place. Places the sources split by name (Accho and
+Ptolemais, En-gedi and Hazazon-tamar) are merged, and the other names become
+dated aliases.
 
-| Field | Status before | Goal |
-|---|---|---|
-| `fclasses[]` | 106 records empty | All filled from featureType/OpenBible data |
-| `geometry.certainty` | Missing on some records | Present on every geometry object |
-| `geometry.coordinates` | Stored as strings | Converted to numeric `[lon, lat]` |
-| `geometry.type` | Lowercase `"point"` | Capitalized `"Point"` |
-| `when{}` | Missing on all records | Added from Pleiades or standard period inference |
+## Rebuilding
 
-> **Out of scope for now:** `names[]`, URL validation.
-
----
-
-## Prerequisites
-
-- Python 3.8+
-- Internet access (for fetching OpenBible and Pleiades data)
-- Source files present: `json/places.json`, `json/events.json`
-- A Claude agent (or other capable LLM) to execute each phase
-
----
-
-## How to run
-
-Hand the appropriate instruction file from `geo/agent-instructions/` to a Claude agent and ask it to execute the phase. **Review the output report before proceeding to the next phase.**
-
-### Phase order
-
-| Phase | Instruction file | What it does |
-|---|---|---|
-| 1 | `phase-1-audit.md` | Build cross-reference table; fetch and cache OpenBible data |
-| 2 | `phase-2-fclasses-geometry.md` | Fix `fclasses`, `certainty`, coordinate format, null geometry |
-| 3 | `phase-3-when-pleiades.md` | Add `when{}` from Pleiades attestation dates (~105 records) |
-| 4 | `phase-4-when-fallback.md` | Add `when{}` via ANE period inference for remaining records; produce final geojson |
-
-### Running a phase
-
-Example prompt to give an agent:
-
-> Read `geo/agent-instructions/phase-1-audit.md` and execute all steps. Work from the repo root. When done, present the report and wait for approval before proceeding.
-
----
-
-## Review workflow
-
-Each phase:
-1. Writes intermediate output to `geo/working/` (never overwrites source files)
-2. Writes a markdown report (e.g. `geo/working/phase-1-report.md`)
-3. **Pauses for your review** before the next phase begins
-
-Read the report. If results look correct, tell the agent to proceed to the next phase. If something looks wrong, investigate before continuing.
-
----
-
-## Intermediate files
-
-All working files appear in `geo/working/`:
-
-```
-geo/working/
-  phase-1-crossref.json           # geojson ↔ places.json cross-reference
-  openbible-cache.json            # Cached OpenBible API responses
-  phase-1-report.md
-
-  phase-2-output.geojson
-  phase-2-report.md
-
-  pleiades-cache.json             # Cached Pleiades JSON responses
-  phase-3-output.geojson
-  phase-3-no-when.csv             # Records still missing when{} after Phase 3
-  phase-3-report.md
-
-  phase-4-final.geojson           # ← Final output for approval
-  phase-4-needs-manual-when.csv   # Records with no events/Pleiades — need manual when{}
-  phase-4-report.md               # ← Cross-phase summary
-```
-
----
-
-## Finalizing
-
-After reviewing and approving `geo/working/phase-4-report.md`, tell the agent to deploy:
+Requirements: Python 3.8+, internet access, and an authenticated `gh` CLI with
+read access to the private `digitalmanna/stewards_data` repo. Validation also
+needs `pip install jsonschema`.
 
 ```bash
-cp geo/working/phase-4-final.geojson geo/bible-places.geojson
-git add geo/bible-places.geojson
-git commit -m "LPF: fill fclasses, fix coordinates, add when{} (Pleiades + period inference)"
+geo/pipeline/run_all.sh            # add --refresh to re-download sources
+python3 geo/pipeline/phase10_validate.py
+cp geo/working/phase-9-output.geojson geo/bible-places.geojson
 ```
 
-**Do not run this step until you have explicitly approved the Phase 4 output.**
+Everything is written to `geo/working/` (not committed). Nothing overwrites
+`bible-places.geojson` until the copy step.
 
----
+| Step | Script | Does |
+|---|---|---|
+| fetch | `fetch_sources.py` | Caches DM places, OpenBible, Wikidata→Pleiades, Pleiades dumps |
+| 5 | `phase5_crosswalk.py` | Joins DM, Theographic, OpenBible, Tyndale, Pleiades, Wikidata IDs; writes review lists |
+| 6 | `phase6_rebuild.py` | Applies `decisions.json`; builds features with title, fclasses, geometry, links |
+| 8 | `phase8_pleiades.py` | Validates and expands Pleiades links; finds earliest ancient attestations |
+| 7 | `phase7_names.py` | Builds `names[]` (runs after 8, since it uses the final Pleiades links) |
+| 9 | `phase9_when.py` | Feature `when{}` from Pleiades, Theographic and PeriodO |
+| 10 | `phase10_validate.py` | Structure, WHG LPF schema, and HTTP check of every link |
 
-## Reference files
+## Curated inputs (committed)
 
 | File | Purpose |
 |---|---|
-| `geo/bible-places.geojson` | Source data (read-only until Phase 4 approval) |
-| `geo/example-output.json` | Gold standard completed record (Antioch of Syria) |
-| `geo/certainty-check.json` | Records with empty fclasses or null geometry |
-| `geo/agent-instructions/README.md` | Technical reference for agents (matching key, API notes) |
-| `json/places.json` | Place records with featureType, placeID, eventsHere |
-| `json/events.json` | Events with startDate for when{} period inference |
+| `decisions.json` | Human decisions: merges, keep-separates, orphan assignments, exclusions, Pleiades picks, titles, fclasses, coordinates and dates. Each says who made it. Edit and re-run |
+| `pipeline/periodo_neaehl.json` | Holy Land periods from PeriodO (Stern, *NEAEHL*, 1993) |
+| `legacy/bible-places-2026-03.geojson` | The March 2026 file, read for old `@id`s, fclasses and coordinates |
+
+## Review files
+
+Each phase writes a report (`phase-N-report.md`) and CSVs with an empty
+`decision` column for anything it would not decide on its own:
+`phase-5-review-*.csv`, `phase-6-review-coordinates.csv`,
+`phase-8-review-pleiades.csv`, `phase-9-review-pleiades-later.csv`,
+`phase-10-broken-links.csv`. Open items are tracked in `NOTES.md`.
+
+`agent-instructions/` holds the instructions for the original phases 1–4
+(March 2026), kept for history; the pipeline above replaces them.

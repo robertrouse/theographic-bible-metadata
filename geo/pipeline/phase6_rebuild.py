@@ -7,7 +7,7 @@ names[] and when{} are added by later phases.
 
 Reads:  geo/working/phase-5-crosswalk.json, geo/decisions.json,
         geo/working/openbible-ancient.jsonl,
-        json/places.json, geo/bible-places.geojson (legacy, for @id and fclasses)
+        json/places.json, geo/legacy/bible-places-2026-03.geojson (legacy, for @id and fclasses)
 Writes: geo/working/phase-6-output.geojson   single FeatureCollection
         geo/working/phase-6-index.json       provenance per feature, for later phases
         geo/working/phase-6-id-map.csv       legacy @id -> new @id
@@ -80,7 +80,7 @@ def main():
     cw = json.load(open(f'{WORK}/phase-5-crosswalk.json'))
     dec = json.load(open('geo/decisions.json'))
     places = {p['fields']['placeID']: p['fields'] for p in json.load(open('json/places.json'))}
-    legacy = {f['@id']: f for fc in json.load(open('geo/bible-places.geojson')) for f in fc['features']}
+    legacy = {f['@id']: f for fc in json.load(open('geo/legacy/bible-places-2026-03.geojson')) for f in fc['features']}
 
     dm_rows = {r['dm_id']: r for r in cw['rows'] if r['kind'] == 'dm'}
     orphan_rows = {r['placeID']: r for r in cw['rows'] if r['kind'] == 'theographic-orphan'}
@@ -106,7 +106,8 @@ def main():
         pids += [p for p, d in assign.items() if d == canon and p not in pids]
         feats.append({'kind': 'dm', 'canonical': canon, 'rows': rows, 'placeIDs': pids})
     for nf in dec['theographic_new_feature']:
-        feats.append({'kind': 'theographic', 'canonical': None, 'rows': [],
+        # decisions refer to these by "theographic:<placeID>"
+        feats.append({'kind': 'theographic', 'canonical': f'theographic:{nf["placeID"]}', 'rows': [],
                       'placeIDs': [nf['placeID']], 'orphan': orphan_rows[nf['placeID']]})
 
     # ---- per-feature fields -------------------------------------------------
@@ -210,6 +211,10 @@ def main():
                     d = km(lg['coordinates'], geom['coordinates'])
                     if d > 1:
                         moved.append((title, i.rsplit('/', 1)[1], round(d, 1)))
+        else:
+            # Location unknown: an empty GeometryCollection is valid GeoJSON and passes the
+            # WHG LPF schema, which rejects null; the spec marks these less-certain.
+            geom = {'type': 'GeometryCollection', 'geometries': [], 'certainty': 'less-certain'}
 
         # Pleiades
         pl = collections.OrderedDict()
@@ -234,7 +239,7 @@ def main():
                     'geometry': geom,
                     'links': [{'type': 'seeAlso', 'identifier': u} for u in dedup(links)]})
         index.append({'@id': at_id, 'title': title, 'title_source': title_src, 'fclasses_source': fc_src,
-                      'coordinates_source': coord_src if geom else None,
+                      'coordinates_source': coord_src if point else None,
                       'dm_ids': [r['dm_id'] for r in f['rows']], 'placeIDs': f['placeIDs'],
                       'openbible': f['openbible'], 'pleiades': list(pl), 'wikidata': wikidata,
                       'tyndale': dedup(t for r in f['rows'] for t in r['tyndale']),
@@ -279,7 +284,7 @@ def main():
     dup_titles = sorted(t for t, n in titles.items() if n > 1)
     dup_ids = sorted(i for i, n in ids.items() if n > 1)
     legacy_dropped = sorted(set(legacy) - {r['legacy_id'] for r in idmap})
-    no_geom = [x['properties']['title'] for x in out if x['geometry'] is None]
+    no_geom = [x['properties']['title'] for x in out if not x['geometry'].get('coordinates')]
     multi_fc = C(len(x['properties']['fclasses']) for x in out)
     placed = {p for x in index for p in x['placeIDs']}
     unplaced = sorted(set(places) - placed - excluded_pid)
@@ -290,7 +295,7 @@ def main():
         ('no fclass "A"', all('A' not in x['properties']['fclasses'] for x in out)),
         ('no repeated fclass codes', all(len(set(x['properties']['fclasses'])) == len(x['properties']['fclasses']) for x in out)),
         ('every feature has fclasses', all(x['properties']['fclasses'] for x in out)),
-        ('no Point without coordinates', all(x['geometry'] is None or x['geometry'].get('coordinates') for x in out)),
+        ('no Point without coordinates', all(x['geometry']['type'] != 'Point' or x['geometry'].get('coordinates') for x in out)),
         ('every Theographic place is placed or excluded', not unplaced),
         ('every legacy record maps to a feature', not legacy_dropped),
     ]
@@ -309,7 +314,7 @@ def main():
         f'| Features absorbing 2+ legacy records | {sum(1 for x in index if len(x["legacy_ids"]) > 1)} |',
         f'| New features (no legacy record) | {sum(1 for x in index if not x["legacy_ids"])} |',
         f'| With geometry | {len(out) - len(no_geom)} ({sum(1 for x in out if x["geometry"] and x["geometry"]["certainty"] == "certain")} certain) |',
-        f'| Null geometry | {len(no_geom)} |',
+        f'| No coordinates (empty GeometryCollection) | {len(no_geom)} |',
         f'| Points moved > 1 km vs legacy | {len(moved)} |',
         f'| DM points not supported by OpenBible (OpenBible point used; see phase-6-review-coordinates.csv) | {len(coord_review)} |',
         f'| With Pleiades link | {sum(1 for x in index if x["pleiades"])} |',
@@ -328,7 +333,7 @@ def main():
         lines += ['', '### Theographic places not placed', ''] + [f'- #{p} {places[p]["displayTitle"]}' for p in unplaced]
     if legacy_dropped:
         lines += ['', '### Legacy records with no feature', ''] + [f'- {i}' for i in legacy_dropped]
-    lines += ['', '## Null geometry', ''] + [f'- {t}' for t in sorted(no_geom)]
+    lines += ['', '## No coordinates', ''] + [f'- {t}' for t in sorted(no_geom)]
     lines += ['', '## Points moved more than 1 km (DM coordinates vs legacy)', '',
               '| Feature | Legacy record | km |', '|---|---|---|']
     lines += [f'| {t} | `{i}` | {d} |' for t, i, d in sorted(moved, key=lambda m: -m[2])]

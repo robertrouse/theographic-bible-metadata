@@ -196,8 +196,8 @@ def main():
     for feat in fc['features']:
         x = index[feat['@id']]
         fcl = set(feat['properties']['fclasses'])
-        point = feat['geometry']['coordinates'] if feat.get('geometry') else None
-        canon = x['dm_ids'][0] if x['dm_ids'] else None
+        point = (feat.get('geometry') or {}).get('coordinates')
+        canon = x['dm_ids'][0] if x['dm_ids'] else f'theographic:{x["placeIDs"][0]}'
         own = {feat['properties']['title']}
         for d in x['dm_ids']:
             own |= {dm[d]['name']} | set(dm[d].get('names') or [])

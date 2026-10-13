@@ -1,46 +1,57 @@
 # geo/bible-places.geojson — Open Items
 
-**Last updated:** 2026-03-05
-**Current state:** Phase 4 complete (commit 9497ac2). 1,054 records.
+**Last updated:** 2026-10-13
+**State:** LPF pipeline phases 5–10 complete (`geo/pipeline/`). 1,030 features,
+all valid against the WHG LPF schema v1.2.2, all with `names[]` and `when{}`.
 
----
+## 1. Airtable (Phase 11, next)
 
-## 1. when{} — 851 records need manual assignment
+Conform the Airtable `places` table to the one-place-many-names model in
+`decisions.json`: link each alias record to its canonical place, add the
+Digital Manna ID, and add records for places DM has and Theographic lacks
+(tribal territories, the kingdoms, Misgab, Parbar, and others listed under
+`dm_needs_theographic_record`). Draft the changes and approve them before any
+write.
 
-851 records have no `when{}` because they have neither a Pleiades link nor any associated events in `events.json`. They are listed in:
+## 2. Digital Manna corrections to make upstream
 
-```
-geo/working/phase-4-needs-manual-when.csv
-```
+- Bethlehem entries `places-0278` and `places-1090` have lost their
+  Theographic IDs (#218, #220 and #219); Tahtim-hodshi (#662) is filed under
+  Kadesh-barnea instead of `places-1279`. The pipeline fixes these through
+  `decisions.json`.
+- 35 DM coordinates are not any OpenBible identification and some are clearly
+  off (Kidron 44 km, Gilgal 57 km, Seba on Addis Ababa). The pipeline uses
+  OpenBible's point for them: `working/phase-6-review-coordinates.csv`.
+- One DM entry stores two Theographic IDs in one string (`"421, 1010"`).
+- 34 DM pages linked from the file are not live on digitalmanna.org yet (new
+  entries such as the tribal territories, and renamed slugs such as
+  `appii-forum`): `working/phase-10-broken-links.csv`. Every other link
+  resolves (4,086 of 4,120). digitalmanna.org answers HEAD with 404, so link
+  checkers must use GET.
 
-Fields: `geo_id`, `title`, `fclasses`, `pleiades_id`, `events_here_count`, `reason`
+## 3. Review lists with open candidates
 
-Possible approaches:
-- Add more events to `events.json` and re-run Phase 4 period inference
-- Cross-reference against external gazetteers (Geonames, OpenBible, DARE)
-- Manual assignment using PeriodO period URIs for scholarly attestation
+- `working/phase-8-review-pleiades.csv`: 92 Pleiades candidates not applied,
+  11 applied matches with borderline names. Accept with `pleiades_add`, refuse
+  with `pleiades_reject` in `decisions.json`.
+- `working/phase-9-review-pleiades-later.csv`: 94 places whose biblical date
+  replaced a Pleiades start over 300 years later. Set `PLEIADES_FIRST = True`
+  in `phase9_when.py` to prefer Pleiades instead.
+- `working/phase-5-review-shared-coordinates.csv`: 83 groups of places sharing
+  one point by coincidence, likely placeholder coordinates.
 
----
+## 4. Known approximations
 
-## 2. Mount Nebo — suspect Pleiades ID
+- Places mentioned only in undated verses take the nearest dated verse's
+  year (labelled). The Numbers 33 campsites all get -1451 from Numbers 32,
+  late for the early stations.
+- Dates follow Theographic's chronology (early Exodus); PeriodO labels follow
+  from those years.
+- Five places have no known location (Biziothiah, Edrei of Naphtali, Judah,
+  Nebaioth, Nod) and carry an empty GeometryCollection.
+- `certainty` is never `uncertain`; the spec left that tier undefined.
 
-Mount Nebo has a 9-digit Pleiades ID (`563265622`) which is unusually large compared to the typical 5–7 digit range used by Pleiades. This produced a `when` start year of **1700 AD**, which is almost certainly a late attestation or data quality issue in the source geojson rather than a meaningful historical date.
+## 5. Not done yet
 
-**Action needed:** Verify the correct Pleiades ID for Mount Nebo (likely `687968` or similar) and update the record's `links[]` array, then re-run Phase 3 for that record.
-
----
-
-## 3. names[] enrichment — deferred
-
-The `names[]` array on each record has not been enriched. Potential sources:
-- Theographic DM data (KJV names, alternate spellings)
-- OpenBible place names
-- Pleiades `names[]` array (already cached in `geo/working/pleiades-cache.json` for 102 records)
-
-This was explicitly out of scope for the Phase 1–4 run and should be treated as a separate project phase.
-
----
-
-## 4. URL validation — deferred
-
-Links in `links[]` have not been validated. Some Pleiades IDs may be stale or incorrect (see item 2 above). This was explicitly out of scope for the Phase 1–4 run.
+- `@id` URLs point to bible.helloao.org endpoints that do not exist yet (on hold).
+- Original-script names (Hebrew/Greek forms in DM's CMS cache) are not in `names[]`.

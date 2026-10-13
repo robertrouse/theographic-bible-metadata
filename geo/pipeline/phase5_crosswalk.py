@@ -3,11 +3,11 @@
 One crosswalk row per Digital Manna (DM) place entry, the planned spine for
 LPF features, plus one row per Theographic place that no DM entry claims.
 Each row joins Theographic placeIDs, OpenBible, Tyndale, Easton's, Pleiades
-and Wikidata IDs, and the records in the current bible-places.geojson that
+and Wikidata IDs, and the records in the legacy (March 2026) bible-places.geojson that
 would collapse into it.
 
 Reads:  geo/working/{dm-places-cache.json, openbible-ancient.jsonl, wikidata-pleiades.json}
-        json/places.json, geo/bible-places.geojson
+        json/places.json, geo/legacy/bible-places-2026-03.geojson
 Writes: geo/working/phase-5-crosswalk.json
         geo/working/phase-5-review-*.csv   (each has an empty `decision` column)
         geo/working/phase-5-report.md
@@ -51,7 +51,7 @@ def load():
         ob[rec['id']] = rec
     wd = json.load(open(f'{WORK}/wikidata-pleiades.json'))['pleiades_by_qid']
     places = json.load(open('json/places.json'))
-    geo = [f for fc in json.load(open('geo/bible-places.geojson')) for f in fc['features']]
+    geo = [f for fc in json.load(open('geo/legacy/bible-places-2026-03.geojson')) for f in fc['features']]
     return dm, ob, wd, places, geo
 
 

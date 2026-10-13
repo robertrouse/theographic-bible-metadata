@@ -1,5 +1,9 @@
 # bible-places.geojson — Agent Instructions
 
+> **Historical.** These instructions drove phases 1–4 in March 2026. The
+> phase 3 names, phase 5 and phase 6 files listed below were never written. The
+> Python pipeline in `geo/pipeline/` replaces this process; see `geo/README.md`.
+
 ## Goal
 
 Complete `geo/bible-places.geojson` to full conformance with the [Linked Places Format (LPF) v1.1](https://github.com/LinkedPasts/linked-places-format). The source document governing field rules is the Theographic spec PDF ("Combine and reformat geo data sources").
