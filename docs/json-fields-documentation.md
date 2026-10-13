@@ -15,7 +15,7 @@ This documentation provides a comprehensive reference for the structure and fiel
 - [Status Values](#status-values)
 
 ## Dataset Overview
-The JSON files are in the repository's `json/` directory. A Python ETL script (`scripts/airtable_etl.ipynb`) generates them from Airtable, where the data is entered and maintained. Because the data originates in Airtable, some structures are irregular and some field names are inconsistent. This documentation calls each JSON file a "table" because it maps directly to an Airtable table.
+The JSON files are in the repository's `json/` directory. The export script [`etl/export_airtable.py`](../etl/export_airtable.py) generates them, together with the CSV files, from Airtable, where the data is entered and maintained. Because the data originates in Airtable, some structures are irregular and some field names are inconsistent. This documentation calls each JSON file a "table" because it maps directly to an Airtable table.
 
 | File | Records |
 |---|---|
@@ -28,7 +28,7 @@ The JSON files are in the repository's `json/` directory. A Python ETL script (`
 | `events.json` | 450 |
 | `easton.json` | 6,519 |
 
-> **Dates:** Before you use any date or year field, read [Chronology and Dates](chronology-and-dates.md). The events timeline follows Dr. Floyd Nolen Jones, and the year fields do not all use the same numbering convention.
+> **Dates:** Before you use any date or year field, read [Chronology and Dates](chronology-and-dates.md). The events timeline follows Dr. Floyd Nolen Jones, and all year fields use ISO 8601 astronomical numbering (`-4003` = 4004 BC).
 
 ## Standard JSON Entity Structure
 All Theographic JSON entities have three root fields:
@@ -279,8 +279,8 @@ This table provides a comprehensive catalog of every individual mentioned by nam
 | `surname` | string | Validated | Surname, if known. |
 | `isProperName` | boolean | Validated | Identifies those with proper names vs. descriptive names like "Wife of..." or "Son of..." |
 | `gender` | string | Validated | Male or Female |
-| `birthYear` | string | Incomplete | Estimated birth year, following Jones's chronology, as a numeric string. Negative values are BC years with a minus sign (`"-4004"` = 4004 BC; `"-1574"` = 1574 BC), and positive values are AD years. **This is not the ISO astronomical convention used by `events.startDate`.** Add 1 to a negative value to place it on the events axis. Populated for 75 people. See [Chronology and Dates](chronology-and-dates.md#people-dates). |
-| `deathYear` | string | Incomplete | Estimated death year, in the same convention as `birthYear` (`"-1015"` = 1015 BC). Populated for 64 people. |
+| `birthYear` | string | Incomplete | Estimated birth year from Jones's chronology, as an ISO 8601 astronomical year in a numeric string (`"-4003"` = 4004 BC; `"-1570"` = 1571 BC; positive values are AD). Same convention as `events.startDate`. Populated for 70 people. See [Chronology and Dates](chronology-and-dates.md#people-dates). |
+| `deathYear` | string | Incomplete | Estimated death year, in the same convention as `birthYear` (`"-1014"` = 1015 BC). Populated for 61 people. |
 | `memberOf` | array | Validated | An array of record IDs linking to the 'peopleGroups' table, indicating the groups (tribes, families, etc.) the person belongs to. |
 | `birthPlace` | array | Validated | An array of record IDs linking to the 'places' table, representing the person's birthplace. |
 | `deathPlace` | array | Validated | An array of record IDs linking to the 'places' table, representing the person's place of death. |
@@ -296,8 +296,8 @@ This table provides a comprehensive catalog of every individual mentioned by nam
 | `mother` | array | Validated | An array containing the record ID of the person's mother in the 'people' table. |
 | `father` | array | Validated | An array containing the record ID of the person's father in the 'people' table. |
 | `children` | array | Validated | An array of record IDs linking to the 'people' table, representing the person's children. |
-| `minYear` | integer | Temporary | Earliest year of the verses that mention this person (negated-BC convention). Used to align people with the events timeline; not a birth year. |
-| `maxYear` | integer | Temporary | Latest year of the verses that mention this person (negated-BC convention). |
+| `minYear` | integer | Temporary | Earliest year of the verses that mention this person (ISO 8601). Used to align people with the events timeline; not a birth year. |
+| `maxYear` | integer | Temporary | Latest year of the verses that mention this person (ISO 8601). |
 | `displayTitle` | string | Populated | Disambiguated name suitable for page titles and search results |
 | `status` | string | Temporary | The validation status of the individual person record |
 | `alphaGroup` | string | Validated | Used for alphabetical indexing |
@@ -570,7 +570,7 @@ This table contains the full text of every verse in the King James Version (`ver
 | `peopleCount` | integer | Validated | Number of people mentioned by name |
 | `placesCount` | integer | Validated | Number of place mentioned by name |
 | `places` | array | Validated | An array of record IDs linking to the 'places' table, representing locations mentioned in this verse. |
-| `yearNum` | integer | Populated | Approximate year of the verse, from the Ussher dates in Torrey's *Treasury of Scripture Knowledge*. Uses negated-BC years (`-4004` = 4004 BC). Not aligned with the Jones-based events table; see [Chronology and Dates](chronology-and-dates.md#verse-years-yearnum). |
+| `yearNum` | integer | Populated | Approximate year of the verse as an ISO 8601 astronomical year (`-4003` = 4004 BC), from the Ussher dates in Torrey's *Treasury of Scripture Knowledge*. Not aligned with the Jones-based events table; see [Chronology and Dates](chronology-and-dates.md#verse-years-yearnum). |
 | `peopleGroups` | array | Incomplete | An array of record IDs linking to the 'peopleGroups' table, representing groups mentioned in this verse. |
 | `chapter` | array | Validated | An array containing the record ID of the chapter this verse belongs to. |
 | `status` | string | Temporary | The validation status of the linkage between the verse and people, places, or events. |
@@ -608,7 +608,7 @@ This table contains the full text of every verse in the King James Version (`ver
   "places": [
     "recLIUK6VRKNjnGo6"
   ],
-  "yearNum": -4004,
+  "yearNum": -4003,
   "chapter": [
     "recParAnlMHJy8vSQ"
   ],

@@ -108,7 +108,7 @@ const typeDefs = gql`
     osisRef: StringFilter
     "Case-insensitive substring search across verse text"
     verseText: StringFilter
-    "Approximate year of the verse (Ussher dates via the Treasury of Scripture Knowledge); negative = BC year with a minus sign, e.g. -4004 = 4004 BC"
+    "Approximate year of the verse (Ussher dates via the Treasury of Scripture Knowledge); ISO 8601 astronomical year, e.g. -4003 = 4004 BC"
     yearNum: IntFilter
     "Number of people mentioned in this verse"
     peopleCount: IntFilter
@@ -351,7 +351,7 @@ const typeDefs = gql`
     places: [Place]
     "Number of places mentioned in this verse"
     placesCount: Int
-    "Approximate year of the verse (Ussher dates via the Treasury of Scripture Knowledge); negative = BC year with a minus sign, e.g. -4004 = 4004 BC"
+    "Approximate year of the verse (Ussher dates via the Treasury of Scripture Knowledge); ISO 8601 astronomical year, e.g. -4003 = 4004 BC"
     yearNum: Int
     "People groups mentioned in this verse"
     peopleGroups: [PeopleGroup]
@@ -391,16 +391,14 @@ const typeDefs = gql`
     "\\"Male\\" or \\"Female\\""
     gender: String
     """
-    Estimated birth year, following the chronology of Dr. Floyd Nolen Jones (e.g. -1574).
+    Estimated birth year, following the chronology of Dr. Floyd Nolen Jones (e.g. -1573).
 
-    Negative values are BC years with a minus sign (no year 0): -1574 = 1574 BC,
-    -4004 = 4004 BC. Positive values are AD years (e.g. 30 = AD 30).
-    Note: Event.startDate uses ISO 8601 astronomical years instead; add 1 to a
-    negative birthYear to compare it with event dates.
+    ISO 8601 astronomical year numbering, the same as Event.startDate: 0 = 1 BC,
+    -1573 = 1574 BC, -4003 = 4004 BC. Positive values are AD years (e.g. 30 = AD 30).
     """
     birthYear: Int
     """
-    Estimated death year, same convention as birthYear (e.g. -1015 = 1015 BC).
+    Estimated death year, same convention as birthYear (e.g. -1014 = 1015 BC).
     Positive values are AD years (e.g. 96 = AD 96).
     """
     deathYear: Int

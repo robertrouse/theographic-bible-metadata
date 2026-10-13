@@ -10,7 +10,7 @@ This page explains where Theographic's dates come from and how to read every dat
 - [People dates](#people-dates)
 - [Verse years (`yearNum`)](#verse-years-yearnum)
 - [Book dates (`yearWritten`)](#book-dates-yearwritten)
-- [Known chronology issues](#known-chronology-issues)
+- [Corrections log](#corrections-log)
 
 ## Source: Dr. Floyd Nolen Jones
 
@@ -41,28 +41,32 @@ Use the dates below to check whether a record follows Jones. Each one appears in
 
 ## Year numbering conventions
 
-> ⚠️ **Not every field uses the same convention.** Events use ISO 8601 astronomical years. People birth and death years and verse years use the historian's BC year with a minus sign. For the same year, the two values differ by 1.
+Every year field in Theographic uses **ISO 8601 astronomical year numbering**, which includes a year 0:
 
-| Convention | Used by | 4004 BC is stored as | 1 BC is stored as | AD 30 is stored as |
-|---|---|---|---|---|
-| **ISO 8601 astronomical** (year 0 exists) | `events.startDate`, `events.sortKey` | `-4003` | `0` | `30` / `0030-…` |
-| **Negated BC year** (no year 0) | `people.birthYear`, `people.deathYear`, `people.minYear`, `people.maxYear`, `verses.yearNum` | `-4004` | `-1` | `30` |
+| Year | Stored as |
+|---|---|
+| 4004 BC | `-4003` |
+| 1 BC | `0` |
+| AD 1 | `1` |
+| AD 30 | `30` (or `0030-…` in a calendar date) |
+
+This applies to `events.startDate`, `events.sortKey`, `people.birthYear`, `people.deathYear`, `people.minYear`, `people.maxYear`, and `verses.yearNum`. Since October 2026, people and verse years can be compared directly with event dates.
 
 ### Converting
 
-**ISO astronomical → BC/AD.** For a value ≤ 0, BC year = `1 - value`; for example, `-4003 → 4004 BC` and `0 → 1 BC`. A positive value is already an AD year.
+**ISO → BC/AD:** for a value ≤ 0, the BC year is `1 - value` (`-4003 → 4004 BC`, `0 → 1 BC`). A positive value is already an AD year.
 
-**Negated BC → BC/AD.** For a negative value, BC year = `-value`; for example, `-1571 → 1571 BC`. A positive value is already an AD year.
-
-**Negated BC → ISO astronomical** (to put people dates on the same axis as events): if the value is negative, add 1. For example, Moses's `birthYear` of `-1571` becomes `-1570` on the events axis.
+**BC → ISO:** `1 - BC year` (`1571 BC → -1570`).
 
 ```python
-def negated_bc_to_iso(year: int) -> int:
-    return year + 1 if year < 0 else year
-
 def iso_to_label(year: int) -> str:
     return f"{1 - year} BC" if year <= 0 else f"AD {year}"
+
+def bc_to_iso(bc_year: int) -> int:
+    return 1 - bc_year
 ```
+
+> **Data exported before October 2026** stored people's `birthYear`/`deathYear` and `verses.yearNum` as BC years with a minus sign (`-4004` = 4004 BC). If you have an older copy, add 1 to its negative values to convert.
 
 ## Events timeline fields
 
@@ -84,17 +88,19 @@ The **events** table (`json/events.json`, `CSV/Events.csv`) holds 450 events: 24
 
 ## People dates
 
-| Field | Coverage | Convention |
+| Field | Coverage | Notes |
 |---|---|---|
-| `birthYear` | 75 of 3,067 people | Negated BC year (string in JSON/CSV; the GraphQL API returns an `Int`) |
-| `deathYear` | 64 of 3,067 people | Negated BC year |
-| `minYear` / `maxYear` | All people | Negated BC year. These are working fields that bound the span of a person's verses, used to align people with the events timeline. They are not birth or death dates. |
+| `birthYear` | 70 of 3,067 people | String in JSON/CSV; the GraphQL API returns an `Int` |
+| `deathYear` | 61 of 3,067 people | |
+| `minYear` / `maxYear` | All people | Working fields rolled up from the `yearNum` of the verses that mention the person, used to align people with the timeline. They are not birth or death dates. |
 
-Birth and death years exist mainly for the patriarchs, judges, kings, and other people whose dates can be calculated from the text using Jones. For example, David has `birthYear: "-1085"` and `deathYear: "-1015"`, which are Jones's 1085 BC and 1015 BC.
+Birth and death years come from Jones, Appendix F. They are recorded only where his chronology fixes them: the patriarchs, Moses and Aaron, the judges' era, and the kings. For example, David has `birthYear: "-1084"` and `deathYear: "-1014"`, which are Jones's 1085 BC and 1015 BC. Every person's years equal the dates of their *Birth of…* and *Death of…* events.
+
+**Kings' death years** that Appendix F does not list explicitly are set to the successor's accession year from Appendix F. Under the accession-year method Jones uses, a king's last year is his successor's accession year.
 
 ## Verse years (`yearNum`)
 
-`verses.yearNum` assigns an approximate year to 28,024 of 31,102 verses. It comes from the marginal dates in *Torrey's Treasury of Scripture Knowledge*, which follow **Ussher**, not Jones. It uses the negated-BC convention (`Gen.1.1 → -4004`).
+`verses.yearNum` assigns an approximate year to 28,024 of 31,102 verses (`Gen.1.1 → -4003`). It comes from the marginal dates in *Torrey's Treasury of Scripture Knowledge*, which follow **Ussher**, not Jones.
 
 Because the source is Ussher, `yearNum` can differ from the events timeline. The largest difference is in the New Testament: `Acts.2.1` has `yearNum: 33` (Ussher's crucifixion year), but the Pentecost event is dated AD 30. Use `yearNum` for rough placement of passages, and use the events table when the timeline needs to follow Jones.
 
@@ -102,15 +108,12 @@ Because the source is Ussher, `yearNum` can differ from the events timeline. The
 
 `books.yearWritten` is a string year (for example, Romans → `"57"`). It is populated for 21 of the 66 books. It is an approximate composition date and not part of the Jones events timeline.
 
-## Known chronology issues
+## Corrections log
 
-The issues below were found while reviewing the October 2026 data export. Corrections belong in the Airtable source. Please [open an issue](https://github.com/robertrouse/theographic-bible-metadata/issues) if you find more.
+**October 2026.** The data was checked against Jones, Appendix F, and converted to ISO 8601 throughout:
 
-| Record | Issue |
-|---|---|
-| Event *Birth of Abraham* | `startDate` is `-1996` (1997 BC). Jones gives 1996 BC, which is `-1995` in ISO. |
-| Person `abraham_58` | `birthYear` is `-1997`. Jones gives 1996 BC, which is `-1996` in the negated-BC convention. |
-| Person `moses_2108` | `deathYear` is `-1452`. Jones gives 1451 BC (Moses was born in 1571 BC and died at 120), which is `-1451`. |
-| Person `seth_2504` | `deathYear` is `-2692`; it appears to be a transposition of `-2962`. Seth was born in 3874 BC and lived 912 years, so he died in 2962 BC. |
-| Event *Feast of Tabernacles* | `startDate` is `"0029-10-9"`. It should be zero-padded: `"0029-10-09"`. |
-| People ↔ events | Some *Birth of…* and *Death of…* events link to a person whose `birthYear`/`deathYear` differs by more than the 1-year convention offset. Examples are the kings Saul, Abijam, Asa, and Jehoshaphat. Check `participants` before relying on those links. |
+- **Events:** 21 dates corrected to Jones, for example *Death of Adam* (3074 BC), *Birth of Abraham* (1996 BC), and *Judgeship of Jair* (1192 BC; previously mistyped as `-1991`). One calendar date was zero-padded, and *Death of Solomon* and *Death of Jotham* were linked to their participants.
+- **People:** birth and death years set to Jones and converted to ISO. The Divided Monarchy kings previously used a different chronology (Thiele). Values that were impossible or that Jones does not support were removed. Examples are a birth year copied from a child's, a birth year equal to the record ID, and a birth year equal to the death year.
+- **Verses:** `yearNum` converted to ISO.
+
+Found something that still doesn't match Jones? [Open a data correction issue](https://github.com/robertrouse/theographic-bible-metadata/issues/new?template=data-correction.yml).
