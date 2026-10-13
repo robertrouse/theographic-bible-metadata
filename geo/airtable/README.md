@@ -42,3 +42,19 @@ records); delete it too, under whatever name it has by then.
 Full snapshot of the table before any change: `json/places.json` at git tag
 `airtable-places-backup-2026-10-13` (commit `bc4c1f1`). No record had been
 modified in Airtable after that export.
+
+## Phase 11b: retiring rootID and duplicate_of
+
+`phase-11b-plan.md` (built by `geo/pipeline/phase11b_airtable_plan.py`):
+moves 7 `duplicate_of` links into `canonicalPlace`, retitles the Judah
+(Southern) record "Kingdom of Judah", and adds records for the United and
+Northern Kingdoms of Israel. Every `rootID` and `duplicate_of` value is
+archived in `archive-rootID-duplicate_of-2026-10-13.csv` first.
+
+```bash
+AIRTABLE_TOKEN=pat... python3 geo/pipeline/phase11_airtable_apply.py --plan geo/airtable/phase-11b-plan.json
+```
+
+Then delete the `rootID` and `duplicate_of` fields in the Airtable UI.
+`--rollback --plan geo/airtable/phase-11b-plan.json` reverses the writes; a
+deleted field's values can be restored from the archive CSV.

@@ -430,7 +430,8 @@ This table catalogs all geographic locations mentioned in the Bible. Each record
 | `comment` | string | Incomplete | Comments from OpenBible.info/geo |
 | `precision` | string | Incomplete | Relative accuracy of lat/long assignment |
 | `featureType` | string | Incomplete | Delineates, region, city, water, etc. Complete for the book of Acts |
-| `rootID` | array | Temporary | An array containing the record ID of another place record from which coordinates are inherited. |
+| `canonicalPlace` | array | Populated | The record ID of the place record this record is another name for (e.g. Salem → Jerusalem). Empty on the canonical record and on places with only one name. Each record keeps its own verses, so each name keeps its own time frame. Replaces `rootID` and `duplicate_of`, retired 2026-10-13 (archived in `geo/airtable/`). |
+| `From field: canonicalPlace` | array | Populated | On a canonical record, the records that point to it via `canonicalPlace` (Airtable's reverse link). |
 | `aliases` | string | Populated | Alternate names for the same coordinate |
 | `dictionaryLink` | string | Unknown | A URL to its Easton's Bible Dictionary entry at https://www.biblestudytools.com/dictionaries/eastons-bible-dictionary. |
 | `dictionaryText` | string | Unknown | The text content from its Easton's Bible Dictionary entry. |
@@ -455,7 +456,6 @@ This table catalogs all geographic locations mentioned in the Bible. Each record
 | `displayTitle` | string | Populated | Disambiguated name suitable for page titles and search results |
 | `alphaGroup` | string | Validated | Used for alphabetical indexing |
 | `slug` | string | Validated | Lowercase, url-friendly version of placeLookup |
-| `duplicate_of` | array | Temporary | An array containing the record ID of the primary place record that this record duplicates. |
 | `ambiguous` | boolean | Temporary | Identifies display titles which have not been edited for disambiguation. |
 | `eastons` | array | Incomplete | An array of record IDs linking to the 'easton' table, representing relevant dictionary entries. |
 | `dictText` | array | Incomplete | Markdown-formatted text from relevant sub-section in Easton's dictionary. |
@@ -469,7 +469,7 @@ This table catalogs all geographic locations mentioned in the Bible. Each record
 - `booksWritten` → References field `id` of `books` table records
 - `verses` → References field `id` of `verses` table records
 - `hasBeenHere` → References subfield `personLookup` of field `fields` of `people` table records
-- `duplicate_of` → References field `id` of `places` table records
+- `canonicalPlace` → References field `id` of `places` table records
 - `eastons` → References field `id` of `easton` table records
 - `eventsHere` → References field `id` of `events` table records
 
@@ -509,9 +509,6 @@ This table catalogs all geographic locations mentioned in the Bible. Each record
   ],
   "modified": "2021-05-06T20:48:10.000Z",
   "featureSubType": "Country",
-  "rootID": [
-    "recK0feE032FY9Hxi"
-  ],
   "peopleDied": [
     "recPXtuWYdjyghv7R",
     "recsU2ZSdzBvDqzgI",

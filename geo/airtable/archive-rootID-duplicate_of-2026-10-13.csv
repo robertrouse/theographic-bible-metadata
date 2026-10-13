@@ -1,0 +1,700 @@
+record,placeID,displayTitle,field,linked_record,linked_placeID,linked_displayTitle
+reckWxV3dWFM3clrQ,102,Ashdod's,duplicate_of,recN2YJFW0fYzSL9r,101,Ashdod
+recKM0IXdEN1RtLYi,136,Baalath,duplicate_of,recCyzljfY6pdtZUQ,137,Baalath
+rec1TOi8sIOGfx3kH,363,Egypt's,duplicate_of,recfrXyxhuYOczKTm,362,Egypt
+recken6owpkwjiRU0,404,Ephrathah,duplicate_of,rec81f3wE4gATsRRE,218,Bethlehem
+recvLUMajbYnYDikr,437,Benjamin's Gate,duplicate_of,recNdvSZuqT39nqz4,175,Gate of Benjamin
+recrpaouE7oxrv5jy,564,Hermon,duplicate_of,rec1ET3TBR0oBaWJu,841,Mount Hermon
+recufFfLnRDrtxLnL,576,Horeb,duplicate_of,rec5Yu6987dc60uKz,855,Mount Sinai
+rechN4gu5ltBnuSD2,585,Lebanon,duplicate_of,recCXgnK86jc1U9IB,720,Lebanon
+recynQnhWEkUNUZRU,629,Jebus,duplicate_of,recL1WV82pXaRBQ59,636,Jerusalem
+recC8Nf4sI5O2LSMv,630,Jebusite,duplicate_of,recynQnhWEkUNUZRU,629,Jebus
+recHLZEykCCOixlEm,637,Jerusalem's,duplicate_of,recL1WV82pXaRBQ59,636,Jerusalem
+recfyDMmdJqC0a3vI,658,Judea,duplicate_of,recAalC2QoLT7cJKN,657,Judea
+recbFkcAeBmrPDZvG,661,Kadesh,duplicate_of,recVfy9PlsXdODNGL,663,Kadesh-barnea
+recRdCHfAquS9MQQ1,784,Meribah-kadesh,duplicate_of,recVfy9PlsXdODNGL,663,Kadesh-barnea
+recDo9p41mKV8ptfj,821,Moriah,duplicate_of,rec7WtUEqNx0gZrTa,848,Mount Moriah
+recp5J3K9kl6DteAM,907,Olivet,duplicate_of,recOahYbjltSaaIV0,828,Mount of Olives
+recFinINtrGjUmVDi,969,Rahab,duplicate_of,recMFUSc6GzrLNNtt,259,Brook of Egypt
+recXmfE7tECVVSN23,1018,Salem,duplicate_of,recL1WV82pXaRBQ59,636,Jerusalem
+recb3HpTdDfZCDwrP,1023,Samaria's,duplicate_of,recEP3QZ3HUmIkv4Q,1022,Samaria
+recaljrl2Vew430Ta,1037,Seba,duplicate_of,recPLjuDonDk53ED5,1067,Sheba
+rec6V51IWkgvAcnOU,1098,Sinai,duplicate_of,rec5Yu6987dc60uKz,855,Mount Sinai
+recWQDkxXj0IjAdkn,1101,Sirion,duplicate_of,recrpaouE7oxrv5jy,564,Hermon
+recyLzZVuj6lpF5w9,1154,Skull,duplicate_of,recYlTJouLztJii9o,487,Golgotha
+recGrj7fktYfxmcbO,1221,Valley of Succoth,duplicate_of,recFcRV7goLrcQm17,1113,Succoth
+recvt2PQbAxcUQYmR,1237,Zalmon,duplicate_of,rec2YUNAEJFFfYOXk,832,Mount Ebal
+reczPjeq0UdahiRrn,1263,Zion,duplicate_of,recL1WV82pXaRBQ59,636,Jerusalem
+recixwLRyYolnIwB6,1264,Zion's,duplicate_of,reczPjeq0UdahiRrn,1263,Zion
+recXFAHDB0xkAfYwS,2,Abarim,rootID,recUMD4PyAqIzCkc0,849,Mount Nebo
+recbGH2r2ob7OjK4j,4,Abel,rootID,recyET7N6CKcQ1wsP,5,Abel-beth-maacah
+recvBrqC52ifM2FSm,7,Abel-maim,rootID,recyET7N6CKcQ1wsP,5,Abel-beth-maacah
+recdnhsOscx9k4Djn,11,Abiezer,rootID,rec8SNX7XoTfkfbY1,914,Ophrah
+recfu6VEZX2Bl1rZY,13,Abronah,rootID,recPhbU6SICXKWVJ8,423,Ezion-geber
+recj2XUqaJxCKA6qs,16,Achaia,rootID,rec6n0u78dB1QOA1Z,118,Athens
+recuSI1NE964vj24o,37,Ai,rootID,recabsaJkxxtgdUSt,565,Heshbon
+recwBcaQrg8xhl7a7,38,Aiath,rootID,recedRWoiFNdeGFm4,36,Ai
+recTnu7k5LCNvA37v,39,Aija,rootID,recedRWoiFNdeGFm4,36,Ai
+recAt5Dc8ewQhhW5f,43,Akeldama,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+recZ2V3lwJO1fyj6I,48,Allon-bacuth,rootID,recJK76HLZSOzxTWW,202,Bethel (of Palestine)
+recwuQfjxyqSHBpeN,49,Almon,rootID,recfAJwYgmKZMAeHP,45,Alemeth
+recbHDxOBZIQIrqOG,50,Almon-diblathaim,rootID,rechszjphdueUPvPi,331,Dibon
+rechIcKjYna1HSS8d,51,Alush,rootID,recK01QQsA1QCvu3g,340,Dophkah
+rec5JrZRD4W7OiWDK,54,Amam,rootID,recNebppBEBJdV4YY,816,Moladah
+recQNLOzIxLGrzclD,56,Amaw,rootID,reclTXq2VglIrbWTt,939,Pethor
+reccHbpnFEJfJBtpy,64,Anem,rootID,recKotcLQBDuesdIb,388,En-gannim
+recPmZCyVKpHuUOKt,65,Aner,rootID,recyS1I7gkQt8hvRD,1124,Taanach
+recpnCSwEBvgwIXdu,66,Angle,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+rectQkLOmxxcMv1kQ,74,Aphekah,rootID,recUGTpxTrOA7MPkd,72,Aphek
+rec6a1LOQkLPcfRPk,75,Aphik,rootID,recpdFqMr64GytQYz,71,Aphek
+rec5lsWLp4xB8ECtt,85,Aram-zobah,rootID,recR67sC02MfTx4al,322,Damascus
+recaLSmBP3GuhC5ip,87,Areopagus,rootID,rec6n0u78dB1QOA1Z,118,Athens
+rec49TXccUxr6Dnhe,89,Ariel,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+recvtGi1Kp2anZbCt,90,Arimathea,rootID,recGdQVod5SbLO87Z,811,Mizpah
+recIjmD76kMAuLrKO,91,Armageddon,rootID,rechSy0aCb5vNVH3f,777,Megiddo
+recKPPAyXwKEJ9Ht8,96,Arpad,rootID,recA34XfYsCxhyu31,516,Hamath
+recpcRQjrSxfIULgY,97,Arubboth,rootID,recsVeoJRPG9LxKBN,1105,Socoh
+recnRPbgfF5LIg3yw,100,Ashan,rootID,recR2iltmaNI9n7HL,105,Ashnah
+reckWxV3dWFM3clrQ,102,Ashdod's,rootID,recN2YJFW0fYzSL9r,101,Ashdod
+recAiXXgqL914wNA9,109,Asshur,rootID,rec5WK4QGcKa48pA6,899,Nineveh
+recIJFRcqI6KbKgXb,111,Assyria,rootID,rec5WK4QGcKa48pA6,899,Nineveh
+recbH04cWWTUPT5HI,112,Atad,rootID,recNGsIGVIK9Quqo4,9,Abel-mizraim
+recSNxzg5rYEeDG16,114,Ataroth,rootID,recMJFxR4wli1Ly6z,1188,Upper Beth-horon
+recrkvrFB4Bmzq2dk,115,Ataroth-addar,rootID,recMJFxR4wli1Ly6z,1188,Upper Beth-horon
+rec8DcjjipTJqZu2m,117,Atharim,rootID,recSG6LfsxbfS94Wn,1251,Zephath
+recNvpHUqXj8mL7iN,119,Atroth-shophan,rootID,recX7O8Nba9reBG0k,94,Aroer
+reci4G5xtsAv4FRwr,121,Aven,rootID,recJK76HLZSOzxTWW,202,Bethel (of Palestine)
+recOXgajprNUckFFf,122,Avith,rootID,recIfdlpmLYrfPeAv,256,Bozrah
+recEQouzJnwIXnbfV,123,Avva,rootID,rechEDzh62P6Oq3tQ,560,Hena
+recETb04xUhyTBavw,124,Avvim,rootID,recJSfVnIcPibY6aX,551,Hebron
+recIfDBpgcDqrLwwu,125,Ayyah,rootID,recNzNKGhPz5qS3Kc,446,Gaza
+recWinU9NkCFdJl7J,126,Azal,rootID,rec5wqkJ6JXv03dvF,861,Mount of Olives
+recqjhxabaoyCoXAg,129,Azmaveth,rootID,recwPACgpqabJeUvd,192,Beth-azmaveth
+rec6CBbPCu4LYuZY9,131,Aznoth-tabor,rootID,recbTmIWQ3GZPZxdA,857,Mount Tabor
+recAPCFiiSX6hmHhX,132,Azotus,rootID,recN2YJFW0fYzSL9r,101,Ashdod
+recEqQREaXQbx8Uuf,133,Baal,rootID,recGvmVzGXwM0gcuz,138,Baalath-beer
+recy8fPOXhmjgXtvo,134,Baalah,rootID,rectrAkGtrZH5LMp8,170,Beersheba
+recmzFZzjfqsRjkZ9,135,Baalah,rootID,recVYcDguYN6bVqxy,701,Kiriath-jearim
+recCyzljfY6pdtZUQ,137,Baalath,rootID,recKM0IXdEN1RtLYi,136,Baalath
+recKm8gRoKw8JsNhV,139,Baale-judah,rootID,recVYcDguYN6bVqxy,701,Kiriath-jearim
+recSmeH9WUgkGjene,140,Baal-gad,rootID,rec1ET3TBR0oBaWJu,841,Mount Hermon
+reckp306GdVeCP6ow,141,Baal-hamon,rootID,rec1ET3TBR0oBaWJu,841,Mount Hermon
+rechHon8UlSwM17p9,143,Baal-hermon,rootID,rec1ET3TBR0oBaWJu,841,Mount Hermon
+recFPceE2ivY1B3sX,145,Baal-peor,rootID,rec0YWbwVkA7RQKBw,950,Pisgah
+recFq1oYnuHPC0ccM,146,Baal-perazim,rootID,recTdeFWjvLAXs0t3,1214,Valley of Rephaim
+rec9Q74CAtexwY56Y,147,Baal-shalishah,rootID,recMk8e2xt1Lf5HKz,477,Gilgal
+recMwvje3DxS9RwU7,148,Baal-tamar,rootID,recADz5cMmoTWAEzV,466,Gibeah
+recpqKANUDcRgN4HU,151,Babylon,rootID,recO7At5WvGRe0Xsu,150,Babel
+recKVcmD8sW9z9clp,152,Babylonia,rootID,recO7At5WvGRe0Xsu,150,Babel
+reclpX4P8Fa2JcMKn,153,Baharum,rootID,recrIxQuDpJHk9OiN,154,Bahurim
+recfF8Grz02VwUL1L,155,Balah,rootID,rectrAkGtrZH5LMp8,170,Beersheba
+recsxfSyGmalpC8R8,156,Bamah,rootID,recYsXWjhw6FUqHLY,470,Gibeon
+reclJnziaTsU0Sg4r,157,Bamoth,rootID,rec0YWbwVkA7RQKBw,950,Pisgah
+rec48Xqy5594zh8gV,158,Bamoth-baal,rootID,rec0YWbwVkA7RQKBw,950,Pisgah
+recgdvRbWEPMp5I0z,159,Bashan,rootID,recRpIvrxowDc7mVt,486,Golan
+recFrGBXHGXFLDqRP,160,Bath-rabbim,rootID,recabsaJkxxtgdUSt,565,Heshbon
+reciBYklvLCuVsref,161,Bealoth,rootID,recNebppBEBJdV4YY,816,Moladah
+recFIAoypGksc1iK6,162,Bealoth,rootID,recYweWcGLcvYVDDF,19,Achzib
+rec232gzESK5PLtd0,163,Beautiful Gate,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+recJD9cmtiBXxNSEK,164,Beer,rootID,rec0esIVZ4dWgesPy,386,Eneglaim
+recZfXro4PsQ84gVp,165,Beer,rootID,rec4IK8BRFWJUhjhQ,168,Beeroth
+recgHRXfPTqW94gKC,166,Beer-elim,rootID,rec0esIVZ4dWgesPy,386,Eneglaim
+rec1QA8OE0IHg2OPf,167,Beer-lahai-roi,rootID,recVfy9PlsXdODNGL,663,Kadesh-barnea
+recoup7E1KIvzRIvR,169,Beeroth Bene-jaakan,rootID,recn5ad7qKvkUdCyZ,842,Mount Hor
+recjPh8iusH2RsY0b,171,Beeshterah,rootID,recgQ3PF8NjkiBIKf,106,Ashtaroth
+recz7g41dLAYpgPhB,172,Bela,rootID,reciwuMXIVWYdwnZw,1271,Zoar
+reccCI2061PQY2ole,174,Bene-jaakan,rootID,recn5ad7qKvkUdCyZ,842,Mount Hor
+recNdvSZuqT39nqz4,175,Gate of Benjamin,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+rec3iGhIgwWlatj5Z,176,Beon,rootID,recUga1ulf3rDvMru,144,Baal-meon
+recrLh8m0GOwaWHsf,178,Bered,rootID,recVfy9PlsXdODNGL,663,Kadesh-barnea
+recp4c7XfzOnOlOHT,180,Berothai,rootID,recPhJtPyCKl7di9Y,179,Berothah
+recnnR9Jn65LEBgKC,182,Betah,rootID,recPhJtPyCKl7di9Y,179,Berothah
+recIQJnRBKR4sEF0C,193,Beth-baal-meon,rootID,recUga1ulf3rDvMru,144,Baal-meon
+recsbSnt3kftHlmU3,194,Beth-barah,rootID,recuopRspYkwGpj5A,187,Bethany
+recDmcDQzqC8YiyuP,195,Beth-biri,rootID,recVaBWxUUcXkszSZ,749,Madmannah
+rec8n4a7sEtrWBpaO,196,Beth-car,rootID,recGdQVod5SbLO87Z,811,Mizpah
+recnamAwgWaNKMu5s,199,Beth-diblathaim,rootID,rechszjphdueUPvPi,331,Dibon
+recmuZ5lBl7r3FQsN,200,Beth-eden,rootID,recR67sC02MfTx4al,322,Damascus
+reckYA26NlPh6Xe9R,201,Beth-eked,rootID,reczRCunsz83wZ1Q1,643,Jezreel
+recexdp2klTSY2AmR,203,Bethel (of Judah),rootID,recGvmVzGXwM0gcuz,138,Baalath-beer
+rec6CMR83y25xqFji,205,Bethesda,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+recwf4qKp6qWsbVT4,206,Beth-ezel,rootID,recdMxFAi6fN9Dn24,1062,Shaphir
+recw9Zm1HwiKM6qTn,208,Beth-gilgal,rootID,recdm9AlLF01lFAfP,476,Gilgal
+recibyUU35wwn74aM,210,Beth-haggan,rootID,rechSy0aCb5vNVH3f,777,Megiddo
+recynxQNL8B19XrOm,212,Beth-haran,rootID,recnInvPwUX8axnX3,211,Beth-haram
+recSx0USOwA2fisi6,214,Beth-horon,rootID,recFkoFKnoYZeBqsi,733,Beth-horon
+receXJK5JriKbA5I5,216,Beth-le-aphrah,rootID,recgFMAc5yMeSPZvu,913,Ophrah
+recr5ITafYEpJepjJ,217,Beth-lebaoth,rootID,recVaBWxUUcXkszSZ,749,Madmannah
+recX46u00iXp2HIOW,220,Bethlehem Ephrathah,rootID,rec81f3wE4gATsRRE,218,Bethlehem
+recb0HKOcNCfd1sCn,221,Beth-maacah,rootID,recyET7N6CKcQ1wsP,5,Abel-beth-maacah
+recIvd8hPkCOsl51H,222,Beth-marcaboth,rootID,recVaBWxUUcXkszSZ,749,Madmannah
+recqyPSe4athazQy4,223,Beth-meon,rootID,recUga1ulf3rDvMru,144,Baal-meon
+recnw5UrjW4YHoSY8,224,Beth-millo,rootID,recUySlrBva4ffoVs,1069,Shechem
+recHD6AIzyoUsNQiT,226,Beth-pazzez,rootID,recKotcLQBDuesdIb,388,En-gannim
+rec3uYR8hYoJkFWrR,227,Beth-pelet,rootID,recgek8WUtx6vEFbu,539,Hazar-shual
+recWpI3yiVzlUPgnT,233,Beth-shean,rootID,recasVvXRao2TAZVE,232,Beth-shan
+rec8qfFCsgL6zLVbt,236,Beth-shemesh,rootID,recHNN7gzsBdtfjhK,184,Beth-anath
+recMycRUPsdlPW8ZK,240,Bethuel,rootID,recGvmVzGXwM0gcuz,138,Baalath-beer
+recQTK887MoYPCCId,241,Bethul,rootID,recGvmVzGXwM0gcuz,138,Baalath-beer
+rec9ygL3vIbmQQtNQ,244,River,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+rec2ngjsU0Y8MN6Nx,248,Bileam,rootID,rec91Z7a1D7vQHOgk,589,Ibleam
+recI2dj98dykn94sK,249,Bilhah,rootID,rectrAkGtrZH5LMp8,170,Beersheba
+recX6Geuthxftkb51,251,Biziothiah,rootID,rectrAkGtrZH5LMp8,170,Beersheba
+recW1hr037qxVsNBt,252,Bochim,rootID,recJK76HLZSOzxTWW,202,Bethel (of Palestine)
+recvkjadg8yUMrUoj,253,Bor-ashan,rootID,recR2iltmaNI9n7HL,105,Ashnah
+recH2ShkDhPfgm2TM,255,Bozkath,rootID,recH30EhVzvnkXBTl,711,Lachish
+recIn7Y9y8ASc1bbA,257,Bozrah,rootID,recwBsc9ohHXV6b60,247,Bezer
+recMaqHhvN1sVoUPs,258,Broad Wall,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+recqoLWlnh3Qritdc,260,Arabah,rootID,recA34XfYsCxhyu31,516,Hamath
+recmqfNpyVxikcCZu,261,Willows,rootID,recGGj6qjPjQ76jkF,654,Plain of Jordan
+recsC1MzIep0MhpBS,262,Buz,rootID,recNbAdg1hdwN8AmZ,329,Dedan
+recJdhB6dMKj8R3su,263,Cabbon,rootID,recncbaBT6pbrg94B,361,Eglon
+recTQGx2SXaEJvxfD,265,Cabul,rootID,recdybmplJR4qJKgH,264,Cabul
+rec59YRMb8c7bTak3,270,Calno,rootID,recTCLydxA9SiyYUl,269,Calneh
+recRxBBePxyyV6TFO,272,Canaan,rootID,recDWNfN3f6E04V4m,442,Gath
+recuVHORMSQdWyeM8,273,Canneh,rootID,recTCLydxA9SiyYUl,269,Calneh
+reci1kkPbg8LSQStj,275,Caphtor,rootID,rec6yittVQwxJlpye,310,Crete
+recTmLtzNBGYaxeSZ,279,Casiphia,rootID,recA34XfYsCxhyu31,516,Hamath
+reclUs1vGOnRCY78z,282,Chaldea,rootID,recgQtoCtBjbsPwAw,1189,Ur of the Chaldees
+recWpPF023aprpqG2,286,Cherith,rootID,recGGj6qjPjQ76jkF,654,Plain of Jordan
+recJW9SAwTJ9dnLeJ,287,Cherub,rootID,recO7At5WvGRe0Xsu,150,Babel
+recSSa66yHtBR12pu,289,Chesil,rootID,recGvmVzGXwM0gcuz,138,Baalath-beer
+recU8xLJc1yFmRk7p,291,Chezib,rootID,recrmEKu11xT3oWQd,18,Achzib
+recEzWVEnIV04srGN,292,Chilmad,rootID,rec5WK4QGcKa48pA6,899,Nineveh
+recEKsQvYiMeFJgdN,293,Chinnereth,rootID,recRe6uBpPMDP6u82,1032,Sea of Galilee
+recZz0bB1uUWCV2RX,294,Chinnereth,rootID,recRe6uBpPMDP6u82,1032,Sea of Galilee
+recaGCm1p3KSLswYI,295,Chinneroth,rootID,recRe6uBpPMDP6u82,1032,Sea of Galilee
+recTLtdYknboPobdU,297,Chisloth-tabor,rootID,recQ8DF0pj7A20FyQ,290,Chesulloth
+recdh9Gu8gelCiU1H,298,Chitlish,rootID,recF5IgX3dVt18Azk,452,Gederah
+rectQcNZqgNSFBmfm,300,Cilicia,rootID,recyT2hLNYpIFXcAs,1140,Tarsus
+recZ1bQRi7RutQSYV,301,Destruction,rootID,recK0feE032FY9Hxi,908,On
+recC86IzmexcQRTDL,302,Salt,rootID,rec47z6GarT41J5Vh,389,Engedi
+rec3SLjiyY0ddRB03,303,City of the Lord,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+recXJTt1RtCp5IWJG,307,Corner Gate,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+recm8RzMhm7XDgVE1,309,Cozeba,rootID,recrmEKu11xT3oWQd,18,Achzib
+rec871Urh3FpMXS3G,311,Cun,rootID,recPhJtPyCKl7di9Y,179,Berothah
+recaHkhAvEICQr7fB,312,Cush,rootID,rec3AkQ2GFvTqPxCx,419,Ethiopia
+recgI2xgAcOBRvHSA,313,Cushan,rootID,rec3AkQ2GFvTqPxCx,419,Ethiopia
+recYKI4ffid5OvTiE,315,Cuthah,rootID,reckj2nMFQVOzR2E8,314,Cuth
+rec14G9VSYQFR0PSV,320,Dalmanutha,rootID,rec8scqP30fz5SjGW,753,Magadan
+recwaPJ7WKYDiMNPv,327,Debir,rootID,recVFQm1ajEWbVg5k,732,Lo-debar
+recmKQbYJdJMGjw23,328,Decapolis,rootID,recR67sC02MfTx4al,322,Damascus
+rechxzNWsHpzbGt3S,332,Dibon,rootID,rec07iNOHOCD9TtUq,20,Adadah
+rec3XNe7xQ7Jn7wyn,333,Dibon-gad,rootID,rechszjphdueUPvPi,331,Dibon
+rec5Pu3ZrQxBUtK9O,334,Dilean,rootID,recH30EhVzvnkXBTl,711,Lachish
+recGVFxptgdzFULdw,336,Dimonah,rootID,rec07iNOHOCD9TtUq,20,Adadah
+recAjiz44mVed43zg,338,Diviners' Oak,rootID,recUySlrBva4ffoVs,1069,Shechem
+recQEK5O1aaM5Y2FK,343,Dragon Spring,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+recJdr0KdZkuEwio5,345,Dumah,rootID,recmCYBlOy0l5D1eB,80,Arabia
+reco1OMEHTEdSnL1o,346,Dung Gate,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+reccmD6Mj9n4h197g,347,Dura,rootID,recO7At5WvGRe0Xsu,150,Babel
+recINYRGVbQuConLS,348,East,rootID,recRqzbUZ7i6OPTa1,58,Ammon
+recZwsy0mEhiftoDs,349,East Gate,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+recpk7ZvL6JuKqCqA,350,Ebenezer,rootID,recGdQVod5SbLO87Z,811,Mizpah
+recy1DLOJRAuwMXyj,352,Ebron,rootID,recPdJgyI1kRUNw35,3,Abdon
+recyacFMClQixXsNi,355,Eder,rootID,rec81f3wE4gATsRRE,218,Bethlehem
+reczCenxH07UbY0ps,356,Eder,rootID,rec07iNOHOCD9TtUq,20,Adadah
+recLcxRZbz3yIQB7b,357,Edom,rootID,recIfdlpmLYrfPeAv,256,Bozrah
+recgwRE0rDnmS39ba,359,Eglaim,rootID,rec0esIVZ4dWgesPy,386,Eneglaim
+recfrXyxhuYOczKTm,362,Egypt,rootID,recK0feE032FY9Hxi,908,On
+rec1TOi8sIOGfx3kH,363,Egypt's,rootID,recK0feE032FY9Hxi,908,On
+recM9XRLGW2MiGPpZ,365,Elam,rootID,receX4PMAVfHZyoCO,1118,Susa
+rect9L2mkHh1K2Bka,367,El-bethel,rootID,recJK76HLZSOzxTWW,202,Bethel (of Palestine)
+rec9iLE1EPBSXW9He,370,Elishah,rootID,receEjvf5hXhkgVuZ,316,Cyprus
+recGCEXT37NohcAM5,375,Eloth,rootID,recbAK2JxigPufNCM,366,Elath
+rec6KmA4n3RW8cAsW,376,El-paran,rootID,recx2Hj4FohnwbJRY,921,Paran
+recvLZB9Y6g5zrtse,377,Elteke,rootID,rec2H0XhjHGTh1ivm,378,Eltekeh
+rec8l1lVhso3t7ULj,380,Eltolad,rootID,recGvmVzGXwM0gcuz,138,Baalath-beer
+rec3jnWpO8DBacyGU,381,Emek-keziz,rootID,recRg102TEaTaifd2,213,Beth-hoglah
+rech43If99HRZHsfB,383,Enaim,rootID,recw2errRDhNUlkXl,1164,Timnah
+recFbn1s6i5rDKxhf,391,En-hakkore,rootID,recocNih6Mr5ISN1d,234,Beth-shemesh
+rec6sSw7Z7ya7vwrR,393,En-mishpat,rootID,recVfy9PlsXdODNGL,663,Kadesh-barnea
+recYdVr4FVGjduAvu,394,En-rimmon,rootID,recoPm07R6AfPVaXY,42,Ain
+recSySWSC0EoRsqIB,397,En-tappuah,rootID,recBlqCdGXa2kE8T6,1136,Tappuah
+recLU6fFu2sfbModR,398,Ephah,rootID,recBZhqAvy5xhTNRn,796,Midian
+rec4ve9U7ZrXrnVk0,401,Ephraim,rootID,recgFMAc5yMeSPZvu,913,Ophrah
+recAaf40EEWyTLYmo,402,Gate of Ephraim,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+recTsiqfHAu6vwW3H,403,Ephrath,rootID,rec81f3wE4gATsRRE,218,Bethlehem
+recken6owpkwjiRU0,404,Ephrathah,rootID,rec81f3wE4gATsRRE,218,Bethlehem
+recUukkWaSOK7dkHk,405,Ephron,rootID,recpv8kBAFWrBcGYD,834,Mount Ephron
+reccXxI6gV3uS1tRt,406,Ephron,rootID,recgFMAc5yMeSPZvu,913,Ophrah
+recDQe9YTG4wPXsNP,408,Esau,rootID,recIfdlpmLYrfPeAv,256,Bozrah
+rec1tleh7fR8tsqKa,409,Esek,rootID,recNwG4bBkZyEhAT4,459,Gerar
+recNvVf6oxrh2Aqhe,412,Eshtemoa,rootID,recprIzqujCsEq2cW,67,Anim
+recBVeG0aEI4bdx00,413,Eshtemoh,rootID,recprIzqujCsEq2cW,67,Anim
+recq4U0h8NhK2RFFH,415,Etam,rootID,recoPm07R6AfPVaXY,42,Ain
+recmpaqzhaWI0JOso,418,Ether,rootID,recR2iltmaNI9n7HL,105,Ashnah
+rec01lUK0ZRXUnohv,420,Eth-kazin,rootID,recdj20FESzKensp3,335,Dimnah
+recNerBj6ADOpYbfh,422,Ezem,rootID,recGvmVzGXwM0gcuz,138,Baalath-beer
+recppjCaJndWnPp96,426,Fish Gate,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+recxDEP8UZTymLeVj,428,Gate of the Fountain,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+recYPNmOaWy8gnCa8,429,Gaash,rootID,recVJJVSqbm0DBuEb,1166,Timnath-heres
+recCctY2iFKTyvAOc,430,Gabbatha,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+recuiNskL8Wft4eRh,431,Galatia,rootID,recbm5ZBUjTQ5uAGT,742,Lystra
+rectJiRBVhcSh0AbX,432,Galeed,rootID,recp2WSSUeSBeg6rV,984,Ramoth-gilead
+recmL1lWBqWP3mAq3,433,Galilee,rootID,recmRfnw4XzPBH9jc,878,Nazareth
+recBsCzNBR4UfTTHr,435,Gamad,rootID,recOxPrQ5WzKnkuja,99,Arvad
+recbBFKI5CVixfoI2,436,Gareb,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+recvLUMajbYnYDikr,437,Benjamin's Gate,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+recKaA37m3ryr9Yj3,438,Gate of Ephraim,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+recRJO8SWdV2puVLx,439,Old Gate,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+recsLU4WRYzdXPnrE,440,Gate of the Foundation,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+recZTEJYFgHuZKP2h,441,Prison Gate,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+recDCYv3vAHJFz0BC,445,Gath-rimmon,rootID,rec91Z7a1D7vQHOgk,589,Ibleam
+recRjfwduOcMQAbDN,448,Geba,rootID,recYsXWjhw6FUqHLY,470,Gibeon
+recpukEDeQV7MqzNA,451,Geder,rootID,reclg1YBA0tsZbZ6Y,455,Gedor
+reclDeMC2ZcL7FsyA,453,Gederoth,rootID,recF5IgX3dVt18Azk,452,Gederah
+recINyglIMH5HJ6yW,454,Gederothaim,rootID,recF5IgX3dVt18Azk,452,Gederah
+recHcMmB2WjEh1MXi,456,Gedor,rootID,recF5IgX3dVt18Azk,452,Gederah
+recmXnEHeGtX63jTW,457,Geliloth,rootID,recdm9AlLF01lFAfP,476,Gilgal
+recdDLSOObiskYhuJ,460,Geruth Chimham,rootID,rec81f3wE4gATsRRE,218,Bethlehem
+recSyQJ7fMDS4wAsm,462,Gethsemane,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+recCBdBOv6wD4lig9,464,Giah,rootID,recmUHWpIrHqLCHHE,57,Ammah
+recD3RwArYl0uXo87,467,Gibeah,rootID,reca2kSTlowovUOD4,278,Carmel
+recdroMebBklZ30kb,468,Gibeath-elohim,rootID,recJK76HLZSOzxTWW,202,Bethel (of Palestine)
+recsccGSGLU7f2qsV,469,Gibeath-haaraloth,rootID,recdm9AlLF01lFAfP,476,Gilgal
+recWRUwcUIzEghL6B,471,Gidom,rootID,rec042fw3n8gCnFul,1003,Rimmon
+recVoWObhcZdbdDmm,478,Gilo,rootID,rec3WJ6kka7RKAwZm,479,Giloh
+recvmofXlg5CYLCZp,481,Gittaim,rootID,rec1AuhYfD1Pt34oA,499,Habor
+recOLA4quMGFmyPwG,482,Goah,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+recnBkiFnanbkDZxe,483,Gob,rootID,recNwG4bBkZyEhAT4,459,Gerar
+recYlTJouLztJii9o,487,Golgotha,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+recRBhWSqBkqZk8fe,494,Sidon,rootID,recxiSg5QZWkj9Hy3,1093,Sidon
+recpmPd6JhbqhqA0Q,495,Greece,rootID,rec6n0u78dB1QOA1Z,118,Athens
+recDzdFQedvpLxVrg,496,Gudgodah,rootID,recn603JbNWAX5cEE,579,Hor-haggidgad
+recGbYgNGdyfnyZg0,497,Gur,rootID,rec91Z7a1D7vQHOgk,589,Ibleam
+rec25x8YYslhfvr4G,498,Gurbaal,rootID,recIfdlpmLYrfPeAv,256,Bozrah
+recmvSKuAxrUd95O2,504,Hadrach,rootID,recR67sC02MfTx4al,322,Damascus
+rec3L50DGaMt6lBb2,506,Hahiroth,rootID,recoDAncgjwP9jZVE,948,Pi-hahiroth
+rec2PCmwHsVx97kxs,507,Hakkephirim,rootID,recCnbP6ZTjAmPCnR,909,Ono
+recmMd8e4NhBbEixF,508,Halah,rootID,rec1AuhYfD1Pt34oA,499,Habor
+recAaSopoyGJdiCvF,510,Hali,rootID,rec2dzY5q746RtWtv,183,Beten
+recTWEg8O7udCHY6q,511,Judgment,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+recjCJINpI08QY5oX,512,Pillars,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+recDIuscmis4rpWY5,513,Throne,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+rec3sBoYreDR4Dskj,514,Ham,rootID,recRqzbUZ7i6OPTa1,58,Ammon
+recft3Ujk5x5izu4h,515,Ham,rootID,recK0feE032FY9Hxi,908,On
+recQEnJ8wEKULipuY,517,Hamath-zobah,rootID,recA34XfYsCxhyu31,516,Hamath
+recEfNbXnb60Qu7Fe,519,Hammon,rootID,reclzgV7mRRSxyhph,518,Hammath
+recU0a48tvCQOFrxo,520,Hammoth-dor,rootID,reclzgV7mRRSxyhph,518,Hammath
+recnCcdEEzqBVi6nT,521,Hamonah,rootID,rechszjphdueUPvPi,331,Dibon
+recPBAlvTZPyRnyOC,524,Hapharaim,rootID,rec8SNX7XoTfkfbY1,914,Ophrah
+recWpQiaTsrRGpl1g,525,Hara,rootID,rec1AuhYfD1Pt34oA,499,Habor
+recYUWD833qc9vHTr,526,Haradah,rootID,recn5ad7qKvkUdCyZ,842,Mount Hor
+rec6VHpWbv15YXzKg,528,Harmon,rootID,recEP3QZ3HUmIkv4Q,1022,Samaria
+recSzJQj3klyLFo3s,531,Hashmonah,rootID,recn5ad7qKvkUdCyZ,842,Mount Hor
+rec6L2oZnYNMgEeR6,532,Hauran,rootID,recRpIvrxowDc7mVt,486,Golan
+recpx625y2be2c5YY,535,Havvoth-jair,rootID,recPoImnA7S93jcHx,475,Gilead
+recgw0eApW7QujFV9,536,Hazar-addar,rootID,recG78okmLuWjXoVq,24,Addar
+reco9U3zrTHcqFxwP,538,Hazar-gaddah,rootID,recNebppBEBJdV4YY,816,Moladah
+recI0tMa0vUukm1G0,540,Hazar-susah,rootID,recVaBWxUUcXkszSZ,749,Madmannah
+rec3qLfY9kEC7Xnun,541,Hazar-susim,rootID,recVaBWxUUcXkszSZ,749,Madmannah
+recHhX3If7T8OFzqE,542,Hazazon-tamar,rootID,rec47z6GarT41J5Vh,389,Engedi
+recixTdvhEqVBUclP,543,Hazer-hatticon,rootID,recA34XfYsCxhyu31,516,Hamath
+recB25qM62XLBnDqd,546,Hazor,rootID,recVfy9PlsXdODNGL,663,Kadesh-barnea
+recEZk6tOBSVS51AC,547,Hazor,rootID,recNebppBEBJdV4YY,816,Moladah
+recIXGJ5SbRqnDFoG,550,Hazor-hadattah,rootID,recNebppBEBJdV4YY,816,Moladah
+recv86e7sLNhPrVFJ,552,Helam,rootID,recGCjED5yTpggEi6,930,Peniel
+recBm5WQ22GA1jkXr,553,Helbah,rootID,recpdFqMr64GytQYz,71,Aphek
+recbXveMKx5xDzmbb,555,Helech,rootID,recOxPrQ5WzKnkuja,99,Arvad
+recdFJBOErXeELyd6,557,Heliopolis,rootID,recK0feE032FY9Hxi,908,On
+recUoVFfVA066pPes,562,Heres,rootID,recFcRV7goLrcQm17,1113,Succoth
+recrpaouE7oxrv5jy,564,Hermon,rootID,rec1ET3TBR0oBaWJu,841,Mount Hermon
+recOA4cnESZLrBj1A,566,Heshmon,rootID,recgek8WUtx6vEFbu,539,Hazar-shual
+recfa19LQGbnLBD0G,568,Hezron,rootID,recCFbPoMSDmIyxXM,545,Hazor
+recSjPmPySxsIEpdj,570,Hilen,rootID,rec76ox1jwnhFHmzl,572,Holon
+recEvdb5Jza5GRTR3,573,Holon,rootID,rec5DyQDXpkG4OiFl,617,Jahaz
+rec6fTlTTEjSOEBsO,575,Holy Place,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+recufFfLnRDrtxLnL,576,Horeb,rootID,rec5Yu6987dc60uKz,855,Mount Sinai
+recJuXzCbm1TSujll,580,Hormah,rootID,recSG6LfsxbfS94Wn,1251,Zephath
+reckka7zs9Q7wDsVH,582,Horse Gate,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+rec4g6YLcH5MhL0th,584,Forest,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+rechN4gu5ltBnuSD2,585,Lebanon,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+rectQfI2b5yqcGyKc,587,Hukok,rootID,recuSExgoHnwcPaSp,558,Helkath
+rec0N0TWVYrSe7ur4,588,Humtah,rootID,recJSfVnIcPibY6aX,551,Hebron
+recLN7o7rsZSM85Ne,592,Idumea,rootID,recIfdlpmLYrfPeAv,256,Bozrah
+recIwErv710ydIveN,593,Iim,rootID,recGvmVzGXwM0gcuz,138,Baalath-beer
+recZfK43XfKiSXJrv,595,Illyricum,rootID,rec5ngWHMuEkZ9d14,321,Dalmatia
+recMDo1B27Zp8sbBs,596,Immer,rootID,rec5WK4QGcKa48pA6,899,Nineveh
+recK3b32WznCD3Boq,598,Iphtah,rootID,recR2iltmaNI9n7HL,105,Ashnah
+rec2CA3fcreugXc2x,600,Ir-shemesh,rootID,recocNih6Mr5ISN1d,234,Beth-shemesh
+rec17BV2zJmVUdbIV,601,Italy,rootID,recDDkVF36ecPUge4,1013,Rome
+recLBHqMV8R3Zjr8k,603,Ithnan,rootID,recNebppBEBJdV4YY,816,Moladah
+recT5Pc6wmONxUJIp,604,Ituraea,rootID,rec1ET3TBR0oBaWJu,841,Mount Hermon
+recxZzKRwcRUciXjm,605,Ivvah,rootID,rechEDzh62P6Oq3tQ,560,Hena
+recr2LdyigJIb8bvj,606,Iye-abarim,rootID,rechszjphdueUPvPi,331,Dibon
+recWGSw92LUtKuN0b,607,Iyim,rootID,rechszjphdueUPvPi,331,Dibon
+recFPH7XyfXrfRhTc,608,Jaar,rootID,recVYcDguYN6bVqxy,701,Kiriath-jearim
+recm3uRahzpZJ7lDk,610,Jabesh,rootID,reczL2DzDEB0XnRNv,611,Jabesh-gilead
+recCO7owbr9ZNWthX,612,Jabez,rootID,rec81f3wE4gATsRRE,218,Bethlehem
+recyLShFzEJK8dBws,615,Jabneh,rootID,recngVYo6AIxMvxoX,613,Jabneel
+recmuiHPO6M2Goxyf,616,Jagur,rootID,rec07iNOHOCD9TtUq,20,Adadah
+reck9NQJ79h9wVCBA,618,Jahzah,rootID,rec5DyQDXpkG4OiFl,617,Jahaz
+reciPNlPJ18bPGAZM,619,Jair,rootID,recPoImnA7S93jcHx,475,Gilead
+recX34t6DBnNyI2Uz,625,Jarmuth,rootID,reczRCunsz83wZ1Q1,643,Jezreel
+recwvS6ztRKFrA9rK,627,Javan,rootID,recBYO9ocr5Gssb47,400,Ephesus
+recynQnhWEkUNUZRU,629,Jebus,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+recC8Nf4sI5O2LSMv,630,Jebusite,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+reczvqcmwwjTk90i3,631,Jegar-sahadutha,rootID,recp2WSSUeSBeg6rV,984,Ramoth-gilead
+recSerPO7uLWI5cck,633,Jekabzeel,rootID,rec07iNOHOCD9TtUq,20,Adadah
+recMiSnzvWalCvvWb,635,Jeruel,rootID,recYz5P1O33tANP8j,1269,Ziz
+recHLZEykCCOixlEm,637,Jerusalem's,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+recrlHhIVY61kUrxt,639,Jeshimon,rootID,rec47z6GarT41J5Vh,389,Engedi
+recBFRWm5Z4QU7Boa,640,Jeshua,rootID,recNebppBEBJdV4YY,816,Moladah
+recZFeTunxtFB8Yie,641,Jetur,rootID,rec1ET3TBR0oBaWJu,841,Mount Hermon
+recdU0shMzVelyTiU,642,Jezreel,rootID,recJSfVnIcPibY6aX,551,Hebron
+recbCUdlemxNGIKfQ,644,Jezreel,rootID,reczRCunsz83wZ1Q1,643,Jezreel
+rec8sQDC7LI5Abufe,646,Jokdeam,rootID,recCeummfztvoBQDp,1240,Zanoah
+recXcaYQPIm0HPPyc,647,Jokmeam,rootID,recn160CZ6TA5vcBU,649,Jokneam
+recEGlxNTRCYkMv6l,648,Jokmeam,rootID,recxIvkrjy8frb65C,686,Kibzaim
+recYncMsyFtEC7kXF,650,Joktheel,rootID,recH30EhVzvnkXBTl,711,Lachish
+recSWu2nTiJjPfd7u,651,Joktheel,rootID,recq2rEmFeuPt4ouE,1044,Sela
+rec5dSSsOutWlH2fW,653,Jordan,rootID,recGGj6qjPjQ76jkF,654,Plain of Jordan
+recgcRR8lIX8T7Tr7,655,Jotbah,rootID,recPhbU6SICXKWVJ8,423,Ezion-geber
+reczp1sM9khY2Ahbc,656,Jotbathah,rootID,recPhbU6SICXKWVJ8,423,Ezion-geber
+recAalC2QoLT7cJKN,657,Judea,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+recfyDMmdJqC0a3vI,658,Judea,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+recAiaG6JoV8gdChq,660,Kabzeel,rootID,rec07iNOHOCD9TtUq,20,Adadah
+recbFkcAeBmrPDZvG,661,Kadesh,rootID,recVfy9PlsXdODNGL,663,Kadesh-barnea
+rec2YQAU1yrPgME5r,665,Kamon,rootID,recPoImnA7S93jcHx,475,Gilead
+recardcGMIv5hpUwf,667,Kanah,rootID,reckUbxmDHEnxC9dg,271,Cana
+rec2cgUKcZA0YwC7u,668,Karka,rootID,recWjPbc94D45lkIZ,130,Azmon
+reckq6qbK7CuwFOXD,669,Karkor,rootID,recGCjED5yTpggEi6,930,Peniel
+rectOnOUbj3MjGIoL,670,Karnaim,rootID,recL9dEZ2PHl7Vrrt,107,Ashteroth-karnaim
+recprjFRXrCtT9kQ8,671,Kartah,rootID,recpWDOal3kgn43RZ,706,Kitron
+recAHELZ2LlYlYqDx,672,Kartan,rootID,reclzgV7mRRSxyhph,518,Hammath
+recxMzVcOH9Xl3F2D,673,Kattath,rootID,recpWDOal3kgn43RZ,706,Kitron
+recuBx2LEnNR6q2X3,674,Kedar,rootID,recmCYBlOy0l5D1eB,80,Arabia
+recEq0kDYaFbGXYWu,677,Kedesh,rootID,recVfy9PlsXdODNGL,663,Kadesh-barnea
+recI6nOkL8Hnyy5pd,678,Kedesh,rootID,recVCFDBLoj1s0eNr,704,Kishion
+recfPJ2PdSB18419T,679,Kedesh-naphtali,rootID,rec6G3mRvN9MpCyjT,676,Kedesh
+rec3uZ7bhZR9JTNnI,680,Kehelathah,rootID,recn5ad7qKvkUdCyZ,842,Mount Hor
+recj5Vo2Mp3zHCXA6,683,Kerioth,rootID,receKKjJVBBYJWFPx,695,Kiriathaim
+recnzE5hzdUKE6HSX,684,Kerioth-hezron,rootID,recNebppBEBJdV4YY,816,Moladah
+rec4yGdQ6cs8KTqMx,685,Kibroth-hattaavah,rootID,recUD3AjGYUKz6ob7,544,Hazeroth
+recYRlZ4ewWJACJQ6,688,Brook Kidron,rootID,reccf5Vf48NjEXaxz,687,Kidron
+recwyO5XASnwzoaLy,689,Kinah,rootID,rec07iNOHOCD9TtUq,20,Adadah
+recy4WNqnI13AMRFp,690,Highway,rootID,receagvMif63k28fg,693,Kir
+recxWtyi03VqD3AFx,691,Pool,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+recruGIaExz1GoMbG,692,Valley of Shaveh,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+recVMgLyBVZ3c8jaf,694,Kir-hareseth,rootID,receagvMif63k28fg,693,Kir
+recbUWNXPw0egUflC,696,Kiriathaim,rootID,reclzgV7mRRSxyhph,518,Hammath
+reccnARM8vn8OfAgg,697,Kiriath-arba,rootID,recJSfVnIcPibY6aX,551,Hebron
+recS20ddm3ioLoaOw,698,Kiriath-arim,rootID,recVYcDguYN6bVqxy,701,Kiriath-jearim
+recRJEQbrGi24OUFZ,699,Kiriath-baal,rootID,recVYcDguYN6bVqxy,701,Kiriath-jearim
+recn1YUnYvq1qw3Eq,700,Kiriath-huzoth,rootID,rec0YWbwVkA7RQKBw,950,Pisgah
+reccGcdn7DyKWuaJT,702,Kiriath-sannah,rootID,reclzdXLmXHPKYAou,325,Debir
+recC7NCGfppWKjpRg,703,Kiriath-sepher,rootID,reclzdXLmXHPKYAou,325,Debir
+recxONSPR7PbGyrLR,707,Kittim,rootID,receEjvf5hXhkgVuZ,316,Cyprus
+recZOV8ortC5HMdxI,708,Koa,rootID,recU6Ze8zYV8DqXew,353,Ecbatana
+rec5S2a0FVulB61s7,709,Kue,rootID,recyT2hLNYpIFXcAs,1140,Tarsus
+recenS6TzJXjD2Nkc,710,Laban,rootID,recR2iltmaNI9n7HL,105,Ashnah
+recf1YkEgSxLMhWlr,713,Laish,rootID,recwFUncFiNWPsPWN,323,Dan
+recnfxMzJmRCjlEnB,715,Lakkum,rootID,recbTmIWQ3GZPZxdA,857,Mount Tabor
+recUtMwho4a5xqTCQ,721,Lebaoth,rootID,recVaBWxUUcXkszSZ,749,Madmannah
+recS2NX6AGlBLfoPz,722,Leb-kamai,rootID,recgQtoCtBjbsPwAw,1189,Ur of the Chaldees
+recTOELkXIVkgI0vr,723,Lebo-hamath,rootID,recA34XfYsCxhyu31,516,Hamath
+recSAHINBsaKgiTyv,725,Lehem,rootID,rec81f3wE4gATsRRE,218,Bethlehem
+recNowoUM11x2dhdR,726,Lehi,rootID,recocNih6Mr5ISN1d,234,Beth-shemesh
+recWRgEtgOHDG2ZtL,727,Leshem,rootID,recwFUncFiNWPsPWN,323,Dan
+rec5g1fzEKYzCO1Re,728,Libnah,rootID,recH30EhVzvnkXBTl,711,Lachish
+recFZ697FdVaWTxsm,729,Libnah,rootID,recR2iltmaNI9n7HL,105,Ashnah
+rec39FxmiUeVmCNUZ,730,Libya,rootID,recZNlnoE1DDb6iiz,317,Cyrene
+recHWD5V8s6tf9WyK,734,Beth-horon,rootID,recFkoFKnoYZeBqsi,733,Beth-horon
+recQfk1jNQuk2JPGb,735,Lud,rootID,reckrGn5GcFoGn0pD,731,Lod
+rec6SbCLgE1pnIMgt,736,Luhith,rootID,recoMMN7G2f7qaQuj,581,Horonaim
+rec7ux6O0fwgSs7Cw,737,Luz,rootID,recJK76HLZSOzxTWW,202,Bethel (of Palestine)
+rectv2C0kvcJoF4Jg,739,Lycaonia,rootID,recy6BBIMIGwmihwL,590,Iconium
+recdFgkZ8GAyZxHL3,740,Lycia,rootID,recYUgRXpxE62Lj08,924,Patara
+recL4DQQ2ghOhOCZI,741,Lydda,rootID,reckrGn5GcFoGn0pD,731,Lod
+recE3XSfOMlaQJZRi,743,Maacah,rootID,reciSXQ6ZRGyALlDf,83,Aram-maacah
+recsOdmE31xeIbuNN,744,Maacath,rootID,reciSXQ6ZRGyALlDf,83,Aram-maacah
+recfVeeVI1Tmq58aL,746,Maareh-geba,rootID,recADz5cMmoTWAEzV,466,Gibeah
+recly2TmP9CBHh8OQ,747,Macedonia,rootID,recIc4TxQa0rpOszp,1158,Thessalonica
+recQCdxZzUuCjYJVC,750,Madmen,rootID,rechszjphdueUPvPi,331,Dibon
+rec44WSBX7TZj0taX,751,Madmenah,rootID,recTSS22B5fmom2Vh,450,Gebim
+recbwzNRSJ9WR620p,754,Magog,rootID,recU8xPfFY5HMNYs5,484,Gog
+rec7eWoWlxhVZAjX8,755,Mahalab,rootID,recRpCv9XP4GPVkPQ,35,Ahlab
+recAAVbmSP94xFvOF,758,Makaz,rootID,recqdNdwEAEU0Hlq2,1053,Shaalbim
+rec31Re0o2h9DhFS2,759,Makheloth,rootID,recn5ad7qKvkUdCyZ,842,Mount Hor
+recZzrXNYy0nNSZoh,768,Maroth,rootID,recdMxFAi6fN9Dn24,1062,Shaphir
+reclPxltmTo1oIVxO,769,Mashal,rootID,recPdJgyI1kRUNw35,3,Abdon
+recdxr4An8KJNjm8R,770,Masrekah,rootID,recIfdlpmLYrfPeAv,256,Bozrah
+recBXbYnzkMDyU8cP,771,Massah,rootID,recop6QEHQoHhwytR,996,Rephidim
+recJKqmAaFTsAeBXT,772,Mattanah,rootID,rec96kSfuZ37JXQ5w,718,Lasha
+reckG7F2dzoWxHCUy,774,Meconah,rootID,recoPm07R6AfPVaXY,42,Ain
+recHQ6dZlDsEgw45z,776,Media,rootID,recU6Ze8zYV8DqXew,353,Ecbatana
+rec0wrua442IGGgtN,778,Me-jarkon,rootID,recFlw9QjiTit8Kdt,971,Rakkon
+rec2006YHGi4zadxa,781,Merathaim,rootID,recO7At5WvGRe0Xsu,150,Babel
+rec1irrySVGkYieCr,782,Meribah (of Kadesh),rootID,recVfy9PlsXdODNGL,663,Kadesh-barnea
+recMWJmwqs8BsePBv,783,Meribah (of Horeb),rootID,recop6QEHQoHhwytR,996,Rephidim
+recRdCHfAquS9MQQ1,784,Meribah-kadesh,rootID,recVfy9PlsXdODNGL,663,Kadesh-barnea
+recFf6R5Ox2Axt85p,786,Meroz,rootID,recbTmIWQ3GZPZxdA,857,Mount Tabor
+recYCmiFv6zLQJNak,788,Meshech,rootID,recU8xPfFY5HMNYs5,484,Gog
+recSnkixSwHw1Vdlh,789,Meshech-Tubal,rootID,recU8xPfFY5HMNYs5,484,Gog
+rec8Dy0OPNtiTqsoS,790,Mesopotamia,rootID,recO7At5WvGRe0Xsu,150,Babel
+reczaDpSZSElt6Xxm,791,Metheg-ammah,rootID,recDWNfN3f6E04V4m,442,Gath
+recubZKdq6gVyGPmd,792,Michmas,rootID,recHdRjsxQjhsjW3i,793,Michmash
+recT8QZtq4sQBftmu,800,Migron,rootID,recADz5cMmoTWAEzV,466,Gibeah
+rec0jxSkEigFIdFqj,802,Millo,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+recXkiCLcGAy68ZoI,803,Minni,rootID,recXJMjk2NfDpNj5l,104,Ashkenaz
+recwoglv6niCugPjM,805,Mishal,rootID,recPdJgyI1kRUNw35,3,Abdon
+recWxPHj8C8Xv97bH,807,Mithkah,rootID,recn5ad7qKvkUdCyZ,842,Mount Hor
+recOyMgubRhq1yatA,809,Mizpah,rootID,recp2WSSUeSBeg6rV,984,Ramoth-gilead
+rec6zuFbI9Andx3yK,810,Mizpah,rootID,recp19CEA8RQIkxZH,1213,Valley of Mizpeh
+recXRGobFRZ4nFOei,812,Mizpeh,rootID,recGdQVod5SbLO87Z,811,Mizpah
+recY6LiTKJcRArcz0,813,Mizpeh,rootID,recH30EhVzvnkXBTl,711,Lachish
+recYksg9zceqN9vql,814,Mizpeh,rootID,receagvMif63k28fg,693,Kir
+recUn6eVJDoG4xI0j,815,Moab,rootID,rechszjphdueUPvPi,331,Dibon
+recyFR0y4HsEM2kds,817,Moreh (Shechem),rootID,recUySlrBva4ffoVs,1069,Shechem
+recLBJEUYVKoCKuUg,819,Moresheth,rootID,recEmcEOTObO9ztFB,767,Mareshah
+recbTYTiQORyjUXHN,820,Moresheth-gath,rootID,recEmcEOTObO9ztFB,767,Mareshah
+recDo9p41mKV8ptfj,821,Moriah,rootID,rec7WtUEqNx0gZrTa,848,Mount Moriah
+reccLs5lbXxd93VlW,822,Mortar,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+recNAB8ozpbR1xT4V,823,Moserah,rootID,recn5ad7qKvkUdCyZ,842,Mount Hor
+recO5BBYiV9XXKwT5,824,Moseroth,rootID,recn5ad7qKvkUdCyZ,842,Mount Hor
+recIULA5mLIbFFf63,827,Most Holy Place,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+recOahYbjltSaaIV0,828,Mount of Olives,rootID,rec5wqkJ6JXv03dvF,861,Mount of Olives
+recCrwfh0wZHipZnN,829,Mount Baalhermon,rootID,rec1ET3TBR0oBaWJu,841,Mount Hermon
+reca0eXuM6xvhd0Nw,830,Mount Baalah,rootID,recngVYo6AIxMvxoX,613,Jabneel
+rec4fn00zPmMzy1Ez,833,Mount Ephraim,rootID,rec2YUNAEJFFfYOXk,832,Mount Ebal
+recoCAUgSjfORc9gs,835,Mount of Esau,rootID,recIfdlpmLYrfPeAv,256,Bozrah
+recqk6sbQ9jm61384,838,Mount Gilead,rootID,recLz6oewzzDSKniA,837,Mount Gilboa
+recqTxaRekULVrdMC,840,Mount Heres,rootID,recocNih6Mr5ISN1d,234,Beth-shemesh
+recIgpvDJ3DxQVEfF,844,Mount Horeb,rootID,rec5Yu6987dc60uKz,855,Mount Sinai
+recGREfrlC7wOAx9t,845,Mount Jearim,rootID,recz6C3X2ThWuRu82,288,Chesalon
+rec891ea91lcCoySC,846,Mount Lebanon,rootID,recCXgnK86jc1U9IB,720,Lebanon
+recEbjQiiu1RDI51G,847,Hill Mizar,rootID,rec1ET3TBR0oBaWJu,841,Mount Hermon
+rectcV1i4v4cA0JNn,850,Mount Paran,rootID,recx2Hj4FohnwbJRY,921,Paran
+recoBYzGPafFeXG1J,851,Mount Perazim,rootID,recTdeFWjvLAXs0t3,1214,Valley of Rephaim
+recE3qR8iDUqdkAuw,852,Mount Seir,rootID,recIfdlpmLYrfPeAv,256,Bozrah
+recdYOw02hOKb3Gg0,854,Mount Shapher,rootID,recn5ad7qKvkUdCyZ,842,Mount Hor
+recIyQIm2LMXScx0M,856,Mount Sion,rootID,rec1ET3TBR0oBaWJu,841,Mount Hermon
+recAcOZQZcvRajG4d,858,Mount Zalmon,rootID,rec2YUNAEJFFfYOXk,832,Mount Ebal
+rec4NpDmfviG4xFA5,859,Mount Zemaraim,rootID,recgy8VDM6SZ3R4p4,1249,Zemaraim
+rechZwu8ZbWlB6fyU,860,Mount Zion,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+rece93mlmCa74NCqg,863,Gate Miphkad,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+recZa3ykkleK0kwMp,865,Mysia,rootID,recOEIhMwampGbSqk,1182,Troas
+recHcEu0vJOxAQJDI,867,Naarah,rootID,recDm5nMdE8meTQuJ,868,Naaran
+recemJEsxfDEoBRUE,869,Nahalal,rootID,rec8PJyBV3OBaZ8cO,871,Nahalol
+recPHfjdYwB2Kwud8,870,Nahaliel,rootID,rec96kSfuZ37JXQ5w,718,Lasha
+rec3YlUMCDBYgpxsL,873,Naioth,rootID,recGdQVod5SbLO87Z,811,Mizpah
+recbSxNbr2KDk7JH2,874,Naphath,rootID,rechSy0aCb5vNVH3f,777,Megiddo
+rec6WgUUBIrAf8HEE,875,Naphath-dor,rootID,recvyeVO2Ex1jYF7o,341,Dor
+recxhiTJpRog89LoO,876,Naphish,rootID,recRpIvrxowDc7mVt,486,Golan
+rectNTiLmcS0hcEZ3,877,Naphoth-dor,rootID,recvyeVO2Ex1jYF7o,341,Dor
+recNZOAW3NhGJ2Vqs,879,Neah,rootID,rec2FVo1ApaaObSl8,887,Neiel
+recrmDj9yocelxOBG,881,Nebaioth,rootID,recq2rEmFeuPt4ouE,1044,Sela
+recF2QpmlRlDojJQd,889,Netaim,rootID,recF5IgX3dVt18Azk,452,Gederah
+recu5RJXSosEdwMwl,891,New Gate,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+rectRNRUNhXixuDpU,893,Nibshan,rootID,rec47z6GarT41J5Vh,389,Engedi
+recrGHr34zyi8zDUV,896,Nimrah,rootID,recsu2tjam7UDFthp,225,Beth-nimrah
+recepqQCxjioAao15,898,Nimrod,rootID,recO7At5WvGRe0Xsu,150,Babel
+recW9pJRZ4cg9A2k6,901,Nobah,rootID,rec6TagODGnHaVOkU,682,Kenath
+rec1f8fCk9jva56Vx,903,Nodab,rootID,recRpIvrxowDc7mVt,486,Golan
+recRhdJuunnIbd6jZ,904,Nohah,rootID,recsuRsN9B1q1z2Mh,763,Manahath
+rechXI3CkTEGaIRBP,905,Nophah,rootID,rec6TagODGnHaVOkU,682,Kenath
+recO5G9x7IdeHH8ss,906,Oboth,rootID,rechszjphdueUPvPi,331,Dibon
+recp5J3K9kl6DteAM,907,Olivet,rootID,rec5wqkJ6JXv03dvF,861,Mount of Olives
+recIF1Q0gHP65ziSy,910,Ophel,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+recPkpwSKDIF9jQ3T,911,Ophir,rootID,recxCz0P7YIE6Jp40,597,India
+recDH5SAt8ll1TrfG,915,Paddan,rootID,recyuzIRhPm1IFEu0,527,Haran
+recrEteYtMZW1c46t,916,Paddan-aram,rootID,recyuzIRhPm1IFEu0,527,Haran
+recPjcrZhlgRQ3nHe,917,Pai,rootID,recIfdlpmLYrfPeAv,256,Bozrah
+reczIMmvXFugsrx16,918,Pamphylia,rootID,recxdLVLPiSKfK2iB,936,Perga
+recZWekS06dZsVfgD,923,Pas-dammim,rootID,rec3w84nsjQvkJEE3,399,Ephes-dammim
+recDTAsguCJpPM5ev,927,Pau,rootID,recIfdlpmLYrfPeAv,256,Bozrah
+reciqLEHEJ42oR4bN,928,Pekod,rootID,recO7At5WvGRe0Xsu,150,Babel
+recIwC1OFvfA7JcTC,929,Pelusium,rootID,recJrTYgYd7ZHhwK1,1097,Sin
+recKsSsPEDA3H2QXE,931,Penuel,rootID,recGCjED5yTpggEi6,930,Peniel
+rec8064V4gSQu7kT9,932,Gate of the Children of the People,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+recDsLjW4riPOxvp4,933,Peor,rootID,rec0YWbwVkA7RQKBw,950,Pisgah
+recapsbflOiD4Y13u,934,Perez-uzza,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+recNxQ3mwycY0rngs,935,Perez-uzzah,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+rec1TAitFuG2xVnbt,938,Persia,rootID,recU6Ze8zYV8DqXew,353,Ecbatana
+recirR7tLEeni78L3,943,Philistia,rootID,recxiSg5QZWkj9Hy3,1093,Sidon
+recToD2yiguR5xCQ0,944,Phenicia,rootID,recxiSg5QZWkj9Hy3,1093,Sidon
+reco41jQa2HDPSWx2,946,Phrygia,rootID,rec2RzCd7Fs9wI07g,716,Laodicea
+rec6u7A9chuSPypVx,952,Pisidia,rootID,recevhMicAECGWRVk,69,Antioch (Pisidia)
+rec8e887YWXiVHAGy,954,Place,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+recbpDJS4sSQwBPqu,955,Plain,rootID,recdMHFSmu222VnJG,634,Jericho
+recbJJLMTzLRSP2PI,957,Pool,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+recqMLCLLurbShHne,958,East Gate,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+recCdyPm5ehwB2lsH,959,Ptolemais,rootID,recCxPm3UUcexTdBW,15,Acco
+recglfjpGTUL9C7v1,960,Pul,rootID,recZNlnoE1DDb6iiz,317,Cyrene
+recwuZjxsXkzLUvxH,961,Punon,rootID,rechszjphdueUPvPi,331,Dibon
+recZ3tjOC2I7idswk,962,Put,rootID,recZNlnoE1DDb6iiz,317,Cyrene
+recFKDaCksomouPcF,965,Raamses,rootID,rec9Z4Z0YEILCz2D6,953,Pithom
+recq9ttBUfBJW1lhG,966,Rabbah,rootID,recRqzbUZ7i6OPTa1,58,Ammon
+recIlh9AAokG5yxro,968,Racal,rootID,reca2kSTlowovUOD4,278,Carmel
+recFinINtrGjUmVDi,969,Rahab,rootID,recK0feE032FY9Hxi,908,On
+reczghi5uPnwl4Wej,970,Rakkath,rootID,recJ5Vr9vsvg72UIz,1161,Tiberias
+reczeMGDnN4eb0Y28,975,Ramah,rootID,recGdQVod5SbLO87Z,811,Mizpah
+recsuir3CsToQbBjn,976,Ramah,rootID,recp2WSSUeSBeg6rV,984,Ramoth-gilead
+recwjv3MPsYSE590U,977,Ramathaim-zophim,rootID,recGdQVod5SbLO87Z,811,Mizpah
+recksaGwo0AcTNKje,978,Ramath-lehi,rootID,recocNih6Mr5ISN1d,234,Beth-shemesh
+recQ31KLebB8uVNzM,979,Ramath-mizpeh,rootID,recp2WSSUeSBeg6rV,984,Ramoth-gilead
+recDWN5q09krFIERY,981,Ramoth,rootID,reczRCunsz83wZ1Q1,643,Jezreel
+recevwD8aPKX3CoC6,982,Ramoth,rootID,recGvmVzGXwM0gcuz,138,Baalath-beer
+rec9szH9mCJFB3FV5,983,Ramoth,rootID,recp2WSSUeSBeg6rV,984,Ramoth-gilead
+rec7rU2k2UGIDROAw,985,Recah,rootID,rec81f3wE4gATsRRE,218,Bethlehem
+rec3gzPTVeaDAIJ5Q,987,Rehob,rootID,recDscMOGkYsInRIG,230,Beth-rehob
+recMJ37YErgueg9i2,988,Rehob,rootID,reclzgV7mRRSxyhph,518,Hammath
+recDsgW2rUeXNQsN9,989,Rehob,rootID,recuSExgoHnwcPaSp,558,Helkath
+recXyD7VeEfvtVULJ,991,Rehoboth,rootID,rec0SjrDrVPzEPdRu,1253,Zered
+rec1AHST2tmCaaj2L,992,Rehoboth,rootID,rec5WK4QGcKa48pA6,899,Nineveh
+recU5S7bLgQ5prNXX,993,Rekem,rootID,recFaDXzmsRc5psEi,599,Irpeel
+rechqsejUnM2fn63T,994,Remeth,rootID,reczRCunsz83wZ1Q1,643,Jezreel
+reci8dghn7shG5pMX,995,Rephaim,rootID,recRpIvrxowDc7mVt,486,Golan
+recsvPka5cfmzpl88,997,Resen,rootID,rec5WK4QGcKa48pA6,899,Nineveh
+recTIHqZ7BB8IVwFt,1002,Riblah,rootID,recwklUMuzLBEJb7Z,41,Ain
+recZuw7dAJ1x1EUfb,1004,Rimmon,rootID,recwklUMuzLBEJb7Z,41,Ain
+recerbxkGQRTanWmt,1005,Rimmon,rootID,recdj20FESzKensp3,335,Dimnah
+rect6bbJb7hq2uf6t,1006,Rimmono,rootID,recdj20FESzKensp3,335,Dimnah
+recGNhuBDPlN7ZojH,1007,Rimmon-perez,rootID,recR2iltmaNI9n7HL,105,Ashnah
+rec06r9EJW86Wzac7,1008,Rissah,rootID,recn5ad7qKvkUdCyZ,842,Mount Hor
+rec7mSP1c046zFefT,1009,Rithmah,rootID,recR2iltmaNI9n7HL,105,Ashnah
+recQIJnCSmWgA0ktQ,1010,River,rootID,recJ0N5yStBk9CjXA,421,Euphrates
+rec31pLZApXuca8pm,1011,Rock,rootID,recE7gMJ0r4eJWepx,764,Maon
+rec0Q2LXE0NTbQoVG,1012,Rogelim,rootID,recIY9mUBLApR33cG,756,Mahanaim
+recgR56C1unVPKivr,1014,Rumah,rootID,recCJGVY9NNPvs1py,98,Arumah
+recXcwiQNW3djmoRL,1015,Sahar,rootID,rechTlHCrjYuXw9BX,554,Helbon
+recXmfE7tECVVSN23,1018,Salem,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+recb3HpTdDfZCDwrP,1023,Samaria's,rootID,recEP3QZ3HUmIkv4Q,1022,Samaria
+rec79hwpJ5VGCC9JF,1026,Sansannah,rootID,recVaBWxUUcXkszSZ,749,Madmannah
+recYpSKSmkkbzakzX,1029,Sea of Chinnereth,rootID,recRe6uBpPMDP6u82,1032,Sea of Galilee
+recks7hmMCkcKnCEo,1030,Sea of Chinneroth,rootID,recRe6uBpPMDP6u82,1032,Sea of Galilee
+recnnLINGsvjE1tsS,1031,Egyptian Sea,rootID,recDQoz6r4QxWn5E3,986,Red Sea
+rech8OYPUxRxwx0QE,1033,Sea of Jazer,rootID,recGEuLOhqY6PsgzE,628,Jazer
+receUJC0VV7yquFBt,1034,Sea of Tiberias,rootID,recRe6uBpPMDP6u82,1032,Sea of Galilee
+rec8bEdIqk6qrW3mt,1035,Sea of the Plain,rootID,recN4jruK7QVakoJh,1021,Salt Sea
+recvamv4D0fNJ9vri,1036,Sea of the Philistines,rootID,recn47IzNNlhvTtXK,493,Great Sea
+recaljrl2Vew430Ta,1037,Seba,rootID,recPLjuDonDk53ED5,1067,Sheba
+recuAl3exVdlCg5zs,1038,Sebam,rootID,recesqn5JDm6ZwKE5,1091,Sibmah
+recFXcRQrRaeVt8Wq,1040,Second Quarter,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+rec9FmVbRkqnkXn8n,1042,Seir,rootID,recIfdlpmLYrfPeAv,256,Bozrah
+recS8Ru0SQirBrvIy,1043,Seirah,rootID,recJK76HLZSOzxTWW,202,Bethel (of Palestine)
+recl43rvNqfYRmsyj,1047,Senir,rootID,rec1ET3TBR0oBaWJu,841,Mount Hermon
+recAQAjn6m5DhLghR,1049,Sepharad,rootID,recuZ5G51OEg5hFNo,1027,Sardis
+recav9zHYvduqB2c5,1051,Serpent's Stone,rootID,recHhcgUHKjNOWICz,395,En-rogel
+recQi9pDBUBeeYJip,1052,Shaalabbin,rootID,recqdNdwEAEU0Hlq2,1053,Shaalbim
+recKFef2G2d4kxjXh,1054,Shaalim,rootID,recYsXWjhw6FUqHLY,470,Gibeon
+recM5mUDUeuNmVj6E,1056,Shaaraim,rootID,recga1Xabw2DEyUv5,1065,Sharuhen
+receepwWdZe3c7HEy,1057,Shahazumah,rootID,recpZeW1C0RXq5NxR,235,Beth-shemesh
+recNoSjEixSzHZ49q,1058,Shalishah,rootID,recYsXWjhw6FUqHLY,470,Gibeon
+recWnxvGvhTaH6YBZ,1059,Shallecheth,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+recDSliISwQHk79qr,1064,Sharon,rootID,rec1ET3TBR0oBaWJu,841,Mount Hermon
+recez2EN62j4OKcFT,1066,Shaveh-kiriathaim,rootID,receKKjJVBBYJWFPx,695,Kiriathaim
+recUYHFhzSaVrgLeR,1068,Shebarim,rootID,recedRWoiFNdeGFm4,36,Ai
+recEtYuMAHI6UAK8P,1070,Sheep Gate,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+rec1fhlBExIdvMXW9,1071,Shema,rootID,recNebppBEBJdV4YY,816,Moladah
+recF5BKPMFrHnzfVq,1072,Shen,rootID,recGdQVod5SbLO87Z,811,Mizpah
+recasO0QihALHPcLg,1073,Shepham,rootID,recwklUMuzLBEJb7Z,41,Ain
+recc5WQixfPBowmwE,1074,Shephelah,rootID,rec3gWYVMktOUkAzZ,364,Ekron
+recVHSiFLmbUrZHLJ,1075,Shibah,rootID,rectrAkGtrZH5LMp8,170,Beersheba
+recC23N5Tc2A2DvIi,1076,Shihor,rootID,recMFUSc6GzrLNNtt,259,Brook of Egypt
+recKiMzXEi85nGjRc,1078,Shikkeron,rootID,rec3gWYVMktOUkAzZ,364,Ekron
+recRm8VDuk2fRyNdY,1079,Shilhim,rootID,recga1Xabw2DEyUv5,1065,Sharuhen
+rec4D5Z8lcPHzichv,1080,Shiloah,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+recKy7FeV09vy9YKy,1083,Shimron-meron,rootID,recJJNRuOtrW0M49k,1082,Shimron
+rechl3VIoaKFb2C9f,1084,Shinar,rootID,recO7At5WvGRe0Xsu,150,Babel
+rec00JYAbLHvQFwog,1086,Shittim,rootID,recgfOCqzEYY932wA,10,Abel-shittim
+rec4OMrlvP8YRP40o,1087,Shoa,rootID,recU6Ze8zYV8DqXew,353,Ecbatana
+recEZhfK5Gw6IgmYh,1088,Shual,rootID,recgFMAc5yMeSPZvu,913,Ophrah
+recvBdSyGAfKyhrLE,1092,Sibraim,rootID,recA34XfYsCxhyu31,516,Hamath
+reckXhjBX8I6jSNkg,1094,Sidon,rootID,recxiSg5QZWkj9Hy3,1093,Sidon
+rechwC9RVeZxnckLq,1095,Silla,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+recsSXHp8TaXQVDGH,1096,Siloam,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+rec6V51IWkgvAcnOU,1098,Sinai,rootID,rec5Yu6987dc60uKz,855,Mount Sinai
+recs4teVABvED3yZI,1099,Siphmoth,rootID,recprIzqujCsEq2cW,67,Anim
+recWQDkxXj0IjAdkn,1101,Sirion,rootID,rec1ET3TBR0oBaWJu,841,Mount Hermon
+recDNxYH4BhZWW7rS,1102,Sitnah,rootID,recNwG4bBkZyEhAT4,459,Gerar
+recKy7NeHhH4Ni3Tu,1104,Soco,rootID,recsVeoJRPG9LxKBN,1105,Socoh
+recBOEbIMlNPi1oX7,1106,Socoh,rootID,reclzdXLmXHPKYAou,325,Debir
+reclfB8zbauosDusS,1109,Solomon's Portico,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+recF0VYuuueFj48tB,1112,Straight Gate,rootID,recR67sC02MfTx4al,322,Damascus
+recDQR7BJjcXBBSmY,1115,Suph,rootID,recDQoz6r4QxWn5E3,986,Red Sea
+reczgVg7mPEze1G1R,1116,Suphah,rootID,recDQoz6r4QxWn5E3,986,Red Sea
+recjf4Aa0zHrkKhlj,1117,Sur,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+recEoYRAyVeAancS0,1122,Syria,rootID,recR67sC02MfTx4al,322,Damascus
+rec3EyLFEs77mZoka,1126,Tabbath,rootID,rec1TiGubP08v5qaM,8,Abel-meholah
+recQ251kc77r3HetT,1127,Taberah,rootID,recUD3AjGYUKz6ob7,544,Hazeroth
+recmyzVBdbLEBB0Y0,1128,Tabor (Mountain),rootID,recbTmIWQ3GZPZxdA,857,Mount Tabor
+recCZdm8vPvnjEex5,1129,Tabor (town),rootID,recQ8DF0pj7A20FyQ,290,Chesulloth
+recaVtOKQW8NtFlct,1130,Tabor (Plain),rootID,recJK76HLZSOzxTWW,202,Bethel (of Palestine)
+recn5STCT0Ju40KtJ,1132,Tahath,rootID,recn5ad7qKvkUdCyZ,842,Mount Hor
+recGwBS5vf8v2OCVU,1134,Tamar,rootID,recQPMnBRF46WaA5k,1131,Tadmor
+recTkPNELfzoOQb1p,1137,Tappuah,rootID,recz39CtLtpL5XsdL,384,Enam
+recxunh2VeXXyNApr,1138,Taralah,rootID,recegcIDXYN456Nlx,505,Haeleph
+rec7YbGNmyu5hdQZl,1141,Tehaphnehes,rootID,rec7RMIt09whPuuSU,1133,Tahpanhes
+recVhNCUeAS0F4spM,1143,Tel-abib,rootID,recTCLydxA9SiyYUl,269,Calneh
+recy0wVtUyvb64YSM,1144,Telaim,rootID,recNebppBEBJdV4YY,816,Moladah
+reckMtGITvZc8u1bI,1145,Telassar,rootID,receX4PMAVfHZyoCO,1118,Susa
+recH4JgAoJ7UVSGsv,1146,Telem,rootID,recNebppBEBJdV4YY,816,Moladah
+recjyykH1XegxAjRz,1147,Tel-harsha,rootID,recTCLydxA9SiyYUl,269,Calneh
+recP4pruL0bFAEipt,1148,Tel-melah,rootID,recTCLydxA9SiyYUl,269,Calneh
+recZ31xMdjbZ4fEUF,1151,Terah,rootID,recn5ad7qKvkUdCyZ,842,Mount Hor
+recQEUuywR0Ge1Xbl,1152,There,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+recsVabA4tEGT52Ym,1153,Place,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+recyLzZVuj6lpF5w9,1154,Skull,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+recWMy4BcpoOC3LSr,1155,Pavement,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+receUGVTCDMBusNhW,1162,Tibhath,rootID,recPhJtPyCKl7di9Y,179,Berothah
+recLqhClSrRFpvMvG,1167,Timnath-serah,rootID,recVJJVSqbm0DBuEb,1166,Timnath-heres
+recLMzdtXiHskli2K,1171,Tishbe,rootID,recCFbPoMSDmIyxXM,545,Hazor
+rec3kU3cxeTCp8t2S,1173,Tochen,rootID,recR2iltmaNI9n7HL,105,Ashnah
+recXH0UZI6yZKjxYj,1174,Tolad,rootID,recGvmVzGXwM0gcuz,138,Baalath-beer
+rec4usYdsZVP42UId,1176,Topheth,rootID,recsoRbSuiqYLSGzN,1207,Valley of Hinnom
+reczKwHT81lCIivSq,1177,Tower,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+recrQGkK6uDl8hxAn,1178,Shechem (tower),rootID,recUySlrBva4ffoVs,1069,Shechem
+recZDZhL8UbjPnNeu,1179,Tower,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+recMhcqIQlGkgMUZU,1180,Tower,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+recqcq8eIh3EAz3DG,1183,Tubal,rootID,recbCU03lFSJIIVGi,956,Pontus
+recQ3Rbzxg2nB04dj,1187,Uphaz,rootID,recxCz0P7YIE6Jp40,597,India
+recdamy0rKo9jHoE1,1192,Uzza,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+recRShKfG3aDWnBy5,1195,Gate of the Valley,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+recI70ks9Kw3KG5o7,1197,Valley of Aijalon,rootID,recAW3NovSbgdfNfk,40,Aijalon
+recI0bhf2ewWIHMRC,1199,Valley of Baca,rootID,recsoRbSuiqYLSGzN,1207,Valley of Hinnom
+recoY3rBC176SZA6S,1202,Brook Eshcol,rootID,recQea8xEa8yZBFdt,762,Mamre
+recvDlppuKNnN5srC,1203,Valley of Gerar,rootID,recNwG4bBkZyEhAT4,459,Gerar
+recUvwKFFrn3148Ey,1204,Valley of Gibeon,rootID,recYsXWjhw6FUqHLY,470,Gibeon
+recbHkRKRsfKeOQoB,1205,Valley of Hamongog,rootID,rechszjphdueUPvPi,331,Dibon
+receJZ08AoRHQmlIN,1206,Vale of Hebron,rootID,recQea8xEa8yZBFdt,762,Mamre
+rec5a5MQ9kYYHfV1e,1209,Valley of Jehoshaphat,rootID,reccf5Vf48NjEXaxz,687,Kidron
+recTBOPSkrsX4KzJf,1210,Valley of Jericho,rootID,recdMHFSmu222VnJG,634,Jericho
+rec6JzzIhK5VzoDuJ,1211,Valley of Jezreel,rootID,reczRCunsz83wZ1Q1,643,Jezreel
+recHRWYJ7bcqopj4i,1212,Valley of Lebanon,rootID,rec1ET3TBR0oBaWJu,841,Mount Hermon
+recZeNEbOWIqV0AmA,1216,Valley of Shaveh,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+recykm4CnCycDnjVI,1217,Valley of Shittim,rootID,recgfOCqzEYY932wA,10,Abel-shittim
+rec8S2KLxGycWJ6sv,1219,Valley of Slaughter,rootID,recsoRbSuiqYLSGzN,1207,Valley of Hinnom
+recGrj7fktYfxmcbO,1221,Valley of Succoth,rootID,recFcRV7goLrcQm17,1113,Succoth
+recDFPe1YrsI827hP,1224,Valley of Zered,rootID,rec0SjrDrVPzEPdRu,1253,Zered
+recbv8OwCVWm7wEAK,1225,River of Arnon,rootID,rec1NgBQ2zMeIsFyT,92,Arnon
+recBsRcVlu8hkiGKW,1226,Valley of the Son of Hinnom,rootID,recsoRbSuiqYLSGzN,1207,Valley of Hinnom
+recBmAFzEOaWeXu1s,1227,Valley of the Passengers,rootID,rechszjphdueUPvPi,331,Dibon
+recfesMknFZ653OLj,1228,Waheb,rootID,recDQoz6r4QxWn5E3,986,Red Sea
+recX579C9Sml7TQRI,1229,Field,rootID,recsoRbSuiqYLSGzN,1207,Valley of Hinnom
+recF7TDLi8QE5kF4P,1230,Water Gate,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+recEhDlKpvZLsUINW,1231,Way of Holiness,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+recc89MATZeevX9VK,1232,Rocks,rootID,rec47z6GarT41J5Vh,389,Engedi
+recyCJ7F5MmhXoXkw,1234,Zaanan,rootID,recdMxFAi6fN9Dn24,1062,Shaphir
+rechxVXjzHPlW6kyy,1235,Zaanannim,rootID,rec6G3mRvN9MpCyjT,676,Kedesh
+rec25eNzSTmosC7xU,1236,Zair,rootID,reciwuMXIVWYdwnZw,1271,Zoar
+recvt2PQbAxcUQYmR,1237,Zalmon,rootID,rec2YUNAEJFFfYOXk,832,Mount Ebal
+reclppTjqqEBmqIkn,1238,Zalmonah,rootID,rechszjphdueUPvPi,331,Dibon
+rec4vcolAuZ1BVvOs,1244,Zeboiim,rootID,recqAEHPEI3gAP9H8,27,Admah
+recAWbKj7JcLQWmme,1247,Zela,rootID,recegcIDXYN456Nlx,505,Haeleph
+recpCndYbcjFbX51Q,1250,Zenan,rootID,recdMxFAi6fN9Dn24,1062,Shaphir
+rectJBnQ5S4JYF8Ab,1252,Zer,rootID,reclzgV7mRRSxyhph,518,Hammath
+recXCWnyyE7m1i7kO,1254,Zeredah,rootID,rec2YUNAEJFFfYOXk,832,Mount Ebal
+reckGKmKPQ1J0jw8r,1255,Zeredah,rootID,recUlW6Qk0RBmMe07,1243,Zarethan
+recBysc3TP9gezHu2,1256,Zererah,rootID,recUlW6Qk0RBmMe07,1243,Zarethan
+recT6cIkKdDmWrX7M,1260,Zimri,rootID,receX4PMAVfHZyoCO,1118,Susa
+recM1lN580CYvi2y8,1261,Zin,rootID,recVfy9PlsXdODNGL,663,Kadesh-barnea
+rec8VO6kIG5kkTOhC,1262,Zin,rootID,recVfy9PlsXdODNGL,663,Kadesh-barnea
+reczPjeq0UdahiRrn,1263,Zion,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+recixwLRyYolnIwB6,1264,Zion's,rootID,recL1WV82pXaRBQ59,636,Jerusalem
+rec8PUlnPsEnCHu4s,1267,Ziph,rootID,recNebppBEBJdV4YY,816,Moladah
+recrZviKtXyV4rMGz,1268,Ziphron,rootID,reci0DJ1lahPFlLir,537,Hazar-enan
+recpkvM8CHSklH6RP,1272,Zobah,rootID,rec33RNDKwJDs9pBL,1246,Zedad
+recluhQrl8PcgaXJJ,1273,Zobah-Hamath,rootID,rec33RNDKwJDs9pBL,1246,Zedad
+recVTeVH1dYATcrWj,1276,Zuph,rootID,recYsXWjhw6FUqHLY,470,Gibeon

@@ -510,8 +510,10 @@ const typeDefs = gql`
     precision: String
     "Geographic feature type: \\"City\\", \\"Water\\", \\"Mountain\\", \\"Region\\", \\"Country\\", etc."
     featureType: String
-    "Root place IDs this place is derived from"
-    rootID: [String]
+    "Record ID of the place this record is another name for (Salem -> Jerusalem); empty on canonical records"
+    canonicalPlace: [String]
+    "Retired 2026-10-13; always empty"
+    rootID: [String] @deprecated(reason: "Retired 2026-10-13. Use canonicalPlace for other names of a place.")
     "Alternate names or aliases"
     aliases: String
     "URL to an external dictionary entry"
@@ -1300,6 +1302,7 @@ const resolvers = {
     comment:         (place) => place.fields.comment,
     precision:       (place) => place.fields.precision,
     featureType:     (place) => place.fields.featureType,
+    canonicalPlace:  (place) => place.fields.canonicalPlace || [],
     rootID:          (place) => place.fields.rootID || [],
     aliases:         (place) => place.fields.aliases,
     dictionaryLink:  (place) => place.fields.dictionaryLink,
