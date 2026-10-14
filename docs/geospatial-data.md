@@ -33,7 +33,7 @@ Every biblical place as one [Linked Places Format](https://github.com/LinkedPast
 - **`relations`:** 387 dated "part of" and "near" links, cited to verses: cities in the tribal territories of Joshua 13–19, sites in Jerusalem, New Testament cities in Roman regions, territories in the United Kingdom of Israel, the Northern Kingdom and Judah.
 - **`links`:** Digital Manna, Theographic, OpenBible.info, Pleiades (258 places) and Wikidata.
 
-How it is built, the decisions behind it, and how to rebuild it: [`geo/README.md`](../geo/README.md).
+How it is built, the decisions behind it, and how to rebuild it: the [`geo-pipeline`](https://github.com/robertrouse/theographic-bible-metadata/tree/geo-pipeline/geo) branch.
 
 ### `geo/pauls_journeys_all.geojson`
 

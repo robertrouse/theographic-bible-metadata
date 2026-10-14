@@ -1,80 +1,42 @@
-# geo/ — Bible Places in Linked Places Format
+# geo/ — Bible places for mapping
 
-`bible-places.geojson` is one GeoJSON FeatureCollection of 1,030 biblical
-places (every one with at least one verse reference) in [Linked Places Format (LPF)](https://github.com/LinkedPasts/linked-places-format),
-validated against the World Historical Gazetteer LPF schema v1.2.2. It merges
-[Digital Manna](https://www.digitalmanna.org), [Theographic](../json/places.json),
-[OpenBible.info](https://github.com/openbibleinfo/Bible-Geocoding-Data),
-[Pleiades](https://pleiades.stoa.org), Wikidata and
-[PeriodO](https://perio.do). `example-output.json` is the gold-standard record
-(Antioch of Syria) from the project spec.
+Two GeoJSON files, free to use under [CC BY-SA 4.0](../LICENSE). More detail in
+[Geospatial Data](../docs/geospatial-data.md).
 
-## What each feature has
+## `bible-places.geojson`
+
+Every place mentioned in the Bible as one
+[Linked Places Format](https://github.com/LinkedPasts/linked-places-format)
+FeatureCollection: 1,030 places, valid against the World Historical Gazetteer
+LPF schema v1.2.2, so it can be loaded into the
+[World Historical Gazetteer](https://whgazetteer.org/) or any GeoJSON tool.
+Every place has at least one verse reference.
 
 | Member | Content |
 |---|---|
-| `@id` | `https://bible.helloao.org/api/c/places/<Digital Manna slug>.json` (API not live yet) |
-| `properties.title` | Unique. Biblia title from OpenBible, else the Digital Manna name |
-| `properties.fclasses` | LPF classes H, L, P, R, S, T (never A; regions are L) |
-| `geometry` | Point `[lon, lat]` with `certainty` from OpenBible's score (≥ 500 `certain`, else `less-certain`). Unknown locations are an empty GeometryCollection |
-| `when` | Start only. The earliest ancient Pleiades attestation, or the earliest biblical mention (Theographic chronology) with its PeriodO period when the Bible is over 300 years earlier |
-| `names` | Every name with citations: Digital Manna, Theographic, OpenBible, and Pleiades (ancient attestations with language). An alias carries its own `when` from the verses that use it, e.g. Azotus (Acts) under Ashdod |
-| `relations` | Dated "part of" (`gvp:broaderPartitive`) and "near" (`gvp:tgn3000_related_to`) links to other features, with certainty and verse citations: cities in tribal territories (Joshua's allotment lists), sites in Jerusalem, NT cities in Roman regions (Digital Manna), territories in the kingdoms |
-| `links` | `seeAlso` to Digital Manna, Theographic, OpenBible, Pleiades, Wikidata |
+| `@id` | `https://bible.helloao.org/api/c/places/<slug>.json` (API not live yet) |
+| `properties.title` | Unique name, e.g. "Antioch (of Syria)" |
+| `properties.fclasses` | LPF class: P settlement, L region, T landform, H water, S site, R route |
+| `geometry` | Point `[lon, lat]` with `certainty` (`certain` / `less-certain`). Kingdoms are a MultiPoint of their territories; unknown locations are an empty GeometryCollection |
+| `when` | When the place is first attested: the earliest ancient attestation in Pleiades, or the earliest mention in the biblical narrative (Theographic chronology) with its [PeriodO](https://perio.do/) period. Kingdoms also have an end |
+| `names` | Every name of the place with citations, including ancient-language forms; a name used only in part of the Bible carries its own dates (Azotus under Ashdod, in Acts) |
+| `relations` | Dated "part of" and "near" links to other places, cited to verses: cities in the tribal territories of Joshua 13–19, sites in Jerusalem, New Testament cities in Roman regions, territories in the United Kingdom of Israel, the Northern Kingdom and Judah |
+| `links` | Digital Manna, Theographic, OpenBible.info, Pleiades, Wikidata |
 
-Kingdoms (United Kingdom of Israel, Northern Kingdom of Israel, Kingdom of
-Judah) are features too: their `when` has a start and an end, their geometry is
-a MultiPoint of their member territories, and each member carries a dated
-"part of" relation.
+Years are ISO 8601 astronomical years: `-1094` is 1095 BC.
 
-One feature is one real place. Places the sources split by name (Accho and
-Ptolemais, En-gedi and Hazazon-tamar) are merged, and the other names become
-dated aliases.
+## `pauls_journeys_all.geojson`
 
-## Rebuilding
+Paul's missionary journeys: 44 stops and 68 route segments, with verse
+references for each journey. Fields are described in
+[Geospatial Data](../docs/geospatial-data.md#geopauls_journeys_allgeojson).
 
-Requirements: Python 3.8+, internet access, and an authenticated `gh` CLI with
-read access to the private `digitalmanna/stewards_data` repo. Validation also
-needs `pip install jsonschema`.
+## How `bible-places.geojson` is made
 
-```bash
-geo/pipeline/run_all.sh            # add --refresh to re-download sources
-python3 geo/pipeline/phase10_validate.py
-cp geo/working/phase-9b-output.geojson geo/bible-places.geojson
-```
+It is built from this repository's `json/` place data, Digital Manna,
+OpenBible.info, Pleiades, Wikidata and PeriodO. The build scripts, the
+editorial decisions behind the merges and dates, and the Airtable sync logs are
+kept on the [`geo-pipeline`](https://github.com/robertrouse/theographic-bible-metadata/tree/geo-pipeline/geo)
+branch.
 
-The inputs are `json/` (export it first with `etl/export_airtable.py`, or use
-the monthly export) and the sources `fetch_sources.py` caches. Everything is
-written to `geo/working/` (not committed). Nothing overwrites
-`bible-places.geojson` until the copy step.
-
-| Step | Script | Does |
-|---|---|---|
-| fetch | `fetch_sources.py` | Caches DM places, OpenBible, Wikidata→Pleiades, Pleiades dumps |
-| 5 | `phase5_crosswalk.py` | Joins DM, Theographic, OpenBible, Tyndale, Pleiades, Wikidata IDs; writes review lists |
-| 6 | `phase6_rebuild.py` | Applies `decisions.json`; builds features with title, fclasses, geometry, links |
-| 8 | `phase8_pleiades.py` | Validates and expands Pleiades links; finds earliest ancient attestations |
-| 7 | `phase7_names.py` | Builds `names[]` (runs after 8, since it uses the final Pleiades links) |
-| 9 | `phase9_when.py` | Feature `when{}` from Pleiades, Theographic and PeriodO |
-| 9b | `phase9b_relations.py` | "part of" / "near" relations; kingdom dates and geometry |
-| 10 | `phase10_validate.py` | Structure, WHG LPF schema, and HTTP check of every link |
-
-## Curated inputs (committed)
-
-| File | Purpose |
-|---|---|
-| `decisions.json` | Human decisions: merges, keep-separates, orphan assignments, exclusions, Pleiades picks, titles, fclasses, coordinates, dates, anchor verses, kingdoms, Joshua allotment ranges, and curated part-of/near pairs. Each says who made it. Edit and re-run |
-| `pipeline/periodo_neaehl.json` | Holy Land periods from PeriodO (Stern, *NEAEHL*, 1993) |
-| `legacy/bible-places-2026-03.geojson` | The March 2026 file, read for old `@id`s, fclasses and coordinates |
-| Airtable `places` fields | `partOf`, `near`, `startYear`, `endYear` and `canonicalPlace` are read from the export: a link added in Airtable becomes a relation on the next rebuild |
-
-## Review files
-
-Each phase writes a report (`phase-N-report.md`) and CSVs with an empty
-`decision` column for anything it would not decide on its own:
-`phase-5-review-*.csv`, `phase-6-review-coordinates.csv`,
-`phase-8-review-pleiades.csv`, `phase-9-review-pleiades-later.csv`,
-`phase-10-broken-links.csv`. Open items are tracked in `NOTES.md`.
-
-`agent-instructions/` holds the instructions for the original phases 1–4
-(March 2026), kept for history; the pipeline above replaces them.
+Found an error? [Report a data correction](https://github.com/robertrouse/theographic-bible-metadata/issues/new?template=data-correction.yml).
