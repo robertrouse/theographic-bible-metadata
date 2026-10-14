@@ -445,7 +445,7 @@ This table catalogs all geographic locations mentioned in the Bible. Each record
 | `comment` | string | Incomplete | Comments from OpenBible.info/geo |
 | `precision` | string | Incomplete | Relative accuracy of lat/long assignment |
 | `featureType` | string | Incomplete | Broad classification such as City, Region, Water, Mountain. Populated for 744 of 1,298 place records. |
-| `canonicalPlace` | array | Populated | The record ID of the place record this record is another name for (e.g. Salem → Jerusalem). Empty on the canonical record and on places with only one name. Each record keeps its own verses, so each name keeps its own time frame. Replaces `rootID` and `duplicate_of`, retired 2026-10-13 (archived in `geo/airtable/`). |
+| `canonicalPlace` | array | Populated | The record ID of the place record this record is another name for (e.g. Salem → Jerusalem). Empty on the canonical record and on places with only one name. Each record keeps its own verses, so each name keeps its own time frame. Replaces `rootID` and `duplicate_of`, retired 2026-10-13 (values archived on the [`geo-pipeline`](https://github.com/robertrouse/theographic-bible-metadata/tree/geo-pipeline/geo/airtable) branch). |
 | `otherNames` | array | Populated | On a canonical record, the records that point to it via `canonicalPlace` (the other names of this place). |
 | `partOf` | array | Populated | Record IDs of the places this place lies within: a city's tribal territory (Joshua's allotment lists), a site's city (gates of Jerusalem), a city's Roman region, a territory's kingdom. A place can be part of several (Zorah: Dan and Judah). Set on canonical records. |
 | `parts` | array | Populated | On a containing place, the records whose `partOf` points to it. |
