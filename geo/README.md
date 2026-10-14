@@ -1,5 +1,15 @@
 # geo/ — Bible Places in Linked Places Format
 
+> **This is the `geo-pipeline` branch: the build workspace, not the published data.**
+> `master` carries only `geo/README.md`, `geo/bible-places.geojson` and
+> `geo/pauls_journeys_all.geojson`. Everything else here (pipeline, decisions,
+> Airtable sync logs and archive, legacy input, notes) lives on this branch only.
+>
+> To rebuild: merge `master` into this branch (for the latest `json/`), run the
+> pipeline below, then copy `geo/working/phase-9b-output.geojson` to
+> `geo/bible-places.geojson` **on `master`** (a PR from a branch off `master`).
+> Keep public-facing documentation in `master`'s `geo/README.md`.
+
 `bible-places.geojson` is one GeoJSON FeatureCollection of 1,030 biblical
 places (every one with at least one verse reference) in [Linked Places Format (LPF)](https://github.com/LinkedPasts/linked-places-format),
 validated against the World Historical Gazetteer LPF schema v1.2.2. It merges
