@@ -15,6 +15,13 @@ Output format
   exists are dropped, and new Airtable fields are reported but not added (add them to the CSV
   header by hand to start exporting them).
 - Records in both formats follow each table's "Grid view" order, so diffs between exports stay small.
+
+Definitions
+- The `definitions` table holds the generated, verse-cited definitions (theographic-web CP-08). It
+  is the source of truth for their text and review status. It exports like every other table, to
+  json/definitions.json and CSV/Definitions.csv; theographic-web reads the JSON (rows with status
+  `rejected` are not published) and resolves its person/place/event and citation links through the
+  people, places, events and verses exports from the same run, so export all tables together.
 """
 import csv
 import json
@@ -30,6 +37,7 @@ VIEW = 'Grid view'
 CSV_NAMES = {
     'books': 'Books', 'chapters': 'Chapters', 'verses': 'Verses', 'places': 'Places',
     'people': 'People', 'peopleGroups': 'PeopleGroups', 'events': 'Events', 'easton': 'Easton',
+    'definitions': 'Definitions',
 }
 LINK_TYPES = {'multipleRecordLinks'}
 LIST_TYPES = {'multipleLookupValues', 'rollup'}
@@ -44,15 +52,22 @@ def get(path, params=None):
     if params:
         url += '?' + urllib.parse.urlencode(params, doseq=True)
     request = urllib.request.Request(url, headers={'Authorization': 'Bearer ' + TOKEN})
-    for _ in range(6):
+    for attempt in range(6):
         try:
             return json.loads(urllib.request.urlopen(request, timeout=120).read())
         except urllib.error.HTTPError as e:
             if e.code == 429:  # rate limited: Airtable asks for a 30 s pause
                 time.sleep(30)
                 continue
+            if e.code >= 500:
+                time.sleep(5 * (attempt + 1))
+                continue
             raise
-    raise RuntimeError('Airtable kept rate-limiting the export')
+        except (TimeoutError, urllib.error.URLError, ConnectionError) as e:
+            # A dropped or stalled connection mid-export: back off and retry the same page.
+            print(f'  retrying after {type(e).__name__}', flush=True)
+            time.sleep(5 * (attempt + 1))
+    raise RuntimeError('Airtable kept failing the export (rate limits or network)')
 
 
 def quote(value):
