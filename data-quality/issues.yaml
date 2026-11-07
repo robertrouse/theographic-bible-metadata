@@ -614,3 +614,37 @@
   fixed: { date: null, sha: null }
   github: null
   affects: [theographic-web]
+- id: DQ-0024
+  title: Collective nation and tribe references link to ancestor persons
+  status: needs-research
+  type: bad-link
+  severity: medium
+  table: verses
+  records:
+    - { id: recqWpJgCvTnPl0Mu, key: "Exod.1.7" }
+  field: people
+  current: >-
+    Collective nation and tribe references are tagged to ancestor person records.
+    Exod.1.7 links to israel_682 (recsU2ZSdzBvDqzgI).
+    Group verse coverage is sparse: Tribe of Judah has 278 members and 1 verse;
+    Tribe of Levi has 180 members and 0 verses; Nation of Israel has 12 verses
+    and 0 members.
+  proposed: >-
+    Tag confirmed collective references to the appropriate existing peopleGroups
+    records rather than ancestor persons. Review occurrences and relationship
+    semantics before making changes; no bulk fix.
+  evidence: >-
+    Exod 1:7 describes the multiplying children of Israel, not Jacob individually.
+    Current GitHub JSON and live Airtable agree on the example person link and
+    the cited group member and verse counts. Prov 25:1 already links to Tribe
+    of Judah through peopleGroups, demonstrating that group verse links are supported.
+  checks: []
+  rule: null
+  found: { date: 2026-11-07, by: "external user report, verified against GitHub JSON and Airtable", sha: 4af2272ffcc5c77621e3877c7567b742adb0824f }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [consumer-timeline]
+  notes: >-
+    Sparse use of supported group verse links, not an inability of group records
+    to carry verses. Obad 1:1 also has an Esau rendered link absent from its
+    people array; review rendered links alongside tags.
