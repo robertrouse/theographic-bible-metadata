@@ -35,6 +35,7 @@
 #   - Person tags stay whenever the verse names the person, even in a later context.
 #     Collective phrases ("children of Israel") get the group ADDED alongside the person.
 #   - Geo changes must sync between Airtable places and the geo/ GeoJSON (Linked Places).
+#     Rerun the geo consistency check after every geo build or Airtable place edit.
 
 - id: DQ-0001
   title: Lifetime of Jacob uses Isaac's age (180 years) instead of 147
@@ -777,3 +778,135 @@
   affects: []
   notes: >-
     Cosmetic.
+- id: DQ-0031
+  title: Place coordinates differ between Airtable and GeoJSON
+  status: needs-research
+  type: wrong-value
+  severity: high
+  table: places
+  records: []
+  field: latitude, longitude
+  current: >-
+    678 places differ: 390 by 1-25 km, 288 by over 25 km (34 over 500 km). Abana Airtable 33.5451, 36.2247 vs GeoJSON 33.5135, 36.305; Achaia 37.5, 22.5 vs 38.72, 22.54; Ophir 27.5, 67.5 (Pakistan) vs 18.22, 42.5 (Arabia).
+  proposed: >-
+    Pick one master source for coordinates and sync the other; review and reconcile all differences over 25 km first.
+  evidence: >-
+    Features matched to Airtable lookup via Theographic link; haversine distance. Airtable mostly from OpenBible, GeoJSON from Pleiades and DigitalManna.
+  checks: []
+  rule: null
+  found: { date: 2026-11-07, by: "geo consistency check (Airtable vs geo/bible-places.geojson)", sha: 4af2272ffcc5c77621e3877c7567b742adb0824f }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [geo]
+  notes: >-
+    Root cause: GeoJSON is built on the geo-pipeline branch with no write-back to Airtable. Rerunnable check at /workspace/dq-geo/geo_check.py.
+- id: DQ-0032
+  title: Missing or half-filled coordinates between Airtable and GeoJSON
+  status: open
+  type: missing-link
+  severity: medium
+  table: places
+  records: []
+  field: latitude, longitude
+  current: >-
+    22 places have a GeoJSON point but no full Airtable coordinate: Gihon (Eden) none vs 31.4653, 30.3667; latitude without longitude for azotus_132, clauda_280, chios_296 (38.414 vs GeoJSON 38.3725, 26.1375), lasea_717, phrygia_946. Reverse: Biziothiah (31.245, 34.841) and Nebaioth have Airtable points but empty GeoJSON geometry.
+  proposed: >-
+    Fill Airtable from GeoJSON for the 22; set GeoJSON points or mark unlocated for Biziothiah and Nebaioth.
+  evidence: >-
+    Null and partial coordinate scan across both sources.
+  checks: []
+  rule: null
+  found: { date: 2026-11-07, by: "geo consistency check (Airtable vs geo/bible-places.geojson)", sha: 4af2272ffcc5c77621e3877c7567b742adb0824f }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [geo]
+  notes: >-
+    Half-filled records suggest a source-field gap.
+- id: DQ-0033
+  title: Airtable place records absent from GeoJSON, several not real places
+  status: needs-research
+  type: missing-record
+  severity: medium
+  table: places
+  records: []
+  field: places
+  current: >-
+    11 main records missing from GeoJSON: Holy Place (x2), Most Holy Place (x2), Most Holy, Azazel, Nodab, Nohah, Naphish, "There", "Judgment".
+  proposed: >-
+    Merge into the right main record, reclassify (e.g. Nodab and Naphish as peoples, Azazel), or remove from places.
+  evidence: >-
+    Set difference of Airtable main records vs GeoJSON features.
+  checks: []
+  rule: null
+  found: { date: 2026-11-07, by: "geo consistency check (Airtable vs geo/bible-places.geojson)", sha: 4af2272ffcc5c77621e3877c7567b742adb0824f }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [geo]
+  notes: >-
+    Leave GeoJSON as is.
+- id: DQ-0034
+  title: Feature type and precision not mapped consistently
+  status: open
+  type: schema
+  severity: medium
+  table: places
+  records: []
+  field: featureType, precision
+  current: >-
+    featureType filled on only 744 of 1,298 Airtable records. 6 GeoJSON settlements are Airtable "Region", 5 GeoJSON water features are "Landmark". 56 "Rough" and 1 "Unlocated" are GeoJSON certain; 30 "Related-*" are less-certain.
+  proposed: >-
+    Define mapping (Precise/Center to certain; Rough/Unlocated to less-certain) and backfill featureType from GeoJSON class after review.
+  evidence: >-
+    Field-by-field comparison of matched records.
+  checks: []
+  rule: null
+  found: { date: 2026-11-07, by: "geo consistency check (Airtable vs geo/bible-places.geojson)", sha: 4af2272ffcc5c77621e3877c7567b742adb0824f }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [geo]
+  notes: >-
+    
+- id: DQ-0035
+  title: Place names and titles differ between Airtable and GeoJSON
+  status: open
+  type: typo
+  severity: low
+  table: places
+  records: []
+  field: displayTitle, aliases
+  current: >-
+    23 Airtable titles not among GeoJSON names, mostly variants (Beersheba vs Beer-Sheba, Engedi). Generic lookups on specific places: river_1010 "River" (Euphrates), rock_1011 "Rock" (Maon), tower_1177 "Tower" (Tower of Hananel); kadesh_662 matched to Tahtim-Hodshi looks wrong. Alias "Mars Hill" missing from Areopagus names.
+  proposed: >-
+    Add variants as GeoJSON names; give generic titles specific names; fix kadesh_662 link.
+  evidence: >-
+    Name and alias set comparison.
+  checks: []
+  rule: null
+  found: { date: 2026-11-07, by: "geo consistency check (Airtable vs geo/bible-places.geojson)", sha: 4af2272ffcc5c77621e3877c7567b742adb0824f }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [geo]
+  notes: >-
+    
+- id: DQ-0036
+  title: Implausibly deep first-attestation dates in GeoJSON
+  status: open
+  type: wrong-value
+  severity: low
+  table: places
+  records: []
+  field: when
+  current: >-
+    Accho -2,600,000; Euphrates -18,000; Tyre -10,000.
+  proposed: >-
+    Clamp to biblical-narrative or sensible Pleiades period dates.
+  evidence: >-
+    Range scan of when.start values.
+  checks: []
+  rule: null
+  found: { date: 2026-11-07, by: "geo consistency check (Airtable vs geo/bible-places.geojson)", sha: 4af2272ffcc5c77621e3877c7567b742adb0824f }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [geo]
+  notes: >-
+    Likely inherited from Pleiades prehistoric periods.
