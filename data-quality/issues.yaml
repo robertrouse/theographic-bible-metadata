@@ -570,6 +570,13 @@
   fixed: { date: null, sha: null }
   github: null
   affects: [theographic-web]
+  notes: >-
+    Targeted review 2026-11-07: Josh 15:25 really calls Kerioth-hezron Hazor, unlike
+    the border Hezron of 15:3. This is a plausible name-conflation mechanism, not proven history.
+    TIPNR distinguishes H2696I (15:25) and H2696J (15:3), yet links the latter to northern Hazor.
+    Current northern coordinates remain wrong; proposed identity stays southern border near Kadesh,
+    not Kerioth-hezron. See DQ-0024 and
+    https://www.biblegateway.com/resources/encyclopedia-of-the-bible/Kerioth-Hezron .
 
 - id: DQ-0022
   title: Two more misspelled event titles (Sampson, Zaccheus)
@@ -614,3 +621,51 @@
   fixed: { date: null, sha: null }
   github: null
   affects: [theographic-web]
+
+- id: DQ-0024
+  title: Southern Hazor alias has northern Tel Hazor metadata and Josh 15:25 mis-tags Hazor-hadattah
+  status: needs-research
+  type: wrong-value
+  severity: medium
+  table: places
+  records:
+    - { id: recnzE5hzdUKE6HSX, key: "kerioth-hezron_684" }
+    - { id: recEZk6tOBSVS51AC, key: "hazor_547 (canonicalPlace kerioth-hezron_684)" }
+    - { id: recIXGJ5SbRqnDFoG, key: "hazor-hadattah_550" }
+  field: recogitoUri
+  current: >-
+    hazor_547 links northern Tel Hazor (Pleiades 779967430; recogitoLat/recogitoLon
+    33.01746212803129,35.56813718), despite canonicalPlace kerioth-hezron_684 and Josh 15:25.
+    The southern records share primary coordinates 31.162327,35.057114 (Rough).
+    Josh 15:25 recLK8NsrqyGZCtGH richText/mdText target the FIRST Hazor at hazor_547,
+    and Hadattah at hazor-hadattah_550.
+  proposed: >-
+    Remove/research northern Tel Hazor crosslink and derived metadata on hazor_547.
+    Link both words of initial Hazor-hadattah to hazor-hadattah_550; keep final Hazor
+    as alias of Kerioth-hezron. Preserve the compound Kerioth/Hezron links already present.
+    Reassess shared regional coordinates, not an automatic replacement: Khirbet el Qaryatein
+    (31.344952,35.124376) is a possible site, not a proven identification.
+  evidence: >-
+    Remote json/places.json and json/verses.json at 2ee468c show the crosslinks and wording.
+    https://www.biblegateway.com/passage/?search=Joshua%2015%3A25&version=ESV;KJV
+    distinguishes Hazor-hadattah from Kerioth-hezron (that is, Hazor).
+    https://www.biblegateway.com/resources/encyclopedia-of-the-bible/Kerioth-Hezron
+    identifies the latter in Judah's Negeb, usually Khirbet el-Qaryatein south of Maon.
+    https://www.openbible.info/geo/ancient/af66926/kerioth-hezron gives that candidate
+    35% confidence with alternatives. Modern candidate coordinates:
+    https://www.openbible.info/geo/modern/mf10950/khirbet-el-qaryatein .
+    TIPNR Kerioth-hezron@Jos.15.25 H7152G+H2696I, Hazor@Jos.15.25 H2674I,
+    and Hazor-hadattah H2675 all use the current near-Moladah regional anchor.
+    https://github.com/BibleAquifer/ACAI/blob/main/places/json/Kerioth-hezron.json
+    repeats these coordinates and explicitly crosslinks recnzE5hzdUKE6HSX; not independent support.
+  checks:
+    - { record: recEZk6tOBSVS51AC, field: recogitoUri, not_matches: "779967430" }
+  rule: null
+  found: { date: 2026-11-07, by: "Web Helper targeted Kerioth-hezron peer review", sha: 2ee468c }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [theographic-web]
+  notes: >-
+    High confidence in bad northern metadata and initial Hazor verse-link; modern site remains uncertain.
+    Keep Hezron Josh 15:3 (DQ-0021), Hazor Josh 15:23, and Hazor-hadattah separate.
+    Notion evidence: https://app.notion.com/p/4114a2f03514815d8892fbb6ae4fa8db .
