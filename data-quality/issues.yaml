@@ -1,0 +1,238 @@
+# Theographic data-quality ledger
+#
+# One entry per issue. This file is the system of record for known data problems,
+# whatever their origin: found by hand, by a consumer build (e.g. the timeline poster),
+# by an automated rule, or reported through the GitHub "Data correction" issue form.
+# Fixes happen in Airtable; the next export plus `checks` below confirm them.
+#
+# Fields
+#   id          DQ-#### (never reused)
+#   title       one line
+#   status      open | needs-research | fixed | wontfix
+#   type        wrong-value | off-by-one | bad-link | typo | missing-record
+#   severity    high (wrong on a published chart) | medium | low (cosmetic)
+#   table       events | people | places | verses | books | ...
+#   records     [{ id: Airtable rec ID, key: human-readable key }]
+#   field       field name as exported to json/
+#   current     value at `found.sha`
+#   proposed    the correct value, if known
+#   evidence    Scripture, a source from docs/data-source-bibliography.md, or the data's own rules
+#   checks      machine-checkable assertions that are true once fixed
+#               ops: equals | not_equals | contains | not_contains | matches | not_matches
+#   rule        name of the automated rule that detects this class of problem (optional)
+#   found       { date, by, sha }   sha = theographic commit the issue was observed at
+#   fixed       { date, sha }       filled when checks pass on an export
+#   github      issue number, if one exists
+#   affects     downstream consumers that showed the problem
+#   notes       free text
+
+- id: DQ-0001
+  title: Lifetime of Jacob uses Isaac's age (180 years) instead of 147
+  status: open
+  type: wrong-value
+  severity: high
+  table: events
+  records:
+    - { id: recTkocSMI0NxpIrw, key: "Lifetime of Jacob (eventID 86)" }
+  field: duration
+  current: "180Y"
+  proposed: "147Y"
+  evidence: >-
+    Gen 47:28 (Jacob lived 147 years). Death of Jacob (recwCFb0NhrYMkl8t) is already
+    Birth of Jacob and Esau + 147Y = -1688, so the lifetime bar ends 33 years after his death.
+  checks:
+    - { record: recTkocSMI0NxpIrw, field: duration, equals: "147Y" }
+  rule: lifetime-matches-birth-death
+  found: { date: 2026-11-04, by: "timeline poster v0.2 (normalize.mjs)", sha: 3f461f2 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [timeline-poster]
+
+- id: DQ-0002
+  title: Lifetime of Abraham starts a year before Birth of Abraham
+  status: open
+  type: off-by-one
+  severity: medium
+  table: events
+  records:
+    - { id: recfnatCOLEHFYeLB, key: "Lifetime of Abraham (eventID 66)" }
+  field: startDate
+  current: "-1996"
+  proposed: "-1995"
+  evidence: >-
+    Birth of Abraham (recXveJRjCtPNMLqs) was corrected to -1995 (1996 BC) in October 2026;
+    Death of Abraham is -1820 = birth + 175Y. The lifetime span was not updated.
+    Its predecessor is Birth of Abraham, so it currently starts before its own predecessor.
+  checks:
+    - { record: recfnatCOLEHFYeLB, field: startDate, equals: "-1995" }
+  rule: lifetime-matches-birth-death
+  found: { date: 2026-11-04, by: "timeline poster v0.2 (normalize.mjs)", sha: 3f461f2 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [timeline-poster]
+  notes: Moving the start also moves the column-1/column-2 boundary used by the poster (-1996).
+
+- id: DQ-0003
+  title: Death of Moses is a year earlier than its own predecessor + lag rule
+  status: open
+  type: off-by-one
+  severity: medium
+  table: events
+  records:
+    - { id: recxj71m6XPSaqIg2, key: "Death of Moses (eventID 129)" }
+  field: startDate
+  current: "-1451"
+  proposed: "-1450"
+  evidence: >-
+    Predecessor Birth of Moses (-1570) + lag 120Y FS = -1450 (1451 BC). Deut 34:7 (120 years).
+    Lifetime of Moses (recJOhn4C4yKIJmvH) already ends at -1450. Confirm against Jones, Appendix F.
+  checks:
+    - { record: recxj71m6XPSaqIg2, field: startDate, equals: "-1450" }
+  rule: date-matches-predecessor-lag
+  found: { date: 2026-11-04, by: "timeline poster v0.2 (normalize.mjs)", sha: 3f461f2 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [timeline-poster]
+
+- id: DQ-0004
+  title: Joshua's lifetime and death disagree by 13 years
+  status: needs-research
+  type: wrong-value
+  severity: medium
+  table: events
+  records:
+    - { id: rechguBS4b9kXx3z3, key: "Lifetime of Joshua (eventID 124)" }
+    - { id: recnPiyyKviVUPHO6, key: "Death of Joshua (eventID 133)" }
+  field: startDate
+  current: "Lifetime -1520 + 110Y = -1410; Death -1423"
+  proposed: null
+  evidence: >-
+    Josh 24:29 (110 years). Either the lifetime starts at -1533 or the death is at -1410;
+    check Jones. Death of Joshua also carries lag 110Y FS but has no predecessor (no Birth of Joshua event).
+  checks: []
+  rule: lifetime-matches-birth-death
+  found: { date: 2026-11-04, by: "timeline poster v0.2 (normalize.mjs)", sha: 3f461f2 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [timeline-poster]
+
+- id: DQ-0005
+  title: Death of Isaac lists itself as its predecessor
+  status: open
+  type: bad-link
+  severity: low
+  table: events
+  records:
+    - { id: recnTimjDqmxMYqRZ, key: "Death of Isaac (eventID 110)" }
+  field: predecessor
+  current: "[recnTimjDqmxMYqRZ] (itself), lag 180Y FS"
+  proposed: "Birth of Isaac, lag 180Y FS"
+  evidence: Gen 35:28. A self-link creates a cycle for any topological ordering of events.
+  checks:
+    - { record: recnTimjDqmxMYqRZ, field: predecessor, not_contains: recnTimjDqmxMYqRZ }
+  rule: predecessor-acyclic
+  found: { date: 2026-11-04, by: "timeline poster v0.2 (normalize.mjs)", sha: 3f461f2 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [timeline-poster]
+
+- id: DQ-0006
+  title: Reign of Jehu has Reign of Joash (later) as its predecessor
+  status: open
+  type: bad-link
+  severity: low
+  table: events
+  records:
+    - { id: reck6rXD9hZiDk0Kz, key: "Reign of Jehu (eventID 190)" }
+  field: predecessor
+  current: "[recwy2j4O3x7NcWz5 Reign of Joash], lag 7Y SS"
+  proposed: "the reign Jehu follows (Reign of Joram of Israel), with the correct lag"
+  evidence: >-
+    Joash's own predecessor is Jehu (lag 7Y SS, correct). Jehu's link looks like that relationship
+    copied in reverse, and it forms a two-event cycle.
+  checks:
+    - { record: reck6rXD9hZiDk0Kz, field: predecessor, not_contains: recwy2j4O3x7NcWz5 }
+  rule: predecessor-acyclic
+  found: { date: 2026-11-04, by: "timeline poster v0.2 (normalize.mjs)", sha: 3f461f2 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [timeline-poster]
+
+- id: DQ-0007
+  title: Jerusalem Council (AD 46) has Paul Writes Galatians (AD 49) as its predecessor
+  status: needs-research
+  type: bad-link
+  severity: low
+  table: events
+  records:
+    - { id: recwmsQ1HEDGztu9O, key: "Jerusalem Council (eventID 344)" }
+    - { id: reco0fEiYQ6hKFYc5, key: "Paul Writes Galatians (eventID 347)" }
+  field: predecessor
+  current: "Jerusalem Council 0046, predecessor Paul Writes Galatians 0049-10-01"
+  proposed: null
+  evidence: Either the link or one of the dates is wrong; check against Atwood's Acts timeline.
+  checks: []
+  rule: predecessor-not-later
+  found: { date: 2026-11-04, by: "timeline poster v0.2 (normalize.mjs)", sha: 3f461f2 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [timeline-poster]
+
+- id: DQ-0008
+  title: Misspelled event titles
+  status: open
+  type: typo
+  severity: low
+  table: events
+  records:
+    - { id: rec2xII53pVseJCB6, key: "The Annuciation (250)" }
+    - { id: recbbehq3RkfnSmCE, key: "The Transfiguation (406)" }
+    - { id: reclZp6jMKWzYmop9, key: "Lazarus Raised form the Dead (433)" }
+    - { id: recVUI3XqN3CdNF1k, key: "Jesus Circumsized (259)" }
+    - { id: recqtoV4JQiYCmkZN, key: "Discourse with Pharisees and Saducees (402)" }
+    - { id: rec1qE6wAe0XINRoV, key: "Gamaliel advises the counsel and Apostles freed (318)" }
+    - { id: recmY05Xj0sxEcdCh, key: "Reign of Johoahaz (Shallum) (237)" }
+    - { id: recsgU87rUrPKR9uA, key: "Death of Jehoahash (201)" }
+  field: title
+  current: see records
+  proposed: >-
+    The Annunciation; The Transfiguration; Lazarus Raised from the Dead; Jesus Circumcised;
+    Discourse with Pharisees and Sadducees; Gamaliel advises the council and Apostles freed;
+    Reign of Jehoahaz (Shallum); Death of Jehoash
+  evidence: Spelling; the last two should match the person records' names.
+  checks:
+    - { record: rec2xII53pVseJCB6, field: title, not_matches: "Annuciation" }
+    - { record: recbbehq3RkfnSmCE, field: title, not_matches: "Transfiguation" }
+    - { record: reclZp6jMKWzYmop9, field: title, not_matches: " form " }
+    - { record: recVUI3XqN3CdNF1k, field: title, not_matches: "Circumsized" }
+    - { record: recqtoV4JQiYCmkZN, field: title, not_matches: "Saducees" }
+    - { record: rec1qE6wAe0XINRoV, field: title, not_matches: "counsel" }
+    - { record: recmY05Xj0sxEcdCh, field: title, not_matches: "Johoahaz" }
+    - { record: recsgU87rUrPKR9uA, field: title, not_matches: "Jehoahash" }
+  rule: null
+  found: { date: 2026-11-04, by: "timeline poster v0.2 (visual proof)", sha: 3f461f2 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [timeline-poster]
+  notes: Fixed when every check passes; partial fixes stay open.
+
+- id: DQ-0009
+  title: No events for the Exile and Return
+  status: needs-research
+  type: missing-record
+  severity: medium
+  table: events
+  records: []
+  field: null
+  current: "After -584 the events table has only Prophecies of Haggai, Zechariah and Malachi."
+  proposed: >-
+    Fall of Samaria; fall of Jerusalem and the deportations; decree of Cyrus; temple rebuilt;
+    Esther; Ezra's return; Nehemiah's walls, all dated per Jones.
+  evidence: 2 Kgs 17, 25; Ezra 1-10; Neh 1-13; Esth 1-10
+  checks: []
+  rule: null
+  found: { date: 2026-11-04, by: "timeline poster v0.2 (column 3 review)", sha: 3f461f2 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [timeline-poster]
+  notes: "Reign end dates already imply two anchors: Hoshea ends -720 (721 BC), Zedekiah ends -585 (586 BC)."
