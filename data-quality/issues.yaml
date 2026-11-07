@@ -1,0 +1,616 @@
+# Theographic data-quality ledger
+#
+# One entry per issue. This file is the system of record for known data problems,
+# whatever their origin: found by hand, by a consumer build (e.g. the timeline poster),
+# by an automated rule, or reported through the GitHub "Data correction" issue form.
+# Fixes happen in Airtable; the next export plus `checks` below confirm them.
+#
+# Fields
+#   id          DQ-#### (never reused)
+#   title       one line
+#   status      open | needs-research | fixed | wontfix
+#   type        wrong-value | off-by-one | bad-link | typo | missing-record |
+#               missing-link (record exists, its verse links do not) |
+#               duplicate-record | schema (a field's shape, not its value)
+#   severity    high (wrong on a published chart) | medium | low (cosmetic)
+#   table       events | people | places | verses | books | ...
+#   records     [{ id: Airtable rec ID, key: human-readable key }]
+#   field       field name as exported to json/
+#   current     value at `found.sha`
+#   proposed    the correct value, if known
+#   evidence    Scripture, a source from docs/data-source-bibliography.md, or the data's own rules
+#   checks      machine-checkable assertions that are true once fixed
+#               ops: equals | not_equals | contains | not_contains | matches | not_matches
+#   rule        name of the automated rule that detects this class of problem (optional)
+#   found       { date, by, sha }   sha = theographic commit the issue was observed at
+#   fixed       { date, sha }       filled when checks pass on an export
+#   github      issue number, if one exists
+#   affects     downstream consumers that showed the problem
+#   notes       free text
+
+- id: DQ-0001
+  title: Lifetime of Jacob uses Isaac's age (180 years) instead of 147
+  status: open
+  type: wrong-value
+  severity: high
+  table: events
+  records:
+    - { id: recTkocSMI0NxpIrw, key: "Lifetime of Jacob (eventID 86)" }
+  field: duration
+  current: "180Y"
+  proposed: "147Y"
+  evidence: >-
+    Gen 47:28 (Jacob lived 147 years). Death of Jacob (recwCFb0NhrYMkl8t) is already
+    Birth of Jacob and Esau + 147Y = -1688, so the lifetime bar ends 33 years after his death.
+  checks:
+    - { record: recTkocSMI0NxpIrw, field: duration, equals: "147Y" }
+  rule: lifetime-matches-birth-death
+  found: { date: 2026-11-04, by: "timeline poster v0.2 (normalize.mjs)", sha: 3f461f2 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [timeline-poster]
+
+- id: DQ-0002
+  title: Lifetime of Abraham starts a year before Birth of Abraham
+  status: open
+  type: off-by-one
+  severity: medium
+  table: events
+  records:
+    - { id: recfnatCOLEHFYeLB, key: "Lifetime of Abraham (eventID 66)" }
+  field: startDate
+  current: "-1996"
+  proposed: "-1995"
+  evidence: >-
+    Birth of Abraham (recXveJRjCtPNMLqs) was corrected to -1995 (1996 BC) in October 2026;
+    Death of Abraham is -1820 = birth + 175Y. The lifetime span was not updated.
+    Its predecessor is Birth of Abraham, so it currently starts before its own predecessor.
+  checks:
+    - { record: recfnatCOLEHFYeLB, field: startDate, equals: "-1995" }
+  rule: lifetime-matches-birth-death
+  found: { date: 2026-11-04, by: "timeline poster v0.2 (normalize.mjs)", sha: 3f461f2 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [timeline-poster]
+  notes: Moving the start also moves the column-1/column-2 boundary used by the poster (-1996).
+
+- id: DQ-0003
+  title: Death of Moses is a year earlier than its own predecessor + lag rule
+  status: open
+  type: off-by-one
+  severity: medium
+  table: events
+  records:
+    - { id: recxj71m6XPSaqIg2, key: "Death of Moses (eventID 129)" }
+  field: startDate
+  current: "-1451"
+  proposed: "-1450"
+  evidence: >-
+    Predecessor Birth of Moses (-1570) + lag 120Y FS = -1450 (1451 BC). Deut 34:7 (120 years).
+    Lifetime of Moses (recJOhn4C4yKIJmvH) already ends at -1450. Confirm against Jones, Appendix F.
+  checks:
+    - { record: recxj71m6XPSaqIg2, field: startDate, equals: "-1450" }
+  rule: date-matches-predecessor-lag
+  found: { date: 2026-11-04, by: "timeline poster v0.2 (normalize.mjs)", sha: 3f461f2 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [timeline-poster]
+
+- id: DQ-0004
+  title: Joshua's lifetime and death disagree by 13 years
+  status: needs-research
+  type: wrong-value
+  severity: medium
+  table: events
+  records:
+    - { id: rechguBS4b9kXx3z3, key: "Lifetime of Joshua (eventID 124)" }
+    - { id: recnPiyyKviVUPHO6, key: "Death of Joshua (eventID 133)" }
+  field: startDate
+  current: "Lifetime -1520 + 110Y = -1410; Death -1423"
+  proposed: null
+  evidence: >-
+    Josh 24:29 (110 years). Either the lifetime starts at -1533 or the death is at -1410;
+    check Jones. Death of Joshua also carries lag 110Y FS but has no predecessor (no Birth of Joshua event).
+  checks: []
+  rule: lifetime-matches-birth-death
+  found: { date: 2026-11-04, by: "timeline poster v0.2 (normalize.mjs)", sha: 3f461f2 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [timeline-poster]
+
+- id: DQ-0005
+  title: Death of Isaac lists itself as its predecessor
+  status: open
+  type: bad-link
+  severity: low
+  table: events
+  records:
+    - { id: recnTimjDqmxMYqRZ, key: "Death of Isaac (eventID 110)" }
+  field: predecessor
+  current: "[recnTimjDqmxMYqRZ] (itself), lag 180Y FS"
+  proposed: "Birth of Isaac, lag 180Y FS"
+  evidence: Gen 35:28. A self-link creates a cycle for any topological ordering of events.
+  checks:
+    - { record: recnTimjDqmxMYqRZ, field: predecessor, not_contains: recnTimjDqmxMYqRZ }
+  rule: predecessor-acyclic
+  found: { date: 2026-11-04, by: "timeline poster v0.2 (normalize.mjs)", sha: 3f461f2 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [timeline-poster]
+
+- id: DQ-0006
+  title: Reign of Jehu has Reign of Joash (later) as its predecessor
+  status: open
+  type: bad-link
+  severity: low
+  table: events
+  records:
+    - { id: reck6rXD9hZiDk0Kz, key: "Reign of Jehu (eventID 190)" }
+  field: predecessor
+  current: "[recwy2j4O3x7NcWz5 Reign of Joash], lag 7Y SS"
+  proposed: "the reign Jehu follows (Reign of Joram of Israel), with the correct lag"
+  evidence: >-
+    Joash's own predecessor is Jehu (lag 7Y SS, correct). Jehu's link looks like that relationship
+    copied in reverse, and it forms a two-event cycle.
+  checks:
+    - { record: reck6rXD9hZiDk0Kz, field: predecessor, not_contains: recwy2j4O3x7NcWz5 }
+  rule: predecessor-acyclic
+  found: { date: 2026-11-04, by: "timeline poster v0.2 (normalize.mjs)", sha: 3f461f2 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [timeline-poster]
+
+- id: DQ-0007
+  title: Jerusalem Council (AD 46) has Paul Writes Galatians (AD 49) as its predecessor
+  status: needs-research
+  type: bad-link
+  severity: low
+  table: events
+  records:
+    - { id: recwmsQ1HEDGztu9O, key: "Jerusalem Council (eventID 344)" }
+    - { id: reco0fEiYQ6hKFYc5, key: "Paul Writes Galatians (eventID 347)" }
+  field: predecessor
+  current: "Jerusalem Council 0046, predecessor Paul Writes Galatians 0049-10-01"
+  proposed: null
+  evidence: Either the link or one of the dates is wrong; check against Atwood's Acts timeline.
+  checks: []
+  rule: predecessor-not-later
+  found: { date: 2026-11-04, by: "timeline poster v0.2 (normalize.mjs)", sha: 3f461f2 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [timeline-poster]
+
+- id: DQ-0008
+  title: Misspelled event titles
+  status: open
+  type: typo
+  severity: low
+  table: events
+  records:
+    - { id: rec2xII53pVseJCB6, key: "The Annuciation (250)" }
+    - { id: recbbehq3RkfnSmCE, key: "The Transfiguation (406)" }
+    - { id: reclZp6jMKWzYmop9, key: "Lazarus Raised form the Dead (433)" }
+    - { id: recVUI3XqN3CdNF1k, key: "Jesus Circumsized (259)" }
+    - { id: recqtoV4JQiYCmkZN, key: "Discourse with Pharisees and Saducees (402)" }
+    - { id: rec1qE6wAe0XINRoV, key: "Gamaliel advises the counsel and Apostles freed (318)" }
+    - { id: recmY05Xj0sxEcdCh, key: "Reign of Johoahaz (Shallum) (237)" }
+    - { id: recsgU87rUrPKR9uA, key: "Death of Jehoahash (201)" }
+  field: title
+  current: see records
+  proposed: >-
+    The Annunciation; The Transfiguration; Lazarus Raised from the Dead; Jesus Circumcised;
+    Discourse with Pharisees and Sadducees; Gamaliel advises the council and Apostles freed;
+    Reign of Jehoahaz (Shallum); Death of Jehoash
+  evidence: Spelling; the last two should match the person records' names.
+  checks:
+    - { record: rec2xII53pVseJCB6, field: title, not_matches: "Annuciation" }
+    - { record: recbbehq3RkfnSmCE, field: title, not_matches: "Transfiguation" }
+    - { record: reclZp6jMKWzYmop9, field: title, not_matches: " form " }
+    - { record: recVUI3XqN3CdNF1k, field: title, not_matches: "Circumsized" }
+    - { record: recqtoV4JQiYCmkZN, field: title, not_matches: "Saducees" }
+    - { record: rec1qE6wAe0XINRoV, field: title, not_matches: "counsel" }
+    - { record: recmY05Xj0sxEcdCh, field: title, not_matches: "Johoahaz" }
+    - { record: recsgU87rUrPKR9uA, field: title, not_matches: "Jehoahash" }
+  rule: null
+  found: { date: 2026-11-04, by: "timeline poster v0.2 (visual proof)", sha: 3f461f2 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [timeline-poster]
+  notes: Fixed when every check passes; partial fixes stay open.
+
+- id: DQ-0009
+  title: No events for the Exile and Return
+  status: needs-research
+  type: missing-record
+  severity: medium
+  table: events
+  records: []
+  field: null
+  current: "After -584 the events table has only Prophecies of Haggai, Zechariah and Malachi."
+  proposed: >-
+    Fall of Samaria; fall of Jerusalem and the deportations; decree of Cyrus; temple rebuilt;
+    Esther; Ezra's return; Nehemiah's walls, all dated per Jones.
+  evidence: 2 Kgs 17, 25; Ezra 1-10; Neh 1-13; Esth 1-10
+  checks: []
+  rule: null
+  found: { date: 2026-11-04, by: "timeline poster v0.2 (column 3 review)", sha: 3f461f2 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [timeline-poster]
+  notes: "Reign end dates already imply two anchors: Hoshea ends -720 (721 BC), Zedekiah ends -585 (586 BC)."
+
+# --- Found by theographic-web (v2 data pipeline, CP-01..CP-08) ---------------
+# DQ-0010..DQ-0017 were first reported in GitHub issue #49 (at cfb1c48) and are
+# confirmed still present at 3f461f2. DQ-0018..DQ-0023 came out of the generated
+# definitions run (CP-08), where the model's notes and the citation checker
+# flagged records whose data disagrees with the verses.
+
+- id: DQ-0010
+  title: people."Disambiguation (temp)" is misaligned across rows
+  status: open
+  type: wrong-value
+  severity: medium
+  table: people
+  records:
+    - { id: recNRRITyGzXsl4yp, key: "john_1676 (John the Baptist)" }
+    - { id: recfvViTrCO4UyG8T, key: "john_1678 (John, relative of the high priest)" }
+    - { id: rec87gwGfBFi3eIZx, key: "judas_1757 (Judas of Galilee)" }
+    - { id: recrxBjuAgqdAeTfn, key: "simon_2749" }
+  field: Disambiguation (temp)
+  current: >-
+    john_1676 "John(son of Zebedee)"; john_1678 carries the Baptist's description (camel's hair);
+    judas_1757 carries Judas Iscariot's text; simon_2749 "Matt (from Cyrene, ...)"
+  proposed: Realign each row with its own person, or drop the field (theographic-web ignores it).
+  evidence: The text describes a different person than the row's displayTitle.
+  checks:
+    - { record: recNRRITyGzXsl4yp, field: "Disambiguation (temp)", not_matches: "Zebedee" }
+    - { record: recfvViTrCO4UyG8T, field: "Disambiguation (temp)", not_matches: "camel" }
+    - { record: rec87gwGfBFi3eIZx, field: "Disambiguation (temp)", not_matches: "Iscariot" }
+  rule: null
+  found: { date: 2026-09-15, by: "theographic-web CP-01 normalizer", sha: cfb1c48 }
+  fixed: { date: null, sha: null }
+  github: 49
+  affects: [theographic-web]
+  notes: >-
+    Confirmed at 3f461f2. Only four rows were checked by hand; the misalignment looks like a
+    shifted column, so other rows are probably affected too. simon_2749 needs a look to see
+    which Simon the row is.
+
+- id: DQ-0011
+  title: Mount of Olives alias is an editorial note, not a name
+  status: open
+  type: wrong-value
+  severity: low
+  table: places
+  records:
+    - { id: recOahYbjltSaaIV0, key: "mount_of_olives_828" }
+  field: aliases
+  current: '4b is just "mount" or "mountain"'
+  proposed: "Olivet (2 Sam 15:30; Acts 1:12), or empty"
+  evidence: The value is a note to an editor. theographic-web drops it with an override (overrides.json).
+  checks:
+    - { record: recOahYbjltSaaIV0, field: aliases, not_matches: "4b is" }
+  rule: null
+  found: { date: 2026-09-15, by: "theographic-web CP-01 normalizer", sha: cfb1c48 }
+  fixed: { date: null, sha: null }
+  github: 49
+  affects: [theographic-web]
+
+- id: DQ-0012
+  title: books.writers on 1 and 2 Samuel holds a comma-joined string
+  status: open
+  type: schema
+  severity: low
+  table: books
+  records:
+    - { id: rec4GS8yWh2R4mpdB, key: "1Sam" }
+    - { id: recMYdxLC2GjLRomD, key: "2Sam" }
+  field: writers
+  current: >-
+    1Sam ["samuel_2469", "samuel_2469, gad_1263, nathan_2153"];
+    2Sam ["samuel_2469, gad_1263, nathan_2153"]
+  proposed: '["samuel_2469", "gad_1263", "nathan_2153"] (one element per writer, no duplicates)'
+  evidence: >-
+    Every other book has one writer per element. Issue #49 reported a single string; at 3f461f2
+    1Sam has a correct element plus the old joined string, so the fix was partial.
+  checks:
+    - { record: rec4GS8yWh2R4mpdB, field: writers, not_matches: ", " }
+    - { record: recMYdxLC2GjLRomD, field: writers, not_matches: ", " }
+  rule: null
+  found: { date: 2026-09-15, by: "theographic-web CP-01 normalizer", sha: cfb1c48 }
+  fixed: { date: null, sha: null }
+  github: 49
+  affects: [theographic-web]
+
+- id: DQ-0013
+  title: verses.mdText links are malformed in 16,519 verses
+  status: open
+  type: typo
+  severity: low
+  table: verses
+  records:
+    - { id: rec7mkRLwey2ntUG9, key: "Gen.1.1 (one of 16,519)" }
+  field: mdText
+  current: "In the beginning [God]([/person/god_1324) created the heaven and the earth."
+  proposed: "[God](/person/god_1324): drop the stray \"([\"; or drop mdText, since richText carries the same links"
+  evidence: Every linked verse has "](["; richText has the correct form.
+  checks:
+    - { record: rec7mkRLwey2ntUG9, field: mdText, not_matches: "\\]\\(\\[" }
+  rule: null
+  found: { date: 2026-09-15, by: "theographic-web CP-01 normalizer", sha: cfb1c48 }
+  fixed: { date: null, sha: null }
+  github: 49
+  affects: [theographic-web]
+  notes: The check samples Gen 1:1; a checker should scan all verses for "](['.
+
+- id: DQ-0014
+  title: alsoCalled for Jesus and God includes common words
+  status: needs-research
+  type: wrong-value
+  severity: low
+  table: people
+  records:
+    - { id: recgkFqZovgbr3pAi, key: "jesus_905" }
+    - { id: reccZB8SVU5bEMcgo, key: "god_1324" }
+  field: alsoCalled
+  current: >-
+    jesus_905: Lord, Son, Lamb, Saviour, God, Holy, Word, JESUS, prophet, master, Light, Prince, ...;
+    god_1324: LORD, Lord, Father, hosts, Almighty, Holy, GOD, Saviour, last, ...
+  proposed: >-
+    Keep titles used as names ("Immanuel", "Lamb of God"); move descriptive words ("Holy",
+    "last", "hosts", "root") out of alsoCalled or into a separate titles field.
+  evidence: >-
+    The words collide with other entities' names and with ordinary vocabulary in search;
+    theographic-web treats aliases as weighted hints for this reason.
+  checks: []
+  rule: null
+  found: { date: 2026-09-15, by: "theographic-web CP-01 normalizer", sha: cfb1c48 }
+  fixed: { date: null, sha: null }
+  github: 49
+  affects: [theographic-web]
+  notes: An editorial decision rather than a clear error.
+
+- id: DQ-0015
+  title: richText links point at person/place slugs that do not exist
+  status: open
+  type: bad-link
+  severity: medium
+  table: verses
+  records:
+    - { id: recunmcQR70tG8yXP, key: "Gen.19.8 (one of 8 linking daughter_of_lot_-_younger_984)" }
+    - { id: recbMdCc04boGO1Hi, key: "Gen.19.31 (one of 4 linking daughter_of_lot_-_older_985)" }
+    - { id: recKVWDulm9S6ak8B, key: "Gen.36.12 (one of 2 linking timna_2859)" }
+    - { id: recaAgMfzFTXTNisT, key: "Ps.60.6 (links valey_of_succoth_1221)" }
+  field: richText
+  current: >-
+    /person/daughter_of_lot_-_younger_984 (8 verses), /person/daughter_of_lot_-_older_985 (4),
+    /person/timna_2859 (Gen 36:12, 1 Chr 1:36), /place/valey_of_succoth_1221 (Ps 60:6)
+  proposed: >-
+    daughter_of_lot_younger_984; daughter_of_lot_older_985; valley_of_succoth_1221;
+    timna_2859: research. No person 2859 exists; timna_2860 is the likely target, Eliphaz's concubine.
+  evidence: The slugs were renamed or misspelled ("valey"); the records exist under the corrected slugs.
+  checks:
+    - { record: recunmcQR70tG8yXP, field: richText, not_matches: "daughter_of_lot_-_" }
+    - { record: recbMdCc04boGO1Hi, field: richText, not_matches: "daughter_of_lot_-_" }
+    - { record: recKVWDulm9S6ak8B, field: richText, not_matches: "timna_2859" }
+    - { record: recaAgMfzFTXTNisT, field: richText, not_matches: "valey_of_succoth" }
+  rule: richtext-links-resolve
+  found: { date: 2026-11-07, by: "theographic-web (alias mining, CP-03)", sha: 3f461f2 }
+  fixed: { date: null, sha: null }
+  github: 49
+  affects: [theographic-web]
+  notes: Issue #49 promised the exact slugs in a comment; these are they (four, not three).
+
+- id: DQ-0016
+  title: Five places have a latitude but no longitude
+  status: open
+  type: schema
+  severity: low
+  table: places
+  records:
+    - { id: recAPCFiiSX6hmHhX, key: "azotus_132" }
+    - { id: recU8S3zWJLQkEpwO, key: "chios_296" }
+    - { id: recFrC0435yiaHYOu, key: "clauda_280" }
+    - { id: recb5itcp169E9Vsj, key: "lasea_717" }
+    - { id: reco41jQa2HDPSWx2, key: "phrygia_946" }
+  field: longitude
+  current: (empty)
+  proposed: Add the longitude, or clear the latitude; half a coordinate is unusable.
+  evidence: theographic-web treats these as having no coordinates.
+  checks:
+    - { record: recAPCFiiSX6hmHhX, field: longitude, matches: "\\d" }
+    - { record: recU8S3zWJLQkEpwO, field: longitude, matches: "\\d" }
+    - { record: recFrC0435yiaHYOu, field: longitude, matches: "\\d" }
+    - { record: recb5itcp169E9Vsj, field: longitude, matches: "\\d" }
+    - { record: reco41jQa2HDPSWx2, field: longitude, matches: "\\d" }
+  rule: coordinates-complete
+  found: { date: 2026-09-15, by: "theographic-web CP-01 sanity gate", sha: cfb1c48 }
+  fixed: { date: null, sha: null }
+  github: 49
+  affects: [theographic-web]
+
+- id: DQ-0017
+  title: kjvName carries a disambiguation in parentheses on eight places
+  status: open
+  type: wrong-value
+  severity: low
+  table: places
+  records:
+    - { id: recKAFuMIt8BAi2OH, key: "antioch_68 (Antioch (Syria))" }
+    - { id: recevhMicAECGWRVk, key: "antioch_69 (Antioch (Pisidia))" }
+    - { id: recMRitcM5QeA7Q4M, key: "benjamin-territory_1293 (Benjamin (Territory))" }
+    - { id: rechavO1cdznGQVRh, key: "east-manasseh-half-tribe_1290 (East Manasseh (Half-Tribe))" }
+    - { id: rect3olmTnwW17ieJ, key: "ephraim-territory_1292 (Ephraim (Territory))" }
+    - { id: recM4RAfBVSEH5W7l, key: "judah-southern_1281 (Judah (Southern))" }
+    - { id: recRBhWSqBkqZk8fe, key: "sidon_494 (Sidon (Zidon))" }
+    - { id: reckXhjBX8I6jSNkg, key: "sidon_1094 (Sidon (the great))" }
+  field: kjvName
+  current: see records
+  proposed: The KJV name alone in kjvName; the parenthetical only in displayTitle.
+  evidence: >-
+    kjvName is the name as the KJV text spells it. theographic-web strips a trailing
+    parenthetical into its title field. Issue #49 counted four; there are eight at 3f461f2.
+  checks:
+    - { record: recKAFuMIt8BAi2OH, field: kjvName, not_matches: "\\(" }
+    - { record: recevhMicAECGWRVk, field: kjvName, not_matches: "\\(" }
+    - { record: recMRitcM5QeA7Q4M, field: kjvName, not_matches: "\\(" }
+    - { record: rechavO1cdznGQVRh, field: kjvName, not_matches: "\\(" }
+    - { record: rect3olmTnwW17ieJ, field: kjvName, not_matches: "\\(" }
+    - { record: recM4RAfBVSEH5W7l, field: kjvName, not_matches: "\\(" }
+    - { record: recRBhWSqBkqZk8fe, field: kjvName, not_matches: "\\(" }
+    - { record: reckXhjBX8I6jSNkg, field: kjvName, not_matches: "\\(" }
+  rule: null
+  found: { date: 2026-09-15, by: "theographic-web CP-01 normalizer", sha: cfb1c48 }
+  fixed: { date: null, sha: null }
+  github: 49
+  affects: [theographic-web]
+  notes: Sidon (Zidon) is an alternate spelling, which may belong in aliases instead.
+
+- id: DQ-0018
+  title: Five possessive duplicate place records with no verses
+  status: open
+  type: duplicate-record
+  severity: medium
+  table: places
+  records:
+    - { id: recb3HpTdDfZCDwrP, key: "samarias_1023 (Samaria's); base samaria_1022 recEP3QZ3HUmIkv4Q" }
+    - { id: recHLZEykCCOixlEm, key: "jerusalems_637 (Jerusalem's); base jerusalem_636 recL1WV82pXaRBQ59" }
+    - { id: rec1TOi8sIOGfx3kH, key: "egypts_363 (Egypt's); base egypt_362 recfrXyxhuYOczKTm" }
+    - { id: recixwLRyYolnIwB6, key: "zions_1264 (Zion's); base zion_1263 reczPjeq0UdahiRrn" }
+    - { id: reckWxV3dWFM3clrQ, key: "ashdods_102 (Ashdod's); base ashdod_101 recN2YJFW0fYzSL9r" }
+  field: null
+  current: Each has a possessive displayTitle, copies the base place's coordinates, and links to no verses.
+  proposed: Delete them; their base records already carry the verses.
+  evidence: >-
+    0 verses each. They look like tagging artifacts from possessive forms in the text
+    ("Jerusalem's", "Zion's"). theographic-web built a page and a generated definition for each,
+    and the definitions failed the citation check because there was nothing to cite.
+  checks: []
+  rule: place-has-verses
+  found: { date: 2026-10-23, by: "theographic-web CP-08 definitions run (no citable verses)", sha: 3f461f2 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [theographic-web]
+  notes: Confirm by hand once deleted, since the checks format has no "record absent" op.
+
+- id: DQ-0019
+  title: Benjamin's Gate, Ham and Jaar link to no verses although the KJV names them
+  status: open
+  type: missing-link
+  severity: medium
+  table: places
+  records:
+    - { id: recvLUMajbYnYDikr, key: "benjamins_gate_437" }
+    - { id: recft3Ujk5x5izu4h, key: "ham_515" }
+    - { id: recFPH7XyfXrfRhTc, key: "jaar_608" }
+  field: verses
+  current: (empty)
+  proposed: >-
+    Benjamin's Gate: Jer 20:2, Jer 37:13, Jer 38:7, Zech 14:10 ("high gate of Benjamin",
+    "Benjamin's gate"); Ezek 48:32 names a gate of Benjamin in the vision city, so consider
+    a separate record for it. Ham: Gen 14:5 ("the Zuzims in Ham"). Jaar: Ps 132:6, where the
+    KJV has "the fields of the wood" and the ESV has "the fields of Jaar".
+  evidence: The verses above, in verseText at 3f461f2.
+  checks:
+    - { record: recvLUMajbYnYDikr, field: verses, matches: "rec" }
+    - { record: recft3Ujk5x5izu4h, field: verses, matches: "rec" }
+    - { record: recFPH7XyfXrfRhTc, field: verses, matches: "rec" }
+  rule: place-has-verses
+  found: { date: 2026-10-23, by: "theographic-web CP-08 definitions run (no citable verses)", sha: 3f461f2 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [theographic-web]
+  notes: >-
+    Ham's coordinates (30.108, 31.338) are Egypt's ("land of Ham", Ps 105:23), but Gen 14:5's
+    Ham is east of the Jordan, so the record may conflate the two. Check before linking.
+
+- id: DQ-0020
+  title: Aram-naharaim and Aram-zobah have no verses
+  status: needs-research
+  type: missing-link
+  severity: low
+  table: places
+  records:
+    - { id: recGIXb55AmC8m4aT, key: "aram-naharaim_84" }
+    - { id: rec5lsWLp4xB8ECtt, key: "aram-zobah_85" }
+  field: verses
+  current: (empty)
+  proposed: >-
+    Both names occur only in the Psalm 60 superscription, which is not a verse in the KJV
+    verse text. Options: link Ps 60:1, record the superscription somewhere, or merge
+    Aram-naharaim with mesopotamia_790 (rec8Dy0OPNtiTqsoS), its KJV rendering elsewhere (Gen 24:10).
+  evidence: No match for either name in verseText at 3f461f2.
+  checks: []
+  rule: place-has-verses
+  found: { date: 2026-10-23, by: "theographic-web CP-08 definitions run (no citable verses)", sha: 3f461f2 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [theographic-web]
+
+- id: DQ-0021
+  title: Hezron (place) is mapped in Galilee but lies on Judah's southern border
+  status: needs-research
+  type: wrong-value
+  severity: medium
+  table: places
+  records:
+    - { id: recfa19LQGbnLBD0G, key: "hezron_568" }
+  field: latitude
+  current: "33.017182, 35.56804857 (north of the Sea of Galilee)"
+  proposed: >-
+    The Negev near Kadesh-barnea, between Kadesh and Adar. The exact site is uncertain; Num 34:4
+    has "Hazar-addar" for the same stretch of the border.
+  evidence: >-
+    Josh 15:3, its only verse, traces Judah's southern border past Kadesh-barnea to Hezron and
+    on to Adar and Karkaa. The coordinates look like they belong to a different Hezron or Hazor.
+  checks:
+    - { record: recfa19LQGbnLBD0G, field: latitude, matches: "^(29|30|31)\\." }
+  rule: null
+  found: { date: 2026-10-21, by: "theographic-web CP-08 generated definition (dry run)", sha: 3f461f2 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [theographic-web]
+
+- id: DQ-0022
+  title: Two more misspelled event titles (Sampson, Zaccheus)
+  status: open
+  type: typo
+  severity: low
+  table: events
+  records:
+    - { id: reccUeZb53JJ02Lv9, key: "Sampson destroys Temple of Dagon (154)" }
+    - { id: reccSs8loWRLm8LAb, key: "Zaccheus Converted and Parable of the Pounds (440)" }
+  field: title
+  current: see records
+  proposed: Samson destroys Temple of Dagon; Zacchaeus Converted and Parable of the Pounds
+  evidence: The KJV text spells them Samson (Judg 16) and Zacchaeus (Luke 19:2, 5, 8).
+  checks:
+    - { record: reccUeZb53JJ02Lv9, field: title, not_matches: "Sampson" }
+    - { record: reccSs8loWRLm8LAb, field: title, not_matches: "Zaccheus" }
+  rule: null
+  found: { date: 2026-10-23, by: "theographic-web CP-08 definitions run", sha: 3f461f2 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [theographic-web]
+  notes: Companion to DQ-0008; the slugs derive from titles, so changing them changes event slugs.
+
+- id: DQ-0023
+  title: Deliverance by Ehud lasts 62 years; Judg 3:30 gives 80 years of rest
+  status: needs-research
+  type: wrong-value
+  severity: low
+  table: events
+  records:
+    - { id: recxl5FkotW1u50nA, key: "Deliverance by Ehud (eventID 137)" }
+  field: duration
+  current: "62Y (startDate -1359)"
+  proposed: null
+  evidence: >-
+    Judg 3:30 ("the land had rest fourscore years"). 62Y may instead run to the next judge or
+    follow a chronology that overlaps the judges; check against the source used for the period.
+  checks: []
+  rule: null
+  found: { date: 2026-10-21, by: "theographic-web CP-08 generated definition (dry run)", sha: 3f461f2 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [theographic-web]
