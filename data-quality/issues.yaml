@@ -36,6 +36,8 @@
 #     Collective phrases ("children of Israel") get the group ADDED alongside the person.
 #   - Geo changes must sync between Airtable places and the geo/ GeoJSON (Linked Places).
 #     Rerun the geo consistency check after every geo build or Airtable place edit.
+#   - Geo review: when a place confidently matches a Pleiades record, Pleiades is
+#     authoritative for location. Geo issues follow the same review process as all others.
 
 - id: DQ-0001
   title: Lifetime of Jacob uses Isaac's age (180 years) instead of 147
