@@ -16,6 +16,16 @@ Output format
   header by hand to start exporting them).
 - Records in both formats follow each table's "Grid view" order, so diffs between exports stay small.
 
+Book writers
+- `books.writers` is a rollup, not a link. It rolls up `chapters.writerLookup`, a lookup of each
+  chapter's `writer` links that returns the writers' `personLookup` slugs as a list, with the
+  formula ARRAYUNIQUE(ARRAYCOMPACT(ARRAYFLATTEN(values))). Each book therefore gets one slug per
+  writer, once each, and this script exports the value unchanged (a list in JSON, joined by ", "
+  in CSV). Rolling up the `writer` links directly instead joins a chapter's several writers into
+  one string (DQ-0012, fixed Nov 2026), so keep the rollup pointed at the lookup.
+- `chapters.writerLookup` exists only to feed that rollup. It appears in json/chapters.json but is
+  not in the CSV header, so CSV/Chapters.csv does not export it.
+
 Definitions
 - The `definitions` table holds the generated, verse-cited definitions (theographic-web CP-08). It
   is the source of truth for their text and review status. It exports like every other table, to
