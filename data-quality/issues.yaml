@@ -231,7 +231,7 @@
 
 - id: DQ-0009
   title: No events for the Exile and Return
-  status: needs-research
+  status: wontfix
   type: missing-record
   severity: medium
   table: events
