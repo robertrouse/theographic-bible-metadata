@@ -912,3 +912,333 @@
   affects: [geo]
   notes: >-
     Likely inherited from Pleiades prehistoric periods.
+
+- id: DQ-0037
+  title: Reign of Uzziah links to Jeroboam I instead of Jeroboam II
+  status: open
+  type: bad-link
+  severity: medium
+  table: events
+  records:
+    - { id: recOJfWD0IUcT4yJD, key: "Reign of Uzziah (eventID 204)" }
+  field: predecessor, lag
+  current: "[rec824qPcsyF7GtTh Reign of Jeroboam I (-974)], lag 27Y SS; start -809, so predecessor start + lag = -947 (138 years off)"
+  proposed: "[recGe7VTJOGbn63NQ Reign of Jeroboam II (-824)], lag 15Y SS (-824 + 15 = -809)"
+  evidence: >-
+    2 Ki 15:1 "In the twenty-seventh year of Jeroboam's reign over Israel, Azariah son of Amaziah
+    became king of Judah" refers to Jeroboam II (son of Jehoash). Jones, Appendix F: Jeroboam II
+    pro-rex 837 BC, sole rex 825 BC (stored -824); Uzziah 810 BC (stored -809). The 27th year
+    counts from the 837 BC pro-rex start; from the stored sole-reign start it is 15 elapsed years.
+  checks:
+    - { record: recOJfWD0IUcT4yJD, field: predecessor, contains: recGe7VTJOGbn63NQ }
+    - { record: recOJfWD0IUcT4yJD, field: predecessor, not_contains: rec824qPcsyF7GtTh }
+    - { record: recOJfWD0IUcT4yJD, field: lag, equals: "15Y" }
+  rule: lag-matches-start
+  found: { date: 2026-11-09, by: "lag audit (predecessor start + lag vs startDate, live Airtable)", sha: 8e73bfc }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: []
+  notes: >-
+    Lag convention (Robert, Nov 9 2026): lags work like project scheduling, so SS lag = successor
+    start - predecessor start in elapsed years. The biblical "Nth year" wording goes in notes, not the lag.
+
+- id: DQ-0038
+  title: Construction of Solomon's Temple follows Reign of Saul instead of Reign of Solomon
+  status: open
+  type: bad-link
+  severity: medium
+  table: events
+  records:
+    - { id: recYlpu8OdsUJoG8g, key: "Construction of Solomon's Temple (eventID 162)" }
+  field: predecessor, lag, lagType
+  current: "[recKRsEFLaEueJvei Reign of Saul (-1094, 40Y)], lag 4Y2M FS; start -1011, so predecessor end + lag = about -1050 (39 years off)"
+  proposed: "[recKTbnO8VY7lXLeX Reign of Solomon (-1014)], lag 3Y SS (-1014 + 3 = -1011)"
+  evidence: >-
+    1 Ki 6:1: in the 480th year after the Exodus, "in the fourth year of Solomon's reign over
+    Israel, in the month of Ziv, the second month, he began to build the house of the LORD".
+    Jones, Appendix F: Solomon sole rex 1015 BC (stored -1014), founding of the Temple 1012 BC
+    (stored -1011); Judah's accession-year counting makes the 4th year 3 elapsed years.
+    Cross-check: Exodus 1491 BC (-1490) + 479 = -1011, the same year.
+  checks:
+    - { record: recYlpu8OdsUJoG8g, field: predecessor, contains: recKTbnO8VY7lXLeX }
+    - { record: recYlpu8OdsUJoG8g, field: lag, equals: "3Y" }
+    - { record: recYlpu8OdsUJoG8g, field: lagType, equals: "SS" }
+  rule: lag-matches-start
+  found: { date: 2026-11-09, by: "lag audit (predecessor start + lag vs startDate, live Airtable)", sha: 8e73bfc }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: []
+  notes: >-
+    A month-level lag (3Y1M for the second month) only works if startDate also carries the month.
+
+- id: DQ-0039
+  title: Exodus from Egypt counts Moses' 40 years in Midian twice
+  status: open
+  type: wrong-value
+  severity: medium
+  table: events
+  records:
+    - { id: recjkmUO88wihv8Ci, key: "Exodus from Egypt (eventID 125)" }
+  field: lag, lagType
+  current: "predecessor [recwofVaBASTvL8lL Moses Flees Pharaoh (-1530, duration 40Y)], lag 40Y FS; -1530 + 40 + 40 = -1450, but start is -1490 (40 years off)"
+  proposed: "lag 40Y SS (-1530 + 40 = -1490), or keep FS with lag 0Y"
+  evidence: >-
+    Acts 7:30 "after forty years had passed" since the flight; Ex 7:7 (Moses 80 at the Exodus,
+    40 at the flight, Acts 7:23). Jones, Appendix F: flight 1531 BC (-1530), Exodus 1491 BC (-1490).
+    The predecessor's 40Y duration already covers the Midian years, so FS + 40Y adds them again.
+  checks:
+    - { record: recjkmUO88wihv8Ci, field: lagType, equals: "SS" }
+    - { record: recjkmUO88wihv8Ci, field: lag, equals: "40Y" }
+  rule: lag-matches-start
+  found: { date: 2026-11-09, by: "lag audit (predecessor start + lag vs startDate, live Airtable)", sha: 8e73bfc }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: []
+  notes: >-
+    Checks assume the SS option; adjust them if FS 0Y is chosen.
+
+- id: DQ-0040
+  title: Reign of Amaziah synchronism points to Joash of Judah, not Jehoash of Israel
+  status: needs-research
+  type: bad-link
+  severity: medium
+  table: events
+  records:
+    - { id: rec75MawjODD5ju3b, key: "Reign of Amaziah (eventID 198)" }
+  field: predecessor, lag
+  current: "[recwy2j4O3x7NcWz5 Reign of Joash (-878)], lag 2Y SS; start -838, so predecessor start + lag = -876 (38 years off)"
+  proposed: >-
+    Either the synchronism: [rec70XpPIr8MiLTVb Reign of Jehoash (-839)], lag 1Y SS (-839 + 1 = -838);
+    or, if predecessor means the previous king of Judah: keep Reign of Joash with lag 40Y SS (or 0Y FS)
+  evidence: >-
+    2 Ki 14:1 "In the second year of the reign of Jehoash son of Jehoahaz over Israel, Amaziah son
+    of Joash became king of Judah". Jones, Appendix F: Jehoash sole rex over Israel 840 BC (-839),
+    Amaziah 839 BC (-838); Joash of Judah 879 BC (-878), reigned 40 years (2 Ki 12:1).
+  checks: []
+  rule: lag-matches-start
+  found: { date: 2026-11-09, by: "lag audit (predecessor start + lag vs startDate, live Airtable)", sha: 8e73bfc }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: []
+  notes: >-
+    Needs a decision on what predecessor means for kings (synchronism vs. throne succession)
+    before fixing. Either option makes the lag math work. Related: DQ-0041.
+
+- id: DQ-0041
+  title: Reign of Jotham synchronism points to Pekahiah instead of Pekah
+  status: open
+  type: bad-link
+  severity: low
+  table: events
+  records:
+    - { id: recEOMPybxT6g8y8E, key: "Reign of Jotham (eventID 219)" }
+  field: predecessor, lag
+  current: "[recQRI9PzXBoW4QVD Reign of Pekahiah (-760)], lag 2Y SS; start -757, so predecessor start + lag = -758 (1 year off)"
+  proposed: "[recuwnodcdBQpgk6J Reign of Pekah (-758)], lag 1Y SS (-758 + 1 = -757)"
+  evidence: >-
+    2 Ki 15:32 "In the second year of the reign of Pekah son of Remaliah over Israel, Jotham son of
+    Uzziah became king of Judah". Jones, Appendix F: Pekah 759 BC (-758), Jotham sole rex 758 BC (-757).
+  checks:
+    - { record: recEOMPybxT6g8y8E, field: predecessor, contains: recuwnodcdBQpgk6J }
+    - { record: recEOMPybxT6g8y8E, field: lag, equals: "1Y" }
+  rule: lag-matches-start
+  found: { date: 2026-11-09, by: "lag audit (predecessor start + lag vs startDate, live Airtable)", sha: 8e73bfc }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: []
+
+- id: DQ-0042
+  title: Reign of Jehoram (Judah) lag taken from the reverse synchronism
+  status: open
+  type: wrong-value
+  severity: low
+  table: events
+  records:
+    - { id: recb9vQAySe8NXtZn, key: "Reign of Jehoram (eventID 188)" }
+  field: lag
+  current: "2Y SS after [receNV351SLbofU0a Reign of Joram (-896)]; start -892, so predecessor start + lag = -894 (2 years off)"
+  proposed: "4Y SS (-896 + 4 = -892)"
+  evidence: >-
+    The lag matches 2 Ki 1:17, which runs the other way: Joram of Israel began "in the second year
+    of the reign of Jehoram son of Jehoshaphat". 2 Ki 8:16: "In the fifth year of Joram son of Ahab
+    ... Jehoram son of Jehoshaphat began to reign" (5th year = 4 elapsed). Jones, Appendix F: Joram
+    897 BC (-896); Jehoram pro-rex 898, co-rex 893 BC (stored -892), sole rex 889 BC.
+  checks:
+    - { record: recb9vQAySe8NXtZn, field: lag, equals: "4Y" }
+  rule: lag-matches-start
+  found: { date: 2026-11-09, by: "lag audit (predecessor start + lag vs startDate, live Airtable)", sha: 8e73bfc }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: []
+
+- id: DQ-0043
+  title: Reign of Jehoash (Israel) lag counts to his co-reign, start is his sole reign
+  status: needs-research
+  type: wrong-value
+  severity: low
+  table: events
+  records:
+    - { id: rec70XpPIr8MiLTVb, key: "Reign of Jehoash (eventID 197)" }
+  field: lag, startDate
+  current: "37Y SS after [recwy2j4O3x7NcWz5 Reign of Joash (-878)]; start -839, so predecessor start + lag = -841 (2 years off)"
+  proposed: "lag 39Y SS keeping start -839 (sole reign); or start -842 (pro-rex, 843 BC) with lag 36Y SS"
+  evidence: >-
+    2 Ki 13:10 "In the thirty-seventh year of Joash king of Judah, Jehoash son of Jehoahaz became king
+    over Israel". Jones, Appendix F: Joash of Judah 879 BC (-878); Jehoash pro-rex 843 BC (37th year,
+    36 elapsed), sole rex 840 BC (stored -839).
+  checks: []
+  rule: lag-matches-start
+  found: { date: 2026-11-09, by: "lag audit (predecessor start + lag vs startDate, live Airtable)", sha: 8e73bfc }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: []
+  notes: >-
+    Choose whether the event starts at the co-reign or the sole reign. Moving the start also moves
+    Amaziah's synchronism (DQ-0040) and the 16Y duration.
+
+- id: DQ-0044
+  title: Reign of Omri lag counts to his sole rule, start is when the army made him king
+  status: open
+  type: wrong-value
+  severity: low
+  table: events
+  records:
+    - { id: recbKVjuSUpIxKCDm, key: "Reign of Omri (eventID 176)" }
+  field: lag
+  current: "31Y SS after [recmEKC9vgAJDYa2z Reign of Asa (-955)]; start -928, so predecessor start + lag = -924 (4 years off)"
+  proposed: "27Y SS (-955 + 27 = -928)"
+  evidence: >-
+    1 Ki 16:15-16: the army made Omri king in Asa's 27th year, when Zimri reigned 7 days.
+    1 Ki 16:23: "In the thirty-first year of Asa ... Omri became king over Israel" (sole rule after
+    Tibni, 16:21-22). Jones, Appendix F: army makes Omri king 929 BC (stored -928); Tibni dies,
+    Omri rules alone 925 BC.
+  checks:
+    - { record: recbKVjuSUpIxKCDm, field: lag, equals: "27Y" }
+  rule: lag-matches-start
+  found: { date: 2026-11-09, by: "lag audit (predecessor start + lag vs startDate, live Airtable)", sha: 8e73bfc }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: []
+  notes: >-
+    Omri's 12Y duration (1 Ki 16:23) counts from 929 BC, which supports keeping the start.
+
+- id: DQ-0045
+  title: Reign of Hezekiah lag is one year short of Jones's dates
+  status: open
+  type: off-by-one
+  severity: low
+  table: events
+  records:
+    - { id: recRusMYR5At9TlEV, key: "Reign of Hezekiah (eventID 226)" }
+  field: lag
+  current: "3Y SS after [recj8DXN0Leolmr8O Reign of Hoshea (-729)]; start -725, so predecessor start + lag = -726 (1 year off)"
+  proposed: "4Y SS (-729 + 4 = -725)"
+  evidence: >-
+    2 Ki 18:1 "In the third year of Hoshea son of Elah king of Israel, Hezekiah son of Ahaz began to
+    reign". Jones, Appendix F: Hoshea 730 BC (-729), Hezekiah 726 BC (-725), 4 elapsed years. The
+    text's 3rd year would be 2 or 3 elapsed, so Jones's handling of the year boundary differs here.
+  checks:
+    - { record: recRusMYR5At9TlEV, field: lag, equals: "4Y" }
+  rule: lag-matches-start
+  found: { date: 2026-11-09, by: "lag audit (predecessor start + lag vs startDate, live Airtable)", sha: 8e73bfc }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: []
+  notes: >-
+    The startDate follows Jones exactly; the lag is what should change.
+
+- id: DQ-0046
+  title: Judgeship of Eli has a lag but no predecessor
+  status: needs-research
+  type: bad-link
+  severity: low
+  table: events
+  records:
+    - { id: rec3z1OqSDMH0rR7y, key: "Judgeship of Eli (eventID 145)" }
+  field: predecessor, lag
+  current: "predecessor empty, lag 28Y FS; start -1161, duration 40Y"
+  proposed: "clear the lag, or add the predecessor the 28Y was meant to count from"
+  evidence: >-
+    A lag with no predecessor has nothing to count from. Jones, Appendix F: Eli judges as High Priest
+    1162 BC (stored -1161); Eli dies when the Ark is captured 1122 BC (-1121, 1 Sam 4:15-18, judged
+    Israel 40 years). No obvious source for 28 years was found.
+  checks: []
+  rule: lag-has-predecessor
+  found: { date: 2026-11-09, by: "lag audit (predecessor start + lag vs startDate, live Airtable)", sha: 8e73bfc }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: []
+
+- id: DQ-0047
+  title: Death of Joshua has a lag but no predecessor, and Joshua's dates disagree by 13 years
+  status: needs-research
+  type: bad-link
+  severity: low
+  table: events
+  records:
+    - { id: recnPiyyKviVUPHO6, key: "Death of Joshua (eventID 133)" }
+    - { id: rechguBS4b9kXx3z3, key: "Lifetime of Joshua (eventID 124)" }
+  field: predecessor, lag, startDate
+  current: >-
+    Death of Joshua: predecessor empty, lag 110Y FS, start -1423. Lifetime of Joshua: start -1520,
+    duration 110Y, so it ends at -1410, 13 years after the stored death.
+  proposed: >-
+    Decide Joshua's birth year, then link Death of Joshua to it with lag 110Y. Keeping the death at
+    -1423 (Jones, approx.) means Lifetime of Joshua should start -1533.
+  evidence: >-
+    Josh 24:29 "Joshua son of Nun, the servant of the LORD, died at the age of 110". Jones, Appendix
+    F: Death of Joshua 1424 BC (approx.), stored -1423.
+  checks: []
+  rule: lag-has-predecessor
+  found: { date: 2026-11-09, by: "lag audit (predecessor start + lag vs startDate, live Airtable)", sha: 8e73bfc }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: []
+
+- id: DQ-0048
+  title: Eleven kings' lags counted the Bible's "Nth year" as N elapsed years
+  status: open
+  type: off-by-one
+  severity: low
+  table: events
+  records:
+    - { id: recDK5FF0d1qrz8sn, key: "Reign of Abijam (168)" }
+    - { id: recmEKC9vgAJDYa2z, key: "Reign of Asa (170)" }
+    - { id: receNV351SLbofU0a, key: "Reign of Joram (187)" }
+    - { id: rec8neSzth86PNqvR, key: "Reign of Ahaziah (Jehoahaz) (189)" }
+    - { id: reck6rXD9hZiDk0Kz, key: "Reign of Jehu (190)" }
+    - { id: rec8OzyADaljQSqmd, key: "Reign of Jehoahaz (195)" }
+    - { id: recGe7VTJOGbn63NQ, key: "Reign of Jeroboam II (199)" }
+    - { id: recmYpqEy1fUpISEt, key: "Reign of Shallum (209)" }
+    - { id: recKk6oSdN570sACg, key: "Reign of Menahem (212)" }
+    - { id: recQRI9PzXBoW4QVD, key: "Reign of Pekahiah (214)" }
+    - { id: recuwnodcdBQpgk6J, key: "Reign of Pekah (216)" }
+  field: lag
+  current: "Abijam 18Y, Asa 20Y, Joram 18Y, Ahaziah 12Y, Jehu 12Y (7Y in this export, see DQ-0006), Jehoahaz 23Y, Jeroboam II 15Y, Shallum 39Y, Menahem 39Y, Pekahiah 50Y, Pekah 52Y (all SS)"
+  proposed: "Abijam 17Y, Asa 19Y, Joram 17Y, Ahaziah 11Y, Jehu 11Y, Jehoahaz 22Y, Jeroboam II 14Y, Shallum 38Y, Menahem 38Y, Pekahiah 49Y, Pekah 51Y"
+  evidence: >-
+    Each lag was the ordinal in the text ("in the 18th year of Jeroboam", 1 Ki 15:1; 15:9; 2 Ki 3:1;
+    8:25; 13:1; 14:23; 15:13, 17, 23, 27), but the stored startDates (all equal to Jones, Appendix F)
+    are N-1 years after the predecessor's start, so predecessor start + lag landed one year late.
+    Rule (Robert, Nov 9 2026): lags work like project scheduling, SS lag = elapsed years.
+  checks:
+    - { record: recDK5FF0d1qrz8sn, field: lag, equals: "17Y" }
+    - { record: recmEKC9vgAJDYa2z, field: lag, equals: "19Y" }
+    - { record: receNV351SLbofU0a, field: lag, equals: "17Y" }
+    - { record: rec8neSzth86PNqvR, field: lag, equals: "11Y" }
+    - { record: reck6rXD9hZiDk0Kz, field: lag, equals: "11Y" }
+    - { record: rec8OzyADaljQSqmd, field: lag, equals: "22Y" }
+    - { record: recGe7VTJOGbn63NQ, field: lag, equals: "14Y" }
+    - { record: recmYpqEy1fUpISEt, field: lag, equals: "38Y" }
+    - { record: recKk6oSdN570sACg, field: lag, equals: "38Y" }
+    - { record: recQRI9PzXBoW4QVD, field: lag, equals: "49Y" }
+    - { record: recuwnodcdBQpgk6J, field: lag, equals: "51Y" }
+  rule: lag-matches-start
+  found: { date: 2026-11-09, by: "lag audit (predecessor start + lag vs startDate, live Airtable)", sha: 8e73bfc }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: []
+  notes: >-
+    Fixed in Airtable Nov 9 2026 (only the lag field); confirm on the next export. Jehu's lag was
+    set to 12Y earlier the same day under DQ-0006 and is now 11Y. The Genesis age-at-birth lags
+    (48 events) already matched and were not changed.
