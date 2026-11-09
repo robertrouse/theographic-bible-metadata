@@ -22,6 +22,8 @@ Every verse of the King James Version (1769) is linked to the people, places, ev
 | People groups | 23 | Tribes, apostles, and other groups |
 | Easton's Bible Dictionary | 6,519 | Entries linked to people and places |
 
+**Data quality:** Every known problem in the data is tracked in a versioned [ledger](data-quality/README.md), alongside a [corrections log](data-quality/corrections-log.md) of what has changed in each export. Check them before you rely on a record, or when your results look off.
+
 **Chronology:** The events timeline and people's birth and death years follow **Dr. Floyd Nolen Jones**, *[The Chronology of the Old Testament: A Return to the Basics](https://floydnolenjonesministries.com/chronology/)*. See [Chronology and Dates](docs/chronology-and-dates.md).
 
 ## Getting the Data
@@ -33,6 +35,7 @@ Every verse of the King James Version (1769) is linked to the people, places, ev
 | [`geo/`](geo) | GeoJSON for mapping: every place as a [Linked Places](https://github.com/LinkedPasts/linked-places-format) gazetteer (`bible-places.geojson`) and Paul's journeys |
 | [`neo4j/`](neo4j) | Cypher scripts that build a Neo4j graph from the JSON |
 | [`api/`](api) | A GraphQL API over the JSON, live at `https://theographic-api.netlify.app/api/graphql` |
+| [`data-quality/`](data-quality) | Known problems in the data (`issues.yaml`) and a [corrections log](data-quality/corrections-log.md) of what has been fixed |
 
 ## Documentation
 
@@ -45,6 +48,7 @@ Every verse of the King James Version (1769) is linked to the people, places, ev
 - [Neo4j Graph Documentation](docs/neo4j-graph-documentation.md)
 - [Geospatial Data](docs/geospatial-data.md)
 - [Data Source Bibliography](docs/data-source-bibliography.md)
+- [Data Quality Ledger](data-quality/README.md) and [Corrections Log](data-quality/corrections-log.md)
 
 ## Learn More
 [✍ Contributing](docs/contributing.md) · [📰 Articles](https://viz.bible/posts/) · [🐞 Report a data issue](https://github.com/robertrouse/theographic-bible-metadata/issues/new?template=data-correction.yml)
