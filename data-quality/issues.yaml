@@ -1194,6 +1194,8 @@
   fixed: { date: null, sha: null }
   github: null
   affects: []
+  notes: >-
+    The 13-year Joshua date conflict is the same problem as DQ-0004 (logged Nov 4); fix both together.
 
 - id: DQ-0048
   title: Eleven kings' lags counted the Bible's "Nth year" as N elapsed years
@@ -1367,6 +1369,7 @@
   github: null
   affects: []
   notes: |-
+    - Related: DQ-0007 (Jerusalem Council's predecessor is Paul Writes Galatians, which is later); fix together.
     - Missing related NT events in Appendix F (no Theographic event):
     - 4 BC (AM 4000): Death of Herod the Great (p.280)
     - 27 AD (AM 4030): 30 yr old Jesus began public ministry (p.280)
@@ -1496,7 +1499,7 @@
   github: null
   affects: []
   notes: >-
-    Priority: HIGH (Robert, Nov 9 2026). The ledger has no priority field, so this is marked severity high and in the title. New events need verses, participants, locations and predecessor/lag links.
+    Priority: HIGH (Robert, Nov 9 2026). The ledger has no priority field, so this is marked severity high and in the title. Same gap as DQ-0009 (logged Nov 4 from the timeline poster, which also lists the fall of Samaria); this entry carries the full dated Jones list, so DQ-0009 can be closed as a duplicate of it. New events need verses, participants, locations and predecessor/lag links.
 
 - id: DQ-0055
   title: "Patriarchal-era events missing from Theographic (4003-1732 BC)"
@@ -1563,7 +1566,7 @@
   github: null
   affects: []
   notes: >-
-    Lifetime of Joshua ending 13 years before Death of Joshua is already covered by DQ-0047; not repeated here.
+    Lifetime of Joshua ending 13 years before Death of Joshua is already covered by DQ-0004 and DQ-0047; not repeated here.
 
 - id: DQ-0057
   title: "Saul, David and Solomon events missing from Theographic (1095-1015 BC)"
