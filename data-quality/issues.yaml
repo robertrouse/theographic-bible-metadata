@@ -27,6 +27,17 @@
 #   github      issue number, if one exists
 #   affects     downstream consumers that showed the problem
 #   notes       free text
+#
+# Standing rules
+#   - Any verse tagging change must update BOTH the structured arrays (verses.people /
+#     places / peopleGroups and their reverse links) AND the inline markdown links in
+#     mdText and richText.
+#   - Person tags stay whenever the verse names the person, even in a later context.
+#     Collective phrases ("children of Israel") get the group ADDED alongside the person.
+#   - Geo changes must sync between Airtable places and the geo/ GeoJSON (Linked Places).
+#     Rerun the geo consistency check after every geo build or Airtable place edit.
+#   - Geo review: when a place confidently matches a Pleiades record, Pleiades is
+#     authoritative for location. Geo issues follow the same review process as all others.
 
 - id: DQ-0001
   title: Lifetime of Jacob uses Isaac's age (180 years) instead of 147
@@ -614,3 +625,290 @@
   fixed: { date: null, sha: null }
   github: null
   affects: [theographic-web]
+- id: DQ-0024
+  title: Collective nation and tribe references lack a group tag
+  status: needs-research
+  type: missing-link
+  severity: medium
+  table: verses
+  records: 
+    - { id: recqWpJgCvTnPl0Mu, key: "Exod.1.7" }
+  field: people, peopleGroups, mdText, richText
+  current: >-
+    Collective phrases are tagged only to the ancestor person. Exod.1.7 reads "children of [Israel](/person/israel_682)" with no group link. Inline, 728 "Israel" links point to israel_682 (638 "children of Israel", 22 other group phrases, 68 bare); similar group phrases for Judah 136, Canaan 73, Benjamin 72, Manasseh 61, Reuben 44, Gad 44, Moab 43, Levi 42, Ephraim 35, Esau/Edom 34, Dan 31. Tribe of Judah has 278 members and 1 verse; Tribe of Levi 180 members, 0 verses; Nation of Israel 12 verses, 0 members.
+  proposed: >-
+    Keep the person tag (the verse does name the ancestor) and ADD the appropriate peopleGroups record where the group is the true subject, in both the arrays and the inline markdown. Review occurrences; no bulk fix.
+  evidence: >-
+    Exod 1:7 is about the multiplying people, while still naming Israel. Prov 25:1 already links to Tribe of Judah, so group verse links are supported. GitHub JSON and Airtable agree on the counts.
+  checks: []
+  rule: null
+  found: { date: 2026-11-07, by: "external user report, verified against GitHub JSON and Airtable", sha: 4af2272ffcc5c77621e3877c7567b742adb0824f }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [consumer-timeline]
+  notes: >-
+    Reported externally, verified by us. Jacob has a single record (israel_682), so both "Jacob" and "Israel" resolve there. Depends on DQ-0025 (inline group link type).
+- id: DQ-0025
+  title: Inline markdown has no group link type
+  status: open
+  type: schema
+  severity: medium
+  table: verses
+  records: []
+  field: mdText, richText
+  current: >-
+    Inline links exist only as /person/ (33,384) and /place/ (7,306); there is no /group/ link. 13 verses list a peopleGroup with no inline tag, e.g. Ps.14.7, Ps.53.6, Ps.76.1, Ps.78.21.
+  proposed: >-
+    Add a /group/<lookup> inline link type and tag group references in the text.
+  evidence: >-
+    Count of link prefixes across all 31,102 verses in json/verses.json.
+  checks: []
+  rule: null
+  found: { date: 2026-11-07, by: "markdown tag analysis", sha: 4af2272ffcc5c77621e3877c7567b742adb0824f }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: []
+  notes: >-
+    Prerequisite for DQ-0024.
+- id: DQ-0026
+  title: mdText has malformed link syntax and punctuation inside links
+  status: open
+  type: schema
+  severity: medium
+  table: verses
+  records: []
+  field: mdText
+  current: >-
+    16,519 verses have an extra bracket, e.g. Gen.1.1 "[God]([/person/god_1324)". mdText also puts punctuation inside link text ("[Adam,](...)"). mdText and richText differ in 13,581 verses.
+  proposed: >-
+    "[God](/person/god_1324)" with punctuation outside the link, matching richText.
+  evidence: >-
+    Regex scan of mdText vs richText; richText is clean.
+  checks: []
+  rule: null
+  found: { date: 2026-11-07, by: "markdown tag analysis", sha: 4af2272ffcc5c77621e3877c7567b742adb0824f }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: []
+  notes: >-
+    Likely an exporter bug; fix once in the generator rather than per row.
+- id: DQ-0027
+  title: Inline links to nonexistent person id for Lot's younger daughter
+  status: open
+  type: bad-link
+  severity: medium
+  table: verses
+  records: []
+  field: mdText, richText
+  current: >-
+    14 inline links point to ids missing from people.json, mainly "daughter_of_lot_-_younger_984" in Gen.19.8, Gen.19.12, Gen.19.14, Gen.19.15.
+  proposed: >-
+    daughter_of_lot_younger_984 (the existing lookup).
+  evidence: >-
+    Inline link ids joined to people.json personLookup; the stray "-_" variant has no match.
+  checks: []
+  rule: null
+  found: { date: 2026-11-07, by: "markdown tag analysis", sha: 4af2272ffcc5c77621e3877c7567b742adb0824f }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: []
+  notes: >-
+    Check the remaining few broken ids in the same pass.
+- id: DQ-0028
+  title: Inline tags and verse people/places lists disagree
+  status: needs-research
+  type: missing-link
+  severity: medium
+  table: verses
+  records: []
+  field: people, places, richText
+  current: >-
+    726 places in a verse list are not tagged in the text (e.g. Gen.2.8, Gen.2.10, Gen.2.11); 67 people listed but untagged (mostly Lot's daughters, Gen 19); 37 people tagged in text but not listed (Gen.12.5 "[Canaan]" tagged as person canaan_914; Gen.18.25 "[Judge]" to god_1324); 8 places tagged but not listed (Ps.83.7 Amalek, Isa.30.7 Egyptians, Isa.62.1 Zion's). Obad.1.1 has "[Edom](/person/esau_1216)" though Esau is not in its people list.
+  proposed: >-
+    Make text tags and arrays agree: Gen.12.5 Canaan as the place; add God to Gen.18.25 people; review each place-list gap.
+  evidence: >-
+    Join of richText links against verses.people and verses.places.
+  checks: []
+  rule: null
+  found: { date: 2026-11-07, by: "markdown tag analysis", sha: 4af2272ffcc5c77621e3877c7567b742adb0824f }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: []
+  notes: >-
+    Reverse links on person/place/group records not yet checked.
+- id: DQ-0029
+  title: Same name split across several place records
+  status: needs-research
+  type: duplicate-record
+  severity: medium
+  table: verses
+  records: []
+  field: places, richText
+  current: >-
+    "Egypt" links to egypt_362 (594), egypt_259 (9), egypts_363 (1); "Babylon" links to babylonia_152 (6); "Judah" links to judea_657 and hodevah_1542.
+  proposed: >-
+    One record per real place unless genuinely distinct; correct the Judah to hodevah link.
+  evidence: >-
+    Inline link text grouped by target id.
+  checks: []
+  rule: null
+  found: { date: 2026-11-07, by: "markdown tag analysis", sha: 4af2272ffcc5c77621e3877c7567b742adb0824f }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: []
+  notes: >-
+    Check against geo/ GeoJSON when consolidating (geo sync rule).
+- id: DQ-0030
+  title: Adjacent duplicate tags for one referent
+  status: open
+  type: typo
+  severity: low
+  table: verses
+  records: []
+  field: mdText, richText
+  current: >-
+    527 cases of neighbouring words tagged separately to the same record, almost all "[LORD](/person/god_1324) [God](/person/god_1324)".
+  proposed: >-
+    "[LORD God](/person/god_1324)" as one link.
+  evidence: >-
+    Adjacent-link scan. No nested or overlapping tags found.
+  checks: []
+  rule: null
+  found: { date: 2026-11-07, by: "markdown tag analysis", sha: 4af2272ffcc5c77621e3877c7567b742adb0824f }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: []
+  notes: >-
+    Cosmetic.
+- id: DQ-0031
+  title: Place coordinates differ between Airtable and GeoJSON
+  status: needs-research
+  type: wrong-value
+  severity: high
+  table: places
+  records: []
+  field: latitude, longitude
+  current: >-
+    678 places differ: 390 by 1-25 km, 288 by over 25 km (34 over 500 km). Abana Airtable 33.5451, 36.2247 vs GeoJSON 33.5135, 36.305; Achaia 37.5, 22.5 vs 38.72, 22.54; Ophir 27.5, 67.5 (Pakistan) vs 18.22, 42.5 (Arabia).
+  proposed: >-
+    Pick one master source for coordinates and sync the other; review and reconcile all differences over 25 km first.
+  evidence: >-
+    Features matched to Airtable lookup via Theographic link; haversine distance. Airtable mostly from OpenBible, GeoJSON from Pleiades and DigitalManna.
+  checks: []
+  rule: null
+  found: { date: 2026-11-07, by: "geo consistency check (Airtable vs geo/bible-places.geojson)", sha: 4af2272ffcc5c77621e3877c7567b742adb0824f }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [geo]
+  notes: >-
+    Root cause: GeoJSON is built on the geo-pipeline branch with no write-back to Airtable. Rerunnable check at /workspace/dq-geo/geo_check.py.
+- id: DQ-0032
+  title: Missing or half-filled coordinates between Airtable and GeoJSON
+  status: open
+  type: missing-link
+  severity: medium
+  table: places
+  records: []
+  field: latitude, longitude
+  current: >-
+    22 places have a GeoJSON point but no full Airtable coordinate: Gihon (Eden) none vs 31.4653, 30.3667; latitude without longitude for azotus_132, clauda_280, chios_296 (38.414 vs GeoJSON 38.3725, 26.1375), lasea_717, phrygia_946. Reverse: Biziothiah (31.245, 34.841) and Nebaioth have Airtable points but empty GeoJSON geometry.
+  proposed: >-
+    Fill Airtable from GeoJSON for the 22; set GeoJSON points or mark unlocated for Biziothiah and Nebaioth.
+  evidence: >-
+    Null and partial coordinate scan across both sources.
+  checks: []
+  rule: null
+  found: { date: 2026-11-07, by: "geo consistency check (Airtable vs geo/bible-places.geojson)", sha: 4af2272ffcc5c77621e3877c7567b742adb0824f }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [geo]
+  notes: >-
+    Half-filled records suggest a source-field gap.
+- id: DQ-0033
+  title: Airtable place records absent from GeoJSON, several not real places
+  status: needs-research
+  type: missing-record
+  severity: medium
+  table: places
+  records: []
+  field: places
+  current: >-
+    11 main records missing from GeoJSON: Holy Place (x2), Most Holy Place (x2), Most Holy, Azazel, Nodab, Nohah, Naphish, "There", "Judgment".
+  proposed: >-
+    Merge into the right main record, reclassify (e.g. Nodab and Naphish as peoples, Azazel), or remove from places.
+  evidence: >-
+    Set difference of Airtable main records vs GeoJSON features.
+  checks: []
+  rule: null
+  found: { date: 2026-11-07, by: "geo consistency check (Airtable vs geo/bible-places.geojson)", sha: 4af2272ffcc5c77621e3877c7567b742adb0824f }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [geo]
+  notes: >-
+    Leave GeoJSON as is.
+- id: DQ-0034
+  title: Feature type and precision not mapped consistently
+  status: open
+  type: schema
+  severity: medium
+  table: places
+  records: []
+  field: featureType, precision
+  current: >-
+    featureType filled on only 744 of 1,298 Airtable records. 6 GeoJSON settlements are Airtable "Region", 5 GeoJSON water features are "Landmark". 56 "Rough" and 1 "Unlocated" are GeoJSON certain; 30 "Related-*" are less-certain.
+  proposed: >-
+    Define mapping (Precise/Center to certain; Rough/Unlocated to less-certain) and backfill featureType from GeoJSON class after review.
+  evidence: >-
+    Field-by-field comparison of matched records.
+  checks: []
+  rule: null
+  found: { date: 2026-11-07, by: "geo consistency check (Airtable vs geo/bible-places.geojson)", sha: 4af2272ffcc5c77621e3877c7567b742adb0824f }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [geo]
+  notes: >-
+    
+- id: DQ-0035
+  title: Place names and titles differ between Airtable and GeoJSON
+  status: open
+  type: typo
+  severity: low
+  table: places
+  records: []
+  field: displayTitle, aliases
+  current: >-
+    23 Airtable titles not among GeoJSON names, mostly variants (Beersheba vs Beer-Sheba, Engedi). Generic lookups on specific places: river_1010 "River" (Euphrates), rock_1011 "Rock" (Maon), tower_1177 "Tower" (Tower of Hananel); kadesh_662 matched to Tahtim-Hodshi looks wrong. Alias "Mars Hill" missing from Areopagus names.
+  proposed: >-
+    Add variants as GeoJSON names; give generic titles specific names; fix kadesh_662 link.
+  evidence: >-
+    Name and alias set comparison.
+  checks: []
+  rule: null
+  found: { date: 2026-11-07, by: "geo consistency check (Airtable vs geo/bible-places.geojson)", sha: 4af2272ffcc5c77621e3877c7567b742adb0824f }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [geo]
+  notes: >-
+    
+- id: DQ-0036
+  title: Implausibly deep first-attestation dates in GeoJSON
+  status: open
+  type: wrong-value
+  severity: low
+  table: places
+  records: []
+  field: when
+  current: >-
+    Accho -2,600,000; Euphrates -18,000; Tyre -10,000.
+  proposed: >-
+    Clamp to biblical-narrative or sensible Pleiades period dates.
+  evidence: >-
+    Range scan of when.start values.
+  checks: []
+  rule: null
+  found: { date: 2026-11-07, by: "geo consistency check (Airtable vs geo/bible-places.geojson)", sha: 4af2272ffcc5c77621e3877c7567b742adb0824f }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [geo]
+  notes: >-
+    Likely inherited from Pleiades prehistoric periods.
