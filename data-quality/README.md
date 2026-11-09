@@ -17,7 +17,7 @@ The data itself is still corrected in Airtable and published by the monthly [Air
 | `data-quality/issues.yaml` | One entry per problem, with its status, evidence, and a check that can confirm the fix |
 | Airtable | Where fixes are made |
 | Monthly export pull request | Brings the fix into `json/` and `CSV/` |
-| [Corrections log](../docs/chronology-and-dates.md#corrections-log) | Readable summary of what changed, written from the entries fixed that month |
+| [Corrections log](corrections-log.md) | Readable summary of what changed across all files, written from the entries fixed that month |
 
 Because the ledger is versioned with the data, a project pinned to a commit can read the list of known issues as of that commit.
 
