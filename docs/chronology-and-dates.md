@@ -110,10 +110,6 @@ Because the source is Ussher, `yearNum` can differ from the events timeline. The
 
 ## Corrections log
 
-**October 2026.** The data was checked against Jones, Appendix F, and converted to ISO 8601 throughout:
-
-- **Events:** 21 dates corrected to Jones, for example *Death of Adam* (3074 BC), *Birth of Abraham* (1996 BC), and *Judgeship of Jair* (1192 BC; previously mistyped as `-1991`). One calendar date was zero-padded, and *Death of Solomon* and *Death of Jotham* were linked to their participants.
-- **People:** birth and death years set to Jones and converted to ISO. The Divided Monarchy kings previously used a different chronology (Thiele). Values that were impossible or that Jones does not support were removed. Examples are a birth year copied from a child's, a birth year equal to the record ID, and a birth year equal to the death year.
-- **Verses:** `yearNum` converted to ISO.
+Corrections to dates, and to every other part of the data, are listed in the repository-wide [corrections log](../data-quality/corrections-log.md).
 
 Found something that still doesn't match Jones? [Open a data correction issue](https://github.com/robertrouse/theographic-bible-metadata/issues/new?template=data-correction.yml).
