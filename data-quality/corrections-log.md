@@ -8,6 +8,16 @@ Found something that still looks wrong? [Open a data correction issue](https://g
 
 ## November 2026
 
+Fixed in Airtable on November 9, after that month's export. These changes reach `json/` and `CSV/` in the next export.
+
+- **Events:** Eleven kings' start-to-start lags were one year too long (DQ-0048). Each lag had been entered as the "Nth year" in the text, but a lag is the number of years between the two start dates, and the start dates (which follow Jones) are N−1 years apart. Only the lag changed; start dates and predecessors are unchanged.
+  - *Reign of Abijam* 18Y → 17Y, *Reign of Asa* 20Y → 19Y (after *Reign of Jeroboam I*)
+  - *Reign of Joram* 18Y → 17Y (after *Reign of Jehoshaphat*)
+  - *Reign of Ahaziah (Jehoahaz)* 12Y → 11Y, *Reign of Jehu* 12Y → 11Y (after *Reign of Joram*). Jehu's predecessor was changed from *Reign of Joash* to *Reign of Joram*, with a 12Y lag, earlier the same day (DQ-0006); the lag is now 11Y.
+  - *Reign of Jehoahaz* 23Y → 22Y (after *Reign of Joash*)
+  - *Reign of Jeroboam II* 15Y → 14Y (after *Reign of Amaziah*)
+  - *Reign of Shallum* 39Y → 38Y, *Reign of Menahem* 39Y → 38Y, *Reign of Pekahiah* 50Y → 49Y, *Reign of Pekah* 52Y → 51Y (after *Reign of Uzziah*)
+
 Exported in [#63](https://github.com/robertrouse/theographic-bible-metadata/pull/63).
 
 - **Events:**
