@@ -21,6 +21,8 @@ Anyone who reads carefully can help validate and disambiguate the data. A good c
 2. **The field and its current value:** for example, `deathYear: -1452`.
 3. **What it should be, with a source:** a verse, a work in the [bibliography](data-source-bibliography.md), or another citable reference.
 
+Before you report, check the [data quality ledger](../data-quality/issues.yaml) to see whether the problem is already known, and the [corrections log](../data-quality/corrections-log.md) to see whether it has been fixed. Each new report is copied into the ledger and tracked there until it is fixed or closed.
+
 Theographic's data is maintained in [Airtable](https://airtable.com/) and exported to this repository, so corrections are made there and appear in the next export. Pull requests that edit the JSON or CSV files directly are welcome as a way to propose a change, but they will be applied upstream by hand rather than merged.
 
 Before reporting a date, please read [Chronology and Dates](chronology-and-dates.md). The timeline follows Dr. Floyd Nolen Jones, and two year conventions are in use, so a one-year difference may be expected.
