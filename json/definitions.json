@@ -85854,28 +85854,6 @@
         }
     },
     {
-        "id": "recyqTXKp7hr06ytC",
-        "createdTime": "2026-10-23T04:48:11.000Z",
-        "fields": {
-            "slug": "mount_of_olives_828",
-            "place": [
-                "recOahYbjltSaaIV0"
-            ],
-            "text": "The Mount of Olives is a ridge east of Jerusalem, separated from the city by the Kidron Valley and named for the olive trees on its slopes (Easton's Bible Dictionary). Zechariah describes it as standing \"before Jerusalem on the east\" and foresees it splitting in two from east to west, opening a great valley (Zech 14:4). Easton's notes that David crossed it while fleeing Absalom (2 Sam 15:30) and that Solomon built high places for foreign gods there (1 Kgs 11:7). In the Gospels Jesus often stayed there. He taught his disciples about coming events in what is called the Olivet Discourse (Matt 24), and he went there on the night of his arrest. Acts 1:12 links the Ascension to it, and Luke 24:50\u201351 places that event near Bethany, on its eastern side. Easton's says it rises about 200 feet above the city and is now called Jebel et-Tur. Some passages call it simply \"the mount.\"",
-            "citations": [
-                "recNBHagf3Oqsqobk"
-            ],
-            "status": "draft",
-            "confidence": "medium",
-            "model": "claude-opus-5-5",
-            "generatedAt": "2026-10-23",
-            "batchId": "msgbatch_013kqCrVdfspKcQQtBnWUCjc",
-            "sources": [
-                "Easton"
-            ]
-        }
-    },
-    {
         "id": "recR4CcKkUpBxovpJ",
         "createdTime": "2026-10-23T04:48:11.000Z",
         "fields": {
@@ -85883,7 +85861,7 @@
             "place": [
                 "rec5wqkJ6JXv03dvF"
             ],
-            "text": "The Mount of Olives, also called mount Olivet, is the ridge directly east of Jerusalem, facing the temple across the Kidron Valley. David climbed it weeping and barefoot as he fled from Absalom (2 Sam 15:30). Zechariah foretold that the Lord's feet would stand on it and that it would split from east to west, forming a great valley (Zech 14:4). In the Gospels, Jesus approached Jerusalem by way of Bethphage and Bethany on its slopes, and the crowd of disciples praised God as he came down it (Mark 11:1; Luke 19:37). He sat there with his disciples to speak about the end of the age (Matt 24:3; Mark 13:3), and he often went there, including after the Last Supper (Luke 22:39; Mark 14:26). Easton's Bible Dictionary identifies it with the modern Jebel et-Tur, about 200 feet above the city.",
+            "text": "The Mount of Olives, also called mount Olivet, is the ridge east of Jerusalem, facing the temple across the Kidron Valley. David climbed it weeping and barefoot as he fled from Absalom (2 Sam 15:30). Zechariah foretold that the Lord's feet would stand on it and that it would split from east to west, forming a great valley (Zech 14:4). In the Gospels, Jesus approached Jerusalem by way of Bethphage and Bethany on its slopes, and the crowd of disciples praised God as he came down it (Mark 11:1; Luke 19:29, 37). He sat there with his disciples to speak about the end of the age (Matt 24:3; Mark 13:3). In his last days he spent his nights there (Luke 21:37), and he went there after the Last Supper (Luke 22:39; Mark 14:26). After his ascension the disciples returned from it to Jerusalem, a sabbath day's journey (Acts 1:12). Easton's Bible Dictionary identifies it with the modern Jebel et-Tur, about 200 feet above the city.",
             "citations": [
                 "recB2Jo87xsplmtj9",
                 "recNBHagf3Oqsqobk",
@@ -85894,7 +85872,10 @@
                 "recE24HYsIgcCXhc4",
                 "reczEm8dVo37HUh9J",
                 "recGmChKDHNypmuA6",
-                "rec0yhfBT9y9TBC75"
+                "rec0yhfBT9y9TBC75",
+                "recMXf0BXiq5lLUue",
+                "rec4FLLe8oadMCSYA",
+                "recPApnNncrj9VvNt"
             ],
             "status": "draft",
             "confidence": "high",
@@ -90898,32 +90879,6 @@
             "batchId": "msgbatch_013kqCrVdfspKcQQtBnWUCjc",
             "sources": [
                 "Easton"
-            ]
-        }
-    },
-    {
-        "id": "recXlcWsk96mgx14V",
-        "createdTime": "2026-10-23T04:48:21.000Z",
-        "fields": {
-            "slug": "olivet_907",
-            "place": [
-                "recp5J3K9kl6DteAM"
-            ],
-            "text": "Olivet is another name for the Mount of Olives, a ridge just east of Jerusalem. Easton's Bible Dictionary says the Kidron Valley separates it from the city and explains the name from the olive trees on its slopes. Acts 1:12 places it a sabbath day's journey from Jerusalem, probably a walk of under a mile. Bethphage and Bethany lay on or near it, and from there Jesus sent two disciples ahead before entering the city (Luke 19:29). In his last days he taught in the temple by day and spent the nights on the mount (Luke 21:37). The events linked to it here are the cursing of the fig tree, his teaching about that tree, the promise of the Holy Spirit, and his ascension. After the ascension the disciples returned from Olivet to Jerusalem. Easton's identifies it with the modern Jebel et-Tur.",
-            "citations": [
-                "recMXf0BXiq5lLUue",
-                "rec4FLLe8oadMCSYA",
-                "recPApnNncrj9VvNt"
-            ],
-            "status": "draft",
-            "confidence": "high",
-            "model": "claude-opus-5-5",
-            "generatedAt": "2026-10-23",
-            "batchId": "msgbatch_013kqCrVdfspKcQQtBnWUCjc",
-            "sources": [
-                "Easton",
-                "Smith",
-                "ISBE"
             ]
         }
     },

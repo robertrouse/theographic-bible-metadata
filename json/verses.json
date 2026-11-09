@@ -625201,23 +625201,21 @@
             ],
             "verseNum": "4",
             "verseText": "And his feet shall stand in that day upon the mount of Olives, which is before Jerusalem on the east, and the mount of Olives shall cleave in the midst thereof toward the east and toward the west, and there shall be a very great valley; and half of the mountain shall remove toward the north, and half of it toward the south.",
-            "mdText": "And his feet shall stand in that day upon the [mount](/place/mount_of_olives_828) of [Olives,](/place/mount_of_olives_861) which _is_ before [Jerusalem](/place/jerusalem_636) on the east, and the [mount](/place/mount_of_olives_828) of [Olives](/place/mount_of_olives_861) shall cleave in the midst thereof toward the east and toward the west, _and_ _there_ _shall_ _be_ a very great valley; and half of the mountain shall remove toward the north, and half of it toward the south.",
+            "mdText": "And his feet shall stand in that day upon the [mount](/place/mount_of_olives_861) of [Olives,](/place/mount_of_olives_861) which _is_ before [Jerusalem](/place/jerusalem_636) on the east, and the [mount](/place/mount_of_olives_861) of [Olives](/place/mount_of_olives_861) shall cleave in the midst thereof toward the east and toward the west, _and_ _there_ _shall_ _be_ a very great valley; and half of the mountain shall remove toward the north, and half of it toward the south.",
             "peopleCount": 0,
             "places": [
-                "recOahYbjltSaaIV0",
                 "rec5wqkJ6JXv03dvF",
                 "recL1WV82pXaRBQ59"
             ],
-            "placesCount": 3,
+            "placesCount": 2,
             "yearNum": -486,
-            "richText": "And his feet shall stand in that day upon the [mount](/place/mount_of_olives_828) of [Olives](/place/mount_of_olives_861), which _is_ before [Jerusalem](/place/jerusalem_636) on the east, and the [mount](/place/mount_of_olives_828) of [Olives](/place/mount_of_olives_861) shall cleave in the midst thereof toward the east and toward the west, _and_ _there_ _shall_ _be_ a very great valley; and half of the mountain shall remove toward the north, and half of it toward the south.\n",
+            "richText": "And his feet shall stand in that day upon the [mount](/place/mount_of_olives_861) of [Olives](/place/mount_of_olives_861), which _is_ before [Jerusalem](/place/jerusalem_636) on the east, and the [mount](/place/mount_of_olives_861) of [Olives](/place/mount_of_olives_861) shall cleave in the midst thereof toward the east and toward the west, _and_ _there_ _shall_ _be_ a very great valley; and half of the mountain shall remove toward the north, and half of it toward the south.\n",
             "verseID": "38014004",
-            "modified": "2026-10-23T04:48:11.000Z",
+            "modified": "2026-11-09T14:18:03.000Z",
             "event": [
                 "recebNaZjPvbOqk4r"
             ],
             "definitions": [
-                "recyqTXKp7hr06ytC",
                 "recR4CcKkUpBxovpJ"
             ]
         }
@@ -700962,18 +700960,18 @@
             ],
             "verseNum": "29",
             "verseText": "And it came to pass, when he was come nigh to Bethphage and Bethany, at the mount called the mount of Olives, he sent two of his disciples,",
-            "mdText": "And it came to pass, when he was come nigh to [Bethphage](/place/bethphage_229) and [Bethany,](/place/bethany_186) at the mount called _the_ _mount_ of [Olives,](/place/olivet_907) he sent two of his disciples,",
+            "mdText": "And it came to pass, when he was come nigh to [Bethphage](/place/bethphage_229) and [Bethany,](/place/bethany_186) at the mount called _the_ _mount_ of [Olives,](/place/mount_of_olives_861) he sent two of his disciples,",
             "peopleCount": 0,
             "places": [
                 "recxyaXbeYBWpi02k",
                 "recLDF53uVzhhlyux",
-                "recp5J3K9kl6DteAM"
+                "rec5wqkJ6JXv03dvF"
             ],
             "placesCount": 3,
             "yearNum": 33,
-            "richText": "And it came to pass, when he was come nigh to [Bethphage](/place/bethphage_229) and [Bethany](/place/bethany_186), at the mount called _the_ _mount_ of [Olives](/place/olivet_907), he sent two of his disciples,\n",
+            "richText": "And it came to pass, when he was come nigh to [Bethphage](/place/bethphage_229) and [Bethany](/place/bethany_186), at the mount called _the_ _mount_ of [Olives](/place/mount_of_olives_861), he sent two of his disciples,\n",
             "verseID": "42019029",
-            "modified": "2026-10-23T04:49:22.000Z",
+            "modified": "2026-11-09T14:18:03.000Z",
             "event": [
                 "recBsshyiGaHc6bgC",
                 "recmXmhZt51doQu7o"
@@ -700981,8 +700979,8 @@
             "definitions": [
                 "recybwqCRKN9eRsRX",
                 "recTx69AxrTWzpO5W",
-                "recXlcWsk96mgx14V",
-                "recbQjfIAfyMxsxEK"
+                "recbQjfIAfyMxsxEK",
+                "recR4CcKkUpBxovpJ"
             ]
         }
     },
@@ -703799,18 +703797,18 @@
             ],
             "verseNum": "37",
             "verseText": "And in the day time he was teaching in the temple; and at night he went out, and abode in the mount that is called the mount of Olives.",
-            "mdText": "And in the day time he was teaching in the temple; and at night he went out, and abode in the mount that is called _the_ _mount_ of [Olives.](/place/olivet_907)",
+            "mdText": "And in the day time he was teaching in the temple; and at night he went out, and abode in the mount that is called _the_ _mount_ of [Olives.](/place/mount_of_olives_861)",
             "peopleCount": 0,
             "places": [
-                "recp5J3K9kl6DteAM"
+                "rec5wqkJ6JXv03dvF"
             ],
             "placesCount": 1,
             "yearNum": 33,
-            "richText": "And in the day time he was teaching in the temple; and at night he went out, and abode in the mount that is called _the_ _mount_ of [Olives](/place/olivet_907).\n",
+            "richText": "And in the day time he was teaching in the temple; and at night he went out, and abode in the mount that is called _the_ _mount_ of [Olives](/place/mount_of_olives_861).\n",
             "verseID": "42021037",
-            "modified": "2026-10-23T04:48:21.000Z",
+            "modified": "2026-11-09T14:18:03.000Z",
             "definitions": [
-                "recXlcWsk96mgx14V"
+                "recR4CcKkUpBxovpJ"
             ]
         }
     },
@@ -734388,23 +734386,23 @@
             ],
             "verseNum": "12",
             "verseText": "Then returned they unto Jerusalem from the mount called Olivet, which is from Jerusalem a sabbath day\u2019s journey.",
-            "mdText": "Then returned they unto [Jerusalem](/place/jerusalem_636) from the mount called [Olivet,](/place/olivet_907) which is from [Jerusalem](/place/jerusalem_636) a sabbath day\u2019s journey.",
+            "mdText": "Then returned they unto [Jerusalem](/place/jerusalem_636) from the mount called [Olivet,](/place/mount_of_olives_861) which is from [Jerusalem](/place/jerusalem_636) a sabbath day\u2019s journey.",
             "peopleCount": 0,
             "places": [
-                "recp5J3K9kl6DteAM",
+                "rec5wqkJ6JXv03dvF",
                 "recL1WV82pXaRBQ59"
             ],
             "placesCount": 2,
             "yearNum": 33,
-            "richText": "Then returned they unto [Jerusalem](/place/jerusalem_636) from the mount called [Olivet](/place/olivet_907), which is from [Jerusalem](/place/jerusalem_636) a sabbath day\u2019s journey.\n",
+            "richText": "Then returned they unto [Jerusalem](/place/jerusalem_636) from the mount called [Olivet](/place/mount_of_olives_861), which is from [Jerusalem](/place/jerusalem_636) a sabbath day\u2019s journey.\n",
             "verseID": "44001012",
-            "modified": "2026-10-23T04:48:21.000Z",
+            "modified": "2026-11-09T14:18:03.000Z",
             "event": [
                 "reczDqE366xgbgv2C"
             ],
             "definitions": [
                 "recZONWryxxWiwvnh",
-                "recXlcWsk96mgx14V"
+                "recR4CcKkUpBxovpJ"
             ]
         }
     },

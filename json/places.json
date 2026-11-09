@@ -37004,60 +37004,18 @@
         }
     },
     {
-        "id": "recOahYbjltSaaIV0",
-        "createdTime": "2017-09-19T23:40:41.000Z",
-        "fields": {
-            "placeLookup": "mount_of_olives_828",
-            "displayTitle": "Mount of Olives",
-            "aliases": "4b is just \"mount\" or \"mountain\"",
-            "featureType": "Mountain",
-            "latitude": "31.77809503",
-            "longitude": "35.24719761",
-            "verseCount": 1,
-            "placeID": 828,
-            "verses": [
-                "recNBHagf3Oqsqobk"
-            ],
-            "recogitoStatus": "UNVERIFIED",
-            "recogitoUID": "85bff439-1af6-4433-815d-b8ce28b997cf",
-            "eastons": [
-                "recC7fSBLLGFQGC8R"
-            ],
-            "modified": "2026-10-23T04:48:11.000Z",
-            "kjvName": "mount of Olives",
-            "esvName": "Mount of Olives",
-            "openBibleLat": "31.77809503",
-            "openBibleLong": "35.24719761",
-            "alphaGroup": "M",
-            "slug": "mount_of_olives_828",
-            "ambiguous": true,
-            "dictText": [
-                "So called from the olive trees with which its sides are clothed, is a mountain ridge on the east of Jerusalem ([1 Kings 11:7](/1kgs#1Kgs.11.7); [Ezek. 11:23](/ezek#Ezek.11.23); [Zech. 14:4](/zech#Zech.14.4)), from which it is separated by the valley of Kidron. It is first mentioned in connection with David\u2019s flight from Jerusalem through the rebellion of Absalom ([2 Sam. 15:30](/2sam#2Sam.15.30)), and is only once again mentioned in the Old Testament, in [Zech. 14:4](/zech#Zech.14.4). It is, however, frequently alluded to ([1 Kings 11:7](/1kgs#1Kgs.11.7); [2 Kings 23:13](/2kgs#2Kgs.23.13); [Neh. 8:15](/neh#Neh.8.15); [Ezek. 11:23](/ezek#Ezek.11.23)).\n\n It is frequently mentioned in the New Testament ([Matt. 21:1](/matt#Matt.21.1); [26:30](/matt#Matt.26.30), etc.). It now bears the name of Jebel et-Tur, i.e., \u201cMount of the Summit;\u201d also sometimes called Jebel ez-Zeitun, i.e., \u201cMount of Olives.\u201d It is about 200 feet above the level of the city. The road from Jerusalem to Bethany runs as of old over this mount. It was on this mount that Jesus stood when he wept over Jerusalem. \u201cNo name in Scripture,\u201d says Dr. Porter, \u201ccalls up associations at once so sacred and so pleasing as that of Olivet. The \u2018mount\u2019 is so intimately connected with the private, the devotional life of the Saviour, that we read of it and look at it with feelings of deepest interest and affection. Here he often sat with his disciples, telling them of wondrous events yet to come, of the destruction of the Holy City; of the sufferings, the persecution, and the final triumph of his followers ([Matt. 24](/matt#Matt.24)). Here he gave them the beautiful parables of the ten virgins and the five talents (25); here he was wont to retire on each evening for meditation, and prayer, and rest of body, when weary and harassed by the labours and trials of the day ([Luke 21:37](/luke#Luke.21.37)); and here he came on the night of his betrayal to utter that wonderful prayer, \u2018O my Father, if it be possible, let this cup pass from me: nevertheless not as I will, but as thou wilt\u2019 ([Matt. 26:39](/matt#Matt.26.39)). And when the cup of God\u2019s wrath had been drunk, and death and the grave conquered, he led his disciples out again over Olivet as far as to Bethany, and after a parting blessing ascended to heaven ([Luke 24:50](/luke#Luke.24.50), [51](/luke#Luke.24.51); [Acts 1:12](/acts#Acts.1.12)).\u201d\n\n This mount, or rather mountain range, has four summits or peaks: (1) the \u201cGalilee\u201d peak, so called from a tradition that the angels stood here when they spoke to the disciples ([Acts 1:11](/acts#Acts.1.11)); (2) the \u201cMount of Ascension,\u201d the supposed site of that event, which was, however, somewhere probably nearer Bethany ([Luke 24:51](/luke#Luke.24.51), [52](/luke#Luke.24.52)); (3) the \u201cProphets,\u201d from the catacombs on its side, called \u201cthe prophets\u2019 tombs;\u201d and (4) the \u201cMount of Corruption,\u201d so called because of the \u201chigh places\u201d erected there by Solomon for the idolatrous worship of his foreign wives ([1 Kings 11:7](/1kgs#1Kgs.11.7); [2 Kings 23:13](/2kgs#2Kgs.23.13); Vulg., \u201cMount of Offence\u201d)."
-            ],
-            "eventsHere": [
-                "recN1gyMPKbPPQIMa",
-                "recwQXXtK8ZbnYuIJ"
-            ],
-            "canonicalPlace": [
-                "rec5wqkJ6JXv03dvF"
-            ],
-            "definitions": [
-                "recyqTXKp7hr06ytC"
-            ]
-        }
-    },
-    {
         "id": "rec5wqkJ6JXv03dvF",
         "createdTime": "2017-09-19T23:40:41.000Z",
         "fields": {
             "placeLookup": "mount_of_olives_861",
             "displayTitle": "Mount of Olives",
-            "aliases": "mount Olivet",
+            "aliases": "Olivet, mount Olivet",
             "featureType": "Mountain",
             "latitude": "31.77809503",
             "longitude": "35.24719761",
-            "verseCount": 11,
+            "verseCount": 14,
             "placeID": 861,
+            "hasBeenHere": "jesus_905",
             "verses": [
                 "recB2Jo87xsplmtj9",
                 "recNBHagf3Oqsqobk",
@@ -37069,7 +37027,10 @@
                 "reczEm8dVo37HUh9J",
                 "rec6uMdGNp6UCMB6J",
                 "recE24HYsIgcCXhc4",
-                "rec0yhfBT9y9TBC75"
+                "rec0yhfBT9y9TBC75",
+                "recMXf0BXiq5lLUue",
+                "rec4FLLe8oadMCSYA",
+                "recPApnNncrj9VvNt"
             ],
             "recogitoStatus": "NOT_IDENTIFIABLE",
             "recogitoComments": "Olivet, not anmed in Pelagios databases|Duplicate of Mount of Olives",
@@ -37077,7 +37038,7 @@
             "eastons": [
                 "recC7fSBLLGFQGC8R"
             ],
-            "modified": "2026-10-23T04:48:11.000Z",
+            "modified": "2026-11-09T14:18:05.000Z",
             "kjvName": "mount of Olives",
             "esvName": "Mount of Olives",
             "openBibleLat": "31.77809503",
@@ -37088,9 +37049,13 @@
             "dictText": [
                 "So called from the olive trees with which its sides are clothed, is a mountain ridge on the east of Jerusalem ([1 Kings 11:7](/1kgs#1Kgs.11.7); [Ezek. 11:23](/ezek#Ezek.11.23); [Zech. 14:4](/zech#Zech.14.4)), from which it is separated by the valley of Kidron. It is first mentioned in connection with David\u2019s flight from Jerusalem through the rebellion of Absalom ([2 Sam. 15:30](/2sam#2Sam.15.30)), and is only once again mentioned in the Old Testament, in [Zech. 14:4](/zech#Zech.14.4). It is, however, frequently alluded to ([1 Kings 11:7](/1kgs#1Kgs.11.7); [2 Kings 23:13](/2kgs#2Kgs.23.13); [Neh. 8:15](/neh#Neh.8.15); [Ezek. 11:23](/ezek#Ezek.11.23)).\n\n It is frequently mentioned in the New Testament ([Matt. 21:1](/matt#Matt.21.1); [26:30](/matt#Matt.26.30), etc.). It now bears the name of Jebel et-Tur, i.e., \u201cMount of the Summit;\u201d also sometimes called Jebel ez-Zeitun, i.e., \u201cMount of Olives.\u201d It is about 200 feet above the level of the city. The road from Jerusalem to Bethany runs as of old over this mount. It was on this mount that Jesus stood when he wept over Jerusalem. \u201cNo name in Scripture,\u201d says Dr. Porter, \u201ccalls up associations at once so sacred and so pleasing as that of Olivet. The \u2018mount\u2019 is so intimately connected with the private, the devotional life of the Saviour, that we read of it and look at it with feelings of deepest interest and affection. Here he often sat with his disciples, telling them of wondrous events yet to come, of the destruction of the Holy City; of the sufferings, the persecution, and the final triumph of his followers ([Matt. 24](/matt#Matt.24)). Here he gave them the beautiful parables of the ten virgins and the five talents (25); here he was wont to retire on each evening for meditation, and prayer, and rest of body, when weary and harassed by the labours and trials of the day ([Luke 21:37](/luke#Luke.21.37)); and here he came on the night of his betrayal to utter that wonderful prayer, \u2018O my Father, if it be possible, let this cup pass from me: nevertheless not as I will, but as thou wilt\u2019 ([Matt. 26:39](/matt#Matt.26.39)). And when the cup of God\u2019s wrath had been drunk, and death and the grave conquered, he led his disciples out again over Olivet as far as to Bethany, and after a parting blessing ascended to heaven ([Luke 24:50](/luke#Luke.24.50), [51](/luke#Luke.24.51); [Acts 1:12](/acts#Acts.1.12)).\u201d\n\n This mount, or rather mountain range, has four summits or peaks: (1) the \u201cGalilee\u201d peak, so called from a tradition that the angels stood here when they spoke to the disciples ([Acts 1:11](/acts#Acts.1.11)); (2) the \u201cMount of Ascension,\u201d the supposed site of that event, which was, however, somewhere probably nearer Bethany ([Luke 24:51](/luke#Luke.24.51), [52](/luke#Luke.24.52)); (3) the \u201cProphets,\u201d from the catacombs on its side, called \u201cthe prophets\u2019 tombs;\u201d and (4) the \u201cMount of Corruption,\u201d so called because of the \u201chigh places\u201d erected there by Solomon for the idolatrous worship of his foreign wives ([1 Kings 11:7](/1kgs#1Kgs.11.7); [2 Kings 23:13](/2kgs#2Kgs.23.13); Vulg., \u201cMount of Offence\u201d)."
             ],
-            "otherNames": [
-                "recp5J3K9kl6DteAM",
-                "recOahYbjltSaaIV0"
+            "eventsHere": [
+                "recN1gyMPKbPPQIMa",
+                "recwQXXtK8ZbnYuIJ",
+                "recvfB75N6vrQwhWW",
+                "rec06pcAZBChUBKxF",
+                "recYOqX5Qe2a0FHvw",
+                "recotN6XCwPBF0OzT"
             ],
             "definitions": [
                 "recR4CcKkUpBxovpJ"
@@ -39485,49 +39450,6 @@
             ],
             "definitions": [
                 "rechTMiiOOaadN1YX"
-            ]
-        }
-    },
-    {
-        "id": "recp5J3K9kl6DteAM",
-        "createdTime": "2017-09-19T23:40:41.000Z",
-        "fields": {
-            "placeLookup": "olivet_907",
-            "displayTitle": "Olivet",
-            "featureType": "Mountain",
-            "latitude": "31.77809503",
-            "longitude": "35.24719761",
-            "dictionaryLink": "https://www.biblestudytools.com/dictionaries/eastons-bible-dictionary/olves-mount-of.html",
-            "dictionaryText": " so called from the olive trees with which its sides are clothed, is a mountain ridge on the east of Jerusalem ( 1 Kings 11:7  ;  Ezekiel 11:23  ;  Zechariah 14:4  ), from which it is separated by the valley of Kidron. It is first mentioned in connection with David's flight from Jerusalem through the rebellion of Absalom ( 2 Samuel 15:30  ), and is only once again mentioned in the Old Testament, in  Zechariah 14:4  . It is, however, frequently alluded to ( 1 Kings 11:7  ;  2  Kings   23:13  ;  Nehemiah 8:15  ;  Ezekiel 11:23  ).    It is frequently mentioned in the New Testament ( Matthew 21:1  ;  26:30  , etc.). It now bears the name of Jebel et-Tur, i.e., \"Mount of the Summit;\" also sometimes called Jebel ez-Zeitun, i.e., \"Mount of Olives.\" It is about 200 feet above the level of the city. The road from Jerusalem to Bethany runs as of old over this mount. It was on this mount that Jesus stood when he wept over Jerusalem. \"No name in Scripture,\" says Dr. Porter, \"calls up associations at once so sacred and so pleasing as that of Olivet. The 'mount' is so intimately connected with the private, the devotional life of the Saviour, that we read of it and look at it with feelings of deepest interest and affection. Here he often sat with his disciples, telling them of wondrous events yet to come, of the destruction of the Holy City; of the sufferings, the persecution, and the final triumph of his followers ( Matthew 24  ). Here he gave them the beautiful parables of the ten virgins and the five talents (25); here he was wont to retire on each evening for meditation, and prayer, and rest of body, when weary and harassed by the labours and trials of the day ( Luke 21:37  ); and here he came on the night of his betrayal to utter that wonderful prayer, 'O my Father, if it be possible, let this cup pass from me: nevertheless not as I will, but as thou wilt' ( Matthew 26:39  ). And when the cup of God's wrath had been drunk, and death and the grave conquered, he led his disciples out again over Olivet as far as to Bethany, and after a parting blessing ascended to heaven ( Luke 24:50  Luke 24:51  ;  Acts 1:12  ).\"    This mount, or rather mountain range, has four summits or peaks: (1) the \"Galilee\" peak, so called from a tradition that the angels stood here when they spoke to the disciples ( Acts 1:11  ); (2) the \"Mount of Ascension,\" the supposed site of that event, which was, however, somewhere probably nearer Bethany ( Luke 24:51  Luke 24:52  ); (3) the \"Prophets,\" from the catacombs on its side, called \"the prophets' tombs;\" and (4) the \"Mount of Corruption,\" so called because of the \"high places\" erected there by Solomon for the idolatrous worship of his foreign wives ( 1 Kings 11:7  ;  2  Kings   23:13  ; Vulg., \"Mount of Offence\").",
-            "verseCount": 3,
-            "placeID": 907,
-            "hasBeenHere": "jesus_905",
-            "verses": [
-                "recMXf0BXiq5lLUue",
-                "rec4FLLe8oadMCSYA",
-                "recPApnNncrj9VvNt"
-            ],
-            "recogitoStatus": "NOT_IDENTIFIABLE",
-            "recogitoComments": "mountain in east Jerusalem|Same as Mount of Olives",
-            "recogitoUID": "00edac2d-c894-4306-8f78-05a08380ab8c",
-            "modified": "2026-10-23T04:48:21.000Z",
-            "kjvName": "Olivet",
-            "esvName": "Olivet",
-            "openBibleLat": "31.77809503",
-            "openBibleLong": "35.24719761",
-            "alphaGroup": "O",
-            "slug": "olivet_907",
-            "eventsHere": [
-                "recvfB75N6vrQwhWW",
-                "rec06pcAZBChUBKxF",
-                "recYOqX5Qe2a0FHvw",
-                "recotN6XCwPBF0OzT"
-            ],
-            "canonicalPlace": [
-                "rec5wqkJ6JXv03dvF"
-            ],
-            "definitions": [
-                "recXlcWsk96mgx14V"
             ]
         }
     },

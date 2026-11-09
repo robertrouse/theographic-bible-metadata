@@ -2670,7 +2670,7 @@
         "fields": {
             "title": "Lifetime of Abraham",
             "eventID": 66,
-            "startDate": "-1996",
+            "startDate": "-1995",
             "duration": "175Y",
             "predecessor": [
                 "recXveJRjCtPNMLqs"
@@ -2683,8 +2683,8 @@
                 "reccdFYIq50NyxNej"
             ],
             "verseSort": "01021005",
-            "modified": "2026-10-23T04:47:48.000Z",
-            "sortKey": -1995.98978995,
+            "modified": "2026-11-09T14:38:30.000Z",
+            "sortKey": -1994.98978995,
             "people (from verses)": [
                 "reccdFYIq50NyxNej",
                 "recqIoG1fkaNWJ1y0",
@@ -3625,7 +3625,7 @@
             "title": "Lifetime of Jacob",
             "eventID": 86,
             "startDate": "-1835",
-            "duration": "180Y",
+            "duration": "147Y",
             "predecessor": [
                 "recd4mOzI2nL66vR5"
             ],
@@ -3639,7 +3639,7 @@
                 "recsU2ZSdzBvDqzgI"
             ],
             "verseSort": "01025025",
-            "modified": "2026-10-23T04:47:49.000Z",
+            "modified": "2026-11-09T14:34:02.000Z",
             "sortKey": -1834.98974975,
             "people (from verses)": [
                 "recUQWSZuOecG4z1Q",
@@ -4627,7 +4627,7 @@
             "startDate": "-1715",
             "duration": "1D",
             "predecessor": [
-                "recnTimjDqmxMYqRZ"
+                "recsPU7EMhmA9z27x"
             ],
             "lag": "180Y",
             "lagType": "FS",
@@ -4645,7 +4645,7 @@
                 "recQea8xEa8yZBFdt"
             ],
             "verseSort": "01035028",
-            "modified": "2026-10-23T04:46:20.000Z",
+            "modified": "2026-11-09T14:36:10.000Z",
             "sortKey": -1714.98964972,
             "people (from verses)": [
                 "recqIoG1fkaNWJ1y0",
@@ -8827,7 +8827,7 @@
         "fields": {
             "title": "Death of Moses",
             "eventID": 129,
-            "startDate": "-1451",
+            "startDate": "-1450",
             "duration": "1D",
             "predecessor": [
                 "rec6atQ3as7Qj2n5d"
@@ -8860,8 +8860,8 @@
                 "recUMD4PyAqIzCkc0"
             ],
             "verseSort": "01034001",
-            "modified": "2026-10-23T04:46:21.000Z",
-            "sortKey": -1450.98965999,
+            "modified": "2026-11-09T14:41:43.000Z",
+            "sortKey": -1449.98965999,
             "people (from verses)": [
                 "recthlE4FTgDZvDef",
                 "recCLJAZbd4JtoMv6",
@@ -11865,7 +11865,7 @@
         "id": "reccUeZb53JJ02Lv9",
         "createdTime": "2020-09-13T19:56:04.000Z",
         "fields": {
-            "title": "Sampson destroys Temple of Dagon",
+            "title": "Samson destroys Temple of Dagon",
             "eventID": 154,
             "startDate": "-1100",
             "duration": "1D",
@@ -11890,7 +11890,7 @@
                 "recwcML6FMulTblKH"
             ],
             "verseSort": "07016023",
-            "modified": "2026-10-23T04:48:50.000Z",
+            "modified": "2026-11-09T14:08:21.000Z",
             "sortKey": -1099.92983977,
             "people (from verses)": [
                 "recUt3VRWj3MN5Pg0",
@@ -20497,7 +20497,7 @@
         "id": "recsgU87rUrPKR9uA",
         "createdTime": "2020-12-02T17:20:45.000Z",
         "fields": {
-            "title": "Death of Jehoahash",
+            "title": "Death of Jehoash",
             "eventID": 201,
             "startDate": "-824",
             "duration": "1D",
@@ -20517,7 +20517,7 @@
                 "recEP3QZ3HUmIkv4Q"
             ],
             "verseSort": "12013013",
-            "modified": "2026-10-23T04:46:20.000Z",
+            "modified": "2026-11-09T14:20:40.000Z",
             "sortKey": -823.87986987,
             "people (from verses)": [
                 "recXmKvS4YnlgRaln",
@@ -29430,7 +29430,7 @@
         "id": "recmY05Xj0sxEcdCh",
         "createdTime": "2020-10-30T19:47:10.000Z",
         "fields": {
-            "title": "Reign of Johoahaz (Shallum)",
+            "title": "Reign of Jehoahaz (Shallum)",
             "eventID": 237,
             "startDate": "-608",
             "duration": "3M",
@@ -29454,7 +29454,7 @@
                 "recL1WV82pXaRBQ59"
             ],
             "verseSort": "12023031",
-            "modified": "2026-10-23T04:48:44.000Z",
+            "modified": "2026-11-09T14:20:40.000Z",
             "sortKey": -607.87976969,
             "people (from verses)": [
                 "reckTJIVOYS9ZKKz3",
@@ -33283,7 +33283,6 @@
                 "recbYRf2YG4TxQy1M",
                 "recL1WV82pXaRBQ59",
                 "recL1WV82pXaRBQ59",
-                "recOahYbjltSaaIV0",
                 "rec5wqkJ6JXv03dvF",
                 "recL1WV82pXaRBQ59",
                 "recWinU9NkCFdJl7J",
@@ -33619,7 +33618,7 @@
         "id": "rec2xII53pVseJCB6",
         "createdTime": "2021-05-03T20:45:28.000Z",
         "fields": {
-            "title": "The Annuciation",
+            "title": "The Annunciation",
             "eventID": 250,
             "startDate": "-4",
             "duration": "1D",
@@ -33648,7 +33647,7 @@
                 "recmRfnw4XzPBH9jc"
             ],
             "verseSort": "42001026",
-            "modified": "2026-10-23T04:49:18.000Z",
+            "modified": "2026-11-09T14:20:40.000Z",
             "sortKey": -3.57998974,
             "people (from verses)": [
                 "reciv3cMDUToejCCK",
@@ -34142,7 +34141,7 @@
         "id": "recVUI3XqN3CdNF1k",
         "createdTime": "2021-05-06T21:04:59.000Z",
         "fields": {
-            "title": "Jesus Circumsized",
+            "title": "Jesus Circumcised",
             "eventID": 259,
             "startDate": "-3",
             "duration": "1D",
@@ -34156,7 +34155,7 @@
                 "recgkFqZovgbr3pAi"
             ],
             "verseSort": "42002021",
-            "modified": "2026-10-23T04:47:29.000Z",
+            "modified": "2026-11-09T14:20:40.000Z",
             "sortKey": -2.57997979,
             "people (from verses)": [
                 "recgkFqZovgbr3pAi"
@@ -38043,13 +38042,13 @@
                 "reco82mzy0XTzaOgv"
             ],
             "locations": [
-                "recp5J3K9kl6DteAM"
+                "rec5wqkJ6JXv03dvF"
             ],
             "groups": [
                 "recb9l9ttaZlODOFV"
             ],
             "verseSort": "44001004",
-            "modified": "2026-10-23T04:49:18.000Z",
+            "modified": "2026-11-09T14:16:43.000Z",
             "sortKey": 30.44001004,
             "people (from verses)": [
                 "reccZB8SVU5bEMcgo",
@@ -38088,13 +38087,13 @@
                 "reccZB8SVU5bEMcgo"
             ],
             "locations": [
-                "recp5J3K9kl6DteAM"
+                "rec5wqkJ6JXv03dvF"
             ],
             "groups": [
                 "recb9l9ttaZlODOFV"
             ],
             "verseSort": "44001006",
-            "modified": "2026-10-23T04:47:29.000Z",
+            "modified": "2026-11-09T14:16:43.000Z",
             "sortKey": 30.44001006,
             "people (from verses)": [
                 "recgkFqZovgbr3pAi",
@@ -38195,7 +38194,7 @@
                 "recAKZBlllSFGbCSM"
             ],
             "places (from verses)": [
-                "recp5J3K9kl6DteAM",
+                "rec5wqkJ6JXv03dvF",
                 "recL1WV82pXaRBQ59",
                 "recAt5Dc8ewQhhW5f",
                 "recL1WV82pXaRBQ59"
@@ -38860,7 +38859,7 @@
         "id": "rec1qE6wAe0XINRoV",
         "createdTime": "2020-08-27T01:23:21.000Z",
         "fields": {
-            "title": "Gamaliel advises the counsel and Apostles freed",
+            "title": "Gamaliel advises the council and Apostles freed",
             "eventID": 318,
             "startDate": "0030",
             "duration": "1D",
@@ -38888,7 +38887,7 @@
                 "recBC0I2HaciTQbaa"
             ],
             "verseSort": "44005034",
-            "modified": "2026-10-23T04:46:44.000Z",
+            "modified": "2026-11-09T14:20:40.000Z",
             "sortKey": 30.44005034,
             "people (from verses)": [
                 "reciIAjF1PRn4qPbM",
@@ -44424,7 +44423,7 @@
         "id": "recqtoV4JQiYCmkZN",
         "createdTime": "2024-02-02T02:48:52.000Z",
         "fields": {
-            "title": "Discourse with Pharisees and Saducees",
+            "title": "Discourse with Pharisees and Sadducees",
             "eventID": 402,
             "startDate": "29",
             "duration": "1D",
@@ -44469,7 +44468,7 @@
                 "recKp5SL9R1I8Ll9D"
             ],
             "verseSort": "41008010",
-            "modified": "2026-10-23T04:46:24.000Z",
+            "modified": "2026-11-09T14:20:40.000Z",
             "sortKey": 29.4100801,
             "people (from verses)": [
                 "recV4ujd4P2vfpd2D",
@@ -44681,7 +44680,7 @@
         "id": "recbbehq3RkfnSmCE",
         "createdTime": "2025-01-22T20:59:14.000Z",
         "fields": {
-            "title": "The Transfiguation",
+            "title": "The Transfiguration",
             "eventID": 406,
             "startDate": "29",
             "duration": "1D",
@@ -44736,7 +44735,7 @@
                 "rec1ET3TBR0oBaWJu"
             ],
             "verseSort": "40017001",
-            "modified": "2026-10-23T04:49:18.000Z",
+            "modified": "2026-11-09T14:20:40.000Z",
             "sortKey": 29.40017001,
             "people (from verses)": [
                 "recX9MMADoVI2CSP1",
@@ -46266,7 +46265,7 @@
         "id": "reclZp6jMKWzYmop9",
         "createdTime": "2025-04-30T22:35:22.000Z",
         "fields": {
-            "title": "Lazarus Raised form the Dead",
+            "title": "Lazarus Raised from the Dead",
             "eventID": 433,
             "startDate": "30",
             "duration": "1D",
@@ -46330,7 +46329,7 @@
                 "recLDF53uVzhhlyux"
             ],
             "verseSort": "43011001",
-            "modified": "2026-10-23T04:47:47.000Z",
+            "modified": "2026-11-09T14:20:40.000Z",
             "sortKey": 30.43011001,
             "people (from verses)": [
                 "recy6ANqZT7KobHD2",
@@ -46932,7 +46931,7 @@
         "id": "reccSs8loWRLm8LAb",
         "createdTime": "2025-05-07T01:37:35.000Z",
         "fields": {
-            "title": "Zaccheus Converted and Parable of the Pounds",
+            "title": "Zacchaeus Converted and Parable of the Pounds",
             "eventID": 440,
             "startDate": "30",
             "duration": "1D",
@@ -46977,7 +46976,7 @@
                 "recdMHFSmu222VnJG"
             ],
             "verseSort": "42019001",
-            "modified": "2026-10-22T05:37:01.000Z",
+            "modified": "2026-11-09T14:08:21.000Z",
             "sortKey": 30.42019001,
             "people (from verses)": [
                 "recmzOmqOEixMQS2w",
@@ -48978,7 +48977,7 @@
                 "recL1WV82pXaRBQ59",
                 "recxyaXbeYBWpi02k",
                 "recLDF53uVzhhlyux",
-                "recp5J3K9kl6DteAM",
+                "rec5wqkJ6JXv03dvF",
                 "rec5wqkJ6JXv03dvF",
                 "recL1WV82pXaRBQ59",
                 "reczPjeq0UdahiRrn",
@@ -49154,7 +49153,7 @@
                 "recL1WV82pXaRBQ59",
                 "recxyaXbeYBWpi02k",
                 "recLDF53uVzhhlyux",
-                "recp5J3K9kl6DteAM",
+                "rec5wqkJ6JXv03dvF",
                 "recL1WV82pXaRBQ59",
                 "reczPjeq0UdahiRrn",
                 "recL1WV82pXaRBQ59",
@@ -49254,13 +49253,13 @@
                 "recgkFqZovgbr3pAi"
             ],
             "locations": [
-                "recp5J3K9kl6DteAM"
+                "rec5wqkJ6JXv03dvF"
             ],
             "groups": [
                 "recDquhyNAst5bTvn"
             ],
             "verseSort": "41011011",
-            "modified": "2026-10-23T04:46:42.000Z",
+            "modified": "2026-11-09T14:16:43.000Z",
             "sortKey": 30.41011011,
             "people (from verses)": [
                 "recgkFqZovgbr3pAi",
@@ -49307,13 +49306,13 @@
                 "recX9MMADoVI2CSP1"
             ],
             "locations": [
-                "recp5J3K9kl6DteAM"
+                "rec5wqkJ6JXv03dvF"
             ],
             "groups": [
                 "recDquhyNAst5bTvn"
             ],
             "verseSort": "41011020",
-            "modified": "2026-10-23T04:49:15.000Z",
+            "modified": "2026-11-09T14:16:43.000Z",
             "sortKey": 30.4101102,
             "people (from verses)": [
                 "recX9MMADoVI2CSP1",
@@ -49876,13 +49875,13 @@
                 "recgkFqZovgbr3pAi"
             ],
             "locations": [
-                "recOahYbjltSaaIV0"
+                "rec5wqkJ6JXv03dvF"
             ],
             "groups": [
                 "recDquhyNAst5bTvn"
             ],
             "verseSort": "40024001",
-            "modified": "2026-10-23T04:48:21.000Z",
+            "modified": "2026-11-09T14:16:43.000Z",
             "sortKey": 30.40024001,
             "people (from verses)": [
                 "recgkFqZovgbr3pAi",
@@ -51535,14 +51534,14 @@
             ],
             "locations": [
                 "recL1WV82pXaRBQ59",
-                "recOahYbjltSaaIV0",
+                "rec5wqkJ6JXv03dvF",
                 "recRe6uBpPMDP6u82"
             ],
             "groups": [
                 "recb9l9ttaZlODOFV"
             ],
             "verseSort": "40028001",
-            "modified": "2026-10-23T04:48:45.000Z",
+            "modified": "2026-11-09T14:16:43.000Z",
             "sortKey": 30.40028001,
             "people (from verses)": [
                 "recNuh2eX30cHuOgi",
