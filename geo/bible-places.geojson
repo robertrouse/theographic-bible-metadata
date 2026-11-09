@@ -83816,10 +83816,6 @@
               "@id": "https://theographic.netlify.app/place/mount_of_olives_861/"
             },
             {
-              "label": "Theographic",
-              "@id": "https://theographic.netlify.app/place/mount_of_olives_828/"
-            },
-            {
               "label": "OpenBible",
               "@id": "https://www.openbible.info/geo/ancient/ac2c4c5"
             }
@@ -83847,7 +83843,7 @@
             },
             {
               "label": "Theographic",
-              "@id": "https://theographic.netlify.app/place/olivet_907/"
+              "@id": "https://theographic.netlify.app/place/mount_of_olives_861/"
             },
             {
               "label": "OpenBible",
@@ -83884,16 +83880,6 @@
             {
               "label": "Theographic",
               "@id": "https://theographic.netlify.app/place/mount_of_olives_861/"
-            }
-          ]
-        },
-        {
-          "toponym": "4b is just \"mount\" or \"mountain\"",
-          "lang": "en",
-          "citations": [
-            {
-              "label": "Theographic",
-              "@id": "https://theographic.netlify.app/place/mount_of_olives_828/"
             }
           ]
         },
@@ -83975,15 +83961,7 @@
         },
         {
           "type": "seeAlso",
-          "identifier": "https://theographic.netlify.app/place/olivet_907/"
-        },
-        {
-          "type": "seeAlso",
           "identifier": "https://theographic.netlify.app/place/mount_of_olives_861/"
-        },
-        {
-          "type": "seeAlso",
-          "identifier": "https://theographic.netlify.app/place/mount_of_olives_828/"
         },
         {
           "type": "seeAlso",
