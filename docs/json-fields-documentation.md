@@ -36,7 +36,7 @@ All Theographic JSON entities have three root fields:
 - `createdTime` - An ISO 8601/RFC 3339 formatted timestamp (e.g., `2018-06-01T13:12:45.000Z`)
 - `fields` - A nested object containing entity-specific data
 
-Link fields almost always hold arrays of these record IDs. The one exception is `books.writers`, which holds `personLookup` slugs (e.g., `"paul_2479"`). Fields with no value are omitted from a record rather than set to `null`.
+Link fields almost always hold arrays of these record IDs. The exceptions are `books.writers` and `chapters.writerLookup`, which hold `personLookup` slugs (e.g., `"paul_2479"`). `books.writers` is an Airtable rollup of `chapters.writerLookup`, which looks up the slug of each linked `chapters.writer`. Fields with no value are omitted from a record rather than set to `null`.
 
 This documentation focuses exclusively on the fields within the `fields` object. Each section below corresponds to a specific JSON file and details its field names, data types, and relationships with other JSON files. Additionally, each section includes a sample JSON entity from real data to illustrate the structure in practice. Note that sample entities may not contain all possible fields, and some long text values or arrays have been truncated for conciseness.
 
@@ -58,7 +58,7 @@ This table contains high-level metadata for each of the 66 books in the Protesta
 | `placeWritten` | array | Incomplete | An array of record IDs linking to the 'places' table, representing the location where the book was written. |
 | `verseCount` | integer | Validated | An integer representing the total number of verses in the book. |
 | `chapters` | array | Validated | An array of record IDs linking to all chapters contained within this book. |
-| `writers` | array | Validated | An array of record IDs linking to the 'people' table, representing the traditional writers of the book. |
+| `writers` | array | Validated | An array of `personLookup` slugs for the traditional writers of the book, one per writer with no duplicates (e.g., `["samuel_2469", "gad_1263", "nathan_2153"]` for 1 Samuel). Rolled up in Airtable from the unique values of `chapters.writerLookup` across the book's chapters. |
 | `testament` | string | Validated | Old or New Testament identifier |
 | `slug` | string | Validated | Lowercase, URL-friendly version of `osisName` |
 | `peopleCount` | integer | Validated | Number of people mentioned by name within the book |
@@ -70,7 +70,7 @@ This table contains high-level metadata for each of the 66 books in the Protesta
 - `verses` → References field `id` of `verses` table records
 - `placeWritten` → References field `id` of `places` table
 - `chapters` → References field `id` of `chapters` table records
-- `writers` → References subfield `personLookup` of field `fields` of `people` table records
+- `writers` → References subfield `personLookup` of field `fields` of `people` table records (derived from `chapters.writer` via `chapters.writerLookup`)
 
 ### Example
 ```json
@@ -122,10 +122,12 @@ This table defines every chapter in the Bible. Each record links to its parent `
 | `placesCount` | integer | Validated | Number of places mentioned by name within the chapter |
 | `modified` | string | Unknown | Last modified date and time, as an ISO 8601 UTC timestamp (e.g. `2026-10-23T04:46:49.000Z`) |
 | `writer count`| integer | Validated | Total number of writers for the chapter |
+| `writerLookup` | array | Validated | The `personLookup` slug of each linked `writer`, as a list (e.g., `["samuel_2469", "gad_1263", "nathan_2153"]`). An Airtable lookup that feeds `books.writers`. JSON only; not in the CSV. |
 
 ### Relationships
 - `book` → References field `id` of `books` table records
 - `writer` → References field `id` of `people` table records
+- `writerLookup` → References subfield `personLookup` of field `fields` of `people` table records (one per `writer` link)
 - `verses` → References field `id` of `verses` table records
 
 ### Example
