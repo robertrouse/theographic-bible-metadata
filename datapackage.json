@@ -2,7 +2,7 @@
   "profile": "data-package",
   "name": "theographic-bible-metadata",
   "title": "Theographic Bible Metadata",
-  "description": "A knowledge graph of the Bible that links every verse of the King James Version to the people, places, events, people groups, and Easton's Bible Dictionary entries it mentions. Documentation: https://github.com/robertrouse/theographic-bible-metadata/tree/master/docs",
+  "description": "A knowledge graph of the Bible that links every verse of the King James Version (1769 Cambridge Edition) to the people, places, events, people groups, and Easton's Bible Dictionary entries it mentions: 66 books, 1,189 chapters, 31,102 verses, 3,067 people, 1,298 place records (1,030 distinct places), 450 events, 23 people groups, and 6,519 dictionary entries. Documentation: https://github.com/robertrouse/theographic-bible-metadata/tree/master/docs",
   "homepage": "https://viz.bible/",
   "keywords": [
     "Bible",
@@ -70,7 +70,7 @@
           {
             "name": "osisName",
             "type": "string",
-            "description": "Abbreviation matching the Open Scriptural Information Standard.",
+            "description": "Abbreviation matching the Open Scriptural Information Standard (OSIS).",
             "status": "Validated"
           },
           {
@@ -106,25 +106,25 @@
           {
             "name": "slug",
             "type": "string",
-            "description": "Lowercase, url-friendly version of Osis Name",
+            "description": "Lowercase, URL-friendly version of `osisName`",
             "status": "Validated"
           },
           {
             "name": "yearWritten",
             "type": "integer",
-            "description": "Approximate year written, if known (e.g., `\"57\"` for Romans). Populated for 21 of 66 books. See [Chronology and Dates](chronology-and-dates.md#book-dates-yearwritten).",
+            "description": "Approximate year written, if known (e.g. `57` for Romans). Populated for 21 of 66 books.",
             "status": "Incomplete"
           },
           {
             "name": "placeWritten",
             "type": "string",
-            "description": "An array of record IDs linking to the 'places' table, representing the location where the book was written. In the CSV this is a comma-separated list of lookup values (e.g. personLookup, placeLookup, osisRef) rather than record IDs.",
+            "description": "Where the book was written, as comma-separated `placeLookup` values (e.g. `greece_495`).",
             "status": "Incomplete"
           },
           {
             "name": "chapters",
             "type": "string",
-            "description": "An array of record IDs linking to all chapters contained within this book. In the CSV this is a comma-separated list of lookup values (e.g. personLookup, placeLookup, osisRef) rather than record IDs.",
+            "description": "The chapters in this book, as comma-separated chapter `osisRef` values (e.g. `Gen.1`).",
             "status": "Validated"
           },
           {
@@ -142,7 +142,7 @@
           {
             "name": "writers",
             "type": "string",
-            "description": "An array of record IDs linking to the 'people' table, representing the traditional writers of the book. In the CSV this is a comma-separated list of lookup values (e.g. personLookup, placeLookup, osisRef) rather than record IDs.",
+            "description": "The traditional writer(s) of the book, as comma-separated `personLookup` values (e.g. `moses_2108`).",
             "status": "Validated"
           },
           {
@@ -159,7 +159,9 @@
           },
           {
             "name": "modified",
-            "type": "string"
+            "type": "string",
+            "description": "Last modified date and time in UTC, formatted `YYYY-MM-DD HH:MM` (e.g. `2026-10-23 04:46`).",
+            "status": "Unknown"
           }
         ],
         "primaryKey": "osisName"
@@ -185,30 +187,31 @@
           {
             "name": "book",
             "type": "string",
-            "description": "An array containing the record ID of the book this chapter belongs to. In the CSV this is a comma-separated list of lookup values (e.g. personLookup, placeLookup, osisRef) rather than record IDs.",
+            "description": "The book this chapter belongs to, as comma-separated book `osisName` values (e.g. `1Chr`).",
             "status": "Validated"
           },
           {
             "name": "chapterNum",
             "type": "integer",
+            "description": "Chapter number within the book",
             "status": "Validated"
           },
           {
             "name": "writer",
             "type": "string",
-            "description": "An array of record IDs linking to the 'people' table, representing the traditional writer(s) of this chapter. In the CSV this is a comma-separated list of lookup values (e.g. personLookup, placeLookup, osisRef) rather than record IDs.",
+            "description": "The traditional writer(s) of this chapter, as comma-separated `personLookup` values (e.g. `ezra_1245`).",
             "status": "Validated"
           },
           {
             "name": "verses",
             "type": "string",
-            "description": "An array of record IDs linking to all verses contained within this chapter. In the CSV this is a comma-separated list of lookup values (e.g. personLookup, placeLookup, osisRef) rather than record IDs.",
+            "description": "The verses in this chapter, as comma-separated verse `osisRef` values (e.g. `1Chr.1.1`).",
             "status": "Validated"
           },
           {
             "name": "slug",
             "type": "string",
-            "description": "Lowercase, url-friendly version of Osis Ref",
+            "description": "Lowercase, URL-friendly version of `osisRef`",
             "status": "Validated"
           },
           {
@@ -226,7 +229,7 @@
           {
             "name": "modified",
             "type": "string",
-            "description": "Last modified date and time",
+            "description": "Last modified date and time in UTC, formatted `YYYY-MM-DD HH:MM` (e.g. `2026-10-23 04:46`).",
             "status": "Unknown"
           },
           {
@@ -265,19 +268,19 @@
           {
             "name": "book",
             "type": "string",
-            "description": "An array containing the record ID of the book this verse belongs to. In the CSV this is a comma-separated list of lookup values (e.g. personLookup, placeLookup, osisRef) rather than record IDs.",
+            "description": "The book this verse belongs to, as comma-separated book `osisName` values (e.g. `Gen`).",
             "status": "Validated"
           },
           {
             "name": "chapter",
             "type": "string",
-            "description": "An array containing the record ID of the chapter this verse belongs to. In the CSV this is a comma-separated list of lookup values (e.g. personLookup, placeLookup, osisRef) rather than record IDs.",
+            "description": "The chapter this verse belongs to, as comma-separated chapter `osisRef` values (e.g. `Gen.1`).",
             "status": "Validated"
           },
           {
             "name": "verseNum",
             "type": "integer",
-            "description": "Verse Number (integer)",
+            "description": "Verse number within the chapter.",
             "status": "Validated"
           },
           {
@@ -301,7 +304,7 @@
           {
             "name": "people",
             "type": "string",
-            "description": "An array of record IDs linking to the 'people' table, representing individuals mentioned in this verse. In the CSV this is a comma-separated list of lookup values (e.g. personLookup, placeLookup, osisRef) rather than record IDs.",
+            "description": "People mentioned by name in this verse, as comma-separated `personLookup` values (e.g. `god_1324`).",
             "status": "Validated"
           },
           {
@@ -313,37 +316,37 @@
           {
             "name": "places",
             "type": "string",
-            "description": "An array of record IDs linking to the 'places' table, representing locations mentioned in this verse. In the CSV this is a comma-separated list of lookup values (e.g. personLookup, placeLookup, osisRef) rather than record IDs.",
+            "description": "Places mentioned by name in this verse, as comma-separated `placeLookup` values (e.g. `eden_354`).",
             "status": "Validated"
           },
           {
             "name": "placesCount",
             "type": "integer",
-            "description": "Number of place mentioned by name",
+            "description": "Number of places mentioned by name",
             "status": "Validated"
           },
           {
             "name": "yearNum",
             "type": "integer",
-            "description": "Approximate year of the verse as an ISO 8601 astronomical year (`-4003` = 4004 BC), from the Ussher dates in Torrey's *Treasury of Scripture Knowledge*. Not aligned with the Jones-based events table; see [Chronology and Dates](chronology-and-dates.md#verse-years-yearnum).",
+            "description": "Approximate year of the verse as an ISO 8601 astronomical year (`-4003` = 4004 BC), from the Ussher dates in Torrey's *Treasury of Scripture Knowledge*. Not aligned with the Jones-based events table; see [Chronology and Dates](https://github.com/robertrouse/theographic-bible-metadata/blob/master/docs/chronology-and-dates.md#verse-years-yearnum).",
             "status": "Populated"
           },
           {
             "name": "peopleGroups",
             "type": "string",
-            "description": "An array of record IDs linking to the 'peopleGroups' table, representing groups mentioned in this verse. In the CSV this is a comma-separated list of lookup values (e.g. personLookup, placeLookup, osisRef) rather than record IDs.",
+            "description": "People groups mentioned in this verse, as comma-separated `groupName` values (e.g. `Nation of Israel`).",
             "status": "Incomplete"
           },
           {
             "name": "event",
             "type": "string",
-            "description": "An array of record IDs linking to the 'events' table, representing events associated with this verse. In the CSV this is a comma-separated list of lookup values (e.g. personLookup, placeLookup, osisRef) rather than record IDs.",
+            "description": "Events this verse belongs to, as comma-separated event titles (e.g. `Creation of all things`). Titles that contain commas are wrapped in double quotes.",
             "status": "Unknown"
           },
           {
             "name": "modified",
             "type": "string",
-            "description": "Last modified date and time",
+            "description": "Last modified date and time in UTC, formatted `YYYY-MM-DD HH:MM` (e.g. `2026-10-23 04:46`).",
             "status": "Unknown"
           }
         ],
@@ -400,13 +403,13 @@
           {
             "name": "isProperName",
             "type": "string",
-            "description": "Identifies those with proper names vs. descriptive names like \"Wife of...\" or \"Son of...\"",
+            "description": "`checked` for people with proper names, blank for descriptive names like \"Wife of...\" or \"Son of...\"",
             "status": "Validated"
           },
           {
             "name": "ambiguous",
             "type": "string",
-            "description": "Identifies display titles which have not been edited for disambiguation.",
+            "description": "`checked` for display titles that have not yet been edited for disambiguation, otherwise blank.",
             "status": "Temporary"
           },
           {
@@ -423,12 +426,13 @@
           },
           {
             "name": "occupations",
-            "type": "string"
+            "type": "string",
+            "description": "Reserved for future use; currently empty on every record."
           },
           {
             "name": "birthYear",
             "type": "integer",
-            "description": "Estimated birth year from Jones's chronology, as an ISO 8601 astronomical year in a numeric string (`\"-4003\"` = 4004 BC; `\"-1570\"` = 1571 BC; positive values are AD). Same convention as `events.startDate`. Populated for 70 people. See [Chronology and Dates](chronology-and-dates.md#people-dates).",
+            "description": "Estimated birth year from Jones's chronology, as an ISO 8601 astronomical year (`-4003` = 4004 BC; positive values are AD). Same convention as `events.startDate`. Populated for 70 people.",
             "status": "Incomplete"
           },
           {
@@ -440,7 +444,7 @@
           {
             "name": "deathYear",
             "type": "integer",
-            "description": "Estimated death year, in the same convention as `birthYear` (`\"-1014\"` = 1015 BC). Populated for 61 people.",
+            "description": "Estimated death year, in the same convention as `birthYear` (`-1014` = 1015 BC). Populated for 61 people.",
             "status": "Incomplete"
           },
           {
@@ -452,42 +456,43 @@
           {
             "name": "birthPlace",
             "type": "string",
-            "description": "An array of record IDs linking to the 'places' table, representing the person's birthplace. In the CSV this is a comma-separated list of lookup values (e.g. personLookup, placeLookup, osisRef) rather than record IDs.",
+            "description": "Where the person was born, as comma-separated `placeLookup` values (e.g. `egypt_362`).",
             "status": "Validated"
           },
           {
             "name": "deathPlace",
             "type": "string",
-            "description": "An array of record IDs linking to the 'places' table, representing the person's place of death. In the CSV this is a comma-separated list of lookup values (e.g. personLookup, placeLookup, osisRef) rather than record IDs.",
+            "description": "Where the person died, as comma-separated `placeLookup` values (e.g. `mount_hor_842`).",
             "status": "Validated"
           },
           {
             "name": "memberOf",
             "type": "string",
-            "description": "An array of record IDs linking to the 'peopleGroups' table, indicating the groups (tribes, families, etc.) the person belongs to. In the CSV this is a comma-separated list of lookup values (e.g. personLookup, placeLookup, osisRef) rather than record IDs.",
+            "description": "Groups (tribes, families, etc.) the person belongs to, as comma-separated `groupName` values (e.g. `Tribe of Levi`).",
             "status": "Validated"
           },
           {
             "name": "eastons",
             "type": "string",
-            "description": "An array of record IDs linking to the 'easton' table, representing relevant dictionary entries. In the CSV this is a comma-separated list of lookup values (e.g. personLookup, placeLookup, osisRef) rather than record IDs.",
+            "description": "Matching Easton's Bible Dictionary entries, as comma-separated `dictLookup` values (e.g. `Aaron`).",
             "status": "Incomplete"
           },
           {
             "name": "dictText",
             "type": "string",
-            "description": "Markdown-formatted text from relevant sub-section in Easton's dictionary. In the CSV this is a comma-separated list of lookup values (e.g. personLookup, placeLookup, osisRef) rather than record IDs.",
+            "description": "Markdown-formatted text of the matching sub-section of Easton's Bible Dictionary.",
             "status": "Incomplete"
           },
           {
             "name": "events",
             "type": "string",
-            "description": "Comma-separated titles of events the person participated in. Use `timeline` for record IDs.",
+            "description": "Comma-separated titles of events the person took part in. Titles that contain commas are wrapped in double quotes.",
             "status": "Incomplete"
           },
           {
             "name": "eventGroups",
-            "type": "string"
+            "type": "string",
+            "description": "Reserved for future use; currently empty on every record."
           },
           {
             "name": "verseCount",
@@ -498,55 +503,55 @@
           {
             "name": "verses",
             "type": "string",
-            "description": "An array of record IDs linking to the 'verses' table, representing every verse where this person is explicitly mentioned. In the CSV this is a comma-separated list of lookup values (e.g. personLookup, placeLookup, osisRef) rather than record IDs.",
+            "description": "Every verse where this person is mentioned by name, as comma-separated verse `osisRef` values (e.g. `Exod.4.14`).",
             "status": "Validated"
           },
           {
             "name": "mother",
             "type": "string",
-            "description": "An array containing the record ID of the person's mother in the 'people' table. In the CSV this is a comma-separated list of lookup values (e.g. personLookup, placeLookup, osisRef) rather than record IDs.",
+            "description": "The person's mother, as comma-separated `personLookup` values (e.g. `jochebed_1645`).",
             "status": "Validated"
           },
           {
             "name": "father",
             "type": "string",
-            "description": "An array containing the record ID of the person's father in the 'people' table. In the CSV this is a comma-separated list of lookup values (e.g. personLookup, placeLookup, osisRef) rather than record IDs.",
+            "description": "The person's father, as comma-separated `personLookup` values (e.g. `amram_242`).",
             "status": "Validated"
           },
           {
             "name": "partners",
             "type": "string",
-            "description": "An array of record IDs linking to the 'people' table, representing the person's spouse(s) or partner(s). In the CSV this is a comma-separated list of lookup values (e.g. personLookup, placeLookup, osisRef) rather than record IDs.",
+            "description": "The person's spouse(s) or partner(s), as comma-separated `personLookup` values (e.g. `elisheba_1162`).",
             "status": "Unknown"
           },
           {
             "name": "children",
             "type": "string",
-            "description": "An array of record IDs linking to the 'people' table, representing the person's children. In the CSV this is a comma-separated list of lookup values (e.g. personLookup, placeLookup, osisRef) rather than record IDs.",
+            "description": "The person's children, as comma-separated `personLookup` values (e.g. `abihu_33`).",
             "status": "Validated"
           },
           {
             "name": "siblings",
             "type": "string",
-            "description": "An array of record IDs linking to the 'people' table, representing the person's full siblings. In the CSV this is a comma-separated list of lookup values (e.g. personLookup, placeLookup, osisRef) rather than record IDs.",
+            "description": "The person's full siblings, as comma-separated `personLookup` values (e.g. `miriam_2087`).",
             "status": "Validated"
           },
           {
             "name": "halfSiblingsSameMother",
             "type": "string",
-            "description": "An array of record IDs linking to the 'people' table, representing the person's maternal half-siblings. In the CSV this is a comma-separated list of lookup values (e.g. personLookup, placeLookup, osisRef) rather than record IDs.",
+            "description": "The person's maternal half-siblings, as comma-separated `personLookup` values (e.g. `david_994`).",
             "status": "Validated"
           },
           {
             "name": "halfSiblingsSameFather",
             "type": "string",
-            "description": "An array of record IDs linking to the 'people' table, representing the person's paternal half-siblings. In the CSV this is a comma-separated list of lookup values (e.g. personLookup, placeLookup, osisRef) rather than record IDs.",
+            "description": "The person's paternal half-siblings, as comma-separated `personLookup` values (e.g. `jeush_1603`).",
             "status": "Validated"
           },
           {
             "name": "chaptersWritten",
             "type": "string",
-            "description": "An array of record IDs linking to the 'chapters' table, representing chapters attributed to this person. In the CSV this is a comma-separated list of lookup values (e.g. personLookup, placeLookup, osisRef) rather than record IDs.",
+            "description": "Chapters attributed to this person, as comma-separated chapter `osisRef` values (e.g. `Prov.30`).",
             "status": "Validated"
           },
           {
@@ -558,13 +563,13 @@
           {
             "name": "slug",
             "type": "string",
-            "description": "Lowercase, url-friendly version of personLookup",
+            "description": "Lowercase, URL-friendly version of `personLookup`",
             "status": "Validated"
           },
           {
             "name": "modified",
             "type": "string",
-            "description": "Last modified date and time",
+            "description": "Last modified date and time in UTC, formatted `YYYY-MM-DD HH:MM` (e.g. `2026-10-23 04:46`).",
             "status": "Unknown"
           }
         ],
@@ -591,19 +596,19 @@
           {
             "name": "members",
             "type": "string",
-            "description": "An array of record IDs linking to the 'people' table, representing the individual members of this group. In the CSV this is a comma-separated list of lookup values (e.g. personLookup, placeLookup, osisRef) rather than record IDs.",
+            "description": "Members of this group, as comma-separated `personLookup` values (e.g. `aaron_1`).",
             "status": "Validated"
           },
           {
             "name": "partOf",
             "type": "string",
-            "description": "An array containing the record ID of a parent group in the 'peopleGroups' table. In the CSV this is a comma-separated list of lookup values (e.g. personLookup, placeLookup, osisRef) rather than record IDs.",
+            "description": "The parent group, as comma-separated `groupName` values (e.g. `Nation of Israel`).",
             "status": "Unknown"
           },
           {
             "name": "verses",
             "type": "string",
-            "description": "An array of record IDs linking to the 'verses' table, representing verses where this group is mentioned. In the CSV this is a comma-separated list of lookup values (e.g. personLookup, placeLookup, osisRef) rather than record IDs.",
+            "description": "Verses where this group is mentioned, as comma-separated verse `osisRef` values (e.g. `Prov.25.1`).",
             "status": "Incomplete"
           },
           {
@@ -615,13 +620,13 @@
           {
             "name": "modified",
             "type": "string",
-            "description": "Last modified date and time",
+            "description": "Last modified date and time in UTC, formatted `YYYY-MM-DD HH:MM` (e.g. `2026-10-23 04:46`).",
             "status": "Unknown"
           },
           {
             "name": "events_dev",
             "type": "string",
-            "description": "An array of record IDs linking to the 'events' table, representing events involving this group. In the CSV this is a comma-separated list of lookup values (e.g. personLookup, placeLookup, osisRef) rather than record IDs.",
+            "description": "Events involving this group, as comma-separated event titles (e.g. `Exodus from Egypt`). Titles that contain commas are wrapped in double quotes.",
             "status": "Unknown"
           }
         ],
@@ -654,7 +659,7 @@
           {
             "name": "ambiguous",
             "type": "string",
-            "description": "Identifies display titles which have not been edited for disambiguation.",
+            "description": "`checked` for display titles that have not yet been edited for disambiguation, otherwise blank.",
             "status": "Temporary"
           },
           {
@@ -726,7 +731,7 @@
           {
             "name": "verses",
             "type": "string",
-            "description": "An array of record IDs linking to the 'verses' table, representing verses where this place is mentioned. In the CSV this is a comma-separated list of lookup values (e.g. personLookup, placeLookup, osisRef) rather than record IDs.",
+            "description": "Verses where this place is mentioned by name, as comma-separated verse `osisRef` values (e.g. `2Kgs.5.12`).",
             "status": "Validated"
           },
           {
@@ -738,13 +743,13 @@
           {
             "name": "eastons",
             "type": "string",
-            "description": "An array of record IDs linking to the 'easton' table, representing relevant dictionary entries. In the CSV this is a comma-separated list of lookup values (e.g. personLookup, placeLookup, osisRef) rather than record IDs.",
+            "description": "Matching Easton's Bible Dictionary entries, as comma-separated `dictLookup` values (e.g. `Abana`).",
             "status": "Incomplete"
           },
           {
             "name": "dictText",
             "type": "string",
-            "description": "Markdown-formatted text from relevant sub-section in Easton's dictionary. In the CSV this is a comma-separated list of lookup values (e.g. personLookup, placeLookup, osisRef) rather than record IDs.",
+            "description": "Markdown-formatted text of the matching sub-section of Easton's Bible Dictionary.",
             "status": "Incomplete"
           },
           {
@@ -768,13 +773,13 @@
           {
             "name": "peopleBorn",
             "type": "string",
-            "description": "An array of record IDs linking to the 'people' table, representing individuals born at this location. In the CSV this is a comma-separated list of lookup values (e.g. personLookup, placeLookup, osisRef) rather than record IDs.",
+            "description": "People born here, as comma-separated `personLookup` values (e.g. `chilion_940`).",
             "status": "Validated"
           },
           {
             "name": "peopleDied",
             "type": "string",
-            "description": "An array of record IDs linking to the 'people' table, representing individuals who died at this location. In the CSV this is a comma-separated list of lookup values (e.g. personLookup, placeLookup, osisRef) rather than record IDs.",
+            "description": "People who died here, as comma-separated `personLookup` values (e.g. `sheba_2570`).",
             "status": "Validated"
           },
           {
@@ -804,13 +809,13 @@
           {
             "name": "booksWritten",
             "type": "string",
-            "description": "An array of record IDs linking to the 'books' table, representing books written at this location. In the CSV this is a comma-separated list of lookup values (e.g. personLookup, placeLookup, osisRef) rather than record IDs.",
+            "description": "Books written here, as comma-separated book `osisName` values (e.g. `Gal`).",
             "status": "Incomplete"
           },
           {
             "name": "eventsHere",
             "type": "string",
-            "description": "An array of record IDs linking to the 'events' table, representing events that occurred at this location. In the CSV this is a comma-separated list of lookup values (e.g. personLookup, placeLookup, osisRef) rather than record IDs.",
+            "description": "Events that happened here, as comma-separated event titles (e.g. `Nimrod's kingdom begins`). Titles that contain commas are wrapped in double quotes.",
             "status": "Incomplete"
           },
           {
@@ -840,43 +845,43 @@
           {
             "name": "slug",
             "type": "string",
-            "description": "Lowercase, url-friendly version of placeLookup",
+            "description": "Lowercase, URL-friendly version of `placeLookup`",
             "status": "Validated"
           },
           {
             "name": "canonicalPlace",
             "type": "string",
-            "description": "The record ID of the place record this record is another name for (e.g. Salem → Jerusalem). Empty on the canonical record and on places with only one name. Each record keeps its own verses, so each name keeps its own time frame. Replaces `rootID` and `duplicate_of`, retired 2026-10-13 (values archived on the [`geo-pipeline`](https://github.com/robertrouse/theographic-bible-metadata/tree/geo-pipeline/geo/airtable) branch). In the CSV this is a comma-separated list of lookup values (e.g. personLookup, placeLookup, osisRef) rather than record IDs.",
+            "description": "The place this record is another name for (e.g. Salem -> Jerusalem); empty on canonical records, as comma-separated `placeLookup` values (e.g. `abel-beth-maacah_5`).",
             "status": "Populated"
           },
           {
             "name": "otherNames",
             "type": "string",
-            "description": "On a canonical record, the records that point to it via `canonicalPlace` (the other names of this place). In the CSV this is a comma-separated list of lookup values (e.g. personLookup, placeLookup, osisRef) rather than record IDs.",
+            "description": "On a canonical record, the records that are other names of this place, as comma-separated `placeLookup` values (e.g. `ebron_352`).",
             "status": "Populated"
           },
           {
             "name": "partOf",
             "type": "string",
-            "description": "Record IDs of the places this place lies within: a city's tribal territory (Joshua's allotment lists), a site's city (gates of Jerusalem), a city's Roman region, a territory's kingdom. A place can be part of several (Zorah: Dan and Judah). Set on canonical records. In the CSV this is a comma-separated list of lookup values (e.g. personLookup, placeLookup, osisRef) rather than record IDs.",
+            "description": "Places this place lies within: a city's tribal territory, a site's city, a city's Roman region, a territory's kingdom, as comma-separated `placeLookup` values (e.g. `asher_1287`).",
             "status": "Populated"
           },
           {
             "name": "parts",
             "type": "string",
-            "description": "On a containing place, the records whose `partOf` points to it. In the CSV this is a comma-separated list of lookup values (e.g. personLookup, placeLookup, osisRef) rather than record IDs.",
+            "description": "On a containing place, the places whose `partOf` points to it, as comma-separated `placeLookup` values (e.g. `athens_118`).",
             "status": "Populated"
           },
           {
             "name": "near",
             "type": "string",
-            "description": "Record IDs of places this place lies beside or just outside (Gethsemane → Jerusalem). In the CSV this is a comma-separated list of lookup values (e.g. personLookup, placeLookup, osisRef) rather than record IDs.",
+            "description": "Places this place lies beside or just outside (Gethsemane -> Jerusalem), as comma-separated `placeLookup` values (e.g. `jerusalem_636`).",
             "status": "Populated"
           },
           {
             "name": "nearby",
             "type": "string",
-            "description": "On a place, the records whose `near` points to it. In the CSV this is a comma-separated list of lookup values (e.g. personLookup, placeLookup, osisRef) rather than record IDs.",
+            "description": "The places whose `near` points to this place, as comma-separated `placeLookup` values (e.g. `allon-bacuth_48`).",
             "status": "Populated"
           },
           {
@@ -921,25 +926,25 @@
           {
             "name": "startDate",
             "type": "string",
-            "description": "An ISO 8601 astronomical year (`\"-4003\"` = 4004 BC) or calendar date (`\"0030-04-04\"`). Present on every event.",
+            "description": "An ISO 8601 astronomical year (`-4003` = 4004 BC) or calendar date (`0030-04-04`). Present on every event.",
             "status": "Populated"
           },
           {
             "name": "duration",
             "type": "string",
-            "description": "Event length: a number plus `D`, `W`, `M`, or `Y` (e.g. `\"7D\"`, `\"40Y\"`)",
+            "description": "Event length: a number plus `D`, `W`, `M`, or `Y` (e.g. `7D`, `40Y`)",
             "status": "Populated"
           },
           {
             "name": "predecessor",
             "type": "string",
-            "description": "An array containing the record ID of the immediately preceding event in the timeline. In the CSV this is a comma-separated list of lookup values (e.g. personLookup, placeLookup, osisRef) rather than record IDs.",
+            "description": "The immediately preceding event in the timeline, as comma-separated event titles (e.g. `Creation of Adam and Eve`). Titles that contain commas are wrapped in double quotes.",
             "status": "Incomplete"
           },
           {
             "name": "lag",
             "type": "string",
-            "description": "Time between the predecessor event and this one, in the same format as `duration` (e.g. `\"130Y\"`).",
+            "description": "Time between the predecessor event and this one, in the same format as `duration` (e.g. `130Y`).",
             "status": "Populated"
           },
           {
@@ -951,31 +956,31 @@
           {
             "name": "partOf",
             "type": "string",
-            "description": "An array containing the record ID of a parent event, indicating this event is a sub-component of a larger narrative arc. In the CSV this is a comma-separated list of lookup values (e.g. personLookup, placeLookup, osisRef) rather than record IDs.",
+            "description": "The parent event this event is part of, as comma-separated event titles (e.g. `Lifetime of Adam`). Titles that contain commas are wrapped in double quotes.",
             "status": "Unknown"
           },
           {
             "name": "verses",
             "type": "string",
-            "description": "An array of record IDs linking to the 'verses' table, representing the scriptural basis for the event. In the CSV this is a comma-separated list of lookup values (e.g. personLookup, placeLookup, osisRef) rather than record IDs.",
+            "description": "The verses that describe this event, as comma-separated verse `osisRef` values (e.g. `Gen.1.1`).",
             "status": "Incomplete"
           },
           {
             "name": "participants",
             "type": "string",
-            "description": "An array of record IDs linking to the 'people' table, representing the participants in the event. In the CSV this is a comma-separated list of lookup values (e.g. personLookup, placeLookup, osisRef) rather than record IDs.",
+            "description": "People who took part in the event, as comma-separated `personLookup` values (e.g. `god_1324`).",
             "status": "Incomplete"
           },
           {
             "name": "locations",
             "type": "string",
-            "description": "An array of record IDs linking to the 'places' table, representing the location(s) where the event occurred. In the CSV this is a comma-separated list of lookup values (e.g. personLookup, placeLookup, osisRef) rather than record IDs.",
+            "description": "Where the event happened, as comma-separated `placeLookup` values (e.g. `eden_354`).",
             "status": "Incomplete"
           },
           {
             "name": "groups",
             "type": "string",
-            "description": "An array of record IDs linking to the 'peopleGroups' table, representing groups involved in the event. In the CSV this is a comma-separated list of lookup values (e.g. personLookup, placeLookup, osisRef) rather than record IDs.",
+            "description": "People groups involved in the event, as comma-separated `groupName` values (e.g. `Nation of Israel`).",
             "status": "Unknown"
           },
           {
@@ -993,7 +998,7 @@
           {
             "name": "modified",
             "type": "string",
-            "description": "Last modified date and time",
+            "description": "Last modified date and time in US Central time, formatted `MM/DD/YYYY h:mmam` (e.g. `10/22/2026 12:37am`). Note this differs from the UTC format used in the other CSV files.",
             "status": "Unknown"
           },
           {
@@ -1032,7 +1037,7 @@
           {
             "name": "termID",
             "type": "string",
-            "description": "This field preserves the term’s original position in the source XML, making theographic’s extraction process transparent and allowing easy entry to trace back to its source context. It records the `id` attribute of the `<term>` tag in the source XML, and it indicates the location of the term within the original document's structure. For example, `a-p1.11` signifies that the term is in the \"a\" section, and that, within that section, it is associated with the paragraph block indexed as \"p1\", and that within that block, it is the 11th tagged element.",
+            "description": "The `id` of the term's `<term>` tag in the source XML, so each entry can be traced back to its place in the original (e.g. `a-p1.11`: section \"a\", paragraph block \"p1\", 11th tagged element).",
             "status": "Unknown"
           },
           {
@@ -1050,7 +1055,7 @@
           {
             "name": "itemNum",
             "type": "number",
-            "description": "Indicates the item number for definitions that are part of a list (e.g., 1, 2, 3). This occurs when multiple definitions exist for the same word and they are itemized. Defaults to 0 for entries that are not itemized.",
+            "description": "Item number for a definition that is one of several numbered meanings of the same word (1.0, 2.0, 3.0...); 0.0 for entries that are not itemized. Written with a decimal in the CSV.",
             "status": "Validated"
           },
           {
@@ -1068,13 +1073,13 @@
           {
             "name": "personLookup",
             "type": "string",
-            "description": "An array of record IDs that link to corresponding entries in the 'people' JSON. Each ID represents a person mentioned in the dictText. In the CSV this is a comma-separated list of lookup values (e.g. personLookup, placeLookup, osisRef) rather than record IDs.",
+            "description": "People this entry describes, as comma-separated `personLookup` values (e.g. `aaron_1`).",
             "status": "Populated"
           },
           {
             "name": "placeLookup",
             "type": "string",
-            "description": "An array of record IDs that link to corresponding entries in the 'places' JSON. Each ID represents a place mentioned in the dictText. In the CSV this is a comma-separated list of lookup values (e.g. personLookup, placeLookup, osisRef) rather than record IDs.",
+            "description": "Places this entry describes, as comma-separated `placeLookup` values (e.g. `abana_1`).",
             "status": "Populated"
           }
         ]
@@ -1180,7 +1185,7 @@
     {
       "name": "books-json",
       "title": "Books (JSON)",
-      "description": "Books as an array of Airtable records ({id, createdTime, fields}); link fields hold arrays of record IDs. Fields are documented in docs/json-fields-documentation.md.",
+      "description": "Books as an array of Airtable records ({id, createdTime, fields}); link fields hold arrays of record IDs. Fields are documented in the [JSON Fields Documentation](https://github.com/robertrouse/theographic-bible-metadata/blob/master/docs/json-fields-documentation.md).",
       "path": "json/books.json",
       "format": "json",
       "mediatype": "application/json"
@@ -1188,7 +1193,7 @@
     {
       "name": "chapters-json",
       "title": "Chapters (JSON)",
-      "description": "Chapters as an array of Airtable records ({id, createdTime, fields}); link fields hold arrays of record IDs. Fields are documented in docs/json-fields-documentation.md.",
+      "description": "Chapters as an array of Airtable records ({id, createdTime, fields}); link fields hold arrays of record IDs. Fields are documented in the [JSON Fields Documentation](https://github.com/robertrouse/theographic-bible-metadata/blob/master/docs/json-fields-documentation.md).",
       "path": "json/chapters.json",
       "format": "json",
       "mediatype": "application/json"
@@ -1196,7 +1201,7 @@
     {
       "name": "verses-json",
       "title": "Verses (JSON)",
-      "description": "Verses as an array of Airtable records ({id, createdTime, fields}); link fields hold arrays of record IDs. Fields are documented in docs/json-fields-documentation.md.",
+      "description": "Verses as an array of Airtable records ({id, createdTime, fields}); link fields hold arrays of record IDs. Fields are documented in the [JSON Fields Documentation](https://github.com/robertrouse/theographic-bible-metadata/blob/master/docs/json-fields-documentation.md).",
       "path": "json/verses.json",
       "format": "json",
       "mediatype": "application/json"
@@ -1204,7 +1209,7 @@
     {
       "name": "people-json",
       "title": "People (JSON)",
-      "description": "People as an array of Airtable records ({id, createdTime, fields}); link fields hold arrays of record IDs. Fields are documented in docs/json-fields-documentation.md.",
+      "description": "People as an array of Airtable records ({id, createdTime, fields}); link fields hold arrays of record IDs. Fields are documented in the [JSON Fields Documentation](https://github.com/robertrouse/theographic-bible-metadata/blob/master/docs/json-fields-documentation.md).",
       "path": "json/people.json",
       "format": "json",
       "mediatype": "application/json"
@@ -1212,7 +1217,7 @@
     {
       "name": "people-groups-json",
       "title": "People groups (JSON)",
-      "description": "People groups as an array of Airtable records ({id, createdTime, fields}); link fields hold arrays of record IDs. Fields are documented in docs/json-fields-documentation.md.",
+      "description": "People groups as an array of Airtable records ({id, createdTime, fields}); link fields hold arrays of record IDs. Fields are documented in the [JSON Fields Documentation](https://github.com/robertrouse/theographic-bible-metadata/blob/master/docs/json-fields-documentation.md).",
       "path": "json/peopleGroups.json",
       "format": "json",
       "mediatype": "application/json"
@@ -1220,7 +1225,7 @@
     {
       "name": "places-json",
       "title": "Places (JSON)",
-      "description": "Places as an array of Airtable records ({id, createdTime, fields}); link fields hold arrays of record IDs. Fields are documented in docs/json-fields-documentation.md.",
+      "description": "Places as an array of Airtable records ({id, createdTime, fields}); link fields hold arrays of record IDs. Fields are documented in the [JSON Fields Documentation](https://github.com/robertrouse/theographic-bible-metadata/blob/master/docs/json-fields-documentation.md).",
       "path": "json/places.json",
       "format": "json",
       "mediatype": "application/json"
@@ -1228,7 +1233,7 @@
     {
       "name": "events-json",
       "title": "Events (JSON)",
-      "description": "Events as an array of Airtable records ({id, createdTime, fields}); link fields hold arrays of record IDs. Fields are documented in docs/json-fields-documentation.md.",
+      "description": "Events as an array of Airtable records ({id, createdTime, fields}); link fields hold arrays of record IDs. Fields are documented in the [JSON Fields Documentation](https://github.com/robertrouse/theographic-bible-metadata/blob/master/docs/json-fields-documentation.md).",
       "path": "json/events.json",
       "format": "json",
       "mediatype": "application/json"
@@ -1236,7 +1241,7 @@
     {
       "name": "easton-json",
       "title": "Easton's Bible Dictionary (JSON)",
-      "description": "Easton's Bible Dictionary as an array of Airtable records ({id, createdTime, fields}); link fields hold arrays of record IDs. Fields are documented in docs/json-fields-documentation.md.",
+      "description": "Easton's Bible Dictionary as an array of Airtable records ({id, createdTime, fields}); link fields hold arrays of record IDs. Fields are documented in the [JSON Fields Documentation](https://github.com/robertrouse/theographic-bible-metadata/blob/master/docs/json-fields-documentation.md).",
       "path": "json/easton.json",
       "format": "json",
       "mediatype": "application/json"

@@ -43,11 +43,11 @@ This documentation focuses exclusively on the fields within the `fields` object.
 ## Books
 This table contains high-level metadata for each of the 66 books in the Protestant Bible canon. It includes various naming conventions (e.g. `osisName`, `bookName`, `shortName`), canonical divisions (`testament`, `bookDiv`), and structural information like chapter and verse counts. It also serves as a sort of central hub, linking to the chapters, verses, writers, people, and places associated with each book.
 
-### Fields Reference (16 Fields)
+### Fields Reference (17 Fields)
 
 | Field | Type | Status | Description |
 |-------|------|--------|-------------|
-| `osisName` | string | Validated | Abbreviation matching the Open Scriptural Information Standard. |
+| `osisName` | string | Validated | Abbreviation matching the Open Scriptural Information Standard (OSIS). |
 | `bookName` | string | Validated | Full name of the book |
 | `chapterCount` | integer | Validated | Total chapters |
 | `bookDiv` | string | Validated | High-level divisions of the Bible |
@@ -60,9 +60,10 @@ This table contains high-level metadata for each of the 66 books in the Protesta
 | `chapters` | array | Validated | An array of record IDs linking to all chapters contained within this book. |
 | `writers` | array | Validated | An array of record IDs linking to the 'people' table, representing the traditional writers of the book. |
 | `testament` | string | Validated | Old or New Testament identifier |
-| `slug` | string | Validated | Lowercase, url-friendly version of Osis Name |
+| `slug` | string | Validated | Lowercase, URL-friendly version of `osisName` |
 | `peopleCount` | integer | Validated | Number of people mentioned by name within the book |
 | `placeCount` | integer | Validated | Number of places mentioned by name within the book |
+| `modified` | string | Unknown | Last modified date and time, as an ISO 8601 UTC timestamp. Present on 21 of 66 books. |
 
 
 ### Relationships
@@ -113,13 +114,13 @@ This table defines every chapter in the Bible. Each record links to its parent `
 |-------|------|--------|-------------|
 | `osisRef` | string | Validated | Unique identifier using book.chapter |
 | `book` | array | Validated | An array containing the record ID of the book this chapter belongs to. |
-| `chapterNum` | integer | Validated | |
+| `chapterNum` | integer | Validated | Chapter number within the book |
 | `writer` | array | Validated | An array of record IDs linking to the 'people' table, representing the traditional writer(s) of this chapter. |
 | `verses` | array | Validated | An array of record IDs linking to all verses contained within this chapter. |
-| `slug` | string | Validated | Lowercase, url-friendly version of Osis Ref |
+| `slug` | string | Validated | Lowercase, URL-friendly version of `osisRef` |
 | `peopleCount` | integer | Validated | Number of people mentioned by name within the chapter |
 | `placesCount` | integer | Validated | Number of places mentioned by name within the chapter |
-| `modified` | string | Unknown | Last modified date and time |
+| `modified` | string | Unknown | Last modified date and time, as an ISO 8601 UTC timestamp (e.g. `2026-10-23T04:46:49.000Z`) |
 | `writer count`| integer | Validated | Total number of writers for the chapter |
 
 ### Relationships
@@ -160,7 +161,7 @@ This table contains parsed entries from the 1897 Easton's Bible Dictionary. Each
 | Field | Type | Status | Description |
 |-------|------|--------|-------------|
 | `dictLookup` | string | Validated | Unique string for a dictionary entry, split out by sub-paragraphs |
-| `termID` | string | Unknown | This field preserves the term’s original position in the source XML, making theographic’s extraction process transparent and allowing easy entry to trace back to its source context. It records the `id` attribute of the `<term>` tag in the source XML, and it indicates the location of the term within the original document's structure. For example, `a-p1.11` signifies that the term is in the "a" section, and that, within that section, it is associated with the paragraph block indexed as "p1", and that within that block, it is the 11th tagged element. |
+| `termID` | string | Unknown | The `id` of the term's `<term>` tag in the source XML, so each entry can be traced back to its place in the original (e.g. `a-p1.11`: section "a", paragraph block "p1", 11th tagged element). |
 | `termLabel` | string | Validated | The title of the dictionary term being defined. |
 | `def_id` | string | Unknown | The id attribute of the <def> tag in the source XML. This ID directly corresponds to the termID and points to the definition block for that specific term. For example, if the termID is "a-p1.11", the corresponding def_id will be "a-p1.12". |
 | `has_list` | string | Unknown | A boolean field ("True" or "False") that indicates whether the definition text contains a numbered or itemized list. This is derived from the structure of the source XML, though not explicitly shown in the provided snippet. |
@@ -220,7 +221,7 @@ Old Testament and Gospel dates follow Dr. Floyd Nolen Jones, *The Chronology of 
 | `notes` | string | Unknown | A field for additional commentary or explanatory notes about the event. |
 | `verseSort` | string | Unknown | The `verseID` of the first verse in the `verses` field of this event. |
 | `groups` | array | Unknown | An array of record IDs linking to the 'peopleGroups' table, representing groups involved in the event. |
-| `modified` | string | Unknown | Last modified date and time |
+| `modified` | string | Unknown | Last modified date and time, as an ISO 8601 UTC timestamp (e.g. `2026-10-23T04:46:49.000Z`) |
 | `sortKey` | float | Populated | Uses a combination of year and verseSort to sort all events chronologically. The calculation formula, originated in airtable, is `INT(IF(LEFT(startDate,1)='-',LEFT(startDate,5),LEFT(startDate,4))) + INT(verseSort)/100000000`|
 | `places (from verses)` | array | Unknown | An array of record IDs linking to the 'places' table, derived automatically from the associated verses. |
 | `rangeFlag` | boolean | Populated | If rangeFlag is true, the year is an approximation and not an exact date. |
@@ -301,7 +302,7 @@ This table provides a comprehensive catalog of every individual mentioned by nam
 | `displayTitle` | string | Populated | Disambiguated name suitable for page titles and search results |
 | `status` | string | Temporary | The validation status of the individual person record |
 | `alphaGroup` | string | Validated | Used for alphabetical indexing |
-| `slug` | string | Validated | Lowercase, url-friendly version of personLookup |
+| `slug` | string | Validated | Lowercase, URL-friendly version of `personLookup` |
 | `partners` | array | Unknown | An array of record IDs linking to the 'people' table, representing the person's spouse(s) or partner(s). |
 | `alsoCalled` | string | Populated | Alternate spellings or other known names for the same person. |
 | `ambiguous` | boolean | Temporary | Identifies display titles which have not been edited for disambiguation. |
@@ -309,7 +310,7 @@ This table provides a comprehensive catalog of every individual mentioned by nam
 | `eastons` | array | Incomplete | An array of record IDs linking to the 'easton' table, representing relevant dictionary entries. |
 | `Easton's Count` | integer | Unknown | 1 if it exists as an entry in Easton's Bible Dictionary; 0 otherwise.|
 | `dictText` | array | Incomplete | Markdown-formatted text from relevant sub-section in Easton's dictionary. |
-| `modified` | string | Unknown | Last modified date and time |
+| `modified` | string | Unknown | Last modified date and time, as an ISO 8601 UTC timestamp (e.g. `2026-10-23T04:46:49.000Z`) |
 | `timeline` | array | Unknown | An array of record IDs linking to the 'events' table, representing events associated with this person. |
 
 ### Relationships
@@ -400,7 +401,7 @@ This table defines collective groups of people, such as tribes, nations, or fami
 | `groupName` | string | Validated | Unique name |
 | `members` | array | Validated | An array of record IDs linking to the 'people' table, representing the individual members of this group. |
 | `verses` | array | Incomplete | An array of record IDs linking to the 'verses' table, representing verses where this group is mentioned. |
-| `modified` | string | Unknown | Last modified date and time |
+| `modified` | string | Unknown | Last modified date and time, as an ISO 8601 UTC timestamp (e.g. `2026-10-23T04:46:49.000Z`) |
 | `events` | string | Incomplete | Events in which this group participated. |
 | `events_dev` | array | Unknown | An array of record IDs linking to the 'events' table, representing events involving this group. |
 | `partOf` | array | Unknown | An array containing the record ID of a parent group in the 'peopleGroups' table. |
@@ -475,11 +476,11 @@ This table catalogs all geographic locations mentioned in the Bible. Each record
 | `longitude` | string | Populated | Best available longitude, depending on Recogito and OpenBible validation |
 | `displayTitle` | string | Populated | Disambiguated name suitable for page titles and search results |
 | `alphaGroup` | string | Validated | Used for alphabetical indexing |
-| `slug` | string | Validated | Lowercase, url-friendly version of placeLookup |
+| `slug` | string | Validated | Lowercase, URL-friendly version of `placeLookup` |
 | `ambiguous` | boolean | Temporary | Identifies display titles which have not been edited for disambiguation. |
 | `eastons` | array | Incomplete | An array of record IDs linking to the 'easton' table, representing relevant dictionary entries. |
 | `dictText` | array | Incomplete | Markdown-formatted text from relevant sub-section in Easton's dictionary. |
-| `modified` | string | Unknown | Last modified date and time |
+| `modified` | string | Unknown | Last modified date and time, as an ISO 8601 UTC timestamp (e.g. `2026-10-23T04:46:49.000Z`) |
 | `eventsHere` | array | Incomplete | An array of record IDs linking to the 'events' table, representing events that occurred at this location. |
 | `featureSubType` | string | Unknown | A more specific classification of the featureType, such as "River" for the "Water" type. |
 
@@ -566,12 +567,12 @@ This table contains the full text of every verse in the King James Version (`ver
 | Field | Type | Status | Description |
 |-------|------|--------|-------------|
 | `osisRef` | string | Validated | Unique identifier using the Open Scriptural Information Standard |
-| `verseNum` | string | Validated | Verse Number (integer) |
+| `verseNum` | string | Validated | Verse number within the chapter, stored as a numeric string (e.g. `"8"`) |
 | `verseText` | string | Validated | King James Version text, unformatted. |
 | `book` | array | Validated | An array containing the record ID of the book this verse belongs to. |
 | `people` | array | Validated | An array of record IDs linking to the 'people' table, representing individuals mentioned in this verse. |
 | `peopleCount` | integer | Validated | Number of people mentioned by name |
-| `placesCount` | integer | Validated | Number of place mentioned by name |
+| `placesCount` | integer | Validated | Number of places mentioned by name |
 | `places` | array | Validated | An array of record IDs linking to the 'places' table, representing locations mentioned in this verse. |
 | `yearNum` | integer | Populated | Approximate year of the verse as an ISO 8601 astronomical year (`-4003` = 4004 BC), from the Ussher dates in Torrey's *Treasury of Scripture Knowledge*. Not aligned with the Jones-based events table; see [Chronology and Dates](chronology-and-dates.md#verse-years-yearnum). |
 | `peopleGroups` | array | Incomplete | An array of record IDs linking to the 'peopleGroups' table, representing groups mentioned in this verse. |
@@ -580,7 +581,7 @@ This table contains the full text of every verse in the King James Version (`ver
 | `mdText` | string | Populated | King James Version text, with markdown formatting for exports. |
 | `richText` | string | Populated | King James Version text, with Rich Text formatting for Airtable. |
 | `verseID` | string | Validated | Unique sequential identifier, useful for sorting. |
-| `modified` | string | Unknown | Last modified date and time |
+| `modified` | string | Unknown | Last modified date and time, as an ISO 8601 UTC timestamp (e.g. `2026-10-23T04:46:49.000Z`) |
 | `event` | array | Unknown | An array of record IDs linking to the 'events' table, representing events associated with this verse. |
 
 ### Relationships

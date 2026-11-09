@@ -34,7 +34,114 @@ TABLES = [
      "Entries from Easton's Bible Dictionary (1897), parsed from the CCEL XML edition and linked to people and places.", "dictLookup"),
 ]
 
-LINK_NOTE = " In the CSV this is a comma-separated list of lookup values (e.g. personLookup, placeLookup, osisRef) rather than record IDs."
+REPO = "https://github.com/robertrouse/theographic-bible-metadata/blob/master/"
+
+# What each CSV link column holds. In the JSON these are arrays of record IDs;
+# in the CSV they are comma-separated keys of the linked records.
+KIND = {
+    "person": "`personLookup` values",
+    "place": "`placeLookup` values",
+    "verse": "verse `osisRef` values",
+    "chapter": "chapter `osisRef` values",
+    "book": "book `osisName` values",
+    "group": "`groupName` values",
+    "event": "event titles",
+    "easton": "`dictLookup` values",
+}
+CSV_LINKS = {
+    "Books": {"placeWritten": ("Where the book was written", "place"),
+              "chapters": ("The chapters in this book", "chapter"),
+              "writers": ("The traditional writer(s) of the book", "person")},
+    "Chapters": {"book": ("The book this chapter belongs to", "book"),
+                 "writer": ("The traditional writer(s) of this chapter", "person"),
+                 "verses": ("The verses in this chapter", "verse")},
+    "Verses": {"book": ("The book this verse belongs to", "book"),
+               "chapter": ("The chapter this verse belongs to", "chapter"),
+               "people": ("People mentioned by name in this verse", "person"),
+               "places": ("Places mentioned by name in this verse", "place"),
+               "peopleGroups": ("People groups mentioned in this verse", "group"),
+               "event": ("Events this verse belongs to", "event")},
+    "People": {"birthPlace": ("Where the person was born", "place"),
+               "deathPlace": ("Where the person died", "place"),
+               "memberOf": ("Groups (tribes, families, etc.) the person belongs to", "group"),
+               "eastons": ("Matching Easton's Bible Dictionary entries", "easton"),
+               "verses": ("Every verse where this person is mentioned by name", "verse"),
+               "mother": ("The person's mother", "person"),
+               "father": ("The person's father", "person"),
+               "partners": ("The person's spouse(s) or partner(s)", "person"),
+               "children": ("The person's children", "person"),
+               "siblings": ("The person's full siblings", "person"),
+               "halfSiblingsSameMother": ("The person's maternal half-siblings", "person"),
+               "halfSiblingsSameFather": ("The person's paternal half-siblings", "person"),
+               "chaptersWritten": ("Chapters attributed to this person", "chapter")},
+    "PeopleGroups": {"members": ("Members of this group", "person"),
+                     "partOf": ("The parent group", "group"),
+                     "verses": ("Verses where this group is mentioned", "verse"),
+                     "events_dev": ("Events involving this group", "event")},
+    "Places": {"canonicalPlace": ("The place this record is another name for (e.g. Salem -> Jerusalem); empty on canonical records", "place"),
+               "otherNames": ("On a canonical record, the records that are other names of this place", "place"),
+               "partOf": ("Places this place lies within: a city's tribal territory, a site's city, a city's Roman region, a territory's kingdom", "place"),
+               "parts": ("On a containing place, the places whose `partOf` points to it", "place"),
+               "near": ("Places this place lies beside or just outside (Gethsemane -> Jerusalem)", "place"),
+               "nearby": ("The places whose `near` points to this place", "place"),
+               "verses": ("Verses where this place is mentioned by name", "verse"),
+               "eastons": ("Matching Easton's Bible Dictionary entries", "easton"),
+               "peopleBorn": ("People born here", "person"),
+               "peopleDied": ("People who died here", "person"),
+               "booksWritten": ("Books written here", "book"),
+               "eventsHere": ("Events that happened here", "event")},
+    "Events": {"predecessor": ("The immediately preceding event in the timeline", "event"),
+               "partOf": ("The parent event this event is part of", "event"),
+               "verses": ("The verses that describe this event", "verse"),
+               "participants": ("People who took part in the event", "person"),
+               "locations": ("Where the event happened", "place"),
+               "groups": ("People groups involved in the event", "group")},
+    "Easton": {"personLookup": ("People this entry describes", "person"),
+               "placeLookup": ("Places this entry describes", "place")},
+}
+# Other CSV-specific wording, where the CSV differs from the JSON docs.
+CSV_TEXT = {
+    "People": {
+        "isProperName": "`checked` for people with proper names, blank for descriptive names like \"Wife of...\" or \"Son of...\"",
+        "ambiguous": "`checked` for display titles that have not yet been edited for disambiguation, otherwise blank.",
+        "birthYear": "Estimated birth year from Jones's chronology, as an ISO 8601 astronomical year (`-4003` = 4004 BC; positive values are AD). Same convention as `events.startDate`. Populated for 70 people.",
+        "deathYear": "Estimated death year, in the same convention as `birthYear` (`-1014` = 1015 BC). Populated for 61 people.",
+        "dictText": "Markdown-formatted text of the matching sub-section of Easton's Bible Dictionary.",
+        "events": "Comma-separated titles of events the person took part in. Titles that contain commas are wrapped in double quotes.",
+        "occupations": "Reserved for future use; currently empty on every record.",
+        "eventGroups": "Reserved for future use; currently empty on every record.",
+    },
+    "Places": {
+        "ambiguous": "`checked` for display titles that have not yet been edited for disambiguation, otherwise blank.",
+        "dictText": "Markdown-formatted text of the matching sub-section of Easton's Bible Dictionary.",
+    },
+    "Easton": {
+        "itemNum": "Item number for a definition that is one of several numbered meanings of the same word (1.0, 2.0, 3.0...); 0.0 for entries that are not itemized. Written with a decimal in the CSV.",
+    },
+    "Verses": {"verseNum": "Verse number within the chapter."},
+    "Books": {"yearWritten": "Approximate year written, if known (e.g. `57` for Romans). Populated for 21 of 66 books."},
+}
+MODIFIED_UTC = "Last modified date and time in UTC, formatted `YYYY-MM-DD HH:MM` (e.g. `2026-10-23 04:46`)."
+MODIFIED_EVENTS = "Last modified date and time in US Central time, formatted `MM/DD/YYYY h:mmam` (e.g. `10/22/2026 12:37am`). Note this differs from the UTC format used in the other CSV files."
+
+
+def absolute_links(text):
+    """Point relative doc links at GitHub so they work outside the repo."""
+    def fix(m):
+        target = m.group(2)
+        if re.match(r"[a-z]+:", target) or target.startswith("#"):
+            return m.group(0)
+        path = target[3:] if target.startswith("../") else "docs/" + target
+        return f"[{m.group(1)}]({REPO}{path})"
+    return re.sub(r"\[([^\]]+)\]\(([^)]+)\)", fix, text)
+
+
+def example(col):
+    for v in col:
+        if v:
+            first = next(csv.reader([v]))[0]
+            return first
+    return None
 
 WORDINDEX_FIELDS = {
     "BookID": "Book number in canonical order (1 = Genesis).",
@@ -88,17 +195,28 @@ def table_resource(fname, name, section, title, description, pk, docs):
     header, rows = read_csv(ROOT / "CSV" / fname)
     cols = list(zip(*rows)) if rows else [[] for _ in header]
     docfields = docs.get(section, {})
+    links, texts = CSV_LINKS.get(section, {}), CSV_TEXT.get(section, {})
     fields = []
     for i, col in enumerate(header):
         f = {"name": col, "type": infer_type(cols[i])}
-        if col in docfields:
-            typ, status, desc = docfields[col]
-            if typ.strip() == "array":
-                desc = (desc + LINK_NOTE).strip()
-            if desc:
-                f["description"] = desc
-            if status:
-                f["status"] = status  # custom property: Validated, Populated, Incomplete, Temporary, Unknown
+        typ, status, desc = docfields.get(col, ("", "", ""))
+        if col in links:
+            meaning, kind = links[col]
+            desc = f"{meaning}, as comma-separated {KIND[kind]}"
+            ex = example(cols[i])
+            desc += f" (e.g. `{ex}`)." if ex else "."
+            if kind == "event":
+                desc += " Titles that contain commas are wrapped in double quotes."
+        elif col in texts:
+            desc = texts[col]
+        elif col == "modified":
+            desc = MODIFIED_EVENTS if section == "Events" else MODIFIED_UTC
+        if desc:
+            # JSON docs quote string values ("-4003"); CSV values are unquoted.
+            desc = re.sub(r'`"([^"`]*)"`', r'`\1`', desc)
+            f["description"] = absolute_links(desc)
+        if status:
+            f["status"] = status  # custom property: Validated, Populated, Incomplete, Temporary, Unknown
         fields.append(f)
     schema = {"fields": fields}
     if pk and pk in header and len(set(cols[header.index(pk)])) == len(rows):
@@ -133,7 +251,7 @@ def main():
     for stem, title in json_names:
         resources.append({
             "name": f"{re.sub(r'(?<!^)(?=[A-Z])', '-', stem).lower()}-json", "title": f"{title} (JSON)",
-            "description": f"{title} as an array of Airtable records ({{id, createdTime, fields}}); link fields hold arrays of record IDs. Fields are documented in docs/json-fields-documentation.md.",
+            "description": f"{title} as an array of Airtable records ({{id, createdTime, fields}}); link fields hold arrays of record IDs. Fields are documented in the [JSON Fields Documentation]({REPO}docs/json-fields-documentation.md).",
             "path": f"json/{stem}.json", "format": "json", "mediatype": "application/json",
         })
 
@@ -150,7 +268,7 @@ def main():
         "profile": "data-package",
         "name": "theographic-bible-metadata",
         "title": "Theographic Bible Metadata",
-        "description": "A knowledge graph of the Bible that links every verse of the King James Version to the people, places, events, people groups, and Easton's Bible Dictionary entries it mentions. Documentation: https://github.com/robertrouse/theographic-bible-metadata/tree/master/docs",
+        "description": "A knowledge graph of the Bible that links every verse of the King James Version (1769 Cambridge Edition) to the people, places, events, people groups, and Easton's Bible Dictionary entries it mentions: 66 books, 1,189 chapters, 31,102 verses, 3,067 people, 1,298 place records (1,030 distinct places), 450 events, 23 people groups, and 6,519 dictionary entries. Documentation: https://github.com/robertrouse/theographic-bible-metadata/tree/master/docs",
         "homepage": "https://viz.bible/",
         "keywords": ["Bible", "King James Version", "knowledge graph", "biblical people", "biblical places",
                      "biblical chronology", "gazetteer", "Linked Places Format", "Easton's Bible Dictionary"],
