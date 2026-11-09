@@ -16,6 +16,7 @@ Theographic is a knowledge graph of the Bible that links every verse of the King
 | Make maps | [Geospatial Data](geospatial-data.md) |
 | Browse and filter in a spreadsheet | [View and Export Data with Airtable](view-and-export-data-with-airtable.md) |
 | Know where the data comes from | [Data Source Bibliography](data-source-bibliography.md) |
+| See known problems in the data and what has been fixed | [Data Quality Ledger](../data-quality/README.md) and [Corrections Log](../data-quality/corrections-log.md) |
 | Help out or report an error | [Contributing](contributing.md) |
 
 ## Key facts
@@ -23,4 +24,5 @@ Theographic is a knowledge graph of the Bible that links every verse of the King
 - **Text:** King James Version, 1769 Cambridge edition. 66 books, 1,189 chapters, 31,102 verses.
 - **Entities:** 3,067 people, 1,298 place records (1,030 distinct places once other names are merged; see [Geospatial Data](geospatial-data.md)), 450 events, 23 people groups, and 6,519 Easton's Bible Dictionary entries.
 - **Chronology:** Event dates and people's birth and death years follow Dr. Floyd Nolen Jones, *The Chronology of the Old Testament*. Year fields use two numbering conventions; see [Chronology and Dates](chronology-and-dates.md#year-numbering-conventions).
+- **Data quality:** Known problems are tracked in [`data-quality/issues.yaml`](../data-quality/issues.yaml), and fixes are summarized each month in the [corrections log](../data-quality/corrections-log.md).
 - **License:** [CC BY-SA 4.0](../LICENSE).
