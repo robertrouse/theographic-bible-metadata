@@ -1242,3 +1242,475 @@
     Fixed in Airtable Nov 9 2026 (only the lag field); confirm on the next export. Jehu's lag was
     set to 12Y earlier the same day under DQ-0006 and is now 11Y. The Genesis age-at-birth lags
     (48 events) already matched and were not changed.
+
+- id: DQ-0049
+  title: "Nimrod's kingdom begins uses Jones's year-of-world number as the BC year"
+  status: open
+  type: wrong-value
+  severity: medium
+  table: events
+  records:
+    - { id: recmnGiHVM3Hylr7r, key: "Nimrod's kingdom begins (eventID 87)" }
+  field: startDate
+  current: "-1821 (1822 BC)"
+  proposed: "-2181 (2182 BC)"
+  evidence: >-
+    Jones, Appendix F p.278: AM 1822 / 2182 BC "Nimrod's kingdom began, Ctesias date". Jones text p.42: "According to Ctesias of Cnidus ... Nimrod's kingdom began in 2182 BC ... 166 years after the Flood". The stored 1822 BC equals the AM column, not the BC column.
+  checks:
+    - { record: recmnGiHVM3Hylr7r, field: startDate, equals: "-2181" }
+  rule: null
+  found: { date: 2026-11-09, by: "Jones Appendix F audit, Nov 9 2026 (events vs Jones App. F pp. 278-280)", sha: c01ef52 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: []
+  notes: >-
+    Moving it 360 years earlier puts it before Peleg's birth (-2246) and the Tower of Babel (DQ-0051); check any predecessor links when fixing.
+
+- id: DQ-0050
+  title: "Prophecies of Malachi is a year early (BC entered as a negative year without the +1)"
+  status: open
+  type: off-by-one
+  severity: low
+  table: events
+  records:
+    - { id: recpSNqfLiST1KQqq, key: "Prophecies of Malachi (eventID 247)" }
+  field: startDate
+  current: "-441 (442 BC)"
+  proposed: "-440 (441 BC)"
+  evidence: >-
+    Jones, Appendix F p.280: AM 3563 / 441 BC "Malachi, end of the O.T.". 441 BC is astronomical -440; -441 is 442 BC.
+  checks:
+    - { record: recpSNqfLiST1KQqq, field: startDate, equals: "-440" }
+  rule: null
+  found: { date: 2026-11-09, by: "Jones Appendix F audit, Nov 9 2026 (events vs Jones App. F pp. 278-280)", sha: c01ef52 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: []
+  notes: >-
+    Conversion slip (BC year typed as a negative number).
+
+- id: DQ-0051
+  title: "Tower of Babel date differs from Jones's Appendix F row (Seder Olam date)"
+  status: needs-research
+  type: wrong-value
+  severity: low
+  table: events
+  records:
+    - { id: recy4o2BxavybTuX6, key: "Tower of Babel (eventID 53)" }
+  field: startDate
+  current: "-2245 (2246 BC, the year after Peleg's birth)"
+  proposed: >-
+    Decide which date to follow: keep -2245 (Ussher, within Peleg's lifetime, Gen 10:25), -2241 (2242 BC, Manetho as cited by Jones p.42), or -2007 (2008 BC, Appendix F).
+  evidence: >-
+    Jones, Appendix F p.278: AM 1996 / 2008 BC "Tower of Babel, Jews in Seder Olam", labelled as the Jewish (Seder Olam) date. Jones text p.42 only places Babel within Peleg's lifetime and notes that Manetho puts it in 2242 BC, five years after Peleg's birth.
+  checks: []
+  rule: null
+  found: { date: 2026-11-09, by: "Jones Appendix F audit, Nov 9 2026 (events vs Jones App. F pp. 278-280)", sha: c01ef52 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: []
+  notes: >-
+    Chronology choice, not a typo. Robert treats Ussher as primary.
+
+- id: DQ-0052
+  title: "Acts chronology is 1-5 years off Jones; align the New Testament events with Jones"
+  status: open
+  type: wrong-value
+  severity: medium
+  table: events
+  records:
+    - { id: recgcZKRVZDvMUMOa, key: "Stephen is stoned (eventID 322)" }
+    - { id: recCz7opcoITkiZiq, key: "Saul is converted (eventID 326)" }
+    - { id: rec4fFrtrUuDVkTNK, key: "Peter meets Cornelius (eventID 329)" }
+    - { id: recCCk6aW2ZbOCRTd, key: "Herod kills James (eventID 333)" }
+    - { id: recTAdkQX4sglPtLl, key: "Herod dies (eventID 336)" }
+    - { id: recrre0r2IHdN3Y7Z, key: "Mission to Lystra and Derbe (eventID 342)" }
+    - { id: recwmsQ1HEDGztu9O, key: "Jerusalem Council (eventID 344)" }
+    - { id: reciR4wcxOAcLxak0, key: "Second Missionary Journey (eventID 345)" }
+    - { id: recsnRcoxqD4pQGHp, key: "Second Missionary Journey begins (eventID 348)" }
+    - { id: receG7A0Y0VjWPff1, key: "Third Missionary Journey Begins (eventID 362)" }
+    - { id: rec4bAiAcAOo9mPwO, key: "Third Missionary Journey (eventID 363)" }
+    - { id: recuV2kc7FiAUIuBQ, key: "Paul arrested in the Temple (eventID 372)" }
+    - { id: recODnfv69EyvRMvA, key: "Paul sent to Felix (eventID 376)" }
+    - { id: recZZnST3yj4b1akY, key: "Agrippa and Bernice meet Festus (eventID 378)" }
+    - { id: recltAvLmGRfERhYp, key: "Paul goes before Agrippa (eventID 379)" }
+    - { id: recuZhS7z4CatBOO0, key: "Paul arrives at Rome (eventID 384)" }
+    - { id: recGrIgOxWnxVl8h0, key: "Paul's First Roman imprisonment (eventID 385)" }
+  field: startDate, duration
+  current: |-
+    - Stephen is stoned (#322, recgcZKRVZDvMUMOa) start: current 0031 -> Jones AD 32 ("Martyrdom of Stephen", AM 4035)
+    - Saul is converted (#326, recCz7opcoITkiZiq) start: current 0032 -> Jones AD 33 ("Conversion of Paul", AM 4036)
+    - Peter meets Cornelius (#329, rec4fFrtrUuDVkTNK) start: current 0038 -> Jones AD 41 ("Conversion of Cornelius", AM 4044)
+    - Herod kills James (#333, recCCk6aW2ZbOCRTd) start: current 0040 -> Jones AD 44 ("Martyrdom of James, Acts 12", AM 4047)
+    - Herod dies (#336, recTAdkQX4sglPtLl) start: current 0045 -> Jones AD 44 ("Death of Herod Agrippa I, Acts 12", AM 4047)
+    - Mission to Lystra and Derbe (#342, recrre0r2IHdN3Y7Z) start: current 0046-03-01 -> Jones AD 45 ("Paul stoned at Lystra, Acts 14", AM 4048)
+    - Jerusalem Council (#344, recwmsQ1HEDGztu9O) start: current 0046 -> Jones AD 50 ("Jerusalem Council on Circumcision", AM 4053)
+    - Second Missionary Journey (#345, reciR4wcxOAcLxak0) start: current 0046 -> Jones AD 51 ("Second Missionary Journey, Acts 15", AM 4055; AM gives AD 52)
+    - Second Missionary Journey begins (#348, recsnRcoxqD4pQGHp) start: current 0047-04-01 -> Jones AD 51 ("Second Missionary Journey, Acts 15", AM 4055; AM gives AD 52)
+    - Third Missionary Journey Begins (#362, receG7A0Y0VjWPff1) start: current 0050-04-01 -> Jones AD 54 ("Third Missionary Journey, Acts 18", AM 4059; AM gives AD 56)
+    - Third Missionary Journey (#363, rec4bAiAcAOo9mPwO) start: current 0050 -> Jones AD 54 ("Third Missionary Journey, Acts 18", AM 4059; AM gives AD 56)
+    - Paul arrested in the Temple (#372, recuV2kc7FiAUIuBQ) start: current 0054 -> Jones AD 58 ("Paul mobbed - arrested at the Temple", AM 4063; AM gives AD 60)
+    - Paul sent to Felix (#376, recODnfv69EyvRMvA) start: current 0056 -> Jones AD 58 ("Paul before Felix: imprisoned 2 years", AM 4063; AM gives AD 60)
+    - Agrippa and Bernice meet Festus (#378, recZZnST3yj4b1akY) start: current 0056 -> Jones AD 60 ("Paul before Festus and Agrippa II", AM 4065; AM gives AD 62)
+    - Paul goes before Agrippa (#379, recltAvLmGRfERhYp) start: current 0056 -> Jones AD 60 ("Paul before Festus and Agrippa II", AM 4065; AM gives AD 62)
+    - Paul arrives at Rome (#384, recuZhS7z4CatBOO0) start: current 0057 -> Jones AD 61 ("Paul’s 1st arrival in Rome: 2 yr. arrest", AM 4066; AM gives AD 63)
+    - Paul's First Roman imprisonment (#385, recGrIgOxWnxVl8h0) start: current 0057 -> Jones AD 61 ("Paul’s 1st arrival in Rome: 2 yr. arrest", AM 4066; AM gives AD 63)
+    - Paul's First Roman imprisonment (#385, recGrIgOxWnxVl8h0) end: current AD 60 -> Jones AD 63 ("Paul released from house arrest", AM 4068; AM gives AD 65)
+  proposed: >-
+    Move the 17 Acts events (and the events that are part of or follow them) to Jones's years, and add the missing NT events listed in notes. The Gospel events already match Jones (birth of John 5 BC, birth of Jesus 4 BC, baptism AD 26, crucifixion AD 30).
+  evidence: >-
+    Jones, Appendix F p.280 (AD rows). From the Jerusalem Council on, Jones's printed AD year and his AM column disagree by 1-2 years (e.g. AM 4055 gives AD 52, printed AD 51), so decide which Jones column to follow before fixing.
+  checks: []
+  rule: null
+  found: { date: 2026-11-09, by: "Jones Appendix F audit, Nov 9 2026 (events vs Jones App. F pp. 278-280)", sha: c01ef52 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: []
+  notes: |-
+    - Missing related NT events in Appendix F (no Theographic event):
+    - 4 BC (AM 4000): Death of Herod the Great (p.280)
+    - 27 AD (AM 4030): 30 yr old Jesus began public ministry (p.280)
+    - 66 AD (AM 4069): Paul’s 2nd arrest, imprisoned-chained (p.280)
+    - 67 AD (AM 4070): Martyrdom of Paul and Peter (p.280)
+    - 70 AD (AM 4073): Titus razed Jerusalem and Temple (p.280)
+    - 96 AD (AM 4099): John the Apostle banished to Patmos (p.280)
+    - 96 AD (AM 4099): John released upon Nerva’s accession (p.280)
+    - date not given (AM ?): John the Apostle dies in Trajan’s reign (p.280)
+
+- id: DQ-0053
+  title: "Reign and kingdom spans end a year off Jones because durations count years inclusively"
+  status: open
+  type: off-by-one
+  severity: low
+  table: events
+  records:
+    - { id: rec0t3McGWoyd6kTB, key: "War with Canaanites (eventID 131)" }
+    - { id: recKRsEFLaEueJvei, key: "Reign of Saul (eventID 155)" }
+    - { id: rec5W0YtPdi4yrvaY, key: "Southern Kingdom (Judah) (eventID 163)" }
+    - { id: rec824qPcsyF7GtTh, key: "Reign of Jeroboam I (eventID 167)" }
+    - { id: recDK5FF0d1qrz8sn, key: "Reign of Abijam (eventID 168)" }
+    - { id: recmEKC9vgAJDYa2z, key: "Reign of Asa (eventID 170)" }
+    - { id: recoThUM3VEzmvB2Y, key: "Reign of Nadab (eventID 171)" }
+    - { id: recDnpywTo9ng7E08, key: "Reign of Baasha (eventID 172)" }
+    - { id: reczLjmDT8D3PwoN1, key: "Reign of Elah (eventID 173)" }
+    - { id: recbKVjuSUpIxKCDm, key: "Reign of Omri (eventID 176)" }
+    - { id: rec44ed0m1pZUujzb, key: "Reign of Ahab (eventID 178)" }
+    - { id: rec6ssNxDhVqVIQb5, key: "Reign of Ahaziah (eventID 184)" }
+    - { id: receNV351SLbofU0a, key: "Reign of Joram (eventID 187)" }
+    - { id: recb9vQAySe8NXtZn, key: "Reign of Jehoram (eventID 188)" }
+    - { id: rec8neSzth86PNqvR, key: "Reign of Ahaziah (Jehoahaz) (eventID 189)" }
+    - { id: reck6rXD9hZiDk0Kz, key: "Reign of Jehu (eventID 190)" }
+    - { id: rec70XpPIr8MiLTVb, key: "Reign of Jehoash (eventID 197)" }
+    - { id: recUQaOuprbt82K3O, key: "Reign of Zachariah (eventID 208)" }
+    - { id: recKk6oSdN570sACg, key: "Reign of Menahem (eventID 212)" }
+  field: duration
+  current: |-
+    - War with Canaanites (#131, rec0t3McGWoyd6kTB): start -1450, duration 7Y -> end -1443; Jones end -1444 (1445 BC "7-year war with Canaanites, etc. ends", p.278); 1 year late; suggested duration 6Y.
+    - Reign of Saul (#155, recKRsEFLaEueJvei): start -1094, duration 40Y -> end -1054; Jones end -1055 (1056 BC "Death of Saul and Jonathan", p.279); 1 year late; suggested duration 39Y.
+    - Southern Kingdom (Judah) (#163, rec5W0YtPdi4yrvaY): start -974, duration 390Y -> end -584; Jones end -585 (586 BC "Babylonians sack Jerusalem", p.280); 1 year late; suggested duration 389Y.
+    - Reign of Jeroboam I (#167, rec824qPcsyF7GtTh): start -974, duration 22Y -> end -952; Jones end -953 (954 BC "Nadab becomes king over Israel", p.279); 1 year late; suggested duration 21Y.
+    - Reign of Abijam (#168, recDK5FF0d1qrz8sn): start -957, duration 3Y -> end -954; Jones end -955 (956 BC "Asa becomes king over Judah", p.279); 1 year late; suggested duration 2Y.
+    - Reign of Asa (#170, recmEKC9vgAJDYa2z): start -955, duration 41Y -> end -914; Jones end -913 (914 BC "Jehoshaphat becomes king of Judah", p.279); 1 year early; suggested duration 42Y.
+    - Reign of Nadab (#171, recoThUM3VEzmvB2Y): start -953, duration 2Y -> end -951; Jones end -952 (953 BC "Baasha becomes king over Israel", p.279); 1 year late; suggested duration 1Y.
+    - Reign of Baasha (#172, recDnpywTo9ng7E08): start -952, duration 24Y -> end -928; Jones end -929 (930 BC "Elah becomes king over Israel", p.279); 1 year late; suggested duration 23Y.
+    - Reign of Elah (#173, reczLjmDT8D3PwoN1): start -929, duration 2Y -> end -927; Jones end -928 (929 BC "Zimri reigns over Israel for 7 days", p.279); 1 year late; suggested duration 1Y.
+    - Reign of Omri (#176, recbKVjuSUpIxKCDm): start -928, duration 12Y -> end -916; Jones end -917 (918 BC "Ahab becomes king over Israel", p.279); 1 year late; suggested duration 11Y.
+    - Reign of Ahab (#178, rec44ed0m1pZUujzb): start -917, duration 22Y -> end -895; Jones end -896 (897 BC "Ahaziah becomes king over Israel", p.279); 1 year late; suggested duration 21Y.
+    - Reign of Ahaziah (#184, rec6ssNxDhVqVIQb5): start -896, duration 2Y -> end -894; Jones end -896 (897 BC "Joram becomes king over Israel", p.279); 2 years late; suggested duration 0Y. Nominal 2-year reign overlaps Joram (both 897 BC in Jones); decide whether to keep 2Y.
+    - Reign of Joram (#187, receNV351SLbofU0a): start -896, duration 12Y -> end -884; Jones end -885 (886 BC "Jehu becomes king over Israel", p.279); 1 year late; suggested duration 11Y.
+    - Reign of Jehoram (#188, recb9vQAySe8NXtZn): start -892, duration 8Y -> end -884; Jones end -885 (886 BC "Ahaziah became sole rex over Judah", p.279); 1 year late; suggested duration 7Y.
+    - Reign of Ahaziah (Jehoahaz) (#189, rec8neSzth86PNqvR): start -885, duration 1Y -> end -884; Jones end -885 (886 BC "Usurpation of Athaliah over Judah", p.279); 1 year late; suggested duration 0Y. 0Y would mean the reign starts and ends in 886 BC; Jones has Ahaziah pro-rex 887 BC and sole rex 886 BC.
+    - Reign of Jehu (#190, reck6rXD9hZiDk0Kz): start -885, duration 28Y -> end -857; Jones end -856 (857 BC "Jehoahaz becomes king over Israel", p.279); 1 year early; suggested duration 29Y.
+    - Reign of Jehoash (#197, rec70XpPIr8MiLTVb): start -839, duration 16Y -> end -823; Jones end -824 (825 BC "Jeroboam II became sole rex of Israel", p.279); 1 year late; suggested duration 15Y.
+    - Reign of Zachariah (#208, recUQaOuprbt82K3O): start -783, duration 11Y -> end -772; Jones end -771 (772 BC "Shallum rules Israel for 1-month", p.279); 1 year early; suggested duration 12Y. Jones's 784-772 BC includes 'Zachariah rules Israel or Interregnum'; Zachariah reigned 6 months (2 Ki 15:8).
+    - Reign of Menahem (#212, recKk6oSdN570sACg): start -771, duration 10Y -> end -761; Jones end -760 (761 BC "Pekahiah becomes king over Israel", p.279); 1 year early; suggested duration 11Y.
+  proposed: >-
+    Duration = elapsed years from start to Jones's end (the next event's start), as in scheduling software: start + duration = Jones end. This is the same rule as the lag fix in DQ-0048, applied to duration.
+  evidence: >-
+    Jones, Appendix F pp.278-280 successor rows (listed per span). The text's regnal years (e.g. Jeroboam 22 years, 1 Ki 14:20) count the accession year inclusively in Israel's non-accession reckoning (Jones p.130), so start + regnal years lands a year late; Asa, Jehu, Zachariah and Menahem land a year early.
+  checks: []
+  rule: null
+  found: { date: 2026-11-09, by: "Jones Appendix F audit, Nov 9 2026 (events vs Jones App. F pp. 278-280)", sha: c01ef52 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: []
+  notes: >-
+    Related: DQ-0043 (Jehoash co-reign) and DQ-0044 (Omri) also touch spans listed here; fix them together. Ahaziah of Israel, Ahaziah of Judah and Zachariah need a decision rather than a mechanical change.
+
+- id: DQ-0054
+  title: "HIGH PRIORITY: exile and return events are missing (606-442 BC)"
+  status: open
+  type: missing-record
+  severity: high
+  table: events
+  records: []
+  field: events
+  current: >-
+    No Theographic event for 39 Jones Appendix F entries in this era.
+  proposed: |-
+    - 606 BC (AM 3398): Prince Nebuchadnezzar invades Judah (p.280)
+    - 606 BC (AM 3398): 1st Deportation to Babylon-Daniel 1 [only matched to Prophecies of Daniel; no standalone event] (p.280)
+    - 605 BC (AM 3399): Battle of Carchemish - Neco defeated (p.280)
+    - 605 BC (AM 3399): Nebuchadnezzar’s year of accession (p.280)
+    - 604 BC (AM 3400): Nebuchad’s 1st official yr as sole rex (p.280)
+    - 604 BC (AM 3400): Daniel interprets Nebuchad’s dream (p.280)
+    - 598 BC (AM 3406): Minor deportation of captives 2 Ki 24:2 (p.280)
+    - 597 BC (AM 3407): 2nd Deportation to Babylon (p.280)
+    - 593 BC (AM 3411): Zedekiah visits Babylon (p.280)
+    - 592 BC (AM 3412): The glory departs from the Temple (p.280)
+    - 589 BC (AM 3415): Zedekiah rebels (Jos. Antiq. 10.7.3.) (p.280)
+    - 588 BC (AM 3416): Final siege of Jerusalem begins (p.280)
+    - 588 BC (AM 3416): Pharaoh approaches-siege briefly lifted (p.280)
+    - 586 BC (AM 3418): 3rd Deportation to Babylon (p.280)
+    - 586 BC (AM 3418): Babylonians sack Jerusalem [only as the end of Southern Kingdom / Reign of Zedekiah; no standalone event] (p.280)
+    - 582 BC (AM 3422): Minor deportation - Nebuchad’s 23rd (p.280)
+    - 561 BC (AM 3443): Jeconiah released by Evil-Merodach (p.280)
+    - 539 BC (AM 3465): Babylon falls to Darius the Mede (p.280)
+    - 536 BC (AM 3468): Cyrus’ Decree for the Jews Return (p.280)
+    - 536 BC (AM 3468): Return under Zerubbabel (p.280)
+    - 535 BC (AM 3469): Foundation of the 2nd Temple laid (p.280)
+    - 522 BC (AM 3482): Pseudo-Smerdis stops Temple repairs (p.280)
+    - 520 BC (AM 3484): Darius' 2nd yr, began rebuilding Temple [only matched to Prophecies of Haggai/Zechariah; no standalone event] (p.280)
+    - 519 BC (AM 3485): Ahasuerus’ (Darius I) 180 day feast (p.280)
+    - 516 BC (AM 3488): Completion of the second Temple (p.280)
+    - 515 BC (AM 3489): Esther taken to king Ahasuerus-2:16 (p.280)
+    - 515 BC (AM 3490): Esther is Queen: Darius’ yr 7-Est 2:17 (p.280)
+    - 510 BC (AM 3494): Haman initiates plot against the Jews (p.280)
+    - 509 BC (AM 3495): Ahasuerus’ insomnia: Nisan 17 (p.280)
+    - 509 BC (AM 3495): Haman hanged – Mordecai promoted (p.280)
+    - 509 BC (AM 3496): Mordecai & Esther deliver the Jews (p.280)
+    - 467 BC (AM 3537): Ezra beautifies Temple-Artaxerxes 7th (p.280)
+    - 467 BC (AM 3537): Jews Divorce their Gentile Wives (p.280)
+    - 455 BC (AM 3549): Nehemiah hears of Jerusalem’s status (p.280)
+    - 454 BC (AM 3550): Artaxerxes’ Decree in his 20th year (p.280)
+    - 454 BC (AM 3550): Begin Daniel’s 70 “Weeks” to Messiah (p.280)
+    - 454 BC (AM 3550): Nehemiah comes to Jerusalem (p.280)
+    - 454 BC (AM 3550): Wall of Jerusalem built & dedicated (p.280)
+    - 442 BC (AM 3562): Nehemiah returns to Persia (p.280)
+  evidence: >-
+    Jones, Appendix F (Dates of Major Bible Events), pp.278-280. Each line gives Jones's BC/AD year, his AM (year of the world) and the Appendix F wording. Theographic has the prophets' spans (Daniel, Ezekiel, Haggai, Zechariah, Malachi) but no events for the deportations, the fall of Jerusalem, the fall of Babylon, Cyrus's decree, the returns, the Temple rebuilding, Esther, Ezra or Nehemiah.
+  checks: []
+  rule: null
+  found: { date: 2026-11-09, by: "Jones Appendix F audit, Nov 9 2026 (events vs Jones App. F pp. 278-280)", sha: c01ef52 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: []
+  notes: >-
+    Priority: HIGH (Robert, Nov 9 2026). The ledger has no priority field, so this is marked severity high and in the title. New events need verses, participants, locations and predecessor/lag links.
+
+- id: DQ-0055
+  title: "Patriarchal-era events missing from Theographic (4003-1732 BC)"
+  status: open
+  type: missing-record
+  severity: low
+  table: events
+  records: []
+  field: events
+  current: >-
+    No Theographic event for 15 Jones Appendix F entries in this era.
+  proposed: |-
+    - 4003 BC (AM 1): Birth of Cain (p.278)
+    - 2448 BC (AM 1556): Birth of Japheth (p.278)
+    - 2234 BC (AM 1770): Chaldean date for founding of Babylon (p.278)
+    - 1987 BC (AM 2018): Birth of Sarah (p.278)
+    - 1897 BC (AM 2107): Circumcision instituted (p.278)
+    - 1891 BC (AM 2113): Weaning of Isaac (p.278)
+    - 1863 BC (AM 2141): Abraham to offer up Isaac (p.278)
+    - 1860 BC (AM 2144): Death of Sarah (p.278)
+    - 1796 BC (AM 2208): First marriage of Esau (p.278)
+    - 1759 BC (AM 2245): Flight of Jacob to Laban (p.278)
+    - 1759 BC (AM 2245): Marriage of Jacob to Leah & Rachel (p.278)
+    - 1755 BC (AM 2249): Rachel gives Bilhah to Jacob (p.278)
+    - 1754 BC (AM 2250): Leah gives Zilpah to Jacob (p.278)
+    - 1739 BC (AM 2265): Departure of Jacob from Laban (p.278)
+    - 1732 BC (AM 2272): Dinah raped (p.278)
+  evidence: >-
+    Jones, Appendix F (Dates of Major Bible Events), pp.278-280. Each line gives Jones's BC/AD year, his AM (year of the world) and the Appendix F wording. 
+  checks: []
+  rule: null
+  found: { date: 2026-11-09, by: "Jones Appendix F audit, Nov 9 2026 (events vs Jones App. F pp. 278-280)", sha: c01ef52 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: []
+  notes: ""
+
+- id: DQ-0056
+  title: "Wilderness, conquest and judges events missing from Theographic (1452-1121 BC)"
+  status: open
+  type: missing-record
+  severity: low
+  table: events
+  records: []
+  field: events
+  current: >-
+    No Theographic event for 9 Jones Appendix F entries in this era.
+  proposed: |-
+    - 1452 BC (AM 2552): Return of the Israelites to Kadesh (p.278)
+    - 1452 BC (AM 2552): Death of Miriam and Aaron (p.278)
+    - 1452 BC (AM 2552): Sihon King of Heshbon conquered (p.278)
+    - 1444 BC (AM 2560): Tabernacle moved - Gilgal to Shiloh (p.278)
+    - 1444 BC (AM 2560): Finish dividing Canaan to last 7 Tribes (p.278)
+    - 1420 BC (AM 2584): Micah’s priest, tribe of Dan, Jud 17-18 (p.278)
+    - 1419 BC (AM 2585): The Levite’s concubine, Jud 19–21 (p.278)
+    - 1278 BC (AM 2726): Shamgar’s Judgeship? in days of Jael (p.278)
+    - 1121 BC (AM 2883): Ark at Kiriath-Jearim (p.279)
+  evidence: >-
+    Jones, Appendix F (Dates of Major Bible Events), pp.278-280. Each line gives Jones's BC/AD year, his AM (year of the world) and the Appendix F wording. 
+  checks: []
+  rule: null
+  found: { date: 2026-11-09, by: "Jones Appendix F audit, Nov 9 2026 (events vs Jones App. F pp. 278-280)", sha: c01ef52 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: []
+  notes: >-
+    Lifetime of Joshua ending 13 years before Death of Joshua is already covered by DQ-0047; not repeated here.
+
+- id: DQ-0057
+  title: "Saul, David and Solomon events missing from Theographic (1095-1015 BC)"
+  status: open
+  type: missing-record
+  severity: medium
+  table: events
+  records: []
+  field: events
+  current: >-
+    No Theographic event for 22 Jones Appendix F entries in this era.
+  proposed: |-
+    - 1095 BC (AM 2909): Defeat of the Ammonites by Saul (p.279)
+    - 1093 BC (AM 2911): War of Saul with the Philistines (p.279)
+    - 1085 BC (AM 2919): Birth of David (p.279)
+    - 1070 BC (AM 2934): David is secretly anointed by Samuel (p.279)
+    - 1065 BC (AM 2939): Flight of David from Saul’s Court (p.279)
+    - 1065 BC (AM 2939): Refuge of David at Gath, etc. (p.279)
+    - 1060 BC (AM 2944): Death of Samuel (p.279)
+    - 1059 BC (AM 2945): David spares Saul the 2nd time (p.279)
+    - 1058 BC (AM 2946): Residence of David at Ziklag (p.279)
+    - 1053 BC (AM 2951): Civil War – David and Ish-Bosheth (p.279)
+    - 1048 BC (AM 2956): David made king over all the tribes (p.279)
+    - 1048 BC (AM 2956): David takes Jerusalem from Jebusites (p.279)
+    - 1047 BC (AM 2957): David defeats Philistines (p.279)
+    - 1047 BC (AM 2957): Ark brought to Jerusalem (p.279)
+    - 1040 BC (AM 2964): David restores Mephibosheth (p.279)
+    - 1037 BC (AM 2967): Adultery of David with Bathsheba (p.279)
+    - 1036 BC (AM 2968): Birth of Solomon (p.279)
+    - 1035 BC (AM 2969): Incest of Amnon with Tamar (p.279)
+    - 1027 BC (AM 2977): Rebellion of Absalom (p.279)
+    - 1016 BC (AM 2988): Birth of Rehoboam (p.279)
+    - 1015 BC (AM 2989): Usurpation of Adonijah (p.279)
+    - 1015 BC (AM 2989): Solomon made pro-rex, then co-rex (p.279)
+  evidence: >-
+    Jones, Appendix F (Dates of Major Bible Events), pp.278-280. Each line gives Jones's BC/AD year, his AM (year of the world) and the Appendix F wording. Reign of Saul, David and Solomon, David Kills Goliath, and the deaths of Saul and David exist; almost none of David's life does.
+  checks: []
+  rule: null
+  found: { date: 2026-11-09, by: "Jones Appendix F audit, Nov 9 2026 (events vs Jones App. F pp. 278-280)", sha: c01ef52 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: []
+  notes: ""
+
+- id: DQ-0058
+  title: "Divided-kingdom events missing from Theographic (971-609 BC)"
+  status: open
+  type: missing-record
+  severity: low
+  table: events
+  records: []
+  field: events
+  current: >-
+    No Theographic event for 38 Jones Appendix F entries in this era.
+  proposed: |-
+    - 971 BC (AM 3033): Shishak invades Judah (p.279)
+    - 950 BC (AM 3054): Birth of Jehoshaphat (p.279)
+    - 925 BC (AM 3079): Birth of Jehoram of Judah (p.279)
+    - 917 BC (AM 3087): Asa’s feet diseased (p.279)
+    - 908 BC (AM 3096): Birth of Ahaziah of Judah (p.279)
+    - 898 BC (AM 3106): Jehoram made pro-rex of Judah (p.279)
+    - 889 BC (AM 3115): Elijah’s prophetic letter to Jehoram (p.279)
+    - 887 BC (AM 3117): Ahaziah made pro-rex over Judah (p.279)
+    - 863 BC (AM 3141): Birth of Amaziah of Judah (p.279)
+    - 857 BC (AM 3147): Temple not yet repaired, Joash’s 23rd (p.279)
+    - 843 BC (AM 3161): Jehoash made pro-rex over Israel (p.279)
+    - 837 BC (AM 3167): Jeroboam II made pro-rex over Israel (p.279)
+    - 827 BC (AM 3177): Birth of Uzziah of Judah (p.279)
+    - 784 BC (AM 3220): Birth of Jotham of Judah (p.279)
+    - 763 BC (AM 3241): Birth of Ahaz of Judah (p.279)
+    - 752 BC (AM 3252): Birth of Hezekiah of Judah (p.279)
+    - 723 BC (AM 3281): Shalmaneser besieges Samaria (p.279)
+    - 713 BC (AM 3291): Sennacherib’s 1st invasion as Tartan (p.279)
+    - 713 BC (AM 3291): Hezekiah ill, Life extended 15 years (p.279)
+    - 713 BC (AM 3291): Sargon besieges Ashdod, Isa. 20:1 (p.279)
+    - 712 BC (AM 3292): Merodach-Baladan sends Embassy (p.279)
+    - 711 BC (AM 3293): Ashdod falls to Sargon (p.279)
+    - 709 BC (AM 3295): Sennacherib’s 2nd invasion as pro-rex (p.279)
+    - 709 BC (AM 3295): Angel slays 185,000 Assyrians (p.279)
+    - 709 BC (AM 3295): Birth of Manasseh of Judah (p.279)
+    - 709 BC (AM 3295): 15th Year of Jubilee begins, Isa 37:30 (p.279)
+    - 649 BC (AM 3355): Birth of Josiah of Judah (p.279)
+    - 634 BC (AM 3370): Birth of Jehoiakim of Judah (p.280)
+    - 633 BC (AM 3371): Conversion of Josiah (p.280)
+    - 632 BC (AM 3372): Birth of Jehoahaz of Judah (p.280)
+    - 629 BC (AM 3375): Josiah’s 1st reform – idols destroyed (p.280)
+    - 623 BC (AM 3381): Josiah repairs Temple-finds the Law (p.280)
+    - 618 BC (AM 3386): Birth of Zedekiah of Judah (p.280)
+    - 616 BC (AM 3388): Jeconiah (Jehoiachin) of Judah born (p.280)
+    - 612 BC (AM 3392): Nineveh falls to the Babylonians (p.280)
+    - 610 BC (AM 3394): Haran falls to the Babylonians (p.280)
+    - 609 BC (AM 3395): Josiah anoints Jeconiah as successor (p.280)
+    - 609 BC (AM 3395): Assyrian counter-attack fails (p.280)
+  evidence: >-
+    Jones, Appendix F (Dates of Major Bible Events), pp.278-280. Each line gives Jones's BC/AD year, his AM (year of the world) and the Appendix F wording. 
+  checks: []
+  rule: null
+  found: { date: 2026-11-09, by: "Jones Appendix F audit, Nov 9 2026 (events vs Jones App. F pp. 278-280)", sha: c01ef52 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: []
+  notes: >-
+    Many rows are kings' births (better as people birth years) or pro-rex/co-rex milestones (relevant to DQ-0043 and DQ-0053); decide which deserve events.
+
+- id: DQ-0059
+  title: "Intertestamental and secular events missing from Theographic (331 BC-AD 98)"
+  status: open
+  type: missing-record
+  severity: low
+  table: events
+  records: []
+  field: events
+  current: >-
+    No Theographic event for 25 Jones Appendix F entries in this era.
+  proposed: |-
+    - 331 BC (AM 3673): Persian Empire falls to Alexander (p.280)
+    - 323 BC (AM 3681): Alexander dies, Empire divided 4 ways (p.280)
+    - 171 BC (AM 3833): Antiochus Epiphanes plunders Temple (p.280)
+    - 168 BC (AM 3836): Antiochus offers a sow on the altar (p.280)
+    - 168 BC (AM 3836): Maccabean revolt against the Syrians (p.280)
+    - 165 BC (AM 3839): Temple services renewed, 25th Kislev (p.280)
+    - 63 BC (AM 3941): Jerusalem taken by Pompey (p.280)
+    - 40 BC (AM 3964): Rome appoints Herod the Great king (p.280)
+    - 37 BC (AM 3967): Herod takes Jerusalem by Storm (p.280)
+    - 20 BC (AM 3984): Herod begins Temple renovation (p.280)
+    - 1 AD (AM 4004): Beginning of the Christian Era (p.280)
+    - 12 AD (AM 4015): 1st year of Tiberius as co-rex (p.280)
+    - 14 AD (AM 4017): Augustus dies, Tiberius sole rex (p.280)
+    - 26 AD (AM 4029): Pontius Pilate Procurator of Judea (p.280)
+    - 37 AD (AM 4040): Caligula becomes Roman Emperor (p.280)
+    - 39 AD (AM 4042): Herod Antipas banished to Gaul (p.280)
+    - 41 AD (AM 4044): Claudius becomes Roman Emperor (p.280)
+    - 52 AD (AM 4055): Felix made proculator of Judea (p.280)
+    - 54 AD (AM 4057): Nero becomes Roman Emperor (p.280)
+    - 60 AD (AM 4065): Festus Procurator of Judea (p.280)
+    - 64 AD (AM 4068): Nero began persecution of Christians (p.280)
+    - 79 AD (AM 4082): Titus becomes Roman Emperor (p.280)
+    - 81 AD (AM 4084): Domitian becomes Roman Emperor (p.280)
+    - 96 AD (AM 4099): Nerva becomes Roman Emperor (p.280)
+    - 98 AD (AM 4101): Trajan, Roman Emperor until AD 117 (p.280)
+  evidence: >-
+    Jones, Appendix F (Dates of Major Bible Events), pp.278-280. Each line gives Jones's BC/AD year, his AM (year of the world) and the Appendix F wording. Alexander, the Maccabees, Pompey, Herod's kingship, Roman emperors and procurators.
+  checks: []
+  rule: null
+  found: { date: 2026-11-09, by: "Jones Appendix F audit, Nov 9 2026 (events vs Jones App. F pp. 278-280)", sha: c01ef52 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: []
+  notes: >-
+    Lowest priority. NT-narrative entries (Herod's death, Jesus's ministry, Paul's second arrest and death, fall of Jerusalem, John at Patmos) are listed in DQ-0052.
