@@ -248,7 +248,7 @@
   fixed: { date: null, sha: null }
   github: null
   affects: [timeline-poster]
-  notes: "Reign end dates already imply two anchors: Hoshea ends -720 (721 BC), Zedekiah ends -585 (586 BC)."
+  notes: "Reign end dates already imply two anchors: Hoshea ends -720 (721 BC), Zedekiah ends -585 (586 BC). Closed Nov 9 2026 as a duplicate of DQ-0054, which lists every dated Jones Appendix F entry for the exile and return."
 
 # --- Found by theographic-web (v2 data pipeline, CP-01..CP-08) ---------------
 # DQ-0010..DQ-0017 were first reported in GitHub issue #49 (at cfb1c48) and are
