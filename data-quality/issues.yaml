@@ -41,7 +41,7 @@
 
 - id: DQ-0001
   title: Lifetime of Jacob uses Isaac's age (180 years) instead of 147
-  status: open
+  status: fixed
   type: wrong-value
   severity: high
   table: events
@@ -57,13 +57,13 @@
     - { record: recTkocSMI0NxpIrw, field: duration, equals: "147Y" }
   rule: lifetime-matches-birth-death
   found: { date: 2026-11-04, by: "timeline poster v0.2 (normalize.mjs)", sha: 3f461f2 }
-  fixed: { date: null, sha: null }
+  fixed: { date: 2026-11-09, sha: 2aa6cd3 }
   github: null
   affects: [timeline-poster]
 
 - id: DQ-0002
   title: Lifetime of Abraham starts a year before Birth of Abraham
-  status: open
+  status: fixed
   type: off-by-one
   severity: medium
   table: events
@@ -80,14 +80,14 @@
     - { record: recfnatCOLEHFYeLB, field: startDate, equals: "-1995" }
   rule: lifetime-matches-birth-death
   found: { date: 2026-11-04, by: "timeline poster v0.2 (normalize.mjs)", sha: 3f461f2 }
-  fixed: { date: null, sha: null }
+  fixed: { date: 2026-11-09, sha: 2aa6cd3 }
   github: null
   affects: [timeline-poster]
   notes: Moving the start also moves the column-1/column-2 boundary used by the poster (-1996).
 
 - id: DQ-0003
   title: Death of Moses is a year earlier than its own predecessor + lag rule
-  status: open
+  status: fixed
   type: off-by-one
   severity: medium
   table: events
@@ -103,7 +103,7 @@
     - { record: recxj71m6XPSaqIg2, field: startDate, equals: "-1450" }
   rule: date-matches-predecessor-lag
   found: { date: 2026-11-04, by: "timeline poster v0.2 (normalize.mjs)", sha: 3f461f2 }
-  fixed: { date: null, sha: null }
+  fixed: { date: 2026-11-09, sha: 2aa6cd3 }
   github: null
   affects: [timeline-poster]
 
@@ -131,7 +131,7 @@
 
 - id: DQ-0005
   title: Death of Isaac lists itself as its predecessor
-  status: open
+  status: fixed
   type: bad-link
   severity: low
   table: events
@@ -145,7 +145,7 @@
     - { record: recnTimjDqmxMYqRZ, field: predecessor, not_contains: recnTimjDqmxMYqRZ }
   rule: predecessor-acyclic
   found: { date: 2026-11-04, by: "timeline poster v0.2 (normalize.mjs)", sha: 3f461f2 }
-  fixed: { date: null, sha: null }
+  fixed: { date: 2026-11-09, sha: 2aa6cd3 }
   github: null
   affects: [timeline-poster]
 
@@ -193,7 +193,7 @@
 
 - id: DQ-0008
   title: Misspelled event titles
-  status: open
+  status: fixed
   type: typo
   severity: low
   table: events
@@ -224,7 +224,7 @@
     - { record: recsgU87rUrPKR9uA, field: title, not_matches: "Jehoahash" }
   rule: null
   found: { date: 2026-11-04, by: "timeline poster v0.2 (visual proof)", sha: 3f461f2 }
-  fixed: { date: null, sha: null }
+  fixed: { date: 2026-11-09, sha: 2aa6cd3 }
   github: null
   affects: [timeline-poster]
   notes: Fixed when every check passes; partial fixes stay open.
@@ -289,7 +289,7 @@
 
 - id: DQ-0011
   title: Mount of Olives alias is an editorial note, not a name
-  status: open
+  status: fixed
   type: wrong-value
   severity: low
   table: places
@@ -303,9 +303,10 @@
     - { record: recOahYbjltSaaIV0, field: aliases, not_matches: "4b is" }
   rule: null
   found: { date: 2026-09-15, by: "theographic-web CP-01 normalizer", sha: cfb1c48 }
-  fixed: { date: null, sha: null }
+  fixed: { date: 2026-11-09, sha: 2aa6cd3 }
   github: 49
   affects: [theographic-web]
+  notes: Record recOahYbjltSaaIV0 was deleted when the Mount of Olives places were merged into mount_of_olives_861 (rec5wqkJ6JXv03dvF, aliases "Olivet, mount Olivet"; GeoJSON side was PR #62, merged). No export file carries the editor's note.
 
 - id: DQ-0012
   title: books.writers on 1 and 2 Samuel holds a comma-joined string
@@ -584,7 +585,7 @@
 
 - id: DQ-0022
   title: Two more misspelled event titles (Sampson, Zaccheus)
-  status: open
+  status: fixed
   type: typo
   severity: low
   table: events
@@ -600,7 +601,7 @@
     - { record: reccSs8loWRLm8LAb, field: title, not_matches: "Zaccheus" }
   rule: null
   found: { date: 2026-10-23, by: "theographic-web CP-08 definitions run", sha: 3f461f2 }
-  fixed: { date: null, sha: null }
+  fixed: { date: 2026-11-09, sha: 2aa6cd3 }
   github: null
   affects: [theographic-web]
   notes: Companion to DQ-0008; the slugs derive from titles, so changing them changes event slugs.
