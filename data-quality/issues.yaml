@@ -1960,3 +1960,31 @@
     121 km straight line and should be treated as a sea leg (Acts 28:12-13), not
     snapped to Italian coastal roads. Itiner-e maps the network around 150 CE;
     avoid roads with a construction date after about 60 CE when snapping.
+- id: DQ-0068
+  title: Two Philips spelled "Phillip" in displayTitle
+  status: open
+  type: typo
+  severity: low
+  table: people
+  records:
+    - { id: recg3914bVvyjBOfN, key: "philip_2344 (Philip the Apostle)" }
+    - { id: recNsU6uPfTysNEKM, key: "philip_2347 (Philip the Evangelist)" }
+  field: displayTitle
+  current: "philip_2344 \"Phillip the Apostle\"; philip_2347 \"Phillip the Evangelist\""
+  proposed: "philip_2344 \"Philip the Apostle\"; philip_2347 \"Philip the Evangelist\""
+  evidence: >-
+    Both records' name field is "Philip", as is the KJV spelling (Matt 10:3;
+    Acts 21:8). The other two Philip records (philip_2345, philip_2346) show
+    "Philip". Found by comparing displayTitle against name in
+    json/people.json at origin/master 8100f47.
+  checks:
+    - { record: recg3914bVvyjBOfN, field: displayTitle, equals: "Philip the Apostle" }
+    - { record: recNsU6uPfTysNEKM, field: displayTitle, equals: "Philip the Evangelist" }
+  rule: null
+  found: { date: 2026-11-12, by: "displayTitle vs name spot check", sha: 8100f47 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: []
+  notes: >-
+    Fixed in Airtable Nov 12 2026 (only displayTitle on these two records; name
+    and every other field unchanged); confirm on the next export.
