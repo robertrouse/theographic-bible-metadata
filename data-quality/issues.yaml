@@ -916,7 +916,7 @@
 
 - id: DQ-0037
   title: Reign of Uzziah links to Jeroboam I instead of Jeroboam II
-  status: open
+  status: fixed
   type: bad-link
   severity: medium
   table: events
@@ -936,12 +936,15 @@
     - { record: recOJfWD0IUcT4yJD, field: lag, equals: "15Y" }
   rule: lag-matches-start
   found: { date: 2026-11-09, by: "lag audit (predecessor start + lag vs startDate, live Airtable)", sha: 8e73bfc }
-  fixed: { date: null, sha: null }
+  fixed: { date: 2026-11-13, sha: null }
   github: null
   affects: []
   notes: >-
     Lag convention (Robert, Nov 9 2026): lags work like project scheduling, so SS lag = successor
     start - predecessor start in elapsed years. The biblical "Nth year" wording goes in notes, not the lag.
+    Fixed 2026-11-13 in Airtable: predecessor changed from Reign of Jeroboam I (rec824qPcsyF7GtTh)
+    to Reign of Jeroboam II (recGe7VTJOGbn63NQ), and lag from 27Y to 15Y. lagType SS and startDate -809
+    unchanged; -824 + 15 = -809. Only those two fields changed. fixed.sha to be filled from the next export.
 
 - id: DQ-0038
   title: Construction of Solomon's Temple follows Reign of Saul instead of Reign of Solomon
