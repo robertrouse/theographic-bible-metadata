@@ -948,13 +948,13 @@
 
 - id: DQ-0038
   title: Construction of Solomon's Temple follows Reign of Saul instead of Reign of Solomon
-  status: open
+  status: fixed
   type: bad-link
   severity: medium
   table: events
   records:
     - { id: recYlpu8OdsUJoG8g, key: "Construction of Solomon's Temple (eventID 162)" }
-  field: predecessor, lag, lagType
+  field: predecessor, lag, lagType, duration
   current: "[recKRsEFLaEueJvei Reign of Saul (-1094, 40Y)], lag 4Y2M FS; start -1011, so predecessor end + lag = about -1050 (39 years off)"
   proposed: "[recKTbnO8VY7lXLeX Reign of Solomon (-1014)], lag 3Y SS (-1014 + 3 = -1011)"
   evidence: >-
@@ -967,13 +967,18 @@
     - { record: recYlpu8OdsUJoG8g, field: predecessor, contains: recKTbnO8VY7lXLeX }
     - { record: recYlpu8OdsUJoG8g, field: lag, equals: "3Y" }
     - { record: recYlpu8OdsUJoG8g, field: lagType, equals: "SS" }
+    - { record: recYlpu8OdsUJoG8g, field: duration, equals: "7Y6M" }
   rule: lag-matches-start
   found: { date: 2026-11-09, by: "lag audit (predecessor start + lag vs startDate, live Airtable)", sha: 8e73bfc }
-  fixed: { date: null, sha: null }
+  fixed: { date: 2026-11-13, sha: null }
   github: null
   affects: []
   notes: >-
     A month-level lag (3Y1M for the second month) only works if startDate also carries the month.
+    Fixed in Airtable 2026-11-13: predecessor changed from Reign of Saul (recKRsEFLaEueJvei) to Reign of
+    Solomon (recKTbnO8VY7lXLeX); lag "4Y2M" FS changed to "3Y" SS (-1014 + 3 = -1011 matches startDate,
+    which is unchanged); duration "7Y" changed to "7Y6M" (1 Ki 6:37-38, Zif of year 4 to Bul of year 11;
+    Ussher: 7 years 6 months). Only those fields changed. fixed.sha to be filled from the next export.
 
 - id: DQ-0039
   title: Exodus from Egypt counts Moses' 40 years in Midian twice
