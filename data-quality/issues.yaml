@@ -1050,7 +1050,7 @@
 
 - id: DQ-0042
   title: Reign of Jehoram (Judah) lag taken from the reverse synchronism
-  status: open
+  status: fixed
   type: wrong-value
   severity: low
   table: events
@@ -1068,9 +1068,13 @@
     - { record: recb9vQAySe8NXtZn, field: lag, equals: "4Y" }
   rule: lag-matches-start
   found: { date: 2026-11-09, by: "lag audit (predecessor start + lag vs startDate, live Airtable)", sha: 8e73bfc }
-  fixed: { date: null, sha: null }
+  fixed: { date: 2026-11-13, sha: null }
   github: null
   affects: []
+  notes: >-
+    Fixed in Airtable 2026-11-13: lag on recb9vQAySe8NXtZn changed from "2Y" to "4Y" (lagType SS and
+    predecessor Reign of Joram unchanged; -896 + 4 = -892 matches startDate). Only the lag field changed.
+    fixed.sha to be filled from the next export.
 
 - id: DQ-0043
   title: Reign of Jehoash (Israel) lag counts to his co-reign, start is his sole reign
