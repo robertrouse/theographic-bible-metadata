@@ -1745,6 +1745,135 @@
   affects: []
   notes: >-
     Lowest priority. NT-narrative entries (Herod's death, Jesus's ministry, Paul's second arrest and death, fall of Jerusalem, John at Patmos) are listed in DQ-0052.
+
+- id: DQ-0060
+  title: "Jer 37:5, 37:7, 37:11 tag Pharaoh of the Exodus instead of Pharaoh-hophra"
+  status: open
+  type: bad-link
+  severity: medium
+  table: verses
+  records:
+    - { id: recRaC0iASExzdMez, key: "Jer.37.5" }
+    - { id: recsW6O3bGX1ZcANQ, key: "Jer.37.7" }
+    - { id: recISUk3S6FXgNHew, key: "Jer.37.11" }
+  field: people, mdText, richText
+  current: >-
+    people → pharaoh_2331 "Pharaoh (of the Exodus)" (recOdl9oB4UWmbiqP);
+    mdText/richText use /person/pharaoh_2331 for "Pharaoh’s".
+  proposed: >-
+    people → pharaoh_2336 "Pharaoh" / alsoCalled "Pharaoh-hophra" (recwqt4vhH8t9M6lf);
+    update mdText and richText inline links to /person/pharaoh_2336 in the same edit.
+  evidence: >-
+    Jer 37:5-11 is the Chaldean withdrawal during Zedekiah's siege (Jones Appendix F
+    588 BC "Pharaoh approaches-siege briefly lifted"). Jer 44:30 already tags the same
+    late-Judah pharaoh correctly as pharaoh_2336 ("Pharaoh-hophra"). pharaoh_2331's
+    other verses are Exodus/Joseph-era (Gen, Exod, Deut, Acts 7, Heb 11). Found while
+    drafting the DQ-0054 exile/return event batch (Chaldeans withdraw from Jerusalem).
+  checks:
+    - { record: recRaC0iASExzdMez, field: people, not_contains: recOdl9oB4UWmbiqP }
+    - { record: recRaC0iASExzdMez, field: people, contains: recwqt4vhH8t9M6lf }
+    - { record: recsW6O3bGX1ZcANQ, field: people, not_contains: recOdl9oB4UWmbiqP }
+    - { record: recsW6O3bGX1ZcANQ, field: people, contains: recwqt4vhH8t9M6lf }
+    - { record: recISUk3S6FXgNHew, field: people, not_contains: recOdl9oB4UWmbiqP }
+    - { record: recISUk3S6FXgNHew, field: people, contains: recwqt4vhH8t9M6lf }
+    - { record: recRaC0iASExzdMez, field: richText, not_matches: "pharaoh_2331" }
+    - { record: recRaC0iASExzdMez, field: richText, matches: "pharaoh_2336" }
+  rule: null
+  found: { date: 2026-11-09, by: "DQ-0054 exile/return draft (verse tagging audit)", sha: 608818e }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: []
+  notes: >-
+    Cross-ref DQ-0054. Standing rule: any verse tagging change must update both the
+    people array and the mdText/richText inline links together. Draft called out 37:5
+    and 37:7; Airtable read-back also shows Jer.37.11 on the same wrong person. Related
+    late-Judah "Pharaoh" verses still on pharaoh_2331 (Jer.43.9, Ezek.30.24) were not
+    in the draft and need a separate pass before changing.
+
+- id: DQ-0061
+  title: "Jer 46:2 names Pharaoh-necho but is missing the Pharaoh-nechoh person tag"
+  status: open
+  type: missing-link
+  severity: medium
+  table: verses
+  records:
+    - { id: recQem8B3FnExDmgT, key: "Jer.46.2" }
+  field: people, mdText, richText
+  current: >-
+    people → nebuchadnezzar_2167, jehoiakim_1085, josiah_1730 only;
+    mdText/richText leave the bare string "Pharaoh-necho" unlinked (places Egypt,
+    Euphrates, Carchemish, Babylon are linked).
+  proposed: >-
+    Add pharaoh-nechoh_2337 (recj4jStie8ofBOVu) to people, and wrap "Pharaoh-necho"
+    as [Pharaoh-necho](/person/pharaoh-nechoh_2337) in mdText and richText in the same edit.
+  evidence: >-
+    Jer 46:2: "against the army of Pharaoh-necho king of Egypt, which was by the river
+    Euphrates in Carchemish, which Nebuchadrezzar king of Babylon smote in the fourth
+    year of Jehoiakim". 2 Kgs 23:29-35 and 2 Chr 35:20-36:4 already tag the same king
+    as pharaoh-nechoh_2337. Found while drafting DQ-0054 event "Nebuchadnezzar defeats
+    Pharaoh-nechoh at Carchemish".
+  checks:
+    - { record: recQem8B3FnExDmgT, field: people, contains: recj4jStie8ofBOVu }
+    - { record: recQem8B3FnExDmgT, field: richText, matches: "pharaoh-nechoh_2337" }
+  rule: null
+  found: { date: 2026-11-09, by: "DQ-0054 exile/return draft (verse tagging audit)", sha: 608818e }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: []
+  notes: >-
+    Cross-ref DQ-0054. Standing rule: update people plus mdText and richText together.
+    pharaoh-nechoh_2337 currently has no Jer 46 verse among its reverse links.
+
+- id: DQ-0062
+  title: "Exile/return verse yearNum values follow a non-Jones chronology"
+  status: open
+  type: wrong-value
+  severity: medium
+  table: verses
+  records:
+    - { id: recqtEFA6JMF7SGxp, key: "Esth.1.3 (yearNum -461)" }
+    - { id: recH2eIsTWfQaLP7v, key: "Esth.2.16 (yearNum -457)" }
+    - { id: recyTrjKDZ6wt4Mgt, key: "Esth.3.7 (yearNum -452)" }
+    - { id: recFPEcrQeNSZWQ1m, key: "Esth.9.1 (yearNum -451)" }
+    - { id: rec3pQvMwnq8Vpimi, key: "Neh.1.1 (yearNum -456)" }
+    - { id: recrhF4Pt0q4M5zIl, key: "Neh.2.1 (yearNum -445)" }
+    - { id: recavjXNF1R87FXQV, key: "Ezra.7.7 (yearNum -456)" }
+    - { id: recRaC0iASExzdMez, key: "Jer.37.5 (yearNum -597)" }
+    - { id: recQem8B3FnExDmgT, key: "Jer.46.2 (yearNum -606)" }
+  field: yearNum
+  current: |-
+    Sample yearNum (astronomical) vs Jones Appendix F / draft event starts:
+    - Esth.1.3: -461 (462 BC) vs Jones ~519 BC (Ahasuerus/Darius yr 3 → draft -518)
+    - Esth.2.16: -457 (458 BC) vs Jones 515 BC (Esther queen → draft -514)
+    - Esth.3.7: -452 (453 BC) vs Jones 510 BC (Haman plot → draft -509)
+    - Esth.9.1: -451 (452 BC) vs Jones 509 BC (deliverance → draft -508)
+    - Neh.1.1: -456 (457 BC) vs Jones 455 BC (draft -454)
+    - Neh.2.1: -445 (446 BC) vs Jones 454 BC (Artaxerxes 20th → draft -453)
+    - Ezra.7.7: -456 (457 BC) vs Jones 467 BC (Artaxerxes 7th → draft -466)
+    - Jer.37.5: -597 (598 BC) vs Jones 588 BC (Pharaoh approaches → draft -587)
+    - Jer.46.2: -606 (607 BC) vs Jones 605 BC (Carchemish → draft -604)
+  proposed: >-
+    Align verse yearNum in the exile/return era with the Ussher-via-Jones chronology
+    used by events (primary project chronology). Exact per-verse values need a full
+    pass over Esther, Ezra, Nehemiah, Jeremiah, Ezekiel and Daniel in this window;
+    the samples above are the concrete mismatches found while drafting DQ-0054.
+  evidence: >-
+    Live Airtable read 2026-11-09 (verses.yearNum). Jones, Appendix F p.280 and Chart 5
+    for the event dates. Esther yearNums match a Xerxes dating (~mid-5th century BC);
+    Neh.2.1 yearNum -445 matches the common Artaxerxes 20th = 445 BC scheme, not Jones's
+    454 BC. Found while drafting DQ-0054; adding those events will leave events.startDate
+    and verses.yearNum disagreeing until this is fixed.
+  checks: []
+  rule: null
+  found: { date: 2026-11-09, by: "DQ-0054 exile/return draft (verse yearNum vs Jones)", sha: 608818e }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: []
+  notes: >-
+    Cross-ref DQ-0054. Related: DQ-0052 (Acts chronology vs Jones). Records listed are
+    illustrative samples, not an exhaustive census; a fix pass should scan all era verses.
+    Do not change yearNum as part of the DQ-0054 event upload.
+
 - id: DQ-0063
   title: Stop property column-shift errors in pauls_journeys_all.geojson
   status: open
