@@ -41,7 +41,7 @@
 
 - id: DQ-0001
   title: Lifetime of Jacob uses Isaac's age (180 years) instead of 147
-  status: open
+  status: fixed
   type: wrong-value
   severity: high
   table: events
@@ -57,13 +57,13 @@
     - { record: recTkocSMI0NxpIrw, field: duration, equals: "147Y" }
   rule: lifetime-matches-birth-death
   found: { date: 2026-11-04, by: "timeline poster v0.2 (normalize.mjs)", sha: 3f461f2 }
-  fixed: { date: null, sha: null }
+  fixed: { date: 2026-11-09, sha: 2aa6cd3 }
   github: null
   affects: [timeline-poster]
 
 - id: DQ-0002
   title: Lifetime of Abraham starts a year before Birth of Abraham
-  status: open
+  status: fixed
   type: off-by-one
   severity: medium
   table: events
@@ -80,14 +80,14 @@
     - { record: recfnatCOLEHFYeLB, field: startDate, equals: "-1995" }
   rule: lifetime-matches-birth-death
   found: { date: 2026-11-04, by: "timeline poster v0.2 (normalize.mjs)", sha: 3f461f2 }
-  fixed: { date: null, sha: null }
+  fixed: { date: 2026-11-09, sha: 2aa6cd3 }
   github: null
   affects: [timeline-poster]
   notes: Moving the start also moves the column-1/column-2 boundary used by the poster (-1996).
 
 - id: DQ-0003
   title: Death of Moses is a year earlier than its own predecessor + lag rule
-  status: open
+  status: fixed
   type: off-by-one
   severity: medium
   table: events
@@ -103,7 +103,7 @@
     - { record: recxj71m6XPSaqIg2, field: startDate, equals: "-1450" }
   rule: date-matches-predecessor-lag
   found: { date: 2026-11-04, by: "timeline poster v0.2 (normalize.mjs)", sha: 3f461f2 }
-  fixed: { date: null, sha: null }
+  fixed: { date: 2026-11-09, sha: 2aa6cd3 }
   github: null
   affects: [timeline-poster]
 
@@ -131,7 +131,7 @@
 
 - id: DQ-0005
   title: Death of Isaac lists itself as its predecessor
-  status: open
+  status: fixed
   type: bad-link
   severity: low
   table: events
@@ -145,7 +145,7 @@
     - { record: recnTimjDqmxMYqRZ, field: predecessor, not_contains: recnTimjDqmxMYqRZ }
   rule: predecessor-acyclic
   found: { date: 2026-11-04, by: "timeline poster v0.2 (normalize.mjs)", sha: 3f461f2 }
-  fixed: { date: null, sha: null }
+  fixed: { date: 2026-11-09, sha: 2aa6cd3 }
   github: null
   affects: [timeline-poster]
 
@@ -193,7 +193,7 @@
 
 - id: DQ-0008
   title: Misspelled event titles
-  status: open
+  status: fixed
   type: typo
   severity: low
   table: events
@@ -224,7 +224,7 @@
     - { record: recsgU87rUrPKR9uA, field: title, not_matches: "Jehoahash" }
   rule: null
   found: { date: 2026-11-04, by: "timeline poster v0.2 (visual proof)", sha: 3f461f2 }
-  fixed: { date: null, sha: null }
+  fixed: { date: 2026-11-09, sha: 2aa6cd3 }
   github: null
   affects: [timeline-poster]
   notes: Fixed when every check passes; partial fixes stay open.
@@ -289,7 +289,7 @@
 
 - id: DQ-0011
   title: Mount of Olives alias is an editorial note, not a name
-  status: open
+  status: fixed
   type: wrong-value
   severity: low
   table: places
@@ -303,9 +303,10 @@
     - { record: recOahYbjltSaaIV0, field: aliases, not_matches: "4b is" }
   rule: null
   found: { date: 2026-09-15, by: "theographic-web CP-01 normalizer", sha: cfb1c48 }
-  fixed: { date: null, sha: null }
+  fixed: { date: 2026-11-09, sha: 2aa6cd3 }
   github: 49
   affects: [theographic-web]
+  notes: Record recOahYbjltSaaIV0 was deleted when the Mount of Olives places were merged into mount_of_olives_861 (rec5wqkJ6JXv03dvF, aliases "Olivet, mount Olivet"; GeoJSON side was PR #62, merged). No export file carries the editor's note.
 
 - id: DQ-0012
   title: books.writers on 1 and 2 Samuel holds a comma-joined string
@@ -584,7 +585,7 @@
 
 - id: DQ-0022
   title: Two more misspelled event titles (Sampson, Zaccheus)
-  status: open
+  status: fixed
   type: typo
   severity: low
   table: events
@@ -600,7 +601,7 @@
     - { record: reccSs8loWRLm8LAb, field: title, not_matches: "Zaccheus" }
   rule: null
   found: { date: 2026-10-23, by: "theographic-web CP-08 definitions run", sha: 3f461f2 }
-  fixed: { date: null, sha: null }
+  fixed: { date: 2026-11-09, sha: 2aa6cd3 }
   github: null
   affects: [theographic-web]
   notes: Companion to DQ-0008; the slugs derive from titles, so changing them changes event slugs.
@@ -1845,3 +1846,246 @@
     Cross-ref DQ-0054. Related: DQ-0052 (Acts chronology vs Jones). Records listed are
     illustrative samples, not an exhaustive census; a fix pass should scan all era verses.
     Do not change yearNum as part of the DQ-0054 event upload.
+
+- id: DQ-0063
+  title: Stop property column-shift errors in pauls_journeys_all.geojson
+  status: open
+  type: wrong-value
+  severity: medium
+  table: places
+  records:
+    - { id: recf5gqGGUdNN4pas, key: "Seleucia (placeID 1045)" }
+    - { id: recthAC8bEi71Zdg1, key: "Salamis (placeID 1016)" }
+    - { id: recASJJNAAnhodvWY, key: "Cenchreae (placeID 281)" }
+    - { id: recOEIhMwampGbSqk, key: "Troas (placeID 1182)" }
+    - { id: recCdyPm5ehwB2lsH, key: "Ptolemais (placeID 959)" }
+    - { id: recHrXj4CZl6AH9TQ, key: "Antipatris (placeID 70)" }
+    - { id: recDDkVF36ecPUge4, key: "Rome (placeID 1013)" }
+    - { id: recIbOYJZX6WTiTYy, key: "Samothrace (placeID 1025)" }
+    - { id: rechxoZ6BVvibQbVa, key: "Three Taverns (placeID 1159)" }
+    - { id: recKAFuMIt8BAi2OH, key: "Antioch (Syria) (placeID 68)" }
+    - { id: recevhMicAECGWRVk, key: "Antioch (Pisidia) (placeID 69)" }
+  field: "Place ID, Source Link, Notes, rome, Place Name"
+  current: >-
+    In geo/pauls_journeys_all.geojson, several stop properties look like a
+    spreadsheet column shift around Patara (placeID 924) and Acts 21:1 / Acts 27:8.
+    Seleucia Place ID = "Acts.20.13"; Salamis Place ID = "Acts.21.1" and Source Link
+    = http://dare.ht.lu.se/places/22716 (Paphos, not Salamis DARE 21562); Cenchreae
+    Place ID = "Acts.21.1"; Troas, Ptolemais, and Antipatris have an empty Place ID,
+    and Antipatris Notes = "924"; Rome Source Link = "924"; Samothrace Source Link
+    = "Acts.27.8"; Three Taverns rome = "924"; both Antioch stops use Place Name
+    = "Antioch" with no Syria/Pisidia qualifier. Stop coordinates themselves are
+    generally already correct.
+  proposed: >-
+    Place ID: Seleucia 1045, Salamis 1016, Cenchreae 281, Troas 1182,
+    Ptolemais 959, Antipatris 70. Salamis Source Link → DARE 21562
+    (http://dare.ht.lu.se/places/21562 or the matching imperium.ahlfeldt.se URL).
+    Rome Source Link → http://imperium.ahlfeldt.se/places/1438. Samothrace Source
+    Link → http://imperium.ahlfeldt.se/places/22854. Clear Antipatris Notes "924".
+    Three Taverns rome → "Acts.28.15" (the same verse already used for Appii forum).
+    Rename the two Antioch stops to "Antioch (Syria)" and "Antioch (Pisidia)".
+    Valid Place ID values in this file are Theographic placeID numbers, not verse
+    references; the geospatial docs should say the same.
+  evidence: >-
+    Comparison of geo/pauls_journeys_all.geojson on origin/master (8100f47) with
+    json/places.json (placeID, displayTitle, recogitoUri). Acts 28:15 names both
+    Appii Forum and Three Taverns; 924 is Patara's placeID; DARE 22716 is Paphos.
+    Full current-vs-suggested table and offsets:
+    https://cursor.com/canvas/store-2fb0d1e8-465d-4431-a3ae-c779bfd31a98/161899ea-c082-4e9c-bb9b-496a3110126f
+  checks: []
+  rule: null
+  found: { date: 2026-11-12, by: "Paul's journeys vs Itiner-e comparison", sha: 8100f47 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [geo, viz.bible/journeys]
+  notes: >-
+    Effort: low. Property fixes only; do not change stop coordinates in this item.
+    Nothing in Airtable or the GeoJSON has been edited yet. The published journeys
+    map uses Source Link in stop popups, so Rome and Samothrace currently have
+    broken "More" links. Cross-ref DQ-0064 for Iconium and Paphos coordinate
+    disagreements in places.json (the journey file is already right for those two).
+- id: DQ-0064
+  title: Iconium and Paphos coordinates in places.json disagree with Pleiades
+  status: open
+  type: wrong-value
+  severity: medium
+  table: places
+  records:
+    - { id: recy6BBIMIGwmihwL, key: "Iconium (placeID 590, iconium_590)" }
+    - { id: recwmQgLTTKcYdJjk, key: "Paphos (placeID 919, paphos_919)" }
+  field: latitude, longitude
+  current: >-
+    places.json / Airtable: Iconium 38.1910079, 32.3745104 (the Recogito point,
+    36.9 km north of the city). Paphos 34.707147, 32.573711 (Palaepaphos / Kouklia).
+    geo/pauls_journeys_all.geojson and geo/bible-places.geojson already use the
+    Pleiades / OpenBible sites: Iconium 37.872202, 32.492331; Paphos (Nea Paphos)
+    34.76025, 32.40795 in the journey file and 34.755667, 32.404167 in bible-places
+    (0.62 km apart, both at the Roman capital).
+  proposed: >-
+    Sync Airtable / places.json to the Pleiades points already used in
+    bible-places.geojson: Iconium 37.872202, 32.492331 (Pleiades 648647);
+    Paphos 34.755667, 32.404167 (Pleiades 707586, Nea Paphos). Do not move the
+    journey-file stops (they already match). Palaepaphos is a different site
+    about 16 km from Nea Paphos. Geo must stay in sync between Airtable and the
+    GeoJSON.
+  evidence: >-
+    Pleiades is authoritative when a place confidently matches (standing geo rule).
+    Iconium: https://pleiades.stoa.org/places/648647 ; bible-places and the journey
+    stop agree exactly, and OpenBible on the same places.json record is already
+    37.88353, 32.49426. Paphos: https://pleiades.stoa.org/places/707586 (Nea Paphos);
+    OpenBible on the same record is 34.75411, 32.40016. Recogito was preferred for
+    the Airtable latitude/longitude and landed on the wrong site. This is a
+    specific, actionable subset of DQ-0031. Comparison write-up:
+    https://cursor.com/canvas/store-2fb0d1e8-465d-4431-a3ae-c779bfd31a98/161899ea-c082-4e9c-bb9b-496a3110126f
+  checks: []
+  rule: null
+  found: { date: 2026-11-12, by: "Paul's journeys vs Itiner-e comparison", sha: 8100f47 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [geo, viz.bible/journeys]
+  notes: >-
+    Effort: low. Known target coordinates; fix in Airtable and confirm bible-places
+    plus places.json stay in sync after the next geo build / export. Cross-ref
+    DQ-0031 (678 places differ between Airtable and GeoJSON, needs-research). Do
+    not change the journey-file coordinates for these two stops.
+- id: DQ-0065
+  title: First-journey Perga–Syrian Antioch land line should be a sea leg from Attalia
+  status: open
+  type: wrong-value
+  severity: high
+  table: places
+  records: []
+  field: geometry
+  current: >-
+    geo/pauls_journeys_all.geojson feat 103 (route_id 1) is a 586 km, 34-vertex
+    land line Perga → Antioch (Syria). Only 7.8% of densified vertices fall within
+    1 km of an Itiner-e road and 33.6% within 5 km; median offset 7.67 km, max 42 km,
+    with one 126 km hop along the Cilician coast (nearest Itiner-e road
+    Seleukeia Tracheia–Kelenderis). There is no sea segment from Attalia (or
+    Perga) back to Syrian Antioch / Seleucia. Feat 54 already traces Perga →
+    Attalia (17.9 km, median offset 0.80 km on Itiner-e Perge–Attaleia).
+  proposed: >-
+    Drop or replace feat 103 with a sea segment Attalia → Antioch (Syria) or
+    Attalia → Seleucia, per Acts 14:25-26. Keep feat 54. Design the new sea
+    geometry before any Airtable or GeoJSON edit.
+  evidence: >-
+    Acts 14:25-26 ("when they had preached the word in Perga, they went down into
+    Attalia: And thence sailed to Antioch"). Itiner-e static version 2024 (Zenodo
+    1.3): de Soto, Pažout, Brughmans et al. (2025), Scientific Data,
+    https://doi.org/10.1038/s41597-025-06140-z ; dataset
+    https://doi.org/10.5281/zenodo.17122148 (CC BY 4.0). Offsets from a 1 km
+    densified comparison on 2026-11-12. Full write-up:
+    https://cursor.com/canvas/store-2fb0d1e8-465d-4431-a3ae-c779bfd31a98/161899ea-c082-4e9c-bb9b-496a3110126f
+  checks: []
+  rule: null
+  found: { date: 2026-11-12, by: "Paul's journeys vs Itiner-e comparison", sha: 8100f47 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [geo, viz.bible/journeys]
+  notes: >-
+    Effort: medium (editorial call plus new sea geometry). This path is on the
+    published map at https://viz.bible/journeys/ so severity is high. Do not
+    bulk-edit the GeoJSON until the replacement is reviewed. Related First-journey
+    note, not part of this fix unless the review says so: feat 88 (Antioch of
+    Pisidia → Perga return) is looser than the outbound Wilson 2009 route (feat 85,
+    Via Sebaste, median 0.66 km, 100% within 5 km); if the return was meant to
+    retrace the outbound road, reuse feat 85 in reverse after review.
+- id: DQ-0066
+  title: Missing named stop at the Phrygian junction on Paul's second journey
+  status: open
+  type: missing-record
+  severity: medium
+  table: places
+  records:
+    - { id: recevhMicAECGWRVk, key: "Antioch (Pisidia) (placeID 69)" }
+    - { id: recOEIhMwampGbSqk, key: "Troas (placeID 1182)" }
+  field: geometry
+  current: >-
+    Feats 75 and 111 (route_id 2) already follow Itiner-e closely through Phrygia
+    (feat 75: 383 km, 168 vertices, 55.6% within 1 km / 91.5% within 5 km, median
+    offset 0.87 km, nearest road Prymnessus–Kotiaion; feat 111: 515 km, 251 vertices,
+    49.3% within 1 km / 91.3% within 5 km, median 1.04 km, nearest road
+    Aizanoi–Synaos). Feat 75 is labeled Antioch (Pisidia) → Antioch (Pisidia)
+    because its end (30.547E, 39.884N) is 184 km from the nearest named stop.
+    Feat 111 is labeled Antioch (Pisidia) → Troas, but its start (30.543E, 39.878N)
+    is 183.5 km from that Antioch. The two halves already meet 0.70 km apart. No
+    named stop exists at the junction.
+  proposed: >-
+    Keep the existing geometry. Add a named junction stop in the Kotiaion /
+    Dorylaeum area (or another stop published in Thompson & Wilson 2016), or merge
+    feats 75 and 111 into one Antioch (Pisidia) → Troas segment. Do not treat this
+    as off-road and do not snap it blindly.
+  evidence: >-
+    Thompson, G. & Wilson, M. (2016), "The Route of Paul's Second Journey in Asia
+    Minor," Tyndale Bulletin 67.2. Itiner-e static 2024 (de Soto, Pažout, Brughmans
+    et al. 2025, https://doi.org/10.1038/s41597-025-06140-z ;
+    https://doi.org/10.5281/zenodo.17122148, CC BY 4.0). Endpoint gap 0.70 km
+    measured 2026-11-12. Write-up:
+    https://cursor.com/canvas/store-2fb0d1e8-465d-4431-a3ae-c779bfd31a98/161899ea-c082-4e9c-bb9b-496a3110126f
+  checks: []
+  rule: null
+  found: { date: 2026-11-12, by: "Paul's journeys vs Itiner-e comparison", sha: 8100f47 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [geo, viz.bible/journeys]
+  notes: >-
+    Effort: medium (pick a published stop name, or merge the lines). Geometry is
+    already good; this is a labeling / missing-stop problem.
+- id: DQ-0067
+  title: Straight-lined Tyre–Ptolemais–Caesarea and Athens–Corinth legs off Itiner-e roads
+  status: open
+  type: wrong-value
+  severity: medium
+  table: places
+  records:
+    - { id: reco9Wc4YyNXZq43z, key: "Tyre (placeID 1184, tyre_1184)" }
+    - { id: recCdyPm5ehwB2lsH, key: "Ptolemais (placeID 959)" }
+    - { id: recKrSp5YmwkgRKv0, key: "Caesarea (placeID 266)" }
+    - { id: rec6n0u78dB1QOA1Z, key: "Athens (placeID 118)" }
+    - { id: recQThsW3uau1oxf9, key: "Corinth (placeID 306)" }
+  field: geometry
+  current: >-
+    Third-journey feat 96 Tyre → Ptolemais: 51.4 km, 4 vertices, 9.3% within 1 km
+    / 29.6% within 5 km of Itiner-e, median offset 6.77 km, max 11.22 km, max step
+    25 km (nearest road Ptolemais–Tyre, Main Road, Certain; Tabula Peutingeriana
+    and Itinerarium Antonini). Feat 42 Ptolemais → Caesarea: 59.9 km, 4 vertices,
+    4.8% within 1 km / 22.6% within 5 km, median 6.95 km, max 8.43 km, max step
+    30 km (Caesarea Maritima–Ptolemais, Secondary, Conjectured, with Certain
+    stretches). Second-journey feat 26 Athens → Corinth: 80.8 km, 5 vertices,
+    24.1% within 1 km / 42.2% within 5 km, median 6.69 km, max 17.51 km, max step
+    40 km (nearest Certain main road Schoinos–Megara).
+  proposed: >-
+    After a visual review, re-snap these land legs to the Itiner-e geometry named
+    above. Do not bulk-snap other legs (the Via Sebaste outbound, Via Appia, and
+    Via Egnatia already sit close to the roads). If Itiner-e geometry is used,
+    attribute Itiner-e (CC BY 4.0) and keep the adapted file under the repo's
+    CC BY-SA 4.0 licence. Add mode / Itiner-e segment and certainty attributes
+    when a line is re-derived.
+  evidence: >-
+    Itiner-e static version 2024, Zenodo 1.3: de Soto, P., Pažout, A., Brughmans,
+    T. et al. (2025), "Itiner-e: a high-resolution dataset of roads of the Roman
+    Empire," Scientific Data, https://doi.org/10.1038/s41597-025-06140-z ;
+    dataset https://doi.org/10.5281/zenodo.17122148, CC BY 4.0; platform
+    https://itiner-e.org . Offsets from a 1 km densified comparison of
+    geo/pauls_journeys_all.geojson (origin/master 8100f47) on 2026-11-12.
+    Write-up:
+    https://cursor.com/canvas/store-2fb0d1e8-465d-4431-a3ae-c779bfd31a98/161899ea-c082-4e9c-bb9b-496a3110126f
+  checks: []
+  rule: null
+  found: { date: 2026-11-12, by: "Paul's journeys vs Itiner-e comparison", sha: 8100f47 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [geo, viz.bible/journeys]
+  notes: >-
+    Effort: medium (visual review, selective snap, and licence attribution).
+    Design before bulk-fixing; do not overwrite Wilson 2009 or Thompson & Wilson
+    2016 choices (see DQ-0065 note on feat 85 / feat 88, and DQ-0066 for the
+    already on-road Phrygia corridor). Related findings from the same comparison,
+    to review in the same pass but not the primary snap list: (1) missing
+    Corinth → Cenchreae land connector on the Second journey (~10.52 km gap
+    before the Cenchreae → Ephesus sea leg, Acts 18:18); (2) Third-journey
+    feat 9 ends 9.865 km SSW of the Athens stop and feat 89 starts at that same
+    missed coordinate; (3) Rome-journey feat 70 Syracuse → Rhegium is a 2-vertex
+    121 km straight line and should be treated as a sea leg (Acts 28:12-13), not
+    snapped to Italian coastal roads. Itiner-e maps the network around 150 CE;
+    avoid roads with a construction date after about 60 CE when snapping.
