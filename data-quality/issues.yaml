@@ -2075,7 +2075,7 @@
 
 - id: DQ-0066
   title: Missing named stop at the Phrygian junction on Paul's second journey
-  status: open
+  status: fixed
   type: missing-record
   severity: medium
   table: places
@@ -2108,12 +2108,16 @@
   checks: []
   rule: null
   found: { date: 2026-11-12, by: "Paul's journeys vs Itiner-e comparison", sha: 8100f47 }
-  fixed: { date: null, sha: null }
+  fixed: { date: 2026-11-14, sha: 4b4dfce }
   github: null
   affects: [geo, viz.bible/journeys]
   notes: >-
     Effort: medium (pick a published stop name, or merge the lines). Geometry is
     already good; this is a labeling / missing-stop problem.
+    Fixed 2026-11-14 in PR #82 (merge 4b4dfce): feat 111's 251 vertices appended to feat 75,
+    feat 111 removed, giving one 419-vertex Antioch (Pisidia) -> Troas LineString (route_id 2).
+    The 0.70 km gap is joined directly; no vertices moved and no named stop added (Acts 16:6-8
+    names only regions). Feature counts updated from 112 to 111.
 - id: DQ-0067
   title: Straight-lined Tyre–Ptolemais–Caesarea and Athens–Corinth legs off Itiner-e roads
   status: open
