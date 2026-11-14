@@ -15,6 +15,7 @@ Fixed in Airtable on November 14. These changes reach `json/` and `CSV/` in the 
   - The three deportations, *Fall of Jerusalem* (586 BC), *Fall of Babylon* (539 BC), *Cyrus decrees the rebuilding of the Temple* and *Exiles return with Zerubbabel* (536 BC), and *Second Temple dedicated* (516 BC).
   - Esther (*Esther is made queen*, *Haman plots to destroy the Jews*, *Haman is hanged*, *The Jews defeat their enemies*), Ezra (*Ezra leads exiles to Jerusalem*, *Exiles put away their foreign wives*) and Nehemiah (from *Nehemiah mourns for Jerusalem* to *Nehemiah goes back to Artaxerxes*).
 - **People:** *Azariah* (`azariah_545`), Daniel's companion, now lists his Babylonian name Abed-nego as an alias, like *Shadrach* (Hananiah) and *Meshach* (Mishael). His disambiguation note, which wrongly said Meshach, now reads "Azariah (Abed-nego)" (DQ-0069).
+- **Places:** Coordinates now come from the place's canonical record first, then Pleiades (where it confidently matches), then OpenBible. The Recogito points are no longer used. *Iconium* now sits at the city (Pleiades 648647) instead of 37 km north of it, and *Paphos* at Nea Paphos (Pleiades 707586) instead of Palaepaphos. Nine more places were reviewed one by one, and 29 aliases now show their canonical place's point. New fields record each place's Pleiades and OpenBible links (DQ-0064).
 
 Fixed in Airtable on November 9, after that month's export. These changes reach `json/` and `CSV/` in the next export.
 
