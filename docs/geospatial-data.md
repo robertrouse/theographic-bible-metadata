@@ -37,7 +37,7 @@ How it is built, the decisions behind it, and how to rebuild it: the [`geo-pipel
 
 ### `geo/pauls_journeys_all.geojson`
 
-A FeatureCollection of Paul's missionary journeys with 112 features: 44 `Point` stops and 68 `LineString` route segments.
+A FeatureCollection of Paul's missionary journeys with 111 features: 44 `Point` stops and 67 `LineString` route segments.
 
 | Property | Description |
 |---|---|

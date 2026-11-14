@@ -1257,7 +1257,7 @@
     {
       "name": "pauls-journeys-geojson",
       "title": "Paul's missionary journeys",
-      "description": "Paul's missionary journeys as a GeoJSON FeatureCollection: 44 stops and 68 route segments, with verse references for each journey.",
+      "description": "Paul's missionary journeys as a GeoJSON FeatureCollection: 44 stops and 67 route segments, with verse references for each journey.",
       "path": "geo/pauls_journeys_all.geojson",
       "format": "geojson",
       "mediatype": "application/geo+json"

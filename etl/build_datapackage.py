@@ -260,7 +260,7 @@ def main():
          "description": "Every biblical place (1,030, with other names merged) as a Linked Places Format GeoJSON FeatureCollection, valid against the World Historical Gazetteer LPF schema v1.2.2, with names, dates, relations, and links to Pleiades, Wikidata, OpenBible.info, and Digital Manna.",
          "path": "geo/bible-places.geojson", "format": "geojson", "mediatype": "application/geo+json"},
         {"name": "pauls-journeys-geojson", "title": "Paul's missionary journeys",
-         "description": "Paul's missionary journeys as a GeoJSON FeatureCollection: 44 stops and 68 route segments, with verse references for each journey.",
+         "description": "Paul's missionary journeys as a GeoJSON FeatureCollection: 44 stops and 67 route segments, with verse references for each journey.",
          "path": "geo/pauls_journeys_all.geojson", "format": "geojson", "mediatype": "application/geo+json"},
     ]
 
