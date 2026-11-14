@@ -982,7 +982,7 @@
 
 - id: DQ-0039
   title: Exodus from Egypt counts Moses' 40 years in Midian twice
-  status: open
+  status: fixed
   type: wrong-value
   severity: medium
   table: events
@@ -996,15 +996,20 @@
     40 at the flight, Acts 7:23). Jones, Appendix F: flight 1531 BC (-1530), Exodus 1491 BC (-1490).
     The predecessor's 40Y duration already covers the Midian years, so FS + 40Y adds them again.
   checks:
-    - { record: recjkmUO88wihv8Ci, field: lagType, equals: "SS" }
-    - { record: recjkmUO88wihv8Ci, field: lag, equals: "40Y" }
+    - { record: recjkmUO88wihv8Ci, field: lagType, equals: "FS" }
+    - { record: recjkmUO88wihv8Ci, field: lag, equals: "0Y" }
   rule: lag-matches-start
   found: { date: 2026-11-09, by: "lag audit (predecessor start + lag vs startDate, live Airtable)", sha: 8e73bfc }
-  fixed: { date: null, sha: null }
+  fixed: { date: 2026-11-13, sha: null }
   github: null
   affects: []
   notes: >-
     Checks assume the SS option; adjust them if FS 0Y is chosen.
+    Fixed in Airtable 2026-11-13: event 125 Exodus from Egypt (recjkmUO88wihv8Ci) lag changed from
+    "40Y" FS to "0Y" FS; startDate -1490 unchanged; predecessor remains Moses Flees Pharaoh
+    (recwofVaBASTvL8lL, -1530, duration 40Y). -1530 + 40Y duration + 0Y = -1490, which removes the
+    double count of the 40 years in Midian. Jones, Appendix F: flight 1531 BC, Exodus 1491 BC.
+    Only the lag field changed. fixed.sha to be filled from the next export.
 
 - id: DQ-0040
   title: Reign of Amaziah synchronism points to Joash of Judah, not Jehoash of Israel
