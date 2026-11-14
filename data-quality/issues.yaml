@@ -1990,7 +1990,7 @@
     disagreements in places.json (the journey file is already right for those two).
 - id: DQ-0064
   title: Iconium and Paphos coordinates in places.json disagree with Pleiades
-  status: open
+  status: fixed
   type: wrong-value
   severity: medium
   table: places
@@ -2024,7 +2024,7 @@
   checks: []
   rule: null
   found: { date: 2026-11-12, by: "Paul's journeys vs Itiner-e comparison", sha: 8100f47 }
-  fixed: { date: null, sha: null }
+  fixed: { date: 2026-11-14, sha: null }
   github: null
   affects: [geo, viz.bible/journeys]
   notes: >-
@@ -2032,6 +2032,17 @@
     plus places.json stay in sync after the next geo build / export. Cross-ref
     DQ-0031 (678 places differ between Airtable and GeoJSON, needs-research). Do
     not change the journey-file coordinates for these two stops.
+
+    Fixed in Airtable 2026-11-14. The places latitude/longitude formulas now take
+    the canonical place's coordinates first, then Pleiades (confident match only),
+    then OpenBible; Recogito is never used. New fields: pleiadesUri (360 places),
+    pleiadesLat/pleiadesLon (217), openBibleUri (1,253). Iconium and Paphos now use
+    their Pleiades points (648647, 707586 Nea Paphos) and match the GeoJSON. The 9
+    reviewed places were decided one by one, and 29 aliases moved to their canonical
+    place's point. Journey-file stops unchanged. Retiring the Recogito fields and the
+    code that reads them (neo4j places.cypher, graphql.js, ETL) is tracked on the
+    Master Task List. Remaining Airtable/GeoJSON differences: DQ-0072. fixed.sha to
+    be filled from the next export.
 - id: DQ-0065
   title: First-journey Perga–Syrian Antioch land line should be a sea leg from Attalia
   status: wontfix
@@ -2301,3 +2312,56 @@
   notes: >-
     Geo rule: Airtable and the GeoJSON must stay in sync; aliases show their canonical
     place's coordinates.
+
+- id: DQ-0072
+  title: "Sync geo/bible-places.geojson with the new Airtable coordinates"
+  status: open
+  type: wrong-value
+  severity: medium
+  table: places
+  records:
+    - { id: recItoooL8TKSOT5p, key: "south_1110 (alias of negeb_885)" }
+    - { id: recsX4et9ux7g07Zg, key: "negeb_885 (Negeb)" }
+    - { id: recNGsIGVIK9Quqo4, key: "abel-mizraim_9 (alias of atad_112)" }
+    - { id: recbH04cWWTUPT5HI, key: "atad_112 (Atad)" }
+    - { id: recmpaqzhaWI0JOso, key: "ether_418 (Ether)" }
+    - { id: recAHELZ2LlYlYqDx, key: "kartan_672 (Kartan)" }
+    - { id: recbUWNXPw0egUflC, key: "kiriathaim_696 (alias of kartan_672)" }
+  field: latitude, longitude (Airtable) / geometry, links (geo/bible-places.geojson)
+  current: >-
+    After the DQ-0064 coordinate switch (canonical, then Pleiades, then OpenBible),
+    766 of 1,296 Airtable places differ from their bible-places.geojson feature (764
+    by over 1 km, 316 by over 25 km); 16 more have no Airtable coordinates at all.
+    Eight alias points are newly off or further off because they now show their
+    canonical place: aram-naharaim_84 (mesopotamia_790) 331 → 688 km,
+    sea_of_the_philistines_1036 (philistia_943) 202 → 225 km, en-rimmon_394
+    (rimmon_1004) 168 → 194 km, bealoth_161 (baalath-beer_138) 24 → 141 km,
+    south_1110 (negeb_885) new at 122 km, aram-zobah_85 (zobah_1272) 49 → 83 km,
+    hukok_587 (hukkok_586) 11 → 22 km, beth-horon_734 (upper_beth-horon_1188)
+    1.2 → 3.3 km. South vs Negeb: Airtable 30.3, 34.2 (Negeb's OpenBible point) vs
+    the GeoJSON negeb feature 31.244722, 34.840833, 122 km apart. Abel-mizraim and
+    Atad have no Airtable coordinates while the GeoJSON atad feature is at 31.914888,
+    35.530445. The rest (about 758, 631 of them OpenBible-sourced) are older
+    OpenBible-vs-GeoJSON gaps that predate the switch. Three slugs link two OpenBible
+    places in their GeoJSON feature: ether_418 (a82f7b4, a16596e), kartan_672 and
+    kiriathaim_696 (a4959d5, a8f428d).
+  proposed: >-
+    Decide per place which side is right, then sync so Airtable and the GeoJSON agree
+    (aliases show their canonical point). Start with the eight newly-off aliases,
+    South/Negeb and Abel-mizraim/Atad, then differences over 25 km. Give ether_418,
+    kartan_672 and kiriathaim_696 a single OpenBible link that matches openBibleUri.
+  evidence: >-
+    /workspace/dq64/post-canonical-geojson-diffs.csv (Nov 14 2026, live Airtable after
+    the canonical switch vs geo/bible-places.geojson; columns km and kmPostSwitch give
+    the distance after and before the alias move). Geo rule: Airtable and the GeoJSON
+    must stay in sync; aliases show their canonical place's coordinates.
+  checks: []
+  rule: null
+  found: { date: 2026-11-14, by: "DQ-0064 post-switch GeoJSON comparison", sha: 014222a }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [geo]
+  notes: >-
+    Effort: large. Cross-ref DQ-0031 (the earlier, pre-switch count of 678 differing
+    places, needs-research) and DQ-0064. GeoJSON changes are made directly in this
+    repository.
