@@ -64,7 +64,7 @@
             ],
             "chapterCount": 50,
             "verseCount": 1533,
-            "writers": [
+            "writersOld (delete)": [
                 "moses_2108"
             ],
             "peopleCount": 1082,
@@ -1603,6 +1603,12 @@
                 "rece0JkE5NxZHiVdW",
                 "recUvBlpLFXt8XSg1",
                 "rectwCKpBHgzmKrw3"
+            ],
+            "writersDraft (delete)": [
+                "moses_2108"
+            ],
+            "writers": [
+                "moses_2108"
             ]
         }
     },
@@ -1661,7 +1667,7 @@
             ],
             "chapterCount": 40,
             "verseCount": 1213,
-            "writers": [
+            "writersOld (delete)": [
                 "moses_2108"
             ],
             "peopleCount": 619,
@@ -2880,6 +2886,12 @@
                 "recKgfR13wsfr7Q7G",
                 "rec5Lp4D1UEX5nMoI",
                 "rectk60avlRxvIjoc"
+            ],
+            "writersDraft (delete)": [
+                "moses_2108"
+            ],
+            "writers": [
+                "moses_2108"
             ]
         }
     },
@@ -2925,7 +2937,7 @@
             ],
             "chapterCount": 27,
             "verseCount": 859,
-            "writers": [
+            "writersOld (delete)": [
                 "moses_2108"
             ],
             "peopleCount": 366,
@@ -3790,6 +3802,12 @@
                 "recYQd9HlWd0bc5P2",
                 "recfGuOWHppyLNUaZ",
                 "recEBPK47rJDTfNBY"
+            ],
+            "writersDraft (delete)": [
+                "moses_2108"
+            ],
+            "writers": [
+                "moses_2108"
             ]
         }
     },
@@ -3844,7 +3862,7 @@
             ],
             "chapterCount": 36,
             "verseCount": 1288,
-            "writers": [
+            "writersOld (delete)": [
                 "moses_2108"
             ],
             "peopleCount": 832,
@@ -5138,6 +5156,12 @@
                 "recStqFjZJy7Fu2M4",
                 "recUahyxvEP7GsT1Q",
                 "recXn9KdgxmBs9Dda"
+            ],
+            "writersDraft (delete)": [
+                "moses_2108"
+            ],
+            "writers": [
+                "moses_2108"
             ]
         }
     },
@@ -5190,7 +5214,7 @@
             ],
             "chapterCount": 34,
             "verseCount": 959,
-            "writers": [
+            "writersOld (delete)": [
                 "moses_2108"
             ],
             "peopleCount": 528,
@@ -6155,6 +6179,12 @@
                 "recDdh0dud7BQN6OL",
                 "rec7pMsDZjFKBsDqF",
                 "recNeIXatlEeBeAhy"
+            ],
+            "writersDraft (delete)": [
+                "moses_2108"
+            ],
+            "writers": [
+                "moses_2108"
             ]
         }
     },
@@ -6197,7 +6227,7 @@
             ],
             "chapterCount": 24,
             "verseCount": 658,
-            "writers": [
+            "writersOld (delete)": [
                 "joshua_1727"
             ],
             "peopleCount": 413,
@@ -6861,6 +6891,12 @@
                 "recRceZUFRamYqNAC",
                 "recLvrzYH4qEM6p3e",
                 "recVY0D3fJy7UmnLN"
+            ],
+            "writersDraft (delete)": [
+                "joshua_1727"
+            ],
+            "writers": [
+                "joshua_1727"
             ]
         }
     },
@@ -6900,7 +6936,7 @@
             ],
             "chapterCount": 21,
             "verseCount": 618,
-            "writers": [
+            "writersOld (delete)": [
                 "samuel_2469"
             ],
             "peopleCount": 454,
@@ -7524,6 +7560,12 @@
                 "recnlerz4SYI1ObqU",
                 "reca9Ud7WO6hNIaNz",
                 "recxHWBFsgIYwS2Ou"
+            ],
+            "writersDraft (delete)": [
+                "samuel_2469"
+            ],
+            "writers": [
+                "samuel_2469"
             ]
         }
     },
@@ -7546,7 +7588,7 @@
             ],
             "chapterCount": 4,
             "verseCount": 85,
-            "writers": [
+            "writersOld (delete)": [
                 "samuel_2469"
             ],
             "peopleCount": 57,
@@ -7637,6 +7679,12 @@
                 "recqNYGUQS47Bvy3q",
                 "recj75aOBq2Cedr8f",
                 "recRa6etEOt4KHCdg"
+            ],
+            "writersDraft (delete)": [
+                "samuel_2469"
+            ],
+            "writers": [
+                "samuel_2469"
             ]
         }
     },
@@ -7686,7 +7734,7 @@
             ],
             "chapterCount": 31,
             "verseCount": 810,
-            "writers": [
+            "writersOld (delete)": [
                 "samuel_2469",
                 "samuel_2469, gad_1263, nathan_2153"
             ],
@@ -8503,6 +8551,16 @@
                 "recbFtwQtE9Hs8JmV",
                 "recTzfNTICN4W1kbX",
                 "recfKCUEtee46iQ5o"
+            ],
+            "writersDraft (delete)": [
+                "samuel_2469",
+                "gad_1263",
+                "nathan_2153"
+            ],
+            "writers": [
+                "samuel_2469",
+                "gad_1263",
+                "nathan_2153"
             ]
         }
     },
@@ -8545,7 +8603,7 @@
             ],
             "chapterCount": 24,
             "verseCount": 695,
-            "writers": [
+            "writersOld (delete)": [
                 "samuel_2469, gad_1263, nathan_2153"
             ],
             "peopleCount": 556,
@@ -9246,6 +9304,16 @@
                 "rec4T1ciLNFjZFE2z",
                 "recgRpeiAJflkTz3N",
                 "recsyiA52Iqj6ROHP"
+            ],
+            "writersDraft (delete)": [
+                "samuel_2469",
+                "gad_1263",
+                "nathan_2153"
+            ],
+            "writers": [
+                "samuel_2469",
+                "gad_1263",
+                "nathan_2153"
             ]
         }
     },
@@ -9286,7 +9354,7 @@
             ],
             "chapterCount": 22,
             "verseCount": 816,
-            "writers": [
+            "writersOld (delete)": [
                 "jeremiah_853"
             ],
             "peopleCount": 586,
@@ -10108,6 +10176,12 @@
                 "recZ64dsjerVzjM2u",
                 "rec01baP2CB6cg7b3",
                 "rec4Y0SV8P7LXNgMp"
+            ],
+            "writersDraft (delete)": [
+                "jeremiah_853"
+            ],
+            "writers": [
+                "jeremiah_853"
             ]
         }
     },
@@ -10151,7 +10225,7 @@
             ],
             "chapterCount": 25,
             "verseCount": 719,
-            "writers": [
+            "writersOld (delete)": [
                 "jeremiah_853"
             ],
             "peopleCount": 554,
@@ -10876,6 +10950,12 @@
                 "recF2CM4zB7zeBwuQ",
                 "receE5Ldg3Z49IqM0",
                 "reckufpRFuEf8vaUj"
+            ],
+            "writersDraft (delete)": [
+                "jeremiah_853"
+            ],
+            "writers": [
+                "jeremiah_853"
             ]
         }
     },
@@ -10923,7 +11003,7 @@
             ],
             "chapterCount": 29,
             "verseCount": 942,
-            "writers": [
+            "writersOld (delete)": [
                 "ezra_1245"
             ],
             "peopleCount": 836,
@@ -11871,6 +11951,12 @@
                 "recdH1dpqFZvMNqTF",
                 "reckys28gsM87JMhD",
                 "recFaLskvDVuLJY55"
+            ],
+            "writersDraft (delete)": [
+                "ezra_1245"
+            ],
+            "writers": [
+                "ezra_1245"
             ]
         }
     },
@@ -11925,7 +12011,7 @@
             ],
             "chapterCount": 36,
             "verseCount": 822,
-            "writers": [
+            "writersOld (delete)": [
                 "ezra_1245"
             ],
             "peopleCount": 611,
@@ -12753,6 +12839,12 @@
                 "recHfJsOhpZ7mtNrG",
                 "rec0nbeoubGvyP9gr",
                 "rec8SV59rgLeSd2BK"
+            ],
+            "writersDraft (delete)": [
+                "ezra_1245"
+            ],
+            "writers": [
+                "ezra_1245"
             ]
         }
     },
@@ -12781,7 +12873,7 @@
             ],
             "chapterCount": 10,
             "verseCount": 280,
-            "writers": [
+            "writersOld (delete)": [
                 "ezra_1245"
             ],
             "peopleCount": 209,
@@ -13067,6 +13159,12 @@
                 "recd8mBQcdgaVOZFv",
                 "recS92MkxkowtmaI5",
                 "reci7NV2UMcJHoFOB"
+            ],
+            "writersDraft (delete)": [
+                "ezra_1245"
+            ],
+            "writers": [
+                "ezra_1245"
             ]
         }
     },
@@ -13098,7 +13196,7 @@
             ],
             "chapterCount": 13,
             "verseCount": 406,
-            "writers": [
+            "writersOld (delete)": [
                 "nehemiah_2172"
             ],
             "peopleCount": 259,
@@ -13510,6 +13608,12 @@
                 "recompD0cL6kVfpFE",
                 "recFgRYZrF9CRjEZp",
                 "recy1KEkX9jwN3nRz"
+            ],
+            "writersDraft (delete)": [
+                "nehemiah_2172"
+            ],
+            "writers": [
+                "nehemiah_2172"
             ]
         }
     },
@@ -13538,7 +13642,7 @@
             ],
             "chapterCount": 10,
             "verseCount": 167,
-            "writers": [
+            "writersOld (delete)": [
                 "mordecai_2107"
             ],
             "peopleCount": 119,
@@ -13711,6 +13815,12 @@
                 "reciG2OpGjxaTGxFt",
                 "recgqF5GZqlca8xZh",
                 "recr9N6uHVaf9jt8b"
+            ],
+            "writersDraft (delete)": [
+                "mordecai_2107"
+            ],
+            "writers": [
+                "mordecai_2107"
             ]
         }
     },
@@ -13771,7 +13881,7 @@
             ],
             "chapterCount": 42,
             "verseCount": 1070,
-            "writers": [
+            "writersOld (delete)": [
                 "moses_2108"
             ],
             "peopleCount": 190,
@@ -14847,6 +14957,12 @@
                 "recmwHItlluFh2EdZ",
                 "recQ7VhDqBvPvAIV7",
                 "recephb4n1JqOXJoa"
+            ],
+            "writersDraft (delete)": [
+                "moses_2108"
+            ],
+            "writers": [
+                "moses_2108"
             ]
         }
     },
@@ -15015,7 +15131,7 @@
             ],
             "chapterCount": 150,
             "verseCount": 2461,
-            "writers": [
+            "writersOld (delete)": [
                 "david_994",
                 "asaph_330",
                 "solomon_2762",
@@ -17487,6 +17603,23 @@
                 "recSdeKys8UcEU0d6",
                 "recqM5W3XGVFnrnYa",
                 "recBkH1QvLMTt14i2"
+            ],
+            "writersDraft (delete)": [
+                null,
+                "david_994",
+                "asaph_330",
+                "solomon_2762",
+                "heman_1488",
+                "ethan_1222",
+                "moses_2108"
+            ],
+            "writers": [
+                "david_994",
+                "asaph_330",
+                "solomon_2762",
+                "heman_1488",
+                "ethan_1222",
+                "moses_2108"
             ]
         }
     },
@@ -17536,7 +17669,7 @@
             ],
             "chapterCount": 31,
             "verseCount": 915,
-            "writers": [
+            "writersOld (delete)": [
                 "solomon_2762",
                 "agur_112",
                 "lemuel_1817"
@@ -18459,6 +18592,16 @@
                 "recDoU1TRqkex6ugh",
                 "recInJmz2LkOwjPpt",
                 "recqlYZZQ3EgJoBFn"
+            ],
+            "writersDraft (delete)": [
+                "solomon_2762",
+                "agur_112",
+                "lemuel_1817"
+            ],
+            "writers": [
+                "solomon_2762",
+                "agur_112",
+                "lemuel_1817"
             ]
         }
     },
@@ -18489,7 +18632,7 @@
             ],
             "chapterCount": 12,
             "verseCount": 222,
-            "writers": [
+            "writersOld (delete)": [
                 "solomon_2762"
             ],
             "peopleCount": 37,
@@ -18717,6 +18860,12 @@
                 "recAYwdjWk2zbcp4I",
                 "recjvZS7cBinDxq5p",
                 "recuRIJ1JIo5pqPdY"
+            ],
+            "writersDraft (delete)": [
+                "solomon_2762"
+            ],
+            "writers": [
+                "solomon_2762"
             ]
         }
     },
@@ -18743,7 +18892,7 @@
             ],
             "chapterCount": 8,
             "verseCount": 117,
-            "writers": [
+            "writersOld (delete)": [
                 "solomon_2762"
             ],
             "peopleCount": 9,
@@ -18866,6 +19015,12 @@
                 "rec5aRHVyjTbl1rca",
                 "recf1OHNrwq72JEdL",
                 "rec0GBiYTG2JBoliu"
+            ],
+            "writersDraft (delete)": [
+                "solomon_2762"
+            ],
+            "writers": [
+                "solomon_2762"
             ]
         }
     },
@@ -18950,7 +19105,7 @@
             ],
             "chapterCount": 66,
             "verseCount": 1292,
-            "writers": [
+            "writersOld (delete)": [
                 "isaiah_617"
             ],
             "peopleCount": 556,
@@ -20248,6 +20403,12 @@
                 "recEdjurujL60hN8q",
                 "recjafAQf0oJVDgpF",
                 "recatQ8cAsCqOp4PC"
+            ],
+            "writersDraft (delete)": [
+                "isaiah_617"
+            ],
+            "writers": [
+                "isaiah_617"
             ]
         }
     },
@@ -20318,7 +20479,7 @@
             ],
             "chapterCount": 52,
             "verseCount": 1364,
-            "writers": [
+            "writersOld (delete)": [
                 "jeremiah_853"
             ],
             "peopleCount": 840,
@@ -21688,6 +21849,12 @@
                 "recYexZHtv2kuO9IE",
                 "recXxB2SOafZOGckJ",
                 "reclaIbdim0cbB7W5"
+            ],
+            "writersDraft (delete)": [
+                "jeremiah_853"
+            ],
+            "writers": [
+                "jeremiah_853"
             ]
         }
     },
@@ -21711,7 +21878,7 @@
             ],
             "chapterCount": 5,
             "verseCount": 154,
-            "writers": [
+            "writersOld (delete)": [
                 "jeremiah_853"
             ],
             "peopleCount": 47,
@@ -21871,6 +22038,12 @@
                 "reclbNbs8xSpiowAG",
                 "recvnwfauSz0DrzgJ",
                 "reclciwHitiod8TcW"
+            ],
+            "writersDraft (delete)": [
+                "jeremiah_853"
+            ],
+            "writers": [
+                "jeremiah_853"
             ]
         }
     },
@@ -21937,7 +22110,7 @@
             ],
             "chapterCount": 48,
             "verseCount": 1273,
-            "writers": [
+            "writersOld (delete)": [
                 "ezekiel_1237"
             ],
             "peopleCount": 482,
@@ -23216,6 +23389,12 @@
                 "recy9clBPo5EC3t67",
                 "reck42yXkll1BCLKA",
                 "recxZqYTilGGHFGG0"
+            ],
+            "writersDraft (delete)": [
+                "ezekiel_1237"
+            ],
+            "writers": [
+                "ezekiel_1237"
             ]
         }
     },
@@ -23246,7 +23425,7 @@
             ],
             "chapterCount": 12,
             "verseCount": 357,
-            "writers": [
+            "writersOld (delete)": [
                 "daniel_975"
             ],
             "peopleCount": 158,
@@ -23609,6 +23788,12 @@
                 "recKmk1lqylmtG3UJ",
                 "recduOjT5v3pvnUra",
                 "recMwSgXhoQxVjktg"
+            ],
+            "writersDraft (delete)": [
+                "daniel_975"
+            ],
+            "writers": [
+                "daniel_975"
             ]
         }
     },
@@ -23641,7 +23826,7 @@
             ],
             "chapterCount": 14,
             "verseCount": 197,
-            "writers": [
+            "writersOld (delete)": [
                 "hosea_1555"
             ],
             "peopleCount": 95,
@@ -23844,6 +24029,12 @@
                 "recDfI2rj6gsMfM2k",
                 "recMnHMSTHgadsCDF",
                 "recSIQHbITLFjGBIt"
+            ],
+            "writersDraft (delete)": [
+                "hosea_1555"
+            ],
+            "writers": [
+                "hosea_1555"
             ]
         }
     },
@@ -23865,7 +24056,7 @@
             ],
             "chapterCount": 3,
             "verseCount": 73,
-            "writers": [
+            "writersOld (delete)": [
                 "joel_1660"
             ],
             "peopleCount": 31,
@@ -23944,6 +24135,12 @@
                 "recdVY8HXWVaVD064",
                 "recEw8dKfH5dZQfbe",
                 "recHZLqNAsQoVB8NH"
+            ],
+            "writersDraft (delete)": [
+                "joel_1660"
+            ],
+            "writers": [
+                "joel_1660"
             ]
         }
     },
@@ -23971,7 +24168,7 @@
             ],
             "chapterCount": 9,
             "verseCount": 146,
-            "writers": [
+            "writersOld (delete)": [
                 "amos_238"
             ],
             "peopleCount": 89,
@@ -24123,6 +24320,12 @@
                 "recsIFQQFTETcHQ4G",
                 "recY6iv7cvQeebJ5o",
                 "reczhIhc9zzNDqSaP"
+            ],
+            "writersDraft (delete)": [
+                "amos_238"
+            ],
+            "writers": [
+                "amos_238"
             ]
         }
     },
@@ -24142,7 +24345,7 @@
             ],
             "chapterCount": 1,
             "verseCount": 21,
-            "writers": [
+            "writersOld (delete)": [
                 "obadiah_2226"
             ],
             "peopleCount": 12,
@@ -24169,6 +24372,12 @@
                 "reckQCJpp9z1VjC9b",
                 "recuITCPeRtbtjvMg",
                 "recLNa3L5G38a1SnW"
+            ],
+            "writersDraft (delete)": [
+                "obadiah_2226"
+            ],
+            "writers": [
+                "obadiah_2226"
             ]
         }
     },
@@ -24191,7 +24400,7 @@
             ],
             "chapterCount": 4,
             "verseCount": 48,
-            "writers": [
+            "writersOld (delete)": [
                 "jonah_1689"
             ],
             "peopleCount": 35,
@@ -24245,6 +24454,12 @@
                 "recv5SPHAdu4d3zEU",
                 "recryvWteZJkZdFpW",
                 "recp9iR58llu9tuiI"
+            ],
+            "writersDraft (delete)": [
+                "jonah_1689"
+            ],
+            "writers": [
+                "jonah_1689"
             ]
         }
     },
@@ -24270,7 +24485,7 @@
             ],
             "chapterCount": 7,
             "verseCount": 105,
-            "writers": [
+            "writersOld (delete)": [
                 "micah_2053"
             ],
             "peopleCount": 49,
@@ -24381,6 +24596,12 @@
                 "recEMj1Yj0gGpz9bN",
                 "recFoLovoTVu6B6QL",
                 "recSLsAAdClOiDnMC"
+            ],
+            "writersDraft (delete)": [
+                "micah_2053"
+            ],
+            "writers": [
+                "micah_2053"
             ]
         }
     },
@@ -24402,7 +24623,7 @@
             ],
             "chapterCount": 3,
             "verseCount": 47,
-            "writers": [
+            "writersOld (delete)": [
                 "nahum_2145"
             ],
             "peopleCount": 11,
@@ -24455,6 +24676,12 @@
                 "recDHD7yt2SEDaqHk",
                 "recZ5zqdIt0IyGcC3",
                 "reccvef2mpPDcTWc4"
+            ],
+            "writersDraft (delete)": [
+                "nahum_2145"
+            ],
+            "writers": [
+                "nahum_2145"
             ]
         }
     },
@@ -24476,7 +24703,7 @@
             ],
             "chapterCount": 3,
             "verseCount": 56,
-            "writers": [
+            "writersOld (delete)": [
                 "habakkuk_1334"
             ],
             "peopleCount": 15,
@@ -24538,6 +24765,12 @@
                 "recR3w3BXbVvviAMh",
                 "recifsWD7e0ua5M8k",
                 "recY9Zf6yMIamVsbg"
+            ],
+            "writersDraft (delete)": [
+                "habakkuk_1334"
+            ],
+            "writers": [
+                "habakkuk_1334"
             ]
         }
     },
@@ -24559,7 +24792,7 @@
             ],
             "chapterCount": 3,
             "verseCount": 53,
-            "writers": [
+            "writersOld (delete)": [
                 "zephaniah_3040"
             ],
             "peopleCount": 29,
@@ -24618,6 +24851,12 @@
                 "recyddAMyt8kVtRId",
                 "rec2WjHbJzQDCeAYD",
                 "rec1CEwubRMNykrPI"
+            ],
+            "writersDraft (delete)": [
+                "zephaniah_3040"
+            ],
+            "writers": [
+                "zephaniah_3040"
             ]
         }
     },
@@ -24638,7 +24877,7 @@
             ],
             "chapterCount": 2,
             "verseCount": 38,
-            "writers": [
+            "writersOld (delete)": [
                 "haggai_1349"
             ],
             "peopleCount": 28,
@@ -24682,6 +24921,12 @@
                 "recheMuxosSEgXS7P",
                 "recoXm4D9ffLBC8BU",
                 "recFHXgS4QUOqC9Mj"
+            ],
+            "writersDraft (delete)": [
+                "haggai_1349"
+            ],
+            "writers": [
+                "haggai_1349"
             ]
         }
     },
@@ -24714,7 +24959,7 @@
             ],
             "chapterCount": 14,
             "verseCount": 211,
-            "writers": [
+            "writersOld (delete)": [
                 "zechariah_3016"
             ],
             "peopleCount": 120,
@@ -24931,6 +25176,12 @@
                 "recNcv0J3HsxF58Rg",
                 "recwtlE9QRisoyv3k",
                 "recnQPT0H1oJFKXsL"
+            ],
+            "writersDraft (delete)": [
+                "zechariah_3016"
+            ],
+            "writers": [
+                "zechariah_3016"
             ]
         }
     },
@@ -24953,7 +25204,7 @@
             ],
             "chapterCount": 4,
             "verseCount": 55,
-            "writers": [
+            "writersOld (delete)": [
                 "malachi_1899"
             ],
             "peopleCount": 47,
@@ -25014,6 +25265,12 @@
                 "rec4fWvtdgnihThWz",
                 "rec4Inh9Tdm12tNad",
                 "recMSS8ZHsvoYxNDH"
+            ],
+            "writersDraft (delete)": [
+                "malachi_1899"
+            ],
+            "writers": [
+                "malachi_1899"
             ]
         }
     },
@@ -25061,7 +25318,7 @@
             ],
             "chapterCount": 28,
             "verseCount": 1071,
-            "writers": [
+            "writersOld (delete)": [
                 "matthew_1971"
             ],
             "peopleCount": 431,
@@ -26139,6 +26396,12 @@
                 "recwo2YTmN0rEn9dQ",
                 "rec5ImGtAWYMm21vk",
                 "recQkqdxMs85v095s"
+            ],
+            "writersDraft (delete)": [
+                "matthew_1971"
+            ],
+            "writers": [
+                "matthew_1971"
             ]
         }
     },
@@ -26174,7 +26437,7 @@
             ],
             "chapterCount": 16,
             "verseCount": 678,
-            "writers": [
+            "writersOld (delete)": [
                 "mark_1679"
             ],
             "peopleCount": 245,
@@ -26859,6 +27122,12 @@
                 "recPNNsLROMyzXBaY",
                 "recIK8qrpQi8dgzti",
                 "recd6uGzIJhn1fJdp"
+            ],
+            "writersDraft (delete)": [
+                "mark_1679"
+            ],
+            "writers": [
+                "mark_1679"
             ]
         }
     },
@@ -26902,7 +27171,7 @@
             ],
             "chapterCount": 24,
             "verseCount": 1151,
-            "writers": [
+            "writersOld (delete)": [
                 "luke_1836"
             ],
             "peopleCount": 461,
@@ -28060,6 +28329,12 @@
                 "recCsg7ZLi70CbPsk",
                 "recb8C7X6hkFOS0BB",
                 "recLSgT6XRK97jDxf"
+            ],
+            "writersDraft (delete)": [
+                "luke_1836"
+            ],
+            "writers": [
+                "luke_1836"
             ]
         }
     },
@@ -28099,7 +28374,7 @@
             ],
             "chapterCount": 21,
             "verseCount": 879,
-            "writers": [
+            "writersOld (delete)": [
                 "john_1677"
             ],
             "peopleCount": 514,
@@ -28984,6 +29259,12 @@
                 "rec9HKjOBGDvZgGH5",
                 "recdgyppUMfrq6Y4I",
                 "rech6IrsGTDMERjKl"
+            ],
+            "writersDraft (delete)": [
+                "john_1677"
+            ],
+            "writers": [
+                "john_1677"
             ]
         }
     },
@@ -29031,7 +29312,7 @@
             ],
             "chapterCount": 28,
             "verseCount": 1007,
-            "writers": [
+            "writersOld (delete)": [
                 "luke_1836"
             ],
             "peopleCount": 592,
@@ -30045,6 +30326,12 @@
                 "recTWsj3U5NUj9Sk3",
                 "recqHPYyN91BfqyBw",
                 "recBkOYVf3laZBCJo"
+            ],
+            "writersDraft (delete)": [
+                "luke_1836"
+            ],
+            "writers": [
+                "luke_1836"
             ]
         }
     },
@@ -30083,7 +30370,7 @@
             ],
             "chapterCount": 16,
             "verseCount": 433,
-            "writers": [
+            "writersOld (delete)": [
                 "paul_2479"
             ],
             "peopleCount": 238,
@@ -30523,6 +30810,12 @@
                 "recGpuejNMMSMsu5u",
                 "recJfIRYqySJ70Sjr",
                 "recWW45TZQWhoaMqj"
+            ],
+            "writersDraft (delete)": [
+                "paul_2479"
+            ],
+            "writers": [
+                "paul_2479"
             ]
         }
     },
@@ -30561,7 +30854,7 @@
             ],
             "chapterCount": 16,
             "verseCount": 437,
-            "writers": [
+            "writersOld (delete)": [
                 "paul_2479"
             ],
             "peopleCount": 192,
@@ -31005,6 +31298,12 @@
                 "reckrY0cViKD33vKO",
                 "recHbFda6fkwadPti",
                 "rec2b64ypm2UUy2PG"
+            ],
+            "writersDraft (delete)": [
+                "paul_2479"
+            ],
+            "writers": [
+                "paul_2479"
             ]
         }
     },
@@ -31040,7 +31339,7 @@
             ],
             "chapterCount": 13,
             "verseCount": 257,
-            "writers": [
+            "writersOld (delete)": [
                 "paul_2479"
             ],
             "peopleCount": 122,
@@ -31304,6 +31603,12 @@
                 "receHHvVmdiI3RLqx",
                 "recDuwzQQYD0Gi3UQ",
                 "recqDAbPi29sOrSnR"
+            ],
+            "writersDraft (delete)": [
+                "paul_2479"
+            ],
+            "writers": [
+                "paul_2479"
             ]
         }
     },
@@ -31332,7 +31637,7 @@
             ],
             "chapterCount": 6,
             "verseCount": 149,
-            "writers": [
+            "writersOld (delete)": [
                 "paul_2479"
             ],
             "peopleCount": 87,
@@ -31488,6 +31793,12 @@
                 "reco6VqXssLOV5vZi",
                 "recPzysEOhMSmdWy2",
                 "recpKpTZQgrrH7ej8"
+            ],
+            "writersDraft (delete)": [
+                "paul_2479"
+            ],
+            "writers": [
+                "paul_2479"
             ]
         }
     },
@@ -31516,7 +31827,7 @@
             ],
             "chapterCount": 6,
             "verseCount": 155,
-            "writers": [
+            "writersOld (delete)": [
                 "paul_2479"
             ],
             "peopleCount": 88,
@@ -31678,6 +31989,12 @@
                 "recH1KQUqZGTGJNNV",
                 "recXexlugfx7pZ8iy",
                 "rece9YPM83k87vSxD"
+            ],
+            "writersDraft (delete)": [
+                "paul_2479"
+            ],
+            "writers": [
+                "paul_2479"
             ]
         }
     },
@@ -31704,7 +32021,7 @@
             ],
             "chapterCount": 4,
             "verseCount": 104,
-            "writers": [
+            "writersOld (delete)": [
                 "paul_2479"
             ],
             "peopleCount": 63,
@@ -31815,6 +32132,12 @@
                 "recPIIFXEDix2PvkB",
                 "recok1HhwC3xV6mtT",
                 "recm0CGjFH31qIexH"
+            ],
+            "writersDraft (delete)": [
+                "paul_2479"
+            ],
+            "writers": [
+                "paul_2479"
             ]
         }
     },
@@ -31841,7 +32164,7 @@
             ],
             "chapterCount": 4,
             "verseCount": 95,
-            "writers": [
+            "writersOld (delete)": [
                 "paul_2479"
             ],
             "peopleCount": 51,
@@ -31943,6 +32266,12 @@
                 "recYKHuu3IzLozoID",
                 "recUQ0CXl1LLC6Eah",
                 "recuudF5BYrllOPt7"
+            ],
+            "writersDraft (delete)": [
+                "paul_2479"
+            ],
+            "writers": [
+                "paul_2479"
             ]
         }
     },
@@ -31970,7 +32299,7 @@
             ],
             "chapterCount": 5,
             "verseCount": 89,
-            "writers": [
+            "writersOld (delete)": [
                 "paul_2479"
             ],
             "peopleCount": 49,
@@ -32066,6 +32395,12 @@
                 "rec6MRJ4mNC0lZ0gR",
                 "recskm05A0CdGevJ3",
                 "reclSfBSVmuTPvZti"
+            ],
+            "writersDraft (delete)": [
+                "paul_2479"
+            ],
+            "writers": [
+                "paul_2479"
             ]
         }
     },
@@ -32091,7 +32426,7 @@
             ],
             "chapterCount": 3,
             "verseCount": 47,
-            "writers": [
+            "writersOld (delete)": [
                 "paul_2479"
             ],
             "peopleCount": 29,
@@ -32145,6 +32480,12 @@
                 "recSFcQKxWF0XyIth",
                 "recHzweFq22UdosZK",
                 "rec8tsvceyCD7B9hi"
+            ],
+            "writersDraft (delete)": [
+                "paul_2479"
+            ],
+            "writers": [
+                "paul_2479"
             ]
         }
     },
@@ -32170,7 +32511,7 @@
             ],
             "chapterCount": 6,
             "verseCount": 113,
-            "writers": [
+            "writersOld (delete)": [
                 "paul_2479"
             ],
             "peopleCount": 38,
@@ -32290,6 +32631,12 @@
                 "reciatpHf4s60zJHK",
                 "recnowxWF1SxSPffB",
                 "recwZVvYWVM05VKYw"
+            ],
+            "writersDraft (delete)": [
+                "paul_2479"
+            ],
+            "writers": [
+                "paul_2479"
             ]
         }
     },
@@ -32316,7 +32663,7 @@
             ],
             "chapterCount": 4,
             "verseCount": 83,
-            "writers": [
+            "writersOld (delete)": [
                 "paul_2479"
             ],
             "peopleCount": 47,
@@ -32406,6 +32753,12 @@
                 "recrV8qsNc367q9cN",
                 "recdOaJKBeUwLMq2M",
                 "rec53fDlWTdpbSu68"
+            ],
+            "writersDraft (delete)": [
+                "paul_2479"
+            ],
+            "writers": [
+                "paul_2479"
             ]
         }
     },
@@ -32428,7 +32781,7 @@
             ],
             "chapterCount": 3,
             "verseCount": 46,
-            "writers": [
+            "writersOld (delete)": [
                 "paul_2479"
             ],
             "peopleCount": 16,
@@ -32481,6 +32834,12 @@
                 "recM9MEvNBvkAvfzE",
                 "recqk2CFv7ZT6c0rh",
                 "recQF8evtCwXHY0xw"
+            ],
+            "writersDraft (delete)": [
+                "paul_2479"
+            ],
+            "writers": [
+                "paul_2479"
             ]
         }
     },
@@ -32504,7 +32863,7 @@
             ],
             "chapterCount": 1,
             "verseCount": 25,
-            "writers": [
+            "writersOld (delete)": [
                 "paul_2479"
             ],
             "peopleCount": 15,
@@ -32536,6 +32895,12 @@
                 "recyemFOGL1s1vrp8",
                 "rec2IfSfMx9WBPrOq",
                 "recj1RyED84AExicf"
+            ],
+            "writersDraft (delete)": [
+                "paul_2479"
+            ],
+            "writers": [
+                "paul_2479"
             ]
         }
     },
@@ -32568,7 +32933,7 @@
             ],
             "chapterCount": 13,
             "verseCount": 303,
-            "writers": [
+            "writersOld (delete)": [
                 "paul_2479"
             ],
             "peopleCount": 139,
@@ -32878,6 +33243,12 @@
                 "recCMrwwIEhccYNcy",
                 "recuWcI9hj2a9UFy6",
                 "reckIZRHofJBUUP5S"
+            ],
+            "writersDraft (delete)": [
+                "paul_2479"
+            ],
+            "writers": [
+                "paul_2479"
             ]
         }
     },
@@ -32902,7 +33273,7 @@
             ],
             "chapterCount": 5,
             "verseCount": 108,
-            "writers": [
+            "writersOld (delete)": [
                 "james_719"
             ],
             "peopleCount": 29,
@@ -33017,6 +33388,12 @@
                 "recbnJamAIYsB6aB6",
                 "recgaTFZIUvYDOi5P",
                 "rectyJhFIfiWzTYqb"
+            ],
+            "writersDraft (delete)": [
+                "james_719"
+            ],
+            "writers": [
+                "james_719"
             ]
         }
     },
@@ -33041,7 +33418,7 @@
             ],
             "chapterCount": 5,
             "verseCount": 105,
-            "writers": [
+            "writersOld (delete)": [
                 "peter_2745"
             ],
             "peopleCount": 56,
@@ -33153,6 +33530,12 @@
                 "recuRPEbGO15hceho",
                 "recLHoLOuq7wqwzT1",
                 "recOEZYjXwiPjbALr"
+            ],
+            "writersDraft (delete)": [
+                "peter_2745"
+            ],
+            "writers": [
+                "peter_2745"
             ]
         }
     },
@@ -33175,7 +33558,7 @@
             ],
             "chapterCount": 3,
             "verseCount": 61,
-            "writers": [
+            "writersOld (delete)": [
                 "peter_2745"
             ],
             "peopleCount": 24,
@@ -33243,6 +33626,12 @@
                 "recYRkw2JWoGVoEBe",
                 "recivnTALiGZTPy4b",
                 "recjUVTDiJoEekP4J"
+            ],
+            "writersDraft (delete)": [
+                "peter_2745"
+            ],
+            "writers": [
+                "peter_2745"
             ]
         }
     },
@@ -33266,7 +33655,7 @@
             ],
             "chapterCount": 5,
             "verseCount": 105,
-            "writers": [
+            "writersOld (delete)": [
                 "john_1677"
             ],
             "peopleCount": 61,
@@ -33377,6 +33766,12 @@
                 "rechHqbFP8T691dqC",
                 "recXdli5fp7qeRZMK",
                 "recUm76I9r8gkeYaR"
+            ],
+            "writersDraft (delete)": [
+                "john_1677"
+            ],
+            "writers": [
+                "john_1677"
             ]
         }
     },
@@ -33396,7 +33791,7 @@
             ],
             "chapterCount": 1,
             "verseCount": 13,
-            "writers": [
+            "writersOld (delete)": [
                 "john_1677"
             ],
             "peopleCount": 6,
@@ -33415,6 +33810,12 @@
                 "recUEPVvXvT2lvRsJ",
                 "recA9GsdDEV07EofK",
                 "recv7ZXhMOa6MSBUy"
+            ],
+            "writersDraft (delete)": [
+                "john_1677"
+            ],
+            "writers": [
+                "john_1677"
             ]
         }
     },
@@ -33434,7 +33835,7 @@
             ],
             "chapterCount": 1,
             "verseCount": 14,
-            "writers": [
+            "writersOld (delete)": [
                 "john_1677"
             ],
             "peopleCount": 4,
@@ -33454,6 +33855,12 @@
                 "recKGBLg6skvCLO4S",
                 "recxMpRAhWnETvKvE",
                 "rece47qD0Nm1hwzMu"
+            ],
+            "writersDraft (delete)": [
+                "john_1677"
+            ],
+            "writers": [
+                "john_1677"
             ]
         }
     },
@@ -33473,7 +33880,7 @@
             ],
             "chapterCount": 1,
             "verseCount": 25,
-            "writers": [
+            "writersOld (delete)": [
                 "jude_1756"
             ],
             "peopleCount": 11,
@@ -33504,6 +33911,12 @@
                 "recLywL1a4y1KzloP",
                 "rec4v4mKvffmkINww",
                 "rec8XmoAxprqZexXj"
+            ],
+            "writersDraft (delete)": [
+                "jude_1756"
+            ],
+            "writers": [
+                "jude_1756"
             ]
         }
     },
@@ -33544,7 +33957,7 @@
             ],
             "chapterCount": 22,
             "verseCount": 404,
-            "writers": [
+            "writersOld (delete)": [
                 "john_1677"
             ],
             "peopleCount": 156,
@@ -33954,6 +34367,12 @@
                 "recb6AU07t1PvNroS",
                 "recuxhlLPzgp2xNXh",
                 "recogsGhS7vA94UZh"
+            ],
+            "writersDraft (delete)": [
+                "john_1677"
+            ],
+            "writers": [
+                "john_1677"
             ]
         }
     }
