@@ -1142,7 +1142,7 @@
 
 - id: DQ-0045
   title: Reign of Hezekiah lag is one year short of Jones's dates
-  status: open
+  status: fixed
   type: off-by-one
   severity: low
   table: events
@@ -1159,11 +1159,15 @@
     - { record: recRusMYR5At9TlEV, field: lag, equals: "4Y" }
   rule: lag-matches-start
   found: { date: 2026-11-09, by: "lag audit (predecessor start + lag vs startDate, live Airtable)", sha: 8e73bfc }
-  fixed: { date: null, sha: null }
+  fixed: { date: 2026-11-09, sha: null }
   github: null
   affects: []
   notes: >-
     The startDate follows Jones exactly; the lag is what should change.
+    Fixed in Airtable 2026-11-09: event 226 Reign of Hezekiah (recRusMYR5At9TlEV) lag changed from
+    "3Y" SS to "4Y" SS; startDate -725 unchanged; predecessor remains Reign of Hoshea
+    (recj8DXN0Leolmr8O, -729). -729 + 4 = -725. Only the lag field changed. fixed.sha to be filled
+    from the next export.
 
 - id: DQ-0046
   title: Judgeship of Eli has a lag but no predecessor
@@ -1265,7 +1269,7 @@
 
 - id: DQ-0049
   title: "Nimrod's kingdom begins uses Jones's year-of-world number as the BC year"
-  status: open
+  status: fixed
   type: wrong-value
   severity: medium
   table: events
@@ -1280,15 +1284,18 @@
     - { record: recmnGiHVM3Hylr7r, field: startDate, equals: "-2181" }
   rule: null
   found: { date: 2026-11-09, by: "Jones Appendix F audit, Nov 9 2026 (events vs Jones App. F pp. 278-280)", sha: c01ef52 }
-  fixed: { date: null, sha: null }
+  fixed: { date: 2026-11-09, sha: null }
   github: null
   affects: []
   notes: >-
     Moving it 360 years earlier puts it before Peleg's birth (-2246) and the Tower of Babel (DQ-0051); check any predecessor links when fixing.
+    Fixed in Airtable 2026-11-09: event 87 Nimrod's kingdom begins (recmnGiHVM3Hylr7r) startDate
+    changed from -1821 to -2181 (2182 BC, Jones Appendix F). Only the startDate field changed;
+    predecessor and lag were empty. fixed.sha to be filled from the next export.
 
 - id: DQ-0050
   title: "Prophecies of Malachi is a year early (BC entered as a negative year without the +1)"
-  status: open
+  status: fixed
   type: off-by-one
   severity: low
   table: events
@@ -1303,11 +1310,14 @@
     - { record: recpSNqfLiST1KQqq, field: startDate, equals: "-440" }
   rule: null
   found: { date: 2026-11-09, by: "Jones Appendix F audit, Nov 9 2026 (events vs Jones App. F pp. 278-280)", sha: c01ef52 }
-  fixed: { date: null, sha: null }
+  fixed: { date: 2026-11-09, sha: null }
   github: null
   affects: []
   notes: >-
     Conversion slip (BC year typed as a negative number).
+    Fixed in Airtable 2026-11-09: event 247 Prophecies of Malachi (recpSNqfLiST1KQqq) startDate
+    changed from -441 to -440 (441 BC, Jones Appendix F). Only the startDate field changed.
+    fixed.sha to be filled from the next export.
 
 - id: DQ-0051
   title: "Tower of Babel date differs from Jones's Appendix F row (Seder Olam date)"
