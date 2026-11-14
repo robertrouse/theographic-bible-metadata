@@ -1927,6 +1927,9 @@
     Cross-ref DQ-0054. Related: DQ-0052 (Acts chronology vs Jones). Records listed are
     illustrative samples, not an exhaustive census; a fix pass should scan all era verses.
     Do not change yearNum as part of the DQ-0054 event upload.
+    2026-11-14: the DQ-0054 events now exist in Airtable (eventIDs 461-500), so the sampled
+    verses' yearNum and their events' startDate now disagree in live data. Re-raised from the
+    DQ-0054 draft's verse-tagging section; logged here rather than as a new entry.
 
 - id: DQ-0063
   title: Stop property column-shift errors in pauls_journeys_all.geojson
@@ -2204,3 +2207,97 @@
   notes: >-
     Fixed in Airtable Nov 12 2026 (only displayTitle on these two records; name
     and every other field unchanged); confirm on the next export.
+
+- id: DQ-0069
+  title: "Azariah (azariah_545) Disambiguation (temp) names Meshach instead of Abed-nego"
+  status: fixed
+  type: wrong-value
+  severity: low
+  table: people
+  records:
+    - { id: rec8W4ddbPMwkhiOQ, key: "azariah_545 (Daniel's companion)" }
+  field: Disambiguation (temp)
+  current: "Azariah (Meshach)"
+  proposed: "Azariah (Abed-nego)"
+  evidence: >-
+    Dan 1:7 (KJV): "unto Hananiah, of Shadrach; and to Mishael, of Meshach; and to Azariah,
+    of Abed-nego". Meshach is Mishael (meshach_2092). The record's own Easton's entry reads
+    "The original name of Abed-nego". Found after the DQ-0054 upload while adding the
+    Abed-nego alias; json/people.json at fa15c8a still shows "Azariah (Meshach)".
+  checks:
+    - { record: rec8W4ddbPMwkhiOQ, field: "Disambiguation (temp)", equals: "Azariah (Abed-nego)" }
+  rule: null
+  found: { date: 2026-11-14, by: "DQ-0054 upload follow-up (Abed-nego alias)", sha: fa15c8a }
+  fixed: { date: 2026-11-14, sha: null }
+  github: null
+  affects: []
+  notes: >-
+    Fixed in Airtable 2026-11-14 (only this field on this record; alsoCalled was set to
+    Abed-nego under DQ-0054). fixed.sha to be filled from the next export.
+
+- id: DQ-0070
+  title: "Exile-era events outside Appendix F still missing (Death of Jehoiakim, Gedaliah, lions' den, etc.)"
+  status: open
+  type: missing-record
+  severity: low
+  table: events
+  records: []
+  field: events
+  current: >-
+    No Theographic event for these narrative episodes in 598-432 BC; DQ-0054 added only the
+    Appendix F lines plus framing spans (decision 10, Nov 10 2026: not in that batch).
+  proposed: |-
+    - Death of Jehoiakim (Dec 598 BC; Jer 22:18-19, 36:30). Every other Judah king has a Death of X event.
+    - Gedaliah made governor and murdered (2 Kgs 25:22-26; Jer 40-41)
+    - The remnant flees to Egypt with Jeremiah (Jer 42-43)
+    - Daniel in the lions' den (Dan 6, under Darius the Mede)
+    - The altar rebuilt (Ezra 3:1-7, 536 BC)
+    - Mordecai uncovers the plot against the king (Esth 2:21-23)
+    - Esther goes before the king (Esth 5)
+    - Ezra reads the Law (Neh 8); the covenant renewed (Neh 9-10)
+    - Nehemiah's later reforms (Neh 13:8-31)
+  evidence: >-
+    Listed in the DQ-0054 draft (exile-return-events-2026-11-09.md, "Related events Appendix F
+    doesn't list"). Jones's Appendix F has no line for them, so dates must come from Jones's
+    text/charts or from the parent events (e.g. Reign of Darius (Ahasuerus), Reign of Artaxerxes).
+  checks: []
+  rule: null
+  found: { date: 2026-11-09, by: "DQ-0054 exile/return draft (related events not drafted)", sha: 608818e }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: []
+  notes: >-
+    Cross-ref DQ-0054. Fall of Samaria (722 BC), also listed in the draft, is tracked under
+    DQ-0009. New events need verses, participants, locations and predecessor/lag links, and
+    Robert inspects them before any Airtable write.
+
+- id: DQ-0071
+  title: "Two Judah region records; judah_1280 has no coordinates"
+  status: needs-research
+  type: duplicate-record
+  severity: low
+  table: places
+  records:
+    - { id: recuzNJh7jSpK2w8w, key: "judah_1280 (Judah, Region, 27 verses)" }
+    - { id: recM4RAfBVSEH5W7l, key: "judah-southern_1281 (Kingdom of Judah, Region, 8 verses)" }
+  field: latitude, longitude, canonicalPlace
+  current: >-
+    judah_1280: latitude/longitude empty, no openBibleLat, no canonicalPlace.
+    judah-southern_1281: 31.776667, 35.234167 (OpenBible). Both added from Digital Manna
+    (places-0611 and places-1257) in the LPF sync of 2026-10-13.
+  proposed: >-
+    Decide whether judah_1280 is the tribal territory (give it its own coordinates) or the
+    same region as judah-southern_1281 (set canonicalPlace to judah-southern_1281 so it shows
+    the canonical point). Do not merge without checking its 27 verses.
+  evidence: >-
+    json/places.json at fa15c8a. Noted in the DQ-0054 draft's "Missing linked records"
+    near-misses; event "Chaldean raiders take captives from Judah" uses judah-southern_1281.
+  checks: []
+  rule: null
+  found: { date: 2026-11-09, by: "DQ-0054 exile/return draft (place near-misses)", sha: 608818e }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [geo]
+  notes: >-
+    Geo rule: Airtable and the GeoJSON must stay in sync; aliases show their canonical
+    place's coordinates.
