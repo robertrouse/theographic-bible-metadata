@@ -27,7 +27,7 @@ Years are ISO 8601 astronomical years: `-1094` is 1095 BC.
 
 ## `pauls_journeys_all.geojson`
 
-Paul's missionary journeys: 44 stops and 68 route segments, with verse
+Paul's missionary journeys: 44 stops and 67 route segments, with verse
 references for each journey. Fields are described in
 [Geospatial Data](../docs/geospatial-data.md#geopauls_journeys_allgeojson).
 
