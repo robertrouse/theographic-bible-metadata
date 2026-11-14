@@ -1515,7 +1515,7 @@
 
 - id: DQ-0054
   title: "HIGH PRIORITY: exile and return events are missing (606-442 BC)"
-  status: open
+  status: fixed
   type: missing-record
   severity: high
   table: events
@@ -1568,11 +1568,20 @@
   checks: []
   rule: null
   found: { date: 2026-11-09, by: "Jones Appendix F audit, Nov 9 2026 (events vs Jones App. F pp. 278-280)", sha: c01ef52 }
-  fixed: { date: null, sha: null }
+  fixed: { date: 2026-11-14, sha: null }
   github: null
   affects: []
   notes: >-
     Priority: HIGH (Robert, Nov 9 2026). The ledger has no priority field, so this is marked severity high and in the title. Same gap as DQ-0009 (logged Nov 4 from the timeline poster, which also lists the fall of Samaria); this entry carries the full dated Jones list, so DQ-0009 can be closed as a duplicate of it. New events need verses, participants, locations and predecessor/lag links.
+    Fixed in Airtable 2026-11-14: 40 new events created (eventIDs 461-500), covering all 39
+    Appendix F lines (36 own rows; Nebuchad's 1st official yr, Esther taken to Ahasuerus and
+    Begin Daniel's 70 weeks folded into other rows) plus 4 framing spans (Babylonian Captivity,
+    Return from Exile, Reign of Darius (Ahasuerus), Reign of Artaxerxes). 841 verse links over
+    778 verses, 112 participant, 51 location and 3 group links, with predecessor/lag and partOf
+    set; read-back and lag arithmetic verified. Also added the alias Abed-nego to azariah_545
+    (rec8W4ddbPMwkhiOQ, alsoCalled). Only the events side was written (reverse links filled in
+    automatically); apart from that alias no existing record changed. Definitions for the new
+    events come later from the pipeline. fixed.sha to be filled from the next export.
 
 - id: DQ-0055
   title: "Patriarchal-era events missing from Theographic (4003-1732 BC)"
