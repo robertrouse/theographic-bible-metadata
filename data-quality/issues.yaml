@@ -172,7 +172,7 @@
     - { record: reck6rXD9hZiDk0Kz, field: lag, equals: "11Y" }
   rule: predecessor-acyclic
   found: { date: 2026-11-04, by: "timeline poster v0.2 (normalize.mjs)", sha: 3f461f2 }
-  fixed: { date: 2026-11-09, sha: null }
+  fixed: { date: 2026-11-09, sha: bf13cca }
   github: null
   affects: [timeline-poster]
   notes: >-
@@ -490,7 +490,7 @@
     - { record: reckXhjBX8I6jSNkg, field: kjvName, equals: "great Zidon" }
   rule: null
   found: { date: 2026-09-15, by: "theographic-web CP-01 normalizer", sha: cfb1c48 }
-  fixed: { date: 2026-11-13, sha: null }
+  fixed: { date: 2026-11-13, sha: bf13cca }
   github: 49
   affects: [theographic-web]
   notes: >-
@@ -967,7 +967,7 @@
     - { record: recOJfWD0IUcT4yJD, field: lag, equals: "15Y" }
   rule: lag-matches-start
   found: { date: 2026-11-09, by: "lag audit (predecessor start + lag vs startDate, live Airtable)", sha: 8e73bfc }
-  fixed: { date: 2026-11-13, sha: null }
+  fixed: { date: 2026-11-13, sha: bf13cca }
   github: null
   affects: []
   notes: >-
@@ -1001,7 +1001,7 @@
     - { record: recYlpu8OdsUJoG8g, field: duration, equals: "7Y6M" }
   rule: lag-matches-start
   found: { date: 2026-11-09, by: "lag audit (predecessor start + lag vs startDate, live Airtable)", sha: 8e73bfc }
-  fixed: { date: 2026-11-13, sha: null }
+  fixed: { date: 2026-11-13, sha: bf13cca }
   github: null
   affects: []
   notes: >-
@@ -1031,7 +1031,7 @@
     - { record: recjkmUO88wihv8Ci, field: lag, equals: "0Y" }
   rule: lag-matches-start
   found: { date: 2026-11-09, by: "lag audit (predecessor start + lag vs startDate, live Airtable)", sha: 8e73bfc }
-  fixed: { date: 2026-11-13, sha: null }
+  fixed: { date: 2026-11-13, sha: bf13cca }
   github: null
   affects: []
   notes: >-
@@ -1088,7 +1088,7 @@
     - { record: recEOMPybxT6g8y8E, field: lag, equals: "1Y" }
   rule: lag-matches-start
   found: { date: 2026-11-09, by: "lag audit (predecessor start + lag vs startDate, live Airtable)", sha: 8e73bfc }
-  fixed: { date: 2026-11-13, sha: null }
+  fixed: { date: 2026-11-13, sha: bf13cca }
   github: null
   affects: []
   notes: >-
@@ -1117,7 +1117,7 @@
     - { record: recb9vQAySe8NXtZn, field: lag, equals: "4Y" }
   rule: lag-matches-start
   found: { date: 2026-11-09, by: "lag audit (predecessor start + lag vs startDate, live Airtable)", sha: 8e73bfc }
-  fixed: { date: 2026-11-13, sha: null }
+  fixed: { date: 2026-11-13, sha: bf13cca }
   github: null
   affects: []
   notes: >-
@@ -1195,7 +1195,7 @@
     - { record: recRusMYR5At9TlEV, field: lag, equals: "4Y" }
   rule: lag-matches-start
   found: { date: 2026-11-09, by: "lag audit (predecessor start + lag vs startDate, live Airtable)", sha: 8e73bfc }
-  fixed: { date: 2026-11-09, sha: null }
+  fixed: { date: 2026-11-09, sha: bf13cca }
   github: null
   affects: []
   notes: >-
@@ -1261,7 +1261,7 @@
 
 - id: DQ-0048
   title: Eleven kings' lags counted the Bible's "Nth year" as N elapsed years
-  status: open
+  status: fixed
   type: off-by-one
   severity: low
   table: events
@@ -1299,7 +1299,7 @@
     - { record: recuwnodcdBQpgk6J, field: lag, equals: "51Y" }
   rule: lag-matches-start
   found: { date: 2026-11-09, by: "lag audit (predecessor start + lag vs startDate, live Airtable)", sha: 8e73bfc }
-  fixed: { date: null, sha: null }
+  fixed: { date: 2026-11-09, sha: bf13cca }
   github: null
   affects: []
   notes: >-
@@ -1324,7 +1324,7 @@
     - { record: recmnGiHVM3Hylr7r, field: startDate, equals: "-2181" }
   rule: null
   found: { date: 2026-11-09, by: "Jones Appendix F audit, Nov 9 2026 (events vs Jones App. F pp. 278-280)", sha: c01ef52 }
-  fixed: { date: 2026-11-09, sha: null }
+  fixed: { date: 2026-11-09, sha: bf13cca }
   github: null
   affects: []
   notes: >-
@@ -1350,7 +1350,7 @@
     - { record: recpSNqfLiST1KQqq, field: startDate, equals: "-440" }
   rule: null
   found: { date: 2026-11-09, by: "Jones Appendix F audit, Nov 9 2026 (events vs Jones App. F pp. 278-280)", sha: c01ef52 }
-  fixed: { date: 2026-11-09, sha: null }
+  fixed: { date: 2026-11-09, sha: bf13cca }
   github: null
   affects: []
   notes: >-
@@ -1568,7 +1568,7 @@
   checks: []
   rule: null
   found: { date: 2026-11-09, by: "Jones Appendix F audit, Nov 9 2026 (events vs Jones App. F pp. 278-280)", sha: c01ef52 }
-  fixed: { date: 2026-11-14, sha: null }
+  fixed: { date: 2026-11-14, sha: 014222a }
   github: null
   affects: []
   notes: >-
@@ -2024,7 +2024,7 @@
   checks: []
   rule: null
   found: { date: 2026-11-12, by: "Paul's journeys vs Itiner-e comparison", sha: 8100f47 }
-  fixed: { date: 2026-11-14, sha: null }
+  fixed: { date: 2026-11-14, sha: 014222a }
   github: null
   affects: [geo, viz.bible/journeys]
   notes: >-
@@ -2192,7 +2192,7 @@
     avoid roads with a construction date after about 60 CE when snapping.
 - id: DQ-0068
   title: Two Philips spelled "Phillip" in displayTitle
-  status: open
+  status: fixed
   type: typo
   severity: low
   table: people
@@ -2212,7 +2212,7 @@
     - { record: recNsU6uPfTysNEKM, field: displayTitle, equals: "Philip the Evangelist" }
   rule: null
   found: { date: 2026-11-12, by: "displayTitle vs name spot check", sha: 8100f47 }
-  fixed: { date: null, sha: null }
+  fixed: { date: 2026-11-12, sha: bf13cca }
   github: null
   affects: []
   notes: >-
@@ -2239,7 +2239,7 @@
     - { record: rec8W4ddbPMwkhiOQ, field: "Disambiguation (temp)", equals: "Azariah (Abed-nego)" }
   rule: null
   found: { date: 2026-11-14, by: "DQ-0054 upload follow-up (Abed-nego alias)", sha: fa15c8a }
-  fixed: { date: 2026-11-14, sha: null }
+  fixed: { date: 2026-11-14, sha: 014222a }
   github: null
   affects: []
   notes: >-
