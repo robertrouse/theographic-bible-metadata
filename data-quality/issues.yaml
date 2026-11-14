@@ -109,7 +109,7 @@
 
 - id: DQ-0004
   title: Joshua's lifetime and death disagree by 13 years
-  status: needs-research
+  status: wontfix
   type: wrong-value
   severity: medium
   table: events
@@ -128,6 +128,9 @@
   fixed: { date: null, sha: null }
   github: null
   affects: [timeline-poster]
+  notes: >-
+    Closed Nov 13 2026 as a duplicate of DQ-0047, which is the canonical open entry for the
+    13-year Joshua lifetime/death conflict and the Death of Joshua lag with no predecessor.
 
 - id: DQ-0005
   title: Death of Isaac lists itself as its predecessor
@@ -151,29 +154,36 @@
 
 - id: DQ-0006
   title: Reign of Jehu has Reign of Joash (later) as its predecessor
-  status: open
+  status: fixed
   type: bad-link
   severity: low
   table: events
   records:
     - { id: reck6rXD9hZiDk0Kz, key: "Reign of Jehu (eventID 190)" }
-  field: predecessor
+  field: predecessor, lag
   current: "[recwy2j4O3x7NcWz5 Reign of Joash], lag 7Y SS"
-  proposed: "the reign Jehu follows (Reign of Joram of Israel), with the correct lag"
+  proposed: "[receNV351SLbofU0a Reign of Joram (-896)], lag 11Y SS (-896 + 11 = -885)"
   evidence: >-
     Joash's own predecessor is Jehu (lag 7Y SS, correct). Jehu's link looks like that relationship
     copied in reverse, and it forms a two-event cycle.
   checks:
     - { record: reck6rXD9hZiDk0Kz, field: predecessor, not_contains: recwy2j4O3x7NcWz5 }
+    - { record: reck6rXD9hZiDk0Kz, field: predecessor, contains: receNV351SLbofU0a }
+    - { record: reck6rXD9hZiDk0Kz, field: lag, equals: "11Y" }
   rule: predecessor-acyclic
   found: { date: 2026-11-04, by: "timeline poster v0.2 (normalize.mjs)", sha: 3f461f2 }
-  fixed: { date: null, sha: null }
+  fixed: { date: 2026-11-09, sha: null }
   github: null
   affects: [timeline-poster]
+  notes: >-
+    Fixed in Airtable 2026-11-09: event 190 Reign of Jehu (reck6rXD9hZiDk0Kz) predecessor changed
+    from Reign of Joash (recwy2j4O3x7NcWz5) to Reign of Joram (receNV351SLbofU0a), with lag first
+    set to 12Y SS, then reduced 12Y → 11Y SS under DQ-0048. startDate -885 unchanged.
+    -896 + 11 = -885. The Joash cycle is gone. fixed.sha to be filled from the next export.
 
 - id: DQ-0007
   title: Jerusalem Council (AD 46) has Paul Writes Galatians (AD 49) as its predecessor
-  status: needs-research
+  status: wontfix
   type: bad-link
   severity: low
   table: events
@@ -190,6 +200,9 @@
   fixed: { date: null, sha: null }
   github: null
   affects: [timeline-poster]
+  notes: >-
+    Closed Nov 13 2026 as a duplicate of DQ-0052, which is the canonical open entry for aligning
+    the Acts / New Testament chronology (including the Jerusalem Council predecessor) with Jones.
 
 - id: DQ-0008
   title: Misspelled event titles
@@ -1040,7 +1053,7 @@
 
 - id: DQ-0041
   title: Reign of Jotham synchronism points to Pekahiah instead of Pekah
-  status: open
+  status: fixed
   type: bad-link
   severity: low
   table: events
@@ -1057,9 +1070,14 @@
     - { record: recEOMPybxT6g8y8E, field: lag, equals: "1Y" }
   rule: lag-matches-start
   found: { date: 2026-11-09, by: "lag audit (predecessor start + lag vs startDate, live Airtable)", sha: 8e73bfc }
-  fixed: { date: null, sha: null }
+  fixed: { date: 2026-11-13, sha: null }
   github: null
   affects: []
+  notes: >-
+    Fixed in Airtable 2026-11-13: event 219 Reign of Jotham (recEOMPybxT6g8y8E) predecessor changed
+    from Reign of Pekahiah (recQRI9PzXBoW4QVD) to Reign of Pekah (recuwnodcdBQpgk6J), and lag from
+    2Y SS to 1Y SS. startDate -757 unchanged. -758 + 1 = -757, per 2 Ki 15:32. Only predecessor and
+    lag changed. Checks already expected the new values. fixed.sha to be filled from the next export.
 
 - id: DQ-0042
   title: Reign of Jehoram (Judah) lag taken from the reverse synchronism
@@ -1215,9 +1233,13 @@
   found: { date: 2026-11-09, by: "lag audit (predecessor start + lag vs startDate, live Airtable)", sha: 8e73bfc }
   fixed: { date: null, sha: null }
   github: null
-  affects: []
+  affects: [timeline-poster]
   notes: >-
-    The 13-year Joshua date conflict is the same problem as DQ-0004 (logged Nov 4); fix both together.
+    Canonical entry for this issue. DQ-0004 (logged Nov 4 2026 from the timeline poster at sha
+    3f461f2, severity medium, rule lifetime-matches-birth-death, affects timeline-poster) was
+    closed Nov 13 2026 as a duplicate of this entry. There is no Birth of Joshua event, so Death
+    of Joshua's 110Y FS lag has no predecessor. Either the lifetime starts at -1533 or the death
+    is at -1410; Jones, Appendix F gives the death as 1424 BC (approx.), stored -1423.
 
 - id: DQ-0048
   title: Eleven kings' lags counted the Bible's "Nth year" as N elapsed years
@@ -1356,6 +1378,7 @@
     - { id: recTAdkQX4sglPtLl, key: "Herod dies (eventID 336)" }
     - { id: recrre0r2IHdN3Y7Z, key: "Mission to Lystra and Derbe (eventID 342)" }
     - { id: recwmsQ1HEDGztu9O, key: "Jerusalem Council (eventID 344)" }
+    - { id: reco0fEiYQ6hKFYc5, key: "Paul Writes Galatians (eventID 347)" }
     - { id: reciR4wcxOAcLxak0, key: "Second Missionary Journey (eventID 345)" }
     - { id: recsnRcoxqD4pQGHp, key: "Second Missionary Journey begins (eventID 348)" }
     - { id: receG7A0Y0VjWPff1, key: "Third Missionary Journey Begins (eventID 362)" }
@@ -1366,7 +1389,7 @@
     - { id: recltAvLmGRfERhYp, key: "Paul goes before Agrippa (eventID 379)" }
     - { id: recuZhS7z4CatBOO0, key: "Paul arrives at Rome (eventID 384)" }
     - { id: recGrIgOxWnxVl8h0, key: "Paul's First Roman imprisonment (eventID 385)" }
-  field: startDate, duration
+  field: startDate, duration, predecessor
   current: |-
     - Stephen is stoned (#322, recgcZKRVZDvMUMOa) start: current 0031 -> Jones AD 32 ("Martyrdom of Stephen", AM 4035)
     - Saul is converted (#326, recCz7opcoITkiZiq) start: current 0032 -> Jones AD 33 ("Conversion of Paul", AM 4036)
@@ -1395,9 +1418,13 @@
   found: { date: 2026-11-09, by: "Jones Appendix F audit, Nov 9 2026 (events vs Jones App. F pp. 278-280)", sha: c01ef52 }
   fixed: { date: null, sha: null }
   github: null
-  affects: []
+  affects: [timeline-poster]
   notes: |-
-    - Related: DQ-0007 (Jerusalem Council's predecessor is Paul Writes Galatians, which is later); fix together.
+    - DQ-0007 (logged Nov 4 2026 from the timeline poster at sha 3f461f2, rule predecessor-not-later,
+      affects timeline-poster) was closed Nov 13 2026 as a duplicate of this entry. Jerusalem Council
+      (event 344, recwmsQ1HEDGztu9O, start 0046) has predecessor Paul Writes Galatians (event 347,
+      reco0fEiYQ6hKFYc5, start 0049-10-01). Either the link or one of the dates is wrong; check against
+      Atwood's Acts timeline as well as Jones.
     - Missing related NT events in Appendix F (no Theographic event):
     - 4 BC (AM 4000): Death of Herod the Great (p.280)
     - 27 AD (AM 4030): 30 yr old Jesus began public ministry (p.280)
