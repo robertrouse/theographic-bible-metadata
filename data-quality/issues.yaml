@@ -916,7 +916,7 @@
 
 - id: DQ-0037
   title: Reign of Uzziah links to Jeroboam I instead of Jeroboam II
-  status: open
+  status: fixed
   type: bad-link
   severity: medium
   table: events
@@ -936,22 +936,25 @@
     - { record: recOJfWD0IUcT4yJD, field: lag, equals: "15Y" }
   rule: lag-matches-start
   found: { date: 2026-11-09, by: "lag audit (predecessor start + lag vs startDate, live Airtable)", sha: 8e73bfc }
-  fixed: { date: null, sha: null }
+  fixed: { date: 2026-11-13, sha: null }
   github: null
   affects: []
   notes: >-
     Lag convention (Robert, Nov 9 2026): lags work like project scheduling, so SS lag = successor
     start - predecessor start in elapsed years. The biblical "Nth year" wording goes in notes, not the lag.
+    Fixed 2026-11-13 in Airtable: predecessor changed from Reign of Jeroboam I (rec824qPcsyF7GtTh)
+    to Reign of Jeroboam II (recGe7VTJOGbn63NQ), and lag from 27Y to 15Y. lagType SS and startDate -809
+    unchanged; -824 + 15 = -809. Only those two fields changed. fixed.sha to be filled from the next export.
 
 - id: DQ-0038
   title: Construction of Solomon's Temple follows Reign of Saul instead of Reign of Solomon
-  status: open
+  status: fixed
   type: bad-link
   severity: medium
   table: events
   records:
     - { id: recYlpu8OdsUJoG8g, key: "Construction of Solomon's Temple (eventID 162)" }
-  field: predecessor, lag, lagType
+  field: predecessor, lag, lagType, duration
   current: "[recKRsEFLaEueJvei Reign of Saul (-1094, 40Y)], lag 4Y2M FS; start -1011, so predecessor end + lag = about -1050 (39 years off)"
   proposed: "[recKTbnO8VY7lXLeX Reign of Solomon (-1014)], lag 3Y SS (-1014 + 3 = -1011)"
   evidence: >-
@@ -964,17 +967,22 @@
     - { record: recYlpu8OdsUJoG8g, field: predecessor, contains: recKTbnO8VY7lXLeX }
     - { record: recYlpu8OdsUJoG8g, field: lag, equals: "3Y" }
     - { record: recYlpu8OdsUJoG8g, field: lagType, equals: "SS" }
+    - { record: recYlpu8OdsUJoG8g, field: duration, equals: "7Y6M" }
   rule: lag-matches-start
   found: { date: 2026-11-09, by: "lag audit (predecessor start + lag vs startDate, live Airtable)", sha: 8e73bfc }
-  fixed: { date: null, sha: null }
+  fixed: { date: 2026-11-13, sha: null }
   github: null
   affects: []
   notes: >-
     A month-level lag (3Y1M for the second month) only works if startDate also carries the month.
+    Fixed in Airtable 2026-11-13: predecessor changed from Reign of Saul (recKRsEFLaEueJvei) to Reign of
+    Solomon (recKTbnO8VY7lXLeX); lag "4Y2M" FS changed to "3Y" SS (-1014 + 3 = -1011 matches startDate,
+    which is unchanged); duration "7Y" changed to "7Y6M" (1 Ki 6:37-38, Zif of year 4 to Bul of year 11;
+    Ussher: 7 years 6 months). Only those fields changed. fixed.sha to be filled from the next export.
 
 - id: DQ-0039
   title: Exodus from Egypt counts Moses' 40 years in Midian twice
-  status: open
+  status: fixed
   type: wrong-value
   severity: medium
   table: events
@@ -988,15 +996,20 @@
     40 at the flight, Acts 7:23). Jones, Appendix F: flight 1531 BC (-1530), Exodus 1491 BC (-1490).
     The predecessor's 40Y duration already covers the Midian years, so FS + 40Y adds them again.
   checks:
-    - { record: recjkmUO88wihv8Ci, field: lagType, equals: "SS" }
-    - { record: recjkmUO88wihv8Ci, field: lag, equals: "40Y" }
+    - { record: recjkmUO88wihv8Ci, field: lagType, equals: "FS" }
+    - { record: recjkmUO88wihv8Ci, field: lag, equals: "0Y" }
   rule: lag-matches-start
   found: { date: 2026-11-09, by: "lag audit (predecessor start + lag vs startDate, live Airtable)", sha: 8e73bfc }
-  fixed: { date: null, sha: null }
+  fixed: { date: 2026-11-13, sha: null }
   github: null
   affects: []
   notes: >-
     Checks assume the SS option; adjust them if FS 0Y is chosen.
+    Fixed in Airtable 2026-11-13: event 125 Exodus from Egypt (recjkmUO88wihv8Ci) lag changed from
+    "40Y" FS to "0Y" FS; startDate -1490 unchanged; predecessor remains Moses Flees Pharaoh
+    (recwofVaBASTvL8lL, -1530, duration 40Y). -1530 + 40Y duration + 0Y = -1490, which removes the
+    double count of the 40 years in Midian. Jones, Appendix F: flight 1531 BC, Exodus 1491 BC.
+    Only the lag field changed. fixed.sha to be filled from the next export.
 
 - id: DQ-0040
   title: Reign of Amaziah synchronism points to Joash of Judah, not Jehoash of Israel
@@ -1050,7 +1063,7 @@
 
 - id: DQ-0042
   title: Reign of Jehoram (Judah) lag taken from the reverse synchronism
-  status: open
+  status: fixed
   type: wrong-value
   severity: low
   table: events
@@ -1068,9 +1081,13 @@
     - { record: recb9vQAySe8NXtZn, field: lag, equals: "4Y" }
   rule: lag-matches-start
   found: { date: 2026-11-09, by: "lag audit (predecessor start + lag vs startDate, live Airtable)", sha: 8e73bfc }
-  fixed: { date: null, sha: null }
+  fixed: { date: 2026-11-13, sha: null }
   github: null
   affects: []
+  notes: >-
+    Fixed in Airtable 2026-11-13: lag on recb9vQAySe8NXtZn changed from "2Y" to "4Y" (lagType SS and
+    predecessor Reign of Joram unchanged; -896 + 4 = -892 matches startDate). Only the lag field changed.
+    fixed.sha to be filled from the next export.
 
 - id: DQ-0043
   title: Reign of Jehoash (Israel) lag counts to his co-reign, start is his sole reign
