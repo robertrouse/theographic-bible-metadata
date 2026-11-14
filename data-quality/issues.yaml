@@ -2022,7 +2022,7 @@
     not change the journey-file coordinates for these two stops.
 - id: DQ-0065
   title: First-journey Perga–Syrian Antioch land line should be a sea leg from Attalia
-  status: open
+  status: wontfix
   type: wrong-value
   severity: high
   table: places
@@ -2055,13 +2055,15 @@
   github: null
   affects: [geo, viz.bible/journeys]
   notes: >-
-    Effort: medium (editorial call plus new sea geometry). This path is on the
-    published map at https://viz.bible/journeys/ so severity is high. Do not
-    bulk-edit the GeoJSON until the replacement is reviewed. Related First-journey
-    note, not part of this fix unless the review says so: feat 88 (Antioch of
-    Pisidia → Perga return) is looser than the outbound Wilson 2009 route (feat 85,
-    Via Sebaste, median 0.66 km, 100% within 5 km); if the return was meant to
-    retrace the outbound road, reuse feat 85 in reverse after review.
+    Closed Nov 14 2026 as not a defect. Feat 103 was drawn from the ORBIS
+    (https://orbis.stanford.edu/) fastest route Perge → Attalea (road), coastal sea
+    route via Side, Anemurium, Corycus and Pyramos to Seleukeia Pieria, then up the
+    Orontes to Antiochia. It lies within 5 km of that ORBIS route for 99% of its
+    length (median 2.4 km). The Itiner-e comparison flagged it only because it
+    measured a sea route against land roads. Robert keeps it as one leg because it is
+    one leg of the trip in the biblical narrative (Acts 14:25-26) and is referenced
+    that way elsewhere. No data change.
+
 - id: DQ-0066
   title: Missing named stop at the Phrygian junction on Paul's second journey
   status: open
