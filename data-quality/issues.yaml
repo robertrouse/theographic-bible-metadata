@@ -456,7 +456,7 @@
 
 - id: DQ-0017
   title: kjvName carries a disambiguation in parentheses on eight places
-  status: open
+  status: fixed
   type: wrong-value
   severity: low
   table: places
@@ -471,25 +471,43 @@
     - { id: reckXhjBX8I6jSNkg, key: "sidon_1094 (Sidon (the great))" }
   field: kjvName
   current: see records
-  proposed: The KJV name alone in kjvName; the parenthetical only in displayTitle.
+  proposed: >-
+    antioch_68 "Antioch"; antioch_69 "Antioch"; benjamin-territory_1293 "Benjamin";
+    east-manasseh-half-tribe_1290 "half tribe of Manasseh"; ephraim-territory_1292 "Ephraim";
+    judah-southern_1281 "Judah"; sidon_494 "Zidon" (Josh 11:8); sidon_1094 "great Zidon" (Josh 19:28).
+    displayTitle left unchanged.
   evidence: >-
     kjvName is the name as the KJV text spells it. theographic-web strips a trailing
     parenthetical into its title field. Issue #49 counted four; there are eight at 3f461f2.
   checks:
-    - { record: recKAFuMIt8BAi2OH, field: kjvName, not_matches: "\\(" }
-    - { record: recevhMicAECGWRVk, field: kjvName, not_matches: "\\(" }
-    - { record: recMRitcM5QeA7Q4M, field: kjvName, not_matches: "\\(" }
-    - { record: rechavO1cdznGQVRh, field: kjvName, not_matches: "\\(" }
-    - { record: rect3olmTnwW17ieJ, field: kjvName, not_matches: "\\(" }
-    - { record: recM4RAfBVSEH5W7l, field: kjvName, not_matches: "\\(" }
-    - { record: recRBhWSqBkqZk8fe, field: kjvName, not_matches: "\\(" }
-    - { record: reckXhjBX8I6jSNkg, field: kjvName, not_matches: "\\(" }
+    - { record: recKAFuMIt8BAi2OH, field: kjvName, equals: "Antioch" }
+    - { record: recevhMicAECGWRVk, field: kjvName, equals: "Antioch" }
+    - { record: recMRitcM5QeA7Q4M, field: kjvName, equals: "Benjamin" }
+    - { record: rechavO1cdznGQVRh, field: kjvName, equals: "half tribe of Manasseh" }
+    - { record: rect3olmTnwW17ieJ, field: kjvName, equals: "Ephraim" }
+    - { record: recM4RAfBVSEH5W7l, field: kjvName, equals: "Judah" }
+    - { record: recRBhWSqBkqZk8fe, field: kjvName, equals: "Zidon" }
+    - { record: reckXhjBX8I6jSNkg, field: kjvName, equals: "great Zidon" }
   rule: null
   found: { date: 2026-09-15, by: "theographic-web CP-01 normalizer", sha: cfb1c48 }
-  fixed: { date: null, sha: null }
+  fixed: { date: 2026-11-13, sha: null }
   github: 49
   affects: [theographic-web]
-  notes: Sidon (Zidon) is an alternate spelling, which may belong in aliases instead.
+  notes: >-
+    Fixed in Airtable 2026-11-13: only the kjvName field (fldP1nGoBtLLVvu5A) changed; displayTitle
+    was left unchanged. Before → after:
+    antioch_68 (recKAFuMIt8BAi2OH) "Antioch (Syria)" → "Antioch";
+    antioch_69 (recevhMicAECGWRVk) "Antioch (Pisidia)" → "Antioch";
+    benjamin-territory_1293 (recMRitcM5QeA7Q4M) "Benjamin (Territory)" → "Benjamin";
+    east-manasseh-half-tribe_1290 (rechavO1cdznGQVRh) "East Manasseh (Half-Tribe)" → "half tribe of Manasseh";
+    ephraim-territory_1292 (rect3olmTnwW17ieJ) "Ephraim (Territory)" → "Ephraim";
+    judah-southern_1281 (recM4RAfBVSEH5W7l) "Judah (Southern)" → "Judah";
+    sidon_494 (recRBhWSqBkqZk8fe) "Sidon (Zidon)" → "Zidon" (Josh 11:8);
+    sidon_1094 (reckXhjBX8I6jSNkg) "Sidon (the great)" → "great Zidon" (Josh 19:28).
+    The last three follow the KJV wording rather than simply dropping the parenthetical.
+    displayTitles unchanged: Antioch (Syria), Antioch (Pisidia), Benjamin (Territory),
+    East Manasseh (Half-Tribe), Ephraim (Territory), Kingdom of Judah, Sidon, Sidon.
+    fixed.sha to be filled from the next export.
 
 - id: DQ-0018
   title: Five possessive duplicate place records with no verses
