@@ -14,7 +14,7 @@ Fixed in Airtable on November 14. These changes reach `json/` and `CSV/` in the 
   - Four framing spans: *Babylonian Captivity* (606–536 BC), *Return from Exile* (536–440 BC), *Reign of Darius (Ahasuerus)* and *Reign of Artaxerxes*. *Reign of Nebuchadnezzar* and *Construction of the Second Temple* are also new spans.
   - The three deportations, *Fall of Jerusalem* (586 BC), *Fall of Babylon* (539 BC), *Cyrus decrees the rebuilding of the Temple* and *Exiles return with Zerubbabel* (536 BC), and *Second Temple dedicated* (516 BC).
   - Esther (*Esther is made queen*, *Haman plots to destroy the Jews*, *Haman is hanged*, *The Jews defeat their enemies*), Ezra (*Ezra leads exiles to Jerusalem*, *Exiles put away their foreign wives*) and Nehemiah (from *Nehemiah mourns for Jerusalem* to *Nehemiah goes back to Artaxerxes*).
-- **People:** *Azariah* (`azariah_545`), Daniel's companion, now lists his Babylonian name Abed-nego as an alias, like *Shadrach* (Hananiah) and *Meshach* (Mishael).
+- **People:** *Azariah* (`azariah_545`), Daniel's companion, now lists his Babylonian name Abed-nego as an alias, like *Shadrach* (Hananiah) and *Meshach* (Mishael). His disambiguation note, which wrongly said Meshach, now reads "Azariah (Abed-nego)" (DQ-0069).
 
 Fixed in Airtable on November 9, after that month's export. These changes reach `json/` and `CSV/` in the next export.
 
