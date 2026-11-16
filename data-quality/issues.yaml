@@ -2134,7 +2134,7 @@
     names only regions). Feature counts updated from 112 to 111.
 - id: DQ-0067
   title: Straight-lined Tyre–Ptolemais–Caesarea and Athens–Corinth legs off Itiner-e roads
-  status: open
+  status: wontfix
   type: wrong-value
   severity: medium
   table: places
@@ -2178,18 +2178,12 @@
   github: null
   affects: [geo, viz.bible/journeys]
   notes: >-
-    Effort: medium (visual review, selective snap, and licence attribution).
-    Design before bulk-fixing; do not overwrite Wilson 2009 or Thompson & Wilson
-    2016 choices (see DQ-0065 note on feat 85 / feat 88, and DQ-0066 for the
-    already on-road Phrygia corridor). Related findings from the same comparison,
-    to review in the same pass but not the primary snap list: (1) missing
-    Corinth → Cenchreae land connector on the Second journey (~10.52 km gap
-    before the Cenchreae → Ephesus sea leg, Acts 18:18); (2) Third-journey
-    feat 9 ends 9.865 km SSW of the Athens stop and feat 89 starts at that same
-    missed coordinate; (3) Rome-journey feat 70 Syracuse → Rhegium is a 2-vertex
-    121 km straight line and should be treated as a sea leg (Acts 28:12-13), not
-    snapped to Italian coastal roads. Itiner-e maps the network around 150 CE;
-    avoid roads with a construction date after about 60 CE when snapping.
+    Closed Nov 15 2026 as not a defect. The three legs (feat 96 Tyre → Ptolemais,
+    feat 42 Ptolemais → Caesarea, feat 26 Athens → Corinth) are deliberate sea
+    legs drawn per Wilson, not straight-lined land legs. Acts 21:7 describes
+    Tyre → Ptolemais as a voyage. The Itiner-e comparison flagged them only
+    because it measured sea routes against land roads. Robert keeps them as
+    drawn after an Itiner-e overlay review on 2026-11-15. No data change.
 - id: DQ-0068
   title: Two Philips spelled "Phillip" in displayTitle
   status: fixed
