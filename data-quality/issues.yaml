@@ -1502,7 +1502,7 @@
 
 - id: DQ-0053
   title: "Reign and kingdom spans end a year off Jones because durations count years inclusively"
-  status: open
+  status: wontfix
   type: off-by-one
   severity: low
   table: events
@@ -1558,7 +1558,14 @@
   github: null
   affects: []
   notes: >-
-    Related: DQ-0043 (Jehoash co-reign) and DQ-0044 (Omri) also touch spans listed here; fix them together. Ahaziah of Israel, Ahaziah of Judah and Zachariah need a decision rather than a mechanical change.
+    Closed Nov 16 2026 as not a defect. Robert chose to keep the biblical
+    official regnal years as durations, with start + duration understood as
+    an approximate end. A 16 Nov 2026 refresh confirmed all 19 starts and
+    durations were unchanged since the issue was found; no dependents use
+    FS links, and timelines do not use duration (see
+    /workspace/drafts/dq0053-refresh-2026-11-16.md). All 19 durations,
+    including Zachariah's 11Y and both Ahaziahs, stay as they are. No data
+    change.
 
 - id: DQ-0054
   title: "HIGH PRIORITY: exile and return events are missing (606-442 BC)"
