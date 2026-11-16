@@ -2407,3 +2407,182 @@
     repository. The geo/bible-places.geojson "Kingdom of Judah" feature
     (judah-southern_1281) is a MultiPoint with an extra point [35.263257,
     31.853294] that is not in Airtable (Airtable has only 31.776667, 35.234167).
+
+- id: DQ-0073
+  title: "Emmaus and Bethlehem of Zebulun have Recogito/GeoNames links to the wrong places"
+  status: open
+  type: bad-link
+  severity: low
+  table: places
+  records:
+    - { id: recEPbLJxiGEZFkeU, key: "emmaus_382 (Emmaus, Luke 24:13)" }
+    - { id: recsyolL81TBx45nu, key: "bethlehem_219 (Bethlehem of Zebulun, Josh 19:15)" }
+  field: recogitoUri, recogitoLat, recogitoLon
+  current: >-
+    emmaus_382: recogitoUri http://sws.geonames.org/563481 (Emmaus, Tver Oblast, Russia),
+    recogitoLat/Lon 56.78055, 36.115, 2,775 km from the display point 31.83945022,
+    34.98952933 (OpenBible). bethlehem_219: recogitoUri http://sws.geonames.org/284315
+    (Bethlehem in Judah / West Bank), recogitoLat/Lon 31.70487, 35.20376, 115 km from the
+    display point 32.735379, 35.189704. Display latitude/longitude are correct for both
+    (DQ-0064 stopped using Recogito), but the bad links are still exported in places.json,
+    served by the GraphQL API, and used as the place `source` in
+    neo4j/import/nodes/places.cypher. Confirmed in live Airtable on 2026-11-16.
+  proposed: >-
+    emmaus_382: clear recogitoUri, recogitoLat and recogitoLon. Do not substitute one
+    GeoNames id; the Luke 24 site is disputed (OpenBible lists six candidates).
+    bethlehem_219: replace recogitoUri with http://sws.geonames.org/295453 (Bet Lehem
+    HaGlilit) or clear it, and clear recogitoLat/recogitoLon. Leave latitude/longitude
+    unchanged. Superseded if the Recogito fields are retired first (DQ-0074).
+  evidence: >-
+    Reported upstream on Bible Aquifer's ACAI dataset, which carries the same Theographic
+    Recogito values: https://github.com/BibleAquifer/ACAI/issues/12 (Emmaus) and
+    https://github.com/BibleAquifer/ACAI/issues/13 (Bethlehem of Zebulun), with full
+    audits at https://github.com/icfmp/ACAI/issues/5 and
+    https://github.com/icfmp/ACAI/issues/8. GeoNames 563481:
+    https://www.geonames.org/563481 ; GeoNames 284315: https://www.geonames.org/284315 ;
+    GeoNames 295453: https://www.geonames.org/295453 . OpenBible Emmaus candidates:
+    https://www.openbible.info/geo/ancient/ae7274b .
+  checks:
+    - { record: recEPbLJxiGEZFkeU, field: recogitoUri, not_contains: "563481" }
+    - { record: recsyolL81TBx45nu, field: recogitoUri, not_contains: "284315" }
+  rule: null
+  found: { date: 2026-11-16, by: "Bible Aquifer ACAI review (issues #12, #13)", sha: 18cb045 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [api, neo4j]
+  notes: >-
+    Effort: Small. Neither issue was fixed upstream as of 2026-11-16 (opened that day by
+    a third party). Specific instances of DQ-0074.
+
+- id: DQ-0074
+  title: "Recogito points are more than 25 km from the display coordinates in 215 places"
+  status: open
+  type: bad-link
+  severity: low
+  table: places
+  records: []
+  field: recogitoUri, recogitoLat, recogitoLon, recogitoStatus
+  current: >-
+    Of 416 places with both display and Recogito coordinates in json/places.json at
+    18cb045, 215 differ by more than 25 km, 171 by more than 100 km and 136 by more than
+    500 km. By source: 118 GeoNames, 81 Pleiades, 13 DARE, 3 Harvard TGAZ links. Most are
+    same-name modern places, e.g. sharon_1064 (13,860 km), nain_872 (Mexico),
+    bethel_203 (Canada), dothan_342 (Alabama), ai_37, siloam_1096, ramoth_981/982/983
+    (Asheville). 37 of the 215 are marked recogitoStatus VERIFIED. 11 places have only
+    one of recogitoLat/recogitoLon (adria_30, azotus_132, chios_296, clauda_280,
+    field_1229, hazor_549, lasea_717, most_holy_825, most_holy_place_826, phenice_945,
+    phrygia_946).
+  proposed: >-
+    Decide between (a) retiring the Recogito fields and the code that reads them
+    (neo4j/import/nodes/places.cypher `p.source`, api/netlify/functions/graphql.js, ETL
+    and docs) or (b) clearing the bad links in bulk, keeping only matches within a
+    threshold. Display coordinates are unaffected (DQ-0064 routes around Recogito).
+  evidence: >-
+    /workspace/drafts/aquifer-recogito-vs-latlon.csv (km, slug, recogitoUri,
+    recogitoStatus, recogitoLabel, display and Recogito coordinates, isAlias), computed
+    from json/places.json at 18cb045 on 2026-11-16. Prompted by Bible Aquifer ACAI issues
+    https://github.com/BibleAquifer/ACAI/issues/12 and
+    https://github.com/BibleAquifer/ACAI/issues/13 (see DQ-0073).
+  checks: []
+  rule: null
+  found: { date: 2026-11-16, by: "Bible Aquifer ACAI review (Recogito distance scan)", sha: 18cb045 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [api, neo4j]
+  notes: >-
+    Effort: Large (bulk edit or design decision). Cross-ref DQ-0064 (fixed; display
+    coordinates no longer use Recogito), DQ-0072 (Airtable vs GeoJSON sync; the GeoJSON
+    has no Recogito fields) and the Recogito retirement task on the Master Task List.
+    DQ-0073 covers two specific cases.
+
+- id: DQ-0075
+  title: "Five people are linked to another person's Easton entry"
+  status: open
+  type: bad-link
+  severity: medium
+  table: people
+  records:
+    - { id: recVrO057QLxwxEse, key: "asahiah_324 (Asahiah) linked to Easton 'Isaiah 1' (the prophet)" }
+    - { id: recYnS78qsArMZfh5, key: "medan_1978 (Medan) linked to Easton 'Dedan 2'" }
+    - { id: rec5LjGfCEP8klGHt, key: "manasseh_1930 (Manasseh son of Hezekiah) linked to Easton 'Manasseh 1' (son of Joseph)" }
+    - { id: recs485VRY8zagFCP, key: "nathan_2155 (Nathan, 1 Chr 2:36) linked to Easton 'Nathan 1' (the prophet)" }
+    - { id: recauQ3IPfRTuQbBj, key: "noah_2211 (Noah daughter of Zelophehad) linked to Easton 'Noah' (the patriarch)" }
+  field: eastons, dictText (people); matchSlugs (easton)
+  current: >-
+    Each record's eastons link points to the entry for a different, same-name (or
+    neighbouring) person, so its dictText shows that person's article, e.g. asahiah_324
+    dictText begins "The son of Amoz". Correct entries exist: Medan (recgnnt8xNAcPRVpl,
+    already linked to medan_1978 in matchSlugs) and Manasseh 2 (recqxWugq0Gi9X3So); Asahiah,
+    Nathan of 1 Chr 2:36 and Noah daughter of Zelophehad have no Easton entry of their own.
+    Easton matchSlugs disagree with the people links: Dedan 2 (recezYAnrERuWooZz) says
+    "unmatched" but is linked to dedan_999 and medan_1978; James 1 (recgxWlZdif8QuvP9, son
+    of Zebedee) lists james_719 (brother of Jesus). Four further pairs share one entry
+    where Easton itself merges two people (judgement calls): aram_285/aram_286 ('Aram'),
+    gaius_1269/gaius_1271 ('Gaius 1'), heman_1488/heman_1489 ('Heman 1'),
+    james_718/james_719 ('James 2'). All five records have their own definitions, so tweb
+    shows the correct text today (Easton is only the fallback).
+  proposed: >-
+    Remove the wrong eastons links: asahiah_324 → none; medan_1978 → Medan only;
+    manasseh_1930 → Manasseh 2; nathan_2155 → none; noah_2211 → none. Refresh matchSlugs
+    for Dedan 2 and James 1 to match the links. Decide whether to keep the four
+    judgement-call pairs (Easton's own identification) or link only the person Easton
+    describes first.
+  evidence: >-
+    json/people.json and json/easton.json at 18cb045 (people sharing an eastons link).
+    Same class of problem Bible Aquifer fixed in ACAI, where a dictionary article about
+    one person was linked to every same-name person:
+    https://github.com/BibleAquifer/ACAI/pull/7 (commit c136518).
+  checks:
+    - { record: recVrO057QLxwxEse, field: eastons, not_contains: "recLWS04KPcL6KJDl" }
+    - { record: recYnS78qsArMZfh5, field: eastons, not_contains: "recezYAnrERuWooZz" }
+    - { record: rec5LjGfCEP8klGHt, field: eastons, not_contains: "recLVuF3Cyx42nwko" }
+    - { record: recs485VRY8zagFCP, field: eastons, not_contains: "recmJGDMUlZA8JjVL" }
+    - { record: recauQ3IPfRTuQbBj, field: eastons, not_contains: "recTmFMJqa8qVREZl" }
+  rule: null
+  found: { date: 2026-11-16, by: "Bible Aquifer ACAI review (PR #7 analogue)", sha: 18cb045 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [tweb]
+  notes: >-
+    Effort: Medium. Places also share eight Easton entries across canonical records
+    (Baalath, Egypt, Etam 1, Holy place, Lebanon, Riblah, Succoth 2, Tiphsah); these
+    looked plausible and are not part of this item.
+
+- id: DQ-0076
+  title: "No Gadara/Gerasa/Gergesa place; the Gadarene verses and event lack a location"
+  status: open
+  type: missing-record
+  severity: medium
+  table: places
+  records:
+    - { id: rec9u0H2o5rXUFDAg, key: "Matt.8.28 (country of the Gergesenes), no place tag" }
+    - { id: recl67r4YUZ7vGJE6, key: "Mark.5.1 (country of the Gadarenes), no place tag" }
+    - { id: recCnIzG3A6cur2rj, key: "Luke.8.26 (country of the Gadarenes), tagged only galilee_433" }
+    - { id: recXUdjkNNjZ37ddP, key: "Luke.8.37 (country of the Gadarenes), no place tag" }
+    - { id: recY3vd5gVnwqoRV1, key: "event 387 Gadarene Demoniacs, no location" }
+  field: places (verses), locations (events)
+  current: >-
+    json/places.json has no Gadara, Gerasa or Gergesa record (only decapolis_328 nearby).
+    Matt 8:28, Mark 5:1 and Luke 8:37 have no place tag; Luke 8:26 is tagged only to
+    galilee_433 ("over against Galilee"). Event 387 "Gadarene Demoniacs" has no location.
+  proposed: >-
+    Research and design first: add a region place for the country of the
+    Gadarenes/Gerasenes/Gergesenes (the KJV demonyms are textual variants of one
+    district on the east shore of the Sea of Galilee), and decide whether Gadara (Umm
+    Qais) and Gerasa (Jerash) also get their own city records; they are separate
+    Decapolis cities and must not be merged. Tag the four verses (structured arrays plus
+    mdText/richText links), keep or drop Galilee on Luke 8:26 after review, set event 387's
+    location, and add GeoJSON features in sync (Pleiades where a confident match).
+  evidence: >-
+    Verse text: Matt 8:28, Mark 5:1, Luke 8:26, 8:37. Prompted by a third-party audit of
+    Bible Aquifer's ACAI Gadara/Gerasa records: https://github.com/icfmp/ACAI/issues/7 ,
+    which documents the SBLGNT readings and variants and that the two cities are distinct.
+  checks: []
+  rule: null
+  found: { date: 2026-11-16, by: "Bible Aquifer ACAI review (icfmp/ACAI#7)", sha: 18cb045 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [geo, events]
+  notes: >-
+    Effort: Medium (new place record(s) plus research). New place records and verse links
+    are reviewed by Robert before any Airtable write.
