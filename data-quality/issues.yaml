@@ -1064,7 +1064,7 @@
     - { record: rec75MawjODD5ju3b, field: lag, equals: "1Y" }
   rule: lag-matches-start
   found: { date: 2026-11-09, by: "lag audit (predecessor start + lag vs startDate, live Airtable)", sha: 8e73bfc }
-  fixed: { date: 2026-11-16, sha: null }
+  fixed: { date: 2026-11-16, sha: 6dc5de5 }
   github: null
   affects: []
   notes: >-
@@ -1074,7 +1074,7 @@
     rec75MawjODD5ju3b) predecessor Reign of Joash (recwy2j4O3x7NcWz5) -> Reign of Jehoash
     (rec70XpPIr8MiLTVb, -839); lag 2Y -> 1Y SS; start -838 and 29Y duration unchanged
     (-839 + 1 = -838). Per 2 Ki 14:1 and Jones, Appendix F (Jehoash sole rex 840 BC, Amaziah
-    839 BC). Follows the DQ-0043 fix. fixed.sha to be filled from the next export.
+    839 BC). Follows the DQ-0043 fix. Exported in 6dc5de5.
 
 - id: DQ-0041
   title: Reign of Jotham synchronism points to Pekahiah instead of Pekah
@@ -1152,7 +1152,7 @@
     - { record: rec70XpPIr8MiLTVb, field: startDate, equals: -839 }
   rule: lag-matches-start
   found: { date: 2026-11-09, by: "lag audit (predecessor start + lag vs startDate, live Airtable)", sha: 8e73bfc }
-  fixed: { date: 2026-11-16, sha: null }
+  fixed: { date: 2026-11-16, sha: 6dc5de5 }
   github: null
   affects: []
   notes: >-
@@ -1160,8 +1160,8 @@
     Amaziah's synchronism (DQ-0040) and the 16Y duration.
     Fixed in Airtable 2026-11-16 (option 1, sole reign): Reign of Jehoash (eventID 197,
     rec70XpPIr8MiLTVb) lag 37Y -> 39Y SS; predecessor Reign of Joash (-878), start -839 and 16Y
-    duration unchanged (-878 + 39 = -839). Amaziah's synchronism updated in DQ-0040. fixed.sha to
-    be filled from the next export.
+    duration unchanged (-878 + 39 = -839). Amaziah's synchronism updated in DQ-0040. Exported in
+    6dc5de5.
 
 - id: DQ-0044
   title: Reign of Omri lag counts to his sole rule, start is when the army made him king
@@ -1186,7 +1186,7 @@
     - { record: recT4xyx6gO1r4MMQ, field: lag, equals: "31Y" }
   rule: lag-matches-start
   found: { date: 2026-11-09, by: "lag audit (predecessor start + lag vs startDate, live Airtable)", sha: 8e73bfc }
-  fixed: { date: 2026-11-16, sha: null }
+  fixed: { date: 2026-11-16, sha: 6dc5de5 }
   github: null
   affects: []
   notes: >-
@@ -1199,7 +1199,7 @@
     added as a participant beside Tibni, Tirzah (recj04aKt1MXd5eDY) as the location, and
     1Kgs.16.23 (recmXb3Mmqa0qVOMF) as a verse beside 1Kgs.16.22. No new event was added; Reign
     of Tibni already covers the civil war. Jones, Appendix F (army makes Omri king 929 BC; Tibni
-    dies, Omri rules alone 925 BC). fixed.sha to be filled from the next export.
+    dies, Omri rules alone 925 BC). Exported in 6dc5de5.
 
 - id: DQ-0045
   title: Reign of Hezekiah lag is one year short of Jones's dates
@@ -1888,7 +1888,7 @@
     - { record: recRaC0iASExzdMez, field: richText, matches: "pharaoh_2336" }
   rule: null
   found: { date: 2026-11-09, by: "DQ-0054 exile/return draft (verse tagging audit)", sha: 608818e }
-  fixed: { date: 2026-11-16, sha: null }
+  fixed: { date: 2026-11-16, sha: 6dc5de5 }
   github: null
   affects: []
   notes: >-
@@ -1899,7 +1899,7 @@
     links were updated in the same edit. god_1324 on Jer.37.7 was left unchanged.
     Jones, Chart Five p. 201a: "Zedekiah sends to Pharaoh Hophra (588-569) for
     help. (Jer 37:5-11, 34:21-22; Ezk 17:15-21)." Jer.43.9 and Ezek.30.24 remain
-    on pharaoh_2331 for a separate pass. fixed.sha to be filled from the next export.
+    on pharaoh_2331 for a separate pass. Exported in 6dc5de5.
 
 - id: DQ-0061
   title: "Jer 46:2 names Pharaoh-necho but is missing the Pharaoh-nechoh person tag"
@@ -1928,7 +1928,7 @@
     - { record: recQem8B3FnExDmgT, field: richText, matches: "pharaoh-nechoh_2337" }
   rule: null
   found: { date: 2026-11-09, by: "DQ-0054 exile/return draft (verse tagging audit)", sha: 608818e }
-  fixed: { date: 2026-11-16, sha: null }
+  fixed: { date: 2026-11-16, sha: 6dc5de5 }
   github: null
   affects: []
   notes: >-
@@ -1936,7 +1936,7 @@
     pharaoh-nechoh_2337 (recj4jStie8ofBOVu), added first in verse order, alongside
     nebuchadnezzar_2167, jehoiakim_1085 and josiah_1730. mdText and richText wrap
     "Pharaoh-necho" as a person link in the same edit. verseText, places, yearNum
-    and event were not changed. fixed.sha to be filled from the next export.
+    and event were not changed. Exported in 6dc5de5.
 
 - id: DQ-0062
   title: "Exile/return verse yearNum values follow a non-Jones chronology"
@@ -2302,11 +2302,22 @@
 
 - id: DQ-0070
   title: "Exile-era events outside Appendix F still missing (Death of Jehoiakim, Gedaliah, lions' den, etc.)"
-  status: open
+  status: fixed
   type: missing-record
   severity: low
   table: events
-  records: []
+  records:
+    - { id: recpfaeNXeYrmVIiB, key: "Death of Jehoiakim (eventID 502)" }
+    - { id: recopCn3BPdN3cBcS, key: "Gedaliah is made governor (eventID 503)" }
+    - { id: recI4D0gZzlPtmDTC, key: "Ishmael kills Gedaliah (eventID 504)" }
+    - { id: recgESLpuqbPEKQ8T, key: "The remnant flees to Egypt (eventID 505)" }
+    - { id: recJgiI6WzYiQuZRD, key: "Daniel in the lions' den (eventID 506)" }
+    - { id: recxLPEiIoeEMWMdl, key: "The altar is rebuilt (eventID 507)" }
+    - { id: recIUEZuambXzSyIK, key: "Ezra reads the Law (eventID 508)" }
+    - { id: recQRyi08hwxoG1km, key: "Mordecai uncovers a plot against the king (eventID 509)" }
+    - { id: rec1Fm6Y4eYD5WQt4, key: "Esther goes before the king (eventID 510)" }
+    - { id: recbPhZ5Xyv7DzKOX, key: "Nehemiah's reforms (eventID 511)" }
+    - { id: reczXoJBwhE9j4qMW, key: "Ahasuerus honors Mordecai (eventID 490)" }
   field: events
   current: >-
     No Theographic event for these narrative episodes in 598-432 BC; DQ-0054 added only the
@@ -2325,16 +2336,41 @@
     Listed in the DQ-0054 draft (exile-return-events-2026-11-09.md, "Related events Appendix F
     doesn't list"). Jones's Appendix F has no line for them, so dates must come from Jones's
     text/charts or from the parent events (e.g. Reign of Darius (Ahasuerus), Reign of Artaxerxes).
-  checks: []
+  checks:
+    - { record: recpfaeNXeYrmVIiB, field: title, equals: "Death of Jehoiakim" }
+    - { record: recopCn3BPdN3cBcS, field: title, equals: "Gedaliah is made governor" }
+    - { record: recI4D0gZzlPtmDTC, field: title, equals: "Ishmael kills Gedaliah" }
+    - { record: recgESLpuqbPEKQ8T, field: title, equals: "The remnant flees to Egypt" }
+    - { record: recJgiI6WzYiQuZRD, field: title, equals: "Daniel in the lions' den" }
+    - { record: recxLPEiIoeEMWMdl, field: title, equals: "The altar is rebuilt" }
+    - { record: recIUEZuambXzSyIK, field: title, equals: "Ezra reads the Law" }
+    - { record: recQRyi08hwxoG1km, field: title, equals: "Mordecai uncovers a plot against the king" }
+    - { record: rec1Fm6Y4eYD5WQt4, field: title, equals: "Esther goes before the king" }
+    - { record: recbPhZ5Xyv7DzKOX, field: title, equals: "Nehemiah's reforms" }
+    - { record: recpfaeNXeYrmVIiB, field: startDate, equals: "-597" }
+    - { record: recJgiI6WzYiQuZRD, field: startDate, equals: "-537" }
+    - { record: recIUEZuambXzSyIK, field: startDate, equals: "-535" }
+    - { record: recbPhZ5Xyv7DzKOX, field: startDate, equals: "-441" }
+    - { record: reczXoJBwhE9j4qMW, field: predecessor, contains: rec1Fm6Y4eYD5WQt4 }
   rule: null
   found: { date: 2026-11-09, by: "DQ-0054 exile/return draft (related events not drafted)", sha: 608818e }
-  fixed: { date: null, sha: null }
+  fixed: { date: 2026-11-16, sha: 6dc5de5 }
   github: null
   affects: []
   notes: >-
     Cross-ref DQ-0054. Fall of Samaria (722 BC), also listed in the draft, is tracked under
     DQ-0009. New events need verses, participants, locations and predecessor/lag links, and
     Robert inspects them before any Airtable write.
+    Fixed in Airtable 2026-11-16: 10 new events created (eventIDs 502-511), splitting
+    Gedaliah into Gedaliah is made governor (503, recopCn3BPdN3cBcS) and Ishmael kills
+    Gedaliah (504, recI4D0gZzlPtmDTC). Dates follow Jones (Death of Jehoiakim Dec 598 BC;
+    the altar rebuilt and Ezra reads the Law 536 BC) except Daniel in the lions' den, which
+    follows Ussher (538 BC). Ahasuerus honors Mordecai (eventID 490, reczXoJBwhE9j4qMW)
+    now follows Esther goes before the king (510) so the Esther events stay in order. 28
+    verse tags added: Ahasuerus (reck4FOoejZddGY7H) on ten Esther 5 verses, and Nehemiah
+    (recHC0HgcWgcXChGp) on eighteen Nehemiah 13 verses (first-person pronouns). Draft
+    definitions written for events 502-511 and for Birth of Joshua (recxpMPXHYq6CkN9U).
+    yearNum was not changed (Neh 8 remains -444). Exported in 6dc5de5.
 
 - id: DQ-0071
   title: "Two Judah region records; judah_1280 has no coordinates"
