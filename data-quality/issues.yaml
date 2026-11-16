@@ -1818,7 +1818,7 @@
 
 - id: DQ-0060
   title: "Jer 37:5, 37:7, 37:11 tag Pharaoh of the Exodus instead of Pharaoh-hophra"
-  status: open
+  status: fixed
   type: bad-link
   severity: medium
   table: verses
@@ -1850,19 +1850,22 @@
     - { record: recRaC0iASExzdMez, field: richText, matches: "pharaoh_2336" }
   rule: null
   found: { date: 2026-11-09, by: "DQ-0054 exile/return draft (verse tagging audit)", sha: 608818e }
-  fixed: { date: null, sha: null }
+  fixed: { date: 2026-11-16, sha: null }
   github: null
   affects: []
   notes: >-
-    Cross-ref DQ-0054. Standing rule: any verse tagging change must update both the
-    people array and the mdText/richText inline links together. Draft called out 37:5
-    and 37:7; Airtable read-back also shows Jer.37.11 on the same wrong person. Related
-    late-Judah "Pharaoh" verses still on pharaoh_2331 (Jer.43.9, Ezek.30.24) were not
-    in the draft and need a separate pass before changing.
+    Fixed in Airtable 2026-11-16: Jer.37.5 (recRaC0iASExzdMez), Jer.37.7
+    (recsW6O3bGX1ZcANQ) and Jer.37.11 (recISUk3S6FXgNHew) people changed from
+    pharaoh_2331 (recOdl9oB4UWmbiqP, "Pharaoh (of the Exodus)") to pharaoh_2336
+    (recwqt4vhH8t9M6lf, alsoCalled "Pharaoh-hophra"); mdText and richText inline
+    links were updated in the same edit. god_1324 on Jer.37.7 was left unchanged.
+    Jones, Chart Five p. 201a: "Zedekiah sends to Pharaoh Hophra (588-569) for
+    help. (Jer 37:5-11, 34:21-22; Ezk 17:15-21)." Jer.43.9 and Ezek.30.24 remain
+    on pharaoh_2331 for a separate pass. fixed.sha to be filled from the next export.
 
 - id: DQ-0061
   title: "Jer 46:2 names Pharaoh-necho but is missing the Pharaoh-nechoh person tag"
-  status: open
+  status: fixed
   type: missing-link
   severity: medium
   table: verses
@@ -1887,12 +1890,15 @@
     - { record: recQem8B3FnExDmgT, field: richText, matches: "pharaoh-nechoh_2337" }
   rule: null
   found: { date: 2026-11-09, by: "DQ-0054 exile/return draft (verse tagging audit)", sha: 608818e }
-  fixed: { date: null, sha: null }
+  fixed: { date: 2026-11-16, sha: null }
   github: null
   affects: []
   notes: >-
-    Cross-ref DQ-0054. Standing rule: update people plus mdText and richText together.
-    pharaoh-nechoh_2337 currently has no Jer 46 verse among its reverse links.
+    Fixed in Airtable 2026-11-16: Jer.46.2 (recQem8B3FnExDmgT) people now includes
+    pharaoh-nechoh_2337 (recj4jStie8ofBOVu), added first in verse order, alongside
+    nebuchadnezzar_2167, jehoiakim_1085 and josiah_1730. mdText and richText wrap
+    "Pharaoh-necho" as a person link in the same edit. verseText, places, yearNum
+    and event were not changed. fixed.sha to be filled from the next export.
 
 - id: DQ-0062
   title: "Exile/return verse yearNum values follow a non-Jones chronology"
