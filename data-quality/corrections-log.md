@@ -8,7 +8,11 @@ Found something that still looks wrong? [Open a data correction issue](https://g
 
 ## November 2026
 
-Fixed in Airtable on November 16. These changes reach `json/` and `CSV/` in the next export.
+Fixed in Airtable on November 16. Exported in [#101](https://github.com/robertrouse/theographic-bible-metadata/pull/101) (`6dc5de5`).
+
+- **Events:** Ten new events (eventIDs 502–511) cover exile-era episodes Jones's Appendix F does not list (DQ-0070). Gedaliah's appointment and murder are two events. *Ahasuerus honors Mordecai* now follows *Esther goes before the king*, so the Esther events stay in order. Dates follow Jones, except *Daniel in the lions' den*, which follows Ussher (538 BC). *Ezra reads the Law* is dated 536 BC, the same month as *The altar is rebuilt*.
+- **Verses:** Ahasuerus is now tagged on ten verses in Esther 5, and Nehemiah on eighteen verses in Nehemiah 13, including first-person pronouns (DQ-0070).
+- **Definitions:** Draft definitions were added for *Birth of Joshua* and the ten new events.
 
 - **Events:** *Reign of Jehoash* (Israel) now counts 39 years from the start of *Reign of Joash*, matching its sole reign in 840 BC (DQ-0043).
   - *Reign of Amaziah* now follows *Reign of Jehoash* with a 1-year lag, the synchronism in 2 Kgs 14:1 (Amaziah began in Jehoash's second year). The start date is unchanged (839 BC) (DQ-0040).
