@@ -1207,7 +1207,7 @@
 
 - id: DQ-0046
   title: Judgeship of Eli has a lag but no predecessor
-  status: needs-research
+  status: fixed
   type: bad-link
   severity: low
   table: events
@@ -1220,12 +1220,24 @@
     A lag with no predecessor has nothing to count from. Jones, Appendix F: Eli judges as High Priest
     1162 BC (stored -1161); Eli dies when the Ark is captured 1122 BC (-1121, 1 Sam 4:15-18, judged
     Israel 40 years). No obvious source for 28 years was found.
-  checks: []
+  checks:
+    - { record: rec3z1OqSDMH0rR7y, field: predecessor, contains: rec7nesNMNffYRe3F }
+    - { record: rec3z1OqSDMH0rR7y, field: lag, not_equals: "28Y" }
   rule: lag-has-predecessor
   found: { date: 2026-11-09, by: "lag audit (predecessor start + lag vs startDate, live Airtable)", sha: 8e73bfc }
-  fixed: { date: null, sha: null }
+  fixed: { date: 2026-11-15, sha: null }
   github: null
   affects: []
+  notes: >-
+    Fixed in Airtable 2026-11-15: event 145 Judgeship of Eli (rec3z1OqSDMH0rR7y) predecessor
+    set to Oppression by Ammon and Philistia (eventID 144, rec7nesNMNffYRe3F); the stray 28Y FS
+    lag and lag type were cleared. startDate -1161 unchanged. Predecessors are for ordering, per
+    Robert. In the same pass, 55 other events missing a predecessor were given sequential
+    predecessors with no lag. Birth of Joshua (eventID 501, recB0iCUqRuKrUdN8, startDate -1533)
+    was added; Lifetime of Joshua (eventID 124, rechguBS4b9kXx3z3) was moved to -1533 with Birth
+    of Joshua as predecessor; Death of Joshua (eventID 133, recnPiyyKviVUPHO6) now follows Birth
+    of Joshua with a 110Y FS lag; joshua_1727 (recLuZtSmAO6erIsc) birthYear is -1533. Only
+    Creation now lacks a predecessor. fixed.sha to be filled from the next export.
 
 - id: DQ-0047
   title: Death of Joshua has a lag but no predecessor, and Joshua's dates disagree by 13 years
