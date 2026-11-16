@@ -2294,7 +2294,7 @@
 
 - id: DQ-0071
   title: "Two Judah region records; judah_1280 has no coordinates"
-  status: needs-research
+  status: wontfix
   type: duplicate-record
   severity: low
   table: places
@@ -2320,8 +2320,13 @@
   github: null
   affects: [geo]
   notes: >-
-    Geo rule: Airtable and the GeoJSON must stay in sync; aliases show their canonical
-    place's coordinates.
+    Closed Nov 15 2026 as not a defect. judah_1280 stays an unlocated region. Its
+    27 verses are the tribal territory (16 from the Josh 15 allotment, plus hill
+    country, wilderness and cities of Judah); judah-southern_1281's 8 verses are
+    the divided-monarchy kingdom; they are not duplicates. judah_1280 is already
+    partOf the Kingdom of Judah, with 117 allotment towns as parts. Its
+    definition says it marks no single point; it has no canonicalPlace and no
+    coordinates, by design. Robert keeps it as-is. No data change.
 
 - id: DQ-0072
   title: "Sync geo/bible-places.geojson with the new Airtable coordinates"
@@ -2374,4 +2379,6 @@
   notes: >-
     Effort: large. Cross-ref DQ-0031 (the earlier, pre-switch count of 678 differing
     places, needs-research) and DQ-0064. GeoJSON changes are made directly in this
-    repository.
+    repository. The geo/bible-places.geojson "Kingdom of Judah" feature
+    (judah-southern_1281) is a MultiPoint with an extra point [35.263257,
+    31.853294] that is not in Airtable (Airtable has only 31.776667, 35.234167).
