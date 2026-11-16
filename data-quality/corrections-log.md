@@ -10,6 +10,8 @@ Found something that still looks wrong? [Open a data correction issue](https://g
 
 Fixed in Airtable on November 16. These changes reach `json/` and `CSV/` in the next export.
 
+- **Events:** *Reign of Jehoash* (Israel) now counts 39 years from the start of *Reign of Joash*, matching its sole reign in 840 BC (DQ-0043).
+  - *Reign of Amaziah* now follows *Reign of Jehoash* with a 1-year lag, the synchronism in 2 Kgs 14:1 (Amaziah began in Jehoash's second year). The start date is unchanged (839 BC) (DQ-0040).
 - **Verses:** Jer 37:5, 37:7 and 37:11 now tag Pharaoh-hophra (`pharaoh_2336`) instead of Pharaoh of the Exodus (`pharaoh_2331`). Jones, Chart Five p. 201a, identifies this Pharaoh as Hophra and cites Jer 37:5–11 (DQ-0060). Jer 43:9 and Ezek 30:24 remain on `pharaoh_2331` for a separate pass.
   - Jer 46:2 now tags Pharaoh-nechoh (`pharaoh-nechoh_2337`); the inline "Pharaoh-necho" links in mdText and richText were updated in the same edit (DQ-0061).
 
