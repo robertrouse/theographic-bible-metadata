@@ -1361,7 +1361,7 @@
 
 - id: DQ-0051
   title: "Tower of Babel date differs from Jones's Appendix F row (Seder Olam date)"
-  status: needs-research
+  status: wontfix
   type: wrong-value
   severity: low
   table: events
@@ -1380,7 +1380,11 @@
   github: null
   affects: []
   notes: >-
-    Chronology choice, not a typo. Robert treats Ussher as primary.
+    Closed Nov 15 2026 as not a defect. Ussher is the primary chronology;
+    -2245 (2246 BC) sits within Peleg's lifetime (Gen 10:25). Jones App. F
+    2008 BC is explicitly the Seder Olam date, and Manetho's 2242 BC is only
+    cited by Jones. Robert keeps the Airtable startDate -2245 as-is. No data
+    change.
 
 - id: DQ-0052
   title: "Acts chronology is 1-5 years off Jones; align the New Testament events with Jones"
