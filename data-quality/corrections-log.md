@@ -8,6 +8,12 @@ Found something that still looks wrong? [Open a data correction issue](https://g
 
 ## November 2026
 
+Fixed in Airtable on November 15. These changes reach `json/` and `CSV/` in the next export.
+
+- **Events:** *Judgeship of Eli* now follows *Oppression by Ammon and Philistia*, and the stray 28-year FS lag was cleared. The start date is unchanged (1162 BC). Predecessors are for ordering (DQ-0046). In the same pass, 55 other events that had no predecessor were given the previous event in sequence, with no lag. Only *Creation* now lacks a predecessor.
+  - *Birth of Joshua* was added (1534 BC, eventID 501). *Lifetime of Joshua* now starts in that year and follows the birth. *Death of Joshua* (1424 BC) now follows *Birth of Joshua*, with the same 110-year lag.
+- **People:** *Joshua* (`joshua_1727`) now has a birth year of 1534 BC (`-1533`).
+
 Fixed in Airtable on November 14. These changes reach `json/` and `CSV/` in the next export.
 
 - **Events:** 40 new events fill the gap between the first deportation and Nehemiah's return to Persia (606–442 BC), dated to Jones, Appendix F (DQ-0054). Each has verses, participants, locations and predecessor/lag links.
