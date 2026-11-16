@@ -12,6 +12,8 @@ Fixed in Airtable on November 16. These changes reach `json/` and `CSV/` in the 
 
 - **Events:** *Reign of Jehoash* (Israel) now counts 39 years from the start of *Reign of Joash*, matching its sole reign in 840 BC (DQ-0043).
   - *Reign of Amaziah* now follows *Reign of Jehoash* with a 1-year lag, the synchronism in 2 Kgs 14:1 (Amaziah began in Jehoash's second year). The start date is unchanged (839 BC) (DQ-0040).
+  - *Reign of Omri* now counts 27 years from the start of *Reign of Asa*, matching the year the army made him king (929 BC). The start date and 12-year duration are unchanged (DQ-0044).
+  - *Death of Tibni* now follows *Reign of Asa* with a 31-year lag, the synchronism in 1 Kgs 16:23 (Omri began to reign over all Israel in Asa's 31st year, 925 BC). Omri, Tirzah and 1 Kgs 16:23 were added to the event. The title, start date and 1-day duration are unchanged (DQ-0044).
 - **Verses:** Jer 37:5, 37:7 and 37:11 now tag Pharaoh-hophra (`pharaoh_2336`) instead of Pharaoh of the Exodus (`pharaoh_2331`). Jones, Chart Five p. 201a, identifies this Pharaoh as Hophra and cites Jer 37:5–11 (DQ-0060). Jer 43:9 and Ezek 30:24 remain on `pharaoh_2331` for a separate pass.
   - Jer 46:2 now tags Pharaoh-nechoh (`pharaoh-nechoh_2337`); the inline "Pharaoh-necho" links in mdText and richText were updated in the same edit (DQ-0061).
 
