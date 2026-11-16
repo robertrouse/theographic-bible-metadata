@@ -1044,7 +1044,7 @@
 
 - id: DQ-0040
   title: Reign of Amaziah synchronism points to Joash of Judah, not Jehoash of Israel
-  status: needs-research
+  status: fixed
   type: bad-link
   severity: medium
   table: events
@@ -1059,15 +1059,22 @@
     2 Ki 14:1 "In the second year of the reign of Jehoash son of Jehoahaz over Israel, Amaziah son
     of Joash became king of Judah". Jones, Appendix F: Jehoash sole rex over Israel 840 BC (-839),
     Amaziah 839 BC (-838); Joash of Judah 879 BC (-878), reigned 40 years (2 Ki 12:1).
-  checks: []
+  checks:
+    - { record: rec75MawjODD5ju3b, field: predecessor, contains: rec70XpPIr8MiLTVb }
+    - { record: rec75MawjODD5ju3b, field: lag, equals: "1Y" }
   rule: lag-matches-start
   found: { date: 2026-11-09, by: "lag audit (predecessor start + lag vs startDate, live Airtable)", sha: 8e73bfc }
-  fixed: { date: null, sha: null }
+  fixed: { date: 2026-11-16, sha: null }
   github: null
   affects: []
   notes: >-
     Needs a decision on what predecessor means for kings (synchronism vs. throne succession)
     before fixing. Either option makes the lag math work. Related: DQ-0041.
+    Fixed in Airtable 2026-11-16 (synchronism option): Reign of Amaziah (eventID 198,
+    rec75MawjODD5ju3b) predecessor Reign of Joash (recwy2j4O3x7NcWz5) -> Reign of Jehoash
+    (rec70XpPIr8MiLTVb, -839); lag 2Y -> 1Y SS; start -838 and 29Y duration unchanged
+    (-839 + 1 = -838). Per 2 Ki 14:1 and Jones, Appendix F (Jehoash sole rex 840 BC, Amaziah
+    839 BC). Follows the DQ-0043 fix. fixed.sha to be filled from the next export.
 
 - id: DQ-0041
   title: Reign of Jotham synchronism points to Pekahiah instead of Pekah
@@ -1127,7 +1134,7 @@
 
 - id: DQ-0043
   title: Reign of Jehoash (Israel) lag counts to his co-reign, start is his sole reign
-  status: needs-research
+  status: fixed
   type: wrong-value
   severity: low
   table: events
@@ -1140,15 +1147,21 @@
     2 Ki 13:10 "In the thirty-seventh year of Joash king of Judah, Jehoash son of Jehoahaz became king
     over Israel". Jones, Appendix F: Joash of Judah 879 BC (-878); Jehoash pro-rex 843 BC (37th year,
     36 elapsed), sole rex 840 BC (stored -839).
-  checks: []
+  checks:
+    - { record: rec70XpPIr8MiLTVb, field: lag, equals: "39Y" }
+    - { record: rec70XpPIr8MiLTVb, field: startDate, equals: -839 }
   rule: lag-matches-start
   found: { date: 2026-11-09, by: "lag audit (predecessor start + lag vs startDate, live Airtable)", sha: 8e73bfc }
-  fixed: { date: null, sha: null }
+  fixed: { date: 2026-11-16, sha: null }
   github: null
   affects: []
   notes: >-
     Choose whether the event starts at the co-reign or the sole reign. Moving the start also moves
     Amaziah's synchronism (DQ-0040) and the 16Y duration.
+    Fixed in Airtable 2026-11-16 (option 1, sole reign): Reign of Jehoash (eventID 197,
+    rec70XpPIr8MiLTVb) lag 37Y -> 39Y SS; predecessor Reign of Joash (-878), start -839 and 16Y
+    duration unchanged (-878 + 39 = -839). Amaziah's synchronism updated in DQ-0040. fixed.sha to
+    be filled from the next export.
 
 - id: DQ-0044
   title: Reign of Omri lag counts to his sole rule, start is when the army made him king
