@@ -1241,7 +1241,7 @@
 
 - id: DQ-0047
   title: Death of Joshua has a lag but no predecessor, and Joshua's dates disagree by 13 years
-  status: needs-research
+  status: fixed
   type: bad-link
   severity: low
   table: events
@@ -1258,10 +1258,12 @@
   evidence: >-
     Josh 24:29 "Joshua son of Nun, the servant of the LORD, died at the age of 110". Jones, Appendix
     F: Death of Joshua 1424 BC (approx.), stored -1423.
-  checks: []
+  checks:
+    - { record: recnPiyyKviVUPHO6, field: predecessor, contains: recB0iCUqRuKrUdN8 }
+    - { record: rechguBS4b9kXx3z3, field: startDate, equals: -1533 }
   rule: lag-has-predecessor
   found: { date: 2026-11-09, by: "lag audit (predecessor start + lag vs startDate, live Airtable)", sha: 8e73bfc }
-  fixed: { date: null, sha: null }
+  fixed: { date: 2026-11-15, sha: 7797ffb }
   github: null
   affects: [timeline-poster]
   notes: >-
@@ -1270,6 +1272,10 @@
     closed Nov 13 2026 as a duplicate of this entry. There is no Birth of Joshua event, so Death
     of Joshua's 110Y FS lag has no predecessor. Either the lifetime starts at -1533 or the death
     is at -1410; Jones, Appendix F gives the death as 1424 BC (approx.), stored -1423.
+    Fixed in Airtable 2026-11-15 and exported in PR #94 (7797ffb): Birth of Joshua (eventID 501,
+    recB0iCUqRuKrUdN8) added at -1533; Lifetime of Joshua start -1520 -> -1533 with predecessor
+    Birth of Joshua; Death of Joshua predecessor Birth of Joshua, lag 110Y FS, start -1423
+    unchanged. Verified in json/events.json at 7797ffb.
 
 - id: DQ-0048
   title: Eleven kings' lags counted the Bible's "Nth year" as N elapsed years
