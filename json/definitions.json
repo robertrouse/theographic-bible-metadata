@@ -127748,5 +127748,1108 @@
                 "Hitchcock"
             ]
         }
+    },
+    {
+        "id": "recVePoTBllqRMkmL",
+        "createdTime": "2026-11-15T00:05:49.000Z",
+        "fields": {
+            "slug": "babylonian_captivity_461",
+            "event": [
+                "recwYYlZM2GhIvGOM"
+            ],
+            "text": "The Babylonian Captivity was the seventy-year period in which the people of Judah served the king of Babylon and Jerusalem and its land lay desolate. Survivors of the sword were carried away to Babylon and remained servants to the Babylonian king and his sons until the rise of the Persian kingdom. Jeremiah announced the seventy years in advance, promising that afterward God would punish the king of Babylon and bring the exiles back. Daniel later read of the same seventy years in Jeremiah's writings. Chronicles links the span to the land keeping its sabbaths. Following Jones and Ussher, it is dated 606\u2013536 BC, from the first deportation in Jehoiakim's third year to Cyrus's decree.",
+            "citations": [
+                "reczuOjZPwieSF27O",
+                "recHfJsOhpZ7mtNrG",
+                "rec1Mmi1MnfBsysVj",
+                "receB3XX46cKVFI9V",
+                "recRe9TqnTA97zYRK",
+                "rech3Ve2oYc2QiLcz"
+            ],
+            "status": "draft",
+            "confidence": "high",
+            "model": "claude-opus-5",
+            "generatedAt": "2026-11-14",
+            "batchId": "msgbatch_01PY9BjLyLoGL2y63DboDU3E"
+        }
+    },
+    {
+        "id": "recMlbIul2bZIPKJD",
+        "createdTime": "2026-11-15T00:05:49.000Z",
+        "fields": {
+            "slug": "jehoiakim_becomes_nebuchadnezzar_s_servant_462",
+            "event": [
+                "rec0okRIFO8liLygG"
+            ],
+            "text": "Jehoiakim becomes Nebuchadnezzar's servant is the submission of Jehoiakim, king of Judah, to Nebuchadnezzar, king of Babylon. Nebuchadnezzar came up against Judah, and Jehoiakim served him for three years before rebelling (2 Kgs 24:1). Daniel dates the campaign to Jehoiakim's third year, when Nebuchadnezzar besieged Jerusalem and the Lord gave Jehoiakim into his hand, with part of the vessels of the house of God; these were taken to the land of Shinar and put in the treasure house of his god (Dan 1:1-2). Chronicles adds that Nebuchadnezzar bound Jehoiakim in fetters to carry him to Babylon (2 Chr 36:6-7). Jones and Ussher date the event to 606 BC.",
+            "citations": [
+                "recIyyaWNj5SNJ80m",
+                "rec88qzJ8W6QOuweN",
+                "recKLJ6x7mL1X9EiD",
+                "recJo1sTKEiCiOtl6",
+                "recGOySOxovQyqooG"
+            ],
+            "status": "draft",
+            "confidence": "high",
+            "model": "claude-opus-5",
+            "generatedAt": "2026-11-14",
+            "batchId": "msgbatch_01PY9BjLyLoGL2y63DboDU3E"
+        }
+    },
+    {
+        "id": "recmmuyw0Ie04oa8N",
+        "createdTime": "2026-11-15T00:05:49.000Z",
+        "fields": {
+            "slug": "first_deportation_to_babylon_463",
+            "event": [
+                "rec2zrYWSzS1HlfWP"
+            ],
+            "text": "The First deportation to Babylon was the removal of young men of Israel to Nebuchadnezzar's court after his siege of Jerusalem in Jehoiakim's third year, dated to 606 BC (Jones/Ussher) and counted as the opening stage of the Babylonian Captivity. The king ordered Ashpenaz, master of his eunuchs, to bring some of the children of Israel, of the royal line and the nobility (unblemished, good-looking, wise, knowledgeable and fit to serve in the palace) to be taught the learning and language of the Chaldeans (Dan 1:3-4). They were fed from the king's food and wine through three years of training before entering his service (Dan 1:5). Among them were four from Judah: Daniel, Hananiah, Mishael and Azariah, renamed Belteshazzar, Shadrach, Meshach and Abed-nego (Dan 1:6-7).",
+            "citations": [
+                "recLp3wnBLCs7ZIuR",
+                "recGApt0zqzxxap7m",
+                "rec5HhPg7GLZOVy0r",
+                "rec4IWT6SmtZB1Dt9",
+                "rec5hqLHN5hhaJjCH"
+            ],
+            "status": "draft",
+            "confidence": "medium",
+            "model": "claude-opus-5",
+            "generatedAt": "2026-11-14",
+            "batchId": "msgbatch_01PY9BjLyLoGL2y63DboDU3E"
+        }
+    },
+    {
+        "id": "recuu24XALPTWvtQt",
+        "createdTime": "2026-11-15T00:05:49.000Z",
+        "fields": {
+            "slug": "nebuchadnezzar_defeats_pharaoh_nechoh_at_carchemish_464",
+            "event": [
+                "receGE8PyBTLzcHyC"
+            ],
+            "text": "Nebuchadnezzar defeats Pharaoh-nechoh at Carchemish is the battle in which Nebuchadnezzar (Nebuchadrezzar), king of Babylon, defeated the army of Pharaoh-nechoh, king of Egypt, at Carchemish by the river Euphrates (Jer 46:2). Jeremiah dates the defeat to the fourth year of Jehoiakim son of Josiah, king of Judah, about 605 BC. Afterward the king of Babylon held all the territory that had belonged to Egypt, from the river of Egypt to the Euphrates, and the king of Egypt came out of his land no more (2 Kgs 24:7).",
+            "citations": [
+                "recQem8B3FnExDmgT",
+                "recp6sKtpDsD4Ty8v"
+            ],
+            "status": "draft",
+            "confidence": "high",
+            "model": "claude-opus-5",
+            "generatedAt": "2026-11-14",
+            "batchId": "msgbatch_01PY9BjLyLoGL2y63DboDU3E"
+        }
+    },
+    {
+        "id": "rec27yzbOjqVRonsb",
+        "createdTime": "2026-11-15T00:05:49.000Z",
+        "fields": {
+            "slug": "reign_of_nebuchadnezzar_465",
+            "event": [
+                "rec4iSJq8hw43xam3"
+            ],
+            "text": "The Reign of Nebuchadnezzar was the period during which Nebuchadnezzar (also spelled Nebuchadrezzar) ruled as king of Babylon. Jeremiah dates it against the kings of Judah: Nebuchadnezzar's first year matched the fourth year of Jehoiakim son of Josiah (Jer 25:1), and his eighteenth year matched the tenth year of Zedekiah (Jer 32:1). Following Jones and Ussher, his reign is dated from his accession in about 605 BC and lasted 43 years, to about 562 BC.",
+            "citations": [
+                "recTBs9iqhtgdDltB",
+                "recdyTKDd8CiuhhGg"
+            ],
+            "status": "draft",
+            "confidence": "medium",
+            "model": "claude-opus-5",
+            "generatedAt": "2026-11-14",
+            "batchId": "msgbatch_01PY9BjLyLoGL2y63DboDU3E"
+        }
+    },
+    {
+        "id": "recqGpPZ6Xujl8yey",
+        "createdTime": "2026-11-15T00:05:49.000Z",
+        "fields": {
+            "slug": "daniel_interprets_nebuchadnezzar_s_dream_466",
+            "event": [
+                "reckkkmzymtS0RnfL"
+            ],
+            "text": "Daniel interprets Nebuchadnezzar's dream is the episode in Babylon, in Nebuchadnezzar's second year (about 604 BC), in which the king demanded that his wise men tell him his dream and its meaning, and ordered them all killed when they could not. Told of the decree by Arioch, Daniel asked the king for time and with Hananiah, Mishael and Azariah sought mercy from God; the secret was revealed to him in a night vision. He described a great image of gold, silver, brass, iron and clay, broken by a stone cut without hands, and read it as a succession of kingdoms ending in a kingdom of God that would never be destroyed. Nebuchadnezzar made Daniel ruler over the province of Babylon and, at his request, promoted his companions.",
+            "citations": [
+                "recYSZmQX9L5OvIJ3",
+                "recjBW8dgY2JlRS98",
+                "recG9h99rWUx3IU03",
+                "recsJP5RzvdCHqBcE",
+                "recmx9SIlnZzdOQAo",
+                "recDTNAUetMWLz0hQ",
+                "recfQdsDN3RDmqse1",
+                "reckb8EG6zVHiX802",
+                "recjzhYnB9cNoAb4Q",
+                "reciUtZoKmCXzy4xa",
+                "recw5ISys81AUzJht",
+                "recXHXoTlyDm7eqH2",
+                "rec4DlN6qvsWf6F6B",
+                "recsDALH9zEgzRBRM",
+                "recmZhH2t9xFH3hXZ",
+                "recOvCzgRhFj0j4h4",
+                "recCGgYEbbpTqEOWN",
+                "recIBTWuV7Js4t2zZ",
+                "recqW27FCMBfHQP4E",
+                "reccM15M2QFBNoUp9",
+                "reccFv9AaKYEOg1jQ"
+            ],
+            "status": "draft",
+            "confidence": "high",
+            "model": "claude-opus-5",
+            "generatedAt": "2026-11-14",
+            "batchId": "msgbatch_01PY9BjLyLoGL2y63DboDU3E"
+        }
+    },
+    {
+        "id": "recLOaqthF4rgRHkx",
+        "createdTime": "2026-11-15T00:05:49.000Z",
+        "fields": {
+            "slug": "chaldean_raiders_take_captives_from_judah_467",
+            "event": [
+                "rec1u7bHcfIaphZL5"
+            ],
+            "text": "Chaldean raiders take captives from Judah is an episode late in Jehoiakim's reign, when the LORD sent bands of Chaldeans, Syrians, Moabites and Ammonites against Judah to destroy it, as the prophets had warned (2 Kgs 24:2). By inference, the raids are linked with the deportation Jeremiah records for Nebuchadnezzar's seventh year, when he carried away 3,023 Jews (Jer 52:28); the text itself does not join the two. It is dated to about 598 BC.",
+            "citations": [
+                "recU0db8FVaZ31NtM",
+                "recuUuELmQWcMWk0n"
+            ],
+            "status": "draft",
+            "confidence": "medium",
+            "model": "claude-opus-5",
+            "generatedAt": "2026-11-14",
+            "batchId": "msgbatch_01PY9BjLyLoGL2y63DboDU3E"
+        }
+    },
+    {
+        "id": "reckqHNUMmiDPH8Ry",
+        "createdTime": "2026-11-15T00:05:49.000Z",
+        "fields": {
+            "slug": "second_deportation_to_babylon_468",
+            "event": [
+                "recRk3TUq6rNlELsj"
+            ],
+            "text": "The second deportation to Babylon (597 BC) was the surrender of Jerusalem to Nebuchadnezzar and the carrying off of its king and leading citizens. Nebuchadnezzar's servants besieged the city, and he came against it himself; King Jehoiachin went out to him with his mother, servants, princes and officers, and was taken in the eighth year of Nebuchadnezzar's reign. The treasures of the temple and palace were removed and the gold vessels Solomon had made were cut up. Jehoiachin, the king's mother and wives, officers, warriors, craftsmen and smiths were taken to Babylon, leaving only the poorest people. Chronicles adds that Nebuchadnezzar then made Zedekiah king over Judah and Jerusalem.",
+            "citations": [
+                "rec8Mv035AFCyIwyZ",
+                "recMQANo9qdBCEu40",
+                "recYbJoFE7ZAdqlnA",
+                "reczuI3uROkVyk2Iy",
+                "recuZJABCFFuTYXDc",
+                "recAHZyAipsTbRbmc",
+                "reccTqN48iiw8ufNX",
+                "rec1lELQJH2AMZ1aL"
+            ],
+            "status": "draft",
+            "confidence": "high",
+            "model": "claude-opus-5",
+            "generatedAt": "2026-11-14",
+            "batchId": "msgbatch_01PY9BjLyLoGL2y63DboDU3E"
+        }
+    },
+    {
+        "id": "recltTsgtPS5rpHnB",
+        "createdTime": "2026-11-15T00:05:49.000Z",
+        "fields": {
+            "slug": "zedekiah_goes_to_babylon_469",
+            "event": [
+                "recrXDCxfIZNDkVus"
+            ],
+            "text": "Zedekiah goes to Babylon is the journey King Zedekiah of Judah made to Babylon in the fourth year of his reign (about 593 BC), noted only in passing in Jeremiah 51:59. With him went Seraiah son of Neriah, described as a quiet prince. Jeremiah wrote in a book all the evil that would come upon Babylon and gave Seraiah instructions: on reaching Babylon he was to read the words, declare that the LORD had spoken against the place to cut it off and leave it desolate for ever, then bind a stone to the book and cast it into the Euphrates, saying that Babylon would likewise sink and not rise.",
+            "citations": [
+                "reckA3CKoG0sPd7mU",
+                "recp1n65zEerdSkDy",
+                "recB0khlDb0KZ8cq7",
+                "recALAXa25ub08bsK",
+                "recmTztvQGLBxFzEp",
+                "recbAdXQTrGFceePg"
+            ],
+            "status": "draft",
+            "confidence": "high",
+            "model": "claude-opus-5",
+            "generatedAt": "2026-11-14",
+            "batchId": "msgbatch_01PY9BjLyLoGL2y63DboDU3E"
+        }
+    },
+    {
+        "id": "recxtsiNFsDr2pmxY",
+        "createdTime": "2026-11-15T00:05:49.000Z",
+        "fields": {
+            "slug": "the_glory_of_the_lord_leaves_the_temple_470",
+            "event": [
+                "recRkykhV2Cjx0w3e"
+            ],
+            "text": "The glory of the LORD leaves the Temple is a vision Ezekiel received in the sixth year, sixth month, fifth day (about 592 BC), as he sat in his house with the elders of Judah before him (Ezek 8:1). He saw a fiery, gleaming figure, and the spirit lifted him and brought him in visions of God to Jerusalem, to the inner gate facing north, where the glory of the God of Israel was present. Then the glory departed from the threshold of the house and stood over the cherubim, which rose with the wheels beside them and stopped at the east gate. Finally the glory went up from the city and stood on the mountain to its east, generally identified with the Mount of Olives.",
+            "citations": [
+                "reciYs6lR1GaMQIM8",
+                "recagK4Jj8N9E77gG",
+                "reclFf6iPPZUl8zHU",
+                "recgWd1kRUeK6tVQr",
+                "recjPHn9KkaiKAMDQ",
+                "rec8ZX9yZ3Jhy6G8v",
+                "recBzInqVcXIdUNN0",
+                "recl6LHELkGH0ipm6"
+            ],
+            "status": "draft",
+            "confidence": "high",
+            "model": "claude-opus-5",
+            "generatedAt": "2026-11-14",
+            "batchId": "msgbatch_01PY9BjLyLoGL2y63DboDU3E"
+        }
+    },
+    {
+        "id": "recKN9Pj3PZm9i5OT",
+        "createdTime": "2026-11-15T00:06:57.000Z",
+        "fields": {
+            "slug": "zedekiah_rebels_against_nebuchadnezzar_471",
+            "event": [
+                "receKNn5dTqcCbNK6"
+            ],
+            "text": "Zedekiah rebels against Nebuchadnezzar is the event in which Zedekiah, king of Judah, broke with the Babylonian king who had installed him. Nebuchadnezzar had made Zedekiah swear by God, but Zedekiah rebelled, stiffening his neck and hardening his heart against turning to the LORD God of Israel (2 Chr 36:13). Ezekiel describes the revolt as sending ambassadors to Egypt for horses and many troops, breaking the covenant with Babylon (Ezek 17:15). Kings and Jeremiah say in identical words that it was through the LORD's anger against Jerusalem and Judah, until he cast them out from his presence, that Zedekiah rebelled (2 Kgs 24:20; Jer 52:3). It is dated to about 589 BC.",
+            "citations": [
+                "recglkod8PbnFhs8V",
+                "recvw6SFlrflbp2TI",
+                "rec5vnn4cAcHLGavL",
+                "recHCiONWtu06wccW"
+            ],
+            "status": "draft",
+            "confidence": "high",
+            "model": "claude-opus-5",
+            "generatedAt": "2026-11-14",
+            "batchId": "msgbatch_01PY9BjLyLoGL2y63DboDU3E"
+        }
+    },
+    {
+        "id": "recKbUVsFecNsGv1o",
+        "createdTime": "2026-11-15T00:06:57.000Z",
+        "fields": {
+            "slug": "nebuchadnezzar_besieges_jerusalem_472",
+            "event": [
+                "recSv1MVzAUoKfHds"
+            ],
+            "text": "Nebuchadnezzar besieges Jerusalem is the siege of Jerusalem by Nebuchadnezzar (also spelled Nebuchadrezzar), king of Babylon, in the reign of Zedekiah king of Judah. It began on the tenth day of the tenth month of Zedekiah's ninth year, when Nebuchadnezzar came with his whole army, camped against the city and built forts around it (2 Kgs 25:1; Jer 52:4). The city stayed under siege until Zedekiah's eleventh year (2 Kgs 25:2). Ezekiel was told to write down that very day's date, because the king of Babylon had set himself against Jerusalem that day (Ezek 24:1-2). It is dated to about 588 BC and lasted about eighteen months.",
+            "citations": [
+                "rect4NtDermGEuDoH",
+                "recEwQrjYxaXQEQVy",
+                "recm7lELq9m4Gjzgg",
+                "reccUNAD7jdiK7jHD",
+                "rechQRUlREqx1zvZF",
+                "rec6Pu5OOdqY3nrZu",
+                "recBy3TV6yZhgYrzT"
+            ],
+            "status": "draft",
+            "confidence": "high",
+            "model": "claude-opus-5",
+            "generatedAt": "2026-11-14",
+            "batchId": "msgbatch_01PY9BjLyLoGL2y63DboDU3E"
+        }
+    },
+    {
+        "id": "recRomSV76Sce2lNE",
+        "createdTime": "2026-11-15T00:06:57.000Z",
+        "fields": {
+            "slug": "chaldeans_withdraw_from_jerusalem_473",
+            "event": [
+                "recn1qUN0XBRzSuhG"
+            ],
+            "text": "The Chaldeans' withdrawal from Jerusalem was a temporary lifting of the Babylonian siege during the reign of Zedekiah. When Pharaoh's army marched out of Egypt, the Chaldean forces besieging Jerusalem heard the news and left the city for fear of the Egyptians (Jer 37:5, 11). Zedekiah sent to the prophet Jeremiah to enquire of the LORD, and Jeremiah answered that Pharaoh's army would return to Egypt and the Chaldeans would come back, fight against Jerusalem, take it and burn it. He warned the people not to deceive themselves that the besiegers were gone for good. Jeremiah 34:21-22 likewise speaks of the Babylonian army as having gone up from the city and says the LORD will bring it back to take and burn it.",
+            "citations": [
+                "recRaC0iASExzdMez",
+                "recISUk3S6FXgNHew",
+                "recsW6O3bGX1ZcANQ",
+                "rec46T6ElfOA7vlWZ",
+                "recTINffTaUnrVbuc",
+                "recHhPdvZLYueOVa9",
+                "recXOPaCUIANu0Cr2",
+                "rec8EGC55zfMmsS3H",
+                "recdTvJ5slgk7MKdG"
+            ],
+            "status": "draft",
+            "confidence": "high",
+            "model": "claude-opus-5",
+            "generatedAt": "2026-11-14",
+            "batchId": "msgbatch_01PY9BjLyLoGL2y63DboDU3E"
+        }
+    },
+    {
+        "id": "reczIsUxtm30HO5gZ",
+        "createdTime": "2026-11-15T00:06:57.000Z",
+        "fields": {
+            "slug": "fall_of_jerusalem_474",
+            "event": [
+                "recWgGipPU3xrdLTO"
+            ],
+            "text": "The Fall of Jerusalem was the capture and destruction of the city by the Babylonian (Chaldean) army under Nebuchadnezzar, dated in the eleventh year of King Zedekiah of Judah. Famine left no bread in the city, and on the ninth day of the fourth month the walls were breached. Zedekiah and his soldiers fled by night but were overtaken in the plains of Jericho; he was brought to Nebuchadnezzar at Riblah, saw his sons and the nobles of Judah killed, was blinded, bound and taken to Babylon. In the fifth month Nebuzaradan, captain of the guard, burned the temple, the palace and the houses of Jerusalem; the army broke down the walls, and the temple's bronze, gold and silver vessels were carried to Babylon.",
+            "citations": [
+                "recw60oEzGoDA0m87",
+                "recrseLBne8vNsJGD",
+                "recm9CqiFQrYXy9GY",
+                "recsjOwVmn4hsBD07",
+                "recNmoHEshMsbCs27",
+                "recYsXcogxYncQPhJ",
+                "recmQUdKmcQVoU8Tr",
+                "recNiMo4ASBFusQtw",
+                "recUv3Ti1sfBaUAMF",
+                "recaKLA1qOTTTgCCJ",
+                "recmgBgUPeFRfZ0Nv",
+                "rec1Dkwk0WuXRQTxt",
+                "recYtaAmY4mPpxXrT",
+                "recS5LQiVF1nzJHcq",
+                "recRtMWYPnYxFcECP",
+                "rec5kgfSYbFwxsP1s",
+                "rec5Pk4Dh6xJilUOn",
+                "rec0eiBACZ86Lh4Ha",
+                "recmmqbbYaxqAGgES",
+                "rec4g5EyLsGr6f74X",
+                "recPwkKMTEn5EgVR2"
+            ],
+            "status": "draft",
+            "confidence": "high",
+            "model": "claude-opus-5",
+            "generatedAt": "2026-11-14",
+            "batchId": "msgbatch_01PY9BjLyLoGL2y63DboDU3E"
+        }
+    },
+    {
+        "id": "rec8KK9PV5PBE1MjO",
+        "createdTime": "2026-11-15T00:06:57.000Z",
+        "fields": {
+            "slug": "third_deportation_to_babylon_475",
+            "event": [
+                "recHzzfCcXm9ut4oF"
+            ],
+            "text": "The Third deportation to Babylon is the removal of the remaining population of Jerusalem after the city fell, dated to 586 BC and counted as part of the Babylonian Captivity. Nebuzaradan, captain of the guard, carried off the people left in the city, the deserters who had gone over to the king of Babylon, and the rest of the multitude, while leaving some of the poorest in Judah as vinedressers and farmers. He also seized Seraiah the chief priest, Zephaniah the second priest, three doorkeepers, a military officer, royal attendants, the army scribe and sixty men of the land, and brought them to the king of Babylon at Riblah in Hamath, where they were put to death. Survivors served in Babylon until the Persian kingdom rose.",
+            "citations": [
+                "recUnsLuProv9DVJl",
+                "recXa8W3gmGIc0i4A",
+                "rec55zcd6sbiPHAPY",
+                "recBS9VZ89nZx1bKQ",
+                "recIdFiBhj4Ll1ssB",
+                "recy3lqprKdvqEC3S",
+                "reczuOjZPwieSF27O",
+                "rechfxUiiZpYmXtJ0",
+                "reckzzUrD2aQ8zWIB",
+                "recWQICM4WWQRqQYC",
+                "recFyjAY6SSc5FKFR",
+                "recMmWFfh35IG6KpH",
+                "recTAQ3KjV7kevwda",
+                "rec0RIvKuNy69gZ4D",
+                "rec9Zp6PdNNHizbpO"
+            ],
+            "status": "draft",
+            "confidence": "high",
+            "model": "claude-opus-5",
+            "generatedAt": "2026-11-14",
+            "batchId": "msgbatch_01PY9BjLyLoGL2y63DboDU3E"
+        }
+    },
+    {
+        "id": "reckKfg6diAE65Bpa",
+        "createdTime": "2026-11-15T00:06:57.000Z",
+        "fields": {
+            "slug": "nebuzar_adan_carries_away_745_jews_476",
+            "event": [
+                "recRaTe0Fb3yf3jLs"
+            ],
+            "text": "Nebuzar-adan carries away 745 Jews is the last of the deportations listed at the end of Jeremiah. In Nebuchadnezzar's twenty-third year, Nebuzaradan, captain of the guard, carried away 745 Jews captive (Jer 52:30). The same verse gives the total of all the persons deported as 4,600. The text gives no other details. It is dated to about 582 BC, within the Babylonian Captivity.",
+            "citations": [
+                "recDrHpauSFW37fed"
+            ],
+            "status": "draft",
+            "confidence": "medium",
+            "model": "claude-opus-5",
+            "generatedAt": "2026-11-14",
+            "batchId": "msgbatch_01PY9BjLyLoGL2y63DboDU3E"
+        }
+    },
+    {
+        "id": "recjxthCLsdwXx9vf",
+        "createdTime": "2026-11-15T00:06:57.000Z",
+        "fields": {
+            "slug": "jeconiah_released_from_prison_477",
+            "event": [
+                "recrem0wHnJazvtI4"
+            ],
+            "text": "Jeconiah released from prison is the release of Jehoiachin (Jeconiah), king of Judah, from prison in Babylon in the thirty-seventh year of his captivity, about 561 BC. Evil-merodach, king of Babylon, in the year he began to reign, freed Jehoiachin, spoke kindly to him, and set his throne above the thrones of the other kings held with him in Babylon. Jehoiachin's prison clothes were changed, he ate regularly at the king's table, and he received a fixed daily allowance from the king for the rest of his life. The account closes both 2 Kings and Jeremiah; 2 Kings dates it to the twenty-seventh day of the twelfth month, while Jeremiah gives the twenty-fifth.",
+            "citations": [
+                "recdjml2vo7gAltxk",
+                "recF2CM4zB7zeBwuQ",
+                "receE5Ldg3Z49IqM0",
+                "reckufpRFuEf8vaUj",
+                "recFORNnGJV8thl12",
+                "recYexZHtv2kuO9IE",
+                "recXxB2SOafZOGckJ",
+                "reclaIbdim0cbB7W5"
+            ],
+            "status": "draft",
+            "confidence": "high",
+            "model": "claude-opus-5",
+            "generatedAt": "2026-11-14",
+            "batchId": "msgbatch_01PY9BjLyLoGL2y63DboDU3E"
+        }
+    },
+    {
+        "id": "recrKDIchrieur4fo",
+        "createdTime": "2026-11-15T00:06:57.000Z",
+        "fields": {
+            "slug": "fall_of_babylon_478",
+            "event": [
+                "recznSTAmZ0pXkzt0"
+            ],
+            "text": "The Fall of Babylon is the night described in Daniel 5, dated to 539 BC. King Belshazzar held a feast for a thousand of his lords and had the gold and silver vessels taken from the temple in Jerusalem brought in for drinking, while praising gods of gold, silver, brass, iron, wood and stone. A hand appeared and wrote on the palace wall; when his wise men could not read it, the queen recommended Daniel, who refused the offered rewards and read the words MENE, MENE, TEKEL, UPHARSIN, explaining that the kingdom was numbered and finished, the king weighed and found wanting, and the kingdom given to the Medes and Persians. That same night Belshazzar was killed and Darius the Median took the kingdom.",
+            "citations": [
+                "reccqKkIJP7uRoO7E",
+                "recPh2YCzIoMHrUNZ",
+                "reckhcu1wS4cFXADZ",
+                "rec6fM3R5FFMsr6J6",
+                "recoMIKl4vsebOqWs",
+                "rec7x07wmy15YbkCa",
+                "rec54h2nazuHtPQlW",
+                "rec7vhQ4zhVwZomHT",
+                "rec8FlFCGAV5OG24w",
+                "recDPFOUCJBnkFWKJ",
+                "recV9gDI4KSjkrCn9",
+                "rechI4c85hQjLlrNj",
+                "recbF5RhHg9pRVxem",
+                "recY5opxn0lBLGp8B"
+            ],
+            "status": "draft",
+            "confidence": "high",
+            "model": "claude-opus-5",
+            "generatedAt": "2026-11-14",
+            "batchId": "msgbatch_01PY9BjLyLoGL2y63DboDU3E"
+        }
+    },
+    {
+        "id": "rec6wKj26iAGybrbl",
+        "createdTime": "2026-11-15T00:06:57.000Z",
+        "fields": {
+            "slug": "return_from_exile_479",
+            "event": [
+                "recCbUT2ysQKNMMfh"
+            ],
+            "text": "The Return from Exile is the period that began when Cyrus king of Persia, in his first year, issued a written proclamation throughout his kingdom, which Ezra presents as fulfilling the word of the LORD through Jeremiah (Ezra 1:1). It spans the first return under Zerubbabel, the rebuilding of the Temple, the events of Esther, Ezra's journey to Jerusalem and Nehemiah's rebuilding of the city wall. Following Jones and Ussher, it is dated from about 536 BC, at the end of the Babylonian Captivity, and runs roughly 96 years, to the end of the Old Testament record in Nehemiah's second term and Malachi.",
+            "citations": [
+                "recwGyFev3S5m2Cvp"
+            ],
+            "status": "draft",
+            "confidence": "medium",
+            "model": "claude-opus-5",
+            "generatedAt": "2026-11-14",
+            "batchId": "msgbatch_01PY9BjLyLoGL2y63DboDU3E"
+        }
+    },
+    {
+        "id": "recRprc8F5UdwYRqW",
+        "createdTime": "2026-11-15T00:06:57.000Z",
+        "fields": {
+            "slug": "cyrus_decrees_the_rebuilding_of_the_temple_480",
+            "event": [
+                "recB2WT4IyydTwdjj"
+            ],
+            "text": "Cyrus decrees the rebuilding of the Temple is the written proclamation Cyrus king of Persia issued throughout his kingdom in his first year, authorizing the rebuilding of the house of the LORD at Jerusalem. The LORD stirred up his spirit to fulfil the word spoken by Jeremiah. Cyrus declared that the God of heaven had given him all the kingdoms of the earth and charged him to build this house, and he invited any of God's people to go up and build it. The people of each place where they lived were to help them with silver, gold, goods and beasts, besides freewill offerings. The decree closes 2 Chronicles and opens Ezra; dated to about 536 BC, it began the return from exile.",
+            "citations": [
+                "rec0nbeoubGvyP9gr",
+                "rec8SV59rgLeSd2BK",
+                "recwGyFev3S5m2Cvp",
+                "recZu1YVPWvuR6zpH",
+                "recFwxIOXrsyy2368",
+                "rec6RY63zXE1vViDN"
+            ],
+            "status": "draft",
+            "confidence": "high",
+            "model": "claude-opus-5",
+            "generatedAt": "2026-11-14",
+            "batchId": "msgbatch_01PY9BjLyLoGL2y63DboDU3E"
+        }
+    },
+    {
+        "id": "recNxJUxRHhPjwRWg",
+        "createdTime": "2026-11-15T00:08:13.000Z",
+        "fields": {
+            "slug": "exiles_return_with_zerubbabel_481",
+            "event": [
+                "recOybRzX2OkVjb7v"
+            ],
+            "text": "Exiles return with Zerubbabel is the return of Jewish exiles from Babylon to Jerusalem under Zerubbabel, following Cyrus's decree. Family heads of Judah and Benjamin, with priests and Levites, set out to rebuild the house of the LORD (Ezra 1:5). Cyrus released the temple vessels Nebuchadnezzar had taken, 5,400 gold and silver items, brought up by Sheshbazzar (Ezra 1:7, 9, 11). Ezra 2 lists those who came with Zerubbabel, Jeshua (Joshua) and other leaders, counting families, towns, priests, singers, porters, Nethinims and Solomon's servants, with a total congregation of 42,360 (Ezra 2:2, 64). Some claiming priestly descent were excluded because their genealogy could not be found (Ezra 2:62). On arrival, leaders gave freely toward the temple and the people settled in their cities (Ezra 2:68, 70).",
+            "citations": [
+                "recaXouNHA6ykjBnP",
+                "recenEQAVfjHklaYQ",
+                "recVuetY4M3LsV7ou",
+                "recEQDSyv0HEMPaGP",
+                "rectjukq3LLQt9leA",
+                "rec5TGJ6q1ZXEjwEQ",
+                "recZRnjGHdqojrKgn",
+                "rec5bAryjcmM8D3kj",
+                "recexILHHFXdqwlEj",
+                "reczpxwAhYQk3OvCF",
+                "recnm660dpGONNqIv"
+            ],
+            "status": "draft",
+            "confidence": "high",
+            "model": "claude-opus-5",
+            "generatedAt": "2026-11-14",
+            "batchId": "msgbatch_01PY9BjLyLoGL2y63DboDU3E"
+        }
+    },
+    {
+        "id": "recQiWm58yZ1Nc5TW",
+        "createdTime": "2026-11-15T00:08:13.000Z",
+        "fields": {
+            "slug": "construction_of_the_second_temple_482",
+            "event": [
+                "recR22ucCsXxl7LSe"
+            ],
+            "text": "The Construction of the Second Temple was the rebuilding of the house of the LORD in Jerusalem by the Jews who had returned from exile. In the second year after their arrival, Zerubbabel son of Shealtiel and Jeshua (Joshua) son of Jozadak set the Levites over the work, and the foundation was laid with trumpets, cymbals and singing, amid both shouting and weeping. Opponents in the region obstructed the work and wrote accusations to the Persian king, forcing it to stop. Urged on by the prophets Haggai and Zechariah, Zerubbabel and Jeshua resumed building; Darius searched the records, found Cyrus's decree, and ordered officials to support the work. The house was finished in the sixth year of Darius, on the third day of Adar.",
+            "citations": [
+                "recd3GHc2OjK1PXNH",
+                "rec7bobOyptcMEDny",
+                "recWtkuQEuWddS44f",
+                "recK0Ct7SBFJvvnld",
+                "recLuu57RO7RFbir1",
+                "rechgkBPEKszUIXdS",
+                "recf01b1PXtpdYH2r",
+                "rec6pGPiR7mKemoZA",
+                "recm5sWV9TdXE26oP",
+                "recl29uHmFoCL6i2n",
+                "recajX8sxRmcqA4Sb",
+                "recEvILTVikTsHS2B",
+                "recFhMIXqXfizITaR",
+                "recGjOxWEBH3J6k7p"
+            ],
+            "status": "draft",
+            "confidence": "high",
+            "model": "claude-opus-5",
+            "generatedAt": "2026-11-14",
+            "batchId": "msgbatch_01PY9BjLyLoGL2y63DboDU3E"
+        }
+    },
+    {
+        "id": "recc72EMuHhMhIXyl",
+        "createdTime": "2026-11-15T00:08:13.000Z",
+        "fields": {
+            "slug": "temple_work_is_stopped_483",
+            "event": [
+                "rec3wIXTr811hcTfe"
+            ],
+            "text": "Temple work is stopped is the halt to rebuilding in Jerusalem recorded in Ezra 4, part of the larger effort to build the Second Temple. When opponents of Judah and Benjamin offered to help build, Zerubbabel, Jeshua and the heads of families refused them, saying Cyrus had commissioned the returned exiles alone. The opponents then discouraged the builders and hired counsellors against them from Cyrus's reign to Darius's. Rehum the chancellor and Shimshai the scribe wrote to King Artaxerxes, charging that a rebuilt, walled Jerusalem would withhold tribute. After a search of the records, Artaxerxes ordered the work stopped, and Rehum and Shimshai went to Jerusalem and halted it by force. The work ceased until Darius's second year.",
+            "citations": [
+                "recLuu57RO7RFbir1",
+                "recy3Sl0knwgMbgLQ",
+                "recyXYxSkRZFQBsXN",
+                "rechgkBPEKszUIXdS",
+                "recT0WQEj6j7po4vn",
+                "recWReCO9Ep2Jz7yP",
+                "recZhco9XSWJQhBq0",
+                "recrlsZPsjfGWHgkg",
+                "recH88T8tmuDK6sdy",
+                "recn9CK966gpwqPs3",
+                "recf01b1PXtpdYH2r",
+                "recOdtH6rHbNLKj4F"
+            ],
+            "status": "draft",
+            "confidence": "high",
+            "model": "claude-opus-5",
+            "generatedAt": "2026-11-14",
+            "batchId": "msgbatch_01PY9BjLyLoGL2y63DboDU3E"
+        }
+    },
+    {
+        "id": "rec9hqGwjapTtOXYE",
+        "createdTime": "2026-11-15T00:08:13.000Z",
+        "fields": {
+            "slug": "reign_of_darius_ahasuerus_484",
+            "event": [
+                "recaKsx5yVOsPhZSH"
+            ],
+            "text": "The Reign of Darius (Ahasuerus) was the rule of Darius I (Hystaspis), king of Persia, dated from 521 BC and lasting about 35 years. Temple work in Jerusalem, halted earlier, stayed stopped until his second year (Ezra 4:24). The chronologers Jones and Ussher identify this king with the Ahasuerus of Esther, who reigned from India to Ethiopia over 127 provinces from his throne in Shushan (Susa) (Esth 1:1-2); the biblical text itself does not link the two names.",
+            "citations": [
+                "recOdtH6rHbNLKj4F",
+                "reclgVXEpUAXnveNt",
+                "recUWQXPZNvcuiboy"
+            ],
+            "status": "draft",
+            "confidence": "medium",
+            "model": "claude-opus-5",
+            "generatedAt": "2026-11-14",
+            "batchId": "msgbatch_01PY9BjLyLoGL2y63DboDU3E"
+        }
+    },
+    {
+        "id": "reczDKn74XfhjYisJ",
+        "createdTime": "2026-11-15T00:08:13.000Z",
+        "fields": {
+            "slug": "temple_work_resumes_485",
+            "event": [
+                "recTGv8WI8lMkUiww"
+            ],
+            "text": "Temple work resumes is the restart of building on the house of God in Jerusalem in the second year of Darius, dated in Haggai to the twenty-fourth day of the sixth month. After the prophets Haggai and Zechariah son of Iddo prophesied to the Jews, Zerubbabel son of Shealtiel, governor of Judah, and Jeshua (Joshua) son of Jozadak, the high priest, with the remnant of the people, began to build, helped by the prophets. Tatnai, governor beyond the river, Shetharboznai and their companions questioned who had authorized the work and wrote to Darius, but the elders were not stopped. Darius had the archives searched, found Cyrus's decree at Achmetha, and ordered the officials to leave the work alone and fund it.",
+            "citations": [
+                "rec6pGPiR7mKemoZA",
+                "recm5sWV9TdXE26oP",
+                "recozNzXOYmkHPI5U",
+                "recu1Q1y1O2Cpi4rU",
+                "recN1rXbWP0auLvix",
+                "recLnvVob2q2BWCxA",
+                "recajX8sxRmcqA4Sb",
+                "recwWQqFSCB0UHeMv",
+                "recPi6LO2jxFVZktl",
+                "recEvILTVikTsHS2B",
+                "recImIYlVPZk26dyE",
+                "recR5Rh1MM9lpQjwg",
+                "recbEXHhj9OeT3Knw"
+            ],
+            "status": "draft",
+            "confidence": "high",
+            "model": "claude-opus-5",
+            "generatedAt": "2026-11-14",
+            "batchId": "msgbatch_01PY9BjLyLoGL2y63DboDU3E"
+        }
+    },
+    {
+        "id": "recmOvjcOYjXWdHGV",
+        "createdTime": "2026-11-15T00:08:13.000Z",
+        "fields": {
+            "slug": "ahasuerus_feasts_and_vashti_is_deposed_486",
+            "event": [
+                "recLQ6GSqoz2ZBhNW"
+            ],
+            "text": "Ahasuerus feasts and Vashti is deposed is the opening episode of Esther, set in the palace at Shushan (Susa). In the third year of his reign, King Ahasuerus, who ruled 127 provinces from India to Ethiopia, displayed his wealth to his nobles for 180 days, then held a seven-day feast for all the people in Shushan, while Queen Vashti held a feast for the women. On the seventh day the king, merry with wine, sent seven chamberlains to bring Vashti, wearing her crown, to show her beauty, and she refused. Memucan warned that her example would lead wives everywhere to despise their husbands and advised an unalterable decree removing her and giving her royal position to another. The king agreed and sent letters to every province.",
+            "citations": [
+                "reclgVXEpUAXnveNt",
+                "recUWQXPZNvcuiboy",
+                "recqtEFA6JMF7SGxp",
+                "reciTZZZUG7EnVBow",
+                "rec8wO0GsGJGgvios",
+                "rec03J2yAyizEOAe7",
+                "rec2wz80CtpQTDPVx",
+                "recugxSzj4BsYj4qz",
+                "reck6IRnz7SAbKdDX",
+                "recjlCSvFDyHoTP1b",
+                "recImo7N8RmYzlqZc",
+                "rec1fleD6EOugPuN5",
+                "recy4Aah37g1PUixO",
+                "reclgdlo7owxJodVx",
+                "reczVDtAQw8KJ2BqY"
+            ],
+            "status": "draft",
+            "confidence": "high",
+            "model": "claude-opus-5",
+            "generatedAt": "2026-11-14",
+            "batchId": "msgbatch_01PY9BjLyLoGL2y63DboDU3E"
+        }
+    },
+    {
+        "id": "rec0vlVJk1XkIl3Cj",
+        "createdTime": "2026-11-15T00:08:13.000Z",
+        "fields": {
+            "slug": "second_temple_dedicated_487",
+            "event": [
+                "recAG96UJgzuHufga"
+            ],
+            "text": "Second Temple dedicated is the celebration that marked the completion of the house of God in Jerusalem, rebuilt by the returned exiles with the encouragement of the prophets Haggai and Zechariah son of Iddo, and with royal backing from Cyrus, Darius and Artaxerxes. The house was finished on the third day of the month Adar in the sixth year of Darius, about 516 BC. Israelites, priests, Levites and the rest of the returned exiles celebrated with joy, offering a hundred bulls, two hundred rams, four hundred lambs and twelve male goats as a sin offering for the twelve tribes. The priests and Levites were assigned to their divisions, and on the fourteenth day of the first month, they kept the Passover and the seven-day feast of unleavened bread.",
+            "citations": [
+                "recGDeyNwQEXB9HkD",
+                "recGjOxWEBH3J6k7p",
+                "recA5JKFYDTGw6mKz",
+                "recU2iMqLutrEuj0z",
+                "recdCiuzuZwSeUb5d",
+                "recW1v6qxtGF07zBC",
+                "recnyLlBlDCAInZkG",
+                "recJYLsJpMralA511"
+            ],
+            "status": "draft",
+            "confidence": "high",
+            "model": "claude-opus-5",
+            "generatedAt": "2026-11-14",
+            "batchId": "msgbatch_01PY9BjLyLoGL2y63DboDU3E"
+        }
+    },
+    {
+        "id": "reckrpSxTQODaP1Jx",
+        "createdTime": "2026-11-15T00:08:13.000Z",
+        "fields": {
+            "slug": "esther_is_made_queen_488",
+            "event": [
+                "rec9vutxpJpiaj7yT"
+            ],
+            "text": "Esther is made queen is the episode in which King Ahasuerus chose Esther to replace Vashti as queen. After the king's anger subsided, his servants proposed gathering beautiful young women from every province to Shushan (Susa), into the care of Hegai, keeper of the women, so the one who pleased the king could be queen (Esth 2:1-4). Esther, a Jewish orphan also called Hadassah, had been raised by her cousin Mordecai, who told her not to reveal her people (Esth 2:7, 10). Hegai favored her and gave her the best place in the women's house (Esth 2:9). In the tenth month of the king's seventh year she was taken to him; he loved her above all, crowned her, and held a great feast (Esth 2:16-18).",
+            "citations": [
+                "rec3AzHyRBXLXG9m5",
+                "recptvO2Z5sQbcNX6",
+                "reczGyXbryl9I7Tbn",
+                "recsDAXCPAdLEUEhl",
+                "rec8y5FpAvSmgYIcx",
+                "recoowe1IVGWPdLzr",
+                "rec0EXGkBBnwDTjST",
+                "recBIXyoeTzv6CzQW",
+                "rec0oVoLJmKKJO6un",
+                "recH2eIsTWfQaLP7v",
+                "recNslhJQEuHohLFm",
+                "recYgnQyOTA9E9m8R"
+            ],
+            "status": "draft",
+            "confidence": "high",
+            "model": "claude-opus-5",
+            "generatedAt": "2026-11-14",
+            "batchId": "msgbatch_01PY9BjLyLoGL2y63DboDU3E"
+        }
+    },
+    {
+        "id": "recwVr5MkBWvFYbfV",
+        "createdTime": "2026-11-15T00:08:13.000Z",
+        "fields": {
+            "slug": "haman_plots_to_destroy_the_jews_489",
+            "event": [
+                "reclQBZ30duJ2vpqB"
+            ],
+            "text": "Haman plots to destroy the Jews is the episode in Esther 3\u20134, set at Shushan (Susa) in the twelfth year of King Ahasuerus. After the king promoted Haman the Agagite above the other princes and ordered that he be honored, Mordecai, a Jew, refused to bow, and Haman in anger resolved to destroy all the Jews in the empire. A lot (Pur) was cast, and Haman persuaded the king, who gave him his signet ring, to decree the killing of all Jews on the thirteenth day of Adar and the seizing of their goods. Letters went out to every province; Mordecai put on sackcloth and the Jews mourned and fasted. Mordecai urged Esther to appeal to the king, and she called a three-day fast before going in uninvited.",
+            "citations": [
+                "recwP9oOVZqvsKhvp",
+                "recgeYNdPhE2dGw3g",
+                "recF4SZTmdsux1q9K",
+                "recCEZdoG4VdaoAXd",
+                "recyTrjKDZ6wt4Mgt",
+                "reccwF0MZ7ToqbQ4z",
+                "recnshZWnABwDZHns",
+                "recEH57pV9r6GvUhI",
+                "recqEwnvCsNGlm72Y",
+                "recLt5x9iGZnn9USe",
+                "recC2ktlqjEAzvAcI",
+                "recfJDpxVi5cSwdHA",
+                "recro4UWrDDmzGxUS",
+                "recd7X2GaZ8S4C30D",
+                "recQ31MoNQgWesCRf"
+            ],
+            "status": "draft",
+            "confidence": "high",
+            "model": "claude-opus-5",
+            "generatedAt": "2026-11-14",
+            "batchId": "msgbatch_01PY9BjLyLoGL2y63DboDU3E"
+        }
+    },
+    {
+        "id": "rechCTYBpfE1qNyvS",
+        "createdTime": "2026-11-15T00:08:13.000Z",
+        "fields": {
+            "slug": "ahasuerus_honors_mordecai_490",
+            "event": [
+                "reczXoJBwhE9j4qMW"
+            ],
+            "text": "Ahasuerus honors Mordecai is the episode at Susa in which King Ahasuerus, unable to sleep, had the royal chronicles read to him and learned that Mordecai had exposed the plot of Bigthana and Teresh against his life, and that Mordecai had received no reward (Esth 6:1-3). Haman arrived in the court intending to ask that Mordecai be hanged on the gallows he had prepared, but the king first asked him how to honor a man the king favored. Assuming he was meant, Haman proposed royal robes, the king's horse and a public proclamation, then was ordered to do all this for Mordecai himself (Esth 6:4-11). Haman went home mourning; his wife Zeresh and his advisers predicted his fall, and the king's chamberlains hurried him to Esther's banquet.",
+            "citations": [
+                "recCaLMQVGlOQ9MtI",
+                "recTzXAzFxi83LaQc",
+                "recyNrLy6xoytUcuG",
+                "recxSxxKUQEkSLUzG",
+                "rec1awOLcvdohitG7",
+                "recYHN3DrcNYx0vmQ",
+                "recXBG5tcK69xUlKd",
+                "recfJOZd6hK71alAs",
+                "recteiOf54KxdOJjM",
+                "recZ6uc4yDHUnxlIR",
+                "recs2DaajTcS2pnZx",
+                "recOw3KuVyRWHGCsJ"
+            ],
+            "status": "draft",
+            "confidence": "high",
+            "model": "claude-opus-5",
+            "generatedAt": "2026-11-14",
+            "batchId": "msgbatch_01PY9BjLyLoGL2y63DboDU3E"
+        }
+    },
+    {
+        "id": "recfnr9pMlIcIgI3o",
+        "createdTime": "2026-11-15T00:09:37.000Z",
+        "fields": {
+            "slug": "haman_is_hanged_491",
+            "event": [
+                "rece37edNLjJxO4YD"
+            ],
+            "text": "Haman is hanged is the climax at Esther's second banquet in Susa, where King Ahasuerus again offered the queen her request. Esther asked for her own life and that of her people, who had been sold to be destroyed, and named Haman as the enemy behind it. The king left in anger for the palace garden; returning, he found Haman fallen on Esther's couch and accused him of assaulting the queen. Harbonah, one of the royal chamberlains, pointed out the gallows fifty cubits high that Haman had built for Mordecai, and the king ordered Haman hanged on it. Afterward Ahasuerus gave Haman's house to Esther and his signet ring to Mordecai, whom Esther set over Haman's household.",
+            "citations": [
+                "recUYSxKEmR56W91U",
+                "recnQTB6vsUy4Ay33",
+                "recnXjwp6b69okiUJ",
+                "recsCNcpsxXYYBJ9O",
+                "rec5riSfeRIP1tc7r",
+                "recVR6LdhqeAGRzgS",
+                "recha79ODIXfx7Vij",
+                "rec1KkbyaaBmcWO9N",
+                "recL9Xdbqjx0juXRO",
+                "recZQcRdDmSrawnEB",
+                "recYXXSYOBOCQvCas"
+            ],
+            "status": "draft",
+            "confidence": "high",
+            "model": "claude-opus-5",
+            "generatedAt": "2026-11-14",
+            "batchId": "msgbatch_01PY9BjLyLoGL2y63DboDU3E"
+        }
+    },
+    {
+        "id": "reclW96GQmSuoFYYt",
+        "createdTime": "2026-11-15T00:09:37.000Z",
+        "fields": {
+            "slug": "the_jews_defeat_their_enemies_492",
+            "event": [
+                "recVfc4YiI2uLua95"
+            ],
+            "text": "The Jews defeat their enemies is the episode in Esther 8\u201310 following Haman's execution. Esther pleaded with King Ahasuerus to undo Haman's plot, and a new decree, written as Mordecai directed and sealed with the king's ring, was sent to the 127 provinces allowing the Jews to gather and defend themselves on the thirteenth day of Adar. On that day the Jews struck those who hated them; in Shushan (Susa) they killed 500 men and Haman's ten sons, 300 more on the fourteenth, and 75,000 in the provinces, taking no spoil. The following days were kept as feasting. Mordecai and Esther wrote letters establishing the annual observance of Purim, named from Pur, the lot Haman cast. Mordecai became second to the king.",
+            "citations": [
+                "recS7zQxWx0WwLFwV",
+                "recH7G9FxiPL6zPVH",
+                "recQtBdLO9Brb8w6V",
+                "recFOnFF23RwiyXne",
+                "recMYhoVlcnglTwT2",
+                "recxzQ6jxAaG4CYKD",
+                "recFPEcrQeNSZWQ1m",
+                "reccZVffZeSek68f2",
+                "recaL0KjT0VSItqlx",
+                "rec0h70R3Lp74yoYS",
+                "recgTFwPJR5UtHPGt",
+                "recga9AQpg3fBppuL",
+                "recaywNjZYQB6p4Fj",
+                "rec8dnYVn5iF4UyAC",
+                "reckO7LjCjANJGFeU",
+                "recNtjeGYICaTRO7i",
+                "rec8geDBs8revkZsl",
+                "recr9N6uHVaf9jt8b"
+            ],
+            "status": "draft",
+            "confidence": "high",
+            "model": "claude-opus-5",
+            "generatedAt": "2026-11-14",
+            "batchId": "msgbatch_01PY9BjLyLoGL2y63DboDU3E"
+        }
+    },
+    {
+        "id": "recHDiZ9Eky8OWuUL",
+        "createdTime": "2026-11-15T00:09:37.000Z",
+        "fields": {
+            "slug": "reign_of_artaxerxes_493",
+            "event": [
+                "recGrQ5StK2c32HUH"
+            ],
+            "text": "The Reign of Artaxerxes was the rule of Artaxerxes, king of Persia, the setting for the later events of Ezra and Nehemiah. Ezra the son of Seraiah's mission is set in this reign (Ezra 7:1), and Nehemiah served as governor of Judah from the twentieth to the thirty-second year of Artaxerxes, a span of twelve years (Neh 5:14). Jones and Ussher identify the king as Artaxerxes I Longimanus and date his reign from 473 BC, when Xerxes made him co-ruler, for 49 years, to about 424 BC.",
+            "citations": [
+                "rec7zlWAShCLd3xBe",
+                "recWEWZRA9SKMGQLX"
+            ],
+            "status": "draft",
+            "confidence": "medium",
+            "model": "claude-opus-5",
+            "generatedAt": "2026-11-14",
+            "batchId": "msgbatch_01PY9BjLyLoGL2y63DboDU3E"
+        }
+    },
+    {
+        "id": "rec8nB1HhkxzzLGVb",
+        "createdTime": "2026-11-15T00:09:37.000Z",
+        "fields": {
+            "slug": "ezra_leads_exiles_to_jerusalem_494",
+            "event": [
+                "recMhCrV1knK4DYto"
+            ],
+            "text": "Ezra leads exiles to Jerusalem refers to the journey made by Ezra, a priest and scribe skilled in the law of Moses, in the seventh year of King Artaxerxes of Persia. Artaxerxes gave Ezra a letter authorizing him to take Israelites, priests, Levites, singers, porters and Nethinims to Jerusalem, to carry silver, gold and temple vessels, to draw on the royal treasury, to exempt temple staff from tolls, and to appoint judges and teach the law. Ezra gathered the travellers at the river Ahava, found no Levites and sent to Iddo at Casiphia for ministers, proclaimed a fast, and weighed out the offerings. They left Ahava on the twelfth day of the first month and reached Jerusalem on the first day of the fifth month.",
+            "citations": [
+                "rec7zlWAShCLd3xBe",
+                "recnmg4iaa2QLGcW6",
+                "recavjXNF1R87FXQV",
+                "recyJMlvp9J3hDLEi",
+                "recKPl8kJhpypJ2IF",
+                "recIThFQ8ZfpSPM6g",
+                "recoUaB3bDNCki8JA",
+                "recO0tcvQNjA7F7u2",
+                "recoGPdES7TugHYgu",
+                "recT06EZyqSdTytPY",
+                "recQZ4zbFEnYD2atS",
+                "recw6dWdnMn719Qma",
+                "recBduzBy45HVAfwS",
+                "rec5yDf0dpKhBiOGN",
+                "rec2mCkzEM4wFLCeC",
+                "recz8YVTFJbV5nYk1",
+                "recpNI1vdSwn7xkWD",
+                "rec6sCAumi1n7KPOy"
+            ],
+            "status": "draft",
+            "confidence": "high",
+            "model": "claude-opus-5",
+            "generatedAt": "2026-11-14",
+            "batchId": "msgbatch_01PY9BjLyLoGL2y63DboDU3E"
+        }
+    },
+    {
+        "id": "recO9t0XfOSTMIm3I",
+        "createdTime": "2026-11-15T00:09:37.000Z",
+        "fields": {
+            "slug": "exiles_put_away_their_foreign_wives_495",
+            "event": [
+                "rec0xXsPuBC6VppTt"
+            ],
+            "text": "Exiles put away their foreign wives is the episode after Ezra's arrival in Jerusalem in which returned exiles separated from foreign wives. Told that Israelites, priests and Levites had intermarried with the peoples of the land, Ezra tore his garments, prayed and confessed (Ezra 9:1-5; 10:1). Shechaniah son of Jehiel urged action, and Ezra made the priests, Levites and all Israel swear to it. The exiles were summoned to Jerusalem within three days on pain of forfeiting their goods and being cut off. With the people many and the rain heavy, leaders heard the cases from the first of the tenth month to the first of the first month. The men pledged to put away their wives and offered a ram for their trespass (Ezra 10:19).",
+            "citations": [
+                "recbSi4jkY1HugEiw",
+                "recintE48VGr0spwH",
+                "recDinqDF1MNOHBBr",
+                "recK209kwnGrQvkkv",
+                "recOwaZMN2tANp4kc",
+                "reckLqzotpRNg78Hm",
+                "rechCE8TKoZsg0Fu2",
+                "recr4oyOgpwEPinnP",
+                "rec8mSj5k9rIyNZ3Z",
+                "rec35SGecH73yKYqp",
+                "recXo9BtRCfsydSEU",
+                "rec6aJHMxIJEyLzd3",
+                "rec9l5X859pp5DaTl",
+                "recsGhHvdck8b4Wrv",
+                "recrzPWPVSBJ3KPUi",
+                "rectlmX6c0LIOhv4P",
+                "recYUET5u72xZzL1s",
+                "reci7NV2UMcJHoFOB"
+            ],
+            "status": "draft",
+            "confidence": "high",
+            "model": "claude-opus-5",
+            "generatedAt": "2026-11-14",
+            "batchId": "msgbatch_01PY9BjLyLoGL2y63DboDU3E"
+        }
+    },
+    {
+        "id": "recQBXZOtvAOkX9sr",
+        "createdTime": "2026-11-15T00:09:37.000Z",
+        "fields": {
+            "slug": "nehemiah_mourns_for_jerusalem_496",
+            "event": [
+                "recn8G5iA4vEjtwmC"
+            ],
+            "text": "Nehemiah mourns for Jerusalem is the opening episode of the book of Nehemiah. In the month Chislev of the twentieth year, while Nehemiah son of Hachaliah was at Shushan (Susa) the palace, his brother Hanani arrived with men of Judah. Nehemiah asked them about the Jews who had survived the captivity and about Jerusalem, and was told that the remnant in the province was in great affliction and reproach, the city wall broken down and its gates burned. On hearing this he sat down, wept, mourned for days, fasted and prayed, confessing the sins of Israel, recalling God's words to Moses about scattering and regathering, and asking for favor before \"this man\", the king whose cupbearer he was.",
+            "citations": [
+                "rec3pQvMwnq8Vpimi",
+                "recL8pQbvWKnRXdJJ",
+                "recPCCDh4Lx2WHTjb",
+                "recHXMoUaAIQfcHe3",
+                "recj8yvfc4Xa7LmcV",
+                "reck4myWFz7nPVEvg",
+                "recibhcISnbT4Rt6Y",
+                "recOqfpUSfdst5lQz"
+            ],
+            "status": "draft",
+            "confidence": "high",
+            "model": "claude-opus-5",
+            "generatedAt": "2026-11-14",
+            "batchId": "msgbatch_01PY9BjLyLoGL2y63DboDU3E"
+        }
+    },
+    {
+        "id": "recxMcNdeTjM7s40S",
+        "createdTime": "2026-11-15T00:09:37.000Z",
+        "fields": {
+            "slug": "artaxerxes_sends_nehemiah_to_jerusalem_497",
+            "event": [
+                "recM7H5P74uYMbgnc"
+            ],
+            "text": "Artaxerxes sends Nehemiah to Jerusalem is the occasion when King Artaxerxes granted Nehemiah leave to travel to Judah and rebuild Jerusalem. In the month Nisan of the king's twentieth year, Nehemiah served wine to the king and appeared sad for the first time in his presence. Asked why, he explained that the city of his ancestors' tombs lay in ruins with its gates burned. When the king asked what he wanted, Nehemiah requested to be sent to Judah to rebuild it. With the queen seated beside him, Artaxerxes agreed and Nehemiah set a time for his return. He also obtained letters to the governors beyond the river and an order to Asaph, keeper of the king's forest, for timber for the gates, the wall and a house.",
+            "citations": [
+                "recrhF4Pt0q4M5zIl",
+                "recmgzX7FuAg168e5",
+                "recKaJu8CRm95s001",
+                "rec6vD1ITYcs2yFSa",
+                "rectnkeNzYyhVi1zd",
+                "recuxgdbJNhsX6kol",
+                "recopKl0Av49EWi7D",
+                "recUneJ9mpJpcwtKx"
+            ],
+            "status": "draft",
+            "confidence": "high",
+            "model": "claude-opus-5",
+            "generatedAt": "2026-11-14",
+            "batchId": "msgbatch_01PY9BjLyLoGL2y63DboDU3E"
+        }
+    },
+    {
+        "id": "recjN6yy70OwquoCt",
+        "createdTime": "2026-11-15T00:09:37.000Z",
+        "fields": {
+            "slug": "nehemiah_arrives_at_jerusalem_498",
+            "event": [
+                "recSK9lo47QZ0KmoS"
+            ],
+            "text": "Nehemiah arrives at Jerusalem covers Nehemiah's journey to the city and his first actions there. Escorted by army captains and horsemen, he delivered the king's letters to the governors beyond the river (Neh 2:9). Sanballat the Horonite and Tobiah the Ammonite were grieved that someone had come to seek the welfare of Israel (Neh 2:10). After three days in Jerusalem, Nehemiah rode out at night with a few men, telling no one his plan, and viewed the broken walls and burned gates (Neh 2:11-16). He then called the people to rebuild, and they agreed (Neh 2:17-18). When Sanballat, Tobiah and Geshem the Arabian mocked them and asked whether they were rebelling against the king, Nehemiah answered that the God of heaven would prosper them (Neh 2:19-20).",
+            "citations": [
+                "recLpw5zSTR7PHP1m",
+                "rec6lKR7EVTUwPelh",
+                "recPdBHbQsCpjbJIL",
+                "recNXZWKnqepLlDax",
+                "reccl3btCZPNPne0B",
+                "rec1PJNNw427MpQQm",
+                "recDjrbFcH0kMrxn4",
+                "recyKNefCBC2DUQca",
+                "recucItR356tINUOi",
+                "recZJ0huKsWRc91HI",
+                "recbV6OraUIGsXhyE",
+                "recvzVsd7BIqnXqam"
+            ],
+            "status": "draft",
+            "confidence": "high",
+            "model": "claude-opus-5",
+            "generatedAt": "2026-11-14",
+            "batchId": "msgbatch_01PY9BjLyLoGL2y63DboDU3E"
+        }
+    },
+    {
+        "id": "recg3XvTERXAPihTw",
+        "createdTime": "2026-11-15T00:09:37.000Z",
+        "fields": {
+            "slug": "nehemiah_rebuilds_the_wall_of_jerusalem_499",
+            "event": [
+                "reccpBvYOakeJEiVy"
+            ],
+            "text": "Nehemiah rebuilds the wall of Jerusalem is the rebuilding of the city wall under Nehemiah, finished in fifty-two days (Neh 6:15). The work was divided section by section: Eliashib the high priest and the priests built the sheep gate, and district rulers, Shallum with his daughters, and the goldsmiths and merchants each repaired a stretch (Neh 3:1, 9, 12, 32). Sanballat, Tobiah and Geshem mocked the builders, plotted an attack and tried to lure Nehemiah away, so the workers kept weapons at hand and posted a night guard (Neh 4:3, 8, 17, 22; 6:2). Nehemiah also rebuked nobles exacting usury from their fellow Jews (Neh 5:7). The finished wall was dedicated with two thanksgiving companies, great sacrifices and rejoicing heard far off (Neh 12:40, 43).",
+            "citations": [
+                "recMarWAQYCXjkKrx",
+                "recQDte5KggU60MAp",
+                "recUtacW9l9yZ7zv0",
+                "recjcVKtbxaH6fBuX",
+                "recNMqa0ZWMw6chWZ",
+                "rec8x4VJ2zkT0b2xm",
+                "rece6xYltpMIvqETU",
+                "recMefpZcTBjcccnQ",
+                "recc9Vksy6sssQwkd",
+                "recevrpPCk9JzLMqn",
+                "rec88mVP5WCWEwqQS",
+                "recWD7e7gNJ6UGFHM",
+                "reccoBalnj2mSzT2A",
+                "recjprQdYz2s9a37S",
+                "recvIFqqbKFHA19JK",
+                "recjuvSGSW4EsnlQq",
+                "rec0d98WTj1bJ46LI",
+                "recqmKhru5wSRvGN3"
+            ],
+            "status": "draft",
+            "confidence": "high",
+            "model": "claude-opus-5",
+            "generatedAt": "2026-11-14",
+            "batchId": "msgbatch_01PY9BjLyLoGL2y63DboDU3E"
+        }
+    },
+    {
+        "id": "recg04Z2a0h69UvfL",
+        "createdTime": "2026-11-15T00:09:37.000Z",
+        "fields": {
+            "slug": "nehemiah_goes_back_to_artaxerxes_500",
+            "event": [
+                "recGGEvpMiLXViisc"
+            ],
+            "text": "Nehemiah goes back to Artaxerxes is Nehemiah's departure from Jerusalem in the thirty-second year of Artaxerxes, called king of Babylon, when he went to the king and was away from the city for a time. Before his return, Eliashib the priest, who had oversight of a chamber of the house of God and was allied with Tobiah, had prepared a large room for him in a space formerly used to store grain offerings, frankincense, vessels, and the tithes of grain, new wine and oil assigned to the Levites, singers and gatekeepers. After some time Nehemiah obtained the king's leave, returned to Jerusalem, and learned what Eliashib had done for Tobiah in the temple courts.",
+            "citations": [
+                "recCgWrpDF5TY5V2p",
+                "recSz1F9zzNOJmwhk",
+                "recCf83GDxpXHhNtr",
+                "recI8NXhOTSrRlKeD"
+            ],
+            "status": "draft",
+            "confidence": "high",
+            "model": "claude-opus-5",
+            "generatedAt": "2026-11-14",
+            "batchId": "msgbatch_01PY9BjLyLoGL2y63DboDU3E"
+        }
     }
 ]

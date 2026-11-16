@@ -95,6 +95,9 @@
             "eventID": 2,
             "startDate": "-4003",
             "duration": "1D",
+            "predecessor": [
+                "recOIPcFaPCjMpQ6w"
+            ],
             "partOf": [
                 "recSFDBpbT8HGEtyd"
             ],
@@ -131,7 +134,7 @@
                 "recLIUK6VRKNjnGo6"
             ],
             "verseSort": "01002004",
-            "modified": "2026-10-23T04:46:16.000Z",
+            "modified": "2026-11-16T03:57:57.000Z",
             "sortKey": -4002.98997996,
             "people (from verses)": [
                 "reccZB8SVU5bEMcgo",
@@ -288,6 +291,9 @@
             "eventID": 5,
             "startDate": "-3874",
             "duration": "1D",
+            "predecessor": [
+                "recj3SioaPwrDtpGT"
+            ],
             "verses": [
                 "recAgYf3tYRSNHUdI",
                 "reccMMckw2Px4MNmC",
@@ -308,7 +314,7 @@
                 "recLIUK6VRKNjnGo6"
             ],
             "verseSort": "01004001",
-            "modified": "2026-10-23T04:46:10.000Z",
+            "modified": "2026-11-16T03:57:57.000Z",
             "sortKey": -3873.98995999,
             "people (from verses)": [
                 "recyYgUiSETdWFgEP",
@@ -1295,6 +1301,9 @@
             "eventID": 32,
             "startDate": "-2467",
             "duration": "1D",
+            "predecessor": [
+                "recTdAS4YoPxLBszy"
+            ],
             "verses": [
                 "recsj45XYAoJJCSg7",
                 "recGSS4Nh6SdjUZE6",
@@ -1308,7 +1317,7 @@
                 "reccZB8SVU5bEMcgo"
             ],
             "verseSort": "01006007",
-            "modified": "2026-10-23T04:46:49.000Z",
+            "modified": "2026-11-16T03:57:57.000Z",
             "sortKey": -2466.98993993,
             "people (from verses)": [
                 "reccZB8SVU5bEMcgo",
@@ -2204,6 +2213,9 @@
             "eventID": 53,
             "startDate": "-2245",
             "duration": "1D",
+            "predecessor": [
+                "recFXC4GpemMuhURF"
+            ],
             "verses": [
                 "recLJMCOtNOhHq9Rq",
                 "recZfLrAXGCa0H8uJ",
@@ -2219,7 +2231,7 @@
                 "recO7At5WvGRe0Xsu"
             ],
             "verseSort": "01011001",
-            "modified": "2026-10-23T04:49:21.000Z",
+            "modified": "2026-11-16T03:57:57.000Z",
             "sortKey": -2244.98988999,
             "rangeFlag": true,
             "people (from verses)": [
@@ -3288,6 +3300,9 @@
             "eventID": 79,
             "startDate": "-1896",
             "duration": "1D",
+            "predecessor": [
+                "recG5DZ6bn0BDuYH9"
+            ],
             "verses": [
                 "recoIr91nS06uKtnz",
                 "recXMYzfXLrsPuVuv",
@@ -3345,7 +3360,7 @@
                 "rec34nlC2Rt0dlYyu"
             ],
             "verseSort": "01018020",
-            "modified": "2026-10-23T04:49:11.000Z",
+            "modified": "2026-11-16T03:57:57.000Z",
             "sortKey": -1895.9898198,
             "people (from verses)": [
                 "reccZB8SVU5bEMcgo",
@@ -3413,6 +3428,9 @@
             "eventID": 80,
             "startDate": "-1895",
             "duration": "1D",
+            "predecessor": [
+                "recITDSS0o4dApwQg"
+            ],
             "partOf": [
                 "recMAoYK2dHmjhRh9"
             ],
@@ -3426,7 +3444,7 @@
                 "rechda7WMDuW1jBTq"
             ],
             "verseSort": "01017019",
-            "modified": "2026-10-23T04:46:07.000Z",
+            "modified": "2026-11-16T03:57:57.000Z",
             "sortKey": -1894.98982981,
             "people (from verses)": [
                 "rechda7WMDuW1jBTq",
@@ -3590,6 +3608,9 @@
             "eventID": 85,
             "startDate": "-1835",
             "duration": "1D",
+            "predecessor": [
+                "recSDGDMwUBAMUgur"
+            ],
             "partOf": [
                 "recTkocSMI0NxpIrw"
             ],
@@ -3605,7 +3626,7 @@
                 "recqIoG1fkaNWJ1y0"
             ],
             "verseSort": "01025025",
-            "modified": "2026-10-23T04:46:07.000Z",
+            "modified": "2026-11-16T03:57:57.000Z",
             "sortKey": -1834.98974975,
             "people (from verses)": [
                 "recUQWSZuOecG4z1Q",
@@ -3661,6 +3682,9 @@
             "eventID": 87,
             "startDate": "-2181",
             "duration": "1D",
+            "predecessor": [
+                "recLx9SIvsFEIJgVo"
+            ],
             "verses": [
                 "recFnKypbUDlSKoyv",
                 "recojMhawZpns5vfb",
@@ -3684,7 +3708,7 @@
                 "recsvPka5cfmzpl88"
             ],
             "verseSort": "01010008",
-            "modified": "2026-11-09T23:29:05.000Z",
+            "modified": "2026-11-16T03:57:57.000Z",
             "sortKey": -2180.98989992,
             "people (from verses)": [
                 "recu8J5n677Bmu6qP",
@@ -3823,6 +3847,9 @@
             "eventID": 91,
             "startDate": "-1757",
             "duration": "1D",
+            "predecessor": [
+                "recd4mOzI2nL66vR5"
+            ],
             "verses": [
                 "recna8Q9kQVeZk1RV"
             ],
@@ -3832,7 +3859,7 @@
                 "recCLJAZbd4JtoMv6"
             ],
             "verseSort": "01029032",
-            "modified": "2026-10-23T04:46:08.000Z",
+            "modified": "2026-11-16T03:57:57.000Z",
             "sortKey": -1756.98970968,
             "people (from verses)": [
                 "recCLJAZbd4JtoMv6",
@@ -3852,6 +3879,9 @@
             "eventID": 92,
             "startDate": "-1756",
             "duration": "1D",
+            "predecessor": [
+                "recpdpPhaNNytXNYL"
+            ],
             "verses": [
                 "rec0EyYCkQqHraNMA"
             ],
@@ -3861,7 +3891,7 @@
                 "recCLJAZbd4JtoMv6"
             ],
             "verseSort": "01029033",
-            "modified": "2026-10-22T05:37:00.000Z",
+            "modified": "2026-11-16T03:57:57.000Z",
             "sortKey": -1755.98970967,
             "people (from verses)": [
                 "recjDsafRYaksAqa1",
@@ -3880,6 +3910,9 @@
             "eventID": 93,
             "startDate": "-1755",
             "duration": "1D",
+            "predecessor": [
+                "rec8BApZ81SUEiaE6"
+            ],
             "verses": [
                 "recvYxCnIun9Rqz60"
             ],
@@ -3889,7 +3922,7 @@
                 "recCLJAZbd4JtoMv6"
             ],
             "verseSort": "01029034",
-            "modified": "2026-10-23T04:46:07.000Z",
+            "modified": "2026-11-16T03:57:57.000Z",
             "sortKey": -1754.98970966,
             "people (from verses)": [
                 "recdIZxgxO61iLEXm"
@@ -3907,6 +3940,9 @@
             "eventID": 94,
             "startDate": "-1754",
             "duration": "1D",
+            "predecessor": [
+                "recbEWfeMbneEhmCW"
+            ],
             "verses": [
                 "recu8NTXXzfok3QHg"
             ],
@@ -3916,7 +3952,7 @@
                 "recCLJAZbd4JtoMv6"
             ],
             "verseSort": "01029035",
-            "modified": "2026-10-23T04:46:07.000Z",
+            "modified": "2026-11-16T03:57:57.000Z",
             "sortKey": -1753.98970965,
             "people (from verses)": [
                 "rec0rm6yYA4YUQrkh",
@@ -3935,6 +3971,9 @@
             "eventID": 95,
             "startDate": "-1754",
             "duration": "1D",
+            "predecessor": [
+                "recAyNphNXcFdeBdv"
+            ],
             "verses": [
                 "recs0lN6Rkz4IDPjN"
             ],
@@ -3944,7 +3983,7 @@
                 "recdaqUcGEFXwM0Ml"
             ],
             "verseSort": "01030006",
-            "modified": "2026-10-23T04:46:07.000Z",
+            "modified": "2026-11-16T03:57:57.000Z",
             "sortKey": -1753.98969994,
             "people (from verses)": [
                 "recT2Tm2K5XORGnbx",
@@ -3964,6 +4003,9 @@
             "eventID": 96,
             "startDate": "-1753",
             "duration": "1D",
+            "predecessor": [
+                "recebg3uMMRi5kehC"
+            ],
             "verses": [
                 "recPbFHYlWRzwRlDo",
                 "recCW99SO5uCU1ZDc"
@@ -3974,7 +4016,7 @@
                 "recdaqUcGEFXwM0Ml"
             ],
             "verseSort": "01030007",
-            "modified": "2026-10-23T04:46:08.000Z",
+            "modified": "2026-11-16T03:57:57.000Z",
             "sortKey": -1752.98969993,
             "people (from verses)": [
                 "recdaqUcGEFXwM0Ml",
@@ -3996,6 +4038,9 @@
             "eventID": 97,
             "startDate": "-1752",
             "duration": "1D",
+            "predecessor": [
+                "reciXEy2Dh8v1ZMgx"
+            ],
             "verses": [
                 "recyt36w0PNascK5o",
                 "recOhwajeT5rWyPM3"
@@ -4006,7 +4051,7 @@
                 "recFLDH19XTo80Gpr"
             ],
             "verseSort": "01030010",
-            "modified": "2026-10-23T04:46:07.000Z",
+            "modified": "2026-11-16T03:57:57.000Z",
             "sortKey": -1751.9896999,
             "people (from verses)": [
                 "recFLDH19XTo80Gpr",
@@ -4028,6 +4073,9 @@
             "eventID": 98,
             "startDate": "-1751",
             "duration": "1D",
+            "predecessor": [
+                "recjP69Rr334GwfCD"
+            ],
             "verses": [
                 "recVvkPlWwtFpFS17",
                 "recz843uwsf7aZ23f"
@@ -4038,7 +4086,7 @@
                 "recFLDH19XTo80Gpr"
             ],
             "verseSort": "01030012",
-            "modified": "2026-10-23T04:46:06.000Z",
+            "modified": "2026-11-16T03:57:57.000Z",
             "sortKey": -1750.98969988,
             "people (from verses)": [
                 "recFLDH19XTo80Gpr",
@@ -4060,6 +4108,9 @@
             "eventID": 99,
             "startDate": "-1751",
             "duration": "1D",
+            "predecessor": [
+                "recyHq1K0jXfzoxSG"
+            ],
             "verses": [
                 "recHzwL9KWORCBwX7",
                 "recMTPNhWSOr3Pe2B"
@@ -4070,7 +4121,7 @@
                 "recCLJAZbd4JtoMv6"
             ],
             "verseSort": "01030017",
-            "modified": "2026-10-23T04:46:07.000Z",
+            "modified": "2026-11-16T03:57:57.000Z",
             "sortKey": -1750.98969983,
             "people (from verses)": [
                 "recCLJAZbd4JtoMv6",
@@ -4093,6 +4144,9 @@
             "eventID": 100,
             "startDate": "-1750",
             "duration": "1D",
+            "predecessor": [
+                "rec7UNUOWD8T8j0H7"
+            ],
             "verses": [
                 "recnyLhxMCe8R65zE",
                 "recuI12opCCUft8Wd"
@@ -4103,7 +4157,7 @@
                 "recCLJAZbd4JtoMv6"
             ],
             "verseSort": "01030019",
-            "modified": "2026-10-23T04:46:08.000Z",
+            "modified": "2026-11-16T03:57:57.000Z",
             "sortKey": -1749.98969981,
             "people (from verses)": [
                 "recCLJAZbd4JtoMv6",
@@ -4125,6 +4179,9 @@
             "eventID": 101,
             "startDate": "-1749",
             "duration": "1D",
+            "predecessor": [
+                "rec79Sud9E887BhRT"
+            ],
             "verses": [
                 "rec5U9P6GQYNZ1gDq"
             ],
@@ -4134,7 +4191,7 @@
                 "recCLJAZbd4JtoMv6"
             ],
             "verseSort": "01030021",
-            "modified": "2026-10-23T04:46:07.000Z",
+            "modified": "2026-11-16T03:57:57.000Z",
             "sortKey": -1748.98969979,
             "people (from verses)": [
                 "recthlE4FTgDZvDef"
@@ -4152,6 +4209,9 @@
             "eventID": 102,
             "startDate": "-1744",
             "duration": "1D",
+            "predecessor": [
+                "rec8lxfZ0sKEUfPfi"
+            ],
             "partOf": [
                 "recj8qDYwzBEfwBAa"
             ],
@@ -4168,7 +4228,7 @@
                 "recfrXyxhuYOczKTm"
             ],
             "verseSort": "01030023",
-            "modified": "2026-10-23T04:46:07.000Z",
+            "modified": "2026-11-16T03:57:57.000Z",
             "sortKey": -1743.98969977,
             "people (from verses)": [
                 "reccZB8SVU5bEMcgo",
@@ -4227,6 +4287,9 @@
             "eventID": 104,
             "startDate": "-1738",
             "duration": "1D",
+            "predecessor": [
+                "recZDLkLCBpaZjV7D"
+            ],
             "verses": [
                 "reckSjkhqTGV4Egjy",
                 "rectG0eMycKtJJo9i",
@@ -4250,7 +4313,7 @@
                 "recTsiqfHAu6vwW3H"
             ],
             "verseSort": "01035016",
-            "modified": "2026-10-23T04:48:36.000Z",
+            "modified": "2026-11-16T03:57:57.000Z",
             "sortKey": -1737.98964984,
             "people (from verses)": [
                 "recT2Tm2K5XORGnbx",
@@ -4416,6 +4479,9 @@
             "eventID": 106,
             "startDate": "-1720",
             "duration": "1D",
+            "predecessor": [
+                "recNE3SvBrPoTRiMS"
+            ],
             "verses": [
                 "recc1dlch2jCH0mE5"
             ],
@@ -4425,7 +4491,7 @@
                 "recWebxxpYTeBY93z"
             ],
             "verseSort": "01038029",
-            "modified": "2026-10-23T04:46:08.000Z",
+            "modified": "2026-11-16T03:57:57.000Z",
             "sortKey": -1719.98961971,
             "people (from verses)": [
                 "recMUZkUfOwBiZ3jk"
@@ -4443,6 +4509,9 @@
             "eventID": 107,
             "startDate": "-1719",
             "duration": "1D",
+            "predecessor": [
+                "recJRhLZWXyofMii6"
+            ],
             "partOf": [
                 "recq4rk0MUq6acKxS"
             ],
@@ -4453,7 +4522,7 @@
                 "recKXL1QrW8qTw5Ux"
             ],
             "verseSort": "01046013",
-            "modified": "2026-10-23T04:46:07.000Z",
+            "modified": "2026-11-16T03:57:57.000Z",
             "sortKey": -1718.98953987,
             "people (from verses)": [
                 "rec3HzZknu1HOvNci",
@@ -4666,6 +4735,9 @@
             "eventID": 111,
             "startDate": "-1714",
             "duration": "1D",
+            "predecessor": [
+                "recqKt1B6fiiSKrK6"
+            ],
             "partOf": [
                 "recj8qDYwzBEfwBAa"
             ],
@@ -4688,7 +4760,7 @@
                 "recfrXyxhuYOczKTm"
             ],
             "verseSort": "01041037",
-            "modified": "2026-10-23T04:47:38.000Z",
+            "modified": "2026-11-16T03:57:57.000Z",
             "sortKey": -1713.98958963,
             "people (from verses)": [
                 "recT5VXFTSilSlzVX",
@@ -6792,6 +6864,9 @@
             "eventID": 120,
             "startDate": "-1570",
             "duration": "1D",
+            "predecessor": [
+                "recPAzttalK45wnXd"
+            ],
             "partOf": [
                 "recJOhn4C4yKIJmvH"
             ],
@@ -6816,7 +6891,7 @@
                 "recfrXyxhuYOczKTm"
             ],
             "verseSort": "02002001",
-            "modified": "2026-10-23T04:46:08.000Z",
+            "modified": "2026-11-16T03:57:57.000Z",
             "sortKey": -1569.97997999,
             "people (from verses)": [
                 "recdIZxgxO61iLEXm",
@@ -6915,6 +6990,9 @@
             "eventID": 123,
             "startDate": "-1528",
             "duration": "1D",
+            "predecessor": [
+                "recwofVaBASTvL8lL"
+            ],
             "verses": [
                 "recWyWTjIkszdZ0Xm"
             ],
@@ -6922,7 +7000,7 @@
                 "recVua5TkKSl3y6Ol"
             ],
             "verseSort": "04013006",
-            "modified": "2026-10-23T04:46:07.000Z",
+            "modified": "2026-11-16T03:57:57.000Z",
             "sortKey": -1527.95986994,
             "people (from verses)": [
                 "rec0rm6yYA4YUQrkh",
@@ -6940,18 +7018,25 @@
         "fields": {
             "title": "Lifetime of Joshua",
             "eventID": 124,
-            "startDate": "-1520",
+            "startDate": "-1533",
             "duration": "110Y",
+            "predecessor": [
+                "recB0iCUqRuKrUdN8"
+            ],
             "verses": [
-                "recVcTWP9SSgGFWoZ"
+                "recVcTWP9SSgGFWoZ",
+                "recWanbYlKOvYhLWt"
             ],
             "participants": [
                 "recLuZtSmAO6erIsc"
             ],
             "verseSort": "07002008",
-            "modified": "2026-10-23T04:47:49.000Z",
-            "sortKey": -1519.92997992,
+            "modified": "2026-11-16T04:10:39.000Z",
+            "sortKey": -1532.92997992,
             "people (from verses)": [
+                "recLuZtSmAO6erIsc",
+                "rectAKOMFVWfGYUGW",
+                "reccZB8SVU5bEMcgo",
                 "recLuZtSmAO6erIsc",
                 "rectAKOMFVWfGYUGW",
                 "reccZB8SVU5bEMcgo"
@@ -10144,8 +10229,14 @@
             "eventID": 133,
             "startDate": "-1423",
             "duration": "1D",
+            "predecessor": [
+                "recB0iCUqRuKrUdN8"
+            ],
             "lag": "110Y",
             "lagType": "FS",
+            "partOf": [
+                "rechguBS4b9kXx3z3"
+            ],
             "verses": [
                 "recWanbYlKOvYhLWt",
                 "recVcTWP9SSgGFWoZ",
@@ -10158,7 +10249,7 @@
                 "recLqhClSrRFpvMvG"
             ],
             "verseSort": "06024029",
-            "modified": "2026-10-23T04:46:20.000Z",
+            "modified": "2026-11-16T04:10:41.000Z",
             "sortKey": -1422.93975971,
             "people (from verses)": [
                 "recLuZtSmAO6erIsc",
@@ -10186,6 +10277,9 @@
             "eventID": 134,
             "startDate": "-1417",
             "duration": "8Y",
+            "predecessor": [
+                "recnPiyyKviVUPHO6"
+            ],
             "verses": [
                 "recY3aaNO7G817XIi",
                 "recyiK8ucbgIlfsJg"
@@ -10201,7 +10295,7 @@
                 "recsTcOXoP1DEM5lL"
             ],
             "verseSort": "07003007",
-            "modified": "2026-10-23T04:49:12.000Z",
+            "modified": "2026-11-16T03:57:57.000Z",
             "sortKey": -1416.92996993,
             "people (from verses)": [
                 "recsU2ZSdzBvDqzgI",
@@ -11364,8 +11458,9 @@
             "eventID": 145,
             "startDate": "-1161",
             "duration": "40Y",
-            "lag": "28Y",
-            "lagType": "FS",
+            "predecessor": [
+                "rec7nesNMNffYRe3F"
+            ],
             "verses": [
                 "recSHSUYqIApCmfrZ",
                 "rec7UBPmL90Ku5Ru8",
@@ -11382,7 +11477,7 @@
                 "recsTcOXoP1DEM5lL"
             ],
             "verseSort": "09004015",
-            "modified": "2026-10-23T04:47:41.000Z",
+            "modified": "2026-11-16T03:42:35.000Z",
             "sortKey": -1160.90995985,
             "people (from verses)": [
                 "recH9ECLXz8IgSUgF",
@@ -11631,6 +11726,9 @@
             "eventID": 148,
             "startDate": "-1140",
             "duration": "40Y",
+            "predecessor": [
+                "rec7nesNMNffYRe3F"
+            ],
             "verses": [
                 "recT4yWAUaLfJUrOI",
                 "recxh3uvdTjoFB3jB",
@@ -11647,7 +11745,7 @@
                 "recsTcOXoP1DEM5lL"
             ],
             "verseSort": "07013001",
-            "modified": "2026-10-23T04:48:31.000Z",
+            "modified": "2026-11-16T03:57:57.000Z",
             "sortKey": -1139.92986999,
             "people (from verses)": [
                 "recsU2ZSdzBvDqzgI",
@@ -11715,6 +11813,9 @@
             "eventID": 150,
             "startDate": "-1134",
             "duration": "1D",
+            "predecessor": [
+                "recGFZbQIjuGwXtTy"
+            ],
             "partOf": [
                 "rec3uYdP5Fca5BJfX"
             ],
@@ -11725,7 +11826,7 @@
                 "recjMT68aIzFLh6cQ"
             ],
             "verseSort": "09009002",
-            "modified": "2026-10-23T04:46:08.000Z",
+            "modified": "2026-11-16T03:58:10.000Z",
             "sortKey": -1133.90990998,
             "rangeFlag": true,
             "people (from verses)": [
@@ -11921,6 +12022,9 @@
             "eventID": 155,
             "startDate": "-1094",
             "duration": "40Y",
+            "predecessor": [
+                "reccUeZb53JJ02Lv9"
+            ],
             "verses": [
                 "recWxARcN28uLyEL1",
                 "recNHXm81ETHQJogg",
@@ -12520,7 +12624,7 @@
                 "recjMT68aIzFLh6cQ"
             ],
             "verseSort": "09010001",
-            "modified": "2026-10-23T04:48:44.000Z",
+            "modified": "2026-11-16T03:58:10.000Z",
             "sortKey": -1093.90989999,
             "people (from verses)": [
                 "recZsS2Zu0zIDwqdv",
@@ -13726,11 +13830,14 @@
             "eventID": 156,
             "startDate": "-1094",
             "duration": "120Y",
+            "predecessor": [
+                "recKRsEFLaEueJvei"
+            ],
             "verses": [
                 "recWxARcN28uLyEL1"
             ],
             "verseSort": "09010001",
-            "modified": "2026-10-23T04:49:23.000Z",
+            "modified": "2026-11-16T03:58:10.000Z",
             "sortKey": -1093.90989999,
             "people (from verses)": [
                 "recZsS2Zu0zIDwqdv",
@@ -13752,6 +13859,9 @@
             "eventID": 157,
             "startDate": "-1066",
             "duration": "1D",
+            "predecessor": [
+                "recKRsEFLaEueJvei"
+            ],
             "partOf": [
                 "rec3uYdP5Fca5BJfX"
             ],
@@ -13820,7 +13930,7 @@
                 "recYyKPBJ6GIJIBlp"
             ],
             "verseSort": "09017001",
-            "modified": "2026-10-23T04:46:19.000Z",
+            "modified": "2026-11-16T03:58:10.000Z",
             "sortKey": -1065.90982999,
             "rangeFlag": true,
             "people (from verses)": [
@@ -18372,6 +18482,9 @@
             "eventID": 182,
             "startDate": "-909",
             "duration": "13Y",
+            "predecessor": [
+                "rec44ed0m1pZUujzb"
+            ],
             "verses": [
                 "rec8TKiMRora3w91n",
                 "rechxgNnb7CTqSG1S",
@@ -18541,7 +18654,7 @@
                 "recbHLkz06CSe3C4K"
             ],
             "verseSort": "11017001",
-            "modified": "2026-10-23T04:48:34.000Z",
+            "modified": "2026-11-16T03:58:10.000Z",
             "sortKey": -908.88982999,
             "people (from verses)": [
                 "recbHLkz06CSe3C4K",
@@ -18929,6 +19042,9 @@
             "eventID": 185,
             "startDate": "-896",
             "duration": "1D",
+            "predecessor": [
+                "recRiyMlpGQNCIZvm"
+            ],
             "partOf": [
                 "recRiyMlpGQNCIZvm"
             ],
@@ -18949,7 +19065,7 @@
                 "recLagFr9olax8vua"
             ],
             "verseSort": "12002001",
-            "modified": "2026-10-23T04:46:32.000Z",
+            "modified": "2026-11-16T03:58:10.000Z",
             "sortKey": -895.87997999,
             "people (from verses)": [
                 "recbHLkz06CSe3C4K",
@@ -20371,6 +20487,9 @@
             "eventID": 200,
             "startDate": "-824",
             "duration": "1D",
+            "predecessor": [
+                "recGe7VTJOGbn63NQ"
+            ],
             "verses": [
                 "rec01vTTWV73yjA6Y",
                 "recKfQHG7j4ZF5kTS",
@@ -20425,7 +20544,7 @@
                 "recDDzG65U8UNAY4h"
             ],
             "verseSort": "32001001",
-            "modified": "2026-10-23T04:48:35.000Z",
+            "modified": "2026-11-16T03:58:10.000Z",
             "sortKey": -823.67998999,
             "people (from verses)": [
                 "recDDzG65U8UNAY4h",
@@ -20539,6 +20658,9 @@
             "eventID": 202,
             "startDate": "-819",
             "duration": "1D",
+            "predecessor": [
+                "recKICyY8GrWaYCq3"
+            ],
             "verses": [
                 "rec6l4Iardk75VmJS",
                 "recRVq3N3CWrjzMyx",
@@ -20618,7 +20740,7 @@
                 "reckEj8sJo3TSIHXr"
             ],
             "verseSort": "29001001",
-            "modified": "2026-10-23T04:48:34.000Z",
+            "modified": "2026-11-16T03:58:10.000Z",
             "sortKey": -818.70998999,
             "people (from verses)": [
                 "reckEj8sJo3TSIHXr",
@@ -20784,6 +20906,9 @@
             "eventID": 205,
             "startDate": "-787",
             "duration": "1Y",
+            "predecessor": [
+                "recOJfWD0IUcT4yJD"
+            ],
             "verses": [
                 "recgGgXNbDGkuPtKM",
                 "recI5dVLqpuknJv7S",
@@ -20936,7 +21061,7 @@
                 "rect0HgZKMJNmCSiU"
             ],
             "verseSort": "30001001",
-            "modified": "2026-10-23T04:48:33.000Z",
+            "modified": "2026-11-16T03:58:10.000Z",
             "sortKey": -786.69998999,
             "people (from verses)": [
                 "rect0HgZKMJNmCSiU",
@@ -21142,6 +21267,9 @@
             "eventID": 206,
             "startDate": "-784",
             "duration": "65Y",
+            "predecessor": [
+                "rec0MJooZFfHsxW1N"
+            ],
             "verses": [
                 "recn83TtFEfmCYPVW",
                 "recUolade4fo0UydJ",
@@ -21345,7 +21473,7 @@
                 "recYvCkt5KDp2pOCz"
             ],
             "verseSort": "28001001",
-            "modified": "2026-10-23T04:48:34.000Z",
+            "modified": "2026-11-16T03:58:10.000Z",
             "sortKey": -783.71998999,
             "people (from verses)": [
                 "recYvCkt5KDp2pOCz",
@@ -21989,6 +22117,9 @@
             "eventID": 217,
             "startDate": "-758",
             "duration": "62Y",
+            "predecessor": [
+                "recekTocE5mIkvDEk"
+            ],
             "verses": [
                 "rec8FYqlhjFHJKevZ",
                 "rec2JkknX3cvDRSCa",
@@ -23287,7 +23418,7 @@
                 "recit3DiamFt2zO0S"
             ],
             "verseSort": "23001001",
-            "modified": "2026-10-23T04:48:34.000Z",
+            "modified": "2026-11-16T03:58:10.000Z",
             "sortKey": -757.76998999,
             "people (from verses)": [
                 "recit3DiamFt2zO0S",
@@ -24508,6 +24639,9 @@
             "eventID": 220,
             "startDate": "-753",
             "duration": "57Y",
+            "predecessor": [
+                "recQ1bj3p4Lj5MYY6"
+            ],
             "verses": [
                 "recCa8zLvxdbK5ic5",
                 "recRtx6w4DyNmpdo0",
@@ -24619,7 +24753,7 @@
                 "rec1End7yLK1mCvu6"
             ],
             "verseSort": "33001001",
-            "modified": "2026-10-23T04:48:35.000Z",
+            "modified": "2026-11-16T03:58:10.000Z",
             "sortKey": -752.66998999,
             "people (from verses)": [
                 "rec1End7yLK1mCvu6",
@@ -25493,6 +25627,9 @@
             "eventID": 229,
             "startDate": "-662",
             "duration": "48Y",
+            "predecessor": [
+                "rece9FgMugc1bp3tG"
+            ],
             "verses": [
                 "rec02EgC8o2FhCK4P",
                 "recMbXGBz0CJBLamA",
@@ -25546,7 +25683,7 @@
                 "rec4NVE1n9hdNlpWS"
             ],
             "verseSort": "34001001",
-            "modified": "2026-10-23T04:48:35.000Z",
+            "modified": "2026-11-16T03:58:10.000Z",
             "sortKey": -661.65998999,
             "people (from verses)": [
                 "rec4NVE1n9hdNlpWS",
@@ -25938,6 +26075,9 @@
             "eventID": 234,
             "startDate": "-627",
             "duration": "67Y",
+            "predecessor": [
+                "recVf3eQjAq3nk94o"
+            ],
             "verses": [
                 "recxjINW7fAurqWcD",
                 "rec3r38uhOCtVL5pZ",
@@ -27308,7 +27448,7 @@
                 "recVuseK2cy7CXlve"
             ],
             "verseSort": "24001001",
-            "modified": "2026-10-23T04:48:34.000Z",
+            "modified": "2026-11-16T03:58:10.000Z",
             "sortKey": -626.75998999,
             "people (from verses)": [
                 "recVuseK2cy7CXlve",
@@ -29254,6 +29394,9 @@
             "eventID": 235,
             "startDate": "-609",
             "duration": "1Y",
+            "predecessor": [
+                "rec5pDuWtEaOK7ehk"
+            ],
             "verses": [
                 "recxwLpAQ4fvcRRxi",
                 "receR7z2Ju2ou6EY9",
@@ -29313,7 +29456,7 @@
                 "recAk26vCjZvDa0Gf"
             ],
             "verseSort": "36001001",
-            "modified": "2026-10-23T04:48:35.000Z",
+            "modified": "2026-11-16T03:58:10.000Z",
             "sortKey": -608.63998999,
             "people (from verses)": [
                 "recAk26vCjZvDa0Gf",
@@ -29553,6 +29696,9 @@
             "eventID": 239,
             "startDate": "-606",
             "duration": "1Y",
+            "predecessor": [
+                "recUkdsuAuRono8LY"
+            ],
             "verses": [
                 "recZecZq7GFjSkMut",
                 "recbcoiLohUSR78CZ",
@@ -29615,7 +29761,7 @@
                 "recItah9by6c5tHXj"
             ],
             "verseSort": "35001001",
-            "modified": "2026-10-23T04:48:34.000Z",
+            "modified": "2026-11-16T03:58:10.000Z",
             "sortKey": -605.64998999,
             "people (from verses)": [
                 "recItah9by6c5tHXj",
@@ -29654,6 +29800,9 @@
             "eventID": 240,
             "startDate": "-605",
             "duration": "72Y",
+            "predecessor": [
+                "recwYYlZM2GhIvGOM"
+            ],
             "verses": [
                 "recJo1sTKEiCiOtl6",
                 "recGOySOxovQyqooG",
@@ -30017,7 +30166,7 @@
                 "recc4xDKjSwM1pH12"
             ],
             "verseSort": "27001001",
-            "modified": "2026-10-23T04:48:34.000Z",
+            "modified": "2026-11-16T03:58:10.000Z",
             "sortKey": -604.72998999,
             "people (from verses)": [
                 "recRVq3v1aG0UAtsg",
@@ -30451,6 +30600,9 @@
             "eventID": 243,
             "startDate": "-592",
             "duration": "23Y",
+            "predecessor": [
+                "recrXDCxfIZNDkVus"
+            ],
             "verses": [
                 "rec2VSERixC0rK7BE",
                 "recD6ifqi9guo1Yad",
@@ -31730,7 +31882,7 @@
                 "recY9sUcNV86uep0R"
             ],
             "verseSort": "26001001",
-            "modified": "2026-10-23T04:48:34.000Z",
+            "modified": "2026-11-16T03:58:10.000Z",
             "sortKey": -591.73998999,
             "people (from verses)": [
                 "reccZB8SVU5bEMcgo",
@@ -32630,6 +32782,9 @@
             "eventID": 244,
             "startDate": "-584",
             "duration": "1Y",
+            "predecessor": [
+                "recHzzfCcXm9ut4oF"
+            ],
             "verses": [
                 "recPzDNQ9bxXChhGD",
                 "rech0LR0wrBOpx40w",
@@ -32657,7 +32812,7 @@
                 "recpSgiSA2RRDGp3D"
             ],
             "verseSort": "31001001",
-            "modified": "2026-10-23T04:48:35.000Z",
+            "modified": "2026-11-16T03:58:10.000Z",
             "sortKey": -583.68998999,
             "people (from verses)": [
                 "recpSgiSA2RRDGp3D",
@@ -32714,6 +32869,9 @@
             "eventID": 245,
             "startDate": "-519",
             "duration": "1Y",
+            "predecessor": [
+                "recTGv8WI8lMkUiww"
+            ],
             "verses": [
                 "recxUzIDzcDbaIESA",
                 "reczU5uCrWnCnJ0jz",
@@ -32758,7 +32916,7 @@
                 "recudNaaadFm2BdYm"
             ],
             "verseSort": "37001001",
-            "modified": "2026-10-23T04:48:34.000Z",
+            "modified": "2026-11-16T03:58:10.000Z",
             "sortKey": -518.62998999,
             "people (from verses)": [
                 "rec3Gzi3uBXKwA5IX",
@@ -32836,6 +32994,9 @@
             "eventID": 246,
             "startDate": "-519",
             "duration": "2Y",
+            "predecessor": [
+                "recQPoA7fH3wJi7v2"
+            ],
             "verses": [
                 "recXxC6Jv3ZTAXI8w",
                 "recmdluFlzduhb9Nm",
@@ -33053,7 +33214,7 @@
                 "rec9Sy4iYcg3oeO3t"
             ],
             "verseSort": "38001001",
-            "modified": "2026-10-23T04:48:35.000Z",
+            "modified": "2026-11-16T03:58:10.000Z",
             "sortKey": -518.61998999,
             "people (from verses)": [
                 "rec3Gzi3uBXKwA5IX",
@@ -33315,6 +33476,9 @@
             "eventID": 247,
             "startDate": "-440",
             "duration": "1Y",
+            "predecessor": [
+                "recGGEvpMiLXViisc"
+            ],
             "verses": [
                 "rec7EnTcacHMu8nXe",
                 "recwx5yitmXnMS4vm",
@@ -33376,7 +33540,7 @@
                 "recKOhwkuN60TpUcm"
             ],
             "verseSort": "39001001",
-            "modified": "2026-11-09T23:29:05.000Z",
+            "modified": "2026-11-16T03:58:10.000Z",
             "sortKey": -439.60998999,
             "people (from verses)": [
                 "recKOhwkuN60TpUcm",
@@ -33496,6 +33660,9 @@
             "eventID": 248,
             "startDate": "-5",
             "duration": "1D",
+            "predecessor": [
+                "recpSNqfLiST1KQqq"
+            ],
             "verses": [
                 "rect4RMLvqaXhSBv9",
                 "recxXf8HrOSkPflkd",
@@ -33527,7 +33694,7 @@
                 "recL1WV82pXaRBQ59"
             ],
             "verseSort": "42001005",
-            "modified": "2026-10-23T04:47:35.000Z",
+            "modified": "2026-11-16T03:58:10.000Z",
             "sortKey": -4.57998995,
             "people (from verses)": [
                 "recz5ADicu9ijfZju",
@@ -34363,6 +34530,9 @@
             "eventID": 266,
             "startDate": "26",
             "duration": "1D",
+            "predecessor": [
+                "rec8aq3QrGCer9RqY"
+            ],
             "verses": [
                 "recTFs0NhA6kQKB9N",
                 "recqA9WkB5AhxCChq",
@@ -34413,7 +34583,7 @@
                 "rec5dSSsOutWlH2fW"
             ],
             "verseSort": "40003001",
-            "modified": "2026-10-23T04:47:35.000Z",
+            "modified": "2026-11-16T03:58:10.000Z",
             "sortKey": 26.40003001,
             "people (from verses)": [
                 "recNRRITyGzXsl4yp",
@@ -38032,6 +38202,9 @@
             "eventID": 304,
             "startDate": "0030-05-01",
             "duration": "1D",
+            "predecessor": [
+                "recwQXXtK8ZbnYuIJ"
+            ],
             "verses": [
                 "recvhYfpdHDZzIUVM",
                 "recs0PQO7uvtT2wvn"
@@ -38048,7 +38221,7 @@
                 "recb9l9ttaZlODOFV"
             ],
             "verseSort": "44001004",
-            "modified": "2026-11-09T14:16:43.000Z",
+            "modified": "2026-11-16T03:58:10.000Z",
             "sortKey": 30.44001004,
             "people (from verses)": [
                 "reccZB8SVU5bEMcgo",
@@ -40211,6 +40384,9 @@
             "eventID": 338,
             "startDate": "0045",
             "duration": "1Y",
+            "predecessor": [
+                "recTAdkQX4sglPtLl"
+            ],
             "verses": [
                 "recNNf2phwgPszaw0",
                 "recbAR00M5UvF0OUp",
@@ -40316,7 +40492,7 @@
                 "recL1WV82pXaRBQ59"
             ],
             "verseSort": "44012024",
-            "modified": "2026-10-23T04:46:42.000Z",
+            "modified": "2026-11-16T03:58:10.000Z",
             "sortKey": 45.44012024,
             "people (from verses)": [
                 "reccZB8SVU5bEMcgo",
@@ -51667,7 +51843,7 @@
             ],
             "notes": "70 years of servitude to Babylon (Jer 25:11, 29:10), counted by Jones/Ussher from the first deportation in Jehoiakim's 3rd year (606 BC) to Cyrus's decree (536 BC).\n",
             "verseSort": "24025011",
-            "modified": "2026-11-14T19:52:13.000Z",
+            "modified": "2026-11-15T00:05:49.000Z",
             "sortKey": -604.75974989,
             "people (from verses)": [
                 "reccZB8SVU5bEMcgo",
@@ -51685,6 +51861,9 @@
                 "recpqKANUDcRgN4HU",
                 "rec1TAitFuG2xVnbt",
                 "recL1WV82pXaRBQ59"
+            ],
+            "definitions": [
+                "recVePoTBllqRMkmL"
             ]
         }
     },
@@ -51719,7 +51898,7 @@
                 "recL1WV82pXaRBQ59"
             ],
             "verseSort": "27001001",
-            "modified": "2026-11-14T19:52:13.000Z",
+            "modified": "2026-11-15T00:05:49.000Z",
             "sortKey": -604.72998999,
             "people (from verses)": [
                 "recRVq3v1aG0UAtsg",
@@ -51739,6 +51918,9 @@
                 "recpqKANUDcRgN4HU",
                 "recpqKANUDcRgN4HU",
                 "recpqKANUDcRgN4HU"
+            ],
+            "definitions": [
+                "recMlbIul2bZIPKJD"
             ]
         }
     },
@@ -51776,7 +51958,7 @@
                 "recpqKANUDcRgN4HU"
             ],
             "verseSort": "27001003",
-            "modified": "2026-11-14T19:56:13.000Z",
+            "modified": "2026-11-15T00:05:49.000Z",
             "sortKey": -604.72998997,
             "people (from verses)": [
                 "recOERt4ChbFD9emf",
@@ -51789,6 +51971,9 @@
                 "recoBpFUDlYHqTsel",
                 "recuAr93KELnhw1t2",
                 "rec8W4ddbPMwkhiOQ"
+            ],
+            "definitions": [
+                "recmmuyw0Ie04oa8N"
             ]
         }
     },
@@ -51818,7 +52003,7 @@
                 "recJ0N5yStBk9CjXA"
             ],
             "verseSort": "24046002",
-            "modified": "2026-11-14T19:52:13.000Z",
+            "modified": "2026-11-15T00:05:49.000Z",
             "sortKey": -603.75953998,
             "people (from verses)": [
                 "recTMYikvzJ27cDlA",
@@ -51833,6 +52018,9 @@
                 "recMFUSc6GzrLNNtt",
                 "recJ0N5yStBk9CjXA",
                 "recpqKANUDcRgN4HU"
+            ],
+            "definitions": [
+                "recuu24XALPTWvtQt"
             ]
         }
     },
@@ -51861,7 +52049,7 @@
             ],
             "notes": "Counted from his accession year, 605 BC (Jer 25:1: Jehoiakim's 4th = Nebuchadnezzar's 1st). 43 years.\n",
             "verseSort": "24025001",
-            "modified": "2026-11-14T19:52:13.000Z",
+            "modified": "2026-11-15T00:05:49.000Z",
             "sortKey": -603.75974999,
             "people (from verses)": [
                 "recVuseK2cy7CXlve",
@@ -51875,6 +52063,9 @@
             ],
             "places (from verses)": [
                 "recpqKANUDcRgN4HU"
+            ],
+            "definitions": [
+                "rec27yzbOjqVRonsb"
             ]
         }
     },
@@ -51958,7 +52149,7 @@
             ],
             "notes": "Dan 2:1 says the second year; Jones dates the dream to 604 BC, Nebuchadnezzar's first official year.\n",
             "verseSort": "27002001",
-            "modified": "2026-11-14T19:56:13.000Z",
+            "modified": "2026-11-15T00:05:49.000Z",
             "sortKey": -602.72997999,
             "people (from verses)": [
                 "recTMYikvzJ27cDlA",
@@ -52006,6 +52197,9 @@
                 "recpqKANUDcRgN4HU",
                 "recpqKANUDcRgN4HU",
                 "recpqKANUDcRgN4HU"
+            ],
+            "definitions": [
+                "recqGpPZ6Xujl8yey"
             ]
         }
     },
@@ -52038,11 +52232,14 @@
                 "recpqKANUDcRgN4HU"
             ],
             "verseSort": "12024002",
-            "modified": "2026-11-14T19:56:13.000Z",
+            "modified": "2026-11-15T00:05:49.000Z",
             "sortKey": -596.87975998,
             "people (from verses)": [
                 "reccZB8SVU5bEMcgo",
                 "recTMYikvzJ27cDlA"
+            ],
+            "definitions": [
+                "recLOaqthF4rgRHkx"
             ]
         }
     },
@@ -52082,7 +52279,7 @@
                 "recpqKANUDcRgN4HU"
             ],
             "verseSort": "12024010",
-            "modified": "2026-11-14T19:56:13.000Z",
+            "modified": "2026-11-15T00:05:49.000Z",
             "sortKey": -595.8797599,
             "people (from verses)": [
                 "recTMYikvzJ27cDlA",
@@ -52106,6 +52303,9 @@
                 "recpqKANUDcRgN4HU",
                 "recL1WV82pXaRBQ59",
                 "recpqKANUDcRgN4HU"
+            ],
+            "definitions": [
+                "reckqHNUMmiDPH8Ry"
             ]
         }
     },
@@ -52142,7 +52342,7 @@
                 "recpqKANUDcRgN4HU"
             ],
             "verseSort": "24051059",
-            "modified": "2026-11-14T19:52:13.000Z",
+            "modified": "2026-11-15T00:05:49.000Z",
             "sortKey": -591.75948941,
             "people (from verses)": [
                 "recVuseK2cy7CXlve",
@@ -52162,6 +52362,9 @@
                 "recpqKANUDcRgN4HU",
                 "recJ0N5yStBk9CjXA",
                 "recpqKANUDcRgN4HU"
+            ],
+            "definitions": [
+                "recltTsgtPS5rpHnB"
             ]
         }
     },
@@ -52200,7 +52403,7 @@
                 "rec5wqkJ6JXv03dvF"
             ],
             "verseSort": "26008001",
-            "modified": "2026-11-14T19:56:13.000Z",
+            "modified": "2026-11-15T00:05:49.000Z",
             "sortKey": -590.73991999,
             "people (from verses)": [
                 "reccZB8SVU5bEMcgo",
@@ -52213,6 +52416,9 @@
             ],
             "places (from verses)": [
                 "recL1WV82pXaRBQ59"
+            ],
+            "definitions": [
+                "recxtsiNFsDr2pmxY"
             ]
         }
     },
@@ -52246,7 +52452,7 @@
                 "recL1WV82pXaRBQ59"
             ],
             "verseSort": "12024020",
-            "modified": "2026-11-14T19:53:07.000Z",
+            "modified": "2026-11-15T00:06:57.000Z",
             "sortKey": -587.8797598,
             "people (from verses)": [
                 "rec5naIzF29A8wJIP",
@@ -52262,6 +52468,9 @@
                 "recpqKANUDcRgN4HU",
                 "recL1WV82pXaRBQ59",
                 "recfrXyxhuYOczKTm"
+            ],
+            "definitions": [
+                "recKN9Pj3PZm9i5OT"
             ]
         }
     },
@@ -52298,7 +52507,7 @@
                 "recL1WV82pXaRBQ59"
             ],
             "verseSort": "12025001",
-            "modified": "2026-11-14T19:53:07.000Z",
+            "modified": "2026-11-15T00:06:57.000Z",
             "sortKey": -586.87974999,
             "people (from verses)": [
                 "recTMYikvzJ27cDlA",
@@ -52318,6 +52527,9 @@
                 "recL1WV82pXaRBQ59",
                 "recL1WV82pXaRBQ59",
                 "recpqKANUDcRgN4HU"
+            ],
+            "definitions": [
+                "recKbUVsFecNsGv1o"
             ]
         }
     },
@@ -52358,7 +52570,7 @@
                 "recfrXyxhuYOczKTm"
             ],
             "verseSort": "24037005",
-            "modified": "2026-11-14T19:53:07.000Z",
+            "modified": "2026-11-15T00:06:57.000Z",
             "sortKey": -586.75962995,
             "people (from verses)": [
                 "recOdl9oB4UWmbiqP",
@@ -52377,6 +52589,9 @@
                 "recfrXyxhuYOczKTm",
                 "recL1WV82pXaRBQ59",
                 "recpqKANUDcRgN4HU"
+            ],
+            "definitions": [
+                "recRomSV76Sce2lNE"
             ]
         }
     },
@@ -52447,7 +52662,7 @@
                 "recwejjn5PDlbkVgH"
             ],
             "verseSort": "12025003",
-            "modified": "2026-11-14T19:56:13.000Z",
+            "modified": "2026-11-15T00:06:57.000Z",
             "sortKey": -584.87974997,
             "people (from verses)": [
                 "rec5naIzF29A8wJIP",
@@ -52516,6 +52731,9 @@
                 "recL1WV82pXaRBQ59",
                 "recL1WV82pXaRBQ59",
                 "recpqKANUDcRgN4HU"
+            ],
+            "definitions": [
+                "reczIsUxtm30HO5gZ"
             ]
         }
     },
@@ -52561,7 +52779,7 @@
                 "recpqKANUDcRgN4HU"
             ],
             "verseSort": "12025011",
-            "modified": "2026-11-14T19:56:13.000Z",
+            "modified": "2026-11-15T00:06:57.000Z",
             "sortKey": -584.87974989,
             "people (from verses)": [
                 "recaLosNnjuT2am7x",
@@ -52592,6 +52810,9 @@
                 "recwejjn5PDlbkVgH",
                 "recA34XfYsCxhyu31",
                 "recpqKANUDcRgN4HU"
+            ],
+            "definitions": [
+                "rec8KK9PV5PBE1MjO"
             ]
         }
     },
@@ -52622,11 +52843,14 @@
                 "recpqKANUDcRgN4HU"
             ],
             "verseSort": "24052030",
-            "modified": "2026-11-14T19:56:13.000Z",
+            "modified": "2026-11-15T00:06:57.000Z",
             "sortKey": -580.7594797,
             "people (from verses)": [
                 "recTMYikvzJ27cDlA",
                 "recaLosNnjuT2am7x"
+            ],
+            "definitions": [
+                "reckKfg6diAE65Bpa"
             ]
         }
     },
@@ -52664,7 +52888,7 @@
                 "recpqKANUDcRgN4HU"
             ],
             "verseSort": "12025027",
-            "modified": "2026-11-14T19:56:13.000Z",
+            "modified": "2026-11-15T00:06:57.000Z",
             "sortKey": -559.87974973,
             "people (from verses)": [
                 "recO6jj8WG1gFfhIR",
@@ -52678,6 +52902,9 @@
                 "recpqKANUDcRgN4HU",
                 "recpqKANUDcRgN4HU",
                 "recpqKANUDcRgN4HU"
+            ],
+            "definitions": [
+                "recjxthCLsdwXx9vf"
             ]
         }
     },
@@ -52739,7 +52966,7 @@
                 "recpqKANUDcRgN4HU"
             ],
             "verseSort": "27005001",
-            "modified": "2026-11-14T19:56:13.000Z",
+            "modified": "2026-11-15T00:06:57.000Z",
             "sortKey": -537.72994999,
             "people (from verses)": [
                 "recunH0SANFhGPvSJ",
@@ -52766,6 +52993,9 @@
                 "recL1WV82pXaRBQ59",
                 "recL1WV82pXaRBQ59",
                 "recpqKANUDcRgN4HU"
+            ],
+            "definitions": [
+                "recrKDIchrieur4fo"
             ]
         }
     },
@@ -52785,7 +53015,7 @@
             ],
             "notes": "From Cyrus's decree and the first return (536 BC) to the close of the Old Testament record (Nehemiah's second term, Malachi).\n",
             "verseSort": "15001001",
-            "modified": "2026-11-14T19:56:21.000Z",
+            "modified": "2026-11-15T00:06:57.000Z",
             "sortKey": -534.84998999,
             "people (from verses)": [
                 "recYS0HXBlTsRDtlc",
@@ -52794,6 +53024,9 @@
             ],
             "places (from verses)": [
                 "rec1TAitFuG2xVnbt"
+            ],
+            "definitions": [
+                "rec6wKj26iAGybrbl"
             ]
         }
     },
@@ -52827,7 +53060,7 @@
                 "recpqKANUDcRgN4HU"
             ],
             "verseSort": "15001001",
-            "modified": "2026-11-14T19:56:21.000Z",
+            "modified": "2026-11-15T00:06:57.000Z",
             "sortKey": -534.84998999,
             "people (from verses)": [
                 "recYS0HXBlTsRDtlc",
@@ -52852,6 +53085,9 @@
                 "rec1TAitFuG2xVnbt",
                 "recL1WV82pXaRBQ59",
                 "rec1TAitFuG2xVnbt"
+            ],
+            "definitions": [
+                "recRprc8F5UdwYRqW"
             ]
         }
     },
@@ -52962,7 +53198,7 @@
                 "recuYvXjZsXumRLPL"
             ],
             "verseSort": "15001005",
-            "modified": "2026-11-14T19:56:21.000Z",
+            "modified": "2026-11-15T00:08:13.000Z",
             "sortKey": -534.84998995,
             "people (from verses)": [
                 "recBOUtTncbBlfEn9",
@@ -53107,6 +53343,9 @@
                 "recP4pruL0bFAEipt",
                 "recjyykH1XegxAjRz",
                 "recL1WV82pXaRBQ59"
+            ],
+            "definitions": [
+                "recNxJUxRHhPjwRWg"
             ]
         }
     },
@@ -53198,7 +53437,7 @@
                 "recL1WV82pXaRBQ59"
             ],
             "verseSort": "15003008",
-            "modified": "2026-11-14T19:56:21.000Z",
+            "modified": "2026-11-15T00:08:13.000Z",
             "sortKey": -533.84996992,
             "people (from verses)": [
                 "rec0lXwCB3xvWjTVN",
@@ -53347,6 +53586,9 @@
                 "recL1WV82pXaRBQ59",
                 "rec9ygL3vIbmQQtNQ",
                 "rec1TAitFuG2xVnbt"
+            ],
+            "definitions": [
+                "recQiWm58yZ1Nc5TW"
             ]
         }
     },
@@ -53402,7 +53644,7 @@
                 "recL1WV82pXaRBQ59"
             ],
             "verseSort": "15004001",
-            "modified": "2026-11-14T19:56:21.000Z",
+            "modified": "2026-11-15T00:08:13.000Z",
             "sortKey": -520.84995999,
             "people (from verses)": [
                 "recBOUtTncbBlfEn9",
@@ -53456,6 +53698,9 @@
                 "recL1WV82pXaRBQ59",
                 "rec1TAitFuG2xVnbt",
                 "recL1WV82pXaRBQ59"
+            ],
+            "definitions": [
+                "recc72EMuHhMhIXyl"
             ]
         }
     },
@@ -53489,7 +53734,7 @@
             ],
             "notes": "Darius I Hystaspis, counted from his first year (521 BC). Jones and Ussher identify him with the Ahasuerus of Esther.\n",
             "verseSort": "15004024",
-            "modified": "2026-11-14T19:56:21.000Z",
+            "modified": "2026-11-15T00:08:13.000Z",
             "sortKey": -519.84995976,
             "people (from verses)": [
                 "rec3Gzi3uBXKwA5IX",
@@ -53503,6 +53748,9 @@
                 "rec3AkQ2GFvTqPxCx",
                 "recxCz0P7YIE6Jp40",
                 "receX4PMAVfHZyoCO"
+            ],
+            "definitions": [
+                "rec9hqGwjapTtOXYE"
             ]
         }
     },
@@ -53567,7 +53815,7 @@
                 "recL1WV82pXaRBQ59"
             ],
             "verseSort": "15005001",
-            "modified": "2026-11-14T19:56:21.000Z",
+            "modified": "2026-11-15T00:08:13.000Z",
             "sortKey": -518.84994999,
             "people (from verses)": [
                 "recudNaaadFm2BdYm",
@@ -53645,6 +53893,9 @@
                 "rec9ygL3vIbmQQtNQ",
                 "recL1WV82pXaRBQ59",
                 "recL1WV82pXaRBQ59"
+            ],
+            "definitions": [
+                "reczDKn74XfhjYisJ"
             ]
         }
     },
@@ -53697,7 +53948,7 @@
                 "receX4PMAVfHZyoCO"
             ],
             "verseSort": "17001001",
-            "modified": "2026-11-14T19:56:21.000Z",
+            "modified": "2026-11-15T00:08:13.000Z",
             "sortKey": -517.82998999,
             "people (from verses)": [
                 "reck4FOoejZddGY7H",
@@ -53743,6 +53994,9 @@
                 "recHQ6dZlDsEgw45z",
                 "rec1TAitFuG2xVnbt",
                 "recHQ6dZlDsEgw45z"
+            ],
+            "definitions": [
+                "recmOvjcOYjXWdHGV"
             ]
         }
     },
@@ -53783,7 +54037,7 @@
                 "recL1WV82pXaRBQ59"
             ],
             "verseSort": "15006013",
-            "modified": "2026-11-14T19:56:21.000Z",
+            "modified": "2026-11-15T00:08:13.000Z",
             "sortKey": -514.84993987,
             "people (from verses)": [
                 "rec0QH0cZJ2ZL6vja",
@@ -53811,6 +54065,9 @@
                 "rec1TAitFuG2xVnbt",
                 "recL1WV82pXaRBQ59",
                 "recIJFRcqI6KbKgXb"
+            ],
+            "definitions": [
+                "rec0vlVJk1XkIl3Cj"
             ]
         }
     },
@@ -53862,7 +54119,7 @@
                 "receX4PMAVfHZyoCO"
             ],
             "verseSort": "17002001",
-            "modified": "2026-11-14T19:56:21.000Z",
+            "modified": "2026-11-15T00:08:13.000Z",
             "sortKey": -513.82997999,
             "people (from verses)": [
                 "reck4FOoejZddGY7H",
@@ -53904,6 +54161,9 @@
                 "recL1WV82pXaRBQ59",
                 "recpqKANUDcRgN4HU",
                 "receX4PMAVfHZyoCO"
+            ],
+            "definitions": [
+                "reckrpSxTQODaP1Jx"
             ]
         }
     },
@@ -53967,7 +54227,7 @@
                 "receX4PMAVfHZyoCO"
             ],
             "verseSort": "17003001",
-            "modified": "2026-11-14T19:56:29.000Z",
+            "modified": "2026-11-15T00:08:13.000Z",
             "sortKey": -508.82996999,
             "people (from verses)": [
                 "reck4FOoejZddGY7H",
@@ -54023,6 +54283,9 @@
                 "receX4PMAVfHZyoCO",
                 "receX4PMAVfHZyoCO",
                 "receX4PMAVfHZyoCO"
+            ],
+            "definitions": [
+                "recwVr5MkBWvFYbfV"
             ]
         }
     },
@@ -54066,7 +54329,7 @@
             ],
             "notes": "Nisan 510 BC, the same Nisan as Haman's decree (Esth 3:12), per Jones's Chart 5; his Appendix F prints 509 BC.\n",
             "verseSort": "17006001",
-            "modified": "2026-11-14T19:56:29.000Z",
+            "modified": "2026-11-15T00:08:13.000Z",
             "sortKey": -508.82993999,
             "people (from verses)": [
                 "recCNBE1sRdiZd1js",
@@ -54090,6 +54353,9 @@
                 "recCNBE1sRdiZd1js",
                 "recWbF7K0mK6Cjo7U",
                 "recRuSINUX52qGLlh"
+            ],
+            "definitions": [
+                "rechCTYBpfE1qNyvS"
             ]
         }
     },
@@ -54132,7 +54398,7 @@
                 "receX4PMAVfHZyoCO"
             ],
             "verseSort": "17007001",
-            "modified": "2026-11-14T19:56:29.000Z",
+            "modified": "2026-11-15T00:09:37.000Z",
             "sortKey": -508.82992999,
             "people (from verses)": [
                 "recWbF7K0mK6Cjo7U",
@@ -54159,6 +54425,9 @@
                 "recWbF7K0mK6Cjo7U",
                 "recCNBE1sRdiZd1js",
                 "recRuSINUX52qGLlh"
+            ],
+            "definitions": [
+                "recfnr9pMlIcIgI3o"
             ]
         }
     },
@@ -54240,7 +54509,7 @@
             ],
             "notes": "Adar of Darius's 12th year, which falls in 509 BC (Jones).\n",
             "verseSort": "17008003",
-            "modified": "2026-11-14T19:56:29.000Z",
+            "modified": "2026-11-15T00:09:37.000Z",
             "sortKey": -507.82991997,
             "people (from verses)": [
                 "recRuSINUX52qGLlh",
@@ -54307,6 +54576,9 @@
                 "receX4PMAVfHZyoCO",
                 "recHQ6dZlDsEgw45z",
                 "rec1TAitFuG2xVnbt"
+            ],
+            "definitions": [
+                "reclW96GQmSuoFYYt"
             ]
         }
     },
@@ -54318,6 +54590,9 @@
             "eventID": 493,
             "startDate": "-472",
             "duration": "49Y",
+            "predecessor": [
+                "recVfc4YiI2uLua95"
+            ],
             "partOf": [
                 "recCbUT2ysQKNMMfh"
             ],
@@ -54333,7 +54608,7 @@
             ],
             "notes": "Artaxerxes I Longimanus, counted from 473 BC when Xerxes made him pro-rex (Ussher, Jones).\n",
             "verseSort": "15007001",
-            "modified": "2026-11-14T19:56:29.000Z",
+            "modified": "2026-11-16T03:58:10.000Z",
             "sortKey": -471.84992999,
             "people (from verses)": [
                 "recchOACwBAGRfvvS",
@@ -54345,6 +54620,9 @@
             ],
             "places (from verses)": [
                 "rec1TAitFuG2xVnbt"
+            ],
+            "definitions": [
+                "recHDiZ9Eky8OWuUL"
             ]
         }
     },
@@ -54440,7 +54718,7 @@
                 "recL1WV82pXaRBQ59"
             ],
             "verseSort": "15007001",
-            "modified": "2026-11-14T19:56:29.000Z",
+            "modified": "2026-11-15T00:09:37.000Z",
             "sortKey": -465.84992999,
             "people (from verses)": [
                 "recchOACwBAGRfvvS",
@@ -54605,6 +54883,9 @@
                 "recL1WV82pXaRBQ59",
                 "recL1WV82pXaRBQ59",
                 "rec9ygL3vIbmQQtNQ"
+            ],
+            "definitions": [
+                "rec8nB1HhkxzzLGVb"
             ]
         }
     },
@@ -54691,7 +54972,7 @@
                 "recL1WV82pXaRBQ59"
             ],
             "verseSort": "15009001",
-            "modified": "2026-11-14T19:56:29.000Z",
+            "modified": "2026-11-15T00:09:37.000Z",
             "sortKey": -465.84990999,
             "people (from verses)": [
                 "reccZB8SVU5bEMcgo",
@@ -54863,6 +55144,9 @@
                 "recL1WV82pXaRBQ59",
                 "recL1WV82pXaRBQ59",
                 "recW5BCheAWsWp91F"
+            ],
+            "definitions": [
+                "recO9t0XfOSTMIm3I"
             ]
         }
     },
@@ -54904,7 +55188,7 @@
             ],
             "notes": "Chislev of the 20th year falls before the Nisan of Neh 2:1, so Jones dates it to 455 BC.\n",
             "verseSort": "16001001",
-            "modified": "2026-11-14T19:56:29.000Z",
+            "modified": "2026-11-15T00:09:37.000Z",
             "sortKey": -453.83998999,
             "people (from verses)": [
                 "recHC0HgcWgcXChGp",
@@ -54921,6 +55205,9 @@
                 "receX4PMAVfHZyoCO",
                 "recL1WV82pXaRBQ59",
                 "recL1WV82pXaRBQ59"
+            ],
+            "definitions": [
+                "recQBXZOtvAOkX9sr"
             ]
         }
     },
@@ -54959,7 +55246,7 @@
             ],
             "notes": "Jones starts Daniel's 70 weeks (Dan 9:25) from this decree.\n",
             "verseSort": "16002001",
-            "modified": "2026-11-14T19:56:29.000Z",
+            "modified": "2026-11-15T00:09:37.000Z",
             "sortKey": -452.83997999,
             "people (from verses)": [
                 "recchOACwBAGRfvvS",
@@ -54969,6 +55256,9 @@
             ],
             "places (from verses)": [
                 "rec9ygL3vIbmQQtNQ"
+            ],
+            "definitions": [
+                "recxMcNdeTjM7s40S"
             ]
         }
     },
@@ -55010,7 +55300,7 @@
                 "recL1WV82pXaRBQ59"
             ],
             "verseSort": "16002009",
-            "modified": "2026-11-14T19:56:29.000Z",
+            "modified": "2026-11-15T00:09:37.000Z",
             "sortKey": -452.83997991,
             "people (from verses)": [
                 "rec52hiVeIo48q2Ru",
@@ -55036,6 +55326,9 @@
                 "recRShKfG3aDWnBy5",
                 "recL1WV82pXaRBQ59",
                 "recL1WV82pXaRBQ59"
+            ],
+            "definitions": [
+                "recjN6yy70OwquoCt"
             ]
         }
     },
@@ -55176,7 +55469,7 @@
                 "recL1WV82pXaRBQ59"
             ],
             "verseSort": "16003001",
-            "modified": "2026-11-14T19:56:33.000Z",
+            "modified": "2026-11-15T00:09:37.000Z",
             "sortKey": -452.83996999,
             "people (from verses)": [
                 "recpYzeFhsXSVnDG1",
@@ -55404,6 +55697,9 @@
                 "reczKwHT81lCIivSq",
                 "recZTEJYFgHuZKP2h",
                 "recL1WV82pXaRBQ59"
+            ],
+            "definitions": [
+                "recg3XvTERXAPihTw"
             ]
         }
     },
@@ -55440,7 +55736,7 @@
                 "recpqKANUDcRgN4HU"
             ],
             "verseSort": "16013004",
-            "modified": "2026-11-14T19:56:33.000Z",
+            "modified": "2026-11-15T00:09:37.000Z",
             "sortKey": -440.83986996,
             "people (from verses)": [
                 "recgNRPDB2nPAFAKT",
@@ -55455,6 +55751,47 @@
                 "recL1WV82pXaRBQ59",
                 "recpqKANUDcRgN4HU",
                 "recL1WV82pXaRBQ59"
+            ],
+            "definitions": [
+                "recg04Z2a0h69UvfL"
+            ]
+        }
+    },
+    {
+        "id": "recB0iCUqRuKrUdN8",
+        "createdTime": "2026-11-16T04:10:30.000Z",
+        "fields": {
+            "title": "Birth of Joshua",
+            "eventID": 501,
+            "startDate": "-1533",
+            "duration": "1D",
+            "predecessor": [
+                "recJOhn4C4yKIJmvH"
+            ],
+            "partOf": [
+                "rechguBS4b9kXx3z3"
+            ],
+            "verses": [
+                "recWanbYlKOvYhLWt",
+                "recVcTWP9SSgGFWoZ"
+            ],
+            "participants": [
+                "recLuZtSmAO6erIsc",
+                "rectAKOMFVWfGYUGW"
+            ],
+            "locations": [
+                "recfrXyxhuYOczKTm"
+            ],
+            "verseSort": "06024029",
+            "modified": "2026-11-16T04:11:05.000Z",
+            "sortKey": -1532.93975971,
+            "people (from verses)": [
+                "recLuZtSmAO6erIsc",
+                "rectAKOMFVWfGYUGW",
+                "reccZB8SVU5bEMcgo",
+                "recLuZtSmAO6erIsc",
+                "rectAKOMFVWfGYUGW",
+                "reccZB8SVU5bEMcgo"
             ]
         }
     }
