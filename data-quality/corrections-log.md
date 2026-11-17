@@ -8,6 +8,15 @@ Found something that still looks wrong? [Open a data correction issue](https://g
 
 ## November 2026
 
+Fixed in `geo/` on November 16 in [#104](https://github.com/robertrouse/theographic-bible-metadata/pull/104) (`c676d11`). No export needed.
+
+- **GeoJSON:** Eleven stops in `geo/pauls_journeys_all.geojson` had properties shifted by a spreadsheet column error (DQ-0063). Only properties changed; coordinates and geometry are unchanged.
+  - `Place ID` is now the Theographic `placeID` on *Seleucia* (1045), *Salamis* (1016), *Cenchreae* (281), *Troas* (1182), *Ptolemais* (959) and *Antipatris* (70). Three of these had held a verse reference, and three were empty.
+  - `Source Link` on *Salamis* now points to Salamis (DARE 21562) instead of Paphos. *Rome* (DARE 1438) and *Samothrace* (DARE 22854) now have real links instead of `924` and `Acts.27.8`, so their "More" links work on the journeys map.
+  - *Antipatris* no longer has the stray note `924`. *Three Taverns* now lists Acts 28:15 for the voyage to Rome instead of `924`. The two Antioch stops are now named *Antioch (Syria)* and *Antioch (Pisidia)*.
+- **Docs:** [Geospatial Data](../docs/geospatial-data.md) now says `Place ID` is the Theographic `placeID`, not a verse reference.
+- **viz.bible:** The Mapbox tileset `bibleviz.cjeuphot60b1v2qqjb1n4zd5y-2eo1m` and dataset `cjeuphot60b1v2qqjb1n4zd5y` behind the journeys map were republished to match.
+
 Fixed in Airtable on November 16, after that day's export. These changes reach `json/` and `CSV/` in the next export.
 
 - **People:** Four people linked to another person's Easton's Bible Dictionary entry now link to their own, or to none (DQ-0075). Each person's Easton text (`dictText`) follows the link.
