@@ -6,7 +6,7 @@
         "Notes": "",
         "Place Name": "Seleucia",
         "first": "Acts.13.3",
-        "Place ID": "Acts.20.13",
+        "Place ID": "1045",
         "anchor": "top-right",
         "Source Link": "http://imperium.ahlfeldt.se/places/21501"
       },
@@ -45,9 +45,9 @@
         "Notes": "",
         "Place Name": "Salamis",
         "first": "Acts.13.5",
-        "Place ID": "Acts.21.1",
+        "Place ID": "1016",
         "anchor": "left",
-        "Source Link": "http://dare.ht.lu.se/places/22716"
+        "Source Link": "http://imperium.ahlfeldt.se/places/21562"
       },
       "geometry": {
         "coordinates": [
@@ -870,7 +870,7 @@
       "type": "Feature",
       "properties": {
         "Place ID": "68",
-        "Place Name": "Antioch",
+        "Place Name": "Antioch (Syria)",
         "Source Link": "http://imperium.ahlfeldt.se/places/21094",
         "first": "Acts.13.1,Acts.14.26",
         "second": "Acts.15.22",
@@ -1035,6 +1035,7 @@
       "properties": {
         "Notes": "",
         "Place Name": "Troas",
+        "Place ID": "1182",
         "second": "Acts.16.8",
         "third": "Acts.20.6",
         "anchor": "top-right",
@@ -1609,7 +1610,7 @@
       "properties": {
         "Place ID": "1013",
         "Place Name": "Rome",
-        "Source Link": "924",
+        "Source Link": "http://imperium.ahlfeldt.se/places/1438",
         "rome": "Acts.28.16",
         "Notes": ""
       },
@@ -2408,6 +2409,7 @@
       "type": "Feature",
       "properties": {
         "Place Name": "Ptolemais",
+        "Place ID": "959",
         "Notes": "",
         "Source Link": "http://imperium.ahlfeldt.se/places/21662",
         "third": "Acts.21.7"
@@ -2647,8 +2649,9 @@
       "type": "Feature",
       "properties": {
         "Place Name": "Antipatris",
+        "Place ID": "70",
         "rome": "Acts.23.31",
-        "Notes": "924",
+        "Notes": "",
         "Source Link": "http://imperium.ahlfeldt.se/places/21684",
         "anchor": "bottom-right"
       },
@@ -6008,7 +6011,7 @@
         "Notes": "",
         "Place Name": "Cenchreae",
         "second": "Acts.18.18",
-        "Place ID": "Acts.21.1",
+        "Place ID": "281",
         "anchor": "top-right",
         "Source Link": "http://imperium.ahlfeldt.se/places/21953"
       },
@@ -7190,7 +7193,7 @@
       "properties": {
         "Place ID": 1159,
         "Place Name": "Three Taverns",
-        "rome": "924",
+        "rome": "Acts.28.15",
         "Source Link": "https://en.wikipedia.org/wiki/Tre_Taverne",
         "anchor": "right",
         "Notes": ""
@@ -8959,7 +8962,7 @@
       "type": "Feature",
       "properties": {
         "Notes": "Not mentioned by name in the third journey; mapped as a likely stop within the region.",
-        "Place Name": "Antioch",
+        "Place Name": "Antioch (Pisidia)",
         "first": "Acts.13.14, Acts.14.21",
         "Place ID": "69",
         "third": "Acts.18.23",
@@ -12200,7 +12203,7 @@
       "properties": {
         "Place ID": "1025",
         "Place Name": "Samothrace",
-        "Source Link": "Acts.27.8",
+        "Source Link": "http://imperium.ahlfeldt.se/places/22854",
         "second": "Acts.16.11",
         "Notes": ""
       },

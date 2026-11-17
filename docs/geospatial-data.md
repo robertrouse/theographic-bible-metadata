@@ -42,7 +42,8 @@ A FeatureCollection of Paul's missionary journeys with 111 features: 44 `Point` 
 | Property | Description |
 |---|---|
 | `Place Name` | Stop name (on points) |
-| `Place ID` / `first`, `second`, `third`, `rome` | Verse references (OSIS) linking a stop to each journey: first, second, third, and the voyage to Rome |
+| `Place ID` | Theographic `placeID` of the stop |
+| `first`, `second`, `third`, `rome` | Verse references (OSIS) linking a stop to each journey: first, second, third, and the voyage to Rome |
 | `route_id` | Route segment identifier (on lines) |
 | `Source Link` | Source for the coordinates, typically a Digital Atlas of the Roman Empire (DARE) URL |
 | `Notes` | Editorial notes |
