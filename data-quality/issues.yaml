@@ -2552,7 +2552,7 @@
 
 - id: DQ-0075
   title: "Five people are linked to another person's Easton entry"
-  status: open
+  status: fixed
   type: bad-link
   severity: medium
   table: people
@@ -2595,13 +2595,28 @@
     - { record: recauQ3IPfRTuQbBj, field: eastons, not_contains: "recTmFMJqa8qVREZl" }
   rule: null
   found: { date: 2026-11-16, by: "Bible Aquifer ACAI review (PR #7 analogue)", sha: 18cb045 }
-  fixed: { date: null, sha: null }
+  fixed: { date: 2026-11-16, sha: null }
   github: null
   affects: [tweb]
   notes: >-
     Effort: Medium. Places also share eight Easton entries across canonical records
     (Baalath, Egypt, Etam 1, Holy place, Lebanon, Riblah, Succoth 2, Tiphsah); these
     looked plausible and are not part of this item.
+
+    Fixed in Airtable 2026-11-16. People eastons: asahiah_324 Isaiah 1 -> none (no
+    Asahiah/Asaiah entry in the easton table); medan_1978 Dedan 2 -> Medan;
+    manasseh_1930 Manasseh 1 -> Manasseh 2; nathan_2155 Nathan 1 -> none (no entry for
+    Nathan son of Attai; Easton's Nathan 1 cites 1 Chr 2:36 only by conflating Zabad with
+    the prophet's son). noah_2211 unchanged: Easton's single "Noah" record ends with a
+    paragraph on Noah daughter of Zelophehad, so it is the correct entry. Easton
+    matchSlugs now equal the people links: Dedan 2 "unmatched" -> "dedan_999", James 1 ->
+    "james_717", Nathan 1 -> "nathan_2153", Manasseh 2 -> "manasseh_1930" (manasseh_1929
+    is Judg 18:30). The four judgement-call pairs keep their shared entries (Easton covers
+    both people in each). Not applied (proposal): matchType still "unmatched" on Dedan 2
+    and "multi" on James 1, Nathan 1 and Manasseh 2; all four should be "person" (tweb
+    lists matchType unmatched entries as standalone topics). Backup and log:
+    /workspace/drafts/dq0075-backup-2026-11-16.json, dq0075-apply-log-2026-11-16.txt.
+    fixed.sha to be filled from the next export.
 
 - id: DQ-0076
   title: "No Gadara/Gerasa/Gergesa place; the Gadarene verses and event lack a location"

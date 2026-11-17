@@ -8,6 +8,15 @@ Found something that still looks wrong? [Open a data correction issue](https://g
 
 ## November 2026
 
+Fixed in Airtable on November 16, after that day's export. These changes reach `json/` and `CSV/` in the next export.
+
+- **People:** Four people linked to another person's Easton's Bible Dictionary entry now link to their own, or to none (DQ-0075). Each person's Easton text (`dictText`) follows the link.
+  - *Medan* (`medan_1978`) now links to Easton's *Medan* instead of *Dedan 2*, and *Manasseh* son of Hezekiah (`manasseh_1930`) to *Manasseh 2* instead of *Manasseh 1* (son of Joseph).
+  - *Asahiah* (`asahiah_324`) no longer links to *Isaiah 1*, and *Nathan* son of Attai (`nathan_2155`, 1 Chr 2:36) no longer links to *Nathan 1* (the prophet). Easton has no separate entry for either.
+  - *Noah*, daughter of Zelophehad (`noah_2211`), still links to Easton's *Noah*, whose last paragraph describes her.
+  - Four pairs still share one entry because Easton describes both people in it: *Aram* (`aram_285`, `aram_286`), *Gaius* (`gaius_1269`, `gaius_1271`), *Heman* (`heman_1488`, `heman_1489`) and *James* (`james_718`, `james_719`).
+- **Easton:** `matchSlugs` now agrees with the people links on *Dedan 2* (`dedan_999`), *James 1* (`james_717`), *Nathan 1* (`nathan_2153`) and *Manasseh 2* (`manasseh_1930`). Their `matchType` was not changed; *Dedan 2* is still marked `unmatched` (DQ-0075).
+
 Fixed in Airtable on November 16. Exported in [#101](https://github.com/robertrouse/theographic-bible-metadata/pull/101) (`6dc5de5`).
 
 - **Events:** Ten new events (eventIDs 502–511) cover exile-era episodes Jones's Appendix F does not list (DQ-0070). Gedaliah's appointment and murder are two events. *Ahasuerus honors Mordecai* now follows *Esther goes before the king*, so the Esther events stay in order. Dates follow Jones, except *Daniel in the lions' den*, which follows Ussher (538 BC). *Ezra reads the Law* is dated 536 BC, the same month as *The altar is rebuilt*.
