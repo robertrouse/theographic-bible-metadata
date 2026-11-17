@@ -21,7 +21,7 @@ Fixed in Airtable on November 16. Exported in [#101](https://github.com/robertro
 - **Verses:** Jer 37:5, 37:7 and 37:11 now tag Pharaoh-hophra (`pharaoh_2336`) instead of Pharaoh of the Exodus (`pharaoh_2331`). Jones, Chart Five p. 201a, identifies this Pharaoh as Hophra and cites Jer 37:5–11 (DQ-0060). Jer 43:9 and Ezek 30:24 remain on `pharaoh_2331` for a separate pass.
   - Jer 46:2 now tags Pharaoh-nechoh (`pharaoh-nechoh_2337`); the inline "Pharaoh-necho" links in mdText and richText were updated in the same edit (DQ-0061).
 
-Fixed in Airtable on November 15. These changes reach `json/` and `CSV/` in the next export.
+Fixed in Airtable on November 15. Exported in [#94](https://github.com/robertrouse/theographic-bible-metadata/pull/94) (`7797ffb`).
 
 - **Events:** *Judgeship of Eli* now follows *Oppression by Ammon and Philistia*, and the stray 28-year FS lag was cleared. The start date is unchanged (1162 BC). Predecessors are for ordering (DQ-0046). In the same pass, 55 other events that had no predecessor were given the previous event in sequence, with no lag. Only *Creation* now lacks a predecessor.
   - *Birth of Joshua* was added (1534 BC, eventID 501). *Lifetime of Joshua* now starts in that year and follows the birth. *Death of Joshua* (1424 BC) now follows *Birth of Joshua*, with the same 110-year lag.

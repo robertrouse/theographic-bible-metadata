@@ -1250,7 +1250,7 @@
     - { record: rec3z1OqSDMH0rR7y, field: lag, not_equals: "28Y" }
   rule: lag-has-predecessor
   found: { date: 2026-11-09, by: "lag audit (predecessor start + lag vs startDate, live Airtable)", sha: 8e73bfc }
-  fixed: { date: 2026-11-15, sha: null }
+  fixed: { date: 2026-11-15, sha: 7797ffb }
   github: null
   affects: []
   notes: >-
@@ -1262,7 +1262,7 @@
     was added; Lifetime of Joshua (eventID 124, rechguBS4b9kXx3z3) was moved to -1533 with Birth
     of Joshua as predecessor; Death of Joshua (eventID 133, recnPiyyKviVUPHO6) now follows Birth
     of Joshua with a 110Y FS lag; joshua_1727 (recLuZtSmAO6erIsc) birthYear is -1533. Only
-    Creation now lacks a predecessor. fixed.sha to be filled from the next export.
+    Creation now lacks a predecessor. Exported in 7797ffb.
 
 - id: DQ-0047
   title: Death of Joshua has a lag but no predecessor, and Joshua's dates disagree by 13 years
