@@ -15,7 +15,8 @@ Fixed in Airtable on November 16, after that day's export. These changes reach `
   - *Asahiah* (`asahiah_324`) no longer links to *Isaiah 1*, and *Nathan* son of Attai (`nathan_2155`, 1 Chr 2:36) no longer links to *Nathan 1* (the prophet). Easton has no separate entry for either.
   - *Noah*, daughter of Zelophehad (`noah_2211`), still links to Easton's *Noah*, whose last paragraph describes her.
   - Four pairs still share one entry because Easton describes both people in it: *Aram* (`aram_285`, `aram_286`), *Gaius* (`gaius_1269`, `gaius_1271`), *Heman* (`heman_1488`, `heman_1489`) and *James* (`james_718`, `james_719`).
-- **Easton:** `matchSlugs` now agrees with the people links on *Dedan 2* (`dedan_999`), *James 1* (`james_717`), *Nathan 1* (`nathan_2153`) and *Manasseh 2* (`manasseh_1930`). Their `matchType` was not changed; *Dedan 2* is still marked `unmatched` (DQ-0075).
+- **Easton:** `matchSlugs` now agrees with the people links on *Dedan 2* (`dedan_999`), *James 1* (`james_717`), *Nathan 1* (`nathan_2153`) and *Manasseh 2* (`manasseh_1930`). Their `matchType` is now `person`; *Dedan 2* was `unmatched`, and the other three were `multi` (DQ-0075).
+- **Places:** *Emmaus* (`emmaus_382`) and *Bethlehem* of Zebulun (`bethlehem_219`) no longer carry Recogito links to the wrong places: `recogitoUri`, `recogitoLat` and `recogitoLon` were cleared. They had pointed to a village named Emmaus in Russia (GeoNames 563481) and to Bethlehem in Judah (GeoNames 284315). The displayed coordinates are unchanged (DQ-0073).
 
 Fixed in Airtable on November 16. Exported in [#101](https://github.com/robertrouse/theographic-bible-metadata/pull/101) (`6dc5de5`).
 

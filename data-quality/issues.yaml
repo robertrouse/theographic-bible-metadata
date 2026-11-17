@@ -2465,7 +2465,7 @@
 
 - id: DQ-0073
   title: "Emmaus and Bethlehem of Zebulun have Recogito/GeoNames links to the wrong places"
-  status: open
+  status: fixed
   type: bad-link
   severity: low
   table: places
@@ -2502,12 +2502,20 @@
     - { record: recsyolL81TBx45nu, field: recogitoUri, not_contains: "284315" }
   rule: null
   found: { date: 2026-11-16, by: "Bible Aquifer ACAI review (issues #12, #13)", sha: 18cb045 }
-  fixed: { date: null, sha: null }
+  fixed: { date: 2026-11-16, sha: null }
   github: null
   affects: [api, neo4j]
   notes: >-
     Effort: Small. Neither issue was fixed upstream as of 2026-11-16 (opened that day by
     a third party). Specific instances of DQ-0074.
+
+    Fixed in Airtable 2026-11-16 (option 1). recogitoUri, recogitoLat and recogitoLon
+    cleared on emmaus_382 (was GeoNames 563481, 56.78055, 36.115) and bethlehem_219 (was
+    GeoNames 284315, 31.70487, 35.20376). No replacement GeoNames id was added. Display
+    latitude/longitude unchanged (31.83945022, 34.98952933 and 32.735379, 35.189704); no
+    alias records point to either place. recogitoStatus, recogitoLabel and recogitoUID were
+    left as they were. Backup and log: /workspace/drafts/dq0073-backup-2026-11-16.json,
+    dq0073-apply-log-2026-11-16.txt. fixed.sha to be filled from the next export.
 
 - id: DQ-0074
   title: "Recogito points are more than 25 km from the display coordinates in 215 places"
@@ -2612,10 +2620,11 @@
     matchSlugs now equal the people links: Dedan 2 "unmatched" -> "dedan_999", James 1 ->
     "james_717", Nathan 1 -> "nathan_2153", Manasseh 2 -> "manasseh_1930" (manasseh_1929
     is Judg 18:30). The four judgement-call pairs keep their shared entries (Easton covers
-    both people in each). Not applied (proposal): matchType still "unmatched" on Dedan 2
-    and "multi" on James 1, Nathan 1 and Manasseh 2; all four should be "person" (tweb
-    lists matchType unmatched entries as standalone topics). Backup and log:
-    /workspace/drafts/dq0075-backup-2026-11-16.json, dq0075-apply-log-2026-11-16.txt.
+    both people in each). matchType set to "person" on Dedan 2 (was "unmatched"), James 1,
+    Nathan 1 and Manasseh 2 (were "multi") later the same day, so Dedan 2 is no longer
+    listed by tweb as a standalone unmatched topic. Backup and log:
+    /workspace/drafts/dq0075-backup-2026-11-16.json, dq0075-matchtype-backup-2026-11-16.json,
+    dq0075-apply-log-2026-11-16.txt.
     fixed.sha to be filled from the next export.
 
 - id: DQ-0076
