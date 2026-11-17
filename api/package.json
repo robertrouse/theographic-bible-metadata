@@ -4,17 +4,20 @@
   "description": "GraphQL API for Theographic Bible Metadata using JSON data",
   "main": "index.js",
   "scripts": {
-    "start": "netlify dev",
+    "start": "npx --yes netlify-cli@latest dev",
     "build": "echo 'No build step required'",
     "test": "node --test tests/graphql.test.js",
     "test:verbose": "node --test --test-reporter=spec tests/graphql.test.js"
   },
   "dependencies": {
-    "@apollo/server": "^4.10.0",
-    "graphql": "^16.6.0",
+    "@apollo/server": "^5.5.2",
+    "graphql": "^16.15.0",
     "graphql-tag": "^2.12.6"
   },
-  "devDependencies": {
-    "netlify-cli": "^12.0.0"
+  "engines": {
+    "node": ">=20"
+  },
+  "overrides": {
+    "@graphql-tools/utils": "12.0.2"
   }
 }
