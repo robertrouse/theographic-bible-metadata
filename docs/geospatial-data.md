@@ -25,7 +25,7 @@ All coordinate fields are **strings** in decimal degrees (WGS 84). Convert them 
 
 Every biblical place as one [Linked Places Format](https://github.com/LinkedPasts/linked-places-format) FeatureCollection, validated against the World Historical Gazetteer LPF schema v1.2.2. It merges the place records above with Digital Manna, OpenBible.info, Pleiades, Wikidata and PeriodO, so it is the file to use for gazetteer work or for loading into the [World Historical Gazetteer](https://whgazetteer.org/).
 
-- **1,030 places.** Records that are other names of one place are merged into a single feature; each name keeps its own citations and dates (Azotus under Ashdod, dated to Acts).
+- **1,031 places.** Records that are other names of one place are merged into a single feature; each name keeps its own citations and dates (Azotus under Ashdod, dated to Acts).
 - **Every place is biblical:** each has at least one verse reference.
 - **`geometry`:** a point with `certainty` (`certain` or `less-certain`, from OpenBible.info's confidence score) on 1,025 places; kingdoms are a MultiPoint of their territories; 5 unlocatable places have an empty GeometryCollection.
 - **`when`:** each place's start, from the earliest ancient attestation in Pleiades or the earliest mention in the Theographic chronology, labelled with its [PeriodO](https://perio.do/) period in the Levant. Kingdoms also have an end.

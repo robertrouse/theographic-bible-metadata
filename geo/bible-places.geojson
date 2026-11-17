@@ -30595,6 +30595,101 @@
       ]
     },
     {
+      "@id": "https://bible.helloao.org/api/c/places/country-of-the-gerasenes.json",
+      "properties": {
+        "title": "Country of the Gerasenes",
+        "fclasses": [
+          "L"
+        ]
+      },
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.649291,
+          32.824024
+        ],
+        "certainty": "less-certain"
+      },
+      "when": {
+        "timespans": [
+          {
+            "start": {
+              "in": "28"
+            }
+          }
+        ],
+        "periods": [
+          {
+            "name": "Early Roman period",
+            "uri": "http://n2t.net/ark:/99152/p0dkm292f42"
+          }
+        ],
+        "label": "earliest mention in the biblical narrative (event: Gadarene Demoniacs), Theographic chronology; point is a stand-in at the traditional site (Chorsia/Kursi, Pleiades 678093), district boundaries unknown"
+      },
+      "names": [
+        {
+          "toponym": "Country of the Gerasenes",
+          "lang": "en",
+          "citations": [
+            {
+              "label": "Theographic",
+              "@id": "https://theographic.netlify.app/place/country-of-the-gerasenes_1303/"
+            }
+          ]
+        },
+        {
+          "toponym": "Country of the Gadarenes",
+          "lang": "en",
+          "citations": [
+            {
+              "label": "Theographic",
+              "@id": "https://theographic.netlify.app/place/country-of-the-gerasenes_1303/"
+            }
+          ]
+        },
+        {
+          "toponym": "Country of the Gergesenes",
+          "lang": "en",
+          "citations": [
+            {
+              "label": "Theographic",
+              "@id": "https://theographic.netlify.app/place/country-of-the-gerasenes_1303/"
+            }
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "relationType": "gvp:broaderPartitive",
+          "relationTo": "https://bible.helloao.org/api/c/places/decapolis.json",
+          "label": "part of Decapolis",
+          "when": {
+            "timespans": [
+              {
+                "start": {
+                  "in": "28"
+                }
+              }
+            ]
+          },
+          "certainty": "less certain",
+          "citations": [
+            {
+              "label": "Mark.5.20",
+              "@id": "https://theographic.netlify.app/mark#Mark.5.20"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "type": "seeAlso",
+          "identifier": "https://theographic.netlify.app/place/country-of-the-gerasenes_1303/"
+        }
+      ]
+    },
+    {
       "@id": "https://bible.helloao.org/api/c/places/coos.json",
       "properties": {
         "title": "Cos",

@@ -7,7 +7,7 @@ Two GeoJSON files, free to use under [CC BY-SA 4.0](../LICENSE). More detail in
 
 Every place mentioned in the Bible as one
 [Linked Places Format](https://github.com/LinkedPasts/linked-places-format)
-FeatureCollection: 1,030 places, valid against the World Historical Gazetteer
+FeatureCollection: 1,031 places, valid against the World Historical Gazetteer
 LPF schema v1.2.2, so it can be loaded into the
 [World Historical Gazetteer](https://whgazetteer.org/) or any GeoJSON tool.
 Every place has at least one verse reference.

@@ -2641,7 +2641,7 @@
 
 - id: DQ-0076
   title: "No Gadara/Gerasa/Gergesa place; the Gadarene verses and event lack a location"
-  status: open
+  status: fixed
   type: missing-record
   severity: medium
   table: places
@@ -2651,6 +2651,7 @@
     - { id: recCnIzG3A6cur2rj, key: "Luke.8.26 (country of the Gadarenes), tagged only galilee_433" }
     - { id: recXUdjkNNjZ37ddP, key: "Luke.8.37 (country of the Gadarenes), no place tag" }
     - { id: recY3vd5gVnwqoRV1, key: "event 387 Gadarene Demoniacs, no location" }
+    - { id: rec9Pcy2H3Fm5yzWm, key: "country-of-the-gerasenes_1303 (new region record, placeID 1303)" }
   field: places (verses), locations (events)
   current: >-
     json/places.json has no Gadara, Gerasa or Gergesa record (only decapolis_328 nearby).
@@ -2668,12 +2669,99 @@
     Verse text: Matt 8:28, Mark 5:1, Luke 8:26, 8:37. Prompted by a third-party audit of
     Bible Aquifer's ACAI Gadara/Gerasa records: https://github.com/icfmp/ACAI/issues/7 ,
     which documents the SBLGNT readings and variants and that the two cities are distinct.
-  checks: []
+  checks:
+    - { record: rec9u0H2o5rXUFDAg, field: places, contains: "rec9Pcy2H3Fm5yzWm" }
+    - { record: recl67r4YUZ7vGJE6, field: places, contains: "rec9Pcy2H3Fm5yzWm" }
+    - { record: recCnIzG3A6cur2rj, field: places, contains: "rec9Pcy2H3Fm5yzWm" }
+    - { record: recXUdjkNNjZ37ddP, field: places, contains: "rec9Pcy2H3Fm5yzWm" }
+    - { record: recY3vd5gVnwqoRV1, field: locations, contains: "rec9Pcy2H3Fm5yzWm" }
   rule: null
   found: { date: 2026-11-16, by: "Bible Aquifer ACAI review (icfmp/ACAI#7)", sha: 18cb045 }
-  fixed: { date: null, sha: null }
+  fixed: { date: 2026-11-17, sha: null }
   github: null
   affects: [geo, events]
   notes: >-
     Effort: Medium (new place record(s) plus research). New place records and verse links
     are reviewed by Robert before any Airtable write.
+    Fixed in Airtable on 2026-11-17 after Robert approved the record (decisions on the
+    Notion backlog page). One region record, country-of-the-gerasenes_1303
+    (rec9Pcy2H3Fm5yzWm): displayTitle "Country of the Gerasenes", Region,
+    Related-Surrounding, kjvName Gadarenes, esvName Gerasenes, Easton "Gadarenes"
+    (recWrZWJ3sf0DlscV). Spelling follows SBLGNT/NA28 and modern translations (Gerasenes in
+    Mark 5:1, Luke 8:26, 37). No Gadara or Gerasa city records: no verse names either city,
+    only the demonyms. No Kursi record. Coordinates 32.824024, 35.649291 are a stand-in at
+    the traditional site (Chorsia/Kursi, Pleiades 678093), entered in openBibleLat/Long
+    because latitude/longitude/sourceLat/sourceLon are formulas; pleiadesUri stays blank
+    because Pleiades does not identify the district. No gazetteer maps the district; NET
+    notes and the Encyclopedia of the Bible favor Kursi. The four verses link the demonym
+    in mdText and richText (Luke 8:26 keeps galilee_433; its mdText period moved out of the
+    Galilee link). Event 387 location set. GeoJSON feature country-of-the-gerasenes added
+    (fclass L, Point, less-certain, part of Decapolis cited to Mark 5:20). Backup and log:
+    /workspace/drafts/dq0076-backup-2026-11-17.json, dq0076-apply-log-2026-11-17.txt.
+    fixed.sha to be filled from the merge commit.
+
+- id: DQ-0077
+  title: "decapolis_328 display coordinates are Damascus (same point as straight_1112)"
+  status: open
+  type: bad-value
+  severity: medium
+  table: places
+  records:
+    - { id: recmKQbYJdJMGjw23, key: "decapolis_328 (Decapolis)" }
+  field: openBibleLat, openBibleLong (latitude, longitude, sourceLat, sourceLon)
+  current: >-
+    latitude/longitude 33.519299, 36.31344999999999 (from openBibleLat/openBibleLong), the
+    same point as straight_1112 (Straight Gate, Damascus); beth-eden_200 and syria_1122 also
+    sit on it. geo/bible-places.geojson decapolis.json has [35.8, 32.716667]; Pleiades
+    678116 (Dekapolis, region/label) has a representative point of 32.38068, 35.73224.
+    pleiadesUri is already 678116, but pleiadesLat/pleiadesLon are empty, so sourceLat
+    falls back to the OpenBible point (ae733a2).
+  proposed: >-
+    Replace the display point with a Decapolis-region point, preferably the Pleiades 678116
+    label point (32.3807, 35.7322), set pleiadesLat/pleiadesLon, keep precision
+    Related-Surrounding, and check the GeoJSON point still agrees (DQ-0072). Leave
+    straight_1112 unchanged.
+  evidence: >-
+    json/places.json at ac9ca92; geo/bible-places.geojson at ac9ca92;
+    https://pleiades.stoa.org/places/678116 (reprPoint 35.73224, 32.38068);
+    https://www.openbible.info/geo/ancient/ae733a2 (Decapolis).
+  checks:
+    - { record: recmKQbYJdJMGjw23, field: latitude, not_equals: "33.519299" }
+  rule: null
+  found: { date: 2026-11-17, by: "DQ-0076 review", sha: ac9ca92 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [geo]
+  notes: >-
+    Effort: Small. Notion backlog row DQ-0077.
+
+- id: DQ-0078
+  title: "mdText person links have an extra bracket in 16,525 verses"
+  status: open
+  type: bad-format
+  severity: medium
+  table: verses
+  records: []
+  field: mdText
+  current: >-
+    Every person link in verses.mdText is written [Name]([/person/slug), with an extra "["
+    after the opening parenthesis: 16,525 verses, 33,424 links, and no correctly formed
+    "](/person/" link in mdText. Examples: Mark 5:20 [Jesus]([/person/jesus_905); Gen 2:8
+    [LORD]([/person/god_1324). Place links are fine and richText is fine (0 malformed).
+    docs/json-fields-documentation.md shows Gen 2:8 mdText in the correct form. graphql.js
+    serves mdText as stored.
+  proposed: >-
+    Replace "]([/person/" with "](/person/" in mdText on all affected verses, and fix the
+    step that writes mdText so the bracket does not come back; confirm 0 after the next
+    export.
+  evidence: >-
+    json/verses.json at ac9ca92 (count of mdText containing "]([/person/").
+  checks: []
+  rule: mdtext-link-format
+  found: { date: 2026-11-17, by: "DQ-0076 review", sha: ac9ca92 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [api]
+  notes: >-
+    Effort: Medium (bulk mechanical fix plus finding the generator). Notion backlog row
+    DQ-0078.

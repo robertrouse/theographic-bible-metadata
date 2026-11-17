@@ -14032,6 +14032,45 @@
         }
     },
     {
+        "id": "rec9Pcy2H3Fm5yzWm",
+        "createdTime": "2026-11-17T21:48:07.000Z",
+        "fields": {
+            "placeLookup": "country-of-the-gerasenes_1303",
+            "displayTitle": "Country of the Gerasenes",
+            "featureType": "Region",
+            "precision": "Related-Surrounding",
+            "latitude": "32.824024",
+            "longitude": "35.649291",
+            "comment": "District on the east shore of the Sea of Galilee where Jesus healed the demoniac(s). Modern texts: Gerasenes (Mark 5:1; Luke 8:26, 37), Gadarenes (Matt 8:28); KJV: Gadarenes, Gergesenes (Matt 8:28). Textual variants of one district; not the city of Gerasa or Gadara. Stand-in point at the traditional site (Chorsia/Kursi, Pleiades 678093); district boundaries unknown.",
+            "verseCount": 4,
+            "placeID": 1303,
+            "verses": [
+                "rec9u0H2o5rXUFDAg",
+                "recl67r4YUZ7vGJE6",
+                "recCnIzG3A6cur2rj",
+                "recXUdjkNNjZ37ddP"
+            ],
+            "eastons": [
+                "recWrZWJ3sf0DlscV"
+            ],
+            "modified": "2026-11-17T21:48:07.000Z",
+            "kjvName": "Gadarenes",
+            "esvName": "Gerasenes",
+            "openBibleLat": "32.824024",
+            "openBibleLong": "35.649291",
+            "alphaGroup": "C",
+            "slug": "country-of-the-gerasenes_1303",
+            "dictText": [
+                "The inhabitants of Gadara, in Revised Version \u201cGerasenes\u201d ([Mark 5:1](/mark#Mark.5.1); [Luke 8:26](/luke#Luke.8.26), [37](/luke#Luke.8.37)). In [Matt. 8:28](/matt#Matt.8.28) they are called Gergesenes, Revised Version \u201cGadarenes.\u201d"
+            ],
+            "eventsHere": [
+                "recY3vd5gVnwqoRV1"
+            ],
+            "sourceLat": "32.824024",
+            "sourceLon": "35.649291"
+        }
+    },
+    {
         "id": "recm8RzMhm7XDgVE1",
         "createdTime": "2017-09-19T23:40:41.000Z",
         "fields": {
