@@ -637496,13 +637496,16 @@
             ],
             "verseNum": "28",
             "verseText": "And when he was come to the other side into the country of the Gergesenes, there met him two possessed with devils, coming out of the tombs, exceeding fierce, so that no man might pass by that way.",
-            "mdText": "And when he was come to the other side into the country of the Gergesenes, there met him two possessed with devils, coming out of the tombs, exceeding fierce, so that no man might pass by that way.",
+            "mdText": "And when he was come to the other side into the country of the [Gergesenes](/place/country-of-the-gerasenes_1303), there met him two possessed with devils, coming out of the tombs, exceeding fierce, so that no man might pass by that way.",
             "peopleCount": 0,
-            "placesCount": 0,
+            "places": [
+                "rec9Pcy2H3Fm5yzWm"
+            ],
+            "placesCount": 1,
             "yearNum": 31,
-            "richText": "And when he was come to the other side into the country of the Gergesenes, there met him two possessed with devils, coming out of the tombs, exceeding fierce, so that no man might pass by that way.\n",
+            "richText": "And when he was come to the other side into the country of the [Gergesenes](/place/country-of-the-gerasenes_1303), there met him two possessed with devils, coming out of the tombs, exceeding fierce, so that no man might pass by that way.\n",
             "verseID": "40008028",
-            "modified": "2026-10-23T04:46:43.000Z",
+            "modified": "2026-11-17T21:48:25.000Z",
             "event": [
                 "recY3vd5gVnwqoRV1"
             ],
@@ -665274,13 +665277,16 @@
             ],
             "verseNum": "1",
             "verseText": "And they came over unto the other side of the sea, into the country of the Gadarenes.",
-            "mdText": "And they came over unto the other side of the sea, into the country of the Gadarenes.",
+            "mdText": "And they came over unto the other side of the sea, into the country of the [Gadarenes](/place/country-of-the-gerasenes_1303).",
             "peopleCount": 0,
-            "placesCount": 0,
+            "places": [
+                "rec9Pcy2H3Fm5yzWm"
+            ],
+            "placesCount": 1,
             "yearNum": 31,
-            "richText": "And they came over unto the other side of the sea, into the country of the Gadarenes.\n",
+            "richText": "And they came over unto the other side of the sea, into the country of the [Gadarenes](/place/country-of-the-gerasenes_1303).\n",
             "verseID": "41005001",
-            "modified": "2026-10-23T04:46:43.000Z",
+            "modified": "2026-11-17T21:48:25.000Z",
             "event": [
                 "recY3vd5gVnwqoRV1"
             ],
@@ -691172,16 +691178,17 @@
             ],
             "verseNum": "26",
             "verseText": "And they arrived at the country of the Gadarenes, which is over against Galilee.",
-            "mdText": "And they arrived at the country of the Gadarenes, which is over against [Galilee.](/place/galilee_433)",
+            "mdText": "And they arrived at the country of the [Gadarenes](/place/country-of-the-gerasenes_1303), which is over against [Galilee](/place/galilee_433).",
             "peopleCount": 0,
             "places": [
-                "recmL1lWBqWP3mAq3"
+                "recmL1lWBqWP3mAq3",
+                "rec9Pcy2H3Fm5yzWm"
             ],
-            "placesCount": 1,
+            "placesCount": 2,
             "yearNum": 31,
-            "richText": "And they arrived at the country of the Gadarenes, which is over against [Galilee](/place/galilee_433).\n",
+            "richText": "And they arrived at the country of the [Gadarenes](/place/country-of-the-gerasenes_1303), which is over against [Galilee](/place/galilee_433).\n",
             "verseID": "42008026",
-            "modified": "2026-10-23T04:46:43.000Z",
+            "modified": "2026-11-17T21:48:25.000Z",
             "event": [
                 "recY3vd5gVnwqoRV1"
             ],
@@ -691463,13 +691470,16 @@
             ],
             "verseNum": "37",
             "verseText": "Then the whole multitude of the country of the Gadarenes round about besought him to depart from them; for they were taken with great fear: and he went up into the ship, and returned back again.",
-            "mdText": "Then the whole multitude of the country of the Gadarenes round about besought him to depart from them; for they were taken with great fear: and he went up into the ship, and returned back again.",
+            "mdText": "Then the whole multitude of the country of the [Gadarenes](/place/country-of-the-gerasenes_1303) round about besought him to depart from them; for they were taken with great fear: and he went up into the ship, and returned back again.",
             "peopleCount": 0,
-            "placesCount": 0,
+            "places": [
+                "rec9Pcy2H3Fm5yzWm"
+            ],
+            "placesCount": 1,
             "yearNum": 31,
-            "richText": "Then the whole multitude of the country of the Gadarenes round about besought him to depart from them; for they were taken with great fear: and he went up into the ship, and returned back again.\n",
+            "richText": "Then the whole multitude of the country of the [Gadarenes](/place/country-of-the-gerasenes_1303) round about besought him to depart from them; for they were taken with great fear: and he went up into the ship, and returned back again.\n",
             "verseID": "42008037",
-            "modified": "2026-10-23T04:46:43.000Z",
+            "modified": "2026-11-17T21:48:25.000Z",
             "event": [
                 "recY3vd5gVnwqoRV1"
             ],

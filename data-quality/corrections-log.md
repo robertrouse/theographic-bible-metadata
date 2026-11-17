@@ -8,6 +8,13 @@ Found something that still looks wrong? [Open a data correction issue](https://g
 
 ## November 2026
 
+Fixed in Airtable and `geo/` on November 17. `json/` and `CSV/` in this change were patched to match; the next export replaces them.
+
+- **Places:** New region *Country of the Gerasenes* (`country-of-the-gerasenes_1303`), the district east of the Sea of Galilee where Jesus healed the demoniac(s) (DQ-0076). KJV reads *Gadarenes* (Mark 5:1, Luke 8:26, 37) and *Gergesenes* (Matt 8:28); modern texts read *Gerasenes*. It is not the city of Gerasa or Gadara. Its point is a stand-in at the traditional site, Kursi (Pleiades 678093), with precision `Related-Surrounding`; the district's boundaries are unknown.
+- **Verses:** Matt 8:28, Mark 5:1, Luke 8:26 and Luke 8:37 now link the place in `places`, `mdText` and `richText`. A stray period in Luke 8:26's `mdText` moved outside the Galilee link (DQ-0076).
+- **Events:** *Gadarene Demoniacs* (event 387) now has a location (DQ-0076).
+- **GeoJSON:** `geo/bible-places.geojson` adds the region (1,031 places), marked `less-certain` and part of the Decapolis (Mark 5:20) (DQ-0076).
+
 Fixed in `geo/` on November 16 in [#104](https://github.com/robertrouse/theographic-bible-metadata/pull/104) (`c676d11`). No export needed.
 
 - **GeoJSON:** Eleven stops in `geo/pauls_journeys_all.geojson` had properties shifted by a spreadsheet column error (DQ-0063). Only properties changed; coordinates and geometry are unchanged.
