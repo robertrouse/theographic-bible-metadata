@@ -1993,7 +1993,7 @@
 
 - id: DQ-0063
   title: Stop property column-shift errors in pauls_journeys_all.geojson
-  status: open
+  status: fixed
   type: wrong-value
   severity: medium
   table: places
@@ -2039,7 +2039,7 @@
   checks: []
   rule: null
   found: { date: 2026-11-12, by: "Paul's journeys vs Itiner-e comparison", sha: 8100f47 }
-  fixed: { date: null, sha: null }
+  fixed: { date: 2026-11-16, sha: c676d11e05688df4d478e28bd5d72233007820e5 }
   github: null
   affects: [geo, viz.bible/journeys]
   notes: >-
@@ -2048,6 +2048,18 @@
     map uses Source Link in stop popups, so Rome and Samothrace currently have
     broken "More" links. Cross-ref DQ-0064 for Iconium and Paphos coordinate
     disagreements in places.json (the journey file is already right for those two).
+
+    Fixed 2026-11-16 directly in geo/pauls_journeys_all.geojson by PR #104 (merge
+    c676d11e05688df4d478e28bd5d72233007820e5); no Airtable export needed. Property edits
+    only on 11 stops; coordinates, geometry and feature counts (111: 44 points, 67 lines)
+    unchanged. Place ID now the Theographic placeID: Seleucia 1045, Salamis 1016,
+    Cenchreae 281, Troas 1182, Ptolemais 959, Antipatris 70. Source Link: Salamis →
+    http://imperium.ahlfeldt.se/places/21562, Rome → http://imperium.ahlfeldt.se/places/1438,
+    Samothrace → http://imperium.ahlfeldt.se/places/22854. Antipatris Notes "924" cleared;
+    Three Taverns rome "924" → "Acts.28.15"; Place Name "Antioch (Syria)" and "Antioch
+    (Pisidia)". docs/geospatial-data.md now describes Place ID as the Theographic placeID.
+    The Mapbox tileset bibleviz.cjeuphot60b1v2qqjb1n4zd5y-2eo1m and dataset
+    cjeuphot60b1v2qqjb1n4zd5y (viz.bible journeys map) were republished to match.
 - id: DQ-0064
   title: Iconium and Paphos coordinates in places.json disagree with Pleiades
   status: fixed
