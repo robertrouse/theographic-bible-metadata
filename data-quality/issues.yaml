@@ -2620,7 +2620,7 @@
     - { record: recYnS78qsArMZfh5, field: eastons, not_contains: "recezYAnrERuWooZz" }
     - { record: rec5LjGfCEP8klGHt, field: eastons, not_contains: "recLVuF3Cyx42nwko" }
     - { record: recs485VRY8zagFCP, field: eastons, not_contains: "recmJGDMUlZA8JjVL" }
-    - { record: recauQ3IPfRTuQbBj, field: eastons, not_contains: "recTmFMJqa8qVREZl" }
+    - { record: recauQ3IPfRTuQbBj, field: eastons, contains: "recTmFMJqa8qVREZl" }
   rule: null
   found: { date: 2026-11-16, by: "Bible Aquifer ACAI review (PR #7 analogue)", sha: 18cb045 }
   fixed: { date: 2026-11-16, sha: 0243dac }
