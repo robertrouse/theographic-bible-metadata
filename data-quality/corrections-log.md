@@ -8,6 +8,11 @@ Found something that still looks wrong? [Open a data correction issue](https://g
 
 ## November 2026
 
+Fixed in Airtable on November 17. These changes reach `json/` and `CSV/` in the next export.
+
+- **Places:** The southern *Hazor* alias of *Kerioth-hezron* (`hazor_547`) and the *Hazor* of Josh 15:23 (`hazor_546`) no longer carry Recogito links to northern Tel Hazor (Pleiades 779967430). `recogitoUri`, `recogitoLat`, `recogitoLon` and `recogitoLabel` were cleared. The displayed coordinates are unchanged (DQ-0079). *Kerioth-hezron* itself stays at the shared "near Moladah" point (31.162327, 35.057114), precision Rough; Khirbet el-Qaryatein remains an unverified candidate.
+- **Verses:** In Josh 15:25, the first "Hazor" in `mdText` and `richText` now links to *Hazor-hadattah* (`hazor-hadattah_550`). The closing "which is Hazor" still points at the Kerioth-hezron alias (`hazor_547`) (DQ-0079).
+
 Fixed in Airtable on November 17. Exported in [#110](https://github.com/robertrouse/theographic-bible-metadata/pull/110) (`0243dac`).
 
 - **Verses:** Person links in `mdText` no longer have a stray bracket. All 16,525 affected verses now read `[God](/person/god_1324)` instead of `[God]([/person/god_1324)`, 33,424 links in all, matching `richText` (DQ-0078, DQ-0013). The bracket was added by an export in January 2021 and was never an intended format. Place links and `richText` are unchanged. Punctuation inside some `mdText` link labels (for example `[Adam,](...)`) is still open (DQ-0026).
