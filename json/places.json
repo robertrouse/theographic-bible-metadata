@@ -10947,20 +10947,17 @@
             "verses": [
                 "recq1sZJfQ5qLh8l3"
             ],
-            "recogitoUri": "http://sws.geonames.org/284315",
             "recogitoStatus": "UNVERIFIED",
             "recogitoLabel": "Bethlehem",
             "recogitoUID": "43f21de6-122e-40f9-a139-467699b71038",
             "eastons": [
                 "rectUuVx5okbQ9khC"
             ],
-            "modified": "2026-10-23T04:46:04.000Z",
+            "modified": "2026-11-17T04:36:24.000Z",
             "kjvName": "Bethlehem",
             "esvName": "Bethlehem",
             "openBibleLat": "32.735379",
             "openBibleLong": "35.189704",
-            "recogitoLat": "31.70487",
-            "recogitoLon": "35.20376",
             "alphaGroup": "B",
             "slug": "bethlehem_219",
             "ambiguous": true,
@@ -15094,8 +15091,8 @@
             "displayTitle": "Decapolis",
             "featureType": "Region",
             "precision": "Related-Surrounding",
-            "latitude": "33.519299",
-            "longitude": "36.31344999999999",
+            "latitude": "32.38068",
+            "longitude": "35.73224",
             "comment": "region",
             "verseCount": 3,
             "placeID": 328,
@@ -15112,7 +15109,7 @@
             "eastons": [
                 "recqyVJZLlX3ISveq"
             ],
-            "modified": "2026-11-14T17:54:35.000Z",
+            "modified": "2026-11-17T23:44:23.000Z",
             "kjvName": "Decapolis",
             "esvName": "Decapolis",
             "openBibleLat": "33.519299",
@@ -15132,9 +15129,11 @@
                 "rec9y6P31jlkkg4OZ"
             ],
             "pleiadesUri": "https://pleiades.stoa.org/places/678116",
+            "pleiadesLat": "32.38068",
+            "pleiadesLon": "35.73224",
             "openBibleUri": "https://www.openbible.info/geo/ancient/ae733a2",
-            "sourceLat": "33.519299",
-            "sourceLon": "36.31344999999999"
+            "sourceLat": "32.38068",
+            "sourceLon": "35.73224"
         }
     },
     {
@@ -18384,20 +18383,17 @@
             "verses": [
                 "reciheaZ9paP6190d"
             ],
-            "recogitoUri": "http://sws.geonames.org/563481",
             "recogitoStatus": "UNVERIFIED",
             "recogitoLabel": "Emmaus",
             "recogitoUID": "fadee670-7053-47bb-9692-45039cf72e08",
             "eastons": [
                 "rec7FCSm1R9DdPP1K"
             ],
-            "modified": "2026-11-14T17:45:36.000Z",
+            "modified": "2026-11-17T04:36:24.000Z",
             "kjvName": "Emmaus",
             "esvName": "Emmaus",
             "openBibleLat": "31.83945022",
             "openBibleLong": "34.98952933",
-            "recogitoLat": "56.78055",
-            "recogitoLon": "36.115",
             "alphaGroup": "E",
             "slug": "emmaus_382",
             "dictText": [
@@ -37245,7 +37241,7 @@
             "eastons": [
                 "rec1qVvDY9SFiDloi"
             ],
-            "modified": "2026-11-14T17:46:49.000Z",
+            "modified": "2026-11-17T04:23:56.000Z",
             "kjvName": "Melita",
             "esvName": "Malta",
             "openBibleLat": "35.85282675",
@@ -37264,6 +37260,7 @@
             "definitions": [
                 "rectt7dqUXELWpILr"
             ],
+            "pleiadesUri": "https://pleiades.stoa.org/places/462311",
             "openBibleUri": "https://www.openbible.info/geo/ancient/a57835d",
             "sourceLat": "35.85282675",
             "sourceLon": "14.53243601"
@@ -47666,8 +47663,8 @@
             "placeLookup": "rhodes_1000",
             "displayTitle": "Rhodes",
             "featureType": "Island",
-            "latitude": "36.44192633",
-            "longitude": "28.22672173",
+            "latitude": "36.443113",
+            "longitude": "28.227611",
             "dictionaryLink": "https://www.biblestudytools.com/dictionaries/eastons-bible-dictionary/rhodes.html",
             "dictionaryText": " a rose, an island to the south of the western extremity of Asia Minor, between Coos and Patara, about 46 miles long and 18 miles broad. Here the apostle probably landed on his way from Greece to Syria ( Acts 21:1  ), on returning from his third missionary journey.",
             "verseCount": 1,
@@ -47684,7 +47681,7 @@
             "eastons": [
                 "recGp0tXjpRbA5xqN"
             ],
-            "modified": "2026-11-14T17:44:22.000Z",
+            "modified": "2026-11-17T04:23:56.000Z",
             "kjvName": "Rhodes",
             "esvName": "Rhodes",
             "openBibleLat": "36.44192633",
@@ -47702,9 +47699,12 @@
             "definitions": [
                 "recFnZtnlmKKuN2eA"
             ],
+            "pleiadesUri": "https://pleiades.stoa.org/places/590030",
+            "pleiadesLat": "36.443113",
+            "pleiadesLon": "28.227611",
             "openBibleUri": "https://www.openbible.info/geo/ancient/a4218ee",
-            "sourceLat": "36.44192633",
-            "sourceLon": "28.22672173"
+            "sourceLat": "36.443113",
+            "sourceLon": "28.227611"
         }
     },
     {
@@ -53512,8 +53512,8 @@
             "placeLookup": "syracuse_1121",
             "displayTitle": "Syracuse",
             "featureType": "City",
-            "latitude": "37.06823248",
-            "longitude": "15.29482388",
+            "latitude": "37.070079",
+            "longitude": "15.283336",
             "dictionaryLink": "https://www.biblestudytools.com/dictionaries/eastons-bible-dictionary/syracuse.html",
             "dictionaryText": " a city on the south-east coast of Sicily, where Paul landed and remained three days when on his way to Rome ( Acts 28:12  ). It was distinguished for its magnitude and splendour. It is now a small town of some 13,000 inhabitants.",
             "verseCount": 1,
@@ -53530,7 +53530,7 @@
             "eastons": [
                 "recxBLFpkGU4xsujl"
             ],
-            "modified": "2026-11-14T17:48:51.000Z",
+            "modified": "2026-11-17T04:23:56.000Z",
             "kjvName": "Syracuse",
             "esvName": "Syracuse",
             "openBibleLat": "37.06823248",
@@ -53549,9 +53549,12 @@
             "definitions": [
                 "recXdc1rchnSIc6MW"
             ],
+            "pleiadesUri": "https://pleiades.stoa.org/places/462503",
+            "pleiadesLat": "37.070079",
+            "pleiadesLon": "15.283336",
             "openBibleUri": "https://www.openbible.info/geo/ancient/a1e3697",
-            "sourceLat": "37.06823248",
-            "sourceLon": "15.29482388"
+            "sourceLat": "37.070079",
+            "sourceLon": "15.283336"
         }
     },
     {
