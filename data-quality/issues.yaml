@@ -2787,3 +2787,73 @@
     links); place links and richText untouched. New tags use the standard form in both
     fields. Exported in 0243dac: 0 malformed, 33,424 "](/person/" in mdText, no other
     mdText or richText change. Also closes DQ-0013 and the link-syntax part of DQ-0026.
+
+- id: DQ-0079
+  title: "Kerioth-hezron / southern Hazor: inherited geography and verse-link conflations"
+  status: needs-research
+  type: wrong-value
+  severity: medium
+  table: places
+  records:
+    - { id: recnzE5hzdUKE6HSX, key: "kerioth-hezron_684" }
+    - { id: recEZk6tOBSVS51AC, key: "hazor_547 (alias of kerioth-hezron_684)" }
+    - { id: recIXGJ5SbRqnDFoG, key: "hazor-hadattah_550" }
+    - { id: recLK8NsrqyGZCtGH, key: "Josh.15.25" }
+  field: latitude, longitude, recogitoUri, recogitoLat, recogitoLon (places); mdText, richText (verses)
+  current: >-
+    kerioth-hezron_684 (recnzE5hzdUKE6HSX) is at 31.162327, 35.057114 (precision Rough;
+    openBibleLat/Long the same; openBibleUri https://www.openbible.info/geo/ancient/af66926;
+    no pleiadesUri/Lat/Lon; no recogitoUri/Lat/Lon; recogitoStatus UNVERIFIED; only verse
+    Josh.15.25). Those coordinates are a shared TIPNR/ACAI "near Moladah" regional
+    anchor, not a verified ruin identification. Alias hazor_547 (recEZk6tOBSVS51AC)
+    correctly has canonicalPlace kerioth-hezron_684 and the same display/OpenBible
+    coordinates and URI, and only Josh.15.25; but its recogitoUri is northern Tel Hazor
+    http://pleiades.stoa.org/places/779967430, recogitoLabel Tel Hazor, recogitoLat
+    33.01746212803129, recogitoLon 35.56813718 (recogitoStatus UNVERIFIED, type
+    settlement). Pleiades fields on the alias are empty. hazor-hadattah_550
+    (recIXGJ5SbRqnDFoG) is a separate city at the same 31.162327, 35.057114 (precision
+    Rough; openBibleUri https://www.openbible.info/geo/ancient/acce8c8; no recogito
+    coordinates or URI; only Josh.15.25). Josh.15.25 (recLK8NsrqyGZCtGH) places already
+    lists all three records. mdText: "And [Hazor,](/place/hazor_547)
+    [Hadattah,](/place/hazor-hadattah_550) and [Kerioth,](/place/kerioth-hezron_684)
+    _and_ [Hezron,](/place/kerioth-hezron_684) which _is_ [Hazor,](/place/hazor_547)".
+    richText: "And [Hazor](/place/hazor_547), [Hadattah](/place/hazor-hadattah_550), and
+    [Kerioth](/place/kerioth-hezron_684), _and_ [Hezron](/place/kerioth-hezron_684),
+    which _is_ [Hazor](/place/hazor_547),". The first "Hazor" therefore points at the
+    Kerioth-hezron alias rather than Hazor-hadattah.
+  proposed: >-
+    Keep kerioth-hezron_684 as a southern-Judah city and treat its coordinates as
+    unresolved pending review; 31.344952, 35.124376 (Khirbet el-Qaryatein; OpenBible
+    35% confidence) is a candidate, not a verified replacement. Remove or research
+    the northern Tel Hazor recogitoUri/Lat/Lon on alias hazor_547; do not blindly
+    replace them with the uncertain southern candidate, and keep canonicalPlace.
+    In Josh.15.25 mdText and richText, retarget the first "Hazor" from hazor_547 to
+    hazor-hadattah_550; keep the final "which is Hazor" on hazor_547. Kerioth and
+    Hezron already correctly point at kerioth-hezron_684; the places array already
+    includes all three records.
+  evidence: >-
+    Airtable Places and Verses (base app5UK4s70d5PwupX), read 2026-11-17, agree with
+    json/places.json and json/verses.json at e1e22ab. Joshua 15:25 in ESV/KJV reads
+    Hazor-hadattah and Kerioth-hezron (that is, Hazor); the KJV split wording explains
+    the tagging trap. OpenBible af66926 lists Khirbet el-Qaryatein as the preferred
+    candidate at 35% confidence (modern point 31.344952, 35.124376). STEPBible TIPNR
+    and ACAI give the same 31.162327, 35.057114 "near Moladah" anchor to Kerioth-hezron,
+    Hazor of 15:25, and Hazor-hadattah, a shared data lineage rather than independent
+    site consensus.
+  checks: []
+  rule: null
+  found: { date: 2026-11-07, by: "research (Notion backlog), logged to ledger 2026-11-17", sha: e1e22ab911afaffe32a97b6a5eb70a5855ce40f1 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [theographic-web]
+  notes: >-
+    Relates to DQ-0021 (Hezron Josh 15:3 mapped in Galilee). The equation "Hezron,
+    which is Hazor" is in Josh 15:25, not Josh 15:3; that is a plausible name-based
+    mechanism for the Hezron error, not proof of causation. TIPNR distinguishes
+    H2696I (15:25) from H2696J (15:3). Originally proposed as DQ-0024 in the Notion
+    backlog, but that ID was already used for the group-tag item; logged here as
+    DQ-0079 on 2026-11-17. hazor_546 (recB25qM62XLBnDqd, Josh 15:23 only; display
+    30.68771281376111, 34.49479554246946) and hezron_568 (recfa19LQGbnLBD0G, Josh
+    15:3 only; 33.017182, 35.56804857) are separate records and should not be merged
+    with Josh 15:25. Related observation, not in the original write-up: hazor_546
+    carries the same northern Tel Hazor recogitoUri/Lat/Lon as hazor_547.
