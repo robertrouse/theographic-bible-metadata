@@ -349,7 +349,7 @@
 
 - id: DQ-0013
   title: verses.mdText links are malformed in 16,519 verses
-  status: open
+  status: fixed
   type: typo
   severity: low
   table: verses
@@ -363,10 +363,15 @@
     - { record: rec7mkRLwey2ntUG9, field: mdText, not_matches: "\\]\\(\\[" }
   rule: null
   found: { date: 2026-09-15, by: "theographic-web CP-01 normalizer", sha: cfb1c48 }
-  fixed: { date: null, sha: null }
+  fixed: { date: 2026-11-17, sha: 0243dac }
   github: 49
   affects: [theographic-web]
-  notes: The check samples Gen 1:1; a checker should scan all verses for "](['.
+  notes: >-
+    The check samples Gen 1:1; a checker should scan all verses for "](['.
+    Fixed via DQ-0078 (same mdText person-link typo, recounted at 16,525 verses): every
+    "]([/person/" in mdText was replaced with "](/person/" in Airtable on 2026-11-17.
+    Exported in 0243dac: 0 malformed person links and 33,424 "](/person/" links in
+    mdText; richText unchanged. Close GitHub issue 49 only once its other items are done.
 
 - id: DQ-0014
   title: alsoCalled for Jesus and God includes common words
@@ -724,6 +729,9 @@
   affects: []
   notes: >-
     Likely an exporter bug; fix once in the generator rather than per row.
+    2026-11-17: the link-syntax part (extra "[" in person links) was fixed by DQ-0078 and
+    exported in 0243dac (0 malformed person links in mdText). The punctuation-inside-link-
+    labels part remains open, so this entry stays open.
 - id: DQ-0027
   title: Inline links to nonexistent person id for Lot's younger daughter
   status: open
@@ -2514,7 +2522,7 @@
     - { record: recsyolL81TBx45nu, field: recogitoUri, not_contains: "284315" }
   rule: null
   found: { date: 2026-11-16, by: "Bible Aquifer ACAI review (issues #12, #13)", sha: 18cb045 }
-  fixed: { date: 2026-11-16, sha: null }
+  fixed: { date: 2026-11-16, sha: 0243dac }
   github: null
   affects: [api, neo4j]
   notes: >-
@@ -2527,7 +2535,7 @@
     latitude/longitude unchanged (31.83945022, 34.98952933 and 32.735379, 35.189704); no
     alias records point to either place. recogitoStatus, recogitoLabel and recogitoUID were
     left as they were. Backup and log: /workspace/drafts/dq0073-backup-2026-11-16.json,
-    dq0073-apply-log-2026-11-16.txt. fixed.sha to be filled from the next export.
+    dq0073-apply-log-2026-11-16.txt. Exported in 0243dac.
 
 - id: DQ-0074
   title: "Recogito points are more than 25 km from the display coordinates in 215 places"
@@ -2615,7 +2623,7 @@
     - { record: recauQ3IPfRTuQbBj, field: eastons, not_contains: "recTmFMJqa8qVREZl" }
   rule: null
   found: { date: 2026-11-16, by: "Bible Aquifer ACAI review (PR #7 analogue)", sha: 18cb045 }
-  fixed: { date: 2026-11-16, sha: null }
+  fixed: { date: 2026-11-16, sha: 0243dac }
   github: null
   affects: [tweb]
   notes: >-
@@ -2637,7 +2645,7 @@
     listed by tweb as a standalone unmatched topic. Backup and log:
     /workspace/drafts/dq0075-backup-2026-11-16.json, dq0075-matchtype-backup-2026-11-16.json,
     dq0075-apply-log-2026-11-16.txt.
-    fixed.sha to be filled from the next export.
+    Exported in 0243dac.
 
 - id: DQ-0076
   title: "No Gadara/Gerasa/Gergesa place; the Gadarene verses and event lack a location"
@@ -2702,7 +2710,7 @@
 
 - id: DQ-0077
   title: "decapolis_328 display coordinates are Damascus (same point as straight_1112)"
-  status: open
+  status: fixed
   type: bad-value
   severity: medium
   table: places
@@ -2729,15 +2737,21 @@
     - { record: recmKQbYJdJMGjw23, field: latitude, not_equals: "33.519299" }
   rule: null
   found: { date: 2026-11-17, by: "DQ-0076 review", sha: ac9ca92 }
-  fixed: { date: null, sha: null }
+  fixed: { date: 2026-11-17, sha: 0243dac }
   github: null
   affects: [geo]
   notes: >-
     Effort: Small. Notion backlog row DQ-0077.
+    Fixed in Airtable 2026-11-17: pleiadesLat/pleiadesLon set to 32.38068, 35.73224 from
+    Pleiades 678116 (already linked), so latitude/longitude/sourceLat/sourceLon now follow
+    Pleiades (about 138 km SSW of the old Damascus point). Precision stays
+    Related-Surrounding; straight_1112, beth-eden_200 and syria_1122 unchanged. The GeoJSON
+    (geo/bible-places.geojson, decapolis [35.8, 32.716667]) was not synced, per the DQ-0072
+    hold. Exported in 0243dac.
 
 - id: DQ-0078
   title: "mdText person links have an extra bracket in 16,525 verses"
-  status: open
+  status: fixed
   type: bad-format
   severity: medium
   table: verses
@@ -2756,12 +2770,20 @@
     export.
   evidence: >-
     json/verses.json at ac9ca92 (count of mdText containing "]([/person/").
-  checks: []
+  checks:
+    - { record: rec7mkRLwey2ntUG9, field: mdText, not_contains: "]([/person/" }
   rule: mdtext-link-format
   found: { date: 2026-11-17, by: "DQ-0076 review", sha: ac9ca92 }
-  fixed: { date: null, sha: null }
+  fixed: { date: 2026-11-17, sha: 0243dac }
   github: null
   affects: [api]
   notes: >-
     Effort: Medium (bulk mechanical fix plus finding the generator). Notion backlog row
     DQ-0078.
+    Not an intended convention: mdText links were well formed in 2020; the 2021-01-27
+    export changed every person link to "]([/person/" and left place links alone. The value
+    is stored in Airtable (no generator adds it at export). Fixed in Airtable 2026-11-17 by
+    replacing "]([/person/" with "](/person/" in mdText on all 16,525 verses (33,424
+    links); place links and richText untouched. New tags use the standard form in both
+    fields. Exported in 0243dac: 0 malformed, 33,424 "](/person/" in mdText, no other
+    mdText or richText change. Also closes DQ-0013 and the link-syntax part of DQ-0026.
