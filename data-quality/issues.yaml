@@ -106,6 +106,12 @@
   fixed: { date: 2026-11-09, sha: 2aa6cd3 }
   github: null
   affects: [timeline-poster]
+  notes: >-
+    The event fix is complete. A leftover on the person record was logged as
+    DQ-0082: moses_2108 deathYear is still -1451 and should be -1450.
+    Reported in an external report (Alex Suarez, email Nov 18 2026).
+    Related FYI, not in scope: Aaron's deathYear is also -1451, with no
+    Death of Aaron event.
 
 - id: DQ-0004
   title: Joshua's lifetime and death disagree by 13 years
@@ -280,16 +286,36 @@
     - { id: recfvViTrCO4UyG8T, key: "john_1678 (John, relative of the high priest)" }
     - { id: rec87gwGfBFi3eIZx, key: "judas_1757 (Judas of Galilee)" }
     - { id: recrxBjuAgqdAeTfn, key: "simon_2749" }
-  field: Disambiguation (temp)
+    - { id: rec8R7Os9hEDyuTkI, key: "simon_2747 (brother of Jesus, labeled A Leper)" }
+    - { id: rec7mbq5BahDRoSlS, key: "simon_2752 (Simon the Sorcerer)" }
+    - { id: rec55VOZZ1c2NCs96, key: "philip_2345 (Herodias's husband)" }
+    - { id: recx0hTyIHDVaLNbu, key: "philip_2346 (Philip the tetrarch)" }
+    - { id: recg3914bVvyjBOfN, key: "philip_2344 (Philip the Apostle)" }
+    - { id: recO4kahcK4q0EoQZ, key: "alexander_187 (Acts 4:6)" }
+  field: Disambiguation (temp), displayTitle
   current: >-
     john_1676 "John(son of Zebedee)"; john_1678 carries the Baptist's description (camel's hair);
-    judas_1757 carries Judas Iscariot's text; simon_2749 "Matt (from Cyrene, ...)"
+    judas_1757 carries Judas Iscariot's text; simon_2749 "Matt (from Cyrene, ...)";
+    simon_2747 "Simon (A Leper)" but verses Matt 13:55, Mark 6:3 are Jesus' brother
+    (the leper is simon_2748); simon_2752 title is "Simon the Sorcerer" (Acts 8)
+    but disamb "Simon( son of Jonah)"; philip_2345 (Matt 14:3, Mark 6:17, Luke 3:19,
+    partner Herodias) disamb "Philip (Disciple of Jesus)"; philip_2346 (Luke 3:1,
+    Philip the tetrarch) disamb "brother of(Tiberius Caesar)"; philip_2344 (the
+    apostle) disamb "Philip (James son of Alphaeus)"; alexander_187 displayTitle
+    "Alexander (Son of Simon)" but verse Acts 4:6 (Annas's family); that title
+    belongs to alexander_186 (Mark 15:21).
   proposed: Realign each row with its own person, or drop the field (theographic-web ignores it).
   evidence: The text describes a different person than the row's displayTitle.
   checks:
     - { record: recNRRITyGzXsl4yp, field: "Disambiguation (temp)", not_matches: "Zebedee" }
     - { record: recfvViTrCO4UyG8T, field: "Disambiguation (temp)", not_matches: "camel" }
     - { record: rec87gwGfBFi3eIZx, field: "Disambiguation (temp)", not_matches: "Iscariot" }
+    - { record: rec8R7Os9hEDyuTkI, field: "Disambiguation (temp)", not_matches: "Leper" }
+    - { record: rec7mbq5BahDRoSlS, field: "Disambiguation (temp)", not_matches: "Jonah" }
+    - { record: rec55VOZZ1c2NCs96, field: "Disambiguation (temp)", not_matches: "Disciple" }
+    - { record: recx0hTyIHDVaLNbu, field: "Disambiguation (temp)", not_matches: "Tiberius" }
+    - { record: recg3914bVvyjBOfN, field: "Disambiguation (temp)", not_matches: "Alphaeus" }
+    - { record: recO4kahcK4q0EoQZ, field: displayTitle, not_matches: "Son of Simon" }
   rule: null
   found: { date: 2026-09-15, by: "theographic-web CP-01 normalizer", sha: cfb1c48 }
   fixed: { date: null, sha: null }
@@ -298,7 +324,12 @@
   notes: >-
     Confirmed at 3f461f2. Only four rows were checked by hand; the misalignment looks like a
     shifted column, so other rows are probably affected too. simon_2749 needs a look to see
-    which Simon the row is.
+    which Simon the row is. Further misaligned rows from an external report (Alex Suarez,
+    email Nov 18 2026), verified against json/ at d826c69 and live Airtable: simon_2747,
+    simon_2752, philip_2345, philip_2346, philip_2344, and alexander_187's displayTitle.
+    simon_2747 is Jesus' brother (parents Joseph and Mary); the leper is already
+    simon_2748 (Matt 26:6, Mark 14:3). philip_2345 and philip_2346 are siblings of
+    each other, so the split may be intentional; only the labels are clearly wrong.
 
 - id: DQ-0011
   title: Mount of Olives alias is an editorial note, not a name
@@ -433,7 +464,7 @@
 
 - id: DQ-0016
   title: Five places have a latitude but no longitude
-  status: open
+  status: fixed
   type: schema
   severity: low
   table: places
@@ -455,9 +486,15 @@
     - { record: reco41jQa2HDPSWx2, field: longitude, matches: "\\d" }
   rule: coordinates-complete
   found: { date: 2026-09-15, by: "theographic-web CP-01 sanity gate", sha: cfb1c48 }
-  fixed: { date: null, sha: null }
+  fixed: { date: 2026-11-14, sha: 014222a }
   github: 49
   affects: [theographic-web]
+  notes: >-
+    Fixed as a side effect of the DQ-0064 coordinate formula, exported in
+    014222a (PR #88, 2026-11-14). Confirmed still present in master json and
+    live Airtable on 2026-11-18 after an external report (Alex Suarez).
+    Longitudes: azotus_132 34.658057, chios_296 26.063302, clauda_280 24.091671,
+    lasea_717 24.818266, phrygia_946 29.06450110237073.
 
 - id: DQ-0017
   title: kjvName carries a disambiguation in parentheses on eight places
@@ -1456,6 +1493,8 @@
     - { id: recsnRcoxqD4pQGHp, key: "Second Missionary Journey begins (eventID 348)" }
     - { id: receG7A0Y0VjWPff1, key: "Third Missionary Journey Begins (eventID 362)" }
     - { id: rec4bAiAcAOo9mPwO, key: "Third Missionary Journey (eventID 363)" }
+    - { id: recl2rPfuRl5ZYiYP, key: "Riot in Ephesus (eventID 365)" }
+    - { id: recCiHwYp3CSqFWrK, key: "Eutychus revived (eventID 367)" }
     - { id: recuV2kc7FiAUIuBQ, key: "Paul arrested in the Temple (eventID 372)" }
     - { id: recODnfv69EyvRMvA, key: "Paul sent to Felix (eventID 376)" }
     - { id: recZZnST3yj4b1akY, key: "Agrippa and Bernice meet Festus (eventID 378)" }
@@ -1482,6 +1521,8 @@
     - Paul arrives at Rome (#384, recuZhS7z4CatBOO0) start: current 0057 -> Jones AD 61 ("Paul’s 1st arrival in Rome: 2 yr. arrest", AM 4066; AM gives AD 63)
     - Paul's First Roman imprisonment (#385, recGrIgOxWnxVl8h0) start: current 0057 -> Jones AD 61 ("Paul’s 1st arrival in Rome: 2 yr. arrest", AM 4066; AM gives AD 63)
     - Paul's First Roman imprisonment (#385, recGrIgOxWnxVl8h0) end: current AD 60 -> Jones AD 63 ("Paul released from house arrest", AM 4068; AM gives AD 65)
+    - Riot in Ephesus (#365, recl2rPfuRl5ZYiYP) start: current 0053-05-01, no lag; predecessor Mission to Ephesus/1 Cor Written (#364, rec2buqN0Q38Yuqme) starts 0053-09-01 (duration 2.5Y)
+    - Eutychus revived (#367, recCiHwYp3CSqFWrK) start: current 0054-04-01, no lag; predecessor Mission to Macedonia and Greece (#366, recGXoNtdiKu28Wff) starts 0054-06-01
   proposed: >-
     Move the 17 Acts events (and the events that are part of or follow them) to Jones's years, and add the missing NT events listed in notes. The Gospel events already match Jones (birth of John 5 BC, birth of Jesus 4 BC, baptism AD 26, crucifixion AD 30).
   evidence: >-
@@ -1507,6 +1548,11 @@
     - 96 AD (AM 4099): John the Apostle banished to Patmos (p.280)
     - 96 AD (AM 4099): John released upon Nerva’s accession (p.280)
     - date not given (AM ?): John the Apostle dies in Trajan’s reign (p.280)
+    - External report (Alex Suarez, email Nov 18 2026) found that Riot in Ephesus
+      and Eutychus revived are both dated before their predecessor missions
+      (same predecessor-not-later class as DQ-0007). Narrative predecessor
+      order is right; the startDates are not. Added to this entry rather than
+      opened as a new item. Events use startDate (no yearNum field).
 
 - id: DQ-0053
   title: "Reign and kingdom spans end a year off Jones because durations count years inclusively"
@@ -1679,7 +1725,12 @@
   fixed: { date: null, sha: null }
   github: null
   affects: []
-  notes: ""
+  notes: >-
+    External report (Alex Suarez, email Nov 18 2026) noted that Cain's person
+    birthYear of -4002 makes Adam and Eve one year old at his birth. That year
+    is Jones's Birth of Cain (4003 BC, AM 1; astronomical -4002). Adam and Eve
+    birthYear -4003 is 4004 BC, matching Creation of Adam and Eve. No
+    person-year change; the missing Birth of Cain event is already listed above.
 
 - id: DQ-0056
   title: "Wilderness, conquest and judges events missing from Theographic (1452-1121 BC)"
@@ -2875,3 +2926,125 @@
     an unverified candidate. Backup: /workspace/backups/dq0079-kerioth-hezron-2026-11-17.json.
     Export sha is null until the next export; these checks will pass against json/
     then.
+
+- id: DQ-0080
+  title: "simon_2750 blends Peter, Simon the Pharisee, and Judas Iscariot's father"
+  status: open
+  type: wrong-value
+  severity: high
+  table: people
+  records:
+    - { id: rec04sGSKA1kdTxYY, key: "simon_2750" }
+    - { id: recX9MMADoVI2CSP1, key: "peter_2745" }
+    - { id: recfDCye2qNHFp6By, key: "mother_of_the_wife_of_simon_2111" }
+    - { id: rec9eSOzwWHpbCgQf, key: "wife_of_simon_2943" }
+    - { id: recAv7g7gTJzauLpv, key: "Mark.1.30" }
+    - { id: recQePl9a1Ng48kdQ, key: "Luke.4.38" }
+    - { id: recyw7xMpb2EYYXQX, key: "Luke.5.3" }
+  field: verses, mdText, richText, partners
+  current: >-
+    simon_2750 (rec04sGSKA1kdTxYY) is titled Simon, surname Iscariot, with
+    Disambiguation (temp) "Simon (suffering )", dictText of Judas Iscariot's
+    father, and child judas_1760. Its 10 verses mix three people: Peter
+    (Mark 1:30, Luke 4:38, Luke 5:3), Simon the Pharisee (Luke 7:40, 7:43,
+    7:44), and Judas's father (John 6:71, 12:4, 13:2, 13:26). There is no
+    separate Pharisee record; Luke 7:36–39 leave the Pharisee untagged.
+    Mark 1:29 and Luke 5:4 already tag peter_2745. In Mark 1:30 and Luke 4:38
+    the mother-in-law verses, "Simon’s" points at simon_2750; Matt 8:14
+    correctly points at peter_2745. mother_of_the_wife_of_simon_2111 and
+    wife_of_simon_2943 have no partner link to Peter or to simon_2750.
+  proposed: >-
+    Split the blended record: retarget the Peter verses (Mark 1:30, Luke 4:38,
+    Luke 5:3) to peter_2745 in the people arrays and in mdText and richText;
+    create a Simon the Pharisee record and retarget Luke 7:40, 7:43, 7:44
+    (and tag Luke 7:36–39 if appropriate); leave simon_2750 as Judas
+    Iscariot's father. Link wife_of_simon_2943 to peter_2745 as partner.
+  evidence: >-
+    External report (Alex Suarez, email Nov 18 2026), verified against json/
+    at d826c69 (export 0243dac) and live Airtable (base app5UK4s70d5PwupX).
+  checks:
+    - { record: recAv7g7gTJzauLpv, field: mdText, contains: "/person/peter_2745" }
+    - { record: recAv7g7gTJzauLpv, field: mdText, not_contains: "simon_2750" }
+    - { record: recQePl9a1Ng48kdQ, field: mdText, contains: "/person/peter_2745" }
+    - { record: recQePl9a1Ng48kdQ, field: mdText, not_contains: "simon_2750" }
+    - { record: recyw7xMpb2EYYXQX, field: mdText, contains: "/person/peter_2745" }
+    - { record: recyw7xMpb2EYYXQX, field: mdText, not_contains: "simon_2750" }
+    - { record: recOkidtPPsLGo7Bv, field: mdText, not_contains: "simon_2750" }
+    - { record: recExNbj5OPgZ92t2, field: mdText, contains: "simon_2750" }
+  rule: null
+  found: { date: 2026-11-18, by: "external report (Alex Suarez, email Nov 18 2026), verified", sha: d826c69 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [theographic-web, consumer-timeline]
+  notes: >-
+    Reported externally, verified by us against GitHub JSON and Airtable.
+    John 13:26 names "the son of Simon" in the people array but the inline
+    mdText does not link the word Simon.
+
+- id: DQ-0081
+  title: "baalath_136 and baalath_137 share coordinates and one Easton article"
+  status: needs-research
+  type: duplicate-record
+  severity: low
+  table: places
+  records:
+    - { id: recKM0IXdEN1RtLYi, key: "baalath_136" }
+    - { id: recCyzljfY6pdtZUQ, key: "baalath_137" }
+  field: latitude, longitude, eastons, canonicalPlace
+  current: >-
+    baalath_136 (Josh 19:44, Dan) and baalath_137 (1 Kgs 9:18, 2 Chr 8:6,
+    Solomon) both sit at 31.927451, 35.055378. Neither has canonicalPlace.
+    They share Easton recnWvVVhhfRzJCyi, which treats Josh 19:44 and the
+    Solomon verses as one town. OpenBible URIs differ (abc1b7c vs a99875b)
+    but use the same point. baalath-beer_138 (Josh 19:8, Simeon) is a
+    different place at 32.049953, 35.733402.
+  proposed: >-
+    Decide whether they are the same site (point one at the other via
+    canonicalPlace) or genuinely distinct towns that happen to share an
+    OpenBible candidate point; document the decision.
+  evidence: >-
+    External report (Alex Suarez, email Nov 18 2026), verified against json/
+    at d826c69 and live Airtable. DQ-0075 notes already flagged the shared
+    Easton as plausible and out of scope of that item.
+  checks: []
+  rule: null
+  found: { date: 2026-11-18, by: "external report (Alex Suarez, email Nov 18 2026), verified", sha: d826c69 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: []
+  notes: >-
+    Related to DQ-0029 (same name split across place records) but that entry
+    does not name Baalath.
+
+- id: DQ-0082
+  title: "Moses' person deathYear is still -1451 after the DQ-0003 event fix"
+  status: open
+  type: off-by-one
+  severity: low
+  table: people
+  records:
+    - { id: recjNRR60PAuFtjha, key: "moses_2108" }
+  field: deathYear
+  current: "-1451"
+  proposed: "-1450"
+  evidence: >-
+    DQ-0003 fixed Death of Moses (recxj71m6XPSaqIg2) startDate from -1451 to
+    -1450 (1451 BC; Birth of Moses -1570 + 120Y FS). Lifetime of Moses already
+    starts at -1570 for 120Y. Person deathYear was not updated. The event and
+    person year fields use the same astronomical numbering (Adam birthYear
+    -4003 matches Creation of Adam and Eve). Moses is the only Death-of-* /
+    person deathYear mismatch among Adam, Abraham, Isaac and David.
+    External report (Alex Suarez, email Nov 18 2026), verified against json/
+    at d826c69 and live Airtable.
+  checks:
+    - { record: recjNRR60PAuFtjha, field: deathYear, equals: "-1450" }
+  rule: null
+  found: { date: 2026-11-18, by: "external report (Alex Suarez, email Nov 18 2026), verified", sha: d826c69 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: []
+  notes: >-
+    Logged as a new item rather than reopening DQ-0003, which stays fixed
+    (event startDate only). Related observation, not in scope: Aaron
+    (aaron_1, recv0dAY2ULzJ687g) also has deathYear -1451 and has no Death
+    of Aaron event.
