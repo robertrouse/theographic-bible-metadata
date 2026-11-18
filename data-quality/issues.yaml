@@ -2790,7 +2790,7 @@
 
 - id: DQ-0079
   title: "Kerioth-hezron / southern Hazor: inherited geography and verse-link conflations"
-  status: needs-research
+  status: fixed
   type: wrong-value
   severity: medium
   table: places
@@ -2840,10 +2840,14 @@
     and ACAI give the same 31.162327, 35.057114 "near Moladah" anchor to Kerioth-hezron,
     Hazor of 15:25, and Hazor-hadattah, a shared data lineage rather than independent
     site consensus.
-  checks: []
+  checks:
+    - { record: recLK8NsrqyGZCtGH, field: richText, contains: "[Hazor](/place/hazor-hadattah_550)" }
+    - { record: recLK8NsrqyGZCtGH, field: mdText, contains: "[Hazor,](/place/hazor-hadattah_550)" }
+    - { record: recEZk6tOBSVS51AC, field: recogitoUri, not_contains: "779967430" }
+    - { record: recB25qM62XLBnDqd, field: recogitoUri, not_contains: "779967430" }
   rule: null
   found: { date: 2026-11-07, by: "research (Notion backlog), logged to ledger 2026-11-17", sha: e1e22ab911afaffe32a97b6a5eb70a5855ce40f1 }
-  fixed: { date: null, sha: null }
+  fixed: { date: 2026-11-17, sha: null }
   github: null
   affects: [theographic-web]
   notes: >-
@@ -2857,3 +2861,17 @@
     15:3 only; 33.017182, 35.56804857) are separate records and should not be merged
     with Josh 15:25. Related observation, not in the original write-up: hazor_546
     carries the same northern Tel Hazor recogitoUri/Lat/Lon as hazor_547.
+
+    Fixed in Airtable 2026-11-17 (parts 2 and 3). recogitoUri, recogitoLat,
+    recogitoLon and recogitoLabel were cleared on hazor_547 and hazor_546 (both
+    had pointed at northern Tel Hazor, Pleiades 779967430; labels were "Tel Hazor").
+    recogitoStatus (UNVERIFIED), recogitoType (settlement) and recogitoUID were
+    left as they were. Display latitude/longitude unchanged (31.162327, 35.057114
+    and 30.68771281376111, 34.49479554246946). In Josh.15.25, the first "Hazor"
+    in mdText and richText now points at hazor-hadattah_550; the final "which is
+    Hazor" still points at hazor_547; the places array was not changed. Part 1
+    (kerioth-hezron_684 coordinates) was left as is by decision: still 31.162327,
+    35.057114, precision Rough, with Khirbet el-Qaryatein (31.344952, 35.124376)
+    an unverified candidate. Backup: /workspace/backups/dq0079-kerioth-hezron-2026-11-17.json.
+    Export sha is null until the next export; these checks will pass against json/
+    then.
