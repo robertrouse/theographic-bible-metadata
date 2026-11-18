@@ -27043,10 +27043,9 @@
             "termLabel": "Dedan",
             "dictText": "A son of Jokshan, Abraham\u2019s son by Keturah ([1 Chr. 1:32](/1chr#1Chr.1.32)). His descendants settled on the Syrian borders about the territory of Edom. They probably led a pastoral life.",
             "itemNum": 2,
-            "matchType": "unmatched",
-            "matchSlugs": "unmatched",
+            "matchType": "person",
+            "matchSlugs": "dedan_999",
             "personLookup": [
-                "recYnS78qsArMZfh5",
                 "recYupIiXa7PA5gPu"
             ],
             "def_id": "d-p135.2",
@@ -52829,7 +52828,6 @@
             "matchType": "person",
             "matchSlugs": "isaiah_617",
             "personLookup": [
-                "recVrO057QLxwxEse",
                 "recit3DiamFt2zO0S"
             ],
             "def_id": "i-p84.2",
@@ -54969,8 +54967,8 @@
             "termLabel": "James",
             "dictText": "The son of Zebedee and Salome; an elder brother of John the apostle. He was one of the twelve. He was by trade a fisherman, in partnership with Peter ([Matt. 20:20](/matt#Matt.20.20); [27:56](/matt#Matt.27.56)). With John and Peter he was present at the transfiguration ([Matt. 17:1](/matt#Matt.17.1); [Mark 9:2](/mark#Mark.9.2)), at the raising of Jairus\u2019s daughter ([Mark 5:37-43](/mark#Mark.5.37)), and in the garden with our Lord (14:33). Because, probably, of their boldness and energy, he and John were called Boanerges, i.e., \u201csons of thunder.\u201d He was the first martyr among the apostles, having been beheaded by King Herod Agrippa ([Acts 12:1](/acts#Acts.12.1), [2](/acts#Acts.12.2)), A.D. 44. (Comp. [Matt. 4:21](/matt#Matt.4.21); [20:20-23](/matt#Matt.20.20)).",
             "itemNum": 1,
-            "matchType": "multi",
-            "matchSlugs": "['james_717', 'james_719']",
+            "matchType": "person",
+            "matchSlugs": "james_717",
             "personLookup": [
                 "rechkAyIwugqcLaaY"
             ],
@@ -69841,8 +69839,7 @@
             "matchType": "person",
             "matchSlugs": "manasseh_1928",
             "personLookup": [
-                "rec1YbscOE9IyJ5ey",
-                "rec5LjGfCEP8klGHt"
+                "rec1YbscOE9IyJ5ey"
             ],
             "def_id": "m-p99.3",
             "has_list": "True"
@@ -69858,8 +69855,11 @@
             "termLabel": "Manasseh",
             "dictText": "The only son and successor of Hezekiah on the throne of Judah. He was twelve years old when he began to reign ([2 Kings 21:1](/2kgs#2Kgs.21.1)), and he reigned fifty-five years (B.C. 698-643). Though he reigned so long, yet comparatively little is known of this king. His reign was a continuation of that of Ahaz, both in religion and national polity. He early fell under the influence of the heathen court circle, and his reign was characterized by a sad relapse into idolatry with all its vices, showing that the reformation under his father had been to a large extent only superficial ([Isa. 7:10](/isa#Isa.7.10); [2 Kings 21:10-15](/2kgs#2Kgs.21.10)). A systematic and persistent attempt was made, and all too successfully, to banish the worship of Jehovah out of the land. Amid this wide-spread idolatry there were not wanting, however, faithful prophets (Isaiah, Micah) who lifted up their voice in reproof and in warning. But their fidelity only aroused bitter hatred, and a period of cruel persecution against all the friends of the old religion began. \u201cThe days of Alva in Holland, of Charles IX. in France, or of the Covenanters under Charles II. in Scotland, were anticipated in the Jewish capital. The streets were red with blood.\u201d There is an old Jewish tradition that Isaiah was put to death at this time ([2 Kings 21:16](/2kgs#2Kgs.21.16); [24:3](/2kgs#2Kgs.24.3), [4](/2kgs#2Kgs.24.4); [Jer. 2:30](/jer#Jer.2.30)), having been sawn asunder in the trunk of a tree. [Psalms 49, 73, 77, 140](/ps#Ps.49 Ps.73 Ps.77 Ps.140), and 141 seem to express the feelings of the pious amid the fiery trials of this great persecution. Manasseh has been called the \u201cNero of Palestine.\u201d\n\n Esarhaddon, Sennacherib\u2019s successor on the Assyrian throne, who had his residence in Babylon for thirteen years (the only Assyrian monarch who ever reigned in Babylon), took Manasseh prisoner (B.C. 681) to Babylon. Such captive kings were usually treated with great cruelty. They were brought before the conqueror with a hook or ring passed through their lips or their jaws, having a cord attached to it, by which they were led. This is referred to in [2 Chr. 33:11](/2chr#2Chr.33.11), where the Authorized Version reads that Esarhaddon \u201ctook Manasseh among the thorns;\u201d while the Revised Version renders the words, \u201ctook Manasseh in chains;\u201d or literally, as in the margin, \u201cwith hooks.\u201d (Comp. [2 Kings 19:28](/2kgs#2Kgs.19.28).)\n\n The severity of Manasseh\u2019s imprisonment brought him to repentance. God heard his cry, and he was restored to his kingdom ([2 Chr. 33:11-13](/2chr#2Chr.33.11)). He abandoned his idolatrous ways, and enjoined the people to worship Jehovah; but there was no thorough reformation. After a lengthened reign extending through fifty-five years, the longest in the history of Judah, he died, and was buried in the garden of Uzza, the \u201cgarden of his own house\u201d ([2 Kings 21:17](/2kgs#2Kgs.21.17), [18](/2kgs#2Kgs.21.18); [2 Chr. 33:20](/2chr#2Chr.33.20)), and not in the city of David, among his ancestors. He was succeeded by his son Amon.\n\n In [Judg. 18:30](/judg#Judg.18.30) the correct reading is \u201cMoses,\u201d and not \u201cManasseh.\u201d The name \u201cManasseh\u201d is supposed to have been introduced by some transcriber to avoid the scandal of naming the grandson of Moses the great lawgiver as the founder of an idolatrous religion.",
             "itemNum": 2,
-            "matchType": "multi",
-            "matchSlugs": "['manasseh_1930', 'manasseh_1929']",
+            "matchType": "person",
+            "matchSlugs": "manasseh_1930",
+            "personLookup": [
+                "rec5LjGfCEP8klGHt"
+            ],
             "def_id": "m-p99.3",
             "has_list": "True"
         }
@@ -71578,6 +71578,9 @@
             "itemNum": 0,
             "matchType": "person",
             "matchSlugs": "medan_1978",
+            "personLookup": [
+                "recYnS78qsArMZfh5"
+            ],
             "def_id": "m-p212.3",
             "has_list": "False"
         }
@@ -77520,10 +77523,9 @@
             "termLabel": "Nathan",
             "dictText": "A prophet in the reigns of David and Solomon ([2 Chr. 9:29](/2chr#2Chr.9.29)). He is first spoken of in connection with the arrangements David made for the building of the temple ([2 Sam. 7:2](/2sam#2Sam.7.2), [3](/2sam#2Sam.7.3), [17](/2sam#2Sam.7.17)), and next appears as the reprover of David on account of his sin with Bathsheba (12:1-14). He was charged with the education of Solomon (12:25), at whose inauguration to the throne he took a prominent part ([1 Kings 1:8](/1kgs#1Kgs.1.8), [10](/1kgs#1Kgs.1.10), [11](/1kgs#1Kgs.1.11), [22](/1kgs#1Kgs.1.22)-45). His two sons, Zabad ([1 Chr. 2:36](/1chr#1Chr.2.36)) and Azariah ([1 Kings 4:5](/1kgs#1Kgs.4.5)) occupied places of honour at the king\u2019s court. He last appears in assisting David in reorganizing the public worship ([2 Chr. 29:25](/2chr#2Chr.29.25)). He seems to have written a life of David, and also a life of Solomon ([1 Chr. 29:29](/1chr#1Chr.29.29); [2 Chr. 9:29](/2chr#2Chr.9.29)).",
             "itemNum": 1,
-            "matchType": "multi",
-            "matchSlugs": "['nathan_2153', 'nathan_2155']",
+            "matchType": "person",
+            "matchSlugs": "nathan_2153",
             "personLookup": [
-                "recs485VRY8zagFCP",
                 "rec2OlshepuMiuLDJ"
             ],
             "def_id": "n-p54.3",
