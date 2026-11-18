@@ -8,6 +8,12 @@ Found something that still looks wrong? [Open a data correction issue](https://g
 
 ## November 2026
 
+Fixed in Airtable on November 17. Exported in [#110](https://github.com/robertrouse/theographic-bible-metadata/pull/110) (`0243dac`).
+
+- **Verses:** Person links in `mdText` no longer have a stray bracket. All 16,525 affected verses now read `[God](/person/god_1324)` instead of `[God]([/person/god_1324)`, 33,424 links in all, matching `richText` (DQ-0078, DQ-0013). The bracket was added by an export in January 2021 and was never an intended format. Place links and `richText` are unchanged. Punctuation inside some `mdText` link labels (for example `[Adam,](...)`) is still open (DQ-0026).
+- **Places:** *Decapolis* (`decapolis_328`) now sits in the Decapolis region east of the Jordan, at the Pleiades point for the region (678116), instead of on Damascus, about 138 km to the north-northeast (DQ-0077). Precision stays `Related-Surrounding`. The point in `geo/bible-places.geojson` was not changed (DQ-0072).
+- **Places:** *Rhodes* (`rhodes_1000`) and *Syracuse* (`syracuse_1121`) now link to Pleiades (590030 and 462503) and take its coordinates; Rhodes moved 0.15 km and Syracuse 1.04 km. *Melita* (Malta, `melita_761`) now links to Pleiades 462311; its coordinates are unchanged.
+
 Fixed in Airtable and `geo/` on November 17. `json/` and `CSV/` in this change were patched to match; the next export replaces them.
 
 - **Places:** New region *Country of the Gerasenes* (`country-of-the-gerasenes_1303`), the district east of the Sea of Galilee where Jesus healed the demoniac(s) (DQ-0076). KJV reads *Gadarenes* (Mark 5:1, Luke 8:26, 37) and *Gergesenes* (Matt 8:28); modern texts read *Gerasenes*. It is not the city of Gerasa or Gadara. Its point is a stand-in at the traditional site, Kursi (Pleiades 678093), with precision `Related-Surrounding`; the district's boundaries are unknown.
@@ -24,7 +30,7 @@ Fixed in `geo/` on November 16 in [#104](https://github.com/robertrouse/theograp
 - **Docs:** [Geospatial Data](../docs/geospatial-data.md) now says `Place ID` is the Theographic `placeID`, not a verse reference.
 - **viz.bible:** The Mapbox tileset `bibleviz.cjeuphot60b1v2qqjb1n4zd5y-2eo1m` and dataset `cjeuphot60b1v2qqjb1n4zd5y` behind the journeys map were republished to match.
 
-Fixed in Airtable on November 16, after that day's export. These changes reach `json/` and `CSV/` in the next export.
+Fixed in Airtable on November 16, after that day's export. Exported in [#110](https://github.com/robertrouse/theographic-bible-metadata/pull/110) (`0243dac`).
 
 - **People:** Four people linked to another person's Easton's Bible Dictionary entry now link to their own, or to none (DQ-0075). Each person's Easton text (`dictText`) follows the link.
   - *Medan* (`medan_1978`) now links to Easton's *Medan* instead of *Dedan 2*, and *Manasseh* son of Hezekiah (`manasseh_1930`) to *Manasseh 2* instead of *Manasseh 1* (son of Joseph).
