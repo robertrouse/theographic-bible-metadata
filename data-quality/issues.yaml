@@ -318,7 +318,7 @@
     - { record: recO4kahcK4q0EoQZ, field: displayTitle, equals: "Alexander (family of Annas)" }
   rule: null
   found: { date: 2026-09-15, by: "theographic-web CP-01 normalizer", sha: cfb1c48 }
-  fixed: { date: 2026-11-18, sha: null }
+  fixed: { date: 2026-11-18, sha: 0fc17ce }
   github: 49
   affects: [theographic-web]
   notes: >-
@@ -342,8 +342,7 @@
     Azariah equals check was retargeted to alsoCalled "Abed-nego" (set
     under DQ-0054), because that Disambiguation value is now empty.
     Backup: /workspace/backups/dq0010-disambiguation-2026-11-18.json.
-    Export sha is null until the next export; these checks will pass
-    against json/ then. theographic-web already ignores the field.
+    Exported in 0fc17ce (PR #117). theographic-web already ignores the field.
 
 - id: DQ-0011
   title: Mount of Olives alias is an editorial note, not a name
@@ -2756,7 +2755,7 @@
     - { record: recY3vd5gVnwqoRV1, field: locations, contains: "rec9Pcy2H3Fm5yzWm" }
   rule: null
   found: { date: 2026-11-16, by: "Bible Aquifer ACAI review (icfmp/ACAI#7)", sha: 18cb045 }
-  fixed: { date: 2026-11-17, sha: null }
+  fixed: { date: 2026-11-17, sha: 0fc17ce }
   github: null
   affects: [geo, events]
   notes: >-
@@ -2777,7 +2776,7 @@
     Galilee link). Event 387 location set. GeoJSON feature country-of-the-gerasenes added
     (fclass L, Point, less-certain, part of Decapolis cited to Mark 5:20). Backup and log:
     /workspace/drafts/dq0076-backup-2026-11-17.json, dq0076-apply-log-2026-11-17.txt.
-    fixed.sha to be filled from the merge commit.
+    Exported in 0fc17ce (PR #117).
 
 - id: DQ-0077
   title: "decapolis_328 display coordinates are Damascus (same point as straight_1112)"
@@ -2918,7 +2917,7 @@
     - { record: recB25qM62XLBnDqd, field: recogitoUri, not_contains: "779967430" }
   rule: null
   found: { date: 2026-11-07, by: "research (Notion backlog), logged to ledger 2026-11-17", sha: e1e22ab911afaffe32a97b6a5eb70a5855ce40f1 }
-  fixed: { date: 2026-11-17, sha: null }
+  fixed: { date: 2026-11-17, sha: 0fc17ce }
   github: null
   affects: [theographic-web]
   notes: >-
@@ -2944,8 +2943,7 @@
     (kerioth-hezron_684 coordinates) was left as is by decision: still 31.162327,
     35.057114, precision Rough, with Khirbet el-Qaryatein (31.344952, 35.124376)
     an unverified candidate. Backup: /workspace/backups/dq0079-kerioth-hezron-2026-11-17.json.
-    Export sha is null until the next export; these checks will pass against json/
-    then.
+    Exported in 0fc17ce (PR #117).
 
 - id: DQ-0080
   title: "simon_2750 blends Peter, Simon the Pharisee, and Judas Iscariot's father"
@@ -3005,7 +3003,7 @@
     - { record: rec5GNOyNFVIctrbl, field: matchSlugs, equals: "simon_2751" }
   rule: null
   found: { date: 2026-11-18, by: "external report (Alex Suarez, email Nov 18 2026), verified", sha: d826c69 }
-  fixed: { date: 2026-11-18, sha: null }
+  fixed: { date: 2026-11-18, sha: 0fc17ce }
   github: null
   affects: [theographic-web, consumer-timeline]
   notes: >-
@@ -3029,8 +3027,7 @@
     Event people rollups updated from the verse links. Backups:
     /workspace/backups/dq0080-simon-split-2026-11-18.json,
     /workspace/backups/dq0080-followups-2026-11-19.json.
-    Export sha is null until the next export; these checks will pass
-    against json/ then.
+    Exported in 0fc17ce (PR #117).
 
 - id: DQ-0081
   title: "baalath_136 and baalath_137 share coordinates and one Easton article"
@@ -3091,7 +3088,7 @@
     - { record: recjNRR60PAuFtjha, field: deathYear, equals: "-1450" }
   rule: null
   found: { date: 2026-11-18, by: "external report (Alex Suarez, email Nov 18 2026), verified", sha: d826c69 }
-  fixed: { date: 2026-11-18, sha: null }
+  fixed: { date: 2026-11-18, sha: 0fc17ce }
   github: null
   affects: []
   notes: >-
@@ -3103,5 +3100,4 @@
     Fixed in Airtable 2026-11-18. moses_2108 deathYear changed from -1451
     to -1450 to match Death of Moses (DQ-0003). No other fields were
     changed. Backup: /workspace/backups/dq0082-moses-2026-11-18.json.
-    Export sha is null until the next export; the deathYear check will
-    pass against json/ then.
+    Exported in 0fc17ce (PR #117).
