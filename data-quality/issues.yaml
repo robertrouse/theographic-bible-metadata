@@ -277,7 +277,7 @@
 
 - id: DQ-0010
   title: people."Disambiguation (temp)" is misaligned across rows
-  status: open
+  status: fixed
   type: wrong-value
   severity: medium
   table: people
@@ -307,18 +307,18 @@
   proposed: Realign each row with its own person, or drop the field (theographic-web ignores it).
   evidence: The text describes a different person than the row's displayTitle.
   checks:
-    - { record: recNRRITyGzXsl4yp, field: "Disambiguation (temp)", not_matches: "Zebedee" }
-    - { record: recfvViTrCO4UyG8T, field: "Disambiguation (temp)", not_matches: "camel" }
-    - { record: rec87gwGfBFi3eIZx, field: "Disambiguation (temp)", not_matches: "Iscariot" }
-    - { record: rec8R7Os9hEDyuTkI, field: "Disambiguation (temp)", not_matches: "Leper" }
-    - { record: rec7mbq5BahDRoSlS, field: "Disambiguation (temp)", not_matches: "Jonah" }
-    - { record: rec55VOZZ1c2NCs96, field: "Disambiguation (temp)", not_matches: "Disciple" }
-    - { record: recx0hTyIHDVaLNbu, field: "Disambiguation (temp)", not_matches: "Tiberius" }
-    - { record: recg3914bVvyjBOfN, field: "Disambiguation (temp)", not_matches: "Alphaeus" }
-    - { record: recO4kahcK4q0EoQZ, field: displayTitle, not_matches: "Son of Simon" }
+    - { record: recNRRITyGzXsl4yp, field: displayTitle, equals: "John the Baptist" }
+    - { record: recfvViTrCO4UyG8T, field: displayTitle, equals: "John (Relative of the High Priest)" }
+    - { record: rec87gwGfBFi3eIZx, field: displayTitle, equals: "Judas (of Galilee)" }
+    - { record: rec8R7Os9hEDyuTkI, field: displayTitle, not_matches: "Leper" }
+    - { record: rec7mbq5BahDRoSlS, field: displayTitle, equals: "Simon the Sorcerer" }
+    - { record: rec55VOZZ1c2NCs96, field: displayTitle, not_matches: "Disciple" }
+    - { record: recx0hTyIHDVaLNbu, field: displayTitle, not_matches: "Tiberius" }
+    - { record: recg3914bVvyjBOfN, field: displayTitle, equals: "Philip the Apostle" }
+    - { record: recO4kahcK4q0EoQZ, field: displayTitle, equals: "Alexander (family of Annas)" }
   rule: null
   found: { date: 2026-09-15, by: "theographic-web CP-01 normalizer", sha: cfb1c48 }
-  fixed: { date: null, sha: null }
+  fixed: { date: 2026-11-18, sha: null }
   github: 49
   affects: [theographic-web]
   notes: >-
@@ -330,6 +330,20 @@
     simon_2747 is Jesus' brother (parents Joseph and Mary); the leper is already
     simon_2748 (Matt 26:6, Mark 14:3). philip_2345 and philip_2346 are siblings of
     each other, so the split may be intentional; only the labels are clearly wrong.
+
+    Fixed in Airtable 2026-11-18 (option 1). "Disambiguation (temp)" was
+    cleared on all 1,707 People records (0 remain). The column was not a
+    uniform shift: it mixed correct labels, namesake swaps, etymologies
+    and long bios, so the values were cleared rather than realigned.
+    alexander_187 (recO4kahcK4q0EoQZ) displayTitle changed from
+    "Alexander (Son of Simon)" to "Alexander (family of Annas)". The
+    DQ-0010 not_matches checks on "Disambiguation (temp)" were retargeted
+    to displayTitle, which still distinguishes these people; the DQ-0069
+    Azariah equals check was retargeted to alsoCalled "Abed-nego" (set
+    under DQ-0054), because that Disambiguation value is now empty.
+    Backup: /workspace/backups/dq0010-disambiguation-2026-11-18.json.
+    Export sha is null until the next export; these checks will pass
+    against json/ then. theographic-web already ignores the field.
 
 - id: DQ-0011
   title: Mount of Olives alias is an editorial note, not a name
@@ -2361,7 +2375,7 @@
     "The original name of Abed-nego". Found after the DQ-0054 upload while adding the
     Abed-nego alias; json/people.json at fa15c8a still shows "Azariah (Meshach)".
   checks:
-    - { record: rec8W4ddbPMwkhiOQ, field: "Disambiguation (temp)", equals: "Azariah (Abed-nego)" }
+    - { record: rec8W4ddbPMwkhiOQ, field: alsoCalled, equals: "Abed-nego" }
   rule: null
   found: { date: 2026-11-14, by: "DQ-0054 upload follow-up (Abed-nego alias)", sha: fa15c8a }
   fixed: { date: 2026-11-14, sha: 014222a }
@@ -2370,6 +2384,12 @@
   notes: >-
     Fixed in Airtable 2026-11-14 (only this field on this record; alsoCalled was set to
     Abed-nego under DQ-0054). fixed.sha to be filled from the next export.
+
+    On 2026-11-19 the check was retargeted from Disambiguation (temp)
+    equals "Azariah (Abed-nego)" to alsoCalled equals "Abed-nego", because
+    DQ-0010 option 1 cleared Disambiguation (temp) on all People. alsoCalled
+    was already set to Abed-nego under DQ-0054 and is unchanged. fixed.sha
+    remains 014222a (the export that first confirmed this item).
 
 - id: DQ-0070
   title: "Exile-era events outside Appendix F still missing (Death of Jehoiakim, Gedaliah, lions' den, etc.)"
@@ -2929,7 +2949,7 @@
 
 - id: DQ-0080
   title: "simon_2750 blends Peter, Simon the Pharisee, and Judas Iscariot's father"
-  status: open
+  status: fixed
   type: wrong-value
   severity: high
   table: people
@@ -2941,6 +2961,7 @@
     - { id: recAv7g7gTJzauLpv, key: "Mark.1.30" }
     - { id: recQePl9a1Ng48kdQ, key: "Luke.4.38" }
     - { id: recyw7xMpb2EYYXQX, key: "Luke.5.3" }
+    - { id: recl83iOdTIDbvxkJ, key: "simon_2751 (Simon the Pharisee, created in the fix)" }
   field: verses, mdText, richText, partners
   current: >-
     simon_2750 (rec04sGSKA1kdTxYY) is titled Simon, surname Iscariot, with
@@ -2970,16 +2991,46 @@
     - { record: recyw7xMpb2EYYXQX, field: mdText, contains: "/person/peter_2745" }
     - { record: recyw7xMpb2EYYXQX, field: mdText, not_contains: "simon_2750" }
     - { record: recOkidtPPsLGo7Bv, field: mdText, not_contains: "simon_2750" }
+    - { record: recOkidtPPsLGo7Bv, field: mdText, contains: "/person/simon_2751" }
+    - { record: receonTmM8V771JdT, field: mdText, contains: "/person/simon_2751" }
     - { record: recExNbj5OPgZ92t2, field: mdText, contains: "simon_2750" }
+    - { record: recnrKCQiMLpG8Md5, field: mdText, contains: "/person/simon_2750" }
+    - { record: recTtQM5NKMm1hJPq, field: mdText, contains: "/person/simon_2753" }
+    - { record: recTtQM5NKMm1hJPq, field: mdText, not_contains: "simon_2750" }
+    - { record: rec04sGSKA1kdTxYY, field: displayTitle, equals: "Simon (father of Judas Iscariot)" }
+    - { record: recl83iOdTIDbvxkJ, field: displayTitle, equals: "Simon the Pharisee" }
+    - { record: recX9MMADoVI2CSP1, field: partners, contains: "rec9eSOzwWHpbCgQf" }
+    - { record: rec9eSOzwWHpbCgQf, field: partners, contains: "recX9MMADoVI2CSP1" }
+    - { record: rec5GNOyNFVIctrbl, field: matchType, equals: "person" }
+    - { record: rec5GNOyNFVIctrbl, field: matchSlugs, equals: "simon_2751" }
   rule: null
   found: { date: 2026-11-18, by: "external report (Alex Suarez, email Nov 18 2026), verified", sha: d826c69 }
-  fixed: { date: null, sha: null }
+  fixed: { date: 2026-11-18, sha: null }
   github: null
   affects: [theographic-web, consumer-timeline]
   notes: >-
     Reported externally, verified by us against GitHub JSON and Airtable.
     John 13:26 names "the son of Simon" in the people array but the inline
     mdText does not link the word Simon.
+
+    Fixed in Airtable 2026-11-18. New person simon_2751 (recl83iOdTIDbvxkJ,
+    displayTitle "Simon the Pharisee") was created and linked on the six
+    Luke 7 verses that name the Pharisee (Luke 7:36, 7:37, 7:39, 7:40, 7:43,
+    7:44). Mark 1:30, Luke 4:38 and Luke 5:3 were retargeted to peter_2745
+    in people, mdText and richText. simon_2750 displayTitle is now "Simon
+    (father of Judas Iscariot)" and keeps only the four John verses
+    (John 6:71, 12:4, 13:2, 13:26); John 6:71 and 13:26 gained "son of
+    [Simon](/person/simon_2750)" links. Acts 10:17's text link now points
+    at simon_2753 (Simon the Tanner). wife_of_simon_2943.partners was set
+    to peter_2745. On 2026-11-19, peter_2745.partners was set to
+    wife_of_simon_2943 (the link had been one-way), and Easton Simon 4
+    (rec5GNOyNFVIctrbl), already linked to simon_2751, had matchType and
+    matchSlugs set from "unmatched" to "person" and "simon_2751".
+    Event people rollups updated from the verse links. Backups:
+    /workspace/backups/dq0080-simon-split-2026-11-18.json,
+    /workspace/backups/dq0080-followups-2026-11-19.json.
+    Export sha is null until the next export; these checks will pass
+    against json/ then.
 
 - id: DQ-0081
   title: "baalath_136 and baalath_137 share coordinates and one Easton article"
@@ -3018,7 +3069,7 @@
 
 - id: DQ-0082
   title: "Moses' person deathYear is still -1451 after the DQ-0003 event fix"
-  status: open
+  status: fixed
   type: off-by-one
   severity: low
   table: people
@@ -3040,7 +3091,7 @@
     - { record: recjNRR60PAuFtjha, field: deathYear, equals: "-1450" }
   rule: null
   found: { date: 2026-11-18, by: "external report (Alex Suarez, email Nov 18 2026), verified", sha: d826c69 }
-  fixed: { date: null, sha: null }
+  fixed: { date: 2026-11-18, sha: null }
   github: null
   affects: []
   notes: >-
@@ -3048,3 +3099,9 @@
     (event startDate only). Related observation, not in scope: Aaron
     (aaron_1, recv0dAY2ULzJ687g) also has deathYear -1451 and has no Death
     of Aaron event.
+
+    Fixed in Airtable 2026-11-18. moses_2108 deathYear changed from -1451
+    to -1450 to match Death of Moses (DQ-0003). No other fields were
+    changed. Backup: /workspace/backups/dq0082-moses-2026-11-18.json.
+    Export sha is null until the next export; the deathYear check will
+    pass against json/ then.
