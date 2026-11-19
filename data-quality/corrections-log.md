@@ -8,6 +8,12 @@ Found something that still looks wrong? [Open a data correction issue](https://g
 
 ## November 2026
 
+Fixed in Airtable on November 18 and 19. These changes reach `json/` and `CSV/` in the next export.
+
+- **People:** `simon_2750`, which had mixed Peter, Simon the Pharisee, and Judas Iscariot's father, was split (DQ-0080). New record `simon_2751` (*Simon the Pharisee*) is on the six Luke 7 verses that name him (7:36, 7:37, 7:39, 7:40, 7:43, 7:44). Peter (`peter_2745`) now has Mark 1:30, Luke 4:38 and Luke 5:3. `simon_2750`, retitled *Simon (father of Judas Iscariot)*, keeps the four John verses; John 6:71 and 13:26 now include "son of Simon" links. Acts 10:17's text link points at Simon the Tanner (`simon_2753`). `wife_of_simon_2943` is linked as Peter's partner; on November 19 Peter's own `partners` field was set to her as well, and Easton's Simon 4 `matchType`/`matchSlugs` were set to `person` / `simon_2751`.
+- **People:** Moses (`moses_2108`) `deathYear` is now `-1450`, matching Death of Moses after the DQ-0003 event fix (DQ-0082).
+- **People:** `Disambiguation (temp)` was cleared on all 1,707 People records (DQ-0010, option 1). The column was not a uniform shift, so it could not be realigned. `alexander_187` `displayTitle` changed from "Alexander (Son of Simon)" to "Alexander (family of Annas)". The DQ-0069 Azariah ledger check was retargeted from the cleared field to `alsoCalled`.
+
 Fixed in Airtable on November 17. These changes reach `json/` and `CSV/` in the next export.
 
 - **Places:** The southern *Hazor* alias of *Kerioth-hezron* (`hazor_547`) and the *Hazor* of Josh 15:23 (`hazor_546`) no longer carry Recogito links to northern Tel Hazor (Pleiades 779967430). `recogitoUri`, `recogitoLat`, `recogitoLon` and `recogitoLabel` were cleared. The displayed coordinates are unchanged (DQ-0079). *Kerioth-hezron* itself stays at the shared "near Moladah" point (31.162327, 35.057114), precision Rough; Khirbet el-Qaryatein remains an unverified candidate.
