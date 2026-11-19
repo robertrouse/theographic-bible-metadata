@@ -8,13 +8,13 @@ Found something that still looks wrong? [Open a data correction issue](https://g
 
 ## November 2026
 
-Fixed in Airtable on November 18 and 19. These changes reach `json/` and `CSV/` in the next export.
+Fixed in Airtable on November 18 and 19. Exported in [#117](https://github.com/robertrouse/theographic-bible-metadata/pull/117) (`0fc17ce`).
 
 - **People:** `simon_2750`, which had mixed Peter, Simon the Pharisee, and Judas Iscariot's father, was split (DQ-0080). New record `simon_2751` (*Simon the Pharisee*) is on the six Luke 7 verses that name him (7:36, 7:37, 7:39, 7:40, 7:43, 7:44). Peter (`peter_2745`) now has Mark 1:30, Luke 4:38 and Luke 5:3. `simon_2750`, retitled *Simon (father of Judas Iscariot)*, keeps the four John verses; John 6:71 and 13:26 now include "son of Simon" links. Acts 10:17's text link points at Simon the Tanner (`simon_2753`). `wife_of_simon_2943` is linked as Peter's partner; on November 19 Peter's own `partners` field was set to her as well, and Easton's Simon 4 `matchType`/`matchSlugs` were set to `person` / `simon_2751`.
 - **People:** Moses (`moses_2108`) `deathYear` is now `-1450`, matching Death of Moses after the DQ-0003 event fix (DQ-0082).
 - **People:** `Disambiguation (temp)` was cleared on all 1,707 People records (DQ-0010, option 1). The column was not a uniform shift, so it could not be realigned. `alexander_187` `displayTitle` changed from "Alexander (Son of Simon)" to "Alexander (family of Annas)". The DQ-0069 Azariah ledger check was retargeted from the cleared field to `alsoCalled`.
 
-Fixed in Airtable on November 17. These changes reach `json/` and `CSV/` in the next export.
+Fixed in Airtable on November 17. Exported in [#117](https://github.com/robertrouse/theographic-bible-metadata/pull/117) (`0fc17ce`).
 
 - **Places:** The southern *Hazor* alias of *Kerioth-hezron* (`hazor_547`) and the *Hazor* of Josh 15:23 (`hazor_546`) no longer carry Recogito links to northern Tel Hazor (Pleiades 779967430). `recogitoUri`, `recogitoLat`, `recogitoLon` and `recogitoLabel` were cleared. The displayed coordinates are unchanged (DQ-0079). *Kerioth-hezron* itself stays at the shared "near Moladah" point (31.162327, 35.057114), precision Rough; Khirbet el-Qaryatein remains an unverified candidate.
 - **Verses:** In Josh 15:25, the first "Hazor" in `mdText` and `richText` now links to *Hazor-hadattah* (`hazor-hadattah_550`). The closing "which is Hazor" still points at the Kerioth-hezron alias (`hazor_547`) (DQ-0079).
@@ -25,7 +25,7 @@ Fixed in Airtable on November 17. Exported in [#110](https://github.com/robertro
 - **Places:** *Decapolis* (`decapolis_328`) now sits in the Decapolis region east of the Jordan, at the Pleiades point for the region (678116), instead of on Damascus, about 138 km to the north-northeast (DQ-0077). Precision stays `Related-Surrounding`. The point in `geo/bible-places.geojson` was not changed (DQ-0072).
 - **Places:** *Rhodes* (`rhodes_1000`) and *Syracuse* (`syracuse_1121`) now link to Pleiades (590030 and 462503) and take its coordinates; Rhodes moved 0.15 km and Syracuse 1.04 km. *Melita* (Malta, `melita_761`) now links to Pleiades 462311; its coordinates are unchanged.
 
-Fixed in Airtable and `geo/` on November 17. `json/` and `CSV/` in this change were patched to match; the next export replaces them.
+Fixed in Airtable and `geo/` on November 17. The patched `json/` and `CSV/` copies were replaced by the export in [#117](https://github.com/robertrouse/theographic-bible-metadata/pull/117) (`0fc17ce`).
 
 - **Places:** New region *Country of the Gerasenes* (`country-of-the-gerasenes_1303`), the district east of the Sea of Galilee where Jesus healed the demoniac(s) (DQ-0076). KJV reads *Gadarenes* (Mark 5:1, Luke 8:26, 37) and *Gergesenes* (Matt 8:28); modern texts read *Gerasenes*. It is not the city of Gerasa or Gadara. Its point is a stand-in at the traditional site, Kursi (Pleiades 678093), with precision `Related-Surrounding`; the district's boundaries are unknown.
 - **Verses:** Matt 8:28, Mark 5:1, Luke 8:26 and Luke 8:37 now link the place in `places`, `mdText` and `richText`. A stray period in Luke 8:26's `mdText` moved outside the Galilee link (DQ-0076).
