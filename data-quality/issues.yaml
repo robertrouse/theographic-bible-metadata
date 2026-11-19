@@ -3101,3 +3101,45 @@
     to -1450 to match Death of Moses (DQ-0003). No other fields were
     changed. Backup: /workspace/backups/dq0082-moses-2026-11-18.json.
     Exported in 0fc17ce (PR #117).
+
+- id: DQ-0083
+  title: "valley_of_shaveh_692 and valley_of_shaveh_1216 share coordinates with no canonicalPlace"
+  status: open
+  type: duplicate-record
+  severity: low
+  table: places
+  records:
+    - { id: recruGIaExz1GoMbG, key: "valley_of_shaveh_692" }
+    - { id: recZeNEbOWIqV0AmA, key: "valley_of_shaveh_1216" }
+  field: latitude, longitude, canonicalPlace
+  current: >-
+    valley_of_shaveh_692 (Gen 14:17, 2 Sam 18:18; aliases "king's dale") and
+    valley_of_shaveh_1216 (Gen 14:17 only) both sit at 31.777444, 35.234935.
+    Neither has canonicalPlace. OpenBible URIs differ (ac9f98d vs a86d49f)
+    but use the same point. Easton recXLmq0VA0sc6vFj ("Shaveh, Valley of")
+    is already matched to both slugs. shaveh-kiriathaim_1066 (Gen 14:5) is
+    a different place at 31.583333, 35.700000.
+  proposed: >-
+    Hold for further research. Decide whether they are the same site
+    (point one at the other via canonicalPlace) or genuinely distinct
+    places that happen to share an OpenBible candidate point; document
+    the decision.
+  evidence: >-
+    External report (Alex Suarez, email Nov 18 2026), verified against
+    json/ at 0fc17ce and live Airtable. Gen 14:17 names "the valley of
+    Shaveh, which is the king's dale"; 2 Sam 18:18 names Absalom's pillar
+    "in the king's dale."
+  checks: []
+  rule: shared-coords-no-canonical
+  found: { date: 2026-11-19, by: "external report (Alex Suarez, email Nov 18 2026), verified", sha: 0fc17ce }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: []
+  notes: >-
+    Hold for further research. Same class as DQ-0081 (baalath_136 /
+    baalath_137), which was already logged as needs-research; this entry
+    covers only the Valley of Shaveh pair, which was not in the ledger.
+    692 looks more complete (both verses plus the king's dale alias and
+    the Easton link). 1216's OpenBible URI a86d49f is also used by
+    shaveh-kiriathaim_1066, which has different coordinates — worth
+    checking during research, out of scope of this filing.
