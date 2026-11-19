@@ -98741,8 +98741,11 @@
             "termLabel": "Simon",
             "dictText": "A Pharisee in whose house \u201ca woman of the city which was a sinner\u201d anointed our Lord\u2019s feet with ointment ([Luke 7:36-38](/luke#Luke.7.36)).",
             "itemNum": 4,
-            "matchType": "unmatched",
-            "matchSlugs": "unmatched",
+            "matchType": "person",
+            "matchSlugs": "simon_2751",
+            "personLookup": [
+                "recl83iOdTIDbvxkJ"
+            ],
             "def_id": "s-p482.4",
             "has_list": "True"
         }

@@ -25671,21 +25671,17 @@
             "verses": [
                 "rec9vlZ7lyWiVTMVn"
             ],
-            "recogitoUri": "http://pleiades.stoa.org/places/779967430",
             "recogitoStatus": "UNVERIFIED",
             "recogitoType": "settlement",
-            "recogitoLabel": "Tel Hazor",
             "recogitoUID": "8e9d0e22-19d7-4c97-9d03-f74dca6d6270",
             "eastons": [
                 "recVnKJzcAS8K7Yp5"
             ],
-            "modified": "2026-11-14T17:45:01.000Z",
+            "modified": "2026-11-18T05:46:09.000Z",
             "kjvName": "Hazor",
             "esvName": "Hazor",
             "openBibleLat": "30.68771281376111",
             "openBibleLong": "34.49479554246946",
-            "recogitoLat": "33.01746212803129",
-            "recogitoLon": "35.56813718",
             "alphaGroup": "H",
             "slug": "hazor_546",
             "ambiguous": true,
@@ -25717,18 +25713,14 @@
             "verses": [
                 "recLK8NsrqyGZCtGH"
             ],
-            "recogitoUri": "http://pleiades.stoa.org/places/779967430",
             "recogitoStatus": "UNVERIFIED",
             "recogitoType": "settlement",
-            "recogitoLabel": "Tel Hazor",
             "recogitoUID": "ac0da42d-565a-49b2-b8ea-b628db4e44d6",
-            "modified": "2026-11-14T17:45:36.000Z",
+            "modified": "2026-11-18T05:46:09.000Z",
             "kjvName": "Hazor",
             "esvName": "Hazor",
             "openBibleLat": "31.162327",
             "openBibleLong": "35.057114",
-            "recogitoLat": "33.01746212803129",
-            "recogitoLon": "35.56813718",
             "alphaGroup": "H",
             "slug": "hazor_547",
             "ambiguous": true,
