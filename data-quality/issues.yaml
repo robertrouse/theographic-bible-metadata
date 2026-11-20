@@ -3143,3 +3143,516 @@
     the Easton link). 1216's OpenBible URI a86d49f is also used by
     shaveh-kiriathaim_1066, which has different coordinates — worth
     checking during research, out of scope of this filing.
+- id: DQ-0084
+  title: "On and City of Destruction had each other's OpenBible and Pleiades links"
+  status: fixed
+  type: bad-link
+  severity: medium
+  table: places
+  records:
+    - { id: recK0feE032FY9Hxi, key: "on_908" }
+    - { id: recdFJBOErXeELyd6, key: "heliopolis_557" }
+    - { id: recZ1bQRi7RutQSYV, key: "destruction_301" }
+  field: openBibleUri, openBibleLat, openBibleLong, pleiadesUri, pleiadesLat, pleiadesLon
+  current: >-
+    on_908 (Gen 41:45, 41:50, 46:20, Ezek 30:17) and its alias heliopolis_557
+    (Jer 43:13; canonicalPlace = on_908) had OpenBible adca4b1 (City of
+    Destruction) and no Pleiades URI. Their openBibleLat/Long were 30.108086,
+    31.33822, so displayed coordinates were that stale point. destruction_301
+    (Isa 19:18 only) had OpenBible acd9137 (On/Heliopolis) and Pleiades 727117
+    (Heliopolis), so it displayed at 30.129404, 31.307481. Recogito fields
+    were not used for display and were left alone.
+  proposed: >-
+    Give on_908 and heliopolis_557 OpenBible acd9137 and Pleiades 727117.
+    Give destruction_301 OpenBible adca4b1 and no Pleiades (Isa 19:18 is only
+    a 60% identification with Heliopolis on OpenBible; no confident Pleiades
+    match). Set openBibleLat/Long to OpenBible's current representative point
+    for those IDs (30.129444, 31.3075). Displayed coordinates follow the
+    existing formula (canonical place, else Pleiades, else OpenBible).
+  evidence: >-
+    GitHub issue #121 (Christian Pure, bible-places v1.2.0), verified against
+    OpenBible.info (not only the derived file), the verses, and Pleiades.
+    acd9137 is Heliopolis/On (translated names On, Heliopolis, Aven,
+    Beth-shemesh); verses Gen 41:45, 41:50, 46:20, Jer 43:13, Ezek 30:17;
+    Pleiades 727117; Wikidata Q191687; Ain Shams, very high confidence.
+    adca4b1 is City of Destruction; Isa 19:18 only; no Pleiades; leading
+    identification "another name for Heliopolis" at 60%. Pleiades 727117
+    title is Heliopolis, reprPoint 31.3074812, 30.1294036. Theographic verse
+    tags already matched those partitions (Jer 43:13 on the Heliopolis alias).
+  checks:
+    - { record: recK0feE032FY9Hxi, field: openBibleUri, equals: "https://www.openbible.info/geo/ancient/acd9137" }
+    - { record: recK0feE032FY9Hxi, field: pleiadesUri, equals: "https://pleiades.stoa.org/places/727117" }
+    - { record: recdFJBOErXeELyd6, field: openBibleUri, equals: "https://www.openbible.info/geo/ancient/acd9137" }
+    - { record: recdFJBOErXeELyd6, field: pleiadesUri, equals: "https://pleiades.stoa.org/places/727117" }
+    - { record: recZ1bQRi7RutQSYV, field: openBibleUri, equals: "https://www.openbible.info/geo/ancient/adca4b1" }
+    - { record: recZ1bQRi7RutQSYV, field: pleiadesUri, not_contains: "727117" }
+  rule: null
+  found: { date: 2026-11-20, by: "GitHub issue #121 (Christian Pure, bible-places v1.2.0), verified", sha: 317e1c2 }
+  fixed: { date: 2026-11-20, sha: null }
+  github: 121
+  affects: [theographic-web]
+  notes: >-
+    Fixed in Airtable 2026-11-20. on_908 and heliopolis_557 now have
+    openBibleUri acd9137, openBibleLat/Long 30.129444, 31.3075, and
+    pleiadesUri 727117 with pleiadesLat/Lon 30.129404, 31.307481. Displayed
+    coordinates on both are 30.129404, 31.307481 (Pleiades; the alias
+    follows on_908). destruction_301 now has openBibleUri adca4b1,
+    openBibleLat/Long 30.129444, 31.3075, and no Pleiades fields; displayed
+    coordinates are the OpenBible point 30.129444, 31.3075. GeoJSON was not
+    updated (DQ-0072 remains on hold). Export sha pending the next export.
+    Backup: /workspace/issue121/fixes/backup-on-destruction-2026-11-20.json.
+
+- id: DQ-0085
+  title: "Aram and Syria OpenBible IDs are crossed, but the verse model does not match OpenBible's split"
+  status: needs-research
+  type: bad-link
+  severity: medium
+  table: places
+  records:
+    - { id: recjdhKnTnRSPWNUo, key: "aram_82" }
+    - { id: recEoYRAyVeAancS0, key: "syria_1122" }
+  field: openBibleUri, openBibleLat, openBibleLong, pleiadesUri, verses
+  current: >-
+    aram_82 is titled Aram and has five OT verses (Num 23:7, 2 Sam 8:6,
+    15:8, 1 Chr 2:23, Hos 12:12), but its OpenBible URI is a890adf
+    ("Syria 2", the Roman province; NT verses only) and it carries
+    Pleiades 981550 ("Syria (Roman imperial province)"), with no
+    pleiadesLat/Lon filled. Displayed/OpenBible coordinates are 34.85,
+    39.12, which match neither OpenBible article (both use Damascus
+    33.511112, 36.30639) nor Pleiades 981550 (reprPoint 37.5, 37.5, a
+    coarse Barrington box). syria_1122 is titled Syria, has 56 OT KJV
+    "Syria" verses plus all eight NT verses of a890adf, and has OpenBible
+    URI a3e66cd ("Aram"; 11 OT verses). Its OpenBible point is 33.519299,
+    36.31345, near Damascus. No Pleiades URI on syria_1122.
+  proposed: >-
+    Do not swap the URIs until a modeling decision is made. Options:
+    (1) Swap URIs only — aram_82 would get a3e66cd and syria_1122 would
+    get a890adf. Names would then match OpenBible's articles, but
+    syria_1122 would still hold 56 OT verses that OpenBible does not put
+    on Syria 2, and aram_82 would still lack six of a3e66cd's verses.
+    (2) Swap URIs and retag verses to follow OpenBible: move or add
+    Judg 18:7, 18:28, 2 Kgs 5:18, 6:14, 8:15 and Zech 9:1 onto aram_82,
+    and leave only the eight NT verses on syria_1122. That would split
+    Theographic's current "KJV Syria" record, and it is not obvious where
+    the other 50 OT Syria verses should go (OpenBible may have further
+    Syria articles). (3) Keep Theographic's Aram vs Syria verse split
+    (explicit "Aram" vs KJV "Syria", including the Roman province) and
+    document that the OpenBible IDs cannot be a 1:1 match. Pleiades
+    981550 belongs with Roman Syria, not OT Aram, but its 37.5, 37.5
+    point is too coarse to fill under the confident-match rule (see
+    DQ-0024).
+  evidence: >-
+    GitHub issue #121 (Christian Pure, bible-places v1.2.0), verified
+    against OpenBible.info and the verses at 317e1c2. a3e66cd is Aram
+    (also translated Syria, Aramean, Arameans); verses Num 23:7, Judg 18:7,
+    18:28, 2 Sam 8:6, 15:8, 2 Kgs 5:18, 6:14, 8:15, 1 Chr 2:23, Hos 12:12,
+    Zech 9:1. a890adf is Syria 2, Roman province; verses Matt 4:24, Luke 2:2,
+    Acts 15:23, 15:41, 18:18, 20:3, 21:3, Gal 1:21; Wikidata Q207118.
+    In Theographic, Judg 18:7 and 18:28 are not tagged to Aram or Syria;
+    2 Kgs 5:18, 6:14 and 8:15 have no place tag; Zech 9:1 is on Damascus
+    and Hadrach. All eight NT verses are already on syria_1122. Pleiades
+    981550 is "Syria (Roman imperial province)".
+  checks: []
+  rule: null
+  found: { date: 2026-11-20, by: "GitHub issue #121 (Christian Pure, bible-places v1.2.0), verified", sha: 317e1c2 }
+  fixed: { date: null, sha: null }
+  github: 121
+  affects: [theographic-web]
+  notes: >-
+    Verified; not a simple confirmed swap, so Airtable was not changed.
+    OpenBible's two articles share the same representative point (Damascus),
+    so a URI-only swap would not move the map point much if the OpenBible
+    coordinates were also updated.
+
+- id: DQ-0086
+  title: "Canneh wears the OpenBible id for Calneh (Isa 10:9 / Amos 6:2)"
+  status: open
+  type: bad-link
+  severity: medium
+  table: places
+  records:
+    - { id: recuVHORMSQdWyeM8, key: "canneh_273" }
+    - { id: recTCLydxA9SiyYUl, key: "calneh_269" }
+  field: openBibleUri, latitude, longitude, verses
+  current: >-
+    canneh_273 (Ezek 27:23 only) has OpenBible a7be664, which is Calneh
+    of Isa 10:9 and Amos 6:2 (Tell Tayinat, 36.2475, 36.37639, unsure).
+    Its coordinates are 32.127213, 45.229995, the same Nippur-area point
+    as calneh_269. calneh_269 has OpenBible aee80af (Calneh of Gen 10:10,
+    Nippur) but its verses are Gen 10:10 and Amos 6:2, mixing the two
+    Calneh articles. There is no Theographic record with ae83efa (Canneh,
+    Ezek 27:23, 36.29257, 37.20553) or with a7be664 used for Isa 10:9 /
+    Amos 6:2.
+  proposed: >-
+    Give canneh_273 OpenBible ae83efa and review its coordinates against
+    that article. Decide whether calneh_269 should keep only Gen 10:10
+    (aee80af) and whether Isa 10:9 / Amos 6:2 need their own Calneh
+    record (a7be664) or should stay merged.
+  evidence: >-
+    GitHub issue #121 (Christian Pure, bible-places v1.2.0), checked
+    against OpenBible.info ids and verses at 317e1c2. CP ae83efa = Canneh
+    (Ezek 27:23); a7be664 = Calneh (Isa 10:9, Amos 6:2); aee80af = Calneh
+    (Gen 10:10).
+  checks: []
+  rule: null
+  found: { date: 2026-11-20, by: "GitHub issue #121 (Christian Pure, bible-places v1.2.0), verified", sha: 317e1c2 }
+  fixed: { date: null, sha: null }
+  github: 121
+  affects: [theographic-web]
+  notes: >-
+    Three OpenBible articles are involved. The id on canneh_273 is clearly
+    wrong; how to split or keep the two Calneh traditions is a research call.
+
+- id: DQ-0087
+  title: "Valley of Aijalon has the OpenBible id for the Aijalon of Judg 12:12"
+  status: open
+  type: bad-link
+  severity: low
+  table: places
+  records:
+    - { id: recI70ks9Kw3KG5o7, key: "valley_of_aijalon_1197" }
+    - { id: recAW3NovSbgdfNfk, key: "aijalon_40" }
+  field: openBibleUri
+  current: >-
+    valley_of_aijalon_1197 (Josh 10:12 only) has OpenBible a2e7975, which
+    is Aijalon of Judg 12:12 (Tel el Butmeh, 32.81409, 35.30902, unsure).
+    Its coordinates 31.84117377, 35.02537927 are in the southern Aijalon
+    / Yalo area, near aijalon_40 (a1c600b, 31.844883, 35.031267). The
+    OpenBible article for the valley in Josh 10:12 is a2e6de9 (Ayalon
+    Valley, 31.8675, 34.95944, sure). aijalon_40 already has the southern
+    town's verses (Josh 19:42, 21:24, etc.) and also Judg 12:12, which
+    OpenBible puts on a2e7975.
+  proposed: >-
+    Point valley_of_aijalon_1197 at a2e6de9 and review its coordinates
+    against that article. Decide whether Judg 12:12 should stay on
+    aijalon_40 or move to a northern Aijalon record.
+  evidence: >-
+    GitHub issue #121 (Christian Pure, bible-places v1.2.0), checked
+    against OpenBible.info: a2e6de9 = Valley of Aijalon (Josh 10:12);
+    a2e7975 = Aijalon (Judg 12:12); a1c600b = Aijalon (Josh 19:42 and
+    related southern verses).
+  checks: []
+  rule: null
+  found: { date: 2026-11-20, by: "GitHub issue #121 (Christian Pure, bible-places v1.2.0), verified", sha: 317e1c2 }
+  fixed: { date: null, sha: null }
+  github: 121
+  affects: [theographic-web]
+  notes: null
+
+- id: DQ-0088
+  title: "Lud is an alias of Put and wears Put's OpenBible id"
+  status: open
+  type: bad-link
+  severity: medium
+  table: places
+  records:
+    - { id: recQfk1jNQuk2JPGb, key: "lud_735" }
+    - { id: recZ3tjOC2I7idswk, key: "put_962" }
+    - { id: recglfjpGTUL9C7v1, key: "pul_960" }
+  field: openBibleUri, canonicalPlace, latitude, longitude
+  current: >-
+    lud_735 (Isa 66:19, Jer 46:9, Ezek 27:10, 30:5) has canonicalPlace
+    put_962 and the same OpenBible URI as Put, ad0520f. Displayed
+    coordinates follow Put at 32.824979, 21.858301 (Libya). pul_960 is
+    also an alias of Put with the same URI. OpenBible has two Lud
+    articles, a38776a (Isa 66:19, Ezek 27:10; "another name for Lydia")
+    and a359997 (Jer 46:9, Ezek 30:5), both at 38.48833, 28.04028, not
+    Libya. ad0520f is also one of the 28 URIs in DQ-0091: stored
+    openBibleLat/Long values for that URI disagree, including a point
+    in Israel (31.951389, 34.895278) as well as the Libya point.
+  proposed: >-
+    Stop pointing Lud at Put's OpenBible id. Give lud_735 the appropriate
+    Lud article (or articles) and decide whether it should remain an alias
+    of Put. Review pul_960 in the same pass.
+  evidence: >-
+    GitHub issue #121 (Christian Pure, bible-places v1.2.0), checked
+    against OpenBible.info and the verses at 317e1c2. lud_735's four
+    verses are exactly the union of a38776a and a359997, not the Put
+    list (ad0520f: Isa 66:19, Jer 46:9, Ezek 27:10, 30:5, 38:5, Nah 3:9).
+  checks: []
+  rule: null
+  found: { date: 2026-11-20, by: "GitHub issue #121 (Christian Pure, bible-places v1.2.0), verified", sha: 317e1c2 }
+  fixed: { date: null, sha: null }
+  github: 121
+  affects: [theographic-web]
+  notes: >-
+    Some verses name Lud and Put together, which may be why they were
+    aliased; the shared Put URI is still wrong for Lud.
+
+- id: DQ-0089
+  title: "river_244 has the Euphrates OpenBible id but sits on the Jerusalem default point"
+  status: open
+  type: bad-link
+  severity: medium
+  table: places
+  records:
+    - { id: rec9ygL3vIbmQQtNQ, key: "river_244" }
+    - { id: recJ0N5yStBk9CjXA, key: "euphrates_421" }
+    - { id: recQIJnCSmWgA0ktQ, key: "river_1010" }
+  field: openBibleUri, openBibleLat, openBibleLong, latitude, longitude, canonicalPlace
+  current: >-
+    river_244 ("River"; 16 Ezra/Nehemiah "beyond the river" verses) has
+    OpenBible a62dec4, the same URI as euphrates_421, but its coordinates
+    are the Jerusalem default point 31.777444, 35.234935. euphrates_421
+    is at 35.090577, 40.42778 with Pleiades 912849 and 32 verses. river_1010
+    is already an alias of euphrates_421 with the Euphrates OpenBible
+    point. a62dec4 is also in DQ-0091.
+  proposed: >-
+    Either point river_244 at euphrates_421 via canonicalPlace (if "the
+    river" in Ezra–Nehemiah is the Euphrates) or give it a distinct
+    identifier and a non-Jerusalem point if it is being used as a generic
+    or provincial "beyond the river" region.
+  evidence: >-
+    GitHub issue #121 (Christian Pure, bible-places v1.2.0), checked
+    against OpenBible a62dec4 (Euphrates) and json/ at 317e1c2. 31.777444,
+    35.234935 is the well-known Jerusalem default used on several
+    unresolved places (see DQ-0083).
+  checks: []
+  rule: null
+  found: { date: 2026-11-20, by: "GitHub issue #121 (Christian Pure, bible-places v1.2.0), verified", sha: 317e1c2 }
+  fixed: { date: null, sha: null }
+  github: 121
+  affects: [theographic-web]
+  notes: null
+
+- id: DQ-0090
+  title: "ham_515 has the OpenBible id for Ham (Gen 14:5) but no verses, while ham_514 has the verse and Ammon's id"
+  status: needs-research
+  type: missing-link
+  severity: medium
+  table: places
+  records:
+    - { id: recft3Ujk5x5izu4h, key: "ham_515" }
+    - { id: rec3sBoYreDR4Dskj, key: "ham_514" }
+  field: verses, openBibleUri, latitude, longitude
+  current: >-
+    ham_515 has OpenBible a7a5f29 (Ham of Gen 14:5, Tell Ham, 32.51421,
+    35.81238, likely) but verseCount 0 and coordinates 30.108086, 31.338220,
+    a stale Egyptian point also formerly stored on On. ham_514 is titled
+    Ham, already has Gen 14:5, sits at 31.95018855, 35.92413136, and has
+    OpenBible a6046fa, which is Ammonites/Ammon (Rabbah), not Ham. ham_514
+    has canonicalPlace set (recq9ttBUfBJW1lhG).
+  proposed: >-
+    Decide whether ham_514 and ham_515 are the same site. The verse belongs
+    with the Ham of Gen 14:5 (a7a5f29). The Ammon URI on ham_514 and the
+    empty verse list plus Egyptian point on ham_515 should not stand.
+  evidence: >-
+    GitHub issue #121 (Christian Pure, bible-places v1.2.0), checked
+    against OpenBible.info and Gen 14:5 at 317e1c2. a7a5f29 = Ham
+    (Gen 14:5); a6046fa = Ammonites (many Ammon verses, not Gen 14:5).
+  checks: []
+  rule: null
+  found: { date: 2026-11-20, by: "GitHub issue #121 (Christian Pure, bible-places v1.2.0), verified", sha: 317e1c2 }
+  fixed: { date: null, sha: null }
+  github: 121
+  affects: [theographic-web]
+  notes: >-
+    If they are merged, follow the usual alias/canonicalPlace pattern and
+    retarget the verse links.
+
+- id: DQ-0091
+  title: "28 OpenBible URIs have two different stored coordinate pairs"
+  status: needs-research
+  type: wrong-value
+  severity: medium
+  table: places
+  records:
+    - { id: rec9ygL3vIbmQQtNQ, key: "river_244 (example; a62dec4, also DQ-0089)" }
+    - { id: recZeNEbOWIqV0AmA, key: "valley_of_shaveh_1216 (example; a86d49f, also DQ-0083)" }
+    - { id: recQfk1jNQuk2JPGb, key: "lud_735 (example; ad0520f, also DQ-0088)" }
+  field: openBibleUri, openBibleLat, openBibleLong
+  current: >-
+    At 317e1c2, 28 OpenBible URIs are used on two or more place records
+    whose openBibleLat/Long values disagree when rounded to six decimals
+    (the same method as the #121 comparison). Some are aliases with a
+    leftover point; some are same-name pairs or related places sharing an
+    id, in the same class as DQ-0083 (Valley of Shaveh) and DQ-0081
+    (Baalath). The 28 ids are a03cc2d, a079b21, a07ae2d, a116c5c, a2466e4,
+    a264254, a28da66, a2bb5ef, a3d1321, a43f60f, a45dd20, a4aa78a, a62dec4,
+    a64f355, a656cb6, a7559e6, a75aff4, a7b2e63, a86d49f, a871210, a89511f,
+    a901903, ab682e6, ac71e65, acf57c5, ad0520f, adf74d4, af054ba. A raw
+    string compare finds 31, the extra three differing only by rounding.
+  proposed: >-
+    Review each URI. Where records are aliases, make the stored OpenBible
+    coordinates agree and rely on canonicalPlace for display. Where they
+    are distinct places, they should not share an OpenBible id, or the
+    shared id should carry one official point. Hold individual site
+    decisions as needed, as with DQ-0083.
+  evidence: >-
+    GitHub issue #121 (Christian Pure, bible-places v1.2.0) comparison
+    against json/ at 317e1c2. Related: DQ-0083, DQ-0081, DQ-0088, DQ-0089.
+  checks: []
+  rule: shared-openbible-coords
+  found: { date: 2026-11-20, by: "GitHub issue #121 (Christian Pure, bible-places v1.2.0), verified", sha: 317e1c2 }
+  fixed: { date: null, sha: null }
+  github: 121
+  affects: [theographic-web]
+  notes: >-
+    This entry is the inventory. Do not treat it as replacing DQ-0083 or
+    DQ-0081, which remain the place to record those site decisions.
+
+- id: DQ-0092
+  title: "Ophir, Uphaz, and India, and Gog, Magog, and Meshech, sit on coarse integer-degree placeholder points"
+  status: needs-research
+  type: wrong-value
+  severity: medium
+  table: places
+  records:
+    - { id: recPkpwSKDIF9jQ3T, key: "ophir_911" }
+    - { id: recQ3Rbzxg2nB04dj, key: "uphaz_1187" }
+    - { id: recxCz0P7YIE6Jp40, key: "india_597" }
+    - { id: recU8xPfFY5HMNYs5, key: "gog_484" }
+    - { id: recbwzNRSJ9WR620p, key: "magog_754" }
+    - { id: recYCmiFv6zLQJNak, key: "meshech_788" }
+  field: latitude, longitude, openBibleLat, openBibleLong
+  current: >-
+    ophir_911, uphaz_1187 and india_597 all sit at 22, 77 (an integer-degree
+    point in central India). OpenBible/CP place Ophir and Uphaz in
+    southwestern Arabia (18.21667, 42.5, region) and India near the Indus
+    (23.9944, 67.4308, region). india_597 already has Pleiades 50004, but
+    displayed coordinates are still the placeholder (pleiadesLat is not
+    filled). gog_484, magog_754 and meshech_788 all sit at 46, 47 (north
+    of the Caspian). OpenBible/CP place Gog and Magog at 38.48833, 28.04028
+    and Meshech at 39.655, 31.99417 (all region / unsure). None of the six
+    has canonicalPlace.
+  proposed: >-
+    Decide whether to adopt OpenBible's regional points, a Pleiades point
+    where the match is confident (India already has a URI), or a documented
+    "unknown / traditional region" treatment. Do not leave integer-degree
+    placeholders that look like precise locations.
+  evidence: >-
+    GitHub issue #121 (Christian Pure, bible-places v1.2.0) comparison
+    against json/ at 317e1c2. These were the largest OpenBible coordinate
+    disagreements in that pass (Ophir/Uphaz about 3,619 km; Gog/Magog about
+    1,764 km; Meshech about 1,409 km; India about 1,004 km). Identifications
+    of Ophir, Gog and Magog are themselves uncertain.
+  checks: []
+  rule: null
+  found: { date: 2026-11-20, by: "GitHub issue #121 (Christian Pure, bible-places v1.2.0), verified", sha: 317e1c2 }
+  fixed: { date: null, sha: null }
+  github: 121
+  affects: [theographic-web]
+  notes: >-
+    Two clusters, one inventory item, because both are placeholder points
+    rather than swapped ids. Site choice needs research.
+
+- id: DQ-0093
+  title: "19 Pleiades links disagree with Christian Pure / OpenBible (including Malta)"
+  status: needs-research
+  type: bad-link
+  severity: medium
+  table: places
+  records:
+    - { id: recEP3QZ3HUmIkv4Q, key: "samaria_1022" }
+    - { id: recFKDaCksomouPcF, key: "raamses_965" }
+    - { id: recbzTNkxyES3LbQF, key: "rameses_980" }
+    - { id: recuiNskL8Wft4eRh, key: "galatia_431" }
+    - { id: recL1WV82pXaRBQ59, key: "jerusalem_636" }
+    - { id: recdFgkZ8GAyZxHL3, key: "lycia_740" }
+    - { id: reci1kkPbg8LSQStj, key: "caphtor_275" }
+    - { id: rec6yittVQwxJlpye, key: "crete_310" }
+    - { id: recU8S3zWJLQkEpwO, key: "chios_296" }
+    - { id: recHGqci8tWKDU549, key: "melita_761" }
+    - { id: rec5XS12X23Uadj5G, key: "bithynia_250" }
+    - { id: recBYO9ocr5Gssb47, key: "ephesus_400" }
+    - { id: recIbOYJZX6WTiTYy, key: "samothrace_1025" }
+    - { id: recR67sC02MfTx4al, key: "damascus_322" }
+    - { id: recHrXj4CZl6AH9TQ, key: "antipatris_70" }
+    - { id: recUGTpxTrOA7MPkd, key: "aphek_72" }
+    - { id: rectQkLOmxxcMv1kQ, key: "aphekah_74" }
+    - { id: recZNlnoE1DDb6iiz, key: "cyrene_317" }
+    - { id: reczIMmvXFugsrx16, key: "pamphylia_918" }
+    - { id: recP4vOUr0U8xrio6, key: "cnidus_304" }
+    - { id: reco41jQa2HDPSWx2, key: "phrygia_946" }
+    - { id: rec1AuhYfD1Pt34oA, key: "habor_499" }
+    - { id: recIc4TxQa0rpOszp, key: "thessalonica_1158" }
+  field: pleiadesUri
+  current: >-
+    For 19 OpenBible ids that both datasets have, Theographic and
+    bible-places v1.2.0 point at different Pleiades records: Samaria
+    (T 678370 / CP 678369, samaria_1022); Rameses (T 905314398 / CP 727080,
+    raamses_965, rameses_980); Galatia (T 619161 / CP 991393, galatia_431);
+    Jerusalem (T 687928 / CP 973646718, jerusalem_636 and aliases including
+    Zion); Lycia (T 638965 / CP 1001914, lycia_740); Crete (T 589748 /
+    CP 1001897, caphtor_275, crete_310); Chios (T 550497 / CP 550496,
+    chios_296); Malta (T 462311 / CP 462218, melita_761, already DQ-0024);
+    Bithynia (T 511189 / CP 991389, bithynia_250); Ephesus (T 599612 /
+    CP 956927192, ephesus_400); Samothrace (T 501597 / CP 501596,
+    samothrace_1025); Damascus (T 678106 / CP 245122016, damascus_322);
+    Aphek (T 687996 / CP 687828, antipatris_70, aphek_72, aphekah_74);
+    Cyrene (T 373778 / CP 376001, cyrene_317); Pamphylia (T 639034 /
+    CP 1001913, pamphylia_918); Cnidus (T 599576 / CP 707539, cnidus_304);
+    Phrygia (T 907036116 / CP 991386, phrygia_946); Habor (T 874565 /
+    CP 893974, habor_499); Thessalonica (T 491741 / CP 115782359,
+    thessalonica_1158).
+  proposed: >-
+    Review each pair against the Pleiades records (settlement vs region,
+    nearby twins, and current vs deprecated ids). Do not change Malta
+    until DQ-0024 is decided; that decision may set the approach for
+    similar city-vs-island or settlement-vs-region pairs (Chios,
+    Samothrace, and others).
+  evidence: >-
+    GitHub issue #121 (Christian Pure, bible-places v1.2.0) comparison
+    against json/ at 317e1c2. CP Pleiades links are derived from
+    OpenBible. DQ-0024 is the open Malta decision.
+  checks: []
+  rule: null
+  found: { date: 2026-11-20, by: "GitHub issue #121 (Christian Pure, bible-places v1.2.0), verified", sha: 317e1c2 }
+  fixed: { date: null, sha: null }
+  github: 121
+  affects: [theographic-web]
+  notes: >-
+    Hold for the Malta approach (DQ-0024) before a bulk change. Several CP
+    ids look like newer Pleiades records; Theographic may already have the
+    better gazetteer feature in some cases (for example a city rather than
+    a region). Do not assume CP is authoritative.
+
+- id: DQ-0094
+  title: "Missing OpenBible URIs for Trogyllium, Bethlehem of Zebulun, and the Gerasenes; no City of David article"
+  status: open
+  type: missing-link
+  severity: low
+  table: places
+  records:
+    - { id: recdtc3DhxF0SAJRL, key: "trogyllium_1278" }
+    - { id: recsyolL81TBx45nu, key: "bethlehem_219" }
+    - { id: rec9Pcy2H3Fm5yzWm, key: "country-of-the-gerasenes_1303" }
+    - { id: reczPjeq0UdahiRrn, key: "zion_1263" }
+    - { id: rechZwu8ZbWlB6fyU, key: "mount_zion_860" }
+  field: openBibleUri
+  current: >-
+    trogyllium_1278 (Acts 20:15; 37.657, 27.006) has no OpenBible URI.
+    OpenBible/CP a6f61d3 is Trogyllium (Cape Mycale, 37.65943, 27.00328,
+    sure; Pleiades 599991). bethlehem_219 (Bethlehem of Zebulun, Josh 19:15;
+    32.735379, 35.189704) has no OpenBible URI. OpenBible/CP ab1a343 is
+    Bethlehem of Zebulun (Judg 12:8, 12:10; 32.73481, 35.18556, likely);
+    T's verse is Josh 19:15 rather than those Judges verses. country-of-the-gerasenes_1303
+    (Matt 8:28, Mark 5:1, Luke 8:26, 8:37; 32.824024, 35.649291) has no
+    OpenBible URI. OpenBible/CP split the verses: afed46a Region of the
+    Gadarenes (Matt 8:28, Umm Qais, Pleiades 678142) and ada6b64 Region of
+    the Gerasenes (Mark 5:1, Luke 8:26, 8:37, Jerash, Pleiades 678158).
+    There is no Theographic "City of David" place record and no link to
+    OpenBible a84f426 (City of David, sure, 31.77361, 35.23556, many
+    Samuel–Kings verses). Zion (zion_1263) and Mount Zion (mount_zion_860)
+    share a15257a (Jerusalem / Zion).
+  proposed: >-
+    Add a6f61d3 to trogyllium_1278 and ab1a343 to bethlehem_219 (and review
+    whether Judg 12:8, 12:10 should also be tagged there). For the Gerasenes,
+    decide whether to keep one record and pick a URI, or to follow
+    OpenBible's Matt vs Mark/Luke split. For the City of David, decide
+    whether to add a record (or an alias of Zion / Jerusalem) with a84f426,
+    and where those verses should live.
+  evidence: >-
+    GitHub issue #121 (Christian Pure, bible-places v1.2.0) comparison
+    against json/ at 317e1c2 and OpenBible.info articles a6f61d3, ab1a343,
+    afed46a, ada6b64, and a84f426.
+  checks: []
+  rule: null
+  found: { date: 2026-11-20, by: "GitHub issue #121 (Christian Pure, bible-places v1.2.0), verified", sha: 317e1c2 }
+  fixed: { date: null, sha: null }
+  github: 121
+  affects: [theographic-web]
+  notes: >-
+    Trogyllium and Bethlehem of Zebulun look like straightforward URI
+    additions (coordinates already sit on the right sites). The Gerasenes
+    split and the City of David article need a modeling decision.
