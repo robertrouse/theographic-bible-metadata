@@ -8,6 +8,10 @@ Found something that still looks wrong? [Open a data correction issue](https://g
 
 ## November 2026
 
+Fixed in Airtable on November 20. These changes reach `json/` and `CSV/` in the next export. GeoJSON is unchanged (DQ-0072 remains on hold).
+
+- **Places:** *On* (`on_908`) and its alias *Heliopolis* (`heliopolis_557`) had been given the OpenBible id for *City of Destruction* (`adca4b1`); *Destruction* (`destruction_301`) had On's id (`acd9137`) and Pleiades 727117 (Heliopolis). The OpenBible and Pleiades links now match the verses and OpenBible.info: On and Heliopolis have `acd9137` and Pleiades 727117 (Ain Shams); Destruction has `adca4b1` and no Pleiades (Isa 19:18 is only a 60% identification with Heliopolis). Displayed coordinates follow the formula (Pleiades else OpenBible). OpenBible lat/long were also updated from a stale point (30.108086, 31.33822) to OpenBible's current representative point (30.129444, 31.3075) (DQ-0084).
+
 Fixed in Airtable on November 18 and 19. Exported in [#117](https://github.com/robertrouse/theographic-bible-metadata/pull/117) (`0fc17ce`).
 
 - **People:** `simon_2750`, which had mixed Peter, Simon the Pharisee, and Judas Iscariot's father, was split (DQ-0080). New record `simon_2751` (*Simon the Pharisee*) is on the six Luke 7 verses that name him (7:36, 7:37, 7:39, 7:40, 7:43, 7:44). Peter (`peter_2745`) now has Mark 1:30, Luke 4:38 and Luke 5:3. `simon_2750`, retitled *Simon (father of Judas Iscariot)*, keeps the four John verses; John 6:71 and 13:26 now include "son of Simon" links. Acts 10:17's text link points at Simon the Tanner (`simon_2753`). `wife_of_simon_2943` is linked as Peter's partner; on November 19 Peter's own `partners` field was set to her as well, and Easton's Simon 4 `matchType`/`matchSlugs` were set to `person` / `simon_2751`.
