@@ -40,4 +40,11 @@ checks:
   - { record: recTkocSMI0NxpIrw, field: duration, equals: "147Y" }
 ```
 
-When an entry was found by a general rule, the `rule` field names it (for example `lifetime-matches-birth-death` or `predecessor-acyclic`). A future checker can then run those rules after each export and report only problems not already in the ledger.
+When an entry was found by a general rule, the `rule` field names it (for example `lifetime-matches-birth-death` or `predecessor-acyclic`).
+
+`check_export.py` runs a first set of those general rules against `json/` after each export lands on master (and on demand, via the [Export data quality checks](../.github/workflows/export-quality-checks.yml) workflow). It reports only problems whose records are not already referenced in `issues.yaml`, and it opens or updates a single GitHub issue. It does not open a pull request and does not fail the workflow when it finds problems. Run it locally with:
+
+```bash
+python3 data-quality/check_export.py --self-test
+python3 data-quality/check_export.py --sha $(git rev-parse --short HEAD)
+```

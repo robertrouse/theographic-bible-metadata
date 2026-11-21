@@ -1,0 +1,94 @@
+# Runs automated data-quality checks against the exported JSON after each
+# export lands on master. Opens or updates a single GitHub issue with new
+# findings (anything already in data-quality/issues.yaml is omitted).
+# This does not open a pull request and does not fail the workflow when
+# it finds problems.
+name: Export data quality checks
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - "json/people.json"
+      - "json/places.json"
+      - "json/events.json"
+      - "data-quality/issues.yaml"
+      - "data-quality/check_export.py"
+      - ".github/workflows/export-quality-checks.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: export-quality-checks
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4.2.2
+
+      - uses: actions/setup-python@v5.3.0
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install "pyyaml>=6"
+
+      - name: Run export checks
+        run: |
+          python3 data-quality/check_export.py --self-test
+          python3 data-quality/check_export.py \
+            --json-dir json \
+            --issues data-quality/issues.yaml \
+            --sha "${GITHUB_SHA}" \
+            --out dq-report.md
+
+      - name: Open or update the summary issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          TITLE="Automated data quality findings"
+          MARKER="<!-- theographic-export-quality-checks -->"
+          if ! grep -q "$MARKER" dq-report.md; then
+            echo "Report is missing the issue marker; refusing to post."
+            exit 1
+          fi
+          COUNT=$(grep -oE 'New findings: [0-9]+' dq-report.md | head -n 1 | grep -oE '[0-9]+')
+          ISSUE=$(gh issue list --state all --limit 50 \
+            --search 'in:title "Automated data quality findings"' \
+            --json number,title \
+            --jq '.[] | select(.title=="Automated data quality findings") | .number' \
+            | head -n 1)
+          if [ -n "$ISSUE" ]; then
+            gh issue edit "$ISSUE" --body-file dq-report.md
+            if [ "${COUNT:-1}" = "0" ]; then
+              gh issue close "$ISSUE" --comment "No new findings on ${GITHUB_SHA:0:7}." || true
+            else
+              gh issue reopen "$ISSUE" || true
+            fi
+            {
+              echo "Updated issue #$ISSUE (${COUNT:-?} finding(s))."
+              echo "Issue: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/issues/$ISSUE"
+            } >> "$GITHUB_STEP_SUMMARY"
+          else
+            if [ "${COUNT:-1}" = "0" ]; then
+              echo "No new findings and no existing issue; nothing to open." >> "$GITHUB_STEP_SUMMARY"
+            else
+              URL=$(gh issue create --title "$TITLE" --body-file dq-report.md)
+              echo "Opened $URL (${COUNT} finding(s))." >> "$GITHUB_STEP_SUMMARY"
+            fi
+          fi
+
+      - name: Summarize
+        run: |
+          {
+            echo '### Export data quality checks'
+            echo
+            sed -n '1,20p' dq-report.md
+          } >> "$GITHUB_STEP_SUMMARY"
