@@ -3656,3 +3656,152 @@
     Trogyllium and Bethlehem of Zebulun look like straightforward URI
     additions (coordinates already sit on the right sites). The Gerasenes
     split and the City of David article need a modeling decision.
+
+- id: DQ-0095
+  title: "sheba_1067 and seba_1037 share OpenBible a81ab85 and the Ethiopia pin; Josh 19:2 is tagged to the kingdom"
+  status: open
+  type: bad-link
+  severity: medium
+  table: places
+  records:
+    - { id: recPLjuDonDk53ED5, key: "sheba_1067" }
+    - { id: recaljrl2Vew430Ta, key: "seba_1037" }
+    - { id: rectrAkGtrZH5LMp8, key: "beersheba_170" }
+    - { id: recCRPTx3QEUbEDnD, key: "Josh.19.2" }
+  field: openBibleUri, latitude, longitude, verses
+  current: >-
+    sheba_1067 and seba_1037 are separate records, but both wear OpenBible
+    a81ab85 and both display at 9.022736, 38.746799 (Addis Ababa). Neither
+    has a Pleiades link. OpenBible has no Seba article: a81ab85 "Sheba 1"
+    folds Sheba, Seba, and Sabeans together (18 verses, including Isa 43:3).
+    Current OpenBible/Christian Pure coordinates for a81ab85 are 15.34833,
+    44.20639 (Sana'a / Yemen). Theographic GeoJSON already places both
+    "Sheba (Arabia)" and "Seba" at 15.348333, 44.206389, so Airtable and
+    GeoJSON disagree by about 920 km (also in the DQ-0031 / DQ-0072 class).
+    sheba_1067's 17 verses include Josh 19:2 (the Simeonite town, tagged
+    together with beersheba_170 and moladah_816) and omit Joel 3:8 and
+    Luke 11:31. seba_1037 correctly has Ps 72:10 and Isa 43:3, matching
+    published TIPNR. OpenBible ae44746 "Sheba 2" is Josh 19:2 only, pinned
+    at Beersheba.
+  proposed: >-
+    Give Seba its own identity in the OpenBible URI (or leave the URI
+    empty if OpenBible never splits it) and decide the display coordinates
+    independently: current OpenBible/CP and GeoJSON use Yemen (15.34833,
+    44.20639); Airtable and the published TIPNR map pin use Ethiopia
+    (9.022736, 38.746799), though TIPNR's own article text locates Sheba
+    in Yemen. Stop pointing Josh 19:2 at the kingdom: either retag it to
+    beersheba_170 only, or add a town record for OpenBible ae44746.
+    Related verse tags are in DQ-0096.
+  evidence: >-
+    STEPBible-Data issue #81 comment by David Instone-Brewer (21 Nov 2026),
+    https://github.com/STEPBible/STEPBible-Data/issues/81#issuecomment-7061391663,
+    verified against json/ and geo/bible-places.geojson at a8a7a94, OpenBible
+    ancient.jsonl (a81ab85, ae44746), published TIPNR (Sheba@1Ki.10.1-Luk,
+    Seba@Psa.72.10-Isa), and Ps 72:10, which names Sheba and Seba in one
+    verse. Isa 43:3 is already correctly on seba_1037 in Theographic and
+    TIPNR; OpenBible still puts it on Sheba.
+  checks: []
+  rule: null
+  found: { date: 2026-11-21, by: "STEPBible-Data issue #81 comment (David Instone-Brewer), verified", sha: a8a7a94 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [theographic-web]
+  notes: >-
+    Theographic already keeps two records, so this is not a simple OpenBible
+    merge. The Ethiopia pin 9.022736, 38.746799 is shared by Theographic
+    Airtable, the published TIPNR map link, and ACAI's vizbible and obi
+    fields (ACAI alternate_sources.vizbible points at recPLjuDonDk53ED5
+    and recaljrl2Vew430Ta). That agreement is not independent confirmation.
+    TIPNR's prose says Yemen, which agrees with current OpenBible, Christian
+    Pure, and Theographic GeoJSON. Pleiades has no link on either record.
+    New or retagged records still need review before any write. The
+    Airtable-vs-GeoJSON coordinate gap is also in scope of DQ-0031 and
+    DQ-0072 (on hold); this entry is for the identity, URI, and Josh 19:2
+    problems.
+
+- id: DQ-0096
+  title: "Queen of the South in Matt 12:42 and Luke 11:31 is tagged to south_1110; Joel 3:8 Sabeans is untagged"
+  status: open
+  type: bad-link
+  severity: low
+  table: verses
+  records:
+    - { id: recfyTjcgiRUOBHoS, key: "Matt.12.42" }
+    - { id: recDdrqaCpvudCmnS, key: "Luke.11.31" }
+    - { id: recnHRmJkeObftV4K, key: "Joel.3.8" }
+    - { id: recItoooL8TKSOT5p, key: "south_1110" }
+    - { id: recPLjuDonDk53ED5, key: "sheba_1067" }
+  field: places, verses
+  current: >-
+    Matt 12:42 and Luke 11:31 ("the queen of the South") are tagged to
+    south_1110, an alias of negeb_885 (Negeb), OpenBible a1cb244, at 30.3,
+    34.2. south_1110 also has Zech 7:7, where "the south" is likely the
+    Negeb. sheba_1067 does not include those Gospel verses. Joel 3:8
+    "Sabeans" has no place or group tag. OpenBible a81ab85 includes Joel
+    3:8; published TIPNR assigns Luke 11:31 to Sheba (Sheba@1Ki.10.1-Luk)
+    and does not list Joel 3:8 on either Sheba or Seba.
+  proposed: >-
+    Retag Matt 12:42 and Luke 11:31 from south_1110 to sheba_1067. Leave
+    Zech 7:7 on south_1110 if "the south" there is the Negeb. Decide
+    whether Joel 3:8 "Sabeans" should be tagged to sheba_1067, to a people
+    group, or left untagged (related to DQ-0024 collective tags).
+  evidence: >-
+    Found while verifying STEPBible-Data issue #81 comment by David
+    Instone-Brewer (21 Nov 2026),
+    https://github.com/STEPBible/STEPBible-Data/issues/81#issuecomment-7061391663,
+    against json/ at a8a7a94 and published TIPNR. The Gospel verses are
+    about the Queen of Sheba (1 Kgs 10), not the Negeb.
+  checks: []
+  rule: null
+  found: { date: 2026-11-21, by: "STEPBible-Data issue #81 comment (David Instone-Brewer), verified", sha: a8a7a94 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [theographic-web]
+  notes: >-
+    Pair with DQ-0095 (Sheba/Seba identity and coordinates). The queen-of-the-South
+    retag does not depend on the Ethiopia-vs-Yemen coordinate decision.
+
+- id: DQ-0097
+  title: "No Lair/Lahiru place for 2 Kgs 19:13 and Isa 37:13, where the KJV reads \"the city of Sepharvaim\""
+  status: needs-research
+  type: missing-record
+  severity: low
+  table: places
+  records:
+    - { id: recvyjBlyKvcsXhY1, key: "sepharvaim_1050" }
+    - { id: recpeMhD0rbxCC3Wn, key: "2Kgs.19.13" }
+    - { id: recqnMVbecbNGOpfn, key: "Isa.37.13" }
+  field: null
+  current: >-
+    There is no Theographic place record for Lair, Lahir, or Lahiru.
+    2 Kgs 19:13 and Isa 37:13 are tagged to hamath_516, arpad_96,
+    sepharvaim_1050, hena_560, and ivvah_605, and the markdown follows
+    the KJV: "the king of the city of Sepharvaim." OpenBible ancient.jsonl
+    and official ACAI have no Lair/Lahir article. Published TIPNR has no
+    Lair token in the copy on disk.
+  proposed: >-
+    Decide whether to add a Lair/Lahiru place for 2 Kgs 19:13 and Isa 37:13
+    (Assyrian Lahiru in northeastern Babylonia, often identified with Eski
+    Kifri in the Diyala valley) or to document a decision to follow the
+    KJV common-noun reading and leave the verses on Sepharvaim. A new
+    record needs people, places, and verses, and review, before any write.
+    Coordinates would need independent research; they are not in OpenBible.
+  evidence: >-
+    STEPBible-Data issue #81 comment by David Instone-Brewer (21 Nov 2026),
+    https://github.com/STEPBible/STEPBible-Data/issues/81#issuecomment-7061391663,
+    which cites "Lair" as a place older Bibles translated as a common word
+    and as a Mesopotamian capital. In 2 Kgs 19:13 and Isa 37:13 the Hebrew
+    לָעִיר (laʿir) is "of the city" in the KJV and ESV, but Revised English
+    Bible ("Lahir"), New Jerusalem Bible, NJPS Tanakh, and Bible en français
+    courant take it as the proper name Lair/Lahir, the Assyrian city Lahiru.
+    UBS handbooks on 2 Kings and Isaiah record both options.
+  checks: []
+  rule: null
+  found: { date: 2026-11-21, by: "STEPBible-Data issue #81 comment (David Instone-Brewer), verified", sha: a8a7a94 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [theographic-web]
+  notes: >-
+    David said "a few places" are hidden this way; Lair is the only one he
+    named. Further examples, if any, would be in the unpublished TIPNR he
+    offered to share. New records stay in review until approved.
