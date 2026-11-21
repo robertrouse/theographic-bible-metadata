@@ -722,9 +722,9 @@
     - { id: recqWpJgCvTnPl0Mu, key: "Exod.1.7" }
   field: people, peopleGroups, mdText, richText
   current: >-
-    Collective phrases are tagged only to the ancestor person. Exod.1.7 reads "children of [Israel](/person/israel_682)" with no group link. Inline, 728 "Israel" links point to israel_682 (638 "children of Israel", 22 other group phrases, 68 bare); similar group phrases for Judah 136, Canaan 73, Benjamin 72, Manasseh 61, Reuben 44, Gad 44, Moab 43, Levi 42, Ephraim 35, Esau/Edom 34, Dan 31. Tribe of Judah has 278 members and 1 verse; Tribe of Levi 180 members, 0 verses; Nation of Israel 12 verses, 0 members.
+    Collective phrases are tagged only to the ancestor person. Exod.1.7 reads "children of [Israel](/person/israel_682)" with no group link. Inline, 728 "Israel" links point to israel_682 (638 "children of Israel", 22 other group phrases, 68 bare); similar group phrases for Judah 136, Canaan 73, Benjamin 72, Manasseh 61, Reuben 44, Gad 44, Moab 43, Levi 42, Ephraim 35, Esau/Edom 34, Dan 31. Tribe of Judah has 278 members and 1 verse; Tribe of Levi 180 members, 0 verses; Nation of Israel 12 verses, 0 members. Scope extended 2026-11-21: 2,032 further verses use "Israel" (1,530) or "Judah" (502) for the nation or kingdom ("king of Judah", "all Israel", "cities of Judah", 2 Chr 13:13 "they were before Judah") and carry no person, place or group link at all. For example, 2 Chr 19:5 "the fenced cities of Judah" and 2 Chr 30:24 "Hezekiah king of Judah" have no Judah link.
   proposed: >-
-    Keep the person tag (the verse does name the ancestor) and ADD the appropriate peopleGroups record where the group is the true subject, in both the arrays and the inline markdown. Review occurrences; no bulk fix.
+    Keep the person tag (the verse does name the ancestor) and ADD the appropriate peopleGroups record where the group is the true subject, in both the arrays and the inline markdown. Review occurrences; no bulk fix. For the 2,032 untagged nation/kingdom uses, decide the target first (place judah-southern_1281 / kingdom of Israel place, a peopleGroups record, or the ancestor person under the keep-the-person rule), then sample by book before any bulk pass.
   evidence: >-
     Exod 1:7 is about the multiplying people, while still naming Israel. Prov 25:1 already links to Tribe of Judah, so group verse links are supported. GitHub JSON and Airtable agree on the counts.
   checks: []
@@ -734,7 +734,7 @@
   github: null
   affects: [consumer-timeline]
   notes: >-
-    Reported externally, verified by us. Jacob has a single record (israel_682), so both "Jacob" and "Israel" resolve there. Depends on DQ-0025 (inline group link type).
+    Reported externally, verified by us. Jacob has a single record (israel_682), so both "Jacob" and "Israel" resolve there. Depends on DQ-0025 (inline group link type). 2026-11-21: the TIPNR people cross-check (STEPBible TIPNR, 24 Oct 2026 file; 3,061 TIPNR persons aligned one-to-one per verse to Theographic, 2,968 mutual pairs) found that TIPNR assigns these nation/kingdom uses to the patriarch records Israel@Gen.25.26 and Judah@Gen.29.35, while Theographic leaves 1,530 Israel and 502 Judah occurrences untagged. Robert folded that finding into this item rather than opening a new one. Circularity caveat: TIPNR's person-level choice is a modelling decision, not independent evidence of the right target. The verse list is in the cross-check's "TIPNR reference not in Theographic" table (category "name in KJV text, no tag at all", israel_682 and judah_1751 rows). Effort for the extension: Large.
 - id: DQ-0025
   title: Inline markdown has no group link type
   status: open
@@ -3805,3 +3805,624 @@
     David said "a few places" are hidden this way; Lair is the only one he
     named. Further examples, if any, would be in the unpublished TIPNR he
     offered to share. New records stay in review until approved.
+
+- id: DQ-0098
+  title: "Twenty people have the wrong gender (Naboth, both Micahs, Puah, Zelophehad's daughters, Shimeath, and others)"
+  status: open
+  type: wrong-value
+  severity: medium
+  table: people
+  records:
+    - { id: recZzpkHckkrMHT0h, key: "naboth_2127 (Female → Male)" }
+    - { id: rec1End7yLK1mCvu6, key: "micah_2053, the prophet (Female → Male)" }
+    - { id: recY1VRV4iLUcCvU1, key: "micah_2049, Judg 17-18 (Female → Male)" }
+    - { id: rec0H7E1EvEF1hJyF, key: "nebajoth_2164 (Female → Male)" }
+    - { id: reciFr5Nog65vd2iV, key: "ephah_1197, son of Midian (Female → Male)" }
+    - { id: recweFGNhPLxvydXl, key: "ephah_1199, son of Jahdai (Female → Male)" }
+    - { id: rec1KVM1VQ8v6JCS9, key: "athaliah_360, 1 Chr 8:26 (Female → Male)" }
+    - { id: recTu0WG5ruAIjVny, key: "chenaanah_933, 1 Chr 7:10 (Female → Male)" }
+    - { id: recpQW1e4vKiQxpfB, key: "shelomith_2607, 1 Chr 23:9 (Female → Male)" }
+    - { id: rec3zcTcmi6snKVYc, key: "joelah_1661, 1 Chr 12:7 (Female → Male)" }
+    - { id: rec61lkYckpw72W2T, key: "puah_2372, the midwife (Male → Female)" }
+    - { id: recKXvmtz4wABzpxH, key: "hoglah_1548 (Male → Female)" }
+    - { id: rect960bEp1eeQ9oy, key: "mahlah_1895 (Male → Female)" }
+    - { id: recrIL0i8gtzWeNeT, key: "kezia_1783 (Male → Female)" }
+    - { id: recTm23wkG8napV5L, key: "iscah_618 (Male → Female)" }
+    - { id: reci8SZXukI5B2duF, key: "shimeath_2683 (Male → Female)" }
+    - { id: rectD6CkMVptyimaA, key: "zabad_1746 (father shimeath_2683 → mother)" }
+    - { id: recKQDlwcosuecuSJ, key: "nekoda_2175 (Female → Male, likely)" }
+    - { id: recJPIbA9Wz8iLORg, key: "nekoda_2176 (Female → Male, likely)" }
+    - { id: rec1E9nPHZrHNdqxY, key: "sophereth_2771 (Female → Male, likely)" }
+    - { id: recEpJ5lnOu8GMLvr, key: "mispereth_2099 (Female → Male, likely)" }
+  field: gender (and zabad_1746 father/mother)
+  current: >-
+    16 records are certainly wrong and 4 likely wrong. Male men stored as
+    Female: naboth_2127, micah_2053 (the prophet), micah_2049 ("the man Micah",
+    Judg 17:5), nebajoth_2164, ephah_1197, ephah_1199, athaliah_360 (1 Chr 8:26),
+    chenaanah_933, shelomith_2607 (1 Chr 23:9), joelah_1661. Women stored as
+    Male: puah_2372, hoglah_1548, mahlah_1895, kezia_1783, iscah_618,
+    shimeath_2683. shimeath_2683 is also zabad_1746's father. Likely wrong:
+    nekoda_2175, nekoda_2176, sophereth_2771 and mispereth_2099 are Female, but
+    each is the head of a returning family ("children of Nekoda", Ezra 2:48,
+    2:60; Neh 7:7, 7:57). These are Hebrew names with feminine endings.
+  proposed: >-
+    Set gender to the value in brackets for each record. Move shimeath_2683
+    from zabad_1746's father to his mother. For the four family heads, confirm
+    against a dictionary before changing them.
+  evidence: >-
+    KJV: 1 Kgs 21:1 "Naboth the Jezreelite"; Mic 1:1; Judg 17:5 "the man Micah";
+    Gen 25:13 "Nebajoth" is Ishmael's firstborn son; Gen 25:4 "the sons of Midian; Ephah";
+    1 Chr 2:47 "the sons of Jahdai… Ephah"; 1 Chr 8:27 "These were the sons of
+    Jeroham" (Athaliah, v. 26); 1 Chr 7:10; 1 Chr 23:9 "sons of Shimei;
+    Shelomith"; 1 Chr 12:7; Exod 1:15 "the Hebrew midwives… Puah"; Num 26:33
+    "the daughters of Zelophehad were Mahlah… Hoglah"; Job 42:14 "the name of
+    the second, Kezia" (his daughters); Gen 11:29 "the father of Iscah";
+    2 Chr 24:26 "Zabad the son of Shimeath an Ammonitess". Easton agrees for
+    Naboth, Nebaioth, Puah, Hoglah, Kezia and Iscah.
+  checks:
+    - { record: recZzpkHckkrMHT0h, field: gender, equals: "Male" }
+    - { record: rec1End7yLK1mCvu6, field: gender, equals: "Male" }
+    - { record: recY1VRV4iLUcCvU1, field: gender, equals: "Male" }
+    - { record: rec0H7E1EvEF1hJyF, field: gender, equals: "Male" }
+    - { record: reciFr5Nog65vd2iV, field: gender, equals: "Male" }
+    - { record: recweFGNhPLxvydXl, field: gender, equals: "Male" }
+    - { record: rec1KVM1VQ8v6JCS9, field: gender, equals: "Male" }
+    - { record: recTu0WG5ruAIjVny, field: gender, equals: "Male" }
+    - { record: recpQW1e4vKiQxpfB, field: gender, equals: "Male" }
+    - { record: rec3zcTcmi6snKVYc, field: gender, equals: "Male" }
+    - { record: rec61lkYckpw72W2T, field: gender, equals: "Female" }
+    - { record: recKXvmtz4wABzpxH, field: gender, equals: "Female" }
+    - { record: rect960bEp1eeQ9oy, field: gender, equals: "Female" }
+    - { record: recrIL0i8gtzWeNeT, field: gender, equals: "Female" }
+    - { record: recTm23wkG8napV5L, field: gender, equals: "Female" }
+    - { record: reci8SZXukI5B2duF, field: gender, equals: "Female" }
+    - { record: rectD6CkMVptyimaA, field: father, not_contains: reci8SZXukI5B2duF }
+    - { record: rectD6CkMVptyimaA, field: mother, contains: reci8SZXukI5B2duF }
+  rule: null
+  found: { date: 2026-11-21, by: "TIPNR people cross-check (STEPBible TIPNR, 24 Oct 2026 file)", sha: a8a7a94 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [theographic-web]
+  notes: >-
+    How found: in the TIPNR cross-check of 21 Nov 2026, I parsed STEPBible
+    TIPNR (24 Oct 2026 file, STEPBible-Data commit be4191f0) into 3,061 person
+    records. Each TIPNR reference was aligned, one-to-one per verse, to the
+    Theographic person tagged in that verse whose name was compatible. That
+    gave 2,968 mutual pairs, covering 97.4% of TIPNR persons and 97.9% of
+    Theographic people. Rules then sorted the mismatches into patterns, and
+    each example was checked by hand. The gender pattern has 25 mismatched
+    pairs, listed in the cross-check's gender table with hand-checked
+    verdicts. Of the other five: TIPNR is wrong on Lapidoth (Judg 4:4 "the
+    wife of Lapidoth", so Theographic's Male stands); Nahash (2 Sam 17:25),
+    Jahdai (1 Chr 2:47) and Maachah (Gen 22:24) are interpretive; Birzavith
+    may be a town. None of those five are in this item. Circularity caveat:
+    TIPNR, ACAI and DigitalManna share sources and may copy Theographic, so
+    agreement with them isn't independent consensus. This item rests on the
+    KJV text and Easton, not on TIPNR. Effort: Small.
+
+- id: DQ-0099
+  title: "pharaoh_2331 (Pharaoh of the Exodus) is tagged on Abraham's, Joseph's, Solomon's and Hophra's Pharaohs"
+  status: open
+  type: bad-link
+  severity: medium
+  table: verses
+  records:
+    - { id: recOdl9oB4UWmbiqP, key: "pharaoh_2331 Pharaoh (of the Exodus)" }
+    - { id: recT5VXFTSilSlzVX, key: "pharaoh_2329 Pharaoh (of Joseph)" }
+    - { id: recM8puJim5xv2bHw, key: "pharaoh_2332 Pharaoh (Solomon's father-in-law)" }
+    - { id: recwqt4vhH8t9M6lf, key: "pharaoh_2336 Pharaoh-hophra" }
+    - { id: reckOPHrTjYsR5K9m, key: "Gen.12.15" }
+    - { id: recncXwFiqAMCclQR, key: "Gen.37.36" }
+    - { id: recFsglYDCEgHmYiX, key: "Gen.40.7" }
+    - { id: recNf2FRcBjL0FyWG, key: "Gen.40.11" }
+    - { id: recVxryT2ihz2x7Pw, key: "Gen.40.13" }
+    - { id: recdmZHT2cbLaKVXi, key: "Gen.40.20" }
+    - { id: recPNACeOTHv7Votn, key: "Gen.40.21" }
+    - { id: rec9b1scrKw7M23TS, key: "Gen.47.14" }
+    - { id: recRDtIDgA2x9dEQv, key: "Gen.47.20" }
+    - { id: recNH43qBJAMukUix, key: "Gen.47.25" }
+    - { id: rectywqXyYXY2Nz2o, key: "Gen.47.26" }
+    - { id: recbOfBYLVD1ZuvuA, key: "1Kgs.3.1" }
+    - { id: recKlWaiagjhEZKs3, key: "1Kgs.7.8" }
+    - { id: rec0YoIOoKKdlHSTE, key: "1Kgs.9.24" }
+    - { id: reczUTT2SEEfrmcP8, key: "1Kgs.11.20" }
+    - { id: recgZAXV8h98nmjqG, key: "Song.1.9" }
+    - { id: recNJffnonNiZ94CQ, key: "Jer.43.9" }
+    - { id: recl0qO8CiwmOGGTD, key: "Ezek.30.24" }
+  field: people, mdText, richText
+  current: >-
+    pharaoh_2331 has 135 verses: 101 in Exodus, plus 11 in Genesis, 4 in
+    1 Kings, and Song 1:9, Jer 43:9 and Ezek 30:24. The Genesis verses are
+    Gen 12:15 (Abraham's Pharaoh) and Gen 37:36, 40:7, 40:11, 40:13, 40:20,
+    40:21, 47:14, 47:20, 47:25, 47:26 (the Joseph narrative), even though
+    pharaoh_2329 "Pharaoh (of Joseph)" exists and holds the rest of Gen 39-50.
+    1 Kgs 3:1, 7:8 and 9:24 are Solomon's father-in-law, and 1 Kgs 11:20 is
+    Hadad's Pharaoh. Jer 43:9 and Ezek 30:24 are the Hophra-era Pharaoh. Most
+    of these tags are on the possessive "Pharaoh’s".
+  proposed: >-
+    Retag the Joseph-era verses to pharaoh_2329, and 1 Kgs 3:1, 7:8 and 9:24
+    to pharaoh_2332. Review 1 Kgs 11:20 (Hadad's Pharaoh, perhaps the same
+    king) and Song 1:9 (a generic simile). Retag Jer 43:9 and Ezek 30:24 to
+    pharaoh_2336. For Gen 12:15, either add an Abraham-era Pharaoh record
+    (which needs review before any write) or document why it stays. Change
+    the people arrays, mdText and richText in one edit. Afterwards,
+    pharaoh_2331 should keep only Exodus verses and later references back to
+    the Exodus (Deut 6:21-22, 7:8, 7:18, 11:3, 29:2, 34:11; 1 Sam 2:27,
+    6:6; 2 Kgs 17:7; Neh 9:10; Ps 135:9, 136:15; Rom 9:17). Acts 7:21 and
+    Heb 11:24 ("Pharaoh’s daughter" who adopted Moses) can stay with it.
+  evidence: >-
+    KJV context: Gen 12:10-20 (Abram in Egypt); Gen 37:36 and 40-47 (Joseph
+    and "Pharaoh’s officers", "Pharaoh’s cup", "Pharaoh’s birthday"); 1 Kgs 3:1
+    "Solomon made affinity with Pharaoh king of Egypt, and took Pharaoh’s
+    daughter"; 1 Kgs 7:8 and 9:24 (Pharaoh’s daughter, Solomon's wife);
+    Jer 43:9 (Tahpanhes, after 586 BC); Ezek 30:21-24 ("Pharaoh king of Egypt"
+    in 587 BC). In TIPNR, Gen 37:36 is Pharaoh@Gen.37.36, 1 Kgs 3:1 is
+    Pharaoh@1Ki.3.1, and Ezek 30:24 is Hophra. Each of those is a different
+    person from Pharaoh@Exo.3.10.
+  checks:
+    - { record: recncXwFiqAMCclQR, field: people, not_contains: recOdl9oB4UWmbiqP }
+    - { record: recFsglYDCEgHmYiX, field: people, not_contains: recOdl9oB4UWmbiqP }
+    - { record: recFsglYDCEgHmYiX, field: people, contains: recT5VXFTSilSlzVX }
+    - { record: rec9b1scrKw7M23TS, field: people, not_contains: recOdl9oB4UWmbiqP }
+    - { record: recbOfBYLVD1ZuvuA, field: people, contains: recM8puJim5xv2bHw }
+    - { record: recKlWaiagjhEZKs3, field: people, not_contains: recOdl9oB4UWmbiqP }
+    - { record: recNJffnonNiZ94CQ, field: people, contains: recwqt4vhH8t9M6lf }
+    - { record: recl0qO8CiwmOGGTD, field: people, contains: recwqt4vhH8t9M6lf }
+  rule: null
+  found: { date: 2026-11-21, by: "TIPNR people cross-check (STEPBible TIPNR, 24 Oct 2026 file)", sha: a8a7a94 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [theographic-web]
+  notes: >-
+    Leftover from DQ-0060 (fixed, so not reopened). DQ-0060 retagged
+    Jer 37:5, 37:7 and 37:11 to pharaoh_2336, and its notes left Jer 43:9 and
+    Ezek 30:24 on pharaoh_2331 "for a separate pass". This item takes those
+    two verses plus the Genesis and 1 Kings verses. How found: the TIPNR
+    cross-check described in DQ-0098 (3,061 TIPNR persons aligned to
+    Theographic one-to-one per verse; 2,968 mutual pairs). These verses fell
+    into the "same verse, different person" pattern: 87 conflicts, about 40
+    verified as Theographic errors, listed in the cross-check's
+    attribution-conflict table with hand-checked verdicts. Circularity caveat:
+    TIPNR may share sources with Theographic or copy it. The retargets here
+    rest on KJV narrative context, not on TIPNR's assignment. Effort:
+    Small–Medium.
+
+- id: DQ-0100
+  title: "Namesakes tagged to the wrong record: both kings Joash, both Jehorams, Joseph in Luke 4:22, Zedekiah in Jer 39:7, and about 20 more"
+  status: open
+  type: bad-link
+  severity: medium
+  table: verses
+  records:
+    - { id: recTYEU7mN0hu4VqL, key: "2Kgs.13.10 (Joash king of Judah on joash_1633)" }
+    - { id: recKR7HGMJfvqCYDO, key: "2Kgs.14.1" }
+    - { id: recXPWLjsL1rVOsxp, key: "2Kgs.14.13" }
+    - { id: recWvlRKrm2PFsWWg, key: "2Kgs.14.17" }
+    - { id: rec090cKewy9naU2g, key: "2Kgs.14.23" }
+    - { id: recqkycWhpaVAiPZr, key: "2Chr.25.23" }
+    - { id: rec0t73c2041uZyKa, key: "2Chr.25.25" }
+    - { id: rec7Y6ZvzW5JLWU7R, key: "2Kgs.1.17 (Jehoram of Judah on joram_804)" }
+    - { id: recNFF5vGpEJfcT21, key: "2Kgs.8.16" }
+    - { id: rec4tfN06JVK49Lh1, key: "2Kgs.8.25" }
+    - { id: recKenxV91eEXsnW7, key: "2Kgs.8.29" }
+    - { id: recU4P5SfBO686Bpt, key: "2Chr.22.6" }
+    - { id: rec2PE75wbxKSTPUJ, key: "Luke.4.22" }
+    - { id: rec9Swe2chqgPVcXx, key: "Jer.39.7" }
+    - { id: rec4LWTHOpSOFwbgO, key: "Jer.38.26" }
+    - { id: recgEcSGvp3tKWkpj, key: "Judg.18.18" }
+    - { id: recJlqtJ03Vtfd8lS, key: "Judg.18.31" }
+    - { id: recDZdCSGBUlRMqxB, key: "Judg.11.2" }
+    - { id: rec8fnZ5pNR5VxUM0, key: "1Sam.30.7" }
+    - { id: rec8nPoQLkkqPQJvk, key: "Isa.36.3" }
+    - { id: recvopfVMVH4S6jaN, key: "1Chr.2.46" }
+    - { id: recjVVwokJQAj2bLZ, key: "1Chr.2.48" }
+    - { id: recEpHvN46LYgCtnu, key: "Acts.1.13" }
+    - { id: recwiSOSYHkKSLUoI, key: "Acts.10.32" }
+    - { id: recJjz47GkRVrS2SH, key: "Luke.6.16" }
+    - { id: rect7T83ncSoi4zh6, key: "Jer.38.1" }
+    - { id: reckYRzhWYIvWCaND, key: "Heb.4.8" }
+  field: people, mdText, richText
+  current: >-
+    About 30 verified verses tag a namesake. Examples (current → suggested):
+    2 Kgs 13:10 "Joash king of Judah" → joash_1633 (Jehoash of Israel), should
+    be joash_1632. The same happens in 2 Kgs 14:1, 14:13, 14:17, 14:23 and
+    2 Chr 25:23, 25:25: wherever both kings are named, every Joash/Jehoash in
+    the verse goes to joash_1633. 2 Kgs 8:16 "Jehoram the son of Jehoshaphat
+    king of Judah" → joram_804 (Israel), should be jehoram_803; also 2 Kgs
+    1:17, 8:25, 8:29 and 2 Chr 22:6. Luke 4:22 "Joseph’s son" → joseph_1710
+    (son of Jacob), should be joseph_1715. Jer 39:7 "Zedekiah’s eyes" →
+    zedekiah_3029 (son of Chenaanah), should be zedekiah_1950 (the king).
+    Jer 38:26 "Jonathan’s house" → jonathan_1692 (Saul's son), should be
+    jonathan_1701 (the scribe). Judg 18:18, 18:31 "Micah’s house" →
+    micah_2055, should be micah_2049. Judg 11:2 "Gilead’s wife" → gilead_1317,
+    should be gilead_1318. 1 Sam 30:7 "Abiathar… Ahimelech’s son" →
+    ahimelech_149, should be ahimelech_126. Isa 36:3 "Hilkiah’s son… Asaph’s
+    son" → hilkiah_1524 / asaph_330, should be hilkiah_1523 / asaph_329.
+    1 Chr 2:46, 2:48 "Caleb’s concubine" → caleb_537, should be caleb_538.
+    Acts 1:13 first "James" → james_718, should be james_717. Acts 10:32
+    "Simon, whose surname is Peter" → simon_2753 (the tanner), should be
+    peter_2745. Luke 6:16 "Judas Iscariot": the word Judas → lebbaeus_1815,
+    should be judas_1760. Jer 38:1 "Gedaliah the son of Pashur… Pashur the son
+    of Malchiah": both Pashurs → pashur_2287. Heb 4:8 "if Jesus had given
+    them rest" → jesus_905, should be joshua_1727.
+  proposed: >-
+    Fix the verified verses in the people arrays, mdText and richText
+    together. Then run two rule-based reviews, in batches with KJV context:
+    (a) verses where one record is tagged two or more times for a name that
+    two or more records share (39 flagged; 15 confirmed so far); (b) all 170
+    possessive tags ("X’s") on names that two or more records share. Possessives
+    lean toward the most-used record of a name: 86% of them, against 78% of
+    plain tags.
+  evidence: >-
+    The KJV text settles each case. 2 Kgs 13:10 names "Joash king of Judah"
+    and "Jehoash the son of Jehoahaz… over Israel". 2 Kgs 8:16 names "Joram
+    the son of Ahab king of Israel" and "Jehoram the son of Jehoshaphat king
+    of Judah". In Luke 4:22 the speakers mean Mary's husband. Jer 39:4-7 is
+    about King Zedekiah. Jer 37:15, 20 show Jonathan the scribe's house as a
+    prison. Judg 17-18 is Micah of Mount Ephraim. Judg 11:1-2 is Jephthah's
+    father Gilead. 1 Sam 22:20 calls Abiathar "son of Ahimelech the son of
+    Ahitub". 2 Kgs 18:18, the parallel to Isa 36:3, is already tagged
+    hilkiah_1523 / asaph_329. 1 Chr 2:42-50 is Caleb son of Hezron. Acts 1:13
+    later names "James the son of Alphaeus". Acts 7:45 is already tagged
+    joshua_1727 for the same KJV usage as Heb 4:8.
+  checks:
+    - { record: recTYEU7mN0hu4VqL, field: people, contains: recA6SoUZemkcNXbN }
+    - { record: recNFF5vGpEJfcT21, field: people, contains: recsyU2HqpyE9PeTo }
+    - { record: rec2PE75wbxKSTPUJ, field: people, not_contains: rechuDYJoK32gmrME }
+    - { record: rec2PE75wbxKSTPUJ, field: people, contains: recz2xTRGz9XZD6dT }
+    - { record: rec9Swe2chqgPVcXx, field: people, not_contains: recCrIW9D4Qzh5zff }
+    - { record: rec9Swe2chqgPVcXx, field: people, contains: rec5naIzF29A8wJIP }
+  rule: null
+  found: { date: 2026-11-21, by: "TIPNR people cross-check (STEPBible TIPNR, 24 Oct 2026 file)", sha: a8a7a94 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [theographic-web]
+  notes: >-
+    How found: the TIPNR cross-check described in DQ-0098, using two of its
+    tables. The attribution-conflict table has 87 rows (same verse and name,
+    different person) with hand-checked verdicts. The same-verse-namesake
+    table has 39 flagged verses where one record holds every tag for a name
+    that TIPNR splits between two people; it also has verdicts. Not in scope
+    because they're interpretive or textual: James "the less" (Matt 27:56
+    etc.), Cleophas/Alphaeus, Bedan (1 Sam 12:11), Jer 27:1
+    (Jehoiakim/Zedekiah), and Judg 18:30 (Manasseh/Moses). Theographic follows
+    the KJV in the last two. Related: the Pharaoh records are in DQ-0099
+    (leftover from DQ-0060). The simon_2750 split is DQ-0080 (fixed); Acts
+    10:32 is a separate Simon. Circularity caveat: TIPNR may share
+    identifications with Theographic. Each fix here rests on the KJV text.
+    Effort: Medium.
+
+- id: DQ-0101
+  title: "Named people left untagged: Saul in 1 Chronicles, Abednego in Daniel, s’ possessives, and KJV spelling variants (~120 verses)"
+  status: open
+  type: missing-link
+  severity: medium
+  table: verses
+  records:
+    - { id: rec08cmOeb7J4Hf7f, key: "1Chr.10.2 (Saul untagged; one of 57)" }
+    - { id: recp0TI6GHafD49xA, key: "Dan.3.12 (Abednego untagged; one of 14)" }
+    - { id: receh1lrzVMrZ7eMt, key: "Exod.18.2 (Moses’ untagged; one of 20 s’ possessives)" }
+    - { id: recMVinINqReqZ4zb, key: "2Kgs.15.29 (Tiglathpileser untagged)" }
+    - { id: recQdMKhmYMMovI8a, key: "Rom.9.10 (Rebecca untagged)" }
+    - { id: rechGo1QXxcJAqRqI, key: "Ezra.2.32 (Harim untagged)" }
+    - { id: rec0sxxVFhkve9nju, key: "Neh.7.35 (Harim untagged)" }
+    - { id: rec8W4ddbPMwkhiOQ, key: "azariah_545 (alsoCalled Abed-nego)" }
+    - { id: recjMT68aIzFLh6cQ, key: "saul_2478" }
+  field: people, mdText, richText, alsoCalled
+  current: >-
+    About 120 verses name a person in the KJV with no tag for that person.
+    (1) Saul is untagged in 57 verses, e.g. 1 Chr 10:2 "followed hard after
+    Saul… the sons of Saul", where Jonathan, Abinadab and Malchishua are
+    tagged but Saul isn't. Others include 1 Chr 10:3-13, 11:2, 12:1, 12:19,
+    13:3, 15:29, 26:28, 8:33, 9:39 and 2 Sam 12:7, 16:5, 16:8, 19:17.
+    (2) "Abednego" is untagged in all 14 verses (Dan 1:7, 2:49, 3:12-30), even
+    though azariah_545 has alsoCalled "Abed-nego". (3) Possessives ending in
+    s’ are mostly untagged: 20 untagged against 16 tagged, while ’s
+    possessives are 452 tagged against 5 untagged. Examples: Moses’ (Exod
+    17:12, 18:2 twice, 18:12, 18:14, 18:17, 32:19; Matt 23:2; John 9:28;
+    Heb 10:28; Judg 1:16); Herodias’ (Matt 14:3, Mark 6:17); Phinehas’ (1 Sam
+    4:19); Artaxerxes’ (Ezra 4:23); Ahasuerus’ (Esth 8:10); Augustus’ (Acts
+    27:1). (4) KJV spelling variants are missed: Tiglathpileser (2 Kgs 15:29,
+    16:7, 16:10), Berodachbaladan (2 Kgs 20:12), Eshbaal (1 Chr 8:33, 9:39),
+    Rebecca (Rom 9:10), Nepthalim (Rev 7:6), Juda (Luke 3:33), Shimeam (1 Chr
+    9:38), Festus (Acts 25:23). (5) "The children of Harim" is untagged at
+    Ezra 2:32 and Neh 7:35.
+  proposed: >-
+    Add the missing person tags to the people arrays, mdText and richText:
+    Saul → saul_2478, Abednego → azariah_545, each s’ possessive → its
+    person, each spelling variant → the existing record. Pick the right Harim
+    record, or add one under DQ-0102 if none fits. Add the KJV spellings to
+    alsoCalled: Rebecca on rebekah_2401, Nepthalim on naphtali_2149,
+    Tiglath-pileser on tilgath-pilneser_2376, Berodach-baladan on
+    merodach-baladan_483, Esh-baal on ish-bosheth_622, plus Jehonathan,
+    Melchi-shua and Jehezekiah where they apply. Add an automated rule: a
+    person's name or alsoCalled appears as a KJV word in a verse where that
+    person isn't tagged.
+  evidence: >-
+    The KJV verse text names each person. Easton "Abednego": "the Chaldee
+    name given to Azariah, one of Daniel’s three companions (Dan. 2:49)…
+    delivered from the burning fiery furnace (3:12-30)". Easton
+    "Tiglath-Pileser III. Or Tilgath-Pil-neser". 1 Chr 8:33 "Saul begat
+    Jonathan, and Malchishua, and Abinadab, and Eshbaal" (Ish-bosheth;
+    2 Sam 2:8).
+  checks:
+    - { record: rec08cmOeb7J4Hf7f, field: people, contains: recjMT68aIzFLh6cQ }
+    - { record: recp0TI6GHafD49xA, field: people, contains: rec8W4ddbPMwkhiOQ }
+  rule: kjv-name-untagged (proposed)
+  found: { date: 2026-11-21, by: "TIPNR people cross-check (STEPBible TIPNR, 24 Oct 2026 file)", sha: a8a7a94 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [theographic-web]
+  notes: >-
+    Overlaps: DQ-0069 and DQ-0054 added the Abed-nego alias to azariah_545,
+    but the Daniel verses were never tagged, so this item finishes that work.
+    Obededom (15 verses) is untagged because there's no record; that's
+    DQ-0102. How found: the TIPNR cross-check described in DQ-0098. Its
+    "TIPNR reference not in Theographic" table has 2,469 rows. They break
+    down as: about 120 explicit names in the KJV (this item); 2,032
+    Israel/Judah nation or kingdom uses (folded into DQ-0024); 118 Psalm
+    titles (not in KJV verse text, so modelling); 138 where the KJV wording
+    has no name (a pronoun or other rendering); and 29 tagged as a place or
+    group instead. Circularity caveat: this rests on the KJV text containing
+    the name, not on TIPNR. Effort: Medium.
+
+- id: DQ-0102
+  title: "No person records for Obed-edom, Carpus, Nymphas, or Bidkar, though the KJV names them"
+  status: open
+  type: missing-record
+  severity: medium
+  table: people
+  records:
+    - { id: recVRvzIjlwEdFkNa, key: "2Sam.6.10 (Obededom; one of 15 untagged verses)" }
+    - { id: rec1czPe6wzDVn2nY, key: "2Tim.4.13 (Carpus)" }
+    - { id: recUwBDTROiTFuzDX, key: "Col.4.15 (Nymphas)" }
+    - { id: recigcko9fvhqQ86t, key: "2Kgs.9.25 (Bidkar)" }
+  field: null
+  current: >-
+    There's no Obed-edom record. An Airtable search for "Obed" returns only
+    five Obed records plus Ebed and Oded. "Obededom" is untagged in all 15
+    KJV verses: 2 Sam 6:10-12; 1 Chr 13:13-14; 15:18, 15:21, 15:24, 15:25;
+    16:5, 16:38; 26:4, 26:8, 26:15; 2 Chr 25:24. There are also no records
+    and no tags for Carpus (2 Tim 4:13 "left at Troas with Carpus"), Nymphas
+    (Col 4:15 "Nymphas, and the church which is in his house") or Bidkar
+    (2 Kgs 9:25 "said Jehu to Bidkar his captain").
+  proposed: >-
+    Draft new person records with verses, places where relevant and Easton
+    links, for review before any write. Obed-edom: Easton has three entries
+    (the Gittite who kept the ark, the Merarite porter, and the treasurer of
+    2 Chr 25:24). Decide whether that's one, two or three records, and give
+    each its verses. Nymphas is male in the KJV/TR ("his house"). TIPNR's
+    female Nympha follows the critical text. Then tag mdText and richText.
+  evidence: >-
+    The KJV verses listed above. Easton "Obed-Edom" (three entries; 1 Chr
+    13:13-14, 15:18, 15:21, 26:4-8, 26:15; 2 Chr 25:24). TIPNR has
+    Obed-edom@2Sa.6.10-2Ch as a single person, which is TIPNR's own over-merge
+    against Easton, plus Carpus@2Ti.4.13, Bidkar@2Ki.9.25 and Nympha@Col.4.15.
+  checks: []
+  rule: null
+  found: { date: 2026-11-21, by: "TIPNR people cross-check (STEPBible TIPNR, 24 Oct 2026 file); Airtable people search", sha: a8a7a94 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [theographic-web]
+  notes: >-
+    New records need people, places and verses, and review, before any
+    write. How found: the TIPNR cross-check described in DQ-0098. These came
+    from its unmatched-TIPNR table: 80 rows, mostly anonymous people and
+    town-founders that Theographic models as places. Hushah (1 Chr 4:4) and
+    Amminadib (Song 6:12) are possible further cases but are left out because
+    they're debatable. Circularity caveat: this rests on the KJV naming each
+    person and on Easton, not on TIPNR. Effort: Medium.
+
+- id: DQ-0103
+  title: "jethro_2431 absorbs Deuel the Gadite (father of Eliasaph) in Num 1:14, 2:14, 7:42, 7:47, 10:20"
+  status: open
+  type: bad-link
+  severity: medium
+  table: people
+  records:
+    - { id: recxxH0xyhQyXuyh2, key: "jethro_2431 (alsoCalled Deuel,Reuel,Raguel)" }
+    - { id: recyhyjo4hcihTPjZ, key: "eliasaph_1091 (father jethro_2431)" }
+    - { id: recx5Jw5xgvVRHLZ8, key: "Num.1.14" }
+    - { id: recfvIFXNtyWrhDXi, key: "Num.2.14" }
+    - { id: recPiGs79vmaeMbZv, key: "Num.7.42" }
+    - { id: recC35qMaBTMHNcuy, key: "Num.7.47" }
+    - { id: rec2KlWnUPoYWALH1, key: "Num.10.20" }
+  field: alsoCalled, children, verses (people, mdText, richText), eliasaph_1091 father
+  current: >-
+    jethro_2431 (the Midianite priest) has alsoCalled "Deuel,Reuel,Raguel",
+    lists eliasaph_1091 as a child, and is tagged on Num 1:14, 2:14, 7:42,
+    7:47 and 10:20 ("Eliasaph the son of Deuel", or "Reuel" in Num 2:14).
+    eliasaph_1091's father is jethro_2431.
+  proposed: >-
+    Create a Deuel record (a Gadite, father of Eliasaph), after review.
+    Retarget the five Numbers verses to it in the people arrays, mdText and
+    richText. Set eliasaph_1091's father to Deuel. Remove "Deuel" from
+    jethro_2431's alsoCalled and eliasaph_1091 from its children. Keep Reuel
+    and Raguel on Jethro for Exod 2:18 and Num 10:29.
+  evidence: >-
+    Num 1:14 "Of Gad; Eliasaph the son of Deuel"; Num 10:20 "over the host of
+    the tribe of the children of Gad was Eliasaph the son of Deuel". ISBE
+    "Deuel": "A Gadite, the father of Eliasaph… Called Reuel in Numbers 2:14,
+    daleth (d) being confused with resh (r)." Jethro/Reuel is "the priest of
+    Midian" (Exod 2:16-18, 3:1). TIPNR also keeps Deuel@Num.1.14 separate
+    from Jethro@Exo.2.18.
+  checks:
+    - { record: recx5Jw5xgvVRHLZ8, field: people, not_contains: recxxH0xyhQyXuyh2 }
+    - { record: recyhyjo4hcihTPjZ, field: father, not_contains: recxxH0xyhQyXuyh2 }
+    - { record: recxxH0xyhQyXuyh2, field: alsoCalled, not_contains: "Deuel" }
+  rule: null
+  found: { date: 2026-11-21, by: "TIPNR people cross-check (STEPBible TIPNR, 24 Oct 2026 file)", sha: a8a7a94 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [theographic-web]
+  notes: >-
+    The new Deuel record needs review before any write. How found: the TIPNR
+    cross-check described in DQ-0098. This was the clearest case in its
+    merge/split table, which has 11 over-merge and 30 over-split candidates.
+    Circularity caveat: TIPNR's agreement isn't independent; this rests on
+    the KJV tribal context and ISBE. Effort: Small, though it creates a
+    record.
+
+- id: DQ-0104
+  title: "Likely duplicate person records: Harbona/Harbonah, Jerubbesheth/Gideon, Huram/Hiram, Rachab/Rahab, Ehi/Ahiram, and others"
+  status: needs-research
+  type: duplicate-record
+  severity: low
+  table: people
+  records:
+    - { id: recCRA4Gm20bsy5JP, key: "harbona_1410" }
+    - { id: recqny9poCj27OGt9, key: "harbonah_1411" }
+    - { id: recpmakDIDSFa2LFR, key: "jerubbesheth_881" }
+    - { id: recjU9TzJTjllYnUJ, key: "gideon_1314" }
+    - { id: rec2zZn0RNWtD1b4g, key: "abimelech_42 (2 Sam 11:21)" }
+    - { id: recRZHTq3D9Hs5FG6, key: "abimelech_41" }
+    - { id: receAibMjUaJ3i0Qo, key: "huram_1575 (2 Chr 2:13)" }
+    - { id: recqJsTnJrfvub03l, key: "hiram_1533" }
+    - { id: recAqIp5Uz2jF3BQD, key: "rachab_2385 (Matt 1:5)" }
+    - { id: rec1KxZ8I6FX57Q0T, key: "rahab_2388" }
+    - { id: rec8gMidv50fVGr80, key: "ehi_1038 (Gen 46:21)" }
+    - { id: recrdlNkfhnrb29zj, key: "ahiram_158 (Num 26:38)" }
+    - { id: recsCvIS5fxl25zU6, key: "zibeon_3061 (Gen 36:2, 36:14)" }
+    - { id: rec18ALrKRV4whrgb, key: "zibeon_3062 (Gen 36:20-29)" }
+  field: null
+  current: >-
+    One person is split across two records. Harbona (Esth 1:10) and Harbonah
+    (Esth 7:9) are the same eunuch. jerubbesheth_881 (2 Sam 11:21) is Gideon,
+    and abimelech_42 in the same verse is Gideon's son abimelech_41.
+    huram_1575 (2 Chr 2:13, the craftsman) is separate from hiram_1533, which
+    already holds 2 Chr 4:11 and 4:16, where the KJV also says "Huram".
+    rachab_2385 (Matt 1:5, Boaz's mother) is separate from rahab_2388.
+    ehi_1038 (Gen 46:21) is separate from ahiram_158 (Num 26:38).
+    zibeon_3061 and zibeon_3062 split one Horite chief across Gen 36:2/14 and
+    36:20-29.
+  proposed: >-
+    Choose a merge policy first: merge into one record with alsoCalled, or
+    keep both and link them. Merges touch verse arrays, mdText, richText,
+    family links and slugs/URLs, so design the approach before any bulk
+    change. Then review each pair. Zibeon depends on the Anah question
+    (Gen 36:2 "Anah the daughter of Zibeon" vs 36:24 "Anah… son of
+    Zibeon"), so it needs research.
+  evidence: >-
+    Easton "Harbona: …one of the seven eunuchs… (Esther 1:10; 7:9)". Easton
+    "Jerubbesheth: …a surname also of Gideon (2 Sam. 11:21)". Easton
+    "Rachab: =Rahab, a name found in the genealogy of our Lord (Matt. 1:5)".
+    ISBE "Ehi: Apparently a contracted form (Genesis 46:21). See AHIRAM."
+    2 Chr 2:13-14 and 4:11, 4:16 describe the same craftsman as 1 Kgs 7:13-14.
+  checks: []
+  rule: null
+  found: { date: 2026-11-21, by: "TIPNR people cross-check (STEPBible TIPNR, 24 Oct 2026 file)", sha: a8a7a94 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [theographic-web]
+  notes: >-
+    How found: the TIPNR cross-check described in DQ-0098. Its merge/split
+    table has 30 over-split candidates. Only the ones Easton or ISBE support
+    are here. Left out as interpretive or deliberate: Achbor, Shebna, Bebai,
+    Kenaz, Teman, Chenaniah, the three Anahs, Joses, Alphaeus/Cleophas, Bedan
+    (Easton prefers Abdon), and Artaxerxes (Ezra 4 vs 7, which follows
+    Ussher). The Rachab merge would also let DQ-0105 link Salmon's partner.
+    Circularity caveat: TIPNR's rule of "maximum links, minimum anonymous
+    individuals" biases it toward merging, so its agreement isn't evidence on
+    its own. Easton and ISBE are the basis here. Effort: Medium.
+
+- id: DQ-0105
+  title: "Marriages stated in the KJV are missing partner links though both records exist (Eleazar, Judah, Ezekiel, Hadad, and others)"
+  status: open
+  type: missing-link
+  severity: low
+  table: people
+  records:
+    - { id: recyDlo13a3T5DDGh, key: "eleazar_1062 ↔ daughter_of_putiel_990 (Exod 6:25)" }
+    - { id: recbVQjfMWHfGekWE, key: "daughter_of_putiel_990" }
+    - { id: rec0rm6yYA4YUQrkh, key: "judah_1751 ↔ daughter_of_shuah_993 (Gen 38:2)" }
+    - { id: recxqjTiUFv65isXL, key: "daughter_of_shuah_993" }
+    - { id: recY9sUcNV86uep0R, key: "ezekiel_1237 ↔ wife_of_ezekiel_2940 (Ezek 24:18)" }
+    - { id: rec6jLZCWZ3g7AQ56, key: "wife_of_ezekiel_2940" }
+    - { id: recEfNdp30UfPxcHi, key: "hadad_1339 ↔ sister_of_tahpenes_2759 (1 Kgs 11:19)" }
+    - { id: recUR8KYptP0X0GA4, key: "sister_of_tahpenes_2759" }
+    - { id: recF8aEqI6CFgFwHY, key: "son_of_abinadab_2763 ↔ taphath_2825 (1 Kgs 4:11)" }
+    - { id: recsfBxzVjwrj8Eeb, key: "taphath_2825" }
+    - { id: recOf0COw4bHshLcQ, key: "johanan_1675 ↔ daughter_of_meshullam_987 (Neh 6:18)" }
+    - { id: recBJnNOjtW11kqDn, key: "daughter_of_meshullam_987" }
+    - { id: recWqKsXPDazPbzss, key: "salmon_2463 ↔ Rahab/Rachab (Matt 1:5)" }
+  field: partners
+  current: >-
+    These partner fields are empty on both sides: eleazar_1062 /
+    daughter_of_putiel_990; judah_1751 / daughter_of_shuah_993; ezekiel_1237 /
+    wife_of_ezekiel_2940; hadad_1339 / sister_of_tahpenes_2759;
+    son_of_abinadab_2763 / taphath_2825; johanan_1675 /
+    daughter_of_meshullam_987; salmon_2463 / rachab_2385 or rahab_2388.
+    salmon_2463 and rachab_2385 are both already parents of boaz_519.
+  proposed: >-
+    Add the partner links on both records for each pair. Do Salmon after
+    DQ-0104 decides Rachab/Rahab. About 10 pairs in total; the rest are in
+    the cross-check's family table.
+  evidence: >-
+    KJV: Exod 6:25 "Eleazar Aaron’s son took him one of the daughters of
+    Putiel to wife"; Gen 38:2 "Judah saw there a daughter of… Shuah; and he
+    took her"; Ezek 24:18 "at even my wife died"; 1 Kgs 11:19 Pharaoh "gave
+    him to wife the sister of his own wife, the sister of Tahpenes"; 1 Kgs
+    4:11 "the son of Abinadab… had Taphath the daughter of Solomon to wife";
+    Neh 6:18 "Johanan had taken the daughter of Meshullam"; Matt 1:5 "Salmon
+    begat Booz of Rachab".
+  checks:
+    - { record: recyDlo13a3T5DDGh, field: partners, contains: recbVQjfMWHfGekWE }
+    - { record: rec0rm6yYA4YUQrkh, field: partners, contains: recxqjTiUFv65isXL }
+    - { record: recEfNdp30UfPxcHi, field: partners, contains: recUR8KYptP0X0GA4 }
+  rule: null
+  found: { date: 2026-11-21, by: "TIPNR people cross-check (STEPBible TIPNR, 24 Oct 2026 file)", sha: a8a7a94 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [theographic-web]
+  notes: >-
+    How found: the TIPNR cross-check described in DQ-0098. Its family table
+    has about 390 rows. Most are TIPNR inferences marked (?) or contested
+    genealogy readings, which are left out: Zeresh as mother of Haman's sons,
+    Nahash as Jesse's wife, Naamah as Noah's wife, Jahdai, Mered/Ishbah,
+    Pedaiah, and Abihail/Mahalath. Judah ↔ Tamar (Gen 38) is a union but not
+    a marriage, so it isn't included; decide separately. The judas_1760
+    father link is already handled in DQ-0080 and is waiting on the next
+    export. Circularity caveat: only marriages stated in the KJV are listed.
+    Effort: Small.
+
+- id: DQ-0106
+  title: "portius_2367 name is misspelled (KJV \"Porcius\"); carchemish_925 is a person record for the city at 2 Chr 35:20"
+  status: open
+  type: typo
+  severity: low
+  table: people
+  records:
+    - { id: reckKYeZ5P0KFuSkB, key: "portius_2367 (Portius Festus)" }
+    - { id: rec98WOT9zocV0PkW, key: "carchemish_925" }
+    - { id: rec2NlfhXk836pJlt, key: "2Chr.35.20" }
+  field: name, displayTitle (portius_2367); people, mdText, richText (2Chr.35.20)
+  current: >-
+    portius_2367: name "Portius", displayTitle "Portius Festus", alsoCalled
+    "Porcius". carchemish_925 is a Male person record whose only verse is
+    2 Chr 35:20, where "Carchemish" is tagged both to this person and to the
+    place carchemish_277.
+  proposed: >-
+    Set name to "Porcius" and displayTitle to "Porcius Festus", and keep the
+    slug so URLs don't change. Remove the carchemish_925 person tag from
+    2 Chr 35:20 (people array, mdText and richText) and leave the place tag.
+    Then retire or flag the empty person record.
+  evidence: >-
+    KJV Acts 24:27 "Porcius Festus came into Felix’ room"; Easton "Festus,
+    Porcius". KJV 2 Chr 35:20 "Necho king of Egypt came up to fight against
+    Carchemish by Euphrates". That's a city, and TIPNR has it only as a
+    place.
+  checks:
+    - { record: reckKYeZ5P0KFuSkB, field: name, equals: "Porcius" }
+    - { record: rec2NlfhXk836pJlt, field: people, not_contains: rec98WOT9zocV0PkW }
+  rule: null
+  found: { date: 2026-11-21, by: "TIPNR people cross-check (STEPBible TIPNR, 24 Oct 2026 file)", sha: a8a7a94 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [theographic-web]
+  notes: >-
+    How found: the TIPNR cross-check described in DQ-0098. Portius came from
+    the name-difference table and carchemish_925 from the unmatched-Theographic
+    table. Similar cases left out as debatable: uzza_2912 ("garden of Uzza",
+    2 Kgs 21:18, 21:26, also tagged as a place) and nebo_2166 (Ezra 10:43
+    "sons of Nebo"). Circularity caveat: this rests on the KJV and Easton.
+    Effort: Small.
