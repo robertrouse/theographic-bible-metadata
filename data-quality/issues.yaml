@@ -2552,6 +2552,16 @@
     repository. The geo/bible-places.geojson "Kingdom of Judah" feature
     (judah-southern_1281) is a MultiPoint with an extra point [35.263257,
     31.853294] that is not in Airtable (Airtable has only 31.776667, 35.234167).
+    Warning (2026-11-23, revised TIPNR cross-check): the sync direction must
+    be decided per record, not as a blanket "GeoJSON from Airtable". For
+    the 157 placeholder-point records in DQ-0109, Airtable is the stale
+    side: the GeoJSON already holds the record's own OpenBible point for
+    150 of them. More broadly, 201 of the 301 places more than 25 km from
+    their OpenBible point have a GeoJSON that already matches OpenBible
+    (/workspace/tipnr-revised/out/G1_theo_coords_vs_tipnr_openbible.csv).
+    A blanket Airtable → GeoJSON sync would copy those errors into the
+    GeoJSON. Fix DQ-0109 and DQ-0108 in Airtable first, then sync. Status
+    unchanged; this item remains on hold.
 
 - id: DQ-0073
   title: "Emmaus and Bethlehem of Zebulun have Recogito/GeoNames links to the wrong places"
@@ -3472,6 +3482,29 @@
     a64f355, a656cb6, a7559e6, a75aff4, a7b2e63, a86d49f, a871210, a89511f,
     a901903, ab682e6, ac71e65, acf57c5, ad0520f, adf74d4, af054ba. A raw
     string compare finds 31, the extra three differing only by rounding.
+    Extension (2026-11-23, revised TIPNR cross-check at 95c381d): 21 more
+    OpenBible ids are shared by place records with no canonicalPlace link
+    between them (the records agree on coordinates, so the count above
+    misses them). Shared id: records → the record's own OpenBible article.
+    aefaa2d: mount_nebo_849, abarim_2 → Abarim aa8275b. a0d784a: dibon_331,
+    almon-diblathaim_50 → aeb052c, beth-diblathaim_199 → ac99af3. a15257a:
+    jerusalem_636, mount_zion_860 → abd9596,
+    gate_of_the_children_of_the_people_932 → a6f94a6. aa8edd2: gaza_446,
+    ayyah_125 → aba3717. a341fe8: mount_hermon_841, baal-gad_140 → ae12e43,
+    baal-hamon_141 → a304bb7, baal-hermon_143 → a979444. ab94aea:
+    gilgal_476, gibeath-haaraloth_469 → a97126d. a553110: kidron_687,
+    valley_of_jehoshaphat_1209 → a324282. a053f15: carmel_278, racal_968 →
+    a446973. ac3d92d: chesulloth_290, tabor_1129 → af614df. a7a59b4:
+    egypt_259, shihor_1076 → a475518. af9cfc9: en-rogel_395,
+    serpents_stone_1051 → a8bb3d8. a03be2e: tappuah_1136, en-tappuah_397 →
+    ad6b2b7. ae686c9: jordan_653, plain_of_jordan_654 → aa54aa4. ad54201:
+    kiriathaim_695, kerioth_683 → a2d84de. ab92800: kir_693,
+    kir-hareseth_694 → ab55371 (mizpeh_814 → ac702f1; see DQ-0107).
+    adaef13: lasha_718, nahaliel_870 → a8dafd6. aa5cc66: mount_ebal_832,
+    mount_ephraim_833 → ac0d1a5. a811a10: zemaraim_1249,
+    mount_zemaraim_859 → a5a92d1. ab571de: neiel_887, neah_879 → a2a77d2.
+    a70fd5d: nineveh_899, rehoboth-ir_992 → a260ff1. a81ab85: sheba_1067,
+    seba_1037 (DQ-0095).
   proposed: >-
     Review each URI. Where records are aliases, make the stored OpenBible
     coordinates agree and rely on canonicalPlace for display. Where they
@@ -3490,6 +3523,18 @@
   notes: >-
     This entry is the inventory. Do not treat it as replacing DQ-0083 or
     DQ-0081, which remain the place to record those site decisions.
+    Extension of 2026-11-23: the 21 ids above came from the revised TIPNR
+    cross-check (David Instone-Brewer's claim C, "OpenBible splits STEPBible
+    treats as one place"). Most pairs are legitimate related places that
+    need either their own OpenBible id or a canonicalPlace link: Abarim,
+    Gibeath-haaraloth, Valley of Jehoshaphat, Shihor, Serpent's Stone,
+    En-tappuah, Plain of Jordan, Mount Zemaraim, Mount Zion and the People's
+    Gate. Where the record is a different place on a neighbour's id (Ayyah,
+    Racal, Tabor of 1 Chr 6:77, Kerioth, Nahaliel, Mount Ephraim, Neah,
+    Almon- and Beth-diblathaim, Baal-hamon, Kir-hareseth, Rehoboth-Ir), the
+    fix is tracked in DQ-0108, and Kir/Mizpeh in DQ-0107. Sheba/Seba stays
+    under DQ-0095. Source: /workspace/tipnr-revised/out/N1_wrong_openbible_id.csv
+    and P7_theo_obid_vs_tipnr_owner.csv. Extension effort: Small.
 
 - id: DQ-0092
   title: "Ophir, Uphaz, and India, and Gog, Magog, and Meshech, sit on coarse integer-degree placeholder points"
@@ -4425,4 +4470,411 @@
     table. Similar cases left out as debatable: uzza_2912 ("garden of Uzza",
     2 Kgs 21:18, 21:26, also tagged as a place) and nebo_2166 (Ezra 10:43
     "sons of Nebo"). Circularity caveat: this rests on the KJV and Easton.
+    Effort: Small.
+
+- id: DQ-0107
+  title: "Distinct same-name places aliased to the wrong place (Beer, Bozrah, Mount Heres, Joktheel, Ephron, Gedor, Shaaraim, Hukok, Gederoth, Beth-aven, Kir, Rephaim)"
+  status: open
+  type: bad-link
+  severity: medium
+  table: places
+  records:
+    - { id: recZfXro4PsQ84gVp, key: "beer_165 (Judg 9:21; alias of beer_164)" }
+    - { id: recIn7Y9y8ASc1bbA, key: "bozrah_257 (Jer 48:24; alias of bozrah_256)" }
+    - { id: recqTxaRekULVrdMC, key: "mount_heres_840 (Judg 1:35; alias of heres_562)" }
+    - { id: recSWu2nTiJjPfd7u, key: "joktheel_651 (2Kgs 14:7; alias of joktheel_650)" }
+    - { id: reccXxI6gV3uS1tRt, key: "ephron_406 (2Chr 13:19; alias of mount_ephron_834)" }
+    - { id: reclDeMC2ZcL7FsyA, key: "gederoth_453 (alias of gederah_452)" }
+    - { id: recHcMmB2WjEh1MXi, key: "gedor_456 (1Chr 4:39; alias of gedor_455)" }
+    - { id: recM5mUDUeuNmVj6E, key: "shaaraim_1056 (1Chr 4:31; alias of shaaraim_1055)" }
+    - { id: rectQfI2b5yqcGyKc, key: "hukok_587 (1Chr 6:75; alias of hukkok_586)" }
+    - { id: recgAmwf1FZDe8DST, key: "beth-aven_191 (alias of bethel_202)" }
+    - { id: receagvMif63k28fg, key: "kir_693 (Kerak point; Assyrian Kir verses)" }
+    - { id: recYksg9zceqN9vql, key: "mizpeh_814 (1Sam 22:3; alias of kir_693)" }
+    - { id: recs5Whx1CQf0rfQh, key: "Deut.3.13 (\"land of giants\" linked to rephaim_995)" }
+  field: canonicalPlace, openBibleUri, latitude, longitude, verses (places), mdText, richText
+  current: >-
+    canonicalPlace sends each of these to a different place with the same or
+    a similar name, so it displays there. Distances are between the two
+    OpenBible points. beer_165 (Judg 9:21) → beer_164 in Moab (Num 21:16),
+    121 km. bozrah_257 (Jer 48:24, Moab) → Edom's bozrah_256, 119 km.
+    mount_heres_840 (Judg 1:35) → heres_562 (Judg 8:13, east of Jordan),
+    93 km. joktheel_651 (2 Kgs 14:7, Sela in Edom) → Judah's joktheel_650
+    (Josh 15:38). ephron_406 (2 Chr 13:19 "Ephrain") → mount_ephron_834 on
+    the Judah border, 23 km. gederoth_453 → gederah_452, wearing Geder's id
+    a55d681. gedor_456 (1 Chr 4:39, Simeon) → gedor_455 (Judah), 54 km.
+    shaaraim_1056 (1 Chr 4:31) → shaaraim_1055, 66 km. hukok_587
+    (1 Chr 6:75, Asher) → hukkok_586 (Naphtali), 20 km. beth-aven_191: all
+    7 verses alias to Bethel. kir_693 has OpenBible id ab92800 (Kir 1,
+    Mesopotamia, 33.12, 45.93), but its coordinates are the Kerak point
+    31.1813258, 35.70214779 (987 km away). It carries the Assyrian Kir
+    verses (2 Kgs 16:9; Isa 22:6; Amos 1:5, 9:7) plus Isa 15:1 "Kir of
+    Moab". mizpeh_814 (1 Sam 22:3, Mizpeh of Moab) is aliased to kir_693.
+    Deut 3:13 links "land" in "which was called the land of giants" (Bashan)
+    to rephaim_995, which is aliased to the Valley of Rephaim near Jerusalem.
+  proposed: >-
+    Remove the wrong canonicalPlace links. Give each record its own
+    OpenBible id: beer_165 → a520374 (Beer 2); bozrah_257 → a8adc43
+    (Bozrah 2); mount_heres_840 → aeea26d; ephron_406 → a1230e5 (Ephron 2);
+    gederoth_453 → a728f1b; gedor_456 → a2fc530 (Gedor 2); shaaraim_1056 →
+    a488856 (Shaaraim 2); hukok_587 → a5c4318 (Hukok); mizpeh_814 → ac702f1
+    (Mizpeh 3). For several of these, openBibleLat/Long already holds the
+    right point, so unlinking fixes the display. Alias joktheel_651 to
+    sela_1044 (Sela in Edom). Split beth-aven_191: Josh 7:2, 18:12, 1 Sam
+    13:5 and 14:23 become a distinct place (OpenBible Beth-aven 1, a03cb21);
+    the Hosea uses (4:15, 5:8, 10:5) stay as the Bethel epithet. For
+    kir_693, move the coordinates to the Kir 1 point and move Isa 15:1 "Kir
+    of Moab" to kir-hareseth_694. Remove the rephaim_995 link from Deut 3:13
+    (people/places arrays, mdText, richText). Any new place record (the
+    Beth-aven split) needs Robert's review before it is written.
+  evidence: >-
+    KJV context for each verse. Judg 9:21: Jotham flees from Shechem, not
+    to Moab. 2 Kgs 14:7: "took Selah by war, and called the name of it
+    Joktheel". Deut 3:13: "all Bashan, which was called the land of giants".
+    Easton: "Beer" (2, Judg 9:21, el-Bireh); "Bozrah" (the Moabite city of
+    Jer 48:24 is distinct); "Heres" (Judg 1:35 = Ir-shemesh); "Gedor"
+    (1 Chr 4:39 in the Simeonite south); "Shaaraim" (a Simeonite town,
+    distinct); "Hukok" (= Helkath); "Beth-aven" (a place near Ai; Hosea
+    applies the name to Bethel); "Kir" (Assyrian Kir vs Kir of Moab).
+    OpenBible ancient.jsonl (copy dated Nov 17 2026) keeps each as a
+    separate article, with the record's own verses attached.
+  checks:
+    - { record: recZfXro4PsQ84gVp, field: canonicalPlace, not_contains: recJD9cmtiBXxNSEK }
+    - { record: recIn7Y9y8ASc1bbA, field: canonicalPlace, not_contains: recIfdlpmLYrfPeAv }
+    - { record: recqTxaRekULVrdMC, field: canonicalPlace, not_contains: recUoVFfVA066pPes }
+    - { record: recSWu2nTiJjPfd7u, field: canonicalPlace, contains: recq2rEmFeuPt4ouE }
+    - { record: reccXxI6gV3uS1tRt, field: canonicalPlace, not_contains: recpv8kBAFWrBcGYD }
+    - { record: recHcMmB2WjEh1MXi, field: canonicalPlace, not_contains: reclg1YBA0tsZbZ6Y }
+    - { record: recM5mUDUeuNmVj6E, field: canonicalPlace, not_contains: recFF06mG50AJliKz }
+    - { record: rectQfI2b5yqcGyKc, field: canonicalPlace, not_contains: recj54HWxfFJvfSD4 }
+    - { record: receagvMif63k28fg, field: latitude, not_equals: "31.1813258" }
+    - { record: recs5Whx1CQf0rfQh, field: places, not_contains: reci8dghn7shG5pMX }
+  rule: null
+  found: { date: 2026-11-23, by: "Revised TIPNR cross-check (pre-publication TIPNR shared by David Instone-Brewer after STEPBible-Data #81)", sha: 95c381d }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [theographic-web]
+  notes: >-
+    How found: compared Theographic's openBibleUri for each record with the
+    OpenBible article that OpenBible itself attaches to the record's verses
+    under the same name, then read each case in the KJV and Easton.
+    /workspace/tipnr-revised/out/N1_wrong_openbible_id.csv, bucket "homonym
+    alias (N1)"; findings in /workspace/tipnr-revised/findings.md §5 N1.
+    The revised TIPNR moved 2 Chr 13:19 to the town of Ephraim too.
+    Zeredah was checked and left out because Easton allows the identity.
+    Circularity caveat: this rests on the KJV, Easton and OpenBible, not on
+    TIPNR. About 12 records. Effort: Medium.
+
+- id: DQ-0108
+  title: "Place records carry a neighbour's or namesake's OpenBible id (Rimmon on Ain in Lebanon, Kir-hareseth on Kir, Baal-hamon on Hermon, Ayyah on Gaza, …)"
+  status: open
+  type: wrong-value
+  severity: medium
+  table: places
+  records:
+    - { id: recZuw7dAJ1x1EUfb, key: "rimmon_1004 (on Ain 1, a89511f)" }
+    - { id: recYdVr4FVGjduAvu, key: "en-rimmon_394 (alias of rimmon_1004)" }
+    - { id: recVMgLyBVZ3c8jaf, key: "kir-hareseth_694 (on Kir 1, ab92800)" }
+    - { id: reckp306GdVeCP6ow, key: "baal-hamon_141 (on Mount Hermon, a341fe8)" }
+    - { id: recIfDBpgcDqrLwwu, key: "ayyah_125 (on Gaza, aa8edd2)" }
+    - { id: rec4fn00zPmMzy1Ez, key: "mount_ephraim_833 (on Mount Ebal, aa5cc66)" }
+    - { id: recj5Vo2Mp3zHCXA6, key: "kerioth_683 (on Kiriathaim 1, ad54201)" }
+    - { id: recNZOAW3NhGJ2Vqs, key: "neah_879 (on Neiel, ab571de)" }
+    - { id: recbHDxOBZIQIrqOG, key: "almon-diblathaim_50 (on Dibon 1, a0d784a)" }
+    - { id: recnamAwgWaNKMu5s, key: "beth-diblathaim_199 (on Dibon 1, a0d784a)" }
+    - { id: recA34XfYsCxhyu31, key: "hamath_516 (on Hamath-zobah, ab6a417)" }
+    - { id: recTOELkXIVkgI0vr, key: "lebo-hamath_723 (on Hamath-zobah, ab6a417)" }
+    - { id: recEJsC4x7j1Gab0j, key: "Zech.14.10 (Rimmon south of Jerusalem)" }
+  field: openBibleUri, openBibleLat, openBibleLong, latitude, longitude
+  current: >-
+    OpenBible attaches each record's own verses to an article with the same
+    name, but openBibleUri points at a different article. 26 non-alias,
+    non-Pleiades records have a point that moves by more than 5 km. Worst
+    cases: rimmon_1004 and en-rimmon_394 display at 34.353071, 36.385705 in
+    Lebanon ("Ain 1"), while Zech 14:10 says "Rimmon south of Jerusalem".
+    kir-hareseth_694 is on Kir 1 (987 km). baal-hamon_141 (Song 8:11) is on
+    Mount Hermon (190 km). ayyah_125 (1 Chr 7:28, Ephraim) is on Gaza
+    (88 km). mount_ephraim_833 (Jer 4:15) is on Mount Ebal. Also kerioth_683,
+    neah_879, almon-diblathaim_50, beth-diblathaim_199, merom_785,
+    greece_495, zalmon_1237, jezreel_644, shihor_1076, plain_of_jordan_654,
+    arabah_260, gederah_452, rumah_1014, kartah_671, ramoth_982,
+    arimathea_90, geliloth_457, hapharaim_524, gederothaim_454 and geba_448.
+    11 more have the wrong id but Pleiades holds their display, e.g.
+    hamath_516 and lebo-hamath_723 on ab6a417 (Hamath-zobah, 2 Chr 8:3 only).
+    114 more have only the id label wrong (points within 5 km).
+  proposed: >-
+    Set openBibleUri to the article OpenBible attaches to the record's verses
+    (column ob_same_name_article), with that article's point in
+    openBibleLat/Long. Examples: rimmon_1004 → a8da370 (Rimmon 2, 31.383,
+    34.866); en-rimmon_394 → ab28e2e; kir-hareseth_694 → ab55371;
+    baal-hamon_141 → a304bb7; ayyah_125 → aba3717; mount_ephraim_833 →
+    ac0d1a5; kerioth_683 → a2d84de; neah_879 → a2a77d2; almon-diblathaim_50
+    → aeb052c; beth-diblathaim_199 → ac99af3; hamath_516 → ac62cbc;
+    lebo-hamath_723 → a5eb047. Then sync geo/bible-places.geojson for the
+    changed points (geo rule). Start with the 26 display-moving rows. Batch
+    the 114 label-only rows afterwards.
+  evidence: >-
+    Zech 14:10 "from Geba to Rimmon south of Jerusalem"; Easton "Rimmon"
+    (Um er-Rumamin, SW of Hebron; En-rimmon Neh 11:29). Song 8:11 "Solomon
+    had a vineyard at Baal-hamon". 1 Chr 7:28 lists Ayyah among Ephraim's
+    towns. OpenBible ancient.jsonl (copy dated Nov 17 2026): each suggested
+    article carries the record's verses under its name.
+  checks:
+    - { record: recZuw7dAJ1x1EUfb, field: openBibleUri, matches: "a8da370$" }
+    - { record: recVMgLyBVZ3c8jaf, field: openBibleUri, matches: "ab55371$" }
+    - { record: reckp306GdVeCP6ow, field: openBibleUri, matches: "a304bb7$" }
+    - { record: recIfDBpgcDqrLwwu, field: openBibleUri, matches: "aba3717$" }
+  rule: openbible-id-matches-verses (proposed)
+  found: { date: 2026-11-23, by: "Revised TIPNR cross-check (pre-publication TIPNR shared by David Instone-Brewer after STEPBible-Data #81)", sha: 95c381d }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [theographic-web, geo]
+  notes: >-
+    How found: same method as DQ-0107.
+    /workspace/tipnr-revised/out/N1_wrong_openbible_id.csv has 172 rows,
+    bucketed: 26 "display moves >5km", 11 "Pleiades sets display", 114 "label
+    only", 11 homonym aliases (DQ-0107), and 10 already logged (DQ-0083,
+    0084, 0085, 0086, 0087, 0088, 0089, 0090, 0096). The shared-id side of
+    the same problem is inventoried in DQ-0091. Overlaps DQ-0072: the
+    corrected points must reach the GeoJSON. Circularity caveat: this rests
+    on OpenBible's own verse lists, plus the KJV and Easton for the
+    examples. Effort: Medium.
+
+- id: DQ-0109
+  title: "157 places sit on 76 shared placeholder points in Airtable (e.g. Simeon towns in Gilead); the GeoJSON already has the right OpenBible point for 150"
+  status: open
+  type: wrong-value
+  severity: medium
+  table: places
+  records:
+    - { id: rec8l1lVhso3t7ULj, key: "eltolad_380 (32.049953, 35.733402, one of 8 at this point)" }
+    - { id: recIwErv710ydIveN, key: "iim_593 (same point)" }
+    - { id: recGvmVzGXwM0gcuz, key: "baalath-beer_138 (same point; DQ-0081)" }
+    - { id: recMycRUPsdlPW8ZK, key: "bethuel_240 (same point)" }
+    - { id: recYUWD833qc9vHTr, key: "haradah_526 (30.317396, 35.407152, one of 12 stations)" }
+    - { id: recn5ad7qKvkUdCyZ, key: "mount_hor_842 (same point)" }
+    - { id: recDSliISwQHk79qr, key: "sharon_1064 (1Chr 5:16, on the Hermon point)" }
+  field: openBibleLat, openBibleLong, latitude, longitude
+  current: >-
+    157 place records with no canonicalPlace and no Pleiades link sit on 76
+    points shared with unrelated places. Each is more than 25 km from its
+    own OpenBible point. Largest clusters: 32.049953, 35.733402 in Gilead
+    (8 Simeon/Negev towns: baalath-beer_138, bethel_203, bethuel_240,
+    bethul_241, chesil_289, eltolad_380, ezem_422, iim_593; aliases such as
+    tolad, bealoth and ramoth_982 follow them). 30.317396, 35.407152
+    (12 wilderness stations of Num 33: bene-jaakan, haradah, hashmonah,
+    kehelathah, makheloth, mithkah, moseroth, mount_hor, mount_shapher,
+    rissah, tahath, terah). 31.8099, 34.9365 (7 Judah/Simeon towns).
+    31.49685, 35.78284 (6 Moab stations). 30.73469, 35.60625 (5 Edom
+    places). 27.08847, 34.77173 (5 Red Sea names). sharon_1064 (1 Chr 5:16,
+    Sharon in Gilead/Bashan) sits on Mount Hermon. For 150 of the 157,
+    geo/bible-places.geojson already has the record's own OpenBible point
+    (within 1 km), so the Airtable openBibleLat/Long is the stale side.
+  proposed: >-
+    For each record, set openBibleLat/Long, and therefore the displayed
+    latitude/longitude, to the record's own OpenBible point. That matches
+    the GeoJSON for 150 of the 157. Review the other 7 by hand. Don't
+    "sync" these from Airtable to the GeoJSON (see DQ-0072).
+  evidence: >-
+    OpenBible ancient.jsonl (copy dated Nov 17 2026): identifications[0]
+    resolutions lonlat per article. Josh 15:21-32 and 19:1-8 place Eltolad,
+    Iim, Ezem, Bethul and Baalath-beer in the Negev of Judah/Simeon, not
+    Gilead. Num 33:24-34 lists the stations in the wilderness. Easton
+    "Sharon" (2): "a district east of the Jordan… in Gilead" (1 Chr 5:16).
+  checks:
+    - { record: rec8l1lVhso3t7ULj, field: openBibleLat, not_equals: "32.049953" }
+    - { record: recYUWD833qc9vHTr, field: openBibleLat, not_equals: "30.317396" }
+  rule: shared-coords-no-canonical
+  found: { date: 2026-11-23, by: "Revised TIPNR cross-check (pre-publication TIPNR shared by David Instone-Brewer after STEPBible-Data #81)", sha: 95c381d }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [theographic-web, geo]
+  notes: >-
+    How found: grouped places by identical display point, kept groups of
+    unrelated, non-alias, non-Pleiades places, and measured each record
+    against its own OpenBible point and its GeoJSON feature.
+    /workspace/tipnr-revised/out/N3_airtable_placeholder_points.csv (157
+    rows), with G1_theo_coords_vs_tipnr_openbible.csv and
+    G2_shared_points_unrelated_places.csv. Related: DQ-0031, DQ-0072
+    (sync direction; on hold), DQ-0081 (Baalath; its point is this
+    placeholder), DQ-0091, DQ-0092. This is an Airtable fix toward the
+    GeoJSON, so it doesn't need DQ-0072 to run first. Effort: Large.
+
+- id: DQ-0110
+  title: "Verses tagged to the wrong namesake: Jezreel (1 Sam 29), Achaia linked to Asia, Mamre/Sychem/Dan linked to persons, Meshech-Tubal, Aroer (1 Chr 5:8)"
+  status: open
+  type: bad-link
+  severity: medium
+  table: verses
+  records:
+    - { id: recVe4AjwdbTK6koK, key: "1Sam.29.1 (jezreel_642)" }
+    - { id: recJSOzOAgymzfhjm, key: "1Sam.29.11 (jezreel_642)" }
+    - { id: rec4n675xrRDIlg2M, key: "2Sam.4.4 (jezreel_644)" }
+    - { id: recJureQFmNCp5aXY, key: "Rom.16.5 (Achaia → asia_108)" }
+    - { id: recV7kxkfxB6dFB2f, key: "Gen.18.1 (Mamre → person mamre_1923)" }
+    - { id: recWIy6K2CPyvR0lA, key: "Acts.7.16 (first Sychem → person shechem_2588)" }
+    - { id: rec1mGV0kJpZtaAoc, key: "Deut.34.1 (Dan → person dan_973)" }
+    - { id: recPs5iURWMiCpwFb, key: "Amos.8.14 (Dan → person dan_973)" }
+    - { id: reci0FnmbnpprHc9T, key: "Ezek.32.26 (meshech-tubal_789)" }
+    - { id: recGzPEuXfGcFiFlE, key: "1Chr.5.8 (aroer_94)" }
+    - { id: recbCUdlemxNGIKfQ, key: "jezreel_644 (stray record; only 2Sam.4.4)" }
+  field: places, people, mdText, richText
+  current: >-
+    1 Sam 29:1 ("pitched by a fountain which is in Jezreel") and 29:11 are
+    tagged jezreel_642, the Judah town of Josh 15:56. 2 Sam 4:4 is on
+    jezreel_644, a one-verse record that wears the Judah Jezreel's OpenBible
+    id (ac644e9) but sits on the northern point. Rom 16:5 "[Achaia]" links
+    to asia_108. Gen 18:1 "plains of [Mamre]" links to person mamre_1923
+    with no place tag. Acts 7:16's first "Sychem" ("carried over into
+    Sychem") links to person shechem_2588 with no place tag. Deut 34:1
+    "unto [Dan]" and Amos 8:14 "Thy god, O [Dan]" link to person dan_973
+    with no place tag. Ezek 32:26 uses the combined place meshech-tubal_789
+    (placeholder 46, 47) alongside person links. 1 Chr 5:8 "dwelt in Aroer,
+    even unto Nebo and Baal-meon" is tagged aroer_94.
+  proposed: >-
+    1 Sam 29:1 and 29:11 → jezreel_643 (northern). 2 Sam 4:4 → jezreel_643,
+    then retire or alias jezreel_644. Rom 16:5 → achaia_16. Gen 18:1 → add
+    place mamre_762 and point the inline link at it. Acts 7:16 → add place
+    shechem_1069 for the first "Sychem" and keep the person link on "father
+    of Sychem". Deut 34:1 and Amos 8:14 → place dan_323. Ezek 32:26 →
+    places meshech_788 and tubal_1183, then retire meshech-tubal_789 (its
+    only verse). 1 Chr 5:8 → aroer_93 (Aroer on the Arnon). Update the
+    arrays, mdText and richText together. Whether the person tags on Mamre
+    and Dan stay, under the person-tag rule, is for Robert to decide.
+  evidence: >-
+    KJV: 1 Sam 28:4 and 29:1 put Israel at Gilboa and Jezreel, in the
+    north; 2 Sam 4:4 "tidings came of Saul and Jonathan out of Jezreel"
+    (Gilboa). Rom 16:5 KJV reads "Achaia" (the critical text reads "Asia";
+    Theographic follows the KJV). Gen 13:18 and 23:19 "Mamre… the same is
+    Hebron". Acts 7:16 "carried over into Sychem". Deut 34:1 "unto Dan"; Amos
+    8:14 swears by the calf-shrine at Dan (1 Kgs 12:29). Ezek 32:26 "There
+    is Meshech, Tubal" (two peoples; Easton has separate entries). 1 Chr 5:8
+    with Josh 13:16 (Reuben's Aroer on the Arnon). OpenBible attaches 1 Sam
+    29:1/29:11 and 2 Sam 4:4 to Jezreel 2 (north), and 1 Chr 5:8 to the
+    Arnon Aroer. The revised TIPNR moves 1 Chr 5:8 to Aroer (Arnon).
+  checks:
+    - { record: recVe4AjwdbTK6koK, field: places, contains: reczRCunsz83wZ1Q1 }
+    - { record: recVe4AjwdbTK6koK, field: places, not_contains: recdU0shMzVelyTiU }
+    - { record: recJSOzOAgymzfhjm, field: places, not_contains: recdU0shMzVelyTiU }
+    - { record: recJureQFmNCp5aXY, field: places, contains: recj2XUqaJxCKA6qs }
+    - { record: recV7kxkfxB6dFB2f, field: places, contains: recQea8xEa8yZBFdt }
+    - { record: recWIy6K2CPyvR0lA, field: places, contains: recUySlrBva4ffoVs }
+    - { record: rec1mGV0kJpZtaAoc, field: places, contains: recwFUncFiNWPsPWN }
+    - { record: recPs5iURWMiCpwFb, field: places, contains: recwFUncFiNWPsPWN }
+    - { record: reci0FnmbnpprHc9T, field: places, not_contains: recSnkixSwHw1Vdlh }
+    - { record: recGzPEuXfGcFiFlE, field: places, contains: recV2VLKz20IKBZ1N }
+  rule: null
+  found: { date: 2026-11-23, by: "Revised TIPNR cross-check (pre-publication TIPNR shared by David Instone-Brewer after STEPBible-Data #81)", sha: 95c381d }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [theographic-web]
+  notes: >-
+    How found: P6_step_vs_openbible_reallocations.csv (1,468 rows) and
+    P4/P5 verse diffs in /workspace/tipnr-revised/out/, filtered to cases
+    where OpenBible and the KJV context disagree with Theographic, then read
+    in the KJV and Easton. Deliberately left alone: 2 Sam 24:5 and Isa 17:2
+    (Aroer). The revised TIPNR moves them to the Arnon Aroer, but Easton
+    puts them at Gad's Aroer. TIPNR has the same Jezreel error (reported
+    upstream). Related: DQ-0019 (Zech 14:10 Benjamin's gate links), DQ-0028,
+    DQ-0092 (meshech_788 placeholder point). About 12 verses. Effort: Small.
+
+- id: DQ-0111
+  title: "45 KJV place-name mentions in 43 verses have no place tag (Bethlehem John 7:42, Galilee Luke 4:44, Jerusalem 2 Chr 32, Charran Acts 7, …)"
+  status: open
+  type: missing-link
+  severity: low
+  table: verses
+  records:
+    - { id: recrZ3Logptrzcets, key: "John.7.42 (Bethlehem)" }
+    - { id: recVTjtHdzXEoNby4, key: "Luke.4.44 (Galilee)" }
+    - { id: recHqUU7kBjso1IGC, key: "2Chr.32.2 (Jerusalem; one of 7 in 2 Chr 30-32)" }
+    - { id: rech9JoYI4KHU7c39, key: "Acts.7.2 (Charran)" }
+  field: places, mdText, richText
+  current: >-
+    45 place names in 43 KJV verses have no tag for that place, although a
+    matching place record exists. Examples: John 7:42 Bethlehem; Luke 4:44 and
+    23:6 Galilee; 2 Chr 30:26, 31:4, 32:2, 32:9, 32:10, 32:12, 32:18,
+    Jer 8:5 and Luke 24:49 Jerusalem; Mark 14:67 Nazareth; Matt 2:18 Rama;
+    Luke 11:32 Nineve; Mark 6:11 Sodom and Gomorrha; Acts 7:2 and 7:4
+    Charran; Gen 4:16 Eden; Gen 13:18 Mamre; 1 Sam 17:1, 2 Chr 28:18 and
+    1 Kgs 4:10 Socoh; Jer 2:16 Tahapanes; Isa 30:33 Tophet; 1 Kgs 7:46
+    Zarthan; Neh 11:29 Zareah; Josh 19:43 Thimnathah; Ezra 2:59 Addan;
+    2 Kgs 19:37 and Isa 37:38 Armenia; Amos 8:14 Samaria and Beersheba;
+    Hos 9:13 Tyrus; Acts 20:4 Asia; 2 Kgs 10:1 Jezreel.
+  proposed: >-
+    Add the place tag to the places array and the inline link in mdText and
+    richText for each row of the CSV (column theo_group gives the candidate
+    records; pick the right one where there are several). Add an automated
+    rule: a place name, or a KJV spelling of one, appears in a verse with no
+    tag for that place.
+  evidence: >-
+    The KJV verse text names each place (column kjv in the CSV). The record
+    for each place already exists in json/places.json.
+  checks:
+    - { record: recrZ3Logptrzcets, field: places, contains: rec81f3wE4gATsRRE }
+    - { record: rech9JoYI4KHU7c39, field: mdText, matches: "/place/haran_527" }
+  rule: kjv-place-name-untagged (proposed)
+  found: { date: 2026-11-23, by: "Revised TIPNR cross-check (pre-publication TIPNR shared by David Instone-Brewer after STEPBible-Data #81)", sha: 95c381d }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [theographic-web]
+  notes: >-
+    The places counterpart of DQ-0101.
+    /workspace/tipnr-revised/out/N3_named_places_untagged_clean.csv (45
+    rows). How found: TIPNR place references missing from Theographic
+    (P5_tipnr_verse_missing_in_theo_place.csv, 698 rows), kept only where
+    the KJV verse contains the place name or its KJV spelling. National and
+    collective uses ("children of Ammon", Israel/Judah as a nation) are out
+    of scope here; they're DQ-0024. Gen 12:5 Canaan-as-person is DQ-0028.
+    Gen 18:1, Acts 7:16, Deut 34:1 and Amos 8:14 Dan are mislinks, not gaps
+    (DQ-0110). Circularity caveat: this rests on the KJV text, not TIPNR.
+    Effort: Small.
+
+- id: DQ-0112
+  title: "No place records for Bajith, Bithron, Hazerim, the great stone of Abel, or the Upper Pool, though the KJV names them"
+  status: needs-research
+  type: missing-record
+  severity: low
+  table: places
+  records:
+    - { id: recStbvLGV73b1V46, key: "Isa.15.2 (Bajith)" }
+    - { id: rechAwDsQCqwgeQuI, key: "2Sam.2.29 (Bithron)" }
+    - { id: recjrdaBc359C23V6, key: "Deut.2.23 (Hazerim)" }
+    - { id: rech3Pe2J7Wze4fPs, key: "1Sam.6.18 (great stone of Abel)" }
+    - { id: recmTWiNveI2WjCbB, key: "2Kgs.18.17 (upper pool)" }
+    - { id: recu8khC15A7h1G6U, key: "Isa.7.3 (upper pool)" }
+  field: null
+  current: >-
+    No Theographic place records and no tags for: Bajith (Isa 15:2 "He is
+    gone up to Bajith"), Bithron (2 Sam 2:29 "went through all Bithron"),
+    Hazerim (Deut 2:23 "the Avims which dwelt in Hazerim"), the great stone
+    of Abel (1 Sam 6:18 "unto the great stone of Abel"), and the Upper Pool
+    (2 Kgs 18:17; Isa 7:3, 36:2 "the conduit of the upper pool"). The
+    revised TIPNR lists all five as places. OpenBible has no article for
+    Abel (1 Sam 6:18), Bajith, Bithron or Hazerim.
+  proposed: >-
+    Decide which are place names. Easton has entries for Bajith, Hazerim
+    and the conduit of the upper pool. TIPNR itself marks some "not a place
+    name?", and modern versions translate Bajith ("the temple"), Bithron
+    ("the ravine") and Hazerim ("villages"). For those kept, draft new place
+    records (no coordinates unless a source gives one; the Upper Pool can
+    take a Jerusalem-area point) with verses and Easton links, for Robert's
+    review before any write. Then tag the verses in arrays, mdText and
+    richText.
+  evidence: >-
+    The KJV verses above. Easton "Bajith", "Hazerim", "Conduit" (the upper
+    pool). The revised TIPNR has place records for each, with "Not in
+    OpenBible" for Abel (1 Sam 6:18), Bajith, Bithron and Hazerim.
+  checks: []
+  rule: null
+  found: { date: 2026-11-23, by: "Revised TIPNR cross-check (pre-publication TIPNR shared by David Instone-Brewer after STEPBible-Data #81)", sha: 95c381d }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [theographic-web]
+  notes: >-
+    New records need Robert's review before any write. Lair (2 Kgs 19:13,
+    Isa 37:13), the same class, stays under DQ-0097. How found:
+    /workspace/tipnr-revised/out/P3_tipnr_not_in_openbible.csv and
+    P1_obid_coverage.csv, then checked in the KJV and Easton. This is
+    David Instone-Brewer's claim B ("places hidden as common nouns").
     Effort: Small.
