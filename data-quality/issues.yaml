@@ -4731,6 +4731,39 @@
     /workspace/dq109-108/dq0108_applied.csv. Still open: the 3 + 4 holds,
     the 20 skipped label rows and the GeoJSON sync (the 11 homonym
     aliases are tracked in DQ-0107).
+    Hold review, Nov 24 2026 (Robert's decisions on the 7 holds, one by
+    one). (1) baal-hamon_141: openBibleUri set to a304bb7 (Baal-hamon),
+    replacing a341fe8 (Mount Hermon), and openBibleLat/Long cleared, so it
+    displays no point (same treatment as chilmad_292 and hashmonah_531 under
+    DQ-0113). Reason: Song 8:11 is not Hermon, so the id is now right, but
+    the site is unknown (Easton: "supposed to be identical with Baal-gad,
+    and also with Hammon in the tribe of Asher… Others identify it with
+    Belamon… near Dothaim"), and OpenBible's only point for a304bb7 is its
+    generic Jerusalem placeholder (31.776667, 35.234167). Before: openBible
+    33.41615982, 35.85725618 (Hermon area), displayed the same; no Pleiades
+    link, no aliases. After (re-read and verified): openBibleUri a304bb7,
+    openBibleLat/Long empty, displayed latitude/longitude empty; no other
+    field changed. Backup: /workspace/dq109-108/dq0108_holds_backup.csv.
+    The GeoJSON still has a point for it and lags until the sync (DQ-0072).
+    (2) shihor_1076: no change; keeps a7a59b4 (Brook of Egypt). No split.
+    Reason: Josh 13:3 "Sihor, which is before Egypt" fits Wadi el-Arish
+    (Easton); the Nile sense of Isa 23:3 is acknowledged but not split out.
+    (3) merom_785: no change; keeps its current link and point near Lake
+    Huleh. Reason: Easton identifies the waters of Merom (Josh 11:5) with
+    Lake Huleh; OpenBible's Waters of Merom a6ee047 sits at Meiron, 19 km
+    SW. (4) zalmon_1237: no change; stays an alias of mount_zalmon_858.
+    Reason: Easton ties Ps 68:14 ("Salmon") to Zalmon near Shechem
+    (Judg 9:48); OpenBible puts Zalmon at Jebel Druze. (5) rumah_1014: no
+    change; stays an alias of arumah_98. Reason: Easton, "probably" the same
+    as Arumah; the alternative is Tell Rumeh in Galilee (OpenBible).
+    (6) kartah_671: no change; stays an alias of kitron_706. The linkage
+    needs research, logged as DQ-0115. (7) geba_448: no change; stays an
+    alias of geba_447. Reason: Easton files 2 Sam 5:25 under Geba of
+    Benjamin; the parallel 1 Chr 14:16 reads Gibeon, which is why
+    OpenBible's Geba 2 (a2d3ca1) sits near Gibeon, 7 km W. DQ-0108 stays
+    open: the four label-only rows that moved more than 5 km (hormah_580,
+    mount_zemaraim_859, nahaliel_870, gibeath-haaraloth_469) still need
+    Robert's OK, and the batch-3 skips remain.
 
 
 - id: DQ-0109
@@ -5234,3 +5267,57 @@
     a mid-sea point stands for the whole sea without picking a crossing
     site. No Airtable change. A shared-point or OpenBible-distance check
     should skip this record. Related: DQ-0109, DQ-0113, DQ-0031, DQ-0072.
+
+- id: DQ-0115
+  title: "Research whether kartah_671 (Josh 21:34) should be an alias of kitron_706"
+  status: open
+  type: bad-link
+  severity: low
+  table: places
+  records:
+    - { id: recprjFRXrCtT9kQ8, key: "kartah_671 (alias of kitron_706; openBibleUri ae5cc46 Kitron)" }
+    - { id: recpWDOal3kgn43RZ, key: "kitron_706 (Judg 1:30; stored 32.753141, 35.279335)" }
+    - { id: recxMzVcOH9Xl3F2D, key: "kattath_673 (alias of kitron_706; openBibleUri a6536c9 Kattath)" }
+  field: canonicalPlace
+  current: >-
+    kartah_671 (Josh 21:34, "Kartah with her suburbs", a Merarite city of
+    Zebulun) is an alias of kitron_706 and displays Kitron's point
+    (32.753141, 35.279335). kattath_673 (Josh 19:15) is also an alias of
+    kitron_706. OpenBible keeps Kartah separate (ac0f6e7) at Khirbet el
+    Qureiyeh (33.111944, 35.4625; its candidates are "another name for
+    Kartan", Chisloth-tabor and Athlit), which is outside Zebulun.
+  proposed: >-
+    Research only. Decide whether Kartah is the same place as Kattath and
+    Kitron (keep the alias), or a separate, unidentified Zebulun town (unlink
+    it and give it no point or its own point). No Airtable change until
+    Robert decides.
+  evidence: >-
+    Easton and Wikipedia: Kartah is identical with Kattath and perhaps
+    Kitron. Anchor Yale Bible Dictionary (Hunt): most scholars equate
+    Kattath with Kitron (both named beside Nahalal), but Kallai dissents.
+    TIPNR merges Kitron, Kartah and Kattath at Theographic's Kitron point;
+    not independent, because TIPNR copies Theographic's coordinates.
+    BibleHub puts Kattath/Kitron at Tell Qiri. Jericke (Oxford Dictionary of
+    Geography) lists Tell el-Far, Khirbet Qutteina, Tell Kerdane and
+    Sepphoris as Kitron candidates, none secure. Watchtower: Tell el-Far.
+    BibleAquifer: no identification; notes that the parallel list in
+    1 Chr 6:77 omits Kartah. OpenBible: Kartah ac0f6e7 separate (Khirbet el
+    Qureiyeh, 33.111944, 35.4625); Kattath a6536c9 = "another name for
+    Kitron", Khirbet Qutteina (32.62558, 35.03215), which is also
+    OpenBible's first identification for Kitron ae5cc46.
+  checks: []
+  rule: null
+  found: { date: 2026-11-24, by: "DQ-0108 hold review (Robert)", sha: null }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [theographic-web, geo]
+  notes: >-
+    Logged from the DQ-0108 hold review on Nov 24 2026 (Robert kept the
+    alias for now). Priority Low, category Places. Correction to the note
+    given with the request: kitron_706's stored point is 32.753141,
+    35.279335, not Khirbet Qutteina. Khirbet Qutteina (32.62558, 35.03215)
+    is OpenBible's point for Kattath a6536c9 and Kitron ae5cc46, and is
+    kattath_673's stored point since the DQ-0108 batch 3 fix. kitron_706's
+    stored point is about 27 km from OpenBible's Kitron point and matches
+    none of the candidates above, so it may be another stale point (compare
+    DQ-0109). Related: DQ-0108, DQ-0109, DQ-0072. Effort: Small.
