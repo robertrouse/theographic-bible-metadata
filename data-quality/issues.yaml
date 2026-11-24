@@ -891,7 +891,32 @@
   github: null
   affects: [geo]
   notes: >-
-    Root cause: GeoJSON is built on the geo-pipeline branch with no write-back to Airtable. Rerunnable check at /workspace/dq-geo/geo_check.py.
+    Root cause: GeoJSON is built on the geo-pipeline branch with no write-back
+    to Airtable. Rerunnable check at /workspace/dq-geo/geo_check.py. Fresh
+    comparison on Nov 24 2026 (America/Chicago): 492 canonicals differ by over
+    1 km (362 at 1-25 km, 130 over 25 km, 17 over 500 km), down from 678 on
+    Nov 7; 40 canonicals have a GeoJSON point and no Airtable point (was 22).
+    Including aliases and missing-on-one-side, 651 records differ. Files in
+    /workspace/dq0031/. Group decisions (Robert, Nov 24 2026; direction only,
+    no Airtable or GeoJSON write; the GeoJSON write stays under DQ-0072, on
+    hold). Group C (110 aliases): Airtable already shows the canonical point
+    on every record, so GeoJSON should follow that Airtable point for all
+    aliases except mizpeh_814 (waits on DQ-0107, because its canonical
+    kir_693 is still in research: Kerak vs Mesopotamia) and river_1010 (waits
+    on DQ-0089, because its canonical euphrates_421 / river_244 is still in
+    research). The three aliases whose canonical has no point —
+    abel-mizraim_9 (atad_112), moserah_823 (moseroth_824, DQ-0113), and
+    valley_of_the_passengers_1227 (valley_of_hamongog_1205, DQ-0113) — should
+    become unlocated in the GeoJSON. Group A (10 Pleiades-confident matches):
+    Airtable already displays the Pleiades point, and Pleiades is
+    authoritative when the match is confident, so GeoJSON should follow
+    Pleiades for riblah_1002, decapolis_328, syrtis_1123, gaza_446,
+    lystra_742, rhodes_1000, kamon_665, thessalonica_1158, syracuse_1121, and
+    kadesh-barnea_663. Of 225 confident Pleiades matches, the other 214
+    already agree with GeoJSON within 1 km. A separate research item,
+    DQ-0117, asks whether riblah_1002 (Num 34:11, Riblah of Shepham) is a
+    different place from Riblah on the Orontes; check that before DQ-0072
+    overwrites the GeoJSON "Riblah (of Shepham)" geometry.
 - id: DQ-0032
   title: Missing or half-filled coordinates between Airtable and GeoJSON
   status: open
@@ -5436,3 +5461,66 @@
     backed up in /workspace/dq109-108/dq0108_skips_backup.csv) is about
     1.2 km from OpenBible Hammon 1. New records need Robert's review before
     any write. Related: DQ-0108, DQ-0072. Effort: Small.
+
+- id: DQ-0117
+  title: "Research whether Riblah of Shepham (Num 34:11) is a separate place from Riblah on the Orontes"
+  status: needs-research
+  type: wrong-value
+  severity: low
+  table: places
+  records:
+    - { id: recTIHqZ7BB8IVwFt, key: "riblah_1002 (Num 34:11; Pleiades 431124909 at 34.432149, 36.549142)" }
+    - { id: recwejjn5PDlbkVgH, key: "riblah_1001 (2 Kgs 23:33, 25:6, 25:20-21; Jer 39:5-6, 52:9-10, 52:26-27; Ezek 6:14)" }
+  field: latitude, longitude, pleiadesUri
+  current: >-
+    Theographic already has two Riblah records. riblah_1002 holds only
+    Num 34:11 ("the coast shall go down from Shepham to Riblah, on the
+    east side of Ain; and the border shall descend, and shall reach
+    unto the side of the sea of Chinnereth eastward") in the
+    description of Israel's northern boundary. Since the DQ-0109
+    review it displays Pleiades 431124909 at 34.432149, 36.549142
+    (Riblah on the Orontes / Ribleh). Its OpenBible article is ac95bd8
+    at 34.353071, 36.385705, about 19 km southwest of that Pleiades
+    point but still in the same northern area. The GeoJSON feature
+    linked to riblah_1002 is titled "Riblah (of Shepham)" and sits at
+    33.536944, 36.366111, about 101 km south of the Pleiades point.
+    riblah_1001 holds the 11 Orontes verses (2 Kgs 23:33, 25:6, 25:20-21;
+    Jer 39:5-6, 52:9-10, 52:26-27; Ezek 6:14), displays 34.431703,
+    36.545259 (OpenBible ab2bde8), and has the same Pleiades URI but no
+    stored Pleiades coordinates.
+  proposed: >-
+    Research only. Decide whether Num 34:11 names a different Riblah
+    (the "Riblah of Shepham" on Israel's northern border) from Riblah
+    on the Orontes, where Pharaoh and Nebuchadnezzar sat in judgment.
+    If they are distinct, move riblah_1002 off the Orontes Pleiades
+    point — either to a Shepham-area site or to no point. If they are
+    the same place, keep the Pleiades point and let GeoJSON follow it
+    under DQ-0072. No Airtable or GeoJSON change until Robert decides.
+  evidence: >-
+    Num 34:11 lists Riblah in the northern-border itinerary with Shepham
+    and the sea of Chinnereth (Galilee). 2 Kgs 23:33, 25:6 and Jer 39:5,
+    52:9 place Riblah in the land of Hamath, on the Orontes, as the
+    Egyptian and Babylonian headquarters. Pleiades 431124909
+    (34.432149, 36.549142) is that Orontes site. OpenBible ac95bd8
+    (used on riblah_1002) is 34.353071, 36.385705, about 19 km from
+    Pleiades, not at the GeoJSON Shepham pin. The GeoJSON feature for
+    riblah_1002 is titled "Riblah (of Shepham)" at 33.536944, 36.366111,
+    101 km from the Pleiades point. Some identifications put the
+    border Riblah farther south, closer to the springs east of the
+    Beqaa or to a site near the Sea of Galilee; others treat the two
+    names as the same Hamath Riblah.
+  checks: []
+  rule: null
+  found: { date: 2026-11-24, by: "DQ-0031 Group A review (Robert)", sha: null }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [theographic-web, geo]
+  notes: >-
+    Logged from the DQ-0031 Group A review on Nov 24 2026 (America/Chicago).
+    Priority Low, category Places. Robert approved the Group A direction
+    that GeoJSON should follow Pleiades for all 10 Pleiades-confident
+    mismatches, including riblah_1002, but also asked that this identity
+    question be logged. The GeoJSON write stays under DQ-0072 (on hold);
+    that work should check this item before overwriting the "Riblah
+    (of Shepham)" geometry. Related: DQ-0031, DQ-0072, DQ-0109. Effort:
+    Small.
