@@ -4573,6 +4573,10 @@
     proposed aeea26d was not applied. Backup:
     /workspace/dq109-108/aliases3_backup.csv. The other records here are
     unchanged; status stays open.
+    Nov 24 2026, via DQ-0108: gederah_452 moved to a12012d (Gederah 1,
+    31.688903, 34.996117), so gederoth_453, an alias of it, now displays
+    that point. gederoth_453 itself was not changed and still carries
+    Geder's id.
 
 
 - id: DQ-0108
@@ -4632,7 +4636,8 @@
   checks:
     - { record: recZuw7dAJ1x1EUfb, field: openBibleUri, matches: "a8da370$" }
     - { record: recVMgLyBVZ3c8jaf, field: openBibleUri, matches: "ab55371$" }
-    - { record: reckp306GdVeCP6ow, field: openBibleUri, matches: "a304bb7$" }
+    - { record: recbCUdlemxNGIKfQ, field: openBibleUri, matches: "ae0bf4a$" }
+    - { record: recF5IgX3dVt18Azk, field: openBibleUri, matches: "a12012d$" }
     - { record: recIfDBpgcDqrLwwu, field: openBibleUri, matches: "aba3717$" }
   rule: openbible-id-matches-verses (proposed)
   found: { date: 2026-11-23, by: "Revised TIPNR cross-check (pre-publication TIPNR shared by David Instone-Brewer after STEPBible-Data #81)", sha: 95c381d }
@@ -4649,6 +4654,84 @@
     corrected points must reach the GeoJSON. Circularity caveat: this rests
     on OpenBible's own verse lists, plus the KJV and Easton for the
     examples. Effort: Medium.
+    Correction to the count above: the "26 display-moving rows" are 14
+    non-alias rows plus 12 alias rows. The 12 aliases have a canonicalPlace,
+    so their display follows the main record and does not move; only their
+    stored openBible fields and id label change. Only the 14 actually move
+    the display. Source table: /workspace/dq109-108/tableB_dq0108_26.csv.
+    Applied in Airtable on Nov 24 2026 (Robert's approval), in three
+    batches; every touched record was backed up, re-read and verified, and
+    nothing outside openBibleUri and openBibleLat/Long changed (only the
+    formula, rollup and last-modified fields that depend on them).
+    (1) Clear movers, 11 of the 14 non-alias rows: rimmon_1004 → a8da370,
+    kir-hareseth_694 → ab55371, jezreel_644 → ae0bf4a, ayyah_125 → aba3717,
+    plain_of_jordan_654 → aa54aa4, mount_ephraim_833 → ac0d1a5, kerioth_683
+    → a2d84de, neah_879 → a2a77d2, almon-diblathaim_50 → aeb052c,
+    beth-diblathaim_199 → ac99af3, each with that article's point in
+    openBibleLat/Long. gederah_452 → a12012d (Gederah 1, 31.688903,
+    34.996117), not the suggested a52e310. Reason: a52e310 (Gederah 2, near
+    Gibeon) carries only 1 Chr 12:4 ("Josabad the Gederathite"); the
+    record's main verse is Josh 15:36, Gederah in the Shephelah of Judah
+    (Easton "Gederah"), which OpenBible puts on a12012d. 1 Chr 12:4 may
+    deserve its own record later. Held, 3: baal-hamon_141 (the id a304bb7 is
+    right, Song 8:11 is not Hermon, but OpenBible's point for Baal-hamon is
+    its generic Jerusalem point 31.776667, 35.234167 because the site is
+    unknown, so the display would move to Jerusalem); shihor_1076 (one
+    record mixes Isa 23:3, the Nile, with Josh 13:3, "before Egypt", probably
+    Wadi el-Arish per Easton; the suggested Shihor 2 covers only Isa 23:3,
+    1 of 2 verses); merom_785 (Josh 11:5 "waters of Merom": Easton's Lake
+    Huleh is nearer the current point than OpenBible's Meiron point, 19 km
+    away). (2) Alias ids, 8 of the 12 alias rows: greece_495 → a4492a0,
+    en-rimmon_394 → ab28e2e, arabah_260 → a5983ec, ramoth_982 → ab049cf,
+    arimathea_90 → af3d9fc, geliloth_457 → a0c9a06, hapharaim_524 →
+    a6309c7, gederothaim_454 → a12012d, with the article's point stored in
+    openBibleLat/Long as in the DQ-0109 pass. Held, 4, because the alias
+    link itself is disputed and the stored point would move 7-145 km:
+    zalmon_1237 (Ps 68:14; Easton ties Salmon to Zalmon near Shechem, the
+    current alias, while OpenBible puts it at Jebel Druze); rumah_1014
+    (2 Kgs 23:36; Easton "probably" Arumah, the current alias; OpenBible
+    Tell Rumeh in Galilee); kartah_671 (Josh 21:34; Easton says identical
+    with Kattath and perhaps Kitron, the current alias; OpenBible keeps it
+    separate); geba_448 (2 Sam 5:25; the parallel 1 Chr 14:16 reads Gibeon,
+    Easton files it under Geba of Benjamin, the current alias). (3) Id label
+    fixes from N1_wrong_openbible_id.csv: 105 of 125 applied (95 of the 114
+    "label only" rows, including hormah_580 → ada25df Tel Masos, which
+    DQ-0109 was waiting on; and 10 of the 11 "Pleiades sets display" rows:
+    tamar_1134, pekod_928, nophah_905, lebo-hamath_723,
+    mount_baalhermon_829, asshur_109, cun_311, kanah_667,
+    kedesh-naphtali_679, beth-barah_194, all aliases whose display follows
+    their main record). Each takes the article OpenBible attaches to all of
+    the record's verses, and that article's first identification point.
+    Skipped, 20: 13 already in another ledger item (mount_zion_860 DQ-0094,
+    zion_1263 DQ-0018/DQ-0094, hamath_516 DQ-0097, ivvah_605 DQ-0097,
+    rabbah_966 DQ-0090, aphekah_74 DQ-0093, caphtor_275 DQ-0093, hazor_547
+    DQ-0079, heliopolis_557 DQ-0084, river_1010 DQ-0035/DQ-0089,
+    abel-mizraim_9, bealoth_161 and kiriathaim_696 DQ-0072); 9 where the
+    target article holds only some of the record's verses (babylon_151
+    247/255, hamath_516 21/23, rabbah_966 13/14, ethiopia_419 3/4,
+    gate_of_ephraim_438, hammon_519, hazazon-tamar_542 and nobah_901 1/2,
+    river_1010 1/10; 3 of these are also in the first group);
+    valley_of_baca_1199 (target article has no point). Display effects: the 11 batch-1 records moved 0.1
+    to 359 km (rimmon_1004 359, ayyah_125 90, mount_ephraim_833 35,
+    gederah_452 26, neah_879 21, almon- and beth-diblathaim_50/199 16,
+    kerioth_683 5, plain_of_jordan_654 1, jezreel_644 and kir-hareseth_694
+    under 1). Their aliases follow: en-rimmon_394 with rimmon_1004, and
+    gederothaim_454 and gederoth_453 (a DQ-0107 record, itself unchanged)
+    with gederah_452. In batch 3 most "label only" rows moved under 5 km, but
+    the stored points of four were stale placeholders, so they moved more:
+    hormah_580 48 km (zephath_1251 follows), mount_zemaraim_859 23 km
+    (onto OpenBible's Ras et-Tahuneh, the same point as its old article
+    Zemaraim), nahaliel_870 11 km and gibeath-haaraloth_469 6 km. Batch-3
+    aliases that follow their main record: ebron_352 (abdon_3), ptolemais_959
+    (acco_15), alemeth_45 (almon_49), beth-horon_733 (beth-horon_214),
+    abel-shittim_10 (shittim_1086). The GeoJSON was not changed (DQ-0072),
+    so it now lags Airtable for every record whose display moved. Backups:
+    /workspace/dq109-108/dq0108_batch1_backup.csv, dq0108_batch2_backup.csv,
+    dq0108_batch3_backup.csv; full list of changes and skips:
+    /workspace/dq109-108/dq0108_applied.csv. Still open: the 3 + 4 holds,
+    the 20 skipped label rows and the GeoJSON sync (the 11 homonym
+    aliases are tracked in DQ-0107).
+
 
 - id: DQ-0109
   title: "157 places sit on 76 shared placeholder points in Airtable (e.g. Simeon towns in Gilead); the GeoJSON already has the right OpenBible point for 150"
@@ -4810,8 +4893,21 @@
     does not fit and should be updated at sync (DQ-0072). The old
     placeholder was 33.125828, 35.165. Backup: zer_backup.csv. Both
     re-read and verified; no aliases follow either.
-    Hand review is now complete. Remaining: the 10 records sharing a wrong OpenBible id with the GeoJSON.
-    Status stays open until those are resolved.
+    Hand review is now complete. Remaining: the 10 records sharing a wrong
+    OpenBible id with the GeoJSON.
+    DQ-0108 follow-up, Nov 24 2026: the 6 of those 10 that waited on DQ-0108
+    now have the right id and display that article's point, re-read and
+    verified: rimmon_1004 (a8da370 Rimmon 2, 31.38333, 34.86564),
+    jezreel_644 (ae0bf4a Jezreel 2, 32.557853, 35.327953),
+    plain_of_jordan_654 (aa54aa4 Jordan Valley, 32.317222, 35.57),
+    gederah_452 (a12012d Gederah 1, 31.688903, 34.996117), kir-hareseth_694
+    (ab55371, 31.180556, 35.701389) and hormah_580 (ada25df Hormah, Tel
+    Masos, 31.212285, 34.958277). The other 4 were not changed and still
+    show wrong points: river_244 (generic Jerusalem point on the Euphrates
+    id; DQ-0089), valley_of_shaveh_1216 (generic Jerusalem point; DQ-0083),
+    canneh_273 (32.127213, 45.229995 in southern Iraq; DQ-0086) and kir_693
+    (Kir-hareseth's Moab point; DQ-0107). Status stays open until those 4
+    are resolved under their own items.
 
 - id: DQ-0110
   title: "Verses tagged to the wrong namesake: Jezreel (1 Sam 29), Achaia linked to Asia, Mamre/Sychem/Dan linked to persons, Meshech-Tubal, Aroer (1 Chr 5:8)"
