@@ -4581,7 +4581,7 @@
 
 - id: DQ-0108
   title: "Place records carry a neighbour's or namesake's OpenBible id (Rimmon on Ain in Lebanon, Kir-hareseth on Kir, Baal-hamon on Hermon, Ayyah on Gaza, …)"
-  status: open
+  status: fixed
   type: wrong-value
   severity: medium
   table: places
@@ -4641,7 +4641,7 @@
     - { record: recIfDBpgcDqrLwwu, field: openBibleUri, matches: "aba3717$" }
   rule: openbible-id-matches-verses (proposed)
   found: { date: 2026-11-23, by: "Revised TIPNR cross-check (pre-publication TIPNR shared by David Instone-Brewer after STEPBible-Data #81)", sha: 95c381d }
-  fixed: { date: null, sha: null }
+  fixed: { date: 2026-11-24, sha: null }
   github: null
   affects: [theographic-web, geo]
   notes: >-
@@ -4823,6 +4823,19 @@
     (DQ-0018, 0035, 0072, 0079, 0084, 0089, 0090, 0093, 0094, 0097) are
     handled there. The GeoJSON sync of the changed points is DQ-0072, and the
     Hammon split is DQ-0116. Status left open for Robert to close.
+    Closed as fixed on Nov 24 2026 (Robert). All Airtable work for this item
+    is done. Applied and verified: 11 movers, 8 alias ids, 105 + 6 id labels,
+    Baal-hamon (right id, no point) and Valley of Baca (right id, point
+    cleared); the other holds and skips were decided with no change. sha is
+    null until the next Airtable export carries these changes into json/
+    and CSV/ (as with DQ-0084). Leftovers tracked elsewhere: the GeoJSON
+    sync of all changed points, DQ-0072; the Hammon-in-Asher split, DQ-0116;
+    the Kartah–Kitron link, DQ-0115; and the 13 batch-3 rows that overlap
+    other items: mount_zion_860 (DQ-0094), zion_1263 (DQ-0018/DQ-0094),
+    hamath_516 and ivvah_605 (DQ-0097), rabbah_966 (DQ-0090), aphekah_74
+    and caphtor_275 (DQ-0093), hazor_547 (DQ-0079), heliopolis_557
+    (DQ-0084), river_1010 (DQ-0035/DQ-0089), abel-mizraim_9, bealoth_161
+    and kiriathaim_696 (DQ-0072).
 
 
 - id: DQ-0109
