@@ -4764,6 +4764,25 @@
     open: the four label-only rows that moved more than 5 km (hormah_580,
     mount_zemaraim_859, nahaliel_870, gibeath-haaraloth_469) still need
     Robert's OK, and the batch-3 skips remain.
+    Label-only movers approved, Nov 24 2026: Robert reviewed the four batch-3
+    rows whose display moved more than 5 km and kept all four as applied (no
+    Airtable change). hormah_580: was a6163e0 (Zephath) with a stale stored
+    point 30.880918, 34.63062 that matches no OpenBible article or
+    candidate; now ada25df (Hormah), Tel Masos 31.212285, 34.958277 (48.3
+    km). Judg 1:17 names Zephath as Hormah, and OpenBible's Zephath and
+    Hormah share the Tel Masos point. Tel Masos is the leading
+    identification (OpenBible's alternatives are Tel Halif and Tel Malhata;
+    Robert's note also mentions Tel Ira). zephath_1251 follows it.
+    mount_zemaraim_859: was a811a10 (Zemaraim, the Benjamin town of
+    Josh 18:22) with a stale Jordan-valley point 31.910999, 35.45728; now
+    a5a92d1 (Mount Zemaraim) 31.90879, 35.2117 (23.2 km). 2 Chr 13:4 puts
+    it "in mount Ephraim", in the hill country. nahaliel_870: was adaef13
+    (Lasha, the wrong article) with a stale point 31.718148, 35.584826; now
+    a8dafd6 (Nahaliel) 31.618056, 35.567222 (11.3 km), on the march through
+    Moab in Num 21:19. gibeath-haaraloth_469: was ab94aea (Gilgal 1) with a
+    stale point 31.86378328, 35.51854651; now a97126d (Gibeath-haaraloth)
+    31.881883, 35.459969 (5.9 km), at OpenBible's Gilgal point, which fits
+    Josh 5:3. DQ-0108 stays open because batch-3 skips remain.
 
 
 - id: DQ-0109
