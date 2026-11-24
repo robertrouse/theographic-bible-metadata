@@ -4771,8 +4771,7 @@
     candidate; now ada25df (Hormah), Tel Masos 31.212285, 34.958277 (48.3
     km). Judg 1:17 names Zephath as Hormah, and OpenBible's Zephath and
     Hormah share the Tel Masos point. Tel Masos is the leading
-    identification (OpenBible's alternatives are Tel Halif and Tel Malhata;
-    Robert's note also mentions Tel Ira). zephath_1251 follows it.
+    identification (OpenBible's alternatives are Tel Halif and Tel Malhata). zephath_1251 follows it.
     mount_zemaraim_859: was a811a10 (Zemaraim, the Benjamin town of
     Josh 18:22) with a stale Jordan-valley point 31.910999, 35.45728; now
     a5a92d1 (Mount Zemaraim) 31.90879, 35.2117 (23.2 km). 2 Chr 13:4 puts
@@ -4783,6 +4782,47 @@
     stale point 31.86378328, 35.51854651; now a97126d (Gibeath-haaraloth)
     31.881883, 35.459969 (5.9 km), at OpenBible's Gilgal point, which fits
     Josh 5:3. DQ-0108 stays open because batch-3 skips remain.
+    Skip review, Nov 24 2026 (Robert's decisions on the 7 batch-3 skips for
+    partial verses or no point; openBibleUri changes only, backed up to
+    /workspace/dq109-108/dq0108_skips_backup.csv and re-read; no alias link
+    changed and no displayed point moved). (1) babylon_151: ab8fdbc (Babel)
+    → a217d18 (Babylon 1), openBibleLat/Long 32.53650369, 44.42088287 →
+    32.543333, 44.422222. Display stays on Pleiades 893951 (32.537297,
+    44.424978). Reason: Babylon 1 carries 247 of the record's 255 verses.
+    The rest are Jer 25:26 (Sheshach) and NT Babylon-as-Rome (1 Pet 5:13 and
+    six in Revelation), which OpenBible files as Babylon 2/3 at Rome; Robert
+    chose not to split. (2) ethiopia_419 (alias of cush_312): ac5a1ec →
+    ab45bd3 (Ethiopia), stored 21.959788, 31.343557 → 16.935139, 33.75075.
+    Covers 3 of 4 verses; Gen 2:13 (the Gihon of Eden) is filed separately
+    by OpenBible. Display follows Cush (21.959788, 31.343557, unchanged).
+    (3) gate_of_ephraim_438: no change; keeps a7b6270 (Ephraim Gate), which
+    covers Neh 8:16. The suggested a4eb961 (Gate of the Guard) is a
+    different gate. (4) hammon_519 (alias of hammath_518): a2d6bfc →
+    a62236c (Hammon 2), stored 33.125828, 35.165 → 32.766368, 35.550553,
+    which fits 1 Chr 6:76 (Hammon of Naphtali, = Hammath). Display follows
+    the main record's Pleiades point (32.760506, 35.547652, unchanged).
+    Josh 19:28 (Hammon in Asher) is a different town; its split is logged
+    as DQ-0116. (5) hazazon-tamar_542 (alias of engedi_389): a51df0e →
+    a887a2d (Hazazon-tamar 2), stored 31.46152536, 35.39241108 → 31.45,
+    35.383333. 2 Chr 20:2 equates it with En-gedi. Gen 14:7 (OpenBible
+    Hazazon-tamar 1 a4d6a38, near Tamar, 30.8087, 35.2459) stays on the same
+    record; Robert chose not to split. Display follows En-gedi (31.46152536,
+    35.39241108, unchanged). (6) nobah_901 (alias of kenath_682): a4f650b →
+    aa23a3e (Nobah 1), not the planned a9bf50d (Nobah 2); stored 32.756919,
+    36.6164 → 32.75616, 36.61899. Reason: Num 32:42, Nobah is Kenath
+    renamed, which matches the alias; Judg 8:11 is OpenBible's Nobah 2 at
+    the same point. Display follows Kenath's Pleiades point (32.754205,
+    36.618355, unchanged). (7) valley_of_baca_1199 (alias of
+    valley_of_hinnom_1207): a37c8e6 → a1f363e (Valley of Baca);
+    openBibleLat/Long 31.769079, 35.227994 cleared, because OpenBible's
+    article has no point. The alias stays, and the display still follows
+    Hinnom (31.769079, 35.227994, unchanged).
+    Left in DQ-0108 after this review: no record work. The 7 holds, the 7
+    partial-verse/no-point skips and the 4 large label-only moves are all
+    decided. The 13 batch-3 rows skipped because they sit in other items
+    (DQ-0018, 0035, 0072, 0079, 0084, 0089, 0090, 0093, 0094, 0097) are
+    handled there. The GeoJSON sync of the changed points is DQ-0072, and the
+    Hammon split is DQ-0116. Status left open for Robert to close.
 
 
 - id: DQ-0109
@@ -5340,3 +5380,46 @@
     stored point is about 27 km from OpenBible's Kitron point and matches
     none of the candidates above, so it may be another stale point (compare
     DQ-0109). Related: DQ-0108, DQ-0109, DQ-0072. Effort: Small.
+
+- id: DQ-0116
+  title: "Split Josh 19:28 (Hammon in Asher) off hammon_519 into its own place record"
+  status: open
+  type: duplicate-record
+  severity: low
+  table: places
+  records:
+    - { id: recEfNbXnb60Qu7Fe, key: "hammon_519 (alias of hammath_518; now a62236c Hammon 2)" }
+    - { id: reclzgV7mRRSxyhph, key: "hammath_518 (main record)" }
+  field: verses, canonicalPlace, openBibleUri
+  current: >-
+    hammon_519 holds two different towns: Hammon in Asher (Josh 19:28,
+    near Kanah and Sidon) and Hammon of Naphtali (1 Chr 6:76, = Hammath by
+    the Sea of Galilee). It is an alias of hammath_518, so Josh 19:28
+    displays at Hammath. Since DQ-0108 its openBibleUri is a62236c
+    (Hammon 2, 32.766368, 35.550553), which fits 1 Chr 6:76. Before that,
+    its own stored point (33.125828, 35.165) was the Asher site.
+  proposed: >-
+    Create a new Hammon-in-Asher place record at OpenBible Hammon 1
+    a9d4f8e (33.128108, 35.152022), with no canonicalPlace. Retag Josh 19:28
+    from hammon_519 to it, and update the verse's mdText/richText links.
+    hammon_519 keeps 1 Chr 6:76 and stays an alias of hammath_518. Draft
+    the new record and the retag for Robert's review before any write.
+  evidence: >-
+    Josh 19:28 lists Hammon among Asher's towns ("Hebron, and Rehob, and
+    Hammon, and Kanah, even unto great Zidon"); 1 Chr 6:76 lists Hammon in
+    Naphtali with Kedesh and Kirjathaim (Hammath in Josh 21:32). OpenBible
+    files them as Hammon 1 a9d4f8e (Asher, 33.128108, 35.152022) and Hammon
+    2 a62236c (Naphtali, 32.766368, 35.550553). This came up in the DQ-0108
+    batch-3 review: the target article held only 1 of the 2 verses.
+  checks: []
+  rule: null
+  found: { date: 2026-11-24, by: "DQ-0108 skip review (Robert)", sha: null }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [theographic-web, geo]
+  notes: >-
+    Logged from the DQ-0108 skip review on Nov 24 2026. Priority Low,
+    category Places. hammon_519's earlier stored point (33.125828, 35.165,
+    backed up in /workspace/dq109-108/dq0108_skips_backup.csv) is about
+    1.2 km from OpenBible Hammon 1. New records need Robert's review before
+    any write. Related: DQ-0108, DQ-0072. Effort: Small.
