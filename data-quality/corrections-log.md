@@ -8,6 +8,10 @@ Found something that still looks wrong? [Open a data correction issue](https://g
 
 ## November 2026
 
+Fixed in Airtable on November 24. These changes reach `json/` and `CSV/` in the next export. GeoJSON is unchanged (DQ-0072 remains on hold).
+
+- **Places:** 114 places that sat on points shared with unrelated places (for example, Simeon's towns plotted in Gilead and a dozen wilderness stations on one spot) now have their own coordinates (DQ-0109). 108 use their own OpenBible point. Three now link to Pleiades and display its point: *Jotbah* (`jotbah_655`, Pleiades 678201 Iotapata), *Punon* (`punon_961`, 697726 Phaino) and *Kamon* (`kamon_665`, 678218 Kamous). Three use a different OpenBible identification that fits the verses better: *Adithaim* (`adithaim_26`, Khirbet Kheishum, in the Shephelah list of Josh 15:36 rather than Hadid near Lod), *Etam* (`etam_415`, Tell Eton, for the Simeonite town of 1 Chr 4:32) and *En-eglaim* (`eneglaim_386`, Ain Feshkha, at the north end of the Dead Sea opposite En-gedi, Ezek 47:10). Displayed coordinates follow the formula (canonical place, else Pleiades, else OpenBible), so 22 alias records such as *Tolad*, *Bealoth* and *Seir* moved with them.
+
 Fixed in Airtable on November 20. These changes reach `json/` and `CSV/` in the next export. GeoJSON is unchanged (DQ-0072 remains on hold).
 
 - **Places:** *On* (`on_908`) and its alias *Heliopolis* (`heliopolis_557`) had been given the OpenBible id for *City of Destruction* (`adca4b1`); *Destruction* (`destruction_301`) had On's id (`acd9137`) and Pleiades 727117 (Heliopolis). The OpenBible and Pleiades links now match the verses and OpenBible.info: On and Heliopolis have `acd9137` and Pleiades 727117 (Ain Shams); Destruction has `adca4b1` and no Pleiades (Isa 19:18 is only a 60% identification with Heliopolis). Displayed coordinates follow the formula (Pleiades else OpenBible). OpenBible lat/long were also updated from a stale point (30.108086, 31.33822) to OpenBible's current representative point (30.129444, 31.3075) (DQ-0084).
