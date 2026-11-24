@@ -4699,6 +4699,26 @@
     (sync direction; on hold), DQ-0081 (Baalath; its point is this
     placeholder), DQ-0091, DQ-0092. This is an Airtable fix toward the
     GeoJSON, so it doesn't need DQ-0072 to run first. Effort: Large.
+    Applied in Airtable on Nov 24 2026 (Robert's approval), after a second
+    pass over the 140 apply-now rows (/workspace/dq109-108/pass2_140.csv):
+    108 records had openBibleLat/Long set to their own OpenBible point; 3
+    got a Pleiades link and point (jotbah_655 678201 Iotapata, punon_961
+    697726 Phaino, kamon_665 678218 Kamous); 3 got a different OpenBible
+    identification from the same article (adithaim_26 Khirbet Kheishum,
+    etam_415 Tell Eton, eneglaim_386 Ain Feshkha). All 114 re-read and
+    verified; displayed latitude/longitude follow the formula, and the 22
+    aliases that follow these records now show the new points. Backup of the
+    prior values: /workspace/dq109-108/apply_backup.csv. Not applied: 20
+    kept on purpose as regional or wilderness points (DQ-0113); 6 on hold
+    (bethel_203, bethul_241, chesil_289 follow the bethuel hand review;
+    libnah_729 follows laban; riblah_1002; red_sea_986); 7 hand review
+    (dimonah, laban, chilmad, bethuel, hashmonah, enam, zer); 10 that share a
+    wrong OpenBible id with the GeoJSON and wait on that fix (rimmon_1004,
+    jezreel_644, plain_of_jordan_654, gederah_452, kir-hareseth_694,
+    hormah_580, river_244, valley_of_shaveh_1216, canneh_273, kir_693). The
+    GeoJSON was not changed (DQ-0072 on hold); it now lags Airtable for the
+    3 alternate identifications (26-49 km) and, by under 2 km, for the 3
+    Pleiades points. Status stays open until the rest are resolved.
 
 - id: DQ-0110
   title: "Verses tagged to the wrong namesake: Jezreel (1 Sam 29), Achaia linked to Asia, Mamre/Sychem/Dan linked to persons, Meshech-Tubal, Aroer (1 Chr 5:8)"
@@ -4878,3 +4898,65 @@
     P1_obid_coverage.csv, then checked in the KJV and Easton. This is
     David Instone-Brewer's claim B ("places hidden as common nouns").
     Effort: Small.
+
+- id: DQ-0113
+  title: "Regional names, peoples and lands, and unidentified wilderness stations keep a representative point on purpose (20 places from the DQ-0109 review)"
+  status: wontfix
+  type: wrong-value
+  severity: low
+  table: places
+  records:
+    - { id: recuSI1NE964vj24o, key: "ai_37 (Jer 49:3 Ai of Ammon; may be the noun 'ruin'; no locatable site; kept at 31.800520, 35.809019)" }
+    - { id: recnCcdEEzqBVi6nT, key: "hamonah_521 (Ezek 39:16 symbolic city of the Hamon-gog vision; kept at 31.496845, 35.782841)" }
+    - { id: recbHkRKRsfKeOQoB, key: "valley_of_hamongog_1205 (Ezek 39:11 prophetic valley 'east of the sea'; regional only; kept at 31.496845, 35.782841)" }
+    - { id: recMDo1B27Zp8sbBs, key: "immer_596 (place in Babylonia (Ezra 2:59); no site identified; kept at 36.359410, 43.152887)" }
+    - { id: recDSliISwQHk79qr, key: "sharon_1064 (pasturelands of Sharon in Gad/Bashan (1 Chr 5:16); a district; kept at 33.416160, 35.857256)" }
+    - { id: recWxPHj8C8Xv97bH, key: "mithkah_807 (wilderness station (Num 33:28-29), unidentified; kept at 30.317396, 35.407152)" }
+    - { id: recO5BBYiV9XXKwT5, key: "moseroth_824 (wilderness station (Num 33:30-31), near Mount Hor; unidentified; kept at 30.317396, 35.407152)" }
+    - { id: recdYOw02hOKb3Gg0, key: "mount_shapher_854 (wilderness station (Num 33:23-24), unidentified; kept at 30.317396, 35.407152)" }
+    - { id: recn5STCT0Ju40KtJ, key: "tahath_1132 (wilderness station (Num 33:26-27), unidentified; kept at 30.317396, 35.407152)" }
+    - { id: recZ31xMdjbZ4fEUF, key: "terah_1151 (wilderness station (Num 33:27-28), unidentified; kept at 30.317396, 35.407152)" }
+    - { id: recTmLtzNBGYaxeSZ, key: "casiphia_279 (place in Babylonia (Ezra 8:17); no site identified; kept at 35.136204, 36.749488)" }
+    - { id: recfesMknFZ653OLj, key: "waheb_1228 (Waheb in Suphah (Num 21:14), Moab border region; unidentified; kept at 27.088473, 34.771729)" }
+    - { id: recU8xPfFY5HMNYs5, key: "gog_484 (Gog and his land (Ezek 38-39); not one site; kept at 46.000000, 47.000000)" }
+    - { id: recbwzNRSJ9WR620p, key: "magog_754 (people/land of Magog (Ezek 38:2); not one site; kept at 46.000000, 47.000000)" }
+    - { id: recWpQiaTsrRGpl1g, key: "hara_525 (Hara (1 Chr 5:26), Assyrian exile region near Gozan, or a common noun; kept at 36.344972, 40.789333)" }
+    - { id: recQ251kc77r3HetT, key: "taberah_1127 (wilderness campsite (Num 11:3), unidentified; kept at 28.916667, 34.500000)" }
+    - { id: recUoVFfVA066pPes, key: "heres_562 (ascent of Heres (Judg 8:13), near Succoth/Penuel; no site identified; kept at 32.199983, 35.633313)" }
+    - { id: recEvdb5Jza5GRTR3, key: "holon_573 (Holon of Moab (Jer 48:21); no site identified; kept at 31.501003, 35.920631)" }
+    - { id: recPkpwSKDIF9jQ3T, key: "ophir_911 (gold land of Ophir; Arabia, Punt or India unresolved; kept at 22.000000, 77.000000)" }
+    - { id: recQ3Rbzxg2nB04dj, key: "uphaz_1187 (gold land, identified with Ophir; kept at 22.000000, 77.000000)" }
+  field: openBibleLat, openBibleLong, latitude, longitude
+  current: >-
+    These 20 places were in the DQ-0109 set of 157 records on shared
+    placeholder points. The second-pass review (OpenBible, revised TIPNR,
+    Pleiades, Easton, Scripture context) found no site-level point to move
+    them to. OpenBible's own point for each is either a generic regional pin
+    ("in the Transjordan", "in Moab", "in Babylonia", "in Abarim"), another
+    place's pin with a 50 km radius ("within 50 km of Hashmonah", etc.), or
+    one of several unresolved options hundreds of km apart (Ophir, Magog).
+  proposed: null
+  evidence: >-
+    /workspace/dq109-108/pass2_140.csv (recommendation "no coordinates /
+    region-only") and held_26.csv. OpenBible ancient.jsonl identifications
+    and radii; Num 33 itinerary order; Easton.
+  checks: []
+  rule: null
+  found: { date: 2026-11-24, by: "DQ-0109 second-pass review (OpenBible, revised TIPNR, Pleiades, Easton)", sha: b75c268 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [theographic-web, geo]
+  notes: >-
+    Decision (Robert, Nov 24 2026): leave these records as they are. Regional
+    names, peoples and lands, and wilderness stations keep a representative
+    point on purpose so they can still be shown on a map; the point is not a
+    site identification. No Airtable change was made. Several of the kept
+    points are still shared with other records (e.g. mithkah, tahath, terah,
+    moseroth and mount_shapher at 30.317396, 35.407152; gog and magog at 46,
+    47; ophir and uphaz at 22, 77). A shared-point check such as DQ-0109's
+    shared-coords-no-canonical rule should exclude these 20 records rather
+    than reopen them. Related: DQ-0109 (parent review; 114 of its records
+    were fixed on Nov 24), DQ-0031 (Airtable vs GeoJSON coordinate
+    differences; these 20 will keep differing from the GeoJSON), DQ-0072
+    (GeoJSON sync, on hold; when it runs, these records must not be synced
+    in either direction without this decision in mind).
