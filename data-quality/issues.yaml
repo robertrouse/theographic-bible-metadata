@@ -4784,8 +4784,9 @@
     34.10667, OpenBible's second identification) and needs updating when
     DQ-0072 runs. Backup: laban_backup.csv. Re-read and verified; no
     aliases follow it.
-    (11) chilmad_292 cleared to no coordinates (DQ-0113).
-    Remaining: hand review for hashmonah, enam and zer; the 10 records sharing a wrong OpenBible id with the GeoJSON.
+    (11) chilmad_292 and (12) hashmonah_531 cleared to no coordinates
+    (DQ-0113).
+    Remaining: hand review for enam and zer; the 10 records sharing a wrong OpenBible id with the GeoJSON.
     Status stays open until those are resolved.
 
 - id: DQ-0110
@@ -4968,7 +4969,7 @@
     Effort: Small.
 
 - id: DQ-0113
-  title: "Regional names, peoples and lands, and unidentified wilderness stations have no coordinates on purpose (21 places from the DQ-0109 review; cleared Nov 24)"
+  title: "Regional names, peoples and lands, and unidentified wilderness stations have no coordinates on purpose (22 places from the DQ-0109 review; cleared Nov 24)"
   status: wontfix
   type: wrong-value
   severity: low
@@ -4995,6 +4996,7 @@
     - { id: recPkpwSKDIF9jQ3T, key: "ophir_911 (gold land of Ophir; Arabia, Punt or India unresolved)" }
     - { id: recQ3Rbzxg2nB04dj, key: "uphaz_1187 (gold land, identified with Ophir)" }
     - { id: recEzWVEnIV04srGN, key: "chilmad_292 (Ezek 27:23; Easton: 'a place or country unknown'; added Nov 24)" }
+    - { id: recSzJQj3klyLFo3s, key: "hashmonah_531 (Num 33:29-30 wilderness station; added Nov 24)" }
   field: openBibleLat, openBibleLong, latitude, longitude
   current: >-
     Before Nov 24 these 20 places were in the DQ-0109 set of 157 records on shared
@@ -5056,6 +5058,18 @@
     empty displayed latitude/longitude; no aliases follow it. Backup:
     /workspace/dq109-108/chilmad_backup.csv. Its GeoJSON feature still has
     the northern Syria point (36.385553, 36.688927), for DQ-0072.
+    Also added later on Nov 24 (Robert's approval): hashmonah_531 (Num
+    33:29-30), which had been in hand review, cleared to no coordinates.
+    Reason: OpenBible's first pick (31.30992, 34.9078, near Beersheba) does
+    not fit the Num 33:29-30 route or Easton's "not far from Mount Hor"; the
+    GeoJSON point (30.668889, 34.366667) is neither of OpenBible's top two
+    picks; and its neighbouring stations (Mithkah, Terah, Tahath, Moseroth)
+    were already cleared as unidentified. Its old point (30.317396,
+    35.407152) was the wilderness placeholder shared with other stations.
+    openBibleLat/Long cleared only; openBibleUri aaa8a88 kept. Re-read with
+    empty displayed latitude/longitude; no aliases follow it. Backup:
+    /workspace/dq109-108/hashmonah_backup.csv. Its GeoJSON feature still has
+    a point, for DQ-0072.
 
 - id: DQ-0114
   title: "red_sea_986 keeps a mid-sea point on purpose instead of a crossing site"
