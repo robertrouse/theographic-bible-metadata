@@ -4564,6 +4564,16 @@
     Zeredah was checked and left out because Easton allows the identity.
     Circularity caveat: this rests on the KJV, Easton and OpenBible, not on
     TIPNR. About 12 records. Effort: Medium.
+    Partly applied on Nov 24 2026 (Robert's approval): mount_heres_840's
+    canonicalPlace link to heres_562 was removed, so it stands as its own
+    record and shows its own point near Aijalon (31.75274836, 34.97660913).
+    Reason: Mount Heres (Judg 1:35, near Aijalon) and Heres (Judg 8:13, east
+    of the Jordan) are different places. Re-read and verified. Its
+    openBibleUri is still a2466e4 (Heres, shared with heres_562); the
+    proposed aeea26d was not applied. Backup:
+    /workspace/dq109-108/aliases3_backup.csv. The other records here are
+    unchanged; status stays open.
+
 
 - id: DQ-0108
   title: "Place records carry a neighbour's or namesake's OpenBible id (Rimmon on Ain in Lebanon, Kir-hareseth on Kir, Baal-hamon on Hermon, Ayyah on Gaza, …)"
@@ -5084,6 +5094,16 @@
     empty displayed latitude/longitude; no aliases follow it. Backup:
     /workspace/dq109-108/hashmonah_backup.csv. Its GeoJSON feature still has
     a point, for DQ-0072.
+    Alias follow-up, later on Nov 24 (Robert's approval):
+    valley_of_the_passengers_1227 (alias of valley_of_hamongog_1205) and
+    moserah_823 (alias of moseroth_824) had their own openBibleLat/Long
+    cleared (they held the old placeholders 31.49685, 35.78284 and
+    30.317396, 35.407152), so their display is now empty like their main
+    records; canonicalPlace and openBibleUri kept. mount_heres_840 was
+    unlinked from heres_562 (see DQ-0107) and now shows its own Aijalon
+    point. All three re-read and verified; no records link to them. Backup:
+    /workspace/dq109-108/aliases3_backup.csv.
+
 
 - id: DQ-0114
   title: "red_sea_986 keeps a mid-sea point on purpose instead of a crossing site"
