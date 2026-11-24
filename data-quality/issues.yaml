@@ -4786,7 +4786,21 @@
     aliases follow it.
     (11) chilmad_292 and (12) hashmonah_531 cleared to no coordinates
     (DQ-0113).
-    Remaining: hand review for enam and zer; the 10 records sharing a wrong OpenBible id with the GeoJSON.
+    (13) enam_384 (Josh 15:34) set to OpenBible's pick, "another name for
+    Enaim" (31.715, 34.969167, score 377), in the Shephelah near Socoh.
+    Reason: Josh 15:34 places Enam in Judah's lowlands, while the old
+    placeholder (32.15, 35.126) was outside Judah; the field holds
+    OpenBible's value, consistent with the 108. The GeoJSON point (31.68768,
+    35.012365, Khirbet Beit Ika, OpenBible's second identification) is 5.1
+    km away and will be reconciled at sync (DQ-0072). Backup:
+    enam_backup.csv. (14) zer_1252 (Josh 19:35) set to OpenBible's first
+    pick (32.799722, 35.459722), by Hammath and Tiberias. Reason: "Ziddim,
+    Zer, and Hammath, Rakkath, and Chinnereth" cluster on the west shore of
+    the Sea of Galilee; the GeoJSON's point near Tyre (33.270833, 35.196111)
+    does not fit and should be updated at sync (DQ-0072). The old
+    placeholder was 33.125828, 35.165. Backup: zer_backup.csv. Both
+    re-read and verified; no aliases follow either.
+    Hand review is now complete. Remaining: the 10 records sharing a wrong OpenBible id with the GeoJSON.
     Status stays open until those are resolved.
 
 - id: DQ-0110
