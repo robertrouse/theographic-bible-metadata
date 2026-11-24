@@ -4767,8 +4767,14 @@
     all prior values in /workspace/dq109-108: apply_backup.csv,
     clear20_backup.csv, bethuel_backup.csv, libnah_backup.csv,
     riblah_backup.csv. Every changed record was re-read and verified.
-    Remaining: hand review for dimonah, laban, chilmad, hashmonah, enam and
-    zer; the 10 records sharing a wrong OpenBible id with the GeoJSON.
+    (9) dimonah_336 (Josh 15:22) set to OpenBible's second identification,
+    Khirbet edh-Dheiba (31.29606, 35.1562), which matches the GeoJSON.
+    Reason: OpenBible's first pick ("another name for Dibon 2", score 291)
+    resolves to Dibon in Moab (31.502236, 35.776574), outside Judah, while
+    Josh 15:21-22 lists Negev towns of Judah toward the border of Edom;
+    Easton suggests Dimonah may be the Dibon of Neh 11:25. Backup:
+    dimonah_backup.csv. Re-read and verified; no aliases follow it.
+    Remaining: hand review for laban, chilmad, hashmonah, enam and zer; the 10 records sharing a wrong OpenBible id with the GeoJSON.
     Status stays open until those are resolved.
 
 - id: DQ-0110
