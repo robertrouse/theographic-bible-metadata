@@ -4718,7 +4718,58 @@
     hormah_580, river_244, valley_of_shaveh_1216, canneh_273, kir_693). The
     GeoJSON was not changed (DQ-0072 on hold); it now lags Airtable for the
     3 alternate identifications (26-49 km) and, by under 2 km, for the 3
-    Pleiades points. Status stays open until the rest are resolved.
+    Pleiades points.
+    Decision log, Nov 24 2026 (Robert's decisions; reasoning and evidence
+    from the second pass in /workspace/dq109-108/pass2_140.csv and
+    review.md, which compared each record's current point with its
+    OpenBible point, OpenBible's other candidates, the revised TIPNR,
+    Pleiades (fresh dump), Easton and Scripture context; TIPNR was treated as
+    non-independent because its pin equals the Theographic placeholder on
+    130 of 140 rows). (1) 108 records: OpenBible as proposed. Reason:
+    OpenBible's top identification is the best available point and matches
+    the GeoJSON; 39 high, 60 medium and 9 low confidence (low ones such as
+    eltolad_380, kiriath-huzoth_700 and baalath-beer_138 are OpenBible
+    "within 10 km" or alias points, accepted as better than a placeholder in
+    the wrong region). 28 of them are OpenBible aliases ("another name for
+    X") and take X's point. (2) 3 Pleiades points, each a confident name
+    match on the same site: jotbah_655 = 678201 Iotapata (Jotapata/Yodfat,
+    0.1 km from OpenBible's Khirbet Shifat); punon_961 = 697726 Phaino
+    (Feinan, 0.1 km; fits Num 33:42-43); kamon_665 = 678218 Kamous (Polybius;
+    Qamm, 1.4 km; Easton's Tell Qaimun is a minority view). (3) 3 different
+    OpenBible candidates from the same article: adithaim_26 Khirbet Kheishum
+    (OpenBible #1 Al-Haditha is Pleiades 687913 Hadid/Adida near Lod, outside
+    Judah; Josh 15:33-36 lists Adithaim with Socoh, Azekah and Shaaraim in
+    the Shephelah); etam_415 Tell Eton (1 Chr 4:32 is Simeon's Etam with Ain,
+    Rimmon, Tochen and Ashan; OpenBible #1 reuses Etam of Judah near
+    Bethlehem, 46 km north); eneglaim_386 Ain Feshkha (Ezek 47:10 pairs
+    En-gedi with En-eglaim at the other end of the Dead Sea; 149 OpenBible
+    votes vs 34 for Mutraba, which is south of En-gedi). (4) 20 region-only
+    records cleared to no coordinates (DQ-0113). (5) Bethuel of Simeon:
+    bethuel_240 is the main record at OpenBible's Khirbet ar-Ras point
+    (31.327312, 34.87847; the #2 identification in a55cec0, and the point
+    OpenBible gives Bethul a92de65 and Chesil acf2fac); bethel_203,
+    bethul_241 and chesil_289 now link to it by canonicalPlace (their own
+    openBible fields left as stored, like other aliases). Reason: one town
+    under three spellings, Bethul (Josh 19:4), Bethuel (1 Chr 4:30) and
+    Bethel (1 Sam 30:27), and Chesil (Josh 15:30) is Bethul in the LXX
+    (Baithel); OpenBible's #1 for Bethuel, Khirbet el-Qaryatein, is 23 km
+    away. (6) libnah_729 (Num 33:20-21
+    station) set to OpenBible's #1 Wadi el-Beidha (29.99321, 34.704), which
+    matches the GeoJSON; the alternative ("another name for Laban") is 149 km
+    away and Laban is still in hand review. (7) riblah_1002 (Num 34:11
+    boundary Riblah) kept near Hermel: Pleiades 431124909 Rablê added with
+    its point (34.432149, 36.549142). Id confirmed on pleiades.stoa.org:
+    title Rablê, names Riblah and Rablê, "the modern site is Riblah, located
+    ca. 35 km south of Homs". OpenBible fields left alone (its weak #1,
+    Arbin near Damascus, scored 38). riblah_1001 (Riblah of Hamath) already
+    has the same Pleiades link but no Pleiades lat/lon. (8) red_sea_986 kept
+    at the mid-sea point 27.0885, 34.7717 on purpose (DQ-0114). Backups of
+    all prior values in /workspace/dq109-108: apply_backup.csv,
+    clear20_backup.csv, bethuel_backup.csv, libnah_backup.csv,
+    riblah_backup.csv. Every changed record was re-read and verified.
+    Remaining: hand review for dimonah, laban, chilmad, hashmonah, enam and
+    zer; the 10 records sharing a wrong OpenBible id with the GeoJSON.
+    Status stays open until those are resolved.
 
 - id: DQ-0110
   title: "Verses tagged to the wrong namesake: Jezreel (1 Sam 29), Achaia linked to Asia, Mamre/Sychem/Dan linked to persons, Meshech-Tubal, Aroer (1 Chr 5:8)"
@@ -4900,42 +4951,47 @@
     Effort: Small.
 
 - id: DQ-0113
-  title: "Regional names, peoples and lands, and unidentified wilderness stations keep a representative point on purpose (20 places from the DQ-0109 review)"
+  title: "Regional names, peoples and lands, and unidentified wilderness stations have no coordinates on purpose (20 places from the DQ-0109 review; cleared Nov 24)"
   status: wontfix
   type: wrong-value
   severity: low
   table: places
   records:
-    - { id: recuSI1NE964vj24o, key: "ai_37 (Jer 49:3 Ai of Ammon; may be the noun 'ruin'; no locatable site; kept at 31.800520, 35.809019)" }
-    - { id: recnCcdEEzqBVi6nT, key: "hamonah_521 (Ezek 39:16 symbolic city of the Hamon-gog vision; kept at 31.496845, 35.782841)" }
-    - { id: recbHkRKRsfKeOQoB, key: "valley_of_hamongog_1205 (Ezek 39:11 prophetic valley 'east of the sea'; regional only; kept at 31.496845, 35.782841)" }
-    - { id: recMDo1B27Zp8sbBs, key: "immer_596 (place in Babylonia (Ezra 2:59); no site identified; kept at 36.359410, 43.152887)" }
-    - { id: recDSliISwQHk79qr, key: "sharon_1064 (pasturelands of Sharon in Gad/Bashan (1 Chr 5:16); a district; kept at 33.416160, 35.857256)" }
-    - { id: recWxPHj8C8Xv97bH, key: "mithkah_807 (wilderness station (Num 33:28-29), unidentified; kept at 30.317396, 35.407152)" }
-    - { id: recO5BBYiV9XXKwT5, key: "moseroth_824 (wilderness station (Num 33:30-31), near Mount Hor; unidentified; kept at 30.317396, 35.407152)" }
-    - { id: recdYOw02hOKb3Gg0, key: "mount_shapher_854 (wilderness station (Num 33:23-24), unidentified; kept at 30.317396, 35.407152)" }
-    - { id: recn5STCT0Ju40KtJ, key: "tahath_1132 (wilderness station (Num 33:26-27), unidentified; kept at 30.317396, 35.407152)" }
-    - { id: recZ31xMdjbZ4fEUF, key: "terah_1151 (wilderness station (Num 33:27-28), unidentified; kept at 30.317396, 35.407152)" }
-    - { id: recTmLtzNBGYaxeSZ, key: "casiphia_279 (place in Babylonia (Ezra 8:17); no site identified; kept at 35.136204, 36.749488)" }
-    - { id: recfesMknFZ653OLj, key: "waheb_1228 (Waheb in Suphah (Num 21:14), Moab border region; unidentified; kept at 27.088473, 34.771729)" }
-    - { id: recU8xPfFY5HMNYs5, key: "gog_484 (Gog and his land (Ezek 38-39); not one site; kept at 46.000000, 47.000000)" }
-    - { id: recbwzNRSJ9WR620p, key: "magog_754 (people/land of Magog (Ezek 38:2); not one site; kept at 46.000000, 47.000000)" }
-    - { id: recWpQiaTsrRGpl1g, key: "hara_525 (Hara (1 Chr 5:26), Assyrian exile region near Gozan, or a common noun; kept at 36.344972, 40.789333)" }
-    - { id: recQ251kc77r3HetT, key: "taberah_1127 (wilderness campsite (Num 11:3), unidentified; kept at 28.916667, 34.500000)" }
-    - { id: recUoVFfVA066pPes, key: "heres_562 (ascent of Heres (Judg 8:13), near Succoth/Penuel; no site identified; kept at 32.199983, 35.633313)" }
-    - { id: recEvdb5Jza5GRTR3, key: "holon_573 (Holon of Moab (Jer 48:21); no site identified; kept at 31.501003, 35.920631)" }
-    - { id: recPkpwSKDIF9jQ3T, key: "ophir_911 (gold land of Ophir; Arabia, Punt or India unresolved; kept at 22.000000, 77.000000)" }
-    - { id: recQ3Rbzxg2nB04dj, key: "uphaz_1187 (gold land, identified with Ophir; kept at 22.000000, 77.000000)" }
+    - { id: recuSI1NE964vj24o, key: "ai_37 (Jer 49:3 Ai of Ammon; may be the noun 'ruin'; no locatable site)" }
+    - { id: recnCcdEEzqBVi6nT, key: "hamonah_521 (Ezek 39:16 symbolic city of the Hamon-gog vision)" }
+    - { id: recbHkRKRsfKeOQoB, key: "valley_of_hamongog_1205 (Ezek 39:11 prophetic valley 'east of the sea'; regional only)" }
+    - { id: recMDo1B27Zp8sbBs, key: "immer_596 (place in Babylonia (Ezra 2:59); no site identified)" }
+    - { id: recDSliISwQHk79qr, key: "sharon_1064 (pasturelands of Sharon in Gad/Bashan (1 Chr 5:16); a district)" }
+    - { id: recWxPHj8C8Xv97bH, key: "mithkah_807 (wilderness station (Num 33:28-29), unidentified)" }
+    - { id: recO5BBYiV9XXKwT5, key: "moseroth_824 (wilderness station (Num 33:30-31), near Mount Hor; unidentified)" }
+    - { id: recdYOw02hOKb3Gg0, key: "mount_shapher_854 (wilderness station (Num 33:23-24), unidentified)" }
+    - { id: recn5STCT0Ju40KtJ, key: "tahath_1132 (wilderness station (Num 33:26-27), unidentified)" }
+    - { id: recZ31xMdjbZ4fEUF, key: "terah_1151 (wilderness station (Num 33:27-28), unidentified)" }
+    - { id: recTmLtzNBGYaxeSZ, key: "casiphia_279 (place in Babylonia (Ezra 8:17); no site identified)" }
+    - { id: recfesMknFZ653OLj, key: "waheb_1228 (Waheb in Suphah (Num 21:14), Moab border region; unidentified)" }
+    - { id: recU8xPfFY5HMNYs5, key: "gog_484 (Gog and his land (Ezek 38-39); not one site)" }
+    - { id: recbwzNRSJ9WR620p, key: "magog_754 (people/land of Magog (Ezek 38:2); not one site)" }
+    - { id: recWpQiaTsrRGpl1g, key: "hara_525 (Hara (1 Chr 5:26), Assyrian exile region near Gozan, or a common noun)" }
+    - { id: recQ251kc77r3HetT, key: "taberah_1127 (wilderness campsite (Num 11:3), unidentified)" }
+    - { id: recUoVFfVA066pPes, key: "heres_562 (ascent of Heres (Judg 8:13), near Succoth/Penuel; no site identified)" }
+    - { id: recEvdb5Jza5GRTR3, key: "holon_573 (Holon of Moab (Jer 48:21); no site identified)" }
+    - { id: recPkpwSKDIF9jQ3T, key: "ophir_911 (gold land of Ophir; Arabia, Punt or India unresolved)" }
+    - { id: recQ3Rbzxg2nB04dj, key: "uphaz_1187 (gold land, identified with Ophir)" }
   field: openBibleLat, openBibleLong, latitude, longitude
   current: >-
-    These 20 places were in the DQ-0109 set of 157 records on shared
+    Before Nov 24 these 20 places were in the DQ-0109 set of 157 records on shared
     placeholder points. The second-pass review (OpenBible, revised TIPNR,
     Pleiades, Easton, Scripture context) found no site-level point to move
     them to. OpenBible's own point for each is either a generic regional pin
     ("in the Transjordan", "in Moab", "in Babylonia", "in Abarim"), another
     place's pin with a 50 km radius ("within 50 km of Hashmonah", etc.), or
     one of several unresolved options hundreds of km apart (Ophir, Magog).
-  proposed: null
+    Their stored points were Theographic placeholders, several shared with
+    other records (e.g. five wilderness stations on 30.317396, 35.407152).
+    Prior values are in /workspace/dq109-108/clear20_backup.csv.
+  proposed: >-
+    No coordinates: openBibleLat and openBibleLong cleared, so the displayed
+    latitude and longitude are empty. openBibleUri and all other fields kept.
   evidence: >-
     /workspace/dq109-108/pass2_140.csv (recommendation "no coordinates /
     region-only") and held_26.csv. OpenBible ancient.jsonl identifications
@@ -4947,16 +5003,62 @@
   github: null
   affects: [theographic-web, geo]
   notes: >-
-    Decision (Robert, Nov 24 2026): leave these records as they are. Regional
-    names, peoples and lands, and wilderness stations keep a representative
-    point on purpose so they can still be shown on a map; the point is not a
-    site identification. No Airtable change was made. Several of the kept
-    points are still shared with other records (e.g. mithkah, tahath, terah,
-    moseroth and mount_shapher at 30.317396, 35.407152; gog and magog at 46,
-    47; ophir and uphaz at 22, 77). A shared-point check such as DQ-0109's
-    shared-coords-no-canonical rule should exclude these 20 records rather
-    than reopen them. Related: DQ-0109 (parent review; 114 of its records
-    were fixed on Nov 24), DQ-0031 (Airtable vs GeoJSON coordinate
-    differences; these 20 will keep differing from the GeoJSON), DQ-0072
-    (GeoJSON sync, on hold; when it runs, these records must not be synced
-    in either direction without this decision in mind).
+    Decision (Robert, Nov 24 2026): these records have no coordinates.
+    Regional names, peoples and lands, and unidentified wilderness stations
+    are not given a point rather than a misleading representative one. This
+    replaces the earlier same-day decision to keep a representative point.
+    Cleared in Airtable on Nov 24 2026 (openBibleLat/openBibleLong only; no
+    Pleiades or canonicalPlace values were set on any of them); all 20
+    re-read with empty displayed latitude/longitude (confirmed by hand, no
+    checks). Reasoning: a point for a region, a people or an unidentified
+    station implies a site identification nobody has made, and several of
+    the old points were placeholders shared with unrelated records. Evidence
+    per record is in the key text above and in held_26.csv. Their GeoJSON features
+    still carry points; DQ-0072 (GeoJSON sync, on hold) should drop or mark
+    them unlocated when it runs, not copy points back into Airtable. Three
+    aliases point at these records (valley_of_the_passengers_1227 ->
+    valley_of_hamongog_1205, moserah_823 -> moseroth_824, mount_heres_840 ->
+    heres_562). They are not empty: the display formula falls back to each
+    alias's own OpenBible point when the main record has none, so
+    valley_of_the_passengers and moserah still show the old placeholder
+    points (31.49685, 35.78284 and 30.317396, 35.407152) and mount_heres
+    shows its own point near Aijalon (31.75275, 34.97661); mount_heres_840
+    (Judg 1:35) is probably mislinked to heres_562 (Judg 8:13). Not changed;
+    needs a decision. A shared-point check such as DQ-0109's
+    shared-coords-no-canonical rule should skip these 20. Related: DQ-0109
+    (parent review), DQ-0031 (Airtable vs GeoJSON coordinate differences;
+    these 20 now differ by having no Airtable point), DQ-0072.
+
+- id: DQ-0114
+  title: "red_sea_986 keeps a mid-sea point on purpose instead of a crossing site"
+  status: wontfix
+  type: wrong-value
+  severity: low
+  table: places
+  records:
+    - { id: recDQoz6r4QxWn5E3, key: "red_sea_986 (27.088473, 34.771729)" }
+  field: openBibleLat, openBibleLong, latitude, longitude
+  current: >-
+    red_sea_986 (26 verses, e.g. Exod 10:19) displays 27.088473, 34.771729,
+    in the middle of the northern Red Sea. Its OpenBible article a3d18b2
+    proposes the Gulf of Suez (28.75, 33.0), with the Bitter Lakes (30.338,
+    32.378), Lake Timsah and the Ballah Lakes as alternatives up to 228 km
+    away. The DQ-0109 review flagged it as a placeholder candidate.
+  proposed: null
+  evidence: >-
+    The record covers both the Exodus crossing verses (Gulf of Suez / lakes
+    region) and Gulf of Aqaba verses (1 Kgs 9:26, Eloth on the shore of the
+    Red Sea; Num 21:4, "by the way of the Red sea" around Edom). OpenBible
+    ancient.jsonl a3d18b2 identifications and scores; pass2_140.csv.
+  checks: []
+  rule: null
+  found: { date: 2026-11-24, by: "DQ-0109 second-pass review (OpenBible, revised TIPNR, Pleiades, Easton)", sha: b75c268 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [theographic-web, geo]
+  notes: >-
+    Decision (Robert, Nov 24 2026): keep the mid-sea point. One record
+    covers the Gulf of Suez crossing verses and the Gulf of Aqaba verses, so
+    a mid-sea point stands for the whole sea without picking a crossing
+    site. No Airtable change. A shared-point or OpenBible-distance check
+    should skip this record. Related: DQ-0109, DQ-0113, DQ-0031, DQ-0072.
