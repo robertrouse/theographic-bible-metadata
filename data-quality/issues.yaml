@@ -960,7 +960,86 @@
     as ordinary D4 site disagreements. Tribal territories are already in
     sync and stay as they are. Polygons remain a later enhancement.
     Per-record pin proposals for the 111 that keep a point are in a
-    separate read-only review (no fix in this entry).
+    separate read-only review (no fix in this entry). Region-policy D
+    pin decisions for the 40 large and medium group-(e) records
+    (Robert, Nov 24 2026; direction only, no Airtable or GeoJSON write;
+    Airtable coordinate writes wait for a separate explicit step;
+    GeoJSON writes wait for DQ-0072 and Robert's go). mount_hor_843 is
+    held with no coordinate change pending DQ-0118 (whether this record
+    should be, or stay, the northern-border Mount Hor of Num 34:7-8,
+    distinct from Mount Hor by Edom). The other 39, each with Robert's
+    one-line reason: india_597 to GeoJSON 23.994400, 67.430800
+    (Airtable change; biblical Hoddu is the Indus region);
+    mesopotamia_790 to Pleiades 874602 at 37.698936, 40.651695
+    (Airtable change; confident Pleiades); cush_312 to Pleiades
+    827790769 at 17.751421, 32.782799 (Airtable change; confident
+    Pleiades); pathros_925 to GeoJSON 24.100000, 32.700000 (Airtable
+    change; Upper Egypt); aram_82 to GeoJSON 33.511112, 36.306390
+    (Airtable change; Damascus); cappadocia_276 to Pleiades 628949 at
+    38.633869, 35.849118 (Airtable change); phrygia_946 to GeoJSON
+    39.000000, 31.000000 (Airtable change); mysia_865 keep Airtable
+    39.506643, 26.080593; galatia_431 to Pleiades 619161 at 39.933812,
+    32.427437 (Airtable change; Airtable sat on Lystra); arabah_79 keep
+    Airtable 32.029676, 35.520995 (most verses mean the Jordan Valley
+    / Dead Sea end); nile_895 keep Airtable 30.092632, 31.230987 (main
+    channel; Pleiades 727172 upper-Nile centroid rejected);
+    great_sea_493 keep Airtable 33.240000, 33.470000 (open Levantine
+    sea; Pleiades Internum Mare rejected); chebar_283 keep Airtable
+    33.159129, 44.062930 (GeoJSON pin was copied from Canneh,
+    DQ-0086); habor_499 keep Airtable 36.344972, 40.789333 (Khabur
+    near Gozan; Pleiades 874565 Lesser Khabur is a different river);
+    canaan_272 keep Airtable 31.693530, 34.843883 (southern centre of
+    the narratives); uz_1190 keep Airtable 30.033400, 36.448390
+    (GeoJSON sat on Dumah; Lam 4:21 ties Uz to Edom); macedonia_747 to
+    Pleiades 981531 at 40.782395, 22.343501 (Airtable change; Airtable
+    sat on Thessalonica); valley_of_aijalon_1197 keep Airtable
+    31.841174, 35.025379 (GeoJSON is Aijalon in Zebulun); spain_1111
+    keep Airtable 40.481391, -3.175332 (Pleiades 992072 grid
+    rejected); idumea_592 to GeoJSON 31.525087, 35.102220 (Airtable
+    change; Hebron; Airtable duplicated Edom); maacah_743 to GeoJSON
+    33.258051, 35.581007 (Airtable change; upper Jordan /
+    Abel-beth-maacah; Airtable rounded pin was too far east);
+    lycia_740 to Pleiades 638965 at 36.634121, 29.575135 (Airtable
+    change); geshur_461 to GeoJSON 32.766667, 35.700000 (Airtable
+    change; Golan by the lake; Airtable was too far east);
+    tarshish_1139 keep Airtable 36.952995, -6.379340 (Tartessos
+    tradition; identity review separate); bithynia_250 to Pleiades
+    511189 at 40.562858, 30.720176 (Airtable change); midian_796 to
+    Pleiades 746776 at 28.723214, 35.085944 (Airtable change);
+    lycaonia_739 keep Airtable 37.883530, 32.494263 (Pleiades 1001911
+    is too rough); zered_1253 keep Airtable 30.884128, 35.897633
+    (plateau crossing; Pleiades 697766 is too rough); sin_1097 keep
+    Airtable 28.838778, 33.420573 (el-Markha identification);
+    phenicia_944 to GeoJSON 33.270833, 35.196111 (Airtable change;
+    regional pin; Airtable was a city pin; Philistia is handled
+    separately); argob_88 to GeoJSON 32.969500, 36.455383 (Airtable
+    change; nearer the Leja); dalmatia_321 to Pleiades 981522 at
+    43.539561, 16.483426 (Airtable change; stops sharing Illyricum's
+    point); illyricum_595 keep Airtable 43.515484, 16.071538 (GeoJSON
+    would stack on Dalmatia; Pleiades 481865 in Albania rejected);
+    shihor-libnath_1077 keep Airtable 32.538496, 34.907697 (Nahal
+    Taninim); valley_of_mizpeh_1213 to GeoJSON 33.400000, 35.850000
+    (Airtable change; Josh 11:3, under Hermon); teman_1150 keep
+    Airtable 30.203813, 35.732568 (this record is the district;
+    GeoJSON is the city); akrabbim_44 keep Airtable 30.688292,
+    35.263182; ulai_1185 keep Airtable 32.178696, 48.224890 (near
+    Susa); pontus_956 to Pleiades 857287 at 40.221357, 37.923416
+    (Airtable change). Summary of pending Airtable coordinate changes
+    (30 total, not yet written): 10 already approved from the earlier
+    region-policy D groups (b) and (d) — asia_108 to 38.460722,
+    27.776105; arabia_80 to 24.149005, 46.551536; negeb_885 to
+    31.213287, 34.956029; achaia_16 to 38.591577, 22.637558; kue_709
+    to 36.930312, 35.411135; saron_1063 to 32.283330, 34.916670;
+    hauran_532 to 32.733579, 36.534806; trachonitis_1181 to 33.021409,
+    36.475741; philistia_943 to 31.663889, 34.545833; mount_gilead_838
+    to 32.300000, 35.650000 — and 20 new ones from this review —
+    india_597, mesopotamia_790, cush_312, pathros_925, aram_82,
+    cappadocia_276, phrygia_946, galatia_431, macedonia_747,
+    idumea_592, maacah_743, lycia_740, geshur_461, bithynia_250,
+    midian_796, phenicia_944, argob_88, dalmatia_321,
+    valley_of_mizpeh_1213, and pontus_956 (coordinates as above). The
+    30 modest 5-25 km group-(e) records were not in this review and
+    remain proposed only. No Airtable or GeoJSON write in this entry.
 - id: DQ-0032
   title: Missing or half-filled coordinates between Airtable and GeoJSON
   status: open
@@ -5568,3 +5647,62 @@
     that work should check this item before overwriting the "Riblah
     (of Shepham)" geometry. Related: DQ-0031, DQ-0072, DQ-0109. Effort:
     Small.
+
+- id: DQ-0118
+  title: "Research whether mount_hor_843 is the northern-border Mount Hor (Num 34:7-8), distinct from Mount Hor by Edom"
+  status: needs-research
+  type: wrong-value
+  severity: low
+  table: places
+  records:
+    - { id: recKRQCw7nVGXU2A8, key: "mount_hor_843 (Num 34:7-8 only; display 35.710069, 36.188080; pin held)" }
+    - { id: recn5ad7qKvkUdCyZ, key: "mount_hor_842 (Num 20:22, 20:23, 20:25, 20:27, 21:4, 33:37-39, 33:41; Deut 32:50; display 30.832057, 35.056872)" }
+  field: latitude, longitude
+  current: >-
+    Theographic already has two Mount Hor records. mount_hor_842 holds
+    the ten Edom / death-of-Aaron verses (Num 20:22, 20:23, 20:25,
+    20:27, 21:4, 33:37, 33:38, 33:39, 33:41; Deut 32:50) and displays
+    30.832057, 35.056872. mount_hor_843 holds only Num 34:7-8, the
+    northern-border itinerary ("this shall be your north border: from
+    the great sea ye shall point out for you mount Hor; from mount Hor
+    ye shall point out your border unto the entrance of Hamath"), and
+    displays 35.710069, 36.188080 (Rough). In the DQ-0031 D4 comparison
+    its GeoJSON feature is titled "Mount Hor (of Lebanon)" at
+    33.400000, 35.850000, 259 km from the Airtable point, sitting on
+    the Baal-gad / Hermon cluster.
+  proposed: >-
+    Research only. Decide whether Num 34:7-8 names a different Mount
+    Hor from the mountain by Edom where Aaron died, and whether
+    mount_hor_843 is already that northern-border record or should be
+    split, merged, or retagged. If they are distinct, choose a pin for
+    843 (the current Airtable point, the GeoJSON "Hor of Lebanon"
+    point, or another northern-border candidate) or leave it
+    unlocated. If they are the same place, reconcile the two records.
+    The pin on mount_hor_843 is held; no Airtable or GeoJSON
+    coordinate change until Robert decides.
+  evidence: >-
+    Num 20:22-27, 21:4, 33:37-39, 33:41 and Deut 32:50 place Mount Hor
+    at the edge of the land of Edom, on the route from Kadesh, as the
+    mountain where Aaron died and was buried. Those verses are already
+    tagged to mount_hor_842 at 30.832057, 35.056872. Num 34:7-8 lists
+    Mount Hor in the description of Israel's northern border, between
+    the Great Sea and the entrance of Hamath; those two verses are
+    already tagged to mount_hor_843. The Airtable point for 843 is
+    35.710069, 36.188080; the GeoJSON "Mount Hor (of Lebanon)" point
+    is 33.400000, 35.850000, 259 km away on the Hermon / Baal-gad
+    cluster. Some identifications put the northern Hor in the Lebanon
+    range; others treat the two names as one mountain.
+  checks: []
+  rule: null
+  found: { date: 2026-11-24, by: "DQ-0031 region-pin review (Robert)", sha: null }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [theographic-web, geo]
+  notes: >-
+    Logged from the DQ-0031 region-policy D pin review on Nov 24 2026
+    (America/Chicago). Priority Low, category Places. Robert held the
+    mount_hor_843 pin and asked that this identity / split question be
+    logged. No coordinate change in that review. The GeoJSON write
+    stays under DQ-0072 (on hold); that work should not overwrite this
+    feature until this item is decided. Related: DQ-0031, DQ-0072.
+    Effort: Small.
