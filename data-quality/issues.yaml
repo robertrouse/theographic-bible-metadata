@@ -916,7 +916,32 @@
     already agree with GeoJSON within 1 km. A separate research item,
     DQ-0117, asks whether riblah_1002 (Num 34:11, Riblah of Shepham) is a
     different place from Riblah on the Orontes; check that before DQ-0072
-    overwrites the GeoJSON "Riblah (of Shepham)" geometry.
+    overwrites the GeoJSON "Riblah (of Shepham)" geometry. Group D
+    (Robert, Nov 24 2026; direction only, no Airtable or GeoJSON write;
+    the GeoJSON write stays under DQ-0072, on hold). D1, the 8 known
+    exceptions, stay with their own items (DQ-0089, 0083, 0086, 0107,
+    0115). D2: the 22 DQ-0113 records become unlocated in GeoJSON;
+    red_sea_986's GeoJSON should follow Airtable's mid-sea point
+    (DQ-0114). D3, the 21 stale records from the Nov 24 DQ-0108/0109
+    fixes: GeoJSON follows Airtable, except kir-hareseth_694 is held
+    with DQ-0107 (it still sits on the same Mesopotamia pin as kir_693)
+    and jezreel_644 was checked first. jezreel_644 holds only 2 Sam 4:4
+    ("tidings came of Saul and Jonathan out of Jezreel"), which is the
+    northern Jezreel of Issachar after Saul's death at Gilboa, not
+    Jezreel of Judah (Josh 15:56, jezreel_642). Siblings: jezreel_643
+    (22 Issachar / Ahab / Jehu verses, Pleiades 678197 at 32.558928,
+    35.332945, 0.5 km from 644) and valley_of_jezreel_1211. Airtable
+    32.557853, 35.327953 is OpenBible Jezreel 2 ae0bf4a (Tel Yizre'el)
+    and is right; GeoJSON 31.447778, 35.090000 is the Judah / Yatta pin
+    still wearing the old Jezreel 3 id ac644e9, the same point as the
+    "Jezreel (of Judah)" feature for jezreel_642, and is wrong for this
+    verse. Recommendation: GeoJSON should follow Airtable; no identity
+    hold. Related: DQ-0110 already proposes retagging 2 Sam 4:4 to
+    jezreel_643 and retiring or aliasing jezreel_644, which does not
+    change the coordinate conclusion; 1 Sam 29:1 and 29:11 are still
+    tagged to Judah's jezreel_642 (also DQ-0110). D4, the 479 genuinely
+    unresolved records, were sorted into patterns in a separate read-only
+    review (no fix in this entry).
 - id: DQ-0032
   title: Missing or half-filled coordinates between Airtable and GeoJSON
   status: open
