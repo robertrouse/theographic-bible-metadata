@@ -8,6 +8,14 @@ Found something that still looks wrong? [Open a data correction issue](https://g
 
 ## November 2026
 
+Fixed in Airtable on November 24. These changes reach `json/` and `CSV/` in the next export. GeoJSON is unchanged (DQ-0072 remains on hold).
+
+- **Places:** 134 places whose stored OpenBible coordinates were stale, or whose region pins had already been decided, now have updated `openBibleLat` / `openBibleLong` (DQ-0031). Displayed coordinates follow the formula (canonical place, else Pleiades, else OpenBible). None of these 134 had stored Pleiades coordinates, so the display followed the new OpenBible values. `sourceLat` / `sourceLon` are formulas and were not written.
+  - 104 are a refresh to the current OpenBible identification (17 Nov 2026 snapshot), which the GeoJSON already used: 71 from the D4 GeoJSON-backed set, and 33 other stale typ=point refreshes of 10 km or less.
+  - 30 are the pending region-policy D / PR #141 pin decisions: 18 use a Pleiades representative point written into the OpenBible fields only (for example *Asia*, *Arabia*, *Trachonitis*, *Macedonia*, and *Pontus*); 12 use the GeoJSON / current OpenBible point (for example *Philistia*, *Mount Gilead*, *Maacah*, and *Phenicia*).
+  - *Maacah* (`maacah_743`) was moved to 33.258051, 35.581007 per the region decision. *Abel-beth-maacah* (`abel-beth-maacah_5`) is still among the 26 records set aside and would have moved to the same point, so the two now share that pin until Abel-beth-maacah is resolved.
+  - 26 flagged same-ident records were left untouched (11 would land on another unlinked record, 15 would move more than 10 km), along with Mount Hor (`mount_hor_843`, held under DQ-0118) and other cases that need a closer look. DQ-0031 stays open.
+
 Fixed in Airtable on November 24. These changes reach `json/` and `CSV/` in the next export. GeoJSON is unchanged (DQ-0072 remains on hold), so for now it still shows points for the 20 places cleared below.
 
 - **Places:** 114 places that sat on points shared with unrelated places (for example, Simeon's towns plotted in Gilead and a dozen wilderness stations on one spot) now have their own coordinates (DQ-0109). Each was checked against OpenBible's candidates, Pleiades, the revised TIPNR, Easton and the verses' context.
