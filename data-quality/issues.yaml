@@ -1104,6 +1104,42 @@
     would land on another unlinked record. The 30 modest
     5-25 km group-(e) records remain proposed only. DQ-0031
     stays needs-research; it is not complete.
+
+    On Nov 24 2026 (America/Chicago) Robert authorized a second Airtable
+    write (t488u): drop the >10 km, center/representative-point, and
+    lands-on-another-unlinked-record safety rules from pass 1; if GeoJSON
+    already matches the current OpenBible ident (17 Nov 2026 snapshot),
+    use that point. 212 further places were updated in Airtable
+    openBibleLat/openBibleLong. sourceLat/sourceLon and display
+    latitude/longitude are formula fields and were not written; they
+    followed the new OpenBible values on all 212. No Pleiades, URI,
+    Recogito, or precision fields were written. The GeoJSON was not
+    touched (DQ-0072 remains on hold).
+
+    Written: 15 remaining geo-backed D4 records that had been held only
+    for moves over 10 km (including janoah_621 and hosah_583); 169 other
+    stale-OpenBible refreshes from the earlier ~170 skips (centers,
+    representative points, moves over 10 km, or a landing on another
+    unlinked record), excluding Pethor; and 28 of the 30 modest 5-25 km
+    group-(e) region records whose GeoJSON already sits on the current
+    OpenBible lead. Every written record was re-read and matched the
+    plan; the formula display and source fields followed.
+
+    After this write, 99 of the 212 records sit within 1 km of another
+    Theographic record that is not a linked alias or other-name (full
+    list in the working files). That overlap was expected once the
+    landing-on-another rule was dropped.
+
+    Still excluded, and remaining on DQ-0031: the 26 flagged same-ident
+    records; mount_hor_843 (DQ-0118); pethor_939 (both_conflict);
+    atad_112 (no existing Airtable OpenBible point); riblah_1001 and
+    tadmor_1131 (Airtable already on the linked Pleiades representative
+    point). Also skipped because there was no GeoJSON=current-OpenBible
+    match and no Theographic-confident Pleiades: shaalim_1054 and
+    moab_815 from the 30 group-(e) modest set, plus 24 leftover D4
+    records with an Airtable point but no match, and 16 leftover
+    records with no Airtable OpenBible point (not invented). DQ-0031
+    stays needs-research; it is not complete.
 - id: DQ-0032
   title: Missing or half-filled coordinates between Airtable and GeoJSON
   status: open
