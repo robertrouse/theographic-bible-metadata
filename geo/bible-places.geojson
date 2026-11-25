@@ -14,8 +14,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          36.305,
-          33.513542
+          36.294504,
+          33.514135
         ],
         "certainty": "certain"
       },
@@ -166,8 +166,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.746148,
-          31.761358
+          35.715200,
+          31.753900
         ],
         "certainty": "less-certain"
       },
@@ -845,8 +845,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.29,
-          32.6057
+          35.28826433,
+          32.6086827
         ],
         "certainty": "less-certain"
       },
@@ -925,8 +925,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          36.105833,
-          33.626667
+          36.09171,
+          33.5873
         ],
         "certainty": "certain"
       },
@@ -1024,8 +1024,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.013917,
-          29.672913
+          35.0306017443078,
+          29.75804307645581
         ],
         "certainty": "less-certain"
       },
@@ -1283,8 +1283,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.0692,
-          32.9214
+          35.079835,
+          32.921287
         ],
         "certainty": "certain"
       },
@@ -1638,8 +1638,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.54,
-          38.72
+          22.637558,
+          38.591577
         ],
         "certainty": "certain"
       },
@@ -1851,8 +1851,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.102652,
-          33.048278
+          35.10220253,
+          33.04846799
         ],
         "certainty": "certain"
       },
@@ -2814,8 +2814,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.951764,
-          31.963319
+          34.953544,
+          31.728465
         ],
         "certainty": "less-certain"
       },
@@ -3095,8 +3095,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          26.932716,
-          39.500667
+          26.936098,
+          39.49864
         ],
         "certainty": "certain"
       },
@@ -3200,8 +3200,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          19.0,
-          38.0
+          16.3735,
+          42.415
         ],
         "certainty": "certain"
       },
@@ -3409,8 +3409,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.001667,
-          31.651667
+          34.999242,
+          31.657354
         ],
         "certainty": "certain"
       },
@@ -3542,8 +3542,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.361505,
-          31.8175
+          35.361646,
+          31.817585
         ],
         "certainty": "certain"
       },
@@ -3694,8 +3694,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.52821,
-          32.38152
+          35.531839,
+          32.388639
         ],
         "certainty": "less-certain"
       },
@@ -3780,8 +3780,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.422222,
-          32.543333
+          42.786647,
+          33.625197
         ],
         "certainty": "less-certain"
       },
@@ -4136,8 +4136,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.261111,
-          31.916944
+          35.261577,
+          31.916676
         ],
         "certainty": "certain"
       },
@@ -4313,8 +4313,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.023611,
-          31.841111
+          35.031267,
+          31.844883
         ],
         "certainty": "certain"
       },
@@ -4456,8 +4456,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.309023,
-          32.814086
+          35.02537927,
+          31.84117377
         ],
         "certainty": "less-certain"
       },
@@ -4792,8 +4792,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.131259,
-          30.906602
+          35.263182,
+          30.688292
         ],
         "certainty": "less-certain"
       },
@@ -5484,8 +5484,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.782841,
-          31.496845
+          35.826578,
+          31.638727
         ],
         "certainty": "certain"
       },
@@ -5727,8 +5727,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.422222,
-          30.648333
+          34.835554,
+          30.659770
         ],
         "certainty": "certain"
       },
@@ -6009,8 +6009,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          38.0865,
-          36.7014
+          38.068879,
+          36.654616
         ],
         "certainty": "less-certain"
       },
@@ -6167,8 +6167,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          23.847209,
-          40.820159
+          23.841579,
+          40.825811
         ],
         "certainty": "certain"
       },
@@ -6564,8 +6564,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.25758,
-          31.80752
+          35.26349894,
+          31.81291277
         ],
         "certainty": "certain"
       },
@@ -6648,8 +6648,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.234167,
-          31.776667
+          35.234935,
+          31.777444
         ],
         "certainty": "certain"
       },
@@ -6845,8 +6845,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          31.189167,
-          38.306111
+          31.18987,
+          38.305374
         ],
         "certainty": "certain"
       },
@@ -7438,8 +7438,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.930417,
-          32.105
+          34.930974,
+          32.105237
         ],
         "certainty": "certain"
       },
@@ -7947,8 +7947,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.151389,
-          30.416944
+          35.520995,
+          32.029676
         ],
         "certainty": "certain"
       },
@@ -8085,8 +8085,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          46.0,
-          23.0
+          46.551536,
+          24.149005
         ],
         "certainty": "certain"
       },
@@ -8202,8 +8202,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.125,
-          31.280833
+          35.125502,
+          31.279912
         ],
         "certainty": "less-certain"
       },
@@ -8301,8 +8301,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          36.30639,
-          33.511112
+          36.31344999999999,
+          33.519299
         ],
         "certainty": "certain"
       },
@@ -8399,8 +8399,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.300381,
-          39.702761
+          44.29818047,
+          39.70289295
         ],
         "certainty": "certain"
       },
@@ -8579,8 +8579,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          23.723611,
-          37.972222
+          23.723372,
+          37.972372
         ],
         "certainty": "certain"
       },
@@ -8804,8 +8804,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.573333,
-          31.465833
+          35.677009,
+          31.4288
         ],
         "certainty": "certain"
       },
@@ -9095,8 +9095,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.819389,
-          31.4708
+          35.82200332,
+          31.4710953
         ],
         "certainty": "certain"
       },
@@ -9212,8 +9212,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.97907,
-          31.15214
+          34.98485225,
+          31.14893187
         ],
         "certainty": "certain"
       },
@@ -9302,8 +9302,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          37.094722,
-          36.4725
+          37.09474,
+          36.472582
         ],
         "certainty": "certain"
       },
@@ -9687,8 +9687,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.858333,
-          34.856111
+          35.858485,
+          34.856082
         ],
         "certainty": "certain"
       },
@@ -9778,8 +9778,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.38364,
-          31.5607
+          35.406346,
+          31.572903
         ],
         "certainty": "less-certain"
       },
@@ -9969,8 +9969,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.6578,
-          31.7572
+          34.658057,
+          31.755937
         ],
         "certainty": "certain"
       },
@@ -10426,8 +10426,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.545833,
-          31.663889
+          34.550521,
+          31.664797
         ],
         "certainty": "certain"
       },
@@ -11456,8 +11456,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          28.3,
-          38.4
+          27.776105,
+          38.460722
         ],
         "certainty": "certain"
       },
@@ -11548,8 +11548,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          26.336667,
-          39.490556
+          26.336352,
+          39.490135
         ],
         "certainty": "certain"
       },
@@ -11673,8 +11673,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          43.1528,
-          36.3594
+          43.152887,
+          36.359410
         ],
         "certainty": "certain"
       },
@@ -12579,8 +12579,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          23.726738,
-          37.971851
+          23.723955,
+          37.971647
         ],
         "certainty": "certain"
       },
@@ -12848,8 +12848,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          30.703614,
-          36.881272
+          30.69456558,
+          36.8808258
         ],
         "certainty": "certain"
       },
@@ -13359,8 +13359,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.4644,
-          31.504
+          35.261111,
+          31.916944
         ],
         "certainty": "certain"
       },
@@ -13537,8 +13537,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.935696,
-          31.700226
+          34.9361859,
+          31.70063856
         ],
         "certainty": "certain"
       },
@@ -13644,8 +13644,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.261944,
-          31.835
+          35.260706,
+          31.834203
         ],
         "certainty": "less-certain"
       },
@@ -14125,8 +14125,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.286111,
-          31.978611
+          35.279229,
+          31.979434
         ],
         "certainty": "certain"
       },
@@ -15357,8 +15357,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.422222,
-          32.543333
+          44.424978,
+          32.537297
         ],
         "certainty": "certain"
       },
@@ -15722,8 +15722,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.422222,
-          32.543333
+          44.42088287,
+          32.53650369
         ],
         "certainty": "certain"
       },
@@ -16331,8 +16331,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.934722,
-          32.781111
+          35.93730130476259,
+          32.80007552505443
         ],
         "certainty": "certain"
       },
@@ -16415,8 +16415,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.809062,
-          31.800811
+          35.80901866717255,
+          31.80052000870321
         ],
         "certainty": "certain"
       },
@@ -16505,8 +16505,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.234167,
-          31.776667
+          35.234935,
+          31.777444
         ],
         "certainty": "certain"
       },
@@ -16878,8 +16878,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.840833,
-          31.244722
+          34.840797,
+          31.245164
         ],
         "certainty": "certain"
       },
@@ -17210,8 +17210,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.827669,
-          32.036675
+          34.827108,
+          32.035782
         ],
         "certainty": "certain"
       },
@@ -17605,8 +17605,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.234167,
-          31.776667
+          35.234935,
+          31.777444
         ],
         "certainty": "certain"
       },
@@ -17735,8 +17735,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.2,
-          40.518333
+          22.201493,
+          40.522127
         ],
         "certainty": "certain"
       },
@@ -17986,8 +17986,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          36.150833,
-          33.935278
+          36.152049,
+          33.93148
         ],
         "certainty": "less-certain"
       },
@@ -18540,8 +18540,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.12622,
-          31.56209
+          35.124483,
+          31.558456
         ],
         "certainty": "less-certain"
       },
@@ -18647,8 +18647,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.501718,
-          31.845782
+          35.506490,
+          31.843320
         ],
         "certainty": "less-certain"
       },
@@ -18771,8 +18771,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.847589,
-          32.558661
+          35.84782997,
+          32.56101133
         ],
         "certainty": "certain"
       },
@@ -19410,8 +19410,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.776574,
-          31.502236
+          35.826578,
+          31.638727
         ],
         "certainty": "certain"
       },
@@ -20834,8 +20834,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.281944,
-          32.213611
+          35.2817986718367,
+          32.21369123124062
         ],
         "certainty": "less-certain"
       },
@@ -21525,8 +21525,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.63096,
-          32.91038
+          35.62697296,
+          32.90784828
         ],
         "certainty": "less-certain"
       },
@@ -21670,8 +21670,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.503056,
-          32.503611
+          35.503092,
+          32.503698
         ],
         "certainty": "certain"
       },
@@ -21980,8 +21980,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.974744,
-          31.750621
+          34.974869,
+          31.750602
         ],
         "certainty": "certain"
       },
@@ -22431,8 +22431,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.95,
-          40.383333
+          45.036328,
+          40.065539
         ],
         "certainty": "less-certain"
       },
@@ -22660,8 +22660,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.550301,
-          31.837109
+          35.547689,
+          31.838763
         ],
         "certainty": "less-certain"
       },
@@ -22808,8 +22808,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.255903,
-          31.771661
+          35.259589,
+          31.773151
         ],
         "certainty": "certain"
       },
@@ -22906,8 +22906,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.241389,
-          31.922778
+          35.238333,
+          31.928333
         ],
         "certainty": "certain"
       },
@@ -23201,8 +23201,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.124376,
-          31.344952
+          34.87847,
+          31.327312
         ],
         "certainty": "less-certain"
       },
@@ -23281,8 +23281,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.235833,
-          31.781389
+          35.234935,
+          31.777444
         ],
         "certainty": "certain"
       },
@@ -23393,8 +23393,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.185563,
-          32.734812
+          35.189704,
+          32.735379
         ],
         "certainty": "less-certain"
       },
@@ -23488,8 +23488,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.20746,
-          31.70431
+          35.203153,
+          31.706999
         ],
         "certainty": "certain"
       },
@@ -23910,8 +23910,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.710739,
-          32.010571
+          35.706297,
+          32.0105
         ],
         "certainty": "certain"
       },
@@ -24081,8 +24081,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.39736,
-          32.36884
+          35.4,
+          32.3667
         ],
         "certainty": "certain"
       },
@@ -24326,8 +24326,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          31.0,
-          40.5
+          30.720176,
+          40.562858
         ],
         "certainty": "certain"
       },
@@ -24813,8 +24813,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.231889,
-          31.776083
+          35.234935,
+          31.777444
         ],
         "certainty": "certain"
       },
@@ -25284,8 +25284,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.928056,
-          31.563611
+          34.7667,
+          31.5
         ],
         "certainty": "less-certain"
       },
@@ -25401,8 +25401,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.211389,
-          32.868333
+          35.211814,
+          32.865661
         ],
         "certainty": "less-certain"
       },
@@ -25501,8 +25501,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.211389,
-          32.868333
+          35.211814,
+          32.865661
         ],
         "certainty": "certain"
       },
@@ -25618,8 +25618,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.891667,
-          32.5
+          34.892447,
+          32.501839
         ],
         "certainty": "certain"
       },
@@ -25747,8 +25747,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.693333,
-          33.246111
+          35.693461,
+          33.247526
         ],
         "certainty": "certain"
       },
@@ -25918,8 +25918,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          43.328889,
-          36.098056
+          43.331535,
+          36.099975
         ],
         "certainty": "certain"
       },
@@ -26178,8 +26178,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          45.230833,
-          32.126111
+          45.229995,
+          32.127213
         ],
         "certainty": "less-certain"
       },
@@ -26455,8 +26455,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.333333,
-          32.766667
+          34.84388288576839,
+          31.69352950368834
         ],
         "certainty": "certain"
       },
@@ -26603,8 +26603,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          36.376389,
-          36.2475
+          45.229995,
+          32.127213
         ],
         "certainty": "less-certain"
       },
@@ -26713,8 +26713,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.575,
-          32.881111
+          35.575891,
+          32.880887
         ],
         "certainty": "certain"
       },
@@ -26838,8 +26838,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.839167,
-          38.670556
+          35.849118,
+          38.633869
         ],
         "certainty": "certain"
       },
@@ -26923,8 +26923,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          38.015,
-          36.829722
+          38.014921,
+          36.829423
         ],
         "certainty": "certain"
       },
@@ -27070,8 +27070,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.132952,
-          31.422876
+          35.132734,
+          31.422917
         ],
         "certainty": "certain"
       },
@@ -27418,8 +27418,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.996816,
-          37.884335
+          22.992532,
+          37.88239
         ],
         "certainty": "certain"
       },
@@ -27535,8 +27535,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          46.104444,
-          30.962222
+          46.10374195774169,
+          30.9620520474569
         ],
         "certainty": "certain"
       },
@@ -27670,8 +27670,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          45.230833,
-          32.126944
+          44.06293,
+          33.159129
         ],
         "certainty": "less-certain"
       },
@@ -27784,8 +27784,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.24758,
-          31.96609
+          35.25,
+          31.966667
         ],
         "certainty": "less-certain"
       },
@@ -28064,8 +28064,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.868056,
-          32.027222
+          34.86666667,
+          32.02222222
         ],
         "certainty": "certain"
       },
@@ -28324,8 +28324,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.422222,
-          32.543333
+          44.42088287373876,
+          32.53650368616845
         ],
         "certainty": "less-certain"
       },
@@ -28409,8 +28409,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.051111,
-          31.781111
+          35.05113,
+          31.781049
         ],
         "certainty": "certain"
       },
@@ -29381,8 +29381,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.563889,
-          32.911389
+          35.56409,
+          32.911391
         ],
         "certainty": "certain"
       },
@@ -29490,8 +29490,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.892056,
-          36.913028
+          34.89153398422567,
+          36.91802695356275
         ],
         "certainty": "certain"
       },
@@ -29572,8 +29572,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.098819,
-          31.541919
+          35.1,
+          31.55
         ],
         "certainty": "less-certain"
       },
@@ -29663,8 +29663,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.759526,
-          31.280864
+          35.78284105296996,
+          31.49684513710609
         ],
         "certainty": "less-certain"
       },
@@ -29899,8 +29899,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          31.3075,
-          30.129444
+          31.307481,
+          30.129404
         ],
         "certainty": "less-certain"
       },
@@ -30043,8 +30043,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          27.375,
-          36.685833
+          27.37439432,
+          36.68502256
         ],
         "certainty": "certain"
       },
@@ -30128,8 +30128,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          29.25994,
-          37.78664
+          29.259921,
+          37.786795
         ],
         "certainty": "certain"
       },
@@ -30263,8 +30263,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.878741,
-          37.905785
+          22.878614,
+          37.905642
         ],
         "certainty": "certain"
       },
@@ -30498,8 +30498,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.234167,
-          31.776667
+          35.234935,
+          31.777444
         ],
         "certainty": "certain"
       },
@@ -31030,8 +31030,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          33.75075,
-          16.935139
+          32.782799,
+          17.751421
         ],
         "certainty": "certain"
       },
@@ -31319,8 +31319,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.612861,
-          32.760028
+          44.611394,
+          32.76071
         ],
         "certainty": "certain"
       },
@@ -31742,8 +31742,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.851229,
-          32.820946
+          21.856539,
+          32.820027
         ],
         "certainty": "certain"
       },
@@ -31996,8 +31996,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.377531,
-          32.697284
+          35.37171031,
+          32.69171268
         ],
         "certainty": "certain"
       },
@@ -32117,8 +32117,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.218756,
-          43.812761
+          16.483426,
+          43.539561
         ],
         "certainty": "certain"
       },
@@ -32199,8 +32199,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          36.30639,
-          33.511112
+          36.309102,
+          33.511612
         ],
         "certainty": "certain"
       },
@@ -32739,8 +32739,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.652,
-          33.249
+          35.65248345,
+          33.24865998
         ],
         "certainty": "certain"
       },
@@ -33087,8 +33087,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.359429,
-          31.816392
+          35.349994,
+          31.816662
         ],
         "certainty": "less-certain"
       },
@@ -33380,8 +33380,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.8,
-          32.716667
+          35.73224,
+          32.38068
         ],
         "certainty": "certain"
       },
@@ -33610,8 +33610,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          33.361453,
-          37.348569
+          33.361779,
+          37.349207
         ],
         "certainty": "certain"
       },
@@ -33717,8 +33717,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.776574,
-          31.502236
+          34.96745,
+          31.1858
         ],
         "certainty": "less-certain"
       },
@@ -34244,8 +34244,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.281944,
-          32.213611
+          35.2817986718367,
+          32.21369123124062
         ],
         "certainty": "certain"
       },
@@ -34533,8 +34533,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.916364,
-          32.617428
+          34.917116,
+          32.617899
         ],
         "certainty": "certain"
       },
@@ -34888,8 +34888,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.9861,
-          31.4306
+          34.982762,
+          31.43827
         ],
         "certainty": "certain"
       },
@@ -35077,8 +35077,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.234167,
-          31.776667
+          35.234935,
+          31.777444
         ],
         "certainty": "certain"
       },
@@ -35275,8 +35275,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.9343,
-          31.9547
+          35.92413135872749,
+          31.95018855468469
         ],
         "certainty": "certain"
       },
@@ -35335,8 +35335,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.234167,
-          31.776667
+          35.234935,
+          31.777444
         ],
         "certainty": "certain"
       },
@@ -35808,8 +35808,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          48.516247,
-          34.8065
+          48.516406,
+          34.805555
         ],
         "certainty": "certain"
       },
@@ -36362,8 +36362,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.603919,
-          30.745843
+          35.606250,
+          30.734691
         ],
         "certainty": "certain"
       },
@@ -36586,8 +36586,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          36.106111,
-          32.625278
+          36.09899664,
+          32.62413708
         ],
         "certainty": "certain"
       },
@@ -36993,8 +36993,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          31.3075,
-          30.129444
+          31.338220,
+          30.108086
         ],
         "certainty": "certain"
       },
@@ -37341,8 +37341,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.851944,
-          31.7775
+          34.851016,
+          31.780459
         ],
         "certainty": "certain"
       },
@@ -37674,8 +37674,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          48.25778,
-          32.18922
+          48.25788647687722,
+          32.18919123705116
         ],
         "certainty": "certain"
       },
@@ -37803,8 +37803,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.828315,
-          31.819308
+          35.833246,
+          31.81565
         ],
         "certainty": "certain"
       },
@@ -38108,8 +38108,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          43.2625,
-          35.456667
+          40.997222,
+          37.056944
         ],
         "certainty": "less-certain"
       },
@@ -38186,8 +38186,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.997106,
-          31.746288
+          35.116531,
+          31.973818
         ],
         "certainty": "less-certain"
       },
@@ -38289,8 +38289,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.997106,
-          31.746288
+          35.109078,
+          31.852593
         ],
         "certainty": "less-certain"
       },
@@ -38379,8 +38379,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.999999,
-          29.530676
+          34.999966,
+          29.530635
         ],
         "certainty": "less-certain"
       },
@@ -39413,8 +39413,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.533581,
-          31.28064
+          35.453333,
+          31.714444
         ],
         "certainty": "less-certain"
       },
@@ -39833,8 +39833,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.001006,
-          31.748796
+          34.97660913147738,
+          31.75274835811488
         ],
         "certainty": "less-certain"
       },
@@ -40134,8 +40134,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.27013,
-          31.77406
+          35.270231,
+          31.77402
         ],
         "certainty": "certain"
       },
@@ -40392,8 +40392,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.012365,
-          31.68768
+          34.969167,
+          31.715
         ],
         "certainty": "less-certain"
       },
@@ -40495,8 +40495,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.383333,
-          31.45
+          35.39241108,
+          31.46152536
         ],
         "certainty": "certain"
       },
@@ -40841,8 +40841,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          27.3407,
-          37.939125
+          27.342403,
+          37.940164
         ],
         "certainty": "certain"
       },
@@ -41068,8 +41068,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.300278,
-          31.954444
+          35.299196,
+          31.954665
         ],
         "certainty": "less-certain"
       },
@@ -41321,8 +41321,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.234167,
-          31.776667
+          35.234935,
+          31.777444
         ],
         "certainty": "certain"
       },
@@ -41535,8 +41535,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          45.636111,
-          31.322222
+          45.639052,
+          31.323375
         ],
         "certainty": "certain"
       },
@@ -42153,8 +42153,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.067075,
-          31.400792
+          35.064909,
+          31.398679
         ],
         "certainty": "certain"
       },
@@ -42320,8 +42320,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.17884,
-          31.68478
+          35.17474,
+          31.686465
         ],
         "certainty": "certain"
       },
@@ -42414,8 +42414,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.17884,
-          31.68478
+          34.928055,
+          31.491813
         ],
         "certainty": "less-certain"
       },
@@ -42611,8 +42611,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.352252,
-          30.861009
+          32.282767,
+          30.467511
         ],
         "certainty": "less-certain"
       },
@@ -42826,8 +42826,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          47.442,
-          31.0043
+          40.42778,
+          35.090577
         ],
         "certainty": "certain"
       },
@@ -43514,8 +43514,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.234167,
-          31.776667
+          35.234935,
+          31.777444
         ],
         "certainty": "certain"
       },
@@ -43883,8 +43883,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.234167,
-          31.776667
+          35.234935,
+          31.777444
         ],
         "certainty": "certain"
       },
@@ -44153,8 +44153,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.983333,
-          39.266667
+          32.427437,
+          39.933812
         ],
         "certainty": "certain"
       },
@@ -44425,8 +44425,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.25078,
-          31.81544
+          35.25,
+          31.816667
         ],
         "certainty": "less-certain"
       },
@@ -44620,8 +44620,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.234167,
-          31.776667
+          35.234935,
+          31.777444
         ],
         "certainty": "certain"
       },
@@ -44722,8 +44722,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.234167,
-          31.776667
+          35.234935,
+          31.777444
         ],
         "certainty": "certain"
       },
@@ -44820,8 +44820,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.234167,
-          31.776667
+          35.234935,
+          31.777444
         ],
         "certainty": "certain"
       },
@@ -44950,8 +44950,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.234935,
-          31.777444
+          35.234167,
+          31.776667
         ],
         "certainty": "certain"
       },
@@ -45086,8 +45086,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.843883,
-          31.69353
+          34.8474,
+          31.701981
         ],
         "certainty": "certain"
       },
@@ -45226,8 +45226,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.319722,
-          32.738056
+          35.32822662,
+          32.7391847
         ],
         "certainty": "certain"
       },
@@ -45454,8 +45454,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.46203,
-          31.503959
+          34.451719,
+          31.52021
         ],
         "certainty": "certain"
       },
@@ -45867,8 +45867,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.261111,
-          31.8575
+          35.25975522,
+          31.85787804
         ],
         "certainty": "certain"
       },
@@ -45998,8 +45998,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.645833,
-          34.119167
+          35.646125,
+          34.119249
         ],
         "certainty": "certain"
       },
@@ -46371,8 +46371,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.092145,
-          31.632629
+          34.996117,
+          31.688903
         ],
         "certainty": "less-certain"
       },
@@ -46544,8 +46544,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.092145,
-          31.632629
+          35.083333,
+          31.63333
         ],
         "certainty": "certain"
       },
@@ -46695,8 +46695,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.507222,
-          32.860556
+          35.50993742,
+          32.8593586
         ],
         "certainty": "certain"
       },
@@ -46795,8 +46795,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.6065,
-          31.3821
+          34.60643,
+          31.38186
         ],
         "certainty": "certain"
       },
@@ -46917,8 +46917,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.207639,
-          31.704306
+          35.21026630105202,
+          31.70536129174666
         ],
         "certainty": "less-certain"
       },
@@ -47125,8 +47125,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.239425,
-          31.779419
+          35.234935,
+          31.777444
         ],
         "certainty": "certain"
       },
@@ -47217,8 +47217,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.919167,
-          31.859167
+          34.920993,
+          31.859791
         ],
         "certainty": "certain"
       },
@@ -47612,8 +47612,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.230718,
-          31.823113
+          35.23100936,
+          31.82378102
         ],
         "certainty": "certain"
       },
@@ -48024,8 +48024,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.183351,
-          31.847451
+          35.184362,
+          31.849056
         ],
         "certainty": "certain"
       },
@@ -48223,8 +48223,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.305139,
-          31.84762
+          35.297063,
+          31.934660
         ],
         "certainty": "less-certain"
       },
@@ -48392,8 +48392,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.236383,
-          31.772919
+          35.237186,
+          31.773116
         ],
         "certainty": "certain"
       },
@@ -48812,8 +48812,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.225,
-          32.030556
+          35.222604,
+          32.029737
         ],
         "certainty": "less-certain"
       },
@@ -49033,8 +49033,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.946809,
-          31.929705
+          34.943219,
+          31.928659
         ],
         "certainty": "certain"
       },
@@ -49197,8 +49197,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.234167,
-          31.776667
+          35.234935,
+          31.777444
         ],
         "certainty": "certain"
       },
@@ -49566,8 +49566,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.22975,
-          31.778444
+          35.234935,
+          31.777444
         ],
         "certainty": "less-certain"
       },
@@ -50168,8 +50168,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          40.03967,
-          36.826785
+          40.06889,
+          36.840013
         ],
         "certainty": "certain"
       },
@@ -50442,8 +50442,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          40.427284,
-          35.130298
+          40.789333,
+          36.344972
         ],
         "certainty": "certain"
       },
@@ -50534,8 +50534,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.2228,
-          31.4703
+          35.216691,
+          31.466604
         ],
         "certainty": "less-certain"
       },
@@ -50625,8 +50625,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.20408,
-          32.52439
+          35.205136,
+          32.524106
         ],
         "certainty": "less-certain"
       },
@@ -50882,8 +50882,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.951764,
-          31.963319
+          34.9517,
+          31.9635
         ],
         "certainty": "certain"
       },
@@ -51033,8 +51033,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          36.798611,
-          35.905
+          36.798535,
+          35.903968
         ],
         "certainty": "less-certain"
       },
@@ -51382,8 +51382,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.10725,
-          31.57741
+          35.099103,
+          31.579549
         ],
         "certainty": "certain"
       },
@@ -51592,8 +51592,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.234167,
-          31.776667
+          35.234935,
+          31.777444
         ],
         "certainty": "certain"
       },
@@ -51678,8 +51678,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.234167,
-          31.776667
+          35.234935,
+          31.777444
         ],
         "certainty": "certain"
       },
@@ -51834,8 +51834,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          36.75,
-          35.1365
+          36.748801,
+          35.132975
         ],
         "certainty": "certain"
       },
@@ -52323,8 +52323,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.550553,
-          32.766368
+          35.547652,
+          32.760506
         ],
         "certainty": "less-certain"
       },
@@ -52597,8 +52597,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          30.934444,
-          29.085556
+          30.934575,
+          29.085505
         ],
         "certainty": "less-certain"
       },
@@ -52953,8 +52953,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          39.032778,
-          36.864444
+          39.03075,
+          36.863594
         ],
         "certainty": "certain"
       },
@@ -53198,8 +53198,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.355833,
-          32.548611
+          35.355647,
+          32.549638
         ],
         "certainty": "certain"
       },
@@ -53490,8 +53490,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          36.36812,
-          32.73009
+          36.534806,
+          32.733579
         ],
         "certainty": "certain"
       },
@@ -53593,8 +53593,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          46.0,
-          23.0
+          35.22,
+          30.14
         ],
         "certainty": "less-certain"
       },
@@ -53988,8 +53988,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          37.240556,
-          34.229444
+          37.240077,
+          34.229499
         ],
         "certainty": "less-certain"
       },
@@ -54691,8 +54691,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.195465,
-          31.832184
+          35.20000,
+          31.833333
         ],
         "certainty": "less-certain"
       },
@@ -54771,8 +54771,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.569167,
-          33.018333
+          35.566769,
+          33.019181
         ],
         "certainty": "certain"
       },
@@ -55074,8 +55074,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.10222,
-          31.525087
+          35.102182,
+          31.524813
         ],
         "certainty": "certain"
       },
@@ -55462,8 +55462,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          36.25,
-          33.6667
+          36.248576,
+          33.664912
         ],
         "certainty": "certain"
       },
@@ -56119,8 +56119,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.9343,
-          31.9547
+          34.97660913,
+          31.75274836
         ],
         "certainty": "less-certain"
       },
@@ -56338,8 +56338,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.809062,
-          31.800811
+          35.809014,
+          31.800741
         ],
         "certainty": "certain"
       },
@@ -56773,8 +56773,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          29.127375,
-          37.926616
+          29.127859,
+          37.926925
         ],
         "certainty": "certain"
       },
@@ -57314,8 +57314,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.376611,
-          33.174505
+          35.433333,
+          33.166667
         ],
         "certainty": "less-certain"
       },
@@ -57578,8 +57578,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.234167,
-          31.776667
+          35.234935,
+          31.777444
         ],
         "certainty": "certain"
       },
@@ -57779,8 +57779,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.234167,
-          31.776667
+          35.234935,
+          31.777444
         ],
         "certainty": "certain"
       },
@@ -58217,8 +58217,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.292,
-          32.4462
+          35.2833,
+          32.45
         ],
         "certainty": "certain"
       },
@@ -58384,8 +58384,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.492331,
-          37.872202
+          32.492295,
+          37.872456
         ],
         "certainty": "certain"
       },
@@ -59058,8 +59058,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.483056,
-          43.539444
+          16.071538,
+          43.515484
         ],
         "certainty": "certain"
       },
@@ -59570,8 +59570,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.192222,
-          31.870556
+          35.197712,
+          31.869343
         ],
         "certainty": "less-certain"
       },
@@ -59823,8 +59823,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.4852,
-          41.8922
+          12.48333333333333,
+          41.9
         ],
         "certainty": "certain"
       },
@@ -60146,8 +60146,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.85,
-          33.4
+          35.85725617635589,
+          33.41615982399708
         ],
         "certainty": "certain"
       },
@@ -60686,8 +60686,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.207639,
-          31.704306
+          35.21026630105202,
+          31.70536129174666
         ],
         "certainty": "less-certain"
       },
@@ -60766,8 +60766,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.7463,
-          31.866
+          34.746856,
+          31.865518
         ],
         "certainty": "certain"
       },
@@ -60983,8 +60983,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.235985,
-          31.767198
+          35.234935,
+          31.777444
         ],
         "certainty": "certain"
       },
@@ -61368,8 +61368,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.16416,
-          31.51591
+          35.166667,
+          31.516667
         ],
         "certainty": "less-certain"
       },
@@ -61690,8 +61690,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.27535,
-          32.687019
+          35.274955,
+          32.691633
         ],
         "certainty": "certain"
       },
@@ -61877,8 +61877,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.975,
-          31.7083
+          34.975059,
+          31.708615
         ],
         "certainty": "certain"
       },
@@ -61994,8 +61994,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.207639,
-          31.704306
+          35.2102663,
+          31.70536129
         ],
         "certainty": "less-certain"
       },
@@ -62193,8 +62193,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          27.5,
-          38.2
+          27.36782511573013,
+          37.95331433666365
         ],
         "certainty": "certain"
       },
@@ -62436,8 +62436,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.890278,
-          32.030833
+          34.889599,
+          32.033636
         ],
         "certainty": "less-certain"
       },
@@ -62543,8 +62543,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.444564,
-          31.871719
+          35.444142,
+          31.871017
         ],
         "certainty": "certain"
       },
@@ -63003,8 +63003,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.234167,
-          31.776667
+          35.234978,
+          31.777189
         ],
         "certainty": "certain"
       },
@@ -63886,8 +63886,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.09,
-          31.447778
+          35.327953,
+          32.557853
         ],
         "certainty": "certain"
       },
@@ -63966,8 +63966,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.327953,
-          32.557853
+          35.332945,
+          32.558928
         ],
         "certainty": "certain"
       },
@@ -64417,8 +64417,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.48497,
-          32.13993
+          35.10891819,
+          32.66454577
         ],
         "certainty": "less-certain"
       },
@@ -64497,8 +64497,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.108266,
-          32.664099
+          35.108936,
+          32.664376
         ],
         "certainty": "certain"
       },
@@ -64604,8 +64604,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.849167,
-          31.565278
+          34.8467256730566,
+          31.56485056116292
         ],
         "certainty": "less-certain"
       },
@@ -64715,8 +64715,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.753039,
-          32.054481
+          34.74993,
+          32.053079
         ],
         "certainty": "certain"
       },
@@ -65063,8 +65063,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.558333,
-          31.761389
+          35.5599,
+          32.309099
         ],
         "certainty": "certain"
       },
@@ -65303,8 +65303,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.558333,
-          31.761389
+          35.570000,
+          32.317222
         ],
         "certainty": "certain"
       },
@@ -65564,8 +65564,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.278139,
-          32.831944
+          35.277616,
+          32.832268
         ],
         "certainty": "less-certain"
       },
@@ -65864,8 +65864,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.234167,
-          31.776667
+          35.234935,
+          31.777444
         ],
         "certainty": "certain"
       },
@@ -66004,8 +66004,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.09,
-          31.447778
+          35.083333,
+          31.45
         ],
         "certainty": "certain"
       },
@@ -66252,8 +66252,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.42261,
-          30.64805
+          34.41375,
+          30.643266
         ],
         "certainty": "certain"
       },
@@ -66653,8 +66653,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.7256,
-          32.5876
+          35.739845,
+          32.591987
         ],
         "certainty": "less-certain"
       },
@@ -67394,8 +67394,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.529517,
-          33.111638
+          35.530447,
+          33.110714
         ],
         "certainty": "certain"
       },
@@ -67666,8 +67666,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.0036,
-          31.6137
+          35.002752,
+          31.614175
         ],
         "certainty": "certain"
       },
@@ -67773,8 +67773,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          36.61899,
-          32.75616
+          36.618355,
+          32.754205
         ],
         "certainty": "less-certain"
       },
@@ -68009,8 +68009,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.74386,
-          31.749127
+          35.686111,
+          31.540556
         ],
         "certainty": "less-certain"
       },
@@ -68446,8 +68446,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.24,
-          31.780278
+          35.236596,
+          31.772134
         ],
         "certainty": "certain"
       },
@@ -68964,8 +68964,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.235985,
-          31.767198
+          35.234935,
+          31.777444
         ],
         "certainty": "less-certain"
       },
@@ -69105,8 +69105,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          45.931389,
-          33.123611
+          35.70214779,
+          31.1813258
         ],
         "certainty": "less-certain"
       },
@@ -69216,8 +69216,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          45.931389,
-          33.123611
+          35.701389,
+          31.180556
         ],
         "certainty": "less-certain"
       },
@@ -69399,8 +69399,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.10378,
-          31.808957
+          35.102772,
+          31.814238
         ],
         "certainty": "certain"
       },
@@ -70065,8 +70065,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.033333,
-          32.816667
+          35.064096,
+          32.761948
         ],
         "certainty": "certain"
       },
@@ -70239,8 +70239,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.03215,
-          32.62558
+          35.279335,
+          32.753141
         ],
         "certainty": "less-certain"
       },
@@ -70464,8 +70464,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.325,
-          37.0
+          35.411135,
+          36.930312
         ],
         "certainty": "certain"
       },
@@ -70582,8 +70582,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.10667,
-          31.23194
+          34.704,
+          29.99321
         ],
         "certainty": "less-certain"
       },
@@ -70662,8 +70662,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.849167,
-          31.565278
+          34.84919,
+          31.565521
         ],
         "certainty": "certain"
       },
@@ -70799,8 +70799,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.896,
-          31.57183
+          34.9,
+          31.566667
         ],
         "certainty": "less-certain"
       },
@@ -70922,8 +70922,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.248333,
-          31.798611
+          35.25,
+          31.8
         ],
         "certainty": "less-certain"
       },
@@ -71133,8 +71133,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          29.1075,
-          37.835833
+          29.107389,
+          37.835939
         ],
         "certainty": "certain"
       },
@@ -71280,8 +71280,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.811111,
-          34.940556
+          24.818266,
+          34.94083
         ],
         "certainty": "certain"
       },
@@ -71571,8 +71571,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          46.104444,
-          30.962222
+          46.10374195774169,
+          30.9620520474569
         ],
         "certainty": "certain"
       },
@@ -72011,8 +72011,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.86564,
-          31.38333
+          34.860665,
+          31.370835
         ],
         "certainty": "less-certain"
       },
@@ -72289,8 +72289,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.851229,
-          32.820946
+          21.858301,
+          32.824979
         ],
         "certainty": "certain"
       },
@@ -72531,8 +72531,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.9,
-          31.95
+          34.89527778,
+          31.95138889
         ],
         "certainty": "certain"
       },
@@ -72862,8 +72862,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          33.0,
-          38.0
+          32.4942625657248,
+          37.88353038890398
         ],
         "certainty": "certain"
       },
@@ -72944,8 +72944,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          29.9,
-          36.733333
+          29.575135,
+          36.634121
         ],
         "certainty": "certain"
       },
@@ -73029,8 +73029,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.3384,
-          37.6017
+          32.344473,
+          37.588278
         ],
         "certainty": "certain"
       },
@@ -73438,8 +73438,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.230718,
-          31.823113
+          35.23100936128631,
+          31.82378102460309
         ],
         "certainty": "certain"
       },
@@ -73538,8 +73538,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.54,
-          41.6
+          22.343501,
+          40.782395
         ],
         "certainty": "certain"
       },
@@ -73755,8 +73755,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.110758,
-          31.524672
+          35.11073465,
+          31.52464795
         ],
         "certainty": "less-certain"
       },
@@ -74944,8 +74944,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.234167,
-          31.776667
+          35.234935,
+          31.777444
         ],
         "certainty": "certain"
       },
@@ -75240,8 +75240,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.18901,
-          31.75367
+          35.181972,
+          31.752603
         ],
         "certainty": "less-certain"
       },
@@ -75308,8 +75308,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.133839,
-          31.409448
+          35.132746,
+          31.409891
         ],
         "certainty": "certain"
       },
@@ -75445,8 +75445,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.94284,
-          29.34604
+          32.933333,
+          29.35
         ],
         "certainty": "less-certain"
       },
@@ -76127,8 +76127,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.775833,
-          32.103889
+          34.788144,
+          32.132898
         ],
         "certainty": "less-certain"
       },
@@ -76392,8 +76392,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.79548,
-          31.716107
+          35.79197232,
+          31.72045763
         ],
         "certainty": "certain"
       },
@@ -76499,8 +76499,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          48.516247,
-          34.8065
+          48.514966,
+          34.798311
         ],
         "certainty": "certain"
       },
@@ -76660,8 +76660,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.17035,
-          31.804819
+          33.47,
+          33.24
         ],
         "certainty": "certain"
       },
@@ -77098,8 +77098,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.184444,
-          32.585278
+          35.183731,
+          32.583776
         ],
         "certainty": "certain"
       },
@@ -77353,8 +77353,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          31.253,
-          29.8488
+          31.255061,
+          29.849491
         ],
         "certainty": "certain"
       },
@@ -78452,8 +78452,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          39.032778,
-          36.864444
+          40.651695,
+          37.698936
         ],
         "certainty": "certain"
       },
@@ -78580,8 +78580,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.276858,
-          31.872817
+          35.27693,
+          31.871273
         ],
         "certainty": "certain"
       },
@@ -78860,8 +78860,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.40589,
-          31.74153
+          35.401591,
+          31.743894
         ],
         "certainty": "less-certain"
       },
@@ -78963,8 +78963,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.0122,
-          28.4947
+          35.085944,
+          28.723214
         ],
         "certainty": "certain"
       },
@@ -79287,8 +79287,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.49286,
-          30.96478
+          32.493003,
+          30.967368
         ],
         "certainty": "less-certain"
       },
@@ -79483,8 +79483,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          27.275556,
-          37.531111
+          27.278808,
+          37.530464
         ],
         "certainty": "certain"
       },
@@ -79710,8 +79710,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.234167,
-          31.776667
+          35.234935,
+          31.777444
         ],
         "certainty": "certain"
       },
@@ -80839,8 +80839,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.7,
-          32.1
+          36.00555931,
+          32.56526757
         ],
         "certainty": "less-certain"
       },
@@ -81147,8 +81147,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.34873,
-          32.61764
+          35.35737645,
+          32.61773064
         ],
         "certainty": "certain"
       },
@@ -81231,8 +81231,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.281944,
-          32.213611
+          35.2817986718367,
+          32.21369123124062
         ],
         "certainty": "less-certain"
       },
@@ -81583,8 +81583,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.785833,
-          31.841389
+          34.746856,
+          31.865518
         ],
         "certainty": "less-certain"
       },
@@ -81663,8 +81663,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.023333,
-          32.6725
+          35.04978957,
+          32.72935016
         ],
         "certainty": "certain"
       },
@@ -81795,8 +81795,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.273042,
-          32.232938
+          35.273353,
+          32.233568
         ],
         "certainty": "certain"
       },
@@ -81903,8 +81903,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.2733,
-          32.234
+          35.241389,
+          31.922778
         ],
         "certainty": "certain"
       },
@@ -82351,8 +82351,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.272778,
-          32.199444
+          35.273255,
+          32.200815
         ],
         "certainty": "certain"
       },
@@ -82653,8 +82653,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.8287,
-          30.9144
+          34.833333,
+          30.916667
         ],
         "certainty": "less-certain"
       },
@@ -82743,8 +82743,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.85,
-          33.4
+          35.85725618,
+          33.41615982
         ],
         "certainty": "certain"
       },
@@ -83261,8 +83261,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.051111,
-          31.781111
+          35.05113,
+          31.781049
         ],
         "certainty": "certain"
       },
@@ -83355,8 +83355,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          36.116389,
-          34.299722
+          36.116667,
+          34.3
         ],
         "certainty": "certain"
       },
@@ -83670,8 +83670,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.235556,
-          31.777778
+          35.23525141,
+          31.77759385
         ],
         "certainty": "certain"
       },
@@ -83788,8 +83788,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.75,
-          31.766667
+          35.74614824,
+          31.7613578
         ],
         "certainty": "less-certain"
       },
@@ -83876,8 +83876,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.245686,
-          31.777946
+          35.24719761,
+          31.77809503
         ],
         "certainty": "certain"
       },
@@ -84288,8 +84288,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.204735,
-          31.785217
+          35.223059,
+          31.756332
         ],
         "certainty": "less-certain"
       },
@@ -84882,8 +84882,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.2733,
-          32.234
+          35.2730418,
+          32.23293814
         ],
         "certainty": "less-certain"
       },
@@ -85102,8 +85102,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.234167,
-          31.776667
+          35.234935,
+          31.777444
         ],
         "certainty": "certain"
       },
@@ -85244,8 +85244,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.16419,
-          31.79289
+          35.167596,
+          31.79224
         ],
         "certainty": "less-certain"
       },
@@ -85421,8 +85421,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.234167,
-          31.776667
+          35.234935,
+          31.777444
         ],
         "certainty": "certain"
       },
@@ -85571,8 +85571,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          29.985278,
-          36.259167
+          29.98545,
+          36.258559
         ],
         "certainty": "certain"
       },
@@ -85656,8 +85656,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          28.5,
-          40.0
+          26.08059270470616,
+          39.50664305923271
         ],
         "certainty": "certain"
       },
@@ -85844,8 +85844,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.42475,
-          31.893472
+          35.423662,
+          31.899811
         ],
         "certainty": "less-certain"
       },
@@ -86186,8 +86186,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.559306,
-          31.597
+          35.567222,
+          31.618056
         ],
         "certainty": "less-certain"
       },
@@ -86266,8 +86266,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.350139,
-          32.630694
+          35.34782689,
+          32.63083337
         ],
         "certainty": "certain"
       },
@@ -86730,8 +86730,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.29769,
-          32.70214
+          35.300148,
+          32.701029
         ],
         "certainty": "certain"
       },
@@ -86826,8 +86826,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.221877,
-          32.894254
+          35.423456,
+          32.804203
         ],
         "certainty": "less-certain"
       },
@@ -86929,8 +86929,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.415,
-          40.935
+          24.414039,
+          40.934324
         ],
         "certainty": "certain"
       },
@@ -87083,8 +87083,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.9589,
-          31.986436
+          34.957563,
+          31.992079
         ],
         "certainty": "certain"
       },
@@ -87167,8 +87167,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.036733,
-          31.607211
+          35.037417,
+          31.606256
         ],
         "certainty": "less-certain"
       },
@@ -87247,8 +87247,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.74386,
-          31.749127
+          35.743257,
+          31.748024
         ],
         "certainty": "less-certain"
       },
@@ -87353,8 +87353,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.840833,
-          31.244722
+          34.956029,
+          31.213287
         ],
         "certainty": "certain"
       },
@@ -87562,8 +87562,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.2219,
-          32.8926
+          35.221877,
+          32.894254
         ],
         "certainty": "less-certain"
       },
@@ -87927,8 +87927,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.234167,
-          31.776667
+          35.234935,
+          31.777444
         ],
         "certainty": "certain"
       },
@@ -88225,8 +88225,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.73736,
-          39.023485
+          20.736003,
+          39.0157
         ],
         "certainty": "certain"
       },
@@ -88332,8 +88332,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          30.3667,
-          31.4653
+          31.230987,
+          30.092632
         ],
         "certainty": "certain"
       },
@@ -88512,8 +88512,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.526667,
-          31.133611
+          35.531138,
+          31.133191
         ],
         "certainty": "less-certain"
       },
@@ -88606,8 +88606,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          43.1528,
-          36.3594
+          43.159937,
+          36.360762
         ],
         "certainty": "certain"
       },
@@ -89150,8 +89150,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.234167,
-          31.776667
+          35.234935,
+          31.777444
         ],
         "certainty": "certain"
       },
@@ -89735,8 +89735,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.868056,
-          32.027222
+          34.864193,
+          32.033584
         ],
         "certainty": "certain"
       },
@@ -89830,8 +89830,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.236222,
-          31.775333
+          35.234935,
+          31.777444
         ],
         "certainty": "certain"
       },
@@ -90003,8 +90003,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.215556,
-          31.961944
+          35.215483,
+          31.961989
         ],
         "certainty": "less-certain"
       },
@@ -90110,8 +90110,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.300278,
-          31.954444
+          35.29913578,
+          31.95378956
         ],
         "certainty": "certain"
       },
@@ -90213,8 +90213,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.29,
-          32.6057
+          35.28826433,
+          32.6086827
         ],
         "certainty": "less-certain"
       },
@@ -90357,8 +90357,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          39.032778,
-          36.864444
+          39.03219672227345,
+          36.86386407659651
         ],
         "certainty": "certain"
       },
@@ -90579,8 +90579,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.404167,
-          34.755667
+          32.406593,
+          34.757212
         ],
         "certainty": "certain"
       },
@@ -91137,8 +91137,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          29.314167,
-          36.260278
+          29.314501,
+          36.261795
         ],
         "certainty": "certain"
       },
@@ -91601,8 +91601,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.546139,
-          31.042512
+          32.547105,
+          31.042627
         ],
         "certainty": "certain"
       },
@@ -91986,8 +91986,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.234167,
-          31.776667
+          35.234935,
+          31.777444
         ],
         "certainty": "certain"
       },
@@ -92098,8 +92098,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          30.853686,
-          36.960353
+          30.853259,
+          36.964466
         ],
         "certainty": "certain"
       },
@@ -92219,8 +92219,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          27.18421,
-          39.13216
+          27.184167,
+          39.1325
         ],
         "certainty": "certain"
       },
@@ -92354,8 +92354,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          48.516247,
-          34.8065
+          48.514966,
+          34.798311
         ],
         "certainty": "certain"
       },
@@ -92446,8 +92446,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          38.0865,
-          36.7014
+          38.068879,
+          36.654616
         ],
         "certainty": "less-certain"
       },
@@ -92622,8 +92622,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          28.516667,
-          38.35
+          28.516621,
+          38.350374
         ],
         "certainty": "certain"
       },
@@ -92783,8 +92783,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.284576,
-          41.012072
+          24.284637,
+          41.012651
         ],
         "certainty": "certain"
       },
@@ -93381,8 +93381,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.072222,
-          35.2
+          24.07828,
+          35.19919
         ],
         "certainty": "less-certain"
       },
@@ -93671,8 +93671,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          31.51,
-          30.572778
+          31.511085,
+          30.572382
         ],
         "certainty": "certain"
       },
@@ -93773,8 +93773,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.46951,
-          30.22518
+          32.425144,
+          29.94658
         ],
         "certainty": "less-certain"
       },
@@ -93964,8 +93964,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.725556,
-          31.767778
+          35.71856576,
+          31.7650313
         ],
         "certainty": "less-certain"
       },
@@ -94173,8 +94173,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          31.189167,
-          38.306111
+          31.17948683048973,
+          38.31643056393041
         ],
         "certainty": "certain"
       },
@@ -94426,8 +94426,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          37.83,
-          40.68
+          37.923416,
+          40.221357
         ],
         "certainty": "certain"
       },
@@ -94533,8 +94533,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.493647,
-          30.62775
+          35.494012,
+          30.627316
         ],
         "certainty": "certain"
       },
@@ -94606,8 +94606,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.851229,
-          32.820946
+          21.858301,
+          32.824979
         ],
         "certainty": "less-certain"
       },
@@ -94782,8 +94782,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.120556,
-          40.826111
+          14.121742,
+          40.825838
         ],
         "certainty": "certain"
       },
@@ -94957,8 +94957,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.179373,
-          17.477271
+          42.78,
+          15.68
         ],
         "certainty": "less-certain"
       },
@@ -95035,8 +95035,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.9343,
-          31.9547
+          35.92413136,
+          31.95018855
         ],
         "certainty": "certain"
       },
@@ -95390,8 +95390,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.787262,
-          32.130826
+          34.788144,
+          32.132898
         ],
         "certainty": "less-certain"
       },
@@ -95470,8 +95470,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.3106,
-          33.1108
+          35.310464,
+          33.111078
         ],
         "certainty": "less-certain"
       },
@@ -95898,8 +95898,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          31.834217,
-          30.79937
+          31.834774,
+          30.800762
         ],
         "certainty": "certain"
       },
@@ -96298,8 +96298,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.207639,
-          31.704306
+          35.21026630105202,
+          31.70536129174666
         ],
         "certainty": "less-certain"
       },
@@ -96398,8 +96398,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          33.0,
-          28.75
+          34.771729,
+          27.088473
         ],
         "certainty": "less-certain"
       },
@@ -97002,8 +97002,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.17421,
-          31.81048
+          35.197712,
+          31.869343
         ],
         "certainty": "less-certain"
       },
@@ -97426,8 +97426,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          38.756389,
-          35.627778
+          38.757581,
+          35.628992
         ],
         "certainty": "less-certain"
       },
@@ -97580,8 +97580,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.64412,
-          38.1088
+          15.64393,
+          38.109279
         ],
         "certainty": "certain"
       },
@@ -97719,8 +97719,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          28.2109,
-          36.4402
+          28.227611,
+          36.443113
         ],
         "certainty": "less-certain"
       },
@@ -97797,8 +97797,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          36.572623,
-          34.459547
+          36.545259,
+          34.431703
         ],
         "certainty": "certain"
       },
@@ -97910,8 +97910,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          36.366111,
-          33.536944
+          36.549142,
+          34.432149
         ],
         "certainty": "less-certain"
       },
@@ -98000,8 +98000,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.66791,
-          32.71865
+          34.865640,
+          31.383330
         ],
         "certainty": "less-certain"
       },
@@ -98911,8 +98911,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.4852,
-          41.8922
+          12.48333333,
+          41.9
         ],
         "certainty": "certain"
       },
@@ -99056,8 +99056,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          33.901944,
-          35.184944
+          33.902857,
+          35.179581
         ],
         "certainty": "certain"
       },
@@ -99199,8 +99199,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          36.7105,
-          32.4939
+          36.712059,
+          32.491336
         ],
         "certainty": "certain"
       },
@@ -99370,8 +99370,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.526389,
-          32.399167
+          35.52708,
+          32.399151
         ],
         "certainty": "less-certain"
       },
@@ -99517,8 +99517,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          26.31155,
-          35.31603
+          26.311348,
+          35.316056
         ],
         "certainty": "certain"
       },
@@ -99642,8 +99642,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.5,
-          31.5
+          35.482268,
+          31.538593
         ],
         "certainty": "certain"
       },
@@ -99878,8 +99878,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.195,
-          32.276111
+          35.190081,
+          32.276445
         ],
         "certainty": "certain"
       },
@@ -100270,8 +100270,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.583333,
-          40.45
+          25.576238,
+          40.452314
         ],
         "certainty": "certain"
       },
@@ -100472,8 +100472,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          28.040278,
-          38.488333
+          28.040286,
+          38.488314
         ],
         "certainty": "certain"
       },
@@ -100810,8 +100810,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.590033,
-          32.818906
+          35.590564,
+          32.813805
         ],
         "certainty": "certain"
       },
@@ -101143,8 +101143,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.206389,
-          15.348333
+          38.746799,
+          9.022736
         ],
         "certainty": "certain"
       },
@@ -101338,8 +101338,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.234167,
-          31.776667
+          35.234935,
+          31.777444
         ],
         "certainty": "certain"
       },
@@ -101671,8 +101671,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.574455,
-          30.78087
+          35.45627947,
+          30.32243571
         ],
         "certainty": "less-certain"
       },
@@ -101752,8 +101752,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.922,
-          36.124
+          35.928596,
+          36.121265
         ],
         "certainty": "certain"
       },
@@ -102233,8 +102233,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.98714,
-          31.86981
+          34.981728,
+          31.870364
         ],
         "certainty": "certain"
       },
@@ -102370,8 +102370,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.98714,
-          31.86981
+          35.18491237777512,
+          31.84684772753698
         ],
         "certainty": "certain"
       },
@@ -102808,8 +102808,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.234167,
-          31.776667
+          35.234935,
+          31.777444
         ],
         "certainty": "less-certain"
       },
@@ -103006,8 +103006,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.9318,
-          31.4184
+          34.933333,
+          31.416667
         ],
         "certainty": "less-certain"
       },
@@ -103294,8 +103294,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.883,
-          32.4
+          34.916670,
+          32.283330
         ],
         "certainty": "certain"
       },
@@ -103707,8 +103707,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.206389,
-          15.348333
+          38.746799,
+          9.022736
         ],
         "certainty": "certain"
       },
@@ -103786,8 +103786,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.310588,
-          31.907274
+          35.26122639380886,
+          31.91697811712517
         ],
         "certainty": "less-certain"
       },
@@ -103866,8 +103866,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.281944,
-          32.213611
+          35.282111,
+          32.213528
         ],
         "certainty": "certain"
       },
@@ -104061,8 +104061,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.234167,
-          31.776667
+          35.234935,
+          31.777444
         ],
         "certainty": "certain"
       },
@@ -104339,8 +104339,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          36.38715,
-          34.39674
+          36.385705,
+          34.353071
         ],
         "certainty": "less-certain"
       },
@@ -104556,8 +104556,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.033333,
-          32.816667
+          34.907697,
+          32.538496
         ],
         "certainty": "less-certain"
       },
@@ -104842,8 +104842,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.213333,
-          32.705289
+          35.219912,
+          32.701249
         ],
         "certainty": "certain"
       },
@@ -105009,8 +105009,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.422222,
-          32.543333
+          44.42088287373876,
+          32.53650368616845
         ],
         "certainty": "certain"
       },
@@ -105420,8 +105420,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.300278,
-          31.954444
+          35.29913577541004,
+          31.95378955858199
         ],
         "certainty": "certain"
       },
@@ -105957,8 +105957,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.371208,
-          33.560243
+          35.37279,
+          33.561947
         ],
         "certainty": "certain"
       },
@@ -106588,8 +106588,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.234167,
-          31.776667
+          35.234935,
+          31.777444
         ],
         "certainty": "certain"
       },
@@ -106986,8 +106986,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.572534,
-          31.031128
+          34.565833,
+          31.031111
         ],
         "certainty": "less-certain"
       },
@@ -107074,8 +107074,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          27.137778,
-          38.418889
+          27.141387,
+          38.417196
         ],
         "certainty": "certain"
       },
@@ -107203,8 +107203,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.9749,
-          31.6822
+          34.973815,
+          31.682491
         ],
         "certainty": "certain"
       },
@@ -107748,8 +107748,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.234167,
-          31.776667
+          35.234935,
+          31.777444
         ],
         "certainty": "certain"
       },
@@ -107882,8 +107882,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -4.35,
-          40.21
+          -3.175332,
+          40.481391
         ],
         "certainty": "certain"
       },
@@ -108463,8 +108463,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.234167,
-          31.776667
+          35.234935,
+          31.777444
         ],
         "certainty": "certain"
       },
@@ -108571,8 +108571,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          48.25778,
-          32.18922
+          48.253537,
+          32.189934
         ],
         "certainty": "certain"
       },
@@ -109110,8 +109110,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.899731,
-          24.088919
+          32.901491,
+          24.088575
         ],
         "certainty": "certain"
       },
@@ -109307,8 +109307,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.293056,
-          37.063889
+          15.283336,
+          37.070079
         ],
         "certainty": "certain"
       },
@@ -109489,8 +109489,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.0,
-          31.5
+          17.827475,
+          31.474808
         ],
         "certainty": "certain"
       },
@@ -109602,8 +109602,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.219122,
-          32.521526
+          35.220671,
+          32.520555
         ],
         "certainty": "certain"
       },
@@ -110132,8 +110132,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.392917,
-          32.68625
+          35.389618,
+          32.68711
         ],
         "certainty": "certain"
       },
@@ -110372,8 +110372,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          38.274,
-          34.547
+          38.26590497,
+          34.55404917
         ],
         "certainty": "certain"
       },
@@ -110779,8 +110779,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          32.171389,
-          30.860556
+          32.173485,
+          30.860022
         ],
         "certainty": "certain"
       },
@@ -110914,8 +110914,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          36.5196,
-          34.55781
+          36.519378,
+          34.557075
         ],
         "certainty": "less-certain"
       },
@@ -111536,8 +111536,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -6.944167,
-          37.271944
+          -6.379340234,
+          36.95299513
         ],
         "certainty": "less-certain"
       },
@@ -111624,8 +111624,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.892056,
-          36.913028
+          34.896467,
+          36.914043
         ],
         "certainty": "certain"
       },
@@ -111961,8 +111961,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.21048,
-          31.63247
+          35.215353,
+          31.636092
         ],
         "certainty": "certain"
       },
@@ -112137,8 +112137,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          45.230833,
-          32.126111
+          45.229995,
+          32.127213
         ],
         "certainty": "less-certain"
       },
@@ -112225,8 +112225,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          45.230833,
-          32.126111
+          45.229995,
+          32.127213
         ],
         "certainty": "less-certain"
       },
@@ -112327,8 +112327,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          45.230833,
-          32.126111
+          45.229995,
+          32.127213
         ],
         "certainty": "less-certain"
       },
@@ -112630,8 +112630,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          38.551626,
-          27.629703
+          38.55,
+          27.6219
         ],
         "certainty": "certain"
       },
@@ -112757,8 +112757,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.484847,
-          30.330994
+          35.732568,
+          30.203813
         ],
         "certainty": "less-certain"
       },
@@ -112927,8 +112927,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.228036,
-          31.776083
+          35.234935,
+          31.777444
         ],
         "certainty": "less-certain"
       },
@@ -113766,8 +113766,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.368611,
-          32.322222
+          35.36825276,
+          32.32410245
         ],
         "certainty": "less-certain"
       },
@@ -113850,8 +113850,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.945767,
-          40.637771
+          22.952885,
+          40.628342
         ],
         "certainty": "certain"
       },
@@ -113935,8 +113935,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.873889,
-          41.561944
+          12.874282,
+          41.561675
         ],
         "certainty": "certain"
       },
@@ -114098,8 +114098,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          27.83655,
-          38.92021
+          27.836209,
+          38.919999
         ],
         "certainty": "certain"
       },
@@ -114519,8 +114519,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          47.4421,
-          31.0043
+          43.346466,
+          35.983343
         ],
         "certainty": "certain"
       },
@@ -114786,8 +114786,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.910297,
-          31.784831
+          34.911583,
+          31.785337
         ],
         "certainty": "certain"
       },
@@ -115307,8 +115307,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.3378,
-          32.2874
+          35.337892,
+          32.287196
         ],
         "certainty": "certain"
       },
@@ -115495,8 +115495,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          36.243889,
-          32.563333
+          36.240494,
+          32.561735
         ],
         "certainty": "less-certain"
       },
@@ -115885,8 +115885,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.234303,
-          31.780094
+          35.234935,
+          31.777444
         ],
         "certainty": "certain"
       },
@@ -115985,8 +115985,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.234303,
-          31.780094
+          35.234935,
+          31.777444
         ],
         "certainty": "certain"
       },
@@ -116079,8 +116079,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.234167,
-          31.776667
+          35.234935,
+          31.777444
         ],
         "certainty": "certain"
       },
@@ -116177,8 +116177,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          36.455383,
-          32.9695
+          36.475741,
+          33.021409
         ],
         "certainty": "certain"
       },
@@ -116298,8 +116298,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          26.158611,
-          39.751944
+          26.157557,
+          39.751699
         ],
         "certainty": "certain"
       },
@@ -116660,8 +116660,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.196111,
-          33.270833
+          35.201829,
+          33.269335
         ],
         "certainty": "certain"
       },
@@ -117002,8 +117002,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          48.147827,
-          32.409975
+          48.22489,
+          32.178696
         ],
         "certainty": "less-certain"
       },
@@ -117584,8 +117584,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          46.104444,
-          30.962222
+          46.10374196,
+          30.96205205
         ],
         "certainty": "certain"
       },
@@ -117684,8 +117684,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.603919,
-          30.745843
+          36.44839,
+          30.0334
         ],
         "certainty": "certain"
       },
@@ -117770,8 +117770,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          44.2145,
-          15.3551
+          44.215092,
+          15.354879
         ],
         "certainty": "less-certain"
       },
@@ -117858,8 +117858,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.234167,
-          31.776667
+          35.234935,
+          31.777444
         ],
         "certainty": "certain"
       },
@@ -118038,8 +118038,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.234167,
-          31.776667
+          35.234935,
+          31.777444
         ],
         "certainty": "less-certain"
       },
@@ -118260,8 +118260,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          36.2044,
-          34.007611
+          36.203889,
+          34.006944
         ],
         "certainty": "less-certain"
       },
@@ -118372,8 +118372,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.17164,
-          31.60894
+          35.165648,
+          31.61065
         ],
         "certainty": "less-certain"
       },
@@ -118494,8 +118494,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.99802,
-          31.67542
+          34.963136,
+          31.690629
         ],
         "certainty": "certain"
       },
@@ -119037,8 +119037,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.228056,
-          31.769167
+          35.227994,
+          31.769079
         ],
         "certainty": "certain"
       },
@@ -119423,8 +119423,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.444564,
-          31.871719
+          35.44386371224434,
+          31.87060143818292
         ],
         "certainty": "certain"
       },
@@ -119833,8 +119833,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.219122,
-          31.763203
+          35.223059,
+          31.756332
         ],
         "certainty": "certain"
       },
@@ -119988,8 +119988,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.406271,
-          31.050508
+          35.38374,
+          31.087328
         ],
         "certainty": "less-certain"
       },
@@ -120082,8 +120082,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.686111,
-          31.540556
+          35.234935,
+          31.777444
         ],
         "certainty": "less-certain"
       },
@@ -120503,8 +120503,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.62118,
-          32.1966
+          35.63331303,
+          32.19998299
         ],
         "certainty": "certain"
       },
@@ -120704,8 +120704,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.953056,
-          31.610556
+          34.910085,
+          31.615198
         ],
         "certainty": "less-certain"
       },
@@ -120890,8 +120890,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.235985,
-          31.767198
+          35.227994,
+          31.769079
         ],
         "certainty": "less-certain"
       },
@@ -121010,8 +121010,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.234167,
-          31.776667
+          35.234935,
+          31.777444
         ],
         "certainty": "certain"
       },
@@ -121098,8 +121098,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.234167,
-          31.776667
+          35.234935,
+          31.777444
         ],
         "certainty": "certain"
       },
@@ -121358,8 +121358,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          47.442,
-          31.0043
+          35.234935,
+          31.777444
         ],
         "certainty": "certain"
       },
@@ -121478,8 +121478,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          33.536667,
-          29.147778
+          33.420573,
+          28.838778
         ],
         "certainty": "less-certain"
       },
@@ -121870,8 +121870,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.416667,
-          33.083333
+          35.414111,
+          33.088748
         ],
         "certainty": "certain"
       },
@@ -122414,8 +122414,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.00129,
-          31.71944
+          35,
+          31.716667
         ],
         "certainty": "certain"
       },
@@ -122733,8 +122733,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.295136,
-          33.464227
+          35.294952,
+          33.463062
         ],
         "certainty": "certain"
       },
@@ -122888,8 +122888,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.577241,
-          32.26769
+          35.576613,
+          32.267821
         ],
         "certainty": "less-certain"
       },
@@ -123380,8 +123380,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          36.924189,
-          34.313456
+          36.925484,
+          34.312571
         ],
         "certainty": "less-certain"
       },
@@ -123586,8 +123586,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.183333,
-          31.716667
+          35.187019,
+          31.717666
         ],
         "certainty": "less-certain"
       },
@@ -123994,8 +123994,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.196111,
-          33.270833
+          35.459722,
+          32.799722
         ],
         "certainty": "less-certain"
       },
@@ -124097,8 +124097,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.48533,
-          31.02701
+          35.897633,
+          30.884128
         ],
         "certainty": "certain"
       },
@@ -124724,8 +124724,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          48.25778,
-          32.18922
+          48.25788647687722,
+          32.18919123705116
         ],
         "certainty": "less-certain"
       },
@@ -125008,8 +125008,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.13514,
-          31.47475
+          35.140514,
+          31.478252
         ],
         "certainty": "certain"
       },
@@ -125203,8 +125203,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          31.88,
-          30.976944
+          31.88417307,
+          30.97461982
         ],
         "certainty": "certain"
       },
@@ -125736,8 +125736,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.73394,
-          31.77107
+          35.725296,
+          31.767811
         ],
         "certainty": "less-certain"
       },
@@ -125978,8 +125978,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.23161,
-          31.85434
+          35.18491237777512,
+          31.84684772753698
         ],
         "certainty": "certain"
       },
