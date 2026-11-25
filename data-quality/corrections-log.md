@@ -8,6 +8,14 @@ Found something that still looks wrong? [Open a data correction issue](https://g
 
 ## November 2026
 
+Fixed in Airtable on November 24, in a second DQ-0031 write after the 134-place refresh above. These changes reach `json/` and `CSV/` in the next export. GeoJSON is unchanged (DQ-0072 remains on hold).
+
+- **Places:** 212 more places whose stored OpenBible coordinates were stale now have updated `openBibleLat` / `openBibleLong` (DQ-0031). The GeoJSON already sat on the current OpenBible identification (17 Nov 2026 snapshot), including leading idents that are a center or a representative point, and including moves over 10 km. Displayed coordinates follow the formula (canonical place, else Pleiades, else OpenBible). None of these 212 had stored Pleiades coordinates, so the display followed the new OpenBible values.
+  - 184 are leftover D4 records: the 15 geo-backed moves over 10 km held from the first pass (including *Janoah* `janoah_621` and *Hosah* `hosah_583`), and 169 other stale-OpenBible refreshes.
+  - 28 are modest 5–25 km group-(e) region pins whose GeoJSON already matched current OpenBible (for example *Mount Gilboa*, *Shephelah*, *Galilee*, *Brook of Egypt* and *Shihor*). *Shaalim* and *Moab* from that set were not written, because GeoJSON does not match the current OpenBible lead.
+  - 99 of the 212 now share a display pin (within 1 km) with another unlinked Theographic record. That was expected once the earlier landing-on-another caution was dropped.
+  - The 26 flagged same-ident records, Mount Hor (`mount_hor_843`, DQ-0118), Pethor, Atad, Riblah and Tadmor were left untouched. DQ-0031 stays open.
+
 Fixed in Airtable on November 24. These changes reach `json/` and `CSV/` in the next export. GeoJSON is unchanged (DQ-0072 remains on hold).
 
 - **Places:** 134 places whose stored OpenBible coordinates were stale, or whose region pins had already been decided, now have updated `openBibleLat` / `openBibleLong` (DQ-0031). Displayed coordinates follow the formula (canonical place, else Pleiades, else OpenBible). None of these 134 had stored Pleiades coordinates, so the display followed the new OpenBible values. `sourceLat` / `sourceLon` are formulas and were not written.
