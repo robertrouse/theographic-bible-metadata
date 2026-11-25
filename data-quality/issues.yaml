@@ -872,7 +872,7 @@
     Cosmetic.
 - id: DQ-0031
   title: Place coordinates differ between Airtable and GeoJSON
-  status: needs-research
+  status: fixed
   type: wrong-value
   severity: high
   table: places
@@ -887,7 +887,7 @@
   checks: []
   rule: null
   found: { date: 2026-11-07, by: "geo consistency check (Airtable vs geo/bible-places.geojson)", sha: 4af2272ffcc5c77621e3877c7567b742adb0824f }
-  fixed: { date: null, sha: null }
+  fixed: { date: 2026-11-24, sha: null }
   github: null
   affects: [geo]
   notes: >-
@@ -1140,6 +1140,20 @@
     records with an Airtable point but no match, and 16 leftover
     records with no Airtable OpenBible point (not invented). DQ-0031
     stays needs-research; it is not complete.
+
+    On Nov 24 2026 (America/Chicago) Robert authorized finishing DQ-0031
+    (t491u). The 26 flagged same-ident records all had GeoJSON already
+    on the current OpenBible leading ident (17 Nov 2026 snapshot);
+    openBibleLat/openBibleLong were written for all 26 and re-read
+    verified. The 40 leftover records with no GeoJSON=current-OpenBible
+    match (24 with an Airtable point, 16 with no OpenBible point) were
+    reviewed and kept as they are. Atad, Riblah, Tadmor, Moab, and
+    Shaalim were also kept. Mount Hor (mount_hor_843) stays under
+    DQ-0118. Pethor (pethor_939, both_conflict) is spun off as DQ-0119.
+    Display formula fields were not written; they followed the new
+    OpenBible values on all 26 (none had stored Pleiades coordinates).
+    The GeoJSON was then synced under DQ-0072. Nothing remains on
+    DQ-0031 besides those tracked spin-offs. Status is fixed.
 - id: DQ-0032
   title: Missing or half-filled coordinates between Airtable and GeoJSON
   status: open
@@ -2748,7 +2762,7 @@
 
 - id: DQ-0072
   title: "Sync geo/bible-places.geojson with the new Airtable coordinates"
-  status: open
+  status: fixed
   type: wrong-value
   severity: medium
   table: places
@@ -2791,7 +2805,7 @@
   checks: []
   rule: null
   found: { date: 2026-11-14, by: "DQ-0064 post-switch GeoJSON comparison", sha: 014222a }
-  fixed: { date: null, sha: null }
+  fixed: { date: 2026-11-24, sha: null }
   github: null
   affects: [geo]
   notes: >-
@@ -2810,6 +2824,33 @@
     A blanket Airtable → GeoJSON sync would copy those errors into the
     GeoJSON. Fix DQ-0109 and DQ-0108 in Airtable first, then sync. Status
     unchanged; this item remains on hold.
+
+    On Nov 24 2026 (America/Chicago) Robert authorized the GeoJSON
+    write (t491u), after the DQ-0031 Airtable work including the
+    later OpenBible refresh passes. geo/bible-places.geojson Point
+    coordinates were updated to match each place's current Airtable
+    display (canonical, else confident Pleiades, else OpenBible);
+    aliases take the canonical point. 461 of 1,031 features changed;
+    524 Point features were already within 1 m of the Airtable
+    display. Mount Hor (mount_hor_843, DQ-0118) was excluded and is
+    unchanged. Other properties were not altered; no features were
+    added or removed. JSON / Linked Places structure was validated;
+    every remaining Point feature with an Airtable display now
+    matches that display.
+
+    Left unchanged by design, and listed rather than invented or
+    reshaped: 8 non-Point features (5 empty GeometryCollections:
+    Biziothiah, Edrei, Judah, Nebaioth, Nod; 3 MultiPoints: Kingdom
+    of Judah, Northern Kingdom of Israel, United Kingdom of Israel);
+    37 Point features whose linked Airtable places have no display
+    coordinates (including Atad / Abel-mizraim, which Robert asked
+    to keep); and 18 Airtable places that have no GeoJSON feature
+    (mostly possessive aliases such as jerusalems_637, plus a few
+    records with no feature of their own). Pethor was kept on its
+    Airtable point (Tell Aushariye); the GeoJSON feature was then
+    synced to that same display, so both files now agree there.
+    The remaining identification question (Tell Aushariye vs Til
+    Barsip) is DQ-0119. Status is fixed.
 
 - id: DQ-0073
   title: "Emmaus and Bethlehem of Zebulun have Recogito/GeoNames links to the wrong places"
@@ -5806,3 +5847,60 @@
     stays under DQ-0072 (on hold); that work should not overwrite this
     feature until this item is decided. Related: DQ-0031, DQ-0072.
     Effort: Small.
+
+    On Nov 24 2026 the authorized DQ-0072 GeoJSON sync ran but
+    excluded this feature, as held. Airtable and the GeoJSON point
+    for mount_hor_843 still differ (Airtable 35.710069, 36.188080 vs
+    GeoJSON 33.400000, 35.850000, about 259 km). No pin change until
+    this item is decided.
+
+- id: DQ-0119
+  title: "Research Pethor's location (two confident OpenBible resolutions)"
+  status: needs-research
+  type: wrong-value
+  severity: low
+  table: places
+  records:
+    - { id: reclTXq2VglIrbWTt, key: "pethor_939 (Airtable 36.654616, 38.068879, on Tell Aushariye)" }
+  field: latitude, longitude
+  current: >-
+    Pethor (pethor_939, reclTXq2VglIrbWTt) displays 36.654616,
+    38.068879 in Airtable, 0.831 km from the OpenBible resolution
+    Tell Aushariye (36.659949, 38.075398). The same OpenBible
+    article (aa9e754) has a second resolution at Til Barsip
+    (36.701400, 38.086500), about 5.4 km away; both resolutions
+    carry the same current-scholarship score (time_total 998).
+    Before the DQ-0072 sync the GeoJSON feature sat on Til Barsip
+    and shared that pin with Beth-eden (beth-eden_200) and Telassar
+    (telassar_1145). Airtable was kept; the GeoJSON was then synced
+    to the Airtable display, so both files now sit on 36.654616,
+    38.068879. This was the only both_conflict case in the DQ-0031
+    D4 leftover set.
+  proposed: >-
+    Research only. Decide whether Pethor is Tell Aushariye (keep
+    the current Airtable / GeoJSON pin), Til Barsip (move both back
+    to 36.701400, 38.086500), or another identification. Do not
+    change coordinates until Robert decides. If Til Barsip is
+    chosen, consider whether Beth-eden and Telassar should still
+    share that pin.
+  evidence: >-
+    OpenBible ancient.jsonl (17 Nov 2026), article aa9e754, two
+    resolutions of the leading identification: Til Barsip
+    (36.701400, 38.086500, best_path_score 382) and Tell Aushariye
+    (36.659949, 38.075398, best_path_score 260). Num 22:5 and
+    Deut 23:4 place Pethor in Aram-naharaim, by the River, in the
+    homeland of Balaam. The DQ-0031 reference check flagged this
+    as both_conflict because Airtable and GeoJSON then matched
+    different confident resolutions of the same ident.
+  checks: []
+  rule: null
+  found: { date: 2026-11-24, by: "DQ-0031 close-out (Robert)", sha: null }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [theographic-web, geo]
+  notes: >-
+    Spun off from DQ-0031 on Nov 24 2026 (America/Chicago) when
+    Robert finished the Airtable coordinate review and authorized
+    the DQ-0072 GeoJSON sync. Priority Low, category Places,
+    Effort Small. Airtable was not moved; GeoJSON now follows that
+    Airtable display. Related: DQ-0031, DQ-0072.
