@@ -5904,3 +5904,289 @@
     the DQ-0072 GeoJSON sync. Priority Low, category Places,
     Effort Small. Airtable was not moved; GeoJSON now follows that
     Airtable display. Related: DQ-0031, DQ-0072.
+
+- id: DQ-0120
+  title: "18 Airtable places have no GeoJSON feature (possessives and non-places)"
+  status: needs-research
+  type: missing-record
+  severity: low
+  table: places
+  records:
+    - { id: reckWxV3dWFM3clrQ, key: "ashdods_102 (Ashdod's; alias of ashdod_101; display 31.755937, 34.658057)" }
+    - { id: recvLUMajbYnYDikr, key: "benjamins_gate_437 (Benjamin's Gate; alias of gate_of_benjamin_175; display 31.777444, 35.234935)" }
+    - { id: rec1TOi8sIOGfx3kH, key: "egypts_363 (Egypt's; alias of egypt_362; display 30.108086, 31.338220)" }
+    - { id: recC8Nf4sI5O2LSMv, key: "jebusite_630 (Jebusite; alias of jerusalem_636; display 31.777189, 35.234978)" }
+    - { id: recHLZEykCCOixlEm, key: "jerusalems_637 (Jerusalem's; alias of jerusalem_636; display 31.777189, 35.234978)" }
+    - { id: recb3HpTdDfZCDwrP, key: "samarias_1023 (Samaria's; alias of samaria_1022; display 32.276445, 35.190081)" }
+    - { id: recixwLRyYolnIwB6, key: "zions_1264 (Zion's; alias of mount_zion_860; display 31.777444, 35.234935)" }
+    - { id: recyLlsmpRglpazOV, key: "holy_place_574 (Holy Place; no display)" }
+    - { id: rec6fTlTTEjSOEBsO, key: "holy_place_575 (Holy Place; display 31.777444, 35.234935)" }
+    - { id: recTWEg8O7udCHY6q, key: "judgment_511 (Judgment; display 31.777444, 35.234935)" }
+    - { id: recN1lVu0hmxpmrAq, key: "most_holy_825 (Most Holy; no display)" }
+    - { id: recI1b7GtcYtfWUQY, key: "most_holy_place_826 (Most Holy Place; no display)" }
+    - { id: recIULA5mLIbFFf63, key: "most_holy_place_827 (Most Holy Place; display 31.777444, 35.234935)" }
+    - { id: recQEUuywR0Ge1Xbl, key: "there_1152 (There; display 31.777444, 35.234935)" }
+    - { id: recjSq0xBFCfOFM9j, key: "azazel_127 (Azazel; no display)" }
+    - { id: recxhiTJpRog89LoO, key: "naphish_876 (Naphish; display 32.80007552505443, 35.93730130476259)" }
+    - { id: rec1f8fCk9jva56Vx, key: "nodab_903 (Nodab; display 32.80007552505443, 35.93730130476259)" }
+    - { id: recRhdJuunnIbd6jZ, key: "nohah_904 (Nohah; display 31.752603, 35.181972)" }
+  field: (no geo/bible-places.geojson feature)
+  current: >-
+    After the DQ-0072 sync of geo/bible-places.geojson to Airtable
+    display coordinates, 18 Airtable places still have no Linked
+    Places feature (and no Theographic lookup on any existing
+    feature). They were listed, not added, because that sync was
+    not allowed to add or remove features. Seven already have a
+    canonicalPlace and follow that place's display: Ashdod's
+    (ashdods_102 → ashdod_101), Benjamin's Gate (benjamins_gate_437
+    → gate_of_benjamin_175), Egypt's (egypts_363 → egypt_362),
+    Jebusite (jebusite_630 → jerusalem_636), Jerusalem's
+    (jerusalems_637 → jerusalem_636), Samaria's (samarias_1023 →
+    samaria_1022), and Zion's (zions_1264 → mount_zion_860). Six
+    look like temple or formula language rather than sites, and
+    four of those currently display the Jerusalem point 31.777444,
+    35.234935: Holy Place (holy_place_575), Judgment
+    (judgment_511), Most Holy Place (most_holy_place_827), and
+    There (there_1152). Holy Place (holy_place_574), Most Holy
+    (most_holy_825), and Most Holy Place (most_holy_place_826) have
+    no display and no canonical. Azazel (azazel_127) has no display
+    and no canonical. Naphish (naphish_876) and Nodab (nodab_903)
+    share a display at 32.800076, 35.937301; Nohah (nohah_904)
+    displays 31.752603, 35.181972.
+  proposed: >-
+    Research only. For each record, decide whether to merge it into
+    an existing canonical place (and treat the lookup as an alias
+    or possessive form), mark it non-geographic so it is not
+    expected in the GeoJSON, or add a GeoJSON feature. Do not
+    change Airtable or the GeoJSON until Robert decides.
+  evidence: >-
+    DQ-0072 membership check after the 24 Nov 2026 sync
+    (/workspace/dq0031/dq0072_membership_and_skips.csv, kind
+    airtable_missing_from_geojson). 1,297 Airtable places versus
+    1,279 unique Theographic lookups on 1,031 GeoJSON features;
+    these 18 Airtable lookups are the difference. No GeoJSON
+    lookup is missing from Airtable.
+  checks: []
+  rule: null
+  found: { date: 2026-11-25, by: "DQ-0031/0072 wrap-up (Robert)", sha: da17650 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [theographic-web, geo]
+  notes: >-
+    Logged 25 Nov 2026 (America/Chicago) at Robert's request to
+    track leftovers from the DQ-0031 / DQ-0072 close-out (PR #144).
+    Priority Low, category Places, Effort Medium. No data change
+    in this entry. Related: DQ-0031, DQ-0072, DQ-0121.
+
+- id: DQ-0121
+  title: "37 GeoJSON Point features have no Airtable display coordinates"
+  status: needs-research
+  type: wrong-value
+  severity: low
+  table: places
+  records:
+    - { id: reczHqVVeyk0FqeXR, key: "addon_25 (Addon; GeoJSON 'Addan' at 32.543333, 44.422222; no Airtable display)" }
+    - { id: recuSI1NE964vj24o, key: "ai_37 (Ai; GeoJSON 'Ai of Jeremiah' at 31.13422, 35.640041; no Airtable display)" }
+    - { id: recbH04cWWTUPT5HI, key: "atad_112 (Atad; GeoJSON 'Atad' at 31.914888, 35.530445; no Airtable display)" }
+    - { id: recNGsIGVIK9Quqo4, key: "abel-mizraim_9 (Abel-mizraim; alias of atad_112; GeoJSON 'Atad' at 31.914888, 35.530445; no Airtable display)" }
+    - { id: recwsdmX36Vbc84ii, key: "athach_116 (Athach; GeoJSON 'Athach' at 31.61593, 34.8783; no Airtable display)" }
+    - { id: reckp306GdVeCP6ow, key: "baal-hamon_141 (Baal-hamon; GeoJSON 'Baal-hamon' at 33.4, 35.85; no Airtable display)" }
+    - { id: rec1Pp0lTvXAzY48p, key: "beth-ashbea_190 (Beth-ashbea; GeoJSON 'Beth-ashbea' at 31.4558, 34.9098; no Airtable display)" }
+    - { id: recTmLtzNBGYaxeSZ, key: "casiphia_279 (Casiphia; GeoJSON 'Casiphia' at 32.543333, 44.422222; no Airtable display)" }
+    - { id: recEzWVEnIV04srGN, key: "chilmad_292 (Chilmad; GeoJSON 'Chilmad' at 36.385553, 36.688927; no Airtable display)" }
+    - { id: recLIUK6VRKNjnGo6, key: "eden_354 (Eden; GeoJSON 'Eden (garden)' at 40.383333, 44.95; no Airtable display)" }
+    - { id: recNFle4Fyz5h8k3o, key: "eglath-shelishiyah_360 (Eglath-shelishiyah; GeoJSON 'Eglath-shelishiyah' at 31.036904, 35.487657; no Airtable display)" }
+    - { id: recujqMoMiJOfMHBq, key: "elkosh_371 (Elkosh; GeoJSON 'Elkosh' at 33.12139, 35.33833; no Airtable display)" }
+    - { id: recENvrIbE4FauMl3, key: "gihon_472 (Gihon; GeoJSON 'Gihon (of Eden)' at 31.4653, 30.3667; no Airtable display)" }
+    - { id: recU8xPfFY5HMNYs5, key: "gog_484 (Gog; GeoJSON 'Gog' at 38.488333, 28.040278; no Airtable display)" }
+    - { id: reclUtj0Xno7ZYX1t, key: "goiim_485 (Goiim; GeoJSON 'Goiim' at 33.511112, 36.30639; no Airtable display)" }
+    - { id: recwxiPmuzJrIzDxx, key: "gomer_488 (Gomer; GeoJSON 'Gomer (Place)' at 39.0, 32.0; no Airtable display)" }
+    - { id: recnCcdEEzqBVi6nT, key: "hamonah_521 (Hamonah; GeoJSON 'Hamonah' at 31.7539, 35.7152; no Airtable display)" }
+    - { id: recWpQiaTsrRGpl1g, key: "hara_525 (Hara; GeoJSON 'Hara' at 36.826785, 40.03967; no Airtable display)" }
+    - { id: recSzJQj3klyLFo3s, key: "hashmonah_531 (Hashmonah; GeoJSON 'Hashmonah' at 30.668889, 34.366667; no Airtable display)" }
+    - { id: recImfyUAcGhifF6h, key: "havilah_533 (Havilah (of Eden); GeoJSON 'Havilah (of Eden)' at 32.543333, 44.422222; no Airtable display)" }
+    - { id: recCTS6dFI952Sd1m, key: "hazor_549 (Hazor; GeoJSON 'Hazor (of Jeremiah)' at 29.811417, 39.868306; no Airtable display)" }
+    - { id: recEvdb5Jza5GRTR3, key: "holon_573 (Holon; GeoJSON 'Holon' at 31.180556, 35.701389; no Airtable display)" }
+    - { id: recMDo1B27Zp8sbBs, key: "immer_596 (Immer; GeoJSON 'Immer (town)' at 32.543333, 44.422222; no Airtable display)" }
+    - { id: recbwzNRSJ9WR620p, key: "magog_754 (Magog; GeoJSON 'Magog' at 38.488333, 28.040278; no Airtable display)" }
+    - { id: recWxPHj8C8Xv97bH, key: "mithkah_807 (Mithkah; GeoJSON 'Mithkah' at 30.640556, 34.411111; no Airtable display)" }
+    - { id: recO5BBYiV9XXKwT5, key: "moseroth_824 (Moseroth; GeoJSON 'Moseroth' at 30.832057, 35.056872; no Airtable display)" }
+    - { id: recNAB8ozpbR1xT4V, key: "moserah_823 (Moserah; alias of moseroth_824; GeoJSON 'Moseroth' at 30.832057, 35.056872; no Airtable display)" }
+    - { id: recdYOw02hOKb3Gg0, key: "mount_shapher_854 (Mount Shapher; GeoJSON 'Mount Shepher' at 30.50662, 34.30356; no Airtable display)" }
+    - { id: recex6V3KwAAPJWzc, key: "nehelam_886 (Nehelam; GeoJSON 'Nehelam' at 32.75, 36.240833; no Airtable display)" }
+    - { id: recPkpwSKDIF9jQ3T, key: "ophir_911 (Ophir; GeoJSON 'Ophir (Place)' at 18.216667, 42.5; no Airtable display)" }
+    - { id: recYUPQOoXdrvoNnL, key: "parvaim_922 (Parvaim; GeoJSON 'Parvaim' at 16.871944, 43.711389; no Airtable display)" }
+    - { id: rec5aklHvut8pLc3y, key: "pishon_951 (Pison; GeoJSON 'Pishon' at 17.119722, 42.416389; no Airtable display)" }
+    - { id: recDSliISwQHk79qr, key: "sharon_1064 (Sharon; GeoJSON 'Sharon (of Bashan)' at 31.9547, 35.9343; no Airtable display)" }
+    - { id: recQ251kc77r3HetT, key: "taberah_1127 (Taberah; GeoJSON 'Taberah' at 28.788667, 34.275439; no Airtable display)" }
+    - { id: recn5STCT0Ju40KtJ, key: "tahath_1132 (Tahath; GeoJSON 'Tahath (campsite)' at 30.640556, 34.411111; no Airtable display)" }
+    - { id: recZ31xMdjbZ4fEUF, key: "terah_1151 (Terah; GeoJSON 'Terah (campsite)' at 30.640556, 34.411111; no Airtable display)" }
+    - { id: recQ3Rbzxg2nB04dj, key: "uphaz_1187 (Uphaz; GeoJSON 'Uphaz' at 18.216667, 42.5; no Airtable display)" }
+    - { id: recbHkRKRsfKeOQoB, key: "valley_of_hamongog_1205 (Valley of Hamongog; GeoJSON 'Valley of Hamon-gog' at 31.7539, 35.7152; no Airtable display)" }
+    - { id: recBmAFzEOaWeXu1s, key: "valley_of_the_passengers_1227 (Valley of the Passengers; alias of valley_of_hamongog_1205; GeoJSON 'Valley of Hamon-gog' at 31.7539, 35.7152; no Airtable display)" }
+    - { id: recfesMknFZ653OLj, key: "waheb_1228 (Waheb; GeoJSON 'Waheb' at 31.665609, 35.81749; no Airtable display)" }
+    - { id: recX6Geuthxftkb51, key: "biziothiah_251 (Biziothiah; GeoJSON 'Biziothiah' is GeometryCollection; listed as context, not the primary set)" }
+    - { id: recG9W13IqBso3iHl, key: "edrei_1285 (Edrei; GeoJSON 'Edrei' is GeometryCollection; listed as context, not the primary set)" }
+    - { id: recuzNJh7jSpK2w8w, key: "judah_1280 (Judah; GeoJSON 'Judah' is GeometryCollection; listed as context, not the primary set)" }
+    - { id: recM4RAfBVSEH5W7l, key: "judah-southern_1281 (Kingdom of Judah; GeoJSON 'Kingdom of Judah' is MultiPoint; listed as context, not the primary set)" }
+    - { id: recrmDj9yocelxOBG, key: "nebaioth_881 (Nebaioth; GeoJSON 'Nebaioth' is GeometryCollection; listed as context, not the primary set)" }
+    - { id: recdQjZKTnAnIH91s, key: "nod_902 (Nod; GeoJSON 'Nod' is GeometryCollection; listed as context, not the primary set)" }
+    - { id: recmjed5waWF62yBe, key: "northern-kingdom-of-israel_1302 (Northern Kingdom of Israel; GeoJSON 'Northern Kingdom of Israel' is MultiPoint; listed as context, not the primary set)" }
+    - { id: recVs3Ah7KNLdczEe, key: "united-kingdom-of-israel_1301 (United Kingdom of Israel; GeoJSON 'United Kingdom of Israel' is MultiPoint; listed as context, not the primary set)" }
+  field: latitude, longitude (Airtable) / geometry (geo/bible-places.geojson)
+  current: >-
+    After the DQ-0072 sync, 37 Point features in
+    geo/bible-places.geojson still have a coordinate, but none of
+    the linked Airtable places has a display latitude/longitude, so
+    the GeoJSON point was left unchanged (the sync could not invent
+    an Airtable pin, and it could not delete a feature). Those 37
+    features cover 40 Airtable records (three features each link
+    two records: Atad with alias Abel-mizraim; Moseroth with
+    Moserah; Valley of Hamon-gog with Valley of the Passengers).
+    Atad / Abel-mizraim (GeoJSON 31.914888, 35.530445) was
+    explicitly kept without an Airtable point during DQ-0031.
+    Other examples include Addon (Addan at 32.543333, 44.422222,
+    a point also used for Casiphia, Havilah of Eden, and Immer),
+    wilderness camps (Hashmonah, Mithkah, Mount Shepher, Taberah,
+    Tahath, Terah), Eden and its rivers (Eden, Gihon of Eden,
+    Pishon), and unlocated or far identifications (Ophir, Parvaim,
+    Uphaz, Gog, Magog). A further 8 non-Point features were also
+    left unchanged and are listed here only as context, because
+    updating them would have meant changing geometry type or
+    inventing a Point: empty GeometryCollections for Biziothiah,
+    Edrei (edrei_1285), Judah (judah_1280), Nebaioth, and Nod; and
+    MultiPoints for Kingdom of Judah (judah-southern_1281),
+    Northern Kingdom of Israel, and United Kingdom of Israel.
+  proposed: >-
+    Research only. For each of the 37 Point features, decide
+    whether to adopt the existing GeoJSON point as the Airtable
+    display (write openBibleLat/openBibleLong or a confident
+    Pleiades pin), leave the Airtable record unlocated and drop or
+    empty the GeoJSON geometry, or keep both as they are with an
+    explicit unlocated policy. The 8 non-Point features need a
+    separate geometry-type decision (keep a MultiPoint or empty
+    GeometryCollection, or reduce to a single representative
+    Point). Do not change Airtable or the GeoJSON until Robert
+    decides. Atad / Abel-mizraim stays as previously kept until
+    that decision is revisited here.
+  evidence: >-
+    DQ-0072 membership and skip list after the 24 Nov 2026 sync
+    (/workspace/dq0031/dq0072_membership_and_skips.csv, kinds
+    no_airtable_display_unchanged and non_point_unchanged). Live
+    Airtable display fields were empty for every linked lookup on
+    these 37 features; GeoJSON coordinates are the pre-sync Point
+    values, which that write did not alter.
+  checks: []
+  rule: null
+  found: { date: 2026-11-25, by: "DQ-0031/0072 wrap-up (Robert)", sha: da17650 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [theographic-web, geo]
+  notes: >-
+    Logged 25 Nov 2026 (America/Chicago) at Robert's request to
+    track leftovers from the DQ-0031 / DQ-0072 close-out (PR #144).
+    Priority Low, category Places, Effort Large. The primary set is
+    the 37 Point features (40 Airtable records). The 8 non-Point
+    features are context on the same item, not a separate issue.
+    No data change in this entry. Related: DQ-0031, DQ-0072,
+    DQ-0120.
+
+- id: DQ-0122
+  title: "15 unlinked pin shares from the DQ-0031 flagged-26 updates"
+  status: needs-research
+  type: missing-link
+  severity: low
+  table: places
+  records:
+    - { id: recyET7N6CKcQ1wsP, key: "abel-beth-maacah_5 (Abel-beth-maacah; flagged-26 write; unlinked shares: Aram-maacah (aram-maacah_83, 0.000 km); Maacah (maacah_743, 0.000 km); Maacath (maacath_744, 0.000 km))" }
+    - { id: recfF8Grz02VwUL1L, key: "balah_155 (Balah; flagged-26 write; unlinked shares: Baalah (baalah_134, 0.000 km); Bilhah (bilhah_249, 0.000 km); Telaim (telaim_1144, 0.000 km); Telem (telem_1146, 0.000 km))" }
+    - { id: rec48Xqy5594zh8gV, key: "bamoth-baal_158 (Bamoth-baal; flagged-26 write; unlinked shares: Bamoth (bamoth_157, 0.000 km))" }
+    - { id: recI2dj98dykn94sK, key: "bilhah_249 (Bilhah; flagged-26 write; unlinked shares: Baalah (baalah_134, 0.000 km); Balah (balah_155, 0.000 km); Telaim (telaim_1144, 0.000 km); Telem (telem_1146, 0.000 km))" }
+    - { id: reclzdXLmXHPKYAou, key: "debir_325 (Debir; flagged-26 write; unlinked shares: Gilo (gilo_478, 0.000 km); Giloh (giloh_479, 0.000 km))" }
+    - { id: recmpaqzhaWI0JOso, key: "ether_418 (Ether; flagged-26 write; unlinked shares: Tochen (tochen_1173, 0.000 km))" }
+    - { id: recAaSopoyGJdiCvF, key: "hali_510 (Hali; flagged-26 write; unlinked shares: Allammelech (allammelech_47, 0.000 km))" }
+    - { id: recI0tMa0vUukm1G0, key: "hazar-susah_540 (Hazar-susah; flagged-26 write; unlinked shares: Sansannah (sansannah_1026, 0.000 km))" }
+    - { id: rec7La3S5LreMht6s, key: "heleph_556 (Heleph; flagged-26 write; unlinked shares: Zaanannim (zaanannim_1235, 0.501 km))" }
+    - { id: recJTCJXOo6QXJndH, key: "jeshanah_638 (Jeshanah; flagged-26 write; unlinked shares: Shen (shen_1072, 0.000 km))" }
+    - { id: recIY9mUBLApR33cG, key: "mahanaim_756 (Mahanaim; flagged-26 write; unlinked shares: Gilead (gilead_475, 0.531 km); Peniel (peniel_930, 0.531 km); Penuel (penuel_931, 0.531 km))" }
+    - { id: recKsSsPEDA3H2QXE, key: "penuel_931 (Penuel; flagged-26 write; unlinked shares: Gilead (gilead_475, 0.000 km); Mahanaim (mahanaim_756, 0.531 km))" }
+    - { id: recksaGwo0AcTNKje, key: "ramath-lehi_978 (Ramath-lehi; flagged-26 write; unlinked shares: Lehi (lehi_726, 0.000 km))" }
+    - { id: rec79hwpJ5VGCC9JF, key: "sansannah_1026 (Sansannah; flagged-26 write; unlinked shares: Hazar-susah (hazar-susah_540, 0.000 km); Hazar-susim (hazar-susim_541, 0.000 km))" }
+    - { id: recVJJVSqbm0DBuEb, key: "timnath-heres_1166 (Timnath-heres; flagged-26 write; unlinked shares: Gaash (gaash_429, 0.000 km))" }
+    - { id: recDTg7AAcl20LwQ4, key: "allammelech_47 (Allammelech; unlinked partner; shares: Hali (hali_510, 0.000 km))" }
+    - { id: reciSXQ6ZRGyALlDf, key: "aram-maacah_83 (Aram-maacah; alias of maacah_743; unlinked partner; shares: Abel-beth-maacah (abel-beth-maacah_5, 0.000 km))" }
+    - { id: recy8fPOXhmjgXtvo, key: "baalah_134 (Baalah; unlinked partner; shares: Balah (balah_155, 0.000 km); Bilhah (bilhah_249, 0.000 km))" }
+    - { id: reclJnziaTsU0Sg4r, key: "bamoth_157 (Bamoth; unlinked partner; shares: Bamoth-baal (bamoth-baal_158, 0.000 km))" }
+    - { id: recYPNmOaWy8gnCa8, key: "gaash_429 (Gaash; unlinked partner; shares: Timnath-heres (timnath-heres_1166, 0.000 km))" }
+    - { id: recPoImnA7S93jcHx, key: "gilead_475 (Gilead; unlinked partner; shares: Penuel (penuel_931, 0.000 km); Mahanaim (mahanaim_756, 0.531 km))" }
+    - { id: recVoWObhcZdbdDmm, key: "gilo_478 (Gilo; alias of giloh_479; unlinked partner; shares: Debir (debir_325, 0.000 km))" }
+    - { id: rec3WJ6kka7RKAwZm, key: "giloh_479 (Giloh; unlinked partner; shares: Debir (debir_325, 0.000 km))" }
+    - { id: rec3qLfY9kEC7Xnun, key: "hazar-susim_541 (Hazar-susim; alias of hazar-susah_540; unlinked partner; shares: Sansannah (sansannah_1026, 0.000 km))" }
+    - { id: recNowoUM11x2dhdR, key: "lehi_726 (Lehi; unlinked partner; shares: Ramath-lehi (ramath-lehi_978, 0.000 km))" }
+    - { id: recE3XSfOMlaQJZRi, key: "maacah_743 (Maacah; unlinked partner; shares: Abel-beth-maacah (abel-beth-maacah_5, 0.000 km))" }
+    - { id: recsOdmE31xeIbuNN, key: "maacath_744 (Maacath; alias of maacah_743; unlinked partner; shares: Abel-beth-maacah (abel-beth-maacah_5, 0.000 km))" }
+    - { id: recGCjED5yTpggEi6, key: "peniel_930 (Peniel; alias of penuel_931; unlinked partner; shares: Mahanaim (mahanaim_756, 0.531 km))" }
+    - { id: recF5BKPMFrHnzfVq, key: "shen_1072 (Shen; unlinked partner; shares: Jeshanah (jeshanah_638, 0.000 km))" }
+    - { id: recy0wVtUyvb64YSM, key: "telaim_1144 (Telaim; alias of telem_1146; unlinked partner; shares: Balah (balah_155, 0.000 km); Bilhah (bilhah_249, 0.000 km))" }
+    - { id: recH4JgAoJ7UVSGsv, key: "telem_1146 (Telem; unlinked partner; shares: Balah (balah_155, 0.000 km); Bilhah (bilhah_249, 0.000 km))" }
+    - { id: rec3kU3cxeTCp8t2S, key: "tochen_1173 (Tochen; unlinked partner; shares: Ether (ether_418, 0.000 km))" }
+    - { id: rechxVXjzHPlW6kyy, key: "zaanannim_1235 (Zaanannim; unlinked partner; shares: Heleph (heleph_556, 0.501 km))" }
+  field: canonicalPlace (and whether two records should share a pin)
+  current: >-
+    When the 26 flagged same-ident Airtable records were updated
+    to the current OpenBible / GeoJSON point in the DQ-0031
+    close-out, the earlier landing-on-another-unlinked-record
+    caution was dropped, and 15 of those 26 now sit within 1 km
+    of another Theographic record that is not a linked alias,
+    canonical, or other-name. That is 25 unique unlinked pairs
+    among 33 records (the 15 writes plus 18 partners), in 12
+    clusters: Penuel with Gilead (0.000 km) and Mahanaim (0.531
+    km; Mahanaim is also 0.531 km from Gilead and from Peniel,
+    which is already an alias of Penuel); Abel-beth-maacah with
+    Aram-maacah, Maacah, and Maacath (all 0.000 km; Maacath is
+    already an alias of Maacah, but Abel-beth-maacah is not);
+    Ramath-lehi with Lehi (0.000 km); Jeshanah with Shen (0.000
+    km); Bamoth-baal with Bamoth (0.000 km); Debir with Gilo and
+    Giloh (0.000 km); Hazar-susah with Sansannah (0.000 km;
+    Sansannah also sits on Hazar-susim, which is already an alias
+    of Hazar-susah); Timnath-heres with Gaash (0.000 km); Balah
+    and Bilhah with Baalah, Telaim, and Telem (all 0.000 km;
+    Telaim is already an alias of Telem); Hali with Allammelech
+    (0.000 km); Ether with Tochen (0.000 km); and Heleph with
+    Zaanannim (0.501 km). These overlaps were expected once the
+    collision rule was dropped; they are not write errors.
+    Broader context, not the primary scope of this item: the
+    earlier DQ-0031 pass-2 write produced 99 of 212 records that
+    sit within 1 km of another unlinked place
+    (/workspace/dq0031/bulk_update_pin_shares_2.md). This issue
+    tracks the 15 from the flagged-26 update; the pass-2 set can
+    be reviewed later under this item or a follow-on.
+  proposed: >-
+    Research only. For each cluster, decide whether the records
+    should be alias-linked (canonicalPlace / other-name) because
+    they name the same site, or kept as separate places that
+    happen to share a pin (for example a city and the surrounding
+    region, or two nearby towns on the same OpenBible point). Do
+    not change Airtable links or coordinates until Robert decides.
+  evidence: >-
+    Unlinked display-pin comparison after the flagged-26 write,
+    /workspace/dq0031/bulk_update_pin_shares_3.csv (15 of 26
+    written records, unlinked share ≤ 1 km). The broader 99
+    pass-2 overlaps are listed in
+    /workspace/dq0031/bulk_update_pin_shares_2.md. Linked aliases
+    and canonical/other-name relations were excluded from the
+    share test.
+  checks: []
+  rule: null
+  found: { date: 2026-11-25, by: "DQ-0031/0072 wrap-up (Robert)", sha: da17650 }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [theographic-web, geo]
+  notes: >-
+    Logged 25 Nov 2026 (America/Chicago) at Robert's request to
+    track leftovers from the DQ-0031 / DQ-0072 close-out (PR #144).
+    Priority Low, category Places, Effort Medium. Primary scope is
+    the 15 flagged-26 pin shares (12 clusters, 33 records). The 99
+    pass-2 shares are noted as broader context, not automatically
+    in scope. No data change in this entry. Related: DQ-0031,
+    DQ-0072.
