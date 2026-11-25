@@ -941,7 +941,26 @@
     change the coordinate conclusion; 1 Sam 29:1 and 29:11 are still
     tagged to Judah's jezreel_642 (also DQ-0110). D4, the 479 genuinely
     unresolved records, were sorted into patterns in a separate read-only
-    review (no fix in this entry).
+    review (no fix in this entry). Region policy for the 121 D4
+    region/large-area records (Robert, Nov 24 2026; option D, the mix
+    already used in the data; direction only, no Airtable or GeoJSON
+    write; the GeoJSON write stays under DQ-0072). Countries, provinces,
+    and known geographic zones keep one documented representative point
+    (a Pleiades representative point if the match is later stored and is
+    appropriate for the biblical place; otherwise a documented OpenBible
+    or mid-area pin; precision Related-Surrounding or Center). Landforms
+    and waters keep one representative point on the feature (Center or
+    mid-feature, as with Jordan and the DQ-0114 Red Sea mid-sea pin);
+    drop shared placeholder pins (for example Tigris sitting on the
+    Euphrates GeoJSON pin). The seven peoples-as-places / poorly bounded
+    eponymous lands — havilah_534, sheba_1067, seba_1037, raamah_964,
+    amalek_53, javan_627, and beth-togarmah_239 — become unlocated in
+    both, in the spirit of DQ-0113. Three borderline sites (engedi_389,
+    ziz_1269, shebarim_1068) are carved out of the region set and treated
+    as ordinary D4 site disagreements. Tribal territories are already in
+    sync and stay as they are. Polygons remain a later enhancement.
+    Per-record pin proposals for the 111 that keep a point are in a
+    separate read-only review (no fix in this entry).
 - id: DQ-0032
   title: Missing or half-filled coordinates between Airtable and GeoJSON
   status: open
