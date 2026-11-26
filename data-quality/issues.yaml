@@ -6421,7 +6421,7 @@
   table: places
   records:
     - { id: recAalC2QoLT7cJKN, key: "judea_657 (Judea; alias judean_658; had pleiadesUri 981527 but no stored pleiadesLat/Lon, so display was the Jerusalem default 31.777444, 35.234935; now openBible 32.331417, 35.228586)" }
-    - { id: recfyDMmdJqC0a3vI, key: "judean_658 (Judea; alias of judea_657; display follows the canonical)" }
+    - { id: recfyDMmdJqC0a3vI, key: "judean_658 (Judea; alias of judea_657; openBible and display now 32.331417, 35.228586)" }
   field: openBibleLat, openBibleLong / geometry (geo/bible-places.geojson)
   current: >-
     judea_657 (Region; 44 verses) already stored Pleiades URI
@@ -6464,4 +6464,10 @@
     canonicalPlace, or pleiadesLat/pleiadesLon were written. The other
     default-point records were left untouched. Related: DQ-0123
     (same Jerusalem default inventory; not part of that item's required
-    six).
+    six). Follow-up 25 Nov 2026 (t498u / pt498u): copied the same
+    point 32.331417, 35.228586 into openBibleLat/openBibleLong on
+    alias judean_658, which had still stored the Jerusalem default
+    (display already followed the canonical). After the write,
+    openBible, sourceLat/sourceLon, and display all match. No
+    formula fields or URIs were written, and GeoJSON was already in
+    sync from the canonical fix.
