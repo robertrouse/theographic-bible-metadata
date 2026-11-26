@@ -6471,3 +6471,76 @@
     openBible, sourceLat/sourceLon, and display all match. No
     formula fields or URIs were written, and GeoJSON was already in
     sync from the canonical fix.
+
+- id: DQ-0126
+  title: "judean_658 is a duplicate of Judea, not a separate place"
+  status: fixed
+  type: duplicate-record
+  severity: low
+  table: places
+  records:
+    - { id: recfyDMmdJqC0a3vI, key: "judean_658 (deleted; was a place alias of judea_657 named Judean)" }
+    - { id: recAalC2QoLT7cJKN, key: "judea_657 (Judea; kept; John 3:22 retagged here)" }
+    - { id: rechP0tUkRzQ5ydTO, key: "John.3.22 (places, richText, mdText)" }
+  field: places, richText, mdText / names and links (geo/bible-places.geojson)
+  current: >-
+    judean_658 (recfyDMmdJqC0a3vI) was a place record with kjvName and
+    esvName "Judean", displayTitle "Judea", canonicalPlace=judea_657,
+    and the same OpenBible URI (a149f13) and Pleiades URI (981527) as
+    Judea. Its only linked verse was John 3:22, whose KJV text is
+    "into the land of Judaea" and whose richText/mdText tagged that
+    word to /place/judean_658. The same verse was also already linked
+    to judea_657. No KJV verse uses the word "Judean" or "Judaean".
+  proposed: >-
+    Retag John 3:22's "Judaea" to judea_657 only, remove the
+    judean_658 place link, then delete the duplicate place record.
+    Do not keep "Judean" as a GeoJSON toponym: it is an ESV adjective
+    for the same region, not a distinct place-name form, and Judaea
+    and Judea are already names on the Judea feature.
+  evidence: >-
+    KJV John 3:22: "After these things came Jesus and his disciples
+    into the land of Judaea; and there he tarried with them, and
+    baptized." richText tagged [Judaea](/place/judean_658); mdText
+    had the same path with the semicolon inside the label, matching
+    other Judaea tags. ESV John 3:22: "into the Judean countryside"
+    (esv.org). Every other "land/wilderness/coasts of Judaea" verse
+    was already tagged only to judea_657 (e.g. Matt 3:1, Mark 1:5).
+    A search of all 31,102 verseText fields found no "Judean" or
+    "Judaean". There is no people-group record named Judean. The
+    draft definition for judean_658 itself described Judea the
+    region and cited John 3:22. Robert's call: t501u / pt501u,
+    "Remove it as a separate place."
+  checks: []
+  rule: null
+  found: { date: 2026-11-25, by: "WH-9 follow-up: whether judean_658 should be a place at all", sha: ef966fc }
+  fixed: { date: 2026-11-25, sha: null }
+  github: null
+  affects: [theographic-web, geo]
+  notes: >-
+    Fixed 25 Nov 2026 (America/Chicago). Robert authorized removing
+    judean_658 as a separate place (t501u / pt501u). Backed up the
+    full Airtable place record and John 3:22 (places, richText,
+    mdText) to /workspace/alias_audit/judean_removal_backup.json,
+    along with the draft definition recJuMvuJS1lDtMhG. On John 3:22
+    (rechP0tUkRzQ5ydTO) removed the judean_658 places link and kept
+    judea_657; changed only the /place/judean_658 path in richText
+    and mdText to /place/judea_657, leaving the existing mdText
+    label [Judaea;] unchanged. Deleted the place record
+    recfyDMmdJqC0a3vI (DQ-0018's proposed convention for duplicate
+    place records is to delete, and no prior completed DQ item
+    archived a place instead). Also deleted the dangling draft
+    definition recJuMvuJS1lDtMhG (slug judean_658). After the
+    delete, judea_657's otherNames is empty, the Easton "Judea"
+    article (rechx1IT1A67fL7t3) links only to judea_657, John 3:22
+    is on judea_657 with placesCount 1, and the event "John the
+    Baptist Witnesses" had no writable locations link to the alias
+    (its places-from-verses lookup follows the verse). In
+    geo/bible-places.geojson, removed the Theographic citation and
+    seeAlso for judean_658 from the Judea feature; did not add
+    "Judean" as an alternate toponym, because GeoJSON alias names
+    are place-name forms (Shiloah, Skull, Judaea) and "Judean" is
+    an adjective, while Judaea and Judea are already present.
+    json/ and CSV/ still mention judean_658 until the next monthly
+    Airtable export, which is the established snapshot convention.
+    Related: DQ-0125 (the earlier coordinate fix on this alias).
+    The 65/77 alias-coordinate rules were not applied in this item.
