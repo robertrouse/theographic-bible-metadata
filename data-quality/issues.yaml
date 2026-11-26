@@ -6190,3 +6190,189 @@
     pass-2 shares are noted as broader context, not automatically
     in scope. No data change in this entry. Related: DQ-0031,
     DQ-0072.
+
+- id: DQ-0123
+  title: "Six Jerusalem sites sit on the city default point instead of their OpenBible locations"
+  status: needs-research
+  type: wrong-value
+  severity: high
+  table: places
+  records:
+    - { id: recYlTJouLztJii9o, key: "golgotha_487 (Golgotha; aliases place_954, place_1153, skull_1154; display and openBible 31.777444, 35.234935; OpenBible a631d35 now 31.778444, 35.229750)" }
+    - { id: rec8e887YWXiVHAGy, key: "place_954 (Place; alias of golgotha_487)" }
+    - { id: recsVabA4tEGT52Ym, key: "place_1153 (Place; alias of golgotha_487)" }
+    - { id: recyLzZVuj6lpF5w9, key: "skull_1154 (Skull; alias of golgotha_487)" }
+    - { id: recSyQJ7fMDS4wAsm, key: "gethsemane_462 (Gethsemane; display and openBible 31.777444, 35.234935; OpenBible a42418f 31.779419, 35.239425)" }
+    - { id: rec6CMR83y25xqFji, key: "bethesda_205 (Bethesda; display and openBible 31.777444, 35.234935; OpenBible a0aa8cf 31.781389, 35.235833)" }
+    - { id: recsSXHp8TaXQVDGH, key: "siloam_1096 (Siloam; aliases pool_691, pool_957, shiloah_1080; display and openBible 31.777444, 35.234935; OpenBible a294859 31.770556, 35.235000)" }
+    - { id: recxWtyi03VqD3AFx, key: "pool_691 (Pool; alias of siloam_1096)" }
+    - { id: recbJJLMTzLRSP2PI, key: "pool_957 (Pool; alias of siloam_1096)" }
+    - { id: rec4D5Z8lcPHzichv, key: "shiloah_1080 (Shiloah; alias of siloam_1096; stored openBible already 31.770556, 35.235000, but display follows Siloam)" }
+    - { id: recAt5Dc8ewQhhW5f, key: "akeldama_43 (Akeldama; already updated in Airtable and GeoJSON to OpenBible a040ba5 31.768410, 35.232880; json/CSV export still pending)" }
+    - { id: recWMy4BcpoOC3LSr, key: "pavement_1155 (Pavement / Gabbatha; alias gabbatha_430; display and openBible 31.777444, 35.234935; OpenBible aec23b1 suggests Herod's palace 31.776080, 35.228040; Antonia alternative 31.780374, 35.233511)" }
+    - { id: recCctY2iFKTyvAOc, key: "gabbatha_430 (Gabbatha; alias of pavement_1155)" }
+  field: openBibleLat, openBibleLong / geometry (geo/bible-places.geojson)
+  current: >-
+    Five well-located Jerusalem sites, and their aliases, still
+    display the Jerusalem default point 31.777444, 35.234935 (about
+    85 m from the Western Wall; the same default named in DQ-0089).
+    openBibleLat/openBibleLong hold that same stale value, and the
+    GeoJSON features that cite them use the same point, so a fix
+    must be written to Airtable openBibleLat/openBibleLong and to
+    geo/bible-places.geojson. Golgotha (golgotha_487, aliases
+    place_954, place_1153, skull_1154) sits 503 m east of the
+    current OpenBible resolution (a631d35, Church of the Holy
+    Sepulchre, 31.778444, 35.229750, 24 sources; Wikidata Q187702
+    is the same point); Gordon's Calvary, 0.6 km north of the Holy
+    Sepulchre, is the other recognised candidate. Gethsemane
+    (gethsemane_462) sits west of the Kidron, but John 18:1 places
+    the garden "over the brook Cedron"; OpenBible a42418f and
+    Wikidata Q205333 are 31.779419, 35.239425 on the Mount of
+    Olives, 478 m east. Bethesda (bethesda_205) should follow
+    John 5:2, "by the sheep market a pool"; OpenBible a0aa8cf and
+    Wikidata Q831297 (Pool of Bethesda, by St Anne's) are
+    31.781389, 35.235833, 447 m north. Siloam (siloam_1096,
+    aliases pool_691, pool_957, shiloah_1080) is 766 m north of
+    the Pool of Siloam; OpenBible a294859 and Wikidata Q1483483
+    are 31.770556, 35.235000 at the south end of the City of
+    David. (shiloah_1080 already stores that OpenBible point, but
+    its display follows Siloam's stale default.) The Pavement /
+    Gabbatha (pavement_1155, alias gabbatha_430) sits on the
+    Temple Mount; OpenBible aec23b1 describes it as "within 500 m
+    of Herod's palace" at 31.776080, 35.228040, 0.67 km west.
+    Wikidata Q591994 has the Antonia site, 31.780374, 35.233511,
+    353 m from the default; either is better than the Western
+    Wall. A sixth site in the same report, Akeldama
+    (akeldama_43), was already moved in the DQ-0031 Airtable
+    refresh and the DQ-0072 GeoJSON sync to OpenBible a040ba5 /
+    Wikidata Q886458, 31.768410, 35.232880, in the Hinnom valley;
+    json/ and CSV/ will follow in the next export. The default
+    point is also the display for 55 Airtable records that have no
+    canonicalPlace (full list in the History Globe note). For most
+    of those (gates, towers, temple terms) a city point is a fair
+    placeholder. Some of the remaining 55 also have current
+    OpenBible points 0.3 to 1.1 km away, including Broad Wall
+    (broad_wall_258), Dragon Spring / En-rogel (dragon_spring_343;
+    en-rogel_395 is already on 31.767775, 35.234408), the Tower of
+    Hananel, and Ophel (ophel_910). Those are possible follow-up
+    scope, not part of this item's required six.
+  proposed: >-
+    Research confirmed enough to log, but no write until Robert
+    approves the pins. For Golgotha, Gethsemane, Bethesda, and
+    Siloam, update openBibleLat/openBibleLong to the current
+    OpenBible points above (aliases will follow the canonical
+    display). For the Pavement, choose Herod's palace
+    (31.776080, 35.228040, the OpenBible suggestion) or the
+    Antonia alternative (31.780374, 35.233511) and apply that
+    choice. Then update the matching GeoJSON feature coordinates
+    to the same Airtable display (aliases share the canonical
+    feature). Akeldama is already at its suggested point in
+    Airtable and GeoJSON; no further coordinate change is needed
+    there, only the pending export. The other 55 default-point
+    records can be reviewed later as follow-up.
+  evidence: >-
+    Reported by History Globe, 25 Nov 2026, from a check of
+    json/places.json and geo/bible-places.geojson at master
+    a22047fe against current OpenBible ancient.jsonl and live
+    Wikidata. Distances are great-circle. OpenBible ids: Golgotha
+    a631d35, Gethsemane a42418f, Bethesda a0aa8cf, Siloam a294859,
+    Akeldama a040ba5, Pavement aec23b1. The 55 default-point
+    lookups in that note are: akeldama_43, angle_66,
+    beautiful_gate_163, bethesda_205, broad_wall_258,
+    corner_gate_307, dragon_spring_343, dung_gate_346,
+    east_gate_349, fish_gate_426, gareb_436, gate_miphkad_863,
+    gate_of_benjamin_175, gate_of_ephraim_402,
+    gate_of_the_children_of_the_people_932,
+    gate_of_the_foundation_440, gate_of_the_fountain_428,
+    gate_of_the_valley_1195, gethsemane_462, goah_482,
+    golgotha_487, holy_place_575, horse_gate_582, judea_657,
+    judgment_511, lebanon_585, millo_802, mortar_822,
+    most_holy_place_827, mount_zion_860, new_gate_891,
+    old_gate_439, ophel_910, pavement_1155, perez-uzzah_935,
+    pillars_512, prison_gate_441, river_244, second_quarter_1040,
+    shallecheth_1059, sheep_gate_1070, silla_1095, siloam_1096,
+    solomons_portico_1109, sur_1117, there_1152, throne_513,
+    tower_1177, tower_1179, tower_1180, uzza_1192,
+    valley_of_shaveh_692, valley_of_shaveh_1216, water_gate_1230,
+    way_of_holiness_1231. Related: DQ-0089 (the same Jerusalem
+    default point on river_244).
+  checks: []
+  rule: null
+  found: { date: 2026-11-25, by: "History Globe", sha: a22047fe }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [theographic-web, geo]
+  notes: >-
+    Logged 25 Nov 2026 (America/Chicago) from History Globe
+    feedback, at Robert's request. Priority High, category Places,
+    Effort Small. Credit: reported by History Globe. No data
+    change in this entry. A later coordinate fix must be applied
+    to Airtable openBibleLat/openBibleLong and to
+    geo/bible-places.geojson. Akeldama is already at the suggested
+    OpenBible point in Airtable and GeoJSON (DQ-0031 / DQ-0072);
+    the export is still pending. The other 55 default-point
+    records are follow-up scope only. Related: DQ-0089, DQ-0031,
+    DQ-0072.
+
+- id: DQ-0124
+  title: "Six GeoJSON Wikidata seeAlso links are not the place"
+  status: needs-research
+  type: bad-link
+  severity: low
+  table: places
+  records:
+    - { id: recwuQfjxyqSHBpeN, key: "almon_49 (Almon / Alemeth feature alemeth.json; also alemeth_45; seeAlso Q4716077 is a disambiguation page)" }
+    - { id: recfAJwYgmKZMAeHP, key: "alemeth_45 (Alemeth; same GeoJSON feature as Almon)" }
+    - { id: recNvVf6oxrh2Aqhe, key: "eshtemoa_412 (Eshtemoa feature eshtemoa.json; also eshtemoh_413; seeAlso Q5397937 is a disambiguation page)" }
+    - { id: recBVeG0aEI4bdx00, key: "eshtemoh_413 (Eshtemoh; same GeoJSON feature as Eshtemoa)" }
+    - { id: recDsLjW4riPOxvp4, key: "peor_933 (Mount Peor feature peor.json; also baal-peor_145; seeAlso Q61862532 is a disambiguation page)" }
+    - { id: recFPceE2ivY1B3sX, key: "baal-peor_145 (Baal-peor; same GeoJSON feature as Mount Peor)" }
+    - { id: recGCEXT37NohcAM5, key: "eloth_375 (Eloth / Elath feature elath.json; also elath_366; seeAlso Q3721153 redirects to Q1303899, the Eilat disambiguation page)" }
+    - { id: recbAK2JxigPufNCM, key: "elath_366 (Elath; same GeoJSON feature as Eloth)" }
+    - { id: rec44WSBX7TZj0taX, key: "madmenah_751 (Madmenah feature madmenah.json; seeAlso Q6728293 is Madmannah of Josh 15:31, in the Negeb)" }
+    - { id: rec4zjcf8PmeLpWQi, key: "aphek_73 (Aphek of Aram feature aphek.json; seeAlso Q4779536 is the name 'Aphek (biblical)' with a Sharon Aphek coordinate, about 105 km away)" }
+  field: links (geo/bible-places.geojson seeAlso Wikidata)
+  current: >-
+    Six seeAlso Wikidata links in geo/bible-places.geojson do not
+    identify the Theographic place. They came in with OpenBible's
+    links. History Globe checked the items live on Wikidata on 25
+    Nov 2026 and is notifying OpenBible of the same errors. Almon
+    (alemeth.json, lookups almon_49 and alemeth_45) links
+    Q4716077, whose P31 is Q4167410, a disambiguation page.
+    Eshtemoa (eshtemoa.json, eshtemoa_412 and eshtemoh_413) links
+    Q5397937, also a disambiguation page. Mount Peor (peor.json,
+    peor_933 and baal-peor_145) links Q61862532, a disambiguation
+    page. Eloth (elath.json, eloth_375 and elath_366) links
+    Q3721153, which redirects to Q1303899, the "Eilat"
+    disambiguation page. Madmenah (madmenah.json, madmenah_751)
+    links Q6728293, which is Madmannah of Josh 15:31 (enwiki
+    "Menois", Pleiades 687964 in the Negeb); Madmenah of Isa 10:31
+    is north of Jerusalem. Aphek of Aram (aphek.json, aphek_73)
+    links Q4779536, the item for the name "Aphek (biblical)",
+    whose coordinate is the Aphek of the Sharon (32.0833,
+    34.8833), about 105 km from the Aphek of 1 Kgs 20:26.
+  proposed: >-
+    Remove the six Wikidata seeAlso links from the GeoJSON
+    features above. Do not add a replacement Wikidata id until a
+    correct item is confirmed. No Airtable coordinate change is
+    part of this item. History Globe is reporting the same links
+    to OpenBible, which is where they entered the GeoJSON. No
+    write until Robert approves the removals.
+  evidence: >-
+    Reported by History Globe, 25 Nov 2026, from geo/bible-places.geojson
+    at master a22047fe, checked live on Wikidata the same day.
+    Feature files and Q-ids: alemeth.json Q4716077, eshtemoa.json
+    Q5397937, peor.json Q61862532, elath.json Q3721153,
+    madmenah.json Q6728293, aphek.json Q4779536.
+  checks: []
+  rule: null
+  found: { date: 2026-11-25, by: "History Globe", sha: a22047fe }
+  fixed: { date: null, sha: null }
+  github: null
+  affects: [geo]
+  notes: >-
+    Logged 25 Nov 2026 (America/Chicago) from History Globe
+    feedback, at Robert's request. Priority Low, category Places,
+    Effort Small. Credit: reported by History Globe. The reporter
+    is notifying OpenBible of the same six links. No data change
+    in this entry.
