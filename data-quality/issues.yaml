@@ -3680,7 +3680,7 @@
 
 - id: DQ-0089
   title: "river_244 has the Euphrates OpenBible id but sits on the Jerusalem default point"
-  status: open
+  status: fixed
   type: bad-link
   severity: medium
   table: places
@@ -3709,10 +3709,25 @@
   checks: []
   rule: null
   found: { date: 2026-11-20, by: "GitHub issue #121 (Christian Pure, bible-places v1.2.0), verified", sha: 317e1c2 }
-  fixed: { date: null, sha: null }
+  fixed: { date: 2026-11-25, sha: null }
   github: 121
-  affects: [theographic-web]
-  notes: null
+  affects: [theographic-web, geo]
+  notes: >-
+    Fixed 25 Nov 2026 (America/Chicago). Robert approved applying the
+    DQ-0123 proposal and folding in DQ-0089 (t494s2394 / pt494u).
+    Coordinate-only fix: wrote openBibleLat 35.090577 and openBibleLong
+    40.42778 on river_244 (rec9ygL3vIbmQQtNQ), the existing Theographic
+    Euphrates pin already used by euphrates_421 and its alias river_1010.
+    Display formulas followed. The GeoJSON feature "West of the
+    Euphrates River" was synced to the same point. openBibleUri was
+    already a62dec4 (Euphrates) and was left unchanged; canonicalPlace
+    was not set (a later data-model choice remains whether river_244
+    should become an alias of euphrates_421 or stay distinct for
+    Ezra-Nehemiah "beyond the river" / Eber-Nari). The Nov 17 OpenBible
+    representative point at the river mouth (31.0043, 47.442) and
+    Pleiades 912849 (35.660043, 39.373856, not stored on this record)
+    were not used, so river_244 stays in sync with euphrates_421.
+    Related: DQ-0123 (same approval, same PR).
 
 - id: DQ-0090
   title: "ham_515 has the OpenBible id for Ham (Gen 14:5) but no verses, while ham_514 has the verse and Ammon's id"
@@ -6193,7 +6208,7 @@
 
 - id: DQ-0123
   title: "Six Jerusalem sites sit on the city default point instead of their OpenBible locations"
-  status: needs-research
+  status: fixed
   type: wrong-value
   severity: high
   table: places
@@ -6299,21 +6314,37 @@
   checks: []
   rule: null
   found: { date: 2026-11-25, by: "History Globe", sha: a22047fe }
-  fixed: { date: null, sha: null }
+  fixed: { date: 2026-11-25, sha: null }
   github: null
   affects: [theographic-web, geo]
   notes: >-
     Logged 25 Nov 2026 (America/Chicago) from History Globe
     feedback, at Robert's request. Priority High, category Places,
-    Effort Small. Credit: reported by History Globe. No data
-    change in this entry. A later coordinate fix must be applied
-    to Airtable openBibleLat/openBibleLong and to
-    geo/bible-places.geojson. Akeldama is already at the suggested
-    OpenBible point in Airtable and GeoJSON (DQ-0031 / DQ-0072);
-    the export is still pending. The other 55 default-point
-    records are follow-up scope only. Related: DQ-0089, DQ-0031,
-    DQ-0072.
-
+    Effort Small. Credit: reported by History Globe. Fixed the same
+    day after Robert approved applying the proposal as recommended
+    (t494s2394 / pt494u), including Herod's palace for the Pavement,
+    and folding in DQ-0089. Wrote openBibleLat/openBibleLong only on
+    the five remaining canonicals still on the Jerusalem default:
+    Golgotha recYlTJouLztJii9o 31.778444, 35.229750 (OpenBible
+    a631d35, Church of the Holy Sepulchre, typ=point, time_total=426);
+    Gethsemane recSyQJ7fMDS4wAsm 31.779419, 35.239425 (a42418f,
+    typ=point, time_total=1000); Bethesda rec6CMR83y25xqFji
+    31.781389, 35.235833 (a0aa8cf, typ=point, time_total=1000);
+    Siloam recsSXHp8TaXQVDGH 31.770556, 35.235000 (a294859,
+    typ=point, time_total=1000); Pavement recWMy4BcpoOC3LSr
+    31.776083, 35.228036 (aec23b1, typ=center "within 500 m of
+    Herod's palace", time_total=605). Antonia (Wikidata Q591994
+    31.780374, 35.233511, or OpenBible Sisters of Zion 31.780322,
+    35.233361, time_total=-408) was the documented alternative and
+    was not taken. Display formulas followed on those records and
+    their aliases (place_954, place_1153, skull_1154, pool_691,
+    pool_957, shiloah_1080, gabbatha_430). The matching GeoJSON
+    features were synced to the new display points. Akeldama
+    recAt5Dc8ewQhhW5f was already at 31.768410, 35.232880 in
+    Airtable and GeoJSON (DQ-0031 / DQ-0072) and was not rewritten.
+    The other 55 default-point records were left untouched, as
+    Robert directed. No formula fields, URIs, or canonicalPlace
+    values were changed. Related: DQ-0089, DQ-0031, DQ-0072.
 - id: DQ-0124
   title: "Six GeoJSON Wikidata seeAlso links are not the place"
   status: needs-research
