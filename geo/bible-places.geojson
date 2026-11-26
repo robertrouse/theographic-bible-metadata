@@ -65913,10 +65913,6 @@
               "@id": "https://theographic.netlify.app/place/judea_657/"
             },
             {
-              "label": "Theographic",
-              "@id": "https://theographic.netlify.app/place/judean_658/"
-            },
-            {
               "label": "OpenBible",
               "@id": "https://www.openbible.info/geo/ancient/a149f13"
             }
@@ -65973,10 +65969,6 @@
         {
           "type": "seeAlso",
           "identifier": "https://theographic.netlify.app/place/judea_657/"
-        },
-        {
-          "type": "seeAlso",
-          "identifier": "https://theographic.netlify.app/place/judean_658/"
         },
         {
           "type": "seeAlso",
