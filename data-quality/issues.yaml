@@ -6345,6 +6345,11 @@
     The other 55 default-point records were left untouched, as
     Robert directed. No formula fields, URIs, or canonicalPlace
     values were changed. Related: DQ-0089, DQ-0031, DQ-0072.
+    Follow-up 25 Nov 2026 (t497u): copied the canonical openBibleLat / openBibleLong
+    onto the six aliases that still stored the Jerusalem default, so sourceLat /
+    sourceLon now match the display: place_954, place_1153, skull_1154
+    (31.778444, 35.229750); pool_691, pool_957 (31.770556, 35.235000);
+    and gabbatha_430 (31.776083, 35.228036). Display was already correct.
 - id: DQ-0124
   title: "Six GeoJSON Wikidata seeAlso links are not the place"
   status: needs-research
@@ -6407,3 +6412,56 @@
     Effort Small. Credit: reported by History Globe. The reporter
     is notifying OpenBible of the same six links. No data change
     in this entry.
+
+- id: DQ-0125
+  title: "judea_657 has a Pleiades URI but displayed the Jerusalem default point"
+  status: fixed
+  type: wrong-value
+  severity: high
+  table: places
+  records:
+    - { id: recAalC2QoLT7cJKN, key: "judea_657 (Judea; alias judean_658; had pleiadesUri 981527 but no stored pleiadesLat/Lon, so display was the Jerusalem default 31.777444, 35.234935; now openBible 32.331417, 35.228586)" }
+    - { id: recfyDMmdJqC0a3vI, key: "judean_658 (Judea; alias of judea_657; display follows the canonical)" }
+  field: openBibleLat, openBibleLong / geometry (geo/bible-places.geojson)
+  current: >-
+    judea_657 (Region; 44 verses) already stored Pleiades URI
+    https://pleiades.stoa.org/places/981527 but had no pleiadesLat or
+    pleiadesLon, so the display formula fell through to the stale
+    openBibleLat/openBibleLong at the Jerusalem default 31.777444,
+    35.234935. The GeoJSON feature "Judea" (judaea.json), a Point of
+    certainty certain, used the same default. Alias judean_658
+    (canonicalPlace=judea_657) followed that display.
+  proposed: >-
+    Write the live Pleiades 981527 representative point 32.331417,
+    35.228586 into openBibleLat/openBibleLong on judea_657 only, following
+    the established convention that Pleiades-chosen pins go into those
+    fields (prior passes did not write the writable pleiadesLat/pleiadesLon
+    inputs). Then sync the GeoJSON Point to the resulting display.
+  evidence: >-
+    Live Pleiades JSON for 981527, fetched 25 Nov 2026 (America/Chicago):
+    title "Iudaea (province)", placeTypes province / province-2,
+    review_state published, reprPoint [35.228586, 32.331417]. Description:
+    the Roman province of Iudaea, incorporating the historical regions of
+    Judea, Samaria, and Idumaea. The match is confident: this is Judaea
+    the region/province, not the city of Jerusalem. Distance from the
+    Jerusalem default is 61.602 km. OpenBible URI a149f13 was left
+    unchanged. Robert's call: t496u / pt496u, "Fix Judea with Pleiades."
+  checks: []
+  rule: null
+  found: { date: 2026-11-25, by: "WH-8 follow-up from the Jerusalem default inventory", sha: abfae1d }
+  fixed: { date: 2026-11-25, sha: null }
+  github: null
+  affects: [theographic-web, geo]
+  notes: >-
+    Fixed 25 Nov 2026 (America/Chicago). Robert authorized the write
+    (t496u / pt496u): "Fix Judea with Pleiades." Confirmed live Pleiades
+    981527 representative point 32.331417, 35.228586 (Iudaea, the
+    province/region). Wrote only openBibleLat/openBibleLong on judea_657
+    (recAalC2QoLT7cJKN). Display formulas followed on judea_657 and
+    alias judean_658 (recfyDMmdJqC0a3vI). The GeoJSON feature Judea
+    (https://bible.helloao.org/api/c/places/judaea.json) is a Point and
+    was synced to 35.228586, 32.331417. No formula fields, URIs,
+    canonicalPlace, or pleiadesLat/pleiadesLon were written. The other
+    default-point records were left untouched. Related: DQ-0123
+    (same Jerusalem default inventory; not part of that item's required
+    six).
