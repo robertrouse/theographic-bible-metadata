@@ -6544,3 +6544,66 @@
     Airtable export, which is the established snapshot convention.
     Related: DQ-0125 (the earlier coordinate fix on this alias).
     The 65/77 alias-coordinate rules were not applied in this item.
+
+- id: DQ-0127
+  title: "65 alias records stored a different OpenBible point than their canonical"
+  status: fixed
+  type: wrong-value
+  severity: low
+  table: places
+  records: []
+  field: openBibleLat, openBibleLong
+  current: >-
+    A read-only audit of all 257 Airtable places with canonicalPlace set
+    found 65 aliases that share their canonical's OpenBible URI (or have
+    no URI of their own) but stored a different openBibleLat/openBibleLong
+    than the canonical, including 42 moves over 10 km (for example
+    meshech-tubal_789 vs meshech_788, 1,409 km; lud_735 vs put_962,
+    1,227 km) and one blank alias (south_1110, same URI as negeb_885).
+    Display already followed the canonical. The 77 aliases with a
+    distinct OpenBible URI, and the 35 whose openBible already matched
+    the canonical openBible, were not part of this fix.
+  proposed: >-
+    Copy the canonical openBibleLat/openBibleLong onto those 64
+    same-URI or no-URI aliases, and fill south_1110 from Negeb, writing
+    only those two fields. Also change sourceLat/sourceLon so they
+    follow canonicalPlace the same way latitude/longitude already do.
+  evidence: >-
+    Live Airtable audit 25 Nov 2026 (America/Chicago), CSVs in
+    /workspace/alias_audit/. Same-URI (or alias URI blank) and stored
+    openBible disagreeing with the canonical openBible, plus
+    south_1110 blank. Robert's call: t503u, "Make the source formula
+    follow the canonical place and do the coordinate cleanup."
+  checks: []
+  rule: null
+  found: { date: 2026-11-25, by: "WH-9 alias-vs-canonical audit", sha: ef966fc }
+  fixed: { date: 2026-11-25, sha: null }
+  github: null
+  affects: [theographic-web]
+  notes: >-
+    Fixed 25 Nov 2026 (America/Chicago). Robert authorized the
+    sourceLat/sourceLon formula change and the 65-record coordinate
+    cleanup (t503u). The 77 distinct-URI aliases were not written and
+    are not logged here. Backed up the 65 records to
+    /workspace/alias_audit/cleanup_65_backup.csv, then wrote only
+    openBibleLat/openBibleLong from each canonical (including filling
+    south_1110 from negeb_885). Verification: all 65 openBible values
+    match the canonical openBible; source equals display on all 65.
+    62 also have openBible = source = display. Three aliases
+    (raamses_965, beth-aven_191, antipatris_70) have their own stored
+    Pleiades coordinates, so source/display stay on that Pleiades pin
+    (0.16 km, 1.65 km, and 0.11 km from the copied canonical
+    openBible). The sourceLat/sourceLon formula update could not be
+    saved through the Airtable MCP: a formula that reads canonicalLat
+    is a circular reference, because canonicalLat already rolls up
+    sourceLat through canonicalPlace. Existing formulas and the
+    proposed text are in /workspace/alias_audit/formula_backup.txt.
+    Proposed sourceLat:
+    IF(AND({canonicalLat},{canonicalLon}),{canonicalLat},IF({pleiadesLat},{pleiadesLat},{openBibleLat})).
+    Proposed sourceLon:
+    IF(AND({canonicalLat},{canonicalLon}),{canonicalLon},IF({pleiadesLon},{pleiadesLon},{openBibleLong})).
+    To break the cycle, add ownSourceLat / ownSourceLon helpers with
+    the current source formulas, retarget the canonicalLat / canonicalLon
+    rollups at those helpers, then paste the new source formulas.
+    Related: DQ-0126 (judean_658 was already retired and was not in
+    this set of 65).
