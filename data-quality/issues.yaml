@@ -830,7 +830,7 @@
   checks: []
   rule: null
   found: { date: 2026-11-07, by: "markdown tag analysis", sha: 4af2272ffcc5c77621e3877c7567b742adb0824f }
-  fixed: { date: 2026-11-28, sha: null }
+  fixed: { date: 2026-11-28, sha: f7a88ba778f6684dbe4af845da3980bda1efcff6 }
   github: null
   affects: []
   notes: >-
