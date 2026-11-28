@@ -4157,7 +4157,7 @@
 
 - id: DQ-0098
   title: "Twenty people have the wrong gender (Naboth, both Micahs, Puah, Zelophehad's daughters, Shimeath, and others)"
-  status: open
+  status: fixed
   type: wrong-value
   severity: medium
   table: people
@@ -4225,11 +4225,15 @@
     - { record: recrIL0i8gtzWeNeT, field: gender, equals: "Female" }
     - { record: recTm23wkG8napV5L, field: gender, equals: "Female" }
     - { record: reci8SZXukI5B2duF, field: gender, equals: "Female" }
+    - { record: recEpJ5lnOu8GMLvr, field: gender, equals: "Male" }
+    - { record: recKQDlwcosuecuSJ, field: gender, equals: "Male" }
+    - { record: recJPIbA9Wz8iLORg, field: gender, equals: "Male" }
+    - { record: rec1E9nPHZrHNdqxY, field: gender, equals: "Male" }
     - { record: rectD6CkMVptyimaA, field: father, not_contains: reci8SZXukI5B2duF }
     - { record: rectD6CkMVptyimaA, field: mother, contains: reci8SZXukI5B2duF }
   rule: null
   found: { date: 2026-11-21, by: "TIPNR people cross-check (STEPBible TIPNR, 24 Oct 2026 file)", sha: a8a7a94 }
-  fixed: { date: null, sha: null }
+  fixed: { date: 2026-11-28, sha: null }
   github: null
   affects: [theographic-web]
   notes: >-
@@ -4248,6 +4252,40 @@
     TIPNR, ACAI and DigitalManna share sources and may copy Theographic, so
     agreement with them isn't independent consensus. This item rests on the
     KJV text and Easton, not on TIPNR. Effort: Small.
+    Fixed 28 Nov 2026 (America/Chicago). Robert authorized the 16 certain
+    gender corrections and the Zabad/Shimeath parent swap on the live call,
+    then the write of the four family heads after a dictionary and list
+    review (nekoda_2175, nekoda_2176, sophereth_2771, and mispereth_2099,
+    the last of which was already certain from Ezra 2:2 / Neh 7:7). In
+    Airtable, only gender was written on the 20 people, and only father
+    and mother on zabad_1746 (Shimeath moved from father to mother;
+    Zabad's gender was already Male and was not changed). The people
+    table has a single inverse children field; shimeath_2683 still lists
+    zabad_1746 there. Backups are in /workspace/dq0098/apply_backup.csv
+    and /workspace/dq0098/uncertain_backup.csv. json/people.json and
+    CSV/People.csv were updated in this commit for those records only.
+    The three family-head names appear only as "the children of X"
+    (Hebrew bene, "sons of") in the Nethinim and Solomon's-servants
+    lists and, for nekoda_2176, among those who "could not shew their
+    father's house" (Ezra 2:43-62; Neh 7:46-64). No family in those
+    lists is named for a known woman. Feminine -ah/-eth endings in the
+    same lists are a known pattern for male or clan or office names
+    (Pochereth-hazzebaim is already Male here; BDB tags it n.pr.m.,
+    "perhaps binder (fem. of office)"; Hassophereth is the definite
+    form "the scribe," like Qoheleth). Dictionaries that identify the
+    persons call them family heads or ancestors: ISBE "Head of a family
+    of Nethinim" / "Head of a family which failed to prove its
+    Israelite descent" (both Nekodas); AYBD "eponymous ancestor"
+    (Nekoda) and "Head of a family of Solomon's servants" (Sophereth);
+    Nave "a servant of Solomon, whose descendants returned"; NET
+    dictionary "the head of a group of Solomon's servants." Smith
+    treats Nekoda as an ancestor ("the sons of Nekoda") and Sophereth
+    only as a family name. Strong's tags the name forms as grammatically
+    feminine ("properly, female" for Sophereth); that is the form, not
+    a claim that the eponym was a woman. Easton has no Nekoda or
+    Sophereth article; it does identify Mizpar/Mispereth as "one of the
+    Jews who accompanied Zerubbabel." No leftover item: none of the
+    four remained ambiguous under the decision rule.
 
 - id: DQ-0099
   title: "pharaoh_2331 (Pharaoh of the Exodus) is tagged on Abraham's, Joseph's, Solomon's and Hophra's Pharaohs"
