@@ -783,27 +783,68 @@
     exported in 0243dac (0 malformed person links in mdText). The punctuation-inside-link-
     labels part remains open, so this entry stays open.
 - id: DQ-0027
-  title: Inline links to nonexistent person id for Lot's younger daughter
-  status: open
+  title: "Inline links to nonexistent ids for Lot's daughters, Timna, and Zoar"
+  status: fixed
   type: bad-link
   severity: medium
   table: verses
-  records: []
+  records:
+    - { id: recunmcQR70tG8yXP, key: "Gen.19.8 (mdText, richText; younger daughter)" }
+    - { id: recC0iHrmhLafVRyz, key: "Gen.19.12 (mdText, richText; younger daughter)" }
+    - { id: recyTiijZ2GyoaBxp, key: "Gen.19.14 (mdText, richText; younger daughter)" }
+    - { id: reczibNZHEA9iAY7X, key: "Gen.19.15 (mdText, richText; younger daughter)" }
+    - { id: rec4vTQle0W42izbu, key: "Gen.19.16 (mdText, richText; younger daughter)" }
+    - { id: recKPHjdF4pP8CU2o, key: "Gen.19.30 (mdText, richText; younger daughter, two links)" }
+    - { id: recWGZi3zAQd2MghD, key: "Gen.19.36 (mdText, richText; younger daughter)" }
+    - { id: recbMdCc04boGO1Hi, key: "Gen.19.31 (mdText, richText; older daughter)" }
+    - { id: recqDEccOQExSIM9I, key: "Gen.19.33 (mdText, richText; older daughter)" }
+    - { id: recF72kEeoMiHZixu, key: "Gen.19.34 (mdText, richText; older daughter)" }
+    - { id: recStsMt8b3EPBq5i, key: "Gen.19.37 (mdText, richText; older daughter)" }
+    - { id: recKVWDulm9S6ak8B, key: "Gen.36.12 (mdText, richText; Timna)" }
+    - { id: recASSvFAFNVJ4ruQ, key: "1Chr.1.36 (mdText, richText; Timna)" }
+    - { id: rec7RkrLPXWFs28jI, key: "Gen.14.2 (mdText, richText; Zoar)" }
+    - { id: recwv5FwAJZZOd3Xx, key: "Gen.14.8 (mdText, richText; Zoar)" }
   field: mdText, richText
   current: >-
-    14 inline links point to ids missing from people.json, mainly "daughter_of_lot_-_younger_984" in Gen.19.8, Gen.19.12, Gen.19.14, Gen.19.15.
+    16 inline links pointed at the nonexistent personLookup
+    daughter_of_lot_-_younger_984 in Gen 19:8, 12, 14, 15, 16, 30, 36.
+    8 pointed at daughter_of_lot_-_older_985 in Gen 19:31, 33, 34, 37.
+    4 pointed at the nonexistent timna_2859 in Gen 36:12 and 1 Chr 1:36.
+    2 mdText links in Gen 14:2 and 14:8 pointed at the nonexistent person
+    zoar_3099; the matching richText links already named zoar_1271 but used
+    the malformed URL http:///place/zoar_1271.
   proposed: >-
-    daughter_of_lot_younger_984 (the existing lookup).
+    Retarget the younger and older daughter links to
+    daughter_of_lot_younger_984 and daughter_of_lot_older_985. Retarget
+    both Timna mentions to timna_2860. Change the Zoar person links to
+    /place/zoar_1271, and normalize the malformed richText URLs to the
+    same standard form. Do not change people or places arrays.
   evidence: >-
-    Inline link ids joined to people.json personLookup; the stray "-_" variant has no match.
+    Inline link ids joined to people.json personLookup and places.json
+    placeLookup; the stray "-_" daughter variants, timna_2859, and
+    person/zoar_3099 have no match. The existing daughter records are
+    already on the verse people lists. timna_2860 is Eliphaz's concubine
+    and Amalek's mother, already on both Timna verses' people lists;
+    timnah_2861 is the male "duke Timnah" of Gen 36:40 and 1 Chr 1:51.
+    zoar_1271 is the city already on both Gen 14 verses' places lists.
   checks: []
   rule: null
   found: { date: 2026-11-07, by: "markdown tag analysis", sha: 4af2272ffcc5c77621e3877c7567b742adb0824f }
-  fixed: { date: null, sha: null }
+  fixed: { date: 2026-11-28, sha: null }
   github: null
   affects: []
   notes: >-
-    Check the remaining few broken ids in the same pass.
+    Fixed in Airtable 28 Nov 2026 (America/Chicago). Robert authorized
+    fixing Lot's daughters and checking then fixing Timna and Zoar
+    (t519u). Only mdText and richText link targets were written on the
+    15 verses. Backed up original fields to /workspace/dq0027/backup.csv
+    and re-read all 15 records after the write. A post-fix rescan of all
+    verses found two remaining broken ids, both left untouched: Ps 60:6
+    mdText /place/valesuccoth_1194 and richText
+    http:///place/valey_of_succoth_1221 (typo). The existing place is
+    valley_of_succoth_1221, already on that verse's places list and
+    correctly linked in Ps 108:7. Other Psalms richText links use a
+    valid id with a nonstandard http:/// URL; those were not changed.
 - id: DQ-0028
   title: Inline tags and verse people/places lists disagree
   status: needs-research
